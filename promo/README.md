@@ -174,3 +174,19 @@ python3 promo/scripts/render.py --workers 3 --crf 14 --out promo/out/lisandan-ku
 
 - Finale: the half-second four-pointed flare over the logo is now the same soft round orb as the opener (`#s8flare .orb`), and the logo is the new one with a round light in the centre (`assets/brand/home_icon.png`, 6b1ef64).
 - v11.2 (same day) only re-rendered the opener frames around 20.2 s where the old sparkle still faded out.
+
+## v12 (11 Ekim 2026)
+
+Selma Hoca ve proje sahibinin notları üzerine, yalnız üç yer değişti; süre, müzik ve diğer sahneler aynı:
+
+- **Açılış:** "Dil öğrenirken tarihini ve medeniyetini de keşfet." cümlesi artık filmin ilk saniyesinde tek parça görünür
+  ve yolculuk boyunca üstte kalır (46 / 74 px), sonra eskisi gibi ortaya gelir. Kartlar yolculukta %16 küçük ve 90 px
+  aşağıda (`JS`, `JY`), böylece cümleyle çakışmaz; finaldeki yay düzeni değişmedi.
+- **Bölüm döngüsü:** "Her bölüm. Kendi hikâyesi. Kendi alıştırmaları." → "Her bölümün / kendi hikâyesi, / kendi alıştırmaları var."
+- **Kılavuzlar sahnesi** uygulamanın bugünkü hâlinden kuruldu (Adam B1): başlık *Prophet Adam*, alt yazılar, Lesson Prep + PDF
+  düğmeleri, Guide map / Your progress kartları, Self-Study Guide'ın yeni bölüm listesi (One Chapter per Session …
+  At the End of the Book), "You are here / Current section" başlıkları ve **uygulamanın kendi ikonları** (önceden boş
+  kutucuktu). Uzun adlar ("Classroom Management") uygulamadaki gibi iki satıra iner, kenardan taşmaz. Alt yazı:
+  **Öğretmen Kitabı** (uygulamada Teacher's Book); öğrenci tarafı uygulamadaki gibi Self-Study Guide → "Evde Bağımsız Çalışma Kılavuzu".
+
+Önceki 4K master bu ortamda olmadığı için film baştan çizildi (`out/v12/run.sh`: 12 parça, 3 Chromium, sonra tek kodlama).
