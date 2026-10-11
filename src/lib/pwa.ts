@@ -1,11 +1,51 @@
 import { useEffect, useState } from 'react';
 
+const AWAY_BEFORE_CHECK_MS = 30_000;
+
+/**
+ * An installed app or a tab left open keeps running the build it started with. When it comes back
+ * to the screen after a while away, ask the server which build is current (version.json, written by
+ * vite.config.ts); if it is a newer one, reload at once so the reader sees the latest platform. The
+ * route lives in the address, so the reader stays on the same page. Same build: nothing happens,
+ * the caches stay. A short glance at another window never reloads mid-exercise.
+ */
+const watchForNewBuild = (registration: () => ServiceWorkerRegistration | undefined) => {
+  const running = document.querySelector<HTMLMetaElement>('meta[name="stories-build"]')?.content;
+  if (!running) return;
+  let hiddenAt = 0;
+  const check = async () => {
+    try {
+      const response = await fetch('/version.json', { cache: 'no-store' });
+      if (!response.ok) return;
+      const { build } = (await response.json()) as { build?: string };
+      if (build && build !== running) {
+        registration()?.update().catch(() => undefined);
+        window.location.reload();
+      }
+    } catch {
+      // Offline: keep the build that is running.
+    }
+  };
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') {
+      hiddenAt = Date.now();
+    } else if (hiddenAt && Date.now() - hiddenAt >= AWAY_BEFORE_CHECK_MS) {
+      void check();
+    }
+  });
+};
+
 /** Registers the service worker in production builds; the dev server keeps working without it. */
 export const registerServiceWorker = () => {
   if (!import.meta.env.PROD || !('serviceWorker' in navigator)) return;
+  let registration: ServiceWorkerRegistration | undefined;
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js').catch(() => undefined);
+    navigator.serviceWorker
+      .register('/sw.js', { updateViaCache: 'none' })
+      .then(found => { registration = found; })
+      .catch(() => undefined);
   });
+  watchForNewBuild(() => registration);
 };
 
 interface BeforeInstallPromptEvent extends Event {

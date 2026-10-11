@@ -1,6 +1,6 @@
 import http from 'node:http';
 import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs';
-import { extname, join, normalize } from 'node:path';
+import { basename, extname, join, normalize, sep } from 'node:path';
 import { brotliCompressSync, gzipSync, constants as zlibConstants } from 'node:zlib';
 import { createPanelApi } from './panelApi.mjs';
 
@@ -15,6 +15,7 @@ const contentTypes = {
   '.js': 'text/javascript; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
+  '.webmanifest': 'application/manifest+json; charset=utf-8',
   '.svg': 'image/svg+xml',
   '.png': 'image/png',
   '.jpg': 'image/jpeg',
@@ -102,12 +103,23 @@ const compressed = (filePath, encoding) => {
   return body;
 };
 
+// Only the hashed build files (dist/assets) and the fonts keep one name for one content, so only they
+// are kept for a year. The page, the service worker, the manifest and version.json are checked on
+// every visit, so a new build reaches everyone; icons and the rest keep their names, so a day.
+// PDFs keep their names when they are rebuilt, so they are only cached for an hour.
+const cacheControlFor = (filePath, ext) => {
+  const name = basename(filePath);
+  if (ext === '.html' || name === 'sw.js' || name === 'manifest.webmanifest' || name === 'version.json') return 'no-cache';
+  if (ext === '.pdf') return 'public, max-age=3600';
+  if (filePath.startsWith(join(root, 'assets') + sep) || /\.(ttf|woff2?)$/.test(ext)) return 'public, max-age=31536000, immutable';
+  return 'public, max-age=86400';
+};
+
 const sendFile = (req, res, filePath, overrides = {}) => {
   const ext = extname(filePath).toLowerCase();
   const headers = {
     'Content-Type': contentTypes[ext] || 'application/octet-stream',
-    // PDFs keep their names when they are rebuilt, so they are only cached for an hour.
-    'Cache-Control': ext === '.html' ? 'no-cache' : ext === '.pdf' ? 'public, max-age=3600' : 'public, max-age=31536000, immutable',
+    'Cache-Control': cacheControlFor(filePath, ext),
     ...(ext === '.html' ? pageSecurityHeaders : securityHeaders),
     ...overrides,
     'X-Stories-Git-Sha': gitSha,

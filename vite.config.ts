@@ -1,7 +1,8 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'node:path';
-import { readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { defineConfig, type Plugin } from 'vite';
 
 // The app's one stylesheet goes inside index.html, so the first paint does not wait for a second
@@ -20,6 +21,46 @@ const inlineEntryCss = (): Plugin => ({
     },
   },
 });
+
+// Every build gets an id made from what it ships: the hashed file names plus the files in public/
+// (the PDFs aside). A rebuild with the same content keeps the same id. The id goes into index.html,
+// version.json and sw.js, so an open or installed app can tell that a newer build is out
+// (src/lib/pwa.ts) and the service worker swaps its app caches only when something changed.
+const publicFiles = (dir: string): string[] =>
+  readdirSync(dir).flatMap(name => {
+    const file = path.join(dir, name);
+    if (statSync(file).isDirectory()) return name === 'pdfs' ? [] : publicFiles(file);
+    return [file];
+  });
+const buildStamp = (): Plugin => {
+  let buildId = '';
+  let outDir = 'dist';
+  return {
+    name: 'build-stamp',
+    apply: 'build',
+    configResolved(config) {
+      outDir = config.build.outDir;
+    },
+    transformIndexHtml: {
+      order: 'post',
+      handler(html, ctx) {
+        const hash = createHash('sha256');
+        Object.keys(ctx.bundle ?? {}).sort().forEach(name => hash.update(name));
+        const publicDir = path.resolve(__dirname, 'public');
+        publicFiles(publicDir).sort().forEach(file => hash.update(path.relative(publicDir, file)).update(readFileSync(file)));
+        buildId = hash.digest('hex').slice(0, 12);
+        return html.replace('</head>', `  <meta name="stories-build" content="${buildId}" />\n  </head>`);
+      },
+    },
+    closeBundle() {
+      if (!buildId) return;
+      const dist = path.resolve(__dirname, outDir);
+      writeFileSync(path.join(dist, 'version.json'), JSON.stringify({ build: buildId }));
+      const sw = path.join(dist, 'sw.js');
+      if (existsSync(sw)) writeFileSync(sw, readFileSync(sw, 'utf8').replace('__STORIES_BUILD__', buildId));
+    },
+  };
+};
 
 // Books that are not published yet (the books marked hidden in src/content/stories.json) are built into files
 // named assets/hidden-*.js. When PREVIEW_KEY is set on the server, those files are only sent to a
@@ -44,7 +85,7 @@ const isHiddenModule = (id: string) => hiddenContentPrefixes.some(prefix => {
 // The preview branch is deployed by Cloud Build; GitHub Actions are not required for this path.
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss(), inlineEntryCss()],
+    plugins: [react(), tailwindcss(), inlineEntryCss(), buildStamp()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, 'src'),

@@ -1,13 +1,18 @@
 /* Stories service worker: app shell offline, hashed assets cache-first, story media on request. */
-const VERSION = 'v1';
+// The build id (vite.config.ts, buildStamp): a new build installs a new worker, which drops the old
+// app caches. Story media keeps its own cache across builds, so books saved offline stay saved.
+const VERSION = '__STORIES_BUILD__';
 const SHELL_CACHE = `stories-shell-${VERSION}`;
 const ASSET_CACHE = `stories-assets-${VERSION}`;
-const MEDIA_CACHE = `stories-media-${VERSION}`;
+// v2: re-narrated chapters keep their address, so v1 could still hold an older recording.
+const MEDIA_CACHE = 'stories-media-v2';
 const MEDIA_HOSTS = ['firebasestorage.googleapis.com', 'storage.googleapis.com'];
 
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open(SHELL_CACHE).then(cache => cache.addAll(['/', '/index.html', '/manifest.webmanifest'])).then(() => self.skipWaiting()),
+    caches.open(SHELL_CACHE)
+      .then(cache => cache.addAll([new Request('/index.html', { cache: 'reload' })]))
+      .then(() => self.skipWaiting()),
   );
 });
 
@@ -32,11 +37,11 @@ const handleNavigation = async request => {
     return response;
   } catch {
     const cache = await caches.open(SHELL_CACHE);
-    return (await cache.match('/index.html')) || (await cache.match('/')) || Response.error();
+    return (await cache.match('/index.html')) || Response.error();
   }
 };
 
-// Hashed Vite assets never change under the same name: cache first.
+// Hashed Vite assets and the fonts never change under the same name: cache first.
 const handleAsset = async request => {
   const cache = await caches.open(ASSET_CACHE);
   const cached = await cache.match(request);
@@ -74,7 +79,8 @@ self.addEventListener('fetch', event => {
       event.respondWith(handleMedia(request));
       return;
     }
-    if (url.pathname.startsWith('/assets/') || url.pathname.startsWith('/icons/') || /\.(ttf|woff2?|webp|png|svg|css|js)$/.test(url.pathname)) {
+    // Icons, the manifest and version.json are left to the browser, so a new logo or build shows up.
+    if (url.pathname.startsWith('/assets/') || /\.(ttf|woff2?)$/.test(url.pathname)) {
       event.respondWith(handleAsset(request));
     }
     return;
