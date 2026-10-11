@@ -190,3 +190,12 @@ Selma Hoca ve proje sahibinin notları üzerine, yalnız üç yer değişti; sü
   **Öğretmen Kitabı** (uygulamada Teacher's Book); öğrenci tarafı uygulamadaki gibi Self-Study Guide → "Evde Bağımsız Çalışma Kılavuzu".
 
 Önceki 4K master bu ortamda olmadığı için film baştan çizildi (`out/v12/run.sh`: 12 parça, 3 Chromium, sonra tek kodlama).
+
+Önceki 4K master elindeyse yalnız değişen aralıklar çizilir (v12'de süre değişmedi; kesimler master'ın anahtar karelerine
+genişletilir, geri kalan kareler yeniden sıkıştırılmadan kopyalanır):
+
+```bash
+python3 promo/scripts/build_audio.py
+python3 promo/scripts/splice_spans.py --master <v11.3 4K mp4> --spans 0:19 72.8:78.7 130.4:131.0 178.9:186.1 \
+    --workers 3 --out promo/out/lisandan-kulture-v12-4k.mp4
+```
