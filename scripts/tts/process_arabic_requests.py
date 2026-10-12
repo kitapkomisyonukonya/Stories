@@ -53,9 +53,33 @@ def read_as_written(text: str) -> str:
       every word with its full vowels, so the ornate brackets become plain quotes for the voice.
     - «سُورَةُ ص» was read "saa"; the sura's name is read صَادْ.
     - A line opening with the article (a title such as الِاسْتِقْرَارُ) starts with "a", not "i"."""
-    text = text.replace("﴿", "«").replace("﴾", "»")
+    text = re.sub(r"﴿([^﴾]*)﴾", lambda m: f"«{sound_tanween(m.group(1))}»", text)
     text = re.sub(r"(سُورَ[ةت][َُِ]?\s+)ص(?=[\s.,،:؛»]|$)", r"\1صَادْ", text)
     return re.sub(r"(?m)^(«?)ال", r"\1اَل", text)
+
+
+TANWEEN_SOUNDED = {"\u064b": "\u064eنْ", "\u064c": "\u064fنْ", "\u064d": "\u0650نْ"}
+
+
+def sound_tanween(verse: str) -> str:
+    """Inside a verse the voice still paused at some words and dropped the tanween (هُدًى read
+    "hüda", جَمِيعًا read "cemia"). Spelling the nun out (هُدَنْ, جَمِيعَنْ) makes it sound even when
+    the voice pauses. The verse's last word keeps its pausal reading."""
+    words = verse.split(" ")
+    for index, word in enumerate(words[:-1]):
+        if word.endswith((".", "؛")):  # end of an ayah inside the quote: a stop is correct there
+            continue
+        bare = re.sub(r"\u064b[اى]|[اى]\u064b", "\u064b", word)
+        words[index] = re.sub(r"[\u064b-\u064d](?=\u0651?،?$)", lambda m: TANWEEN_SOUNDED[m.group(0)], bare) if re.search(r"[\u064b-\u064d]\u0651?،?$", bare) else word
+    return join_wasl(" ".join(words))
+
+
+def join_wasl(verse: str) -> str:
+    """«قُلْنَا اهْبِطُوا» is read qulnahbiṭū: a long vowel before a hamzat al-wasl verb shortens and
+    runs on. The voice read the two words apart ("gulnâ ihbidû"), so they are written as one."""
+    endings = {"\u064eا": "\u064e", "\u064fوا": "\u064f", "\u0650ي": "\u0650"}
+    pattern = r"(\S+?)(\u064eا|\u064fوا|\u0650ي) ا(?!ل)(\S\u0652)"
+    return re.sub(pattern, lambda m: f"{m.group(1)}{endings[m.group(2)]}{m.group(3)}", verse)
 
 
 def end_poem_lines(text: str) -> str:
