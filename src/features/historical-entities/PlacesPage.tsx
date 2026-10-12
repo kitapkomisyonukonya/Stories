@@ -197,7 +197,10 @@ export const PlacesPage = ({
     }
   };
 
-  const listSeparator = locale === 'ar' ? '، ' : ', ';
+  const arabic = locale === 'ar';
+  const listSeparator = arabic ? '، ' : ', ';
+  // Arabic letters look smaller than Latin ones at the same size, so the small labels are larger in Arabic.
+  const kindLabelClass = arabic ? 'text-xs font-bold' : 'text-[10px] font-black uppercase tracking-[0.14em]';
   const chapterLine = (chapters: number[]) =>
     `${chapters.length > 1 ? text.chapters : text.chapter} ${chapters.map(chapter => formatNumber(chapter)).join(listSeparator)}`;
   // A short tag on the card: a long list ends in "+N" (the full list is in its tooltip).
@@ -225,7 +228,7 @@ export const PlacesPage = ({
       </>
     );
     const tag = (
-      <span className="shrink-0 text-[11px] leading-tight text-wood/60 min-[1800px]:text-xs" title={chapterLine(entry.chapters)}>
+      <span className={cn('shrink-0 leading-tight text-wood/60', arabic ? 'text-[13px] min-[1800px]:text-sm' : 'text-[11px] min-[1800px]:text-xs')} title={chapterLine(entry.chapters)}>
         {chapterTag(entry.chapters)}
       </span>
     );
@@ -251,7 +254,7 @@ export const PlacesPage = ({
         >
           <EntityPicture entity={entry.entity} iconSize={22} className="aspect-square h-14 w-14 shrink-0 rounded-xl" />
           <div className="min-w-0 flex-1">
-            <span className="text-[10px] font-black uppercase tracking-[0.14em]" style={{ color }}>{copy.kindLabel}</span>
+            <span className={kindLabelClass} style={{ color }}>{copy.kindLabel}</span>
             <h4 className="font-display text-[15px] font-bold leading-tight text-brand-950">{title}</h4>
           </div>
           {tag}
@@ -278,7 +281,7 @@ export const PlacesPage = ({
         <EntityPicture entity={entry.entity} iconSize={32} className="aspect-square h-24 w-24 shrink-0 self-start rounded-xl lg:h-auto lg:w-[38%] lg:max-w-[13rem]" />
         <div className="flex min-w-0 flex-1 flex-col py-0.5">
           <div className="flex items-baseline justify-between gap-2">
-            <span className="text-[10px] font-black uppercase tracking-[0.14em]" style={{ color }}>{copy.kindLabel}</span>
+            <span className={kindLabelClass} style={{ color }}>{copy.kindLabel}</span>
             {tag}
           </div>
           <h4 className="font-display text-[15px] font-bold leading-tight text-brand-950 min-[1800px]:text-[17px]">
@@ -302,11 +305,11 @@ export const PlacesPage = ({
               className="mt-auto rounded-xl border-s-[3px] px-2.5 py-1.5"
               style={{ borderInlineStartColor: tint(color, 0.6), backgroundColor: tint(color, 0.06) }}
             >
-              <figcaption className="flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.14em] text-wood/60">
+              <figcaption className={cn('flex items-center gap-1.5 text-wood/60', kindLabelClass)}>
                 <BookOpen size={12} className="shrink-0" /> {text.inTheStory} · {text.chapter} {formatNumber(quote.chapter)}
               </figcaption>
-              <blockquote className="mt-0.5 font-serif text-[13px] italic leading-snug text-wood/85 min-[1800px]:text-[14px]">
-                “<QuoteText quote={quote} color={color} />”
+              <blockquote className={cn('mt-0.5 font-serif leading-snug text-wood/85', arabic ? 'text-[15px]' : 'text-[13px] italic min-[1800px]:text-[14px]')}>
+                {arabic ? '«' : '“'}<QuoteText quote={quote} color={color} />{arabic ? '»' : '”'}
               </blockquote>
               {onOpenPage && (
                 <button
@@ -354,7 +357,7 @@ export const PlacesPage = ({
               <Compass size={20} />
             </div>
             <div className="min-w-0 flex-1">
-              <div className="text-[10px] font-black uppercase tracking-[0.18em] text-teal-800 sm:text-[11px]">{text.eyebrow}</div>
+              <div className={cn('text-teal-800', arabic ? 'text-[13px] font-bold' : 'text-[10px] font-black uppercase tracking-[0.18em] sm:text-[11px]')}>{text.eyebrow}</div>
               <h2 className="text-lg font-black leading-tight tracking-tight text-brand-950 sm:text-xl">{page.title}</h2>
             </div>
             <p className="hidden max-w-md text-sm leading-snug text-wood/65 xl:block [@media(max-height:820px)]:hidden">{page.content}</p>
@@ -414,7 +417,7 @@ export const PlacesPage = ({
                     iconSize={64}
                     className="aspect-square w-full max-w-sm rounded-2xl shadow-sm lg:h-auto lg:w-[min(100cqw,var(--info-height))] lg:max-w-none"
                   />
-                  <p className="mt-1.5 text-center text-[11px] text-wood/55">{selectedMap ? selectedCopy.approximateLabel : text.noMap}</p>
+                  <p className={cn('mt-1.5 text-center text-wood/55', arabic ? 'text-[13px]' : 'text-[11px]')}>{selectedMap ? selectedCopy.approximateLabel : text.noMap}</p>
                 </div>
               </section>
             </div>
