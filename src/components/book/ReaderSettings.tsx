@@ -223,7 +223,7 @@ export const ReaderSettings = (props: ReaderSettingsProps) => {
         data-reader-settings-button
       >
         <Settings size={19} aria-hidden="true" />
-        <span className="hidden sm:inline">{ar ? 'الإعدادات' : 'Settings'}</span>
+        <span className="hidden sm:inline">{ar ? 'الْإِعْدَادَاتُ' : 'Settings'}</span>
       </button>
 
       {isPhone

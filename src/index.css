@@ -5,12 +5,15 @@
 /* "Wide view" from the Aa menu: text and panels stretch to the full reader width. */
 @custom-variant wide (&:where([data-reader-wide], [data-reader-wide] *));
 
+/* swap, not fallback: when Arakom arrives late (a slow first visit), the text still switches to it.
+   Fallback kept the system font for the whole page, and system fonts misplace harakat
+   (user 2026-10-12: a teacher saw half the title harakat missing). */
 @font-face {
   font-family: 'Arakom';
   src: url('/Arakom-Regular.woff2') format('woff2'), url('/Arakom-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: fallback;
+  font-display: swap;
   size-adjust: 125%;
 }
 
@@ -19,7 +22,7 @@
   src: url('/Arakom-Bold.woff2') format('woff2'), url('/Arakom-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
-  font-display: fallback;
+  font-display: swap;
   size-adjust: 125%;
 }
 

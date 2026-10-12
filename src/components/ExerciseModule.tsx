@@ -871,7 +871,7 @@ export const ExerciseModule: React.FC<ExerciseModuleProps> = ({
       ref={dialogRef}
       role={embedded ? 'group' : 'dialog'}
       aria-modal={embedded ? undefined : true}
-      aria-label={isQuick ? t('nav.quickChallenge') : isLanguage ? (language === 'ar' ? 'التركيز اللغوي' : 'Language Focus') : (displayExerciseTitle || exercise.question || t('nav.interactiveChallenge'))}
+      aria-label={isQuick ? t('nav.quickChallenge') : isLanguage ? (language === 'ar' ? 'التَّرْكِيزُ اللُّغَوِيُّ' : 'Language Focus') : (displayExerciseTitle || exercise.question || t('nav.interactiveChallenge'))}
     >
       <header className={cn(
         'shrink-0 px-4 sm:px-6 md:px-10 flex items-start justify-between gap-4',
@@ -892,7 +892,7 @@ export const ExerciseModule: React.FC<ExerciseModuleProps> = ({
             {isQuick
               ? t('nav.quickChallenge')
               : isLanguage
-              ? (language === 'ar' ? 'التركيز اللغوي' : 'Language Focus')
+              ? (language === 'ar' ? 'التَّرْكِيزُ اللُّغَوِيُّ' : 'Language Focus')
               : isReview
               ? (language === 'ar' ? 'مهمة لغوية' : 'Language task')
               : t('nav.interactiveChallenge')}

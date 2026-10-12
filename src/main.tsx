@@ -18,6 +18,16 @@ import { registerServiceWorker } from './lib/pwa';
 import { startTelemetry } from './lib/telemetry';
 import { preloadDeferredChunks } from './lib/preloadDeferred';
 
+// Arabic readers: start loading both Arakom faces now, before the first Arabic text asks for them.
+try {
+  if (localStorage.getItem('app_language') === 'ar' && document.fonts) {
+    void document.fonts.load('16px Arakom').catch(() => undefined);
+    void document.fonts.load('bold 16px Arakom').catch(() => undefined);
+  }
+} catch {
+  /* storage blocked */
+}
+
 const CHUNK_RELOAD_KEY = 'stories_chunk_reload_at';
 
 window.addEventListener('vite:preloadError', (event) => {

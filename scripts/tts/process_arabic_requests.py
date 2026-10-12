@@ -43,7 +43,19 @@ def narration_for_audio(text: str) -> str:
     cleaned = strip_parenthetical_content(text)
     cleaned = re.sub(r"[ \t]+([،؛.!?؟:])", r"\1", cleaned)
     cleaned = re.sub(r"[ \t]{2,}", " ", cleaned)
-    return end_poem_lines(end_title(cleaned.strip()))
+    return end_poem_lines(end_title(read_as_written(cleaned.strip())))
+
+
+def read_as_written(text: str) -> str:
+    """Listener fixes (Rabia Okutan, 2026-10-12):
+    - Inside ﴿…﴾ the voice switched to recitation: slow, heavy tajweed, and it stopped mid-verse,
+      dropping the final vowels (وَاحِدَهْ for وَاحِدَةٍ). Verses are read like the rest of the text,
+      every word with its full vowels, so the ornate brackets become plain quotes for the voice.
+    - «سُورَةُ ص» was read "saa"; the sura's name is read صَادْ.
+    - A line opening with the article (a title such as الِاسْتِقْرَارُ) starts with "a", not "i"."""
+    text = text.replace("﴿", "«").replace("﴾", "»")
+    text = re.sub(r"(سُورَ[ةت][َُِ]?\s+)ص(?=[\s.,،:؛»]|$)", r"\1صَادْ", text)
+    return re.sub(r"(?m)^(«?)ال", r"\1اَل", text)
 
 
 def end_poem_lines(text: str) -> str:

@@ -266,17 +266,17 @@ export const LanguageFocusPanel = ({ page, completedExercises, onOpenExercise, i
                     'font-display text-[11px] sm:text-xs font-semibold uppercase tracking-[0.18em]',
                     focusTheme.accent
                   )}>
-                    {language === 'ar' ? 'بعد القراءة' : 'After reading'}
+                    {language === 'ar' ? 'بَعْدَ الْقِرَاءَةِ' : 'After reading'}
                   </p>
                   <span className={cn('font-display text-[11px] sm:text-xs font-semibold', focusTheme.copy)}>
-                    {formatNumber(exercises.length)} {language === 'ar' ? (exercises.length === 1 ? 'نشاط' : exercises.length === 2 ? 'نشاطان' : exercises.length <= 10 ? 'أنشطة' : 'نشاطًا') : exercises.length === 1 ? 'activity' : 'activities'}
+                    {formatNumber(exercises.length)} {language === 'ar' ? (exercises.length === 1 ? 'نَشَاطٌ' : exercises.length === 2 ? 'نَشَاطَانِ' : exercises.length <= 10 ? 'أَنْشِطَةٍ' : 'نَشَاطًا') : exercises.length === 1 ? 'activity' : 'activities'}
                   </span>
                 </div>
                 <h3 className={cn(
                   'mt-0.5 font-display text-lg sm:text-xl font-semibold tracking-[-0.02em]',
                   focusTheme.title
                 )}>
-                  {language === 'ar' ? 'التركيز اللغوي' : 'Language Focus'}
+                  {language === 'ar' ? 'التَّرْكِيزُ اللُّغَوِيُّ' : 'Language Focus'}
                 </h3>
                 <p className={cn(
                   'mt-1 font-serif leading-relaxed',
@@ -431,24 +431,27 @@ export const ChapterActivityRail = ({ page, completedExercises, onOpenExercise, 
   const focus = page.languageFocusExercises ?? [];
   const focusDone = focus.filter(exercise => completedExercises.includes(exercise.id)).length;
   const nextFocus = focus.find(exercise => !completedExercises.includes(exercise.id)) ?? focus[0];
-  const rows: { key: string; icon: React.ComponentType<{ size?: number }>; label: string; short: string; status: string; done: boolean; onClick: () => void }[] = [];
+  const rows: { key: string; icon: React.ComponentType<{ size?: number }>; label: string; short: string; status: string; badge?: string; done: boolean; onClick: () => void }[] = [];
+  // Spoken/hover text reads "٠ مِنْ ٣" in Arabic; the small badge keeps the short "٠/٣".
+  const progress = (done: number, total: number) => isArabic ? `${formatNumber(done)} مِنْ ${formatNumber(total)}` : `${formatNumber(done)} / ${formatNumber(total)}`;
+  const badge = (done: number, total: number) => `${formatNumber(done)}/${formatNumber(total)}`;
   if (quick) {
     const done = completedExercises.includes(quick.id);
-    rows.push({ key: 'qc', icon: SECTION_ICONS.quickChallenge.icon, label: t('nav.quickChallenge'), short: isArabic ? 'تحدٍّ' : 'Quick', status: done ? t('nav.completed') : (isArabic ? 'ابدأ' : 'Start'), done, onClick: () => onOpenExercise(quick) });
+    rows.push({ key: 'qc', icon: SECTION_ICONS.quickChallenge.icon, label: t('nav.quickChallenge'), short: isArabic ? 'التَّحَدِّي' : 'Quick', status: done ? t('nav.completed') : (isArabic ? 'ابْدَأْ' : 'Start'), done, onClick: () => onOpenExercise(quick) });
   }
   if (focus.length && nextFocus) {
-    rows.push({ key: 'lf', icon: SECTION_ICONS.languageFocus.icon, label: t('nav.languageFocus'), short: isArabic ? 'تركيز' : 'Focus', status: `${formatNumber(focusDone)} / ${formatNumber(focus.length)}`, done: focusDone === focus.length, onClick: () => onOpenExercise(nextFocus) });
+    rows.push({ key: 'lf', icon: SECTION_ICONS.languageFocus.icon, label: t('nav.languageFocus'), short: isArabic ? 'التَّرْكِيزُ' : 'Focus', status: progress(focusDone, focus.length), badge: badge(focusDone, focus.length), done: focusDone === focus.length, onClick: () => onOpenExercise(nextFocus) });
   }
   if (page.groupTask) {
-    rows.push({ key: 'gt', icon: MODE_ICONS.group.icon, label: isArabic ? 'مهمة جماعية' : 'Group task', short: isArabic ? 'جماعي' : 'Group', status: page.groupTask.time, done: false, onClick: () => onOpenPanel('group') });
+    rows.push({ key: 'gt', icon: MODE_ICONS.group.icon, label: isArabic ? 'مَهَمَّةٌ جَمَاعِيَّةٌ' : 'Group task', short: isArabic ? 'جَمَاعِيٌّ' : 'Group', status: page.groupTask.time, done: false, onClick: () => onOpenPanel('group') });
   }
   if (page.iCan?.length) {
-    rows.push({ key: 'ic', icon: SECTION_ICONS.iCan.icon, label: SECTION_ICONS.iCan[isArabic ? 'ar' : 'en'], short: isArabic ? 'أستطيع' : 'I can', status: `${formatNumber(iCanRated)} / ${formatNumber(page.iCan.length)}`, done: iCanRated >= page.iCan.length, onClick: () => onOpenPanel('iCan') });
+    rows.push({ key: 'ic', icon: SECTION_ICONS.iCan.icon, label: SECTION_ICONS.iCan[isArabic ? 'ar' : 'en'], short: isArabic ? 'أَسْتَطِيعُ' : 'I can', status: progress(iCanRated, page.iCan.length), badge: badge(iCanRated, page.iCan.length), done: iCanRated >= page.iCan.length, onClick: () => onOpenPanel('iCan') });
   }
   if (!rows.length) return null;
 
   return (
-    <nav className="relative z-[70] flex shrink-0 flex-col gap-3 pt-1" aria-label={isArabic ? 'أنشطة هذا الفصل' : 'This chapter'} data-activity-rail>
+    <nav className="relative z-[70] flex shrink-0 flex-col gap-3 pt-1" aria-label={isArabic ? 'أَنْشِطَةُ هَذَا الْفَصْلِ' : 'This chapter'} data-activity-rail>
       {rows.map(row => {
         const Icon = row.icon;
         return (
@@ -470,7 +473,7 @@ export const ChapterActivityRail = ({ page, completedExercises, onOpenExercise, 
                   'absolute -bottom-1 -end-1 flex h-[18px] min-w-[18px] items-center justify-center rounded-full px-1 font-display text-[10px] font-bold tabular-nums ring-2 ring-white',
                   row.done ? 'bg-emerald-600 text-white' : 'bg-brand-700 text-white',
                 )}>
-                  {row.done ? <CheckCircle2 size={11} /> : row.status.replace(/\s/g, '')}
+                  {row.done ? <CheckCircle2 size={11} /> : row.badge ?? row.status}
                 </span>
               )}
             </span>
