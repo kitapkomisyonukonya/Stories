@@ -197,13 +197,14 @@ export const PlacesPage = ({
     }
   };
 
+  const listSeparator = locale === 'ar' ? '، ' : ', ';
   const chapterLine = (chapters: number[]) =>
-    `${chapters.length > 1 ? text.chapters : text.chapter} ${chapters.map(chapter => formatNumber(chapter)).join(', ')}`;
+    `${chapters.length > 1 ? text.chapters : text.chapter} ${chapters.map(chapter => formatNumber(chapter)).join(listSeparator)}`;
   // A short tag on the card: a long list ends in "+N" (the full list is in its tooltip).
   const chapterTag = (chapters: number[]) => {
     const shown = chapters.length > 3 ? chapters.slice(0, 2) : chapters;
     const rest = chapters.length - shown.length;
-    return `${text.chapterShort} ${shown.map(chapter => formatNumber(chapter)).join(', ')}${rest ? ` +${formatNumber(rest)}` : ''}`;
+    return `${text.chapterShort} ${shown.map(chapter => formatNumber(chapter)).join(listSeparator)}${rest ? ` +${formatNumber(rest)}` : ''}`;
   };
 
   const showAll = activeGroup === 'all';

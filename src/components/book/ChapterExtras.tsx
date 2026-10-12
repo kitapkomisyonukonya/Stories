@@ -240,7 +240,8 @@ export const BeforeYouReadPanel = ({
             >
               <span
                 className={cn(
-                  'flex h-6 w-6 shrink-0 items-center justify-center rounded-full border font-display text-[11px] font-bold',
+                  'flex h-6 w-6 shrink-0 items-center justify-center rounded-full border font-display font-bold',
+                  isArabic ? 'text-sm' : 'text-[11px]',
                   isAnswer
                     ? 'border-emerald-600 bg-emerald-600 text-white'
                     : isWrongGuess

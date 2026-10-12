@@ -4,12 +4,23 @@ import { isPanelPreview } from '../content/panelPreview';
 import { hasHarakat, stripHarakat, useHarakatShown } from '../lib/arabicHarakat';
 
 /**
- * When the reader turns harakat off, the Arabic on screen is shown without them. Only what is on
- * screen changes: the content keeps its harakat, so turning them back on restores every text exactly.
- * React never reads text back from the page, so it simply writes its own text again on its next update,
- * and the filter strips that too. Qur'an verses, inputs and the content panel's preview are left alone.
+ * Two changes to the Arabic on screen, made in one place:
+ * - Every number is shown in Arabic-Indic digits (٠-٩, user 2026-10-12). Lesson cards, guides and
+ *   exercises carry plain digits in their text; a word with Latin letters (levels A2/B1/B2, curriculum
+ *   codes such as D20.1.1) keeps its digits.
+ * - When the reader turns harakat off, the Arabic is shown without them.
+ * Only what is on screen changes: the content keeps its own text, so leaving Arabic or turning harakat
+ * back on restores every text exactly. React never reads text back from the page, so it simply writes
+ * its own text again on its next update, and the filter changes that too. Inputs and the content panel's
+ * preview are left alone; Qur'an verses keep their harakat.
  */
-const SKIP = 'script, style, textarea, input, [contenteditable="true"], .quran-verse, [data-keep-harakat]';
+const SKIP = 'script, style, textarea, input, [contenteditable="true"]';
+const SKIP_STRIP = '.quran-verse, [data-keep-harakat]';
+const ARABIC_DIGITS = '٠١٢٣٤٥٦٧٨٩';
+
+/** Plain digits as Arabic-Indic ones, except in words that also have Latin letters (B1, D20.1.1). */
+export const arabicDigits = (text: string): string =>
+  /\d/.test(text) ? text.replace(/\S+/g, word => (/[A-Za-z]/.test(word) ? word : word.replace(/\d/g, d => ARABIC_DIGITS[+d]))) : text;
 
 interface Entry {
   original: string;
@@ -19,23 +30,30 @@ interface Entry {
 export const ArabicHarakatFilter: React.FC = () => {
   const { language } = useLanguage();
   const shown = useHarakatShown();
-  const active = language === 'ar' && !shown && !isPanelPreview();
+  const arabic = language === 'ar' && !isPanelPreview();
+  const strip = arabic && !shown;
 
   React.useEffect(() => {
-    if (!active) return;
+    if (!arabic) return;
     const entries = new Map<Text, Entry>();
 
     const filterNode = (node: Text) => {
       const value = node.nodeValue ?? '';
       const entry = entries.get(node);
       if (entry && entry.shown === value) return;
-      if (!hasHarakat(value) || node.parentElement?.closest(SKIP)) {
+      const parent = node.parentElement;
+      if (!(/\d/.test(value) || (strip && hasHarakat(value))) || parent?.closest(SKIP)) {
         entries.delete(node);
         return;
       }
-      const stripped = stripHarakat(value);
-      entries.set(node, { original: value, shown: stripped });
-      if (stripped !== value) node.nodeValue = stripped;
+      let changed = arabicDigits(value);
+      if (strip && !parent?.closest(SKIP_STRIP)) changed = stripHarakat(changed);
+      if (changed === value) {
+        entries.delete(node);
+        return;
+      }
+      entries.set(node, { original: value, shown: changed });
+      node.nodeValue = changed;
     };
 
     const filterTree = (root: Node) => {
@@ -62,13 +80,13 @@ export const ArabicHarakatFilter: React.FC = () => {
 
     return () => {
       observer.disconnect();
-      // Harakat back on: every text still showing the stripped version gets its own text back.
+      // Harakat back on or English again: every text still showing the changed version gets its own text back.
       entries.forEach((entry, node) => {
         if (node.isConnected && node.nodeValue === entry.shown) node.nodeValue = entry.original;
       });
       entries.clear();
     };
-  }, [active]);
+  }, [arabic, strip]);
 
   return null;
 };

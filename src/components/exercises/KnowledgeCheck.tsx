@@ -82,7 +82,8 @@ const QuestionCard = ({
     >
       <div className="flex items-start gap-3 min-w-0">
         <span className={cn(
-          'h-8 min-w-8 shrink-0 rounded-xl px-2 flex items-center justify-center text-[11px] font-semibold font-display',
+          'h-8 min-w-8 shrink-0 rounded-xl px-2 flex items-center justify-center font-semibold font-display',
+          isArabic ? 'text-sm' : 'text-[11px]',
           reveal && hasAnswer
             ? correct
               ? 'bg-emerald-500 text-white'
@@ -154,7 +155,8 @@ const QuestionCard = ({
                 )}
               >
                 <span className={cn(
-                  'w-8 h-8 rounded-xl shrink-0 flex items-center justify-center text-[11px] font-semibold font-display',
+                  'w-8 h-8 rounded-xl shrink-0 flex items-center justify-center font-semibold font-display',
+                  isArabic ? 'text-sm' : 'text-[11px]',
                   revealCorrect || revealWrong
                     ? 'bg-white/20 text-white'
                     : selected
