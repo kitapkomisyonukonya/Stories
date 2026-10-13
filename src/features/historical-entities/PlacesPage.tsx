@@ -27,7 +27,7 @@ const COPY = {
     groups: {
       cities: 'Cities',
       lands: 'Lands and regions',
-      water: 'Seas, rivers and islands',
+      water: 'Waters and islands',
       buildings: 'Buildings',
       people: 'People and rulers',
     } satisfies Record<EntityGroup, string>,
@@ -50,7 +50,7 @@ const COPY = {
     groups: {
       cities: 'المدن',
       lands: 'البلاد والمناطق',
-      water: 'البحار والأنهار والجزر',
+      water: 'المياه والجزر',
       buildings: 'المباني',
       people: 'الناس والحكّام',
     } satisfies Record<EntityGroup, string>,

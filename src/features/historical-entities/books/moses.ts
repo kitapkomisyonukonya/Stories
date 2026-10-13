@@ -87,7 +87,7 @@ const entities = [
     sources: ["TDV İslâm Ansiklopedisi: Sînâ"],
   }),
   defineEntity({
-    id: "moses-mount-sinai", kind: "landmark", tr: "Tur Dağı",
+    id: "moses-mount-sinai", kind: "region", tr: "Tur Dağı",
     aliases: { en: ["Mount Sinai","Mount Tur","climbed the mountain"], ar: ["جبل سيناء","جبل الطور","الجبل"] },
     copy: {
       en: { title: "Mount Sinai (Mount Tur)", kindLabel: "Mountain", periodLabel: "Sinai", summary: "Mount Sinai, also called Mount Tur, is a high mountain in the Sinai. Here, on a cold winter night, Allah spoke to Moses (pbuh) and made him a prophet.", more: "Many people believe it is Jabal Musa, a peak in the south of Sinai." },
@@ -98,7 +98,7 @@ const entities = [
     sources: ["TDV İslâm Ansiklopedisi: Tûr"],
   }),
   defineEntity({
-    id: "moses-valley-of-tuwa", kind: "landmark", tr: "Tuva vadisi",
+    id: "moses-valley-of-tuwa", kind: "region", tr: "Tuva vadisi",
     aliases: { en: ["Tuwa","valley between mountains"], ar: ["طوى","واد بين الجبال","واديا بين الجبال"] },
     copy: {
       en: { title: "Tuwa, the sacred valley", kindLabel: "Valley", periodLabel: "Sinai", summary: "Tuwa is a sacred valley at Mount Sinai (Mount Tur). This is where Allah first spoke to Moses (pbuh).", more: "The Qur’an names this valley in Surah Taha." },

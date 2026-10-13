@@ -21,7 +21,7 @@ const entities = [
     sources: ["TDV İslâm Ansiklopedisi: Mekke"],
   }),
   defineEntity({
-    id: "mecca-mecca-valley-ancient", kind: "landmark", tr: "Mekke",
+    id: "mecca-mecca-valley-ancient", kind: "region", tr: "Mekke",
     aliases: { en: ["a valley where no crops grow"], ar: ["واد غير ذي زرع"] },
     copy: {
       en: { title: "Valley of Mecca", kindLabel: "Valley", periodLabel: "Time of Abraham (pbuh)", summary: "In the time of Abraham (pbuh), Mecca was an empty, dry valley where no crops grew. No people lived there before Zamzam water was found.", more: "Bare, rocky mountains stand all around the valley." },
@@ -186,7 +186,7 @@ const entities = [
     sources: ["TDV İslâm Ansiklopedisi: Afrika"],
   }),
   defineEntity({
-    id: "mecca-arafat", kind: "landmark",
+    id: "mecca-arafat", kind: "region",
     aliases: { en: ["Arafat"], ar: ["عرفات"] },
     copy: {
       en: { title: "Arafat", kindLabel: "Plain", periodLabel: "Near Mecca", summary: "Arafat is a wide plain east of Mecca. Even before Islam, pilgrims stood there in the Hajj season.", more: "Standing at Arafat is still the most important part of Hajj." },
@@ -197,7 +197,7 @@ const entities = [
     sources: ["TDV İslâm Ansiklopedisi: Arafat"],
   }),
   defineEntity({
-    id: "mecca-safa-and-marwa", kind: "landmark", tr: "Safa ve Merve",
+    id: "mecca-safa-and-marwa", kind: "region", tr: "Safa ve Merve",
     aliases: { en: ["Safa and Marwa","Safa and Marwah"], ar: ["الصفا والمروة"] },
     copy: {
       en: { title: "Safa and Marwa", kindLabel: "Two hills", periodLabel: "Mecca", summary: "Safa and Marwa are two small hills in Mecca, near the Ka’ba. Even before Islam, pilgrims went back and forth between them.", more: "This walk, called sa’y, remembers Hagar’s search for water for her son Ishmael (pbuh)." },
@@ -208,7 +208,7 @@ const entities = [
     sources: ["TDV İslâm Ansiklopedisi: Safâ","TDV İslâm Ansiklopedisi: Merve"],
   }),
   defineEntity({
-    id: "mecca-ukaz", kind: "landmark", tr: "Ukâz Panayırı",
+    id: "mecca-ukaz", kind: "region", tr: "Ukâz Panayırı",
     aliases: { en: ["Ukaz"], ar: ["عكاظ"] },
     copy: {
       en: { title: "Ukaz", kindLabel: "Trade fair", periodLabel: "Before Islam", summary: "Ukaz was a big trade fair east of Mecca before Islam. People came to it in the Hajj season, and after the fair they went to Arafat.", more: "Famous poets read their poems at Ukaz." },
@@ -219,7 +219,7 @@ const entities = [
     sources: ["TDV İslâm Ansiklopedisi: Ukâz"],
   }),
   defineEntity({
-    id: "mecca-majannah", kind: "landmark", tr: "Mecenne Panayırı",
+    id: "mecca-majannah", kind: "region", tr: "Mecenne Panayırı",
     aliases: { en: ["Majannah"], ar: ["مجنة"] },
     copy: {
       en: { title: "Majannah", kindLabel: "Trade fair", periodLabel: "Before Islam", summary: "Majannah was a trade fair near Mecca before Islam. It was held in the Hajj season, like Ukaz and Dhul-Majaz.", more: "People usually went there after the Ukaz fair." },
@@ -230,7 +230,7 @@ const entities = [
     sources: ["TDV İslâm Ansiklopedisi: Mecenne"],
   }),
   defineEntity({
-    id: "mecca-dhul-majaz", kind: "landmark", tr: "Zülmecâz Panayırı",
+    id: "mecca-dhul-majaz", kind: "region", tr: "Zülmecâz Panayırı",
     aliases: { en: ["Dhul-Majaz"], ar: ["ذي المجاز"] },
     copy: {
       en: { title: "Dhul-Majaz", kindLabel: "Trade fair", periodLabel: "Before Islam", summary: "Dhul-Majaz was a trade fair near Arafat, not far from Mecca. It was held in the Hajj season, and from there people went to Arafat.", more: "It was the last of the three big fairs before Hajj." },
@@ -296,7 +296,7 @@ const entities = [
     sources: [],
   }),
   defineEntity({
-    id: "mecca-zamzam", kind: "landmark", tr: "Zemzem",
+    id: "mecca-zamzam", kind: "spring", tr: "Zemzem",
     aliases: { en: ["Zamzam"], ar: ["زمزم"] },
     copy: {
       en: { title: "Zamzam", kindLabel: "Well", periodLabel: "Mecca", summary: "Zamzam is a well of water in Mecca, near the Ka’ba. After it was found, people began to live in the empty valley of Mecca.", more: "Pilgrims still drink Zamzam water today." },

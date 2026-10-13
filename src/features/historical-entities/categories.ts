@@ -12,6 +12,7 @@ export const GROUP_OF_KIND: Record<HistoricalEntityKind, EntityGroup> = {
   sea: 'water',
   river: 'water',
   island: 'water',
+  spring: 'water',
   landmark: 'buildings',
   people: 'people',
   tribe: 'people',

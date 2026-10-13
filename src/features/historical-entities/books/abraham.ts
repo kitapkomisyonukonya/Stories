@@ -153,7 +153,7 @@ const entities = [
     sources: ["TDV İslâm Ansiklopedisi: Yemen"],
   }),
   defineEntity({
-    id: "abraham-safa-and-marwa-ancient", kind: "landmark", tr: "Safa ve Merve",
+    id: "abraham-safa-and-marwa-ancient", kind: "region", tr: "Safa ve Merve",
     aliases: { en: ["Safa and Marwah","Safa and Marwa","Safa","Marwa"], ar: ["الصفا","المروة"] },
     copy: {
       en: { title: "Safa and Marwa", kindLabel: "Two hills", periodLabel: "Mecca · Western Arabia", summary: "Safa and Marwa are two small hills in Mecca, near the Ka’ba. In the story, Hagar ran between them to look for water.", more: "During Hajj and Umrah, Muslims walk between these two hills seven times; this is called sa'y." },
@@ -164,7 +164,7 @@ const entities = [
     sources: ["TDV İslâm Ansiklopedisi: Safâ","TDV İslâm Ansiklopedisi: Sa'y"],
   }),
   defineEntity({
-    id: "abraham-zamzam", kind: "landmark", tr: "Zemzem",
+    id: "abraham-zamzam", kind: "spring", tr: "Zemzem",
     aliases: { en: ["Zamzam"], ar: ["زمزم"] },
     copy: {
       en: { title: "Zamzam", kindLabel: "Well (spring)", periodLabel: "Mecca · Western Arabia", summary: "Zamzam is the water that came out of the ground in the valley of Mecca, near little Ishmael (pbuh). It still flows today, near the Ka’ba.", more: "Pilgrims drink Zamzam water, and many take some home with them." },

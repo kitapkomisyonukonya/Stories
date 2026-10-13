@@ -11,6 +11,7 @@ export type HistoricalEntityKind =
   | 'sea'
   | 'river'
   | 'island'
+  | 'spring'
   | 'landmark'
   | 'people'
   | 'tribe'
