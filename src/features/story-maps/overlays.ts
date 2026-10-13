@@ -13,7 +13,7 @@ export const OVERLAY_SHAPES: Record<Exclude<StoryMapOverlay, 'ilkhanate-1308'>, 
       [32.4, 41.1], [31.0, 40.4], [29.8, 39.6], [29.0, 38.3], [29.4, 37.3],
     ],
   },
-  // Tabriz → Erzurum (1242) → Kosedag (1243)
+  // Tabriz → Erzurum (1242) → Kösedağ (1243)
   'mongol-1243': {
     kind: 'route',
     points: [[46.1, 38.1], [43.6, 39.15], [41.27, 39.9], [39.4, 40.08], [38.55, 40.1]],
@@ -23,7 +23,7 @@ export const OVERLAY_SHAPES: Record<Exclude<StoryMapOverlay, 'ilkhanate-1308'>, 
 
 /**
  * Time rules for the slider (fractional years). The Mongol route is drawn between 1242 and 1243;
- * the Seljuk lands change from "own power" to "under Mongol pressure" in the months after Kosedag (1243).
+ * the Seljuk lands change from "own power" to "under Mongol pressure" in the months after Kösedağ (1243).
  */
 export const MONGOL_ROUTE_START = 1242;
 export const MONGOL_ROUTE_END = 1243;
