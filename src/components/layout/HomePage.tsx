@@ -25,7 +25,7 @@ import { BrandTitle } from './BrandedEntry';
 import { USAGE_GUIDES } from '../../data/usageGuides';
 import { aboutIntro } from '../../data/aboutContent';
 import { HOME_AFTER_STORY, HOME_FEATURES, HOME_FEATURE_ORDER, HOME_NOTES, type HomeNoteIcon } from '../../data/homeFeatures';
-import { ArrowDown, ArrowRight, BookOpen, Clock, Download, FileText, Globe, GraduationCap, Headphones, ListOrdered, Play } from '../ui/icons';
+import { ArrowDown, ArrowRight, BookOpen, Clock, Download, FileText, GraduationCap, Play } from '../ui/icons';
 import { preloadBook } from '../../core/content/bookRegistry';
 import { readReaderPosition, type ReaderPosition } from '../../lib/readerPosition';
 import { summarizeBookProgress } from '../../lib/bookProgress';
@@ -98,9 +98,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
   const copy =
     language === 'ar'
       ? {
-          tagline: 'مكتبة قصص ثنائية اللغة',
           lead: 'مكتبة تنمو باستمرار، فيها قصص تُقرأ وتُسمع وتُعاش. قصص الأنبياء والتاريخ والتراث التركي الإسلامي، من A2 إلى B2.',
-          traits: ['العربية والإنجليزية', 'A2 · B1 · B2', 'صوت وخرائط للرحلة'],
           explore: 'استكشف المكتبة',
           film: 'شاهد الفيلم',
           cue: 'مرّر للاستكشاف',
@@ -121,9 +119,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           afterStory: 'بعد القصة، ينتهي كل كتاب بـ',
         }
       : {
-          tagline: 'Bilingual story library',
           lead: 'A growing library of stories to read, hear and step inside. Prophets, history and Turkish-Islamic heritage, from A2 to B2.',
-          traits: ['English & Arabic', 'A2 · B1 · B2', 'Audio & journey maps'],
           explore: 'Explore the library',
           film: 'Watch the film',
           cue: 'Scroll to explore',
@@ -143,7 +139,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           featLead: 'Each book is a full lesson: read, listen, follow the journey on the map and practise what you learned.',
           afterStory: 'After the story, every book ends with',
         };
-  const traitIcons = [Globe, ListOrdered, Headphones];
 
   const collectionLabels: Record<StoryCollectionId, string> = {
     prophets: copy.prophets,
@@ -429,9 +424,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
               <p className="clip-room line-clamp-2 text-[13px] font-semibold leading-tight tracking-[-0.01em] text-[#F7F1E5] sm:line-clamp-none sm:truncate sm:text-[15px]">
                 {t('nav.homeTitle')}
               </p>
-              <p className={cn('mt-0.5 hidden truncate text-[11px] font-semibold uppercase text-[#D8B35C]/68 sm:block', !isRTL && 'tracking-[0.18em]')}>
-                {copy.tagline}
-              </p>
             </div>
           </div>
           <div className="flex shrink-0 items-center gap-2 sm:gap-3">
@@ -473,10 +465,9 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
 
         <div className="mx-auto grid w-full max-w-[1500px] items-center gap-6 px-5 pb-16 pt-2 sm:px-8 lg:min-h-[inherit] lg:grid-cols-2 lg:gap-10 lg:px-12 lg:pb-24 lg:pt-6">
           <div className="text-start lg:order-1">
-            <p className={cn(eyebrowClass, 'home-rise')}>{copy.tagline}</p>
             <h1
               className={cn(
-                'home-rise mt-5 font-semibold text-[#FFF9EC] [text-wrap:balance]',
+                'home-rise font-semibold text-[#FFF9EC] [text-wrap:balance]',
                 isRTL ? 'text-[clamp(2.6rem,5.4vw,5.8rem)] leading-[1.25]' : 'text-[clamp(2.9rem,6.2vw,7rem)] leading-[0.95] tracking-[-0.05em]',
               )}
               style={{ animationDelay: '80ms' }}
@@ -486,18 +477,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
             <p className={cn('home-rise mt-6 max-w-[540px] leading-[1.7] text-[#EDE5D4]/78', isRTL ? 'text-[19px]' : 'text-[15.5px] sm:text-[17px]')} style={{ animationDelay: '160ms' }}>
               {copy.lead}
             </p>
-            <ul className="home-rise mt-7 flex flex-wrap gap-2.5" style={{ animationDelay: '240ms' }}>
-              {copy.traits.map((trait, index) => {
-                const Icon = traitIcons[index];
-                return (
-                  <li key={trait} className={cn('inline-flex items-center gap-2.5 rounded-full border border-[#D8B35C]/18 bg-white/[0.05] px-4 py-2 font-medium text-[#FFF9EC]', isRTL ? 'text-[16px]' : 'text-[13.5px]')}>
-                    <Icon size={16} className="text-[#F3D58A]" />
-                    {trait}
-                  </li>
-                );
-              })}
-            </ul>
-            <div className="home-rise mt-9 flex flex-wrap gap-3.5" style={{ animationDelay: '320ms' }}>
+            <div className="home-rise mt-9 flex flex-wrap gap-3.5" style={{ animationDelay: '240ms' }}>
               <button
                 type="button"
                 onClick={scrollToShelf}

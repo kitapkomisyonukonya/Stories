@@ -64,10 +64,7 @@ export const BrandedEntry: React.FC<{ children: React.ReactNode }> = ({ children
           )}
         />
         <div className="absolute bottom-5 start-5 z-10 max-w-[85%] md:bottom-14 md:start-14">
-          <p className={cn('text-[12px] font-semibold uppercase text-[#D8B35C]', isRTL ? 'text-[15px]' : 'tracking-[0.26em]')}>
-            {language === 'ar' ? 'مكتبة قصص ثنائية اللغة' : 'Bilingual story library'}
-          </p>
-          <h1 className={cn('mt-3 text-[clamp(2.2rem,4.6vw,4.4rem)] font-semibold text-[#FFF9EC]', isRTL ? 'leading-[1.3]' : 'leading-none tracking-[-0.045em]')}>
+          <h1 className={cn('text-[clamp(2.2rem,4.6vw,4.4rem)] font-semibold text-[#FFF9EC]', isRTL ? 'leading-[1.3]' : 'leading-none tracking-[-0.045em]')}>
             <BrandTitle />
           </h1>
         </div>
