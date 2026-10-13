@@ -47,7 +47,7 @@ export type HistoricalMapFocus =
       y: number;
       zoom?: number;
       arrows?: { fromX: number; fromY: number; toX: number; toY: number }[];
-      pins?: { x: number; y: number; label: string }[];
+      pins?: { x: number; y: number; label: string; labelAr?: string }[];
       /**
        * Slide the map out to show lands beyond the usual frame (e.g. where the
        * Mongols came from). x/y are the top-left corner of the view, in map

@@ -165,7 +165,8 @@ export const PlacesPage = ({
   const slidOut = selected.entity.focus?.mode === 'feature' && Boolean(selected.entity.focus.view);
 
   const markers = slidOut ? [] : entries
-    .filter(entry => entry.entity.focus?.mode === 'point' && entry.entity.id !== selected.entity.id)
+    // A person's point is where they lived: it is shown on their own card, never as an extra dot on the city.
+    .filter(entry => entry.entity.focus?.mode === 'point' && entry.entity.kind !== 'person' && entry.entity.id !== selected.entity.id)
     .map(entry => ({
       id: entry.entity.id,
       x: entry.entity.focus!.x,

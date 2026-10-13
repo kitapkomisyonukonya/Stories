@@ -225,6 +225,7 @@ const entities = [
       en: { title: "Waraqa ibn Nawfal", kindLabel: "Hanîf", periodLabel: "Time of Prophet Muhammad (pbuh)", summary: "Waraqa ibn Nawfal was a cousin of Khadija, the wife of Prophet Muhammad (pbuh). He was one of the last hanîfs, and he welcomed the prophethood of Muhammad (pbuh).", more: "He knew the earlier holy books very well." },
       ar: { title: "وَرَقَةُ بْنُ نَوْفَلٍ", kindLabel: "حَنِيفٌ", periodLabel: "زَمَنُ النَّبِيِّ مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ", summary: "كَانَ وَرَقَةُ بْنُ نَوْفَلٍ ابْنَ عَمِّ خَدِيجَةَ زَوْجَةِ النَّبِيِّ مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ. وَكَانَ مِنْ آخِرِ الْحُنَفَاءِ، وَقَدْ رَحَّبَ بِنُبُوَّتِهِ.", more: "وَكَانَ عَالِمًا بِالْكُتُبِ السَّمَاوِيَّةِ السَّابِقَةِ." },
     },
+    focus: medPoint(21.42, 39.83, CITY_ZOOM),
     picture: { folder: "abraham", name: "waraqa-ibn-nawfal" },
     sources: ["TDV İslâm Ansiklopedisi: Varaka b. Nevfel"],
   }),

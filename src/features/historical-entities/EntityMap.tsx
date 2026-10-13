@@ -79,7 +79,7 @@ export const EntityMap = ({
   className?: string;
   style?: React.CSSProperties;
 }) => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const glowId = `entity-glow-${useId().replace(/:/g, '')}`;
   // The reader's own zoom on top of the card's: scale and offset in percentages of the map.
   const [user, setUser] = useState({ s: 1, x: 0, y: 0 });
@@ -265,7 +265,7 @@ export const EntityMap = ({
                 pin.x > 70 ? 'right-[9px]' : 'left-[9px]',
               )}
             >
-              {pin.label}
+              {language === 'ar' && pin.labelAr ? pin.labelAr : pin.label}
             </span>
           </span>
         ))}

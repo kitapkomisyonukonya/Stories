@@ -33,7 +33,8 @@ const mapAlt = (locale: 'en' | 'ar', title: string, isGroup: boolean) => (
 );
 
 export const defineEntity = ({ id, kind, aliases, copy, tr, focus, picture, sources }: EntitySpec): HistoricalEntity => {
-  const isGroup = GROUP_OF_KIND[kind] === 'people';
+  // One person is not a group: their map shows where they lived or the land they ruled.
+  const isGroup = GROUP_OF_KIND[kind] === 'people' && kind !== 'person';
   const isArea = Boolean(focus && focus.mode !== 'point');
   const note = isGroup ? 'group' : isArea ? 'area' : 'point';
   const build = (locale: 'en' | 'ar'): HistoricalEntityCopy => ({

@@ -50,7 +50,7 @@ export const medFeature = (
   zoom = 1,
   extras: {
     arrows?: { from: LatLon; to: LatLon }[];
-    pins?: { at: LatLon; label: string }[];
+    pins?: { at: LatLon; label: string; labelAr?: string }[];
     /** Slide out to a wider view: its north-west corner and its width in degrees. */
     view?: { north: number; west: number; widthDegrees: number };
   } = {},
@@ -71,7 +71,7 @@ export const medFeature = (
       }
     : {}),
   ...(extras.pins
-    ? { pins: extras.pins.map(pin => ({ x: round(xPercent(pin.at[1])), y: round(yPercent(pin.at[0])), label: pin.label })) }
+    ? { pins: extras.pins.map(pin => ({ x: round(xPercent(pin.at[1])), y: round(yPercent(pin.at[0])), label: pin.label, ...(pin.labelAr ? { labelAr: pin.labelAr } : {}) })) }
     : {}),
   ...(extras.view
     ? {
