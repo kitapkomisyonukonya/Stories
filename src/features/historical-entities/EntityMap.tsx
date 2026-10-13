@@ -52,6 +52,7 @@ export const EntityMap = ({
   onMapClick,
   tap,
   zoomable = false,
+  base,
   className,
   style,
 }: {
@@ -73,6 +74,8 @@ export const EntityMap = ({
   tap?: { x: number; y: number };
   /** Zoom buttons, and dragging the map once it is zoomed in. */
   zoomable?: boolean;
+  /** A drawn map to show in place of the picture at src, on the same frame. */
+  base?: React.ReactNode;
   className?: string;
   style?: React.CSSProperties;
 }) => {
@@ -170,7 +173,7 @@ export const EntityMap = ({
         className="absolute inset-0 transition-transform duration-700 ease-in-out motion-reduce:transition-none"
         style={{ transform: `translate(${shiftX}%, ${shiftY}%) scale(${scale})`, transformOrigin: '0 0' }}
       >
-        {showWide && (
+        {!base && showWide && (
           <img
             src={wideContextMap}
             alt=""
@@ -185,12 +188,14 @@ export const EntityMap = ({
             draggable={false}
           />
         )}
-        <img
-          src={src}
-          alt={alt}
-          className="absolute inset-0 h-full w-full object-contain"
-          draggable={false}
-        />
+        {base ?? (
+          <img
+            src={src}
+            alt={alt}
+            className="absolute inset-0 h-full w-full object-contain"
+            draggable={false}
+          />
+        )}
 
         {featureFocus && (
           <svg

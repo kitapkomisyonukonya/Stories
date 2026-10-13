@@ -5,6 +5,7 @@ import { useLanguage } from '../../contexts/LanguageContext';
 import { cn } from '../../lib/utils';
 import { MapChallengeOverlay, type ChallengeAnswer } from '../story-maps/MapChallengeOverlay';
 import { playMapSound } from '../story-maps/mapSounds';
+import { StoryBaseMap } from '../story-maps/StoryBaseMap';
 import { groupOf } from './categories';
 import { LearnerName } from './LearnerNameLine';
 import { EntityMap } from './EntityMap';
@@ -388,11 +389,11 @@ export const MapGame = ({
         @media (prefers-reduced-motion: reduce) { .story-map-grow, .story-map-line, .story-map-fade, .story-map-tapring, .story-map-pinland, .story-map-shake, .story-map-cue { animation: none; opacity: 1; } }
       `}</style>
 
-      <section className="flex items-center justify-center rounded-2xl border border-black/5 bg-white/55 p-3 shadow-sm backdrop-blur-sm max-sm:p-1.5 lg:min-h-0 lg:[container-type:size]">
+      <section className="flex items-center justify-center lg:min-h-0 lg:[container-type:size]">
         <div
           ref={frameRef}
           data-map-game
-          className="relative w-full overflow-hidden rounded-xl max-sm:h-[64svh] max-sm:bg-[#b9d3cf] lg:w-[min(100cqw,calc(100cqh*var(--map-ratio)))]"
+          className="relative w-full overflow-hidden rounded-[1.5rem] border border-brand-200/80 bg-[#c3dde4] shadow-[0_14px_40px_rgba(63,49,28,0.14)] max-sm:h-[64svh] lg:w-[min(100cqw,calc(100cqh*var(--map-ratio)))]"
           style={{ '--map-ratio': ratio, touchAction: 'none' } as React.CSSProperties}
           onPointerDown={onPointerDown}
           onPointerMove={onPointerMove}
@@ -412,6 +413,7 @@ export const MapGame = ({
           <EntityMap
             src={mediterraneanContextMap}
             alt=""
+            base={<StoryBaseMap baseMap="mediterranean" west={WEST} east={EAST} north={NORTH} south={SOUTH} width={VIEW_WIDTH} height={VIEW_HEIGHT} />}
             aspect={MEDITERRANEAN_MAP_ASPECT}
             focus={answer && target?.focus ? { ...target.focus, zoom: 1 } : undefined}
             showFocus={Boolean(answer && isFeature)}

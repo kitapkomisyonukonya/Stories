@@ -12,6 +12,7 @@ import { cn } from '../../lib/utils';
 import { ArrowRight, Check, ChevronUp, MapPin, RotateCcw, Target, Volume2, VolumeX, X } from '../../components/ui/icons';
 import { isMapSoundOn, playMapSound, setMapSoundOn, subscribeMapSound } from './mapSounds';
 import { BASE_MAPS } from './baseMaps';
+import { PALETTE } from './palette';
 import {
   MONGOL_ROUTE_END,
   MONGOL_ROUTE_START,
@@ -34,25 +35,8 @@ const MAX_ZOOM = 6;
 const PIN = 20;
 const GOOD = '#0f8a5f';
 
-// Soft atlas palette, fixed so the map reads the same in every collection; markers take the book accent.
 /** How far (in map units) the base map fades into the sea at its edges. */
 const EDGE_FADE = 70;
-
-const PALETTE = {
-  seaTop: '#d9ebef',
-  seaBottom: '#c3dde4',
-  coastGlow: '#eef7f8',
-  land: '#f6ecd6',
-  landShade: '#efe0bf',
-  coast: '#bda57c',
-  river: '#8fbccb',
-  relief: '#c9b48c',
-  seljuk: '#e0ad48',
-  mongol: '#b8573f',
-  label: '#3c3428',
-  halo: '#fbf6ea',
-  sea: '#5f8f9c',
-};
 
 const prefersReducedMotion = () =>
   typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
@@ -825,7 +809,8 @@ export const StoryMapPage: React.FC<StoryMapPageProps> = ({ page }) => {
                         >
                           {result ? (result.correct ? <Check size={14} aria-hidden="true" /> : '×') : formatNumber(index + 1)}
                         </span>
-                        <span className="min-w-0 flex-1 text-[13px] leading-snug text-wood/85">{item.prompt}</span>
+                        {/* A question opens only when its turn comes */}
+                        <span className={cn('min-w-0 flex-1 text-[13px] leading-snug', result || current ? 'text-wood/85' : 'text-wood/60')}>{result || current ? item.prompt : t('map.question')}</span>
                       </li>
                     );
                   })}
