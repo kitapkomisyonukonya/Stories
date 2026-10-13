@@ -413,9 +413,10 @@ const server = http.createServer(async (req, res) => {
     }
   }
 
-  // The book PDFs live on Cloudflare R2 (README, "Book PDFs"); /pdfs/books/<name>.pdf answers with a
-  // redirect to PDF_BASE_URL, so the links in the app stay the same.
-  if (pdfBaseUrl && /^\/pdfs\/books\/[a-z0-9-]+\.pdf$/.test(urlPath)) {
+  // The book PDFs and the About page's media kit live on Cloudflare R2 (README, "Book PDFs");
+  // /pdfs/books/<name>.pdf and /pdfs/media-kit/<name>.(pdf|zip) answer with a redirect to PDF_BASE_URL,
+  // so the links in the app stay the same.
+  if (pdfBaseUrl && /^\/pdfs\/(books\/[a-z0-9-]+\.pdf|media-kit\/[a-z0-9-]+\.(pdf|zip))$/.test(urlPath)) {
     res.writeHead(302, { Location: `${pdfBaseUrl}${urlPath.slice('/pdfs'.length)}`, 'Cache-Control': 'public, max-age=300' });
     res.end();
     return;

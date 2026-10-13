@@ -65,7 +65,7 @@ npm run build
 
 ## Book PDFs
 
-Each book has five PDFs per level and language (`src/lib/bookPdfs.ts`). They are not in this repository: they live in the Cloudflare R2 bucket `from-language-to-culture` under `books/<name>.pdf`, and the server answers `/pdfs/books/<name>.pdf` with a redirect to `PDF_BASE_URL` (set by `_PDF_BASE_URL` in both Cloud Build files). After the PDFs are rebuilt into `public/pdfs/books/` (ignored by git), `bash scripts/r2/upload-pdfs.sh` uploads them. The short usage-guide PDFs (`public/pdfs/guides/`) stay in the app.
+Each book has five PDFs per level and language (`src/lib/bookPdfs.ts`). They are not in this repository: they live in the Cloudflare R2 bucket `from-language-to-culture` under `books/<name>.pdf`, and the server answers `/pdfs/books/<name>.pdf` with a redirect to `PDF_BASE_URL` (set by `_PDF_BASE_URL` in both Cloud Build files). After the PDFs are rebuilt into `public/pdfs/books/` (ignored by git), `bash scripts/r2/upload-pdfs.sh` uploads them. The short usage-guide PDFs (`public/pdfs/guides/`) stay in the app. The About page's media kit (brand guide, visual style guide, logo ZIP) lives in the same bucket under `media-kit/` and is served the same way from `/pdfs/media-kit/<name>`. Its sources are in the project's shared folder (`medya-paketi/`); after a rebuild, upload the files under the same names with the Cloudflare R2 API.
 
 ## Preview deployment
 

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { chapterHeading, enterLibrary, openPage, isPhone } from './helpers';
 
-test('About has a Privacy tab with the privacy notice', async ({ page }) => {
+test('About shows the film, the team and the media kit, and has no Privacy tab', async ({ page }) => {
   await enterLibrary(page);
   await page.goto('/');
   if (isPhone(page)) {
@@ -13,13 +13,18 @@ test('About has a Privacy tab with the privacy notice', async ({ page }) => {
   } else {
     await page.getByRole('button', { name: 'About & Sources' }).click();
   }
-  await page
-    .getByRole('tab', { name: 'Privacy' })
-    .or(page.getByRole('button', { name: 'Privacy', exact: true }))
-    .first()
-    .click();
-  await expect(page.getByText('Privacy notice')).toBeVisible();
-  await expect(page.getByText('Accessibility statement')).toBeVisible();
+  const about = page.locator('[data-about-page]');
+  await expect(about.locator('iframe[src*="elzWNbBBaGA"]')).toHaveCount(1);
+  await expect(about.getByRole('tab', { name: 'Privacy' })).toHaveCount(0);
+  await about.locator('[data-about-lang="tr"]').click();
+  await expect(about.getByText('Proje Koordinatörü - Editör')).toBeVisible();
+  await expect(about.getByText('Dr. İshak Doğan')).toBeVisible();
+  await expect(about.locator('[data-media-kit-file="logo"]')).toHaveAttribute(
+    'href',
+    '/pdfs/media-kit/lisandan-kulture-logo-dosyalari.zip',
+  );
+  await about.getByRole('tab', { name: 'Kaynaklar' }).click();
+  await expect(about.getByText('TDV İslâm Ansiklopedisi, related entries.')).toBeVisible();
 });
 
 test('a chapter that was opened once still opens offline', async ({ page, context }) => {

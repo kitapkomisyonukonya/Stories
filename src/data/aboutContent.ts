@@ -1,32 +1,11 @@
 /**
- * About & Sources page content. Team names come verbatim from the approved
- * MEB presentation (v38). The source list is a draft compiled from that
- * presentation's bibliography and the references cited inside the stories;
+ * About & Sources page content. The About texts and the team come from the approved
+ * MEB presentation (v61) and the project's media kit. The source list is a draft compiled
+ * from the presentation's bibliography and the references cited inside the stories;
  * it will be replaced by the project team's own list.
  */
 
 type Localized = { en: string; ar: string };
-
-export interface TeamMember {
-  name: string;
-  note?: Localized;
-}
-
-export interface TeamRole {
-  role: Localized;
-  members: TeamMember[];
-}
-
-export interface TeamSection {
-  title: Localized;
-  roles: TeamRole[];
-}
-
-export interface BoardMember {
-  name: string;
-  university: Localized;
-  department: Localized;
-}
 
 export interface SourceEntry {
   text: string;
@@ -42,82 +21,249 @@ export interface SourceGroup {
   citations?: { label: Localized; text: Localized }[];
 }
 
+/** The About page is shown in Turkish, English or Arabic; the reader picks it on the page. */
+export type AboutLang = 'tr' | 'en' | 'ar';
+export type Tri = Record<AboutLang, string>;
+
 export const aboutIntro = {
   name: 'Lisandan Kültüre',
+  names: { en: 'From Language to Culture', ar: 'من اللسان إلى الثقافة' },
   subtitle: {
+    tr: 'Yabancı Dil, Kültür, Tarih ve Değerlerimiz Dijital Kütüphane Projesi',
     en: 'A digital library project for foreign languages, culture, history and our values',
     ar: 'مشروع مكتبة رقمية للغات الأجنبية والثقافة والتاريخ وقيمنا',
-  },
-  paragraphs: {
-    en: [
-      'The project helps students who are learning a new language to express their own history, culture and values in that language.',
-      'The library offers levelled stories in English and Arabic that students can use alongside their coursebook. Teachers can use them in class, and students can use them outside school and for self-study.',
-      'The texts were written by reading and comparing different academic sources, then reviewed with feedback from subject experts. CEFR levels and the DKAB spelling guide were used as the shared standard.',
-    ],
-    ar: [
-      'يهدف المشروع إلى أن يتمكّن الطلاب، وهم يتعلّمون لغة جديدة، من التعبير بها عن تاريخهم وثقافتهم وقيمهم.',
-      'تقدّم المكتبة قصصًا متدرّجة المستوى باللغتين الإنجليزية والعربية يستخدمها الطلاب إلى جانب كتابهم المدرسي؛ إذ يستخدمها المعلّم في الصف، ويستخدمها الطالب خارج المدرسة وفي الدراسة الذاتية.',
-      'كُتبت النصوص بعد قراءة مصادر أكاديمية مختلفة والمقارنة بينها، ثم رُوجعت بملاحظات المتخصصين. واعتُمدت مستويات الإطار الأوروبي المرجعي (CEFR) ودليل الإملاء لمادة الثقافة الدينية والمعرفة الأخلاقية معيارًا مشتركًا.',
-    ],
-  },
-  facts: {
-    en: ['Levelled stories', 'A2 · B1 · B2', 'English and Arabic'],
-    ar: ['قصص متدرّجة', 'A2 · B1 · B2', 'الإنجليزية والعربية'],
-  },
-  videoId: 'KxLOZIMvP08',
+  } as Tri,
+  tagline: {
+    tr: 'Kendi medeniyetimizi dünyanın dilleriyle anlatan bir kütüphane.',
+    en: 'A library that tells our own civilization in the languages of the world.',
+    ar: 'مكتبة تروي حضارتنا بلغات العالم.',
+  } as Tri,
+  videoId: 'elzWNbBBaGA',
 };
 
-const editor: Localized = { en: 'Editor', ar: 'التحرير' };
-
-export const projectCoordinator = {
-  role: { en: 'Project Coordinator', ar: 'منسّق المشروع' },
-  name: 'Dr. Ahmet Ağralı',
-  note: { en: 'Project coordination · Academic process oversight', ar: 'تنسيق المشروع · متابعة المسار الأكاديمي' },
+/** Wording follows the MEB presentation and the project dossier; translations keep the same sentences. */
+export const aboutAim = {
+  title: { tr: 'Amaç ve Vizyon', en: 'Aim and Vision', ar: 'الهدف والرؤية' } as Tri,
+  lead: {
+    tr: 'Bu projenin amacı yeni bir dil öğrenen öğrencilerimize konusunu kendi tarih, kültür ve ortak hafızamızdan alan seviyelendirilmiş dil öğretim materyalleri sunmaktır.',
+    en: 'The aim of this project is to offer our students who are learning a new language levelled language-teaching materials whose subjects come from our own history, culture and shared memory.',
+    ar: 'يهدف هذا المشروع إلى أن يقدّم لطلابنا الذين يتعلّمون لغة جديدة موادَّ تعليمية متدرّجة المستوى، تستمدّ موضوعاتها من تاريخنا وثقافتنا وذاكرتنا المشتركة.',
+  } as Tri,
+  aims: [
+    {
+      tr: 'Sürekli büyüyen bir dijital yabancı dil, kültür ve değerler kütüphanesi oluşturmaktır.',
+      en: 'To build a digital library of foreign languages, culture and values that keeps growing.',
+      ar: 'إنشاء مكتبة رقمية للغات الأجنبية والثقافة والقيم تنمو باستمرار.',
+    },
+    {
+      tr: 'İngilizce ve Arapça öğrenen öğrencilere ders kitabının yanında destekleyici yabancı dil materyalleri hazırlamaktır.',
+      en: 'To prepare supporting foreign-language materials for students of English and Arabic to use alongside their coursebook.',
+      ar: 'إعداد مواد داعمة لتعلّم اللغة الأجنبية لطلاب الإنجليزية والعربية إلى جانب كتابهم المدرسي.',
+    },
+    {
+      tr: 'Öğretmenin sınıfta, öğrencinin okul dışında ve bireysel çalışmada kullanabileceği bütüncül bir öğrenme ortamı tasarlamaktır.',
+      en: 'To design a complete learning environment that the teacher can use in class and the student can use outside school and for self-study.',
+      ar: 'تصميم بيئة تعلّم متكاملة يستخدمها المعلّم في الصف، ويستخدمها الطالب خارج المدرسة وفي الدراسة الذاتية.',
+    },
+  ] as Tri[],
+  vision: {
+    tr: 'Kendi tarih ve medeniyet dünyamızı, öğrenilen yabancı dil üzerinden farklı coğrafyalara taşıyabilecek sürdürülebilir bir içerik kütüphanesi hedeflenmiştir.',
+    en: 'The goal is a sustainable content library that can carry our own history and civilization to other parts of the world through the foreign language being learned.',
+    ar: 'والغاية مكتبة محتوى مستدامة تنقل تاريخنا وعالمنا الحضاري إلى بقاع مختلفة من العالم عبر اللغة الأجنبية التي يتعلّمها الطالب.',
+  } as Tri,
 };
 
-export const teamSections: TeamSection[] = [
+export const aboutStats: { value: string; label: Tri; when: Tri }[] = [
   {
-    title: { en: 'English Section', ar: 'القسم الإنجليزي' },
-    roles: [
-      {
-        role: { en: 'Text compilation and levelling', ar: 'جمع النصوص وتدريجها حسب المستوى' },
-        members: [{ name: 'Selma Özülkü', note: { en: 'MA, Islamic History and Arts', ar: 'ماجستير في التاريخ الإسلامي والفنون' } }],
-      },
-      { role: editor, members: [{ name: 'Yunus Emre Yılmaz' }, { name: 'Dr. Ahmet Ağralı' }] },
-    ],
+    value: '31',
+    label: { tr: 'Mevcut seviyelendirilmiş içerik', en: 'Levelled titles available', ar: 'محتوى متدرّج متاح' },
+    when: { tr: 'Mevcut', en: 'Now', ar: 'الآن' },
   },
   {
-    title: { en: 'Arabic Section', ar: 'القسم العربي' },
-    roles: [
-      { role: { en: 'Translation', ar: 'الترجمة' }, members: [{ name: 'Dr. Rabia Okutan' }] },
-      { role: editor, members: [{ name: 'Dr. Ahmet Ağralı' }] },
-    ],
+    value: '16 + 15',
+    label: { tr: 'İngilizce + Arapça', en: 'English + Arabic', ar: 'الإنجليزية + العربية' },
+    when: { tr: 'Mevcut', en: 'Now', ar: 'الآن' },
   },
   {
-    title: { en: 'Software Development and Digital Design', ar: 'تطوير البرمجيات والتصميم الرقمي' },
-    roles: [
-      {
-        role: { en: 'Software Development and Application Architecture', ar: 'تطوير البرمجيات وهندسة التطبيق' },
-        members: [
-          {
-            name: 'Yunus Emre Yılmaz',
-            note: {
-              en: 'Digital Design and User Experience · Visual Content and Voice-over Production · Interactive Map and Activity Design',
-              ar: 'التصميم الرقمي وتجربة المستخدم · إنتاج المحتوى المرئي والتسجيل الصوتي · تصميم الخرائط التفاعلية والأنشطة',
-            },
-          },
-        ],
-      },
-    ],
+    value: '60+',
+    label: { tr: 'Planlanan yeni içerik', en: 'New titles planned', ar: 'محتوى جديد مخطَّط له' },
+    when: { tr: 'Mayıs 2027', en: 'May 2027', ar: 'مايو 2027' },
+  },
+  {
+    value: '≈210',
+    label: { tr: 'İlk büyük kütüphane hedefi', en: 'First large library goal', ar: 'هدف المكتبة الكبيرة الأولى' },
+    when: { tr: 'Mayıs 2029', en: 'May 2029', ar: 'مايو 2029' },
   },
 ];
 
-const theologyIslamicHistory: Localized = {
+export const aboutLibrary = {
+  title: { tr: 'Mevcut Kütüphane', en: 'The Library Today', ar: 'المكتبة اليوم' } as Tri,
+  lead: {
+    tr: 'Kendi tarihimizden ve medeniyet dünyamızdan beslenen, seviyelendirilmiş dijital yabancı dil materyallerinden oluşan bir kütüphane oluşturulmuştur.',
+    en: 'A library of levelled digital foreign-language materials, drawn from our own history and civilization, has been built.',
+    ar: 'أُنشئت مكتبة من المواد الرقمية المتدرّجة لتعلّم اللغات الأجنبية، تستمدّ مادّتها من تاريخنا وعالمنا الحضاري.',
+  } as Tri,
+  /** The six story sets; `accent` is the collection colour used in the app. */
+  sets: [
+    { name: { tr: 'Hz. Âdem', en: 'Prophet Adam', ar: 'النبي آدم' }, group: { tr: 'Peygamberler', en: 'Prophets', ar: 'الأنبياء' }, accent: '#D8B35C' },
+    { name: { tr: 'Hz. İbrâhim', en: 'Prophet Abraham', ar: 'النبي إبراهيم' }, group: { tr: 'Peygamberler', en: 'Prophets', ar: 'الأنبياء' }, accent: '#D8B35C' },
+    { name: { tr: 'Hz. Mûsâ', en: 'Prophet Moses', ar: 'النبي موسى' }, group: { tr: 'Peygamberler', en: 'Prophets', ar: 'الأنبياء' }, accent: '#D8B35C' },
+    { name: { tr: 'Mekke & Bilâl-i Habeşî', en: 'Mecca & Bilal', ar: 'مكة وبلال الحبشي' }, group: { tr: 'Tarih / Siyer', en: 'History / Sirah', ar: 'التاريخ / السيرة' }, accent: '#55C997' },
+    { name: { tr: 'Yunus Emre', en: 'Yunus Emre', ar: 'يونس إمره' }, group: { tr: 'Türk-İslâm Mirası', en: 'Turkish-Islamic Heritage', ar: 'التراث التركي الإسلامي' }, accent: '#58CBE0' },
+    { name: { tr: 'Endülüs', en: 'Muslim Spain', ar: 'الأندلس' }, group: { tr: 'Tarih / Medeniyet', en: 'History / Civilization', ar: 'التاريخ / الحضارة' }, accent: '#55C997' },
+  ] as { name: Tri; group: Tri; accent: string }[],
+  levels: 'A2 · B1 · B2',
+};
+
+export const aboutFeatures = {
+  title: { tr: 'Bağımsız ve Bütüncül Bir Dijital Kütüphane', en: 'An Independent, Complete Digital Library', ar: 'مكتبة رقمية مستقلّة ومتكاملة' } as Tri,
+  lead: {
+    tr: 'Lisandan Kültüre, aşağıdaki unsurları kültür ve medeniyet içeriği etrafında tek bir yapıda bir araya getirmektedir.',
+    en: 'Lisandan Kültüre brings the following together in one structure, around content on culture and civilization.',
+    ar: 'تجمع «من اللسان إلى الثقافة» العناصر الآتية في بنية واحدة حول محتوى الثقافة والحضارة.',
+  } as Tri,
+  items: [
+    { tr: 'Seviyeli hikâyeler · A2 · B1 · B2', en: 'Levelled stories · A2 · B1 · B2', ar: 'قصص متدرّجة · A2 · B1 · B2' },
+    { tr: 'Aynı hikâye İngilizce ve Arapça', en: 'The same story in English and Arabic', ar: 'القصة نفسها بالإنجليزية والعربية' },
+    { tr: 'Her bölüm için seslendirme', en: 'Narration for every chapter', ar: 'تسجيل صوتي لكل فصل' },
+    { tr: 'Bölüme özel alıştırmalar', en: 'Exercises written for each chapter', ar: 'تمارين خاصة بكل فصل' },
+    { tr: 'Öğretmen ve öğrenci rehberleri', en: 'Teacher and student guides', ar: 'أدلّة للمعلّم والطالب' },
+    { tr: 'Yolculuk haritaları', en: 'Journey maps', ar: 'خرائط الرحلة' },
+    { tr: 'Yerler ve Kişiler kartları', en: 'Places & People cards', ar: 'بطاقات الأماكن والأعلام' },
+    { tr: 'Basılabilir PDF kitaplar', en: 'Printable PDF books', ar: 'كتب PDF قابلة للطباعة' },
+    { tr: 'Kelime notları ve sözlük', en: 'Word notes and glossary', ar: 'ملاحظات المفردات والمعجم' },
+    { tr: 'Kitap sonu etkinlikleri', en: 'End-of-book activities', ar: 'أنشطة نهاية الكتاب' },
+    { tr: 'Harekeli ve harekesiz Arapça', en: 'Arabic with and without vowel marks', ar: 'العربية بالحركات ومن دونها' },
+    { tr: 'Her cihazdan erişim', en: 'Access from any device', ar: 'الوصول من أي جهاز' },
+  ] as Tri[],
+  support: {
+    tr: 'Aynı öğrenme paketi sınıfta öğretmen eşliğinde, evde bireysel olarak ve çevrim dışı biçimde kullanılabilmektedir.',
+    en: 'The same learning package can be used in class with a teacher, at home on one’s own, and offline.',
+    ar: 'يمكن استخدام حزمة التعلّم نفسها في الصف بإشراف المعلّم، وفي البيت فرديًّا، ومن دون اتصال بالإنترنت.',
+  } as Tri,
+};
+
+export const aboutStandards = {
+  title: { tr: 'İçerik Standardı ve Özellikleri', en: 'Content Standard', ar: 'معايير المحتوى' } as Tri,
+  lead: {
+    tr: 'İçerik doğruluğu, ortak yazım standardı ve dil düzeyi uygunluğu aynı üretim zinciri içerisinde birlikte yönetilmiştir.',
+    en: 'Accuracy of content, a shared spelling standard and fit to language level were managed together in the same production chain.',
+    ar: 'أُديرت دقّة المحتوى ومعيار الكتابة الموحّد وملاءمة المستوى اللغوي معًا في سلسلة إنتاج واحدة.',
+  } as Tri,
+  items: [
+    {
+      title: { tr: 'Akademik güvenilirlik ve doğruluk', en: 'Academic reliability and accuracy', ar: 'الموثوقية الأكاديمية والدقّة' },
+      text: {
+        tr: 'İçerikler farklı akademik kaynaklardan istifade edilerek insan tarafından üretilmiş metinlerdir.',
+        en: 'The texts were written by people, drawing on a range of academic sources.',
+        ar: 'المحتوى نصوصٌ كتبها الإنسان مستفيدًا من مصادر أكاديمية مختلفة.',
+      },
+    },
+    {
+      title: { tr: 'Alan uzmanı geri bildirimi', en: 'Feedback from subject experts', ar: 'ملاحظات المتخصّصين' },
+      text: {
+        tr: 'Kontrol, geri bildirim ve sürekli revizyon döngüsü oluşturulmuştur.',
+        en: 'A cycle of checking, feedback and continuous revision was set up.',
+        ar: 'أُنشئت دورة من المراجعة والملاحظات والتنقيح المستمرّ.',
+      },
+    },
+    {
+      title: { tr: 'Bilimsel literatüre uygun kelime ve terim seçimi', en: 'Words and terms true to the scholarly literature', ar: 'اختيار المفردات والمصطلحات وفق الأدبيات العلمية' },
+      text: {
+        tr: 'Kelime ve terimler konu literatürü, tarihsel bağlam ve öğrenci seviyesi birlikte gözetilerek seçilmiştir.',
+        en: 'Words and terms were chosen with the subject literature, the historical context and the student’s level in mind together.',
+        ar: 'اختيرت المفردات والمصطلحات بمراعاة أدبيات الموضوع والسياق التاريخي ومستوى الطالب معًا.',
+      },
+    },
+    {
+      title: { tr: 'Dil Seviyelendirmesi', en: 'Language levelling', ar: 'تدريج المستوى اللغوي' },
+      text: {
+        tr: 'Türkiye Yüzyılı Maarif Modeli’nin yabancı dil alan becerileri ve yöntemsel yaklaşımları, CEFR düzeyleriyle birlikte ele alınmıştır.',
+        en: 'The foreign-language skills and methods of the Türkiye Century Maarif Model were applied together with the CEFR levels.',
+        ar: 'رُوعيت مهارات اللغة الأجنبية ومناهجها في نموذج معارف قرن تركيا، مع مستويات الإطار الأوروبي المرجعي (CEFR).',
+      },
+    },
+    {
+      title: { tr: 'DKAB İmla Standartları', en: 'DKAB spelling standards', ar: 'معايير الإملاء في مادة الثقافة الدينية' },
+      text: {
+        tr: 'DKAB İmla Kılavuzu’nda yer alan standartlar kullanılmıştır.',
+        en: 'The standards of the DKAB Spelling Guide were used.',
+        ar: 'اعتُمدت المعايير الواردة في دليل الإملاء لمادة الثقافة الدينية والمعرفة الأخلاقية (DKAB).',
+      },
+    },
+  ] as { title: Tri; text: Tri }[],
+  aiTitle: { tr: 'Yapay Zekâ Kullanımı', en: 'Use of Artificial Intelligence', ar: 'استخدام الذكاء الاصطناعي' } as Tri,
+  ai: {
+    tr: 'Yapay zekâ içerik üretim sürecinde yalnızca destek aracı olarak kullanılmış ve tüm kararlar insan kontrolünde verilmiştir.',
+    en: 'Artificial intelligence was used in content production only as a support tool, and every decision was made under human control.',
+    ar: 'استُخدم الذكاء الاصطناعي في إنتاج المحتوى أداةً مساعدةً فقط، واتُّخذت القرارات كلّها تحت إشراف الإنسان.',
+  } as Tri,
+};
+
+/** Project team, word for word from the team slide of the MEB presentation (v61). */
+export const teamIntro: Tri = {
+  tr: 'İçerik geliştirme, bilimsel danışmanlık, dil editörlüğü ve dijital tasarım süreci.',
+  en: 'Content development, academic advice, language editing and digital design.',
+  ar: 'تطوير المحتوى والاستشارة العلمية والتحرير اللغوي والتصميم الرقمي.',
+};
+
+export const projectCoordinator = {
+  role: { tr: 'Proje Koordinatörü - Editör', en: 'Project Coordinator - Editor', ar: 'منسّق المشروع - المحرّر' } as Tri,
+  name: 'Dr. Ahmet Ağralı',
+};
+
+export interface TeamRole {
+  role: Tri;
+  members: string[];
+  note?: Tri;
+}
+
+export interface TeamSection {
+  title: Tri;
+  roles: TeamRole[];
+}
+
+export const teamSections: TeamSection[] = [
+  {
+    title: { tr: 'İngilizce Bölümü', en: 'English Section', ar: 'القسم الإنجليزي' },
+    roles: [
+      {
+        role: { tr: 'Metin Yazarı ve Editör', en: 'Author and Editor', ar: 'كاتبة النصوص والمحرّرة' },
+        members: ['Selma Özülkü'],
+        note: { tr: 'Bilim Uzmanı / İslam Tarihi ve Sanatları', en: 'MA, Islamic History and Arts', ar: 'ماجستير في التاريخ الإسلامي والفنون' },
+      },
+      { role: { tr: 'Metin İnceleme', en: 'Text Review', ar: 'مراجعة النصوص' }, members: ['Yunus Emre Yılmaz'] },
+    ],
+  },
+  {
+    title: { tr: 'Arapça Bölümü', en: 'Arabic Section', ar: 'القسم العربي' },
+    roles: [
+      { role: { tr: 'Editör', en: 'Editor', ar: 'المحرّر' }, members: ['Dr. Ahmet Ağralı'] },
+      {
+        role: { tr: 'Çeviri ve Metin İnceleme', en: 'Translation and Text Review', ar: 'الترجمة ومراجعة النصوص' },
+        members: ['Dr. İshak Doğan', 'Dr. Rabia Okutan', 'Hasan Arslan', 'Sümeyye Akten'],
+      },
+    ],
+  },
+  {
+    title: { tr: 'Yazılım Geliştirme ve Dijital Tasarım', en: 'Software Development and Digital Design', ar: 'تطوير البرمجيات والتصميم الرقمي' },
+    roles: [{ role: { tr: 'Yazılım ve tasarım', en: 'Software and design', ar: 'البرمجيات والتصميم' }, members: ['Yunus Emre Yılmaz'] }],
+  },
+];
+
+export interface BoardMember {
+  name: string;
+  university: Tri;
+  department: Tri;
+}
+
+const theologyIslamicHistory: Tri = {
+  tr: 'İlahiyat Fak. · İslam Tarihi ve Sanatları ABD',
   en: 'Faculty of Theology · Islamic History and Arts',
   ar: 'كلية الإلهيات · قسم التاريخ الإسلامي والفنون',
 };
-const neu: Localized = { en: 'Necmettin Erbakan University', ar: 'جامعة نجم الدين أربكان' };
-const selcuk: Localized = { en: 'Selçuk University', ar: 'جامعة سلجوق' };
+const neu: Tri = { tr: 'Necmettin Erbakan Üniversitesi', en: 'Necmettin Erbakan University', ar: 'جامعة نجم الدين أربكان' };
+const selcuk: Tri = { tr: 'Selçuk Üniversitesi', en: 'Selçuk University', ar: 'جامعة سلجوق' };
 
 export const advisoryBoard: BoardMember[] = [
   { name: 'Prof. Dr. Ahmet Turan Yüksel', university: neu, department: theologyIslamicHistory },
@@ -125,14 +271,123 @@ export const advisoryBoard: BoardMember[] = [
   {
     name: 'Prof. Dr. Bilal Kuşpınar',
     university: neu,
-    department: { en: 'Faculty of Social Sciences and Humanities · History of Philosophy', ar: 'كلية العلوم الاجتماعية والإنسانية · تاريخ الفلسفة' },
+    department: {
+      tr: 'Sosyal ve Beşeri Bilimler Fak. · Felsefe Tarihi',
+      en: 'Faculty of Social Sciences and Humanities · History of Philosophy',
+      ar: 'كلية العلوم الاجتماعية والإنسانية · تاريخ الفلسفة',
+    },
   },
   {
     name: 'Prof. Dr. Resul Ay',
-    university: { en: 'Hacettepe University', ar: 'جامعة حاجة تبه' },
-    department: { en: 'Faculty of Letters · Department of History · Medieval History', ar: 'كلية الآداب · قسم التاريخ · تاريخ العصور الوسطى' },
+    university: { tr: 'Hacettepe Üniversitesi', en: 'Hacettepe University', ar: 'جامعة حاجة تبه' },
+    department: {
+      tr: 'Edebiyat Fak. · Tarih Bölümü · Ortaçağ ABD',
+      en: 'Faculty of Letters · Department of History · Medieval History',
+      ar: 'كلية الآداب · قسم التاريخ · تاريخ العصور الوسطى',
+    },
   },
   { name: 'Dr. Yusuf Büyükyılmaz', university: selcuk, department: theologyIslamicHistory },
+];
+
+export const boardNote: Tri = {
+  tr: 'Akademik danışmanlık ve bilimsel geri bildirim desteği',
+  en: 'Academic advice and scholarly feedback',
+  ar: 'الاستشارة الأكاديمية والملاحظات العلمية',
+};
+
+/** Media kit: the files live on Cloudflare R2 (README, "Book PDFs"); the server redirects these paths there. */
+export const mediaKit = {
+  title: { tr: 'Medya Paketi', en: 'Media Kit', ar: 'الحزمة الإعلامية' } as Tri,
+  lead: {
+    tr: 'Medya paketi üç parçadan oluşur. Paketteki dosyalar okul, kurum ve basın duyurularında Marka Rehberi’ndeki kurallara uygun olarak kullanılabilir.',
+    en: 'The media kit has three parts. Its files may be used in school, institutional and press announcements in line with the rules of the Brand Guide.',
+    ar: 'تتكوّن الحزمة الإعلامية من ثلاثة أجزاء. ويمكن استخدام ملفاتها في إعلانات المدارس والمؤسسات والصحافة وفق قواعد دليل الهوية.',
+  } as Tri,
+  /** The guides themselves are written in Turkish. */
+  inTurkish: { tr: 'Türkçe', en: 'In Turkish', ar: 'باللغة التركية' } as Tri,
+  files: [
+    {
+      id: 'brand',
+      title: { tr: 'Marka Rehberi', en: 'Brand Guide', ar: 'دليل الهوية' },
+      text: {
+        tr: 'Projenin adı, tanıtım metinleri, logo ve kullanım kuralları, renk kodları ve yazı tipleri.',
+        en: 'The project’s name, introduction texts, logo and its rules of use, colour codes and typefaces.',
+        ar: 'اسم المشروع ونصوصه التعريفية والشعار وقواعد استخدامه ورموز الألوان والخطوط.',
+      },
+      href: '/pdfs/media-kit/lisandan-kulture-marka-rehberi.pdf',
+      kind: 'PDF',
+      size: '4,7 MB',
+    },
+    {
+      id: 'visual',
+      title: { tr: 'Görsel Dil Rehberi', en: 'Visual Style Guide', ar: 'دليل الأسلوب البصري' },
+      text: {
+        tr: 'Hikâyelere göre resim üslupları, her seviyeden örnek resimler ve bütün resimlerde uyulan görsel ilkeler.',
+        en: 'The illustration style of each story, sample pictures from every level and the visual principles followed in all pictures.',
+        ar: 'أساليب الرسم لكل قصة، ونماذج من رسوم كل مستوى، والمبادئ البصرية المتّبعة في جميع الرسوم.',
+      },
+      href: '/pdfs/media-kit/lisandan-kulture-gorsel-dil-rehberi.pdf',
+      kind: 'PDF',
+      size: '9,3 MB',
+    },
+    {
+      id: 'logo',
+      title: { tr: 'Logo Dosyaları', en: 'Logo Files', ar: 'ملفات الشعار' },
+      text: {
+        tr: 'Logo ve logotipin yüksek çözünürlüklü, saydam zeminli PNG dosyaları ile koleksiyon simgeleri.',
+        en: 'High-resolution PNG files of the logo and logotype on a transparent background, with the collection icons.',
+        ar: 'ملفات PNG عالية الدقّة بخلفية شفافة للشعار والشعار النصّي، مع أيقونات المجموعات.',
+      },
+      href: '/pdfs/media-kit/lisandan-kulture-logo-dosyalari.zip',
+      kind: 'ZIP',
+      size: '3,5 MB',
+    },
+  ] as { id: string; title: Tri; text: Tri; href: string; kind: string; size: string }[],
+  logoText: {
+    tr: 'Logo, kemer biçimli altın çerçeve, açık kitap ve kitabın üzerinde yükselen ışıktan oluşur. Logo tek başına veya projenin adıyla birlikte (logotip) kullanılır.',
+    en: 'The logo is made of an arch-shaped gold frame, an open book and a light rising above the book. It is used on its own or together with the project’s name (logotype).',
+    ar: 'يتكوّن الشعار من إطار ذهبي على هيئة قوس، وكتاب مفتوح، ونور يرتفع فوق الكتاب. ويُستخدم الشعار وحده أو مع اسم المشروع (الشعار النصّي).',
+  } as Tri,
+  nameNote: {
+    tr: 'Ad Türkçe metinlerde Türkçe, İngilizce ve Arapça metinlerde o dildeki karşılığıyla yazılır. Ad kesme işaretiyle bölünmez ve kısaltılmaz.',
+    en: 'The name is written in Turkish in Turkish texts, and with its English or Arabic equivalent in English and Arabic texts. It is never split with an apostrophe or shortened.',
+    ar: 'يُكتب الاسم بالتركية في النصوص التركية، وبمقابله الإنجليزي أو العربي في النصوص الإنجليزية والعربية. ولا يُفصل بعلامة الفاصلة العليا ولا يُختصر.',
+  } as Tri,
+  colorsText: {
+    tr: 'Lisandan Kültüre’nin ana renkleri gece laciverti ve altındır. Zümrüt yeşili yardımcı renk olarak kullanılır. CMYK değerleri yaklaşıktır, baskı öncesinde prova ile kontrol edilmelidir.',
+    en: 'The main colours of Lisandan Kültüre are night navy and gold. Emerald green is used as a supporting colour. CMYK values are approximate and should be checked with a proof before printing.',
+    ar: 'اللونان الرئيسيان لـ«من اللسان إلى الثقافة» هما الكحلي الليلي والذهبي، ويُستخدم الأخضر الزمرّدي لونًا مساعدًا. قيم CMYK تقريبية، وينبغي التحقّق منها بنسخة تجريبية قبل الطباعة.',
+  } as Tri,
+  fontsText: {
+    tr: 'Türkçe, İngilizce ve diğer Latin harfli yazılar için Poppins, Arapça yazılar için Arakom yazı tipi kullanılır.',
+    en: 'Poppins is used for Turkish, English and other Latin-script texts, and Arakom for Arabic texts.',
+    ar: 'يُستخدم خط Poppins للنصوص التركية والإنجليزية وسائر النصوص بالحروف اللاتينية، وخط Arakom للنصوص العربية.',
+  } as Tri,
+};
+
+export interface BrandColor {
+  name: Tri;
+  hex: string;
+  rgb: string;
+  cmyk?: string;
+  use: Tri;
+}
+
+export const brandColors: BrandColor[] = [
+  { name: { tr: 'Gece Laciverti', en: 'Night Navy', ar: 'الكحلي الليلي' }, hex: '#0A1120', rgb: '10 · 17 · 32', cmyk: '69 · 47 · 0 · 87', use: { tr: 'Kapaklar, koyu zeminler, başlıklar', en: 'Covers, dark backgrounds, headings', ar: 'الأغلفة والخلفيات الداكنة والعناوين' } },
+  { name: { tr: 'Altın', en: 'Gold', ar: 'الذهبي' }, hex: '#E2B559', rgb: '226 · 181 · 89', cmyk: '0 · 20 · 61 · 11', use: { tr: 'Logo adı, vurgular, numaralar', en: 'Logo name, highlights, numbers', ar: 'اسم الشعار والإبراز والأرقام' } },
+  { name: { tr: 'Açık Altın', en: 'Light Gold', ar: 'الذهبي الفاتح' }, hex: '#F7DD9C', rgb: '247 · 221 · 156', cmyk: '0 · 11 · 37 · 3', use: { tr: 'Altın geçişin açık ucu', en: 'Light end of the gold gradient', ar: 'الطرف الفاتح من التدرّج الذهبي' } },
+  { name: { tr: 'Koyu Altın', en: 'Dark Gold', ar: 'الذهبي الداكن' }, hex: '#C99A3E', rgb: '201 · 154 · 62', cmyk: '0 · 23 · 69 · 21', use: { tr: 'Açık zeminde altın yazı ve çizgiler', en: 'Gold text and lines on light backgrounds', ar: 'النصوص والخطوط الذهبية على الخلفيات الفاتحة' } },
+  { name: { tr: 'Zümrüt', en: 'Emerald', ar: 'الزمرّدي' }, hex: '#1E8C6B', rgb: '30 · 140 · 107', cmyk: '79 · 0 · 24 · 45', use: { tr: 'Bölüm etiketleri, simgeler, onay işaretleri', en: 'Section labels, icons, check marks', ar: 'تسميات الأقسام والأيقونات وعلامات التأكيد' } },
+  { name: { tr: 'Kâğıt', en: 'Paper', ar: 'الورقي' }, hex: '#FBF8F1', rgb: '251 · 248 · 241', cmyk: '0 · 1 · 4 · 2', use: { tr: 'İç sayfa zemini', en: 'Inner page background', ar: 'خلفية الصفحات الداخلية' } },
+  { name: { tr: 'Mürekkep', en: 'Ink', ar: 'الحبري' }, hex: '#18202E', rgb: '24 · 32 · 46', cmyk: '48 · 30 · 0 · 82', use: { tr: 'Metin rengi', en: 'Text colour', ar: 'لون النص' } },
+  { name: { tr: 'Gri', en: 'Grey', ar: 'الرمادي' }, hex: '#5D6779', rgb: '93 · 103 · 121', cmyk: '23 · 15 · 0 · 53', use: { tr: 'Açıklama ve dipnot metinleri', en: 'Captions and footnotes', ar: 'نصوص الشروح والحواشي' } },
+];
+
+export const collectionColors: BrandColor[] = [
+  { name: { tr: 'Peygamberler', en: 'Stories of the Prophets', ar: 'قصص الأنبياء' }, hex: '#D8B35C', rgb: '216 · 179 · 92', use: { tr: 'Koleksiyon rengi', en: 'Collection colour', ar: 'لون المجموعة' } },
+  { name: { tr: 'İslam Tarihi ve Medeniyeti', en: 'Islamic History & Civilization', ar: 'التاريخ الإسلامي والحضارة' }, hex: '#55C997', rgb: '85 · 201 · 151', use: { tr: 'Koleksiyon rengi', en: 'Collection colour', ar: 'لون المجموعة' } },
+  { name: { tr: 'Türk-İslâm Mirası', en: 'Turkish-Islamic Heritage', ar: 'التراث التركي الإسلامي' }, hex: '#58CBE0', rgb: '88 · 203 · 224', use: { tr: 'Koleksiyon rengi', en: 'Collection colour', ar: 'لون المجموعة' } },
 ];
 
 const quranLabel: Localized = { en: 'Qur’an', ar: 'القرآن الكريم' };
