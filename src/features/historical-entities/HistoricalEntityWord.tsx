@@ -177,6 +177,7 @@ export const HistoricalEntityWord = ({
                       aspect={entity.mapAspect}
                       color={colors.base}
                       label={copy.title}
+                      zoomable
                     />
                     {picture && (
                       // The picture sits in the map corner away from the place, so it never covers it.

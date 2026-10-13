@@ -175,7 +175,7 @@ const entities = [
     sources: ["TDV İslâm Ansiklopedisi: Hârizm"],
   }),
   defineEntity({
-    id: "yunus-kosedag", kind: "landmark",
+    id: "yunus-kosedag", kind: "region",
     aliases: { en: ["Kösedağ"], ar: ["كوسه داغ"] },
     copy: {
       en: { title: "Kösedağ", kindLabel: "Mountain", periodLabel: "Battle of 1243", summary: "Kösedağ is a mountain about 80 km north-east of Sivas. Here, in 1243, the Mongols defeated the army of the Anatolian Seljuks.", more: "This defeat opened the way for the Mongols into Anatolia." },

@@ -405,6 +405,7 @@ export const PlacesPage = ({
                     label={selectedCopy.title}
                     markers={markers}
                     onMarkerClick={id => select(id)}
+                    zoomable
                     className={mapClassName}
                     style={mapStyle}
                   />

@@ -41,7 +41,9 @@ test.describe('Arabic', () => {
     const story = page.locator('main').first();
     const harakat = /[\u064B-\u0652]/;
     await expect(story).toContainText(harakat);
-    const before = await story.innerText();
+    // The audio player's time can change while the test runs (its file finishes loading), so it is left out.
+    const text = async () => (await story.innerText()).replace(/[0-9٠-٩]+:[0-9٠-٩]{2}/g, '');
+    const before = await text();
 
     await page.locator('[data-reader-settings-button]').click();
     await page.locator('[data-harakat-toggle]').click();
@@ -49,7 +51,7 @@ test.describe('Arabic', () => {
     await expect.poll(async () => harakat.test(await story.innerText())).toBe(false);
 
     await page.locator('[data-harakat-toggle]').click();
-    await expect.poll(async () => story.innerText()).toBe(before);
+    await expect.poll(text).toBe(before);
     expect(errors).toEqual([]);
   });
 
