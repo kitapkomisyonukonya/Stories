@@ -1315,8 +1315,8 @@ export const StoryMapPage: React.FC<StoryMapPageProps> = ({ page }) => {
               );
             })}
 
-            {/* Sea names */}
-            {map.seas.map(sea => {
+            {/* Sea names (hidden in the challenge, like every other name, so a question never shows its answer) */}
+            {!challengeOn && map.seas.map(sea => {
               const [x, y] = BASE.project(sea.lon, sea.lat);
               return (
                 <text key={sea.id} transform={`translate(${x} ${y}) scale(${px})`} textAnchor="middle" fill={PALETTE.sea} fontSize={14} fontStyle={language === 'ar' ? 'normal' : 'italic'} letterSpacing={language === 'ar' ? 0 : 1.5} style={{ fontFamily: svgFont }} opacity={0.9}>
@@ -1339,8 +1339,8 @@ export const StoryMapPage: React.FC<StoryMapPageProps> = ({ page }) => {
               <MapEventScene key={`scene-${activeEvent.year}`} scene={activeEvent.scene} map={map} base={BASE} px={px} uid={`${uid}-s${activeEvent.year}`} />
             )}
 
-            {/* Reference towns */}
-            {map.towns.map(town => {
+            {/* Reference towns (hidden in the challenge: the map asks for some of them) */}
+            {!challengeOn && map.towns.map(town => {
               const [x, y] = BASE.project(town.lon, town.lat);
               return (
                 <g key={town.id} transform={`translate(${x} ${y}) scale(${px})`}>
