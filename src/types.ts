@@ -228,6 +228,10 @@ export interface TeacherGuideSection {
   reflectionPrompt?: string;
   kinestheticActivities?: string[];
   globalCitizenship?: string[];
+  // Chapter-specific intercultural support (EPG: intercultural competence):
+  // what to notice in the chapter, a comparison with learners' own and other
+  // cultures, and a point of view or caution for the discussion.
+  interculturalFocus?: { notice: string; compare: string; perspective: string };
   extraResources?: {
     worksheets?: string[];
     links?: { label: string; url: string }[];
@@ -253,6 +257,11 @@ export interface ProfessionalDevelopment {
   peerObservation: { chapter: string; focus: string; lookFor: string[] }[];
   reflectionLog: string[];
   standardisation: string[];
+  // Book-specific self-assessment against the EPG areas, one small classroom
+  // enquiry and ways of working with colleagues.
+  selfAssessment?: { area: string; prompt: string }[];
+  actionResearch?: { question: string; steps: string[] };
+  collaboration?: string[];
 }
 
 export interface TeacherGuideMetadata {

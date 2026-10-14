@@ -611,6 +611,26 @@ entries.set(key, { word, definition });
                         </div>
                       )}
 
+                      {section.interculturalFocus && (
+                        <div className="space-y-3 sm:space-y-4 border-t border-gold/10 pt-4 sm:pt-8" data-tg-intercultural>
+                          <h5 className="font-display text-[13px] sm:text-[15px] text-gold uppercase tracking-widest flex items-center gap-2 sm:gap-3">
+                            <Globe size={16} className="text-gold shrink-0" /> {t('tg.intercultural')}
+                          </h5>
+                          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4">
+                            {([
+                              ['tg.icNotice', section.interculturalFocus.notice],
+                              ['tg.icCompare', section.interculturalFocus.compare],
+                              ['tg.icPerspective', section.interculturalFocus.perspective],
+                            ] as const).map(([label, text]) => (
+                              <div key={label} className="p-3 bg-white/5 rounded-lg border border-gold/5">
+                                <span className="text-[10px] text-gold/60 uppercase font-display block mb-2">{t(label)}</span>
+                                <p className="font-serif text-[13px] sm:text-[15px] text-white leading-relaxed">{text}</p>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
                       {/* New Assessment & Kinesthetic Fields in Chapter Support */}
                       {(section.assessmentTools || section.kinestheticActivities) && (
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-10 border-t border-gold/10 pt-4 sm:pt-8">
@@ -1518,6 +1538,19 @@ entries.set(key, { word, definition });
           <div className="space-y-6 sm:space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500" data-tg-development>
             <h3 className="font-display text-xl sm:text-3xl text-parchment border-b border-gold/20 pb-3 sm:pb-4">{t('tg.development')}</h3>
             <p className="font-serif text-white text-[13px] sm:text-[17px] leading-relaxed">{dev.intro}</p>
+            {dev.selfAssessment?.length ? (
+              <div className="space-y-4" data-tg-self-assessment>
+                <h4 className="font-display text-parchment text-base sm:text-xl">{t('tg.selfAssessment')}</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+                  {dev.selfAssessment.map(item => (
+                    <div key={item.area} className="bg-white/5 p-3 sm:p-4 rounded-xl border border-gold/10">
+                      <p className="font-display text-gold text-[12px] sm:text-[13px] uppercase tracking-widest">{item.area}</p>
+                      <p className="mt-1.5 font-serif text-white text-[13px] sm:text-[15px] leading-relaxed">{item.prompt}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ) : null}
             <div className="space-y-4">
               <h4 className="font-display text-parchment text-base sm:text-xl">{t('tg.peerObservation')}</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -1533,6 +1566,16 @@ entries.set(key, { word, definition });
               </div>
             </div>
             {listBox(t('tg.reflectionLog'), dev.reflectionLog)}
+            {dev.actionResearch && (
+              <div className="bg-white/5 p-4 sm:p-6 rounded-2xl border border-gold/10" data-tg-action-research>
+                <h4 className="font-display text-gold text-[13px] sm:text-[15px] uppercase tracking-widest mb-3">{t('tg.actionResearch')}</h4>
+                <p className="font-serif text-parchment text-[13px] sm:text-[15px] leading-relaxed mb-3">{dev.actionResearch.question}</p>
+                <ol className="space-y-2 font-serif text-white text-[13px] sm:text-[15px] leading-relaxed list-decimal ps-5">
+                  {dev.actionResearch.steps.map(step => <li key={step}>{step}</li>)}
+                </ol>
+              </div>
+            )}
+            {dev.collaboration?.length ? listBox(t('tg.collaboration'), dev.collaboration) : null}
             {listBox(t('tg.standardisation'), dev.standardisation)}
           </div>
         );
