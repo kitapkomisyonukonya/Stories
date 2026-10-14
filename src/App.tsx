@@ -1,4 +1,4 @@
-import { appImage } from './lib/mediaImage';
+import { appImage, usePreloadImage } from './lib/mediaImage';
 import { usePreloadAudio } from './components/book/ChapterAudio';
 import React, { Suspense, lazy, useState, useEffect, useMemo, useRef } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
@@ -159,6 +159,11 @@ const AppContent = () => {
     [currentBook, currentPageIndex],
   );
   usePreloadAudio(nextChapterAudio);
+  const nextChapterImage = useMemo(
+    () => currentBook?.pages.slice(currentPageIndex + 1).find(page => page.type === 'story' && page.image)?.image,
+    [currentBook, currentPageIndex],
+  );
+  usePreloadImage(nextChapterImage);
   const isFinalChallengePage = currentPage?.type === 'final-challenge';
   // Pages slide the way the reader turns them (forward = towards the reading direction), like a book.
   const reduceMotion = useReducedMotion();

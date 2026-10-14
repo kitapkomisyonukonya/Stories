@@ -406,10 +406,10 @@ export const StoryPage = ({
                     ))}
                   </div>
                 </div>
-                <div className={cn(
-                  "absolute inset-0 z-10 bg-gradient-to-t to-transparent pointer-events-none",
-                  phoneCover ? "from-black/75 via-black/10" : "from-wood/40"
-                )} />
+                {/* Only the phone writes the chapter title on the picture: a light shade under the title keeps it readable */}
+                {phoneCover && (
+                  <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/60 from-0% via-black/15 via-30% to-transparent to-45% pointer-events-none" />
+                )}
                 {phoneCover && (
                   <div className={cn("absolute inset-x-0 bottom-0 z-[65] px-4 pb-3.5 text-white pointer-events-none", isRTL && "text-right")}>
                     <p className={cn("font-display font-semibold uppercase text-white/80", language === 'ar' ? "text-[13px]" : "text-[11px] tracking-[0.16em]")}>
@@ -496,7 +496,6 @@ export const StoryPage = ({
                         ))}
                       </div>
                     </div>
-                    <div className="absolute inset-0 z-10 bg-gradient-to-t from-wood/40 to-transparent pointer-events-none" />
                   </div>
                 </motion.div>
               )}
