@@ -581,6 +581,30 @@ entries.set(key, { word, definition });
                         </div>
                       </div>
 
+                      {section.classroomManagement && (
+                        <div className="space-y-3 sm:space-y-4 border-t border-gold/10 pt-4 sm:pt-8">
+                          <h5 className="font-display text-[13px] sm:text-[15px] text-gold uppercase tracking-widest flex items-center gap-2 sm:gap-3">
+                            <Users size={16} className="text-gold shrink-0" /> {t('tg.classroomManagement')}
+                          </h5>
+                          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4">
+                            <div className="p-3 bg-white/5 rounded-lg border border-gold/5">
+                              <span className="text-[10px] text-gold/60 uppercase font-display block mb-2">{t('tg.instructions')}</span>
+                              <p className="font-serif text-[13px] sm:text-[15px] text-white leading-relaxed">{section.classroomManagement.instructions}</p>
+                            </div>
+                            <div className="p-3 bg-white/5 rounded-lg border border-gold/5">
+                              <span className="text-[10px] text-gold/60 uppercase font-display block mb-2">{t('tg.checkQuestions')}</span>
+                              <ul className="space-y-1 font-serif text-[13px] sm:text-[15px] text-white">
+                                {section.classroomManagement.checkQuestions.map((q, i) => <li key={i}>• {q}</li>)}
+                              </ul>
+                            </div>
+                            <div className="p-3 bg-white/5 rounded-lg border border-gold/5">
+                              <span className="text-[10px] text-gold/60 uppercase font-display block mb-2">{t('tg.monitoring')}</span>
+                              <p className="font-serif text-[13px] sm:text-[15px] text-white leading-relaxed">{section.classroomManagement.monitoring}</p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+
                       {/* New Assessment & Kinesthetic Fields in Chapter Support */}
                       {(section.assessmentTools || section.kinestheticActivities) && (
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-10 border-t border-gold/10 pt-4 sm:pt-8">
@@ -590,7 +614,20 @@ entries.set(key, { word, definition });
                                 <Award size={16} className="text-gold shrink-0" /> {t('tg.assessmentTools')}
                               </h5>
                               <div className="space-y-3 sm:space-y-4">
-                                {section.assessmentTools.rubric && (
+                                {section.assessmentTools.rubricLevels?.length ? (
+                                  <div>
+                                    <span className="text-[10px] text-gold/60 uppercase font-display block mb-2">{t('tg.rubricLevels')}</span>
+                                    <div className="space-y-2">
+                                      {section.assessmentTools.rubricLevels.map((row, i) => (
+                                        <div key={i} className="p-2.5 bg-white/5 rounded-lg border border-gold/10">
+                                          <p className="font-display text-[11px] sm:text-xs text-gold mb-1">{row.criterion}</p>
+                                          <p className="font-serif text-[12px] sm:text-sm text-white"><span className="text-gold/70">{t('tg.secure')}:</span> {row.secure}</p>
+                                          <p className="font-serif text-[12px] sm:text-sm text-white/80"><span className="text-gold/70">{t('tg.notYet')}:</span> {row.notYet}</p>
+                                        </div>
+                                      ))}
+                                    </div>
+                                  </div>
+                                ) : section.assessmentTools.rubric && (
                                   <div>
                                     <span className="text-[10px] text-gold/60 uppercase font-display block mb-2">{t('tg.sampleRubric')}</span>
                                     <div className="flex flex-wrap gap-2">

@@ -201,9 +201,19 @@ export interface TeacherGuideSection {
   expectedResponses?: string[];
   transferTask?: string;
   teacherReflection?: string;
+  // Chapter-specific instructions, instruction-check questions and what to
+  // watch for while learners work (EPG: interaction management & monitoring).
+  classroomManagement?: {
+    instructions: string;
+    checkQuestions: string[];
+    monitoring: string;
+  };
   assessmentTools?: {
     rubric?: string[];
     exitTicket?: string[];
+    // One row per rubric item: what secure performance looks like and the
+    // support move when it is not there yet.
+    rubricLevels?: { criterion: string; secure: string; notYet: string }[];
   };
   // Self-study-only heading fields. They are optional so the same simple
   // chapter data shape can be rendered by both guide UIs without generators.
