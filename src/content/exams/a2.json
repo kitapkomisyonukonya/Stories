@@ -1,0 +1,88 @@
+{
+ "level": "A2",
+ "version": 1,
+ "title": "End-of-Level Test A2",
+ "minutes": { "reading": 25, "language": 15, "writing": 20, "speaking": 6 },
+ "cefr": [
+  { "part": "reading", "scale": "Overall reading comprehension", "descriptor": "Can understand short, simple texts containing the highest frequency vocabulary, including a proportion of shared international vocabulary items." },
+  { "part": "reading", "scale": "Reading for orientation", "descriptor": "Can find specific, predictable information in simple everyday material such as advertisements, prospectuses, menus, reference lists and timetables." },
+  { "part": "writing", "scale": "Overall written production", "descriptor": "Can write a series of simple phrases and sentences linked with simple connectors like “and”, “but” and “because”." },
+  { "part": "speaking", "scale": "Overall spoken production", "descriptor": "Can give a simple description or presentation of people, living or working conditions, daily routines, likes/dislikes, etc. as a short series of simple phrases and sentences linked into a list." }
+ ],
+ "reading": {
+  "instructions": "Read the two texts. Choose the best answer for each question.",
+  "texts": [
+   {
+    "id": "r1",
+    "title": "A Day at Sultanhanı",
+    "body": "Last spring, my class went on a school trip to Sultanhanı. It is a small town near Aksaray, in the middle of Turkey. There is a very old caravanserai there. The Seljuk sultan Alaeddin Keykubad built it in 1229, so it is almost 800 years old.\n\nA caravanserai was a kind of hotel for travelers. In the past, merchants traveled with camels and carried silk, spices and other goods. Every evening they needed a safe place to sleep. They stopped at a caravanserai, and their animals rested there too.\n\nWhen we arrived, our teacher showed us the big stone gate. It was taller than my house! Inside, there was a large courtyard with a small mosque in the middle. Then we walked into a long, dark hall. It was cold inside, but it was very quiet and beautiful.\n\nI took a lot of photos. My favorite part was the gate because it had beautiful stone patterns. Next year, I am going to visit another caravanserai with my family.",
+    "items": [
+     { "id": "1", "stem": "Where is Sultanhanı?", "options": ["in a big city", "near the sea", "near Aksaray"], "answer": 2, "skill": "Reading for information", "target": "Find a stated fact" },
+     { "id": "2", "stem": "Who built the caravanserai?", "options": ["a merchant", "a Seljuk sultan", "the writer’s teacher"], "answer": 1, "skill": "Reading for information", "target": "Find a stated fact" },
+     { "id": "3", "stem": "Why did merchants stop at a caravanserai?", "options": ["to sleep in a safe place", "to buy camels", "to visit the mosque"], "answer": 0, "skill": "Reading for information", "target": "Understand a reason" },
+     { "id": "4", "stem": "What was in the middle of the courtyard?", "options": ["a long hall", "a big gate", "a small mosque"], "answer": 2, "skill": "Reading for information", "target": "Find a stated fact" },
+     { "id": "5", "stem": "What does the writer say about the hall?", "options": ["It was hot and noisy.", "It was cold but beautiful.", "It was small and new."], "answer": 1, "skill": "Reading for information", "target": "Understand a description" },
+     { "id": "6", "stem": "What is the writer going to do next year?", "options": ["visit another caravanserai", "build a house", "take photos at school"], "answer": 0, "skill": "Reading for information", "target": "Understand a future plan" }
+    ]
+   },
+   {
+    "id": "r2",
+    "title": "Riverside Library: Story Club",
+    "body": "RIVERSIDE LIBRARY\nStory Club for Young Readers\n\nDo you like stories? Come and join our Story Club!\n\nWhen: Every Saturday, from 10:00 to 11:30\nWhere: Room 3, second floor\nAge: 12–15\nCost: Free\n\nAt the club, we read a short story in English together. Then we talk about it and play word games. In the last week of every month, each member tells a story to the group.\n\nWhat to bring: a notebook and a pen. You do not need to bring a book. The library gives you the stories.\n\nHow to join: Write your name on the list at the information desk. Please join before 1 November. There are only 20 places.\n\nThe club starts on 8 November.",
+    "items": [
+     { "id": "7", "stem": "When does the club meet?", "options": ["every Friday", "every Saturday", "every day"], "answer": 1, "skill": "Reading for orientation", "target": "Find a time in a notice" },
+     { "id": "8", "stem": "Who can join the club?", "options": ["people of all ages", "only teachers", "young people aged 12 to 15"], "answer": 2, "skill": "Reading for orientation", "target": "Find a condition in a notice" },
+     { "id": "9", "stem": "How much does the club cost?", "options": ["20 lira", "nothing", "10 lira"], "answer": 1, "skill": "Reading for orientation", "target": "Find a price in a notice" },
+     { "id": "10", "stem": "What happens in the last week of every month?", "options": ["Each member tells a story.", "The club goes on a trip.", "Members buy new books."], "answer": 0, "skill": "Reading for information", "target": "Understand a routine" },
+     { "id": "11", "stem": "What do members need to bring?", "options": ["a book", "a notebook and a pen", "a computer"], "answer": 1, "skill": "Reading for orientation", "target": "Find specific information" },
+     { "id": "12", "stem": "Which sentence is true?", "options": ["The club starts on 1 November.", "The club meets on the first floor.", "The club has only 20 places."], "answer": 2, "skill": "Reading for orientation", "target": "Check details against the notice" }
+    ]
+   }
+  ]
+ },
+ "language": {
+  "instructions": "Choose the word or words that complete each sentence.",
+  "items": [
+   { "id": "13", "stem": "Last year we ___ to Istanbul by train.", "options": ["go", "went", "going"], "answer": 1, "skill": "Grammatical accuracy", "target": "Past simple, irregular verbs" },
+   { "id": "14", "stem": "I ___ a book when my friend called me.", "options": ["was reading", "read", "am reading"], "answer": 0, "skill": "Grammatical accuracy", "target": "Past continuous with when" },
+   { "id": "15", "stem": "The caravanserai is ___ than my school.", "options": ["oldest", "more old", "older"], "answer": 2, "skill": "Grammatical accuracy", "target": "Comparative adjectives" },
+   { "id": "16", "stem": "This is the ___ mosque in our town.", "options": ["big", "biggest", "bigger"], "answer": 1, "skill": "Grammatical accuracy", "target": "Superlative adjectives" },
+   { "id": "17", "stem": "Next summer, we ___ visit my grandparents in Erzurum.", "options": ["are going to", "went", "were"], "answer": 0, "skill": "Grammatical accuracy", "target": "Going to for plans" },
+   { "id": "18", "stem": "You ___ wear a helmet when you ride a bike. It is the rule.", "options": ["can", "must", "would"], "answer": 1, "skill": "Grammatical accuracy", "target": "Must for obligation" },
+   { "id": "19", "stem": "I can’t come to the park. I ___ do my homework.", "options": ["has to", "having to", "have to"], "answer": 2, "skill": "Grammatical accuracy", "target": "Have to" },
+   { "id": "20", "stem": "My brother ___ swim when he was five.", "options": ["could", "can", "must"], "answer": 0, "skill": "Grammatical accuracy", "target": "Could for past ability" },
+   { "id": "21", "stem": "I was tired, ___ I went to bed early.", "options": ["because", "so", "but"], "answer": 1, "skill": "Coherence", "target": "So for result" },
+   { "id": "22", "stem": "There ___ many people at the market yesterday.", "options": ["were", "was", "is"], "answer": 0, "skill": "Grammatical accuracy", "target": "There was / there were" },
+   { "id": "23", "stem": "We have lunch ___ 12 o’clock.", "options": ["on", "in", "at"], "answer": 2, "skill": "Grammatical accuracy", "target": "Prepositions of time" },
+   { "id": "24", "stem": "Is there ___ milk in the fridge?", "options": ["many", "a", "any"], "answer": 2, "skill": "Grammatical accuracy", "target": "Any with uncountable nouns" },
+   { "id": "25", "stem": "If it rains tomorrow, we ___ stay at home.", "options": ["did", "will", "would"], "answer": 1, "skill": "Grammatical accuracy", "target": "First conditional" },
+   { "id": "26", "stem": "My teacher wants us ___ a story in English.", "options": ["write", "to write", "writing"], "answer": 1, "skill": "Grammatical accuracy", "target": "Want + person + to" },
+   { "id": "27", "stem": "Merchants carried silk and spices on their ___.", "options": ["camels", "tables", "letters"], "answer": 0, "skill": "Vocabulary range", "target": "Topic vocabulary: travel and trade" },
+   { "id": "28", "stem": "We ___ a lot of photos on our trip.", "options": ["made", "did", "took"], "answer": 2, "skill": "Vocabulary control", "target": "Collocation: take photos" }
+  ]
+ },
+ "writing": {
+  "instructions": "Write an email to a friend about a visit to an old place.",
+  "prompts": ["Where did you go, and who did you go with?", "What did you see there?", "What did you like, and why?"],
+  "words": "50–70 words",
+  "rubric": [
+   { "criterion": "Task", "bands": [ { "score": 5, "descriptor": "Covers all three points clearly. The length is about right." }, { "score": 3, "descriptor": "Covers two points, or all three very briefly." }, { "score": 1, "descriptor": "Covers one point, or the message is hard to follow." } ] },
+   { "criterion": "Organisation", "bands": [ { "score": 5, "descriptor": "Sentences are linked with and, but, because and then. The email has an opening and a closing." }, { "score": 3, "descriptor": "Some sentences are linked. The order is clear." }, { "score": 1, "descriptor": "Single words or sentences with no links." } ] },
+   { "criterion": "Grammar", "bands": [ { "score": 5, "descriptor": "Past simple and present forms are mostly correct. Errors do not stop understanding." }, { "score": 3, "descriptor": "Several errors, but the message is clear." }, { "score": 1, "descriptor": "Errors often stop understanding." } ] },
+   { "criterion": "Vocabulary", "bands": [ { "score": 5, "descriptor": "Enough everyday words for the task, mostly spelled correctly." }, { "score": 3, "descriptor": "Limited words and some repetition, but the meaning is clear." }, { "score": 1, "descriptor": "Very few words. The meaning is often unclear." } ] }
+  ]
+ },
+ "speaking": {
+  "parts": [
+   { "title": "Part 1: Questions about you", "minutes": 2, "instructions": "The teacher asks you some questions. Answer in full sentences.", "prompts": ["Where do you live? Tell me about your town.", "What do you usually do after school?", "What did you do last weekend?", "What is your favorite place in your town? Why?"] },
+   { "title": "Part 2: Talk about a visit", "minutes": 2, "instructions": "Talk about a trip or a visit you remember.", "prompts": ["Where and when did you go?", "Who did you go with?", "What did you do there?", "Did you like it? Why or why not?"] }
+  ],
+  "rubric": [
+   { "criterion": "Range", "bands": [ { "score": 5, "descriptor": "Uses simple everyday words and phrases for the task without long searches." }, { "score": 3, "descriptor": "Uses a small set of words and phrases. Sometimes needs help." }, { "score": 1, "descriptor": "Uses single words. Often cannot continue without help." } ] },
+   { "criterion": "Accuracy", "bands": [ { "score": 5, "descriptor": "Simple structures are mostly correct. Past forms are used for past events." }, { "score": 3, "descriptor": "Basic mistakes, but the meaning is usually clear." }, { "score": 1, "descriptor": "Frequent mistakes make the meaning unclear." } ] },
+   { "criterion": "Fluency", "bands": [ { "score": 5, "descriptor": "Speaks in short linked sentences. Pauses do not stop the talk." }, { "score": 3, "descriptor": "Speaks in short phrases with clear pauses." }, { "score": 1, "descriptor": "Long pauses. Speaks in single words." } ] },
+   { "criterion": "Interaction", "bands": [ { "score": 5, "descriptor": "Answers questions directly and can ask for repetition when needed." }, { "score": 3, "descriptor": "Answers simple questions with some help." }, { "score": 1, "descriptor": "Answers only with a lot of help." } ] }
+  ]
+ },
+ "scoring": { "objectiveMax": 28, "objectivePass": 17, "writingMax": 20, "writingPass": 12, "speakingMax": 20, "speakingPass": 12 }
+}

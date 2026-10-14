@@ -17,6 +17,7 @@ import {
   GraduationCap,
   BookMarked,
   Layers,
+  Medal,
   Notepad,
   ProjectorScreen,
   Certificate,
@@ -144,6 +145,18 @@ export const SECTION_ICONS = {
     en: 'Level test',
     ar: 'اخْتِبَارُ المُسْتَوَى',
     hint: { en: 'Ten short questions suggest a level for you.', ar: 'عَشَرَةُ أَسْئِلَةٍ قَصِيرَةٍ تَقْتَرِحُ لَكَ مُسْتَوًى.' },
+  },
+  levelExam: {
+    icon: ClipboardList,
+    en: 'End-of-level test',
+    ar: 'اخْتِبَارُ نِهَايَةِ المُسْتَوَى',
+    hint: { en: 'Reading, language, writing and speaking at A2, B1 or B2.', ar: 'القِرَاءَةُ وَاللُّغَةُ وَالكِتَابَةُ وَالمُحَادَثَةُ فِي A2 أَوْ B1 أَوْ B2.' },
+  },
+  scoreExam: {
+    icon: Medal,
+    en: 'Score a test',
+    ar: 'صَحِّحِ اخْتِبَارًا',
+    hint: { en: 'Type the test code, then score writing and speaking.', ar: 'اكْتُبْ رَمْزَ الاخْتِبَارِ، ثُمَّ قَيِّمِ الكِتَابَةَ وَالمُحَادَثَةَ.' },
   },
   lessonCard: {
     icon: Notepad,

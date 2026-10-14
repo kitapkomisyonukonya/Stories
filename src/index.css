@@ -148,6 +148,14 @@
   .learner-name {
     font-family: "Poppins", sans-serif;
   }
+
+  /* End-of-level tests are English papers: their texts and items keep Latin type and Latin digits in the Arabic interface. */
+  .exam-latin {
+    --font-display: "Poppins", sans-serif;
+    --font-serif: "Poppins", sans-serif;
+    --font-sans: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif !important;
+  }
 }
 
 @layer components {

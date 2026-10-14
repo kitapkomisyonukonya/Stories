@@ -241,7 +241,23 @@ export interface RubricRow {
   developing: string;
 }
 
+/** Book-level link between the chapters and the CEFR descriptors of the end-of-level test. */
+export interface CefrProfile {
+  intro: string;
+  rows: { scale: string; descriptor: string; chapters: string; practice: string[] }[];
+  test: { title: string; level: Level; when: string; parts: string[] };
+}
+
+export interface ProfessionalDevelopment {
+  intro: string;
+  peerObservation: { chapter: string; focus: string; lookFor: string[] }[];
+  reflectionLog: string[];
+  standardisation: string[];
+}
+
 export interface TeacherGuideMetadata {
+  cefrProfile?: CefrProfile;
+  professionalDevelopment?: ProfessionalDevelopment;
   title?: string;
   subtitle?: string;
   level?: string;
@@ -355,4 +371,42 @@ export interface ProphetStory {
   imageSmall?: string;
   availableLevels: Level[];
   isComingSoon?: boolean;
+}
+
+// End-of-level tests (src/content/exams). English only; every item names the CEFR scale it samples.
+export interface ExamItem {
+  id: string;
+  stem: string;
+  options: string[];
+  answer: number;
+  skill: string;
+  target: string;
+}
+
+export interface ExamRubricCriterion {
+  criterion: string;
+  bands: { score: number; descriptor: string }[];
+}
+
+export interface LevelExam {
+  level: Level;
+  version: number;
+  title: string;
+  minutes: { reading: number; language: number; writing: number; speaking: number };
+  cefr: { part: 'reading' | 'writing' | 'speaking'; scale: string; descriptor: string }[];
+  reading: { instructions: string; texts: { id: string; title: string; body: string; items: ExamItem[] }[] };
+  language: { instructions: string; items: ExamItem[] };
+  writing: { instructions: string; prompts: string[]; words: string; rubric: ExamRubricCriterion[] };
+  speaking: {
+    parts: { title: string; minutes: number; instructions: string; prompts: string[] }[];
+    rubric: ExamRubricCriterion[];
+  };
+  scoring: {
+    objectiveMax: number;
+    objectivePass: number;
+    writingMax: number;
+    writingPass: number;
+    speakingMax: number;
+    speakingPass: number;
+  };
 }

@@ -12,9 +12,9 @@ import { hasHarakat, stripHarakat, useHarakatShown } from '../lib/arabicHarakat'
  * Only what is on screen changes: the content keeps its own text, so leaving Arabic or turning harakat
  * back on restores every text exactly. React never reads text back from the page, so it simply writes
  * its own text again on its next update, and the filter changes that too. Inputs and the content panel's
- * preview are left alone; Qur'an verses keep their harakat.
+ * preview are left alone, and so are the English end-of-level test papers (.exam-latin); Qur'an verses keep their harakat.
  */
-const SKIP = 'script, style, textarea, input, [contenteditable="true"]';
+const SKIP = 'script, style, textarea, input, [contenteditable="true"], .exam-latin';
 const SKIP_STRIP = '.quran-verse, [data-keep-harakat]';
 const ARABIC_DIGITS = '٠١٢٣٤٥٦٧٨٩';
 

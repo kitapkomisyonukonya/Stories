@@ -1,0 +1,87 @@
+{
+ "level": "B1",
+ "version": 1,
+ "title": "End-of-Level Test B1",
+ "minutes": { "reading": 30, "language": 15, "writing": 25, "speaking": 8 },
+ "cefr": [
+  { "part": "reading", "scale": "Overall reading comprehension", "descriptor": "Can read straightforward factual texts on subjects related to his/her field and interest with a satisfactory level of comprehension." },
+  { "part": "writing", "scale": "Overall written production", "descriptor": "Can write straightforward connected texts on a range of familiar subjects within his field of interest, by linking a series of shorter discrete elements into a linear sequence." },
+  { "part": "speaking", "scale": "Overall spoken production", "descriptor": "Can reasonably fluently sustain a straightforward description of one of a variety of subjects within his/her field of interest, presenting it as a linear sequence of points." }
+ ],
+ "reading": {
+  "instructions": "Read the two texts. Choose the best answer, or decide if each sentence is true.",
+  "texts": [
+   {
+    "id": "r1",
+    "title": "Ibn Battuta: A Life on the Road",
+    "body": "In 1325, a young man of twenty-one left his home in Tangier, in Morocco. His name was Ibn Battuta, and he wanted to perform the Hajj in Mecca. He did not know then that he would not return home for almost twenty-five years.\n\nAfter the Hajj, Ibn Battuta decided to keep traveling. He visited Egypt, Syria, Iraq and Persia, and later he sailed along the coast of East Africa. In the 1330s he traveled across Anatolia, where he stayed with groups of young men called the Akhis. He wrote that they welcomed strangers into their lodges, gave them food and a place to sleep, and never asked for money. From Anatolia he went on to Central Asia, India and even China.\n\nHis journeys were not always safe. He was attacked by robbers, he lost everything he owned when his ships sank, and he was sometimes ill for weeks. However, he also met rulers, scholars and ordinary people, and he worked as a judge in India and in the Maldives.\n\nWhen he finally came back to Morocco, the sultan asked him to describe his travels. A young scholar, Ibn Juzayy, wrote down his stories, and the book became known as the Rihla. Historians believe that Ibn Battuta traveled more than 100,000 kilometers, more than almost any other person before the age of trains and steamships. Today his book is still one of the most important sources for life in the fourteenth-century Muslim world.",
+    "items": [
+     { "id": "1", "stem": "Why did Ibn Battuta leave Tangier in 1325?", "options": ["to find work as a judge", "to perform the Hajj", "to visit the sultan", "to write a book"], "answer": 1, "skill": "Reading for information and argument", "target": "Find a stated purpose" },
+     { "id": "2", "stem": "What does the text say about the Akhis?", "options": ["They sold food to travelers.", "They asked the sultan for money.", "They gave strangers food and a place to sleep for free.", "They traveled with Ibn Battuta to China."], "answer": 2, "skill": "Reading for information and argument", "target": "Understand a detailed description" },
+     { "id": "3", "stem": "Which danger is NOT mentioned in the text?", "options": ["robbers", "ships that sank", "illness", "a war"], "answer": 3, "skill": "Reading for information and argument", "target": "Check a list against the text" },
+     { "id": "4", "stem": "What work did Ibn Battuta do in India and the Maldives?", "options": ["He was a judge.", "He was a trader.", "He was a teacher.", "He was a sailor."], "answer": 0, "skill": "Reading for information and argument", "target": "Find a stated fact" },
+     { "id": "5", "stem": "Who wrote down the Rihla?", "options": ["Ibn Battuta himself", "the sultan of Morocco", "a young scholar called Ibn Juzayy", "a judge in the Maldives"], "answer": 2, "skill": "Reading for information and argument", "target": "Understand who did what" },
+     { "id": "6", "stem": "What is the main idea of the last paragraph?", "options": ["Trains made travel easier.", "The sultan did not believe his stories.", "He traveled only by land.", "His book is still an important source today."], "answer": 3, "skill": "Reading for information and argument", "target": "Identify the main point of a paragraph" }
+    ]
+   },
+   {
+    "id": "r2",
+    "title": "Saturdays at the Community Kitchen",
+    "body": "Last year my aunt asked me to help at the community kitchen in our neighborhood. I said yes, but to be honest, I only wanted to make her happy. I thought I would be bored, and I was a little nervous about meeting strangers.\n\nOn my first Saturday I washed dishes for three hours. My hands were red and my back hurt. But at lunchtime something changed. An old man thanked me for the soup and told me about his life. He used to be a teacher, and he still remembered the names of all his students. I listened to him for half an hour and forgot about the time.\n\nNow I go to the kitchen every Saturday. I have learned how to cook for sixty people, and I have made friends of all ages. My English has improved too, because two of the volunteers come from other countries and we often speak English together.\n\nSome of my friends say that volunteering is a waste of time and that students should study for exams instead. I understand them, but I don’t agree. I study on Sundays, and Saturday is the day I feel most useful. If you are not sure, try it once. You might be surprised, just like I was.\n\nZeynep, 16",
+    "items": [
+     { "id": "7", "stem": "At first, Zeynep wanted to volunteer because she enjoys cooking.", "options": ["True", "False", "Not given"], "answer": 1, "skill": "Reading correspondence", "target": "Understand a stated reason" },
+     { "id": "8", "stem": "On her first Saturday, Zeynep washed dishes for three hours.", "options": ["True", "False", "Not given"], "answer": 0, "skill": "Reading for information and argument", "target": "Find a stated fact" },
+     { "id": "9", "stem": "The old man comes to the kitchen every Saturday.", "options": ["True", "False", "Not given"], "answer": 2, "skill": "Reading for information and argument", "target": "Tell stated from unstated information" },
+     { "id": "10", "stem": "Zeynep’s aunt is the manager of the community kitchen.", "options": ["True", "False", "Not given"], "answer": 2, "skill": "Reading for information and argument", "target": "Tell stated from unstated information" },
+     { "id": "11", "stem": "Zeynep speaks English with some of the other volunteers.", "options": ["True", "False", "Not given"], "answer": 0, "skill": "Reading for information and argument", "target": "Find a stated fact" },
+     { "id": "12", "stem": "Zeynep agrees with friends who say volunteering wastes time.", "options": ["True", "False", "Not given"], "answer": 1, "skill": "Reading for information and argument", "target": "Understand the writer’s opinion" }
+    ]
+   }
+  ]
+ },
+ "language": {
+  "instructions": "Choose the word or words that complete each sentence.",
+  "items": [
+   { "id": "13", "stem": "When we arrived at the station, the train ___.", "options": ["already left", "had already left", "has already left", "was already leaving"], "answer": 1, "skill": "Grammatical accuracy", "target": "Past perfect" },
+   { "id": "14", "stem": "I ___ to Konya three times, but I have never been to Bursa.", "options": ["have been", "went", "was", "had gone"], "answer": 0, "skill": "Grammatical accuracy", "target": "Present perfect for experience" },
+   { "id": "15", "stem": "My grandfather ___ live in a village, but now he lives in the city.", "options": ["is used to", "uses to", "used to", "was using"], "answer": 2, "skill": "Grammatical accuracy", "target": "Used to for past habits" },
+   { "id": "16", "stem": "The old bridge ___ in the sixteenth century.", "options": ["built", "was built", "has built", "is building"], "answer": 1, "skill": "Grammatical accuracy", "target": "Past simple passive" },
+   { "id": "17", "stem": "The woman ___ helped us at the museum was very kind.", "options": ["which", "whose", "what", "who"], "answer": 3, "skill": "Grammatical accuracy", "target": "Defining relative clauses" },
+   { "id": "18", "stem": "He said that he ___ tired after the long journey.", "options": ["was", "is", "will be", "has been"], "answer": 0, "skill": "Grammatical accuracy", "target": "Reported speech" },
+   { "id": "19", "stem": "___ it was raining, we went for a walk.", "options": ["However", "Despite", "Although", "Because"], "answer": 2, "skill": "Coherence", "target": "Although for contrast" },
+   { "id": "20", "stem": "She saved money ___ she could buy a new bike.", "options": ["because", "so that", "although", "unless"], "answer": 1, "skill": "Coherence", "target": "So that for purpose" },
+   { "id": "21", "stem": "If I ___ more time, I would learn another language.", "options": ["will have", "would have", "have", "had"], "answer": 3, "skill": "Grammatical accuracy", "target": "Second conditional" },
+   { "id": "22", "stem": "I really enjoy ___ old books.", "options": ["read", "to read", "reading", "reads"], "answer": 2, "skill": "Grammatical accuracy", "target": "Verb + -ing" },
+   { "id": "23", "stem": "My parents let me ___ up late on Saturdays.", "options": ["to stay", "staying", "stayed", "stay"], "answer": 3, "skill": "Grammatical accuracy", "target": "Let + object + base verb" },
+   { "id": "24", "stem": "It might ___ tomorrow, so take an umbrella.", "options": ["rain", "to rain", "raining", "rained"], "answer": 0, "skill": "Grammatical accuracy", "target": "Might for possibility" },
+   { "id": "25", "stem": "Everybody ___ mistakes when they learn a new language.", "options": ["does", "makes", "takes", "gets"], "answer": 1, "skill": "Vocabulary control", "target": "Collocation: make a mistake" },
+   { "id": "26", "stem": "He was so tired that he had to give ___ the race.", "options": ["off", "up", "on", "out"], "answer": 1, "skill": "Vocabulary range", "target": "Phrasal verb: give up" },
+   { "id": "27", "stem": "The museum is closed today, so we have to ___ our visit until next week.", "options": ["postpone", "prevent", "protect", "provide"], "answer": 0, "skill": "Vocabulary range", "target": "Topic vocabulary: plans" },
+   { "id": "28", "stem": "Thousands of ___ visit the old city every summer.", "options": ["tours", "tourism", "tourists", "touring"], "answer": 2, "skill": "Vocabulary control", "target": "Word formation" }
+  ]
+ },
+ "writing": {
+  "instructions": "Write an article for your school website about a person you admire.",
+  "prompts": ["Who is the person? It can be someone from history or from your family.", "What did he or she do?", "Why do you admire this person?"],
+  "words": "100–130 words",
+  "rubric": [
+   { "criterion": "Task", "bands": [ { "score": 5, "descriptor": "Answers all three questions with relevant details. The length is about right." }, { "score": 3, "descriptor": "Answers all three questions, but one is very short or not clear." }, { "score": 1, "descriptor": "Answers only one question, or much of the text is off the topic." } ] },
+   { "criterion": "Organisation", "bands": [ { "score": 5, "descriptor": "A connected text in a clear order, with paragraphs and linking words such as however, because and so." }, { "score": 3, "descriptor": "A clear order with simple linking words. Paragraphs are missing or unclear." }, { "score": 1, "descriptor": "A list of sentences with very few links." } ] },
+   { "criterion": "Grammar", "bands": [ { "score": 5, "descriptor": "Uses past and present tenses and some longer sentences with good control. Errors rarely affect meaning." }, { "score": 3, "descriptor": "Simple sentences are mostly correct. Longer sentences have errors." }, { "score": 1, "descriptor": "Frequent errors in simple sentences make reading difficult." } ] },
+   { "criterion": "Vocabulary", "bands": [ { "score": 5, "descriptor": "Enough words to describe people and events, with some variety. Spelling is mostly correct." }, { "score": 3, "descriptor": "Everyday words with some repetition. The meaning is clear." }, { "score": 1, "descriptor": "Very limited words. Spelling errors affect meaning." } ] }
+  ]
+ },
+ "speaking": {
+  "parts": [
+   { "title": "Part 1: Questions about you", "minutes": 2, "instructions": "The teacher asks you some questions. Give reasons and examples in your answers.", "prompts": ["What do you like doing in your free time? Why?", "Tell me about a person who is important to you.", "What is the best way to learn new words in English?", "What would you like to do after you finish school?"] },
+   { "title": "Part 2: Talk about a journey", "minutes": 3, "instructions": "Talk for about two minutes about a journey you remember. Then answer one question.", "prompts": ["Where did you go, and why?", "How did you travel?", "What happened on the journey?", "What did you learn from it?", "Follow-up question: Do you prefer traveling with your family or with friends? Why?"] }
+  ],
+  "rubric": [
+   { "criterion": "Range", "bands": [ { "score": 5, "descriptor": "Has enough language to describe experiences and give reasons, with some variety." }, { "score": 3, "descriptor": "Describes experiences with simple language. Sometimes searches for words." }, { "score": 1, "descriptor": "Language is too limited to describe the experience." } ] },
+   { "criterion": "Accuracy", "bands": [ { "score": 5, "descriptor": "Uses common structures reasonably correctly. Errors do not cause misunderstanding." }, { "score": 3, "descriptor": "Errors are noticeable but the meaning is mostly clear." }, { "score": 1, "descriptor": "Errors often cause misunderstanding." } ] },
+   { "criterion": "Fluency and coherence", "bands": [ { "score": 5, "descriptor": "Keeps going with a linear sequence of points. Pauses are short." }, { "score": 3, "descriptor": "Keeps going, but with clear pauses to plan." }, { "score": 1, "descriptor": "Stops often and cannot continue without help." } ] },
+   { "criterion": "Interaction", "bands": [ { "score": 5, "descriptor": "Answers questions fully and gives opinions with reasons." }, { "score": 3, "descriptor": "Answers questions, but answers are short." }, { "score": 1, "descriptor": "Needs repetition and help to answer." } ] }
+  ]
+ },
+ "scoring": { "objectiveMax": 28, "objectivePass": 17, "writingMax": 20, "writingPass": 12, "speakingMax": 20, "speakingPass": 12 }
+}

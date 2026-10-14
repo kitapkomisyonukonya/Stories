@@ -16,6 +16,9 @@ import { SECTION_ICONS } from '../../lib/sectionIcons';
 import { LevelTest, readLevelTestResult } from './LevelTest';
 import { MyWordsPanel } from '../book/MyWordsPanel';
 import { CheckResultCode } from './CheckResultCode';
+import { LevelExamDialog } from '../exam/LevelExamDialog';
+import { ScoreExamDialog } from '../exam/ScoreExamDialog';
+import { parseExamHash } from '../../lib/examCode';
 import { useMyWords } from '../../lib/myWords';
 import { firstOpenBookAt } from '../../lib/nextBook';
 import { InstallAppButton } from '../ui/InstallAppButton';
@@ -84,6 +87,9 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
   const [isCheckCodeOpen, setIsCheckCodeOpen] = useState(false);
   const [isLevelTestOpen, setIsLevelTestOpen] = useState(false);
   const [isMyWordsOpen, setIsMyWordsOpen] = useState(false);
+  // #/test/a2 opens that end-of-level test directly (a link or QR code from the printed booklet).
+  const [examLevel, setExamLevel] = useState<Level | null>(() => (typeof window === 'undefined' ? null : parseExamHash(window.location.hash)));
+  const [isScoreExamOpen, setIsScoreExamOpen] = useState(false);
   const [suggestedLevel, setSuggestedLevel] = useState<Level | null>(() => readLevelTestResult()?.level ?? null);
   // The level is chosen once above the shelf and remembered; a self-learner's test result is the first default.
   const [level, setLevel] = useState<Level>(() => readStoredLevel() ?? readLevelTestResult()?.level ?? 'A2');
@@ -368,6 +374,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
       />
       <MyWordsPanel isOpen={isMyWordsOpen} onClose={() => setIsMyWordsOpen(false)} />
       <CheckResultCode isOpen={isCheckCodeOpen} onClose={() => setIsCheckCodeOpen(false)} />
+      <LevelExamDialog level={examLevel} onClose={() => setExamLevel(null)} />
+      <ScoreExamDialog isOpen={isScoreExamOpen} onClose={() => setIsScoreExamOpen(false)} />
       <AboutPage isOpen={isAboutOpen} onClose={() => setIsAboutOpen(false)} />
       <UsageGuide isOpen={isUsageGuideOpen} onClose={() => setIsUsageGuideOpen(false)} />
     </>
@@ -393,6 +401,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           onOpenUsageGuide={() => setIsUsageGuideOpen(true)}
           onOpenLevelTest={() => setIsLevelTestOpen(true)}
           onOpenCheckCode={() => setIsCheckCodeOpen(true)}
+          onOpenExam={setExamLevel}
+          onOpenScoreExam={() => setIsScoreExamOpen(true)}
           onOpenTeacherGuide={onOpenTeacherGuide}
           suggestedLevel={suggestedLevel}
         />
@@ -589,8 +599,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           <p className={eyebrowClass}>{copy.shelfEyebrow}</p>
           <h2 className={sectionTitleClass}>{copy.shelfTitle}</h2>
 
-          {(isTeacher || isSelfLearner) && (
-            <div className="mt-6 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-wrap gap-3">
               {isTeacher && (
                 <div className="w-full max-w-[460px] rounded-2xl bg-white/[0.045] p-4 text-start" data-teacher-tools-card>
                   <div className="flex items-start gap-4">
@@ -667,8 +676,43 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                   </div>
                 </div>
               )}
+              <div className="w-full max-w-[460px] rounded-2xl bg-white/[0.045] p-4 text-start" data-level-exam-card>
+                <div className="flex items-start gap-4">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#D8B35C]/11 text-[#E4C779]">
+                    <SECTION_ICONS.levelExam.icon size={18} />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <p className={cn('text-[11px] font-semibold uppercase text-[#E4C779]/76', !isRTL && 'tracking-[0.18em]')}>{SECTION_ICONS.levelExam[lang]}</p>
+                    <p className="mt-1 text-sm font-semibold text-[#FFF9EC]">{SECTION_ICONS.levelExam.hint[lang]}</p>
+                    <div className="mt-2 flex flex-wrap gap-2" dir="ltr">
+                      {LEVELS.map(option => (
+                        <button
+                          key={option}
+                          type="button"
+                          onClick={() => setExamLevel(option)}
+                          className="rounded-lg bg-white/[0.07] px-3 py-1.5 text-xs font-semibold text-[#EDE5D4]/85 transition-colors hover:bg-white/[0.12] hover:text-white"
+                          data-level-exam-open={option}
+                        >
+                          {option}
+                        </button>
+                      ))}
+                    </div>
+                    {isTeacher && (
+                      <button
+                        type="button"
+                        onClick={() => setIsScoreExamOpen(true)}
+                        className="mt-3 flex w-full items-center gap-2 border-t border-white/8 pt-3 text-xs font-semibold text-[#EDE5D4]/72 transition-colors hover:text-white"
+                        data-score-exam-open
+                      >
+                        <SECTION_ICONS.scoreExam.icon size={14} />
+                        {SECTION_ICONS.scoreExam[lang]}
+                        <ArrowRight size={14} mirrored={isRTL} />
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </div>
             </div>
-          )}
 
           <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 rounded-[22px] bg-white/[0.045] p-3">
             <span className={cn('ps-2 text-[11px] font-semibold uppercase text-[#EDE5D4]/66', isRTL ? 'text-[14px]' : 'tracking-[0.18em]')}>{copy.yourLevel}</span>
@@ -899,6 +943,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
       />
       <MyWordsPanel isOpen={isMyWordsOpen} onClose={() => setIsMyWordsOpen(false)} />
       <CheckResultCode isOpen={isCheckCodeOpen} onClose={() => setIsCheckCodeOpen(false)} />
+      <LevelExamDialog level={examLevel} onClose={() => setExamLevel(null)} />
+      <ScoreExamDialog isOpen={isScoreExamOpen} onClose={() => setIsScoreExamOpen(false)} />
 
       <footer className="mx-auto w-full max-w-[1500px] px-5 pb-10 text-center sm:px-8 lg:px-12">
         <button

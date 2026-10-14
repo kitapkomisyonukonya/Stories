@@ -1,0 +1,88 @@
+{
+ "level": "B2",
+ "version": 1,
+ "title": "End-of-Level Test B2",
+ "minutes": { "reading": 35, "language": 15, "writing": 35, "speaking": 10 },
+ "cefr": [
+  { "part": "reading", "scale": "Overall reading comprehension", "descriptor": "Can read with a large degree of independence, adapting style and speed of reading to different texts and purposes, and using appropriate reference sources selectively." },
+  { "part": "writing", "scale": "Overall written production", "descriptor": "Can write clear, detailed texts on a variety of subjects related to his field of interest, synthesising and evaluating information and arguments from a number of sources." },
+  { "part": "speaking", "scale": "Overall spoken production", "descriptor": "Can give clear, systematically developed descriptions and presentations, with appropriate highlighting of significant points, and relevant supporting detail." }
+ ],
+ "reading": {
+  "instructions": "Read the two texts. For each question, choose the answer that best matches the text.",
+  "texts": [
+   {
+    "id": "r1",
+    "title": "Travellers as Witnesses",
+    "body": "For historians, the accounts of medieval travellers are both a treasure and a trap. When Ibn Jubayr sailed from al-Andalus to Mecca in 1183, he kept a detailed diary, recording prices in markets, the condition of roads and the behaviour of customs officials. Few official documents from that period describe ordinary life in such detail, which is why his Rihla is still read by scholars of the Mediterranean world.\n\nYet travel writing cannot simply be taken at face value. Travellers wrote for readers at home, and they had every reason to make their journeys sound remarkable. Numbers, in particular, tend to grow in the telling: a city of fifty thousand may become a city of a million, and a modest bridge may become a wonder of the world. Moreover, writers did not always rely on their own eyes. When Ibn Juzayy prepared Ibn Battuta’s Rihla in the 1350s, he copied several passages describing Damascus and Medina almost word for word from Ibn Jubayr’s account, written more than a century and a half earlier.\n\nNone of this means that such sources should be dismissed. Rather, historians read them alongside other evidence, such as inscriptions, coins, archives and archaeological remains. If a traveller’s description of a market agrees with tax records from the same city, it becomes far more convincing. If it contradicts them, the historian has to ask why: was the traveller misinformed, was he exaggerating for effect, or had the situation changed?\n\nThe Ottoman traveller Evliya Çelebi offers a good example. His ten-volume Seyahatname, written in the seventeenth century, is full of vivid scenes and entertaining stories, some of which are clearly invented. Nevertheless, his lists of guilds, buildings and local customs have proved remarkably accurate in many places where they can be checked.\n\nIn the end, the value of a travel account depends less on whether it is perfectly true than on how carefully it is read. A good historian treats the traveller neither as a liar nor as a camera, but as a witness with a point of view.",
+    "items": [
+     { "id": "1", "stem": "According to the first paragraph, why do scholars still read Ibn Jubayr’s Rihla?", "options": ["It is the oldest book about Mecca.", "It describes everyday life in unusual detail.", "It was written for official purposes.", "It contains accurate maps of the Mediterranean."], "answer": 1, "skill": "Reading for information and argument", "target": "Understand a stated reason" },
+     { "id": "2", "stem": "The phrase “grow in the telling” suggests that numbers in travel accounts", "options": ["became larger as stories were retold.", "were often recorded incorrectly by officials.", "were removed from later copies.", "were checked against tax records."], "answer": 0, "skill": "Reading for information and argument", "target": "Interpret an expression from context" },
+     { "id": "3", "stem": "What point does the writer make with the example of Ibn Juzayy?", "options": ["Ibn Battuta never visited Damascus or Medina.", "Ibn Jubayr’s account was lost for a century and a half.", "Copying earlier texts was considered dishonest at the time.", "Travel accounts sometimes repeat earlier writers’ descriptions."], "answer": 3, "skill": "Reading for information and argument", "target": "Understand the purpose of an example" },
+     { "id": "4", "stem": "What should a historian do when a traveller’s account contradicts other evidence?", "options": ["reject the account completely", "consider possible reasons for the difference", "trust the traveller, because he was there", "ignore the other evidence"], "answer": 1, "skill": "Reading for information and argument", "target": "Follow the line of argument" },
+     { "id": "5", "stem": "What does the writer suggest about Evliya Çelebi’s Seyahatname?", "options": ["It is entertaining but historically useless.", "It is more accurate than Ibn Jubayr’s diary.", "It contains both invented stories and reliable information.", "It was written mainly for historians."], "answer": 2, "skill": "Reading for information and argument", "target": "Understand a balanced judgement" },
+     { "id": "6", "stem": "Which sentence best summarises the writer’s view in the final paragraph?", "options": ["Travel accounts are valuable when they are read critically.", "Travel accounts are too unreliable to be useful.", "Only accounts that are perfectly true are worth reading.", "Historians should prefer pictures to written accounts."], "answer": 0, "skill": "Reading for information and argument", "target": "Identify the writer’s conclusion" }
+    ]
+   },
+   {
+    "id": "r2",
+    "title": "Why Stories Still Matter",
+    "body": "Ask a group of language teachers how people learn vocabulary, and many will mention lists, flashcards and apps that test you every morning. These tools certainly have their place. Yet I have come to believe that they work best when they serve something larger: a story that the learner actually wants to finish.\n\nThe reason is partly psychological. A word met in a list is an isolated item, whereas a word met in a story arrives with a context, a speaker and an emotion attached. When a learner reads that a merchant “reluctantly” handed over his last coins, the word is tied to a scene that can be recalled later. Research on extensive reading has repeatedly suggested that learners who read large amounts of level-appropriate text pick up vocabulary and grammar alongside the reading itself, even when they are not studying them deliberately.\n\nThis does not mean that grammar teaching is unnecessary. Some structures, such as the difference between the past simple and the present perfect, are rarely noticed unless a teacher draws attention to them. The most effective approach, in my experience, is to let the story come first and the explanation second: learners notice a pattern in a sentence they have already understood, and only then examine how it works.\n\nCritics argue that stories are too slow, and that students preparing for exams need efficient methods. It is true that a novel will not prepare anyone for a test next week. Over a school year, however, a learner who reads regularly is likely to meet thousands of words in context, far more than any list could provide.\n\nPerhaps the strongest argument for stories is the simplest one. People who enjoy reading keep reading, and people who keep reading keep learning. A method that learners abandon after a month, however efficient it looks on paper, teaches very little.",
+    "items": [
+     { "id": "7", "stem": "The writer thinks that vocabulary apps and flashcards are useless.", "options": ["Yes", "No", "Not given"], "answer": 1, "skill": "Reading for information and argument", "target": "Understand the writer’s stance" },
+     { "id": "8", "stem": "The writer believes that words met in a story are easier to remember.", "options": ["Yes", "No", "Not given"], "answer": 0, "skill": "Reading for information and argument", "target": "Understand the writer’s stance" },
+     { "id": "9", "stem": "The writer says that grammar should never be taught directly.", "options": ["Yes", "No", "Not given"], "answer": 1, "skill": "Reading for information and argument", "target": "Follow a qualified argument" },
+     { "id": "10", "stem": "The writer has taught in several different countries.", "options": ["Yes", "No", "Not given"], "answer": 2, "skill": "Reading for information and argument", "target": "Tell stated from unstated information" },
+     { "id": "11", "stem": "The writer accepts that stories are not the best way to prepare for an exam next week.", "options": ["Yes", "No", "Not given"], "answer": 0, "skill": "Reading for information and argument", "target": "Recognise a concession" },
+     { "id": "12", "stem": "Most teachers now prefer stories to word lists.", "options": ["Yes", "No", "Not given"], "answer": 2, "skill": "Reading for information and argument", "target": "Tell stated from unstated information" }
+    ]
+   }
+  ]
+ },
+ "language": {
+  "instructions": "Choose the word or words that best complete each sentence.",
+  "items": [
+   { "id": "13", "stem": "If the caravan ___ earlier, it would have reached the city before dark.", "options": ["left", "had left", "would leave", "has left"], "answer": 1, "skill": "Grammatical accuracy", "target": "Third conditional" },
+   { "id": "14", "stem": "The bridge, ___ in the sixteenth century, is still used today.", "options": ["built", "building", "was built", "having built"], "answer": 0, "skill": "Grammatical accuracy", "target": "Reduced relative clause (past participle)" },
+   { "id": "15", "stem": "The manuscript is said ___ by one of the author’s students.", "options": ["to copy", "having copied", "to have been copied", "to be copying"], "answer": 2, "skill": "Grammatical accuracy", "target": "Passive reporting structure" },
+   { "id": "16", "stem": "He must ___ the wrong train; he should have arrived an hour ago.", "options": ["take", "have taken", "had taken", "be taken"], "answer": 1, "skill": "Grammatical accuracy", "target": "Modal perfect for deduction" },
+   { "id": "17", "stem": "___ the bad weather, the ship reached the port on time.", "options": ["Although", "However", "Even though", "Despite"], "answer": 3, "skill": "Coherence", "target": "Despite + noun phrase" },
+   { "id": "18", "stem": "It was not until he returned home ___ he realised how much he had learned.", "options": ["when", "which", "that", "what"], "answer": 2, "skill": "Grammatical accuracy", "target": "Cleft sentence: It was not until … that" },
+   { "id": "19", "stem": "I wish I ___ more attention in history lessons when I was younger.", "options": ["had paid", "paid", "would pay", "have paid"], "answer": 0, "skill": "Grammatical accuracy", "target": "Wish + past perfect" },
+   { "id": "20", "stem": "Rarely ___ such a detailed description of a medieval market.", "options": ["we find", "do we find", "we do find", "found we"], "answer": 1, "skill": "Grammatical accuracy", "target": "Inversion after a negative adverb" },
+   { "id": "21", "stem": "Having ___ the letter, she put it back in the envelope.", "options": ["reading", "to read", "read", "been read"], "answer": 2, "skill": "Grammatical accuracy", "target": "Perfect participle clause" },
+   { "id": "22", "stem": "Some historians tend ___ that the numbers in travel accounts are exaggerated.", "options": ["believing", "believed", "believe", "to believe"], "answer": 3, "skill": "Grammatical accuracy", "target": "Tend + to-infinitive for hedging" },
+   { "id": "23", "stem": "The report was written in Arabic, ___ made it difficult for some scholars to read.", "options": ["that", "what", "which", "it"], "answer": 2, "skill": "Grammatical accuracy", "target": "Sentence relative clause with which" },
+   { "id": "24", "stem": "___ had she arrived than the meeting began.", "options": ["No sooner", "Hardly", "As soon as", "Scarcely"], "answer": 0, "skill": "Grammatical accuracy", "target": "No sooner … than" },
+   { "id": "25", "stem": "Historians must ___ a distinction between what a traveller saw and what he was told.", "options": ["do", "draw", "take", "put"], "answer": 1, "skill": "Vocabulary control", "target": "Collocation: draw a distinction" },
+   { "id": "26", "stem": "Before reaching a conclusion, the researcher carefully ___ the evidence from several archives.", "options": ["measured", "counted", "weighed", "calculated"], "answer": 2, "skill": "Vocabulary control", "target": "Collocation: weigh the evidence" },
+   { "id": "27", "stem": "The account is not entirely ___; some of the numbers are clearly exaggerated.", "options": ["reliable", "reliability", "relying", "reliant"], "answer": 0, "skill": "Vocabulary control", "target": "Word formation" },
+   { "id": "28", "stem": "The report ___ attention to several gaps in the archive.", "options": ["made", "drew", "took", "put"], "answer": 1, "skill": "Vocabulary range", "target": "Collocation: draw attention to" }
+  ]
+ },
+ "writing": {
+  "instructions": "Write an essay discussing this statement: “Travel teaches us more than books do.”",
+  "prompts": ["Give arguments for the statement.", "Give arguments against it.", "Say what you think, and why."],
+  "words": "180–220 words",
+  "rubric": [
+   { "criterion": "Task", "bands": [ { "score": 5, "descriptor": "Discusses both sides with relevant, developed arguments and gives a clear, supported opinion." }, { "score": 3, "descriptor": "Covers both sides and gives an opinion, but some arguments are not developed." }, { "score": 1, "descriptor": "Covers only one side, or the opinion is missing or unclear." } ] },
+   { "criterion": "Organisation", "bands": [ { "score": 5, "descriptor": "Clear paragraphs with an introduction and a conclusion. A range of linking devices shows how ideas relate." }, { "score": 3, "descriptor": "Generally well organised. Linking is correct but limited." }, { "score": 1, "descriptor": "Ideas are hard to follow. Little or no paragraphing." } ] },
+   { "criterion": "Grammar", "bands": [ { "score": 5, "descriptor": "A range of complex structures with good control. Errors are rare and do not lead to misunderstanding." }, { "score": 3, "descriptor": "Some complex structures. Errors appear but meaning is clear." }, { "score": 1, "descriptor": "Mainly simple structures with frequent errors." } ] },
+   { "criterion": "Vocabulary", "bands": [ { "score": 5, "descriptor": "Varied, precise vocabulary for argument, with little repetition." }, { "score": 3, "descriptor": "Enough vocabulary for the topic, with some repetition or imprecise choices." }, { "score": 1, "descriptor": "Limited vocabulary makes the argument unclear." } ] }
+  ]
+ },
+ "speaking": {
+  "parts": [
+   { "title": "Part 1: Questions about you", "minutes": 2, "instructions": "The teacher asks you some questions. Develop your answers with reasons and examples.", "prompts": ["How do you usually find out about the history of your town?", "Which subject at school has changed the way you think? Why?", "What do you read in English outside lessons?"] },
+   { "title": "Part 2: Long turn", "minutes": 3, "instructions": "Talk for about three minutes. Compare the two ways of learning and reach a conclusion.", "prompts": ["Visiting historical places or reading history books: which is more effective?", "Which suits different kinds of learners better, and why?", "What are the limits of each?"] },
+   { "title": "Part 3: Discussion", "minutes": 4, "instructions": "Discuss these questions with the teacher. Give reasons and respond to the teacher’s ideas.", "prompts": ["Should every student learn about the history of other cultures? Why or why not?", "How reliable is the information about the past that we find online?", "What can stories teach us that textbooks cannot?"] }
+  ],
+  "rubric": [
+   { "criterion": "Range", "bands": [ { "score": 5, "descriptor": "A sufficient range of language to give clear descriptions and develop arguments without obvious searching." }, { "score": 3, "descriptor": "Enough language to express views, with some searching for words and some repetition." }, { "score": 1, "descriptor": "Limited language restricts what can be said." } ] },
+   { "criterion": "Accuracy", "bands": [ { "score": 5, "descriptor": "Good grammatical control. Errors do not cause misunderstanding and are often self-corrected." }, { "score": 3, "descriptor": "Reasonable control of common structures. Errors in complex structures." }, { "score": 1, "descriptor": "Frequent errors, including in common structures." } ] },
+   { "criterion": "Fluency and coherence", "bands": [ { "score": 5, "descriptor": "Produces extended stretches of language at a fairly even pace, highlighting key points and linking them clearly." }, { "score": 3, "descriptor": "Keeps going with some hesitation. Points are linked simply." }, { "score": 1, "descriptor": "Frequent hesitation. Ideas are not connected." } ] },
+   { "criterion": "Interaction", "bands": [ { "score": 5, "descriptor": "Responds to the teacher’s ideas, develops the discussion and supports opinions." }, { "score": 3, "descriptor": "Takes part in the discussion but rarely develops others’ points." }, { "score": 1, "descriptor": "Answers only briefly and needs support to continue." } ] }
+  ]
+ },
+ "scoring": { "objectiveMax": 28, "objectivePass": 17, "writingMax": 20, "writingPass": 12, "speakingMax": 20, "speakingPass": 12 }
+}

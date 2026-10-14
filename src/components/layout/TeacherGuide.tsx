@@ -32,6 +32,7 @@ import { TeacherGuideSection, Level, PageData } from '../../types';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { GuideV2ChapterBox, GuideV2Tools, storyPageForSection } from './GuideV2';
 import { useDialogFocus } from '../../hooks/useDialogFocus';
+import { LevelExamDialog } from '../exam/LevelExamDialog';
 
 const splitLessonPlanSteps = (lessonPlan: string): string[] => {
   const normalized = lessonPlan.replace(/\s+/g, ' ').trim();
@@ -88,6 +89,7 @@ export const TeacherGuide = ({
   const [activeTab, setActiveTab] = useState('overview');
   const [searchQuery, setSearchQuery] = useState('');
   const [isPrepOpen, setIsPrepOpen] = useState(false);
+  const [examLevel, setExamLevel] = useState<Level | null>(null);
   const [prepChapterIndex, setPrepChapterIndex] = useState(0);
   const [pendingChapterIndex, setPendingChapterIndex] = useState<number | null>(null);
   const contentScrollRef = React.useRef<HTMLDivElement>(null);
@@ -277,6 +279,7 @@ entries.set(key, { word, definition });
     { id: 'management', label: t('tg.management'), icon: <ListOrdered size={22} /> },
     { id: 'differentiation', label: t('tg.differentiation'), icon: <Accessibility size={22} /> },
     { id: 'assessment', label: t('tg.assessment'), icon: <Award size={22} /> },
+    ...(metadata?.cefrProfile ? [{ id: 'cefr', label: t('tg.cefr'), icon: <ClipboardCheck size={22} /> }] : []),
     { id: 'kinesthetic', label: t('tg.kinesthetic'), icon: <Move size={22} /> },
     { id: 'global', label: t('tg.global'), icon: <Globe size={22} /> },
     { id: 'values', label: t('tg.values'), icon: <Heart size={22} /> },
@@ -284,6 +287,7 @@ entries.set(key, { word, definition });
     { id: 'tips', label: t('tg.tips'), icon: <MessageSquare size={22} /> },
     { id: 'home', label: t('tg.home'), icon: <Home size={22} /> },
     { id: 'checklist', label: t('tg.checklist'), icon: <CheckCircle size={22} /> },
+    ...(metadata?.professionalDevelopment ? [{ id: 'development', label: t('tg.development'), icon: <Users size={22} /> }] : []),
     { id: 'appendices', label: t('tg.appendices'), icon: <FileText size={22} /> },
   ];
 
@@ -350,6 +354,8 @@ entries.set(key, { word, definition });
     if (!isOpen) return;
     const handleEscape = (event: KeyboardEvent) => {
       if (event.key !== 'Escape') return;
+      // The end-of-level test handles its own Escape (it asks before answers are lost).
+      if (examLevel) return;
       if (isPrepOpen) {
         setIsPrepOpen(false);
         return;
@@ -358,7 +364,7 @@ entries.set(key, { word, definition });
     };
     window.addEventListener('keydown', handleEscape);
     return () => window.removeEventListener('keydown', handleEscape);
-  }, [isOpen, onClose, isPrepOpen]);
+  }, [isOpen, onClose, isPrepOpen, examLevel]);
 
   const renderTeacherContent = () => {
     switch (activeTab) {
@@ -816,6 +822,43 @@ entries.set(key, { word, definition });
             </div>
           </div>
         );
+      case 'cefr': {
+        const profile = metadata?.cefrProfile;
+        if (!profile) return null;
+        return (
+          <div className="space-y-6 sm:space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500" data-tg-cefr>
+            <h3 className="font-display text-xl sm:text-3xl text-parchment border-b border-gold/20 pb-3 sm:pb-4">{t('tg.cefr')}</h3>
+            <p className="font-serif text-white text-[13px] sm:text-[17px] leading-relaxed">{profile.intro}</p>
+            <div className="space-y-4">
+              {profile.rows.map(row => (
+                <div key={row.scale} className="bg-white/5 p-4 sm:p-6 rounded-2xl border border-gold/10">
+                  <p className="font-display text-gold text-[12px] sm:text-[14px] uppercase tracking-widest">{row.scale}</p>
+                  <p className="mt-2 font-serif italic text-parchment text-[13px] sm:text-[16px] leading-relaxed">{row.descriptor}</p>
+                  <p className="mt-3 font-display text-white/80 text-[12px] sm:text-[14px]">{t('tg.cefrChapters')}: {row.chapters}</p>
+                  <ul className="mt-2 space-y-1.5 font-serif text-white text-[13px] sm:text-[15px] leading-relaxed">
+                    {row.practice.map(line => <li key={line}>• {line}</li>)}
+                  </ul>
+                </div>
+              ))}
+            </div>
+            <div className="bg-gold/5 border border-gold/20 p-4 sm:p-6 rounded-2xl">
+              <h4 className="font-display text-lg sm:text-2xl text-gold">{profile.test.title}</h4>
+              <p className="mt-2 font-serif text-white text-[13px] sm:text-[16px] leading-relaxed">{profile.test.when}</p>
+              <ul className="mt-3 space-y-1.5 font-serif text-white text-[13px] sm:text-[15px] leading-relaxed">
+                {profile.test.parts.map(part => <li key={part}>• {part}</li>)}
+              </ul>
+              <button
+                type="button"
+                onClick={() => setExamLevel(profile.test.level)}
+                className="mt-4 inline-flex min-h-11 items-center gap-2 rounded-xl bg-gold px-5 text-sm font-semibold text-wood hover:bg-gold/90"
+                data-tg-open-exam
+              >
+                <ClipboardCheck size={16} /> {t('tg.openTest')}
+              </button>
+            </div>
+          </div>
+        );
+      }
       case 'kinesthetic':
         return (
           <div className="space-y-6 sm:space-y-10 animate-in fade-in slide-in-from-bottom-4 duration-500">
@@ -1460,6 +1503,40 @@ entries.set(key, { word, definition });
             </div>
           </div>
         );
+      case 'development': {
+        const dev = metadata?.professionalDevelopment;
+        if (!dev) return null;
+        const listBox = (title: string, items: string[]) => (
+          <div className="bg-white/5 p-4 sm:p-6 rounded-2xl border border-gold/10">
+            <h4 className="font-display text-gold text-[13px] sm:text-[15px] uppercase tracking-widest mb-3">{title}</h4>
+            <ol className="space-y-2 font-serif text-white text-[13px] sm:text-[15px] leading-relaxed list-decimal ps-5">
+              {items.map(item => <li key={item}>{item}</li>)}
+            </ol>
+          </div>
+        );
+        return (
+          <div className="space-y-6 sm:space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-500" data-tg-development>
+            <h3 className="font-display text-xl sm:text-3xl text-parchment border-b border-gold/20 pb-3 sm:pb-4">{t('tg.development')}</h3>
+            <p className="font-serif text-white text-[13px] sm:text-[17px] leading-relaxed">{dev.intro}</p>
+            <div className="space-y-4">
+              <h4 className="font-display text-parchment text-base sm:text-xl">{t('tg.peerObservation')}</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {dev.peerObservation.map(obs => (
+                  <div key={obs.chapter} className="bg-white/5 p-4 sm:p-6 rounded-2xl border border-gold/10">
+                    <p className="font-display text-gold text-[13px] sm:text-[15px]">{obs.chapter}</p>
+                    <p className="mt-2 font-serif text-parchment text-[13px] sm:text-[15px] leading-relaxed"><b>{t('tg.observationFocus')}:</b> {obs.focus}</p>
+                    <ul className="mt-2 space-y-1.5 font-serif text-white text-[13px] sm:text-[15px] leading-relaxed">
+                      {obs.lookFor.map(item => <li key={item}>• {item}</li>)}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+            {listBox(t('tg.reflectionLog'), dev.reflectionLog)}
+            {listBox(t('tg.standardisation'), dev.standardisation)}
+          </div>
+        );
+      }
       case 'appendices': {
         const appendicesData = metadata?.appendices;
         const fallbackExitTicket = isAbraham ? [
@@ -1559,6 +1636,7 @@ entries.set(key, { word, definition });
   };
 
   return (
+    <>
     <AnimatePresence>
       {isOpen && (
         <motion.div 
@@ -2094,5 +2172,7 @@ entries.set(key, { word, definition });
         </motion.div>
       )}
     </AnimatePresence>
+    <LevelExamDialog level={isOpen ? examLevel : null} onClose={() => setExamLevel(null)} />
+    </>
   );
 };

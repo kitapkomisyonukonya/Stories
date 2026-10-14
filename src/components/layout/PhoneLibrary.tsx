@@ -47,6 +47,8 @@ interface PhoneLibraryProps {
   onOpenUsageGuide: () => void;
   onOpenLevelTest: () => void;
   onOpenCheckCode: () => void;
+  onOpenExam: (level: Level) => void;
+  onOpenScoreExam: () => void;
   onOpenTeacherGuide?: (prophetId: string, level: Level) => void;
   suggestedLevel: Level | null;
 }
@@ -71,6 +73,8 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
   onOpenUsageGuide,
   onOpenLevelTest,
   onOpenCheckCode,
+  onOpenExam,
+  onOpenScoreExam,
   onOpenTeacherGuide,
   suggestedLevel,
 }) => {
@@ -319,6 +323,12 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                   suggestedLevel ? <span className="text-[13px] font-semibold text-[#E9C46A]">{copy.suggested}: {suggestedLevel}</span> : undefined,
                 )}
                 {isTeacher && settingsRow(copy.checkCode, <SECTION_ICONS.checkCode.icon size={18} />, onOpenCheckCode)}
+                {(['A2', 'B1', 'B2'] as Level[]).map(option => (
+                  <React.Fragment key={option}>
+                    {settingsRow(`${SECTION_ICONS.levelExam[lang]} · ${option}`, <SECTION_ICONS.levelExam.icon size={18} />, () => onOpenExam(option))}
+                  </React.Fragment>
+                ))}
+                {isTeacher && settingsRow(SECTION_ICONS.scoreExam[lang], <SECTION_ICONS.scoreExam.icon size={18} />, onOpenScoreExam)}
                 {settingsRow(copy.myWords, <BookMarked size={18} />, () => setTab('words'), <span className="text-[13px] font-semibold tabular-nums text-[#EDE5D4]/55">{formatNumber(myWordCount)}</span>)}
               </div>
             </section>
