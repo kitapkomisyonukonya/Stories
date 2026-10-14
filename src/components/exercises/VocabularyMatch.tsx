@@ -5,6 +5,7 @@ import { MatchingBoard } from './MatchingBoard';
 import type { Level, VocabularyChallengePair } from '../../types';
 import { getLearningLevelPolicy } from '../../data/learningLevelPolicy';
 import { useLanguage } from '../../contexts/LanguageContext';
+import { partOfSpeechLabel } from '../../lib/partOfSpeech';
 import { SECTION_ICONS } from '../../lib/sectionIcons';
 import { cn } from '../../lib/utils';
 import { EndCard, FeedbackBox } from './ExerciseFeedback';
@@ -347,8 +348,9 @@ export const VocabularyMatch = ({ pairs, level, onReviewGlossary, onComplete, on
     const rest = pairs.filter(candidate =>
       candidate.word !== item.word && !samePart.some(match => match.word === candidate.word)
     );
-    const pool = [...samePart, ...rest];
-    const rotated = pool.length ? [...pool.slice(itemIndex % pool.length), ...pool.slice(0, itemIndex % pool.length)] : [];
+    // Each group turns on its own, so the words of the same part of speech always come first.
+    const rotate = (list: Pair[]) => list.length ? [...list.slice(itemIndex % list.length), ...list.slice(0, itemIndex % list.length)] : [];
+    const rotated = [...rotate(samePart), ...rotate(rest)];
     const words = [item.word, ...rotated.slice(0, Math.max(0, optionCount - 1)).map(candidate => candidate.word)];
     const shift = words.length ? (itemIndex * 2 + 1) % words.length : 0;
     return [...words.slice(shift), ...words.slice(0, shift)];
@@ -535,7 +537,7 @@ export const VocabularyMatch = ({ pairs, level, onReviewGlossary, onComplete, on
             <div className={cn('rounded-2xl p-5 ring-1', theme.barBg, theme.selected)}>
               <div className="flex flex-wrap gap-2 font-display text-[11px] font-semibold uppercase tracking-[0.12em] text-wood/58">
                 {currentContext.chapter && <span>{copy.chapter} {formatNumber(currentContext.chapter)}</span>}
-                {currentContext.partOfSpeech && <span>· {currentContext.partOfSpeech}</span>}
+                {currentContext.partOfSpeech && <span>· {partOfSpeechLabel(currentContext.partOfSpeech, language)}</span>}
               </div>
               <p className={cn('mt-3 font-serif font-semibold leading-[1.7] text-wood', isArabic ? 'text-xl sm:text-2xl' : 'text-lg sm:text-xl')}>
                 {contextPrompt}

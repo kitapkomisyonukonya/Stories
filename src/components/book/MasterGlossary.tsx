@@ -18,6 +18,7 @@ import { SECTION_ICONS } from '../../lib/sectionIcons';
 import { cn } from '../../lib/utils';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { useIsPhone } from '../../lib/phone';
+import { partOfSpeechLabel } from '../../lib/partOfSpeech';
 
 interface MasterGlossaryProps {
   bookData: BookData;
@@ -75,7 +76,7 @@ export const MasterGlossary: React.FC<MasterGlossaryProps> = ({
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [activeChapter, setActiveChapter] = useState<number | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
-  const { t, formatNumber, isRTL } = useLanguage();
+  const { t, formatNumber, isRTL, language } = useLanguage();
   const WORDS_PER_PAGE = 12;
   const isPhone = useIsPhone();
 
@@ -707,7 +708,7 @@ export const MasterGlossary: React.FC<MasterGlossaryProps> = ({
                         <ChevronUp size={14} className={cn('ms-1 inline-block align-middle opacity-60 transition-transform', expandedWord !== v.key && 'rotate-180')} />
                       </span>
                       <span className="text-xs font-semibold text-wood/60">
-                        {[v.partOfSpeech, v.chapter ? `${copy.chapterLabel} ${formatNumber(v.chapter)}` : null].filter(Boolean).join(' · ')}
+                        {[partOfSpeechLabel(v.partOfSpeech, language), v.chapter ? `${copy.chapterLabel} ${formatNumber(v.chapter)}` : null].filter(Boolean).join(' · ')}
                       </span>
                     </span>
                     <span className="mt-0.5 block font-serif text-[15px] leading-snug text-wood/75">{v.definition}</span>
@@ -848,7 +849,7 @@ export const MasterGlossary: React.FC<MasterGlossaryProps> = ({
                       {(v.pronunciation || v.partOfSpeech || v.chapter) && (
                         <div className="flex flex-wrap items-center gap-x-1.5 gap-y-1 mt-1.5 text-[11px] sm:text-xs text-wood/60">
                           {v.pronunciation && <span className="font-serif">{v.pronunciation}</span>}
-                          {v.partOfSpeech && <span className="font-semibold">{v.partOfSpeech}</span>}
+                          {v.partOfSpeech && <span className="font-semibold">{partOfSpeechLabel(v.partOfSpeech, language)}</span>}
                           {v.chapter && (
                             <span className="font-semibold">
                               {copy.chapterLabel} {formatNumber(v.chapter)}
