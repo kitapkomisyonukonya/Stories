@@ -520,7 +520,7 @@ export const VocabularyMatch = ({ pairs, level, onReviewGlossary, onComplete, on
     return (
       <div className="h-full flex flex-col gap-3 overflow-hidden" dir={isRTL ? 'rtl' : 'ltr'} onPointerDown={(event) => event.stopPropagation()}>
         {stageHeader}
-        <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar pe-2">
+        <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar pe-2 max-sm:ps-0.5">
           <div className="mx-auto max-w-4xl desk:max-w-[80rem] wide:max-w-none space-y-4 pb-3">
             <div className="flex items-center justify-between gap-3">
               <div>
@@ -594,7 +594,7 @@ export const VocabularyMatch = ({ pairs, level, onReviewGlossary, onComplete, on
     return (
       <div className="h-full flex flex-col gap-3 overflow-hidden" dir={isRTL ? 'rtl' : 'ltr'} onPointerDown={(event) => event.stopPropagation()}>
         {stageHeader}
-        <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar pe-2">
+        <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar pe-2 max-sm:ps-0.5">
           <div className="mx-auto max-w-3xl desk:max-w-5xl wide:max-w-none space-y-4 pb-3">
             <div className="flex items-center justify-between gap-3">
               <div>
@@ -707,7 +707,7 @@ export const VocabularyMatch = ({ pairs, level, onReviewGlossary, onComplete, on
     return (
       <div className="h-full flex flex-col gap-3 overflow-hidden" dir={isRTL ? 'rtl' : 'ltr'}>
         {stageHeader}
-        <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar pe-2">
+        <div className="flex-1 min-h-0 overflow-y-auto custom-scrollbar pe-2 max-sm:ps-0.5">
           <div className="mx-auto max-w-3xl desk:max-w-5xl wide:max-w-none pb-3">
             <EndCard
               title={copy.done}

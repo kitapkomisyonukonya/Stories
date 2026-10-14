@@ -336,12 +336,11 @@ export const StoryPage = ({
   );
   // Phones open a chapter like a story app: the picture first, a little wider than tall, with the
   // chapter title written on it. The 4:5 picture is cropped to 4:3 from its middle, so hotspots
-  // are moved to match and the ones that fall outside the crop are left out.
+  // are moved to match; one that falls outside the crop or onto the title is pulled just inside,
+  // so every picture keeps all of its points.
   const phoneCover = isPhone && !isWide && Boolean(page.image);
   const shownHotspots = phoneCover
-    ? (page.hotspots ?? [])
-        .map(hotspot => ({ ...hotspot, y: (hotspot.y - 20) / 0.6 }))
-        .filter(hotspot => hotspot.y >= 6 && hotspot.y <= 90)
+    ? (page.hotspots ?? []).map(hotspot => ({ ...hotspot, y: Math.min(Math.max((hotspot.y - 20) / 0.6, 6), 56) }))
     : page.hotspots ?? [];
   const renderAudioBar = () => !isWide && page.audioUrl && (
     <div className="sticky top-0 z-[90] !mt-2 sm:!mt-3 [&>div]:bg-brand-50">
