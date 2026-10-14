@@ -553,8 +553,6 @@ export const AboutPage: React.FC<AboutPageProps> = ({ isOpen, onClose }) => {
                       <li key={file.id}>
                         <a
                           href={file.href}
-                          target="_blank"
-                          rel="noopener noreferrer"
                           download
                           className="group flex h-full flex-col rounded-2xl border border-[#D8B35C]/25 bg-gradient-to-b from-[#D8B35C]/[0.09] to-white/[0.02] p-5 transition-colors hover:border-[#E9C46A]/60 hover:from-[#D8B35C]/[0.14] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E9C46A]"
                           data-media-kit-file={file.id}

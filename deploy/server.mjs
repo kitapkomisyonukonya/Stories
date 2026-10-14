@@ -1,4 +1,5 @@
 import http from 'node:http';
+import { Readable } from 'node:stream';
 import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs';
 import { basename, extname, join, normalize, sep } from 'node:path';
 import { brotliCompressSync, gzipSync, constants as zlibConstants } from 'node:zlib';
@@ -416,6 +417,26 @@ const server = http.createServer(async (req, res) => {
   // The book PDFs and the About page's media kit live on Cloudflare R2 (README, "Book PDFs");
   // /pdfs/books/<name>.pdf and /pdfs/media-kit/<name>.(pdf|zip) answer with a redirect to PDF_BASE_URL,
   // so the links in the app stay the same.
+  // The media kit is passed through as a download of this site: an installed phone app does not
+  // follow a "download" link that leaves the site, so the brand guide and logo files stayed unsaved.
+  if (pdfBaseUrl && /^\/pdfs\/media-kit\/[a-z0-9-]+\.(pdf|zip)$/.test(urlPath) && (req.method === 'GET' || req.method === 'HEAD')) {
+    try {
+      const upstream = await fetch(`${pdfBaseUrl}${urlPath.slice('/pdfs'.length)}`);
+      if (upstream.ok && upstream.body) {
+        res.writeHead(200, {
+          'Content-Type': urlPath.endsWith('.zip') ? 'application/zip' : 'application/pdf',
+          'Content-Disposition': `attachment; filename="${basename(urlPath)}"`,
+          ...(upstream.headers.get('content-length') ? { 'Content-Length': upstream.headers.get('content-length') } : {}),
+          'Cache-Control': 'public, max-age=300',
+        });
+        if (req.method === 'HEAD') { res.end(); upstream.body.cancel().catch(() => {}); return; }
+        Readable.fromWeb(upstream.body).on('error', () => res.destroy()).pipe(res);
+        return;
+      }
+    } catch {
+      /* fall through to the redirect below */
+    }
+  }
   if (pdfBaseUrl && /^\/pdfs\/(books\/[a-z0-9-]+\.pdf|media-kit\/[a-z0-9-]+\.(pdf|zip))$/.test(urlPath)) {
     res.writeHead(302, { Location: `${pdfBaseUrl}${urlPath.slice('/pdfs'.length)}`, 'Cache-Control': 'public, max-age=300' });
     res.end();
