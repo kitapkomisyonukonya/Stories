@@ -529,7 +529,7 @@ export const VocabularyMatch = ({ pairs, level, onReviewGlossary, onComplete, on
                 <p className={cn('font-display text-sm font-semibold tracking-[0.04em] sm:text-base', theme.accent)}>02 · {copy.context}</p>
                 <p className={cn('mt-1 font-serif text-wood/52', isArabic ? 'text-base' : 'text-sm')}>{copy.contextHint}</p>
               </div>
-              <span className={cn('font-display text-xs font-semibold tabular-nums', theme.accent)}>
+              <span className={cn('shrink-0 whitespace-nowrap font-display text-xs font-semibold tabular-nums', theme.accent)}>
                 {formatNumber(contextIndex + 1)} / {formatNumber(contextItems.length)}
               </span>
             </div>
@@ -603,7 +603,7 @@ export const VocabularyMatch = ({ pairs, level, onReviewGlossary, onComplete, on
                 <p className={cn('font-display text-sm font-semibold tracking-[0.04em] sm:text-base', theme.accent)}>03 · {copy.recall}</p>
                 <p className={cn('mt-1 font-serif text-wood/52', isArabic ? 'text-base' : 'text-sm')}>{copy.recallHint}</p>
               </div>
-              <span className={cn('font-display text-xs font-semibold tabular-nums', theme.accent)}>
+              <span className={cn('shrink-0 whitespace-nowrap font-display text-xs font-semibold tabular-nums', theme.accent)}>
                 {formatNumber(recallIndex + 1)} / {formatNumber(recallItems.length)}
               </span>
             </div>

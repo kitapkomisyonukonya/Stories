@@ -327,7 +327,7 @@ export const ExercisePage = ({
                             <span className="font-display text-[11px] font-semibold uppercase tracking-[0.14em] text-wood/60">
                               {isArabic ? 'المهمة' : 'Task'}
                             </span>
-                            <span className={cn("font-display text-sm font-semibold tabular-nums", colTheme.iconText)}>
+                            <span className={cn("shrink-0 whitespace-nowrap font-display text-sm font-semibold tabular-nums", colTheme.iconText)}>
                               {formatNumber(Math.min(reviewIndex + 1, reviewTotal))} / {formatNumber(reviewTotal)}
                             </span>
                           </div>

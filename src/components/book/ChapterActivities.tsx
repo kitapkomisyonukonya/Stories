@@ -295,7 +295,7 @@ export const LanguageFocusPanel = ({ page, completedExercises, onOpenExercise, i
                     <span className={cn('font-display text-[11px] font-semibold uppercase tracking-[0.12em]', focusTheme.copy)}>
                       {language === 'ar' ? 'التقدّم' : 'Progress'}
                     </span>
-                    <span className={cn('font-display text-[11px] font-semibold', focusTheme.accent)}>
+                    <span className={cn('shrink-0 whitespace-nowrap font-display text-[11px] font-semibold', focusTheme.accent)}>
                       {formatNumber(completedCount)} / {formatNumber(exercises.length)}
                     </span>
                   </div>
@@ -327,7 +327,7 @@ export const LanguageFocusPanel = ({ page, completedExercises, onOpenExercise, i
                   className={cn('h-full rounded-full', focusTheme.progress)}
                 />
               </div>
-              <span className={cn('font-display text-[11px] font-semibold', focusTheme.accent)}>
+              <span className={cn('shrink-0 whitespace-nowrap font-display text-[11px] font-semibold', focusTheme.accent)}>
                 {formatNumber(completedCount)} / {formatNumber(exercises.length)}
               </span>
             </div>
