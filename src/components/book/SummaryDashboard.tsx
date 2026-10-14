@@ -386,7 +386,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
           transition={{ duration: 0.5, ease: 'easeOut' }}
           className="relative overflow-hidden rounded-[34px] border border-white/10 bg-black/15 shadow-[0_34px_100px_rgba(0,0,0,0.32)] backdrop-blur-xl"
         >
-          <div className="grid lg:grid-cols-[390px_minmax(0,1fr)]">
+          <div className="grid grid-cols-1 lg:grid-cols-[390px_minmax(0,1fr)]">
             <div className="relative min-h-[420px] overflow-hidden bg-black/20">
               <img src={story.image} alt={isArabic ? story.nameAr : story.name} className="absolute inset-0 h-full w-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/25 to-black/5" />
@@ -410,7 +410,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
               </div>
             </div>
 
-            <div className="flex flex-col justify-center p-7 sm:p-10 lg:p-12">
+            <div className="flex min-w-0 flex-col justify-center p-7 max-sm:p-5 sm:p-10 lg:p-12">
               <div className="flex items-center gap-3">
                 <motion.div
                   initial={{ scale: 0.8, rotate: -8 }}
@@ -433,7 +433,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
                 </div>
               </div>
 
-              <h2 className="mt-8 font-display text-[clamp(2.7rem,5vw,5.4rem)] font-semibold leading-[0.94] tracking-[-0.06em]">
+              <h2 className="mt-8 break-words font-display text-[clamp(2.7rem,5vw,5.4rem)] font-semibold leading-[0.94] tracking-[-0.06em] max-sm:text-[clamp(1.75rem,9vw,2.4rem)] max-sm:tracking-[-0.045em]">
                 {copy.congratulations}
               </h2>
               <p className="mt-5 text-lg font-medium leading-8 text-white/82 sm:text-xl">
@@ -445,10 +445,10 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
 
               <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
                 {summaryCards.map(({ icon: Icon, label, value, progress }) => (
-                  <div key={label} className="rounded-2xl border border-white/8 bg-white/[0.035] p-4">
+                  <div key={label} className="min-w-0 rounded-2xl border border-white/8 bg-white/[0.035] p-4 max-sm:p-3.5">
                     <Icon size={18} style={{ color: visual.accentBright }} />
-                    <p className="mt-4 text-[11px] font-semibold uppercase tracking-[0.14em] text-white/62">{label}</p>
-                    <p className="mt-1 text-xl font-semibold tabular-nums text-white">{value}</p>
+                    <p className="mt-4 text-[11px] font-semibold uppercase tracking-[0.14em] text-white/62 max-sm:min-h-[2lh] max-sm:tracking-[0.1em]">{label}</p>
+                    <p className="mt-1 whitespace-nowrap text-xl font-semibold tabular-nums text-white">{value}</p>
                     <div className="mt-3 h-1 overflow-hidden rounded-full bg-white/8">
                       <div className="h-full rounded-full" style={{ width: `${progress}%`, background: visual.accent }} />
                     </div>
@@ -459,8 +459,8 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
           </div>
         </motion.section>
 
-        <section className="mt-6 grid gap-6 xl:grid-cols-[1.05fr_0.95fr]">
-          <div className="rounded-[30px] border border-white/8 bg-white/[0.035] p-6 sm:p-8">
+        <section className="mt-6 grid grid-cols-1 gap-6 xl:grid-cols-[1.05fr_0.95fr]">
+          <div className="min-w-0 rounded-[30px] border border-white/8 bg-white/[0.035] p-6 max-sm:px-4 sm:p-8">
             <div className="flex items-center justify-between gap-4">
               <div>
                 <p className="text-[11px] font-semibold uppercase tracking-[0.2em]" style={{ color: visual.accentBright }}>
@@ -481,7 +481,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
                     initial={{ opacity: 0, x: isRTL ? 10 : -10 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.06 * index }}
-                    className="grid grid-cols-[42px_minmax(0,1fr)_auto] items-center gap-4 rounded-2xl border border-white/7 bg-black/10 px-4 py-3.5"
+                    className="grid grid-cols-[42px_minmax(0,1fr)_auto] items-center gap-4 rounded-2xl border border-white/7 bg-black/10 px-4 py-3.5 max-sm:gap-3 max-sm:px-3"
                   >
                     <div
                       className="flex h-10 w-10 items-center justify-center rounded-xl"
@@ -491,8 +491,8 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
                     </div>
                     <div className="min-w-0">
                       <div className="flex items-center justify-between gap-3">
-                        <span className="truncate text-sm font-semibold text-white/86">{label}</span>
-                        <span className="text-xs font-semibold tabular-nums text-white/46">
+                        <span className="truncate text-sm font-semibold text-white/86 max-sm:whitespace-normal max-sm:leading-snug">{label}</span>
+                        <span className="shrink-0 whitespace-nowrap text-xs font-semibold tabular-nums text-white/46">
                           {total > 0 ? `${formatNumber(value)} / ${formatNumber(total)}` : formatNumber(value)}
                         </span>
                       </div>
@@ -539,9 +539,9 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
                     [copy.corrected, formatNumber(finalDetails.correctedAnswers)],
                     [copy.reflections, formatNumber(finalDetails.reflectionCompleted)],
                   ].map(([label, value]) => (
-                    <div key={label} className="rounded-2xl border border-white/7 bg-black/10 p-4">
-                      <p className="text-[11px] font-semibold uppercase tracking-[0.13em] text-white/62">{label}</p>
-                      <p className="mt-2 text-2xl font-semibold tabular-nums">{value}</p>
+                    <div key={label} className="min-w-0 rounded-2xl border border-white/7 bg-black/10 p-4 max-sm:p-3.5">
+                      <p className="text-[11px] font-semibold uppercase tracking-[0.13em] text-white/62 max-sm:min-h-[2lh] max-sm:tracking-[0.1em]">{label}</p>
+                      <p className="mt-2 whitespace-nowrap text-2xl font-semibold tabular-nums">{value}</p>
                     </div>
                   ))}
                 </div>
@@ -549,7 +549,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
                 <div className="mt-4 rounded-2xl border border-white/7 bg-black/10 p-4">
                   <div className="flex items-center justify-between gap-4">
                     <p className="text-xs font-semibold text-white/55">{copy.revisit}</p>
-                    <span className="text-sm font-semibold tabular-nums">
+                    <span className="shrink-0 whitespace-nowrap text-sm font-semibold tabular-nums">
                       {formatNumber(finalDetails.missedQuestionCount)} / {formatNumber(finalDetails.scoredQuestionCount)}
                     </span>
                   </div>
@@ -680,7 +680,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
         )}
 
         <section className="mt-6 overflow-hidden rounded-[30px] border border-white/8 bg-white/[0.035]">
-          <div className="grid lg:grid-cols-[minmax(0,1fr)_360px]">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_360px]">
             <div className="p-6 sm:p-8">
               <p className="text-[11px] font-semibold uppercase tracking-[0.2em]" style={{ color: visual.accentBright }}>
                 {copy.continue}

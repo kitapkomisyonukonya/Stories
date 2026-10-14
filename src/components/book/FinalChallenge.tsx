@@ -89,6 +89,9 @@ export const FinalChallenge: React.FC<FinalChallengeProps> = ({ bookData, onComp
   const [fillDraft, setFillDraft] = React.useState('');
   const [matchingAssignments, setMatchingAssignments] = React.useState<Record<string, string>>({});
   const [sequenceDraft, setSequenceDraft] = React.useState<string[]>([]);
+  // Sentences already in the right place after the first check stay there for the second try.
+  const [lockedSequenceIds, setLockedSequenceIds] = React.useState<string[]>([]);
+  const [lastMovedId, setLastMovedId] = React.useState<string | null>(null);
   const [reflectionDraft, setReflectionDraft] = React.useState('');
 
   const dedicatedFinalQuestions = React.useMemo(() => {
@@ -120,6 +123,8 @@ export const FinalChallenge: React.FC<FinalChallengeProps> = ({ bookData, onComp
     setFillDraft('');
     setMatchingAssignments({});
     setSequenceDraft([]);
+    setLockedSequenceIds([]);
+    setLastMovedId(null);
     setReflectionDraft('');
     setAttemptNumber(1);
   };
@@ -162,6 +167,12 @@ export const FinalChallenge: React.FC<FinalChallengeProps> = ({ bookData, onComp
   const presentedMeanings = React.useMemo(
     () => currentQuestion?.type === 'matching' ? presentMatchingMeanings(currentQuestion) : [],
     [currentQuestion]
+  );
+
+  const expectedSequence = (question: Exercise) => (
+    Array.isArray(question.correctAnswer)
+      ? question.correctAnswer.map(String)
+      : (question.sequencingItems ?? []).map((item) => item.id)
   );
 
   const isCorrectAnswer = (answer: Exclude<FinalAnswer, null>) => {
@@ -237,16 +248,27 @@ export const FinalChallenge: React.FC<FinalChallengeProps> = ({ bookData, onComp
     setReflectionDraft('');
 
     if (currentQuestion.type === 'sequencing') {
-      setSequenceDraft([...(currentQuestion.sequencingItems ?? [])].map((item) => item.id).reverse());
+      // Keep the learner's order: the sentences in the right place stay locked, only the others move.
+      const expected = expectedSequence(currentQuestion);
+      setLockedSequenceIds(sequenceDraft.filter((id, index) => expected[index] === id));
+      setLastMovedId(null);
     }
   };
 
 
+  // The nearest place up or down that is not locked; -1 when there is none.
+  const sequenceTarget = (index: number, delta: number) => {
+    let target = index + delta;
+    while (target >= 0 && target < sequenceDraft.length && lockedSequenceIds.includes(sequenceDraft[target])) target += delta;
+    return target >= 0 && target < sequenceDraft.length ? target : -1;
+  };
+
   const moveSequenceItem = (index: number, delta: number) => {
     if (selectedAnswer !== null) return;
+    const target = sequenceTarget(index, delta);
+    if (target < 0) return;
+    setLastMovedId(sequenceDraft[index]);
     setSequenceDraft((previous) => {
-      const target = index + delta;
-      if (target < 0 || target >= previous.length) return previous;
       const next = [...previous];
       [next[index], next[target]] = [next[target], next[index]];
       return next;
@@ -496,7 +518,7 @@ export const FinalChallenge: React.FC<FinalChallengeProps> = ({ bookData, onComp
                   value={fillDraft}
                   onChange={(event) => setFillDraft(event.target.value)}
                   aria-label={isArabic ? 'إجابة الفراغ' : 'Blank answer'}
-                  className={cn('mx-2 px-3 py-1 border-b-2 bg-transparent outline-none min-w-32 text-center font-bold', theme.border)}
+                  className={cn('mx-2 px-3 py-1 border-b-2 bg-transparent outline-none min-w-32 text-center font-bold max-sm:mx-1 max-sm:w-36 max-sm:max-w-full', theme.border)}
                 />
               );
             })}
@@ -557,30 +579,52 @@ export const FinalChallenge: React.FC<FinalChallengeProps> = ({ bookData, onComp
             {language === 'ar' ? 'رتّب الأحداث باستخدام زري الأعلى والأسفل، ثم تحقق من الإجابة.' : 'Use the up and down buttons to put the events in order, then check your answer.'}
           </p>
           <div className="space-y-2.5">
-            {sequenceDraft.map((id, index) => (
-              <div key={id} className={cn('rounded-xl border-2 bg-white px-3 py-3 flex items-center gap-3', theme.border)}>
-                <span className={cn('w-8 h-8 shrink-0 rounded-full flex items-center justify-center font-display text-sm font-black', theme.soft, theme.subtext)}>
-                  {formatNumber(index + 1)}
-                </span>
-                <span className={cn('font-serif text-wood flex-1 leading-snug', isArabic ? 'text-base sm:text-lg' : 'text-sm sm:text-base')}>{itemMap.get(id)}</span>
-                <div className="flex gap-1 shrink-0">
-                  <button
-                    type="button"
-                    disabled={selectedAnswer !== null || index === 0}
-                    onClick={() => moveSequenceItem(index, -1)}
-                    className={cn('w-9 h-9 rounded-lg border font-bold disabled:opacity-25', theme.border, theme.subtext)}
-                    aria-label={language === 'ar' ? 'تحريك إلى أعلى' : 'Move up'}
-                  >↑</button>
-                  <button
-                    type="button"
-                    disabled={selectedAnswer !== null || index === sequenceDraft.length - 1}
-                    onClick={() => moveSequenceItem(index, 1)}
-                    className={cn('w-9 h-9 rounded-lg border font-bold disabled:opacity-25', theme.border, theme.subtext)}
-                    aria-label={language === 'ar' ? 'تحريك إلى أسفل' : 'Move down'}
-                  >↓</button>
-                </div>
-              </div>
-            ))}
+            {sequenceDraft.map((id, index) => {
+              const locked = lockedSequenceIds.includes(id);
+              const checked = selectedAnswer !== null && lastCorrect !== null;
+              const inPlace = expectedSequence(currentQuestion)[index] === id;
+              const state = checked ? (inPlace ? 'right' : 'wrong') : locked ? 'right' : 'idle';
+              return (
+                <motion.div
+                  key={id}
+                  layout
+                  transition={{ type: 'spring', stiffness: 520, damping: 38 }}
+                  animate={lastMovedId === id && !checked ? { scale: [1, 1.03, 1] } : { scale: 1 }}
+                  className={cn(
+                    'relative rounded-xl border-2 px-3 py-3 flex items-center gap-3 transition-colors duration-300',
+                    state === 'right' ? 'border-emerald-300 bg-emerald-50' : state === 'wrong' ? 'border-rose-300 bg-rose-50' : 'bg-white',
+                    state === 'idle' && theme.border,
+                    lastMovedId === id && !checked && 'z-10 shadow-[0_10px_24px_-14px_rgba(0,0,0,0.45)]'
+                  )}
+                >
+                  <span className={cn(
+                    'w-8 h-8 shrink-0 rounded-full flex items-center justify-center font-display text-sm font-black',
+                    state === 'right' ? 'bg-emerald-500 text-white' : state === 'wrong' ? 'bg-rose-500 text-white' : cn(theme.soft, theme.subtext)
+                  )}>
+                    {state === 'right' ? '✓' : formatNumber(index + 1)}
+                  </span>
+                  <span className={cn('font-serif text-wood flex-1 leading-snug', isArabic ? 'text-base sm:text-lg' : 'text-sm sm:text-base')}>{itemMap.get(id)}</span>
+                  {!locked && selectedAnswer === null && (
+                    <div className="flex gap-1 shrink-0">
+                      <button
+                        type="button"
+                        disabled={selectedAnswer !== null || sequenceTarget(index, -1) < 0}
+                        onClick={() => moveSequenceItem(index, -1)}
+                        className={cn('w-9 h-9 rounded-lg border font-bold disabled:opacity-25', theme.border, theme.subtext)}
+                        aria-label={language === 'ar' ? 'تحريك إلى أعلى' : 'Move up'}
+                      >↑</button>
+                      <button
+                        type="button"
+                        disabled={selectedAnswer !== null || sequenceTarget(index, 1) < 0}
+                        onClick={() => moveSequenceItem(index, 1)}
+                        className={cn('w-9 h-9 rounded-lg border font-bold disabled:opacity-25', theme.border, theme.subtext)}
+                        aria-label={language === 'ar' ? 'تحريك إلى أسفل' : 'Move down'}
+                      >↓</button>
+                    </div>
+                  )}
+                </motion.div>
+              );
+            })}
           </div>
           {selectedAnswer === null && (
             <button
@@ -732,7 +776,20 @@ export const FinalChallenge: React.FC<FinalChallengeProps> = ({ bookData, onComp
             revealKey={`${currentQuestion.id}-${attemptNumber}`}
             message={lastCorrect
               ? currentQuestion.feedback.correct
-              : currentQuestion.feedback.incorrect || (isArabic ? 'ارجع إلى الدليل في القصة وحاول مرة أخرى.' : 'Return to the story evidence and try once more.')}
+              : <>
+                  {currentQuestion.feedback.incorrect || (isArabic ? 'ارجع إلى الدليل في القصة وحاول مرة أخرى.' : 'Return to the story evidence and try once more.')}
+                  {currentQuestion.type === 'sequencing' && attemptNumber === 1 && (() => {
+                    const expected = expectedSequence(currentQuestion);
+                    const inPlace = sequenceDraft.filter((id, index) => expected[index] === id).length;
+                    return (
+                      <span className="mt-1.5 block font-semibold text-wood/80">
+                        {isArabic
+                          ? `${formatNumber(inPlace)} من ${formatNumber(expected.length)} في المكان الصحيح. تبقى الجمل الخضراء في مكانها، فرتّب الباقي.`
+                          : `${inPlace} of ${expected.length} are in the right place. The green ones stay; move the others.`}
+                      </span>
+                    );
+                  })()}
+                </>}
             explanation={currentQuestion.explanation}
             onRetry={retryCurrentQuestion}
             onNext={goNext}

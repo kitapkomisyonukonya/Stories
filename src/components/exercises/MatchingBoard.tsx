@@ -3,6 +3,7 @@ import { cn } from '../../lib/utils';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { MatchConnectors, pairColor } from './MatchConnectors';
 import { useIsPhone } from '../../lib/phone';
+import { X } from '../ui/icons';
 
 /**
  * The one matching interaction of the app (Quick Challenge, Language Focus, Vocabulary
@@ -47,6 +48,13 @@ const MatchPairBadge = ({ label, color, result, description }: { label: string; 
 
 const resultColor = (index: number, result: boolean | null) =>
   result === null ? pairColor(index) : result ? '#10B981' : '#F43F5E';
+
+// The small cross on a matched row on phones: tapping the row undoes that pair.
+const UndoMark = () => (
+  <span aria-hidden="true" className="flex h-7 w-7 shrink-0 items-center justify-center self-center rounded-full bg-black/[0.06] text-wood/60">
+    <X size={14} />
+  </span>
+);
 
 export const MatchingBoard: React.FC<MatchingBoardProps> = ({
   pairs,
@@ -125,10 +133,22 @@ export const MatchingBoard: React.FC<MatchingBoardProps> = ({
       ? phoneLeft
       : openLefts[0] ?? null;
     const currentIndex = current ? pairs.findIndex(pair => pair.left === current) : -1;
+    // Undo a pair: the meaning is free again and its word comes back on top to be matched again.
+    const unlink = (left: string) => {
+      if (disabled || submitted || isLocked(left)) return;
+      const next = { ...assignments };
+      delete next[left];
+      onAssignmentsChange(next);
+      setPhoneLeft(left);
+    };
     const pickMeaning = (meaning: string) => {
       if (disabled || submitted || !current) return;
       const ownerIndex = ownerOf(meaning);
       if (ownerIndex >= 0 && isLocked(pairs[ownerIndex].left)) return;
+      if (ownerIndex >= 0) {
+        unlink(pairs[ownerIndex].left);
+        return;
+      }
       const next = { ...assignments };
       for (const [otherLeft, otherMeaning] of Object.entries(next)) {
         if (otherMeaning === meaning && !isLocked(otherLeft)) delete next[otherLeft];
@@ -153,7 +173,8 @@ export const MatchingBoard: React.FC<MatchingBoardProps> = ({
                 key={pair.left}
                 type="button"
                 disabled={disabled || submitted || isLocked(pair.left)}
-                onClick={() => setPhoneLeft(pair.left)}
+                onClick={() => unlink(pair.left)}
+                aria-label={!submitted && !isLocked(pair.left) ? (isArabic ? `إلغاء المطابقة: ${pair.left}` : `Undo the match: ${pair.left}`) : undefined}
                 className={cn('flex w-full items-start gap-3 rounded-xl border-2 bg-white px-3.5 py-2.5 text-start font-serif', textSize,
                   result === true && 'bg-emerald-50/70', result === false && 'bg-rose-50/70')}
                 style={{ borderColor: resultColor(pairIndex, result) }}
@@ -163,6 +184,7 @@ export const MatchingBoard: React.FC<MatchingBoardProps> = ({
                   <span className="block font-bold text-wood">{renderLeft ? renderLeft(pair.left) : pair.left}</span>
                   <span className="block text-wood/75">{assigned ?? '—'}</span>
                 </span>
+                {!submitted && !isLocked(pair.left) && <UndoMark />}
               </button>
             );
           })}
@@ -217,6 +239,7 @@ export const MatchingBoard: React.FC<MatchingBoardProps> = ({
                 data-match-right={meaning}
                 disabled={disabled || (ownerIndex >= 0 && isLocked(pairs[ownerIndex].left))}
                 onClick={() => pickMeaning(meaning)}
+                aria-label={ownerIndex >= 0 ? (isArabic ? `إلغاء المطابقة: ${meaning}` : `Undo the match: ${meaning}`) : undefined}
                 className={cn('flex min-h-11 w-full items-center gap-2.5 rounded-xl border-2 bg-white px-3.5 py-2 text-start font-serif transition-colors enabled:active:scale-[0.99]', textSize,
                   mine ? 'border-brand-500 bg-brand-50' : ownerIndex >= 0 ? 'text-wood/55' : 'border-brand-200 text-wood/90')}
                 style={ownerIndex >= 0 && !mine ? { borderColor: pairColor(ownerIndex) } : undefined}
@@ -225,6 +248,7 @@ export const MatchingBoard: React.FC<MatchingBoardProps> = ({
                   <MatchPairBadge label={formatNumber(ownerIndex + 1)} color={pairColor(ownerIndex)} result={null} description="" />
                 )}
                 <span className="min-w-0 flex-1">{meaning}</span>
+                {ownerIndex >= 0 && !isLocked(pairs[ownerIndex].left) && <UndoMark />}
               </button>
             );
           })}
