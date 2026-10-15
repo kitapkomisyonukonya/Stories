@@ -2,8 +2,8 @@ import type { Level } from '../../types';
 import { storyCatalog } from '../../core/content/storyCatalog';
 
 /**
- * The certificate's check code: 8 characters carrying the level, the books, the day and a short
- * fingerprint of the name, with a check digit. Typed in or scanned, it shows what the certificate
+ * The certificate's check code: 8 characters carrying the level, the language, the books, the day and
+ * a short fingerprint of the name, with a check digit. Typed in or scanned, it shows what the certificate
  * says; changing the name or a letter breaks it. Like the result code, a light check, not a register.
  */
 const ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZ';
@@ -32,6 +32,8 @@ const checksum = (bits: bigint) => {
 
 export interface CertificateData {
   level: Level;
+  /** Each certificate is in one language: the language its books were read in. */
+  lang: 'en' | 'ar';
   storyIds: string[];
   /** The day the last book was sealed. */
   date: Date;
@@ -39,10 +41,11 @@ export interface CertificateData {
 
 export const encodeCertificate = (data: CertificateData, name: string) => {
   const mask = storyCatalog.reduce((value, story, index) => (data.storyIds.includes(story.id) ? value | (1 << index) : value), 0);
-  const day = Math.max(0, Math.min(16383, Math.floor((data.date.getTime() - EPOCH) / DAY)));
+  const day = Math.max(0, Math.min(8191, Math.floor((data.date.getTime() - EPOCH) / DAY)));
   let bits = BigInt(LEVELS.indexOf(data.level));
+  bits = (bits << 1n) | (data.lang === 'ar' ? 1n : 0n);
   bits = (bits << 10n) | BigInt(mask & 1023);
-  bits = (bits << 14n) | BigInt(day);
+  bits = (bits << 13n) | BigInt(day);
   bits = (bits << 10n) | BigInt(nameHash(name));
   bits = (bits << 4n) | checksum(bits);
   let code = '';
@@ -68,17 +71,29 @@ export const decodeCertificate = (raw: string, name: string): CertificateData | 
   if (checksum(bits) !== check) return null;
   const hash = Number(bits & 1023n);
   bits >>= 10n;
-  const day = Number(bits & 16383n);
-  bits >>= 14n;
+  const day = Number(bits & 8191n);
+  bits >>= 13n;
   const mask = Number(bits & 1023n);
   bits >>= 10n;
+  const lang = bits & 1n ? 'ar' : 'en';
+  bits >>= 1n;
   const level = LEVELS[Number(bits)];
   if (!level || hash !== nameHash(name)) return null;
   return {
     level,
+    lang,
     storyIds: storyCatalog.filter((_, index) => mask & (1 << index)).map(story => story.id),
     date: new Date(EPOCH + day * DAY),
   };
+};
+
+const AR_MONTHS = ['يَنَايِر', 'فِبْرَايِر', 'مَارِس', 'أَبْرِيل', 'مَايُو', 'يُونْيُو', 'يُولْيُو', 'أَغُسْطُس', 'سِبْتَمْبَر', 'أُكْتُوبَر', 'نُوفَمْبَر', 'دِيسَمْبَر'];
+
+/** "13 October 2026"; in Arabic with Arabic digits and the month fully vowelled. */
+export const formatCertificateDate = (date: Date, lang: 'en' | 'ar') => {
+  if (lang === 'en') return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(date);
+  const digits = (value: number) => new Intl.NumberFormat('ar-u-nu-arab', { useGrouping: false }).format(value);
+  return `${digits(date.getUTCDate())} ${AR_MONTHS[date.getUTCMonth()]} ${digits(date.getUTCFullYear())}`;
 };
 
 export const certificateLink = (code: string, name: string) =>

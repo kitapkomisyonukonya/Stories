@@ -10,11 +10,11 @@ import { useDialogFocus } from '../../hooks/useDialogFocus';
 import { MY_WORDS_LEARNED, useMyWords } from '../../lib/myWords';
 import { EDITIONS, editionKey, setWeeklyGoal, stampsThisWeek, useJournal, weeksOnTarget } from '../../lib/seyahatname/store';
 import {
-  BADGE_COPY, BADGE_ORDER, LEVELS, bookName, chapterStamp, earnedBadges, levelBooks, nextChest, totalSeals, totalStamps, visibleEditions,
+  BADGE_COPY, BADGE_ORDER, LEVELS, bookName, certificateProgress, chapterStamp, earnedBadges, levelBooks, nextChest, totalSeals, totalStamps, visibleEditions,
 } from '../../lib/seyahatname/view';
 import { BadgeMark, BookSeal, Stamp, tiltFor } from './art';
 import { JOURNAL_COPY } from './copy';
-import { CertificateDialog } from './CertificateDialog';
+import { CertificateDialog, type CertificateChoice } from './CertificateDialog';
 import { TransferDialog } from './TransferDialog';
 import { CaravanPanel } from './CaravanPanel';
 import { ChevronLeft, Scroll } from '../ui/icons';
@@ -67,7 +67,7 @@ export const SeyahatnamePanel: React.FC<SeyahatnamePanelProps> = ({ isOpen, onCl
   const words = useMyWords();
   const [expanded, setExpanded] = useState<Set<string>>(() => new Set(focusBook ? [editionKey(focusBook.storyId, focusBook.level)] : []));
   const [selected, setSelected] = useState<string | null>(null);
-  const [certificateLevel, setCertificateLevel] = useState<Level | null>(null);
+  const [certificate, setCertificate] = useState<CertificateChoice | null>(null);
   const [transfer, setTransfer] = useState<'show' | 'enter' | null>(null);
   const [caravanOpen, setCaravanOpen] = useState(false);
   const fmt = (value: number) => formatNumber(value);
@@ -327,28 +327,37 @@ export const SeyahatnamePanel: React.FC<SeyahatnamePanelProps> = ({ isOpen, onCl
         })}
       </ul>
 
-      {/* Certificates: one per level. */}
+      {/* Certificates: one per level and language, never two languages on one certificate. */}
       {sectionTitle(copy.certificates)}
+      <p className="px-1 text-[12.5px] text-[#EDE5D4]/60">{copy.certificatesNote}</p>
       <div className="space-y-2">
-        {LEVELS.map(level => {
-          const books = levelBooks(level);
-          const done = books.filter(story => journal.seals[editionKey(story.id, level)] !== undefined).length;
-          const ready = books.length > 0 && done === books.length;
-          return (
-            <div key={level} className={card} data-certificate={level} data-ready={ready || undefined}>
-              <b className="block text-[14.5px] font-semibold text-[#FFF9EC]">{copy.certificateLevel(level)}</b>
-              <span className="mt-0.5 block text-[12.5px] text-[#EDE5D4]/65">{ready ? copy.certificateReady : copy.certificateNeeds(level, fmt(done), fmt(books.length))}</span>
-              <div className="mt-2.5 h-1.5 overflow-hidden rounded-full bg-white/10">
-                <i className="block h-full rounded-full bg-[#E7C76A]" style={{ width: `${books.length ? (done / books.length) * 100 : 0}%` }} />
-              </div>
-              {ready && (
-                <button type="button" className={cn(goldButton, 'mt-3 w-full')} onClick={() => setCertificateLevel(level)}>
-                  {copy.certificateOpen}
-                </button>
-              )}
+        {LEVELS.map(level => (
+          <div key={level} className={card} data-certificate={level}>
+            <b className="block text-[14.5px] font-semibold text-[#FFF9EC]">{copy.certificateLevel(level)}</b>
+            <div className="mt-2 space-y-3">
+              {(['en', 'ar'] as const).map(certLang => {
+                const { books, done, ready } = certificateProgress(journal, level, certLang);
+                if (!books.length) return null;
+                return (
+                  <div key={certLang} data-certificate-lang={certLang} data-ready={ready || undefined}>
+                    <div className="flex items-baseline justify-between gap-3 text-[12.5px]">
+                      <span className="font-semibold text-[#EDE5D4]/90">{copy.certificateIn[certLang]}</span>
+                      <span className="text-[#EDE5D4]/65">{ready ? copy.certificateReady : copy.certificateNeeds(fmt(done), fmt(books.length))}</span>
+                    </div>
+                    <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-white/10">
+                      <i className="block h-full rounded-full bg-[#E7C76A]" style={{ width: `${(done / books.length) * 100}%` }} />
+                    </div>
+                    {ready && (
+                      <button type="button" className={cn(goldButton, 'mt-2.5 w-full')} onClick={() => setCertificate({ level, lang: certLang })}>
+                        {copy.certificateOpen[certLang]}
+                      </button>
+                    )}
+                  </div>
+                );
+              })}
             </div>
-          );
-        })}
+          </div>
+        ))}
       </div>
 
       {isTeacher && (
@@ -372,7 +381,7 @@ export const SeyahatnamePanel: React.FC<SeyahatnamePanelProps> = ({ isOpen, onCl
         </div>
       </div>
 
-      <CertificateDialog level={certificateLevel} onClose={() => setCertificateLevel(null)} />
+      <CertificateDialog certificate={certificate} onClose={() => setCertificate(null)} />
       <TransferDialog mode={transfer} onClose={() => setTransfer(null)} />
       <CaravanPanel isOpen={caravanOpen} onClose={() => setCaravanOpen(false)} />
     </div>

@@ -3,9 +3,9 @@ import { createPortal } from 'react-dom';
 import brandLogo from '../../assets/images/brand_logo_384.webp';
 import type { Level } from '../../types';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { EDITIONS, editionKey, useJournal } from '../../lib/seyahatname/store';
-import { levelBooks } from '../../lib/seyahatname/view';
-import { certificateLink, downloadText, encodeCertificate, openBadgesAvailable, requestOpenBadge } from '../../lib/seyahatname/certificate';
+import { editionKey, useJournal, type SealLanguage } from '../../lib/seyahatname/store';
+import { certificateBooks } from '../../lib/seyahatname/view';
+import { certificateLink, downloadText, encodeCertificate, formatCertificateDate, openBadgesAvailable, requestOpenBadge } from '../../lib/seyahatname/certificate';
 import { BookSeal } from './art';
 import { arCount } from './copy';
 import { Modal } from './Modal';
@@ -18,6 +18,7 @@ const POPPINS = 'Poppins, sans-serif';
 const ARAKOM = 'Arakom, sans-serif';
 const INK = '#14221a';
 const GOLD = '#b08a3e';
+const TEAL = '#1d5f5a';
 
 const COPY = {
   en: {
@@ -50,133 +51,127 @@ const readName = () => {
   }
 };
 
-const formatDate = (date: Date, lang: 'en' | 'ar') =>
-  new Intl.DateTimeFormat(lang === 'ar' ? 'ar-u-nu-arab' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(date);
+const EN_NUMBERS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+/** Arabic counts of books after a genitive ("reading … books"), fully vowelled. */
+const AR_BOOKS = ['', 'كِتَابٍ وَاحِدٍ', 'كِتَابَيْنِ', 'ثَلَاثَةِ', 'أَرْبَعَةِ', 'خَمْسَةِ', 'سِتَّةِ', 'سَبْعَةِ', 'ثَمَانِيَةِ', 'تِسْعَةِ', 'عَشَرَةِ'];
 
-/** A thin double rule with a small lozenge in the middle, for between the title lines. */
-const Rule: React.FC<{ width: number }> = ({ width }) => (
-  <svg width={width} height="12" viewBox={`0 0 ${width} 12`} aria-hidden="true" style={{ display: 'block', margin: '0 auto' }}>
-    <path d={`M0 6H${width / 2 - 10}M${width / 2 + 10} 6H${width}`} stroke={GOLD} strokeWidth="1.2" />
-    <path d={`M${width / 2} 1l5 5-5 5-5-5z`} fill="none" stroke={GOLD} strokeWidth="1.2" />
-  </svg>
-);
+const enBooks = (count: number) => {
+  const number = EN_NUMBERS[count] ?? String(count);
+  return count === 1 ? 'one book in English up to its Final Challenge' : `${number} books in English up to their Final Challenge`;
+};
 
-/** Corner ornament: an interlaced bracket, drawn once and turned for each corner. */
-const Corner: React.FC<{ rotate: number; x: number; y: number }> = ({ rotate, x, y }) => (
-  <g transform={`translate(${x} ${y}) rotate(${rotate})`} fill="none" stroke={GOLD} strokeWidth="1.6" strokeLinecap="round">
-    <path d="M0 64V14a14 14 0 0 1 14-14h50" />
-    <path d="M10 64V24a14 14 0 0 1 14-14h40" strokeOpacity=".7" />
-    <path d="M22 22c10 0 16 6 16 16s-6 16-16 16-12-4-12-10 4-10 10-10 8 4 8 8" strokeOpacity=".85" />
-  </g>
-);
+const arBooks = (count: number) => {
+  if (count === 1 || count === 2) return AR_BOOKS[count];
+  if (count <= 10) return `${AR_BOOKS[count]}\u00a0كُتُبٍ`;
+  return arCount(count, new Intl.NumberFormat('ar-u-nu-arab').format(count), { one: '', two: '', few: 'كُتُبٍ', many: 'كِتَابًا' });
+};
+
+const SHEET_COPY = {
+  en: {
+    title: 'Seyahatname Certificate',
+    level: (level: string) => `LEVEL ${level}`,
+    awarded: 'This certificate is awarded to',
+    body: (level: string, books: number) => `for completing the ${level} journey of the Lisandan Kültüre digital library, reading ${enBooks(books)}.`,
+    date: 'DATE',
+    check: 'Check code',
+  },
+  ar: {
+    title: 'شَهَادَةُ الرِّحْلَةِ',
+    level: (level: string) => `الْمُسْتَوَى ${level}`,
+    awarded: 'تُمْنَحُ هٰذِهِ الشَّهَادَةُ لِـ',
+    body: (level: string, books: number) =>
+      `تَقْدِيرًا لِإِتْمَامِ رِحْلَةِ الْمُسْتَوَى ${level} فِي مَكْتَبَةِ «\u2068Lisandan\u00a0Kültüre\u2069» الرَّقْمِيَّةِ، وَقِرَاءَةِ ${arBooks(books)} بِاللُّغَةِ الْعَرَبِيَّةِ حَتَّى تَحَدِّيهَا النِّهَائِيِّ.`,
+    date: 'التَّارِيخُ',
+    check: 'رَمْزُ التَّحَقُّقِ',
+  },
+};
 
 export interface CertificateSheetProps {
   level: Level;
+  /** The one language of the certificate: the language its books were read in. */
+  lang: SealLanguage;
   name: string;
   storyIds: string[];
-  stamps: number;
   date: Date;
   code: string;
   link: string;
 }
 
-/** The certificate itself: A4 landscape, English on the left, Arabic on the right, the books' seals below. */
-export const CertificateSheet: React.FC<CertificateSheetProps> = ({ level, name, storyIds, stamps, date, code, link }) => {
-  const arNumber = (value: number) => new Intl.NumberFormat('ar-u-nu-arab').format(value);
-  const books = storyIds.length;
+/** The certificate itself: A4 landscape, in one language, the books' seals below the text. */
+export const CertificateSheet: React.FC<CertificateSheetProps> = ({ level, lang, name, storyIds, date, code, link }) => {
+  const ar = lang === 'ar';
+  const t = SHEET_COPY[lang];
   const shownName = name.trim() || '—';
-  const enBody = `for completing the ${level} journey of the Lisandan Kültüre digital library: ${books} books read up to their Final Challenge, ${stamps} chapter stamps.`;
-  const arBody = `تَقْدِيرًا لِإِتْمَامِ رِحْلَةِ الْمُسْتَوَى ${level} فِي مَكْتَبَةِ «\u2068Lisandan\u00a0Kültüre\u2069» الرَّقْمِيَّةِ: قِرَاءَةِ ${arCount(books, arNumber(books), { one: 'كِتَابٍ وَاحِدٍ', two: 'كِتَابَيْنِ', few: 'كُتُبٍ', many: 'كِتَابًا' })} حَتَّى تَحَدِّيهَا النِّهَائِيِّ، وَجَمْعِ ${arCount(stamps, arNumber(stamps), { one: 'خَتْمٍ وَاحِدٍ', two: 'خَتْمَيْنِ', few: 'أَخْتَامٍ', many: 'خَتْمًا' })} لِلْفُصُولِ.`;
   return (
     <div
-      dir="ltr"
-      lang="en"
-      style={{ width: WIDTH, height: HEIGHT, position: 'relative', background: 'radial-gradient(ellipse at 50% 40%, #fffaf0 0%, #f8f0de 62%, #efe2c4 100%)', color: INK, fontFamily: POPPINS, overflow: 'hidden' }}
-      data-certificate-sheet
+      dir={ar ? 'rtl' : 'ltr'}
+      lang={lang}
+      style={{ width: WIDTH, height: HEIGHT, position: 'relative', background: '#fbf7ec', color: INK, fontFamily: ar ? ARAKOM : POPPINS, overflow: 'hidden' }}
+      data-certificate-sheet={lang}
     >
-      <svg width={WIDTH} height={HEIGHT} style={{ position: 'absolute', inset: 0 }} aria-hidden="true">
-        <rect x="14" y="14" width={WIDTH - 28} height={HEIGHT - 28} fill="none" stroke={INK} strokeWidth="10" />
-        <rect x="30" y="30" width={WIDTH - 60} height={HEIGHT - 60} fill="none" stroke={GOLD} strokeWidth="1.6" />
-        <rect x="36" y="36" width={WIDTH - 72} height={HEIGHT - 72} fill="none" stroke={GOLD} strokeWidth=".8" strokeOpacity=".7" />
-        <Corner rotate={0} x={44} y={44} />
-        <Corner rotate={90} x={WIDTH - 44} y={44} />
-        <Corner rotate={180} x={WIDTH - 44} y={HEIGHT - 44} />
-        <Corner rotate={270} x={44} y={HEIGHT - 44} />
-      </svg>
+      <div style={{ position: 'absolute', inset: 22, border: `2px solid ${GOLD}` }} />
+      <div style={{ position: 'absolute', inset: 30, border: `1px solid ${GOLD}`, opacity: 0.6 }} />
 
       {/* Header */}
-      <div style={{ position: 'absolute', top: 54, left: 0, right: 0, textAlign: 'center' }}>
-        <img src={brandLogo} alt="" width={62} height={62} style={{ display: 'block', margin: '0 auto' }} />
-        <div style={{ marginTop: 6, fontSize: 15, fontWeight: 600, letterSpacing: '0.32em' }}>LISANDAN KÜLTÜRE</div>
-        <div style={{ marginTop: 2, fontSize: 10.5, color: '#5b5140', letterSpacing: '0.02em' }}>Yabancı Dil, Kültür, Tarih ve Değerlerimiz Dijital Kütüphane Projesi</div>
+      <div style={{ position: 'absolute', top: 58, left: 0, right: 0, textAlign: 'center', fontFamily: POPPINS }} dir="ltr">
+        <img src={brandLogo} alt="" width={58} height={58} style={{ display: 'block', margin: '0 auto' }} />
+        <div style={{ marginTop: 6, fontSize: 14, fontWeight: 600, letterSpacing: '0.3em' }}>LISANDAN KÜLTÜRE</div>
+        <div style={{ marginTop: 2, fontSize: 10, opacity: 0.75 }} lang="tr">Yabancı Dil, Kültür, Tarih ve Değerlerimiz Dijital Kütüphane Projesi</div>
       </div>
 
-      {/* Titles: English left, Arabic right */}
-      <div style={{ position: 'absolute', top: 178, left: 90, right: 90, display: 'grid', gridTemplateColumns: '1fr 1fr', columnGap: 70 }}>
-        <div style={{ textAlign: 'center' }}>
-          <div style={{ fontSize: 31, fontWeight: 600, letterSpacing: '0.02em', lineHeight: 1.1 }}>Seyahatname Certificate</div>
-          <div style={{ marginTop: 8, fontSize: 13, color: '#6b6250', letterSpacing: '0.18em' }}>LEVEL {level}</div>
-        </div>
-        <div dir="rtl" lang="ar" style={{ textAlign: 'center', fontFamily: ARAKOM }}>
-          <div style={{ fontSize: 36, fontWeight: 700, lineHeight: 1.1, color: INK }}>شَهَادَةُ الرِّحْلَةِ</div>
-          <div style={{ marginTop: 4, fontSize: 17, color: '#6b6250' }}>الْمُسْتَوَى {level}</div>
-        </div>
-      </div>
-      <div style={{ position: 'absolute', top: 262, left: 0, right: 0 }}>
-        <Rule width={420} />
-      </div>
-
-      {/* Awarded to */}
-      <div style={{ position: 'absolute', top: 284, left: 90, right: 90, display: 'grid', gridTemplateColumns: '1fr 1fr', columnGap: 70, fontSize: 14, color: '#4b4433' }}>
-        <div style={{ textAlign: 'center' }}>This certificate is awarded to</div>
-        <div dir="rtl" lang="ar" style={{ textAlign: 'center', fontFamily: ARAKOM, fontSize: 18 }}>تُمْنَحُ هٰذِهِ الشَّهَادَةُ لِـ</div>
-      </div>
-      <div style={{ position: 'absolute', top: 314, left: 150, right: 150, textAlign: 'center' }}>
-        <div dir="auto" style={{ fontSize: 38, fontWeight: 600, color: '#1d5f5a', lineHeight: 1.25, paddingBottom: 6, borderBottom: `1.5px solid ${GOLD}`, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+      {/* Title, name and what was done */}
+      <div style={{ position: 'absolute', top: 196, left: 0, right: 0, textAlign: 'center' }}>
+        <div style={{ fontSize: ar ? 48 : 40, fontWeight: ar ? 700 : 600, lineHeight: 1.15 }}>{t.title}</div>
+        <div style={{ marginTop: 8, fontSize: ar ? 18 : 13, letterSpacing: ar ? 0 : '0.22em', color: '#6b6250' }}>{t.level(level)}</div>
+        <div style={{ marginTop: 34, fontSize: ar ? 20 : 15, color: '#4b4433' }}>{t.awarded}</div>
+        <div
+          dir="auto"
+          style={{ margin: '10px auto 0', width: 620, fontFamily: 'Poppins, Arakom, sans-serif', fontSize: 40, fontWeight: 600, color: TEAL, lineHeight: 1.3, paddingBottom: 8, borderBottom: `1.5px solid ${GOLD}`, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}
+        >
           {shownName}
         </div>
+        <p style={{ margin: '20px auto 0', width: 700, fontSize: ar ? 20 : 15.5, lineHeight: ar ? 1.8 : 1.6, color: '#3d382c' }}>{t.body(level, storyIds.length)}</p>
       </div>
 
-      {/* Body */}
-      <div style={{ position: 'absolute', top: 386, left: 90, right: 90, display: 'grid', gridTemplateColumns: '1fr 1fr', columnGap: 70 }}>
-        <p style={{ margin: 0, textAlign: 'center', fontSize: 14, lineHeight: 1.6, color: '#3d382c' }}>{enBody}</p>
-        <p dir="rtl" lang="ar" style={{ margin: 0, textAlign: 'center', fontFamily: ARAKOM, fontSize: 17, lineHeight: 1.75, color: '#3d382c' }}>{arBody}</p>
-      </div>
-
-      {/* The level's book seals */}
-      <div style={{ position: 'absolute', top: 488, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 14 }}>
+      {/* The books' seals */}
+      <div style={{ position: 'absolute', top: 528, left: 0, right: 0, display: 'flex', justifyContent: 'center', gap: 16 }}>
         {storyIds.map(storyId => (
-          <BookSeal key={storyId} storyId={storyId} level={level} size={92} ribbons={false} />
+          <BookSeal key={storyId} storyId={storyId} level={level} arabic={ar} size={84} ribbons={false} />
         ))}
       </div>
 
-      {/* Footer: check code, date, certificate seal */}
-      <div style={{ position: 'absolute', left: 72, right: 72, bottom: 62, display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'end' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-          <QrCode value={link} size={86} />
-          <div style={{ fontSize: 10.5, lineHeight: 1.45, color: '#4b4433' }}>
-            <div style={{ fontWeight: 600, fontSize: 11.5 }}>Check this certificate</div>
-            <div dir="rtl" lang="ar" style={{ fontFamily: ARAKOM, fontSize: 13 }}>تَحَقَّقْ مِنْ هٰذِهِ الشَّهَادَةِ</div>
-            <div data-certificate-code style={{ marginTop: 2, fontSize: 15, fontWeight: 700, letterSpacing: '0.12em', color: INK }}>{code}</div>
-          </div>
+      {/* Footer: date, the Seyahatname seal, check code */}
+      <div style={{ position: 'absolute', left: 70, right: 70, bottom: 58, display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between' }}>
+        <div style={{ textAlign: 'center', width: 200 }}>
+          <div style={{ fontSize: ar ? 19 : 15, fontWeight: 600 }}>{formatCertificateDate(date, lang)}</div>
+          <div style={{ marginTop: 4, borderTop: `1px solid ${GOLD}`, paddingTop: 4, fontSize: ar ? 14 : 10.5, letterSpacing: ar ? 0 : '0.16em', color: '#6b6250' }}>{t.date}</div>
         </div>
-        <div style={{ textAlign: 'center', minWidth: 220 }}>
-          <div style={{ fontSize: 15, fontWeight: 600 }}>{formatDate(date, 'en')}</div>
-          <div dir="rtl" lang="ar" style={{ fontFamily: ARAKOM, fontSize: 16 }}>{formatDate(date, 'ar')}</div>
-          <div style={{ marginTop: 4, borderTop: `1px solid ${GOLD}`, paddingTop: 3, fontSize: 10.5, color: '#6b6250', letterSpacing: '0.14em' }}>
-            DATE · <span style={{ fontFamily: ARAKOM, letterSpacing: 0, fontSize: 12 }}>التَّارِيخُ</span>
+        <BookSeal storyId="seyahatname" level={level} arabic={ar} size={122} />
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, width: 200, justifyContent: 'flex-end' }}>
+          <div style={{ textAlign: ar ? 'left' : 'right', fontSize: ar ? 13 : 10.5, color: '#6b6250' }}>
+            {t.check}
+            <div data-certificate-code dir="ltr" style={{ fontFamily: POPPINS, fontSize: 14, fontWeight: 700, letterSpacing: '0.1em', color: INK }}>{code}</div>
           </div>
-        </div>
-        <div style={{ justifySelf: 'end', marginBottom: -14 }}>
-          <BookSeal storyId="seyahatname" level={level} size={124} />
+          <QrCode value={link} size={70} />
         </div>
       </div>
     </div>
   );
 };
 
+/** Which certificate is open: a level, in one language. */
+export interface CertificateChoice {
+  level: Level;
+  lang: SealLanguage;
+}
+
+const LANGUAGE_NAMES = {
+  en: { en: 'English', ar: 'Arabic' },
+  ar: { en: 'الْإِنْجِلِيزِيَّةُ', ar: 'الْعَرَبِيَّةُ' },
+};
+
 /** The certificate page: the learner types a name, sees the certificate, prints it or takes it as an Open Badge. */
-export const CertificateDialog: React.FC<{ level: Level | null; onClose: () => void }> = ({ level, onClose }) => {
+export const CertificateDialog: React.FC<{ certificate: CertificateChoice | null; onClose: () => void }> = ({ certificate, onClose }) => {
   const { language } = useLanguage();
   const lang = language === 'ar' ? 'ar' : 'en';
   const copy = COPY[lang];
@@ -186,12 +181,14 @@ export const CertificateDialog: React.FC<{ level: Level | null; onClose: () => v
   const [canBadge, setCanBadge] = useState(false);
   const frameRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(0.5);
+  const level = certificate?.level ?? null;
+  const sheetLang = certificate?.lang ?? 'en';
 
   useEffect(() => {
     if (!level) return;
     setBadgeState('idle');
     openBadgesAvailable().then(setCanBadge);
-  }, [level]);
+  }, [level, sheetLang]);
 
   useEffect(() => {
     try {
@@ -210,38 +207,33 @@ export const CertificateDialog: React.FC<{ level: Level | null; onClose: () => v
     const observer = new ResizeObserver(fit);
     observer.observe(frame);
     return () => observer.disconnect();
-  }, [level]);
+  }, [level, sheetLang]);
 
   const data = useMemo(() => {
     if (!level) return null;
-    const storyIds = levelBooks(level).map(story => story.id);
-    const sealedAt = storyIds.map(id => journal.seals[editionKey(id, level)] ?? 0);
-    const last = Math.max(...sealedAt, 0);
-    const stamps = storyIds.reduce(
-      (sum, id) => sum + (EDITIONS[editionKey(id, level)]?.chapters ?? []).filter((_, i) => journal.stamps[`${id}:${level}:${i + 1}`] !== undefined).length,
-      0,
-    );
-    return { storyIds, stamps, date: new Date(last > 0 ? last : Date.now()) };
-  }, [level, journal]);
+    const storyIds = certificateBooks(level, sheetLang).map(story => story.id);
+    const last = Math.max(...storyIds.map(id => journal.seals[editionKey(id, level)] ?? 0), 0);
+    return { storyIds, date: new Date(last > 0 ? last : Date.now()) };
+  }, [level, sheetLang, journal]);
 
   if (!level || !data) return <Modal open={false} onClose={onClose} title={copy.title}>{null}</Modal>;
-  const code = encodeCertificate({ level, storyIds: data.storyIds, date: data.date }, name);
+  const code = encodeCertificate({ level, lang: sheetLang, storyIds: data.storyIds, date: data.date }, name);
   const link = certificateLink(code, name);
-  const sheet = <CertificateSheet level={level} name={name} storyIds={data.storyIds} stamps={data.stamps} date={data.date} code={code} link={link} />;
+  const sheet = <CertificateSheet level={level} lang={sheetLang} name={name} storyIds={data.storyIds} date={data.date} code={code} link={link} />;
 
   const downloadBadge = async () => {
     setBadgeState('working');
-    const result = await requestOpenBadge(`level-${level}`, name, data.date);
+    const result = await requestOpenBadge(`level-${level}-${sheetLang}`, name, data.date);
     if (!result?.jwt) {
       setBadgeState('failed');
       return;
     }
-    downloadText(`seyahatname-${level.toLowerCase()}-open-badge.jwt`, result.jwt, 'application/jwt');
+    downloadText(`seyahatname-${level.toLowerCase()}-${sheetLang}-open-badge.jwt`, result.jwt, 'application/jwt');
     setBadgeState('idle');
   };
 
   return (
-    <Modal open onClose={onClose} title={`${copy.title} · ${level}`} wide>
+    <Modal open onClose={onClose} title={`${copy.title} · ${level} · ${LANGUAGE_NAMES[lang][sheetLang]}`} wide>
       <label className="block text-[13px] font-semibold text-[#14221a]/75" htmlFor="certificate-name">{copy.name}</label>
       <input
         id="certificate-name"

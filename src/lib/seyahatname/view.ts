@@ -2,7 +2,7 @@ import type { Level } from '../../types';
 import { storyCatalog, getStoryMeta } from '../../core/content/storyCatalog';
 import { readBookProgress } from '../bookProgress';
 import type { MyWord } from '../myWords';
-import { EDITIONS, editionKey, stampKey, stampsThisWeek, type JournalState } from './store';
+import { EDITIONS, editionKey, sealLanguages, stampKey, stampsThisWeek, type JournalState, type SealLanguage } from './store';
 import { storyStyle } from '../../components/seyahatname/art';
 import type { StampIcon } from './places';
 
@@ -11,6 +11,17 @@ export const LEVELS: Level[] = ['A2', 'B1', 'B2'];
 /** The books a level's certificate asks for: every listed book that has that level. */
 export const levelBooks = (level: Level) =>
   storyCatalog.filter(story => story.availableLevels.includes(level) && EDITIONS[editionKey(story.id, level)]);
+
+/** The books a level's certificate in one language asks for: books in English only are not asked for in Arabic. */
+export const certificateBooks = (level: Level, lang: SealLanguage) =>
+  levelBooks(level).filter(story => lang === 'en' || !story.englishOnly);
+
+/** How far a level's certificate in one language is: the books finished in that language. */
+export const certificateProgress = (state: JournalState, level: Level, lang: SealLanguage) => {
+  const books = certificateBooks(level, lang);
+  const done = books.filter(story => sealLanguages(state, story.id, level).includes(lang)).length;
+  return { books, done, ready: books.length > 0 && done === books.length };
+};
 
 /** Every listed edition, in library order. */
 export const visibleEditions = () =>

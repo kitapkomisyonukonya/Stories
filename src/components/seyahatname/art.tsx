@@ -200,7 +200,9 @@ export const BookSeal: React.FC<SealProps> = ({ storyId, level, arabic = false, 
         <filter id={`drop${id}`} x="-20%" y="-20%" width="140%" height="140%">
           <feDropShadow dx="0" dy="3" stdDeviation="3" floodColor="#000" floodOpacity=".35" />
         </filter>
-        {!arabic && <path id={`r${id}`} d="M48 100 A52 52 0 0 1 152 100" />}
+        {/* The name runs on a ring between the inner circle (r 36) and the rim (r 62), clear of both. */}
+        {/* Arabic sits a little lower: its vowel marks rise above the letters. */}
+        <path id={`r${id}`} d={arabic ? 'M60.5 114.4 A42 42 0 1 1 139.5 114.4' : 'M58.7 115 A44 44 0 1 1 141.3 115'} />
       </defs>
       {ribbons && (
         <g filter={`url(#drop${id})`}>
@@ -220,18 +222,20 @@ export const BookSeal: React.FC<SealProps> = ({ storyId, level, arabic = false, 
           const angle = (i / 36) * Math.PI * 2;
           return <circle key={i} cx={100 + Math.cos(angle) * 69} cy={100 + Math.sin(angle) * 69} r="1.8" fill={RELIEF} fillOpacity=".5" />;
         })}
-        <circle cx="100" cy="100" r="40" fill="none" stroke={RELIEF} strokeOpacity=".5" strokeWidth="1.8" />
+        <circle cx="100" cy="100" r="36" fill="none" stroke={RELIEF} strokeOpacity=".5" strokeWidth="1.8" />
         <g fill="none" stroke={RELIEF} strokeOpacity=".9" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" transform="translate(100 98) scale(.52) translate(-100 -104)">
           <path d={STAMP_ICONS[style.emblem]} />
         </g>
         {arabic ? (
-          <text x="100" y="58" textAnchor="middle" fill={RELIEF} fillOpacity=".9" fontFamily="Arakom, sans-serif" fontWeight={700} fontSize={Math.min(15, 110 / Math.max(name.replace(/[ً-ْ]/g, '').length, 1))}>{name}</text>
+          <text fill={RELIEF} fillOpacity=".9" direction="rtl" style={{ fontFamily: 'Arakom, sans-serif', fontWeight: 700, fontSize: Math.min(12.5, 140 / Math.max(name.replace(/[ً-ْ]/g, '').length * 0.62, 1)) }}>
+            <textPath href={`#r${id}`} startOffset="50%" textAnchor="middle">{name}</textPath>
+          </text>
         ) : (
-          <text fill={RELIEF} fillOpacity=".9" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: fitSize(name, 150, 11.5), letterSpacing: 1.6 }}>
+          <text fill={RELIEF} fillOpacity=".9" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: fitSize(name, 160, 11.5), letterSpacing: 1.6 }}>
             <textPath href={`#r${id}`} startOffset="50%" textAnchor="middle">{name}</textPath>
           </text>
         )}
-        <text x="100" y="153" textAnchor="middle" fill={RELIEF} fillOpacity=".9" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: 15, letterSpacing: 2 }}>{level}</text>
+        <text x="100" y="155" textAnchor="middle" fill={RELIEF} fillOpacity=".9" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: 13, letterSpacing: 2 }}>{level}</text>
       </g>
     </svg>
   );

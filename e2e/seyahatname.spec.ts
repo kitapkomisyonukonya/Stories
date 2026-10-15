@@ -22,6 +22,7 @@ async function seedJournal(page: Page, { allA2 = false, fresh = true } = {}) {
         const stamps: Record<string, number> = { 'ibnJubayr:A2:1': 1 };
         if (!fresh) stamps['ibnJubayr:A2:2'] = 1;
         const seals: Record<string, number> = {};
+        const langs: Record<string, string[]> = {};
         const seen = ['ibnJubayr:A2'];
         if (allA2) {
           for (const [storyId, chapters] of [
@@ -34,10 +35,12 @@ async function seedJournal(page: Page, { allA2 = false, fresh = true } = {}) {
           ] as const) {
             for (let n = 1; n <= chapters; n += 1) stamps[`${storyId}:A2:${n}`] = 0;
             seals[`${storyId}:A2`] = 0;
+            // Every A2 book finished in English; all but Ibn Jubayr (English only) in Arabic too.
+            langs[`${storyId}:A2`] = storyId === 'ibnJubayr' ? ['en'] : ['en', 'ar'];
             seen.push(`${storyId}:A2`);
           }
         }
-        items['v2:seyahatname'] = JSON.stringify({ stamps, seals, seen, goal: 3 });
+        items['v2:seyahatname'] = JSON.stringify({ stamps, seals, langs, seen, goal: 3 });
         return items;
       })(),
     ] as const,
@@ -94,7 +97,7 @@ test('the map lists which places are stamped', async ({ page }) => {
   await noSideScroll(page);
 });
 
-test('a certificate carries a code that its link checks', async ({ page }) => {
+test('each language has its own certificate, and its code checks', async ({ page }) => {
   await enterLibrary(page);
   await seedJournal(page, { allA2: true });
   await page.goto('/');
@@ -103,12 +106,35 @@ test('a certificate carries a code that its link checks', async ({ page }) => {
   } else {
     await page.locator('[data-journal-open]').click();
   }
-  await page.locator('[data-certificate="A2"] button').click();
+  const a2 = page.locator('[data-certificate="A2"]');
+  await expect(a2.locator('[data-certificate-lang="en"][data-ready]')).toBeVisible();
+  await expect(a2.locator('[data-certificate-lang="ar"][data-ready]')).toBeVisible();
+
+  // The Arabic certificate: Arabic only, the five books read in Arabic.
+  await a2.locator('[data-certificate-lang="ar"] button').click();
   await page.locator('#certificate-name').fill('Ayşe Nur');
-  const code = (await page.locator('[data-certificate-code]').first().textContent())?.trim() ?? '';
+  const arSheet = page.locator('[role="dialog"] [data-certificate-sheet="ar"]');
+  await expect(arSheet).toBeVisible();
+  await expect(arSheet).not.toContainText('Certificate');
+  const arCode = (await arSheet.locator('[data-certificate-code]').textContent())?.trim() ?? '';
+  await page.keyboard.press('Escape');
+
+  // The English certificate: no Arabic on it.
+  await a2.locator('[data-certificate-lang="en"] button').click();
+  const enSheet = page.locator('[role="dialog"] [data-certificate-sheet="en"]');
+  await expect(enSheet).toBeVisible();
+  expect(await enSheet.textContent()).not.toMatch(/[\u0600-\u06FF]/);
+  const code = (await enSheet.locator('[data-certificate-code]').textContent())?.trim() ?? '';
   expect(code).toMatch(/^[A-Z0-9]{4}-[A-Z0-9]{4}$/);
+  expect(arCode).toMatch(/^[A-Z0-9]{4}-[A-Z0-9]{4}$/);
+  expect(arCode).not.toBe(code);
+  await noSideScroll(page);
+
   await page.goto(`/?belge=${code}&ad=${encodeURIComponent('Ayşe Nur')}`);
   await expect(page.locator('[data-certificate-check][data-valid]')).toBeVisible();
+  await expect(page.locator('[data-certificate-check-lang="en"]')).toBeVisible();
+  await page.goto(`/?belge=${arCode}&ad=${encodeURIComponent('Ayşe Nur')}`);
+  await expect(page.locator('[data-certificate-check-lang="ar"]')).toBeVisible();
   await page.goto(`/?belge=${code}&ad=${encodeURIComponent('Someone Else')}`);
   await expect(page.locator('[data-certificate-check]')).toBeVisible();
   await expect(page.locator('[data-certificate-check][data-valid]')).toHaveCount(0);

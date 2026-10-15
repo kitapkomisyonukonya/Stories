@@ -1,6 +1,6 @@
 import type { Level } from '../../types';
 import { mergeMyWords, type MyWord } from '../myWords';
-import { mergeJournal, readJournal, type JournalState } from './store';
+import { mergeJournal, readJournal, sealLanguages, type JournalState } from './store';
 
 /**
  * The move-to-another-device code: the journal (stamps, seals, goal) and My words, packed and
@@ -12,6 +12,8 @@ const DAY = 86_400_000;
 interface Packed {
   s: Record<string, number>;
   l: Record<string, number>;
+  /** The languages each sealed book was finished in. */
+  n?: Record<string, ('en' | 'ar')[]>;
   g: number;
   w: [string, string, 'en' | 'ar', string, Level, number, number][];
 }
@@ -40,6 +42,10 @@ export const makeTransferCode = async (words: MyWord[], state: JournalState = re
   const packed: Packed = {
     s: toDays(state.stamps),
     l: toDays(state.seals),
+    n: Object.fromEntries(Object.keys(state.seals).map(key => {
+      const [storyId, level] = key.split(':');
+      return [key, sealLanguages(state, storyId, level as Level)];
+    })),
     g: state.goal,
     w: words.map(word => [word.word, word.definition, word.language, word.storyId, word.level, word.known, Math.round(word.savedAt / DAY)]),
   };
@@ -66,7 +72,7 @@ export const readTransferCode = async (raw: string): Promise<{ journal: Partial<
         known: Number(known) || 0,
         savedAt: (Number(day) || 0) * DAY,
       }));
-    return { journal: { stamps: fromDays(packed.s), seals: fromDays(packed.l), goal: Number(packed.g) || 0 }, words };
+    return { journal: { stamps: fromDays(packed.s), seals: fromDays(packed.l), langs: packed.n ?? {}, goal: Number(packed.g) || 0 }, words };
   } catch {
     return null;
   }

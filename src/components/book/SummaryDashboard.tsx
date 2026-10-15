@@ -79,8 +79,8 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
 
   useEffect(() => {
     localStorage.setItem(`completed_${currentStoryId}_${bookData.level}`, 'true');
-    sealBook(currentStoryId, bookData.level);
-  }, [currentStoryId, bookData.level]);
+    sealBook(currentStoryId, bookData.level, isArabic && !story.englishOnly ? 'ar' : 'en');
+  }, [currentStoryId, bookData.level, isArabic, story.englishOnly]);
 
   const storyPages = useMemo(
     () => bookData.pages.filter(page => page.type === 'story'),

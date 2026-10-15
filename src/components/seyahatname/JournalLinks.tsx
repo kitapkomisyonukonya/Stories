@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLanguage } from '../../contexts/LanguageContext';
-import { decodeCertificate } from '../../lib/seyahatname/certificate';
+import { decodeCertificate, formatCertificateDate } from '../../lib/seyahatname/certificate';
 import { bookName } from '../../lib/seyahatname/view';
 import { Modal } from './Modal';
 import { TransferDialog } from './TransferDialog';
@@ -12,6 +12,8 @@ const COPY = {
     valid: 'This code belongs to this certificate.',
     invalid: 'This code does not match this name. Check the code and the name on the certificate.',
     level: 'Level',
+    language: 'Language',
+    languages: { en: 'English', ar: 'Arabic' },
     books: 'Books',
     date: 'Date',
     note: 'The check reads what the code carries. Lisandan Kültüre keeps no records of learners.',
@@ -21,6 +23,8 @@ const COPY = {
     valid: 'هٰذَا الرَّمْزُ يُطَابِقُ هٰذِهِ الشَّهَادَةَ.',
     invalid: 'هٰذَا الرَّمْزُ لَا يُطَابِقُ هٰذَا الِاسْمَ. رَاجِعِ الرَّمْزَ وَالِاسْمَ الْمَكْتُوبَيْنِ عَلَى الشَّهَادَةِ.',
     level: 'الْمُسْتَوَى',
+    language: 'اللُّغَةُ',
+    languages: { en: 'الْإِنْجِلِيزِيَّةُ', ar: 'الْعَرَبِيَّةُ' },
     books: 'الْكُتُبُ',
     date: 'التَّارِيخُ',
     note: 'يَقْرَأُ التَّحَقُّقُ مَا يَحْمِلُهُ الرَّمْزُ، وَلَا تَحْتَفِظُ «Lisandan Kültüre» بِسِجِلَّاتٍ لِلْمُتَعَلِّمِينَ.',
@@ -54,7 +58,7 @@ export const JournalLinks: React.FC = () => {
   }, []);
 
   const data = check ? decodeCertificate(check.code, check.name) : null;
-  const dateText = data ? new Intl.DateTimeFormat(lang === 'ar' ? 'ar-u-nu-arab' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(data.date) : '';
+  const dateText = data ? formatCertificateDate(data.date, lang) : '';
 
   return (
     <>
@@ -66,6 +70,8 @@ export const JournalLinks: React.FC = () => {
             <dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-[14px]">
               <dt className="text-[#14221a]/60">{copy.level}</dt>
               <dd className="font-semibold">{data.level}</dd>
+              <dt className="text-[#14221a]/60">{copy.language}</dt>
+              <dd className="font-semibold" data-certificate-check-lang={data.lang}>{copy.languages[data.lang]}</dd>
               <dt className="text-[#14221a]/60">{copy.date}</dt>
               <dd className="font-semibold">{dateText}</dd>
               <dt className="text-[#14221a]/60">{copy.books}</dt>
@@ -73,7 +79,7 @@ export const JournalLinks: React.FC = () => {
                 <ul className="flex flex-wrap gap-2">
                   {data.storyIds.map(storyId => (
                     <li key={storyId} className="flex flex-col items-center text-center text-[11px]">
-                      <BookSeal storyId={storyId} level={data.level} size={54} ribbons={false} arabic={lang === 'ar'} />
+                      <BookSeal storyId={storyId} level={data.level} size={54} ribbons={false} arabic={data.lang === 'ar'} />
                       {bookName(storyId, lang)}
                     </li>
                   ))}

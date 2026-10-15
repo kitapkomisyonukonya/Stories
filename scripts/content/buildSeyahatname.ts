@@ -40,7 +40,7 @@ const writeIfChanged = (file: string, text: string) => {
 
 const changed = writeIfChanged(`${root}/src/content/seyahatname.json`, `${JSON.stringify({ schema: 1, editions })}\n`);
 
-// Open Badges 3.0 achievements (deploy/openBadges.mjs): a seal for every listed book, a certificate per level.
+// Open Badges 3.0 achievements (deploy/openBadges.mjs): a seal for every listed book, a certificate per level and language.
 const RECORD_NOTE = 'Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.';
 const nameOf = (storyId: string) => stories.stories.find(story => story.id === storyId)?.text.en.name ?? storyId;
 const listed = catalog.editions.filter(({ storyId }) => !stories.stories.find(story => story.id === storyId)?.hidden);
@@ -54,16 +54,23 @@ for (const { storyId, level } of listed) {
     level,
   };
 }
+// One certificate per level and language: English for the books read in English, Arabic for those
+// read in Arabic (books in English only are not asked for). One certificate never mixes the two.
+const LANGUAGES = { en: 'English', ar: 'Arabic' } as const;
 for (const level of ['A2', 'B1', 'B2']) {
-  const books = listed.filter(edition => edition.level === level).map(edition => nameOf(edition.storyId));
-  if (!books.length) continue;
-  achievements[`level-${level}`] = {
-    type: 'Certificate',
-    name: `Seyahatname Certificate · ${level}`,
-    description: `Completed the ${level} journey of the Lisandan Kültüre digital library: every ${level} book sealed (${books.join(', ')}).`,
-    criteria: `Finish the Final Challenge of every ${level} book in the Lisandan Kültüre app. ${RECORD_NOTE}`,
-    level,
-  };
+  for (const [lang, language] of Object.entries(LANGUAGES)) {
+    const books = listed
+      .filter(edition => edition.level === level && (lang === 'en' || !englishOnly.has(edition.storyId)))
+      .map(edition => nameOf(edition.storyId));
+    if (!books.length) continue;
+    achievements[`level-${level}-${lang}`] = {
+      type: 'Certificate',
+      name: `Seyahatname Certificate · ${level} · ${language}`,
+      description: `Completed the ${level} journey of the Lisandan Kültüre digital library in ${language}: every ${level} book read in ${language} and sealed (${books.join(', ')}).`,
+      criteria: `Finish the Final Challenge of every ${level} book in ${language} in the Lisandan Kültüre app. ${RECORD_NOTE}`,
+      level,
+    };
+  }
 }
 mkdirSync(`${root}/public/ob`, { recursive: true });
 writeIfChanged(`${root}/public/ob/achievements.json`, `${JSON.stringify({ schema: 1, achievements }, null, 1)}\n`);
