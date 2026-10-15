@@ -1818,12 +1818,6 @@ entries.set(key, { word, definition });
                           : "text-parchment/52 border border-transparent hover:bg-white/[0.045] hover:text-parchment"
                       )}
                     >
-                      {isActive && (
-                        <motion.span
-                          layoutId="teacher-guide-active-tab"
-                          className={cn("absolute top-2 bottom-2 w-1 rounded-full bg-gold", isRTL ? "right-0" : "left-0")}
-                        />
-                      )}
                       <span className={cn(
                         "w-9 h-9 rounded-xl flex items-center justify-center shrink-0 transition-colors",
                         isActive ? "bg-gold text-white" : "bg-white/[0.04] text-gold/65 group-hover:text-gold"
