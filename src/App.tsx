@@ -15,7 +15,7 @@ import {
   Layers,
   MapPin,
   Menu,
-  X, HelpCircle, FileText } from './components/ui/icons';
+  X, HelpCircle, FileText, Scroll } from './components/ui/icons';
 
 import { Level, PageData } from './types';
 import { useBookBundle } from './hooks/useBookBundle';
@@ -61,6 +61,10 @@ import { StoryPage, StoryFlow, ExercisePage, MasterGlossary } from './components
 import { RolePicker } from './components/layout/RolePicker';
 import { AccessGate, hasAccessCode } from './components/layout/AccessGate';
 import { MyWordsPanel } from './components/book/MyWordsPanel';
+import { SeyahatnamePanel, type OpenBookTarget } from './components/seyahatname/SeyahatnamePanel';
+import { StampMoment } from './components/seyahatname/StampMoment';
+import { JOURNAL_COPY } from './components/seyahatname/copy';
+import { pressStamps } from './lib/seyahatname/store';
 import { setMyWordsBook } from './lib/myWords';
 import { useUserRole } from './contexts/UserRoleContext';
 import { useClassMode } from './contexts/ClassModeContext';
@@ -82,6 +86,8 @@ const AppContent = () => {
   const [isHowToUseOpen, setIsHowToUseOpen] = useState(false);
   const [isUsageGuideOpen, setIsUsageGuideOpen] = useState(false);
   const [isMyWordsOpen, setIsMyWordsOpen] = useState(false);
+  const [isJournalOpen, setIsJournalOpen] = useState(false);
+  const [stampMoment, setStampMoment] = useState<{ storyId: string; level: Level; chapter: number } | null>(null);
   const [isTeacherGuideOpen, setIsTeacherGuideOpen] = useState(false);
   const [isSelfStudyOpen, setIsSelfStudyOpen] = useState(false);
   const [teacherGuideData, setTeacherGuideData] = useState<BilingualTeacherGuideData | null>(null);
@@ -227,6 +233,36 @@ const AppContent = () => {
     if (!selectedProphetId || !currentLevel || stats.exercisesCompleted.size === 0) return;
     setBookProgress(mergeBookProgress(selectedProphetId, currentLevel, { doneExercises: stats.exercisesCompleted }));
   }, [selectedProphetId, currentLevel, stats.exercisesCompleted]);
+
+  // Seyahatname: a chapter's stamp is pressed when its Quick Challenge is done. Progress from before
+  // (the first time a book is opened) is stamped quietly; a new stamp shows its moment.
+  useEffect(() => {
+    if (!selectedProphetId || !currentLevel || !bookProgress) return;
+    const fresh = pressStamps(selectedProphetId, currentLevel, readBookProgress(selectedProphetId, currentLevel).doneExercises);
+    if (fresh.length) setStampMoment({ storyId: selectedProphetId, level: currentLevel, chapter: fresh[fresh.length - 1] });
+  }, [selectedProphetId, currentLevel, bookProgress]);
+
+  // The moment belongs to the page where the chapter was finished: turning the page closes it.
+  useEffect(() => {
+    setStampMoment(null);
+  }, [selectedProphetId, currentLevel, currentPageIndex]);
+
+  // Links into the journal from deeper pages (the map's stamped places).
+  useEffect(() => {
+    const open = () => setIsJournalOpen(true);
+    window.addEventListener('seyahatname:open', open);
+    return () => window.removeEventListener('seyahatname:open', open);
+  }, []);
+
+  const openFromJournal = (target: OpenBookTarget) => {
+    setIsJournalOpen(false);
+    if (target.storyId === selectedProphetId && target.level === currentLevel) {
+      setShowSummary(false);
+      if (typeof target.pageIndex === 'number') setCurrentPageIndex(target.pageIndex);
+      return;
+    }
+    handleStartJourney(target.storyId, target.level, { pageIndex: target.pageIndex ?? 0 });
+  };
 
   const readPageSet = useMemo(() => new Set(bookProgress?.readPages ?? []), [bookProgress]);
   const doneExerciseSet = useMemo(() => new Set(bookProgress?.doneExercises ?? []), [bookProgress]);
@@ -535,7 +571,7 @@ const AppContent = () => {
 
       // Only navigate if a story is active, no overlays are open, and summary is not shown
       if (!selectedProphetId || showSummary || isFinalChallengePage) return;
-      if (isMenuOpen || isAboutOpen || isHowToUseOpen || isUsageGuideOpen || isMyWordsOpen || isTeacherGuideOpen || isSelfStudyOpen || isQuickTOCOpen || isReaderSettingsOpen) return;
+      if (isMenuOpen || isAboutOpen || isHowToUseOpen || isUsageGuideOpen || isMyWordsOpen || isJournalOpen || isTeacherGuideOpen || isSelfStudyOpen || isQuickTOCOpen || isReaderSettingsOpen) return;
 
       if (e.key === 'ArrowRight') {
         if (language === 'ar') {
@@ -564,6 +600,7 @@ const AppContent = () => {
     isHowToUseOpen,
     isUsageGuideOpen,
     isMyWordsOpen,
+    isJournalOpen,
     isTeacherGuideOpen,
     isSelfStudyOpen,
     isQuickTOCOpen,
@@ -591,7 +628,7 @@ const AppContent = () => {
       Boolean(target?.closest('input, textarea, select, [role="slider"], [draggable="true"], [data-no-swipe]')) ||
       startsInSideScroller(target) ||
       showSummary || isFinalChallengePage ||
-      isMenuOpen || isAboutOpen || isHowToUseOpen || isUsageGuideOpen || isMyWordsOpen || isTeacherGuideOpen || isSelfStudyOpen || isQuickTOCOpen || isReaderSettingsOpen;
+      isMenuOpen || isAboutOpen || isHowToUseOpen || isUsageGuideOpen || isMyWordsOpen || isJournalOpen || isTeacherGuideOpen || isSelfStudyOpen || isQuickTOCOpen || isReaderSettingsOpen;
     swipeStartRef.current = touch ? { x: touch.clientX, y: touch.clientY, ignore } : null;
   };
   const handleSwipeEnd = (e: React.TouchEvent) => {
@@ -658,6 +695,7 @@ const AppContent = () => {
             onReviewStory={handleReviewStory}
             onReadAgain={handleReadAgain}
             onStartJourney={handleStartJourney}
+            onOpenJournal={() => setIsJournalOpen(true)}
           />
         </Suspense>
       );
@@ -702,7 +740,7 @@ const AppContent = () => {
       case 'map':
         return (
           <Suspense fallback={null}>
-            <StoryMapPage page={currentPage} />
+            <StoryMapPage page={currentPage} storyId={currentDefinition?.storyId} level={currentLevel} />
           </Suspense>
         );
       case 'places':
@@ -1286,6 +1324,19 @@ const AppContent = () => {
                     <span className="font-display text-[14px] sm:text-[15px] font-semibold">{SECTION_ICONS.myWords[language === 'ar' ? 'ar' : 'en']}</span>
                   </button>
 
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setIsMenuOpen(false);
+                      setIsJournalOpen(true);
+                    }}
+                    className={cn("touch-target flex w-full items-center gap-4 rounded-xl px-4 text-parchment transition-colors", themeClasses.menuHoverBg)}
+                    data-journal-link
+                  >
+                    <Scroll size={21} className={themeClasses.menuAccentText} />
+                    <span className="font-display text-[14px] sm:text-[15px] font-semibold">{JOURNAL_COPY[language === 'ar' ? 'ar' : 'en'].name}</span>
+                  </button>
+
                   {isTeacher ? (
                     <button 
                       onClick={openTeacherGuide}
@@ -1383,6 +1434,20 @@ const AppContent = () => {
       <HowToUse isOpen={isHowToUseOpen} onClose={() => setIsHowToUseOpen(false)} isTeacher={isTeacher} />
       <UsageGuide isOpen={isUsageGuideOpen} onClose={() => setIsUsageGuideOpen(false)} />
       <MyWordsPanel isOpen={isMyWordsOpen} onClose={() => setIsMyWordsOpen(false)} />
+      <SeyahatnamePanel
+        isOpen={isJournalOpen}
+        onClose={() => setIsJournalOpen(false)}
+        focusBook={selectedProphetId && currentLevel ? { storyId: selectedProphetId, level: currentLevel } : undefined}
+        onOpenBook={openFromJournal}
+        onOpenMyWords={() => { setIsJournalOpen(false); setIsMyWordsOpen(true); }}
+      />
+      <StampMoment
+        stamp={showSummary ? null : stampMoment}
+        phone={isPhone}
+        onClose={() => setStampMoment(null)}
+        onNextChapter={index => setCurrentPageIndex(index)}
+        onOpenJournal={() => setIsJournalOpen(true)}
+      />
 
       {/* Teacher Guide Overlay */}
       {isTeacher && (

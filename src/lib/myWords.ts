@@ -100,3 +100,12 @@ export const reviewQueue = (words: MyWord[], limit = 10) =>
 
 const EMPTY: MyWord[] = [];
 export const useMyWords = () => useSyncExternalStore(subscribe, read, () => EMPTY);
+
+/** Adds words brought from another device; a word already here keeps its own review count. */
+export const mergeMyWords = (incoming: MyWord[]) => {
+  const words = read();
+  const known = new Set(words.map(item => item.id));
+  const fresh = incoming.filter(item => item && typeof item.word === 'string' && typeof item.id === 'string' && !known.has(item.id));
+  if (fresh.length) write([...words, ...fresh]);
+  return fresh.length;
+};

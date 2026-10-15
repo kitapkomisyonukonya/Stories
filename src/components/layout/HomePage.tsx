@@ -28,10 +28,15 @@ import { BrandTitle } from './BrandedEntry';
 import { USAGE_GUIDES } from '../../data/usageGuides';
 import { aboutIntro } from '../../data/aboutContent';
 import { HOME_AFTER_STORY, HOME_FEATURES, HOME_FEATURE_ORDER, HOME_NOTES, type HomeNoteIcon } from '../../data/homeFeatures';
-import { ArrowDown, ArrowRight, BookOpen, Clock, Download, FileText, GraduationCap, Play } from '../ui/icons';
+import { ArrowDown, ArrowRight, BookOpen, Clock, Download, FileText, GraduationCap, Play, Scroll } from '../ui/icons';
 import { preloadBook } from '../../core/content/bookRegistry';
 import { readReaderPosition, type ReaderPosition } from '../../lib/readerPosition';
 import { summarizeBookProgress } from '../../lib/bookProgress';
+import { SeyahatnamePanel } from '../seyahatname/SeyahatnamePanel';
+import { BookSeal } from '../seyahatname/art';
+import { JOURNAL_COPY } from '../seyahatname/copy';
+import { EDITIONS, editionKey, editionStamps, useJournal } from '../../lib/seyahatname/store';
+import { totalSeals, totalStamps } from '../../lib/seyahatname/view';
 import {
   collectionStoryIds,
   collectionVisuals,
@@ -42,7 +47,7 @@ import {
 
 
 interface HomePageProps {
-  onStart: (prophetId: string, level: Level, options?: { resume?: boolean }) => void;
+  onStart: (prophetId: string, level: Level, options?: { resume?: boolean; pageIndex?: number }) => void;
   /** Teachers get a Teacher Guide shortcut per level on the book card. */
   onOpenTeacherGuide?: (prophetId: string, level: Level) => void;
 }
@@ -87,6 +92,9 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
   const [isCheckCodeOpen, setIsCheckCodeOpen] = useState(false);
   const [isLevelTestOpen, setIsLevelTestOpen] = useState(false);
   const [isMyWordsOpen, setIsMyWordsOpen] = useState(false);
+  const [isJournalOpen, setIsJournalOpen] = useState(false);
+  const journal = useJournal();
+  const journalCopy = JOURNAL_COPY[lang];
   // #/test/a2 opens that end-of-level test directly (a link or QR code from the printed booklet).
   const [examLevel, setExamLevel] = useState<Level | null>(() => (typeof window === 'undefined' ? null : parseExamHash(window.location.hash)));
   const [isScoreExamOpen, setIsScoreExamOpen] = useState(false);
@@ -346,7 +354,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
     preloadBook(prophetId, bookLevel)?.catch(() => undefined);
   };
 
-  const launchStory = (prophetId: string, bookLevel: Level, options?: { resume?: boolean }) => {
+  const launchStory = (prophetId: string, bookLevel: Level, options?: { resume?: boolean; pageIndex?: number }) => {
     localStorage.setItem('last_active_story', JSON.stringify({ prophetId, level: bookLevel }));
     setLastActive({ prophetId, level: bookLevel, position: options?.resume ? readReaderPosition(prophetId, bookLevel) : null });
     onStart(prophetId, bookLevel, options);
@@ -676,6 +684,30 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                   </div>
                 </div>
               )}
+              <div className="w-full max-w-[460px] rounded-2xl bg-white/[0.045] p-4 text-start" data-journal-card>
+                <div className="flex items-start gap-4">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#D8B35C]/11 text-[#E4C779]">
+                    <Scroll size={18} />
+                  </div>
+                  <div className="min-w-0 flex-1">
+                    <p className={cn('text-[11px] font-semibold uppercase text-[#E4C779]/76', !isRTL && 'tracking-[0.18em]')}>{journalCopy.name}</p>
+                    <p className="mt-1 text-sm font-semibold text-[#FFF9EC]">
+                      {totalStamps(journal) > 0
+                        ? journalCopy.summaryLine(formatNumber(totalStamps(journal)), formatNumber(totalSeals(journal)), totalStamps(journal), totalSeals(journal))
+                        : journalCopy.subtitle}
+                    </p>
+                    <button
+                      type="button"
+                      onClick={() => setIsJournalOpen(true)}
+                      className="mt-2 inline-flex items-center gap-2 text-xs font-semibold text-[#EDE5D4]/80 transition-colors hover:text-white"
+                      data-journal-open
+                    >
+                      {lang === 'ar' ? 'افْتَحْ دَفْتَرَ رِحْلَتِي' : 'Open my Seyahatname'}
+                      <ArrowRight size={14} mirrored={isRTL} />
+                    </button>
+                  </div>
+                </div>
+              </div>
               <div className="w-full max-w-[460px] rounded-2xl bg-white/[0.045] p-4 text-start" data-level-exam-card>
                 <div className="flex items-start gap-4">
                   <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-[#D8B35C]/11 text-[#E4C779]">
@@ -788,6 +820,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                   >
                     <img src={story.image} alt="" loading="lazy" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
                     <span className="absolute inset-0 bg-gradient-to-t from-[#121612] to-transparent to-45%" />
+                    {journal.seals[editionKey(story.id, bookLevel)] !== undefined && (
+                      <span className="absolute bottom-2 end-3 -rotate-6" data-home-seal>
+                        <BookSeal storyId={story.id} level={bookLevel} arabic={lang === 'ar' && !story.englishOnly} size={64} ribbons={false} title={journalCopy.sealed} />
+                      </span>
+                    )}
                     <span
                       className={cn('absolute start-3.5 top-3.5 inline-flex items-center gap-2 rounded-full bg-[#0b0e0c]/72 px-3 py-1.5 font-semibold uppercase backdrop-blur-md', isRTL ? 'text-[13px]' : 'text-[11px] tracking-[0.12em]')}
                       style={{ color: visual.accentBright }}
@@ -808,6 +845,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                           <span className="block h-full rounded-full" style={{ width: `${progress.percent}%`, background: visual.accentBright }} />
                         </span>
                         <span className="text-[11px] font-semibold tabular-nums text-[#F0E8D8]/76">{formatNumber(progress.percent)}%</span>
+                      </span>
+                    )}
+                    {EDITIONS[editionKey(story.id, bookLevel)] && editionStamps(journal, story.id, bookLevel).some(Boolean) && (
+                      <span className="mt-1.5 text-[11.5px] font-semibold text-[#EDE5D4]/62" data-home-stamps>
+                        {journalCopy.bookStamps(formatNumber(editionStamps(journal, story.id, bookLevel).filter(Boolean).length), formatNumber(editionStamps(journal, story.id, bookLevel).length))}
                       </span>
                     )}
                     <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
@@ -942,6 +984,12 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
         }}
       />
       <MyWordsPanel isOpen={isMyWordsOpen} onClose={() => setIsMyWordsOpen(false)} />
+      <SeyahatnamePanel
+        isOpen={isJournalOpen}
+        onClose={() => setIsJournalOpen(false)}
+        onOpenBook={target => { setIsJournalOpen(false); launchStory(target.storyId, target.level, { pageIndex: target.pageIndex }); }}
+        onOpenMyWords={() => { setIsJournalOpen(false); setIsMyWordsOpen(true); }}
+      />
       <CheckResultCode isOpen={isCheckCodeOpen} onClose={() => setIsCheckCodeOpen(false)} />
       <LevelExamDialog level={examLevel} onClose={() => setExamLevel(null)} />
       <ScoreExamDialog isOpen={isScoreExamOpen} onClose={() => setIsScoreExamOpen(false)} />

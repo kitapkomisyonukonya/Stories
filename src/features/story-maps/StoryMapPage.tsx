@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useId, useMemo, useRef, useState } from 
 import { createPortal } from 'react-dom';
 import { PHONE_QUERY, useIsPhone, useSheetDrag } from '../../lib/phone';
 import { AnimatePresence, motion } from 'motion/react';
-import type { PageData } from '../../types';
+import type { Level, PageData } from '../../types';
 import { getHistoricalEntity } from '../historical-entities/registry';
 import { entityPictureUrl } from '../historical-entities/pictures';
 import { useLanguage } from '../../contexts/LanguageContext';
@@ -28,6 +28,7 @@ import { MapEventScene } from './MapEventScene';
 import { MapChallengeOverlay, type ChallengeAnswer } from './MapChallengeOverlay';
 import type { StoryMap, StoryMapCamera, StoryMapPlace } from './types';
 import { useDialogFocus } from '../../hooks/useDialogFocus';
+import { MapStampsButton, StampMark, useStampedPlaces } from '../../components/seyahatname/MapStamps';
 
 type View = { x: number; y: number; w: number; h: number };
 
@@ -54,9 +55,12 @@ const easeInOut = (p: number) => (p < 0.5 ? 4 * p * p * p : 1 - Math.pow(-2 * p 
 
 interface StoryMapPageProps {
   page: PageData;
+  /** The open book, for the Seyahatname stamps on its places. */
+  storyId?: string;
+  level?: Level;
 }
 
-export const StoryMapPage: React.FC<StoryMapPageProps> = ({ page }) => {
+export const StoryMapPage: React.FC<StoryMapPageProps> = ({ page, storyId, level }) => {
   const map = page.map as StoryMap;
   const BASE = BASE_MAPS[map.baseMap];
   const { t, language, isRTL, formatNumber } = useLanguage();
@@ -76,6 +80,7 @@ export const StoryMapPage: React.FC<StoryMapPageProps> = ({ page }) => {
   const [visited, setVisited] = useState<Set<string>>(() => new Set());
 
   const places = map.places;
+  const stampedPlaces = useStampedPlaces(storyId, level);
   const selected = places.find(place => place.id === selectedId) ?? null;
   const selectedIndex = selected ? places.indexOf(selected) : -1;
 
@@ -967,7 +972,10 @@ export const StoryMapPage: React.FC<StoryMapPageProps> = ({ page }) => {
                         <span className="min-w-0 flex-1 truncate font-display text-[14px] font-semibold text-wood">
                           {formatNumber(places.indexOf(place) + 1)}. {place.name}
                         </span>
-                        <span className="shrink-0 text-[11px] text-wood/55">{place.kind}</span>
+                        <span className="flex shrink-0 items-center gap-1 text-[11px] text-wood/55">
+                          {stampedPlaces?.stamped.has(place.id) && <StampMark color={stampedPlaces.color} size={16} title={language === 'ar' ? 'مَخْتُومٌ' : 'Stamped'} />}
+                          {place.kind}
+                        </span>
                       </button>
                     </li>
                   ))}
@@ -1165,6 +1173,14 @@ export const StoryMapPage: React.FC<StoryMapPageProps> = ({ page }) => {
               </span>
               {exploredText}
             </span>
+          )}
+          {!challengeOn && !isPhone && (
+            <MapStampsButton
+              storyId={storyId}
+              level={level}
+              names={Object.fromEntries(places.map(place => [place.id, { name: place.name, kind: place.kind }]))}
+              className="inline-flex h-9 items-center gap-1.5 rounded-full border border-brand-200 bg-white px-3 font-display text-[12px] font-semibold text-brand-800 hover:bg-brand-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
+            />
           )}
         </div>
       </div>
@@ -1604,6 +1620,14 @@ export const StoryMapPage: React.FC<StoryMapPageProps> = ({ page }) => {
                 onToggleTour={toggleTour}
                 onScrub={scrubTo}
                 onJump={index => { revealMap(); void jumpToEvent(index); }}
+              />
+            )}
+            {isPhone && (
+              <MapStampsButton
+                storyId={storyId}
+                level={level}
+                names={Object.fromEntries(places.map(place => [place.id, { name: place.name, kind: place.kind }]))}
+                className="inline-flex min-h-11 items-center justify-center gap-1.5 self-center rounded-full border border-brand-200 bg-white px-4 font-display text-[13px] font-semibold text-brand-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500"
               />
             )}
           </div>

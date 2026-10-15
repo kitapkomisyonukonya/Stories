@@ -1,0 +1,119 @@
+/**
+ * Arabic counted nouns: 1 and 2 have their own forms, 3–10 take the plural, 11 and up the singular.
+ * `n` is the number already written in Arabic digits, `value` the number itself.
+ */
+export const arCount = (value: number, n: string, forms: { one: string; two: string; few: string; many: string }) => {
+  if (value === 1) return forms.one;
+  if (value === 2) return forms.two;
+  const rest = value % 100;
+  return rest >= 3 && rest <= 10 ? `${n} ${forms.few}` : `${n} ${forms.many}`;
+};
+
+const AR_CHAPTERS = { one: 'فَصْلٌ وَاحِدٌ', two: 'فَصْلَانِ', few: 'فُصُولٍ', many: 'فَصْلًا' };
+const AR_WEEKS = { one: 'أُسْبُوعٍ وَاحِدٍ', two: 'أُسْبُوعَيْنِ', few: 'أَسَابِيعَ', many: 'أُسْبُوعًا' };
+const AR_WORDS = { one: 'كَلِمَةٌ وَاحِدَةٌ', two: 'كَلِمَتَانِ', few: 'كَلِمَاتٍ', many: 'كَلِمَةً' };
+
+/** Interface words of the Seyahatname, in English and fully vowelled Arabic. */
+export const JOURNAL_COPY = {
+  en: {
+    name: 'Seyahatname',
+    subtitle: 'My travel journal',
+    stamps: 'stamps',
+    books: 'books sealed',
+    words: 'words saved',
+    back: 'Back',
+    emptyTitle: 'Your journal is waiting',
+    emptyText: 'Finish a chapter’s Quick Challenge and its stamp is pressed here.',
+    toLibrary: 'Choose a book',
+    weekTitle: (done: string, goal: string, _goal: number) => `This week: ${done} of ${goal} chapters`,
+    weekNoGoal: 'Weekly goal',
+    weekNoGoalText: 'Choose how many chapters you want to read each week. Only if you like.',
+    weekNote: 'A new week starts on Monday. Nothing you earned is lost.',
+    weeksOnTarget: (n: string, value: number) => (value === 1 ? 'Goal reached in 1 week' : `Goal reached in ${n} weeks`),
+    goalOff: 'No goal',
+    goalChapters: (n: string, _value: number) => `${n} chapters`,
+    stampsOf: (n: string, total: string) => `${n} of ${total}`,
+    bookStamps: (n: string, total: string) => `${n} of ${total} stamps`,
+    summaryLine: (stamps: string, seals: string, stampCount: number, sealCount: number) =>
+      `${stamps} ${stampCount === 1 ? 'stamp' : 'stamps'} · ${seals} ${sealCount === 1 ? 'book' : 'books'} sealed`,
+    seeAll: (n: string) => `See all ${n}`,
+    seeLess: 'Show less',
+    openChapter: 'Open the chapter',
+    openMap: 'Open the map',
+    seals: 'Book seals',
+    sealsNote: 'A book is sealed when you finish its Final Challenge.',
+    treasury: 'Word treasury',
+    treasuryLeft: (n: string, value: number) => (value === 1 ? 'One more word to fill the next chest.' : `${n} more words to fill the next chest.`),
+    treasuryFull: 'Every chest is full.',
+    learned: (n: string) => `${n} learned`,
+    openMyWords: 'Open My words',
+    badges: 'Traveller badges',
+    badgesOf: (n: string, total: string) => `${n} of ${total}`,
+    certificates: 'Seyahatname Certificate',
+    certificateLevel: (level: string) => `Seyahatname Certificate · ${level}`,
+    certificateNeeds: (level: string, done: string, total: string) => `Seal all ${total} ${level} books (${done} sealed)`,
+    certificateReady: 'All books sealed. Your certificate is ready.',
+    certificateOpen: 'Open my certificate',
+    move: 'Move to another device',
+    moveText: 'Your journal stays on this device. Take it with you with a code.',
+    showCode: 'Show my code',
+    enterCode: 'I have a code',
+    caravan: 'Class caravan',
+    caravanText: 'Set a goal for the class. Add your students’ result codes and the caravan moves on.',
+    caravanOpen: 'Open the class caravan',
+    sealed: 'Sealed',
+    notSealed: 'Not sealed yet',
+    badgeOpen: 'Open Badge',
+  },
+  ar: {
+    name: 'الرِّحْلَةُ',
+    subtitle: 'دَفْتَرُ رِحْلَتِي',
+    stamps: 'الْأَخْتَامُ',
+    books: 'الْكُتُبُ الْمَخْتُومَةُ',
+    words: 'الْكَلِمَاتُ الْمَحْفُوظَةُ',
+    back: 'رُجُوع',
+    emptyTitle: 'دَفْتَرُكَ يَنْتَظِرُكَ',
+    emptyText: 'أَكْمِلِ التَّحَدِّيَ السَّرِيعَ فِي فَصْلٍ، فَيُخْتَمُ خَتْمُهُ هُنَا.',
+    toLibrary: 'اخْتَرْ كِتَابًا',
+    weekTitle: (done: string, goal: string, _goal: number) => `فُصُولُ هٰذَا الْأُسْبُوعِ: ${done} / ${goal}`,
+    weekNoGoal: 'هَدَفُ الْأُسْبُوعِ',
+    weekNoGoalText: 'اخْتَرْ عَدَدَ الْفُصُولِ الَّتِي تُرِيدُ أَنْ تَقْرَأَهَا كُلَّ أُسْبُوعٍ، إِنْ شِئْتَ.',
+    weekNote: 'يَبْدَأُ أُسْبُوعٌ جَدِيدٌ يَوْمَ الِاثْنَيْنِ، وَلَا يَضِيعُ شَيْءٌ مِمَّا كَسَبْتَهُ.',
+    weeksOnTarget: (n: string, value: number) => `بَلَغْتَ الْهَدَفَ فِي ${arCount(value, n, AR_WEEKS)}`,
+    goalOff: 'بِلَا هَدَفٍ',
+    goalChapters: (n: string, value: number) => arCount(value, n, AR_CHAPTERS),
+    stampsOf: (n: string, total: string) => `${n} مِنْ ${total}`,
+    bookStamps: (n: string, total: string) => `الْأَخْتَامُ: ${n} / ${total}`,
+    summaryLine: (stamps: string, seals: string, _stampCount: number, _sealCount: number) => `الْأَخْتَامُ: ${stamps} · الْكُتُبُ الْمَخْتُومَةُ: ${seals}`,
+    seeAll: (n: string) => `اعْرِضِ الْكُلَّ (${n})`,
+    seeLess: 'اعْرِضْ أَقَلَّ',
+    openChapter: 'افْتَحِ الْفَصْلَ',
+    openMap: 'افْتَحِ الْخَرِيطَةَ',
+    seals: 'أَخْتَامُ الْكُتُبِ',
+    sealsNote: 'يُخْتَمُ الْكِتَابُ عِنْدَمَا تُكْمِلُ تَحَدِّيَهُ النِّهَائِيَّ.',
+    treasury: 'كَنْزُ الْكَلِمَاتِ',
+    treasuryLeft: (n: string, value: number) => `بَقِيَتْ ${arCount(value, n, AR_WORDS)} لِيَمْتَلِئَ الصُّنْدُوقُ التَّالِي.`,
+    treasuryFull: 'امْتَلَأَتْ كُلُّ الصَّنَادِيقِ.',
+    learned: (n: string) => `تَعَلَّمْتَ ${n}`,
+    openMyWords: 'افْتَحْ «كَلِمَاتِي»',
+    badges: 'أَوْسِمَةُ الْمُسَافِرِ',
+    badgesOf: (n: string, total: string) => `${n} مِنْ ${total}`,
+    certificates: 'شَهَادَةُ الرِّحْلَةِ',
+    certificateLevel: (level: string) => `شَهَادَةُ الرِّحْلَةِ · ${level}`,
+    certificateNeeds: (level: string, done: string, total: string) => `اخْتِمْ كُتُبَ ${level} كُلَّهَا (${done} مِنْ ${total})`,
+    certificateReady: 'خُتِمَتْ كُلُّ الْكُتُبِ، وَشَهَادَتُكَ جَاهِزَةٌ.',
+    certificateOpen: 'افْتَحْ شَهَادَتِي',
+    move: 'انْقُلْ رِحْلَتَكَ إِلَى جِهَازٍ آخَرَ',
+    moveText: 'يَبْقَى دَفْتَرُكَ عَلَى هٰذَا الْجِهَازِ، وَيُمْكِنُكَ أَنْ تَنْقُلَهُ بِرَمْزٍ.',
+    showCode: 'اعْرِضْ رَمْزِي',
+    enterCode: 'عِنْدِي رَمْزٌ',
+    caravan: 'قَافِلَةُ الصَّفِّ',
+    caravanText: 'ضَعْ هَدَفًا لِلصَّفِّ، وَأَدْخِلْ رُمُوزَ نَتَائِجِ الطُّلَّابِ، فَتَتَقَدَّمُ الْقَافِلَةُ.',
+    caravanOpen: 'افْتَحْ قَافِلَةَ الصَّفِّ',
+    sealed: 'مَخْتُومٌ',
+    notSealed: 'لَمْ يُخْتَمْ بَعْدُ',
+    badgeOpen: 'Open Badge',
+  },
+};
+
+export type JournalCopy = typeof JOURNAL_COPY.en;

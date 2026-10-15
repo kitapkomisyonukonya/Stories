@@ -14,7 +14,11 @@ import { type ReaderPosition } from '../../lib/readerPosition';
 import { aboutIntro } from '../../data/aboutContent';
 import { useSheetDrag } from '../../lib/phone';
 import { MyWordsPanel } from '../book/MyWordsPanel';
-import { ArrowRight, BookMarked, BookOpen, GraduationCap, Info, Library, Play, Settings, X } from '../ui/icons';
+import { SeyahatnamePanel } from '../seyahatname/SeyahatnamePanel';
+import { BookSeal } from '../seyahatname/art';
+import { JOURNAL_COPY } from '../seyahatname/copy';
+import { editionKey, useJournal } from '../../lib/seyahatname/store';
+import { ArrowRight, BookMarked, BookOpen, GraduationCap, Info, Library, Play, Scroll, Settings, X } from '../ui/icons';
 import {
   collectionStoryIds,
   collectionVisuals,
@@ -25,7 +29,7 @@ import {
 import { useDialogFocus } from '../../hooks/useDialogFocus';
 
 type CatalogStory = (typeof storyCatalog)[number];
-type Tab = 'library' | 'words' | 'settings';
+type Tab = 'library' | 'journal' | 'words' | 'settings';
 
 const LEVELS: Level[] = ['A2', 'B1', 'B2'];
 const COLLECTIONS: StoryCollectionId[] = ['prophets', 'history', 'turkish'];
@@ -35,7 +39,7 @@ interface PhoneLibraryProps {
   level: Level;
   onChooseLevel: (level: Level) => void;
   lastActive: { prophetId: string; level: Level; position: ReaderPosition | null } | null;
-  onLaunch: (prophetId: string, level: Level, options?: { resume?: boolean }) => void;
+  onLaunch: (prophetId: string, level: Level, options?: { resume?: boolean; pageIndex?: number }) => void;
   onWarm: (prophetId: string, level: Level) => void;
   storyName: (story: CatalogStory) => string;
   storyDescription: (story: CatalogStory) => string;
@@ -85,6 +89,8 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
   const [openBook, setOpenBook] = useState<{ id: string; level: Level } | null>(null);
   const bookSheet = useSheetDrag(() => setOpenBook(null));
   const scrollRef = useRef<HTMLElement>(null);
+  const journal = useJournal();
+  const journalCopy = JOURNAL_COPY[lang];
 
   const copy = lang === 'ar'
     ? {
@@ -200,7 +206,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
           <img src={homeIcon} alt="" className="h-full w-full object-contain" />
         </div>
         <p className="clip-room min-w-0 flex-1 line-clamp-2 text-[15px] font-semibold leading-tight text-[#F7F1E5]">
-          {tab === 'settings' ? copy.settings : tab === 'words' ? copy.myWords : t('nav.homeTitle')}
+          {tab === 'settings' ? copy.settings : tab === 'words' ? copy.myWords : tab === 'journal' ? journalCopy.name : t('nav.homeTitle')}
         </p>
         <InstallAppButton />
         <LanguageToggle />
@@ -288,6 +294,11 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                           {!story.availableLevels.includes(level) && (
                             <span className="absolute end-1.5 top-1.5 rounded-full bg-black/60 px-2 py-0.5 text-[10.5px] font-semibold text-[#F3D58A]">{bookLevel}</span>
                           )}
+                          {journal.seals[editionKey(story.id, bookLevel)] !== undefined && (
+                            <span className="absolute bottom-1.5 end-1 -rotate-6" data-home-seal>
+                              <BookSeal storyId={story.id} level={bookLevel} arabic={lang === 'ar' && !story.englishOnly} size={48} ribbons={false} title={journalCopy.sealed} />
+                            </span>
+                          )}
                           {progress && (
                             <span className="absolute inset-x-0 bottom-0 h-1 bg-black/40">
                               <span className="block h-full" style={{ width: `${progress.percent}%`, background: accent }} />
@@ -302,6 +313,14 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
               </section>
             ))}
           </div>
+        ) : tab === 'journal' ? (
+          <SeyahatnamePanel
+            isOpen
+            embedded
+            onClose={() => setTab('library')}
+            onOpenBook={target => onLaunch(target.storyId, target.level, { pageIndex: target.pageIndex })}
+            onOpenMyWords={() => { setTab('words'); scrollRef.current?.scrollTo({ top: 0 }); }}
+          />
         ) : tab === 'words' ? (
           <MyWordsPanel isOpen embedded onClose={() => setTab('library')} />
         ) : (
@@ -348,6 +367,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
       >
         {tabButton('library', copy.library, <Library size={22} />, () => { setTab('library'); scrollRef.current?.scrollTo({ top: 0, behavior: 'smooth' }); }, tab === 'library')}
         {tabButton('continue', copy.continueTab, <Play size={22} />, resume, false, !lastStory)}
+        {tabButton('journal', journalCopy.name, <Scroll size={22} />, () => { setTab('journal'); scrollRef.current?.scrollTo({ top: 0 }); }, tab === 'journal')}
         {tabButton('words', copy.myWords, <BookMarked size={22} />, () => { setTab('words'); scrollRef.current?.scrollTo({ top: 0 }); }, tab === 'words')}
         {tabButton('settings', copy.settings, <Settings size={22} />, () => setTab('settings'), tab === 'settings')}
       </nav>

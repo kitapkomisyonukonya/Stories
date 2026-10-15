@@ -2,6 +2,9 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { suggestNextBook, type NextBookReason } from '../../lib/nextBook';
 import { useMyWords } from '../../lib/myWords';
 import { MyWordsPanel } from './MyWordsPanel';
+import { BookSeal } from '../seyahatname/art';
+import { JOURNAL_COPY as journalCopy } from '../seyahatname/copy';
+import { sealBook } from '../../lib/seyahatname/store';
 import { ResultCard } from './ResultCard';
 import { useUserRole } from '../../contexts/UserRoleContext';
 import { SECTION_ICONS, MODE_ICONS } from '../../lib/sectionIcons';
@@ -17,7 +20,6 @@ import {
   RotateCcw,
   Pencil,
   Type,
-  Trophy,
 } from '../ui/icons';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { cn } from '../../lib/utils';
@@ -35,6 +37,8 @@ interface SummaryDashboardProps {
   onReviewStory?: () => void;
   onReadAgain?: () => void;
   onStartJourney?: (storyId: string, level: Level) => void;
+  /** Opens the Seyahatname, where the book's seal now is. */
+  onOpenJournal?: () => void;
 }
 
 const normalizeWord = (value: string) => value.trim().toLocaleLowerCase();
@@ -61,6 +65,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
   onReviewStory,
   onReadAgain,
   onStartJourney,
+  onOpenJournal,
 }) => {
   const { formatNumber, isRTL, language } = useLanguage();
   const { stats } = useStoryProgress();
@@ -74,6 +79,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
 
   useEffect(() => {
     localStorage.setItem(`completed_${currentStoryId}_${bookData.level}`, 'true');
+    sealBook(currentStoryId, bookData.level);
   }, [currentStoryId, bookData.level]);
 
   const storyPages = useMemo(
@@ -412,14 +418,15 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
 
             <div className="flex min-w-0 flex-col justify-center p-7 max-sm:p-5 sm:p-10 lg:p-12">
               <div className="flex items-center gap-3">
+                {/* The book's wax seal, pressed as the summary opens; it now sits in the Seyahatname. */}
                 <motion.div
-                  initial={{ scale: 0.8, rotate: -8 }}
-                  animate={{ scale: 1, rotate: 0 }}
-                  transition={{ type: 'spring', stiffness: 180, damping: 16 }}
-                  className="flex h-14 w-14 items-center justify-center rounded-2xl border"
-                  style={{ background: visual.accentSoft, borderColor: `${visual.accent}44`, color: visual.accentBright }}
+                  initial={{ scale: 1.5, opacity: 0, rotate: -14 }}
+                  animate={{ scale: 1, opacity: 1, rotate: -4 }}
+                  transition={{ delay: 0.2, duration: 0.4, ease: [0.3, 1.4, 0.5, 1] }}
+                  className="shrink-0"
+                  data-summary-seal
                 >
-                  <Trophy size={28} />
+                  <BookSeal storyId={currentStoryId} level={bookData.level} arabic={isArabic && !story.englishOnly} size={84} title={isArabic ? journalCopy.ar.sealed : journalCopy.en.sealed} />
                 </motion.div>
                 <div>
                   <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-white/62">
@@ -429,6 +436,16 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
                     <p className="mt-1 text-sm font-semibold" style={{ color: visual.accentBright }}>
                       {scoreBand.label}
                     </p>
+                  )}
+                  {onOpenJournal && (
+                    <button
+                      type="button"
+                      onClick={onOpenJournal}
+                      className="mt-1 text-start text-[13px] font-semibold text-white/80 underline-offset-4 hover:text-white hover:underline"
+                      data-summary-journal
+                    >
+                      {isArabic ? 'خُتِمَ الْكِتَابُ فِي دَفْتَرِ رِحْلَتِكَ' : 'Book sealed in your Seyahatname'}
+                    </button>
                   )}
                 </div>
               </div>

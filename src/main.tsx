@@ -12,6 +12,7 @@ import { LanguageProvider } from './contexts/LanguageContext';
 import { ArabicUiSanitizer } from './components/ArabicUiSanitizer';
 import { ArabicHarakatFilter } from './components/ArabicHarakatFilter';
 import { SkipLink } from './components/ui/SkipLink';
+import { JournalLinks } from './components/seyahatname/JournalLinks';
 import { UserRoleProvider } from './contexts/UserRoleContext';
 import { ClassModeProvider } from './contexts/ClassModeContext';
 import { registerServiceWorker } from './lib/pwa';
@@ -61,6 +62,7 @@ createRoot(document.getElementById('root')!).render(
         <ClassModeProvider>
           <SkipLink />
           <App />
+          <JournalLinks />
           <ArabicUiSanitizer />
           <ArabicHarakatFilter />
         </ClassModeProvider>

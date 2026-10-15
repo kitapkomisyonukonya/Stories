@@ -17,7 +17,7 @@ ENV NODE_ENV=production
 # The server makes small WebP copies of the Storage pictures (deploy/server.mjs, /media-image).
 RUN npm install --no-save --no-package-lock --omit=dev sharp@0.34.5
 COPY --from=app-build /app/dist ./dist
-COPY deploy/server.mjs deploy/panelApi.mjs ./
+COPY deploy/server.mjs deploy/panelApi.mjs deploy/openBadges.mjs ./
 COPY deploy/panel ./panel
 EXPOSE 8080
 CMD ["node", "server.mjs"]

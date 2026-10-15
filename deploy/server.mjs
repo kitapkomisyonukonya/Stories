@@ -4,6 +4,7 @@ import { createReadStream, existsSync, readFileSync, statSync } from 'node:fs';
 import { basename, extname, join, normalize, sep } from 'node:path';
 import { brotliCompressSync, gzipSync, constants as zlibConstants } from 'node:zlib';
 import { createPanelApi } from './panelApi.mjs';
+import { createOpenBadges } from './openBadges.mjs';
 
 const port = Number(process.env.PORT || 8080);
 const root = join(process.cwd(), 'dist');
@@ -332,6 +333,7 @@ const readEvent = (req, res) => {
 };
 
 const panelApi = createPanelApi();
+const openBadges = createOpenBadges({ root });
 
 const server = http.createServer(async (req, res) => {
   const urlPath = decodeURIComponent((req.url || '/').split('?')[0]);
@@ -349,6 +351,10 @@ const server = http.createServer(async (req, res) => {
 
   if (urlPath.startsWith('/panel-api/')) {
     await panelApi.handle(req, res, urlPath);
+    return;
+  }
+
+  if (urlPath.startsWith('/ob/') && await openBadges.handle(req, res, urlPath)) {
     return;
   }
 

@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "npm run typecheck && npm run validate:content && npm run validate:rules && npm run validate:vocabulary && npm run validate:exercises && vite build && npm run build:panel",
+    "build": "npm run build:seyahatname && npm run typecheck && npm run validate:content && npm run validate:rules && npm run validate:vocabulary && npm run validate:exercises && vite build && npm run build:panel",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "typecheck": "tsc --noEmit",
@@ -28,7 +28,8 @@
     "validate:content": "tsx scripts/validation/validateContentFiles.ts",
     "validate:rules": "tsx scripts/validation/validateContentRules.ts",
     "build:panel": "vite build --config vite.panel.config.ts && tsx scripts/content/buildPanelData.ts",
-    "report:content": "tsx scripts/validation/contentHealth.ts"
+    "report:content": "tsx scripts/validation/contentHealth.ts",
+    "build:seyahatname": "tsx scripts/content/buildSeyahatname.ts"
   },
   "dependencies": {
     "@firebase/app": "^0.15.1",
@@ -37,6 +38,7 @@
     "canvas-confetti": "^1.9.4",
     "clsx": "^2.1.1",
     "motion": "^12.38.0",
+    "qrcode-generator": "^2.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-markdown": "^10.1.0",
