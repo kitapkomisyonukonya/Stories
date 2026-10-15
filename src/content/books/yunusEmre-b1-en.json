@@ -16,7 +16,7 @@
     "title": "Yunus Emre and Sufism",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Fimages%2Fyunus_b1_ch1-clean.png?alt=media&token=35c3e7df-520e-4293-916b-7312d4aba9a0",
     "audioUrl": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Faudio%2F00_Chapter_1.mp3?alt=media&token=8374c2f7-3dc6-480b-ae3b-3b0145c6f071",
-    "content": "Yunus Emre was a famous Turkish poet and a Sufi from Anatolia. A Sufi is a person who aims to get closer to Allah by following Islamic mysticism. Sufis lead a way of life within the outer (visible) and inner rules of Islam. The outer part is related to the body’s acts of worship, while the inner side refers to the heart’s intentions and morality.\n\nSufis follow moral principles such as seeking to improve and become better people, being patient in times of need, giving generously without expecting anything in return, doing good to everyone without biases, responding to evil with kindness, and not attaching importance to worldly matters such as wealth, status, and fame.\n\nIn addition to being a Sufi, Yunus Emre was one of the first to write and recite poems in simple Turkish. The words and phrases which he used helped develop a better literary Turkish. Yunus Emre is known as one of the founders of Turkish Sufi literature.",
+    "content": "Yunus Emre was a famous Turkish poet and a Sufi from Anatolia. A Sufi is a person who aims to get closer to Allah by following Islamic mysticism. Sufis lead a way of life within the outer (visible) and inner rules of Islam. The outer part is related to the body’s acts of worship, while the inner side refers to the heart’s intentions and morality.\n\nSufis follow moral principles such as seeking to improve and become better people, being patient in times of need, and giving generously. They expect nothing in return and do good to everyone without biases. They respond to evil with kindness and do not attach importance to worldly matters such as wealth, status, and fame.\n\nIn addition to being a Sufi, Yunus Emre was one of the first to write and recite poems in simple Turkish. The words and phrases which he used helped develop a better literary Turkish. Yunus Emre is known as one of the founders of Turkish Sufi literature.",
     "vocabulary": [
      {
       "word": "Anatolia",
@@ -107,7 +107,7 @@
       "question": "Can you fix the list of principles?",
       "errorItems": [
        {
-        "sentence": "Sufis follow moral principles such as seeking to improve and become better people, being patient in times of need, give generously …",
+        "sentence": "Sufis follow moral principles such as seeking to improve and become better people, being patient in times of need, and give generously.",
         "error": "give",
         "options": [
          "giving",
@@ -117,14 +117,14 @@
         "answer": 0
        },
        {
-        "sentence": "… responding to evil with kindness, and not attach importance to worldly matters such as wealth, status, and fame.",
+        "sentence": "They respond to evil with kindness and not attach importance to worldly matters such as wealth, status, and fame.",
         "error": "not attach",
         "options": [
-         "not to attach",
+         "do not attach",
          "not attaching",
-         "no attaching"
+         "no attach"
         ],
-        "answer": 1
+        "answer": 0
        },
        {
         "sentence": "In addition to be a Sufi, Yunus Emre was one of the first to write and say poems in simple Turkish.",
@@ -138,10 +138,10 @@
        }
       ],
       "correctAnswer": null,
-      "explanation": "The list of principles after “such as” uses the same form every time: seeking, being, giving, doing, responding, not attaching. Keeping the list parallel makes the principles sound like parts of one way of life. The negative form is “not + -ing”. “In addition to” is a preposition, so it is followed by an -ing form: “In addition to being a Sufi …”.",
+      "explanation": "The list of principles after “such as” uses the same form every time: seeking, being, giving. Keeping the list parallel makes the principles sound like parts of one way of life. In a present simple sentence, the negative is “do not + verb”: “do not attach importance”. “In addition to” is a preposition, so it is followed by an -ing form: “In addition to being a Sufi …”.",
       "feedback": {
-       "correct": "Well done. You kept the list parallel and used -ing after “in addition to”.",
-       "incorrect": "Look at the second paragraph of Chapter 1: every principle in the list starts with an -ing form. Then check the first words of the third paragraph."
+       "correct": "Well done. You kept the list parallel, used “do not” and used -ing after “in addition to”.",
+       "incorrect": "Look at the second paragraph of Chapter 1: every principle in the list after “such as” starts with an -ing form. Then check the first words of the third paragraph."
       }
      },
      {
@@ -235,7 +235,7 @@
       "books, songs and poems"
      ],
      "answer": 0,
-     "quote": "not attaching importance to worldly matters such as wealth, status, and fame"
+     "quote": "do not attach importance to worldly matters such as wealth, status, and fame"
     },
     "iCan": [
      "I can explain what a Sufi is and why Yunus Emre is famous.",
@@ -3894,7 +3894,7 @@
       "level": "B1",
       "chapter": 1,
       "chapterTitle": "Yunus Emre and Sufism",
-      "storyExample": "Sufis follow moral principles such as seeking to improve and become better people, being patient in times of need, giving generously without expecting anything in return, doing good to everyone without biases, responding to evil with kindness, and not attaching importance to worldly matters such as wealth, status, and fame."
+      "storyExample": "They expect nothing in return and do good to everyone without biases."
      },
      {
       "word": "worldly",
@@ -3913,7 +3913,7 @@
       "level": "B1",
       "chapter": 1,
       "chapterTitle": "Yunus Emre and Sufism",
-      "storyExample": "Sufis follow moral principles such as seeking to improve and become better people, being patient in times of need, giving generously without expecting anything in return, doing good to everyone without biases, responding to evil with kindness, and not attaching importance to worldly matters such as wealth, status, and fame."
+      "storyExample": "They respond to evil with kindness and do not attach importance to worldly matters such as wealth, status, and fame."
      },
      {
       "word": "literary",
@@ -4950,7 +4950,7 @@
       "meaning": "Related to ordinary daily life and things like money, not to spiritual matters.",
       "partOfSpeech": "adjective",
       "chapter": 1,
-      "context": "Sufis follow moral principles such as seeking to improve and become better people, being patient in times of need, giving generously without expecting anything in return, doing good to everyone without biases, responding to evil with kindness, and not attaching importance to worldly matters such as wealth, status, and fame."
+      "context": "They respond to evil with kindness and do not attach importance to worldly matters such as wealth, status, and fame."
      },
      {
       "word": "sources",
@@ -5392,7 +5392,7 @@
        "giving only to people who give back"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 1 lists principles such as “giving generously without expecting anything in return, doing good to everyone without biases, responding to evil with kindness, and not attaching importance to worldly matters such as wealth, status, and fame.”",
+      "explanation": "Chapter 1 says: “They expect nothing in return and do good to everyone without biases. They respond to evil with kindness and do not attach importance to worldly matters such as wealth, status, and fame.”",
       "feedback": {
        "correct": "Yes. A Sufi answers evil with kindness and does not chase fame or payment.",
        "incorrect": "Read the second paragraph of Chapter 1. The other two options go against the list."
