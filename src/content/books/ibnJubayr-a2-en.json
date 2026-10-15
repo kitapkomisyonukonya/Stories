@@ -937,8 +937,8 @@
       "question": "“The roads were also so safe that people could travel day and night without any fear.” What does “so safe that …” show?",
       "options": [
        "a result: The roads were very safe, and because of this people could travel at any time",
-       "a question about the roads",
-       "a reason why the roads were dangerous"
+       "a question: Were the roads safe enough for people to travel at night?",
+       "a contrast: The roads were safe, but people were still afraid to travel at night"
       ],
       "correctAnswer": 0,
       "explanation": "“So + adjective + that …” makes the adjective very strong and then gives the result. The roads were very safe → people could travel day and night.",
@@ -1079,8 +1079,8 @@
       "type": "true-false",
       "title": "Rich and Poor in the Caravan",
       "instructions": "Is the sentence true or false? Use Chapter 6.",
-      "question": "In the caravans, you could not see who was rich and who was poor.",
-      "correctAnswer": false,
+      "question": "In the caravans, you could easily see who was rich and who was poor.",
+      "correctAnswer": true,
       "explanation": "Chapter 6 says: “In the caravans, you could easily see who was rich and who was poor. You only needed to look at their tents.”",
       "feedback": {
        "correct": "Correct! It was easy to see. You only needed to look at the tents.",
@@ -1097,8 +1097,8 @@
       "question": "“The tents of rich royal people were amazing. They were like beautiful moving palaces.” What does “were like” mean?",
       "options": [
        "were very similar to",
-       "were bigger than",
-       "were inside"
+       "were much bigger than",
+       "were built inside"
       ],
       "correctAnswer": 0,
       "explanation": "“Be like + noun” compares two things. The tents were not palaces, but they were very similar to palaces.",
@@ -1228,8 +1228,8 @@
       "instructions": "Read the question. Choose the answer from Chapter 7.",
       "question": "Ibn Jubayr says Mecca is like a mother’s body. Why?",
       "options": [
-       "Mecca is a very old city.",
-       "Mecca is far away from other cities.",
+       "Mecca is a very old city with many families.",
+       "Mecca is far away from other big cities and towns.",
        "Mecca makes enough space for a huge crowd."
       ],
       "correctAnswer": 2,
@@ -1248,9 +1248,9 @@
       "instructions": "Read Ibn Jubayr’s words in Chapter 7. Then choose the best answer.",
       "question": "“However, it can get bigger and have space for a very big crowd of people.” and “If you put this same giant crowd into the biggest city on earth, that city cannot hold them.” What do “can” and “cannot” show?",
       "options": [
-       "what happened in the past",
+       "what happened in the past, at Hajj time",
        "what is possible and not possible",
-       "what people must do"
+       "what people must do and must not do"
       ],
       "correctAnswer": 1,
       "explanation": "“Can + base verb” shows that something is possible: Mecca can have space for the crowd. “Cannot + base verb” shows that it is not possible: the biggest city cannot hold them.",
@@ -1599,8 +1599,8 @@
       "question": "In Damascus, who did the gifts of money help?",
       "options": [
        "travelers and students from other countries",
-       "the workers of the Great Mosque",
-       "the shop owners next to the mosque"
+       "the workers and imams of the Great Mosque",
+       "the shop owners in the market next to the mosque"
       ],
       "correctAnswer": 0,
       "explanation": "Chapter 9 says: “In the city of Damascus, Ibn Jubayr also wrote about helpful gifts of money. These gifts helped travelers and students from other countries.”",
@@ -1618,8 +1618,8 @@
       "instructions": "Read the sentence from Chapter 9. Then choose the best answer.",
       "question": "“He describes its size, roof, the dome, the courtyard, and the tall minarets.” Ibn Jubayr lived long ago. Why does the chapter say “describes”, not “described”?",
       "options": [
-       "because he is still alive",
-       "because the visit is happening now",
+       "because he is still alive today and he is still writing new books about the mosque",
+       "because the visit to the mosque is happening now, while we are reading",
        "because we are talking about what his book says, and we can still read it"
       ],
       "correctAnswer": 2,
@@ -1994,9 +1994,9 @@
       "instructions": "Read the sentence from Chapter 11. Then choose the best answer.",
       "question": "“Ibn Jubayr almost died, but he survived.” What happened to him?",
       "options": [
-       "He died near Sicily.",
+       "He died in the storm near Sicily, and the others survived.",
        "He was very near to death, but he stayed alive.",
-       "He was ill for a long time."
+       "He was ill for a long time, but then he got better."
       ],
       "correctAnswer": 1,
       "explanation": "“Almost died” means he nearly died, but it did not happen. “But” gives the different, happy result: He survived.",
@@ -2178,9 +2178,9 @@
       "instructions": "Read the sentence from Chapter 12. Then choose the best answer.",
       "question": "“Then, the travelers had to walk to find safety or die under the burning sun.” What does “had to walk” mean?",
       "options": [
-       "They wanted to walk for fun.",
+       "They wanted to walk because they liked the desert.",
        "Walking was necessary; they had no other choice.",
-       "They walked in the past every day."
+       "They walked every day in the past, so it was a habit."
       ],
       "correctAnswer": 1,
       "explanation": "“Had to + base verb” is the past of “have to”. It shows that something was necessary: The robbers took everything, so the travelers had no other choice.",
@@ -2348,8 +2348,8 @@
       "question": "“Ibn Jubayr thought that other people should do the same. He told young people to leave their home country and travel to look for knowledge.” What does “should” show?",
       "options": [
        "advice: A good idea for other people",
-       "a rule from the government",
-       "something in the past"
+       "a rule: An order from the government",
+       "the past: Something that already happened"
       ],
       "correctAnswer": 0,
       "explanation": "“Should + base verb” gives advice: it is a good idea. Ibn Jubayr learned a lot, so he gave this advice to young people. “Told + person + to + verb” reports the advice.",
@@ -3283,9 +3283,9 @@
       "instructions": "Read the question. Choose the answer.",
       "question": "Why did the Rihla make Ibn Jubayr very famous in history?",
       "options": [
-       "It was the first book in the Arabic language.",
+       "It was a long poem about his home city and his family.",
        "It became the model for a whole new kind of travel book.",
-       "It was a book about the history of Granada."
+       "It was a history book about the kings and cities of Granada."
       ],
       "correctAnswer": 1,
       "explanation": "Chapter 3: “This book made him very famous in history because his diary became the model for a whole new kind of travel book.”",

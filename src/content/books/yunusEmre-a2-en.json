@@ -281,8 +281,8 @@
       "type": "true-false",
       "title": "Wealth in the Hand",
       "instructions": "Is the sentence true or false? Use Chapter 2.",
-      "question": "When the dervishes were rich, they kept their money for themselves.",
-      "correctAnswer": false,
+      "question": "The dervishes shared what they had with people in need.",
+      "correctAnswer": true,
       "explanation": "Chapter 2 says their wealth was “not in their hearts, but in their hands to give to charity.” It also says, “They shared what they had with the needy.”",
       "feedback": {
        "correct": "Correct! The dervishes did not keep their wealth. They shared it with people in need.",
@@ -1952,11 +1952,11 @@
       "type": "true-false",
       "title": "Taptuk Watches Yunus",
       "instructions": "Read the sentence. Is it true or false?",
-      "question": "Taptuk Emre never noticed what kind of wood Yunus brought.",
-      "correctAnswer": false,
+      "question": "Taptuk Emre noticed that Yunus never brought crooked wood.",
+      "correctAnswer": true,
       "explanation": "Chapter 5: “Taptuk Emre noticed that Yunus never carried crooked wood to the house.”",
       "feedback": {
-       "correct": "Right, it is false. Taptuk noticed that Yunus never brought crooked wood, so he asked him why.",
+       "correct": "Right, it is true. Taptuk noticed that Yunus never brought crooked wood, so he asked him why.",
        "incorrect": "Read the last paragraph of Chapter 5 again. What did Taptuk Emre notice?"
       }
      },

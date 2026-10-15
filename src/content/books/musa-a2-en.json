@@ -75,8 +75,8 @@
       "instructions": "Read the question. Choose the answer from Chapter 1.",
       "question": "Why was the king rude to the Children of Israel?",
       "options": [
-       "They refused to do the king’s dangerous work for no money.",
-       "They did not believe in one Allah.",
+       "They refused to do the king’s dangerous and difficult work for no money at all.",
+       "They did not believe in one Allah, so the king did not trust them.",
        "They had more people than the Egyptians, and he was afraid they might take his kingdom."
       ],
       "correctAnswer": 2,
@@ -1247,8 +1247,8 @@
       "type": "true-false",
       "title": "A Mistake",
       "instructions": "Is the sentence true or false? Use Chapter 6.",
-      "question": "Moses caused the man’s death on purpose.",
-      "correctAnswer": false,
+      "question": "Moses caused the man’s death by accident.",
+      "correctAnswer": true,
       "explanation": "Chapter 6 says Moses was very sorry “because he accidentally caused someone’s death.” He made dua: “Forgive me.” Allah forgave him.",
       "feedback": {
        "correct": "Correct! It was an accident. Moses was sorry and asked Allah to forgive him.",
@@ -1264,9 +1264,9 @@
       "instructions": "Read the sentence from Chapter 6. Choose the best meaning.",
       "question": "“He was so sorry because he accidentally caused someone’s death.” What does accidentally tell us?",
       "options": [
-       "He wanted to do it.",
+       "He wanted to do it and planned it.",
        "He did not plan to do it.",
-       "He did it many times."
+       "He did it many times before that."
       ],
       "correctAnswer": 1,
       "explanation": "Accidentally means not on purpose: Moses did not plan or want this result. That is why he was so sorry and asked Allah to forgive him.",
@@ -1457,9 +1457,9 @@
       "instructions": "Read the question. Choose the answer from Chapter 7.",
       "question": "Why was Midian a safe place for Moses?",
       "options": [
-       "It was very far from Egypt.",
+       "It had high walls and many strong soldiers.",
        "The king of Egypt was not the ruler there.",
-       "His mother and sister lived there."
+       "His mother and sister lived there with their family."
       ],
       "correctAnswer": 1,
       "explanation": "Chapter 7 says: “Midian was near Egypt. The king of Egypt was not the ruler there.” So Moses was safe from the king in Midian.",
@@ -3103,9 +3103,9 @@
       "instructions": "Read the question. Choose the answer from Chapter 14.",
       "question": "Why did the caravan move slowly?",
       "options": [
-       "It was a dark night, and they could not see the road well.",
+       "It was a dark night, and they could not see the road very well.",
        "There were many old people and children, and they could not walk fast.",
-       "They were waiting for the king’s army."
+       "They were waiting for the king’s army to leave the city first."
       ],
       "correctAnswer": 1,
       "explanation": "Chapter 14 says: “There was a large group with many old people and children. The children and the old could not walk fast and got tired very quickly. Their caravan moved slowly.”",
@@ -4142,11 +4142,11 @@
       "type": "true-false",
       "title": "The King’s Dream",
       "instructions": "Read the sentence. Is it true or false?",
-      "question": "In the king’s dream, the fire burnt the houses of the Children of Israel.",
-      "correctAnswer": false,
+      "question": "In the king’s dream, the fire burnt the houses of the Egyptians.",
+      "correctAnswer": true,
       "explanation": "Chapter 2: “The fire came from Jerusalem and burnt the houses of the Egyptians. But it did not harm any of the Children of Israel.”",
       "feedback": {
-       "correct": "Right, it is false. The fire burnt the houses of the Egyptians, not the Children of Israel.",
+       "correct": "Right, it is true. The fire burnt the houses of the Egyptians, but it did not harm the Children of Israel.",
        "incorrect": "Read the dream in Chapter 2 again. Whose houses did the fire burn?"
       }
      },
@@ -4158,8 +4158,8 @@
       "question": "Why could Moses’s mother not sleep at night?",
       "options": [
        "She was afraid the soldiers could find her baby.",
-       "Her baby was crying all night.",
-       "She had to work in the king’s palace."
+       "Her baby was hungry and was crying all night.",
+       "She had to work in the king’s palace in the morning."
       ],
       "correctAnswer": 0,
       "explanation": "Chapter 3: “His mother was afraid that soldiers could find her baby. So, she could not sleep at night.”",
@@ -6052,9 +6052,9 @@
       "instructions": "Choose the correct answer.",
       "question": "Who was the father of the two sisters?",
       "options": [
-       "a rich shepherd from Egypt",
+       "a rich shepherd from the land of Egypt",
        "a Messenger of Allah in Midian",
-       "one of the king’s helpers"
+       "one of the king’s helpers in Egypt"
       ],
       "correctAnswer": 1,
       "explanation": "Chapter 9 says: “The father of these girls was Prophet Shu’ayb (pbuh). Shu’ayb (pbuh) was a Messenger of Allah in Midian.”",
@@ -6187,8 +6187,8 @@
       "type": "true-false",
       "title": "The Last Lesson",
       "instructions": "Decide whether the sentence is true or false.",
-      "question": "At the end, the story says that one person can own another person.",
-      "correctAnswer": false,
+      "question": "At the end, the story says that no one can own another person.",
+      "correctAnswer": true,
       "explanation": "Chapter 16 says: “It tells us that no one can own another person. It shows that only Allah has power over us.”",
       "feedback": {
        "correct": "Right. The king thought he owned the people, but only Allah has power over us.",

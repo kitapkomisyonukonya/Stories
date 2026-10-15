@@ -375,10 +375,10 @@
       "instructions": "Read the advisors’ words. Then choose the best answer.",
       "question": "They said, “A boy will be born of the Children of Israel and the Egyptian people will die at this boy’s hands.” What are the advisors doing when they use “will”?",
       "options": [
-       "reporting something that has already happened",
-       "giving the soldiers an order",
+       "reporting something that has already happened in Egypt",
+       "giving the soldiers an order about the boys",
        "predicting something that they believe is going to happen",
-       "describing something that happens every year"
+       "describing something that happens every year in Egypt"
       ],
       "correctAnswer": 2,
       "explanation": "“Will + base verb” is used here for a prediction: the advisors say what they believe is going to happen. “Will be born” is passive because a baby does not do the action of being born. The prediction leads to the Pharaoh’s order, which uses an imperative with no subject: “Kill …”.",
@@ -587,8 +587,8 @@
       "instructions": "Read the question. Choose the answer from Chapter 3.",
       "question": "Moses’s mother was very sad. What gave her comfort when the waters carried her baby away?",
       "options": [
-       "Queen Asiye had promised to look after the baby.",
-       "Her daughter promised to bring the basket back home.",
+       "Queen Asiye had promised her that she would look after the baby.",
+       "Her daughter promised to follow the basket and bring it back home.",
        "She knew that Allah was kinder to the baby than she could be."
       ],
       "correctAnswer": 2,
@@ -1314,8 +1314,8 @@
       "type": "true-false",
       "title": "Safe in Midian",
       "instructions": "Is the sentence true or false? Use Chapter 6.",
-      "question": "When Moses reached Midian, he was still in a land that the Pharaoh ruled.",
-      "correctAnswer": false,
+      "question": "When Moses reached Midian, he was in a land that the Pharaoh did not rule.",
+      "correctAnswer": true,
       "explanation": "Chapter 6 says: “The Pharaoh was not the ruler in this land.” So in Midian, Moses was out of the reach of the Pharaoh’s soldiers.",
       "feedback": {
        "correct": "Correct. The Pharaoh did not rule Midian, so it was a safer place for Moses.",
@@ -1331,9 +1331,9 @@
       "instructions": "Read the man’s warning from Chapter 6. Then choose the best answer.",
       "question": "A man from the city says to Moses, “The Pharaoh’s soldiers are looking for you. … Now they are going to catch you.” Why does the man use “are going to”?",
       "options": [
-       "The soldiers have already caught Moses.",
-       "The soldiers catch people like Moses every day.",
-       "The man is promising to help the soldiers.",
+       "The soldiers have already caught Moses and taken him to the Pharaoh.",
+       "The soldiers catch people like Moses every day, so it is a habit for them.",
+       "The man is promising to help the soldiers find Moses in the city.",
        "He expects it to happen soon because the soldiers are already searching."
       ],
       "correctAnswer": 3,
@@ -2064,10 +2064,10 @@
       "instructions": "Read the last sentence of Chapter 9. Then choose the best meaning.",
       "question": "After the message on the mountain, the chapter ends: “Upon this, Moses (pbuh) headed to Egypt.” What does “Upon this” mean here?",
       "options": [
-       "on top of this mountain",
+       "on top of this mountain, at that place",
        "right after this, and because of it",
-       "before this happened",
-       "even though this happened"
+       "before this happened, some time earlier",
+       "even though this had happened to him"
       ],
       "correctAnswer": 1,
       "explanation": "“Upon this” is a formal connector. It links an event with the action that follows it immediately, as a response. The message from Allah comes first, and heading to Egypt is Moses’s response. To “head to” a place means to go towards it.",
@@ -2765,8 +2765,8 @@
       "instructions": "Read the question. Choose the answer from Chapter 12.",
       "question": "Why was the Pharaoh’s army able to catch up with Moses and his people?",
       "options": [
-       "Someone told the Pharaoh about their secret plan.",
-       "They did not leave Egypt until the sun rose.",
+       "Someone told the Pharaoh about their secret plan, so he left before them.",
+       "They did not leave Egypt until the sun rose, so everyone could see them go.",
        "The caravan moved slowly because the old people and children got tired quickly."
       ],
       "correctAnswer": 2,
@@ -3011,9 +3011,9 @@
       "instructions": "Read the question. Choose the best answer from Chapter 13.",
       "question": "When the Pharaoh saw the path in the sea, he said, “Look! The sea opened at my order.” What does this show about him?",
       "options": [
-       "He finally believed in the Lord of Moses and Harun.",
+       "He finally believed in the Lord of Moses and Harun at that moment.",
        "He was still too proud to see that only Allah had this power.",
-       "He wanted to stop his soldiers from entering the sea."
+       "He wanted to stop his soldiers from entering the sea after the Israelites."
       ],
       "correctAnswer": 1,
       "explanation": "It was Allah who told Moses to hit the sea: “Allah made a path for them across the sea!” But the Pharaoh said it opened “at my order”, and then led his soldiers in. The chapter ends with the lesson that “the only power over human beings is Allah.”",
@@ -3630,8 +3630,8 @@
       "instructions": "Choose the best answer. Use the evidence in Chapter 4.",
       "question": "Moses grew up in the Pharaoh’s palace. Why did he still feel close to the Children of Israel?",
       "options": [
-       "The Pharaoh sent him to live with them.",
-       "He had worked with them as a boy.",
+       "The Pharaoh sent him to live with them for a time.",
+       "He had worked with them in the fields as a boy.",
        "His mother was one of the Children of Israel."
       ],
       "correctAnswer": 2,
@@ -3662,8 +3662,8 @@
       "question": "The same Israelite called Moses for help again the next day. What did Moses understand about him?",
       "options": [
        "He was a quarrelsome man, not a peaceable one.",
-       "He was the Pharaoh’s spy in the bazaar.",
-       "He was weak and needed Moses every day."
+       "He was the Pharaoh’s spy in the busy bazaar.",
+       "He was weak and needed Moses’s help every day."
       ],
       "correctAnswer": 0,
       "explanation": "Chapter 5: “The man once more called out to Moses, “Help me!” Moses understood that the Israelite was a quarrelsome man, not a peaceable man.”",
@@ -3677,11 +3677,11 @@
       "type": "true-false",
       "title": "The Sisters at the Well",
       "instructions": "Decide whether the statement is true or false according to the story.",
-      "question": "Shu’ayb (pbuh) sent his daughters to the well alone because he did not want to help them.",
-      "correctAnswer": false,
+      "question": "Shu’ayb (pbuh) sent his daughters to the well alone because he was very old.",
+      "correctAnswer": true,
       "explanation": "Chapter 7: “Prophet Shu’ayb (pbuh) was very old. That’s why he had to send the girls alone.” The girls also said, “Our father is very old. He cannot come with us.”",
       "feedback": {
-       "correct": "Right, the statement is false. He sent them alone because he was very old and could not go himself.",
+       "correct": "Right, the statement is true. He was very old and could not go with them himself.",
        "incorrect": "Reread the end of Chapter 7 and what the girls said at the start. Why did their father not come with them?"
       }
      },
@@ -3708,11 +3708,11 @@
       "type": "true-false",
       "title": "Going to the Palace",
       "instructions": "Decide whether the statement is true or false according to the story.",
-      "question": "Moses went to the Pharaoh’s palace alone, without anyone from his family.",
-      "correctAnswer": false,
+      "question": "Moses took his brother Harun with him when he went to the Pharaoh’s palace.",
+      "correctAnswer": true,
       "explanation": "Chapter 10: “Allah chose Moses (pbuh) to be His prophet. Moses (pbuh) took his brother Harun (pbuh) with him as his companion and went to the palace.”",
       "feedback": {
-       "correct": "Right, the statement is false. Moses took his brother Harun with him as his companion.",
+       "correct": "Right, the statement is true. Moses took his brother Harun with him as his companion.",
        "incorrect": "Reread the first lines of Chapter 10. Who went to the palace with Moses?"
       }
      },
@@ -5040,10 +5040,10 @@
       "instructions": "Read the two scenes. Then choose the best answer.",
       "question": "Chapter 6: “Moses was tired and thirsty. He was looking for water. Soon, he found a well …” Chapter 10: “The king was sitting on his throne, and his advisors and soldiers were standing around him. Moses (pbuh) told him about Allah.” What do “was looking”, “was sitting” and “were standing” do in these scenes?",
       "options": [
-       "They show actions that started after the main event.",
+       "They show actions that started after the main event, when Moses found the well or spoke to the king.",
        "They describe the situation that was already in progress when the main event happened.",
-       "They show things that happened every day for many years.",
-       "They show what the people were planning to do next."
+       "They show things that happened every day for many years in Madyan and in the palace.",
+       "They show what the people were planning to do next, after Moses had left them."
       ],
       "correctAnswer": 1,
       "explanation": "The past continuous (was/were + -ing) paints the background: An action already in progress. The past simple then tells the main event that happens in that scene: He found a well; Moses told him about Allah. The same contrast opens Chapter 5: while Moses was walking in the bazaar, he saw two men fighting.",
@@ -5329,8 +5329,8 @@
       "question": "Chapters 1 and 2 both describe the Pharaoh’s dream. What do the two versions have in common?",
       "options": [
        "The danger comes from the Children of Israel.",
-       "A fire burns down the Pharaoh’s palace.",
-       "The Egyptians leave the land of Egypt."
+       "A great fire burns down the Pharaoh’s palace.",
+       "The Egyptians leave the land of Egypt forever."
       ],
       "correctAnswer": 0,
       "explanation": "Chapter 1: “In his vision, he saw an Israelite take him down from his throne.” Chapter 2: “The fire came from Jerusalem and burnt the houses of the Egyptians, but did not do any harm to the Children of Israel.”",
