@@ -302,6 +302,20 @@ export const SelfStudyGuide = ({
         { title: labels.reflection, text: section.reflectionPrompt },
       ],
     },
+    ...(section.mediationTasks ? [{
+      id: 'mediate',
+      title: t('ssg.mediateStep'),
+      subtitle: t('ssg.mediateSub'),
+      icon: 'file' as const,
+      lists: [
+        { title: section.mediationTasks.noteTaking.focus, items: section.mediationTasks.noteTaking.columns },
+      ],
+      texts: [
+        { title: t('tg.mtAfterNotes'), text: section.mediationTasks.noteTaking.afterNotes },
+        { title: t('tg.mtTranslation'), text: section.mediationTasks.translation },
+        { title: t('tg.mtHome'), text: section.mediationTasks.homeRetell },
+      ],
+    }] : []),
   ];
 
   const activeStudySteps = activeSection ? getStudySteps(activeSection) : [];
@@ -503,6 +517,12 @@ export const SelfStudyGuide = ({
             {metadata?.recommendedUse?.length ? renderList(isAr ? 'طريقة الاستخدام المقترحة' : 'Recommended Study Routine', metadata.recommendedUse) : null}
           </div>
         )}
+
+        {metadata?.readingDiary?.prompts?.length ? (
+          <div data-ssg-reading-diary>
+            {renderList(t('ssg.readingDiary'), [metadata.readingDiary.intro, ...metadata.readingDiary.prompts])}
+          </div>
+        ) : null}
 
         <GuideV2Tools language={language} variant="self" />
       </motion.div>

@@ -631,6 +631,40 @@ entries.set(key, { word, definition });
                         </div>
                       )}
 
+                      {section.mediationTasks && (
+                        <div className="space-y-3 sm:space-y-4 border-t border-gold/10 pt-4 sm:pt-8" data-tg-mediation>
+                          <h5 className="font-display text-[13px] sm:text-[15px] text-gold uppercase tracking-widest flex items-center gap-2 sm:gap-3">
+                            <ClipboardList size={16} className="text-gold shrink-0" /> {t('tg.mediation')}
+                          </h5>
+                          <div className="p-3 bg-white/5 rounded-lg border border-gold/5">
+                            <span className="text-[10px] text-gold/60 uppercase font-display block mb-2">{t('tg.mtNotes')}</span>
+                            <p className="font-serif text-[13px] sm:text-[15px] text-white leading-relaxed">{section.mediationTasks.noteTaking.focus}</p>
+                            <div className="mt-2 flex flex-wrap gap-2">
+                              {section.mediationTasks.noteTaking.columns.map((column, i) => (
+                                <span key={i} className="px-2.5 py-1 rounded-md border border-gold/20 bg-black/10 font-display text-[11px] sm:text-xs text-gold">{column}</span>
+                              ))}
+                            </div>
+                            <p className="mt-2 font-serif text-[13px] sm:text-[15px] text-white/85 leading-relaxed"><span className="text-gold/70">{t('tg.mtAfterNotes')}:</span> {section.mediationTasks.noteTaking.afterNotes}</p>
+                          </div>
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
+                            {([
+                              ['tg.mtRelay', section.mediationTasks.relay],
+                              ['tg.mtPairs', section.mediationTasks.pairRoles],
+                              ['tg.mtCulture', section.mediationTasks.cultureGuide],
+                              ['tg.mtTranslation', section.mediationTasks.translation],
+                              ['tg.mtHome', section.mediationTasks.homeRetell],
+                              ['tg.mtAnalysis', section.mediationTasks.analysis],
+                              ['tg.mtLookFor', section.mediationTasks.lookFor],
+                            ] as const).filter(([, text]) => Boolean(text)).map(([label, text]) => (
+                              <div key={label} className="p-3 bg-white/5 rounded-lg border border-gold/5">
+                                <span className="text-[10px] text-gold/60 uppercase font-display block mb-2">{t(label)}</span>
+                                <p className="font-serif text-[13px] sm:text-[15px] text-white leading-relaxed">{text}</p>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
                       {/* New Assessment & Kinesthetic Fields in Chapter Support */}
                       {(section.assessmentTools || section.kinestheticActivities) && (
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-10 border-t border-gold/10 pt-4 sm:pt-8">

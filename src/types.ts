@@ -232,10 +232,27 @@ export interface TeacherGuideSection {
   // what to notice in the chapter, a comparison with learners' own and other
   // cultures, and a point of view or caution for the discussion.
   interculturalFocus?: { notice: string; compare: string; perspective: string };
+  // Chapter-specific tasks for the CEFR 2020 Companion Volume scales the
+  // books did not cover yet: note-taking, relaying information, collaborating
+  // in pairs, facilitating a pluricultural space, translating a written text,
+  // mediating in an informal setting and analysing the text. The self-study
+  // guide uses noteTaking, translation and homeRetell only.
+  mediationTasks?: MediationTasks;
   extraResources?: {
     worksheets?: string[];
     links?: { label: string; url: string }[];
   };
+}
+
+export interface MediationTasks {
+  noteTaking: { focus: string; columns: string[]; afterNotes: string };
+  relay?: string;
+  pairRoles?: string;
+  cultureGuide?: string;
+  translation: string;
+  homeRetell: string;
+  analysis?: string;
+  lookFor?: string;
 }
 
 export interface RubricRow {
@@ -355,6 +372,8 @@ export interface StudentGuideMetadata {
   recommendedUse?: string[];
   audience?: string;
   description?: string;
+  /** A reading diary the learner keeps for the book (CEFR 2020: reading as a leisure activity). */
+  readingDiary?: { intro: string; prompts: string[] };
 }
 
 export interface BookData {
