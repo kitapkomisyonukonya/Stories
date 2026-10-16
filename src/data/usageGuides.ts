@@ -19,7 +19,8 @@ export type UsageGuideIcon =
   | 'Target'
   | 'BookMarked'
   | 'Search'
-  | 'Users';
+  | 'Users'
+  | 'Scroll';
 
 export interface UsageGuideSection {
   icon: UsageGuideIcon;
@@ -275,7 +276,29 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           heading: 'My words',
           steps: [
             'Tap an underlined word and choose Save to My words.',
-            'Open My words from the menu and look at your words again later.',
+            'Open My words from the menu and review your words after one day, three days and one week.',
+          ],
+        },
+        {
+          icon: 'Scroll',
+          heading: 'Seyahatname: your travel journal',
+          steps: [
+            'Open Seyahatname on the home page. On a phone, it has its own tab.',
+            'Finish the Quick Challenge of a chapter and its stamp is pressed in your journal.',
+            'Finish the Final Challenge of a book and the book is sealed.',
+            'If you like, choose a weekly goal. A new week starts on Monday. Nothing you earned is lost.',
+            'Finish all the books of a level in one language and your certificate for that level is ready.',
+            'New device? Choose Show my code here, then I have a code on the new device.',
+          ],
+        },
+        {
+          icon: 'Target',
+          heading: 'Study well',
+          steps: [
+            'Plan: Read Make Your Plan in the Self-Study Guide before Chapter 1.',
+            'Check: After each chapter, look at I can. Can you do it now?',
+            'Review: Look at My words again after one day, three days and one week.',
+            'Look back: When you finish the book, answer Look Back again (section 10 of the Self-Study Guide).',
           ],
         },
         {
@@ -291,9 +314,9 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           icon: 'FileText',
           heading: 'The PDFs',
           steps: [
-            'Story book: The story and the activities on paper.',
+            'Story book: The story and the activities on paper. You can also choose Story only or Story + Workbook.',
             'Scan a QR code in the story book to open the same page in the app.',
-            'Self-Study Guide: A plan for study at home.',
+            'Self-Study Guide: A plan for study at home, with Make Your Plan and Look Back.',
             'Open the book menu. The PDFs are under Printable PDFs.',
             'A PDF opens in your browser. You can print it or save it.',
           ],
@@ -359,7 +382,29 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           heading: 'كلماتي',
           steps: [
             'اضغط على كلمة تحتها خط واختر «احفظ في كلماتي».',
-            'افتح «كلماتي» من القائمة وانظر إلى كلماتك مرة أخرى لاحقًا.',
+            'افتح «كلماتي» من القائمة وراجع كلماتك بعد يوم، ثم بعد ثلاثة أيام، ثم بعد أسبوع.',
+          ],
+        },
+        {
+          icon: 'Scroll',
+          heading: '«الرحلة»: دفتر رحلتك',
+          steps: [
+            'افتح «الرحلة» من الصفحة الرئيسية. وفي الهاتف لها تبويب خاص.',
+            'أكمل «التحدي السريع» في فصل، فيُختم ختمه في دفترك.',
+            'أكمل «التحدي النهائي» في كتاب، فيُختم الكتاب.',
+            'إن شئت، اختر هدفًا أسبوعيًا. يبدأ أسبوع جديد يوم الاثنين، ولا يضيع شيء مما كسبته.',
+            'أكمل كل كتب مستوى واحد بلغة واحدة، فتصبح شهادتك لذلك المستوى جاهزة.',
+            'جهاز جديد؟ اختر «اعرض رمزي» هنا، ثم «عندي رمز» على الجهاز الجديد.',
+          ],
+        },
+        {
+          icon: 'Target',
+          heading: 'ادرس جيدًا',
+          steps: [
+            'خطّط: اقرأ «ضع خطتك» في «دليل الدراسة الذاتية» قبل الفصل الأول.',
+            'تحقّق: بعد كل فصل انظر إلى «أستطيع». هل تستطيع ذلك الآن؟',
+            'راجع: انظر إلى «كلماتي» مرة أخرى بعد يوم، ثم بعد ثلاثة أيام، ثم بعد أسبوع.',
+            'انظر إلى الوراء: عندما تنهي الكتاب أجب عن «نظرة إلى الوراء» مرة أخرى (القسم ١٠ من «دليل الدراسة الذاتية»).',
           ],
         },
         {
@@ -375,9 +420,9 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           icon: 'FileText',
           heading: 'ملفات PDF',
           steps: [
-            'كتاب القصة: القصة والأنشطة على الورق.',
+            'كتاب القصة: القصة والأنشطة على الورق. ويمكنك أيضًا أن تختار «القصة فقط» أو «القصة وكراسة الأنشطة».',
             'امسح رمز QR في كتاب القصة لتفتح الصفحة نفسها في التطبيق.',
-            '«دليل الدراسة الذاتية»: خطة للدراسة في البيت.',
+            '«دليل الدراسة الذاتية»: خطة للدراسة في البيت، فيها «ضع خطتك» و«نظرة إلى الوراء».',
             'افتح قائمة الكتاب. الملفات تحت «ملفات PDF للطباعة».',
             'يُفتح ملف PDF في المتصفح. يمكنك أن تطبعه أو تحفظه.',
           ],
@@ -436,7 +481,19 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           heading: 'Keep your words',
           steps: [
             'Tap an underlined word and choose Save to My words.',
-            'Open My words from the menu and review them every few days.',
+            'Open My words from the menu and review them after one day, three days and one week.',
+          ],
+        },
+        {
+          icon: 'Scroll',
+          heading: 'Seyahatname: your travel journal',
+          steps: [
+            'Open Seyahatname on the home page. On a phone, it has its own tab.',
+            'Finish the Quick Challenge of a chapter and its stamp is pressed in your journal.',
+            'Finish the Final Challenge of a book and the book is sealed.',
+            'If you like, choose a weekly goal. A new week starts on Monday. Nothing you earned is lost.',
+            'Finish all the books of a level in one language and your certificate for that level is ready.',
+            'New device? Choose Show my code here, then I have a code on the new device.',
           ],
         },
         {
@@ -445,6 +502,7 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           steps: [
             'Every book has a Self-Study Guide in the menu.',
             'It gives a study plan for each chapter and tells you what to do next.',
+            'Start with Make Your Plan. When you finish the book, answer Look Back.',
           ],
         },
         {
@@ -460,7 +518,7 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           icon: 'FileText',
           heading: 'The PDFs',
           steps: [
-            'Story book: The story and the activities on paper. Its QR codes open the same page in the app.',
+            'Story book: The story and the activities on paper. Its QR codes open the same page in the app. You can also choose Story only or Story + Workbook.',
             'Self-Study Guide: The study plan on paper.',
             'Open the book menu. The PDFs are under Printable PDFs.',
             'A PDF opens in your browser. You can print it or save it.',
@@ -518,7 +576,19 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           heading: 'احفظ كلماتك',
           steps: [
             'اضغط على كلمة تحتها خط واختر «احفظ في كلماتي».',
-            'افتح «كلماتي» من القائمة وراجعها كل بضعة أيام.',
+            'افتح «كلماتي» من القائمة وراجعها بعد يوم، ثم بعد ثلاثة أيام، ثم بعد أسبوع.',
+          ],
+        },
+        {
+          icon: 'Scroll',
+          heading: '«الرحلة»: دفتر رحلتك',
+          steps: [
+            'افتح «الرحلة» من الصفحة الرئيسية. وفي الهاتف لها تبويب خاص.',
+            'أكمل «التحدي السريع» في فصل، فيُختم ختمه في دفترك.',
+            'أكمل «التحدي النهائي» في كتاب، فيُختم الكتاب.',
+            'إن شئت، اختر هدفًا أسبوعيًا. يبدأ أسبوع جديد يوم الاثنين، ولا يضيع شيء مما كسبته.',
+            'أكمل كل كتب مستوى واحد بلغة واحدة، فتصبح شهادتك لذلك المستوى جاهزة.',
+            'جهاز جديد؟ اختر «اعرض رمزي» هنا، ثم «عندي رمز» على الجهاز الجديد.',
           ],
         },
         {
@@ -527,6 +597,7 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           steps: [
             'لكل كتاب «دليل الدراسة الذاتية» في القائمة.',
             'فيه خطة دراسة لكل فصل، ويخبرك بما تفعله بعد ذلك.',
+            'ابدأ بـ«ضع خطتك». وعندما تنهي الكتاب أجب عن «نظرة إلى الوراء».',
           ],
         },
         {
@@ -542,7 +613,7 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           icon: 'FileText',
           heading: 'ملفات PDF',
           steps: [
-            'كتاب القصة: القصة والأنشطة على الورق. ورموز QR فيه تفتح الصفحة نفسها في التطبيق.',
+            'كتاب القصة: القصة والأنشطة على الورق. ورموز QR فيه تفتح الصفحة نفسها في التطبيق. ويمكنك أيضًا أن تختار «القصة فقط» أو «القصة وكراسة الأنشطة».',
             '«دليل الدراسة الذاتية»: خطة الدراسة على الورق.',
             'افتح قائمة الكتاب. الملفات تحت «ملفات PDF للطباعة».',
             'يُفتح ملف PDF في المتصفح. يمكنك أن تطبعه أو تحفظه.',

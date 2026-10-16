@@ -18,13 +18,14 @@ import {
   BookMarked,
   Search,
   Users,
+  Scroll,
   type AppIconProps,
 } from '../ui/icons';
 import { USAGE_GUIDES, usageGuidePdfUrl, type UsageGuideIcon } from '../../data/usageGuides';
 import { useDialogFocus } from '../../hooks/useDialogFocus';
 
 const ICONS: Record<UsageGuideIcon, React.ComponentType<AppIconProps>> = {
-  LockKeyhole, Library, BookOpen, Notepad, ProjectorScreen, Trophy, Certificate, FileText, Lightbulb, Target, BookMarked, Search, Users,
+  LockKeyhole, Library, BookOpen, Notepad, ProjectorScreen, Trophy, Certificate, FileText, Lightbulb, Target, BookMarked, Search, Users, Scroll,
 };
 
 const ROLES: UserRole[] = ['teacher', 'student', 'self'];
