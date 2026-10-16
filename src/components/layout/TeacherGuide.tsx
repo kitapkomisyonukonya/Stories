@@ -655,6 +655,9 @@ entries.set(key, { word, definition });
                               ['tg.mtHome', section.mediationTasks.homeRetell],
                               ['tg.mtAnalysis', section.mediationTasks.analysis],
                               ['tg.mtLookFor', section.mediationTasks.lookFor],
+                              ['tg.mtThinkAloud', section.mediationTasks.thinkAloud && `${section.mediationTasks.thinkAloud.strategy}: “${section.mediationTasks.thinkAloud.sentence}” ${section.mediationTasks.thinkAloud.model}`],
+                              ['tg.mtStop', section.mediationTasks.stopAndCheck && `${section.mediationTasks.stopAndCheck.after} ${section.mediationTasks.stopAndCheck.question}`],
+                              ['tg.mtOnline', section.mediationTasks.onlineTask && `${t('tg.mtOnlinePost')}: ${section.mediationTasks.onlineTask.post} ${t('tg.mtOnlineReply')}: ${section.mediationTasks.onlineTask.reply}`],
                             ] as const).filter(([, text]) => Boolean(text)).map(([label, text]) => (
                               <div key={label} className="p-3 bg-white/5 rounded-lg border border-gold/5">
                                 <span className="text-[10px] text-gold/60 uppercase font-display block mb-2">{t(label)}</span>

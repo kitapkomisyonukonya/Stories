@@ -253,6 +253,12 @@ export interface MediationTasks {
   homeRetell: string;
   analysis?: string;
   lookFor?: string;
+  /** The teacher (or the guide) reads one sentence of the chapter aloud and says how a good reader thinks about it. */
+  thinkAloud?: { strategy: string; sentence: string; model: string };
+  /** A stop in the middle of the chapter: after these words the learner checks one thing before reading on. */
+  stopAndCheck?: { after: string; question: string };
+  /** Optional, on the class's own online board: one post about the chapter and one reply to a classmate. */
+  onlineTask?: { post: string; reply: string };
 }
 
 export interface RubricRow {

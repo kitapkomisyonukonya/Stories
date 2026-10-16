@@ -11,6 +11,8 @@ import { GuideV2ChapterBox, GuideV2Tools, storyPageForSection } from './GuideV2'
 import { useLanguage } from '../../contexts/LanguageContext';
 import { useStoryProgress } from '../../contexts/StoryProgressContext';
 import { useDialogFocus } from '../../hooks/useDialogFocus';
+import { getMyWordsBook } from '../../lib/myWords';
+import { bookNotesKey, chapterNotes, chapterNotesKey, diaryNotes, diaryNotesKey, downloadNotes, notesExportHtml, saveChapterNotes, saveDiaryAnswer, useMyNotes } from '../../lib/myNotes';
 
 const GuideIcon = ({ name, className = 'w-7 h-7' }: { name: GuideIconName; className?: string }) => (
   <PhosphorGuideIcon name={name} className={className} />
@@ -76,7 +78,12 @@ type StudyStep = {
   icon: GuideIconName;
   lists: Array<{ title: string; items?: string[] }>;
   texts: Array<{ title: string; text?: string }>;
+  /** What the learner writes in this step (My notes). */
+  extra?: React.ReactNode;
 };
+
+/** Literal classes so Tailwind keeps them: one column per study step. */
+const STEP_COLUMNS: Record<number, string> = { 5: 'md:grid-cols-5', 6: 'md:grid-cols-6', 7: 'md:grid-cols-7' };
 
 export const SelfStudyGuide = ({
   isOpen,
@@ -122,6 +129,9 @@ export const SelfStudyGuide = ({
   const sectionNavRef = React.useRef<HTMLElement>(null);
   const { language, t, formatNumber, isRTL } = useLanguage();
   const { stats } = useStoryProgress();
+  const notesState = useMyNotes();
+  const notesBook = getMyWordsBook();
+  const notesBookKey = notesBook ? bookNotesKey(notesBook.storyId, notesBook.level, language) : null;
 
   const guideTokens = collectionVisualFor(collectionId).readerTokens;
   const isAr = language === 'ar';
@@ -237,6 +247,76 @@ export const SelfStudyGuide = ({
     pronunciation: 'Pronunciation',
   };
 
+  const activeNotesKey = notesBookKey ? chapterNotesKey(notesBookKey, activeGuideSection + 1) : null;
+  const activeNotes = activeNotesKey ? chapterNotes(notesState, activeNotesKey) : null;
+  const fieldClass = 'mt-2 w-full rounded-xl border border-white/[0.12] bg-black/20 px-3 py-2 font-serif text-[14px] sm:text-base text-white placeholder:text-white/30 focus:border-gold/40 focus:outline-none';
+
+  function renderCheckBox(field: 'checked' | 'retold', label: string) {
+    if (!activeNotesKey || !activeNotes) return null;
+    return (
+      <label className="flex items-center gap-3 font-serif text-[14px] sm:text-base text-white/82">
+        <input
+          type="checkbox"
+          checked={activeNotes[field]}
+          onChange={event => saveChapterNotes(activeNotesKey, { [field]: event.target.checked })}
+          className="h-5 w-5 accent-[#c9a227]"
+          data-my-notes={field}
+        />
+        {label}
+      </label>
+    );
+  }
+
+  function renderNotesForm(columns: string[]) {
+    if (!activeNotesKey || !activeNotes) return null;
+    return (
+      <div className="space-y-4" data-my-notes-form>
+        <p className="font-serif text-[14px] sm:text-base text-gold/80">{t('ssg.choose')}</p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          {columns.map((column, i) => (
+            <label key={i} className="block">
+              <span className="font-display text-[11px] font-black uppercase tracking-[0.12em] text-gold/72">{column}</span>
+              <textarea
+                rows={2}
+                value={activeNotes.cells[i] ?? ''}
+                onChange={event => {
+                  const cells = [...activeNotes.cells];
+                  cells[i] = event.target.value;
+                  saveChapterNotes(activeNotesKey, { cells });
+                }}
+                className={fieldClass}
+                data-my-notes="cell"
+              />
+            </label>
+          ))}
+        </div>
+        <label className="block">
+          <span className="font-display text-[11px] font-black uppercase tracking-[0.12em] text-gold/72">{t('ssg.summaryBox')}</span>
+          <textarea rows={3} value={activeNotes.summary} onChange={event => saveChapterNotes(activeNotesKey, { summary: event.target.value })} className={fieldClass} data-my-notes="summary" />
+        </label>
+        <label className="block">
+          <span className="font-display text-[11px] font-black uppercase tracking-[0.12em] text-gold/72">{t('ssg.translationBox')}</span>
+          <textarea rows={2} value={activeNotes.translation} onChange={event => saveChapterNotes(activeNotesKey, { translation: event.target.value })} className={fieldClass} data-my-notes="translation" />
+        </label>
+        {renderCheckBox('retold', t('ssg.retoldBox'))}
+      </div>
+    );
+  }
+
+  const downloadMyNotes = () => {
+    if (!notesBookKey) return;
+    const html = notesExportHtml({
+      state: notesState,
+      book: notesBookKey,
+      bookTitle: bookTitle ?? title ?? '',
+      rtl: isAr,
+      labels: { heading: t('ssg.myNotes'), summary: t('ssg.summaryBox'), translation: t('ssg.translationBox'), retold: t('ssg.retoldBox'), diary: t('ssg.readingDiary'), nothing: t('ssg.notesNothing') },
+      chapters: content.map(section => ({ title: section.chapter, columns: section.mediationTasks?.noteTaking.columns ?? [] })),
+      diaryPrompts: metadata?.readingDiary?.prompts ?? [],
+    });
+    downloadNotes(html, `${notesBookKey.replace(/\|/g, '-')}-my-notes.html`);
+  };
+
   const getStudySteps = (section: TeacherGuideSection): StudyStep[] => [
     {
       id: 'goal',
@@ -302,6 +382,24 @@ export const SelfStudyGuide = ({
         { title: labels.reflection, text: section.reflectionPrompt },
       ],
     },
+    ...(section.mediationTasks?.thinkAloud || section.mediationTasks?.stopAndCheck ? [{
+      id: 'think',
+      title: t('ssg.thinkStep'),
+      subtitle: t('ssg.thinkSub'),
+      icon: 'headphones' as const,
+      lists: [],
+      texts: [
+        ...(section.mediationTasks.thinkAloud ? [{
+          title: `${t('tg.mtThinkAloud')}: ${section.mediationTasks.thinkAloud.strategy}`,
+          text: `“${section.mediationTasks.thinkAloud.sentence}” ${section.mediationTasks.thinkAloud.model}`,
+        }] : []),
+        ...(section.mediationTasks.stopAndCheck ? [{
+          title: t('tg.mtStop'),
+          text: `${section.mediationTasks.stopAndCheck.after} ${section.mediationTasks.stopAndCheck.question}`,
+        }] : []),
+      ],
+      extra: section.mediationTasks.stopAndCheck ? renderCheckBox('checked', t('ssg.checkedBox')) : undefined,
+    }] : []),
     ...(section.mediationTasks ? [{
       id: 'mediate',
       title: t('ssg.mediateStep'),
@@ -315,6 +413,7 @@ export const SelfStudyGuide = ({
         { title: t('tg.mtTranslation'), text: section.mediationTasks.translation },
         { title: t('tg.mtHome'), text: section.mediationTasks.homeRetell },
       ],
+      extra: renderNotesForm(section.mediationTasks.noteTaking.columns),
     }] : []),
   ];
 
@@ -520,7 +619,35 @@ export const SelfStudyGuide = ({
 
         {metadata?.readingDiary?.prompts?.length ? (
           <div data-ssg-reading-diary>
-            {renderList(t('ssg.readingDiary'), [metadata.readingDiary.intro, ...metadata.readingDiary.prompts])}
+            {notesBookKey ? (
+              <div className="rounded-2xl border border-white/[0.08] bg-white/[0.035] p-4 sm:p-5">
+                <h5 className="font-display text-[11px] sm:text-[12px] font-black uppercase tracking-[0.14em] text-gold/72">{t('ssg.readingDiary')}</h5>
+                <p className="mt-2 font-serif text-[14px] sm:text-base text-white/70">{metadata.readingDiary.intro} {t('ssg.diaryHint')}</p>
+                <div className="mt-3 space-y-3">
+                  {metadata.readingDiary.prompts.map((prompt, i) => (
+                    <label key={i} className="block">
+                      <span className="font-serif text-[14px] sm:text-base text-white/85">{prompt}</span>
+                      <textarea
+                        rows={2}
+                        value={diaryNotes(notesState, diaryNotesKey(notesBookKey)).answers[i] ?? ''}
+                        onChange={event => saveDiaryAnswer(diaryNotesKey(notesBookKey), i, event.target.value)}
+                        className={fieldClass}
+                        data-my-notes="diary"
+                      />
+                    </label>
+                  ))}
+                </div>
+                <button
+                  type="button"
+                  onClick={downloadMyNotes}
+                  className="mt-4 inline-flex min-h-10 items-center gap-2 rounded-xl border border-gold/25 bg-gold/[0.08] px-4 font-display text-[12px] font-bold text-gold hover:bg-gold/[0.14]"
+                  data-my-notes-download
+                >
+                  <Download className="w-4 h-4" aria-hidden="true" />
+                  {t('ssg.downloadNotes')}
+                </button>
+              </div>
+            ) : renderList(t('ssg.readingDiary'), [metadata.readingDiary.intro, ...metadata.readingDiary.prompts])}
           </div>
         ) : null}
 
@@ -637,7 +764,7 @@ export const SelfStudyGuide = ({
         <GuideV2ChapterBox page={activeSection ? storyPageForSection(pages, activeSection, activeGuideSection) : undefined} language={language} variant="self" />
 
         <div className="rounded-[1.6rem] border border-white/[0.07] bg-black/10 p-3 sm:p-4">
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-2">
+          <div className={cn('grid grid-cols-1 gap-2', STEP_COLUMNS[steps.length] ?? 'md:grid-cols-5')}>
             {steps.map((step, index) => (
               <button
                 key={step.id}
@@ -678,7 +805,7 @@ export const SelfStudyGuide = ({
               </span>
               <div>
                 <p className="font-display text-[10px] font-black uppercase tracking-[0.16em] text-gold/50">
-                  {isAr ? `الخطوة ${formatNumber(activeStudyStep + 1)} من 5` : `STEP ${formatNumber(activeStudyStep + 1)} OF 5`}
+                  {isAr ? `الخطوة ${formatNumber(activeStudyStep + 1)} من ${formatNumber(steps.length)}` : `STEP ${formatNumber(activeStudyStep + 1)} OF ${formatNumber(steps.length)}`}
                 </p>
                 <h4 className="mt-1 font-display text-xl sm:text-2xl font-bold text-white">{steps[activeStudyStep].title}</h4>
                 <p className="mt-1.5 font-serif text-[14px] sm:text-base text-white/58">{steps[activeStudyStep].subtitle}</p>
@@ -693,6 +820,7 @@ export const SelfStudyGuide = ({
                 <React.Fragment key={`text-${index}`}>{renderText(block.title, block.text)}</React.Fragment>
               ))}
             </div>
+            {steps[activeStudyStep].extra && <div className="mt-5">{steps[activeStudyStep].extra}</div>}
 
             <div className="mt-5 flex items-center justify-between gap-3 border-t border-white/[0.06] pt-4">
               <button
@@ -704,7 +832,7 @@ export const SelfStudyGuide = ({
                 {isAr ? 'السابق' : 'Previous'}
               </button>
               <span className="font-display text-[10px] sm:text-[11px] font-bold text-white/30">
-                {formatNumber(activeStudyStep + 1)} / 5
+                {formatNumber(activeStudyStep + 1)} / {formatNumber(steps.length)}
               </span>
               <button
                 type="button"

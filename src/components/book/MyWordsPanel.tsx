@@ -6,7 +6,7 @@ import { useLanguage } from '../../contexts/LanguageContext';
 import { ChevronLeft } from '../ui/icons';
 import { SECTION_ICONS } from '../../lib/sectionIcons';
 import { getStoryMeta } from '../../core/content/storyCatalog';
-import { MY_WORDS_LEARNED, getMyWordsBook, markMyWord, removeMyWord, reviewQueue, useMyWords, type MyWord } from '../../lib/myWords';
+import { MY_WORDS_LEARNED, daysUntilReview, dueWords, getMyWordsBook, markMyWord, removeMyWord, reviewQueue, useMyWords, type MyWord } from '../../lib/myWords';
 import type { Level } from '../../types';
 import { useDialogFocus } from '../../hooks/useDialogFocus';
 
@@ -96,6 +96,10 @@ export const MyWordsPanel: React.FC<MyWordsPanelProps> = ({ isOpen, onClose, sta
         done: (knew: string, total: string) => `انْتَهَتِ المُرَاجَعَةُ: عَرَفْتَ ${knew} مِنْ ${total}.`,
         again: 'رَاجِعْ مَرَّةً أُخْرَى',
         card: (n: string, total: string) => `${n} / ${total}`,
+        schedule: 'تَعُودُ الْكَلِمَةُ لِلْمُرَاجَعَةِ بَعْدَ يَوْمٍ، ثُمَّ بَعْدَ ثَلَاثَةِ أَيَّامٍ، ثُمَّ بَعْدَ أُسْبُوعٍ.',
+        dueCount: (n: string) => `لِلْمُرَاجَعَةِ الْيَوْمَ: ${n}`,
+        dueNow: 'رَاجِعْهَا الْيَوْمَ',
+        next: (days: number, n: string) => days === 1 ? 'الْمُرَاجَعَةُ التَّالِيَةُ غَدًا' : days === 2 ? 'الْمُرَاجَعَةُ التَّالِيَةُ بَعْدَ يَوْمَيْنِ' : `الْمُرَاجَعَةُ التَّالِيَةُ بَعْدَ ${n} أَيَّامٍ`,
       }
     : {
         close: 'Close',
@@ -112,8 +116,13 @@ export const MyWordsPanel: React.FC<MyWordsPanelProps> = ({ isOpen, onClose, sta
         done: (knew: string, total: string) => `Review done: You knew ${knew} of ${total}.`,
         again: 'Review again',
         card: (n: string, total: string) => `${n} / ${total}`,
+        schedule: 'A word comes back for review after one day, then after three days, then after one week.',
+        dueCount: (n: string) => `To review today: ${n}`,
+        dueNow: 'Review today',
+        next: (days: number, n: string) => days === 1 ? 'Next review: tomorrow' : `Next review: in ${n} days`,
       };
 
+  const dueCount = useMemo(() => dueWords(words).length, [words]);
   const Icon = SECTION_ICONS.myWords.icon;
   const current = queue[index];
   const finished = mode === 'review' && queue.length > 0 && index >= queue.length;
@@ -144,6 +153,7 @@ export const MyWordsPanel: React.FC<MyWordsPanelProps> = ({ isOpen, onClose, sta
             {mode === 'list' && (
               <>
                 <p className="mt-3 text-[15px] leading-relaxed text-wood/75">{copy.intro}</p>
+                {words.length > 0 && <p className="mt-1 text-sm leading-relaxed text-wood/65" data-my-words-schedule>{copy.schedule}</p>}
                 {words.length === 0 ? (
                   <p className="mt-5 rounded-2xl bg-black/[0.035] p-5 text-center text-wood/65">{copy.empty}</p>
                 ) : (
@@ -155,6 +165,7 @@ export const MyWordsPanel: React.FC<MyWordsPanelProps> = ({ isOpen, onClose, sta
                     >
                       {copy.review}
                     </button>
+                    {dueCount > 0 && <p className="mt-2 text-sm font-semibold text-brand-800" data-my-words-due>{copy.dueCount(formatNumber(dueCount))}</p>}
                     <div className="mt-5 space-y-5">
                       {groups.map(group => (
                         <section key={`${group[0].storyId}-${group[0].level}`}>
@@ -170,6 +181,11 @@ export const MyWordsPanel: React.FC<MyWordsPanelProps> = ({ isOpen, onClose, sta
                                     )}
                                   </p>
                                   <p className="mt-0.5 text-sm leading-relaxed text-wood/70">{word.definition}</p>
+                                  {word.known < MY_WORDS_LEARNED && (
+                                    <p className="mt-1 text-xs font-semibold text-wood/50">
+                                      {daysUntilReview(word) === 0 ? copy.dueNow : copy.next(daysUntilReview(word), formatNumber(daysUntilReview(word)))}
+                                    </p>
+                                  )}
                                 </div>
                                 <button
                                   type="button"
@@ -305,7 +321,7 @@ export const MyWordsPanel: React.FC<MyWordsPanelProps> = ({ isOpen, onClose, sta
 };
 
 /**
- * At the start of a book: words saved in other books that are not learned yet come back once here.
+ * At the start of a book: words saved in other books whose review day has come are shown here.
  * Shown only when there is something to review.
  */
 export const MyWordsReminder: React.FC = () => {
@@ -315,7 +331,7 @@ export const MyWordsReminder: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const book = getMyWordsBook();
   const due = useMemo(
-    () => reviewQueue(allWords.filter(word => word.language === lang && (!book || !sameBook(word, book)))),
+    () => dueWords(allWords.filter(word => word.language === lang && (!book || !sameBook(word, book)))),
     [allWords, lang, book],
   );
   if (!book || due.length === 0) return null;

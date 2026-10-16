@@ -12,10 +12,28 @@ export interface MyWord {
   savedAt: number;
   /** Reviews answered "I knew it" in a row; "Not yet" sets it back to 0. */
   known: number;
+  /** When the word was last reviewed. */
+  reviewedAt?: number;
 }
 
-/** A word counts as learned after this many "I knew it" answers in a row. */
-export const MY_WORDS_LEARNED = 2;
+/**
+ * Spaced review: a word comes back one day after it is saved, three days after the first "I knew it" and one week
+ * after the second. "Not yet" starts it again at one day.
+ */
+export const MY_WORDS_INTERVALS = [1, 3, 7];
+
+/** A word counts as learned after this many "I knew it" answers in a row, one for each interval. */
+export const MY_WORDS_LEARNED = MY_WORDS_INTERVALS.length;
+
+const DAY = 86_400_000;
+
+export const nextReviewAt = (word: MyWord) =>
+  (word.reviewedAt ?? word.savedAt) + MY_WORDS_INTERVALS[Math.min(word.known, MY_WORDS_INTERVALS.length - 1)] * DAY;
+
+export const isDue = (word: MyWord, now = Date.now()) => word.known < MY_WORDS_LEARNED && nextReviewAt(word) <= now;
+
+/** Whole days until the word is due again; 0 when it is due now. */
+export const daysUntilReview = (word: MyWord, now = Date.now()) => Math.max(0, Math.ceil((nextReviewAt(word) - now) / DAY));
 
 const STORAGE_KEY = 'v2:my-words';
 const CHANGE_EVENT = 'v2-my-words-change';
@@ -89,14 +107,20 @@ export const toggleMyWord = (entry: { word: string; definition: string; language
 export const removeMyWord = (id: string) => write(read().filter(item => item.id !== id));
 
 export const markMyWord = (id: string, knew: boolean) =>
-  write(read().map(item => (item.id === id ? { ...item, known: knew ? item.known + 1 : 0 } : item)));
+  write(read().map(item => (item.id === id ? { ...item, known: knew ? item.known + 1 : 0, reviewedAt: Date.now() } : item)));
 
-/** Words to review first: not learned yet, the weakest and oldest first. */
-export const reviewQueue = (words: MyWord[], limit = 10) =>
-  words
-    .filter(item => item.known < MY_WORDS_LEARNED)
-    .sort((a, b) => a.known - b.known || a.savedAt - b.savedAt)
-    .slice(0, limit);
+/** The words whose review day has come, the longest waiting first. */
+export const dueWords = (words: MyWord[], now = Date.now()) =>
+  words.filter(item => isDue(item, now)).sort((a, b) => nextReviewAt(a) - nextReviewAt(b));
+
+/** Words to review: those due today first, then the other words not learned yet, the weakest and oldest first. */
+export const reviewQueue = (words: MyWord[], limit = 10, now = Date.now()) => {
+  const due = dueWords(words, now);
+  const rest = words
+    .filter(item => item.known < MY_WORDS_LEARNED && !isDue(item, now))
+    .sort((a, b) => a.known - b.known || a.savedAt - b.savedAt);
+  return [...due, ...rest].slice(0, limit);
+};
 
 const EMPTY: MyWord[] = [];
 export const useMyWords = () => useSyncExternalStore(subscribe, read, () => EMPTY);

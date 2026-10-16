@@ -276,7 +276,7 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           heading: 'My words',
           steps: [
             'Tap an underlined word and choose Save to My words.',
-            'Open My words from the menu and review your words after one day, three days and one week.',
+            'Open My words from the menu. It shows the words to review today. Each word comes back after one day, three days and one week.',
           ],
         },
         {
@@ -382,7 +382,7 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           heading: 'كلماتي',
           steps: [
             'اضغط على كلمة تحتها خط واختر «احفظ في كلماتي».',
-            'افتح «كلماتي» من القائمة وراجع كلماتك بعد يوم، ثم بعد ثلاثة أيام، ثم بعد أسبوع.',
+            'افتح «كلماتي» من القائمة، فهي تعرض الكلمات التي تراجعها اليوم. تعود كل كلمة بعد يوم، ثم بعد ثلاثة أيام، ثم بعد أسبوع.',
           ],
         },
         {
@@ -481,7 +481,7 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           heading: 'Keep your words',
           steps: [
             'Tap an underlined word and choose Save to My words.',
-            'Open My words from the menu and review them after one day, three days and one week.',
+            'Open My words from the menu. It shows the words to review today. Each word comes back after one day, three days and one week.',
           ],
         },
         {
@@ -576,7 +576,7 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
           heading: 'احفظ كلماتك',
           steps: [
             'اضغط على كلمة تحتها خط واختر «احفظ في كلماتي».',
-            'افتح «كلماتي» من القائمة وراجعها بعد يوم، ثم بعد ثلاثة أيام، ثم بعد أسبوع.',
+            'افتح «كلماتي» من القائمة، فهي تعرض الكلمات التي تراجعها اليوم. تعود كل كلمة بعد يوم، ثم بعد ثلاثة أيام، ثم بعد أسبوع.',
           ],
         },
         {
