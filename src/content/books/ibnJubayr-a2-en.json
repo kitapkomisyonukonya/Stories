@@ -15,7 +15,7 @@
     "type": "story",
     "title": "Al-Andalus and a Great Traveler",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch1.jpeg?alt=media",
-    "content": "Muslims ruled some parts of Spain and Portugal from 711 to 1492. People called this land Al-Andalus. For 781 years of Islamic rule in Al-Andalus, Muslims, Christians, and Jews lived side by side, and often worked, traded and studied together. They built one of the greatest cultures of the Middle Ages in the West. They created many special works in art, architecture, medicine, literature, and philosophy. Al-Andalus was in Europe because of its location and its people, but it was a part of the Islamic West, too.\n\nMany famous people lived in Al-Andalus. Ibn al-Arabi was a thinker and poet. Ibn Rushd was a scientist, thinker, and doctor. Ibn Tufayl was a writer and doctor.\n\nAfter Muslims took control of Spain in the 700s, the connection between Europe and the Middle East became stronger. Christian, Jewish, and Muslim people traveled a lot because they wanted to trade, learn more, and visit holy places. Ibn Jubayr was also one of the most important travelers of the Middle Ages from Al-Andalus.\n\nWhen Ibn Jubayr was born in Valencia in the year 1145, Muslim Spain was rich in culture and learning. Valencia is a famous city in the east of Spain, near the sea. In the tenth century, Granada was bigger than most cities in Western Europe and the east. Sevilla was also a big city with 500 bathhouses and 1,000 mosques. Córdoba had 700,000 people, so it was the largest city in Western Europe. This great culture surprised the people of that time because Muslims lived a much better life than them. Historians say that Islamic Spain brought great culture and knowledge to the rural life of Western Europe.",
+    "content": "Muslims ruled some parts of Spain and Portugal from 711 to 1492. People called this land Al-Andalus. For 781 years of Islamic rule in Al-Andalus, Muslims, Christians, and Jews lived side by side, and often worked, traded and studied together. They built one of the greatest cultures of the Middle Ages in the West. They created many special works in art, architecture, medicine, literature, and philosophy. Al-Andalus was in Europe because of its location and its people, but it was a part of the Islamic West, too.\n\nMany famous people lived in Al-Andalus. Ibn al-Arabi was a thinker and poet. Ibn Rushd was a scientist, thinker, and doctor. Ibn Tufayl was a writer and doctor.\n\nAfter Muslims took control of Spain in the 700s, the connection between Europe and the Middle East became stronger. Christian, Jewish, and Muslim people traveled a lot because they wanted to trade, learn more, and visit holy places. Ibn Jubayr was also one of the most important travelers of the Middle Ages from Al-Andalus.\n\nWhen Ibn Jubayr was born in Valencia in the year 1145, Muslim Spain was rich in culture and learning. Valencia is a famous city in the east of Spain, near the sea. In the tenth century, Granada was bigger than most cities in Western Europe and the east. Sevilla was also a big city with 500 bathhouses and 1,000 mosques. Córdoba had 700,000 people, so it was the largest city in Western Europe. This great culture surprised the people of that time because Muslims lived a much better life than them. History books tell us that Islamic Spain brought great culture and knowledge to the rural life of Western Europe.",
     "vocabulary": [
      {
       "word": "Al-Andalus",
@@ -60,6 +60,18 @@
      {
       "word": "bathhouses",
       "definition": "Public buildings where people go to wash."
+     },
+     {
+      "word": "thinker",
+      "definition": "A person who thinks about big ideas and writes about them."
+     },
+     {
+      "word": "holy",
+      "definition": "Special because it is connected with Allah and religion."
+     },
+     {
+      "word": "traveler",
+      "definition": "A person who goes on a long journey."
      }
     ],
     "hotspots": [
@@ -1055,6 +1067,10 @@
      {
       "word": "moving palaces",
       "definition": "Here: Very big, beautiful tents that move with the caravan, like palaces."
+     },
+     {
+      "word": "caravan",
+      "definition": "A group of people and camels that travel together."
      }
     ],
     "hotspots": [
@@ -1919,7 +1935,7 @@
     "type": "story",
     "title": "Going Back Home",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch11.jpeg?alt=media",
-    "content": "Acre was one of the most important ports in the Christian Kingdom of Jerusalem. This was the main port, so ships sailed to many different places from here. In 1184, he took a ship to travel back home. He started a journey with fifty other Muslims and two thousand Christian pilgrims from Jerusalem. They traveled west. The trip was very dangerous because of big storms. That’s why their ship hit the ground near the coast of Sicily. Ibn Jubayr almost died, but he survived. The Norman king of Sicily, the Christian ruler King William II, helped the passengers. Ibn Jubayr records that William II could read and write Arabic. Then, he waited for better weather to take another ship home from Sicily. In the end, in 1185, he passed Sardinia and reached the coast of Spain. He arrived back home. He wrote that his journey took two years and three and a half months. The journey was dangerous, but he stayed alive. His heart was full of thanks to Allah for keeping him safe and making his dream come true. Throughout his journey, he was always with Allah. When he was in trouble or danger, he always prayed.",
+    "content": "Acre was one of the most important ports in the Christian Kingdom of Jerusalem. This was the main port, so ships sailed to many different places from here. In 1184, he took a ship to travel back home. He started a journey with fifty other Muslims and two thousand Christian pilgrims from Jerusalem. They traveled west. The trip was very dangerous because of big storms. That’s why their ship hit the ground near the coast of Sicily. Ibn Jubayr almost died, but he survived. The Norman king of Sicily, the Christian ruler King William II, helped the passengers. Ibn Jubayr records that William II could read and write Arabic. Then, he waited for better weather to take another ship home from Sicily. In the end, in 1185, he passed Sardinia and reached the coast of Spain. He arrived back home. He wrote that his journey took two years and three and a half months. The journey was dangerous, but he stayed alive. His heart was full of thanks to Allah for keeping him safe and making his dream come true. During his whole journey, he was always with Allah. When he was in trouble or danger, he always prayed.",
     "vocabulary": [
      {
       "word": "Kingdom of Jerusalem",
@@ -3837,7 +3853,7 @@
       ],
       "chapter": 1,
       "chapterTitle": "Al-Andalus and a Great Traveler",
-      "storyExample": "Historians say that Islamic Spain brought great culture and knowledge to the rural life of Western Europe.",
+      "storyExample": "History books tell us that Islamic Spain brought great culture and knowledge to the rural life of Western Europe.",
       "category": "Places"
      },
      {
@@ -3862,6 +3878,68 @@
       "chapter": 1,
       "chapterTitle": "Al-Andalus and a Great Traveler",
       "storyExample": "Sevilla was also a big city with 500 bathhouses and 1,000 mosques."
+     },
+     {
+      "word": "thinker",
+      "definition": "A person who thinks about big ideas and writes about them.",
+      "partOfSpeech": "noun",
+      "level": "A2",
+      "pronunciation": "/ˈθɪŋkɚ/",
+      "wordFamily": [
+       "think",
+       "thinker",
+       "thought"
+      ],
+      "collocations": [
+       "a great thinker",
+       "thinker and poet"
+      ],
+      "chapter": 1,
+      "chapterTitle": "Al-Andalus and a Great Traveler",
+      "storyExample": "Ibn al-Arabi was a thinker and poet.",
+      "category": "People & Roles"
+     },
+     {
+      "word": "holy",
+      "definition": "Special because it is connected with Allah and religion.",
+      "partOfSpeech": "adjective",
+      "level": "A2",
+      "pronunciation": "/ˈhoʊli/",
+      "wordFamily": [
+       "holy",
+       "holiness"
+      ],
+      "collocations": [
+       "holy places",
+       "a holy city"
+      ],
+      "synonyms": [
+       "sacred"
+      ],
+      "chapter": 1,
+      "chapterTitle": "Al-Andalus and a Great Traveler",
+      "storyExample": "Christian, Jewish, and Muslim people traveled a lot because they wanted to trade, learn more, and visit holy places.",
+      "category": "Faith & Places"
+     },
+     {
+      "word": "traveler",
+      "definition": "A person who goes on a long journey.",
+      "partOfSpeech": "noun",
+      "level": "A2",
+      "pronunciation": "/ˈtrævəlɚ/",
+      "wordFamily": [
+       "travel",
+       "traveler",
+       "travels"
+      ],
+      "collocations": [
+       "a famous traveler",
+       "a group of travelers"
+      ],
+      "chapter": 1,
+      "chapterTitle": "Al-Andalus and a Great Traveler",
+      "storyExample": "Ibn Jubayr was also one of the most important travelers of the Middle Ages from Al-Andalus.",
+      "category": "People & Roles"
      },
      {
       "word": "come to mind",
@@ -4593,6 +4671,24 @@
       "chapterTitle": "The Caravan to Mecca",
       "storyExample": "They were like beautiful moving palaces.",
       "category": "Travel"
+     },
+     {
+      "word": "caravan",
+      "definition": "A group of people and camels that travel together.",
+      "partOfSpeech": "noun",
+      "level": "A2",
+      "pronunciation": "/ˈkærəvæn/",
+      "wordFamily": [
+       "caravan"
+      ],
+      "collocations": [
+       "a camel caravan",
+       "join a caravan"
+      ],
+      "chapter": 6,
+      "chapterTitle": "The Caravan to Mecca",
+      "storyExample": "Then, he joined a group of travelers in a camel caravan to go to the Red Sea.",
+      "category": "Travel & Transport"
      },
      {
       "word": "narrow",

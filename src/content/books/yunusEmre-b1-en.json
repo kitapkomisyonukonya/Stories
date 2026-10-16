@@ -16,7 +16,7 @@
     "title": "Yunus Emre and Sufism",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Fimages%2Fyunus_b1_ch1-clean.png?alt=media&token=35c3e7df-520e-4293-916b-7312d4aba9a0",
     "audioUrl": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Faudio%2F00_Chapter_1.mp3?alt=media&token=8374c2f7-3dc6-480b-ae3b-3b0145c6f071",
-    "content": "Yunus Emre was a famous Turkish poet and a Sufi from Anatolia. A Sufi is a person who aims to get closer to Allah by following Islamic mysticism. Sufis lead a way of life within the outer (visible) and inner rules of Islam. The outer part is related to the body’s acts of worship, while the inner side refers to the heart’s intentions and morality.\n\nSufis follow moral principles such as seeking to improve and become better people, being patient in times of need, and giving generously. They expect nothing in return and do good to everyone without biases. They respond to evil with kindness and do not attach importance to worldly matters such as wealth, status, and fame.\n\nIn addition to being a Sufi, Yunus Emre was one of the first to write and recite poems in simple Turkish. The words and phrases which he used helped develop a better literary Turkish. Yunus Emre is known as one of the founders of Turkish Sufi literature.",
+    "content": "Yunus Emre was a famous Turkish poet and a Sufi from Anatolia. A Sufi is a person who aims to get closer to Allah by following Islamic mysticism. Sufis lead a way of life within the outer (visible) and inner rules of Islam. The outer part is related to the body’s acts of worship, while the inner side refers to the heart’s intentions and morality.\n\nSufis follow some moral rules: They try to become better people, they stay patient in hard times, and they give a lot to people in need. They expect nothing in return and do good to everyone without biases. They answer evil with kindness. Things like money, a high position and being famous are not important to them.\n\nIn addition to being a Sufi, Yunus Emre was one of the first to write and recite poems in simple Turkish. The words and phrases which he used helped develop a better literary Turkish. Yunus Emre is known as one of the founders of Turkish Sufi literature.",
     "vocabulary": [
      {
       "word": "Anatolia",
@@ -35,8 +35,8 @@
       "definition": "Unfair opinions or preferences about people."
      },
      {
-      "word": "worldly",
-      "definition": "Related to ordinary daily life and things like money, not to spiritual matters."
+      "word": "recite",
+      "definition": "To say a poem or a text aloud, often from memory."
      },
      {
       "word": "literary",
@@ -55,8 +55,8 @@
       "id": "yunus-b1-en-1-2",
       "x": 70,
       "y": 61,
-      "title": "Moral Principles",
-      "description": "Sufis value patience, generosity and kindness, and give no importance to wealth, status or fame."
+      "title": "Moral Rules",
+      "description": "Sufis value patience, generosity and kindness. Money, a high position and fame are not important to them."
      }
     ],
     "exercises": [
@@ -104,25 +104,25 @@
       "type": "error-correction",
       "title": "Keep the List Parallel",
       "instructions": "Each sentence has one mistake. Tap it, then choose the correct words.",
-      "question": "Can you fix the list of principles?",
+      "question": "Can you fix the list of moral rules?",
       "errorItems": [
        {
-        "sentence": "Sufis follow moral principles such as seeking to improve and become better people, being patient in times of need, and give generously.",
-        "error": "give",
+        "sentence": "Sufis follow some moral rules: They try to become better people, they stay patient in hard times, and they gives a lot to people in need.",
+        "error": "they gives",
         "options": [
-         "giving",
-         "to give",
-         "gave"
+         "they give",
+         "they giving",
+         "they gave"
         ],
         "answer": 0
        },
        {
-        "sentence": "They respond to evil with kindness and not attach importance to worldly matters such as wealth, status, and fame.",
-        "error": "not attach",
+        "sentence": "They answer evil with kindness. Things like money, a high position and being famous is not important to them.",
+        "error": "is not",
         "options": [
-         "do not attach",
-         "not attaching",
-         "no attach"
+         "are not",
+         "was not",
+         "be not"
         ],
         "answer": 0
        },
@@ -138,10 +138,10 @@
        }
       ],
       "correctAnswer": null,
-      "explanation": "The list of principles after “such as” uses the same form every time: seeking, being, giving. Keeping the list parallel makes the principles sound like parts of one way of life. In a present simple sentence, the negative is “do not + verb”: “do not attach importance”. “In addition to” is a preposition, so it is followed by an -ing form: “In addition to being a Sufi …”.",
+      "explanation": "The list of moral rules uses the same form every time: They try …, they stay …, they give …. Keeping the list parallel makes the rules sound like parts of one way of life. The subject “Things like money, a high position and being famous” is plural, so the verb is “are”. “In addition to” is a preposition, so it is followed by an -ing form: “In addition to being a Sufi …”.",
       "feedback": {
-       "correct": "Well done. You kept the list parallel, used “do not” and used -ing after “in addition to”.",
-       "incorrect": "Look at the second paragraph of Chapter 1: every principle in the list after “such as” starts with an -ing form. Then check the first words of the third paragraph."
+       "correct": "Well done. You kept the list parallel, chose a plural verb and used -ing after “in addition to”.",
+       "incorrect": "Look at the second paragraph of Chapter 1: Every rule in the list starts with “they” and a present simple verb. Then check the first words of the third paragraph."
       }
      },
      {
@@ -228,14 +228,14 @@
     ],
     "beforeYouRead": {
      "kind": "find",
-     "question": "Find it fast: Which worldly matters do Sufis not attach importance to?",
+     "question": "Find it fast: Which things are not important to Sufis?",
      "options": [
-      "wealth, status and fame",
+      "money, a high position and being famous",
       "food, sleep and rest",
       "books, songs and poems"
      ],
      "answer": 0,
-     "quote": "do not attach importance to worldly matters such as wealth, status, and fame"
+     "quote": "Things like money, a high position and being famous are not important to them."
     },
     "iCan": [
      "I can explain what a Sufi is and why Yunus Emre is famous.",
@@ -249,7 +249,7 @@
     "title": "His Language and Education",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Fimages%2Fyunus_b1_ch2-clean.png?alt=media&token=ef85a87c-039b-46e1-8d62-abeea2891b07",
     "audioUrl": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Faudio%2F01_Chapter_2_His_Language_and_Education.mp3?alt=media&token=34d1568e-fb36-486e-914f-61928ab3bc20",
-    "content": "People love his works very much due to his style. It is neither too simple nor too complex. His works are very popular because they combine great literary quality with simple language. This plain language helps people understand his writings and sayings easily. The philosophy in his poems includes important moral principles that still have a significant influence on Turkish culture and society.\n\nAccording to historical sources, he lived during the same era as important people like Haji Bektash Veli and Mevlana Jalal al-Din Rumi. He was born around 1240–1241 and died around 1320–1321. Some sources say that he received a good madrasa education and had a strong knowledge of Arabic, Persian, and the Islamic sciences of his time. But he also studied Allah’s love and morals at the tekke, which was a place where Sufi education was taught under the guidance of a sheikh (spiritual tutor).",
+    "content": "People love his works very much due to his style. It is neither too simple nor too complex. His works are very popular because they combine great literary quality with simple language. This plain language helps people understand his writings and sayings easily. The ideas in his poems teach important moral rules, and these rules still have a big influence on Turkish culture and society.\n\nAccording to historical sources, he lived during the same era as important people like Haji Bektash Veli and Mevlana Jalal al-Din Rumi. He was born around 1240–1241 and died around 1320–1321. Some sources say that he received a good madrasa education and had a strong knowledge of Arabic, Persian, and the Islamic sciences of his time. But he also studied Allah’s love and morals at the tekke, which was a place where Sufi education was taught under the guidance of a sheikh (spiritual tutor).",
     "vocabulary": [
      {
       "word": "tekke",
@@ -344,7 +344,7 @@
         "right": "lets readers follow his words without effort"
        },
        {
-        "left": "still have a significant influence on Turkish culture and society",
+        "left": "still have a big influence on Turkish culture and society",
         "right": "continue to shape Turkish life today"
        }
       ],
@@ -353,7 +353,7 @@
        "neither too simple nor too complex": "in the middle: Not basic and not hard",
        "combine great literary quality with simple language": "are artistic and plain at the same time",
        "helps people understand his writings and sayings easily": "lets readers follow his words without effort",
-       "still have a significant influence on Turkish culture and society": "continue to shape Turkish life today"
+       "still have a big influence on Turkish culture and society": "continue to shape Turkish life today"
       },
       "explanation": "“Due to + noun” gives a reason, like “because of”. “Neither … nor …” says no to both extremes, so the style is balanced. “Combine A with B” joins two qualities. “Help + person + verb” shows what something makes possible. “Still” shows that an influence from the past continues now.",
       "feedback": {
@@ -762,7 +762,7 @@
     "title": "The Babai Revolts",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Fimages%2Fyunus_b1_ch4-clean.png?alt=media&token=6da91fc7-0438-4fea-8808-5856c2ad63e8",
     "audioUrl": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Faudio%2F03_Chapter_4_The_Babai_Revolts.mp3?alt=media&token=35484302-b0f7-4108-8c31-de80109de40f",
-    "content": "If we take a closer look at this historical atmosphere, we can better understand Anatolia—the land where Yunus Emre lived and recited his unforgettable verses.\n\nThe rule of the Anatolian Seljuk Sultan Ala al-Din Kayqubad I (1220–1237) was the most powerful and brilliant period of the Seljuks. He expanded the country’s borders and established a navy in the Mediterranean and Black Seas. At the time of his death, the Seljuks were the most powerful and largest state in the Middle East. However, because of the poor governance of his son, Kaykhusraw II (1237–1246), the Seljuk economic and social structure began to decline. The Mongol invasion caused many people to migrate to Anatolia from Central Asia, which totally turned the lives of the local people upside down. At the beginning of the 13th century, the Turkmen population grew in Anatolia. However, Kaykhusraw II’s failure to manage this situation worsened the social and economic chaos.",
+    "content": "If we take a closer look at this historical atmosphere, we can better understand Anatolia—the land where Yunus Emre lived and recited his unforgettable verses.\n\nThe rule of the Anatolian Seljuk Sultan Ala al-Din Kayqubad I (1220–1237) was the most powerful and brilliant period of the Seljuks. He expanded the country’s borders and established a navy in the Mediterranean and Black Seas. At the time of his death, the Seljuks were the most powerful and largest state in the Middle East. However, his son Kaykhusraw II (1237–1246) did not rule the country well, so Seljuk money and social life began to get worse. The Mongol invasion caused many people to migrate to Anatolia from Central Asia, which totally turned the lives of the local people upside down. At the beginning of the 13th century, the Turkmen population grew in Anatolia. However, Kaykhusraw II’s failure to manage this situation worsened the social and economic chaos.",
     "vocabulary": [
      {
       "word": "Anatolia",
@@ -813,12 +813,12 @@
       "definition": "A country’s military force that operates at sea."
      },
      {
-      "word": "governance",
-      "definition": "The way a state or organization is managed."
+      "word": "migrate",
+      "definition": "To move from one place to live in another place."
      },
      {
-      "word": "decline",
-      "definition": "To become weaker or less successful."
+      "word": "worsened",
+      "definition": "Made something worse."
      },
      {
       "word": "chaos",
@@ -831,33 +831,33 @@
       "x": 34,
       "y": 31,
       "title": "Seljuk Anatolia",
-      "description": "Under Ala al-Din Kayqubad I the Seljuks were at their strongest; under his son they began to decline."
+      "description": "Under Ala al-Din Kayqubad I the Seljuks were at their strongest; under his son things began to get worse."
      },
      {
       "id": "yunus-b1-en-4-2",
       "x": 69,
       "y": 66,
       "title": "Mongol Pressure",
-      "description": "The Mongol invasion pushed many people into Anatolia, and poor governance made the chaos worse."
+      "description": "The Mongol invasion pushed many people into Anatolia, and the son’s weak rule made the chaos worse."
      }
     ],
     "exercises": [
      {
       "id": "yunus-b1-qc-4",
       "type": "multiple-choice",
-      "title": "From Strength to Decline",
+      "title": "From Strength to Hard Times",
       "instructions": "Read the question. Choose the best answer from Chapter 4.",
-      "question": "According to Chapter 4, why did the Seljuk economic and social structure begin to decline?",
+      "question": "According to Chapter 4, why did Seljuk money and social life begin to get worse?",
       "options": [
        "Ala al-Din Kayqubad I expanded the borders and built a navy in two seas.",
        "Kaykhusraw II ruled poorly and could not manage the growing Turkmen population.",
        "Many Turkmen people left Anatolia and moved back to Central Asia."
       ],
       "correctAnswer": 1,
-      "explanation": "Chapter 4 says the decline began “because of the poor governance of his son, Kaykhusraw II,” and that his “failure to manage this situation worsened the social and economic chaos.” Ala al-Din Kayqubad I’s rule was the most powerful period, and people migrated to Anatolia from Central Asia, not away from it.",
+      "explanation": "Chapter 4 says “his son Kaykhusraw II (1237–1246) did not rule the country well,” and that his “failure to manage this situation worsened the social and economic chaos.” Ala al-Din Kayqubad I’s rule was the most powerful period, and people migrated to Anatolia from Central Asia, not away from it.",
       "feedback": {
-       "correct": "Yes. The problem was the son’s poor governance, not his father’s strong rule.",
-       "incorrect": "Read the second half of Chapter 4 again, from “However, because of …”. Who ruled after Ala al-Din Kayqubad I, and what did he fail to do?"
+       "correct": "Yes. The problem was that the son did not rule well, not his father’s strong rule.",
+       "incorrect": "Read the second half of Chapter 4 again, from “However, his son …”. Who ruled after Ala al-Din Kayqubad I, and what did he fail to do?"
       }
      }
     ],
@@ -898,7 +898,7 @@
         "answer": 1
        },
        {
-        "sentence": "[choice] … the Seljuk economic and social structure began to decline.",
+        "sentence": "[choice] his son Kaykhusraw II (1237–1246) did not rule the country well …",
         "options": [
          "However,",
          "Therefore,",
@@ -917,7 +917,7 @@
        }
       ],
       "correctAnswer": null,
-      "explanation": "The superlative “the most + adjective” with “the” evaluates Ala al-Din Kayqubad I’s rule as the highest point of the Seljuks. “However” turns the story in a new direction: After the strongest period comes a decline. “Where” begins a clause about a place (the land where he lived); “which” would need a subject or object after it, and “when” is for time.",
+      "explanation": "The superlative “the most + adjective” with “the” evaluates Ala al-Din Kayqubad I’s rule as the highest point of the Seljuks. “However” turns the story in a new direction: After the strongest period, things get worse. “Where” begins a clause about a place (the land where he lived); “which” would need a subject or object after it, and “when” is for time.",
       "feedback": {
        "correct": "Correct. You chose the superlative, the contrast word and the place word.",
        "incorrect": "Read the second paragraph of Chapter 4 again. Is the sentence praising the best period, turning to a change, or describing a place?"
@@ -1013,7 +1013,7 @@
      "quote": "Ala al-Din Kayqubad I (1220–1237)"
     },
     "iCan": [
-     "I can explain how the Seljuks went from their strongest time to decline.",
+     "I can explain how the Seljuks went from their strongest time to hard times.",
      "I can show a high point and then a change in direction.",
      "I can tell how a place changed over time."
     ],
@@ -1037,7 +1037,7 @@
       },
       {
        "name": "Chapter 4 Expert",
-       "job": "You teach how the Seljuks went from their strongest period to decline."
+       "job": "You teach how the Seljuks went from their strongest period to hard times."
       }
      ],
      "steps": [
@@ -1859,7 +1859,7 @@
     "title": "Tawhid and Unity",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Fimages%2Fyunus_b1_ch8-clean.png?alt=media&token=2a72631c-304d-4007-8463-eae2d79995bc",
     "audioUrl": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Faudio%2F07_Chapter_8_Tawhid_and_Unity.mp3?alt=media&token=932781cc-7bbf-4405-b629-4aa82c526406",
-    "content": "In his poems, he expresses a vivid love for Allah as a way of life, along with fear of Allah and loyalty to the Prophet Muhammad (pbuh).\n\nOne of the most important basic spiritual principles in his works is the idea of Tawhid, which means the Oneness of Allah. According to Yunus Emre, Allah, the Creator, is the source of all things. So everything is connected to Him. The Creator is the true and only reality. According to the theory of the unity of existence, which was a key idea for Yunus Emre, there is only one true existence in the universe, and that is Allah.\n\nYunus says:\n\n[POEM]\nEnglish:\n“The entire universe is Tawhid; Adam is the one who knows Tawhid.\nWhoever denies this Tawhid is an enemy to his own soul.”\nTurkish:\nTevhîd imiş cümle âlem, tevhîdi bilendir Âdem\nBu tevhîdi inkâr iden öz cânına düşmânımış\n[/POEM]",
+    "content": "In his poems, he expresses a vivid love for Allah as a way of life, along with fear of Allah and loyalty to the Prophet Muhammad (pbuh).\n\nOne of the most important ideas in his works is Tawhid, which means the Oneness of Allah. According to Yunus Emre, Allah, the Creator, is the source of all things. So everything is connected to Him. The Creator is the true and only reality. According to the theory of the unity of existence, which was a key idea for Yunus Emre, there is only one true existence in the universe, and that is Allah.\n\nYunus says:\n\n[POEM]\nEnglish:\n“The entire universe is Tawhid; Adam is the one who knows Tawhid.\nWhoever denies this Tawhid is an enemy to his own soul.”\nTurkish:\nTevhîd imiş cümle âlem, tevhîdi bilendir Âdem\nBu tevhîdi inkâr iden öz cânına düşmânımış\n[/POEM]",
     "vocabulary": [
      {
       "word": "Yunus Emre",
@@ -1880,6 +1880,14 @@
      {
       "word": "universe",
       "definition": "Everything that Allah created, including the earth, the sky and all the stars."
+     },
+     {
+      "word": "the unity of existence",
+      "definition": "The Sufi idea that only Allah truly exists."
+     },
+     {
+      "word": "whoever",
+      "definition": "Any person who."
      }
     ],
     "hotspots": [
@@ -1960,7 +1968,7 @@
       "title": "Define, Report, Conclude",
       "instructions": "Complete the lines from Chapter 8 with words from the bank. Three words are not needed.",
       "question": "Which word fits each gap?",
-      "fillBlanksText": "One of the most important basic spiritual principles in his works is the idea of Tawhid, [blank] means the Oneness of Allah. [blank] Yunus Emre, Allah, the Creator, is the source of all things. [blank] everything is connected to Him.",
+      "fillBlanksText": "One of the most important ideas in his works is Tawhid, [blank] means the Oneness of Allah. [blank] Yunus Emre, Allah, the Creator, is the source of all things. [blank] everything is connected to Him.",
       "wordBank": [
        "So",
        "which",
@@ -2103,6 +2111,10 @@
      {
       "word": "five daily prayers",
       "definition": "The acts of worship that Muslims must perform at set times from dawn to night: Fajr, Dhuhr, Asr, Maghrib and Isha."
+     },
+     {
+      "word": "unity",
+      "definition": "Being one."
      }
     ],
     "hotspots": [
@@ -2323,7 +2335,7 @@
     "title": "The Heart and Love",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Fimages%2Fyunus_b1_ch10-clean.png?alt=media&token=743387a9-3784-4076-bca3-042cdd7c28ab",
     "audioUrl": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Faudio%2F09_Chapter_10_The_Heart_and_Love.mp3?alt=media&token=9e3077d5-22aa-4723-8587-db790e04157e",
-    "content": "Love brings unity and harmony. According to him, where love is absent, negative emotions such as anger, heartbreak and separation arise.\n\nIn Yunus Emre’s philosophy, the heart is the center of love. It is “the throne of the Lord,” that is, the place where Allah reveals Himself. For this reason, he described breaking a heart as destroying Allah’s house. He says:\n\n[POEM]\nEnglish:\n“The heart is the throne of the Lord, and He looked at it;\nWhoever destroys the heart is unfortunate in both worlds.”\nTurkish:\nGönül Çalab’ın tahtı, Çalap gönüle baktı;\nİki cihan bedbahtı, kim gönül yıkar ise.\n[/POEM]\n\nThe heart is the eye that sees the truth and the center of understanding.\n\nYunus Emre emphasizes not only the heart but also the intellect as a value; he described it as “a light from Allah that has existed since eternity.”",
+    "content": "Love brings unity and harmony. According to him, where there is no love, bad feelings such as anger, heartbreak and separation appear.\n\nIn Yunus Emre’s philosophy, the heart is the center of love. It is “the throne of the Lord,” that is, the place where Allah reveals Himself. For this reason, he described breaking a heart as destroying Allah’s house. He says:\n\n[POEM]\nEnglish:\n“The heart is the throne of the Lord, and He looked at it;\nWhoever destroys the heart is unfortunate in both worlds.”\nTurkish:\nGönül Çalab’ın tahtı, Çalap gönüle baktı;\nİki cihan bedbahtı, kim gönül yıkar ise.\n[/POEM]\n\nThe heart is the eye that sees the truth and the center of understanding.\n\nYunus Emre emphasizes not only the heart but also the intellect as a value; he described it as “a light from Allah that has existed since eternity.”",
     "vocabulary": [
      {
       "word": "Yunus Emre",
@@ -2375,7 +2387,7 @@
        "Because the heart is the throne of the Lord, where Allah reveals Himself."
       ],
       "correctAnswer": 2,
-      "explanation": "Chapter 10 says the heart is “the throne of the Lord,” that is, “the place where Allah reveals Himself. For this reason, he described breaking a heart as destroying Allah’s house.” Anger, heartbreak and separation arise “where love is absent.”",
+      "explanation": "Chapter 10 says the heart is “the throne of the Lord,” that is, “the place where Allah reveals Himself. For this reason, he described breaking a heart as destroying Allah’s house.” Anger, heartbreak and separation appear “where there is no love.”",
       "feedback": {
        "correct": "Yes. The heart is where Allah reveals Himself, so breaking someone’s heart is very serious. This teaches us to treat people’s feelings with respect.",
        "incorrect": "Read the second paragraph of Chapter 10 and find the words “For this reason …”. What does the sentence just before them say about the heart?"
@@ -2431,11 +2443,11 @@
       "question": "What does Yunus Emre say about love and the heart?",
       "formChoices": [
        {
-        "sentence": "According to him, where love is absent, negative emotions such as anger, heartbreak and separation [choice].",
+        "sentence": "According to him, where there is no love, bad feelings such as anger, heartbreak and separation [choice].",
         "options": [
-         "arises",
-         "arise",
-         "arising"
+         "appears",
+         "appear",
+         "appearing"
         ],
         "answer": 1
        },
@@ -2459,10 +2471,10 @@
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Where X is absent, Y arise” describes what generally happens in a situation without something; the subject “negative emotions” is plural, so the verb is “arise”. “Describe A as B” gives an interpretation of A (a learner error is “describe … like …”). “Not only … but also …” adds a second value and gives it equal weight; “both” would need “and”, and “either” would need “or”.",
+      "explanation": "“Where there is no X, Y appear” describes what generally happens in a situation without something; the subject “bad feelings” is plural, so the verb is “appear”. “Describe A as B” gives an interpretation of A (a learner error is “describe … like …”). “Not only … but also …” adds a second value and gives it equal weight; “both” would need “and”, and “either” would need “or”.",
       "feedback": {
        "correct": "Correct. You chose the forms for a general result, an interpretation and an added value.",
-       "incorrect": "Read Chapter 10 again. Check the subject of “arise”, the word that always follows “described …”, and the partner of “but also”."
+       "incorrect": "Read Chapter 10 again. Check the subject of “appear”, the word that always follows “described …”, and the partner of “but also”."
       }
      },
      {
@@ -2493,7 +2505,7 @@
       "instructions": "Write or say five or six sentences about a value, for example trust.",
       "question": "Why does this value matter?",
       "correctAnswer": null,
-      "explanation": "Useful language from the chapter includes “where ... is absent, ... arise”, “that is...”, “for this reason...”, “describe ... as ...”, “the ... that ...”, “not only ... but also ...”, and “has existed since/for ...”.",
+      "explanation": "Useful language from the chapter includes “where there is no ..., ... appear”, “that is...”, “for this reason...”, “describe ... as ...”, “the ... that ...”, “not only ... but also ...”, and “has existed since/for ...”.",
       "feedback": {
        "correct": "Keep the paragraph connected: situation, clarification, consequence, added value, and continued importance.",
        "incorrect": ""
@@ -2505,9 +2517,9 @@
         "example": "Trust brings safety and peace to a friendship."
        },
        {
-        "question": "Sentence 2 — Say what happens without it: “Where … is absent, …”",
+        "question": "Sentence 2 — Say what happens without it: “Where there is no …, …”",
         "mode": "Individual",
-        "example": "Where trust is absent, problems such as doubt and jealousy arise."
+        "example": "Where there is no trust, problems such as doubt and jealousy appear."
        },
        {
         "question": "Sentence 3 — Explain it: “… is …, that is, …”",
@@ -2529,14 +2541,14 @@
     ],
     "beforeYouRead": {
      "kind": "find",
-     "question": "Find it fast: According to Yunus, what arises where love is absent?",
+     "question": "Find it fast: According to Yunus, what appears where there is no love?",
      "options": [
       "anger, heartbreak and separation",
       "peace and joy",
       "wealth and power"
      ],
      "answer": 0,
-     "quote": "where love is absent, negative emotions such as anger, heartbreak and separation arise"
+     "quote": "where there is no love, bad feelings such as anger, heartbreak and separation appear"
     },
     "iCan": [
      "I can explain why the heart matters so much for Yunus Emre.",
@@ -2550,7 +2562,7 @@
     "title": "Intellect and Death",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Fimages%2Fyunus_b1_ch11-clean.png?alt=media&token=2fb97415-2254-46fa-9409-6ec1eb6678d4",
     "audioUrl": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Faudio%2F10_Chapter_11_Intellect_and_Death.mp3?alt=media&token=9bbacec5-d4da-45ce-819d-2299f3747185",
-    "content": "He highlights that for a person to reach salvation, heart and intellect must support one another.\n\nHe says:\n\n[POEM]\nEnglish:\n“May your intelligence / wisdom save you from all troubles\nMay happiness be yours for all the months and years to come”\nTurkish:\nSeni türlü beladan kurtara akıl,\nSaadet ola sana cümle ay, yıl\n[/POEM]\n\nDeath is another significant theme in Yunus’s poems. According to him, death is the best advisor for humanity, as the Prophet Muhammad (pbuh) said: “Those who remember death the most and prepare best for what comes after it are the wisest.” (Ibn Majah, Zuhd, 31, no. 4259) A person who lives with an understanding of death’s advisory role lives a meaningful and honest life.\n\nAbout death he says:\n\n[POEM]\nEnglish:\n“Whoever comes into this world must later leave it,\nA guest in this world, one day they must set out for their homeland”\nTurkish:\nBu dünyaya gelen kişi, ahir yine gitse gerek\nMisafirdir, vatanına bir gün sefer etse gerek\n[/POEM]",
+    "content": "He highlights that for a person to reach salvation, heart and intellect must support one another.\n\nHe says:\n\n[POEM]\nEnglish:\n“May your intelligence / wisdom save you from all troubles\nMay happiness be yours for all the months and years to come”\nTurkish:\nSeni türlü beladan kurtara akıl,\nSaadet ola sana cümle ay, yıl\n[/POEM]\n\nDeath is another significant theme in Yunus’s poems. According to him, death is the best advisor for humanity, as the Prophet Muhammad (pbuh) said: “Those who remember death the most and prepare best for what comes after it are the wisest.” (Ibn Majah, Zuhd, 31, no. 4259) A person who remembers the lesson of death lives a meaningful and honest life.\n\nAbout death he says:\n\n[POEM]\nEnglish:\n“Whoever comes into this world must later leave it,\nA guest in this world, one day they must set out for their homeland”\nTurkish:\nBu dünyaya gelen kişi, ahir yine gitse gerek\nMisafirdir, vatanına bir gün sefer etse gerek\n[/POEM]",
     "vocabulary": [
      {
       "word": "Yunus",
@@ -2680,8 +2692,8 @@
         ]
        },
        {
-        "source": "A person who lives with an understanding of death’s advisory role lives a meaningful and honest life.",
-        "frame": "[blank] lives with an understanding of death’s advisory role lives a meaningful and honest life.",
+        "source": "A person who remembers the lesson of death lives a meaningful and honest life.",
+        "frame": "[blank] remembers the lesson of death lives a meaningful and honest life.",
         "answers": [
          "Whoever",
          "Anyone who",
@@ -2797,7 +2809,7 @@
     "title": "Morality and Good Habits",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Fimages%2Fyunus_b1_ch12-clean.png?alt=media&token=dd15c0c8-a21b-424a-93a8-fbb6288eebd8",
     "audioUrl": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fb1%2Faudio%2F11_Chapter_12_Morality_and_Good_Habits.mp3?alt=media&token=d1f94fde-9bcd-47b9-9dd7-64fad10e4dd3",
-    "content": "Yunus believes that true morality is about giving up bad habits that are not suitable for people. Moral principles such as honesty, patience, humility, generosity, respect, trust in Allah, and modesty are important in Yunus Emre’s works. With these principles, Yunus Emre teaches people the path to an honest life. He also taught people to avoid bad habits like being arrogant, stingy, greedy, selfish, or jealous, and gossiping.\n\nYunus Emre’s poems are not only literary works but also a moral guide.\n\nHere are some of his verses about morality:\n\nYunus says:\n\n[POEM]\nEnglish:\n“I’ve fallen into the prison of greed and cannot escape\nIt’s a hard, rock-solid place; I cannot break free”\nTurkish:\nTamah hapsine düştüm çıkamam\nKatı berktir duvarı yıkamam\n[/POEM]",
+    "content": "Yunus believes that true morality is about giving up bad habits that are not suitable for people. Moral rules such as honesty, patience, humility, generosity, respect, trust in Allah, and modesty are important in Yunus Emre’s works. With these principles, Yunus Emre teaches people the path to an honest life. He also taught people to avoid bad habits like being arrogant, stingy, greedy, selfish, or jealous, and gossiping.\n\nYunus Emre’s poems are not only literary works but also a moral guide.\n\nHere are some of his verses about morality:\n\nYunus says:\n\n[POEM]\nEnglish:\n“I’ve fallen into the prison of greed and cannot escape\nIt’s a hard, rock-solid place; I cannot break free”\nTurkish:\nTamah hapsine düştüm çıkamam\nKatı berktir duvarı yıkamam\n[/POEM]",
     "vocabulary": [
      {
       "word": "Yunus Emre",
@@ -2818,6 +2830,10 @@
      {
       "word": "greed",
       "definition": "A strong selfish desire for more wealth or possessions."
+     },
+     {
+      "word": "modesty",
+      "definition": "Being shy and decent, and not showing off."
      }
     ],
     "hotspots": [
@@ -2865,7 +2881,7 @@
       "question": "Which habits are good, and which are bad?",
       "dragDropGroups": [
        {
-        "group": "Moral principles (nouns)",
+        "group": "Moral rules (nouns)",
         "items": [
          "honesty",
          "patience",
@@ -2884,7 +2900,7 @@
        }
       ],
       "correctAnswer": {
-       "Moral principles (nouns)": [
+       "Moral rules (nouns)": [
         "honesty",
         "patience",
         "humility",
@@ -2909,7 +2925,7 @@
       "title": "Define, Give Examples, Guide",
       "instructions": "Complete the lines from Chapter 12 with words from the bank. Two words are not needed.",
       "question": "Which word fits each gap?",
-      "fillBlanksText": "Yunus believes that true morality is about [blank] up bad habits that are not suitable for people. Moral principles [blank] as honesty, patience, humility, generosity, respect, trust in Allah, and modesty are important in Yunus Emre’s works. … He also taught people [blank] avoid bad habits like [blank] arrogant, stingy, greedy, selfish, or jealous, and gossiping.",
+      "fillBlanksText": "Yunus believes that true morality is about [blank] up bad habits that are not suitable for people. Moral rules [blank] as honesty, patience, humility, generosity, respect, trust in Allah, and modesty are important in Yunus Emre’s works. … He also taught people [blank] avoid bad habits like [blank] arrogant, stingy, greedy, selfish, or jealous, and gossiping.",
       "wordBank": [
        "to",
        "giving",
@@ -3050,6 +3066,18 @@
      {
       "word": "arrogance",
       "definition": "The belief that you are better or more important than others."
+     },
+     {
+      "word": "foundation",
+      "definition": "The base that something stands on."
+     },
+     {
+      "word": "everlasting",
+      "definition": "Never ending."
+     },
+     {
+      "word": "possess",
+      "definition": "To have."
      }
     ],
     "hotspots": [
@@ -3897,23 +3925,23 @@
       "storyExample": "They expect nothing in return and do good to everyone without biases."
      },
      {
-      "word": "worldly",
-      "definition": "Related to ordinary daily life and things like money, not to spiritual matters.",
-      "partOfSpeech": "adjective",
-      "pronunciation": "/ˈwɜːrldli/",
+      "word": "recite",
+      "definition": "To say a poem or a text aloud, often from memory.",
+      "partOfSpeech": "verb",
+      "pronunciation": "/rɪˈsaɪt/",
       "wordFamily": [
-       "world",
-       "worldly"
+       "recite",
+       "recitation"
       ],
       "collocations": [
-       "worldly matters",
-       "worldly things"
+       "recite a poem",
+       "recite the Qur’an"
       ],
-      "category": "Values & Society",
+      "category": "Language & Literature",
       "level": "B1",
       "chapter": 1,
       "chapterTitle": "Yunus Emre and Sufism",
-      "storyExample": "They respond to evil with kindness and do not attach importance to worldly matters such as wealth, status, and fame."
+      "storyExample": "In addition to being a Sufi, Yunus Emre was one of the first to write and recite poems in simple Turkish."
      },
      {
       "word": "literary",
@@ -4113,49 +4141,50 @@
       "storyExample": "He expanded the country’s borders and established a navy in the Mediterranean and Black Seas."
      },
      {
-      "word": "governance",
-      "definition": "The way a state or organization is managed.",
-      "partOfSpeech": "noun",
-      "pronunciation": "/ˈɡʌvərnəns/",
-      "wordFamily": [
-       "govern",
-       "government",
-       "governance"
-      ],
-      "collocations": [
-       "poor governance",
-       "good governance"
-      ],
-      "category": "Politics & Society",
-      "level": "B1",
-      "chapter": 4,
-      "chapterTitle": "The Babai Revolts",
-      "storyExample": "However, because of the poor governance of his son, Kaykhusraw II (1237–1246), the Seljuk economic and social structure began to decline."
-     },
-     {
-      "word": "decline",
-      "definition": "To become weaker or less successful.",
+      "word": "migrate",
+      "definition": "To move from one place to live in another place.",
       "partOfSpeech": "verb",
-      "pronunciation": "/dɪˈklaɪn/",
+      "pronunciation": "/ˈmaɪɡreɪt/",
       "wordFamily": [
-       "decline",
-       "declining"
+       "migrate",
+       "migration",
+       "migrant"
       ],
       "collocations": [
-       "begin to decline",
-       "decline slowly"
+       "migrate to",
+       "migrate from"
       ],
       "synonyms": [
-       "weakening"
-      ],
-      "antonyms": [
-       "growth"
+       "move"
       ],
       "category": "Change & History",
       "level": "B1",
       "chapter": 4,
       "chapterTitle": "The Babai Revolts",
-      "storyExample": "However, because of the poor governance of his son, Kaykhusraw II (1237–1246), the Seljuk economic and social structure began to decline."
+      "storyExample": "The Mongol invasion caused many people to migrate to Anatolia from Central Asia, which totally turned the lives of the local people upside down."
+     },
+     {
+      "word": "worsened",
+      "definition": "Made something worse.",
+      "partOfSpeech": "verb",
+      "pronunciation": "/ˈwɜːrsənd/",
+      "wordFamily": [
+       "worse",
+       "worsen",
+       "worst"
+      ],
+      "collocations": [
+       "worsen a problem",
+       "worsen the situation"
+      ],
+      "antonyms": [
+       "improved"
+      ],
+      "category": "Change & History",
+      "level": "B1",
+      "chapter": 4,
+      "chapterTitle": "The Babai Revolts",
+      "storyExample": "However, Kaykhusraw II’s failure to manage this situation worsened the social and economic chaos."
      },
      {
       "word": "chaos",
@@ -4464,7 +4493,7 @@
       "level": "B1",
       "chapter": 8,
       "chapterTitle": "Tawhid and Unity",
-      "storyExample": "One of the most important basic spiritual principles in his works is the idea of Tawhid, which means the Oneness of Allah."
+      "storyExample": "One of the most important ideas in his works is Tawhid, which means the Oneness of Allah."
      },
      {
       "word": "connected",
@@ -4504,6 +4533,44 @@
       "chapter": 8,
       "chapterTitle": "Tawhid and Unity",
       "storyExample": "According to the theory of the unity of existence, which was a key idea for Yunus Emre, there is only one true existence in the universe, and that is Allah."
+     },
+     {
+      "word": "the unity of existence",
+      "definition": "The Sufi idea that only Allah truly exists.",
+      "partOfSpeech": "noun phrase",
+      "pronunciation": "/ðə ˈjuːnət̬i əv ɪɡˈzɪstəns/",
+      "wordFamily": [
+       "unity",
+       "exist",
+       "existence"
+      ],
+      "collocations": [
+       "the theory of the unity of existence"
+      ],
+      "category": "Faith & Sufism",
+      "level": "B1",
+      "chapter": 8,
+      "chapterTitle": "Tawhid and Unity",
+      "storyExample": "According to the theory of the unity of existence, which was a key idea for Yunus Emre, there is only one true existence in the universe, and that is Allah."
+     },
+     {
+      "word": "whoever",
+      "definition": "Any person who.",
+      "partOfSpeech": "pronoun",
+      "pronunciation": "/huːˈevɚ/",
+      "wordFamily": [
+       "who",
+       "whoever"
+      ],
+      "collocations": [
+       "whoever believes",
+       "whoever denies"
+      ],
+      "category": "Language & Literature",
+      "level": "B1",
+      "chapter": 8,
+      "chapterTitle": "Tawhid and Unity",
+      "storyExample": "Whoever denies this Tawhid is an enemy to his own soul.”"
      },
      {
       "word": "reflections",
@@ -4581,6 +4648,26 @@
       "storyExample": "He should follow Allah’s command and pray the five daily prayers”"
      },
      {
+      "word": "unity",
+      "definition": "Being one.",
+      "partOfSpeech": "noun",
+      "pronunciation": "/ˈjuːnət̬i/",
+      "wordFamily": [
+       "unite",
+       "united",
+       "unity"
+      ],
+      "collocations": [
+       "reach unity",
+       "the original unity"
+      ],
+      "category": "Faith & Sufism",
+      "level": "B1",
+      "chapter": 9,
+      "chapterTitle": "Allah’s Commands",
+      "storyExample": "As a result of creation, the original unity was lost and multiplicity appeared."
+     },
+     {
       "word": "harmony",
       "definition": "A peaceful state in which things work well together.",
       "partOfSpeech": "noun",
@@ -4622,7 +4709,7 @@
       "level": "B1",
       "chapter": 10,
       "chapterTitle": "The Heart and Love",
-      "storyExample": "According to him, where love is absent, negative emotions such as anger, heartbreak and separation arise."
+      "storyExample": "According to him, where there is no love, bad feelings such as anger, heartbreak and separation appear."
      },
      {
       "word": "throne",
@@ -4760,7 +4847,7 @@
       ],
       "collocations": [
        "true morality",
-       "moral principles"
+       "moral rules"
       ],
       "category": "Values & Ethics",
       "level": "B1",
@@ -4792,7 +4879,7 @@
       "level": "B1",
       "chapter": 12,
       "chapterTitle": "Morality and Good Habits",
-      "storyExample": "Moral principles such as honesty, patience, humility, generosity, respect, trust in Allah, and modesty are important in Yunus Emre’s works."
+      "storyExample": "Moral rules such as honesty, patience, humility, generosity, respect, trust in Allah, and modesty are important in Yunus Emre’s works."
      },
      {
       "word": "generosity",
@@ -4815,7 +4902,7 @@
       "level": "B1",
       "chapter": 12,
       "chapterTitle": "Morality and Good Habits",
-      "storyExample": "Moral principles such as honesty, patience, humility, generosity, respect, trust in Allah, and modesty are important in Yunus Emre’s works."
+      "storyExample": "Moral rules such as honesty, patience, humility, generosity, respect, trust in Allah, and modesty are important in Yunus Emre’s works."
      },
      {
       "word": "greed",
@@ -4838,6 +4925,25 @@
       "chapter": 12,
       "chapterTitle": "Morality and Good Habits",
       "storyExample": "He also taught people to avoid bad habits like being arrogant, stingy, greedy, selfish, or jealous, and gossiping."
+     },
+     {
+      "word": "modesty",
+      "definition": "Being shy and decent, and not showing off.",
+      "partOfSpeech": "noun",
+      "pronunciation": "/ˈmɑːdəsti/",
+      "wordFamily": [
+       "modest",
+       "modesty"
+      ],
+      "collocations": [
+       "show modesty",
+       "modesty and humility"
+      ],
+      "category": "Character & Values",
+      "level": "B1",
+      "chapter": 12,
+      "chapterTitle": "Morality and Good Habits",
+      "storyExample": "Moral rules such as honesty, patience, humility, generosity, respect, trust in Allah, and modesty are important in Yunus Emre’s works."
      },
      {
       "word": "patience",
@@ -4928,6 +5034,64 @@
       "chapter": 13,
       "chapterTitle": "A Moral Guide",
       "storyExample": "In the following verse, he warns against “rage and arrogance”:"
+     },
+     {
+      "word": "foundation",
+      "definition": "The base that something stands on.",
+      "partOfSpeech": "noun",
+      "pronunciation": "/faʊnˈdeɪʃən/",
+      "wordFamily": [
+       "found",
+       "foundation"
+      ],
+      "collocations": [
+       "the foundation of",
+       "a strong foundation"
+      ],
+      "category": "Ideas & Values",
+      "level": "B1",
+      "chapter": 13,
+      "chapterTitle": "A Moral Guide",
+      "storyExample": "“Patience is the foundation of an everlasting kingdom,"
+     },
+     {
+      "word": "everlasting",
+      "definition": "Never ending.",
+      "partOfSpeech": "adjective",
+      "pronunciation": "/ˌevɚˈlæstɪŋ/",
+      "wordFamily": [
+       "ever",
+       "last",
+       "everlasting"
+      ],
+      "collocations": [
+       "an everlasting kingdom",
+       "everlasting life"
+      ],
+      "category": "Ideas & Values",
+      "level": "B1",
+      "chapter": 13,
+      "chapterTitle": "A Moral Guide",
+      "storyExample": "“Patience is the foundation of an everlasting kingdom,"
+     },
+     {
+      "word": "possess",
+      "definition": "To have.",
+      "partOfSpeech": "verb",
+      "pronunciation": "/pəˈzes/",
+      "wordFamily": [
+       "possess",
+       "possession"
+      ],
+      "collocations": [
+       "possess patience",
+       "possess knowledge"
+      ],
+      "category": "Ideas & Values",
+      "level": "B1",
+      "chapter": 13,
+      "chapterTitle": "A Moral Guide",
+      "storyExample": "“Whoever possesses patience rises to the heavens,"
      }
     ]
    },
@@ -4946,11 +5110,11 @@
     "content": "Match key B1 words from the story with their meanings.",
     "vocabularyPairs": [
      {
-      "word": "worldly",
-      "meaning": "Related to ordinary daily life and things like money, not to spiritual matters.",
-      "partOfSpeech": "adjective",
+      "word": "recite",
+      "meaning": "To say a poem or a text aloud, often from memory.",
+      "partOfSpeech": "verb",
       "chapter": 1,
-      "context": "They respond to evil with kindness and do not attach importance to worldly matters such as wealth, status, and fame."
+      "context": "In addition to being a Sufi, Yunus Emre was one of the first to write and recite poems in simple Turkish."
      },
      {
       "word": "sources",
@@ -4967,11 +5131,11 @@
       "context": "People were struggling to cope with these tough situations."
      },
      {
-      "word": "governance",
-      "meaning": "The way a state or organization is managed.",
-      "partOfSpeech": "noun",
+      "word": "migrate",
+      "meaning": "To move from one place to live in another place.",
+      "partOfSpeech": "verb",
       "chapter": 4,
-      "context": "However, because of the poor governance of his son, Kaykhusraw II (1237–1246), the Seljuk economic and social structure began to decline."
+      "context": "The Mongol invasion caused many people to migrate to Anatolia from Central Asia, which totally turned the lives of the local people upside down."
      },
      {
       "word": "captured",
@@ -5115,7 +5279,7 @@
       "title": "Build: Reason, Turn and Result",
       "instructions": "Complete the lines from the book with words from the bank. Two words are not needed.",
       "question": "Which word fits each gap?",
-      "fillBlanksText": "People love his works very much [blank] his style. … At the time of his death, the Seljuks were the most powerful and largest state in the Middle East. [blank], because of the poor governance of his son, Kaykhusraw II (1237–1246), the Seljuk economic and social structure began to decline. The Mongol invasion [blank] many people to migrate to Anatolia from Central Asia … It is “the throne of the Lord,” that is, the place where Allah reveals Himself. [blank], he described breaking a heart as destroying Allah’s house.",
+      "fillBlanksText": "People love his works very much [blank] his style. … At the time of his death, the Seljuks were the most powerful and largest state in the Middle East. [blank], his son Kaykhusraw II (1237–1246) did not rule the country well, so Seljuk money and social life began to get worse. The Mongol invasion [blank] many people to migrate to Anatolia from Central Asia … It is “the throne of the Lord,” that is, the place where Allah reveals Himself. [blank], he described breaking a heart as destroying Allah’s house.",
       "wordBank": [
        "due to",
        "However",
@@ -5130,7 +5294,7 @@
        "caused",
        "For this reason"
       ],
-      "explanation": "“Due to” and “because of” are followed by a noun (due to his style); “because” needs a clause with a subject and a verb. “However” turns the story: After the strongest period comes the decline. “Cause + object + to + verb” shows what an event led people to do (caused many people to migrate); “made” would need a verb without “to”. “For this reason” points back to the idea before it and gives its result: The heart is where Allah reveals Himself, so breaking a heart is very serious.",
+      "explanation": "“Due to” and “because of” are followed by a noun (due to his style); “because” needs a clause with a subject and a verb. “However” turns the story: After the strongest period, things get worse. “Cause + object + to + verb” shows what an event led people to do (caused many people to migrate); “made” would need a verb without “to”. “For this reason” points back to the idea before it and gives its result: The heart is where Allah reveals Himself, so breaking a heart is very serious.",
       "feedback": {
        "correct": "Well done. You linked reasons, a turn and results across the book.",
        "incorrect": "At each gap, ask: Is a noun or a clause next? Does the story turn, or does a result follow? Check Chapter 2, the middle of Chapter 4 and Chapter 10."
@@ -5248,11 +5412,11 @@
         ]
        },
        {
-        "source": "A person who lives with an understanding of death’s advisory role lives a meaningful and honest life.",
-        "frame": "People [blank] with an understanding of death’s advisory role live a meaningful and honest life.",
+        "source": "A person who remembers the lesson of death lives a meaningful and honest life.",
+        "frame": "People [blank] the lesson of death live a meaningful and honest life.",
         "answers": [
-         "who live",
-         "that live"
+         "who remember",
+         "that remember"
         ]
        }
       ],
@@ -5383,16 +5547,16 @@
      {
       "id": "yunus-b1-final-1",
       "type": "multiple-choice",
-      "title": "A Sufi Principle",
+      "title": "A Sufi Rule",
       "instructions": "Choose the answer the story gives.",
-      "question": "Which of these is one of the moral principles that Sufis follow?",
+      "question": "Which of these is one of the moral rules that Sufis follow?",
       "options": [
-       "responding to evil with kindness",
-       "looking for fame and a high status",
+       "answering evil with kindness",
+       "looking for fame and a high position",
        "giving only to people who give back"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 1 says: “They expect nothing in return and do good to everyone without biases. They respond to evil with kindness and do not attach importance to worldly matters such as wealth, status, and fame.”",
+      "explanation": "Chapter 1 says: “They expect nothing in return and do good to everyone without biases. They answer evil with kindness. Things like money, a high position and being famous are not important to them.”",
       "feedback": {
        "correct": "Yes. A Sufi answers evil with kindness and does not chase fame or payment.",
        "incorrect": "Read the second paragraph of Chapter 1. The other two options go against the list."
@@ -5498,7 +5662,7 @@
        "Ilkhanate": "the Mongol state centred in Iran",
        "Tawhid": "the Oneness of Allah"
       },
-      "explanation": "Chapter 2: “the tekke, which was a place where Sufi education was taught under the guidance of a sheikh (spiritual tutor).” Chapter 5: “They followed spiritual leaders called 'Baba'”. Chapter 6: “the Ilkhanate Empire (the Mongol state centred in Iran).” Chapter 8: “the idea of Tawhid, which means the Oneness of Allah.”",
+      "explanation": "Chapter 2: “the tekke, which was a place where Sufi education was taught under the guidance of a sheikh (spiritual tutor).” Chapter 5: “They followed spiritual leaders called 'Baba'”. Chapter 6: “the Ilkhanate Empire (the Mongol state centred in Iran).” Chapter 8: “Tawhid, which means the Oneness of Allah.”",
       "feedback": {
        "correct": "Yes. You found each meaning where the story explains the word.",
        "incorrect": "Look for the explanations in Chapters 2, 5, 6 and 8."
@@ -5558,7 +5722,7 @@
        "Because remembering death helps a person live honestly."
       ],
       "correctAnswer": 2,
-      "explanation": "Chapter 11 says: “According to him, death is the best advisor for humanity” and “A person who lives with an understanding of death’s advisory role lives a meaningful and honest life.”",
+      "explanation": "Chapter 11 says: “According to him, death is the best advisor for humanity” and “A person who remembers the lesson of death lives a meaningful and honest life.”",
       "feedback": {
        "correct": "Yes. Remembering death guides a person to live a meaningful and honest life.",
        "incorrect": "Read the paragraph about death in Chapter 11. What kind of life does it lead to?"
