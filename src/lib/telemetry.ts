@@ -63,3 +63,10 @@ export const startTelemetry = () => {
     send({ kind: 'error', message: String(message).slice(0, MAX_MESSAGE), source: 'promise', line: 0, screen: screenName() });
   });
 };
+
+/** A screen that failed to draw and showed the "could not open" card instead (see PageErrorBoundary). */
+export const reportRenderError = (error: unknown) => {
+  if (!allowed()) return;
+  const message = error instanceof Error ? error.message : String(error);
+  send({ kind: 'error', message: message.slice(0, MAX_MESSAGE), source: 'render', line: 0, screen: screenName() });
+};

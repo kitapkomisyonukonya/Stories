@@ -8,7 +8,8 @@ import { AnimatePresence } from 'motion/react';
 import { ArrowRight } from '../ui/icons';
 import { PageData, Exercise } from '../../types';
 import { ExerciseModule } from '../ExerciseModule';
-import { appImage, fallBackToOriginal } from '../../lib/mediaImage';
+import { useStoryImage } from '../../lib/mediaImage';
+import { ImageUnavailable } from '../ui/ImageUnavailable';
 import { cn } from '../../lib/utils';
 import { markQuranVerses } from '../../lib/quranVerses';
 import { timingsUrlFor } from '../../lib/followAlong';
@@ -81,6 +82,11 @@ const ChapterBlock = React.memo(({
     isPlaying,
   });
   const isChapter = Boolean(page.exercises?.length);
+  const picture = useStoryImage(page.image);
+  const pictureClass = cn(
+    'mb-5 aspect-[4/5] w-full max-w-sm rounded-[1.25rem] object-cover shadow-[0_24px_30px_-28px_rgba(0,0,0,0.55)] sm:mx-auto md:mb-3 md:w-[38%] md:max-w-none',
+    flip ? 'md:float-start md:me-7' : 'md:float-end md:ms-7',
+  );
 
   return (
     <article className="pt-10 first:pt-2" data-story-chapter={index}>
@@ -96,20 +102,20 @@ const ChapterBlock = React.memo(({
         className={cn('font-serif leading-[1.72] text-wood/90 flow-root', isDyslexic && 'font-sans tracking-wide', isRTL && 'text-right')}
         style={getResponsiveStoryFontStyle(fontSize, isRTL, isDyslexic)}
       >
-        {page.image && (
+        {page.image && (picture.failed ? (
+          <ImageUnavailable onRetry={picture.retry} className={cn(pictureClass, 'overflow-hidden')} />
+        ) : (
           <img
-            src={appImage(page.image)}
-            onError={fallBackToOriginal(page.image)}
+            key={picture.attempt}
+            src={picture.src}
+            onError={picture.onError}
             alt={page.title}
             referrerPolicy="no-referrer"
             loading={near ? 'eager' : 'lazy'}
             decoding="async"
-            className={cn(
-              'mb-5 aspect-[4/5] w-full max-w-sm rounded-[1.25rem] object-cover shadow-[0_24px_30px_-28px_rgba(0,0,0,0.55)] sm:mx-auto md:mb-3 md:w-[38%] md:max-w-none',
-              flip ? 'md:float-start md:me-7' : 'md:float-end md:ms-7',
-            )}
+            className={pictureClass}
           />
-        )}
+        ))}
         <div ref={textRef}>{text}</div>
       </div>
     </article>

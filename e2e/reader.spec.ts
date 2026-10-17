@@ -12,7 +12,8 @@ test.describe('reading a chapter', () => {
     const errors = trackErrors(page);
     await openPage(page, 'mecca/a2/1');
     await expect(chapterHeading(page, CH1)).toBeVisible();
-    await expect(page.getByRole('button', { name: 'Play audio' })).toBeVisible();
+    // Where Storage cannot be reached (the cloud sandbox) the player offers to try the audio again.
+    await expect(page.getByRole('button', { name: /^(Play audio|Try the audio again)$/ })).toBeVisible();
     await expect(page.getByText('Bilal ibn Rabah was one of the first seven people').filter({ visible: true })).toHaveCount(1);
     expect(errors).toEqual([]);
   });

@@ -18,6 +18,7 @@ import { ClassModeProvider } from './contexts/ClassModeContext';
 import { registerServiceWorker } from './lib/pwa';
 import { startTelemetry } from './lib/telemetry';
 import { preloadDeferredChunks } from './lib/preloadDeferred';
+import { PageErrorBoundary } from './components/ui/PageErrorBoundary';
 
 // Arabic readers: start loading both Arakom faces now, before the first Arabic text asks for them.
 try {
@@ -57,16 +58,18 @@ preloadDeferredChunks();
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <LanguageProvider>
-      <UserRoleProvider>
-        <ClassModeProvider>
-          <SkipLink />
-          <App />
-          <JournalLinks />
-          <ArabicUiSanitizer />
-          <ArabicHarakatFilter />
-        </ClassModeProvider>
-      </UserRoleProvider>
-    </LanguageProvider>
+    <PageErrorBoundary fullScreen>
+      <LanguageProvider>
+        <UserRoleProvider>
+          <ClassModeProvider>
+            <SkipLink />
+            <App />
+            <JournalLinks />
+            <ArabicUiSanitizer />
+            <ArabicHarakatFilter />
+          </ClassModeProvider>
+        </UserRoleProvider>
+      </LanguageProvider>
+    </PageErrorBoundary>
   </StrictMode>,
 );

@@ -33,6 +33,7 @@ import { collectionVisuals, getStoryMeta, isHiddenStory, readerTokenVariables } 
 import { useLanguage } from './contexts/LanguageContext';
 import { LanguageToggle } from './components/ui/LanguageToggle';
 import { FullscreenToggle } from './components/ui/FullscreenButton';
+import { PageErrorBoundary } from './components/ui/PageErrorBoundary';
 import { ReaderSettings } from './components/book/ReaderSettings';
 import { useMediaQuery } from './lib/useMediaQuery';
 import { useReaderPreferences } from './hooks/useReaderPreferences';
@@ -1022,7 +1023,9 @@ const AppContent = () => {
                   transition={{ duration: 0.26, ease: [0.22, 0.8, 0.3, 1] }}
                   className="h-full flex flex-col overflow-hidden min-h-0"
                 >
-                  <Suspense fallback={null}>{renderPage()}</Suspense>
+                  <PageErrorBoundary resetKey={showSummary ? 'summary' : `${currentLevel}-${currentPageIndex}`}>
+                    <Suspense fallback={null}>{renderPage()}</Suspense>
+                  </PageErrorBoundary>
                 </motion.div>
               </AnimatePresence>
             </div>

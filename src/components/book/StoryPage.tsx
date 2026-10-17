@@ -9,7 +9,8 @@ import { GroupTaskPanel, ICanPanel, type ICanStep, BeforeYouReadPanel, useBefore
 import { beforeYouReadSeconds } from '../../lib/chapterExtras';
 import { LessonCard } from './LessonCard';
 import { bestLanguageActivity, bestParagraph, sayItActivity, storyParagraphs } from '../../lib/iCanSteps';
-import { appImage, fallBackToOriginal } from '../../lib/mediaImage';
+import { useStoryImage } from '../../lib/mediaImage';
+import { ImageUnavailable } from '../ui/ImageUnavailable';
 import { cn } from '../../lib/utils';
 import { markQuranVerses } from '../../lib/quranVerses';
 import { useLanguage } from '../../contexts/LanguageContext';
@@ -60,6 +61,7 @@ export const StoryPage = ({
   const { language, t, formatNumber, isRTL } = useLanguage();
   const { stats, trackExerciseComplete, trackChapterVisit } = useStoryProgress();
   const audio = useChapterAudio(page);
+  const picture = useStoryImage(page.image);
   const { audioRef, isPlaying } = audio;
   // Wide screens (1024px+): title, steps and audio on top, activities as icons beside the picture.
   const isWide = useMediaQuery('(min-width: 1024px)');
@@ -384,17 +386,19 @@ export const StoryPage = ({
                 phoneCover ? "aspect-[4/3] rounded-[1.25rem]" : "aspect-[4/5]"
               )}>
                 <motion.img 
-                  src={appImage(page.image)}
-            onError={fallBackToOriginal(page.image)} 
+                  key={picture.attempt}
+                  src={picture.src}
+                  onError={picture.onError}
                   alt={page.title}
                   className="w-full h-full object-cover transition-all duration-700"
                   referrerPolicy="no-referrer"
                   style={{ x: imageX, y: imageY, scale: 1.1 }}
                 />
                 
+                {picture.failed && <ImageUnavailable onRetry={picture.retry} className={cn("absolute inset-0 z-[5]", phoneCover && "justify-start pt-8")} />}
                 <div className="absolute inset-0 z-[70] p-4 pointer-events-none">
                   <div className="relative w-full h-full">
-                     {shownHotspots.map((hotspot) => (
+                     {!picture.failed && shownHotspots.map((hotspot) => (
                       <HotspotButton 
                         key={hotspot.id} 
                         hotspot={hotspot} 
@@ -474,17 +478,19 @@ export const StoryPage = ({
                 >
                   <div className="relative aspect-[4/5] w-full rounded-[1.25rem] shadow-[0_24px_30px_-28px_rgba(0,0,0,0.55)] overflow-hidden border border-gold/15">
                     <motion.img 
-                      src={appImage(page.image)}
-            onError={fallBackToOriginal(page.image)} 
+                      key={picture.attempt}
+                      src={picture.src}
+                      onError={picture.onError}
                       alt={page.title}
                       className="w-full h-full object-cover transition-all duration-700"
                       referrerPolicy="no-referrer"
                       style={{ x: imageX, y: imageY, scale: 1.1 }}
                     />
                     
+                    {picture.failed && <ImageUnavailable onRetry={picture.retry} className="absolute inset-0 z-[5]" />}
                     <div className="absolute inset-0 z-[70] p-4 pointer-events-none">
                       <div className="relative w-full h-full">
-                         {page.hotspots?.map((hotspot) => (
+                         {!picture.failed && page.hotspots?.map((hotspot) => (
                           <HotspotButton 
                             key={hotspot.id} 
                             hotspot={hotspot} 

@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 // Chapter pictures and covers are full-size PNGs in Firebase Storage (they are made for print).
 // The app shows a 1200 px wide WebP copy made by its own server (deploy/server.mjs, /media-image);
@@ -15,6 +15,34 @@ export const appImage = (url: string | undefined, width = 1200): string => {
 export const fallBackToOriginal = (original: string | undefined) => (event: React.SyntheticEvent<HTMLImageElement>) => {
   const img = event.currentTarget;
   if (original && img.src !== original) img.src = original;
+};
+
+/**
+ * A chapter picture that knows when it failed: the small copy falls back to the original once, and
+ * if that fails too the page shows ImageUnavailable instead of an empty box. retry asks again.
+ */
+export const useStoryImage = (url: string | undefined) => {
+  const [failed, setFailed] = useState(false);
+  const [attempt, setAttempt] = useState(0);
+  useEffect(() => setFailed(false), [url]);
+
+  const onError = (event: React.SyntheticEvent<HTMLImageElement>) => {
+    const img = event.currentTarget;
+    if (url && img.src !== url) img.src = url;
+    else setFailed(true);
+  };
+
+  return {
+    src: appImage(url),
+    onError,
+    failed,
+    /** Use as the img key, so "Try again" makes a fresh request. */
+    attempt,
+    retry: () => {
+      setFailed(false);
+      setAttempt(current => current + 1);
+    },
+  };
 };
 
 /** The next chapter's picture is fetched a moment after a chapter opens, so it is ready when the reader moves on. */

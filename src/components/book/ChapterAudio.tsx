@@ -1,7 +1,7 @@
 // The chapter's audio: player state (useChapterAudio) and the player bar (moved from StoryPage.tsx, unchanged).
 import React, { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Play, Pause, Volume2, VolumeX, Lock } from '../ui/icons';
+import { Play, Pause, Volume2, VolumeX, Lock, LoaderCircle, RotateCcw } from '../ui/icons';
 import { PageData } from '../../types';
 import { cn } from '../../lib/utils';
 import { useLanguage } from '../../contexts/LanguageContext';
@@ -19,17 +19,54 @@ export const useChapterAudio = (page: PageData) => {
   const [audioMenu, setAudioMenu] = useState<'volume' | 'speed' | null>(null);
   const audioControlsRef = useRef<HTMLDivElement>(null);
 
+  // 'loading' while the narration downloads after Play, 'error' when it could not load.
+  const [status, setStatus] = useState<'ready' | 'loading' | 'error'>('ready');
+
   const toggleAudio = () => {
-    if (audioRef.current) {
-      if (isPlaying) {
-        audioRef.current.pause();
-      } else {
-        audioRef.current.play();
-        if (page.type === 'story') trackAudioChapter(page.id);
-      }
-      setIsPlaying(!isPlaying);
+    const el = audioRef.current;
+    if (!el) return;
+    if (isPlaying) {
+      el.pause();
+      setIsPlaying(false);
+      return;
     }
+    // After a failed download the element has to be asked again before it can play.
+    if (status === 'error') el.load();
+    setStatus('loading');
+    el.play().catch((error: DOMException) => {
+      if (error?.name === 'AbortError') return;
+      setIsPlaying(false);
+      // NotAllowedError: the browser wants a tap first; the button simply stays on Play.
+      setStatus(error?.name === 'NotAllowedError' ? 'ready' : 'error');
+    });
   };
+
+  // The chapter counts as listened to only once the narration really plays.
+  const handlePlaying = () => {
+    setIsPlaying(true);
+    setStatus('ready');
+    if (page.type === 'story') trackAudioChapter(page.id);
+  };
+
+  const handleWaiting = () => setStatus('loading');
+
+  const handleError = () => {
+    setIsPlaying(false);
+    setStatus('error');
+  };
+
+  // A connection that hangs without an error is treated as a failed download after 20 seconds.
+  useEffect(() => {
+    if (status !== 'loading') return;
+    const timer = window.setTimeout(() => {
+      const el = audioRef.current;
+      if (el && el.readyState < 3) {
+        el.pause();
+        handleError();
+      }
+    }, 20_000);
+    return () => window.clearTimeout(timer);
+  }, [status]);
 
   const handleTimeUpdate = () => {
     if (audioRef.current) {
@@ -92,6 +129,7 @@ export const useChapterAudio = (page: PageData) => {
 
   useEffect(() => {
     setAudioMenu(null);
+    setStatus('ready');
   }, [page.id]);
 
   const formatTime = (time: number) => {
@@ -101,8 +139,8 @@ export const useChapterAudio = (page: PageData) => {
   };
 
   return {
-    audioRef, audioControlsRef, isPlaying, setIsPlaying, currentTime, duration, volume, speed, audioMenu, setAudioMenu,
-    toggleAudio, handleTimeUpdate, handleLoadedMetadata, handleSeek, handleVolumeChange, toggleMute, setPlaybackSpeed, formatTime,
+    audioRef, audioControlsRef, isPlaying, setIsPlaying, status, currentTime, duration, volume, speed, audioMenu, setAudioMenu,
+    toggleAudio, handleTimeUpdate, handleLoadedMetadata, handlePlaying, handleWaiting, handleError, handleSeek, handleVolumeChange, toggleMute, setPlaybackSpeed, formatTime,
   };
 };
 
@@ -117,6 +155,9 @@ export const ChapterAudioElement = ({ page, audio, onEnded }: { page: PageData; 
       onEnded={() => { audio.setIsPlaying(false); onEnded(); }}
       onTimeUpdate={audio.handleTimeUpdate}
       onLoadedMetadata={audio.handleLoadedMetadata}
+      onPlaying={audio.handlePlaying}
+      onWaiting={audio.handleWaiting}
+      onError={audio.handleError}
     />
   ) : null;
 
@@ -124,10 +165,12 @@ export const ChapterAudioElement = ({ page, audio, onEnded }: { page: PageData; 
 export const ChapterAudioBar = ({ page, audio, onEnded, withElement = true }: { page: PageData; audio: ChapterAudio; onEnded: () => void; withElement?: boolean }) => {
   const { language } = useLanguage();
   const {
-    audioControlsRef, isPlaying, currentTime, duration, volume, speed, audioMenu, setAudioMenu,
+    audioControlsRef, isPlaying, status, currentTime, duration, volume, speed, audioMenu, setAudioMenu,
     toggleAudio, handleSeek, handleVolumeChange, toggleMute, setPlaybackSpeed, formatTime,
   } = audio;
   const isAudioLocked = false;
+  const ar = language === 'ar';
+  const failed = status === 'error';
 
   return (
     <>
@@ -152,16 +195,31 @@ export const ChapterAudioBar = ({ page, audio, onEnded, withElement = true }: { 
                     ? "bg-gray-400 text-white cursor-not-allowed opacity-60"
                     : "bg-brand-700 text-white hover:bg-brand-800"
                 )}
-                aria-label={isPlaying ? (language === 'ar' ? 'إيقاف مؤقت' : 'Pause audio') : (language === 'ar' ? 'تشغيل' : 'Play audio')}
+                aria-label={failed
+                  ? (ar ? 'حَاوِلْ تَشْغِيلَ الصَّوْتِ مَرَّةً أُخْرَى' : 'Try the audio again')
+                  : isPlaying ? (language === 'ar' ? 'إيقاف مؤقت' : 'Pause audio') : (language === 'ar' ? 'تشغيل' : 'Play audio')}
+                aria-busy={status === 'loading'}
               >
                 {isAudioLocked
                   ? <Lock size={17} />
+                  : failed
+                  ? <RotateCcw size={18} />
+                  : status === 'loading'
+                  ? <LoaderCircle size={19} className="animate-spin motion-reduce:animate-none" />
                   : isPlaying
                   ? <Pause size={18} />
                   : <Play size={19} className="translate-x-[1px]" />}
               </button>
 
               <div className="min-w-0 flex-1">
+                {failed ? (
+                  <p role="status" dir={ar ? 'rtl' : 'ltr'} className={cn('px-1 font-display font-semibold leading-snug text-wood/75', ar ? 'text-[13px]' : 'text-[12px]')}>
+                    {ar ? 'لَمْ يُحَمَّلِ الصَّوْتُ.' : 'The audio did not load.'}{' '}
+                    <button type="button" onClick={toggleAudio} className="text-brand-700 underline underline-offset-2 hover:text-brand-800">
+                      {ar ? 'حَاوِلْ مَرَّةً أُخْرَى' : 'Try again'}
+                    </button>
+                  </p>
+                ) : (
                 <div className="flex items-center gap-2 sm:gap-2.5">
                   <span className="w-9 shrink-0 text-start font-mono text-[11px] font-semibold tabular-nums text-wood/70 sm:w-10 sm:text-[11px]">
                     {formatTime(currentTime)}
@@ -187,6 +245,7 @@ export const ChapterAudioBar = ({ page, audio, onEnded, withElement = true }: { 
                     {formatTime(duration)}
                   </span>
                 </div>
+                )}
               </div>
 
               <div className="relative shrink-0">
