@@ -5,8 +5,9 @@ import { readBookProgress } from '../bookProgress';
 import type { EditionIndex } from './places';
 
 /**
- * Seyahatname, the reader's travel journal. A chapter stamp is pressed when the chapter's Quick Challenge
- * is done (in English or Arabic); a book seal when the Final Challenge is finished, noting the language. Everything stays on
+ * Seyahatname, the reader's travel journal. A chapter stamp is pressed when everything the chapter page
+ * asks is done (in English or Arabic): listening started, Quick Challenge, Language Focus and I can.
+ * A book seal is pressed when the Final Challenge is finished, noting the language. Everything stays on
  * this device. Nothing is ever taken away: no streaks to lose, no locks, no ranking.
  */
 export interface JournalState {
@@ -106,29 +107,16 @@ const subscribe = (callback: () => void) => {
 export const useJournal = () => useSyncExternalStore(subscribe, read, () => EMPTY);
 export const readJournal = read;
 
-/** Chapters (1-based) whose Quick Challenge is done, by either language's exercise id. */
-export const doneChapters = (storyId: string, level: Level | string, doneExercises: Iterable<string>): number[] => {
-  const edition = EDITIONS[editionKey(storyId, level)];
-  if (!edition) return [];
-  const done = new Set(doneExercises);
-  return edition.chapters
-    .map((_, i) => i + 1)
-    .filter(n => {
-      const en = edition.quick.en[n - 1];
-      const ar = edition.quick.ar[n - 1];
-      return Boolean((en && done.has(en)) || (ar && done.has(ar)));
-    });
-};
-
 /**
- * Presses the stamps for the chapters now done. The first time a book is seen, earlier progress is
- * stamped quietly; after that the newly pressed chapters are returned, so the reader sees the moment.
+ * Presses the stamps for the chapters now finished (in either language, see chapterDone.ts). The first
+ * time a book is seen, earlier progress is stamped quietly; after that the newly pressed chapters are
+ * returned, so the reader sees the moment.
  */
-export const pressStamps = (storyId: string, level: Level, doneExercises: Iterable<string>): number[] => {
+export const pressStamps = (storyId: string, level: Level, finished: Iterable<number>): number[] => {
   const key = editionKey(storyId, level);
   if (!EDITIONS[key]) return [];
   const state = read();
-  const chapters = doneChapters(storyId, level, doneExercises);
+  const chapters = [...new Set(finished)].filter(n => n >= 1 && n <= EDITIONS[key].chapters.length).sort((a, b) => a - b);
   const firstVisit = !state.seen.includes(key);
   const fresh = chapters.filter(n => state.stamps[stampKey(storyId, level, n)] === undefined);
   if (!fresh.length && !firstVisit) return [];

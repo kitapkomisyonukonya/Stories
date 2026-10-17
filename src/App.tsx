@@ -65,6 +65,7 @@ import { SeyahatnamePanel, type OpenBookTarget } from './components/seyahatname/
 import { StampMoment } from './components/seyahatname/StampMoment';
 import { JOURNAL_COPY } from './components/seyahatname/copy';
 import { pressStamps } from './lib/seyahatname/store';
+import { finishedChapters, listenMarker } from './lib/seyahatname/chapterDone';
 import { setMyWordsBook } from './lib/myWords';
 import { useUserRole } from './contexts/UserRoleContext';
 import { useClassMode } from './contexts/ClassModeContext';
@@ -139,7 +140,7 @@ const AppContent = () => {
 
  
   const { language, setLanguage, t, formatNumber, isRTL } = useLanguage();
-  const { stats, resetStats, hydrateStats } = useStoryProgress();
+  const { stats, resetStats, hydrateStats, trackExerciseComplete } = useStoryProgress();
   const {
     definition: currentDefinition,
     pair: currentBookPair,
@@ -234,13 +235,38 @@ const AppContent = () => {
     setBookProgress(mergeBookProgress(selectedProphetId, currentLevel, { doneExercises: stats.exercisesCompleted }));
   }, [selectedProphetId, currentLevel, stats.exercisesCompleted]);
 
-  // Seyahatname: a chapter's stamp is pressed when its Quick Challenge is done. Progress from before
-  // (the first time a book is opened) is stamped quietly; a new stamp shows its moment.
+  // Starting a chapter's audio is kept with the book's progress: it is one of the things a chapter stamp asks.
   useEffect(() => {
-    if (!selectedProphetId || !currentLevel || !bookProgress) return;
-    const fresh = pressStamps(selectedProphetId, currentLevel, readBookProgress(selectedProphetId, currentLevel).doneExercises);
+    if (!currentBook) return;
+    currentBook.pages.forEach(page => {
+      const quick = page.exercises?.[0];
+      if (page.type === 'story' && quick && stats.audioChaptersPlayed.has(page.id) && !stats.exercisesCompleted.has(listenMarker(quick.id))) {
+        trackExerciseComplete(listenMarker(quick.id));
+      }
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [currentBook, stats.audioChaptersPlayed]);
+
+  // I can ratings live outside the book's progress; a change there may finish a chapter too.
+  const [iCanVersion, setICanVersion] = useState(0);
+  useEffect(() => {
+    const bump = () => setICanVersion(version => version + 1);
+    window.addEventListener('ican:changed', bump);
+    return () => window.removeEventListener('ican:changed', bump);
+  }, []);
+
+  // Seyahatname: a chapter's stamp is pressed when everything its page asks is done, in either language.
+  // Progress from before (the first time a book is opened) is stamped quietly; a new stamp shows its moment.
+  useEffect(() => {
+    if (!selectedProphetId || !currentLevel || !bookProgress || !currentBookPair) return;
+    const done = new Set(readBookProgress(selectedProphetId, currentLevel).doneExercises);
+    const finished = [
+      ...finishedChapters(currentBookPair.en.pages, currentLevel, 'en', done),
+      ...(currentBookPair.ar && currentBookPair.ar !== currentBookPair.en ? finishedChapters(currentBookPair.ar.pages, currentLevel, 'ar', done) : []),
+    ];
+    const fresh = pressStamps(selectedProphetId, currentLevel, finished);
     if (fresh.length) setStampMoment({ storyId: selectedProphetId, level: currentLevel, chapter: fresh[fresh.length - 1] });
-  }, [selectedProphetId, currentLevel, bookProgress]);
+  }, [selectedProphetId, currentLevel, bookProgress, currentBookPair, iCanVersion]);
 
   // The moment belongs to the page where the chapter was finished: turning the page closes it.
   useEffect(() => {

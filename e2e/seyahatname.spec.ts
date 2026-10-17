@@ -5,7 +5,7 @@ import { enterLibrary, isPhone, openPage, trackErrors } from './helpers';
 
 const quick = (prefix: string, n: number) => Array.from({ length: n }, (_, i) => `${prefix}-quick-${i + 1}`);
 
-/** Saved progress: Ibn Jubayr A2 chapters 1 and 2 done, the journal has seen the book and holds chapter 1. */
+/** Saved progress: Ibn Jubayr A2 chapter 2 finished, chapter 3 only half; the journal has seen the book and holds chapter 1. */
 async function seedJournal(page: Page, { allA2 = false, fresh = true } = {}) {
   await page.addInitScript(
     ([items]) => {
@@ -18,7 +18,16 @@ async function seedJournal(page: Page, { allA2 = false, fresh = true } = {}) {
       (() => {
         const items: Record<string, string> = {};
         const progress = (done: string[]) => JSON.stringify({ readPages: [0, 1], doneExercises: done, totalPages: 21 });
-        items['book_progress_ibnJubayr_A2'] = progress(quick('ibnjubayr-a2', 2));
+        // Chapter 2 finished in full (audio started, Quick Challenge, Language Focus, I can);
+        // chapter 3 has only its Quick Challenge, which is not enough for a stamp.
+        items['book_progress_ibnJubayr_A2'] = progress([
+          ...quick('ibnjubayr-a2', 3),
+          'listen:ibnjubayr-a2-quick-2',
+          'ibnjubayr-a2-language-2-when',
+          'ibnjubayr-a2-language-2-goals',
+          'ibnjubayr-a2-language-2-my-dream',
+        ]);
+        items['v2:A2:en:2:A Young Scholar from Granada:ican'] = JSON.stringify({ 0: 'yes', 1: 'almost', 2: 'yes' });
         const stamps: Record<string, number> = { 'ibnJubayr:A2:1': 1 };
         if (!fresh) stamps['ibnJubayr:A2:2'] = 1;
         const seals: Record<string, number> = {};

@@ -10,7 +10,7 @@ const COPY = {
   en: {
     chip: (n: string, total: string) => `${n} of ${total} places stamped`,
     title: 'Stamped places',
-    text: 'A place is stamped when you finish the Quick Challenge of a chapter that takes place there.',
+    text: 'A place is stamped when you finish a chapter that takes place there.',
     chapters: 'Chapter',
     stamped: 'Stamped',
     open: 'Not yet',
@@ -19,7 +19,7 @@ const COPY = {
   ar: {
     chip: (n: string, total: string) => `الْأَمَاكِنُ الْمَخْتُومَةُ: ${n} / ${total}`,
     title: 'الْأَمَاكِنُ الْمَخْتُومَةُ',
-    text: 'يُخْتَمُ الْمَكَانُ عِنْدَمَا تُكْمِلُ التَّحَدِّيَ السَّرِيعَ لِفَصْلٍ تَجْرِي أَحْدَاثُهُ فِيهِ.',
+    text: 'يُخْتَمُ الْمَكَانُ عِنْدَمَا تُكْمِلُ فَصْلًا تَجْرِي أَحْدَاثُهُ فِيهِ.',
     chapters: 'الْفَصْلُ',
     stamped: 'مَخْتُومٌ',
     open: 'لَيْسَ بَعْدُ',

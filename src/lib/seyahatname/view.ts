@@ -101,7 +101,7 @@ export type BadgeId =
   | 'wordChest' | 'threeCollections' | 'weeklyGoal' | 'levelComplete';
 
 export const BADGE_COPY: Record<BadgeId, { en: string; ar: string; howEn: string; howAr: string }> = {
-  firstStamp: { en: 'First stamp', ar: 'الْخَتْمُ الْأَوَّلُ', howEn: 'Finish the Quick Challenge of any chapter.', howAr: 'أَكْمِلِ التَّحَدِّيَ السَّرِيعَ فِي أَيِّ فَصْلٍ.' },
+  firstStamp: { en: 'First stamp', ar: 'الْخَتْمُ الْأَوَّلُ', howEn: 'Finish any chapter: its audio, Quick Challenge, Language Focus and I can.', howAr: 'أَكْمِلْ أَيَّ فَصْلٍ: تَسْجِيلَهُ الصَّوْتِيَّ وَالتَّحَدِّيَ السَّرِيعَ وَالتَّرْكِيزَ اللُّغَوِيَّ وَ«أَسْتَطِيعُ».' },
   firstSeal: { en: 'First book seal', ar: 'أَوَّلُ خَتْمِ كِتَابٍ', howEn: 'Finish the Final Challenge of a book.', howAr: 'أَكْمِلِ التَّحَدِّيَ النِّهَائِيَّ فِي كِتَابٍ.' },
   twoLanguages: { en: 'Two languages, one story', ar: 'لُغَتَانِ وَقِصَّةٌ وَاحِدَةٌ', howEn: 'Do the same chapter’s Quick Challenge in English and in Arabic.', howAr: 'أَكْمِلِ التَّحَدِّيَ السَّرِيعَ لِفَصْلٍ وَاحِدٍ بِالْعَرَبِيَّةِ وَالْإِنْجِلِيزِيَّةِ.' },
   allPlaces: { en: 'Every place on the map', ar: 'كُلُّ أَمَاكِنِ الْخَرِيطَةِ', howEn: 'Stamp every place on one book’s journey map.', howAr: 'اخْتِمْ كُلَّ أَمَاكِنِ خَرِيطَةِ كِتَابٍ وَاحِدٍ.' },
