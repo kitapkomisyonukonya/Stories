@@ -7,7 +7,10 @@ import os
 import re
 import subprocess
 import sys
+import threading
+import time
 import uuid
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Any
 from urllib import error, parse, request
@@ -284,6 +287,35 @@ def load_requests() -> list[dict[str, Any]]:
     return list(latest_by_path.values())
 
 
+def process_item(api_key: str, access_token: str, item: dict[str, Any]) -> str:
+    """Returns "processed" or "skipped"; raises TtsError on failure."""
+    request_id, narration_text, storage_path = validate_request(item)
+    options = voice_options(item)
+    existing = get_object_metadata(access_token, storage_path)
+    existing_custom = (existing or {}).get("metadata") or {}
+
+    if existing_custom.get("storiesTtsRequestId") == request_id:
+        log(f"{request_id}: already processed; skipping.")
+        return "skipped"
+
+    if existing is not None and item.get("allowOverwrite") is not True:
+        raise TtsError(
+            f"{request_id}: target already exists. Set allowOverwrite=true after approval."
+        )
+
+    log(f"{request_id}: generating Rowan narration -> gs://{BUCKET}/{storage_path}")
+    audio = elevenlabs_synthesize(api_key, narration_text, options)
+    uploaded, firebase_url = multipart_upload(
+        access_token, storage_path, audio, existing, request_id
+    )
+    log(
+        f"{request_id}: uploaded generation {uploaded.get('generation', 'unknown')} "
+        f"({len(audio)} bytes)."
+    )
+    log(f"{request_id}: {firebase_url}")
+    return "processed"
+
+
 def main() -> int:
     items = load_requests()
     if not items:
@@ -294,39 +326,46 @@ def main() -> int:
         raise TtsError("ELEVENLABS_API_KEY is not available.")
 
     access_token = get_access_token()
-    processed = 0
-    skipped = 0
+    # A Cloud Build run has a hard time limit, so work in parallel and stop starting new
+    # chapters once the budget is spent. Anything left over is picked up by the next build.
+    workers = max(1, int(os.environ.get("STORIES_TTS_WORKERS", "3")))
+    budget = float(os.environ.get("STORIES_TTS_BUDGET_SECONDS", "600"))
+    started = time.monotonic()
+    stop = threading.Event()
+    counts = {"processed": 0, "skipped": 0, "failed": 0, "deferred": 0}
+    lock = threading.Lock()
 
-    for item in items:
-        request_id, narration_text, storage_path = validate_request(item)
-        options = voice_options(item)
-        existing = get_object_metadata(access_token, storage_path)
-        existing_custom = (existing or {}).get("metadata") or {}
+    def run(item: dict[str, Any]) -> None:
+        if stop.is_set() or time.monotonic() - started > budget:
+            with lock:
+                counts["deferred"] += 1
+            return
+        try:
+            result = process_item(api_key, access_token, item)
+        except TtsError as exc:
+            log(f"FAILED {item.get('id')}: {exc}")
+            with lock:
+                counts["failed"] += 1
+            if "quota" in str(exc).lower():
+                log("ElevenLabs quota exhausted; stopping. The queue is retried on the next build.")
+                stop.set()
+            return
+        with lock:
+            counts[result] += 1
 
-        if existing_custom.get("storiesTtsRequestId") == request_id:
-            log(f"{request_id}: already processed; skipping.")
-            skipped += 1
-            continue
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        list(pool.map(run, items))
 
-        if existing is not None and item.get("allowOverwrite") is not True:
-            raise TtsError(
-                f"{request_id}: target already exists. Set allowOverwrite=true after approval."
-            )
-
-        log(f"{request_id}: generating Rowan narration -> gs://{BUCKET}/{storage_path}")
-        audio = elevenlabs_synthesize(api_key, narration_text, options)
-        uploaded, firebase_url = multipart_upload(
-            access_token, storage_path, audio, existing, request_id
-        )
-        log(
-            f"{request_id}: uploaded generation {uploaded.get('generation', 'unknown')} "
-            f"({len(audio)} bytes)."
-        )
-        log(f"{request_id}: {firebase_url}")
-        processed += 1
-
-    log(f"Complete. processed={processed}, skipped={skipped}")
-    return 0
+    log(
+        "Complete. "
+        f"processed={counts['processed']}, skipped={counts['skipped']}, "
+        f"failed={counts['failed']}, deferred={counts['deferred']}"
+    )
+    # Deferred chapters must keep the queue "unfinished", so the build does not save the
+    # queue hash and the next build carries on with them.
+    if counts["deferred"]:
+        log(f"{counts['deferred']} chapters wait for the next build (time budget spent).")
+    return 1 if counts["failed"] or counts["deferred"] else 0
 
 
 if __name__ == "__main__":
