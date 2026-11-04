@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { SCORM, scormMediaFile } from '../scorm/config';
 
 // Chapter pictures and covers are full-size PNGs in Firebase Storage (they are made for print).
 // The app shows a 1200 px wide WebP copy made by its own server (deploy/server.mjs, /media-image);
@@ -7,6 +8,8 @@ const STORAGE_PREFIX = 'https://firebasestorage.googleapis.com/v0/b/gen-lang-cli
 
 export const appImage = (url: string | undefined, width = 1200): string => {
   if (!url) return '';
+  // SCORM package: the copy inside the package, else the original (an LMS has no /media-image).
+  if (SCORM) return scormMediaFile(url) ?? url;
   if (import.meta.env.DEV || !url.startsWith(STORAGE_PREFIX)) return url;
   return `/media-image?w=${width}&src=${encodeURIComponent(url)}`;
 };

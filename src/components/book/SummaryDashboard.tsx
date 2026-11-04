@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { SCORM } from '../../scorm/config';
 import { suggestNextBook, type NextBookReason } from '../../lib/nextBook';
 import { useMyWords } from '../../lib/myWords';
 import { MyWordsPanel } from './MyWordsPanel';
@@ -147,7 +148,8 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
   );
 
   const nextRecommendation = useMemo(
-    () => suggestNextBook(currentStoryId, bookData.level, isArabic ? 'ar' : 'en', finalScore),
+    // A SCORM package holds one book, so it suggests no next one.
+    () => (SCORM ? null : suggestNextBook(currentStoryId, bookData.level, isArabic ? 'ar' : 'en', finalScore)),
     // Worked out once when the summary opens, so it does not change under the reader.
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [currentStoryId, bookData.level, isArabic],
@@ -697,14 +699,16 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
         )}
 
         <section className="mt-6 overflow-hidden rounded-[30px] border border-white/8 bg-white/[0.035]">
-          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_360px]">
+          <div className={SCORM ? "grid grid-cols-1" : "grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_360px]"}>
             <div className="p-6 sm:p-8">
               <p className="text-[11px] font-semibold uppercase tracking-[0.2em]" style={{ color: visual.accentBright }}>
                 {copy.continue}
               </p>
-              <h3 className="mt-2 font-display text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
-                {copy.nextLevel}
-              </h3>
+              {!SCORM && (
+                <h3 className="mt-2 font-display text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
+                  {copy.nextLevel}
+                </h3>
+              )}
 
               {nextRecommendation && (
                 <div className="mt-6 flex items-center gap-4">
@@ -762,7 +766,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
               </div>
             </div>
 
-            <div className="flex items-center justify-center border-t border-white/8 bg-black/10 p-6 lg:border-s lg:border-t-0">
+            {!SCORM && <div className="flex items-center justify-center border-t border-white/8 bg-black/10 p-6 lg:border-s lg:border-t-0">
               <button
                 type="button"
                 onClick={onFinish}
@@ -771,7 +775,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
                 <Library size={18} style={{ color: visual.accentBright }} />
                 {copy.library}
               </button>
-            </div>
+            </div>}
           </div>
         </section>
       </div>

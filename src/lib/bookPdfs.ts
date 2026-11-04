@@ -4,6 +4,8 @@
  * the Teacher's Book and the Self-Study Guide. They are built outside the app from the book data; Ibn Jubayr has an English
  * edition only.
  */
+import { appFileUrl } from '../scorm/config';
+
 export type BookPdfKind = 'story' | 'story-only' | 'story-activities' | 'teachers-book' | 'self-study-guide';
 
 /** The three story books, in the order of the menu. */
@@ -14,7 +16,7 @@ const ENGLISH_ONLY = new Set(['ibnJubayr']);
 
 export const bookPdfUrl = (storyId: string, level: string, language: string, kind: BookPdfKind) => {
   const lang = language === 'ar' && !ENGLISH_ONLY.has(storyId) ? 'ar' : 'en';
-  return `/pdfs/books/${SLUGS[storyId] ?? storyId}-${level.toLowerCase()}-${lang}-${kind}.pdf`;
+  return appFileUrl(`/pdfs/books/${SLUGS[storyId] ?? storyId}-${level.toLowerCase()}-${lang}-${kind}.pdf`);
 };
 
 export const BOOK_PDF_LABELS: Record<'en' | 'ar', Record<BookPdfKind, string> & { heading: string; hint: string; button: string }> = {

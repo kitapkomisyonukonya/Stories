@@ -67,6 +67,10 @@ npm run build
 
 Each book has five PDFs per level and language (`src/lib/bookPdfs.ts`). They are not in this repository: they live in the Cloudflare R2 bucket `from-language-to-culture` under `books/<name>.pdf`, and the server answers `/pdfs/books/<name>.pdf` with a redirect to `PDF_BASE_URL` (set by `_PDF_BASE_URL` in both Cloud Build files). After the PDFs are rebuilt into `public/pdfs/books/` (ignored by git), `bash scripts/r2/upload-pdfs.sh` uploads them. The short usage-guide PDFs (`public/pdfs/guides/`) stay in the app. The About page's media kit (brand guide, visual style guide, logo ZIP) lives in the same bucket under `media-kit/` and is served the same way from `/pdfs/media-kit/<name>`. Its sources are in the project's shared folder (`medya-paketi/`); after a rebuild, upload the files under the same names with the Cloudflare R2 API.
 
+## SCORM packages
+
+One book can be packed for an LMS as a SCORM 1.2 zip, one per language: `npm install --no-save sharp@0.34.5` once, then `node scripts/scorm/build.mjs yunusEmre A2 en ar`. The zips land in `dist-scorm/` (ignored by git). The package opens straight into that book (no access code, role choice or library), reports the page, the progress, the Final Challenge score and "completed" (every chapter opened and the Final Challenge finished) to the LMS (`src/scorm/runtime.ts`), and carries 1200 px copies of the chapter pictures. Narration streams from Firebase Storage and book PDFs open from R2, so the learner needs internet. The normal app is unchanged: everything SCORM-only checks `SCORM` from `src/scorm/config.ts`, which is null outside `vite.scorm.config.ts`.
+
 ## Preview deployment
 
 The `preview` branch is connected to Cloud Build through `cloudbuild.preview.yaml`. Preview deployment builds the application and deploys it to the `stories-preview` Cloud Run service.

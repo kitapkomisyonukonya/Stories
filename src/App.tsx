@@ -72,14 +72,22 @@ import { useUserRole } from './contexts/UserRoleContext';
 import { useClassMode } from './contexts/ClassModeContext';
 import { saveBookOffline } from './lib/pwa';
 import { OFFLINE_BOOK_SIZE_MB } from './data/offlineBookSizes';
+import { SCORM, isScormBook } from './scorm/config';
+import { reportPage, reportResult, reportProgress, scormResumePage } from './scorm/runtime';
 
 const AppContent = () => {
   // --- State ---
-  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(hasAccessCode);
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(() => Boolean(SCORM) || hasAccessCode());
   const { role, isTeacher } = useUserRole();
   const { classMode, setClassMode } = useClassMode();
   // A shared or reloaded link like #/mecca/a2/5 opens that book at that page.
-  const [initialRoute] = useState(() => parseHashRoute(window.location.hash));
+  const [initialRoute] = useState<HashRoute | null>(() => {
+    const fromHash = parseHashRoute(window.location.hash);
+    if (!SCORM) return fromHash;
+    // A SCORM package opens only its own book, at the page the LMS saved last time.
+    if (fromHash && isScormBook(fromHash.storyId, fromHash.level)) return fromHash;
+    return { storyId: SCORM.storyId, level: SCORM.level, pageIndex: scormResumePage() ?? 0 };
+  });
   const [selectedProphetId, setSelectedProphetId] = useState<string | null>(initialRoute?.storyId ?? null);
   const [currentLevel, setCurrentLevel] = useState<Level | null>(initialRoute?.level ?? null);
   const [currentPageIndex, setCurrentPageIndex] = useState(initialRoute?.pageIndex ?? 0);
@@ -236,6 +244,20 @@ const AppContent = () => {
     setBookProgress(mergeBookProgress(selectedProphetId, currentLevel, { doneExercises: stats.exercisesCompleted }));
   }, [selectedProphetId, currentLevel, stats.exercisesCompleted]);
 
+  // SCORM edition: the LMS hears where the learner is, the book's progress and, at the summary, completion and score.
+  useEffect(() => {
+    if (SCORM && !showSummary) reportPage(currentPageIndex);
+  }, [currentPageIndex, showSummary]);
+  useEffect(() => {
+    if (SCORM && bookProgress) reportProgress(bookProgress);
+  }, [bookProgress]);
+  useEffect(() => {
+    if (!SCORM || !showSummary || !currentBook) return;
+    const read = new Set(readBookProgress(SCORM.storyId, SCORM.level).readPages);
+    const allChaptersRead = currentBook.pages.every((page, index) => page.type !== 'story' || read.has(index));
+    reportResult(stats.finalScore, allChaptersRead);
+  }, [showSummary, stats.finalScore, currentBook]);
+
   // Starting a chapter's audio is kept with the book's progress: it is one of the things a chapter stamp asks.
   useEffect(() => {
     if (!currentBook) return;
@@ -386,7 +408,7 @@ const AppContent = () => {
   useEffect(() => { setOfflineSaveState('idle'); }, [currentBookPair]);
   const offlineBookSizeMb = selectedProphetId && currentLevel ? OFFLINE_BOOK_SIZE_MB[`${selectedProphetId}:${currentLevel}`] : undefined;
   const offlineBookHasAudio = Boolean(currentBookPair?.en.pages.some(page => page.type === 'story' && page.audioUrl));
-  const canSaveOffline = import.meta.env.PROD && typeof navigator !== 'undefined' && 'serviceWorker' in navigator;
+  const canSaveOffline = !SCORM && import.meta.env.PROD && typeof navigator !== 'undefined' && 'serviceWorker' in navigator;
   const handleSaveOffline = () => {
     if (!currentBookPair || offlineSaveState === 'saving') return;
     const urls = new Set<string>();
@@ -475,6 +497,8 @@ const AppContent = () => {
     level: Level,
     options?: { resume?: boolean; pageIndex?: number },
   ) => {
+    // The SCORM edition holds one book; links to other books do nothing there.
+    if (SCORM && !isScormBook(prophetId, level)) return;
     setSelectedProphetId(prophetId);
     setCurrentLevel(level);
     setCurrentPageIndex(
@@ -488,6 +512,13 @@ const AppContent = () => {
 
 
   const handleReturnToLibrary = () => {
+    if (SCORM) {
+      // No library inside an LMS package: "back to the library" goes to the book's first page.
+      setCurrentPageIndex(0);
+      setIsMenuOpen(false);
+      setShowSummary(false);
+      return;
+    }
     setSelectedProphetId(null);
     setCurrentLevel(null);
     setCurrentPageIndex(0);
@@ -928,7 +959,7 @@ const AppContent = () => {
                 </>
               )}
 
-              <button 
+              {!SCORM && <button 
                 onClick={handleReturnToLibrary}
                 className={cn(
                   "ui-control max-sm:hidden",
@@ -938,7 +969,7 @@ const AppContent = () => {
                 aria-label={t('nav.returnToLibrary')}
               >
                 <Home className="h-4 w-4 sm:h-5 sm:w-5" />
-              </button>
+              </button>}
             </div>
           </div>
 
@@ -1288,13 +1319,13 @@ const AppContent = () => {
               </div>
 
               <div className="mt-7 space-y-2">
-                <button 
+                {!SCORM && <button 
                   onClick={handleReturnToLibrary}
                   className={cn("touch-target flex w-full items-center gap-4 rounded-xl px-4 text-parchment transition-colors", themeClasses.menuHoverBg)}
                 >
                   <Home size={21} className={themeClasses.menuAccentText} />
                   <span className="font-display text-[14px] sm:text-[15px] font-semibold">{t('nav.libraryHome')}</span>
-                </button>
+                </button>}
                 {/* Phones: the language switch lives here instead of the crowded header. */}
                 {isPhone && !isFinalChallengePage && !isEnglishOnlyBook && (
                   <button

@@ -1,4 +1,5 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
+import { SCORM } from '../scorm/config';
 
 /**
  * Student, teacher or self-learner: a preference stored on the device, not an account.
@@ -11,9 +12,11 @@ const STORAGE_KEY = 'app_user_role';
 const readStoredRole = (): UserRole | null => {
   try {
     const value = localStorage.getItem(STORAGE_KEY);
-    return value === 'student' || value === 'teacher' || value === 'self' ? value : null;
+    if (value === 'student' || value === 'teacher' || value === 'self') return value;
+    // The SCORM edition skips the role choice: an LMS learner is a student.
+    return SCORM ? 'student' : null;
   } catch {
-    return null;
+    return SCORM ? 'student' : null;
   }
 };
 

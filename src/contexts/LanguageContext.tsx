@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { SCORM } from '../scorm/config';
 import { defaultLanguageCode, formatNumberIn, languageCodes, languageSetting } from '../content/languages';
 
 type Language = 'en' | 'ar';
@@ -1413,6 +1414,8 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     // A printed book's QR code says which edition it belongs to (?lang=en or ?lang=ar).
     const fromLink = new URLSearchParams(window.location.search).get('lang');
     if (isLanguage(fromLink)) return fromLink;
+    // A SCORM package opens in its own language.
+    if (SCORM) return SCORM.language;
     const stored = localStorage.getItem('app_language');
     if (isLanguage(stored)) return stored;
     const fromBrowser = languageCodes.find(code => navigator.language?.toLowerCase().startsWith(code));

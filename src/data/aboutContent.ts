@@ -1,3 +1,4 @@
+import { appFileUrl } from '../scorm/config';
 /**
  * About & Sources page content. The About texts and the team come from the approved
  * MEB presentation (v61) and the project's media kit. The source list is a draft compiled
@@ -314,7 +315,7 @@ export const mediaKit = {
         en: 'The project’s name, introduction texts, logo and its rules of use, colour codes and typefaces.',
         ar: 'اسم المشروع ونصوصه التعريفية والشعار وقواعد استخدامه ورموز الألوان والخطوط.',
       },
-      href: '/pdfs/media-kit/lisandan-kulture-marka-rehberi.pdf',
+      href: appFileUrl('/pdfs/media-kit/lisandan-kulture-marka-rehberi.pdf'),
       kind: 'PDF',
       size: '4,7 MB',
     },
@@ -326,7 +327,7 @@ export const mediaKit = {
         en: 'The illustration style of each story, sample pictures from every level and the visual principles followed in all pictures.',
         ar: 'أساليب الرسم لكل قصة، ونماذج من رسوم كل مستوى، والمبادئ البصرية المتّبعة في جميع الرسوم.',
       },
-      href: '/pdfs/media-kit/lisandan-kulture-gorsel-dil-rehberi.pdf',
+      href: appFileUrl('/pdfs/media-kit/lisandan-kulture-gorsel-dil-rehberi.pdf'),
       kind: 'PDF',
       size: '9,3 MB',
     },
@@ -338,7 +339,7 @@ export const mediaKit = {
         en: 'High-resolution PNG files of the logo and logotype on a transparent background, with the collection icons.',
         ar: 'ملفات PNG عالية الدقّة بخلفية شفافة للشعار والشعار النصّي، مع أيقونات المجموعات.',
       },
-      href: '/pdfs/media-kit/lisandan-kulture-logo-dosyalari.zip',
+      href: appFileUrl('/pdfs/media-kit/lisandan-kulture-logo-dosyalari.zip'),
       kind: 'ZIP',
       size: '3,5 MB',
     },

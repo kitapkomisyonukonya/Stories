@@ -19,6 +19,8 @@ import { registerServiceWorker } from './lib/pwa';
 import { startTelemetry } from './lib/telemetry';
 import { preloadDeferredChunks } from './lib/preloadDeferred';
 import { PageErrorBoundary } from './components/ui/PageErrorBoundary';
+import { SCORM } from './scorm/config';
+import { startScorm } from './scorm/runtime';
 
 // Arabic readers: start loading both Arakom faces now, before the first Arabic text asks for them.
 try {
@@ -52,8 +54,13 @@ window.setTimeout(() => {
   sessionStorage.removeItem(CHUNK_RELOAD_KEY);
 }, 30_000);
 
-registerServiceWorker();
-startTelemetry();
+// The SCORM edition runs inside an LMS: no service worker and no reports to our server.
+if (SCORM) {
+  startScorm();
+} else {
+  registerServiceWorker();
+  startTelemetry();
+}
 preloadDeferredChunks();
 
 createRoot(document.getElementById('root')!).render(

@@ -4,6 +4,7 @@
  * Plain data (no React) so the PDF build can read it too.
  */
 import type { UserRole } from '../contexts/UserRoleContext';
+import { appFileUrl } from '../scorm/config';
 
 /** Names of icons in src/components/ui/icons.tsx. */
 export type UsageGuideIcon =
@@ -44,7 +45,7 @@ export const USAGE_GUIDE_FILES: Record<UserRole, string> = {
 };
 
 /** The printable copy, served by the app: /pdfs/guides/teacher-guide-en.pdf and so on. */
-export const usageGuidePdfUrl = (role: UserRole, lang: UsageGuideLang) => `/pdfs/guides/${USAGE_GUIDE_FILES[role]}-${lang}.pdf`;
+export const usageGuidePdfUrl = (role: UserRole, lang: UsageGuideLang) => appFileUrl(`/pdfs/guides/${USAGE_GUIDE_FILES[role]}-${lang}.pdf`);
 
 export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> = {
   teacher: {
