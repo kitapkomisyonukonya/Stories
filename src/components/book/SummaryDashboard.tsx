@@ -262,6 +262,20 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
       };
 
   const canDoItems = useMemo(() => {
+    if (bookData.level === 'A1') {
+      return isArabic
+        ? [
+            'تَفْهَمُ قِصَّةً قَصِيرَةً وَسَهْلَةً فِي فُصُولٍ قَصِيرَةٍ.',
+            'تَعْرِفُ كَلِمَاتٍ جَدِيدَةً مِنَ الْقِصَّةِ.',
+            'تُجِيبُ عَنْ أَسْئِلَةٍ بَسِيطَةٍ عَنِ الْقِصَّةِ.',
+          ]
+        : [
+            'You can understand a short, easy story in short chapters.',
+            'You know some new words from the story.',
+            'You can answer simple questions about the story.',
+          ];
+    }
+
     if (bookData.level === 'A2') {
       return isArabic
         ? [

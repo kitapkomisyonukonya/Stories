@@ -147,7 +147,7 @@ export const ExercisePage = ({
   const useStart = noticeCount + buildCount;
   const reviewStageIndex = reviewIndex < buildStart ? 0 : reviewIndex < useStart ? 1 : 2;
   const reviewStageStarts = [0, buildStart, useStart];
-  const reviewStageLabels = level === 'A2'
+  const reviewStageLabels = (level === 'A1' || level === 'A2')
     ? (isArabic ? ['انظر', 'تدرّب', 'استخدم'] : ['Look', 'Practice', 'Use'])
     : (isArabic ? ['لاحظ', 'طبّق', 'استخدم'] : ['Notice', 'Build', 'Use']);
 
@@ -269,6 +269,7 @@ export const ExercisePage = ({
                   userAnswers={userAnswers} 
                   handleAnswer={handleAnswer} 
                   collectionId={collectionId}
+                  level={level}
                   onComplete={(exerciseIds) => exerciseIds.forEach(trackExerciseComplete)}
                   onNextPage={onNextPage}
                   nextPageLabel={nextPageLabel}

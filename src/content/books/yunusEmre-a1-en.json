@@ -1099,14 +1099,11 @@
      "baseMap": "anatolia",
      "home": {
       "west": 25.5,
-      "east": 49,
-      "south": 32.5,
+      "east": 45.5,
+      "south": 34.5,
       "north": 43.5
      },
-     "overlays": [
-      "seljuk-1243",
-      "mongol-1243"
-     ],
+     "overlays": [],
      "features": {
       "timeSlider": true,
       "tour": true,
@@ -1118,15 +1115,11 @@
       "lastYear": 1320,
       "birth": 1240
      },
-     "legend": {
-      "seljuk-1243": "Anatolian Seljuk lands",
-      "seljuk-pressure": "Anatolian Seljuk lands under Mongol pressure",
-      "mongol-1243": "Mongol army, 1242–1243"
-     },
+     "legend": {},
      "age": {
       "born": "Yunus Emre is born.",
-      "alive": "Yunus Emre is about {years} old.",
-      "died": "Yunus Emre dies. He is about {years} old."
+      "alive": "Yunus Emre is {years} years old.",
+      "died": "Yunus Emre dies. He is {years} years old."
      },
      "routes": [],
      "places": [
@@ -1142,7 +1135,7 @@
        "kind": "Region",
        "text": "Yunus Emre was born in Anatolia in 1240. He died in 1320. Today, Anatolia is a part of Türkiye.",
        "teacherNote": "Many towns say they have the grave of Yunus Emre. Do not show one place as certain.",
-       "question": "Which country is Anatolia a part of today?"
+       "question": "Where is Anatolia today?"
       },
       {
        "id": "konya",
@@ -1154,82 +1147,12 @@
        "labelSide": "bottom",
        "name": "Konya",
        "kind": "City",
-       "text": "Konya was the capital city of the Anatolian Seljuks. Mevlana lived here and died here in 1273. Yunus Emre lived at the same time.",
+       "text": "Mevlana lived in Konya. He died here in 1273. Yunus Emre lived at the same time.",
        "teacherNote": "Chapter 1 says Yunus was 33 or 34 years old when Mevlana died.",
-       "question": "How old was Yunus Emre in 1273? Move the slider to check."
-      },
-      {
-       "id": "kosedag",
-       "entityId": "yunus-kosedag",
-       "lon": 38.05,
-       "lat": 40.1,
-       "icon": "swords",
-       "tone": "event",
-       "labelSide": "top",
-       "name": "Kösedağ, 1243",
-       "kind": "Battle",
-       "text": "In 1243, the Anatolian Seljuk army fought the Mongol army here. The Anatolian Seljuks lost. After that, life in Anatolia became very hard. Yunus Emre was only three years old.",
-       "teacherNote": "The exact battlefield is not known. Sources place it near Kösedağ, about 80 km northeast of Sivas. The B1 and B2 books tell this event in detail.",
-       "question": "What happened in Anatolia after 1243?"
-      },
-      {
-       "id": "syria",
-       "entityId": "yunus-syria",
-       "lon": 37.3,
-       "lat": 34.9,
-       "icon": "route",
-       "tone": "place",
-       "areaRadiusKm": 230,
-       "labelSide": "right",
-       "name": "Syria",
-       "kind": "Region",
-       "text": "Yunus Emre traveled to Syria. Big cities like Aleppo and Damascus were there.",
-       "teacherNote": "In the 13th century, Syria (al-Sham) was a larger region than the country today.",
-       "question": "Which two big cities can you see in Syria?"
-      },
-      {
-       "id": "azerbaijan",
-       "entityId": "yunus-azerbaijan",
-       "lon": 46.29,
-       "lat": 38.08,
-       "icon": "route",
-       "tone": "place",
-       "areaRadiusKm": 150,
-       "labelSide": "top",
-       "name": "Azerbaijan",
-       "kind": "Region",
-       "text": "Yunus Emre also traveled to Azerbaijan. At that time, Azerbaijan was the land around the city of Tabriz. The Mongol army came to Anatolia from here.",
-       "teacherNote": "Medieval Azerbaijan is mostly in north-west Iran today. It is not the same as the modern Republic of Azerbaijan.",
-       "question": "Which army came to Anatolia from this land?"
+       "question": "How old was Yunus Emre in 1273? Move the slider."
       }
      ],
-     "towns": [
-      {
-       "id": "sivas",
-       "lon": 37.02,
-       "lat": 39.75,
-       "labelSide": "bottom",
-       "name": "Sivas"
-      },
-      {
-       "id": "erzurum",
-       "lon": 41.27,
-       "lat": 39.9,
-       "name": "Erzurum"
-      },
-      {
-       "id": "aleppo",
-       "lon": 37.16,
-       "lat": 36.2,
-       "name": "Aleppo"
-      },
-      {
-       "id": "damascus",
-       "lon": 36.29,
-       "lat": 33.51,
-       "name": "Damascus"
-      }
-     ],
+     "towns": [],
      "seas": [
       {
        "id": "blackSea",
@@ -1260,16 +1183,6 @@
        "label": "Yunus is born"
       },
       {
-       "year": 1243,
-       "placeId": "kosedag",
-       "camera": {
-        "lon": 41.5,
-        "lat": 39.6,
-        "zoom": 1.7
-       },
-       "label": "Kösedağ"
-      },
-      {
        "year": 1273,
        "placeId": "konya",
        "camera": {
@@ -1287,17 +1200,13 @@
        "year": 1320,
        "placeId": "anatolia",
        "camera": {
-        "lon": 38.6,
-        "lat": 37.6,
-        "zoom": 1.05
+        "lon": 34.5,
+        "lat": 39.2,
+        "zoom": 1.3
        },
        "scene": {
-        "kind": "journey",
-        "fromId": "anatolia",
-        "toIds": [
-         "syria",
-         "azerbaijan"
-        ]
+        "kind": "dawn",
+        "placeId": "anatolia"
        },
        "label": "Yunus dies"
       }
@@ -1308,35 +1217,14 @@
        "lon": 33.6,
        "lat": 39,
        "radiusKm": 330,
-       "prompt": "Find Anatolia, the home of Yunus Emre."
+       "prompt": "Find Anatolia. Yunus Emre was born here."
       },
       {
        "id": "konya",
        "lon": 32.49,
        "lat": 37.87,
        "radiusKm": 110,
-       "prompt": "Find Konya. It was the capital city of the Anatolian Seljuks."
-      },
-      {
-       "id": "syria",
-       "lon": 37.3,
-       "lat": 34.9,
-       "radiusKm": 230,
-       "prompt": "Find Syria. Aleppo and Damascus were there."
-      },
-      {
-       "id": "azerbaijan",
-       "lon": 46.29,
-       "lat": 38.08,
-       "radiusKm": 170,
-       "prompt": "Find Azerbaijan. It is east of Anatolia."
-      },
-      {
-       "id": "kosedag",
-       "lon": 38.05,
-       "lat": 40.1,
-       "radiusKm": 110,
-       "prompt": "Find Kösedağ. It is about 80 km northeast of Sivas."
+       "prompt": "Find Konya. Mevlana lived here."
       }
      ]
     }

@@ -81,7 +81,7 @@ export const MasterGlossary: React.FC<MasterGlossaryProps> = ({
   const isPhone = useIsPhone();
 
   const copy = useMemo(() => {
-    const isA2 = String(bookData.level).toUpperCase() === 'A2';
+    const isA2 = ['A1', 'A2'].includes(String(bookData.level).toUpperCase());
 
     if (isRTL) {
       return isA2

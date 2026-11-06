@@ -453,7 +453,7 @@ const AppContent = () => {
     progressTrack: "bg-accent/10",
     progressBar: "bg-accent",
     percentageText: "text-accent/80",
-    mainBg: !showSummary && (currentLevel === 'A2' || currentLevel === 'B1' ? "bg-page/95" : "bg-page-deep/95"),
+    mainBg: !showSummary && (currentLevel === 'A1' || currentLevel === 'A2' || currentLevel === 'B1' ? "bg-page/95" : "bg-page-deep/95"),
     cardBorder: "border-accent/20",
     navButton: "bg-accent-strong border-accent text-white hover:brightness-110 hover:scale-110",
     goldText: "text-accent",

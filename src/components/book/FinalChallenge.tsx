@@ -318,7 +318,7 @@ export const FinalChallenge: React.FC<FinalChallengeProps> = ({ bookData, onComp
             {t('nav.finalChallenge')}
           </h2>
           <p className={cn('font-serif text-wood/65 mt-3 leading-relaxed', isArabic ? 'text-base sm:text-lg md:text-xl' : 'text-sm sm:text-base md:text-lg')}>
-            {t('nav.finalChallengeIntro')}
+            {bookData.level === 'A1' && !isArabic ? 'This is the end of the story. Now try the last challenge.' : t('nav.finalChallengeIntro')}
           </p>
         </div>
 

@@ -274,16 +274,16 @@ export const VocabularyMatch = ({ pairs, level, onReviewGlossary, onComplete, on
   const copy = isArabic
     ? {
         title: 'تحدي المفردات',
-        subtitle: level === 'A2'
+        subtitle: (level === 'A1' || level === 'A2')
           ? 'طابق الكلمات، ثم ابحث عنها في القصة، ثم تذكّرها.'
           : 'من المعنى إلى السياق ثم الاسترجاع.',
-        match: level === 'A2' ? 'طابق' : 'المطابقة',
-        context: level === 'A2' ? 'في القصة' : 'في السياق',
-        recall: level === 'A2' ? 'تذكّر واستخدم' : 'الاسترجاع والاستخدام',
-        contextHint: level === 'A2'
+        match: (level === 'A1' || level === 'A2') ? 'طابق' : 'المطابقة',
+        context: (level === 'A1' || level === 'A2') ? 'في القصة' : 'في السياق',
+        recall: (level === 'A1' || level === 'A2') ? 'تذكّر واستخدم' : 'الاسترجاع والاستخدام',
+        contextHint: (level === 'A1' || level === 'A2')
           ? 'اختر الكلمة المناسبة لجملة القصة.'
           : 'اختر الكلمة التي تناسب سياق القصة.',
-        recallHint: level === 'A2'
+        recallHint: (level === 'A1' || level === 'A2')
           ? 'اختر الكلمة التي تعبّر عن المعنى.'
           : level === 'B1'
           ? 'اكتب الكلمة الناقصة مستعينًا بالتلميح.'
@@ -308,16 +308,16 @@ export const VocabularyMatch = ({ pairs, level, onReviewGlossary, onComplete, on
       }
     : {
         title: 'Vocabulary Challenge',
-        subtitle: level === 'A2'
+        subtitle: (level === 'A1' || level === 'A2')
           ? 'Match the words, find them in the story, then remember them.'
           : 'Move from meaning recognition to story context and active recall.',
         match: 'Match',
-        context: level === 'A2' ? 'In the Story' : 'In Context',
-        recall: level === 'A2' ? 'Remember & Use' : 'Recall & Use',
-        contextHint: level === 'A2'
+        context: (level === 'A1' || level === 'A2') ? 'In the Story' : 'In Context',
+        recall: (level === 'A1' || level === 'A2') ? 'Remember & Use' : 'Recall & Use',
+        contextHint: (level === 'A1' || level === 'A2')
           ? 'Choose the word that fits the story sentence.'
           : 'Choose the word that best fits the story context.',
-        recallHint: level === 'A2'
+        recallHint: (level === 'A1' || level === 'A2')
           ? 'Choose the target word that matches the meaning.'
           : level === 'B1'
           ? 'Type the missing word with a small retrieval cue.'
@@ -358,7 +358,7 @@ export const VocabularyMatch = ({ pairs, level, onReviewGlossary, onComplete, on
 
   const currentContext = contextItems[contextIndex];
   const contextOptions = currentContext
-    ? optionWords(currentContext, contextIndex, level === 'A2' ? 3 : 4)
+    ? optionWords(currentContext, contextIndex, (level === 'A1' || level === 'A2') ? 3 : 4)
     : [];
   const contextPrompt = currentContext
     ? (maskWord(currentContext.context, currentContext.word) || currentContext.meaning)

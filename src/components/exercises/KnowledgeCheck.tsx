@@ -190,6 +190,7 @@ export const KnowledgeCheck = ({
   onComplete,
   onNextPage,
   nextPageLabel,
+  level,
 }: Props) => {
   const { t, formatNumber, language } = useLanguage();
   const isArabic = language === 'ar';
@@ -343,6 +344,8 @@ export const KnowledgeCheck = ({
               <p className={cn('font-serif text-wood/70 mt-2 max-w-2xl leading-relaxed', isArabic ? 'text-base sm:text-lg' : 'text-sm sm:text-base')}>
                 {isArabic
                   ? 'اختبر فهمك للعلاقات والأحداث والأفكار الرئيسة في الكتاب كله.'
+                  : level === 'A1'
+                  ? 'Answer questions about the whole story.'
                   : 'Check your understanding of the key relationships, events and ideas across the whole book.'}
               </p>
             </div>

@@ -232,6 +232,8 @@ const finalizePreparedLanguage = (
         title: language === 'ar' ? 'تحدي المفردات' : 'Vocabulary Challenge',
         content: language === 'ar'
           ? `تدرّب على ${vocabularyPairs.length} ${vocabularyPairs.length <= 10 ? 'كلمات' : 'كلمة'} مستهدفة عبر المطابقة والسياق والاسترجاع.`
+          : book.level === 'A1'
+          ? `Learn ${vocabularyPairs.length} words from the story. Match them and use them.`
           : `Practise ${vocabularyPairs.length} target words through matching, context and recall.`,
         vocabularyPairs,
       };
@@ -239,11 +241,13 @@ const finalizePreparedLanguage = (
 
     if (page.type === 'exercises') {
       const content = language === 'ar'
-        ? book.level === 'A2'
+        ? book.level === 'A1' || book.level === 'A2'
           ? 'راجع لغة القصة بخطوات بسيطة: انظر، تدرّب، ثم استخدمها.'
           : book.level === 'B1'
           ? 'راجع تراكيب القواعد وروابط المعنى واللغة التواصلية من الكتاب كله، ثم استخدمها في سياقات جديدة.'
           : 'راجع تراكيب القواعد والموقف والتماسك ولغة الخطاب من الكتاب كله، ثم استخدمها بدقة في سياقات جديدة.'
+        : book.level === 'A1'
+        ? 'Look at words from the story. Practice them. Then use them.'
         : book.level === 'A2'
         ? 'Review the story language in simple steps: look, practise, then use it.'
         : book.level === 'B1'
