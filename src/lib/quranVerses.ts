@@ -17,6 +17,10 @@ const EXTRA: Record<string, Record<number, [string, string][]>> = {
     11: [['And there came a man', 'who are wrongdoers!”']],
     17: [['“Verily, the Hour is coming', 'as an arrogant tyrant).”']],
   },
+  'adam-A1': {
+    2: [['“I am better than Adam', 'Adam from soil.”']],
+    3: [['“Do not go near', 'this tree.”']],
+  },
   'adam-B2': {
     2: [['“Your Lord said to the angels', '”']],
     4: [['‘And We said to the angels', 'of the disbelievers.’'], ['‘Except for Satan. He was too proud', 'of the faithless.’'], ['‘O Satan, what prevented you', 'of the exalted?’'], ['‘I am better than he', 'him from clay.’']],
