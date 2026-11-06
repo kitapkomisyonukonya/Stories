@@ -63,6 +63,8 @@ const main = async () => {
     const label = `${definition.storyId} ${definition.level}`;
     try {
       const pair = await definition.load();
+      // A hidden book first goes in as text only (story pages, no exercises yet): nothing to check here.
+      if (pair.en.pages.every(page => page.type === 'story')) { console.log(`[SKIP] ${label} — text only for now`); continue; }
       const en = validateLanguage(pair.en, 'en', label);
       const ar = validateLanguage(pair.ar, 'ar', label);
       const errors = [...en.errors, ...ar.errors];

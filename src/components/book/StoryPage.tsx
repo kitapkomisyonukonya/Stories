@@ -458,7 +458,7 @@ export const StoryPage = ({
         <div className="hidden lg:flex lg:flex-col h-full min-h-0 overflow-y-auto custom-scrollbar ps-0.5 pe-3 xl:pe-4 pb-4">
           <div className="grid grid-cols-12 gap-8 desk:gap-12 items-start">
             {/* Left side: Image */}
-            <div className="col-span-5 self-start lg:sticky lg:top-0 flex items-start gap-3 xl:gap-4">
+            <div className={`${page.image ? 'col-span-5' : 'col-span-1'} self-start lg:sticky lg:top-0 flex items-start gap-3 xl:gap-4`}>
               <ChapterActivityRail
                 page={page}
                 completedExercises={completedExercises}
@@ -508,7 +508,7 @@ export const StoryPage = ({
             </div>
 
             {/* Right side: Story text scrolling content */}
-            <div className="col-span-7">
+            <div className={page.image ? 'col-span-7' : 'col-span-11 max-w-[48rem]'}>
               <div className="w-full max-w-[72ch] desk:max-w-none">
               {renderBeforeYouRead()}
               <div className="relative">
