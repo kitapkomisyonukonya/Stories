@@ -53,6 +53,16 @@ test('the access code and role screens have no serious accessibility problems', 
   await page.evaluate(() => localStorage.setItem('app_access_code', 'stories_enar'));
   await page.reload();
   await expect(page.getByRole('heading', { name: 'How will you use the library?' })).toBeVisible();
+  // The role cards fade in one after another; measure contrast once they have finished, not half-faded.
+  await page.waitForFunction(() => {
+    const options = [...document.querySelectorAll('[data-role-option]')];
+    return options.length > 0 && options.every(option => {
+      for (let node: Element | null = option; node; node = node.parentElement) {
+        if (Number(getComputedStyle(node).opacity) < 0.99) return false;
+      }
+      return true;
+    });
+  });
   violations = (await scan(page)).filter(v => v.impact === 'critical' || v.impact === 'serious');
   expect(violations, JSON.stringify(violations, null, 2)).toEqual([]);
 });
