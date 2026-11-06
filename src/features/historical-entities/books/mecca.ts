@@ -1,6 +1,7 @@
 import { defineEntity } from './define';
 import { medFeature, medPoint } from '../mediterraneanMap';
 import type { EntityBookSet } from './index';
+import type { HistoricalEntity } from '../types';
 
 // Places & People cards for the Mecca Before Islam books (A2, B1, B2), English and Arabic.
 // Generated from the reviewed card list; the chapters are where each level's story
@@ -462,9 +463,40 @@ const entities = [
   }),
 ];
 
+// The A1 book has its own, simpler card words (A1 words, and only what the A1 story says).
+// Maps, pictures and sources are the same as the A2-B2 cards.
+type CardWords = { title: string; kindLabel: string; periodLabel: string; summary: string; more: string };
+const a1Card = (baseId: string, en: CardWords, aliasesEn?: string[]): HistoricalEntity => {
+  const base = entities.find(entity => entity.id === baseId)!;
+  return {
+    ...base,
+    id: baseId.replace(/^mecca-/, 'mecca-a1-'),
+    ...(aliasesEn ? { aliases: { ...base.aliases, en: aliasesEn } } : {}),
+    copy: { ...base.copy, en: { ...base.copy.en, ...en, mapAlt: base.copy.en.mapAlt.replace(base.copy.en.title, en.title) } },
+  };
+};
+
+const a1Entities: HistoricalEntity[] = [
+  a1Card("mecca-mecca-7th-century", { title: "Mecca", kindLabel: "City", periodLabel: "The time of Bilal", summary: "Mecca is a city in a desert. Bilal was born here. Before Islam, life in Mecca was not fair.", more: "The Ka’ba is in Mecca. Muslims visit it today." }),
+  a1Card("mecca-abyssinia", { title: "Ethiopia", kindLabel: "Land", periodLabel: "In Africa", summary: "Ethiopia is a land in Africa. Bilal’s mother was from Ethiopia.", more: "Old books call it Abyssinia." }, ["Ethiopia"]),
+  a1Card("mecca-umayya-ibn-khalaf", { title: "Umayya ibn Khalaf", kindLabel: "Bilal’s master", periodLabel: "The time of Bilal", summary: "Umayya was a rich man in Mecca. He was Bilal’s master. He loved his idols, and he hated Islam. He was very unkind to Bilal.", more: "He sold Bilal to Abu Bakr for some gold." }),
+  a1Card("mecca-medina-7th-century", { title: "Medina", kindLabel: "City", periodLabel: "The time of Bilal", summary: "Medina is a city north of Mecca. The Muslims went to live here. Bilal gave the first Adhan in Medina.", more: "The mosque of the Prophet (pbuh) is in Medina." }),
+  a1Card("mecca-damascus-7th-century", { title: "Damascus", kindLabel: "City", periodLabel: "The time of Bilal", summary: "Damascus is an old city in Syria. Bilal went to Damascus after the Prophet (pbuh) died. He died there.", more: "Today, Damascus is the capital of Syria." }),
+  a1Card("mecca-pre-islamic-arabs", { title: "Arabs", kindLabel: "People", periodLabel: "The time of Bilal", summary: "The Arabs were the people of Mecca and Medina. In his last speech, the Prophet (pbuh) said: Arabs are not better than other people.", more: "Only good actions make a person better." }),
+];
+
 export const MECCA_SET: EntityBookSet = {
-  entities,
+  entities: [...entities, ...a1Entities],
   chapters: {
+    'mecca-a1': {
+      1: ["mecca-a1-mecca-7th-century","mecca-a1-abyssinia"],
+      2: ["mecca-a1-mecca-7th-century","mecca-a1-umayya-ibn-khalaf"],
+      3: ["mecca-a1-umayya-ibn-khalaf"],
+      5: ["mecca-a1-umayya-ibn-khalaf"],
+      6: ["mecca-a1-umayya-ibn-khalaf"],
+      7: ["mecca-a1-medina-7th-century","mecca-a1-mecca-7th-century"],
+      8: ["mecca-a1-damascus-7th-century","mecca-a1-pre-islamic-arabs"],
+    },
     'mecca-a2': {
       1: ["mecca-mecca-7th-century","mecca-abyssinia"],
       2: ["mecca-mecca-7th-century"],
