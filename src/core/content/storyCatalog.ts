@@ -27,7 +27,7 @@ import prophetsIcon from '../../assets/images/prophets_icon.webp';
 import civilizationIcon from '../../assets/images/civilization_icon.webp';
 import scholarsIcon from '../../assets/images/scholars_icon.webp';
 // Temporary mark until the drawn Our World Today emblem arrives.
-import todayIcon from '../../assets/images/today_icon.svg';
+import todayIcon from '../../assets/images/today_icon.webp';
 // Temporary Green Deal cover until the drawn one arrives.
 import greenDealCoverTemp from '../../assets/images/green_deal_cover_temp.webp';
 import greenDealCoverTempSmall from '../../assets/images/green_deal_cover_temp_sm.webp';
