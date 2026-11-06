@@ -1,0 +1,2857 @@
+{
+ "schema": 1,
+ "storyId": "musa",
+ "level": "A1",
+ "language": "en",
+ "collection": "prophets",
+ "book": {
+  "id": "moses-a1-en",
+  "title": "Prophet Moses (pbuh): The Cruel King and the Sea (A1)",
+  "level": "A1",
+  "baseFontSize": 13,
+  "pages": [
+   {
+    "id": 1,
+    "type": "story",
+    "title": "The Cruel King",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter1.png?alt=media",
+    "content": "Moses (pbuh) was a great Messenger of Allah. He lived in Egypt more than 3,000 years ago. The king of Egypt was Pharaoh. He was a cruel king. He did not believe in Allah. He said, “I am your god.”\n\nA big group of people lived in Egypt. They were the Children of Israel. They believed in Allah. The king was afraid of them. He made them work very hard for no money.\n\nOne night, the king had a bad dream. His men told him, “A boy from the Children of Israel will take your country from you.” The king was angry. He said, “Take all the baby boys of the Children of Israel away.”",
+    "vocabulary": [
+     {
+      "word": "Egypt",
+      "definition": "__historical_entity__:moses-a1-egypt-ancient"
+     },
+     {
+      "word": "king",
+      "definition": "The man who rules a country."
+     },
+     {
+      "word": "cruel",
+      "definition": "Very bad and unkind to others."
+     },
+     {
+      "word": "believe",
+      "definition": "Think that something is true."
+     },
+     {
+      "word": "afraid",
+      "definition": "Feeling that something bad will happen."
+     },
+     {
+      "word": "dream",
+      "definition": "Pictures in your head when you sleep."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h1-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Cruel King",
+      "description": "Pharaoh was the king of Egypt. He did not believe in Allah."
+     },
+     {
+      "id": "h1-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Bad Dream",
+      "description": "One night, the king had a bad dream. He was angry."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "moses-a1-quick-1",
+      "type": "drag-drop",
+      "title": "The King of Egypt",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 1?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The Children of Israel believed in Allah.",
+         "The king had a bad dream."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The king gave the Children of Israel a lot of money."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The Children of Israel believed in Allah.",
+        "The king had a bad dream."
+       ],
+       "False": [
+        "The king gave the Children of Israel a lot of money."
+       ]
+      },
+      "explanation": "Chapter 1 says: “They believed in Allah.” “He made them work very hard for no money.” “One night, the king had a bad dream.”",
+      "feedback": {
+       "correct": "Yes! They worked for no money.",
+       "incorrect": "Read the second paragraph of Chapter 1 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "moses-a1-language-1-did-not",
+      "type": "multiple-choice",
+      "title": "Look: Did Not",
+      "instructions": "Choose the right answer.",
+      "question": "“He did not believe in Allah.” What does this tell us?",
+      "options": [
+       "The king did not think Allah was true.",
+       "The king loved Allah.",
+       "The king was a Messenger."
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Did not” + verb tells us “no” in the past: He did not believe.",
+      "feedback": {
+       "correct": "Yes. He did not believe in Allah.",
+       "incorrect": "Read the first paragraph of Chapter 1 again."
+      }
+     },
+     {
+      "id": "moses-a1-language-1-practise",
+      "type": "word-bank",
+      "title": "Practise: The King",
+      "instructions": "Fill the gaps with the words.",
+      "question": "Which words tell the past?",
+      "fillBlanksText": "The king of Egypt [blank] Pharaoh. He [blank] a bad dream. He [blank] very angry.",
+      "wordBank": [
+       "was",
+       "had",
+       "was",
+       "is",
+       "has"
+      ],
+      "correctAnswer": [
+       "was",
+       "had",
+       "was"
+      ],
+      "explanation": "Is → was, has → had in the past.",
+      "feedback": {
+       "correct": "Correct. All three words tell the past.",
+       "incorrect": "Look at Chapter 1 again."
+      }
+     },
+     {
+      "id": "moses-a1-language-1-say-it",
+      "type": "reflection",
+      "title": "Say It: A Good King",
+      "instructions": "Say what a good king does.",
+      "question": "What does a good king do?",
+      "correctAnswer": null,
+      "explanation": "Use the present: helps, hurts.",
+      "feedback": {
+       "correct": "Say three sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“A good king …”",
+        "mode": "Individual",
+        "example": "A good king helps people."
+       },
+       {
+        "question": "“A cruel king …”",
+        "mode": "Individual",
+        "example": "A cruel king hurts people."
+       },
+       {
+        "question": "“I like / do not like …”",
+        "mode": "Pair",
+        "example": "I do not like cruel people."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What kind of king was Pharaoh?",
+     "options": [
+      "a cruel king",
+      "a kind king",
+      "a young king"
+     ],
+     "answer": 0,
+     "quote": "He was a cruel king."
+    },
+    "iCan": [
+     "I can say who Pharaoh was.",
+     "I can use did not.",
+     "I can say what a good king does."
+    ]
+   },
+   {
+    "id": 2,
+    "type": "story",
+    "title": "A Baby on the River",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter3.png?alt=media",
+    "content": "That year, baby Moses was born. His mother was very afraid. She asked Allah for help. Allah told her to put the baby in a basket. She put the basket on the River Nile. The water took it away. Moses’s mother was very worried. She said to her daughter, “Go after the basket and watch it.”\n\nThe basket came near the king’s palace. The king’s family found the baby. The queen, Asiya, loved him. She was a good woman. She said, “Do not hurt him. He can be our son.”",
+    "vocabulary": [
+     {
+      "word": "basket",
+      "definition": "A box made of thin wood or grass."
+     },
+     {
+      "word": "worried",
+      "definition": "Thinking about bad things that can happen."
+     },
+     {
+      "word": "palace",
+      "definition": "A very big house of a king."
+     },
+     {
+      "word": "queen",
+      "definition": "The wife of a king."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h2-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Basket",
+      "description": "Moses’s mother put the baby in a basket on the River Nile."
+     },
+     {
+      "id": "h2-2",
+      "x": 68,
+      "y": 50,
+      "title": "The Queen",
+      "description": "The queen, Asiya, loved the baby. She was a good woman."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "moses-a1-quick-2",
+      "type": "sequencing",
+      "title": "A Baby on the River",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Baby Moses was born."
+       },
+       {
+        "id": "2",
+        "text": "Moses’s mother put the basket on the River Nile."
+       },
+       {
+        "id": "3",
+        "text": "The king’s family found the baby."
+       },
+       {
+        "id": "4",
+        "text": "The queen said, “He can be our son.”"
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 2: Moses was born. His mother put the basket on the river. The king’s family found him. The queen loved him.",
+      "feedback": {
+       "correct": "Great! You put the chapter in order.",
+       "incorrect": "Read Chapter 2 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "moses-a1-language-2-feel",
+      "type": "matching",
+      "title": "Look: How Did They Feel?",
+      "instructions": "Match the person and the word.",
+      "question": "How did they feel?",
+      "matchingHeadings": {
+       "left": "Person",
+       "right": "Feeling"
+      },
+      "matchingPairs": [
+       {
+        "left": "Moses’s mother (before)",
+        "right": "afraid"
+       },
+       {
+        "left": "Moses’s mother (with the basket)",
+        "right": "worried"
+       },
+       {
+        "left": "The queen",
+        "right": "loved the baby"
+       }
+      ],
+      "correctAnswer": {
+       "Moses’s mother (before)": "afraid",
+       "Moses’s mother (with the basket)": "worried",
+       "The queen": "loved the baby"
+      },
+      "explanation": "Afraid and worried tell us how she felt. We use was: She was afraid.",
+      "feedback": {
+       "correct": "Good. You found the words.",
+       "incorrect": "Find afraid, worried and loved in Chapter 2."
+      }
+     },
+     {
+      "id": "moses-a1-language-2-practise",
+      "type": "choose-form",
+      "title": "Practise: Put, Took, Found",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "She [choice] the basket on the River Nile.",
+        "options": [
+         "put",
+         "puts"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The water [choice] it away.",
+        "options": [
+         "took",
+         "takes"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The king’s family [choice] the baby.",
+        "options": [
+         "found",
+         "finds"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Put → put, take → took, find → found in the past.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "moses-a1-language-2-say-it",
+      "type": "reflection",
+      "title": "Say It: Go and Watch",
+      "instructions": "Tell your partner what to do.",
+      "question": "What can you tell your partner?",
+      "correctAnswer": null,
+      "explanation": "Start with the verb: Go, Watch, Do not …",
+      "feedback": {
+       "correct": "Say three short sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Go to … and …”",
+        "mode": "Pair",
+        "example": "Go to the door and open it."
+       },
+       {
+        "question": "“Please, watch …”",
+        "mode": "Pair",
+        "example": "Please, watch my bag."
+       },
+       {
+        "question": "“Do not …”",
+        "mode": "Pair",
+        "example": "Do not run."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "picture",
+     "question": "Look at the picture. Where is the baby?",
+     "options": [
+      "in a basket",
+      "in a bed",
+      "on a horse"
+     ],
+     "answer": 0,
+     "quote": "Allah told her to put the baby in a basket."
+    },
+    "iCan": [
+     "I can tell what happened to the basket.",
+     "I can use put, took and found.",
+     "I can tell a partner what to do."
+    ]
+   },
+   {
+    "id": 3,
+    "type": "story",
+    "title": "Back to His Mother",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter5.png?alt=media",
+    "content": "The baby was hungry. He did not drink milk from any woman. Moses’s sister came to the palace. She said, “I know a good woman. She can give milk to the baby.” Then she brought her own mother!\n\nAllah gave baby Moses back to his mother. His mother was very happy. Allah’s promise was true. Moses grew up in the palace. He was a strong young man. He always helped weak people.",
+    "vocabulary": [
+     {
+      "word": "promise",
+      "definition": "Words that say \"I will do it\"."
+     },
+     {
+      "word": "weak",
+      "definition": "Not strong."
+     },
+     {
+      "word": "strong",
+      "definition": "With a lot of power in your body."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h3-1",
+      "x": 35,
+      "y": 46,
+      "title": "Back to His Mother",
+      "description": "Allah gave baby Moses back to his mother. She was very happy."
+     },
+     {
+      "id": "h3-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Strong Young Man",
+      "description": "Moses grew up in the palace. He always helped weak people."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "moses-a1-quick-3",
+      "type": "multiple-choice",
+      "title": "Allah’s Promise",
+      "instructions": "Choose the best answer.",
+      "question": "How did Moses go back to his mother?",
+      "options": [
+       "His sister brought their mother to the palace.",
+       "The king took him to her.",
+       "He walked to her house."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: Moses’s sister said, “I know a good woman.” Then she brought her own mother!",
+      "feedback": {
+       "correct": "Yes! His sister helped.",
+       "incorrect": "Read the first paragraph of Chapter 3 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "moses-a1-language-3-opposites",
+      "type": "matching",
+      "title": "Look: Opposites",
+      "instructions": "Match the opposites.",
+      "question": "What is the opposite?",
+      "matchingHeadings": {
+       "left": "Word",
+       "right": "Opposite"
+      },
+      "matchingPairs": [
+       {
+        "left": "strong",
+        "right": "weak"
+       },
+       {
+        "left": "happy",
+        "right": "sad"
+       },
+       {
+        "left": "hungry",
+        "right": "full"
+       }
+      ],
+      "correctAnswer": {
+       "strong": "weak",
+       "happy": "sad",
+       "hungry": "full"
+      },
+      "explanation": "Strong is the opposite of weak. Moses was strong, and he helped weak people.",
+      "feedback": {
+       "correct": "Good. You found the opposites.",
+       "incorrect": "Find strong and weak in Chapter 3."
+      }
+     },
+     {
+      "id": "moses-a1-language-3-practise",
+      "type": "choose-form",
+      "title": "Practise: Always",
+      "instructions": "Choose the right words.",
+      "question": "Where does always go?",
+      "formChoices": [
+       {
+        "sentence": "He [choice] weak people.",
+        "options": [
+         "always helped",
+         "helped always"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Moses [choice] a strong young man.",
+        "options": [
+         "was",
+         "were"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "“Always” comes before the verb: He always helped. One person: was.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the last sentence of Chapter 3."
+      }
+     },
+     {
+      "id": "moses-a1-language-3-say-it",
+      "type": "reflection",
+      "title": "Say It: I Help",
+      "instructions": "Say how you help people.",
+      "question": "Who do you help?",
+      "correctAnswer": null,
+      "explanation": "Use always + verb.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I always help …”",
+        "mode": "Individual",
+        "example": "I always help my little brother."
+       },
+       {
+        "question": "“I help … with …”",
+        "mode": "Pair",
+        "example": "I help my mother with dinner."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Who gave milk to baby Moses?",
+     "options": [
+      "his own mother",
+      "the queen",
+      "the king"
+     ],
+     "answer": 0,
+     "quote": "Then she brought her own mother!"
+    },
+    "iCan": [
+     "I can tell how Moses went back to his mother.",
+     "I can use opposites: strong and weak.",
+     "I can say how I help people."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Helping Poster",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group talks about weak people: babies, old people …",
+      "Each student writes one sentence: “I can help … ”.",
+      "The group draws one picture for each sentence.",
+      "One student reads the poster to the class."
+     ],
+     "share": "One student reads the poster. Story: “He always helped weak people.”",
+     "solo": "Write two “I can help …” sentences. Draw one picture."
+    }
+   },
+   {
+    "id": 4,
+    "type": "story",
+    "title": "A Mistake in the Market",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter6.png?alt=media",
+    "content": "One day, Moses saw two men in the market. They were fighting. One man was from Egypt. The other man was from the Children of Israel. “Help me!” the man shouted. Moses hit the man from Egypt one time. The man fell and died.\n\nMoses did not want this. He was very sad. He said, “Allah, please forgive me.” Allah forgave him. Then a man came and said, “The king’s soldiers are looking for you. Go away from here!”",
+    "vocabulary": [
+     {
+      "word": "market",
+      "definition": "A place where people buy and sell things."
+     },
+     {
+      "word": "fight",
+      "definition": "Hit and hurt each other."
+     },
+     {
+      "word": "forgive",
+      "definition": "Stop being angry with someone."
+     },
+     {
+      "word": "soldier",
+      "definition": "A man in the army."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h4-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Market",
+      "description": "Two men were fighting in the market. One man shouted, “Help me!”"
+     },
+     {
+      "id": "h4-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Mistake",
+      "description": "Moses did not want this. He said, “Allah, please forgive me.”"
+     }
+    ],
+    "exercises": [
+     {
+      "id": "moses-a1-quick-4",
+      "type": "drag-drop",
+      "title": "A Mistake",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 4?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Moses hit the man one time.",
+         "Allah forgave Moses."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Moses wanted the man to die."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Moses hit the man one time.",
+        "Allah forgave Moses."
+       ],
+       "False": [
+        "Moses wanted the man to die."
+       ]
+      },
+      "explanation": "Chapter 4 says: “Moses hit the man from Egypt one time.” “Moses did not want this.” “Allah forgave him.”",
+      "feedback": {
+       "correct": "Yes! Moses did not want this.",
+       "incorrect": "Read the second paragraph of Chapter 4 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "moses-a1-language-4-please",
+      "type": "multiple-choice",
+      "title": "Look: Please",
+      "instructions": "Choose the right answer.",
+      "question": "“Allah, please forgive me.” What is Moses doing?",
+      "options": [
+       "He is asking for something.",
+       "He is saying thank you.",
+       "He is saying goodbye."
+      ],
+      "correctAnswer": 0,
+      "explanation": "We use please to ask for something in a nice way: Please forgive me. Please help me.",
+      "feedback": {
+       "correct": "Yes. He is asking Allah to forgive him.",
+       "incorrect": "Read Moses’s words in Chapter 4."
+      }
+     },
+     {
+      "id": "moses-a1-language-4-practise",
+      "type": "choose-form",
+      "title": "Practise: Were Fighting",
+      "instructions": "Choose the right words.",
+      "question": "What was happening?",
+      "formChoices": [
+       {
+        "sentence": "Two men [choice] fighting.",
+        "options": [
+         "were",
+         "was"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The soldiers [choice] looking for Moses.",
+        "options": [
+         "are",
+         "is"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Two or more people: were / are. “Are looking” tells us what is happening now.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 4 again."
+      }
+     },
+     {
+      "id": "moses-a1-language-4-say-it",
+      "type": "reflection",
+      "title": "Say It: Sorry",
+      "instructions": "Say sorry for a small mistake.",
+      "question": "What do you say after a mistake?",
+      "correctAnswer": null,
+      "explanation": "Use I am sorry and please.",
+      "feedback": {
+       "correct": "Say sorry and answer your partner.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I am sorry. I …”",
+        "mode": "Pair",
+        "example": "I am sorry. I broke your pencil."
+       },
+       {
+        "question": "“That is OK.”",
+        "mode": "Pair",
+        "example": "That is OK."
+       },
+       {
+        "question": "“Please, …”",
+        "mode": "Pair",
+        "example": "Please, forgive me."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Where did Moses see two men?",
+     "options": [
+      "in the market",
+      "in the palace",
+      "on a boat"
+     ],
+     "answer": 0,
+     "quote": "One day, Moses saw two men in the market."
+    },
+    "iCan": [
+     "I can tell what happened in the market.",
+     "I can ask with please.",
+     "I can say sorry for a mistake."
+    ]
+   },
+   {
+    "id": 5,
+    "type": "story",
+    "title": "The Two Sisters",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter8.png?alt=media",
+    "content": "Moses left Egypt. He walked for many days. He came to Midian. He was tired and thirsty. He found a well. Many shepherds were there with their sheep.\n\nTwo girls stood far from the well. Moses asked, “Why are you waiting?” They said, “Our father is very old. We wait for the shepherds to go.” Moses helped them. He gave water to their sheep.\n\nThe girls told their father about Moses. Their father asked Moses to come to his house. He gave Moses a job. Later, Moses married one of the sisters. They lived in Midian for ten years.",
+    "vocabulary": [
+     {
+      "word": "thirsty",
+      "definition": "Wanting to drink water."
+     },
+     {
+      "word": "well",
+      "definition": "A deep hole with water in it."
+     },
+     {
+      "word": "shepherd",
+      "definition": "A person who looks after sheep."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h5-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Well",
+      "description": "Moses found a well. Many shepherds were there with their sheep."
+     },
+     {
+      "id": "h5-2",
+      "x": 68,
+      "y": 50,
+      "title": "Two Girls",
+      "description": "Two girls stood far from the well. Their father was very old."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "moses-a1-quick-5",
+      "type": "multiple-choice",
+      "title": "A Kind Man",
+      "instructions": "Choose the best answer.",
+      "question": "Why did the two girls wait?",
+      "options": [
+       "They waited for the shepherds to go.",
+       "They were tired.",
+       "They had no sheep."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: “We wait for the shepherds to go.”",
+      "feedback": {
+       "correct": "Yes! They waited for the shepherds to go.",
+       "incorrect": "Read the second paragraph of Chapter 5 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "moses-a1-language-5-why",
+      "type": "matching",
+      "title": "Look: Why?",
+      "instructions": "Match the question and the answer.",
+      "question": "Which answer goes with the question?",
+      "matchingHeadings": {
+       "left": "Question",
+       "right": "Answer"
+      },
+      "matchingPairs": [
+       {
+        "left": "“Why are you waiting?”",
+        "right": "“Our father is very old.”"
+       },
+       {
+        "left": "Where did Moses find water?",
+        "right": "at a well"
+       },
+       {
+        "left": "How long did they live in Midian?",
+        "right": "for ten years"
+       }
+      ],
+      "correctAnswer": {
+       "“Why are you waiting?”": "“Our father is very old.”",
+       "Where did Moses find water?": "at a well",
+       "How long did they live in Midian?": "for ten years"
+      },
+      "explanation": "Why asks for a reason. Where asks about a place. How long asks about time.",
+      "feedback": {
+       "correct": "Good. You matched the questions and answers.",
+       "incorrect": "Read Chapter 5 again."
+      }
+     },
+     {
+      "id": "moses-a1-language-5-practise",
+      "type": "word-bank",
+      "title": "Practise: In Midian",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What happened in Midian?",
+      "fillBlanksText": "Moses was tired and [blank]. He [blank] a well. He gave water to their [blank].",
+      "wordBank": [
+       "thirsty",
+       "found",
+       "sheep",
+       "happy",
+       "finds"
+      ],
+      "correctAnswer": [
+       "thirsty",
+       "found",
+       "sheep"
+      ],
+      "explanation": "Chapter 5: “He was tired and thirsty. He found a well.” “He gave water to their sheep.”",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first two paragraphs of Chapter 5."
+      }
+     },
+     {
+      "id": "moses-a1-language-5-write-it",
+      "type": "reflection",
+      "title": "Write It: Helping",
+      "instructions": "Write about a time you helped someone.",
+      "question": "Who did you help?",
+      "correctAnswer": null,
+      "explanation": "Use past verbs: helped, gave, carried.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“One day, I helped …”",
+        "mode": "Individual",
+        "example": "One day, I helped an old man."
+       },
+       {
+        "question": "“I gave … / I carried …”",
+        "mode": "Individual",
+        "example": "I carried his bag."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What did Moses do for the two girls?",
+     "options": [
+      "He gave water to their sheep.",
+      "He gave them money.",
+      "He made a house."
+     ],
+     "answer": 0,
+     "quote": "Moses helped them. He gave water to their sheep."
+    },
+    "iCan": [
+     "I can tell how Moses helped the girls.",
+     "I can understand why, where and how long.",
+     "I can write about a time I helped someone."
+    ]
+   },
+   {
+    "id": 6,
+    "type": "story",
+    "title": "The Voice on the Mountain",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter10.png?alt=media",
+    "content": "Moses and his family started to go back to Egypt. It was winter. It was dark and cold. Then Moses saw a fire on a mountain. He said to his family, “Wait here.” He went up the mountain.\n\nThere, Moses heard a voice: “O Moses, I am Allah.” Allah chose Moses as His Messenger. Allah told Moses to put his stick down. The stick turned into a big snake! Then Allah told Moses to go to Pharaoh. His brother Aaron went with him.",
+    "vocabulary": [
+     {
+      "word": "fire",
+      "definition": "Something very hot, red and yellow."
+     },
+     {
+      "word": "mountain",
+      "definition": "A very big, high hill."
+     },
+     {
+      "word": "voice",
+      "definition": "The sound of someone speaking."
+     },
+     {
+      "word": "stick",
+      "definition": "A long, thin piece of wood."
+     },
+     {
+      "word": "snake",
+      "definition": "A long animal with no legs."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h6-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Fire",
+      "description": "It was dark and cold. Moses saw a fire on a mountain."
+     },
+     {
+      "id": "h6-2",
+      "x": 68,
+      "y": 50,
+      "title": "The Stick",
+      "description": "Allah told Moses to put his stick down. It turned into a big snake!"
+     }
+    ],
+    "exercises": [
+     {
+      "id": "moses-a1-quick-6",
+      "type": "sequencing",
+      "title": "The Voice on the Mountain",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Moses saw a fire on a mountain."
+       },
+       {
+        "id": "2",
+        "text": "Moses heard a voice."
+       },
+       {
+        "id": "3",
+        "text": "The stick turned into a big snake."
+       },
+       {
+        "id": "4",
+        "text": "Allah told Moses to go to Pharaoh."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 6: the fire, the voice, the stick, and then Allah told Moses to go to Pharaoh.",
+      "feedback": {
+       "correct": "Great! You put the chapter in order.",
+       "incorrect": "Read Chapter 6 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "moses-a1-language-6-wait",
+      "type": "multiple-choice",
+      "title": "Look: Wait Here",
+      "instructions": "Choose the right answer.",
+      "question": "Moses said to his family, “Wait here.” What does he want?",
+      "options": [
+       "He wants them to stay.",
+       "He wants them to go.",
+       "He wants them to sleep."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Start with the verb to tell someone what to do: Wait here. Go away. Watch it.",
+      "feedback": {
+       "correct": "Yes. He wants them to stay.",
+       "incorrect": "Read the first paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "moses-a1-language-6-practise",
+      "type": "choose-form",
+      "title": "Practise: It Was …",
+      "instructions": "Choose the right word.",
+      "question": "How was the night?",
+      "formChoices": [
+       {
+        "sentence": "It was winter. It was dark and [choice].",
+        "options": [
+         "cold",
+         "hot"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The stick turned into a big [choice].",
+        "options": [
+         "snake",
+         "stone"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Winter is cold. A stick is long and thin, like a snake.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 6 again."
+      }
+     },
+     {
+      "id": "moses-a1-language-6-write-it",
+      "type": "reflection",
+      "title": "Write It: The Weather",
+      "instructions": "Write about the weather today.",
+      "question": "How is the weather today?",
+      "correctAnswer": null,
+      "explanation": "Use it is for today and it was for yesterday.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Today, it is …”",
+        "mode": "Individual",
+        "example": "Today, it is sunny and warm."
+       },
+       {
+        "question": "“Yesterday, it was …”",
+        "mode": "Individual",
+        "example": "Yesterday, it was cold."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What did Moses see on the mountain?",
+     "options": [
+      "a fire",
+      "a city",
+      "a boat"
+     ],
+     "answer": 0,
+     "quote": "Then Moses saw a fire on a mountain."
+    },
+    "iCan": [
+     "I can tell what happened on the mountain.",
+     "I can understand “Wait here.”",
+     "I can write about the weather."
+    ]
+   },
+   {
+    "id": 7,
+    "type": "story",
+    "title": "The Magicians",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter12.png?alt=media",
+    "content": "Moses and Aaron went to the palace. Moses said to Pharaoh, “I am a Messenger of Allah.” He threw his stick down. It turned into a snake. Pharaoh said, “This is only magic.” He called all his magicians. They threw sticks and ropes on the floor. They looked like snakes.\n\nThen Moses threw his stick. It turned into a very big snake. It ate all the magicians’ snakes! The magicians understood. They said, “We believe in the Lord of the worlds, the Lord of Moses and Aaron.” But Pharaoh did not believe.",
+    "vocabulary": [
+     {
+      "word": "magic",
+      "definition": "Tricks; things that look strange or not real."
+     },
+     {
+      "word": "magician",
+      "definition": "A person who does magic."
+     },
+     {
+      "word": "rope",
+      "definition": "A long, thick string."
+     },
+     {
+      "word": "throw",
+      "definition": "Send something through the air with your hand."
+     },
+     {
+      "word": "turn into",
+      "definition": "Change and be something new."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h7-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Ropes",
+      "description": "The magicians threw sticks and ropes on the floor. They looked like snakes."
+     },
+     {
+      "id": "h7-2",
+      "x": 68,
+      "y": 50,
+      "title": "Moses’s Stick",
+      "description": "Moses threw his stick. It ate all the magicians’ snakes!"
+     }
+    ],
+    "exercises": [
+     {
+      "id": "moses-a1-quick-7",
+      "type": "multiple-choice",
+      "title": "The Magicians",
+      "instructions": "Choose the best answer.",
+      "question": "What did the magicians do at the end?",
+      "options": [
+       "They believed in Allah.",
+       "They ran away.",
+       "They laughed at Moses."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 7: They said, “We believe in the Lord of the worlds, the Lord of Moses and Aaron.”",
+      "feedback": {
+       "correct": "Yes! They believed.",
+       "incorrect": "Read the end of Chapter 7 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "moses-a1-language-7-past",
+      "type": "drag-drop",
+      "title": "Look: Two Kinds of Past",
+      "instructions": "Put each verb in the right group.",
+      "question": "How does each verb show the past?",
+      "dragDropGroups": [
+       {
+        "group": "Ends in -ed",
+        "items": [
+         "called",
+         "looked",
+         "turned",
+         "believed"
+        ]
+       },
+       {
+        "group": "Changes",
+        "items": [
+         "went",
+         "threw",
+         "ate",
+         "said"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Ends in -ed": [
+        "called",
+        "looked",
+        "turned",
+        "believed"
+       ],
+       "Changes": [
+        "went",
+        "threw",
+        "ate",
+        "said"
+       ]
+      },
+      "explanation": "Many verbs add -ed: call → called. Some verbs change: go → went, throw → threw, eat → ate.",
+      "feedback": {
+       "correct": "Good. You found the two kinds of past.",
+       "incorrect": "Say the verb today: call, throw … Does it add -ed or change?"
+      }
+     },
+     {
+      "id": "moses-a1-language-7-practise",
+      "type": "choose-form",
+      "title": "Practise: Looked Like",
+      "instructions": "Choose the right words.",
+      "question": "What did they look like?",
+      "formChoices": [
+       {
+        "sentence": "The ropes [choice] snakes.",
+        "options": [
+         "looked like",
+         "looked"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Moses [choice] his stick.",
+        "options": [
+         "threw",
+         "throwed"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "“Look like” + a thing: They looked like snakes. Throw → threw.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "moses-a1-language-7-say-it",
+      "type": "reflection",
+      "title": "Say It: It Looks Like …",
+      "instructions": "Look around. Say what things look like.",
+      "question": "What does it look like?",
+      "correctAnswer": null,
+      "explanation": "Use looks like + a thing.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“This … looks like a …”",
+        "mode": "Pair",
+        "example": "This cloud looks like a cat."
+       },
+       {
+        "question": "“It does not look like a …”",
+        "mode": "Pair",
+        "example": "It does not look like a dog."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Who did Pharaoh call?",
+     "options": [
+      "his magicians",
+      "his doctors",
+      "his teachers"
+     ],
+     "answer": 0,
+     "quote": "He called all his magicians."
+    },
+    "iCan": [
+     "I can tell what happened with the magicians.",
+     "I can use threw, ate and said.",
+     "I can say what something looks like."
+    ]
+   },
+   {
+    "id": 8,
+    "type": "story",
+    "title": "The Night Journey",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter14.png?alt=media",
+    "content": "Pharaoh was very cruel to Moses’s people. Allah told Moses to leave Egypt at night. Moses said to his people, “Get ready. We are going tonight.”\n\nThey left at night. There were many old people and children. They walked slowly. In the morning, they came to the sea. They looked back. Pharaoh and his big army were behind them! The people were very afraid. They said, “They are going to catch us!”\n\nBut Moses said, “No! My Lord is with me. He will show me the way.”",
+    "vocabulary": [
+     {
+      "word": "sea",
+      "definition": "A very big area of salt water."
+     },
+     {
+      "word": "army",
+      "definition": "A very big group of soldiers."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h8-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Sea",
+      "description": "In the morning, they came to the sea."
+     },
+     {
+      "id": "h8-2",
+      "x": 68,
+      "y": 50,
+      "title": "The Army",
+      "description": "Pharaoh and his big army were behind them!"
+     }
+    ],
+    "exercises": [
+     {
+      "id": "moses-a1-quick-8",
+      "type": "drag-drop",
+      "title": "The Night Journey",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 8?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "They left at night.",
+         "Pharaoh and his army were behind them."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The people walked very fast."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "They left at night.",
+        "Pharaoh and his army were behind them."
+       ],
+       "False": [
+        "The people walked very fast."
+       ]
+      },
+      "explanation": "Chapter 8 says: “They left at night.” “They walked slowly.” “Pharaoh and his big army were behind them!”",
+      "feedback": {
+       "correct": "Yes! They walked slowly.",
+       "incorrect": "Read the second paragraph of Chapter 8 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "moses-a1-language-8-going",
+      "type": "multiple-choice",
+      "title": "Look: We Are Going",
+      "instructions": "Choose the right answer.",
+      "question": "“We are going tonight.” When will they go?",
+      "options": [
+       "tonight",
+       "yesterday",
+       "last year"
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Are going” + a time word can talk about a plan: We are going tonight.",
+      "feedback": {
+       "correct": "Yes. Tonight.",
+       "incorrect": "Read Moses’s words in Chapter 8."
+      }
+     },
+     {
+      "id": "moses-a1-language-8-practise",
+      "type": "choose-form",
+      "title": "Practise: Slowly",
+      "instructions": "Choose the right word.",
+      "question": "How did they walk?",
+      "formChoices": [
+       {
+        "sentence": "There were many old people and children. They walked [choice].",
+        "options": [
+         "slowly",
+         "slow"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The people were very [choice].",
+        "options": [
+         "afraid",
+         "afraidly"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Slowly tells us how they walked. Afraid tells us how the people felt.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 8."
+      }
+     },
+     {
+      "id": "moses-a1-language-8-say-it",
+      "type": "reflection",
+      "title": "Say It: My Plans",
+      "instructions": "Say your plans for this week.",
+      "question": "What are you doing this week?",
+      "correctAnswer": null,
+      "explanation": "Use I am + verb-ing + a time word.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Tonight, I am …”",
+        "mode": "Individual",
+        "example": "Tonight, I am reading a book."
+       },
+       {
+        "question": "“On Saturday, I am …”",
+        "mode": "Pair",
+        "example": "On Saturday, I am visiting my friend."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: When did Moses and his people leave Egypt?",
+     "options": [
+      "at night",
+      "in the afternoon",
+      "in the summer"
+     ],
+     "answer": 0,
+     "quote": "Allah told Moses to leave Egypt at night."
+    },
+    "iCan": [
+     "I can tell about the night journey.",
+     "I can understand plans: “We are going tonight.”",
+     "I can say my plans for the week."
+    ]
+   },
+   {
+    "id": 9,
+    "type": "story",
+    "title": "The Sea Opens",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter15.png?alt=media",
+    "content": "Allah told Moses to hit the sea with his stick. Moses hit the sea, and the sea opened! The water stood up like two big walls. There was a road between them, with no water on it. Moses and his people walked to the other side safely.\n\nPharaoh and his soldiers went after them into the sea. Then the water came back. Pharaoh and his soldiers died in the sea.\n\nThe story of Moses teaches us lessons. Bad people can be very strong, but Allah is stronger. Only Allah has all the power.",
+    "vocabulary": [
+     {
+      "word": "wall",
+      "definition": "The side of a room or building."
+     },
+     {
+      "word": "safely",
+      "definition": "With no danger or harm."
+     },
+     {
+      "word": "power",
+      "definition": "Being strong; you can do things."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h9-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Sea Opens",
+      "description": "The water stood up like two big walls. There was a road between them."
+     },
+     {
+      "id": "h9-2",
+      "x": 68,
+      "y": 50,
+      "title": "The Other Side",
+      "description": "Moses and his people walked to the other side safely."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "moses-a1-quick-9",
+      "type": "multiple-choice",
+      "title": "The Lesson",
+      "instructions": "Choose the best answer.",
+      "question": "What does the story of Moses teach us?",
+      "options": [
+       "Only Allah has all the power.",
+       "The king is always right.",
+       "The sea is very cold."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 9: “Bad people can be very strong, but Allah is stronger. Only Allah has all the power.”",
+      "feedback": {
+       "correct": "Yes! Only Allah has all the power.",
+       "incorrect": "Read the last paragraph of Chapter 9 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "moses-a1-language-9-compare",
+      "type": "matching",
+      "title": "Look: Strong, Stronger",
+      "instructions": "Match the two parts.",
+      "question": "Which one is stronger?",
+      "matchingHeadings": {
+       "left": "Start",
+       "right": "End"
+      },
+      "matchingPairs": [
+       {
+        "left": "Bad people can be very strong,",
+        "right": "but Allah is stronger."
+       },
+       {
+        "left": "The snakes of the magicians were small,",
+        "right": "but Moses’s snake was bigger."
+       }
+      ],
+      "correctAnswer": {
+       "Bad people can be very strong,": "but Allah is stronger.",
+       "The snakes of the magicians were small,": "but Moses’s snake was bigger."
+      },
+      "explanation": "Add -er for two things: strong → stronger, big → bigger.",
+      "feedback": {
+       "correct": "Good. You found the -er words.",
+       "incorrect": "Read the last paragraph of Chapter 9."
+      }
+     },
+     {
+      "id": "moses-a1-language-9-make",
+      "type": "sentence-building",
+      "title": "Practise: Make the Sentence",
+      "instructions": "Make the sentence.",
+      "question": "What did they do?",
+      "sentenceChunks": [
+       "Moses and his people",
+       "walked",
+       "to the other side",
+       "safely."
+      ],
+      "correctAnswer": null,
+      "explanation": "Who + did what + where + how.",
+      "feedback": {
+       "correct": "Correct. Moses and his people walked to the other side safely.",
+       "incorrect": "Start with “Moses and his people”."
+      }
+     },
+     {
+      "id": "moses-a1-language-9-write-it",
+      "type": "reflection",
+      "title": "Write It: Bigger, Older",
+      "instructions": "Write about two things.",
+      "question": "Which one is bigger?",
+      "correctAnswer": null,
+      "explanation": "Use -er + than.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“A … is bigger than a …”",
+        "mode": "Individual",
+        "example": "A horse is bigger than a cat."
+       },
+       {
+        "question": "“My … is older than my …”",
+        "mode": "Individual",
+        "example": "My brother is older than my sister."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What happened to the sea?",
+     "options": [
+      "It opened.",
+      "It was very hot.",
+      "It went away."
+     ],
+     "answer": 0,
+     "quote": "Moses hit the sea, and the sea opened!"
+    },
+    "iCan": [
+     "I can tell how the sea opened.",
+     "I can use -er words.",
+     "I can write two sentences with than."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "A Story Map",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group draws a big map: Egypt, the River Nile, Midian, the mountain and the sea.",
+      "For each place, the group writes one sentence from the story.",
+      "The group draws a line for Moses’s journey.",
+      "One student tells the story with the map."
+     ],
+     "share": "One student tells the story with the map. Story: “Moses and his people walked to the other side safely.”",
+     "solo": "Draw the map. Write one sentence for two places."
+    }
+   },
+   {
+    "id": 101,
+    "type": "map",
+    "title": "Moses’s Journey",
+    "subtitle": "Map · Chapters 1–9",
+    "content": "",
+    "map": {
+     "baseMap": "nearEast",
+     "home": {
+      "west": 28.5,
+      "east": 38,
+      "south": 25.8,
+      "north": 32.2
+     },
+     "overlays": [],
+     "features": {
+      "timeSlider": true,
+      "tour": true,
+      "challenge": true,
+      "classroom": true
+     },
+     "time": {
+      "start": 1,
+      "lastYear": 6,
+      "birth": 1,
+      "mode": "stages"
+     },
+     "legend": {
+      "route:flight": "Moses goes to Midian",
+      "route:return": "The family goes back toward Egypt",
+      "route:exodus": "The night journey to the sea"
+     },
+     "routes": [
+      {
+       "id": "flight",
+       "points": [
+        [
+         30.7,
+         30.2
+        ],
+        [
+         32.3,
+         30.15
+        ],
+        [
+         33.5,
+         30
+        ],
+        [
+         34.6,
+         29.65
+        ],
+        [
+         35.05,
+         29.2
+        ],
+        [
+         35.4,
+         28.3
+        ]
+       ],
+       "start": 2.6,
+       "end": 3,
+       "tone": "journey"
+      },
+      {
+       "id": "return",
+       "points": [
+        [
+         35.4,
+         28.3
+        ],
+        [
+         35.05,
+         29.15
+        ],
+        [
+         34.8,
+         29.5
+        ],
+        [
+         34.4,
+         29.2
+        ],
+        [
+         33.95,
+         28.55
+        ]
+       ],
+       "start": 3.6,
+       "end": 4,
+       "tone": "journey"
+      },
+      {
+       "id": "exodus",
+       "points": [
+        [
+         30.7,
+         30.2
+        ],
+        [
+         31.9,
+         29.95
+        ],
+        [
+         32.6,
+         29.6
+        ]
+       ],
+       "start": 4.6,
+       "end": 5,
+       "tone": "journey"
+      }
+     ],
+     "places": [
+      {
+       "id": "egypt",
+       "entityId": "moses-egypt-ancient",
+       "lon": 30.7,
+       "lat": 30.2,
+       "icon": "palace",
+       "tone": "place",
+       "areaRadiusKm": 170,
+       "showArea": true,
+       "labelSide": "left",
+       "name": "Egypt",
+       "kind": "Land",
+       "text": "Moses (pbuh) lived in Egypt more than 3,000 years ago. Pharaoh was the king of Egypt. He was a cruel king.",
+       "teacherNote": "The A1 text does not name a city or say where the palace was.",
+       "question": "Who was the king of Egypt?"
+      },
+      {
+       "id": "nile",
+       "entityId": "moses-nile",
+       "lon": 31.15,
+       "lat": 27.2,
+       "icon": "waves",
+       "tone": "place",
+       "areaRadiusKm": 190,
+       "showArea": true,
+       "labelSide": "left",
+       "name": "The River Nile",
+       "kind": "River",
+       "text": "Moses’s mother put her baby in a basket. She put the basket on the River Nile. The water took it away.",
+       "teacherNote": "The text does not say where on the Nile this happened.",
+       "question": "What did Moses’s mother put on the river?"
+      },
+      {
+       "id": "midian",
+       "entityId": "moses-midian",
+       "lon": 35.4,
+       "lat": 28.3,
+       "icon": "well",
+       "tone": "place",
+       "areaRadiusKm": 130,
+       "showArea": true,
+       "labelSide": "right",
+       "name": "Midian",
+       "kind": "Land",
+       "text": "Moses left Egypt. He walked for many days. He came to Midian. He lived there for ten years.",
+       "teacherNote": "The A1 text does not say where Midian was. Many sources place it east of the Gulf of Aqaba.",
+       "question": "How long did Moses live in Midian?"
+      },
+      {
+       "id": "mountain",
+       "entityId": "moses-mount-sinai",
+       "lon": 33.95,
+       "lat": 28.55,
+       "icon": "mountain",
+       "tone": "place",
+       "areaRadiusKm": 80,
+       "showArea": true,
+       "labelSide": "bottom",
+       "name": "The Mountain",
+       "kind": "Mountain",
+       "text": "Moses and his family started to go back to Egypt. It was dark and cold. Moses saw a fire on a mountain. There, he heard a voice.",
+       "teacherNote": "The A1 text does not name this mountain. The B2 book calls it Mount Sinai (Mount Tur).",
+       "question": "What did Moses see on the mountain?"
+      },
+      {
+       "id": "sea",
+       "entityId": "moses-red-sea",
+       "lon": 32.6,
+       "lat": 29.6,
+       "icon": "waves",
+       "tone": "event",
+       "areaRadiusKm": 90,
+       "showArea": true,
+       "labelSide": "right",
+       "name": "The Sea",
+       "kind": "Sea",
+       "text": "Moses and his people left Egypt at night. In the morning, they came to the sea. The sea opened, and they walked to the other side.",
+       "teacherNote": "The A1 text does not name the sea. The B1 and B2 books call it the Red Sea.",
+       "question": "When did they come to the sea?"
+      }
+     ],
+     "towns": [],
+     "seas": [
+      {
+       "id": "mediterranean",
+       "lon": 29.8,
+       "lat": 31.85,
+       "name": "Mediterranean Sea"
+      }
+     ],
+     "timeline": [
+      {
+       "year": 1,
+       "placeId": "egypt",
+       "camera": {
+        "lon": 31.3,
+        "lat": 29.4,
+        "zoom": 1.6
+       },
+       "label": "Moses in Egypt"
+      },
+      {
+       "year": 2,
+       "placeId": "nile",
+       "camera": {
+        "lon": 31.2,
+        "lat": 28.2,
+        "zoom": 1.7
+       },
+       "scene": {
+        "kind": "dawn",
+        "placeId": "nile"
+       },
+       "label": "A baby on the Nile"
+      },
+      {
+       "year": 3,
+       "placeId": "midian",
+       "camera": {
+        "lon": 33.2,
+        "lat": 29.2,
+        "zoom": 1.35
+       },
+       "label": "Moses goes to Midian"
+      },
+      {
+       "year": 4,
+       "placeId": "mountain",
+       "camera": {
+        "lon": 34.5,
+        "lat": 28.9,
+        "zoom": 1.7
+       },
+       "scene": {
+        "kind": "radiate",
+        "placeId": "mountain",
+        "reach": [
+         "egypt"
+        ]
+       },
+       "label": "The voice on the mountain"
+      },
+      {
+       "year": 5,
+       "placeId": "sea",
+       "camera": {
+        "lon": 31.9,
+        "lat": 29.7,
+        "zoom": 1.9
+       },
+       "label": "The night journey"
+      },
+      {
+       "year": 6,
+       "placeId": "sea",
+       "camera": {
+        "lon": 33,
+        "lat": 28.6,
+        "zoom": 1
+       },
+       "scene": {
+        "kind": "journey",
+        "fromId": "egypt",
+        "toIds": [
+         "midian",
+         "mountain",
+         "sea"
+        ]
+       },
+       "label": "The sea opens"
+      }
+     ],
+     "challenge": [
+      {
+       "id": "egypt",
+       "lon": 30.9,
+       "lat": 30,
+       "radiusKm": 250,
+       "prompt": "Find Egypt. Pharaoh was the king here."
+      },
+      {
+       "id": "nile",
+       "lon": 31.15,
+       "lat": 27.2,
+       "radiusKm": 220,
+       "prompt": "Find the River Nile. The basket was on it."
+      },
+      {
+       "id": "midian",
+       "lon": 35.4,
+       "lat": 28.3,
+       "radiusKm": 180,
+       "prompt": "Find Midian. Moses lived there for ten years."
+      },
+      {
+       "id": "mountain",
+       "lon": 33.95,
+       "lat": 28.55,
+       "radiusKm": 150,
+       "prompt": "Find the mountain. Moses saw a fire there."
+      },
+      {
+       "id": "sea",
+       "lon": 32.6,
+       "lat": 29.6,
+       "radiusKm": 150,
+       "prompt": "Find the sea. It opened for Moses and his people."
+      }
+     ]
+    }
+   },
+   {
+    "id": 12,
+    "type": "quiz",
+    "title": "Knowledge Check",
+    "image": "https://picsum.photos/seed/quiz-moses-a1/1200/800",
+    "audioUrl": "",
+    "content": "Check your understanding of the complete story.",
+    "exercises": [
+     {
+      "id": "moses-a1-kc-1",
+      "type": "multiple-choice",
+      "title": "Egypt",
+      "instructions": "Choose the answer.",
+      "question": "Who was the king of Egypt?",
+      "options": [
+       "Pharaoh",
+       "Moses",
+       "Aaron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 1: “The king of Egypt was Pharaoh.”",
+      "feedback": {
+       "correct": "Yes. Pharaoh.",
+       "incorrect": "Read the first paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "moses-a1-kc-2",
+      "type": "true-false",
+      "title": "The Queen",
+      "instructions": "Is it true or false?",
+      "question": "The queen, Asiya, loved baby Moses.",
+      "correctAnswer": true,
+      "explanation": "Chapter 2: “The queen, Asiya, loved him.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the second paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "moses-a1-kc-3",
+      "type": "multiple-choice",
+      "title": "The Sister",
+      "instructions": "Choose the answer.",
+      "question": "Who did Moses’s sister bring to the palace?",
+      "options": [
+       "her own mother",
+       "her friend",
+       "a doctor"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: “Then she brought her own mother!”",
+      "feedback": {
+       "correct": "Yes. Her own mother.",
+       "incorrect": "Read the first paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "moses-a1-kc-4",
+      "type": "true-false",
+      "title": "Midian",
+      "instructions": "Is it true or false?",
+      "question": "Moses lived in Midian for two years.",
+      "correctAnswer": false,
+      "explanation": "Chapter 5: “They lived in Midian for ten years.”",
+      "feedback": {
+       "correct": "Yes, it is false. It was ten years.",
+       "incorrect": "Read the end of Chapter 5."
+      }
+     },
+     {
+      "id": "moses-a1-kc-5",
+      "type": "multiple-choice",
+      "title": "Aaron",
+      "instructions": "Choose the answer.",
+      "question": "Who went with Moses to Pharaoh?",
+      "options": [
+       "his brother Aaron",
+       "his sister",
+       "the queen"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 6: “His brother Aaron went with him.”",
+      "feedback": {
+       "correct": "Yes. His brother Aaron.",
+       "incorrect": "Read the end of Chapter 6."
+      }
+     },
+     {
+      "id": "moses-a1-kc-6",
+      "type": "multiple-choice",
+      "title": "The Sea",
+      "instructions": "Choose the answer.",
+      "question": "What did Moses hit the sea with?",
+      "options": [
+       "his stick",
+       "a stone",
+       "his hand"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 9: “Allah told Moses to hit the sea with his stick.”",
+      "feedback": {
+       "correct": "Yes. His stick.",
+       "incorrect": "Read the first paragraph of Chapter 9."
+      }
+     }
+    ]
+   },
+   {
+    "id": 14,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "Review all key vocabulary from the story in one place.",
+    "image": "https://picsum.photos/seed/glossary-moses-a1/1200/800",
+    "vocabulary": [
+     {
+      "word": "king",
+      "definition": "The man who rules a country.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/kɪŋ/",
+      "chapter": 1,
+      "chapterTitle": "The Cruel King",
+      "storyExample": "The king of Egypt was Pharaoh.",
+      "category": "People"
+     },
+     {
+      "word": "cruel",
+      "definition": "Very bad and unkind to others.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈkruːəl/",
+      "chapter": 1,
+      "chapterTitle": "The Cruel King",
+      "storyExample": "He was a cruel king.",
+      "category": "Describing"
+     },
+     {
+      "word": "believe",
+      "definition": "Think that something is true.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/bɪˈliːv/",
+      "chapter": 1,
+      "chapterTitle": "The Cruel King",
+      "storyExample": "He did not believe in Allah.",
+      "category": "Faith"
+     },
+     {
+      "word": "afraid",
+      "definition": "Feeling that something bad will happen.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/əˈfreɪd/",
+      "chapter": 1,
+      "chapterTitle": "The Cruel King",
+      "storyExample": "The king was afraid of them.",
+      "category": "Feelings"
+     },
+     {
+      "word": "dream",
+      "definition": "Pictures in your head when you sleep.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/driːm/",
+      "chapter": 1,
+      "chapterTitle": "The Cruel King",
+      "storyExample": "One night, the king had a bad dream.",
+      "category": "Life"
+     },
+     {
+      "word": "basket",
+      "definition": "A box made of thin wood or grass.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈbæskɪt/",
+      "chapter": 2,
+      "chapterTitle": "A Baby on the River",
+      "storyExample": "Allah told her to put the baby in a basket.",
+      "category": "Things"
+     },
+     {
+      "word": "worried",
+      "definition": "Thinking about bad things that can happen.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈwɜːrid/",
+      "chapter": 2,
+      "chapterTitle": "A Baby on the River",
+      "storyExample": "Moses’s mother was very worried.",
+      "category": "Feelings"
+     },
+     {
+      "word": "palace",
+      "definition": "A very big house of a king.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈpæləs/",
+      "chapter": 2,
+      "chapterTitle": "A Baby on the River",
+      "storyExample": "The basket came near the king’s palace.",
+      "category": "Places"
+     },
+     {
+      "word": "queen",
+      "definition": "The wife of a king.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/kwiːn/",
+      "chapter": 2,
+      "chapterTitle": "A Baby on the River",
+      "storyExample": "The queen, Asiya, loved him.",
+      "category": "People"
+     },
+     {
+      "word": "promise",
+      "definition": "Words that say \"I will do it\".",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈprɑːmɪs/",
+      "chapter": 3,
+      "chapterTitle": "Back to His Mother",
+      "storyExample": "Allah’s promise was true.",
+      "category": "Faith"
+     },
+     {
+      "word": "weak",
+      "definition": "Not strong.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/wiːk/",
+      "chapter": 3,
+      "chapterTitle": "Back to His Mother",
+      "storyExample": "He always helped weak people.",
+      "category": "Describing"
+     },
+     {
+      "word": "strong",
+      "definition": "With a lot of power in your body.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/strɔːŋ/",
+      "chapter": 3,
+      "chapterTitle": "Back to His Mother",
+      "storyExample": "He was a strong young man.",
+      "category": "Describing"
+     },
+     {
+      "word": "market",
+      "definition": "A place where people buy and sell things.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmɑːrkɪt/",
+      "chapter": 4,
+      "chapterTitle": "A Mistake in the Market",
+      "storyExample": "One day, Moses saw two men in the market.",
+      "category": "Places"
+     },
+     {
+      "word": "fight",
+      "definition": "Hit and hurt each other.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/faɪt/",
+      "chapter": 4,
+      "chapterTitle": "A Mistake in the Market",
+      "storyExample": "They were fighting.",
+      "category": "Actions"
+     },
+     {
+      "word": "forgive",
+      "definition": "Stop being angry with someone.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/fərˈɡɪv/",
+      "chapter": 4,
+      "chapterTitle": "A Mistake in the Market",
+      "storyExample": "He said, “Allah, please forgive me.”",
+      "category": "Faith"
+     },
+     {
+      "word": "soldier",
+      "definition": "A man in the army.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈsoʊldʒər/",
+      "chapter": 4,
+      "chapterTitle": "A Mistake in the Market",
+      "storyExample": "Then a man came and said, “The king’s soldiers are looking for you. Go away from here!”",
+      "category": "People"
+     },
+     {
+      "word": "thirsty",
+      "definition": "Wanting to drink water.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈθɜːrsti/",
+      "chapter": 5,
+      "chapterTitle": "The Two Sisters",
+      "storyExample": "He was tired and thirsty.",
+      "category": "Feelings"
+     },
+     {
+      "word": "well",
+      "definition": "A deep hole with water in it.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/wel/",
+      "chapter": 5,
+      "chapterTitle": "The Two Sisters",
+      "storyExample": "He found a well.",
+      "category": "Places"
+     },
+     {
+      "word": "shepherd",
+      "definition": "A person who looks after sheep.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈʃepərd/",
+      "chapter": 5,
+      "chapterTitle": "The Two Sisters",
+      "storyExample": "Many shepherds were there with their sheep.",
+      "category": "People"
+     },
+     {
+      "word": "fire",
+      "definition": "Something very hot, red and yellow.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈfaɪər/",
+      "chapter": 6,
+      "chapterTitle": "The Voice on the Mountain",
+      "storyExample": "Then Moses saw a fire on a mountain.",
+      "category": "Nature"
+     },
+     {
+      "word": "mountain",
+      "definition": "A very big, high hill.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmaʊntn/",
+      "chapter": 6,
+      "chapterTitle": "The Voice on the Mountain",
+      "storyExample": "Then Moses saw a fire on a mountain.",
+      "category": "Nature"
+     },
+     {
+      "word": "voice",
+      "definition": "The sound of someone speaking.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/vɔɪs/",
+      "chapter": 6,
+      "chapterTitle": "The Voice on the Mountain",
+      "storyExample": "There, Moses heard a voice: “O Moses, I am Allah.”",
+      "category": "Life"
+     },
+     {
+      "word": "stick",
+      "definition": "A long, thin piece of wood.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/stɪk/",
+      "chapter": 6,
+      "chapterTitle": "The Voice on the Mountain",
+      "storyExample": "Allah told Moses to put his stick down.",
+      "category": "Things"
+     },
+     {
+      "word": "snake",
+      "definition": "A long animal with no legs.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/sneɪk/",
+      "chapter": 6,
+      "chapterTitle": "The Voice on the Mountain",
+      "storyExample": "The stick turned into a big snake!",
+      "category": "Nature"
+     },
+     {
+      "word": "magic",
+      "definition": "Tricks; things that look strange or not real.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmædʒɪk/",
+      "chapter": 7,
+      "chapterTitle": "The Magicians",
+      "storyExample": "Pharaoh said, “This is only magic.”",
+      "category": "Things"
+     },
+     {
+      "word": "magician",
+      "definition": "A person who does magic.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/məˈdʒɪʃn/",
+      "chapter": 7,
+      "chapterTitle": "The Magicians",
+      "storyExample": "He called all his magicians.",
+      "category": "People"
+     },
+     {
+      "word": "rope",
+      "definition": "A long, thick string.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/roʊp/",
+      "chapter": 7,
+      "chapterTitle": "The Magicians",
+      "storyExample": "They threw sticks and ropes on the floor.",
+      "category": "Things"
+     },
+     {
+      "word": "throw",
+      "definition": "Send something through the air with your hand.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/θroʊ/",
+      "chapter": 7,
+      "chapterTitle": "The Magicians",
+      "storyExample": "He threw his stick down.",
+      "category": "Actions"
+     },
+     {
+      "word": "turn into",
+      "definition": "Change and be something new.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/tɜːrn ˈɪntuː/",
+      "chapter": 7,
+      "chapterTitle": "The Magicians",
+      "storyExample": "It turned into a snake.",
+      "category": "Actions"
+     },
+     {
+      "word": "sea",
+      "definition": "A very big area of salt water.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/siː/",
+      "chapter": 8,
+      "chapterTitle": "The Night Journey",
+      "storyExample": "In the morning, they came to the sea.",
+      "category": "Nature"
+     },
+     {
+      "word": "army",
+      "definition": "A very big group of soldiers.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈɑːrmi/",
+      "chapter": 8,
+      "chapterTitle": "The Night Journey",
+      "storyExample": "Pharaoh and his big army were behind them!",
+      "category": "People"
+     },
+     {
+      "word": "wall",
+      "definition": "The side of a room or building.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/wɔːl/",
+      "chapter": 9,
+      "chapterTitle": "The Sea Opens",
+      "storyExample": "The water stood up like two big walls.",
+      "category": "Things"
+     },
+     {
+      "word": "safely",
+      "definition": "With no danger or harm.",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "pronunciation": "/ˈseɪfli/",
+      "chapter": 9,
+      "chapterTitle": "The Sea Opens",
+      "storyExample": "Moses and his people walked to the other side safely.",
+      "category": "Describing"
+     },
+     {
+      "word": "power",
+      "definition": "Being strong; you can do things.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈpaʊər/",
+      "chapter": 9,
+      "chapterTitle": "The Sea Opens",
+      "storyExample": "Only Allah has all the power.",
+      "category": "Faith"
+     }
+    ]
+   },
+   {
+    "id": 102,
+    "type": "places",
+    "title": "Places & People",
+    "content": "Find every place and person from the story on the map.",
+    "entityBookKey": "moses-a1"
+   },
+   {
+    "id": 13,
+    "type": "vocabulary-match",
+    "title": "Vocabulary Challenge",
+    "image": "https://picsum.photos/seed/vocab-match-moses-a1/1200/800",
+    "audioUrl": "",
+    "content": "Match six story words with their meanings.",
+    "vocabularyPairs": [
+     {
+      "word": "cruel",
+      "meaning": "Very bad to other people.",
+      "partOfSpeech": "adjective",
+      "chapter": 1,
+      "context": "He was a cruel king."
+     },
+     {
+      "word": "basket",
+      "meaning": "A box made of thin wood or grass.",
+      "partOfSpeech": "noun",
+      "chapter": 2,
+      "context": "Allah told her to put the baby in a basket."
+     },
+     {
+      "word": "weak",
+      "meaning": "Not strong.",
+      "partOfSpeech": "adjective",
+      "chapter": 3,
+      "context": "He always helped weak people."
+     },
+     {
+      "word": "market",
+      "meaning": "A place where people buy and sell things.",
+      "partOfSpeech": "noun",
+      "chapter": 4,
+      "context": "One day, Moses saw two men in the market."
+     },
+     {
+      "word": "shepherd",
+      "meaning": "A person who looks after sheep.",
+      "partOfSpeech": "noun",
+      "chapter": 5,
+      "context": "Many shepherds were there with their sheep."
+     },
+     {
+      "word": "army",
+      "meaning": "A very big group of soldiers.",
+      "partOfSpeech": "noun",
+      "chapter": 8,
+      "context": "Pharaoh and his big army were behind them!"
+     }
+    ]
+   },
+   {
+    "id": 15,
+    "type": "exercises",
+    "title": "Language Review",
+    "image": "https://picsum.photos/seed/exercises-moses-a1/1200/800",
+    "content": "Review the language from all chapters.",
+    "exercises": [
+     {
+      "id": "moses-a1-language-review-1",
+      "type": "drag-drop",
+      "title": "Look: Two Kinds of Past",
+      "instructions": "Put each verb in the right group.",
+      "question": "How does each verb show the past?",
+      "dragDropGroups": [
+       {
+        "group": "Ends in -ed",
+        "items": [
+         "lived",
+         "helped",
+         "shouted",
+         "walked"
+        ]
+       },
+       {
+        "group": "Changes",
+        "items": [
+         "took",
+         "found",
+         "saw",
+         "threw"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Ends in -ed": [
+        "lived",
+        "helped",
+        "shouted",
+        "walked"
+       ],
+       "Changes": [
+        "took",
+        "found",
+        "saw",
+        "threw"
+       ]
+      },
+      "explanation": "Many verbs add -ed: live → lived, help → helped. Some verbs change: take → took, find → found, see → saw, throw → threw.",
+      "feedback": {
+       "correct": "Well done. You found the two kinds of past.",
+       "incorrect": "Say the verb today: live, take … Does it add -ed or change?"
+      }
+     },
+     {
+      "id": "moses-a1-language-review-2",
+      "type": "choose-form",
+      "title": "Practise: Was or Were",
+      "instructions": "Choose was or were.",
+      "question": "One or many?",
+      "formChoices": [
+       {
+        "sentence": "Moses’s mother [choice] very worried.",
+        "options": [
+         "was",
+         "were"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Many shepherds [choice] there with their sheep.",
+        "options": [
+         "was",
+         "were"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "One person: was. Two or more: were.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Mother = one. Shepherds = many."
+      }
+     },
+     {
+      "id": "moses-a1-language-review-3",
+      "type": "choose-form",
+      "title": "Practise: Did Not",
+      "instructions": "Choose the right words.",
+      "question": "Which form is right?",
+      "formChoices": [
+       {
+        "sentence": "Pharaoh [choice] in Allah.",
+        "options": [
+         "did not believe",
+         "did not believed"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The baby [choice] milk from any woman.",
+        "options": [
+         "did not drink",
+         "did not drank"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "After did not, use the verb with no change: did not believe, did not drink.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Did not + believe, drink."
+      }
+     },
+     {
+      "id": "moses-a1-language-review-4",
+      "type": "word-bank",
+      "title": "Practise: Do This!",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What did they say?",
+      "fillBlanksText": "The king said, “[blank] all the baby boys away.” The mother said, “[blank] after the basket.” Moses said, “[blank] here.”",
+      "wordBank": [
+       "Take",
+       "Go",
+       "Wait",
+       "Took",
+       "Went"
+      ],
+      "correctAnswer": [
+       "Take",
+       "Go",
+       "Wait"
+      ],
+      "explanation": "Start with the verb: Take, Go, Wait.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Find these words in Chapters 1, 2 and 6."
+      }
+     },
+     {
+      "id": "moses-a1-language-review-5",
+      "type": "error-correction",
+      "title": "Practise: Fix One Word",
+      "instructions": "Find the wrong word. Write the right word.",
+      "question": "Which word is wrong?",
+      "errorItems": [
+       {
+        "sentence": "Moses throwed his stick down.",
+        "error": "throwed",
+        "options": [
+         "threw",
+         "throw",
+         "throws"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The water taked the basket away.",
+        "error": "taked",
+        "options": [
+         "take",
+         "took",
+         "takes"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "“Throw” and “take” change in the past: threw, took.",
+      "feedback": {
+       "correct": "Well done.",
+       "incorrect": "Throw → threw. Take → took. They do not take -ed."
+      }
+     },
+     {
+      "id": "moses-a1-language-review-6",
+      "type": "reflection",
+      "title": "Use: Me and My Family",
+      "instructions": "Write three sentences about your family.",
+      "question": "Who is in your family?",
+      "correctAnswer": null,
+      "explanation": "Use was / were, one past verb and one -er word.",
+      "feedback": {
+       "correct": "Write three short sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "One “was / were”: “My grandfather was …”",
+        "mode": "Individual",
+        "example": "My grandfather was a teacher."
+       },
+       {
+        "question": "One past verb: “Last year, we …”",
+        "mode": "Individual",
+        "example": "Last year, we visited Konya."
+       },
+       {
+        "question": "One “-er than”: “My … is …er than …”",
+        "mode": "Individual",
+        "example": "My father is taller than my mother."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": 16,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "image": "https://picsum.photos/seed/challenge-moses-a1/1200/800",
+    "content": "Bring the whole story together in the Final Challenge.",
+    "exercises": [
+     {
+      "id": "moses-a1-final-1",
+      "type": "fill-blanks",
+      "title": "The Bad Dream",
+      "instructions": "Write one word.",
+      "question": "Who had a bad dream?",
+      "fillBlanksText": "One night, the [blank] had a bad dream.",
+      "correctAnswer": [
+       "king"
+      ],
+      "explanation": "Chapter 1: “One night, the king had a bad dream.”",
+      "feedback": {
+       "correct": "Yes. The king.",
+       "incorrect": "Read the last paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "moses-a1-final-2",
+      "type": "multiple-choice",
+      "title": "The River",
+      "instructions": "Choose the answer.",
+      "question": "Where did Moses’s mother put the basket?",
+      "options": [
+       "on the River Nile",
+       "in the palace",
+       "in the market"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 2: “She put the basket on the River Nile.”",
+      "feedback": {
+       "correct": "Yes. On the River Nile.",
+       "incorrect": "Read the first paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "moses-a1-final-3",
+      "type": "true-false",
+      "title": "The Market",
+      "instructions": "Is it true or false?",
+      "question": "Moses saw two men fighting in the market.",
+      "correctAnswer": true,
+      "explanation": "Chapter 4: “One day, Moses saw two men in the market. They were fighting.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the first paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "moses-a1-final-4",
+      "type": "multiple-choice",
+      "title": "The Job",
+      "instructions": "Choose the answer.",
+      "question": "Who gave Moses a job?",
+      "options": [
+       "the girls’ father",
+       "Pharaoh",
+       "a shepherd"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: “Their father asked Moses to come to his house. He gave Moses a job.”",
+      "feedback": {
+       "correct": "Yes. The girls’ father.",
+       "incorrect": "Read the last paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "moses-a1-final-5",
+      "type": "matching",
+      "title": "Who Is It?",
+      "instructions": "Match the name with the sentence.",
+      "question": "Who is it?",
+      "matchingHeadings": {
+       "left": "Name",
+       "right": "Sentence"
+      },
+      "matchingPairs": [
+       {
+        "left": "Asiya",
+        "right": "She was the queen."
+       },
+       {
+        "left": "Aaron",
+        "right": "He was the brother of Moses."
+       },
+       {
+        "left": "Pharaoh",
+        "right": "He said, “I am your god.”"
+       }
+      ],
+      "correctAnswer": {
+       "Asiya": "She was the queen.",
+       "Aaron": "He was the brother of Moses.",
+       "Pharaoh": "He said, “I am your god.”"
+      },
+      "explanation": "Chapter 2: the queen, Asiya. Chapter 6: “His brother Aaron went with him.” Chapter 1: Pharaoh said, “I am your god.”",
+      "feedback": {
+       "correct": "Good. You matched all three.",
+       "incorrect": "Read Chapters 1, 2 and 6 again."
+      }
+     },
+     {
+      "id": "moses-a1-final-6",
+      "type": "true-false",
+      "title": "The Stick",
+      "instructions": "Is it true or false?",
+      "question": "The stick turned into a big snake.",
+      "correctAnswer": true,
+      "explanation": "Chapter 6: “The stick turned into a big snake!”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the second paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "moses-a1-final-7",
+      "type": "multiple-choice",
+      "title": "The Walls",
+      "instructions": "Choose the answer.",
+      "question": "What did the water look like?",
+      "options": [
+       "two big walls",
+       "a big river",
+       "a small lake"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 9: “The water stood up like two big walls.”",
+      "feedback": {
+       "correct": "Yes. Two big walls.",
+       "incorrect": "Read the first paragraph of Chapter 9."
+      }
+     },
+     {
+      "id": "moses-a1-final-8",
+      "type": "sequencing",
+      "title": "The Story of Moses",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "The baby was on the River Nile."
+       },
+       {
+        "id": "2",
+        "text": "Moses helped two girls in Midian."
+       },
+       {
+        "id": "3",
+        "text": "The magicians believed in Allah."
+       },
+       {
+        "id": "4",
+        "text": "The sea opened."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "The River Nile (Chapter 2) → Midian (Chapter 5) → the magicians (Chapter 7) → the sea (Chapter 9).",
+      "feedback": {
+       "correct": "Great! You know the story of Moses.",
+       "incorrect": "Think about the order of the chapters."
+      }
+     }
+    ]
+   }
+  ],
+  "teacherGuide": [],
+  "selfStudyGuide": []
+ }
+}

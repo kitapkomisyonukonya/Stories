@@ -1,6 +1,7 @@
 import { defineEntity } from './define';
 import { medFeature, medPoint } from '../mediterraneanMap';
 import type { EntityBookSet } from './index';
+import type { HistoricalEntity } from '../types';
 
 // Places & People cards for the moses books (A2, B1, B2), English and Arabic.
 // Generated from the reviewed card list; the chapters are where each level's story
@@ -242,9 +243,43 @@ const entities = [
   }),
 ];
 
+// The A1 book has its own, simpler card words (A1 words, and only what the A1 story says).
+// Maps, pictures and sources are the same as the A2-B2 cards.
+type CardWords = { title: string; kindLabel: string; periodLabel: string; summary: string; more: string };
+const a1Card = (baseId: string, en: CardWords, aliasesEn?: string[]): HistoricalEntity => {
+  const base = entities.find(entity => entity.id === baseId)!;
+  return {
+    ...base,
+    id: baseId.replace(/^moses-/, 'moses-a1-'),
+    ...(aliasesEn ? { aliases: { ...base.aliases, en: aliasesEn } } : {}),
+    copy: { ...base.copy, en: { ...base.copy.en, ...en, mapAlt: base.copy.en.mapAlt.replace(base.copy.en.title, en.title) } },
+  };
+};
+
+const a1Entities: HistoricalEntity[] = [
+  a1Card("moses-egypt-ancient", { title: "Egypt", kindLabel: "Land", periodLabel: "More than 3,000 years ago", summary: "Egypt is a big land in Africa. Moses (pbuh) lived here more than 3,000 years ago. Pharaoh was the king of Egypt.", more: "The River Nile goes through Egypt." }),
+  a1Card("moses-pharaoh", { title: "Pharaoh", kindLabel: "King of Egypt", periodLabel: "The time of Moses (pbuh)", summary: "Pharaoh was the king of Egypt. He was a cruel king. He said, “I am your god.” He did not believe in Allah.", more: "In this book, we show Pharaoh only with a symbol." }),
+  a1Card("moses-children-of-israel", { title: "The Children of Israel", kindLabel: "People", periodLabel: "The time of Moses (pbuh)", summary: "The Children of Israel were a big group of people in Egypt. They believed in Allah. The king made them work very hard.", more: "Moses (pbuh) was from the Children of Israel." }),
+  a1Card("moses-nile", { title: "The River Nile", kindLabel: "River", periodLabel: "Egypt", summary: "The Nile is a very long river in Egypt. Moses’s mother put her baby in a basket on the River Nile.", more: "Many people in Egypt live near the Nile today, too." }),
+  a1Card("moses-pharaohs-palace", { title: "The King’s Palace", kindLabel: "Palace", periodLabel: "Egypt", summary: "A palace is a very big house of a king. The basket came near the king’s palace. Moses grew up here.", more: "The story does not say where the palace was." }),
+  a1Card("moses-midian", { title: "Midian", kindLabel: "Land", periodLabel: "Near Egypt", summary: "Midian was a land near Egypt. Moses walked there for many days. He lived in Midian for ten years.", more: "Moses helped two sisters at a well in Midian." }),
+  a1Card("moses-mount-sinai", { title: "The Mountain", kindLabel: "Mountain", periodLabel: "On the way to Egypt", summary: "Moses saw a fire on a mountain. There, he heard a voice: “O Moses, I am Allah.”", more: "Many books say it was Mount Sinai." }, ["mountain"]),
+  a1Card("moses-pharaohs-magicians", { title: "The Magicians", kindLabel: "Group of people", periodLabel: "Egypt", summary: "The magicians worked for Pharaoh. They threw sticks and ropes. They looked like snakes. In the end, the magicians believed in Allah.", more: "Pharaoh was very angry with them." }),
+  a1Card("moses-red-sea", { title: "The Sea", kindLabel: "Sea", periodLabel: "Near Egypt", summary: "Moses and his people came to the sea in the morning. Allah opened the sea. They walked to the other side safely.", more: "Many books say it was the Red Sea." }, ["sea"]),
+];
+
 export const MOSES_SET: EntityBookSet = {
-  entities,
+  entities: [...entities, ...a1Entities],
   chapters: {
+    'moses-a1': {
+      1: ["moses-a1-egypt-ancient","moses-a1-pharaoh","moses-a1-children-of-israel"],
+      2: ["moses-a1-nile","moses-a1-pharaohs-palace"],
+      3: ["moses-a1-pharaohs-palace"],
+      5: ["moses-a1-midian"],
+      6: ["moses-a1-mount-sinai","moses-a1-egypt-ancient"],
+      7: ["moses-a1-pharaohs-palace","moses-a1-pharaoh","moses-a1-pharaohs-magicians"],
+      8: ["moses-a1-red-sea","moses-a1-egypt-ancient"],
+    },
     'moses-a2': {
       1: ["moses-egypt-ancient","moses-pharaoh","moses-children-of-israel","moses-ancient-egyptians"],
       2: ["moses-jerusalem-ancient","moses-egypt-ancient","moses-pharaoh","moses-children-of-israel","moses-ancient-egyptians","moses-pharaohs-magicians"],
