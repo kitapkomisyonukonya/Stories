@@ -236,7 +236,10 @@ const assessmentProfile = (() => {
     }
   };
 
-  return (isArabicGuide ? ar : en)[assessmentLevel];
+  const table = isArabicGuide ? ar : en;
+  // A1 uses the A2 formative profile (short, low-pressure evidence) under its own title.
+  if (assessmentLevel === 'A1') return { ...table.A2, rubricTitle: table.A2.rubricTitle.replace('A2', 'A1') };
+  return table[assessmentLevel];
 })();
 
 
@@ -898,21 +901,23 @@ entries.set(key, { word, definition });
                 </div>
               ))}
             </div>
+            {profile.test && (
             <div className="bg-gold/5 border border-gold/20 p-4 sm:p-6 rounded-2xl">
-              <h4 className="font-display text-lg sm:text-2xl text-gold">{profile.test.title}</h4>
-              <p className="mt-2 font-serif text-white text-[13px] sm:text-[16px] leading-relaxed">{profile.test.when}</p>
+              <h4 className="font-display text-lg sm:text-2xl text-gold">{profile.test!.title}</h4>
+              <p className="mt-2 font-serif text-white text-[13px] sm:text-[16px] leading-relaxed">{profile.test!.when}</p>
               <ul className="mt-3 space-y-1.5 font-serif text-white text-[13px] sm:text-[15px] leading-relaxed">
-                {profile.test.parts.map(part => <li key={part}>• {part}</li>)}
+                {profile.test!.parts.map(part => <li key={part}>• {part}</li>)}
               </ul>
               <button
                 type="button"
-                onClick={() => setExamLevel(profile.test.level)}
+                onClick={() => setExamLevel(profile.test!.level)}
                 className="mt-4 inline-flex min-h-11 items-center gap-2 rounded-xl bg-gold px-5 text-sm font-semibold text-wood hover:bg-gold/90"
                 data-tg-open-exam
               >
                 <ClipboardCheck size={16} /> {t('tg.openTest')}
               </button>
             </div>
+            )}
           </div>
         );
       }

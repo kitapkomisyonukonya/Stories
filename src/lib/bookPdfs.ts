@@ -5,6 +5,7 @@
  * edition only.
  */
 import { appFileUrl } from '../scorm/config';
+import { isHiddenStory } from '../core/content/storyCatalog';
 
 export type BookPdfKind = 'story' | 'story-only' | 'story-activities' | 'teachers-book' | 'self-study-guide';
 
@@ -13,6 +14,9 @@ export const STORY_PDF_KINDS = ['story', 'story-only', 'story-activities'] as co
 
 const SLUGS: Record<string, string> = { ibnJubayr: 'ibn-jubayr', yunusEmre: 'yunus-emre' };
 const ENGLISH_ONLY = new Set(['ibnJubayr']);
+
+/** Hidden books and the new A1 editions have no printable PDFs yet. */
+export const hasBookPdfs = (storyId: string, level: string) => !isHiddenStory(storyId) && level !== 'A1';
 
 export const bookPdfUrl = (storyId: string, level: string, language: string, kind: BookPdfKind) => {
   const lang = language === 'ar' && !ENGLISH_ONLY.has(storyId) ? 'ar' : 'en';

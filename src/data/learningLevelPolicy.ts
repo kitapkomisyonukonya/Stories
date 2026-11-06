@@ -29,6 +29,31 @@ export interface LearningLevelPolicy {
 }
 
 export const LEARNING_LEVEL_POLICIES: Record<Level, LearningLevelPolicy> = {
+  A1: {
+    level: 'A1',
+    knowledgeCount: 6,
+    vocabularyCount: 6,
+    vocabularyContextCount: 4,
+    vocabularyRecallCount: 3,
+    vocabularyRecallMode: 'choice',
+    reviewCount: 6,
+    finalCount: 8,
+    quickPattern: ['matching', 'true-false', 'multiple-choice', 'tap-reveal', 'fill-blanks'],
+    vocabularyPattern: ['matching', 'tap-reveal', 'multiple-choice', 'true-false', 'fill-blanks'],
+    hotspotPattern: ['tap-reveal', 'matching', 'true-false', 'multiple-choice'],
+    teacherTiming: '30 minutes',
+    selfStudyTiming: '15 minutes',
+    evidenceCount: 1,
+    summaryLength: '1–2 sentences',
+    writingTarget: 'one short sentence with a sentence frame',
+    questionMode: 'direct',
+    analysisFocusEn: 'names, places, simple facts and the order of events',
+    analysisFocusAr: 'الأسماء والأماكن والمعلومات البسيطة وترتيب الأحداث',
+    grammarEn: 'Find one short chapter sentence and say it again with your own words in the same pattern.',
+    grammarAr: 'ابحث عن جملة قصيرة من الفصل وقلها مرة أخرى بكلماتك بالنمط نفسه.',
+    fastEn: 'Write two short sentences with one chapter word in each.',
+    fastAr: 'اكتب جملتين قصيرتين في كل واحدة كلمة من كلمات الفصل.',
+  },
   A2: {
     level: 'A2',
     knowledgeCount: 8,

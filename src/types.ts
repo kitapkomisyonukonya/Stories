@@ -2,7 +2,7 @@ import type { StoryMap } from './features/story-maps/types';
 
 export type PageType = 'story' | 'quiz' | 'vocabulary-match' | 'exercises' | 'glossary' | 'final-challenge' | 'map' | 'places';
 
-export type Level = 'A2' | 'B1' | 'B2';
+export type Level = 'A1' | 'A2' | 'B1' | 'B2';
 
 export type ExerciseType = 
   | 'true-false' 
@@ -272,7 +272,8 @@ export interface RubricRow {
 export interface CefrProfile {
   intro: string;
   rows: { scale: string; descriptor: string; chapters: string; practice: string[] }[];
-  test: { title: string; level: Level; when: string; parts: string[] };
+  /** The end-of-level test; a level without one (A1) leaves it out. */
+  test?: { title: string; level: Level; when: string; parts: string[] };
 }
 
 export interface ProfessionalDevelopment {

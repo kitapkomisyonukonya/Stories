@@ -12,7 +12,7 @@ export interface HashRoute {
 
 export const HOME_HASH = '#/';
 
-const LEVELS: readonly Level[] = ['A2', 'B1', 'B2'];
+const LEVELS: readonly Level[] = ['A1', 'A2', 'B1', 'B2'];
 
 export const formatHashRoute = (route: HashRoute | null): string =>
   route ? `#/${route.storyId}/${route.level.toLowerCase()}/${route.pageIndex + 1}` : HOME_HASH;

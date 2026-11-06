@@ -27,7 +27,8 @@ export interface ResultCodeData extends ResultScores {
 }
 
 const ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZ';
-const LEVELS: Level[] = ['A2', 'B1', 'B2'];
+// A1 is last so codes made before A1 existed still read the same.
+const LEVELS: Level[] = ['A2', 'B1', 'B2', 'A1'];
 const NOT_TAKEN = 31;
 
 /** 0–100 in steps of 5 (0–20), or 31 for "not taken". */

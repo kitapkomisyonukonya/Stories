@@ -53,8 +53,9 @@ interface HomePageProps {
 }
 
 type CollectionId = 'all' | StoryCollectionId;
-const LEVELS: Level[] = ['A2', 'B1', 'B2'];
+const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2'];
 const levelDescriptions: Record<Level, { en: string; ar: string }> = {
+  A1: { en: 'Beginner', ar: 'المستوى المبتدئ' },
   A2: { en: 'Elementary', ar: 'المستوى الأساسي' },
   B1: { en: 'Intermediate', ar: 'المستوى المتوسط' },
   B2: { en: 'Upper intermediate', ar: 'فوق المتوسط' },
@@ -133,7 +134,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           afterStory: 'بعد القصة، ينتهي كل كتاب بـ',
         }
       : {
-          lead: 'A growing library of stories to read, hear and step inside. Prophets, history and Turkish-Islamic heritage, from A2 to B2.',
+          lead: 'A growing library of stories to read, hear and step inside. Prophets, history and Turkish-Islamic heritage, from A1 to B2.',
           explore: 'Explore the library',
           film: 'Watch the film',
           cue: 'Scroll to explore',
@@ -172,11 +173,22 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
     return value && value !== key ? value : language === 'ar' && story.descriptionAr ? story.descriptionAr : story.description;
   };
 
-  // English-only books are not offered on the Arabic side.
+  // English-only books, and levels without an Arabic edition yet, are not offered on the Arabic side.
   const stories = useMemo(
-    () => storyCatalog.filter(story => language === 'en' || !story.englishOnly),
+    () =>
+      language === 'en'
+        ? storyCatalog
+        : storyCatalog
+            .filter(story => !story.englishOnly)
+            .map(story => (story.englishOnlyLevels?.length ? { ...story, availableLevels: story.availableLevels.filter(option => !story.englishOnlyLevels?.includes(option)) } : story)),
     [language],
   );
+  // A level appears in the picker only when at least one book of this language has it.
+  const levelOptions = useMemo(() => LEVELS.filter(option => stories.some(story => story.availableLevels.includes(option))), [stories]);
+  // On the Arabic side A1 has no books yet: show the A2 shelf instead (the stored choice is kept).
+  useEffect(() => {
+    if (!levelOptions.includes(level)) setLevel(levelOptions.includes('A2') ? 'A2' : levelOptions[0] ?? 'A2');
+  }, [levelOptions, level]);
   const visibleStories = useMemo(() => {
     if (activeCollection === 'all') return stories;
     return stories.filter((story) => collectionStoryIds[activeCollection].includes(story.id));
@@ -717,7 +729,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                     <p className={cn('text-[11px] font-semibold uppercase text-[#E4C779]/76', !isRTL && 'tracking-[0.18em]')}>{SECTION_ICONS.levelExam[lang]}</p>
                     <p className="mt-1 text-sm font-semibold text-[#FFF9EC]">{SECTION_ICONS.levelExam.hint[lang]}</p>
                     <div className="mt-2 flex flex-wrap gap-2" dir="ltr">
-                      {LEVELS.map(option => (
+                      {LEVELS.filter(option => option !== 'A1').map(option => (
                         <button
                           key={option}
                           type="button"
@@ -749,7 +761,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 rounded-[22px] bg-white/[0.045] p-3">
             <span className={cn('ps-2 text-[11px] font-semibold uppercase text-[#EDE5D4]/66', isRTL ? 'text-[14px]' : 'tracking-[0.18em]')}>{copy.yourLevel}</span>
             <div className="flex w-full gap-1 rounded-2xl bg-black/30 p-1 sm:w-auto" role="group" aria-label={copy.yourLevel}>
-              {LEVELS.map(option => (
+              {levelOptions.map(option => (
                 <button
                   key={option}
                   type="button"

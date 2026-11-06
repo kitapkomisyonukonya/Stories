@@ -16,7 +16,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const booksDir = `${root}/src/content/books`;
 const guidesDir = `${root}/src/content/guides`;
 
-const LEVELS: Level[] = ['A2', 'B1', 'B2'];
+const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2'];
 const PAGE_TYPES: PageType[] = ['story', 'quiz', 'vocabulary-match', 'exercises', 'glossary', 'final-challenge', 'map', 'places'];
 const LANGUAGES = ['en', 'ar'] as const;
 

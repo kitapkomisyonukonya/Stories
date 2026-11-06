@@ -75,7 +75,7 @@ export const AMERICAN_SPELLING: Record<string, string> = {
   grey: 'gray',
 };
 
-export const MAX_INSTRUCTION_WORDS: Record<Level, number> = { A2: 12, B1: 16, B2: 20 };
+export const MAX_INSTRUCTION_WORDS: Record<Level, number> = { A1: 8, A2: 12, B1: 16, B2: 20 };
 
 /** A card that is shuffled and read on its own must say who it is about (the hoca's rule). */
 const BARE_PRONOUN = /^(He|She|They|His|Her|Their|Him|Them)\b/;

@@ -425,7 +425,7 @@ export const ExerciseEditor = ({ exercise, onChange, path, ctx }: { exercise: Ex
   const set = (patch: Partial<Exercise>) => onChange({ ...exercise, ...patch });
   const type = EXERCISE_TYPES[exercise.type] ?? { name: exercise.type, help: '' };
   const words = (exercise.instructions ?? '').trim().split(/\s+/).filter(Boolean).length;
-  const limit = { A2: 12, B1: 16, B2: 20 }[ctx.level] ?? 20;
+  const limit = ({ A1: 8, A2: 12, B1: 16, B2: 20 } as Record<string, number>)[ctx.level] ?? 20;
   const findings = ctx.page ? exerciseFindings(exercise, ctx.page, ctx.level, ctx.language) : [];
   const text = (key: keyof Exercise, label: string, help?: string, long?: boolean) =>
     typeof exercise[key] === 'string' || exercise[key] === undefined ? (

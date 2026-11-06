@@ -31,7 +31,7 @@ import { useDialogFocus } from '../../hooks/useDialogFocus';
 type CatalogStory = (typeof storyCatalog)[number];
 type Tab = 'library' | 'journal' | 'words' | 'settings';
 
-const LEVELS: Level[] = ['A2', 'B1', 'B2'];
+const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2'];
 const COLLECTIONS: StoryCollectionId[] = ['prophets', 'history', 'turkish'];
 
 interface PhoneLibraryProps {
@@ -147,6 +147,8 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
       .filter(shelf => shelf.books.length > 0),
     [stories],
   );
+  // Levels that at least one book on this shelf has (the Arabic side has no A1 yet).
+  const levelOptions = LEVELS.filter(option => stories.some(story => story.availableLevels.includes(option)));
   const bookOpen = openBook ? stories.find(story => story.id === openBook.id) ?? null : null;
   // Tab stays in the book sheet and focus returns to the cover; Escape is handled below.
   const bookSheetRef = useDialogFocus(bookOpen !== null, () => setOpenBook(null), { escape: false });
@@ -250,7 +252,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
             <section className="flex items-center gap-3">
               <span className={cn('shrink-0 font-semibold text-[#EDE5D4]/66', isRTL ? 'text-[14px]' : 'text-[12px]')}>{copy.yourLevel}</span>
               <div className="flex flex-1 gap-1 rounded-2xl bg-white/[0.05] p-1" role="group" aria-label={copy.yourLevel}>
-                {LEVELS.map(option => (
+                {levelOptions.map(option => (
                   <button
                     key={option}
                     type="button"
@@ -342,7 +344,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                   suggestedLevel ? <span className="text-[13px] font-semibold text-[#E9C46A]">{copy.suggested}: {suggestedLevel}</span> : undefined,
                 )}
                 {isTeacher && settingsRow(copy.checkCode, <SECTION_ICONS.checkCode.icon size={18} />, onOpenCheckCode)}
-                {(['A2', 'B1', 'B2'] as Level[]).map(option => (
+                {LEVELS.filter(option => option !== 'A1').map(option => (
                   <React.Fragment key={option}>
                     {settingsRow(`${SECTION_ICONS.levelExam[lang]} · ${option}`, <SECTION_ICONS.levelExam.icon size={18} />, () => onOpenExam(option))}
                   </React.Fragment>
@@ -412,8 +414,8 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
               </div>
               <p className={cn('mt-4 leading-relaxed text-[#EDE5D4]/75', isRTL ? 'text-[17px]' : 'text-[14px]')}>{storyDescription(bookOpen)}</p>
               <p className={cn('mb-2 mt-5 font-semibold text-[#EDE5D4]/60', isRTL ? 'text-[14px]' : 'text-[12px]')}>{copy.chooseLevel}</p>
-              <div className="grid grid-cols-3 gap-2">
-                {LEVELS.map(option => {
+              <div className={cn('grid gap-2', levelOptions.length > 3 ? 'grid-cols-4' : 'grid-cols-3')}>
+                {levelOptions.map(option => {
                   const available = bookOpen.availableLevels.includes(option);
                   const progress = available ? summarizeBookProgress(bookOpen.id, option) : null;
                   return (

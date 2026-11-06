@@ -29,7 +29,7 @@ import { cn } from './lib/utils';
 import { clearReaderPosition, readReaderPosition, saveReaderPosition } from './lib/readerPosition';
 import { formatHashRoute, isHomeHash, parseHashRoute, type HashRoute } from './lib/hashRoute';
 import { mergeBookProgress, readBookProgress, type BookProgress } from './lib/bookProgress';
-import { collectionVisuals, getStoryMeta, isHiddenStory, readerTokenVariables } from './core/content/storyCatalog';
+import { collectionVisuals, getStoryMeta, isEnglishOnlyEdition, readerTokenVariables } from './core/content/storyCatalog';
 import { useLanguage } from './contexts/LanguageContext';
 import { LanguageToggle } from './components/ui/LanguageToggle';
 import { FullscreenToggle } from './components/ui/FullscreenButton';
@@ -55,7 +55,7 @@ import { HowToUse } from './components/layout/HowToUse';
 import { UsageGuide } from './components/layout/UsageGuide';
 import { USAGE_GUIDES } from './data/usageGuides';
 import { SECTION_ICONS } from './lib/sectionIcons';
-import { BOOK_PDF_LABELS, STORY_PDF_KINDS, bookPdfUrl } from './lib/bookPdfs';
+import { BOOK_PDF_LABELS, STORY_PDF_KINDS, bookPdfUrl, hasBookPdfs } from './lib/bookPdfs';
 
 // Book Components
 import { StoryPage, StoryFlow, ExercisePage, MasterGlossary } from './components/book/readerChunks';
@@ -158,7 +158,7 @@ const AppContent = () => {
   } = useBookBundle(selectedProphetId, currentLevel);
 
   // English-only books (no Arabic edition) always open in English.
-  const isEnglishOnlyBook = Boolean(selectedProphetId && getStoryMeta(selectedProphetId)?.englishOnly);
+  const isEnglishOnlyBook = Boolean(selectedProphetId && currentLevel && isEnglishOnlyEdition(selectedProphetId, currentLevel));
   useEffect(() => {
     if (isEnglishOnlyBook && language === 'ar') setLanguage('en');
   }, [isEnglishOnlyBook, language, setLanguage]);
@@ -1444,7 +1444,7 @@ const AppContent = () => {
                   )}
                 </div>
 
-                {selectedProphetId && currentLevel && !isHiddenStory(selectedProphetId) && (
+                {selectedProphetId && currentLevel && hasBookPdfs(selectedProphetId, currentLevel) && (
                   <>
                     <h4 className={cn("mt-6 px-4 font-display text-[11px] sm:text-[12px] font-semibold uppercase tracking-[0.16em]", themeClasses.menuSectionHeader)}>
                       {BOOK_PDF_LABELS[language === 'ar' ? 'ar' : 'en'].heading}
@@ -1522,7 +1522,7 @@ const AppContent = () => {
             bookId={currentBook?.id}
             level={currentLevel || undefined}
             collectionId={currentCollection || 'prophets'}
-            pdfUrl={selectedProphetId && currentLevel && !isHiddenStory(selectedProphetId) ? bookPdfUrl(selectedProphetId, currentLevel, language, 'teachers-book') : undefined}
+            pdfUrl={selectedProphetId && currentLevel && hasBookPdfs(selectedProphetId, currentLevel) ? bookPdfUrl(selectedProphetId, currentLevel, language, 'teachers-book') : undefined}
           />
         </Suspense>
       )}
@@ -1542,7 +1542,7 @@ const AppContent = () => {
         footerText={t('nav.interactiveEbookSeries')}
         collectionId={currentCollection || 'prophets'}
         level={currentLevel}
-        pdfUrl={selectedProphetId && currentLevel && !isHiddenStory(selectedProphetId) ? bookPdfUrl(selectedProphetId, currentLevel, language, 'self-study-guide') : undefined}
+        pdfUrl={selectedProphetId && currentLevel && hasBookPdfs(selectedProphetId, currentLevel) ? bookPdfUrl(selectedProphetId, currentLevel, language, 'self-study-guide') : undefined}
       />
 
       {/* Background PDF Generation Notification Card */}

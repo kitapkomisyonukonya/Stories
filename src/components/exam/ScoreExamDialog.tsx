@@ -64,7 +64,7 @@ export const ScoreExamDialog: React.FC<ScoreExamDialogProps> = ({ isOpen, onClos
   if (!isOpen) return null;
 
   const decoded = data && data !== 'invalid' ? data : null;
-  const exam: LevelExam | null = decoded ? LEVEL_EXAMS[decoded.level] : null;
+  const exam: LevelExam | null = decoded ? LEVEL_EXAMS[decoded.level] ?? null : null;
   const items = exam ? examItems(exam) : [];
   const nReading = exam ? readingCount(exam) : 0;
   const right = items.map((item, i) => decoded?.answers[i] === item.answer);

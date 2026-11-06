@@ -42,8 +42,8 @@ const COPY = {
 
 /** The student's end-of-level test: Reading and Language are answered on screen, Writing and Speaking with the teacher. */
 export const LevelExamDialog: React.FC<LevelExamDialogProps> = ({ level, onClose }) => {
-  const isOpen = level !== null;
-  const exam = level ? LEVEL_EXAMS[level] : null;
+  const exam = level ? LEVEL_EXAMS[level] ?? null : null;
+  const isOpen = exam !== null;
   const { language, formatNumber } = useLanguage();
   const copy = COPY[language === 'ar' ? 'ar' : 'en'];
   const [step, setStep] = useState<Step>('intro');

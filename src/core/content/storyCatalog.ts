@@ -7,6 +7,7 @@ interface StoryFile {
   availableLevels: string[];
   collection: string;
   englishOnly?: boolean;
+  englishOnlyLevels?: string[];
   hidden?: boolean;
 }
 
@@ -34,6 +35,8 @@ export interface StoryCatalogItem extends ProphetStory {
   collection: StoryCollectionId;
   /** The book has no Arabic edition: the reader opens it in English and hides the language switch. */
   englishOnly?: boolean;
+  /** Levels of the book that have no Arabic edition yet: they open in English. */
+  englishOnlyLevels?: Level[];
   /** Never listed anywhere; opens only from a preview link (see hashRoute). */
   hidden?: boolean;
 }
@@ -145,6 +148,7 @@ const toCatalogItem = (story: StoryFile): StoryCatalogItem => ({
   availableLevels: story.availableLevels as Level[],
   collection: story.collection as StoryCollectionId,
   englishOnly: story.englishOnly,
+  englishOnlyLevels: story.englishOnlyLevels as Level[] | undefined,
   hidden: story.hidden,
 });
 
@@ -256,8 +260,14 @@ export const getStoryCollection = (storyId: string): StoryCollectionId =>
 export const getStoryMeta = (storyId: string): StoryCatalogItem | undefined =>
   storyCatalog.find(story => story.id === storyId) ?? hiddenStoryCatalog.find(story => story.id === storyId);
 
+/** True when this edition has no Arabic text: the whole book is English-only, or just this level. */
+export const isEnglishOnlyEdition = (storyId: string, level: Level): boolean => {
+  const meta = getStoryMeta(storyId);
+  return Boolean(meta && (meta.englishOnly || meta.englishOnlyLevels?.includes(level)));
+};
+
 export const getNextLevel = (level: Level): Level | null => {
-  const levels: Level[] = ['A2', 'B1', 'B2'];
+  const levels: Level[] = ['A1', 'A2', 'B1', 'B2'];
   const index = levels.indexOf(level);
   return index >= 0 && index < levels.length - 1 ? levels[index + 1] : null;
 };

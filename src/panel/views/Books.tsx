@@ -152,7 +152,7 @@ export const BookDetail = ({ storyId }: { storyId: string }) => {
                         className="btn small"
                         onClick={async () => {
                           if (await confirm({ title: `${item} rafa çıksın mı?`, text: 'Yayınlanınca bu seviyeyi herkes görür. İngilizcesinin ve Arapçasının bakıldığından emin olun.', yes: 'Rafa çıkar' }))
-                            changeStory(entry => ({ ...entry, availableLevels: ['A2', 'B1', 'B2'].filter(known => entry.availableLevels.includes(known) || known === item) }));
+                            changeStory(entry => ({ ...entry, availableLevels: ['A1', 'A2', 'B1', 'B2'].filter(known => entry.availableLevels.includes(known) || known === item) }));
                         }}
                       >
                         {item} seviyesini rafa çıkar

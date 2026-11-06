@@ -66,7 +66,7 @@ export const FIELDS: Record<string, FieldLabel> = {
   entityBookKey: { label: 'Kart listesi', hidden: true },
   animatedWords: { label: 'Hareketli kelimeler' },
 
-  instructions: { label: 'Yönerge', help: 'A2 en çok 12, B1 16, B2 20 kelime.' },
+  instructions: { label: 'Yönerge', help: 'A1 en çok 8, A2 12, B1 16, B2 20 kelime.' },
   question: { label: 'Soru' },
   options: { label: 'Seçenekler' },
   correctAnswer: { label: 'Doğru cevap' },

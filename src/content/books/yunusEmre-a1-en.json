@@ -1,0 +1,2071 @@
+{
+ "schema": 1,
+ "storyId": "yunusEmre",
+ "level": "A1",
+ "language": "en",
+ "collection": "turkish",
+ "book": {
+  "id": "yunusEmre-turkish-a1-en",
+  "title": "Yunus Emre: A Dervish with a Good Heart (A1)",
+  "level": "A1",
+  "baseFontSize": 13,
+  "pages": [
+   {
+    "id": 1,
+    "type": "story",
+    "title": "A Great Poet",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch1-clean.png?alt=media&token=6c39aefe-e1bc-4d97-a8c5-553d0db338a9",
+    "content": "Yunus Emre was a great Turkish poet. He was born in Anatolia in 1240. He wrote poems in easy Turkish, and people understood them well. His poems talk about love for Allah and for Prophet Muhammad (pbuh). They teach good lessons. People read them today, too.\n\nWhen Yunus was young, he went to a madrasa. A madrasa was a school. After school, he was a dervish. Dervishes lived in a dervish house with a teacher. Yunus’s teacher was Taptuk Emre. Yunus lived at the same time as Mevlana. He died in 1320.",
+    "vocabulary": [
+     {
+      "word": "Anatolia",
+      "definition": "__historical_entity__:yunus-anatolia"
+     },
+     {
+      "word": "madrasa",
+      "definition": "__historical_entity__:yunus-madrasa"
+     },
+     {
+      "word": "Yunus Emre",
+      "definition": "__historical_entity__:yunus-yunus-emre"
+     },
+     {
+      "word": "Taptuk Emre",
+      "definition": "__historical_entity__:yunus-taptuk-emre"
+     },
+     {
+      "word": "Mevlana",
+      "definition": "__historical_entity__:yunus-mevlana-rumi"
+     },
+     {
+      "word": "poet",
+      "definition": "A person who writes poems."
+     },
+     {
+      "word": "poem",
+      "definition": "A short text with lines, like a song."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h1-1",
+      "x": 35,
+      "y": 46,
+      "title": "Easy Turkish",
+      "description": "Yunus Emre wrote his poems in easy Turkish. People understood them well."
+     },
+     {
+      "id": "h1-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Madrasa",
+      "description": "A madrasa was a school. Yunus went to a madrasa when he was young."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yunus-a1-quick-1",
+      "type": "matching",
+      "title": "Two Years",
+      "instructions": "Match the year with the sentence.",
+      "question": "What happened in 1240 and in 1320?",
+      "matchingHeadings": {
+       "left": "Year",
+       "right": "Sentence"
+      },
+      "matchingPairs": [
+       {
+        "left": "1240",
+        "right": "Yunus Emre was born in Anatolia."
+       },
+       {
+        "left": "1320",
+        "right": "Yunus Emre died."
+       }
+      ],
+      "correctAnswer": {
+       "1240": "Yunus Emre was born in Anatolia.",
+       "1320": "Yunus Emre died."
+      },
+      "explanation": "Chapter 1 says: “He was born in Anatolia in 1240.” and “He died in 1320.”",
+      "feedback": {
+       "correct": "Yes! Yunus Emre was born in 1240 and died in 1320.",
+       "incorrect": "Find the two years in Chapter 1. Read the sentence with each year."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yunus-a1-language-1-past-forms",
+      "type": "matching",
+      "title": "Look: Went, Wrote",
+      "instructions": "Match the verb with its past form.",
+      "question": "What is the past form?",
+      "matchingHeadings": {
+       "left": "Verb",
+       "right": "Past form"
+      },
+      "matchingPairs": [
+       {
+        "left": "go",
+        "right": "went"
+       },
+       {
+        "left": "write",
+        "right": "wrote"
+       },
+       {
+        "left": "understand",
+        "right": "understood"
+       },
+       {
+        "left": "die",
+        "right": "died"
+       }
+      ],
+      "correctAnswer": {
+       "go": "went",
+       "write": "wrote",
+       "understand": "understood",
+       "die": "died"
+      },
+      "explanation": "A life story is in the past. “Went”, “wrote” and “understood” do not end in -ed. “Died” ends in -d.",
+      "feedback": {
+       "correct": "Good. You found the past forms.",
+       "incorrect": "Find went, wrote, understood and died in Chapter 1."
+      }
+     },
+     {
+      "id": "yunus-a1-language-1-life-story",
+      "type": "word-bank",
+      "title": "Practise: A Life Story",
+      "instructions": "Fill the gaps with the words.",
+      "question": "Which words tell the past?",
+      "fillBlanksText": "Yunus Emre [blank] a great Turkish poet. He [blank] to a madrasa. People [blank] his poems well.",
+      "wordBank": [
+       "was",
+       "went",
+       "understood",
+       "goes",
+       "is"
+      ],
+      "correctAnswer": [
+       "was",
+       "went",
+       "understood"
+      ],
+      "explanation": "All three sentences tell the past. We use was, went and understood.",
+      "feedback": {
+       "correct": "Correct. All three words tell the past.",
+       "incorrect": "Look at Chapter 1. Find was, went and understood."
+      }
+     },
+     {
+      "id": "yunus-a1-language-1-say-it",
+      "type": "reflection",
+      "title": "Say It: Yunus Emre",
+      "instructions": "Say three sentences about Yunus Emre.",
+      "question": "Who was Yunus Emre?",
+      "correctAnswer": null,
+      "explanation": "Use the facts from Chapter 1 only.",
+      "feedback": {
+       "correct": "Say one fact in each sentence. Use was and went.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "Sentence 1: “Yunus Emre was born in …”",
+        "mode": "Individual",
+        "example": "Yunus Emre was born in Anatolia in 1240."
+       },
+       {
+        "question": "Sentence 2: “Yunus Emre went to …”",
+        "mode": "Individual",
+        "example": "Yunus Emre went to a madrasa."
+       },
+       {
+        "question": "Sentence 3: “Yunus Emre’s teacher was …”",
+        "mode": "Pair",
+        "example": "Yunus Emre’s teacher was Taptuk Emre."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What did Yunus Emre write?",
+     "options": [
+      "stories for children",
+      "poems in easy Turkish",
+      "books about the sea"
+     ],
+     "answer": 1,
+     "quote": "He wrote poems in easy Turkish, and people understood them well."
+    },
+    "iCan": [
+     "I can say who Yunus Emre was.",
+     "I can use was, went and wrote.",
+     "I can say three things about a person’s life."
+    ]
+   },
+   {
+    "id": 2,
+    "type": "story",
+    "title": "Open Hands",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch2-clean.png?alt=media&token=5e5d2c97-81c9-44a3-b142-aa7c39563a67",
+    "content": "Dervishes looked for Allah everywhere. They looked with their eyes and with their hearts. Some dervishes had money, but they gave it to poor people. They gave their food, too. Their hands were open, and their hearts were rich.\n\nDervishes were kind and happy. They did not get angry quickly. They were always honest. They did not say bad things about other people. They ate a little, talked a little and slept a little. They did good work every day. This life was not easy. In one poem, Yunus said, “You cannot be a dervish.”",
+    "vocabulary": [
+     {
+      "word": "heart",
+      "definition": "The place of our love and feelings."
+     },
+     {
+      "word": "poor",
+      "definition": "With very little money."
+     },
+     {
+      "word": "rich",
+      "definition": "With a lot of money or good things."
+     },
+     {
+      "word": "honest",
+      "definition": "Always says true things."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h2-1",
+      "x": 35,
+      "y": 46,
+      "title": "Open Hands",
+      "description": "The dervishes gave money and food to poor people. Their hands were open."
+     },
+     {
+      "id": "h2-2",
+      "x": 68,
+      "y": 50,
+      "title": "Rich Hearts",
+      "description": "The dervishes had rich hearts. A rich heart is full of good things."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yunus-a1-quick-2",
+      "type": "drag-drop",
+      "title": "How Did They Live?",
+      "instructions": "Read. Is it true or false?",
+      "question": "What did the dervishes do?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The dervishes gave food to poor people."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The dervishes got angry quickly.",
+         "The dervishes ate a lot."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The dervishes gave food to poor people."
+       ],
+       "False": [
+        "The dervishes got angry quickly.",
+        "The dervishes ate a lot."
+       ]
+      },
+      "explanation": "Chapter 2 says: “They gave their food, too.” “They did not get angry quickly.” “They ate a little.”",
+      "feedback": {
+       "correct": "Yes! The dervishes gave food. They did not get angry quickly, and they ate a little.",
+       "incorrect": "Read the second paragraph of Chapter 2 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yunus-a1-language-2-was-were",
+      "type": "multiple-choice",
+      "title": "Look: Was or Were?",
+      "instructions": "Choose the right word.",
+      "question": "“Their hands ___ open.”",
+      "options": [
+       "was",
+       "were"
+      ],
+      "correctAnswer": 1,
+      "explanation": "“Hands” = two or more: were. “This life” = one: was.",
+      "feedback": {
+       "correct": "Yes. Hands = two or more, so were.",
+       "incorrect": "Hands are two or more. Which word is for two or more?"
+      }
+     },
+     {
+      "id": "yunus-a1-language-2-did-not",
+      "type": "choose-form",
+      "title": "Practise: Did Not",
+      "instructions": "Choose the right form.",
+      "question": "What did the dervishes not do?",
+      "formChoices": [
+       {
+        "sentence": "The dervishes [choice] angry quickly.",
+        "options": [
+         "did not get",
+         "not got"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The dervishes [choice] bad things about other people.",
+        "options": [
+         "did not say",
+         "not said"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "This life [choice] easy.",
+        "options": [
+         "was not",
+         "were not"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "For “no” in the past, we use did not + verb: did not get, did not say.",
+      "feedback": {
+       "correct": "Correct. Did not + verb.",
+       "incorrect": "Look at Chapter 2. Find “did not get” and “did not say”."
+      }
+     },
+     {
+      "id": "yunus-a1-language-2-write-it",
+      "type": "reflection",
+      "title": "Write It: A Kind Person",
+      "instructions": "Write about a kind person you know.",
+      "question": "Who is kind in your life?",
+      "correctAnswer": null,
+      "explanation": "Use the words from Chapter 2 about your own life.",
+      "feedback": {
+       "correct": "Write three short sentences. Use is, gives and does not.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“My … is kind.”",
+        "mode": "Individual",
+        "example": "My mother is kind."
+       },
+       {
+        "question": "“He / She gives …”",
+        "mode": "Individual",
+        "example": "She gives bread to poor people."
+       },
+       {
+        "question": "“He / She does not …”",
+        "mode": "Individual",
+        "example": "She does not get angry quickly."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What did some dervishes do with money?",
+     "options": [
+      "They gave it to poor people.",
+      "They bought big houses.",
+      "They put it under the bed."
+     ],
+     "answer": 0,
+     "quote": "Some dervishes had money, but they gave it to poor people."
+    },
+    "iCan": [
+     "I can say how the dervishes lived.",
+     "I can use was and were.",
+     "I can write about a kind person."
+    ]
+   },
+   {
+    "id": 3,
+    "type": "story",
+    "title": "Straight Wood",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch4-clean.png?alt=media&token=ca4e4897-3845-4b61-b7a0-5b4d0dbc10b4",
+    "content": "Yunus went to the dervish house of Taptuk Emre. He said to his teacher, “I want to work for you.” Taptuk Emre gave Yunus a job. There was a mountain behind the dervish house. Every day, Yunus went up the mountain. He found wood there and carried it on his back. It was very hard work.\n\nYunus only took straight wood to the house. He never took wood that was not straight. He looked for the best wood. The wood was like his heart. Yunus worked on the wood, and he also worked on his heart. Every day, his heart was a little better.",
+    "vocabulary": [
+     {
+      "word": "mountain",
+      "definition": "A very big, high hill."
+     },
+     {
+      "word": "wood",
+      "definition": "The hard part of a tree."
+     },
+     {
+      "word": "straight",
+      "definition": "Not bent; like a line."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h3-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Mountain",
+      "description": "There was a mountain behind the dervish house. Yunus Emre went up the mountain every day."
+     },
+     {
+      "id": "h3-2",
+      "x": 68,
+      "y": 50,
+      "title": "Straight Wood",
+      "description": "Yunus Emre took only straight wood to the house."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yunus-a1-quick-3",
+      "type": "sequencing",
+      "title": "Yunus Emre’s Job",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Yunus Emre went to the dervish house of Taptuk Emre."
+       },
+       {
+        "id": "2",
+        "text": "Yunus Emre said, “I want to work for you.”"
+       },
+       {
+        "id": "3",
+        "text": "Taptuk Emre gave Yunus Emre a job."
+       },
+       {
+        "id": "4",
+        "text": "Yunus Emre went up the mountain and found wood."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 3: Yunus went to the dervish house. He asked for work. Taptuk Emre gave him a job. Every day, Yunus went up the mountain.",
+      "feedback": {
+       "correct": "Great! You put Yunus Emre’s day in order.",
+       "incorrect": "Read the first paragraph of Chapter 3 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yunus-a1-language-3-where",
+      "type": "matching",
+      "title": "Look: Where?",
+      "instructions": "Match the two parts.",
+      "question": "Where was it?",
+      "matchingHeadings": {
+       "left": "Start",
+       "right": "End"
+      },
+      "matchingPairs": [
+       {
+        "left": "There was a mountain",
+        "right": "behind the dervish house."
+       },
+       {
+        "left": "Yunus Emre went up",
+        "right": "the mountain."
+       },
+       {
+        "left": "Yunus Emre carried the wood",
+        "right": "on his back."
+       }
+      ],
+      "correctAnswer": {
+       "There was a mountain": "behind the dervish house.",
+       "Yunus Emre went up": "the mountain.",
+       "Yunus Emre carried the wood": "on his back."
+      },
+      "explanation": "Behind, up and on tell us where. “There was” tells us what was in a place.",
+      "feedback": {
+       "correct": "Good. You found where things were.",
+       "incorrect": "Find the sentences in the first paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "yunus-a1-language-3-there-was",
+      "type": "choose-form",
+      "title": "Practise: There Was, There Were",
+      "instructions": "Choose there was or there were.",
+      "question": "One thing or many things?",
+      "formChoices": [
+       {
+        "sentence": "[choice] a mountain behind the dervish house.",
+        "options": [
+         "There was",
+         "There were"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] trees on the mountain.",
+        "options": [
+         "There was",
+         "There were"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "One thing: there was. Two or more things: there were.",
+      "feedback": {
+       "correct": "Correct. One mountain: there was. Many trees: there were.",
+       "incorrect": "Is it one thing or two or more things?"
+      }
+     },
+     {
+      "id": "yunus-a1-language-3-say-it",
+      "type": "reflection",
+      "title": "Say It: Near My Home",
+      "instructions": "Say what is near your home.",
+      "question": "What is near your home?",
+      "correctAnswer": null,
+      "explanation": "Use there is for one thing and there are for many things.",
+      "feedback": {
+       "correct": "Say one sentence with there is and one with there are.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“There is a … near my home.”",
+        "mode": "Individual",
+        "example": "There is a park near my home."
+       },
+       {
+        "question": "“There are … behind my school.”",
+        "mode": "Pair",
+        "example": "There are trees behind my school."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "picture",
+     "question": "Look at the picture. What did Yunus Emre carry?",
+     "options": [
+      "water",
+      "wood",
+      "flowers"
+     ],
+     "answer": 1,
+     "quote": "He found wood there and carried it on his back."
+    },
+    "iCan": [
+     "I can tell about Yunus Emre’s work.",
+     "I can use there was and there were.",
+     "I can say where things are."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "The Wood Line",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "Each student draws one line on paper: straight or not straight.",
+      "On each straight line, the group writes one good thing: “I am honest.” “I help my friends.”",
+      "On each line that is not straight, the group writes one bad thing to stop: “I get angry quickly.”",
+      "The group puts only the straight lines on the wall and reads them to the class."
+     ],
+     "share": "Each group reads its straight lines to the class. Link: “The wood was like his heart.”",
+     "solo": "Draw two straight lines. Write one good thing on each line."
+    }
+   },
+   {
+    "id": 4,
+    "type": "story",
+    "title": "Forty Years on the Mountain",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch6-clean.png?alt=media&token=67497bea-2d63-4b36-9282-4a195dbfca4a",
+    "content": "Yunus did this work for 40 years. One day, Taptuk Emre asked him, “My Yunus, why do you always take straight wood to us? Is there no other wood on the mountain?”\n\nYunus answered, “My teacher, this is a house of good and honest people. Wood that is not straight cannot come in here. And people who are not honest cannot come in here.”\n\nOn the mountain, Yunus was often alone. There were trees, animals and rivers. Yunus looked at nature and learned from it. He remembered Allah all the time. Everything in nature told him something about Allah.",
+    "vocabulary": [
+     {
+      "word": "alone",
+      "definition": "With no other people."
+     },
+     {
+      "word": "nature",
+      "definition": "Trees, flowers, animals, rivers and mountains."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h4-1",
+      "x": 35,
+      "y": 46,
+      "title": "Honest People",
+      "description": "Yunus Emre said, “This is a house of good and honest people.”"
+     },
+     {
+      "id": "h4-2",
+      "x": 68,
+      "y": 50,
+      "title": "Learning from Nature",
+      "description": "On the mountain, Yunus Emre looked at nature and learned from it."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yunus-a1-quick-4",
+      "type": "multiple-choice",
+      "title": "Why Straight Wood?",
+      "instructions": "Choose the best answer.",
+      "question": "Why did Yunus Emre always take straight wood?",
+      "options": [
+       "Straight wood was easy to carry.",
+       "The dervish house was a house of honest people.",
+       "There was no other wood on the mountain."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Yunus Emre answered, “My teacher, this is a house of good and honest people. Wood that is not straight cannot come in here.”",
+      "feedback": {
+       "correct": "Yes! The house was a house of honest people.",
+       "incorrect": "Read Yunus Emre’s answer in Chapter 4 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yunus-a1-language-4-why",
+      "type": "matching",
+      "title": "Look: Why?",
+      "instructions": "Match the question and the answer.",
+      "question": "Which answer goes with the question?",
+      "matchingHeadings": {
+       "left": "Question",
+       "right": "Answer"
+      },
+      "matchingPairs": [
+       {
+        "left": "Why do you always take straight wood to us?",
+        "right": "This is a house of good and honest people."
+       },
+       {
+        "left": "Is there no other wood on the mountain?",
+        "right": "There is, but it is not straight."
+       },
+       {
+        "left": "How long did Yunus Emre do this work?",
+        "right": "For 40 years."
+       }
+      ],
+      "correctAnswer": {
+       "Why do you always take straight wood to us?": "This is a house of good and honest people.",
+       "Is there no other wood on the mountain?": "There is, but it is not straight.",
+       "How long did Yunus Emre do this work?": "For 40 years."
+      },
+      "explanation": "Why asks for a reason. How long asks about time.",
+      "feedback": {
+       "correct": "Good. You matched the questions and answers.",
+       "incorrect": "Read Taptuk Emre’s question and Yunus Emre’s answer again."
+      }
+     },
+     {
+      "id": "yunus-a1-language-4-always",
+      "type": "word-bank",
+      "title": "Practise: Always, Often, Never",
+      "instructions": "Fill the gaps with the words.",
+      "question": "How often?",
+      "fillBlanksText": "Yunus [blank] took straight wood. On the mountain, Yunus was [blank] alone. Yunus [blank] took wood that was not straight.",
+      "wordBank": [
+       "always",
+       "often",
+       "never",
+       "sometimes"
+      ],
+      "correctAnswer": [
+       "always",
+       "often",
+       "never"
+      ],
+      "explanation": "Always = every time. Often = many times. Never = not one time.",
+      "feedback": {
+       "correct": "Correct. You used always, often and never.",
+       "incorrect": "Find always, often and never in Chapters 3 and 4."
+      }
+     },
+     {
+      "id": "yunus-a1-language-4-say-it",
+      "type": "reflection",
+      "title": "Say It: How Often?",
+      "instructions": "Say how often you do things.",
+      "question": "What do you always, often and never do?",
+      "correctAnswer": null,
+      "explanation": "Put always, often and never before the verb.",
+      "feedback": {
+       "correct": "Say three sentences about your own life.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I always …”",
+        "mode": "Individual",
+        "example": "I always help my mother."
+       },
+       {
+        "question": "“I often …”",
+        "mode": "Individual",
+        "example": "I often read books."
+       },
+       {
+        "question": "“I never …”",
+        "mode": "Pair",
+        "example": "I never say bad things about my friends."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: How long did Yunus Emre carry wood?",
+     "options": [
+      "4 days",
+      "4 months",
+      "40 years"
+     ],
+     "answer": 2,
+     "quote": "Yunus did this work for 40 years."
+    },
+    "iCan": [
+     "I can tell why Yunus Emre took straight wood.",
+     "I can answer a why question about the story.",
+     "I can use always, often and never."
+    ]
+   },
+   {
+    "id": 5,
+    "type": "story",
+    "title": "One Small Flower",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch7-clean.png?alt=media&token=a2b10e28-c657-4f96-a5a8-b70f6aedd6cd",
+    "content": "One day, Taptuk Emre said to his students, “Go to the fields and get flowers for me. I will give a present for the most beautiful flowers.” The students took a lot of flowers. They ran back quickly.\n\nYunus came back last, in the late afternoon. He had only one daisy in his hand. Some students laughed at him. They said, “Look! He has only one small flower!”\n\nTaptuk Emre asked, “Yunus, why did you get only one flower?”",
+    "vocabulary": [
+     {
+      "word": "field",
+      "definition": "A big open place with grass and flowers."
+     },
+     {
+      "word": "present",
+      "definition": "A thing you give to someone."
+     },
+     {
+      "word": "daisy",
+      "definition": "A small white flower with a yellow center."
+     },
+     {
+      "word": "laugh",
+      "definition": "Make a happy sound \"ha ha\"."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h5-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Flowers",
+      "description": "Taptuk Emre asked the students for beautiful flowers."
+     },
+     {
+      "id": "h5-2",
+      "x": 68,
+      "y": 50,
+      "title": "One Daisy",
+      "description": "Yunus Emre came back last with only one daisy."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yunus-a1-quick-5",
+      "type": "drag-drop",
+      "title": "The Flower Day",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened on the flower day?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The students took a lot of flowers.",
+         "Some students laughed at Yunus Emre."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Yunus Emre came back first."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The students took a lot of flowers.",
+        "Some students laughed at Yunus Emre."
+       ],
+       "False": [
+        "Yunus Emre came back first."
+       ]
+      },
+      "explanation": "Chapter 5 says: “The students took a lot of flowers.” “Yunus came back last.” “Some students laughed at him.”",
+      "feedback": {
+       "correct": "Yes! Yunus Emre came back last, not first.",
+       "incorrect": "Read the second paragraph of Chapter 5 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yunus-a1-language-5-order",
+      "type": "sequencing",
+      "title": "Look: The Story in Order",
+      "instructions": "Put the story in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Taptuk Emre said, “Go to the fields and get flowers for me.”"
+       },
+       {
+        "id": "2",
+        "text": "The students took a lot of flowers."
+       },
+       {
+        "id": "3",
+        "text": "Yunus Emre came back last with one daisy."
+       },
+       {
+        "id": "4",
+        "text": "Some students laughed at Yunus Emre."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Taptuk Emre spoke first. Then the students took flowers. Yunus came back last. Some students laughed.",
+      "feedback": {
+       "correct": "Good. You put the story in order.",
+       "incorrect": "Read Chapter 5 from the start again."
+      }
+     },
+     {
+      "id": "yunus-a1-language-5-one-a-lot",
+      "type": "choose-form",
+      "title": "Practise: One or A Lot Of?",
+      "instructions": "Choose the right words.",
+      "question": "How many?",
+      "formChoices": [
+       {
+        "sentence": "The students took [choice] flowers.",
+        "options": [
+         "a lot of",
+         "one"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Yunus Emre had [choice] daisy.",
+        "options": [
+         "a lot of",
+         "only one"
+        ],
+        "answer": 1
+       },
+       {
+        "sentence": "Taptuk Emre said, “[choice] to the fields.”",
+        "options": [
+         "Go",
+         "Goes"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "“Go”, “Get” and “Look” tell a person to do something. They have no -s.",
+      "feedback": {
+       "correct": "Correct. A lot of flowers, only one daisy, and “Go”.",
+       "incorrect": "Look at Chapter 5 again. How many flowers did Yunus Emre have?"
+      }
+     },
+     {
+      "id": "yunus-a1-language-5-tell",
+      "type": "reflection",
+      "title": "Say It: The Flower Story",
+      "instructions": "Tell the story to a friend.",
+      "question": "What happened on the flower day?",
+      "correctAnswer": null,
+      "explanation": "Tell the story in order with three sentences.",
+      "feedback": {
+       "correct": "Use the sentences from the Look task.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Taptuk Emre said, …”",
+        "mode": "Pair",
+        "example": "Taptuk Emre said, “Get flowers for me.”"
+       },
+       {
+        "question": "“The students …”",
+        "mode": "Pair",
+        "example": "The students took a lot of flowers."
+       },
+       {
+        "question": "“Yunus Emre …”",
+        "mode": "Pair",
+        "example": "Yunus Emre came back with one daisy."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: How many flowers did Yunus Emre bring?",
+     "options": [
+      "one",
+      "ten",
+      "a lot"
+     ],
+     "answer": 0,
+     "quote": "He had only one daisy in his hand."
+    },
+    "iCan": [
+     "I can tell the story of the flowers.",
+     "I can use one, a lot of and only.",
+     "I can put the story in order."
+    ]
+   },
+   {
+    "id": 6,
+    "type": "story",
+    "title": "The Daisy Speaks",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch8-clean.png?alt=media&token=5928fe9e-cd4a-42d3-9dbe-10d6b32126b1",
+    "content": "Yunus said, “My teacher, every flower in the fields said the name of Allah. I could not cut them. In the evening, this daisy spoke to me. It said, ‘My time is finished. Take me, dervish Yunus.’ I took only this one.”\n\nThese two stories teach us important lessons. We need to remember Allah in our hearts all the time. Every job is important. We need to do it well and in the right way. A heart with love for Allah makes our life beautiful.",
+    "vocabulary": [],
+    "hotspots": [
+     {
+      "id": "h6-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Daisy’s Words",
+      "description": "The daisy said, “My time is finished. Take me, dervish Yunus.”"
+     },
+     {
+      "id": "h6-2",
+      "x": 68,
+      "y": 50,
+      "title": "Every Job Is Important",
+      "description": "We need to do every job well and in the right way."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yunus-a1-quick-6",
+      "type": "multiple-choice",
+      "title": "Two Lessons",
+      "instructions": "Choose the best answer.",
+      "question": "What do the two stories teach us?",
+      "options": [
+       "We need to remember Allah and do every job well.",
+       "We need to have a lot of flowers.",
+       "We need to work on a mountain."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 6 says: “We need to remember Allah in our hearts all the time. Every job is important. We need to do it well and in the right way.”",
+      "feedback": {
+       "correct": "Yes! Remember Allah and do every job well.",
+       "incorrect": "Read the last paragraph of Chapter 6 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yunus-a1-language-6-need-to",
+      "type": "multiple-choice",
+      "title": "Look: Need To",
+      "instructions": "Choose the right answer.",
+      "question": "“We need to do it well.” What does “need to” mean?",
+      "options": [
+       "It is important to do it.",
+       "It is easy to do it.",
+       "We do not want to do it."
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Need to” + verb tells us an important thing to do.",
+      "feedback": {
+       "correct": "Yes. Need to = it is important.",
+       "incorrect": "Read the sentence again: “We need to do it well.”"
+      }
+     },
+     {
+      "id": "yunus-a1-language-6-make",
+      "type": "sentence-building",
+      "title": "Practise: Make the Sentence",
+      "instructions": "Make the sentence.",
+      "question": "What do we need to do?",
+      "sentenceChunks": [
+       "We",
+       "need to",
+       "remember",
+       "Allah."
+      ],
+      "correctAnswer": null,
+      "explanation": "“We need to” + verb: We need to remember Allah.",
+      "feedback": {
+       "correct": "Correct. We need to remember Allah.",
+       "incorrect": "Start with “We”. Then “need to”. Then the verb."
+      }
+     },
+     {
+      "id": "yunus-a1-language-6-write-it",
+      "type": "reflection",
+      "title": "Write It: A Good Day",
+      "instructions": "Write two sentences for a good day.",
+      "question": "What makes a good day?",
+      "correctAnswer": null,
+      "explanation": "Use need to and every from Chapter 6.",
+      "feedback": {
+       "correct": "Write one “We need to” sentence and one “Every … is important” sentence.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“We need to …”",
+        "mode": "Individual",
+        "example": "We need to help our friends."
+       },
+       {
+        "question": "“Every … is important.”",
+        "mode": "Individual",
+        "example": "Every lesson is important."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Why did Yunus Emre bring only one flower?",
+     "options": [
+      "Yunus Emre was hungry.",
+      "Every flower said the name of Allah.",
+      "Yunus Emre did not like flowers."
+     ],
+     "answer": 1,
+     "quote": "Every flower in the fields said the name of Allah."
+    },
+    "iCan": [
+     "I can say why Yunus Emre took one flower.",
+     "I can use need to.",
+     "I can write two “We need to” sentences."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Our Good Day Poster",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "Each student writes one “We need to …” sentence on a card.",
+      "The group draws one big daisy on a poster.",
+      "The group puts the cards around the daisy.",
+      "One student reads the poster to the class."
+     ],
+     "share": "One student reads the poster. Link: “A heart with love for Allah makes our life beautiful.”",
+     "solo": "Draw a daisy. Write two “We need to …” sentences around it."
+    }
+   },
+   {
+    "id": 101,
+    "type": "map",
+    "title": "Yunus Emre’s World",
+    "subtitle": "Map · 1240–1320",
+    "content": "",
+    "map": {
+     "baseMap": "anatolia",
+     "home": {
+      "west": 25.5,
+      "east": 49,
+      "south": 32.5,
+      "north": 43.5
+     },
+     "overlays": [
+      "seljuk-1243",
+      "mongol-1243"
+     ],
+     "features": {
+      "timeSlider": true,
+      "tour": true,
+      "challenge": true,
+      "classroom": true
+     },
+     "time": {
+      "start": 1240,
+      "lastYear": 1320,
+      "birth": 1240
+     },
+     "legend": {
+      "seljuk-1243": "Anatolian Seljuk lands",
+      "seljuk-pressure": "Anatolian Seljuk lands under Mongol pressure",
+      "mongol-1243": "Mongol army, 1242–1243"
+     },
+     "age": {
+      "born": "Yunus Emre is born.",
+      "alive": "Yunus Emre is about {years} old.",
+      "died": "Yunus Emre dies. He is about {years} old."
+     },
+     "routes": [],
+     "places": [
+      {
+       "id": "anatolia",
+       "entityId": "yunus-anatolia",
+       "lon": 34.1,
+       "lat": 39.35,
+       "icon": "quill",
+       "tone": "place",
+       "labelSide": "left",
+       "name": "Anatolia",
+       "kind": "Region",
+       "text": "Yunus Emre was born in Anatolia in 1240. He died in 1320. Today, Anatolia is a part of Türkiye.",
+       "teacherNote": "Many towns say they have the grave of Yunus Emre. Do not show one place as certain.",
+       "question": "Which country is Anatolia a part of today?"
+      },
+      {
+       "id": "konya",
+       "entityId": "yunus-konya",
+       "lon": 32.49,
+       "lat": 37.87,
+       "icon": "dome",
+       "tone": "place",
+       "labelSide": "bottom",
+       "name": "Konya",
+       "kind": "City",
+       "text": "Konya was the capital city of the Anatolian Seljuks. Mevlana lived here and died here in 1273. Yunus Emre lived at the same time.",
+       "teacherNote": "Chapter 1 says Yunus was 33 or 34 years old when Mevlana died.",
+       "question": "How old was Yunus Emre in 1273? Move the slider to check."
+      },
+      {
+       "id": "kosedag",
+       "entityId": "yunus-kosedag",
+       "lon": 38.05,
+       "lat": 40.1,
+       "icon": "swords",
+       "tone": "event",
+       "labelSide": "top",
+       "name": "Kösedağ, 1243",
+       "kind": "Battle",
+       "text": "In 1243, the Anatolian Seljuk army fought the Mongol army here. The Anatolian Seljuks lost. After that, life in Anatolia became very hard. Yunus Emre was only three years old.",
+       "teacherNote": "The exact battlefield is not known. Sources place it near Kösedağ, about 80 km northeast of Sivas. The B1 and B2 books tell this event in detail.",
+       "question": "What happened in Anatolia after 1243?"
+      },
+      {
+       "id": "syria",
+       "entityId": "yunus-syria",
+       "lon": 37.3,
+       "lat": 34.9,
+       "icon": "route",
+       "tone": "place",
+       "areaRadiusKm": 230,
+       "labelSide": "right",
+       "name": "Syria",
+       "kind": "Region",
+       "text": "Yunus Emre traveled to Syria. Big cities like Aleppo and Damascus were there.",
+       "teacherNote": "In the 13th century, Syria (al-Sham) was a larger region than the country today.",
+       "question": "Which two big cities can you see in Syria?"
+      },
+      {
+       "id": "azerbaijan",
+       "entityId": "yunus-azerbaijan",
+       "lon": 46.29,
+       "lat": 38.08,
+       "icon": "route",
+       "tone": "place",
+       "areaRadiusKm": 150,
+       "labelSide": "top",
+       "name": "Azerbaijan",
+       "kind": "Region",
+       "text": "Yunus Emre also traveled to Azerbaijan. At that time, Azerbaijan was the land around the city of Tabriz. The Mongol army came to Anatolia from here.",
+       "teacherNote": "Medieval Azerbaijan is mostly in north-west Iran today. It is not the same as the modern Republic of Azerbaijan.",
+       "question": "Which army came to Anatolia from this land?"
+      }
+     ],
+     "towns": [
+      {
+       "id": "sivas",
+       "lon": 37.02,
+       "lat": 39.75,
+       "labelSide": "bottom",
+       "name": "Sivas"
+      },
+      {
+       "id": "erzurum",
+       "lon": 41.27,
+       "lat": 39.9,
+       "name": "Erzurum"
+      },
+      {
+       "id": "aleppo",
+       "lon": 37.16,
+       "lat": 36.2,
+       "name": "Aleppo"
+      },
+      {
+       "id": "damascus",
+       "lon": 36.29,
+       "lat": 33.51,
+       "name": "Damascus"
+      }
+     ],
+     "seas": [
+      {
+       "id": "blackSea",
+       "lon": 34.6,
+       "lat": 42.85,
+       "name": "Black Sea"
+      },
+      {
+       "id": "mediterranean",
+       "lon": 30.6,
+       "lat": 34.6,
+       "name": "Mediterranean Sea"
+      }
+     ],
+     "timeline": [
+      {
+       "year": 1240,
+       "placeId": "anatolia",
+       "camera": {
+        "lon": 34.5,
+        "lat": 39.2,
+        "zoom": 1.5
+       },
+       "scene": {
+        "kind": "dawn",
+        "placeId": "anatolia"
+       },
+       "label": "Yunus is born"
+      },
+      {
+       "year": 1243,
+       "placeId": "kosedag",
+       "camera": {
+        "lon": 41.5,
+        "lat": 39.6,
+        "zoom": 1.7
+       },
+       "label": "Kösedağ"
+      },
+      {
+       "year": 1273,
+       "placeId": "konya",
+       "camera": {
+        "lon": 33.6,
+        "lat": 38.5,
+        "zoom": 1.9
+       },
+       "scene": {
+        "kind": "radiate",
+        "placeId": "konya"
+       },
+       "label": "Mevlana dies"
+      },
+      {
+       "year": 1320,
+       "placeId": "anatolia",
+       "camera": {
+        "lon": 38.6,
+        "lat": 37.6,
+        "zoom": 1.05
+       },
+       "scene": {
+        "kind": "journey",
+        "fromId": "anatolia",
+        "toIds": [
+         "syria",
+         "azerbaijan"
+        ]
+       },
+       "label": "Yunus dies"
+      }
+     ],
+     "challenge": [
+      {
+       "id": "anatolia",
+       "lon": 33.6,
+       "lat": 39,
+       "radiusKm": 330,
+       "prompt": "Find Anatolia, the home of Yunus Emre."
+      },
+      {
+       "id": "konya",
+       "lon": 32.49,
+       "lat": 37.87,
+       "radiusKm": 110,
+       "prompt": "Find Konya. It was the capital city of the Anatolian Seljuks."
+      },
+      {
+       "id": "syria",
+       "lon": 37.3,
+       "lat": 34.9,
+       "radiusKm": 230,
+       "prompt": "Find Syria. Aleppo and Damascus were there."
+      },
+      {
+       "id": "azerbaijan",
+       "lon": 46.29,
+       "lat": 38.08,
+       "radiusKm": 170,
+       "prompt": "Find Azerbaijan. It is east of Anatolia."
+      },
+      {
+       "id": "kosedag",
+       "lon": 38.05,
+       "lat": 40.1,
+       "radiusKm": 110,
+       "prompt": "Find Kösedağ. It is about 80 km northeast of Sivas."
+      }
+     ]
+    }
+   },
+   {
+    "id": 9,
+    "type": "quiz",
+    "title": "Knowledge Check",
+    "image": "https://picsum.photos/seed/quiz-yunus-a1/1200/800",
+    "audioUrl": "",
+    "content": "Check your understanding of the complete story.",
+    "exercises": [
+     {
+      "id": "yunus-a1-kc-1",
+      "type": "multiple-choice",
+      "title": "Born in Anatolia",
+      "instructions": "Choose the answer.",
+      "question": "Where was Yunus Emre born?",
+      "options": [
+       "in Anatolia",
+       "in Egypt",
+       "in Mecca"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 1: “He was born in Anatolia in 1240.”",
+      "feedback": {
+       "correct": "Yes. Yunus Emre was born in Anatolia.",
+       "incorrect": "Read the first paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "yunus-a1-kc-2",
+      "type": "multiple-choice",
+      "title": "A Teacher",
+      "instructions": "Choose the answer.",
+      "question": "Who was Yunus Emre’s teacher?",
+      "options": [
+       "Mevlana",
+       "Taptuk Emre",
+       "Yunus Emre’s father"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chapter 1: “Yunus’s teacher was Taptuk Emre.”",
+      "feedback": {
+       "correct": "Yes. Taptuk Emre was his teacher.",
+       "incorrect": "Read the second paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "yunus-a1-kc-3",
+      "type": "true-false",
+      "title": "Food for Poor People",
+      "instructions": "Is it true or false?",
+      "question": "The dervishes gave food to poor people.",
+      "correctAnswer": true,
+      "explanation": "Chapter 2: “They gave their food, too.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the first paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "yunus-a1-kc-4",
+      "type": "multiple-choice",
+      "title": "On His Back",
+      "instructions": "Choose the answer.",
+      "question": "What did Yunus Emre carry on his back?",
+      "options": [
+       "wood",
+       "water",
+       "bread"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: “He found wood there and carried it on his back.”",
+      "feedback": {
+       "correct": "Yes. Yunus Emre carried wood.",
+       "incorrect": "Read the first paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "yunus-a1-kc-5",
+      "type": "true-false",
+      "title": "Not Straight",
+      "instructions": "Is it true or false?",
+      "question": "Yunus Emre took wood that was not straight.",
+      "correctAnswer": false,
+      "explanation": "Chapter 3: “He never took wood that was not straight.”",
+      "feedback": {
+       "correct": "Yes, it is false. Yunus Emre never took it.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "yunus-a1-kc-6",
+      "type": "multiple-choice",
+      "title": "A Flower for the Teacher",
+      "instructions": "Choose the answer.",
+      "question": "What did Yunus Emre bring to his teacher?",
+      "options": [
+       "a lot of flowers",
+       "one daisy",
+       "a present"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Chapter 5: “He had only one daisy in his hand.”",
+      "feedback": {
+       "correct": "Yes. Yunus Emre brought one daisy.",
+       "incorrect": "Read the second paragraph of Chapter 5."
+      }
+     }
+    ]
+   },
+   {
+    "id": 11,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "Review all key vocabulary from the story in one place.",
+    "image": "https://picsum.photos/seed/glossary-yunus-a1/1200/800",
+    "vocabulary": [
+     {
+      "word": "poet",
+      "definition": "A person who writes poems.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈpoʊət/",
+      "chapter": 1,
+      "chapterTitle": "A Great Poet",
+      "storyExample": "Yunus Emre was a great Turkish poet.",
+      "category": "People"
+     },
+     {
+      "word": "poem",
+      "definition": "A short text with lines, like a song.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈpoʊəm/",
+      "chapter": 1,
+      "chapterTitle": "A Great Poet",
+      "storyExample": "He wrote poems in easy Turkish, and people understood them well.",
+      "category": "Language"
+     },
+     {
+      "word": "heart",
+      "definition": "The place of our love and feelings.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/hɑːrt/",
+      "chapter": 2,
+      "chapterTitle": "Open Hands",
+      "storyExample": "They looked with their eyes and with their hearts.",
+      "category": "Values"
+     },
+     {
+      "word": "poor",
+      "definition": "With very little money.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/pʊr/",
+      "chapter": 2,
+      "chapterTitle": "Open Hands",
+      "storyExample": "Some dervishes had money, but they gave it to poor people.",
+      "category": "People"
+     },
+     {
+      "word": "rich",
+      "definition": "With a lot of money or good things.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/rɪtʃ/",
+      "chapter": 2,
+      "chapterTitle": "Open Hands",
+      "storyExample": "Their hands were open, and their hearts were rich.",
+      "category": "Values"
+     },
+     {
+      "word": "honest",
+      "definition": "Always says true things.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈɑːnɪst/",
+      "chapter": 2,
+      "chapterTitle": "Open Hands",
+      "storyExample": "They were always honest.",
+      "category": "Values"
+     },
+     {
+      "word": "mountain",
+      "definition": "A very big, high hill.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmaʊntn/",
+      "chapter": 3,
+      "chapterTitle": "Straight Wood",
+      "storyExample": "There was a mountain behind the dervish house.",
+      "category": "Nature"
+     },
+     {
+      "word": "wood",
+      "definition": "The hard part of a tree.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/wʊd/",
+      "chapter": 3,
+      "chapterTitle": "Straight Wood",
+      "storyExample": "He found wood there and carried it on his back.",
+      "category": "Nature"
+     },
+     {
+      "word": "straight",
+      "definition": "Not bent; like a line.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/streɪt/",
+      "chapter": 3,
+      "chapterTitle": "Straight Wood",
+      "storyExample": "Yunus only took straight wood to the house.",
+      "category": "Describing"
+     },
+     {
+      "word": "alone",
+      "definition": "With no other people.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/əˈloʊn/",
+      "chapter": 4,
+      "chapterTitle": "Forty Years on the Mountain",
+      "storyExample": "On the mountain, Yunus was often alone.",
+      "category": "Describing"
+     },
+     {
+      "word": "nature",
+      "definition": "Trees, flowers, animals, rivers and mountains.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈneɪtʃər/",
+      "chapter": 4,
+      "chapterTitle": "Forty Years on the Mountain",
+      "storyExample": "Yunus looked at nature and learned from it.",
+      "category": "Nature"
+     },
+     {
+      "word": "field",
+      "definition": "A big open place with grass and flowers.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/fiːld/",
+      "chapter": 5,
+      "chapterTitle": "One Small Flower",
+      "storyExample": "One day, Taptuk Emre said to his students, “Go to the fields and get flowers for me.",
+      "category": "Nature"
+     },
+     {
+      "word": "present",
+      "definition": "A thing you give to someone.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈpreznt/",
+      "chapter": 5,
+      "chapterTitle": "One Small Flower",
+      "storyExample": "I will give a present for the most beautiful flowers.”",
+      "category": "Things"
+     },
+     {
+      "word": "daisy",
+      "definition": "A small white flower with a yellow center.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈdeɪzi/",
+      "chapter": 5,
+      "chapterTitle": "One Small Flower",
+      "storyExample": "He had only one daisy in his hand.",
+      "category": "Nature"
+     },
+     {
+      "word": "laugh",
+      "definition": "Make a happy sound \"ha ha\".",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/læf/",
+      "chapter": 5,
+      "chapterTitle": "One Small Flower",
+      "storyExample": "Some students laughed at him.",
+      "category": "Actions"
+     }
+    ]
+   },
+   {
+    "id": 102,
+    "type": "places",
+    "title": "Places & People",
+    "content": "Find every place and person from the story on the map.",
+    "entityBookKey": "yunusEmre-a1"
+   },
+   {
+    "id": 10,
+    "type": "vocabulary-match",
+    "title": "Vocabulary Challenge",
+    "image": "https://picsum.photos/seed/vocab-match-yunus-a1/1200/800",
+    "audioUrl": "",
+    "content": "Match six story words with their meanings.",
+    "vocabularyPairs": [
+     {
+      "word": "poet",
+      "meaning": "A person who writes poems.",
+      "partOfSpeech": "noun",
+      "chapter": 1,
+      "context": "Yunus Emre was a great Turkish poet."
+     },
+     {
+      "word": "poor",
+      "meaning": "With very little money.",
+      "partOfSpeech": "adjective",
+      "chapter": 2,
+      "context": "Some dervishes had money, but they gave it to poor people."
+     },
+     {
+      "word": "mountain",
+      "meaning": "A very big, high hill.",
+      "partOfSpeech": "noun",
+      "chapter": 3,
+      "context": "There was a mountain behind the dervish house."
+     },
+     {
+      "word": "straight",
+      "meaning": "Not bent; like a line.",
+      "partOfSpeech": "adjective",
+      "chapter": 3,
+      "context": "Yunus only took straight wood to the house."
+     },
+     {
+      "word": "alone",
+      "meaning": "With no other people.",
+      "partOfSpeech": "adjective",
+      "chapter": 4,
+      "context": "On the mountain, Yunus was often alone."
+     },
+     {
+      "word": "laugh",
+      "meaning": "Make a happy sound “ha ha”.",
+      "partOfSpeech": "verb",
+      "chapter": 5,
+      "context": "Some students laughed at him."
+     }
+    ]
+   },
+   {
+    "id": 13,
+    "type": "exercises",
+    "title": "Language Review",
+    "image": "https://picsum.photos/seed/exercises-yunus-a1/1200/800",
+    "content": "Review the language from all six chapters.",
+    "exercises": [
+     {
+      "id": "yunus-a1-language-review-1",
+      "type": "drag-drop",
+      "title": "Look: Two Kinds of Past",
+      "instructions": "Put each verb in the right group.",
+      "question": "How does each verb show the past?",
+      "dragDropGroups": [
+       {
+        "group": "Ends in -ed / -d",
+        "items": [
+         "looked",
+         "carried",
+         "lived",
+         "died"
+        ]
+       },
+       {
+        "group": "Changes",
+        "items": [
+         "went",
+         "wrote",
+         "took",
+         "ran"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Ends in -ed / -d": [
+        "looked",
+        "carried",
+        "lived",
+        "died"
+       ],
+       "Changes": [
+        "went",
+        "wrote",
+        "took",
+        "ran"
+       ]
+      },
+      "explanation": "Many verbs add -ed or -d: look → looked, carry → carried, live → lived, die → died. Some verbs change: go → went, write → wrote, take → took, run → ran.",
+      "feedback": {
+       "correct": "Well done. You found the two kinds of past.",
+       "incorrect": "Say the verb today: look, go … Does it add -ed or change?"
+      }
+     },
+     {
+      "id": "yunus-a1-language-review-2",
+      "type": "choose-form",
+      "title": "Practise: Was or Were",
+      "instructions": "Choose was or were.",
+      "question": "One or many?",
+      "formChoices": [
+       {
+        "sentence": "Yunus Emre [choice] a great poet.",
+        "options": [
+         "was",
+         "were"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The dervishes [choice] kind and happy.",
+        "options": [
+         "was",
+         "were"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "One person: was. Two or more: were.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Yunus Emre = one person. The dervishes = many people."
+      }
+     },
+     {
+      "id": "yunus-a1-language-review-3",
+      "type": "choose-form",
+      "title": "Practise: There Was, There Were",
+      "instructions": "Choose there was or there were.",
+      "question": "One thing or many things?",
+      "formChoices": [
+       {
+        "sentence": "[choice] a mountain behind the dervish house.",
+        "options": [
+         "There was",
+         "There were"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] trees, animals and rivers.",
+        "options": [
+         "There was",
+         "There were"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "One thing: there was. Two or more things: there were.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "A mountain = one thing. Trees, animals and rivers = many things."
+      }
+     },
+     {
+      "id": "yunus-a1-language-review-4",
+      "type": "word-bank",
+      "title": "Practise: Always, Often, Never",
+      "instructions": "Fill the gaps with the words.",
+      "question": "How often?",
+      "fillBlanksText": "Yunus [blank] took straight wood. Yunus was [blank] alone. Yunus [blank] took wood that was not straight.",
+      "wordBank": [
+       "always",
+       "often",
+       "never",
+       "only"
+      ],
+      "correctAnswer": [
+       "always",
+       "often",
+       "never"
+      ],
+      "explanation": "Always = every time. Often = many times. Never = not one time.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Find always, often and never in Chapters 3 and 4."
+      }
+     },
+     {
+      "id": "yunus-a1-language-review-5",
+      "type": "error-correction",
+      "title": "Practise: Fix One Word",
+      "instructions": "Find the wrong word. Write the right word.",
+      "question": "Can you fix the verb?",
+      "errorItems": [
+       {
+        "sentence": "Yunus Emre goed to a madrasa.",
+        "error": "goed",
+        "options": [
+         "went",
+         "go",
+         "goes"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The students runned back quickly.",
+        "error": "runned",
+        "options": [
+         "run",
+         "ran",
+         "runs"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "“Go” and “run” change in the past: went, ran.",
+      "feedback": {
+       "correct": "Well done.",
+       "incorrect": "Go → went. Run → ran. They do not take -ed."
+      }
+     },
+     {
+      "id": "yunus-a1-language-review-6",
+      "type": "reflection",
+      "title": "Use: My Day",
+      "instructions": "Write three sentences about your day.",
+      "question": "What did you do today?",
+      "correctAnswer": null,
+      "explanation": "Use one past verb, one there was and one always, often or never.",
+      "feedback": {
+       "correct": "Write three short sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "One past verb: “I went …”",
+        "mode": "Individual",
+        "example": "I went to school."
+       },
+       {
+        "question": "One “there was”: “There was …”",
+        "mode": "Individual",
+        "example": "There was a test."
+       },
+       {
+        "question": "One always, often or never: “I always …”",
+        "mode": "Individual",
+        "example": "I always do my homework."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": 14,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "image": "https://picsum.photos/seed/challenge-yunus-a1/1200/800",
+    "content": "Bring the whole story together in the Final Challenge.",
+    "exercises": [
+     {
+      "id": "yunus-a1-final-1",
+      "type": "fill-blanks",
+      "title": "Easy Turkish",
+      "instructions": "Complete the sentence with one word: Turkish, Arabic or Persian.",
+      "question": "In which language did Yunus Emre write?",
+      "fillBlanksText": "Yunus Emre wrote poems in easy [blank].",
+      "correctAnswer": [
+       "Turkish"
+      ],
+      "explanation": "Chapter 1: “He wrote poems in easy Turkish.”",
+      "feedback": {
+       "correct": "Yes. He wrote in easy Turkish.",
+       "incorrect": "Read the first paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "yunus-a1-final-2",
+      "type": "multiple-choice",
+      "title": "A Madrasa",
+      "instructions": "Choose the answer.",
+      "question": "What was a madrasa?",
+      "options": [
+       "a school",
+       "a shop",
+       "a mountain"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 1: “A madrasa was a school.”",
+      "feedback": {
+       "correct": "Yes. A madrasa was a school.",
+       "incorrect": "Read the second paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "yunus-a1-final-3",
+      "type": "true-false",
+      "title": "Good Words",
+      "instructions": "Is it true or false?",
+      "question": "The dervishes did not say bad things about other people.",
+      "correctAnswer": true,
+      "explanation": "Chapter 2: “They did not say bad things about other people.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the second paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "yunus-a1-final-4",
+      "type": "multiple-choice",
+      "title": "The Mountain",
+      "instructions": "Choose the answer.",
+      "question": "Where was the mountain?",
+      "options": [
+       "behind the dervish house",
+       "near the sea",
+       "in the city"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: “There was a mountain behind the dervish house.”",
+      "feedback": {
+       "correct": "Yes. It was behind the dervish house.",
+       "incorrect": "Read the first paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "yunus-a1-final-5",
+      "type": "matching",
+      "title": "Who or What?",
+      "instructions": "Match the name with its meaning.",
+      "question": "Who or what is it?",
+      "matchingHeadings": {
+       "left": "Name",
+       "right": "Meaning"
+      },
+      "matchingPairs": [
+       {
+        "left": "Taptuk Emre",
+        "right": "Yunus Emre’s teacher"
+       },
+       {
+        "left": "Mevlana",
+        "right": "a man who lived at the same time as Yunus Emre"
+       },
+       {
+        "left": "daisy",
+        "right": "a small white flower"
+       }
+      ],
+      "correctAnswer": {
+       "Taptuk Emre": "Yunus Emre’s teacher",
+       "Mevlana": "a man who lived at the same time as Yunus Emre",
+       "daisy": "a small white flower"
+      },
+      "explanation": "Chapter 1: “Yunus’s teacher was Taptuk Emre. Yunus lived at the same time as Mevlana.” Chapter 5: “He had only one daisy in his hand.”",
+      "feedback": {
+       "correct": "Good. You matched all three.",
+       "incorrect": "Read Chapter 1 and the Word Note for daisy."
+      }
+     },
+     {
+      "id": "yunus-a1-final-6",
+      "type": "true-false",
+      "title": "Forty Years",
+      "instructions": "Is it true or false?",
+      "question": "Yunus Emre did the wood work for 40 years.",
+      "correctAnswer": true,
+      "explanation": "Chapter 4: “Yunus did this work for 40 years.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the first line of Chapter 4."
+      }
+     },
+     {
+      "id": "yunus-a1-final-7",
+      "type": "multiple-choice",
+      "title": "Why Did They Laugh?",
+      "instructions": "Choose the answer.",
+      "question": "Why did some students laugh at Yunus Emre?",
+      "options": [
+       "Yunus Emre had only one flower.",
+       "Yunus Emre was late for lunch.",
+       "Yunus Emre did not like flowers."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: They said, “Look! He has only one small flower!”",
+      "feedback": {
+       "correct": "Yes. Yunus Emre had only one flower.",
+       "incorrect": "Read the second paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "yunus-a1-final-8",
+      "type": "sequencing",
+      "title": "Yunus Emre’s Life",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Yunus Emre went to a madrasa."
+       },
+       {
+        "id": "2",
+        "text": "Yunus Emre worked for Taptuk Emre."
+       },
+       {
+        "id": "3",
+        "text": "Yunus Emre took straight wood for 40 years."
+       },
+       {
+        "id": "4",
+        "text": "Yunus Emre brought one daisy to Taptuk Emre."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Madrasa (Chapter 1) → work for Taptuk Emre (Chapter 3) → 40 years (Chapter 4) → one daisy (Chapter 5).",
+      "feedback": {
+       "correct": "Great! You know Yunus Emre’s story.",
+       "incorrect": "Think about the order of the chapters."
+      }
+     }
+    ]
+   }
+  ],
+  "teacherGuide": [],
+  "selfStudyGuide": []
+ }
+}

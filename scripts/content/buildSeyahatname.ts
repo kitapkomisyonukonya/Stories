@@ -12,9 +12,12 @@ const catalog = JSON.parse(readFileSync(`${root}/src/content/bookCatalog.json`, 
 };
 
 const stories = JSON.parse(readFileSync(`${root}/src/content/stories.json`, 'utf8')) as {
-  stories: { id: string; collection?: string; englishOnly?: boolean; hidden?: boolean; text: { en: { name: string } } }[];
+  stories: { id: string; collection?: string; englishOnly?: boolean; englishOnlyLevels?: string[]; hidden?: boolean; text: { en: { name: string } } }[];
 };
 const englishOnly = new Set(stories.stories.filter(story => story.englishOnly).map(story => story.id));
+// Single levels without Arabic yet (e.g. a new A1 edition): "storyId:level".
+const englishOnlyEditions = new Set(stories.stories.flatMap(story => (story.englishOnlyLevels ?? []).map(level => `${story.id}:${level}`)));
+const isEnglishOnly = (storyId: string, level: string) => englishOnly.has(storyId) || englishOnlyEditions.has(`${storyId}:${level}`);
 // Books set before Islam (the prophets, Mecca before Islam) get no minaret on their stamps.
 const beforeIslam = new Set(stories.stories.filter(story => story.collection === 'prophets' || story.id === 'mecca').map(story => story.id));
 
@@ -27,7 +30,7 @@ const editions: Record<string, ReturnType<typeof buildEditionIndex>> = {};
 for (const { storyId, level } of catalog.editions) {
   const en = readBook(storyId, level, 'en');
   if (!en) continue;
-  editions[`${storyId}:${level}`] = buildEditionIndex(en, englishOnly.has(storyId) ? null : readBook(storyId, level, 'ar'), {
+  editions[`${storyId}:${level}`] = buildEditionIndex(en, isEnglishOnly(storyId, level) ? null : readBook(storyId, level, 'ar'), {
     beforeIslam: beforeIslam.has(storyId),
   });
 }
@@ -60,7 +63,7 @@ const LANGUAGES = { en: 'English', ar: 'Arabic' } as const;
 for (const level of ['A2', 'B1', 'B2']) {
   for (const [lang, language] of Object.entries(LANGUAGES)) {
     const books = listed
-      .filter(edition => edition.level === level && (lang === 'en' || !englishOnly.has(edition.storyId)))
+      .filter(edition => edition.level === level && (lang === 'en' || !isEnglishOnly(edition.storyId, edition.level)))
       .map(edition => nameOf(edition.storyId));
     if (!books.length) continue;
     achievements[`level-${level}-${lang}`] = {

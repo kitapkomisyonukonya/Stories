@@ -2,7 +2,7 @@ import { defineEntity } from './define';
 import { medFeature, medPoint } from '../mediterraneanMap';
 import type { EntityBookSet } from './index';
 
-// Places & People cards for the yunus-emre books (A2, B1, B2), English and Arabic.
+// Places & People cards for the yunus-emre books (A1, A2, B1, B2), English and Arabic.
 // Generated from the reviewed card list; the chapters are where each level's story
 // names the place. Sources are TDV İslâm Ansiklopedisi article titles.
 
@@ -408,6 +408,14 @@ const entities = [
 export const YUNUS_EMRE_SET: EntityBookSet = {
   entities,
   chapters: {
+    'yunusEmre-a1': {
+      1: ["yunus-anatolia","yunus-madrasa","yunus-tekke","yunus-yunus-emre","yunus-taptuk-emre","yunus-mevlana-rumi"],
+      2: ["yunus-yunus-emre"],
+      3: ["yunus-tekke","yunus-yunus-emre","yunus-taptuk-emre"],
+      4: ["yunus-yunus-emre","yunus-taptuk-emre"],
+      5: ["yunus-yunus-emre","yunus-taptuk-emre"],
+      6: ["yunus-yunus-emre"],
+    },
     'yunusEmre-a2': {
       1: ["yunus-anatolia","yunus-syria","yunus-azerbaijan","yunus-tekke","yunus-madrasa","yunus-yunus-emre","yunus-taptuk-emre","yunus-mevlana-rumi"],
       3: ["yunus-yunus-emre","yunus-taptuk-emre"],
