@@ -6,9 +6,7 @@ import {
   Check,
   X,
   RotateCcw,
-  BookOpenCheck,
   Clock,
-  CheckCircle,
   ChevronLeft,
   ChevronRight,
   ChevronUp,
@@ -402,41 +400,10 @@ export const MasterGlossary: React.FC<MasterGlossaryProps> = ({
     { value: 'unreviewed', label: copy.newFilter, count: newCount },
   ];
 
-  const summaryCards = [
-    {
-      key: 'all' as FilterMode,
-      label: copy.total,
-      value: allVocabulary.length,
-      icon: BookOpenCheck,
-      className: cn(colTheme.brandSoft, colTheme.brandText, colTheme.border),
-    },
-    {
-      key: 'known' as FilterMode,
-      label: copy.confident,
-      value: knownCount,
-      icon: CheckCircle,
-      className: 'bg-emerald-50 text-emerald-700 border-emerald-100',
-    },
-    {
-      key: 'unknown' as FilterMode,
-      label: copy.practice,
-      value: reviewCount,
-      icon: RotateCcw,
-      className: 'bg-rose-50 text-rose-700 border-rose-100',
-    },
-    {
-      key: 'unreviewed' as FilterMode,
-      label: copy.fresh,
-      value: newCount,
-      icon: Clock,
-      className: 'bg-violet-50 text-violet-700 border-violet-100',
-    },
-  ];
-
   return (
     <div className="flex-1 min-h-0 flex flex-col gap-3 overflow-hidden">
       <section className={cn(
-        'shrink-0 relative overflow-hidden rounded-[1.6rem] border bg-gradient-to-br px-4 py-4 sm:px-5 sm:py-4 shadow-sm max-sm:hidden',
+        'shrink-0 relative overflow-hidden rounded-[1.6rem] border bg-gradient-to-br px-4 py-3 sm:px-5 sm:py-3 shadow-sm max-sm:hidden',
         colTheme.hero,
         colTheme.accentBorder
       )}>
@@ -483,77 +450,41 @@ export const MasterGlossary: React.FC<MasterGlossaryProps> = ({
             )}
           </div>
 
-          <div className="max-sm:hidden xl:w-[42%] xl:min-w-[430px] rounded-2xl border border-white/80 bg-white/65 backdrop-blur-md px-4 py-3 shadow-sm">
-            <div className="flex items-center justify-between gap-3 mb-2">
-              <div>
+          <div className="max-sm:hidden xl:w-[40%] xl:min-w-[400px] rounded-2xl border border-white/80 bg-white/65 backdrop-blur-md px-4 py-2.5 shadow-sm">
+            <div className="flex items-center gap-3">
+              <div className="min-w-0">
                 <div className={cn('text-xs font-black uppercase tracking-[0.12em]', colTheme.brandText)}>
                   {copy.progressTitle}
                 </div>
-                <p className="text-[11px] sm:text-xs text-wood/60 mt-0.5">
-                  {copy.progressHint}
+                <p className="text-[11px] text-wood/60 mt-0.5 truncate">
+                  {formatNumber(knownCount)} / {formatNumber(allVocabulary.length)} {copy.confident === 'I Know' ? 'I know' : copy.confident.toLowerCase()}
                 </p>
               </div>
-              <div className={cn('text-2xl sm:text-3xl font-black tabular-nums', colTheme.brandTextStrong)}>
+              <div className={cn('h-2.5 flex-1 min-w-[80px] rounded-full overflow-hidden', colTheme.progressTrack)} title={copy.progressHint}>
+                <motion.div
+                  className={cn('h-full rounded-full', colTheme.progressFill)}
+                  initial={{ width: 0 }}
+                  animate={{ width: `${progressPct}%` }}
+                  transition={{ duration: 0.45, ease: 'easeOut' }}
+                />
+              </div>
+              <div className={cn('text-2xl font-black tabular-nums', colTheme.brandTextStrong)}>
                 {formatNumber(progressPct)}%
               </div>
-            </div>
-
-            <div className={cn('h-2.5 rounded-full overflow-hidden', colTheme.progressTrack)}>
-              <motion.div
-                className={cn('h-full rounded-full', colTheme.progressFill)}
-                initial={{ width: 0 }}
-                animate={{ width: `${progressPct}%` }}
-                transition={{ duration: 0.45, ease: 'easeOut' }}
-              />
-            </div>
-
-            <div className="flex items-center justify-between gap-2 mt-2">
-              <span className="text-[11px] sm:text-xs text-wood/60">
-                {formatNumber(knownCount)} / {formatNumber(allVocabulary.length)} {copy.confident === 'I Know' ? 'I know' : copy.confident.toLowerCase()}
-              </span>
               {(knownCount > 0 || reviewCount > 0) && (
                 <button
                   onClick={resetProgress}
-                  className={cn('inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-[11px] font-bold transition-all hover:scale-[1.02]', colTheme.brandSoft, colTheme.brandText)}
+                  className={cn('shrink-0 w-8 h-8 rounded-lg flex items-center justify-center transition-all hover:scale-[1.04]', colTheme.brandSoft, colTheme.brandText)}
                   title={t('nav.reset')}
                   aria-label={t('nav.reset')}
                 >
-                  <RotateCcw size={12} />
-                  {t('nav.reset')}
+                  <RotateCcw size={14} />
                 </button>
               )}
             </div>
           </div>
         </div>
 
-        {/* Phones: the filter chips below already carry these counts */}
-        <div className="relative hidden sm:grid grid-cols-2 lg:grid-cols-4 gap-2.5 mt-4">
-          {summaryCards.map(item => {
-            const Icon = item.icon;
-            const active = filter === item.key;
-            return (
-              <button
-                key={item.key}
-                onClick={() => setFilter(item.key)}
-                className={cn(
-                  'rounded-2xl border p-3 text-left transition-all hover:-translate-y-0.5 hover:shadow-sm',
-                  item.className,
-                  active && 'ring-2 ring-current/15 shadow-sm'
-                )}
-              >
-                <div className="flex items-center justify-between gap-2">
-                  <div className="w-8 h-8 rounded-xl bg-white/70 flex items-center justify-center shadow-sm">
-                    <Icon size={16} />
-                  </div>
-                  <span className="text-xl sm:text-2xl font-black tabular-nums">{formatNumber(item.value)}</span>
-                </div>
-                <div className="mt-2 text-[11px] sm:text-xs font-black uppercase tracking-[0.08em]">
-                  {item.label}
-                </div>
-              </button>
-            );
-          })}
-        </div>
       </section>
 
       <section className="shrink-0 rounded-2xl border border-black/5 bg-white/45 backdrop-blur-sm p-3 shadow-sm max-sm:p-2">
@@ -590,8 +521,9 @@ export const MasterGlossary: React.FC<MasterGlossaryProps> = ({
                     : cn('bg-white/60 hover:bg-white', colTheme.brandText, colTheme.border)
                 )}
               >
-                {isPhone && opt.value === 'known' && <Check size={12} className="me-1 inline-block align-[-1px]" aria-hidden="true" />}
-                {isPhone && opt.value === 'unknown' && <RotateCcw size={12} className="me-1 inline-block align-[-1px]" aria-hidden="true" />}
+                {opt.value === 'known' && <Check size={12} className="me-1 inline-block align-[-1px]" aria-hidden="true" />}
+                {opt.value === 'unknown' && <RotateCcw size={12} className="me-1 inline-block align-[-1px]" aria-hidden="true" />}
+                {opt.value === 'unreviewed' && !isPhone && <Clock size={12} className="me-1 inline-block align-[-1px]" aria-hidden="true" />}
                 {opt.label} <span>· {formatNumber(opt.count)}</span>
               </button>
             ))}
