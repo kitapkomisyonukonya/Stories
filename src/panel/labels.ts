@@ -12,6 +12,8 @@ export const PAGE_TYPES: Record<string, string> = {
   'final-challenge': 'Final Challenge',
   map: 'Yolculuk haritası',
   places: 'Places & People',
+  'key-facts': 'Key Facts',
+  'key-terms': 'Key Terms',
 };
 
 export const EXERCISE_TYPES: Record<string, { name: string; help: string }> = {

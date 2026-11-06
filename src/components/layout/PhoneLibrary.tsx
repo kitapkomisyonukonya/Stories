@@ -32,7 +32,7 @@ type CatalogStory = (typeof storyCatalog)[number];
 type Tab = 'library' | 'journal' | 'words' | 'settings';
 
 const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2'];
-const COLLECTIONS: StoryCollectionId[] = ['prophets', 'history', 'turkish'];
+const COLLECTIONS: StoryCollectionId[] = ['prophets', 'history', 'turkish', 'today'];
 
 interface PhoneLibraryProps {
   stories: CatalogStory[];

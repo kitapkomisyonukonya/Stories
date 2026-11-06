@@ -14,7 +14,7 @@ import { timeAgo, wordCount } from '../util';
  */
 
 const LEVELS = ['A2', 'B1', 'B2'];
-const COLLECTIONS: Record<string, string> = { prophets: 'Peygamberler', history: 'Tarih', turkish: 'Türk-İslam büyükleri' };
+const COLLECTIONS: Record<string, string> = { prophets: 'Peygamberler', history: 'Tarih', turkish: 'Türk-İslam büyükleri', today: 'Our World Today' };
 
 const idFrom = (name: string) => {
   const words = name

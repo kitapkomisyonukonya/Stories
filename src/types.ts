@@ -1,6 +1,26 @@
 import type { StoryMap } from './features/story-maps/types';
 
-export type PageType = 'story' | 'quiz' | 'vocabulary-match' | 'exercises' | 'glossary' | 'final-challenge' | 'map' | 'places';
+export type PageType = 'story' | 'quiz' | 'vocabulary-match' | 'exercises' | 'glossary' | 'final-challenge' | 'map' | 'places' | 'key-facts' | 'key-terms';
+
+/** One stop on a `key-facts` page (Our World Today books): a fact from one chapter, coloured by that chapter's stamp. */
+export interface KeyFact {
+  chapter: number;
+  label: string;
+  value: string;
+  title: string;
+  text: string;
+}
+
+/** One card on a `key-terms` page: English on the front, Arabic on the back. */
+export interface KeyTerm {
+  kind: string;
+  term: string;
+  chapter: number;
+  definition: string;
+  termAr: string;
+  definitionAr: string;
+  image?: string;
+}
 
 export type Level = 'A1' | 'A2' | 'B1' | 'B2';
 
@@ -165,6 +185,10 @@ export interface PageData {
   map?: StoryMap;
   /** Which book's place and history cards a `places` page lists. */
   entityBookKey?: string;
+  /** Stops of a `key-facts` page. */
+  facts?: KeyFact[];
+  /** Cards of a `key-terms` page. */
+  terms?: KeyTerm[];
   beforeYouRead?: BeforeYouRead;
   /** Three can-do lines the learner rates at the end of the chapter. */
   iCan?: string[];

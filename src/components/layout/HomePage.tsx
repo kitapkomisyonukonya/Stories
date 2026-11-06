@@ -121,6 +121,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           prophets: 'قصص الأنبياء',
           history: 'التاريخ والحضارة',
           turkish: 'التراث التركي الإسلامي',
+          today: 'عَالَمُنَا الْيَوْمَ',
           continueLabel: 'تابع من حيث توقفت',
           shelfEyebrow: 'المكتبة',
           shelfTitle: 'اختر قصة',
@@ -142,6 +143,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           prophets: 'Prophets',
           history: 'History & civilization',
           turkish: 'Turkish-Islamic heritage',
+          today: 'Our World Today',
           continueLabel: 'Continue where you left off',
           shelfEyebrow: 'The library',
           shelfTitle: 'Choose a story',
@@ -159,6 +161,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
     prophets: copy.prophets,
     history: copy.history,
     turkish: copy.turkish,
+    today: copy.today,
   };
 
   const translatedStoryName = (story: CatalogStory) => {
@@ -782,7 +785,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
             </div>
             {/* Phones: one row that scrolls sideways instead of four ragged lines */}
             <div className="-mx-1 flex w-full gap-1.5 overflow-x-auto px-1 pb-0.5 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0 lg:ms-auto lg:w-auto" role="group">
-              {(['all', 'prophets', 'history', 'turkish'] as CollectionId[]).map(collection => (
+              {(['all', 'prophets', 'history', 'turkish', 'today'] as CollectionId[]).filter(collection => collection === 'all' || collectionStoryIds[collection].length > 0).map(collection => (
                 <button
                   key={collection}
                   type="button"

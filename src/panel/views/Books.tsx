@@ -9,7 +9,7 @@ import { isDirty, loadFile, mayEditPath, revertDraft, saveAll, updateDraft, useS
 import { confirm } from '../ui';
 import { STORIES_PATH } from '../util';
 
-const COLLECTIONS: Record<string, string> = { prophets: 'Peygamberler', history: 'Tarih', turkish: 'Türk-İslam büyükleri' };
+const COLLECTIONS: Record<string, string> = { prophets: 'Peygamberler', history: 'Tarih', turkish: 'Türk-İslam büyükleri', today: 'Our World Today' };
 
 export const Books = () => {
   const stories = useStore(state => state.stories);

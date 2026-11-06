@@ -17,7 +17,7 @@ const booksDir = `${root}/src/content/books`;
 const guidesDir = `${root}/src/content/guides`;
 
 const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2'];
-const PAGE_TYPES: PageType[] = ['story', 'quiz', 'vocabulary-match', 'exercises', 'glossary', 'final-challenge', 'map', 'places'];
+const PAGE_TYPES: PageType[] = ['story', 'quiz', 'vocabulary-match', 'exercises', 'glossary', 'final-challenge', 'map', 'places', 'key-facts', 'key-terms'];
 const LANGUAGES = ['en', 'ar'] as const;
 
 const errors: string[] = [];

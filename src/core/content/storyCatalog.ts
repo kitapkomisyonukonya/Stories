@@ -26,8 +26,13 @@ import ibnJubayrCoverSmall from '../../assets/images/ibn_jubayr_cover_sm.webp';
 import prophetsIcon from '../../assets/images/prophets_icon.webp';
 import civilizationIcon from '../../assets/images/civilization_icon.webp';
 import scholarsIcon from '../../assets/images/scholars_icon.webp';
+// Temporary mark until the drawn Our World Today emblem arrives.
+import todayIcon from '../../assets/images/today_icon.svg';
+// Temporary Green Deal cover until the drawn one arrives.
+import greenDealCoverTemp from '../../assets/images/green_deal_cover_temp.webp';
+import greenDealCoverTempSmall from '../../assets/images/green_deal_cover_temp_sm.webp';
 
-export type StoryCollectionId = 'prophets' | 'history' | 'turkish';
+export type StoryCollectionId = 'prophets' | 'history' | 'turkish' | 'today';
 
 export interface StoryCatalogItem extends ProphetStory {
   nameAr: string;
@@ -97,6 +102,12 @@ const emeraldScale: BrandScale = {
   '600': 'oklch(59.6% .145 163.225)', '700': 'oklch(50.8% .118 165.612)', '800': 'oklch(43.2% .095 166.913)',
   '900': 'oklch(37.8% .077 168.94)', '950': 'oklch(26.2% .051 172.552)',
 };
+const coralScale: BrandScale = {
+  '50': 'oklch(98% .016 50)', '100': 'oklch(95.4% .036 48)', '200': 'oklch(90.1% .07 45)',
+  '300': 'oklch(83.7% .11 42)', '400': 'oklch(75% .15 38)', '500': 'oklch(70.5% .17 36)',
+  '600': 'oklch(62% .175 34)', '700': 'oklch(53% .16 33)', '800': 'oklch(45.5% .13 33)',
+  '900': 'oklch(39.5% .1 33)', '950': 'oklch(26.6% .07 33)',
+};
 const skyScale: BrandScale = {
   '50': 'oklch(97.7% .013 236.62)', '100': 'oklch(95.1% .026 236.824)', '200': 'oklch(90.1% .058 230.902)',
   '300': 'oklch(82.8% .111 230.318)', '400': 'oklch(74.6% .16 232.661)', '500': 'oklch(68.5% .169 237.323)',
@@ -126,6 +137,7 @@ const covers: Record<string, { image: string; imageSmall?: string }> = {
   ibnJubayr: { image: ibnJubayrCover, imageSmall: ibnJubayrCoverSmall },
   yunusEmre: { image: yunusEmreCover, imageSmall: yunusEmreCoverSmall },
   gevherNesibe: { image: scholarsIcon },
+  greenDeal: { image: greenDealCoverTemp, imageSmall: greenDealCoverTempSmall },
 };
 
 /** A book's cover picture (the content panel shows it too); a book without one gets the collection picture. */
@@ -152,7 +164,12 @@ const toCatalogItem = (story: StoryFile): StoryCatalogItem => ({
   hidden: story.hidden,
 });
 
-export const storyCatalog: StoryCatalogItem[] = storyFile.stories.filter(story => !story.hidden).map(toCatalogItem);
+// A preview link (?gizli=…) also puts the hidden Our World Today books on the shelf, so the new
+// collection can be seen as readers will see it. Other hidden books stay off the shelf.
+const previewShelf = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('gizli');
+export const storyCatalog: StoryCatalogItem[] = storyFile.stories
+  .filter(story => !story.hidden || (previewShelf && story.collection === 'today'))
+  .map(toCatalogItem);
 
 /**
  * Books that are loaded in the app but not shown to anyone yet: they are kept out of
@@ -170,6 +187,7 @@ export const collectionStoryIds: Record<StoryCollectionId, string[]> = {
   prophets: storyCatalog.filter(story => story.collection === 'prophets').map(story => story.id),
   history: storyCatalog.filter(story => story.collection === 'history').map(story => story.id),
   turkish: storyCatalog.filter(story => story.collection === 'turkish').map(story => story.id),
+  today: storyCatalog.filter(story => story.collection === 'today').map(story => story.id),
 };
 
 export const collectionVisuals: Record<StoryCollectionId, CollectionVisual> = {
@@ -246,6 +264,31 @@ export const collectionVisuals: Record<StoryCollectionId, CollectionVisual> = {
       page: '#f2f6f9',
       pageDeep: '#eaf0f4',
       scale: skyScale,
+    },
+  },
+  today: {
+    id: 'today',
+    nameEn: 'Our World Today',
+    nameAr: 'عَالَمُنَا الْيَوْمَ',
+    shortEn: 'Our World Today',
+    shortAr: 'عَالَمُنَا الْيَوْمَ',
+    accent: '#E8836B',
+    accentBright: '#F6A890',
+    accentSoft: 'rgba(232,131,107,0.14)',
+    ambient: 'rgba(122,52,34,0.42)',
+    stage: 'linear-gradient(135deg, #18110e 0%, #2a1912 48%, #120d0b 100%)',
+    summaryGradient: 'linear-gradient(145deg, #140b08 0%, #2e170f 48%, #0f0a08 100%)',
+    summaryCard: 'rgba(232,131,107,0.075)',
+    summaryButton: '#B85A43',
+    icon: todayIcon,
+    readerTokens: {
+      accent: '#f0a08a',
+      accentStrong: '#c2410c',
+      chrome: '#2c140c',
+      chromeMenu: '#24100a',
+      page: '#fdf6f2',
+      pageDeep: '#f6ece6',
+      scale: coralScale,
     },
   },
 };

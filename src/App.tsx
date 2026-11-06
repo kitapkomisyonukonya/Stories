@@ -47,6 +47,8 @@ const TeacherGuide = lazy(() => import('./components/layout/TeacherGuide').then(
 const FinalChallenge = lazy(() => import('./components/book/FinalChallenge').then(module => ({ default: module.FinalChallenge })));
 const StoryMapPage = lazy(() => import('./features/story-maps/StoryMapPage').then(module => ({ default: module.StoryMapPage })));
 const PlacesPage = lazy(() => import('./features/historical-entities/PlacesPage'));
+const KeyFactsPage = lazy(() => import('./features/today/KeyFactsPage'));
+const KeyTermsPage = lazy(() => import('./features/today/KeyTermsPage'));
 const SummaryDashboard = lazy(() => import('./components/book/SummaryDashboard').then(module => ({ default: module.SummaryDashboard })));
 import { SelfStudyGuide } from './components/layout/SelfStudyGuide';
 import { HomePage } from './components/layout/HomePage';
@@ -811,6 +813,24 @@ const AppContent = () => {
             />
           </Suspense>
         );
+      case 'key-facts':
+        return (
+          <Suspense fallback={null}>
+            <KeyFactsPage
+              page={currentPage}
+              pages={currentBook?.pages ?? []}
+              storyId={currentDefinition?.storyId}
+              level={currentLevel}
+              onOpenPage={index => setCurrentPageIndex(index)}
+            />
+          </Suspense>
+        );
+      case 'key-terms':
+        return (
+          <Suspense fallback={null}>
+            <KeyTermsPage page={currentPage} />
+          </Suspense>
+        );
       case 'glossary':
         return (
           <MasterGlossary
@@ -1254,7 +1274,7 @@ const AppContent = () => {
 
           <div className="hidden min-w-0 items-center justify-end md:flex">
             <span className="truncate font-display text-[11px] font-semibold uppercase tracking-[0.14em] text-parchment/55 lg:text-[12px]">
-              {currentCollection === 'history' ? t('home.collection2') : currentCollection === 'turkish' ? t('home.collection3') : t('home.collection1')}
+              {currentCollection === 'history' ? t('home.collection2') : currentCollection === 'turkish' ? t('home.collection3') : currentCollection === 'today' ? t('home.collection4') : t('home.collection1')}
             </span>
           </div>
         </footer>
