@@ -115,6 +115,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
         teacherGuide: t('nav.teacherGuideFor'),
         close: 'إغلاق',
         nothingYet: 'اختر كتابًا لتبدأ.',
+        comingSoon: 'كُتُبٌ جَدِيدَةٌ فِي الطَّرِيقِ.',
       }
     : {
         continueLabel: 'Continue reading',
@@ -138,13 +139,15 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
         teacherGuide: t('nav.teacherGuideFor'),
         close: 'Close',
         nothingYet: 'Choose a book to start.',
+        comingSoon: 'New books are on the way.',
       };
 
   const lastStory = lastActive ? storyCatalog.find(story => story.id === lastActive.prophetId) ?? null : null;
   const shelves = useMemo(
     () => COLLECTIONS
       .map(collection => ({ collection, books: stories.filter(story => collectionStoryIds[collection].includes(story.id)) }))
-      .filter(shelf => shelf.books.length > 0),
+      // Our World Today stays on the shelf while its books are being made, with a 'coming' tile.
+      .filter(shelf => shelf.books.length > 0 || shelf.collection === 'today'),
     [stories],
   );
   // Levels that at least one book on this shelf has (the Arabic side has no A1 yet).
@@ -278,6 +281,12 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                   {collectionLabels[shelf.collection]}
                 </h2>
                 <div className="-mx-4 flex snap-x scroll-px-4 gap-3 overflow-x-auto px-4 pb-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                  {shelf.books.length === 0 && (
+                    <div className="flex w-[132px] shrink-0 flex-col items-center justify-center gap-2 rounded-[14px] bg-white/[0.04] p-3 text-center ring-1 ring-white/[0.07] aspect-[4/5]">
+                      <img src={collectionVisuals[shelf.collection].icon} alt="" className="h-14 w-14 object-contain" />
+                      <span className={cn('text-[#EDE5D4]/75', isRTL ? 'text-[14px]' : 'text-[12.5px]')}>{copy.comingSoon}</span>
+                    </div>
+                  )}
                   {shelf.books.map(story => {
                     const bookLevel = levelFor(story);
                     const progress = summarizeBookProgress(story.id, bookLevel);

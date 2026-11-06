@@ -122,6 +122,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           history: 'التاريخ والحضارة',
           turkish: 'التراث التركي الإسلامي',
           today: 'عَالَمُنَا الْيَوْمَ',
+          comingSoon: 'كُتُبٌ جَدِيدَةٌ فِي الطَّرِيقِ.',
           continueLabel: 'تابع من حيث توقفت',
           shelfEyebrow: 'المكتبة',
           shelfTitle: 'اختر قصة',
@@ -144,6 +145,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           history: 'History & civilization',
           turkish: 'Turkish-Islamic heritage',
           today: 'Our World Today',
+          comingSoon: 'New books are on the way.',
           continueLabel: 'Continue where you left off',
           shelfEyebrow: 'The library',
           shelfTitle: 'Choose a story',
@@ -785,7 +787,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
             </div>
             {/* Phones: one row that scrolls sideways instead of four ragged lines */}
             <div className="-mx-1 flex w-full gap-1.5 overflow-x-auto px-1 pb-0.5 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0 lg:ms-auto lg:w-auto" role="group">
-              {(['all', 'prophets', 'history', 'turkish', 'today'] as CollectionId[]).filter(collection => collection === 'all' || collectionStoryIds[collection].length > 0).map(collection => (
+              {(['all', 'prophets', 'history', 'turkish', 'today'] as CollectionId[]).map(collection => (
                 <button
                   key={collection}
                   type="button"
@@ -805,6 +807,14 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           </div>
 
           <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {/* A collection whose books are still being made (Our World Today) shows its mark and a short line instead of an empty shelf. */}
+            {visibleStories.length === 0 && activeCollection !== 'all' && (
+              <div className="col-span-full flex flex-col items-center gap-4 rounded-[1.5rem] border border-white/[0.06] bg-white/[0.03] px-6 py-12 text-center">
+                <img src={collectionVisuals[activeCollection].icon} alt="" className="h-24 w-24 object-contain" />
+                <p className={cn('font-semibold text-[#FFF9EC]', isRTL ? 'text-[20px]' : 'text-[18px]')}>{collectionLabels[activeCollection]}</p>
+                <p className={cn('text-[#EDE5D4]/70', isRTL ? 'text-[17px]' : 'text-[15px]')}>{copy.comingSoon}</p>
+              </div>
+            )}
             {visibleStories.map(story => {
               const collection = getStoryCollection(story.id);
               const visual = collectionVisuals[collection];
