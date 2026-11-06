@@ -1,0 +1,2844 @@
+{
+ "schema": 1,
+ "storyId": "ibrahim",
+ "level": "A1",
+ "language": "ar",
+ "collection": "prophets",
+ "book": {
+  "id": "a1-abraham-ar",
+  "title": "Prophet Abraham (pbuh): The Friend of Allah (A1)",
+  "level": "A1",
+  "baseFontSize": 13,
+  "pages": [
+   {
+    "id": 1,
+    "type": "story",
+    "title": "Stone Gods",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2FAbraham_a2_ch1.png?alt=media&token=5e040caa-6fbf-4bb4-840f-8fc15c0c8478",
+    "content": "A very long time ago, a boy was born in Babylon. His parents called him Abraham. Abraham was a good and smart boy. He loved Allah very much. Years later, Allah made Abraham His Messenger.\n\nThe people in Abraham’s town did not know Allah. They looked at the stars, the moon and the sun. They said, “These are our gods.” They also had stone gods in a special house. The stone gods looked like people or animals. People asked them for help. Abraham knew this was wrong. The stones could not eat, drink, talk, move or hear. Allah taught Abraham the truth.\n\nAbraham’s father made stone gods. Abraham knew they were only stones. He played with them like toys. He rode on their backs and kicked them.",
+    "vocabulary": [
+     {
+      "word": "Babylon",
+      "definition": "__historical_entity__:abraham-a1-babylon"
+     },
+     {
+      "word": "messenger",
+      "definition": "A person who brings Allah's words."
+     },
+     {
+      "word": "god",
+      "definition": "A thing people wrongly pray to."
+     },
+     {
+      "word": "stone",
+      "definition": "A small piece of rock."
+     },
+     {
+      "word": "truth",
+      "definition": "What is really true."
+     },
+     {
+      "word": "kick",
+      "definition": "Hit with your foot."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h1-1",
+      "x": 35,
+      "y": 46,
+      "title": "Stone Gods",
+      "description": "The people had stone gods. The stones could not eat, drink, talk, move or hear."
+     },
+     {
+      "id": "h1-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Smart Boy",
+      "description": "Abraham was a good and smart boy. He loved Allah very much."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "abraham-a1-quick-1",
+      "type": "drag-drop",
+      "title": "Abraham’s Town",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 1?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The people asked the stone gods for help.",
+         "Abraham’s father made stone gods."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The stone gods could talk."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The people asked the stone gods for help.",
+        "Abraham’s father made stone gods."
+       ],
+       "False": [
+        "The stone gods could talk."
+       ]
+      },
+      "explanation": "Chapter 1 says: “People asked them for help.” “The stones could not eat, drink, talk, move or hear.” “Abraham’s father made stone gods.”",
+      "feedback": {
+       "correct": "Yes! The stones could not talk.",
+       "incorrect": "Read the second paragraph of Chapter 1 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "abraham-a1-language-1-could-not",
+      "type": "multiple-choice",
+      "title": "Look: Could Not",
+      "instructions": "Choose the right answer.",
+      "question": "“The stones could not eat, drink, talk, move or hear.” What does this tell us?",
+      "options": [
+       "The stones could do nothing.",
+       "The stones were very big.",
+       "The stones were good friends."
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Could not” + verb tells us what was not possible in the past. The stones could not do anything.",
+      "feedback": {
+       "correct": "Yes. The stones could do nothing.",
+       "incorrect": "Read the sentence again: “The stones could not eat, drink, talk …”"
+      }
+     },
+     {
+      "id": "abraham-a1-language-1-practise",
+      "type": "word-bank",
+      "title": "Practise: Abraham’s Town",
+      "instructions": "Fill the gaps with the words.",
+      "question": "Which words tell the past?",
+      "fillBlanksText": "A boy [blank] born in Babylon. His parents [blank] him Abraham. The people [blank] not know Allah.",
+      "wordBank": [
+       "was",
+       "called",
+       "did",
+       "is",
+       "call"
+      ],
+      "correctAnswer": [
+       "was",
+       "called",
+       "did"
+      ],
+      "explanation": "All three sentences tell the past: was, called, did not know.",
+      "feedback": {
+       "correct": "Correct. All three words tell the past.",
+       "incorrect": "Look at the first two paragraphs of Chapter 1."
+      }
+     },
+     {
+      "id": "abraham-a1-language-1-say-it",
+      "type": "reflection",
+      "title": "Say It: Can and Cannot",
+      "instructions": "Say what a stone can and cannot do.",
+      "question": "What can a stone do?",
+      "correctAnswer": null,
+      "explanation": "Use can and cannot + verb.",
+      "feedback": {
+       "correct": "Say three sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“A stone cannot …”",
+        "mode": "Individual",
+        "example": "A stone cannot talk."
+       },
+       {
+        "question": "“A stone cannot …”",
+        "mode": "Individual",
+        "example": "A stone cannot hear."
+       },
+       {
+        "question": "“I can …, but a stone cannot.”",
+        "mode": "Pair",
+        "example": "I can walk, but a stone cannot."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What did the people in Abraham’s town have?",
+     "options": [
+      "stone gods",
+      "many books",
+      "big boats"
+     ],
+     "answer": 0,
+     "quote": "They also had stone gods in a special house."
+    },
+    "iCan": [
+     "I can say what the people in Babylon had.",
+     "I can use could not.",
+     "I can say what a stone cannot do."
+    ]
+   },
+   {
+    "id": 2,
+    "type": "story",
+    "title": "The Star, the Moon and the Sun",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch3.png?alt=media&token=501af204-5d22-4f08-911d-33887a5bdb5a",
+    "content": "Years passed. Abraham was not a small child now. He wanted to know the one true God, the God of everything.\n\nOne night, Abraham saw a bright star. He asked, “Is this my god?” Later, the star went away. Then he saw the moon. The moon went away, too. In the morning, Abraham saw the big sun. He asked, “Is this my god?” But the sun went away, too. Abraham knew that Allah never went away.\n\nAllah showed Abraham the right way and made him His Messenger. Allah told him to show his people the right way.",
+    "vocabulary": [
+     {
+      "word": "bright",
+      "definition": "With a lot of light."
+     },
+     {
+      "word": "star",
+      "definition": "A small light in the night sky."
+     },
+     {
+      "word": "go away",
+      "definition": "Leave; not be there now."
+     },
+     {
+      "word": "moon",
+      "definition": "The big light in the night sky."
+     },
+     {
+      "word": "the right way",
+      "definition": "The good and true path."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h2-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Star and the Moon",
+      "description": "Abraham saw a bright star and then the moon. They went away."
+     },
+     {
+      "id": "h2-2",
+      "x": 68,
+      "y": 50,
+      "title": "Allah Never Goes Away",
+      "description": "The star, the moon and the sun went away. Abraham knew that Allah never went away."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "abraham-a1-quick-2",
+      "type": "sequencing",
+      "title": "Night and Morning",
+      "instructions": "Put the sentences in order.",
+      "question": "What did Abraham see first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Abraham saw a bright star."
+       },
+       {
+        "id": "2",
+        "text": "Abraham saw the moon."
+       },
+       {
+        "id": "3",
+        "text": "Abraham saw the big sun."
+       },
+       {
+        "id": "4",
+        "text": "Abraham knew that Allah never went away."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 2: the star, then the moon, then the sun in the morning. Then Abraham knew that Allah never went away.",
+      "feedback": {
+       "correct": "Great! You put the chapter in order.",
+       "incorrect": "Read the second paragraph of Chapter 2 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "abraham-a1-language-2-past",
+      "type": "matching",
+      "title": "Look: Saw, Went",
+      "instructions": "Match the verb with its past form.",
+      "question": "What is the past form?",
+      "matchingHeadings": {
+       "left": "Verb",
+       "right": "Past form"
+      },
+      "matchingPairs": [
+       {
+        "left": "see",
+        "right": "saw"
+       },
+       {
+        "left": "go away",
+        "right": "went away"
+       },
+       {
+        "left": "know",
+        "right": "knew"
+       },
+       {
+        "left": "ask",
+        "right": "asked"
+       }
+      ],
+      "correctAnswer": {
+       "see": "saw",
+       "go away": "went away",
+       "know": "knew",
+       "ask": "asked"
+      },
+      "explanation": "“Saw”, “went” and “knew” change in the past. “Asked” ends in -ed.",
+      "feedback": {
+       "correct": "Good. You found the past forms.",
+       "incorrect": "Find saw, went away, knew and asked in Chapter 2."
+      }
+     },
+     {
+      "id": "abraham-a1-language-2-question",
+      "type": "choose-form",
+      "title": "Practise: Is This …?",
+      "instructions": "Choose the right question.",
+      "question": "How do we ask?",
+      "formChoices": [
+       {
+        "sentence": "Abraham asked, “[choice] my god?”",
+        "options": [
+         "Is this",
+         "This is"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "“[choice] the moon?” “Yes, it is.”",
+        "options": [
+         "Is that",
+         "That is"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "For a question with “be”, “is” comes first: Is this my god? Is that the moon?",
+      "feedback": {
+       "correct": "Correct. Is comes first in the question.",
+       "incorrect": "Look at Abraham’s question in Chapter 2: “Is this my god?”"
+      }
+     },
+     {
+      "id": "abraham-a1-language-2-say-it",
+      "type": "reflection",
+      "title": "Say It: In the Sky",
+      "instructions": "Ask and answer about the sky.",
+      "question": "What can you see in the sky?",
+      "correctAnswer": null,
+      "explanation": "Use “Is this …?” and “I can see …”.",
+      "feedback": {
+       "correct": "Ask one question and say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Is this the moon?” “Yes, it is.” / “No, it is not.”",
+        "mode": "Pair",
+        "example": "Is this the moon? Yes, it is."
+       },
+       {
+        "question": "“At night, I can see …”",
+        "mode": "Individual",
+        "example": "At night, I can see the moon and stars."
+       },
+       {
+        "question": "“In the morning, I can see …”",
+        "mode": "Individual",
+        "example": "In the morning, I can see the sun."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "picture",
+     "question": "Look at the picture. What did Abraham see at night?",
+     "options": [
+      "a bright star",
+      "a big boat",
+      "a red flower"
+     ],
+     "answer": 0,
+     "quote": "One night, Abraham saw a bright star."
+    },
+    "iCan": [
+     "I can say what Abraham saw in the sky.",
+     "I can use saw, went and knew.",
+     "I can ask “Is this …?”."
+    ]
+   },
+   {
+    "id": 3,
+    "type": "story",
+    "title": "Abraham’s Plan",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch6.png?alt=media&token=fa914194-fff0-4212-98ec-c09305680d98",
+    "content": "Abraham told his people about Allah, but they did not listen. He made a plan. He wanted to show them the right way. One day, all the people went to a festival. Abraham went into the house of the stone gods. He broke all of them, but he did not break the biggest one. He put the axe on its neck.\n\nThe next day, the people went into the building. They saw the broken stones on the floor. They asked Abraham, “Who broke our gods? Did you do this?” Abraham showed them the big stone. He said, “Look at the axe on its neck. Ask it. Can it speak?” The people were angry and very surprised. They said, “But stones cannot speak!”",
+    "vocabulary": [
+     {
+      "word": "festival",
+      "definition": "A big, happy day for many people."
+     },
+     {
+      "word": "break",
+      "definition": "Make something go into pieces."
+     },
+     {
+      "word": "axe",
+      "definition": "A tool for cutting trees."
+     },
+     {
+      "word": "angry",
+      "definition": "Very unhappy because of something bad."
+     },
+     {
+      "word": "surprised",
+      "definition": "Feeling \"Oh! I did not know that!\"."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h3-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Festival",
+      "description": "All the people went to a festival. Abraham went into the house of the stone gods."
+     },
+     {
+      "id": "h3-2",
+      "x": 68,
+      "y": 50,
+      "title": "The Axe",
+      "description": "Abraham put the axe on the neck of the biggest stone god."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "abraham-a1-quick-3",
+      "type": "multiple-choice",
+      "title": "Abraham’s Plan",
+      "instructions": "Choose the best answer.",
+      "question": "Why did Abraham say, “Ask it. Can it speak?”",
+      "options": [
+       "He wanted to show that stones cannot speak.",
+       "He wanted to talk to the stone.",
+       "He did not know the answer."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: Abraham wanted to show them the right way. The people said, “But stones cannot speak!”",
+      "feedback": {
+       "correct": "Yes! Stones cannot speak.",
+       "incorrect": "Read the end of Chapter 3 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "abraham-a1-language-3-questions",
+      "type": "matching",
+      "title": "Look: Questions in the Past",
+      "instructions": "Match the question and the answer.",
+      "question": "Which answer goes with the question?",
+      "matchingHeadings": {
+       "left": "Question",
+       "right": "Answer"
+      },
+      "matchingPairs": [
+       {
+        "left": "Who broke our gods?",
+        "right": "Abraham broke them."
+       },
+       {
+        "left": "Did you do this?",
+        "right": "Ask the big stone."
+       },
+       {
+        "left": "Can it speak?",
+        "right": "No, stones cannot speak."
+       }
+      ],
+      "correctAnswer": {
+       "Who broke our gods?": "Abraham broke them.",
+       "Did you do this?": "Ask the big stone.",
+       "Can it speak?": "No, stones cannot speak."
+      },
+      "explanation": "“Who broke …?” asks about a person. “Did you …?” asks yes or no in the past. “Can it …?” asks if it is possible.",
+      "feedback": {
+       "correct": "Good. You matched the questions and answers.",
+       "incorrect": "Read what the people asked in Chapter 3."
+      }
+     },
+     {
+      "id": "abraham-a1-language-3-practise",
+      "type": "choose-form",
+      "title": "Practise: Broke or Break?",
+      "instructions": "Choose the right form.",
+      "question": "Which form is right?",
+      "formChoices": [
+       {
+        "sentence": "Abraham [choice] all the stone gods.",
+        "options": [
+         "broke",
+         "breaked"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "He did not [choice] the biggest one.",
+        "options": [
+         "break",
+         "broke"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "“[choice] you do this?”",
+        "options": [
+         "Did",
+         "Do"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Break → broke in the past. After did not, use break. Did you …? asks about the past.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Look at the first paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "abraham-a1-language-3-say-it",
+      "type": "reflection",
+      "title": "Say It: Did You …?",
+      "instructions": "Ask your partner three questions.",
+      "question": "What did your partner do yesterday?",
+      "correctAnswer": null,
+      "explanation": "Use “Did you …?” and “Who …?” questions.",
+      "feedback": {
+       "correct": "Ask three questions. Answer three questions.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Did you … yesterday?”",
+        "mode": "Pair",
+        "example": "Did you read a book yesterday?"
+       },
+       {
+        "question": "“Yes, I did.” / “No, I did not.”",
+        "mode": "Pair",
+        "example": "Yes, I did."
+       },
+       {
+        "question": "“Who … ?”",
+        "mode": "Pair",
+        "example": "Who made your breakfast?"
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Which stone god did Abraham not break?",
+     "options": [
+      "the smallest one",
+      "the biggest one",
+      "the oldest one"
+     ],
+     "answer": 1,
+     "quote": "He broke all of them, but he did not break the biggest one."
+    },
+    "iCan": [
+     "I can tell Abraham’s plan.",
+     "I can understand “Who …?” and “Did you …?” questions.",
+     "I can ask my partner about yesterday."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Can It Speak?",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group finds five things in the classroom: a pen, a book, a chair …",
+      "For each thing, the group writes one sentence: “A … cannot …”.",
+      "The group writes one more sentence: “Only Allah can …”.",
+      "One student reads the sentences to the class."
+     ],
+     "share": "One student reads the sentences. Story: “But stones cannot speak!”",
+     "solo": "Find three things at home. Write one “A … cannot …” sentence for each."
+    }
+   },
+   {
+    "id": 4,
+    "type": "story",
+    "title": "The Fire",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch9.png?alt=media&token=889a2638-0bfd-4ed2-b0db-2e2737b4f5f0",
+    "content": "The angry people shouted, “Burn Abraham! Burn Abraham!” They made a very big fire. Abraham was in a big fire. He was not afraid, because Allah was with him. Allah said to the fire, “O fire, be cold and safe for Abraham.” The fire was cold and did not hurt Abraham. It was like a beautiful garden.\n\nThe fire went out. The people were very surprised, because Abraham was safe. Abraham said again, “Allah is the one true God.” But the people still did not listen to him. They still thought they were right.",
+    "vocabulary": [
+     {
+      "word": "fire",
+      "definition": "Something very hot, red and yellow."
+     },
+     {
+      "word": "afraid",
+      "definition": "Feeling that something bad will happen."
+     },
+     {
+      "word": "hurt",
+      "definition": "Make a person feel pain."
+     },
+     {
+      "word": "safe",
+      "definition": "Not in danger; nothing bad happens."
+     },
+     {
+      "word": "shout",
+      "definition": "Say something very loudly."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h4-1",
+      "x": 35,
+      "y": 46,
+      "title": "A Cold Fire",
+      "description": "Allah said to the fire, “O fire, be cold and safe for Abraham.”"
+     },
+     {
+      "id": "h4-2",
+      "x": 68,
+      "y": 50,
+      "title": "Like a Garden",
+      "description": "The fire did not hurt Abraham. It was like a beautiful garden."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "abraham-a1-quick-4",
+      "type": "drag-drop",
+      "title": "The Fire",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 4?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Abraham was not afraid.",
+         "The fire did not hurt Abraham."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "After the fire, the people listened to Abraham."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Abraham was not afraid.",
+        "The fire did not hurt Abraham."
+       ],
+       "False": [
+        "After the fire, the people listened to Abraham."
+       ]
+      },
+      "explanation": "Chapter 4 says: “He was not afraid.” “The fire was cold and did not hurt Abraham.” “But the people still did not listen to him.”",
+      "feedback": {
+       "correct": "Yes! The people still did not listen.",
+       "incorrect": "Read the second paragraph of Chapter 4 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "abraham-a1-language-4-because",
+      "type": "multiple-choice",
+      "title": "Look: Because",
+      "instructions": "Choose the right answer.",
+      "question": "“He was not afraid, because Allah was with him.” Why was Abraham not afraid?",
+      "options": [
+       "Allah was with him.",
+       "The fire was small.",
+       "His father was with him."
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Because” tells us why. The reason comes after “because”.",
+      "feedback": {
+       "correct": "Yes. Allah was with him.",
+       "incorrect": "Find the words after “because” in Chapter 4."
+      }
+     },
+     {
+      "id": "abraham-a1-language-4-practise",
+      "type": "choose-form",
+      "title": "Practise: Afraid or Safe?",
+      "instructions": "Choose the right words.",
+      "question": "How was Abraham?",
+      "formChoices": [
+       {
+        "sentence": "Abraham was not [choice].",
+        "options": [
+         "afraid",
+         "angry"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The people were surprised, because Abraham was [choice].",
+        "options": [
+         "safe",
+         "cold"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The fire was cold and did not [choice] Abraham.",
+        "options": [
+         "hurt",
+         "hurts"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "After “did not”, the verb has no -s: did not hurt.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 4 again."
+      }
+     },
+     {
+      "id": "abraham-a1-language-4-write-it",
+      "type": "reflection",
+      "title": "Write It: I Feel Safe",
+      "instructions": "Write about a safe place for you.",
+      "question": "Where do you feel safe?",
+      "correctAnswer": null,
+      "explanation": "Use safe and because.",
+      "feedback": {
+       "correct": "Write two sentences. Use because in one.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I feel safe at …”",
+        "mode": "Individual",
+        "example": "I feel safe at home."
+       },
+       {
+        "question": "“… because …”",
+        "mode": "Individual",
+        "example": "I feel safe at home because my family is there."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What happened to the fire?",
+     "options": [
+      "It was cold and safe.",
+      "It was very big and hot for many days.",
+      "People put water on it."
+     ],
+     "answer": 0,
+     "quote": "The fire was cold and did not hurt Abraham."
+    },
+    "iCan": [
+     "I can tell what happened in the fire.",
+     "I can use because.",
+     "I can write about a safe place."
+    ]
+   },
+   {
+    "id": 5,
+    "type": "story",
+    "title": "Abraham and the King",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch10.png?alt=media&token=1c04c346-ae22-425b-8b6a-98cd4090b7c3",
+    "content": "Nimrod was the king of Babylon. He heard about the fire. He called Abraham and asked, “Who is your God?” Abraham said, “My God is Allah. He gives life, and He gives death.” Nimrod said, “I can give life and death, too.”\n\nAbraham said, “Allah makes the sun come up in the east. Can you make it come up in the west?” Nimrod had no answer. He could not do this. Only Allah can do it. The king was very angry.",
+    "vocabulary": [
+     {
+      "word": "king",
+      "definition": "The man who rules a country."
+     },
+     {
+      "word": "death",
+      "definition": "The end of life."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h5-1",
+      "x": 35,
+      "y": 46,
+      "title": "The King",
+      "description": "Nimrod was the king of Babylon. He asked Abraham, “Who is your God?”"
+     },
+     {
+      "id": "h5-2",
+      "x": 68,
+      "y": 50,
+      "title": "East and West",
+      "description": "Allah makes the sun come up in the east. Nimrod could not make it come up in the west."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "abraham-a1-quick-5",
+      "type": "multiple-choice",
+      "title": "No Answer",
+      "instructions": "Choose the best answer.",
+      "question": "Why did Nimrod have no answer?",
+      "options": [
+       "He could not make the sun come up in the west.",
+       "He did not hear Abraham.",
+       "He was very tired."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: “Nimrod had no answer. He could not do this. Only Allah can do it.”",
+      "feedback": {
+       "correct": "Yes! Only Allah can do it.",
+       "incorrect": "Read the second paragraph of Chapter 5 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "abraham-a1-language-5-can",
+      "type": "drag-drop",
+      "title": "Look: Can and Cannot",
+      "instructions": "Put each sentence in the right group.",
+      "question": "Who can do it?",
+      "dragDropGroups": [
+       {
+        "group": "Allah can",
+        "items": [
+         "give life.",
+         "make the sun come up."
+        ]
+       },
+       {
+        "group": "Nimrod could not",
+        "items": [
+         "make the sun come up in the west.",
+         "answer Abraham."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Allah can": [
+        "give life.",
+        "make the sun come up."
+       ],
+       "Nimrod could not": [
+        "make the sun come up in the west.",
+        "answer Abraham."
+       ]
+      },
+      "explanation": "Can + verb: what is possible. Could not + verb: what was not possible in the past.",
+      "feedback": {
+       "correct": "Good. Only Allah can do it.",
+       "incorrect": "Read the second paragraph of Chapter 5 again."
+      }
+     },
+     {
+      "id": "abraham-a1-language-5-practise",
+      "type": "choose-form",
+      "title": "Practise: East or West?",
+      "instructions": "Choose the right word.",
+      "question": "Where does the sun come up?",
+      "formChoices": [
+       {
+        "sentence": "The sun comes up in the [choice].",
+        "options": [
+         "east",
+         "west"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "“Can you make it come up in the [choice]?”",
+        "options": [
+         "east",
+         "west"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "The sun comes up in the east. Abraham asked Nimrod about the west.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Abraham’s words in Chapter 5."
+      }
+     },
+     {
+      "id": "abraham-a1-language-5-say-it",
+      "type": "reflection",
+      "title": "Say It: Can You …?",
+      "instructions": "Ask and answer with can.",
+      "question": "What can you do?",
+      "correctAnswer": null,
+      "explanation": "Use “Can you …?”, “Yes, I can.” and “No, I cannot.”",
+      "feedback": {
+       "correct": "Ask two questions and answer two questions.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Can you …?”",
+        "mode": "Pair",
+        "example": "Can you swim?"
+       },
+       {
+        "question": "“Yes, I can.” / “No, I cannot.”",
+        "mode": "Pair",
+        "example": "Yes, I can."
+       },
+       {
+        "question": "“Only Allah can …”",
+        "mode": "Individual",
+        "example": "Only Allah can make the sun come up."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Who was Nimrod?",
+     "options": [
+      "the king of Babylon",
+      "Abraham’s brother",
+      "a teacher"
+     ],
+     "answer": 0,
+     "quote": "Nimrod was the king of Babylon."
+    },
+    "iCan": [
+     "I can tell about Abraham and the king.",
+     "I can use can and could not.",
+     "I can ask “Can you …?”."
+    ]
+   },
+   {
+    "id": 6,
+    "type": "story",
+    "title": "A Long Journey",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch11.png?alt=media&token=206f12a2-d3c7-4b0e-ba67-26dc694815a6",
+    "content": "Only two people believed in Allah with Abraham. They were Sarah and Lot. The other people did not listen. Abraham left Babylon. He wanted to tell other people about Allah.\n\nAbraham went on a long journey. He traveled on camels to Syria and Palestine. It was a long, hot and hard journey. After that, Abraham married Hagar. They had a baby son, Ishmael.\n\nOne day, Allah told Abraham to travel with Hagar and Ishmael. They traveled for a long time. Then they came to a quiet valley. There were two small hills there, Safa and Marwah.",
+    "vocabulary": [
+     {
+      "word": "believe",
+      "definition": "Think that something is true."
+     },
+     {
+      "word": "journey",
+      "definition": "A long trip from one place to another."
+     },
+     {
+      "word": "camel",
+      "definition": "A big desert animal with a hump."
+     },
+     {
+      "word": "valley",
+      "definition": "Low land between hills or mountains."
+     },
+     {
+      "word": "hill",
+      "definition": "A small mountain."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h6-1",
+      "x": 35,
+      "y": 46,
+      "title": "A Long Journey",
+      "description": "Abraham traveled on camels to Syria and Palestine. It was a long, hot and hard journey."
+     },
+     {
+      "id": "h6-2",
+      "x": 68,
+      "y": 50,
+      "title": "Safa and Marwah",
+      "description": "In a quiet valley, there were two small hills, Safa and Marwah."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "abraham-a1-quick-6",
+      "type": "drag-drop",
+      "title": "The Journey",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 6?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Sarah and Lot believed in Allah with Abraham.",
+         "Abraham and Hagar had a baby son, Ishmael."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The journey was short and easy."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Sarah and Lot believed in Allah with Abraham.",
+        "Abraham and Hagar had a baby son, Ishmael."
+       ],
+       "False": [
+        "The journey was short and easy."
+       ]
+      },
+      "explanation": "Chapter 6 says: “They were Sarah and Lot.” “They had a baby son, Ishmael.” “It was a long, hot and hard journey.”",
+      "feedback": {
+       "correct": "Yes! The journey was long and hard.",
+       "incorrect": "Read the second paragraph of Chapter 6 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "abraham-a1-language-6-where",
+      "type": "matching",
+      "title": "Look: Where Did They Go?",
+      "instructions": "Match the two parts.",
+      "question": "Where did they go?",
+      "matchingHeadings": {
+       "left": "Start",
+       "right": "End"
+      },
+      "matchingPairs": [
+       {
+        "left": "Abraham left",
+        "right": "Babylon."
+       },
+       {
+        "left": "He traveled on camels",
+        "right": "to Syria and Palestine."
+       },
+       {
+        "left": "They came",
+        "right": "to a quiet valley."
+       }
+      ],
+      "correctAnswer": {
+       "Abraham left": "Babylon.",
+       "He traveled on camels": "to Syria and Palestine.",
+       "They came": "to a quiet valley."
+      },
+      "explanation": "Left, traveled and came tell us about a journey. “To” tells us where.",
+      "feedback": {
+       "correct": "Good. You followed the journey.",
+       "incorrect": "Read Chapter 6 again."
+      }
+     },
+     {
+      "id": "abraham-a1-language-6-practise",
+      "type": "choose-form",
+      "title": "Practise: There Was, There Were",
+      "instructions": "Choose there was or there were.",
+      "question": "One thing or many things?",
+      "formChoices": [
+       {
+        "sentence": "[choice] two small hills there.",
+        "options": [
+         "There was",
+         "There were"
+        ],
+        "answer": 1
+       },
+       {
+        "sentence": "[choice] a quiet valley.",
+        "options": [
+         "There was",
+         "There were"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "One thing: there was. Two or more things: there were.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Two hills = two things."
+      }
+     },
+     {
+      "id": "abraham-a1-language-6-write-it",
+      "type": "reflection",
+      "title": "Write It: My Journey",
+      "instructions": "Write about a long journey.",
+      "question": "Where did you go?",
+      "correctAnswer": null,
+      "explanation": "Use traveled, was and there were.",
+      "feedback": {
+       "correct": "Write three short sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I traveled to … by …”",
+        "mode": "Individual",
+        "example": "I traveled to Ankara by bus."
+       },
+       {
+        "question": "“It was a long, … journey.”",
+        "mode": "Individual",
+        "example": "It was a long, happy journey."
+       },
+       {
+        "question": "“There were … there.”",
+        "mode": "Individual",
+        "example": "There were many people there."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: How did Abraham travel?",
+     "options": [
+      "on camels",
+      "on a boat",
+      "in a car"
+     ],
+     "answer": 0,
+     "quote": "He traveled on camels to Syria and Palestine."
+    },
+    "iCan": [
+     "I can tell about Abraham’s journey.",
+     "I can use there was and there were.",
+     "I can write about a journey."
+    ]
+   },
+   {
+    "id": 7,
+    "type": "story",
+    "title": "Alone in the Valley",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch12.png?alt=media&token=4604db57-ecae-4555-a639-01d2b66a70fb",
+    "content": "Abraham left Hagar and Ishmael near one of the hills. Hagar knew this was Allah’s plan. She said, “Allah will protect us.” There were no trees, no food and no water in the valley.\n\nAbraham went away. He asked Allah to protect his family. After some days, Hagar and little Ishmael had no food or water. The baby was thirsty. Hagar looked for water. She ran from one hill to the other hill, again and again. But there was no water, and there was no one to help her.",
+    "vocabulary": [
+     {
+      "word": "protect",
+      "definition": "Keep someone safe."
+     },
+     {
+      "word": "thirsty",
+      "definition": "Wanting to drink water."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h7-1",
+      "x": 35,
+      "y": 46,
+      "title": "Allah’s Plan",
+      "description": "Hagar knew this was Allah’s plan. She said, “Allah will protect us.”"
+     },
+     {
+      "id": "h7-2",
+      "x": 68,
+      "y": 50,
+      "title": "Looking for Water",
+      "description": "Hagar ran from one hill to the other hill, again and again."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "abraham-a1-quick-7",
+      "type": "sequencing",
+      "title": "Alone in the Valley",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Abraham left Hagar and Ishmael near one of the hills."
+       },
+       {
+        "id": "2",
+        "text": "Abraham asked Allah to protect his family."
+       },
+       {
+        "id": "3",
+        "text": "The baby was thirsty."
+       },
+       {
+        "id": "4",
+        "text": "Hagar ran from one hill to the other hill."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 7: Abraham left them. He asked Allah to protect them. After some days, the baby was thirsty. Hagar looked for water.",
+      "feedback": {
+       "correct": "Great! You put the chapter in order.",
+       "incorrect": "Read Chapter 7 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "abraham-a1-language-7-will",
+      "type": "multiple-choice",
+      "title": "Look: Will",
+      "instructions": "Choose the right answer.",
+      "question": "“Allah will protect us.” When is this?",
+      "options": [
+       "later",
+       "yesterday",
+       "a long time ago"
+      ],
+      "correctAnswer": 0,
+      "explanation": "“Will” + verb tells us about later: Allah will protect us.",
+      "feedback": {
+       "correct": "Yes. Will is for later.",
+       "incorrect": "Read Hagar’s words in Chapter 7."
+      }
+     },
+     {
+      "id": "abraham-a1-language-7-practise",
+      "type": "word-bank",
+      "title": "Practise: There Was No …",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What was not in the valley?",
+      "fillBlanksText": "There were [blank] trees. There was no food, and there was no [blank]. There was no one to [blank] her.",
+      "wordBank": [
+       "no",
+       "water",
+       "help",
+       "a",
+       "helps"
+      ],
+      "correctAnswer": [
+       "no",
+       "water",
+       "help"
+      ],
+      "explanation": "There was no + one thing. There were no + many things.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 7 again."
+      }
+     },
+     {
+      "id": "abraham-a1-language-7-say-it",
+      "type": "reflection",
+      "title": "Say It: I Will",
+      "instructions": "Say what you will do tomorrow.",
+      "question": "What will you do tomorrow?",
+      "correctAnswer": null,
+      "explanation": "Use will + verb.",
+      "feedback": {
+       "correct": "Say two sentences with will.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Tomorrow, I will …”",
+        "mode": "Individual",
+        "example": "Tomorrow, I will visit my friend."
+       },
+       {
+        "question": "“I will help …”",
+        "mode": "Pair",
+        "example": "I will help my mother."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What was in the valley?",
+     "options": [
+      "no trees, no food and no water",
+      "many trees and rivers",
+      "a big city"
+     ],
+     "answer": 0,
+     "quote": "There were no trees, no food and no water in the valley."
+    },
+    "iCan": [
+     "I can tell what Hagar did in the valley.",
+     "I can understand will.",
+     "I can say what I will do tomorrow."
+    ]
+   },
+   {
+    "id": 8,
+    "type": "story",
+    "title": "Zamzam Water",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch13.png?alt=media&token=d61931ab-8d9b-4d2e-a7cd-8341d1e6be76",
+    "content": "Ishmael cried for water. Then, water came out under his feet! Hagar saw it and shouted, “Zamzam!” It means “Stop, stop!” She was very happy. She drank the water. Then she gave water to Ishmael.\n\nThis water is very famous today. It is called Zamzam. It is a gift from Allah in the desert. Hagar and Ishmael lived near the water. Many people came there because of the water. They built a city. Its name was Mecca.",
+    "vocabulary": [
+     {
+      "word": "gift",
+      "definition": "A thing you give to someone."
+     },
+     {
+      "word": "desert",
+      "definition": "A hot, dry place with sand."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h8-1",
+      "x": 35,
+      "y": 46,
+      "title": "Zamzam",
+      "description": "Hagar shouted, “Zamzam!” It means “Stop, stop!”"
+     },
+     {
+      "id": "h8-2",
+      "x": 68,
+      "y": 50,
+      "title": "A City in the Desert",
+      "description": "Many people came because of the water. They built a city. Its name was Mecca."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "abraham-a1-quick-8",
+      "type": "multiple-choice",
+      "title": "A Gift from Allah",
+      "instructions": "Choose the best answer.",
+      "question": "Why did many people come to the valley?",
+      "options": [
+       "because of the water",
+       "because of the trees",
+       "because of the camels"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 8: “Many people came there because of the water.”",
+      "feedback": {
+       "correct": "Yes! They came because of the water.",
+       "incorrect": "Read the second paragraph of Chapter 8 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "abraham-a1-language-8-past",
+      "type": "drag-drop",
+      "title": "Look: Two Kinds of Past",
+      "instructions": "Put each verb in the right group.",
+      "question": "How does each verb show the past?",
+      "dragDropGroups": [
+       {
+        "group": "Ends in -ed",
+        "items": [
+         "cried",
+         "shouted",
+         "lived",
+         "called"
+        ]
+       },
+       {
+        "group": "Changes",
+        "items": [
+         "came",
+         "saw",
+         "drank",
+         "gave"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Ends in -ed": [
+        "cried",
+        "shouted",
+        "lived",
+        "called"
+       ],
+       "Changes": [
+        "came",
+        "saw",
+        "drank",
+        "gave"
+       ]
+      },
+      "explanation": "Many verbs add -ed: shout → shouted, live → lived. Some verbs change: come → came, drink → drank.",
+      "feedback": {
+       "correct": "Good. You found the two kinds of past.",
+       "incorrect": "Say the verb today: shout, come … Does it add -ed or change?"
+      }
+     },
+     {
+      "id": "abraham-a1-language-8-practise",
+      "type": "choose-form",
+      "title": "Practise: Zamzam Water",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "Hagar [choice] the water.",
+        "options": [
+         "drank",
+         "drinks"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Then she [choice] water to Ishmael.",
+        "options": [
+         "gave",
+         "gives"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "This water [choice] very famous today.",
+        "options": [
+         "was",
+         "is"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "The story is in the past: drank, gave. But “today” is now: This water is very famous today.",
+      "feedback": {
+       "correct": "Correct. Today = is.",
+       "incorrect": "Look at the word “today” in the last sentence."
+      }
+     },
+     {
+      "id": "abraham-a1-language-8-write-it",
+      "type": "reflection",
+      "title": "Write It: Water",
+      "instructions": "Write about water in your life.",
+      "question": "Why is water important?",
+      "correctAnswer": null,
+      "explanation": "Use drink, is and because.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I drink water …”",
+        "mode": "Individual",
+        "example": "I drink water every morning."
+       },
+       {
+        "question": "“Water is a gift because …”",
+        "mode": "Individual",
+        "example": "Water is a gift because we need it to live."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What came out under Ishmael’s feet?",
+     "options": [
+      "water",
+      "a tree",
+      "a stone"
+     ],
+     "answer": 0,
+     "quote": "Then, water came out under his feet!"
+    },
+    "iCan": [
+     "I can tell the story of Zamzam.",
+     "I can use came, drank and gave.",
+     "I can write about water."
+    ]
+   },
+   {
+    "id": 9,
+    "type": "story",
+    "title": "The House of Allah",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch14.png?alt=media&token=2923c7c2-4109-4e50-b98f-6ae8d5de5385",
+    "content": "Abraham visited his family in Mecca many times. One day, Allah told Abraham to build His house, the Ka’ba. Abraham said, “Ishmael, Allah gave me an important job. You will help me.” Ishmael said, “Yes, I will help you.”\n\nFather and son built the Ka’ba together. Today, Muslims of all colors visit the Ka’ba for Hajj. Hajj helps us remember Abraham and his family.\n\nMany years later, Prophet Muhammad (pbuh) was born in Ishmael’s family. He told people Abraham’s message: “There is no god but Allah. He has no partner.”",
+    "vocabulary": [
+     {
+      "word": "build",
+      "definition": "Make a house or a building."
+     },
+     {
+      "word": "Hajj",
+      "definition": "A visit to Mecca for worship."
+     },
+     {
+      "word": "partner",
+      "definition": "A person who is with you in something."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h9-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Ka’ba",
+      "description": "Father and son built the Ka’ba together."
+     },
+     {
+      "id": "h9-2",
+      "x": 68,
+      "y": 50,
+      "title": "Hajj",
+      "description": "Today, Muslims of all colors visit the Ka’ba for Hajj."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "abraham-a1-quick-9",
+      "type": "multiple-choice",
+      "title": "An Important Job",
+      "instructions": "Choose the best answer.",
+      "question": "What did Ishmael say to his father?",
+      "options": [
+       "“Yes, I will help you.”",
+       "“No, I am busy.”",
+       "“I will go to Babylon.”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 9: Ishmael said, “Yes, I will help you.”",
+      "feedback": {
+       "correct": "Yes! Ishmael helped his father.",
+       "incorrect": "Read the first paragraph of Chapter 9 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "abraham-a1-language-9-will",
+      "type": "matching",
+      "title": "Look: Will",
+      "instructions": "Match the two parts.",
+      "question": "What did they say?",
+      "matchingHeadings": {
+       "left": "Start",
+       "right": "End"
+      },
+      "matchingPairs": [
+       {
+        "left": "Abraham said, “You will",
+        "right": "help me.”"
+       },
+       {
+        "left": "Ishmael said, “Yes, I will",
+        "right": "help you.”"
+       }
+      ],
+      "correctAnswer": {
+       "Abraham said, “You will": "help me.”",
+       "Ishmael said, “Yes, I will": "help you.”"
+      },
+      "explanation": "Will + verb: You will help me. I will help you.",
+      "feedback": {
+       "correct": "Good. You found the will sentences.",
+       "incorrect": "Read the first paragraph of Chapter 9."
+      }
+     },
+     {
+      "id": "abraham-a1-language-9-make",
+      "type": "sentence-building",
+      "title": "Practise: Make the Sentence",
+      "instructions": "Make the sentence.",
+      "question": "What did father and son do?",
+      "sentenceChunks": [
+       "Father and son",
+       "built",
+       "the Ka’ba",
+       "together."
+      ],
+      "correctAnswer": null,
+      "explanation": "Who + did what + what + together.",
+      "feedback": {
+       "correct": "Correct. Father and son built the Ka’ba together.",
+       "incorrect": "Start with “Father and son”."
+      }
+     },
+     {
+      "id": "abraham-a1-language-9-write-it",
+      "type": "reflection",
+      "title": "Write It: Together",
+      "instructions": "Write about a job you do together.",
+      "question": "What do you do together with your family?",
+      "correctAnswer": null,
+      "explanation": "Use together and will.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“My … and I … together.”",
+        "mode": "Individual",
+        "example": "My father and I clean the car together."
+       },
+       {
+        "question": "“I will help …”",
+        "mode": "Individual",
+        "example": "I will help my mother tomorrow."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What did Abraham and Ishmael build?",
+     "options": [
+      "the Ka’ba",
+      "a big boat",
+      "a school"
+     ],
+     "answer": 0,
+     "quote": "Father and son built the Ka’ba together."
+    },
+    "iCan": [
+     "I can tell how the Ka’ba was built.",
+     "I can use will.",
+     "I can write about a job we do together."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Helping Hands",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "Each student draws their hand on paper.",
+      "In the hand, each student writes one way to help at home or at school: “I will help …”.",
+      "The group puts all the hands together on a poster.",
+      "One student reads the poster to the class."
+     ],
+     "share": "One student reads the poster. Story: “Father and son built the Ka’ba together.”",
+     "solo": "Draw your hand. Write two “I will help …” sentences in it."
+    }
+   },
+   {
+    "id": 101,
+    "type": "map",
+    "title": "Abraham’s Journey",
+    "subtitle": "Map · Chapters 1–9",
+    "content": "",
+    "map": {
+     "baseMap": "nearEast",
+     "home": {
+      "west": 32.5,
+      "east": 47.5,
+      "south": 19.5,
+      "north": 37.5
+     },
+     "overlays": [],
+     "features": {
+      "timeSlider": true,
+      "tour": true,
+      "challenge": true,
+      "classroom": true
+     },
+     "time": {
+      "start": 1,
+      "lastYear": 4,
+      "birth": 1,
+      "mode": "stages"
+     },
+     "legend": {
+      "route:toSyriaPalestine": "From Babylon to Syria and Palestine",
+      "route:toValley": "To the valley of Safa and Marwah"
+     },
+     "routes": [
+      {
+       "id": "toSyriaPalestine",
+       "points": [
+        [
+         44.42,
+         32.54
+        ],
+        [
+         43,
+         33.9
+        ],
+        [
+         41.3,
+         34.6
+        ],
+        [
+         39.4,
+         35.2
+        ],
+        [
+         37.3,
+         34.6
+        ],
+        [
+         36.3,
+         33.2
+        ],
+        [
+         35.2,
+         31.6
+        ]
+       ],
+       "start": 1.6,
+       "end": 2,
+       "tone": "journey"
+      },
+      {
+       "id": "toValley",
+       "points": [
+        [
+         35.2,
+         31.6
+        ],
+        [
+         35.6,
+         30
+        ],
+        [
+         36.6,
+         28
+        ],
+        [
+         37.9,
+         25.6
+        ],
+        [
+         39.3,
+         23.6
+        ],
+        [
+         39.83,
+         21.42
+        ]
+       ],
+       "start": 2.6,
+       "end": 3,
+       "tone": "journey"
+      }
+     ],
+     "places": [
+      {
+       "id": "babylon",
+       "entityId": "abraham-babylon",
+       "lon": 44.42,
+       "lat": 32.54,
+       "icon": "city",
+       "tone": "place",
+       "labelSide": "left",
+       "name": "Babylon",
+       "kind": "Old city",
+       "text": "Abraham (pbuh) was born in Babylon a very long time ago. Nimrod was the king of Babylon.",
+       "teacherNote": "The book gives no year. It says only “a very long time ago”.",
+       "question": "Who was the king of Babylon?"
+      },
+      {
+       "id": "syria",
+       "entityId": "abraham-syria-ancient",
+       "lon": 37.3,
+       "lat": 34.6,
+       "icon": "route",
+       "tone": "place",
+       "areaRadiusKm": 220,
+       "labelSide": "right",
+       "name": "Syria",
+       "kind": "Land",
+       "text": "Abraham (pbuh) left Babylon. He traveled on camels to Syria.",
+       "teacherNote": "Old Syria (al-Sham) was bigger than the country of Syria today. The circle is approximate.",
+       "question": "How did Abraham (pbuh) travel?"
+      },
+      {
+       "id": "palestine",
+       "entityId": "abraham-palestine-ancient",
+       "lon": 35.2,
+       "lat": 31.6,
+       "icon": "route",
+       "tone": "place",
+       "areaRadiusKm": 110,
+       "labelSide": "left",
+       "name": "Palestine",
+       "kind": "Land",
+       "text": "Abraham (pbuh) traveled to Palestine, too. It was a long, hot and hard journey.",
+       "teacherNote": "Chapter 6 says that Abraham (pbuh) and Hagar had a baby son, Ishmael, but it does not say where.",
+       "question": "Was the journey easy?"
+      },
+      {
+       "id": "mecca",
+       "entityId": "abraham-mecca-valley-ancient",
+       "lon": 39.83,
+       "lat": 21.42,
+       "icon": "kaaba",
+       "tone": "place",
+       "labelSide": "right",
+       "name": "Mecca",
+       "kind": "Valley and city",
+       "text": "Here, there was a quiet valley with two small hills, Safa and Marwah. Zamzam water came out here. People built the city of Mecca. Abraham (pbuh) and Ishmael built the Ka’ba here.",
+       "teacherNote": "The book does not say where the family started this journey; the line is drawn from the Palestine area.",
+       "question": "What did Abraham (pbuh) and Ishmael build here?"
+      }
+     ],
+     "towns": [],
+     "seas": [
+      {
+       "id": "mediterranean",
+       "lon": 33.6,
+       "lat": 33.4,
+       "name": "Mediterranean Sea"
+      },
+      {
+       "id": "redSea",
+       "lon": 37,
+       "lat": 23.5,
+       "name": "Red Sea"
+      }
+     ],
+     "timeline": [
+      {
+       "year": 1,
+       "placeId": "babylon",
+       "camera": {
+        "lon": 44.2,
+        "lat": 33.2,
+        "zoom": 2
+       },
+       "scene": {
+        "kind": "dawn",
+        "placeId": "babylon"
+       },
+       "label": "Abraham is born"
+      },
+      {
+       "year": 2,
+       "placeId": "syria",
+       "camera": {
+        "lon": 39.8,
+        "lat": 33.4,
+        "zoom": 1.35
+       },
+       "label": "Leaving Babylon"
+      },
+      {
+       "year": 3,
+       "placeId": "mecca",
+       "camera": {
+        "lon": 38.6,
+        "lat": 24.8,
+        "zoom": 1.5
+       },
+       "scene": {
+        "kind": "dawn",
+        "placeId": "mecca"
+       },
+       "label": "Zamzam water"
+      },
+      {
+       "year": 4,
+       "placeId": "mecca",
+       "camera": {
+        "lon": 39.83,
+        "lat": 22.2,
+        "zoom": 2
+       },
+       "scene": {
+        "kind": "radiate",
+        "placeId": "mecca",
+        "reach": []
+       },
+       "label": "The Ka’ba"
+      }
+     ],
+     "challenge": [
+      {
+       "id": "babylon",
+       "lon": 44.42,
+       "lat": 32.54,
+       "radiusKm": 120,
+       "prompt": "Find Babylon. Abraham (pbuh) was born here."
+      },
+      {
+       "id": "syria",
+       "lon": 37.3,
+       "lat": 34.6,
+       "radiusKm": 230,
+       "prompt": "Find Syria. Abraham (pbuh) went there on camels."
+      },
+      {
+       "id": "palestine",
+       "lon": 35.2,
+       "lat": 31.6,
+       "radiusKm": 160,
+       "prompt": "Find Palestine. It is near the sea."
+      },
+      {
+       "id": "mecca",
+       "lon": 39.83,
+       "lat": 21.42,
+       "radiusKm": 120,
+       "prompt": "Find Mecca. Zamzam water is there."
+      }
+     ]
+    }
+   },
+   {
+    "id": 12,
+    "type": "quiz",
+    "title": "Knowledge Check",
+    "image": "https://picsum.photos/seed/quiz-abraham-a1/1200/800",
+    "audioUrl": "",
+    "content": "Check your understanding of the complete story.",
+    "exercises": [
+     {
+      "id": "abraham-a1-kc-1",
+      "type": "multiple-choice",
+      "title": "Born in Babylon",
+      "instructions": "Choose the answer.",
+      "question": "Where was Abraham born?",
+      "options": [
+       "in Babylon",
+       "in Mecca",
+       "in Egypt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 1: “A very long time ago, a boy was born in Babylon.”",
+      "feedback": {
+       "correct": "Yes. Abraham was born in Babylon.",
+       "incorrect": "Read the first paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "abraham-a1-kc-2",
+      "type": "true-false",
+      "title": "The Sun",
+      "instructions": "Is it true or false?",
+      "question": "The sun went away, too.",
+      "correctAnswer": true,
+      "explanation": "Chapter 2: “But the sun went away, too.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the second paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "abraham-a1-kc-3",
+      "type": "multiple-choice",
+      "title": "The Axe",
+      "instructions": "Choose the answer.",
+      "question": "Where did Abraham put the axe?",
+      "options": [
+       "on the neck of the biggest stone",
+       "under the floor",
+       "in his house"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: “He put the axe on its neck.”",
+      "feedback": {
+       "correct": "Yes. On the neck of the biggest stone.",
+       "incorrect": "Read the first paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "abraham-a1-kc-4",
+      "type": "true-false",
+      "title": "The Fire",
+      "instructions": "Is it true or false?",
+      "question": "The fire hurt Abraham.",
+      "correctAnswer": false,
+      "explanation": "Chapter 4: “The fire was cold and did not hurt Abraham.”",
+      "feedback": {
+       "correct": "Yes, it is false.",
+       "incorrect": "Read the first paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "abraham-a1-kc-5",
+      "type": "multiple-choice",
+      "title": "Two Hills",
+      "instructions": "Choose the answer.",
+      "question": "What were the names of the two hills?",
+      "options": [
+       "Safa and Marwah",
+       "Sarah and Lot",
+       "Hagar and Ishmael"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 6: “There were two small hills there, Safa and Marwah.”",
+      "feedback": {
+       "correct": "Yes. Safa and Marwah.",
+       "incorrect": "Read the end of Chapter 6."
+      }
+     },
+     {
+      "id": "abraham-a1-kc-6",
+      "type": "multiple-choice",
+      "title": "A New City",
+      "instructions": "Choose the answer.",
+      "question": "What was the name of the city near the water?",
+      "options": [
+       "Mecca",
+       "Babylon",
+       "Palestine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 8: “They built a city. Its name was Mecca.”",
+      "feedback": {
+       "correct": "Yes. Mecca.",
+       "incorrect": "Read the end of Chapter 8."
+      }
+     }
+    ]
+   },
+   {
+    "id": 14,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "Review all key vocabulary from the story in one place.",
+    "image": "https://picsum.photos/seed/glossary-abraham-a1/1200/800",
+    "vocabulary": [
+     {
+      "word": "messenger",
+      "definition": "A person who brings Allah's words.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmesɪndʒər/",
+      "chapter": 1,
+      "chapterTitle": "Stone Gods",
+      "storyExample": "Years later, Allah made Abraham His Messenger.",
+      "category": "Faith"
+     },
+     {
+      "word": "god",
+      "definition": "A thing people wrongly pray to.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɡɑːd/",
+      "chapter": 1,
+      "chapterTitle": "Stone Gods",
+      "storyExample": "They said, “These are our gods.”",
+      "category": "Faith"
+     },
+     {
+      "word": "stone",
+      "definition": "A small piece of rock.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/stoʊn/",
+      "chapter": 1,
+      "chapterTitle": "Stone Gods",
+      "storyExample": "They also had stone gods in a special house.",
+      "category": "Things"
+     },
+     {
+      "word": "truth",
+      "definition": "What is really true.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/truːθ/",
+      "chapter": 1,
+      "chapterTitle": "Stone Gods",
+      "storyExample": "Allah taught Abraham the truth.",
+      "category": "Values"
+     },
+     {
+      "word": "kick",
+      "definition": "Hit with your foot.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/kɪk/",
+      "chapter": 1,
+      "chapterTitle": "Stone Gods",
+      "storyExample": "He rode on their backs and kicked them.",
+      "category": "Actions"
+     },
+     {
+      "word": "bright",
+      "definition": "With a lot of light.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/braɪt/",
+      "chapter": 2,
+      "chapterTitle": "The Star, the Moon and the Sun",
+      "storyExample": "One night, Abraham saw a bright star.",
+      "category": "Describing"
+     },
+     {
+      "word": "star",
+      "definition": "A small light in the night sky.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/stɑːr/",
+      "chapter": 2,
+      "chapterTitle": "The Star, the Moon and the Sun",
+      "storyExample": "One night, Abraham saw a bright star.",
+      "category": "Nature"
+     },
+     {
+      "word": "go away",
+      "definition": "Leave; not be there now.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/ɡoʊ əˈweɪ/",
+      "chapter": 2,
+      "chapterTitle": "The Star, the Moon and the Sun",
+      "storyExample": "Later, the star went away.",
+      "category": "Actions"
+     },
+     {
+      "word": "moon",
+      "definition": "The big light in the night sky.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/muːn/",
+      "chapter": 2,
+      "chapterTitle": "The Star, the Moon and the Sun",
+      "storyExample": "Then he saw the moon.",
+      "category": "Nature"
+     },
+     {
+      "word": "the right way",
+      "definition": "The good and true path.",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "pronunciation": "/ðə raɪt weɪ/",
+      "chapter": 2,
+      "chapterTitle": "The Star, the Moon and the Sun",
+      "storyExample": "Allah showed Abraham the right way and made him His Messenger.",
+      "category": "Values"
+     },
+     {
+      "word": "festival",
+      "definition": "A big, happy day for many people.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈfestɪvl/",
+      "chapter": 3,
+      "chapterTitle": "Abraham’s Plan",
+      "storyExample": "One day, all the people went to a festival.",
+      "category": "People"
+     },
+     {
+      "word": "break",
+      "definition": "Make something go into pieces.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/breɪk/",
+      "chapter": 3,
+      "chapterTitle": "Abraham’s Plan",
+      "storyExample": "He broke all of them, but he did not break the biggest one.",
+      "category": "Actions"
+     },
+     {
+      "word": "axe",
+      "definition": "A tool for cutting trees.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/æks/",
+      "chapter": 3,
+      "chapterTitle": "Abraham’s Plan",
+      "storyExample": "He put the axe on its neck.",
+      "category": "Things"
+     },
+     {
+      "word": "angry",
+      "definition": "Very unhappy because of something bad.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈæŋɡri/",
+      "chapter": 3,
+      "chapterTitle": "Abraham’s Plan",
+      "storyExample": "The people were angry and very surprised.",
+      "category": "Feelings"
+     },
+     {
+      "word": "surprised",
+      "definition": "Feeling \"Oh! I did not know that!\".",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/sərˈpraɪzd/",
+      "chapter": 3,
+      "chapterTitle": "Abraham’s Plan",
+      "storyExample": "The people were angry and very surprised.",
+      "category": "Feelings"
+     },
+     {
+      "word": "fire",
+      "definition": "Something very hot, red and yellow.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈfaɪər/",
+      "chapter": 4,
+      "chapterTitle": "The Fire",
+      "storyExample": "They made a very big fire.",
+      "category": "Nature"
+     },
+     {
+      "word": "afraid",
+      "definition": "Feeling that something bad will happen.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/əˈfreɪd/",
+      "chapter": 4,
+      "chapterTitle": "The Fire",
+      "storyExample": "He was not afraid, because Allah was with him.",
+      "category": "Feelings"
+     },
+     {
+      "word": "hurt",
+      "definition": "Make a person feel pain.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/hɜːrt/",
+      "chapter": 4,
+      "chapterTitle": "The Fire",
+      "storyExample": "The fire was cold and did not hurt Abraham.",
+      "category": "Actions"
+     },
+     {
+      "word": "safe",
+      "definition": "Not in danger; nothing bad happens.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/seɪf/",
+      "chapter": 4,
+      "chapterTitle": "The Fire",
+      "storyExample": "The people were very surprised, because Abraham was safe.",
+      "category": "Describing"
+     },
+     {
+      "word": "shout",
+      "definition": "Say something very loudly.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/ʃaʊt/",
+      "chapter": 4,
+      "chapterTitle": "The Fire",
+      "storyExample": "The angry people shouted, “Burn Abraham! Burn Abraham!”",
+      "category": "Actions"
+     },
+     {
+      "word": "king",
+      "definition": "The man who rules a country.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/kɪŋ/",
+      "chapter": 5,
+      "chapterTitle": "Abraham and the King",
+      "storyExample": "Nimrod was the king of Babylon.",
+      "category": "People"
+     },
+     {
+      "word": "death",
+      "definition": "The end of life.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/deθ/",
+      "chapter": 5,
+      "chapterTitle": "Abraham and the King",
+      "storyExample": "Abraham said, “My God is Allah. He gives life, and He gives death.”",
+      "category": "Life"
+     },
+     {
+      "word": "believe",
+      "definition": "Think that something is true.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/bɪˈliːv/",
+      "chapter": 6,
+      "chapterTitle": "A Long Journey",
+      "storyExample": "Only two people believed in Allah with Abraham.",
+      "category": "Faith"
+     },
+     {
+      "word": "journey",
+      "definition": "A long trip from one place to another.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈdʒɜːrni/",
+      "chapter": 6,
+      "chapterTitle": "A Long Journey",
+      "storyExample": "Abraham went on a long journey.",
+      "category": "Travel"
+     },
+     {
+      "word": "camel",
+      "definition": "A big desert animal with a hump.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈkæml/",
+      "chapter": 6,
+      "chapterTitle": "A Long Journey",
+      "storyExample": "He traveled on camels to Syria and Palestine.",
+      "category": "Nature"
+     },
+     {
+      "word": "valley",
+      "definition": "Low land between hills or mountains.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈvæli/",
+      "chapter": 6,
+      "chapterTitle": "A Long Journey",
+      "storyExample": "Then they came to a quiet valley.",
+      "category": "Nature"
+     },
+     {
+      "word": "hill",
+      "definition": "A small mountain.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/hɪl/",
+      "chapter": 6,
+      "chapterTitle": "A Long Journey",
+      "storyExample": "There were two small hills there, Safa and Marwah.",
+      "category": "Nature"
+     },
+     {
+      "word": "protect",
+      "definition": "Keep someone safe.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/prəˈtekt/",
+      "chapter": 7,
+      "chapterTitle": "Alone in the Valley",
+      "storyExample": "She said, “Allah will protect us.”",
+      "category": "Actions"
+     },
+     {
+      "word": "thirsty",
+      "definition": "Wanting to drink water.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈθɜːrsti/",
+      "chapter": 7,
+      "chapterTitle": "Alone in the Valley",
+      "storyExample": "The baby was thirsty.",
+      "category": "Feelings"
+     },
+     {
+      "word": "gift",
+      "definition": "A thing you give to someone.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɡɪft/",
+      "chapter": 8,
+      "chapterTitle": "Zamzam Water",
+      "storyExample": "It is a gift from Allah in the desert.",
+      "category": "Things"
+     },
+     {
+      "word": "desert",
+      "definition": "A hot, dry place with sand.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈdezərt/",
+      "chapter": 8,
+      "chapterTitle": "Zamzam Water",
+      "storyExample": "It is a gift from Allah in the desert.",
+      "category": "Nature"
+     },
+     {
+      "word": "build",
+      "definition": "Make a house or a building.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/bɪld/",
+      "chapter": 9,
+      "chapterTitle": "The House of Allah",
+      "storyExample": "One day, Allah told Abraham to build His house, the Ka’ba.",
+      "category": "Actions"
+     },
+     {
+      "word": "Hajj",
+      "definition": "A visit to Mecca for worship.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/hædʒ/",
+      "chapter": 9,
+      "chapterTitle": "The House of Allah",
+      "storyExample": "Today, Muslims of all colors visit the Ka’ba for Hajj.",
+      "category": "Faith"
+     },
+     {
+      "word": "partner",
+      "definition": "A person who is with you in something.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈpɑːrtnər/",
+      "chapter": 9,
+      "chapterTitle": "The House of Allah",
+      "storyExample": "He told people Abraham’s message: “There is no god but Allah. He has no partner.”",
+      "category": "Faith"
+     }
+    ]
+   },
+   {
+    "id": 102,
+    "type": "places",
+    "title": "Places & People",
+    "content": "Find every place and person from the story on the map.",
+    "entityBookKey": "abraham-a1"
+   },
+   {
+    "id": 13,
+    "type": "vocabulary-match",
+    "title": "Vocabulary Challenge",
+    "image": "https://picsum.photos/seed/vocab-match-abraham-a1/1200/800",
+    "audioUrl": "",
+    "content": "Match six story words with their meanings.",
+    "vocabularyPairs": [
+     {
+      "word": "stone",
+      "meaning": "A small, hard thing from the ground.",
+      "partOfSpeech": "noun",
+      "chapter": 1,
+      "context": "They also had stone gods in a special house."
+     },
+     {
+      "word": "bright",
+      "meaning": "With a lot of light.",
+      "partOfSpeech": "adjective",
+      "chapter": 2,
+      "context": "One night, Abraham saw a bright star."
+     },
+     {
+      "word": "afraid",
+      "meaning": "Feeling that something bad will happen.",
+      "partOfSpeech": "adjective",
+      "chapter": 4,
+      "context": "He was not afraid, because Allah was with him."
+     },
+     {
+      "word": "journey",
+      "meaning": "You go from one place to a far place.",
+      "partOfSpeech": "noun",
+      "chapter": 6,
+      "context": "Abraham went on a long journey."
+     },
+     {
+      "word": "thirsty",
+      "meaning": "Wanting to drink water.",
+      "partOfSpeech": "adjective",
+      "chapter": 7,
+      "context": "The baby was thirsty."
+     },
+     {
+      "word": "desert",
+      "meaning": "A very hot place with no water.",
+      "partOfSpeech": "noun",
+      "chapter": 8,
+      "context": "It is a gift from Allah in the desert."
+     }
+    ]
+   },
+   {
+    "id": 15,
+    "type": "exercises",
+    "title": "Language Review",
+    "image": "https://picsum.photos/seed/exercises-abraham-a1/1200/800",
+    "content": "Review the language from all chapters.",
+    "exercises": [
+     {
+      "id": "abraham-a1-language-review-1",
+      "type": "drag-drop",
+      "title": "Look: Two Kinds of Past",
+      "instructions": "Put each verb in the right group.",
+      "question": "How does each verb show the past?",
+      "dragDropGroups": [
+       {
+        "group": "Ends in -ed",
+        "items": [
+         "asked",
+         "shouted",
+         "traveled",
+         "visited"
+        ]
+       },
+       {
+        "group": "Changes",
+        "items": [
+         "saw",
+         "broke",
+         "came",
+         "built"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Ends in -ed": [
+        "asked",
+        "shouted",
+        "traveled",
+        "visited"
+       ],
+       "Changes": [
+        "saw",
+        "broke",
+        "came",
+        "built"
+       ]
+      },
+      "explanation": "Many verbs add -ed: ask → asked, shout → shouted. Some verbs change: see → saw, break → broke, come → came, build → built.",
+      "feedback": {
+       "correct": "Well done. You found the two kinds of past.",
+       "incorrect": "Say the verb today: ask, see … Does it add -ed or change?"
+      }
+     },
+     {
+      "id": "abraham-a1-language-review-2",
+      "type": "choose-form",
+      "title": "Practise: Was or Were",
+      "instructions": "Choose was or were.",
+      "question": "One or many?",
+      "formChoices": [
+       {
+        "sentence": "Abraham [choice] not afraid.",
+        "options": [
+         "was",
+         "were"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The people [choice] very surprised.",
+        "options": [
+         "was",
+         "were"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "One person: was. Two or more: were.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Abraham = one. The people = many."
+      }
+     },
+     {
+      "id": "abraham-a1-language-review-3",
+      "type": "choose-form",
+      "title": "Practise: Can or Could Not",
+      "instructions": "Choose the right words.",
+      "question": "Is it possible?",
+      "formChoices": [
+       {
+        "sentence": "Stones [choice] speak.",
+        "options": [
+         "cannot",
+         "can"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Nimrod [choice] make the sun come up in the west.",
+        "options": [
+         "could not",
+         "could"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Can / cannot: now. Could / could not: in the past.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Can a stone speak? Could Nimrod do it?"
+      }
+     },
+     {
+      "id": "abraham-a1-language-review-4",
+      "type": "word-bank",
+      "title": "Practise: Will",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What will happen?",
+      "fillBlanksText": "Hagar said, “Allah [blank] protect us.” Abraham said, “You will [blank] me.” Ishmael said, “Yes, I [blank] help you.”",
+      "wordBank": [
+       "will",
+       "help",
+       "will",
+       "helps"
+      ],
+      "correctAnswer": [
+       "will",
+       "help",
+       "will"
+      ],
+      "explanation": "Will + verb: will protect, will help.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Find the will sentences in Chapters 7 and 9."
+      }
+     },
+     {
+      "id": "abraham-a1-language-review-5",
+      "type": "error-correction",
+      "title": "Practise: Fix One Word",
+      "instructions": "Find the wrong word. Write the right word.",
+      "question": "Which word is wrong?",
+      "errorItems": [
+       {
+        "sentence": "Abraham breaked the stone gods.",
+        "error": "breaked",
+        "options": [
+         "broke",
+         "break",
+         "breaks"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Abraham seed a bright star.",
+        "error": "seed",
+        "options": [
+         "see",
+         "saw",
+         "sees"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "“Break” and “see” change in the past: broke, saw.",
+      "feedback": {
+       "correct": "Well done.",
+       "incorrect": "Break → broke. See → saw. They do not take -ed."
+      }
+     },
+     {
+      "id": "abraham-a1-language-review-6",
+      "type": "reflection",
+      "title": "Use: My Week",
+      "instructions": "Write three sentences about your week.",
+      "question": "What did you do this week?",
+      "correctAnswer": null,
+      "explanation": "Use one past verb, one can and one will.",
+      "feedback": {
+       "correct": "Write three short sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "One past verb: “I visited …”",
+        "mode": "Individual",
+        "example": "I visited my friend."
+       },
+       {
+        "question": "One “can”: “I can …”",
+        "mode": "Individual",
+        "example": "I can swim."
+       },
+       {
+        "question": "One “will”: “I will …”",
+        "mode": "Individual",
+        "example": "I will read a book tomorrow."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": 16,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "image": "https://picsum.photos/seed/challenge-abraham-a1/1200/800",
+    "content": "Bring the whole story together in the Final Challenge.",
+    "exercises": [
+     {
+      "id": "abraham-a1-final-1",
+      "type": "fill-blanks",
+      "title": "Stone Gods",
+      "instructions": "Write one word.",
+      "question": "What were the gods made of?",
+      "fillBlanksText": "They also had [blank] gods in a special house.",
+      "correctAnswer": [
+       "stone"
+      ],
+      "explanation": "Chapter 1: “They also had stone gods in a special house.”",
+      "feedback": {
+       "correct": "Yes. Stone gods.",
+       "incorrect": "Read the second paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "abraham-a1-final-2",
+      "type": "multiple-choice",
+      "title": "In the Morning",
+      "instructions": "Choose the answer.",
+      "question": "What did Abraham see in the morning?",
+      "options": [
+       "the big sun",
+       "a bright star",
+       "the moon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 2: “In the morning, Abraham saw the big sun.”",
+      "feedback": {
+       "correct": "Yes. The big sun.",
+       "incorrect": "Read the second paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "abraham-a1-final-3",
+      "type": "true-false",
+      "title": "The Festival",
+      "instructions": "Is it true or false?",
+      "question": "Abraham broke the stone gods on the day of the festival.",
+      "correctAnswer": true,
+      "explanation": "Chapter 3: “One day, all the people went to a festival. Abraham went into the house of the stone gods. He broke all of them …”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the first paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "abraham-a1-final-4",
+      "type": "multiple-choice",
+      "title": "The Cold Fire",
+      "instructions": "Choose the answer.",
+      "question": "What did Allah say to the fire?",
+      "options": [
+       "“O fire, be cold and safe for Abraham.”",
+       "“Burn Abraham!”",
+       "“Go away.”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 4: Allah said to the fire, “O fire, be cold and safe for Abraham.”",
+      "feedback": {
+       "correct": "Yes.",
+       "incorrect": "Read the first paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "abraham-a1-final-5",
+      "type": "matching",
+      "title": "Who Is It?",
+      "instructions": "Match the name with the sentence.",
+      "question": "Who is it?",
+      "matchingHeadings": {
+       "left": "Name",
+       "right": "Sentence"
+      },
+      "matchingPairs": [
+       {
+        "left": "Nimrod",
+        "right": "the king of Babylon"
+       },
+       {
+        "left": "Hagar",
+        "right": "She ran from one hill to the other."
+       },
+       {
+        "left": "Ishmael",
+        "right": "He helped his father build the Ka’ba."
+       }
+      ],
+      "correctAnswer": {
+       "Nimrod": "the king of Babylon",
+       "Hagar": "She ran from one hill to the other.",
+       "Ishmael": "He helped his father build the Ka’ba."
+      },
+      "explanation": "Chapter 5: “Nimrod was the king of Babylon.” Chapter 7: Hagar ran between the hills. Chapter 9: Ishmael helped his father.",
+      "feedback": {
+       "correct": "Good. You matched all three.",
+       "incorrect": "Read Chapters 5, 7 and 9 again."
+      }
+     },
+     {
+      "id": "abraham-a1-final-6",
+      "type": "true-false",
+      "title": "The Journey",
+      "instructions": "Is it true or false?",
+      "question": "Abraham traveled on camels to Syria and Palestine.",
+      "correctAnswer": true,
+      "explanation": "Chapter 6: “He traveled on camels to Syria and Palestine.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the second paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "abraham-a1-final-7",
+      "type": "multiple-choice",
+      "title": "Zamzam",
+      "instructions": "Choose the answer.",
+      "question": "What does “Zamzam” mean?",
+      "options": [
+       "“Stop, stop!”",
+       "“Come, come!”",
+       "“Water, water!”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 8: Hagar shouted, “Zamzam!” It means “Stop, stop!”",
+      "feedback": {
+       "correct": "Yes. “Stop, stop!”",
+       "incorrect": "Read the first paragraph of Chapter 8."
+      }
+     },
+     {
+      "id": "abraham-a1-final-8",
+      "type": "sequencing",
+      "title": "The Story of Abraham",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Abraham broke the stone gods."
+       },
+       {
+        "id": "2",
+        "text": "The fire did not hurt Abraham."
+       },
+       {
+        "id": "3",
+        "text": "Abraham left Babylon."
+       },
+       {
+        "id": "4",
+        "text": "Abraham and Ishmael built the Ka’ba."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Stone gods (Chapter 3) → the fire (Chapter 4) → leaving Babylon (Chapter 6) → the Ka’ba (Chapter 9).",
+      "feedback": {
+       "correct": "Great! You know the story of Abraham.",
+       "incorrect": "Think about the order of the chapters."
+      }
+     }
+    ]
+   }
+  ],
+  "teacherGuide": [],
+  "selfStudyGuide": []
+ }
+}

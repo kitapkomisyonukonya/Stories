@@ -1,6 +1,7 @@
 import { defineEntity } from './define';
 import { medFeature, medPoint } from '../mediterraneanMap';
 import type { EntityBookSet } from './index';
+import type { HistoricalEntity } from '../types';
 
 // Places & People cards for the abraham books (A2, B1, B2), English and Arabic.
 // Generated from the reviewed card list; the chapters are where each level's story
@@ -231,9 +232,39 @@ const entities = [
   }),
 ];
 
+// The A1 book has its own, simpler card words (A1 words, and only what the A1 story says).
+// Maps, pictures and sources are the same as the A2-B2 cards.
+type CardWords = { title: string; kindLabel: string; periodLabel: string; summary: string; more: string };
+const a1Card = (baseId: string, en: CardWords): HistoricalEntity => {
+  const base = entities.find(entity => entity.id === baseId)!;
+  return {
+    ...base,
+    id: baseId.replace(/^abraham-/, 'abraham-a1-'),
+    copy: { ...base.copy, en: { ...base.copy.en, ...en, mapAlt: base.copy.en.mapAlt.replace(base.copy.en.title, en.title) } },
+  };
+};
+
+const a1Entities: HistoricalEntity[] = [
+  a1Card("abraham-babylon", { title: "Babylon", kindLabel: "Old city", periodLabel: "A very long time ago", summary: "Babylon was a big city a very long time ago. Abraham (pbuh) was born here. Nimrod was its king.", more: "Today, you can see its old stones in Iraq." }),
+  a1Card("abraham-nimrod", { title: "Nimrod", kindLabel: "King", periodLabel: "The time of Abraham (pbuh)", summary: "Nimrod was the king of Babylon. He did not believe in Allah. He could not answer Abraham (pbuh).", more: "In this book, we show Nimrod only with a symbol." }),
+  a1Card("abraham-syria-ancient", { title: "Syria", kindLabel: "Land", periodLabel: "A very long time ago", summary: "Syria is a land near the sea. Abraham (pbuh) traveled here on camels.", more: "Damascus is an old city in Syria." }),
+  a1Card("abraham-palestine-ancient", { title: "Palestine", kindLabel: "Land", periodLabel: "A very long time ago", summary: "Palestine is a land near the sea. Abraham (pbuh) traveled here, too.", more: "Jerusalem is an old city in Palestine." }),
+  a1Card("abraham-safa-and-marwa-ancient", { title: "Safa and Marwah", kindLabel: "Two small hills", periodLabel: "In Mecca", summary: "Safa and Marwah are two small hills. Hagar ran from one hill to the other. She looked for water for her baby.", more: "Today, people walk between the two hills in Hajj, too." }),
+  a1Card("abraham-mecca-valley-ancient", { title: "Mecca", kindLabel: "City", periodLabel: "Since the time of Abraham (pbuh)", summary: "Mecca was a quiet valley in the desert. Zamzam water came out here. Then people came and built a city.", more: "Today, Mecca is a big city. The Ka’ba is in Mecca." }),
+  a1Card("abraham-zamzam", { title: "Zamzam", kindLabel: "Water", periodLabel: "Since the time of Abraham (pbuh)", summary: "Zamzam is water in Mecca. It came out under the feet of baby Ishmael. It is a gift from Allah.", more: "People drink Zamzam water today, too." }),
+  a1Card("abraham-kaaba-abraham", { title: "Ka’ba", kindLabel: "House of Allah", periodLabel: "Since the time of Abraham (pbuh)", summary: "The Ka’ba is the House of Allah in Mecca. Abraham (pbuh) and his son Ishmael built it together.", more: "Muslims from many countries visit the Ka’ba for Hajj." }),
+];
+
 export const ABRAHAM_SET: EntityBookSet = {
-  entities,
+  entities: [...entities, ...a1Entities],
   chapters: {
+    'abraham-a1': {
+      1: ["abraham-a1-babylon"],
+      5: ["abraham-a1-babylon","abraham-a1-nimrod"],
+      6: ["abraham-a1-syria-ancient","abraham-a1-palestine-ancient","abraham-a1-safa-and-marwa-ancient"],
+      8: ["abraham-a1-zamzam","abraham-a1-mecca-valley-ancient"],
+      9: ["abraham-a1-mecca-valley-ancient","abraham-a1-kaaba-abraham"],
+    },
     'abraham-a2': {
       1: ["abraham-babylon","abraham-mesopotamia"],
       10: ["abraham-babylon","abraham-nimrod"],

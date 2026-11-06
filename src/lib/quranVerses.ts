@@ -17,6 +17,7 @@ const EXTRA: Record<string, Record<number, [string, string][]>> = {
     11: [['And there came a man', 'who are wrongdoers!”']],
     17: [['“Verily, the Hour is coming', 'as an arrogant tyrant).”']],
   },
+  'ibrahim-A1': { 4: [['“O fire, be cold', 'for Abraham.”']] },
   'adam-A1': {
     2: [['“I am better than Adam', 'Adam from soil.”']],
     3: [['“Do not go near', 'this tree.”']],
