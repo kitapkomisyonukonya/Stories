@@ -1,6 +1,7 @@
 import { defineEntity } from './define';
 import { medFeature, medPoint } from '../mediterraneanMap';
 import type { EntityBookSet } from './index';
+import type { HistoricalEntity } from '../types';
 
 // Places & People cards for the yunus-emre books (A1, A2, B1, B2), English and Arabic.
 // Generated from the reviewed card list; the chapters are where each level's story
@@ -405,16 +406,37 @@ const entities = [
   }),
 ];
 
+// The A1 book has its own, simpler card words (A1 words, and only what the A1 story says).
+// Maps, pictures and sources are the same as the A2-B2 cards.
+type CardWords = { title: string; kindLabel: string; periodLabel: string; summary: string; more: string };
+const a1Card = (baseId: string, en: CardWords): HistoricalEntity => {
+  const base = entities.find(entity => entity.id === baseId)!;
+  return {
+    ...base,
+    id: baseId.replace(/^yunus-/, 'yunus-a1-'),
+    copy: { ...base.copy, en: { ...base.copy.en, ...en, mapAlt: base.copy.en.mapAlt.replace(base.copy.en.title, en.title) } },
+  };
+};
+
+const a1Entities: HistoricalEntity[] = [
+  a1Card("yunus-anatolia", { title: "Anatolia", kindLabel: "Land", periodLabel: "Today, a part of Türkiye", summary: "Anatolia is a big land. Today, it is a part of Türkiye. Yunus Emre was born here in 1240.", more: "There are many old cities in Anatolia." }),
+  a1Card("yunus-madrasa", { title: "Madrasa", kindLabel: "School", periodLabel: "A school for Islam", summary: "A madrasa was a school. Students learned about Islam there. When Yunus was young, he went to a madrasa.", more: "You can see many old madrasas in Türkiye today." }),
+  a1Card("yunus-tekke", { title: "Dervish house", kindLabel: "Building", periodLabel: "The life of dervishes", summary: "A dervish house was a home for dervishes. They lived and learned there with a teacher. Yunus lived at the dervish house of Taptuk Emre.", more: "Dervish houses gave food to poor people." }),
+  a1Card("yunus-yunus-emre", { title: "Yunus Emre", kindLabel: "Poet and dervish", periodLabel: "1240–1320", summary: "Yunus Emre was a great Turkish poet. He was a dervish, too. He wrote poems in easy Turkish about love for Allah.", more: "People read his poems today, too." }),
+  a1Card("yunus-taptuk-emre", { title: "Taptuk Emre", kindLabel: "Teacher of dervishes", periodLabel: "The 1200s", summary: "Taptuk Emre was the teacher of Yunus Emre. Yunus worked at his dervish house for 40 years.", more: "In his poems, Yunus talks about his teacher with love." }),
+  a1Card("yunus-mevlana-rumi", { title: "Mevlana", kindLabel: "Teacher and poet", periodLabel: "Died in 1273", summary: "Mevlana was a great Muslim teacher and poet. He lived at the same time as Yunus Emre. He died in 1273.", more: "He lived in the city of Konya. Many people visit Konya for him today." }),
+];
+
 export const YUNUS_EMRE_SET: EntityBookSet = {
-  entities,
+  entities: [...entities, ...a1Entities],
   chapters: {
     'yunusEmre-a1': {
-      1: ["yunus-anatolia","yunus-madrasa","yunus-tekke","yunus-yunus-emre","yunus-taptuk-emre","yunus-mevlana-rumi"],
-      2: ["yunus-yunus-emre"],
-      3: ["yunus-tekke","yunus-yunus-emre","yunus-taptuk-emre"],
-      4: ["yunus-yunus-emre","yunus-taptuk-emre"],
-      5: ["yunus-yunus-emre","yunus-taptuk-emre"],
-      6: ["yunus-yunus-emre"],
+      1: ["yunus-a1-anatolia","yunus-a1-madrasa","yunus-a1-tekke","yunus-a1-yunus-emre","yunus-a1-taptuk-emre","yunus-a1-mevlana-rumi"],
+      2: ["yunus-a1-yunus-emre"],
+      3: ["yunus-a1-tekke","yunus-a1-yunus-emre","yunus-a1-taptuk-emre"],
+      4: ["yunus-a1-yunus-emre","yunus-a1-taptuk-emre"],
+      5: ["yunus-a1-yunus-emre","yunus-a1-taptuk-emre"],
+      6: ["yunus-a1-yunus-emre"],
     },
     'yunusEmre-a2': {
       1: ["yunus-anatolia","yunus-syria","yunus-azerbaijan","yunus-tekke","yunus-madrasa","yunus-yunus-emre","yunus-taptuk-emre","yunus-mevlana-rumi"],
