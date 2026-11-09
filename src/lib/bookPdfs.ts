@@ -15,11 +15,15 @@ export const STORY_PDF_KINDS = ['story', 'story-only', 'story-activities'] as co
 const SLUGS: Record<string, string> = { ibnJubayr: 'ibn-jubayr', yunusEmre: 'yunus-emre' };
 const ENGLISH_ONLY = new Set(['ibnJubayr']);
 
-/** Hidden books and the new A1 editions have no printable PDFs yet. */
-export const hasBookPdfs = (storyId: string, level: string) => !isHiddenStory(storyId) && level !== 'A1';
+/** A1 PDFs are built for these books (2026-11-09); other A1 editions have none yet. */
+const A1_PDF_BOOKS = new Set(['adam', 'ibrahim', 'musa', 'mecca', 'yunusEmre', 'ibnJubayr']);
+
+/** Hidden books have no printable PDFs yet. */
+export const hasBookPdfs = (storyId: string, level: string) => !isHiddenStory(storyId) && (level !== 'A1' || A1_PDF_BOOKS.has(storyId));
 
 export const bookPdfUrl = (storyId: string, level: string, language: string, kind: BookPdfKind) => {
-  const lang = language === 'ar' && !ENGLISH_ONLY.has(storyId) ? 'ar' : 'en';
+  // A1 is English only for now (stories.json englishOnlyLevels), so its PDFs are English too.
+  const lang = language === 'ar' && !ENGLISH_ONLY.has(storyId) && level !== 'A1' ? 'ar' : 'en';
   return appFileUrl(`/pdfs/books/${SLUGS[storyId] ?? storyId}-${level.toLowerCase()}-${lang}-${kind}.pdf`);
 };
 
