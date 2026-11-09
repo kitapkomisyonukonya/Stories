@@ -29,8 +29,9 @@ import scholarsIcon from '../../assets/images/scholars_icon.webp';
 // Temporary mark until the drawn Our World Today emblem arrives.
 import todayIcon from '../../assets/images/today_icon.webp';
 // Temporary Green Deal cover until the drawn one arrives.
-import greenDealCoverTemp from '../../assets/images/green_deal_cover_temp.webp';
-import greenDealCoverTempSmall from '../../assets/images/green_deal_cover_temp_sm.webp';
+// Our World Today books share the collection emblem as a temporary cover until their own pictures are drawn.
+import todayCoverTemp from '../../assets/images/today_cover_temp.webp';
+import todayCoverTempSmall from '../../assets/images/today_cover_temp_sm.webp';
 
 export type StoryCollectionId = 'prophets' | 'history' | 'turkish' | 'today';
 
@@ -137,7 +138,8 @@ const covers: Record<string, { image: string; imageSmall?: string }> = {
   ibnJubayr: { image: ibnJubayrCover, imageSmall: ibnJubayrCoverSmall },
   yunusEmre: { image: yunusEmreCover, imageSmall: yunusEmreCoverSmall },
   gevherNesibe: { image: scholarsIcon },
-  greenDeal: { image: greenDealCoverTemp, imageSmall: greenDealCoverTempSmall },
+  greenDeal: { image: todayCoverTemp, imageSmall: todayCoverTempSmall },
+  zeroWaste: { image: todayCoverTemp, imageSmall: todayCoverTempSmall },
 };
 
 /** A book's cover picture (the content panel shows it too); a book without one gets the collection picture. */
