@@ -323,7 +323,7 @@ const entities: HistoricalEntity[] = [
   place({
     id: 'ibnjubayr-crusaders', kind: 'people', aliases: ['Crusaders'],
     title: 'The Crusaders', kindLabel: 'Soldiers', periodLabel: '1096–1291',
-    summary: 'The Crusaders were Christian soldiers from Europe. They came to Syria and Palestine and took Jerusalem in 1099.',
+    summary: 'The Crusaders were Christian soldiers from Europe. They came to the Middle East and took Jerusalem and other lands in 1099.',
     more: 'In Ibn Jubayr’s time, they ruled Palestine.',
     tr: 'Haçlılar',
     focus: medFeature('crusaders', 44.6, 25, 1, { arrows: [{ from: [45.5, 4], to: [35.4, 33.6] }] }),
