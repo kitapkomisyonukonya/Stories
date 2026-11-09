@@ -195,14 +195,6 @@ const entities: HistoricalEntity[] = [
     sources: ['TDV İslâm Ansiklopedisi: Endülüs'],
   }),
   place({
-    id: 'ibnjubayr-middle-east', kind: 'region', aliases: ['Middle East'],
-    title: 'The Middle East', kindLabel: 'Region', periodLabel: 'Western Asia and Egypt',
-    summary: 'The Middle East is a large area in western Asia and Egypt. Today, it has countries like Egypt, Syria, Iraq and Saudi Arabia.',
-    more: 'Ibn Jubayr visited many great cities in the Middle East.',
-    tr: 'Ortadoğu', focus: medFeature('middle-east', 27.5, 40),
-    sources: [],
-  }),
-  place({
     id: 'ibnjubayr-north-africa', kind: 'region', aliases: ['North Africa'],
     title: 'North Africa', kindLabel: 'Region', periodLabel: 'Africa',
     summary: 'North Africa is the north part of Africa, along the Mediterranean Sea.',
@@ -331,7 +323,7 @@ const entities: HistoricalEntity[] = [
   place({
     id: 'ibnjubayr-crusaders', kind: 'people', aliases: ['Crusaders'],
     title: 'The Crusaders', kindLabel: 'Soldiers', periodLabel: '1096–1291',
-    summary: 'The Crusaders were Christian soldiers from Europe. They came to the Middle East and took Jerusalem and other lands in 1099.',
+    summary: 'The Crusaders were Christian soldiers from Europe. They came to Syria and Palestine and took Jerusalem in 1099.',
     more: 'In Ibn Jubayr’s time, they ruled Palestine.',
     tr: 'Haçlılar',
     focus: medFeature('crusaders', 44.6, 25, 1, { arrows: [{ from: [45.5, 4], to: [35.4, 33.6] }] }),
@@ -395,7 +387,7 @@ export const ibnJubayrA2Entities: Record<string, HistoricalEntity> = Object.from
 
 /** Which cards each chapter offers. The first mention in the chapter is tappable. */
 export const IBN_JUBAYR_A2_CHAPTER_ENTITIES: Record<number, string[]> = {
-  1: ['ibnjubayr-al-andalus', 'ibnjubayr-middle-east', 'ibnjubayr-valencia', 'ibnjubayr-granada', 'ibnjubayr-seville', 'ibnjubayr-cordoba'],
+  1: ['ibnjubayr-al-andalus', 'ibnjubayr-valencia', 'ibnjubayr-granada', 'ibnjubayr-seville', 'ibnjubayr-cordoba'],
   2: ['ibnjubayr-baghdad', 'ibnjubayr-mosul', 'ibnjubayr-aleppo', 'ibnjubayr-jerusalem', 'ibnjubayr-damascus'],
   3: ['ibnjubayr-mediterranean', 'ibnjubayr-palestine'],
   4: ['ibnjubayr-ceuta', 'ibnjubayr-north-africa', 'ibnjubayr-genoa', 'ibnjubayr-sardinia', 'ibnjubayr-sicily', 'ibnjubayr-crete', 'ibnjubayr-egypt', 'ibnjubayr-alexandria', 'ibnjubayr-lighthouse-of-alexandria', 'ibnjubayr-cairo'],

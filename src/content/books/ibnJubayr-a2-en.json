@@ -15,15 +15,11 @@
     "type": "story",
     "title": "Al-Andalus and a Great Traveler",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch1.jpeg?alt=media",
-    "content": "Muslims ruled some parts of Spain and Portugal from 711 to 1492. People called this land Al-Andalus. For 781 years of Islamic rule in Al-Andalus, Muslims, Christians, and Jews lived side by side, and often worked, traded and studied together. They built one of the greatest cultures of the Middle Ages in the West. They created many special works in art, architecture, medicine, literature, and philosophy. Al-Andalus was in Europe because of its location and its people, but it was a part of the Islamic West, too.\n\nMany famous people lived in Al-Andalus. Ibn al-Arabi was a thinker and poet. Ibn Rushd was a scientist, thinker, and doctor. Ibn Tufayl was a writer and doctor.\n\nAfter Muslims took control of Spain in the 700s, the connection between Europe and the Middle East became stronger. Christian, Jewish, and Muslim people traveled a lot because they wanted to trade, learn more, and visit holy places. Ibn Jubayr was also one of the most important travelers of the Middle Ages from Al-Andalus.\n\nWhen Ibn Jubayr was born in Valencia in the year 1145, Muslim Spain was rich in culture and learning. Valencia is a famous city in the east of Spain, near the sea. In the tenth century, Granada was bigger than most cities in Western Europe and the east. Sevilla was also a big city with 500 bathhouses and 1,000 mosques. Córdoba had 700,000 people, so it was the largest city in Western Europe. This great culture surprised the people of that time because Muslims lived a much better life than them. History books tell us that Islamic Spain brought great culture and knowledge to the rural life of Western Europe.",
+    "content": "Muslims ruled some parts of Spain and Portugal from 711 to 1492. People called this land Al-Andalus. For 781 years of Islamic rule in Al-Andalus, Muslims, Christians, and Jews lived side by side, and often worked, traded and studied together. They built one of the greatest cultures of the Middle Ages in the West. They created many special works in art, architecture, medicine, literature, and philosophy. Al-Andalus was in Europe because of its location and its people, but it was a part of the Islamic West, too.\n\nMany famous people lived in Al-Andalus. Ibn al-Arabi was a thinker and poet. Ibn Rushd was a scientist, thinker, and doctor. Ibn Tufayl was a writer and doctor.\n\nAt that time, people often traveled to trade, learn more, and visit holy places. Ibn Jubayr was also one of the most important travelers of the Middle Ages from Al-Andalus.\n\nWhen Ibn Jubayr was born in Valencia in the year 1145, Muslim Spain was rich in culture and learning. Valencia is a famous city in the east of Spain, near the sea. In the tenth century, Granada was bigger than most cities in Western Europe and the east. Sevilla was also a big city with 500 bathhouses and 1,000 mosques. Córdoba had 700,000 people, so it was the largest city in Western Europe. This great culture surprised the people of that time because Muslims lived a much better life than them. History books tell us that Islamic Spain brought great culture and knowledge to the rural life of Western Europe.",
     "vocabulary": [
      {
       "word": "Al-Andalus",
       "definition": "__historical_entity__:ibnjubayr-al-andalus"
-     },
-     {
-      "word": "Middle East",
-      "definition": "__historical_entity__:ibnjubayr-middle-east"
      },
      {
       "word": "Valencia",
@@ -144,8 +140,8 @@
         "right": "built"
        },
        {
-        "left": "take",
-        "right": "took"
+        "left": "be",
+        "right": "was"
        },
        {
         "left": "bring",
@@ -158,14 +154,14 @@
       ],
       "correctAnswer": {
        "build": "built",
-       "take": "took",
+       "be": "was",
        "bring": "brought",
        "have": "had"
       },
-      "explanation": "History tells finished events, so Chapter 1 uses past forms. These four verbs are irregular: they do not take -ed. “They built one of the greatest cultures of the Middle Ages in the West.” “After Muslims took control of Spain in the 700s …” “Islamic Spain brought great culture and knowledge …” “Córdoba had 700,000 people …”",
+      "explanation": "History tells finished events, so Chapter 1 uses past forms. These four verbs are irregular: they do not take -ed. “They built one of the greatest cultures of the Middle Ages in the West.” “Córdoba … was the largest city in Western Europe.” “Islamic Spain brought great culture and knowledge …” “Córdoba had 700,000 people …”",
       "feedback": {
        "correct": "Good. You know the irregular past forms in the history of Al-Andalus.",
-       "incorrect": "Look at Chapter 1 again. Find “built”, “took”, “brought” and “had”. They do not end in -ed."
+       "incorrect": "Look at Chapter 1 again. Find “built”, “was”, “brought” and “had”. They do not end in -ed."
       }
      },
      {
@@ -817,7 +813,7 @@
     "type": "story",
     "title": "Cairo under Saladin",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch5.jpeg?alt=media",
-    "content": "Three days later, Ibn Jubayr arrived in Cairo. At that time, Cairo was the capital of the Ayyubid state, and its ruler was Saladin al-Ayyubi. Ayyubid state was a Turkish state. It ruled Egypt, the Middle East, Yemen, and North Africa between 1171 and 1462.\n\nIbn Jubayr felt great respect for Sultan Saladin. He praised Saladin’s kindness and generosity. He wrote: “Sultan Saladin gives support to every single mosque, hospital, and school.” Ibn Jubayr also wrote about Saladin’s fair rules. He did not ask the farmers to pay the Nile water taxes. The roads were also so safe that people could travel day and night without any fear.\n\nHe noticed that Saladin was making the city walls longer to protect Cairo from future enemy attacks. He also saw a very large bridge under construction over the Nile River. Workers made it very high to avoid the heavy yearly floods.\n\nFinally, Ibn Jubayr visited a large hospital in Cairo. It was completely free. It had separate areas for men, women, and patients who needed special care. He also saw the famous pyramids and the Sphinx. At the river, he looked at a special tool called a Nilometer. People used it to measure the height of the Nile floods.\n\nIn Alexandria and Cairo, Ibn Jubayr saw many colleges and guesthouses. Saladin built these places for students, teachers, and poor people. They could live there, and he also gave them money for their daily needs. The Sultan also built public baths and hospitals, and he sent doctors to take care of sick people at home. Another good thing Saladin did was giving out 2,000 loaves of bread to the poor every day.",
+    "content": "Three days later, Ibn Jubayr arrived in Cairo. At that time, Cairo was the capital of the Ayyubid state, and its ruler was Saladin al-Ayyubi. Ayyubid state was a Turkish state. It ruled Egypt, Syria, Yemen, and North Africa between 1171 and 1462.\n\nIbn Jubayr felt great respect for Sultan Saladin. He praised Saladin’s kindness and generosity. He wrote: “Sultan Saladin gives support to every single mosque, hospital, and school.” Ibn Jubayr also wrote about Saladin’s fair rules. He did not ask the farmers to pay the Nile water taxes. The roads were also so safe that people could travel day and night without any fear.\n\nHe noticed that Saladin was making the city walls longer to protect Cairo from future enemy attacks. He also saw a very large bridge under construction over the Nile River. Workers made it very high to avoid the heavy yearly floods.\n\nFinally, Ibn Jubayr visited a large hospital in Cairo. It was completely free. It had separate areas for men, women, and patients who needed special care. He also saw the famous pyramids and the Sphinx. At the river, he looked at a special tool called a Nilometer. People used it to measure the height of the Nile floods.\n\nIn Alexandria and Cairo, Ibn Jubayr saw many colleges and guesthouses. Saladin built these places for students, teachers, and poor people. They could live there, and he also gave them money for their daily needs. The Sultan also built public baths and hospitals, and he sent doctors to take care of sick people at home. Another good thing Saladin did was giving out 2,000 loaves of bread to the poor every day.",
     "vocabulary": [
      {
       "word": "Ayyubid state",
@@ -3564,7 +3560,7 @@
       "title": "Practise: Reason, Result, Different Idea",
       "instructions": "Fill each gap from the word bank. Two words are not needed.",
       "question": "Which word gives a reason, a result or a different idea?",
-      "fillBlanksText": "Christian, Jewish, and Muslim people traveled a lot [blank] they wanted to trade, learn more, and visit holy places. … This was the main port, [blank] ships sailed to many different places from here. … The trip was very dangerous because of big storms. [blank] their ship hit the ground near the coast of Sicily. Ibn Jubayr almost died, [blank] he survived.",
+      "fillBlanksText": "This great culture surprised the people of that time [blank] Muslims lived a much better life than them. … This was the main port, [blank] ships sailed to many different places from here. … The trip was very dangerous because of big storms. [blank] their ship hit the ground near the coast of Sicily. Ibn Jubayr almost died, [blank] he survived.",
       "wordBank": [
        "because",
        "so",
@@ -3918,7 +3914,7 @@
       ],
       "chapter": 1,
       "chapterTitle": "Al-Andalus and a Great Traveler",
-      "storyExample": "Christian, Jewish, and Muslim people traveled a lot because they wanted to trade, learn more, and visit holy places.",
+      "storyExample": "At that time, people often traveled to trade, learn more, and visit holy places.",
       "category": "Faith & Places"
      },
      {
