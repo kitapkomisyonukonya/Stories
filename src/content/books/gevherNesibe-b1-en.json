@@ -1,0 +1,3216 @@
+{
+  "schema": 1,
+  "storyId": "gevherNesibe",
+  "level": "B1",
+  "language": "en",
+  "collection": "turkish",
+  "book": {
+    "id": "gevherNesibe-b1",
+    "title": "The Gevher Nesibe Hospital and Medical School",
+    "level": "B1",
+    "baseFontSize": 12,
+    "pages": [
+      {
+        "id": 1,
+        "type": "story",
+        "title": "A Hospital Ahead of Its Time",
+        "image": "",
+        "audioUrl": "",
+        "content": "The Gevher Nesibe Complex in Kayseri is the oldest Anatolian Seljuk hospital still standing today. It is also the world’s first example of a hospital and a medical school built together in one place. In the 13th century, this place offered both theoretical education and practical training by the patients’ bedside. This systematic medical training did not appear in Europe until the 16th and 17th centuries. In fact, even the Imperial Medical School (Mekteb-i Tıbbiyye-i Adliyye-i Şâhâne), which was built by the Ottoman Sultan Mahmud II, opened more than 600 years after the Medical School in Kayseri.\n\nWhen the Gevher Nesibe Hospital was opened, Konya was the capital of the Anatolian Seljuk State. At that time, Kayseri was also accepted as a second capital and was known as ‘Makarr-ı Ulemâ’ (the center of scientists).\n\nThis medical center was built by the Anatolian Seljuk ruler Gıyâseddin Keyhusrev I for his sister, Gevher Nesibe Sultan. Today, it serves as the Museum of the Seljuk Civilization (Selçuklu Uygarlığı Müzesi).",
+        "vocabulary": [
+          {
+            "word": "still standing",
+            "definition": "Still existing, not destroyed."
+          },
+          {
+            "word": "offered",
+            "definition": "Gave people the chance to have something."
+          },
+          {
+            "word": "practical training",
+            "definition": "Learning by doing real work."
+          },
+          {
+            "word": "appear",
+            "definition": "Start to exist."
+          },
+          {
+            "word": "serves as",
+            "definition": "Is used as."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b1-en-h1a",
+            "x": 30,
+            "y": 40,
+            "title": "Kayseri",
+            "description": "The Gevher Nesibe Complex in Kayseri is the oldest Anatolian Seljuk hospital still standing today."
+          },
+          {
+            "id": "gevher-b1-en-h1b",
+            "x": 70,
+            "y": 45,
+            "title": "A Museum Today",
+            "description": "Today the complex serves as the Museum of the Seljuk Civilization."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b1-quick-1",
+            "type": "multiple-choice",
+            "title": "Why Is It Special?",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Why is the Gevher Nesibe Complex special?",
+            "options": [
+              "It is the world’s first example of a hospital and a medical school built together.",
+              "It is the largest hospital in Europe.",
+              "It was built by Sultan Mahmud II."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “It is also the world’s first example of a hospital and a medical school built together in one place.”",
+            "feedback": {
+              "correct": "Correct. A hospital and a medical school together, for the first time.",
+              "incorrect": "Read the first two sentences of the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b1-language-1-until",
+            "type": "multiple-choice",
+            "title": "Notice: Did Not … Until",
+            "instructions": "Read the sentence. Then choose what it means.",
+            "question": "“This systematic medical training did not appear in Europe until the 16th and 17th centuries.” What does it mean?",
+            "options": [
+              "Europe started this kind of training only in the 16th and 17th centuries.",
+              "Europe stopped this training in the 16th century.",
+              "Europe had this training before the 13th century."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Did not … until + time” means something started only at that time, not earlier. Kayseri had this training in the 13th century; Europe had it three or four centuries later.",
+            "feedback": {
+              "correct": "Correct. It started in Europe only then.",
+              "incorrect": "When did the training start in Europe: before or at that time?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-1-superlative",
+            "type": "choose-form",
+            "title": "Build: The Oldest, More Than … After, Was Built By",
+            "instructions": "Choose the correct form for each sentence from Chapter 1.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "It is the [choice] Anatolian Seljuk hospital still standing today.",
+                "options": ["older", "oldest", "most old"],
+                "answer": 1
+              },
+              {
+                "sentence": "The Imperial Medical School opened more than 600 years [choice] the Medical School in Kayseri.",
+                "options": ["after", "before", "since"],
+                "answer": 0
+              },
+              {
+                "sentence": "This medical center [choice] by Gıyâseddin Keyhusrev I.",
+                "options": ["built", "was built", "has built"],
+                "answer": 1
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“The + -est” is the superlative. “More than 600 years after” compares two dates. “Was built by + person” is a past passive with the builder.",
+            "feedback": {
+              "correct": "Well done. Oldest, after, was built.",
+              "incorrect": "Check the superlative, the order of the dates and the passive."
+            }
+          },
+          {
+            "id": "gevher-b1-language-1-serves-as",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say these facts?",
+            "transformItems": [
+              {
+                "source": "Today, it serves as the Museum of the Seljuk Civilization.",
+                "frame": "Today, it is [blank] as the Museum of the Seljuk Civilization.",
+                "answers": ["used"]
+              },
+              {
+                "source": "Gıyâseddin Keyhusrev I built this medical center for his sister.",
+                "frame": "This medical center [blank] by Gıyâseddin Keyhusrev I for his sister.",
+                "answers": ["was built"]
+              },
+              {
+                "source": "Kayseri was known as ‘Makarr-ı Ulemâ’.",
+                "frame": "People [blank] Kayseri ‘Makarr-ı Ulemâ’.",
+                "answers": ["called"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Serves as” = “is used as”. An active sentence can become passive, and a passive “was known as” can become active with “people called”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use is used as, was built by and people called."
+            }
+          },
+          {
+            "id": "gevher-b1-language-1-old-building",
+            "type": "reflection",
+            "title": "Use: An Old Building Today",
+            "instructions": "Write four to five sentences about an old building that is still standing.",
+            "question": "What was it, and what is it used as today?",
+            "correctAnswer": null,
+            "explanation": "Example: “The old station in our town was built more than 100 years ago. It is the oldest building still standing on our street. In the past, trains stopped there every day. Today, it serves as a small library. Many students study there after school.”",
+            "feedback": {
+              "correct": "Check: still standing, the oldest, serves as.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what the building was in the past.",
+                "mode": "Individual",
+                "example": "In the past, the building was a …"
+              },
+              {
+                "question": "Use still standing and the oldest.",
+                "mode": "Individual",
+                "example": "It is the oldest … still standing in my town."
+              },
+              {
+                "question": "Say what it serves as today.",
+                "mode": "Pair",
+                "example": "Today, it serves as …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Who built this medical center?",
+          "options": ["Gıyâseddin Keyhusrev I", "Sultan Mahmud II", "Kılıçarslan II"],
+          "answer": 0,
+          "quote": "This medical center was built by the Anatolian Seljuk ruler Gıyâseddin Keyhusrev I for his sister, Gevher Nesibe Sultan."
+        },
+        "iCan": [
+          "I can explain why the Gevher Nesibe Complex is special.",
+          "I can compare its medical training with Europe using dates.",
+          "I can use the oldest … still standing, did not … until and more than … after."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "story",
+        "title": "A Princess and a Commander",
+        "image": "",
+        "audioUrl": "",
+        "content": "Gevher Nesibe Sultan was the daughter of Kılıçarslan II and the sister of Gıyâseddin Keyhusrev I. According to a famous story, she fell in love with a young commander when she was a young girl. However, her elder brother, Sultan Gıyâseddin Keyhusrev I, was against this relationship and did not allow them to marry. Instead, he wanted his sister to marry a palace official. Gevher Nesibe opposed this decision. To separate his sister from the commander, the Sultan sent the young man away to war. Some time later, the commander died in battle. Gevher Nesibe became very sad and fell ill with tuberculosis. Because there was no good hospital in Kayseri, she sadly died at a young age. On her deathbed, her brother apologized to her and asked for her final wish.",
+        "vocabulary": [
+          {
+            "word": "against",
+            "definition": "Not agreeing with something."
+          },
+          {
+            "word": "relationship",
+            "definition": "The way two people are connected."
+          },
+          {
+            "word": "allow",
+            "definition": "Let someone do something."
+          },
+          {
+            "word": "Instead",
+            "definition": "In place of something else."
+          },
+          {
+            "word": "tuberculosis",
+            "definition": "A serious disease of the lungs."
+          },
+          {
+            "word": "apologized to",
+            "definition": "Said sorry to."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b1-en-h2a",
+            "x": 30,
+            "y": 40,
+            "title": "A Famous Story",
+            "description": "According to a famous story, Gevher Nesibe fell in love with a young commander."
+          },
+          {
+            "id": "gevher-b1-en-h2b",
+            "x": 70,
+            "y": 45,
+            "title": "Kılıçarslan II",
+            "description": "Gevher Nesibe was the daughter of Kılıçarslan II and the sister of Gıyâseddin Keyhusrev I."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b1-quick-2",
+            "type": "sequencing",
+            "title": "The Story in Order",
+            "instructions": "Put the events of the legend in order.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Gevher Nesibe fell in love with a young commander."
+              },
+              {
+                "id": "2",
+                "text": "Gıyâseddin Keyhusrev I did not allow them to marry."
+              },
+              {
+                "id": "3",
+                "text": "The Sultan sent the young man away to war."
+              },
+              {
+                "id": "4",
+                "text": "The commander died in battle."
+              },
+              {
+                "id": "5",
+                "text": "Gevher Nesibe fell ill with tuberculosis."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "Chapter 2 tells the legend step by step, from falling in love to the illness.",
+            "feedback": {
+              "correct": "Correct. Each event led to the next.",
+              "incorrect": "Follow the chapter from the start."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b1-language-2-according",
+            "type": "multiple-choice",
+            "title": "Notice: According to a Famous Story",
+            "instructions": "Read the sentence. Then choose what “according to a famous story” tells us.",
+            "question": "“According to a famous story, she fell in love with a young commander when she was a young girl.” What does it tell us?",
+            "options": [
+              "The writer is telling a legend, not a proven fact.",
+              "The writer saw it happen.",
+              "This is from an official document."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“According to + source” shows where information comes from. “A famous story” tells us this part is a legend.",
+            "feedback": {
+              "correct": "Correct. It is a legend.",
+              "incorrect": "Is this a document or a story people tell?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-2-allow-instead",
+            "type": "choose-form",
+            "title": "Build: Allow … To, Instead, To + Verb",
+            "instructions": "Choose the correct form for each sentence from Chapter 2.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Her brother did not allow them [choice].",
+                "options": ["marry", "to marry", "marrying"],
+                "answer": 1
+              },
+              {
+                "sentence": "[choice], he wanted his sister to marry a palace official.",
+                "options": ["Instead", "Because", "Although"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice] his sister from the commander, the Sultan sent the young man away to war.",
+                "options": ["For separate", "To separate", "Separating to"],
+                "answer": 1
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Allow + person + to + verb”. “Instead” = in place of the first plan. “To + verb” at the start gives the purpose.",
+            "feedback": {
+              "correct": "Well done. To marry, Instead, To separate.",
+              "incorrect": "Check the verb after allow, the linker and the purpose form."
+            }
+          },
+          {
+            "id": "gevher-b1-language-2-because",
+            "type": "transformation",
+            "title": "Build: Cause and Result",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we show the cause?",
+            "transformItems": [
+              {
+                "source": "Because there was no good hospital in Kayseri, she sadly died at a young age.",
+                "frame": "There was no good hospital in Kayseri, [blank] she sadly died at a young age.",
+                "answers": ["so"]
+              },
+              {
+                "source": "Her brother was against this relationship.",
+                "frame": "Her brother did not [blank] this relationship.",
+                "answers": ["accept", "want", "like", "agree with"]
+              },
+              {
+                "source": "On her deathbed, her brother apologized to her.",
+                "frame": "On her deathbed, her brother said [blank] to her.",
+                "answers": ["sorry"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Because + cause, result” = “cause, so result”. “Be against” = not agree with. “Apologize to” = say sorry to.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new words.",
+              "incorrect": "Use so, a verb for not agreeing, and say sorry."
+            }
+          },
+          {
+            "id": "gevher-b1-language-2-good-from-sad",
+            "type": "reflection",
+            "title": "Use: Something Good from Something Sad",
+            "instructions": "Write four to five sentences about how something good can come from a sad event.",
+            "question": "What can people do after a loss?",
+            "correctAnswer": null,
+            "explanation": "Example: “Sometimes a village has no doctor nearby. Because of this, sick people must travel for hours. In one village, people did not give up. Instead, they collected money and opened a small health center. Now families can get help quickly.”",
+            "feedback": {
+              "correct": "Check: because or so, instead and a hopeful ending.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe a sad event in general terms.",
+                "mode": "Individual",
+                "example": "Sometimes a town loses …"
+              },
+              {
+                "question": "Use because or so for the cause.",
+                "mode": "Individual",
+                "example": "Because there was no …, people …"
+              },
+              {
+                "question": "Say what good thing people did.",
+                "mode": "Pair",
+                "example": "Instead of giving up, they …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Why did Gevher Nesibe die at a young age?",
+          "options": ["There was no good hospital in Kayseri.", "She fell from a horse.", "She went to war."],
+          "answer": 0,
+          "quote": "Because there was no good hospital in Kayseri, she sadly died at a young age."
+        },
+        "iCan": [
+          "I can retell the legend of Gevher Nesibe in order.",
+          "I can explain the reasons and results in the story.",
+          "I can use according to, did not allow … to, instead and to + verb for purpose."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "story",
+        "title": "The Last Wish",
+        "image": "",
+        "audioUrl": "",
+        "content": "As the legend goes, Gevher Nesibe Sultan made a final request in her last days:\n\n“I have a very serious illness, and there is no cure for it. No doctor has been able to heal me, and I am on my deathbed. Please use all my wealth to build a hospital to honor my memory. Let this hospital treat patients and look for cures for terrible diseases. Let famous doctors and surgeons be trained here. Nobody should pay any money. Let this place be a free charity in my name.”",
+        "vocabulary": [
+          {
+            "word": "request",
+            "definition": "The act of asking for something."
+          },
+          {
+            "word": "cure",
+            "definition": "A medicine or treatment that ends an illness."
+          },
+          {
+            "word": "to honor my memory",
+            "definition": "So that people remember me with respect."
+          },
+          {
+            "word": "treat",
+            "definition": "Give medical care to."
+          },
+          {
+            "word": "surgeons",
+            "definition": "Doctors who do operations."
+          },
+          {
+            "word": "charity",
+            "definition": "Help given free to people in need."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b1-en-h3a",
+            "x": 30,
+            "y": 40,
+            "title": "The Last Wish",
+            "description": "Gevher Nesibe asked her brother to use all her wealth to build a hospital."
+          },
+          {
+            "id": "gevher-b1-en-h3b",
+            "x": 70,
+            "y": 45,
+            "title": "A Free Charity",
+            "description": "“Nobody should pay any money. Let this place be a free charity in my name.”"
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b1-quick-3",
+            "type": "drag-drop",
+            "title": "Her Last Wish",
+            "instructions": "Sort the parts of the wish: what the hospital does, or how it is paid?",
+            "question": "What did Gevher Nesibe ask for?",
+            "dragDropGroups": [
+              {
+                "group": "What the hospital should do",
+                "items": ["treat patients", "look for cures for terrible diseases", "train famous doctors and surgeons"]
+              },
+              {
+                "group": "How it should be paid for",
+                "items": ["use all her wealth", "nobody should pay any money", "be a free charity in her name"]
+              }
+            ],
+            "correctAnswer": {
+              "What the hospital should do": [
+                "treat patients",
+                "look for cures for terrible diseases",
+                "train famous doctors and surgeons"
+              ],
+              "How it should be paid for": ["use all her wealth", "nobody should pay any money", "be a free charity in her name"]
+            },
+            "explanation": "Chapter 3: Her wish had two parts: the work of the hospital, and the money: her wealth would pay, and treatment would be free.",
+            "feedback": {
+              "correct": "Correct. You sorted the wish into its two parts.",
+              "incorrect": "Read her words again: “Let this hospital …” and “Nobody should pay …”."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b1-language-3-let",
+            "type": "multiple-choice",
+            "title": "Notice: Let This Hospital …",
+            "instructions": "Read the sentence. Then choose what “Let” shows.",
+            "question": "“Let this hospital treat patients and look for cures for terrible diseases.” What does “Let” show here?",
+            "options": ["a strong wish for the future", "a question", "something that happened in the past"],
+            "correctAnswer": 0,
+            "explanation": "“Let + noun + base verb” expresses a strong wish or request: she wants the hospital to do these things in the future.",
+            "feedback": {
+              "correct": "Correct. Let shows her wish.",
+              "incorrect": "Is she asking, remembering, or wishing?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-3-should-able",
+            "type": "choose-form",
+            "title": "Build: Should, Has Been Able To, Let",
+            "instructions": "Choose the correct form for each sentence from Chapter 3.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Nobody [choice] pay any money.",
+                "options": ["should", "should to", "shoulds"],
+                "answer": 0
+              },
+              {
+                "sentence": "No doctor [choice] to heal me.",
+                "options": ["has been able", "has able", "was able being"],
+                "answer": 0
+              },
+              {
+                "sentence": "Let famous doctors and surgeons [choice] here.",
+                "options": ["be trained", "trained", "to train"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Should + base verb” gives advice or a rule. “Has been able to” = could (from the past until now). “Let + noun + be + past participle” is a passive wish.",
+            "feedback": {
+              "correct": "Well done. Should, has been able, be trained.",
+              "incorrect": "Check the verb after should, the present perfect and the passive after Let."
+            }
+          },
+          {
+            "id": "gevher-b1-language-3-wish",
+            "type": "transformation",
+            "title": "Build: Report Her Wish",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How can we report what she asked?",
+            "transformItems": [
+              {
+                "source": "“Please use all my wealth to build a hospital.”",
+                "frame": "She asked her brother [blank] use all her wealth to build a hospital.",
+                "answers": ["to"]
+              },
+              {
+                "source": "“Nobody should pay any money.”",
+                "frame": "She said that nobody [blank] pay any money.",
+                "answers": ["should"]
+              },
+              {
+                "source": "“There is no cure for it.”",
+                "frame": "She said that there [blank] no cure for her illness.",
+                "answers": ["was"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Reported requests use “ask + person + to + verb”. “Should” stays the same. “Is” usually becomes “was” in reported speech.",
+            "feedback": {
+              "correct": "Correct. You reported her wish.",
+              "incorrect": "Use asked … to, should and was."
+            }
+          },
+          {
+            "id": "gevher-b1-language-3-my-wish",
+            "type": "reflection",
+            "title": "Use: A Wish for My Community",
+            "instructions": "Write four to five sentences about something you wish for your community.",
+            "question": "Who should it help?",
+            "correctAnswer": null,
+            "explanation": "Example: “I wish there was a free sports center in my neighborhood. Let children play there after school. Let older people walk there safely. Nobody should pay to use it. It should be open every day.”",
+            "feedback": {
+              "correct": "Check: Let + noun + verb and should.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what you wish for.",
+                "mode": "Individual",
+                "example": "I wish there was a free library …"
+              },
+              {
+                "question": "Use Let + noun + verb.",
+                "mode": "Individual",
+                "example": "Let children read there for free."
+              },
+              {
+                "question": "Use should for a rule.",
+                "mode": "Pair",
+                "example": "Nobody should pay …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What did Gevher Nesibe want people to pay at the hospital?",
+          "options": ["nothing", "a little money", "a gold coin"],
+          "answer": 0,
+          "quote": "Nobody should pay any money."
+        },
+        "iCan": [
+          "I can explain what Gevher Nesibe asked for in her last wish.",
+          "I can identify the purposes of the hospital in her words.",
+          "I can use Let + person / thing + verb, should and has been able to."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "story",
+        "title": "The Twin Madrasas",
+        "image": "",
+        "audioUrl": "",
+        "content": "To follow his sister’s wish, Gıyâseddin Keyhusrev built a madrasa (Gıyâsiye Medresesi) and a hospital (Şifâiye). The construction of the hospital lasted two years. Gevher Nesibe Sultan was buried in her tomb inside the madrasa. Because the two buildings are next to each other, people call them the ‘Twin Madrasas.’ According to the writing on the main gate of the hospital, it was built in 1205–1206.",
+        "vocabulary": [
+          {
+            "word": "lasted",
+            "definition": "Continued for a period of time."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b1-en-h4a",
+            "x": 30,
+            "y": 40,
+            "title": "The Twin Madrasas",
+            "description": "Because the two buildings are next to each other, people call them the ‘Twin Madrasas.’"
+          },
+          {
+            "id": "gevher-b1-en-h4b",
+            "x": 70,
+            "y": 45,
+            "title": "The Main Gate",
+            "description": "The writing on the main gate says that the hospital was built in 1205–1206."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b1-quick-4",
+            "type": "true-false",
+            "title": "The Twin Madrasas",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Gevher Nesibe Sultan was buried in a tomb inside the madrasa.",
+            "correctAnswer": true,
+            "explanation": "Chapter 4: “Gevher Nesibe Sultan was buried in her tomb inside the madrasa.”",
+            "feedback": {
+              "correct": "Correct. Her tomb is inside the madrasa.",
+              "incorrect": "Find “was buried” in the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b1-language-4-purpose",
+            "type": "multiple-choice",
+            "title": "Notice: To Follow His Sister’s Wish",
+            "instructions": "Read the sentence. Then choose what “To follow” shows.",
+            "question": "“To follow his sister’s wish, Gıyâseddin Keyhusrev built a madrasa and a hospital.” What does “To follow his sister’s wish” show?",
+            "options": ["the reason why he built them", "the time when he built them", "the place where he built them"],
+            "correctAnswer": 0,
+            "explanation": "“To + verb” at the start of a sentence gives the purpose: he built the buildings because he wanted to do what his sister asked.",
+            "feedback": {
+              "correct": "Correct. It gives the purpose.",
+              "incorrect": "Why did he build them?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-4-passive-call",
+            "type": "choose-form",
+            "title": "Build: Was Buried, Call Them, According To",
+            "instructions": "Choose the correct form for each sentence from Chapter 4.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Gevher Nesibe Sultan [choice] in her tomb inside the madrasa.",
+                "options": ["buried", "was buried", "has buried"],
+                "answer": 1
+              },
+              {
+                "sentence": "People [choice] them the ‘Twin Madrasas.’",
+                "options": ["call", "are called", "calls"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice] the writing on the main gate, it was built in 1205–1206.",
+                "options": ["According to", "Because", "Instead of"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Was buried” is passive: other people buried her. “People call them …” is active. “According to + source” shows where the information comes from.",
+            "feedback": {
+              "correct": "Well done. Was buried, call, According to.",
+              "incorrect": "Who did the action? Where does the date come from?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-4-twin",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Because the two buildings are next to each other, people call them the ‘Twin Madrasas.’",
+                "frame": "The two buildings are next to each other, [blank] people call them the ‘Twin Madrasas.’",
+                "answers": ["so"]
+              },
+              {
+                "source": "The construction of the hospital lasted two years.",
+                "frame": "It [blank] two years to build the hospital.",
+                "answers": ["took"]
+              },
+              {
+                "source": "People call them the ‘Twin Madrasas.’",
+                "frame": "They [blank] called the ‘Twin Madrasas.’",
+                "answers": ["are"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Because …” can become “…, so …”. “Last two years” = “take two years”. An active sentence can become passive: they are called.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use so, took and are called."
+            }
+          },
+          {
+            "id": "gevher-b1-language-4-names",
+            "type": "reflection",
+            "title": "Use: A Place with a Special Name",
+            "instructions": "Write four to five sentences about a place with a special name.",
+            "question": "Why do people call it that?",
+            "correctAnswer": null,
+            "explanation": "Example: “In my town, people call one street ‘the Street of Books’. They call it that because there are many bookshops on it. According to a sign, the first shop opened in 1950. Today, students go there to buy books. It is my favorite street.”",
+            "feedback": {
+              "correct": "Check: call, because and according to.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say the name of the place.",
+                "mode": "Individual",
+                "example": "People call the old bridge …"
+              },
+              {
+                "question": "Explain the name with because.",
+                "mode": "Individual",
+                "example": "They call it that because …"
+              },
+              {
+                "question": "Say how we know when it was built.",
+                "mode": "Pair",
+                "example": "According to the sign, it was built in …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: How long did the construction of the hospital last?",
+          "options": ["two months", "two years", "twenty years"],
+          "answer": 1,
+          "quote": "The construction of the hospital lasted two years."
+        },
+        "iCan": [
+          "I can describe the two buildings and why they are called the Twin Madrasas.",
+          "I can say how we know the date of the hospital.",
+          "I can use to + verb for purpose, was buried and according to."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "story",
+        "title": "Learning Beside the Patients",
+        "image": "",
+        "audioUrl": "",
+        "content": "In the 13th century, medical education here was both theoretical and practical. Students learned theory at the Gıyâsiye and practiced at the Şifâiye. Historical studies show that the buildings had an underfloor heating system. It used steam from a bathhouse nearby. Students probably lived in small rooms inside the complex. In the summer, classes were held in the spacious courtyards. Doctors also examined daily outpatients in these areas. We do not know for sure, but historians think there was a chief doctor with assistants. The staff also had at least two general doctors, two surgeons, and a pharmacist. This staff was very similar to the one at the Keykâvus Hospital in Sivas.",
+        "vocabulary": [
+          {
+            "word": "nearby",
+            "definition": "Not far away."
+          },
+          {
+            "word": "inside",
+            "definition": "In a place or building."
+          },
+          {
+            "word": "staff",
+            "definition": "The people who work in a place."
+          },
+          {
+            "word": "similar to",
+            "definition": "Almost the same as."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b1-en-h5a",
+            "x": 30,
+            "y": 40,
+            "title": "Underfloor Heating",
+            "description": "The buildings had an underfloor heating system that used steam from a nearby bathhouse."
+          },
+          {
+            "id": "gevher-b1-en-h5b",
+            "x": 70,
+            "y": 45,
+            "title": "The Staff",
+            "description": "The staff had at least two general doctors, two surgeons and a pharmacist."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b1-quick-5",
+            "type": "multiple-choice",
+            "title": "Theory and Practice",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Where did students learn theory and where did they practice?",
+            "options": [
+              "They learned theory at the Gıyâsiye and practiced at the Şifâiye.",
+              "They learned everything at the Şifâiye.",
+              "They learned theory in Konya and practiced in Kayseri."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “Students learned theory at the Gıyâsiye and practiced at the Şifâiye.”",
+            "feedback": {
+              "correct": "Correct. Theory in the madrasa, practice in the hospital.",
+              "incorrect": "Read the second sentence of the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b1-language-5-fact-guess",
+            "type": "drag-drop",
+            "title": "Notice: Fact or Guess?",
+            "instructions": "Sort the sentences: does the writer present a fact or a guess?",
+            "question": "How sure is the writer?",
+            "dragDropGroups": [
+              {
+                "group": "Fact",
+                "items": [
+                  "Historical studies show that the buildings had an underfloor heating system.",
+                  "In the summer, classes were held in the spacious courtyards."
+                ]
+              },
+              {
+                "group": "Guess",
+                "items": [
+                  "Students probably lived in small rooms inside the complex.",
+                  "Historians think there was a chief doctor with assistants."
+                ]
+              }
+            ],
+            "correctAnswer": {
+              "Fact": [
+                "Historical studies show that the buildings had an underfloor heating system.",
+                "In the summer, classes were held in the spacious courtyards."
+              ],
+              "Guess": [
+                "Students probably lived in small rooms inside the complex.",
+                "Historians think there was a chief doctor with assistants."
+              ]
+            },
+            "explanation": "Words like “probably”, “We do not know for sure” and “historians think” show a guess. “Historical studies show” presents something as a fact.",
+            "feedback": {
+              "correct": "Good. You noticed how sure the writer is.",
+              "incorrect": "Look for probably, think and show."
+            }
+          },
+          {
+            "id": "gevher-b1-language-5-held",
+            "type": "choose-form",
+            "title": "Build: Were Held, Similar To, Used",
+            "instructions": "Choose the correct form for each sentence from Chapter 5.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "In the summer, classes [choice] in the spacious courtyards.",
+                "options": ["held", "were held", "were holding"],
+                "answer": 1
+              },
+              {
+                "sentence": "This staff was very similar [choice] the one at the Keykâvus Hospital in Sivas.",
+                "options": ["to", "with", "as"],
+                "answer": 0
+              },
+              {
+                "sentence": "It [choice] steam from a bathhouse nearby.",
+                "options": ["used", "was used", "using"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Were held” is passive: people held the classes. “Similar to” compares two things. “It used steam” is active: the system used the steam.",
+            "feedback": {
+              "correct": "Well done. Were held, to, used.",
+              "incorrect": "Check the passive, the preposition and who did the action."
+            }
+          },
+          {
+            "id": "gevher-b1-language-5-hedge",
+            "type": "transformation",
+            "title": "Build: Say How Sure You Are",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we show a guess?",
+            "transformItems": [
+              {
+                "source": "Students probably lived in small rooms inside the complex.",
+                "frame": "Students [blank] have lived in small rooms inside the complex.",
+                "answers": ["probably", "may", "might"]
+              },
+              {
+                "source": "We do not know for sure, but historians think there was a chief doctor.",
+                "frame": "Historians [blank] that there was a chief doctor, but this is not certain.",
+                "answers": ["think", "believe"]
+              },
+              {
+                "source": "Doctors also examined daily outpatients in these areas.",
+                "frame": "Daily outpatients were also [blank] by doctors in these areas.",
+                "answers": ["examined"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Probably”, “may have”, “might have” and “historians think” show that we are not sure. The last sentence changes to the passive.",
+            "feedback": {
+              "correct": "Correct. You showed how sure we are.",
+              "incorrect": "Use may/might, think/believe and a passive."
+            }
+          },
+          {
+            "id": "gevher-b1-language-5-learning",
+            "type": "reflection",
+            "title": "Use: Learning by Doing",
+            "instructions": "Write four to five sentences about something you learned by doing it.",
+            "question": "How did theory and practice work together?",
+            "correctAnswer": null,
+            "explanation": "Example: “Last year I learned to swim. First, the teacher explained how to move my arms and legs. Then we practiced in the pool every week. Without practice, I probably would not swim well today. Theory and practice worked together.”",
+            "feedback": {
+              "correct": "Check: first, then, probably and a clear example.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what you learned.",
+                "mode": "Individual",
+                "example": "I learned to cook …"
+              },
+              {
+                "question": "Say where you learned the theory.",
+                "mode": "Individual",
+                "example": "First, I read a recipe …"
+              },
+              {
+                "question": "Say how practice helped, with probably.",
+                "mode": "Pair",
+                "example": "Without practice, I probably …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Where were classes held in the summer?",
+          "options": ["in the spacious courtyards", "in the bathhouse", "in the palace"],
+          "answer": 0,
+          "quote": "In the summer, classes were held in the spacious courtyards."
+        },
+        "iCan": [
+          "I can explain how theory and practice were combined.",
+          "I can separate facts from guesses in the chapter.",
+          "I can use probably, we do not know for sure, historians think and passive were held."
+        ]
+      },
+      {
+        "id": 6,
+        "type": "story",
+        "title": "Great Teachers and Books",
+        "image": "",
+        "audioUrl": "",
+        "content": "Many famous scientists and doctors taught at this institution. Some of them were Sadreddin Konevî and Ekmeleddin al-Nahcuvânî, who was Mevlânâ’s close friend and doctor. Another important doctor was Kutbüddin eş-Şîrâzî, who was a famous eye doctor. At the Gıyâsiye, these scientists taught philosophy, religion, languages, and how the human body works. Students studied the most important medical books of the era, especially the works of er-Râzî and İbn Sînâ. They also read Arabic translations of ancient Greek and Roman doctors like Hippocrates and Galen. On the other hand, practical medical training took place at patients’ bedsides in the Şifâiye Hospital.",
+        "vocabulary": [
+          {
+            "word": "institution",
+            "definition": "A large organization, such as a school or hospital."
+          },
+          {
+            "word": "era",
+            "definition": "A period of time in history."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b1-en-h6a",
+            "x": 30,
+            "y": 40,
+            "title": "Great Teachers",
+            "description": "Sadreddin Konevî, Ekmeleddin al-Nahcuvânî and Kutbüddin eş-Şîrâzî taught at this institution."
+          },
+          {
+            "id": "gevher-b1-en-h6b",
+            "x": 70,
+            "y": 45,
+            "title": "Important Books",
+            "description": "Students studied the works of er-Râzî and İbn Sînâ and Arabic translations of Hippocrates and Galen."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b1-quick-6",
+            "type": "matching",
+            "title": "Teachers and Books",
+            "instructions": "Match each name with the right description from Chapter 6.",
+            "question": "Who was who?",
+            "matchingHeadings": {
+              "left": "Name",
+              "right": "Description"
+            },
+            "matchingPairs": [
+              {
+                "left": "Ekmeleddin al-Nahcuvânî",
+                "right": "Mevlânâ’s close friend and doctor"
+              },
+              {
+                "left": "Kutbüddin eş-Şîrâzî",
+                "right": "a famous eye doctor"
+              },
+              {
+                "left": "er-Râzî and İbn Sînâ",
+                "right": "writers of the most important medical books of the era"
+              },
+              {
+                "left": "Hippocrates and Galen",
+                "right": "ancient Greek and Roman doctors"
+              }
+            ],
+            "correctAnswer": {
+              "Ekmeleddin al-Nahcuvânî": "Mevlânâ’s close friend and doctor",
+              "Kutbüddin eş-Şîrâzî": "a famous eye doctor",
+              "er-Râzî and İbn Sînâ": "writers of the most important medical books of the era",
+              "Hippocrates and Galen": "ancient Greek and Roman doctors"
+            },
+            "explanation": "Chapter 6 names the teachers and the authors whose books students read.",
+            "feedback": {
+              "correct": "Correct. Each name matches its description.",
+              "incorrect": "Find each name in the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b1-language-6-who",
+            "type": "multiple-choice",
+            "title": "Notice: Who Was …",
+            "instructions": "Read the sentence. Then choose what the who-clause does.",
+            "question": "“Another important doctor was Kutbüddin eş-Şîrâzî, who was a famous eye doctor.” What does “who was a famous eye doctor” do?",
+            "options": ["It adds information about the person.", "It asks a question.", "It names a different person."],
+            "correctAnswer": 0,
+            "explanation": "A who-clause after a comma adds extra information about a person. It helps the writer introduce many people in one paragraph.",
+            "feedback": {
+              "correct": "Correct. It gives extra information.",
+              "incorrect": "Who is the clause about?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-6-some-especially",
+            "type": "choose-form",
+            "title": "Build: Some of Them, Especially, Took Place",
+            "instructions": "Choose the correct form for each sentence from Chapter 6.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] were Sadreddin Konevî and Ekmeleddin al-Nahcuvânî.",
+                "options": ["Some of them", "Some them", "Some of they"],
+                "answer": 0
+              },
+              {
+                "sentence": "Students studied the most important medical books of the era, [choice] the works of er-Râzî and İbn Sînâ.",
+                "options": ["especially", "except", "instead"],
+                "answer": 0
+              },
+              {
+                "sentence": "Practical medical training [choice] at patients’ bedsides in the Şifâiye Hospital.",
+                "options": ["took place", "was taken place", "took part"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Some of them” chooses examples from a group. “Especially” gives the most important examples. “Take place” = happen; it is never passive.",
+            "feedback": {
+              "correct": "Well done. Some of them, especially, took place.",
+              "incorrect": "Check the pronoun, the linking word and the verb for happen."
+            }
+          },
+          {
+            "id": "gevher-b1-language-6-combine",
+            "type": "transformation",
+            "title": "Build: Join with Who",
+            "instructions": "Join the two sentences with who.",
+            "question": "How can we join information about a person?",
+            "transformItems": [
+              {
+                "source": "Kutbüddin eş-Şîrâzî was an important doctor. He was a famous eye doctor.",
+                "frame": "Kutbüddin eş-Şîrâzî, [blank] was a famous eye doctor, was an important doctor.",
+                "answers": ["who"]
+              },
+              {
+                "source": "Ekmeleddin al-Nahcuvânî taught there. He was Mevlânâ’s close friend.",
+                "frame": "Ekmeleddin al-Nahcuvânî, who was Mevlânâ’s close friend, [blank] there.",
+                "answers": ["taught"]
+              },
+              {
+                "source": "Many famous scientists and doctors taught at this institution.",
+                "frame": "This institution had many famous [blank] and doctors as teachers.",
+                "answers": ["scientists"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "A who-clause replaces “He was …” and joins two sentences about the same person. The main verb stays after the clause.",
+            "feedback": {
+              "correct": "Correct. You joined the sentences.",
+              "incorrect": "Use who, then keep the main verb."
+            }
+          },
+          {
+            "id": "gevher-b1-language-6-my-teacher",
+            "type": "reflection",
+            "title": "Use: A Teacher Who Inspired Me",
+            "instructions": "Write four to five sentences about a teacher or expert who inspired you.",
+            "question": "What did they teach you?",
+            "correctAnswer": null,
+            "explanation": "Example: “My science teacher, who loves nature, inspired me a lot. She taught us many things, especially about plants and animals. Some of her lessons took place in the school garden. Thanks to her, I want to study biology. She showed me that learning can be fun.”",
+            "feedback": {
+              "correct": "Check: who-clause, especially and took place.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Introduce the person with a who-clause.",
+                "mode": "Individual",
+                "example": "My science teacher, who …"
+              },
+              {
+                "question": "Say what they taught, with especially.",
+                "mode": "Individual",
+                "example": "She taught us many things, especially …"
+              },
+              {
+                "question": "Say why it was important.",
+                "mode": "Pair",
+                "example": "This was important because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Who was Mevlânâ’s close friend and doctor?",
+          "options": ["Ekmeleddin al-Nahcuvânî", "Kutbüddin eş-Şîrâzî", "Sadreddin Konevî"],
+          "answer": 0,
+          "quote": "Ekmeleddin al-Nahcuvânî, who was Mevlânâ’s close friend and doctor."
+        },
+        "iCan": [
+          "I can name the teachers and what they were famous for.",
+          "I can list the subjects and books students studied.",
+          "I can use who-clauses, some of them were and especially."
+        ]
+      },
+      {
+        "id": 7,
+        "type": "story",
+        "title": "Inside the Buildings",
+        "image": "",
+        "audioUrl": "",
+        "content": "A corridor connects the madrasa and the hospital, and each one has a closed courtyard. Both buildings include a courtyard with a pool and rooms of different sizes. All the doors are small and open into covered walkways. None of the rooms have fireplaces or chimneys. There was no kitchen space inside the center. This shows that people brought meals from an outdoor kitchen.\n\nThe Gevher Nesibe Hospital had three operating rooms, and two surgeons worked there. Small windows at the top of these rooms provided dim light, which made it easier to control the light during operations. Doctors probably performed minor surgeries and cataract operations here.",
+        "vocabulary": [
+          {
+            "word": "courtyard",
+            "definition": "An open space with walls or buildings around it."
+          },
+          {
+            "word": "chimneys",
+            "definition": "Pipes that take smoke out of a building."
+          },
+          {
+            "word": "operating rooms",
+            "definition": "Rooms where doctors do operations."
+          },
+          {
+            "word": "dim light",
+            "definition": "Light that is not bright."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b1-en-h7a",
+            "x": 30,
+            "y": 40,
+            "title": "Operating Rooms",
+            "description": "The hospital had three operating rooms, and two surgeons worked there."
+          },
+          {
+            "id": "gevher-b1-en-h7b",
+            "x": 70,
+            "y": 45,
+            "title": "Dim Light",
+            "description": "Small windows at the top of the operating rooms gave dim light."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b1-quick-7",
+            "type": "true-false",
+            "title": "Meals",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Meals were cooked in a kitchen inside the center.",
+            "correctAnswer": false,
+            "explanation": "Chapter 7: “There was no kitchen space inside the center. This shows that people brought meals from an outdoor kitchen.”",
+            "feedback": {
+              "correct": "Correct. Meals came from an outdoor kitchen.",
+              "incorrect": "Find “This shows that” in the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b1-language-7-shows",
+            "type": "multiple-choice",
+            "title": "Notice: This Shows That",
+            "instructions": "Read the sentences. Then choose what “This shows that” does.",
+            "question": "“There was no kitchen space inside the center. This shows that people brought meals from an outdoor kitchen.” What does “This shows that” do?",
+            "options": ["It draws a conclusion from evidence.", "It describes a picture.", "It gives an order."],
+            "correctAnswer": 0,
+            "explanation": "“This shows that …” connects evidence (no kitchen) with a conclusion (meals came from outside). Historians use it to explain what buildings tell us.",
+            "feedback": {
+              "correct": "Correct. Evidence → conclusion.",
+              "incorrect": "What is the evidence, and what is the conclusion?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-7-none-which",
+            "type": "choose-form",
+            "title": "Build: None Of, Each One, Which Made It",
+            "instructions": "Choose the correct form for each sentence from Chapter 7.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] the rooms have fireplaces or chimneys.",
+                "options": ["None of", "No of", "Nothing of"],
+                "answer": 0
+              },
+              {
+                "sentence": "A corridor connects the madrasa and the hospital, and each one [choice] a closed courtyard.",
+                "options": ["have", "has", "having"],
+                "answer": 1
+              },
+              {
+                "sentence": "Small windows provided dim light, [choice] made it easier to control the light.",
+                "options": ["which", "who", "what"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“None of + plural noun” = not one of them. “Each one” takes a singular verb (has). “Which” can refer to a whole idea in the sentence before.",
+            "feedback": {
+              "correct": "Well done. None of, has, which.",
+              "incorrect": "Check the negative word, the verb after each one, and the relative pronoun."
+            }
+          },
+          {
+            "id": "gevher-b1-language-7-evidence",
+            "type": "transformation",
+            "title": "Build: Evidence and Conclusion",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we connect evidence and a conclusion?",
+            "transformItems": [
+              {
+                "source": "There was no kitchen space inside the center. This shows that people brought meals from outside.",
+                "frame": "People brought meals from outside [blank] there was no kitchen space inside the center.",
+                "answers": ["because", "since", "as"]
+              },
+              {
+                "source": "None of the rooms have fireplaces or chimneys.",
+                "frame": "There are no fireplaces or chimneys in [blank] of the rooms.",
+                "answers": ["any"]
+              },
+              {
+                "source": "Two surgeons worked there.",
+                "frame": "There [blank] two surgeons who worked there.",
+                "answers": ["were"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "A conclusion can come first with “because”. “None of the rooms have” = “there are no … in any of the rooms”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use because, any and there were."
+            }
+          },
+          {
+            "id": "gevher-b1-language-7-detective",
+            "type": "reflection",
+            "title": "Use: A Building Detective",
+            "instructions": "Write four to five sentences about what a building tells you.",
+            "question": "What evidence can you see, and what does it show?",
+            "correctAnswer": null,
+            "explanation": "Example: “Our school has a ramp at the main door. This shows that the builders thought about people in wheelchairs. The classrooms have big windows, which make it easier to read without lamps. None of the rooms are very dark. The building was planned for everyone.”",
+            "feedback": {
+              "correct": "Check: This shows that, which make(s) it easier to, none of.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe one detail of a building you know.",
+                "mode": "Individual",
+                "example": "Our school has very big windows."
+              },
+              {
+                "question": "Use This shows that.",
+                "mode": "Individual",
+                "example": "This shows that the builders wanted …"
+              },
+              {
+                "question": "Use which made it easier to.",
+                "mode": "Pair",
+                "example": "The ramp, which made it easier to …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Why did the operating rooms have small windows at the top?",
+          "options": ["to make it easier to control the light", "to keep birds out", "to save money"],
+          "answer": 0,
+          "quote": "Small windows at the top of these rooms provided dim light, which made it easier to control the light during operations."
+        },
+        "iCan": [
+          "I can describe the inside of the buildings.",
+          "I can explain what the evidence shows (no kitchen, small windows).",
+          "I can use none of, this shows that and which made it easier to."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "story",
+        "title": "Caring for Mind and Body",
+        "image": "",
+        "audioUrl": "",
+        "content": "The center also had a special section for mental health patients, with 18 rooms, nine on each side. Each room had two small openings in the wall. These openings carried sound, and experts used them for music and suggestion therapy.\n\nThere is also a bathhouse inside the building, and it has a dome on top. Inside, there are four round windows in the traditional Seljuk style. Also, the bathhouse had a very good sewage system.",
+        "vocabulary": [
+          {
+            "word": "experts",
+            "definition": "People with special knowledge or skill."
+          },
+          {
+            "word": "suggestion therapy",
+            "definition": "Helping patients with calm words and ideas."
+          },
+          {
+            "word": "sewage system",
+            "definition": "Pipes that carry dirty water away."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b1-en-h8a",
+            "x": 30,
+            "y": 40,
+            "title": "Rooms for the Mind",
+            "description": "The center had a special section for mental health patients, with 18 rooms, nine on each side."
+          },
+          {
+            "id": "gevher-b1-en-h8b",
+            "x": 70,
+            "y": 45,
+            "title": "The Bathhouse",
+            "description": "The bathhouse has a dome and four round windows in the traditional Seljuk style."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b1-quick-8",
+            "type": "multiple-choice",
+            "title": "Sound in the Walls",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What did experts use the openings in the walls for?",
+            "options": ["for music and suggestion therapy", "for light and fresh air only", "for passing food"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 8: “These openings carried sound, and experts used them for music and suggestion therapy.”",
+            "feedback": {
+              "correct": "Correct. Music and suggestion therapy.",
+              "incorrect": "Read the first paragraph again."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b1-language-8-used-for",
+            "type": "multiple-choice",
+            "title": "Notice: Used Them For",
+            "instructions": "Read the sentence. Then choose what “used them for” shows.",
+            "question": "“These openings carried sound, and experts used them for music and suggestion therapy.” What does “used them for” show?",
+            "options": ["the purpose of the openings", "the size of the openings", "when the openings were made"],
+            "correctAnswer": 0,
+            "explanation": "“Use something for + noun” shows the purpose of a thing. Here the openings had a medical purpose: music and suggestion therapy.",
+            "feedback": {
+              "correct": "Correct. It shows the purpose.",
+              "incorrect": "Why were the openings there?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-8-each-there",
+            "type": "choose-form",
+            "title": "Build: Each, There Is, Also",
+            "instructions": "Choose the correct form for each sentence from Chapter 8.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] room had two small openings in the wall.",
+                "options": ["Each", "All", "Every of"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice] also a bathhouse inside the building.",
+                "options": ["There is", "There are", "It is"],
+                "answer": 0
+              },
+              {
+                "sentence": "Inside, [choice] four round windows in the traditional Seljuk style.",
+                "options": ["there is", "there are", "they are"],
+                "answer": 1
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Each + singular noun” looks at things one by one. “There is” + singular, “there are” + plural.",
+            "feedback": {
+              "correct": "Well done. Each, There is, there are.",
+              "incorrect": "Is the noun singular or plural?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-8-purpose",
+            "type": "transformation",
+            "title": "Build: Say the Purpose Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say the purpose?",
+            "transformItems": [
+              {
+                "source": "Experts used the openings for music and suggestion therapy.",
+                "frame": "The openings were used [blank] music and suggestion therapy.",
+                "answers": ["for"]
+              },
+              {
+                "source": "Experts used the openings for music.",
+                "frame": "Experts used the openings [blank] play music.",
+                "answers": ["to"]
+              },
+              {
+                "source": "The center had a special section for mental health patients.",
+                "frame": "There [blank] a special section for mental health patients.",
+                "answers": ["was"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Use + thing + for + noun” or “use + thing + to + verb”. A passive (were used for) puts the thing first.",
+            "feedback": {
+              "correct": "Correct. You showed the purpose.",
+              "incorrect": "Use for + noun, to + verb, and there was."
+            }
+          },
+          {
+            "id": "gevher-b1-language-8-calm-place",
+            "type": "reflection",
+            "title": "Use: A Place That Calms the Mind",
+            "instructions": "Write four to five sentences about a place that helps people feel calm.",
+            "question": "What is it used for?",
+            "correctAnswer": null,
+            "explanation": "Example: “In our town, there is a small park by the river. There are trees and benches everywhere. People use it for walking and reading. Each bench faces the water. The sound of the river helps people feel calm.”",
+            "feedback": {
+              "correct": "Check: there is / there are, used for, each.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe the place with there is / there are.",
+                "mode": "Individual",
+                "example": "In our school, there is a quiet garden."
+              },
+              {
+                "question": "Say what it is used for.",
+                "mode": "Individual",
+                "example": "Students use it for reading and resting."
+              },
+              {
+                "question": "Say why it helps the mind.",
+                "mode": "Pair",
+                "example": "It helps because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: How many rooms did the mental health section have?",
+          "options": ["8", "18", "80"],
+          "answer": 1,
+          "quote": "The center also had a special section for mental health patients, with 18 rooms, nine on each side."
+        },
+        "iCan": [
+          "I can describe the mental health section and the bathhouse.",
+          "I can explain how the openings in the walls were used.",
+          "I can use each, used … for and there is / there are."
+        ]
+      },
+      {
+        "id": 9,
+        "type": "story",
+        "title": "Medical Education at the Dârüşşifâ",
+        "image": "",
+        "audioUrl": "",
+        "content": "The educational method of that era was based on the master-apprentice model. Students who graduated received an icâzet (diploma). This document listed the names of their teachers and older scientists in a line of tradition. Students who took classes at this madrasa were known as ‘dânişmend.’\n\nEducation at the hospital had two main parts. The first stage included classes in mathematics, astronomy, physics, languages, philosophy, and medicine. This stage was called ‘dârü’l-ilim’. In the second stage, students learned Islamic sciences. Treatment methods were based on the ideas of famous scientists like Bîrûnî and İbn Sînâ. Doctors prepared medicines using the best medical recipes of that time. Historical documents show that students also learned by observing doctors at patients’ bedsides. The hospital continued to provide medical care to patients until the early 20th century.",
+        "vocabulary": [
+          {
+            "word": "master-apprentice model",
+            "definition": "Learning a skill by working with an expert."
+          },
+          {
+            "word": "Treatment",
+            "definition": "Medical care for an illness."
+          },
+          {
+            "word": "observing",
+            "definition": "Watching carefully."
+          },
+          {
+            "word": "provide",
+            "definition": "Give something that people need."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b1-en-h9a",
+            "x": 30,
+            "y": 40,
+            "title": "The Icâzet",
+            "description": "Students who graduated received an icâzet, a diploma with the names of their teachers."
+          },
+          {
+            "id": "gevher-b1-en-h9b",
+            "x": 70,
+            "y": 45,
+            "title": "Until the 20th Century",
+            "description": "The hospital continued to provide medical care until the early 20th century."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b1-quick-9",
+            "type": "drag-drop",
+            "title": "Two Stages",
+            "instructions": "Sort the subjects into the right stage of education.",
+            "question": "What did students learn in each stage?",
+            "dragDropGroups": [
+              {
+                "group": "The first stage (dârü’l-ilim)",
+                "items": ["mathematics", "astronomy", "physics", "medicine"]
+              },
+              {
+                "group": "The second stage",
+                "items": ["Islamic sciences"]
+              }
+            ],
+            "correctAnswer": {
+              "The first stage (dârü’l-ilim)": ["mathematics", "astronomy", "physics", "medicine"],
+              "The second stage": ["Islamic sciences"]
+            },
+            "explanation": "Chapter 9: “The first stage included classes in mathematics, astronomy, physics, languages, philosophy, and medicine … In the second stage, students learned Islamic sciences.”",
+            "feedback": {
+              "correct": "Correct. You sorted the subjects.",
+              "incorrect": "Read the second paragraph again."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b1-language-9-based-on",
+            "type": "multiple-choice",
+            "title": "Notice: Was Based On",
+            "instructions": "Read the sentence. Then choose what “was based on” means.",
+            "question": "“The educational method of that era was based on the master-apprentice model.” What does “was based on” mean?",
+            "options": ["used as its main idea", "was built next to", "was against"],
+            "correctAnswer": 0,
+            "explanation": "“Be based on” means that something uses another thing as its main idea or starting point.",
+            "feedback": {
+              "correct": "Correct. The method used the master-apprentice idea.",
+              "incorrect": "What was the main idea of the method?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-9-who-continued",
+            "type": "choose-form",
+            "title": "Build: Who, Continued To, Known As",
+            "instructions": "Choose the correct form for each sentence from Chapter 9.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Students [choice] graduated received an icâzet.",
+                "options": ["who", "which", "whose"],
+                "answer": 0
+              },
+              {
+                "sentence": "The hospital continued [choice] medical care until the early 20th century.",
+                "options": ["provide", "to provide", "provided"],
+                "answer": 1
+              },
+              {
+                "sentence": "Students who took classes at this madrasa were [choice] ‘dânişmend.’",
+                "options": ["known as", "known like", "knowing as"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Students who …” is a defining relative clause: it tells us which students. “Continue to + verb”. “Be known as” = be called.",
+            "feedback": {
+              "correct": "Well done. Who, to provide, known as.",
+              "incorrect": "Check the relative pronoun, the verb after continued, and the passive phrase."
+            }
+          },
+          {
+            "id": "gevher-b1-language-9-passive",
+            "type": "transformation",
+            "title": "Build: Active and Passive",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Doctors prepared medicines using the best medical recipes of that time.",
+                "frame": "Medicines [blank] by doctors using the best medical recipes of that time.",
+                "answers": ["were prepared"]
+              },
+              {
+                "source": "This document listed the names of their teachers.",
+                "frame": "The names of their teachers [blank] in this document.",
+                "answers": ["were listed"]
+              },
+              {
+                "source": "Students learned by observing doctors at patients’ bedsides.",
+                "frame": "Students learned by [blank] doctors at patients’ bedsides.",
+                "answers": ["watching"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "The passive puts the thing first: medicines were prepared, names were listed. “Observe” = watch carefully.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use were + past participle, and a verb that means observe."
+            }
+          },
+          {
+            "id": "gevher-b1-language-9-apprentice",
+            "type": "reflection",
+            "title": "Use: Learning from a Master",
+            "instructions": "Write four to five sentences about learning a skill from an expert.",
+            "question": "How did you learn?",
+            "correctAnswer": null,
+            "explanation": "Example: “I learned to bake bread from my grandmother. My learning was based on watching her in the kitchen. I learned by observing her hands and asking questions. Students who practice every day learn faster. I continue to bake with her every weekend.”",
+            "feedback": {
+              "correct": "Check: was based on, by + -ing, continue to.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what skill you learned and from whom.",
+                "mode": "Individual",
+                "example": "I learned to play the bağlama from my uncle."
+              },
+              {
+                "question": "Use by + -ing.",
+                "mode": "Individual",
+                "example": "I learned by watching him and practicing."
+              },
+              {
+                "question": "Use continue to.",
+                "mode": "Pair",
+                "example": "I continue to …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: What did students receive when they graduated?",
+          "options": ["an icâzet (diploma)", "a gold coin", "a horse"],
+          "answer": 0,
+          "quote": "Students who graduated received an icâzet (diploma)."
+        },
+        "iCan": [
+          "I can describe the master-apprentice model and the two stages of education.",
+          "I can explain how treatment and training worked.",
+          "I can use was based on, students who … and continued to."
+        ]
+      },
+      {
+        "id": 10,
+        "type": "story",
+        "title": "Music Therapy at the Dârüşşifâ",
+        "image": "",
+        "audioUrl": "",
+        "content": "In his work Kitâbü’ş-Şifâ, İbn Sînâ (known as Avicenna in the West) stated that one of the best ways to treat patients is to make their minds and spirits stronger. He believed that giving them courage through their loved ones and using music can help them heal. Er-Râzî also noted that doctors should treat sad and stressed patients with music. At the same time, Fârâbî studied how different musical modes (makams) affect the human soul. He divided these modes into groups based on feelings, such as joy, fear, or comfort. He also explained which mode is best at specific times of the day. It is clear that experts used music therapy at the Gevher Nesibe Hospital.",
+        "vocabulary": [
+          {
+            "word": "spirits",
+            "definition": "The inner feelings and strength of a person."
+          },
+          {
+            "word": "courage",
+            "definition": "The ability to face something difficult."
+          },
+          {
+            "word": "heal",
+            "definition": "Become healthy again."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b1-en-h10a",
+            "x": 30,
+            "y": 40,
+            "title": "İbn Sînâ",
+            "description": "In Kitâbü’ş-Şifâ, İbn Sînâ said that making patients’ minds and spirits stronger helps them heal."
+          },
+          {
+            "id": "gevher-b1-en-h10b",
+            "x": 70,
+            "y": 45,
+            "title": "Fârâbî and the Makams",
+            "description": "Fârâbî divided musical modes into groups based on feelings such as joy, fear and comfort."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b1-quick-10",
+            "type": "matching",
+            "title": "Scholars and Ideas",
+            "instructions": "Match each scholar with his idea from Chapter 10.",
+            "question": "Who said what?",
+            "matchingHeadings": {
+              "left": "Scholar",
+              "right": "Idea"
+            },
+            "matchingPairs": [
+              {
+                "left": "İbn Sînâ",
+                "right": "stronger minds and spirits help patients heal"
+              },
+              {
+                "left": "Er-Râzî",
+                "right": "doctors should treat sad and stressed patients with music"
+              },
+              {
+                "left": "Fârâbî",
+                "right": "different musical modes affect the human soul"
+              }
+            ],
+            "correctAnswer": {
+              "İbn Sînâ": "stronger minds and spirits help patients heal",
+              "Er-Râzî": "doctors should treat sad and stressed patients with music",
+              "Fârâbî": "different musical modes affect the human soul"
+            },
+            "explanation": "Chapter 10 reports the ideas of İbn Sînâ, Er-Râzî and Fârâbî about music and healing.",
+            "feedback": {
+              "correct": "Correct. Each scholar matches his idea.",
+              "incorrect": "Find each name and the verb after it."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b1-language-10-reporting",
+            "type": "drag-drop",
+            "title": "Notice: Reporting Verbs",
+            "instructions": "Sort the reporting verbs by what they show.",
+            "question": "How does the writer report ideas?",
+            "dragDropGroups": [
+              {
+                "group": "A scholar’s idea",
+                "items": ["stated that", "believed that", "noted that"]
+              },
+              {
+                "group": "The writer’s conclusion",
+                "items": ["It is clear that"]
+              }
+            ],
+            "correctAnswer": {
+              "A scholar’s idea": ["stated that", "believed that", "noted that"],
+              "The writer’s conclusion": ["It is clear that"]
+            },
+            "explanation": "The writer uses “stated”, “believed” and “noted” to report the scholars’ ideas. “It is clear that” gives the writer’s own conclusion from these ideas.",
+            "feedback": {
+              "correct": "Good. You separated the scholars’ ideas from the writer’s conclusion.",
+              "incorrect": "Who is speaking: a scholar or the writer?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-10-that-clause",
+            "type": "choose-form",
+            "title": "Build: Report the Ideas",
+            "instructions": "Choose the correct form for each sentence from Chapter 10.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "İbn Sînâ stated [choice] one of the best ways to treat patients is to make their minds stronger.",
+                "options": ["that", "what", "which"],
+                "answer": 0
+              },
+              {
+                "sentence": "He believed that using music [choice] help them heal.",
+                "options": ["can", "cans", "can to"],
+                "answer": 0
+              },
+              {
+                "sentence": "He divided these modes into groups based [choice] feelings.",
+                "options": ["on", "in", "of"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Reporting verbs are followed by “that + clause”. “Can + base verb”. “Based on” gives the basis of the groups.",
+            "feedback": {
+              "correct": "Well done. That, can, on.",
+              "incorrect": "Check the word after stated, the modal and the preposition."
+            }
+          },
+          {
+            "id": "gevher-b1-language-10-report",
+            "type": "transformation",
+            "title": "Build: Direct to Reported",
+            "instructions": "Change the direct speech into reported speech.",
+            "question": "How do we report what a scholar said?",
+            "transformItems": [
+              {
+                "source": "Er-Râzî: “Doctors should treat sad patients with music.”",
+                "frame": "Er-Râzî noted that doctors [blank] treat sad patients with music.",
+                "answers": ["should"]
+              },
+              {
+                "source": "İbn Sînâ: “Music can help patients heal.”",
+                "frame": "İbn Sînâ believed that music [blank] help patients heal.",
+                "answers": ["can", "could"]
+              },
+              {
+                "source": "Fârâbî: “Different modes affect the soul.”",
+                "frame": "Fârâbî explained that different modes [blank] the soul.",
+                "answers": ["affect", "affected"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "In reported speech we use a reporting verb + that. Should stays the same; can may stay or become could; a general truth can stay in the present.",
+            "feedback": {
+              "correct": "Correct. You reported the ideas.",
+              "incorrect": "Use should, can/could and affect/affected."
+            }
+          },
+          {
+            "id": "gevher-b1-language-10-music",
+            "type": "reflection",
+            "title": "Use: Music and Feelings",
+            "instructions": "Write four to five sentences about how music affects your feelings.",
+            "question": "Report one expert idea and give your own view.",
+            "correctAnswer": null,
+            "explanation": "Example: “İbn Sînâ believed that music can help people heal. When I listen to slow ney music, I feel calm. Fast songs give me energy before a match. My grandmother noted that she sleeps better with quiet music. It is clear that music can change how we feel.”",
+            "feedback": {
+              "correct": "Check: one reporting verb, one example and It is clear that.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Report an idea from the chapter with stated / believed / noted.",
+                "mode": "Individual",
+                "example": "Fârâbî believed that music affects the soul."
+              },
+              {
+                "question": "Describe a piece of music and the feeling it gives you.",
+                "mode": "Individual",
+                "example": "When I listen to …, I feel …"
+              },
+              {
+                "question": "Give a conclusion with It is clear that.",
+                "mode": "Pair",
+                "example": "It is clear that music …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: How did Fârâbî divide the musical modes?",
+          "options": ["by color", "by feelings", "by country"],
+          "answer": 1,
+          "quote": "He divided these modes into groups based on feelings, such as joy, fear, or comfort."
+        },
+        "iCan": [
+          "I can explain what three scholars said about music and healing.",
+          "I can report the scholars’ ideas.",
+          "I can use stated that, believed that, noted that and it is clear that."
+        ]
+      },
+      {
+        "id": 11,
+        "type": "story",
+        "title": "A Legacy That Lives On",
+        "image": "",
+        "audioUrl": "",
+        "content": "Throughout history, there have been many examples of hospitals and medical schools. However, none of them combined both into a single building like the Gevher Nesibe Hospital. When we compare it to the first famous medical universities, such as Salerno, Bologna, and Paris, the Gevher Nesibe Hospital was more advanced in many ways. This hospital and madrasa came from centuries of collective knowledge. They show the great success of scholars in the Islamic world who lived during the 9th, 10th, and 11th centuries.\n\nGevher Nesibe Sultan never married the love of her life, but she won the hearts of many people and lived on even after her death.",
+        "vocabulary": [],
+        "hotspots": [
+          {
+            "id": "gevher-b1-en-h11a",
+            "x": 30,
+            "y": 40,
+            "title": "Salerno, Bologna, Paris",
+            "description": "Compared with the first famous medical universities, the Gevher Nesibe Hospital was more advanced in many ways."
+          },
+          {
+            "id": "gevher-b1-en-h11b",
+            "x": 70,
+            "y": 45,
+            "title": "Collective Knowledge",
+            "description": "The hospital and madrasa came from centuries of knowledge of scholars in the Islamic world."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b1-quick-11",
+            "type": "true-false",
+            "title": "A Legacy That Lives On",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Gevher Nesibe Sultan married the love of her life.",
+            "correctAnswer": false,
+            "explanation": "Chapter 11: “Gevher Nesibe Sultan never married the love of her life, but she won the hearts of many people and lived on even after her death.”",
+            "feedback": {
+              "correct": "Correct. She never married him, but she won many hearts.",
+              "incorrect": "Read the last sentence of the book."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b1-language-11-but",
+            "type": "multiple-choice",
+            "title": "Notice: Never …, But …",
+            "instructions": "Read the sentence. Then choose what “but” shows.",
+            "question": "“Gevher Nesibe Sultan never married the love of her life, but she won the hearts of many people.” What does “but” show?",
+            "options": ["a contrast between a loss and a gain", "the reason for her death", "the order of two events"],
+            "correctAnswer": 0,
+            "explanation": "“But” joins two contrasting ideas. Here a personal loss (she never married) is balanced by a gain for many people (she won their hearts).",
+            "feedback": {
+              "correct": "Correct. A loss and a gain.",
+              "incorrect": "What did she lose, and what did she gain?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-11-compare",
+            "type": "choose-form",
+            "title": "Build: None Of Them, More Advanced, Compare It To",
+            "instructions": "Choose the correct form for each sentence from Chapter 11.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] combined both into a single building like the Gevher Nesibe Hospital.",
+                "options": ["None of them", "No of them", "Nobody them"],
+                "answer": 0
+              },
+              {
+                "sentence": "The Gevher Nesibe Hospital was [choice] in many ways.",
+                "options": ["more advanced", "most advanced", "advanceder"],
+                "answer": 0
+              },
+              {
+                "sentence": "When we compare it [choice] the first famous medical universities, it was more advanced.",
+                "options": ["to", "than", "at"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“None of them” = not one. “More + long adjective” is the comparative. “Compare it to / with + noun”.",
+            "feedback": {
+              "correct": "Well done. None of them, more advanced, to.",
+              "incorrect": "Check the negative, the comparative and the preposition."
+            }
+          },
+          {
+            "id": "gevher-b1-language-11-summary",
+            "type": "transformation",
+            "title": "Build: Summarize the Legacy",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "None of them combined both into a single building.",
+                "frame": "No other hospital combined both into a single building [blank] the Gevher Nesibe Hospital.",
+                "answers": ["like"]
+              },
+              {
+                "source": "When we compare it to Salerno, Bologna and Paris, it was more advanced.",
+                "frame": "It was more advanced [blank] Salerno, Bologna and Paris.",
+                "answers": ["than"]
+              },
+              {
+                "source": "She lived on even after her death.",
+                "frame": "People [blank] to remember her even after her death.",
+                "answers": ["continued", "continue"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“None of them … like X” = “No other … like X”. “Compared to” can become “more … than”. “Live on” = people continue to remember someone.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new words.",
+              "incorrect": "Use like, than and continued."
+            }
+          },
+          {
+            "id": "gevher-b1-language-11-legacy",
+            "type": "reflection",
+            "title": "Use: A Legacy for the Future",
+            "instructions": "Write five to six sentences about something you would like to leave for future generations.",
+            "question": "Why would it help them?",
+            "correctAnswer": null,
+            "explanation": "Example: “I would like to plant trees in our school garden. Trees live much longer than people. In fifty years, they will give shade to new students. My gift may be small, but it will help many people. Like Gevher Nesibe, I want to leave something good behind.”",
+            "feedback": {
+              "correct": "Check: more … than, but and a clear reason.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what you would like to leave.",
+                "mode": "Individual",
+                "example": "I would like to leave a …"
+              },
+              {
+                "question": "Compare it with something today, with more … than.",
+                "mode": "Individual",
+                "example": "It would be more useful than …"
+              },
+              {
+                "question": "Use but for a contrast.",
+                "mode": "Pair",
+                "example": "It may be small, but …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: How was the Gevher Nesibe Hospital different from other hospitals in history?",
+          "options": ["It combined a hospital and a medical school in a single building.", "It was the biggest.", "It had no doctors."],
+          "answer": 0,
+          "quote": "none of them combined both into a single building like the Gevher Nesibe Hospital."
+        },
+        "iCan": [
+          "I can explain the legacy of the Gevher Nesibe Hospital.",
+          "I can compare it with early European medical universities.",
+          "I can use none of them, more advanced and when we compare it to."
+        ],
+        "groupTask": {
+          "type": "project",
+          "title": "A Museum Guide to the Gevher Nesibe Hospital",
+          "time": "15 min",
+          "groupSize": "3–4",
+          "steps": [
+            "Choose one room or idea: the legend, the Twin Madrasas, teaching, the buildings, mind and body, education or music therapy.",
+            "Write three facts from the book and one exact sentence from the book.",
+            "Add one sentence on why it matters today.",
+            "Put all the pages together as a class museum guide."
+          ],
+          "share": "Each group reads its page aloud as a museum guide.",
+          "solo": "Make a one-page guide to one part of the hospital with three facts and one quote."
+        }
+      },
+      {
+        "id": 12,
+        "type": "quiz",
+        "title": "Knowledge Check",
+        "image": "",
+        "audioUrl": "",
+        "content": "Check your understanding of the complete book.",
+        "exercises": [
+          {
+            "id": "gevher-b1-kc-1-first",
+            "type": "multiple-choice",
+            "title": "A World First",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What is the Gevher Nesibe Complex the world’s first example of?",
+            "options": [
+              "a hospital and a medical school built together in one place",
+              "a museum of medicine",
+              "a university for engineers"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “It is also the world’s first example of a hospital and a medical school built together in one place.”",
+            "feedback": {
+              "correct": "Correct. A hospital and a medical school together.",
+              "incorrect": "Read the first paragraph of Chapter 1."
+            }
+          },
+          {
+            "id": "gevher-b1-kc-2-legend",
+            "type": "true-false",
+            "title": "A Famous Story",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The book presents the love story of Gevher Nesibe as a famous story, or legend.",
+            "correctAnswer": true,
+            "explanation": "Chapter 2: “According to a famous story, she fell in love with a young commander when she was a young girl.”",
+            "feedback": {
+              "correct": "Correct. It is presented as a famous story.",
+              "incorrect": "Find “According to a famous story”."
+            }
+          },
+          {
+            "id": "gevher-b1-kc-3-wish",
+            "type": "multiple-choice",
+            "title": "Her Last Wish",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What did Gevher Nesibe ask her brother to do with her wealth?",
+            "options": ["build a hospital to honor her memory", "give it to the palace", "build a palace for the commander"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “Please use all my wealth to build a hospital to honor my memory.”",
+            "feedback": {
+              "correct": "Correct. She asked for a hospital.",
+              "incorrect": "Read her words in Chapter 3."
+            }
+          },
+          {
+            "id": "gevher-b1-kc-4-twins",
+            "type": "true-false",
+            "title": "Twin Buildings",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "People call the madrasa and the hospital the ‘Twin Madrasas’ because they are next to each other.",
+            "correctAnswer": true,
+            "explanation": "Chapter 4: “Because the two buildings are next to each other, people call them the ‘Twin Madrasas.’”",
+            "feedback": {
+              "correct": "Correct. They stand side by side.",
+              "incorrect": "Find “Twin Madrasas” in Chapter 4."
+            }
+          },
+          {
+            "id": "gevher-b1-kc-5-theory",
+            "type": "multiple-choice",
+            "title": "Theory and Practice",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "Where did students practice medicine?",
+            "options": ["at the Şifâiye", "at the Gıyâsiye", "in Konya"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “Students learned theory at the Gıyâsiye and practiced at the Şifâiye.”",
+            "feedback": {
+              "correct": "Correct. They practiced at the Şifâiye.",
+              "incorrect": "Read the beginning of Chapter 5."
+            }
+          },
+          {
+            "id": "gevher-b1-kc-6-kitchen",
+            "type": "multiple-choice",
+            "title": "No Kitchen",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What does the missing kitchen show?",
+            "options": ["People brought meals from an outdoor kitchen.", "Patients did not eat.", "The kitchen was destroyed."],
+            "correctAnswer": 0,
+            "explanation": "Chapter 7: “There was no kitchen space inside the center. This shows that people brought meals from an outdoor kitchen.”",
+            "feedback": {
+              "correct": "Correct. Meals came from outside.",
+              "incorrect": "Find “This shows that” in Chapter 7."
+            }
+          },
+          {
+            "id": "gevher-b1-kc-7-20th",
+            "type": "true-false",
+            "title": "Seven Centuries of Care",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The hospital stopped giving medical care in the 14th century.",
+            "correctAnswer": false,
+            "explanation": "Chapter 9: “The hospital continued to provide medical care to patients until the early 20th century.”",
+            "feedback": {
+              "correct": "Correct. It worked until the early 20th century.",
+              "incorrect": "Read the last sentence of Chapter 9."
+            }
+          },
+          {
+            "id": "gevher-b1-kc-8-music",
+            "type": "multiple-choice",
+            "title": "Music and Healing",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What did Er-Râzî say about music?",
+            "options": [
+              "Doctors should treat sad and stressed patients with music.",
+              "Music is bad for patients.",
+              "Only children should listen to music."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 10: “Er-Râzî also noted that doctors should treat sad and stressed patients with music.”",
+            "feedback": {
+              "correct": "Correct. He recommended music for sad and stressed patients.",
+              "incorrect": "Find Er-Râzî in Chapter 10."
+            }
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "glossary",
+        "title": "Master Glossary",
+        "content": "Review all key vocabulary from the book in one place.",
+        "image": "",
+        "vocabulary": [
+          {
+            "word": "still standing",
+            "definition": "Still existing, not destroyed.",
+            "partOfSpeech": "phrase",
+            "pronunciation": "/stɪl ˈstændɪŋ/",
+            "category": "Art & Architecture",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "A Hospital Ahead of Its Time",
+            "storyExample": "The Gevher Nesibe Complex in Kayseri is the oldest Anatolian Seljuk hospital still standing today."
+          },
+          {
+            "word": "offered",
+            "definition": "Gave people the chance to have something.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈɒfərd/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "A Hospital Ahead of Its Time",
+            "storyExample": "In the 13th century, this place offered both theoretical education and practical training by the patients’ bedside."
+          },
+          {
+            "word": "practical training",
+            "definition": "Learning by doing real work.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˈpræktɪkəl ˈtreɪnɪŋ/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "A Hospital Ahead of Its Time",
+            "storyExample": "In the 13th century, this place offered both theoretical education and practical training by the patients’ bedside."
+          },
+          {
+            "word": "appear",
+            "definition": "Start to exist.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/əˈpɪr/",
+            "category": "Time & Change",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "A Hospital Ahead of Its Time",
+            "storyExample": "This systematic medical training did not appear in Europe until the 16th and 17th centuries."
+          },
+          {
+            "word": "serves as",
+            "definition": "Is used as.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/ˈsɜːrvz æz/",
+            "category": "Art & Architecture",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "A Hospital Ahead of Its Time",
+            "storyExample": "Today, it serves as the Museum of the Seljuk Civilization (Selçuklu Uygarlığı Müzesi)."
+          },
+          {
+            "word": "against",
+            "definition": "Not agreeing with something.",
+            "partOfSpeech": "preposition",
+            "pronunciation": "/əˈɡenst/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "However, her elder brother, Sultan Gıyâseddin Keyhusrev I, was against this relationship and did not allow them to marry."
+          },
+          {
+            "word": "relationship",
+            "definition": "The way two people are connected.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/rɪˈleɪʃənʃɪp/",
+            "category": "Family & People",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "However, her elder brother, Sultan Gıyâseddin Keyhusrev I, was against this relationship and did not allow them to marry."
+          },
+          {
+            "word": "allow",
+            "definition": "Let someone do something.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/əˈlaʊ/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "However, her elder brother, Sultan Gıyâseddin Keyhusrev I, was against this relationship and did not allow them to marry."
+          },
+          {
+            "word": "Instead",
+            "definition": "In place of something else.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ɪnˈsted/",
+            "category": "Linking Words",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "Instead, he wanted his sister to marry a palace official."
+          },
+          {
+            "word": "tuberculosis",
+            "definition": "A serious disease of the lungs.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/tjuːˌbɜːrkjəˈloʊsɪs/",
+            "category": "Science & Medicine",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "Gevher Nesibe became very sad and fell ill with tuberculosis."
+          },
+          {
+            "word": "apologized to",
+            "definition": "Said sorry to.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/əˈpɒlədʒaɪzd tuː/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "On her deathbed, her brother apologized to her and asked for her final wish."
+          },
+          {
+            "word": "request",
+            "definition": "The act of asking for something.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/rɪˈkwest/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "As the legend goes, Gevher Nesibe Sultan made a final request in her last days: “I have a very serious illness, and there is no cure for it."
+          },
+          {
+            "word": "cure",
+            "definition": "A medicine or treatment that ends an illness.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/kjʊr/",
+            "category": "Science & Medicine",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "As the legend goes, Gevher Nesibe Sultan made a final request in her last days: “I have a very serious illness, and there is no cure for it."
+          },
+          {
+            "word": "to honor my memory",
+            "definition": "So that people remember me with respect.",
+            "partOfSpeech": "phrase",
+            "pronunciation": "/tə ˈɒnər maɪ ˈmeməri/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "Please use all my wealth to build a hospital to honor my memory."
+          },
+          {
+            "word": "treat",
+            "definition": "Give medical care to.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/triːt/",
+            "category": "Science & Medicine",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "Let this hospital treat patients and look for cures for terrible diseases."
+          },
+          {
+            "word": "surgeons",
+            "definition": "Doctors who do operations.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈsɜːrdʒənz/",
+            "category": "Science & Medicine",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "Let famous doctors and surgeons be trained here."
+          },
+          {
+            "word": "charity",
+            "definition": "Help given free to people in need.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈtʃærəti/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "Let this place be a free charity in my name.”"
+          },
+          {
+            "word": "lasted",
+            "definition": "Continued for a period of time.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈlæstɪd/",
+            "category": "Time & Change",
+            "level": "B1",
+            "chapter": 4,
+            "chapterTitle": "The Twin Madrasas",
+            "storyExample": "The construction of the hospital lasted two years."
+          },
+          {
+            "word": "nearby",
+            "definition": "Not far away.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ˌnɪrˈbaɪ/",
+            "category": "Places & Geography",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Learning Beside the Patients",
+            "storyExample": "It used steam from a bathhouse nearby."
+          },
+          {
+            "word": "inside",
+            "definition": "In a place or building.",
+            "partOfSpeech": "preposition",
+            "pronunciation": "/ɪnˈsaɪd/",
+            "category": "Places & Geography",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Learning Beside the Patients",
+            "storyExample": "Students probably lived in small rooms inside the complex."
+          },
+          {
+            "word": "staff",
+            "definition": "The people who work in a place.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/stæf/",
+            "category": "Science & Medicine",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Learning Beside the Patients",
+            "storyExample": "The staff also had at least two general doctors, two surgeons, and a pharmacist."
+          },
+          {
+            "word": "similar to",
+            "definition": "Almost the same as.",
+            "partOfSpeech": "adjective phrase",
+            "pronunciation": "/ˈsɪmələr tuː/",
+            "category": "Ideas & Description",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Learning Beside the Patients",
+            "storyExample": "This staff was very similar to the one at the Keykâvus Hospital in Sivas."
+          },
+          {
+            "word": "institution",
+            "definition": "A large organization, such as a school or hospital.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˌɪnstɪˈtuːʃən/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 6,
+            "chapterTitle": "Great Teachers and Books",
+            "storyExample": "Many famous scientists and doctors taught at this institution."
+          },
+          {
+            "word": "era",
+            "definition": "A period of time in history.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈɪrə/",
+            "category": "Time & Change",
+            "level": "B1",
+            "chapter": 6,
+            "chapterTitle": "Great Teachers and Books",
+            "storyExample": "Students studied the most important medical books of the era, especially the works of er-Râzî and İbn Sînâ."
+          },
+          {
+            "word": "courtyard",
+            "definition": "An open space with walls or buildings around it.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkɔːrtjɑːrd/",
+            "category": "Art & Architecture",
+            "level": "B1",
+            "chapter": 7,
+            "chapterTitle": "Inside the Buildings",
+            "storyExample": "A corridor connects the madrasa and the hospital, and each one has a closed courtyard."
+          },
+          {
+            "word": "chimneys",
+            "definition": "Pipes that take smoke out of a building.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈtʃɪmniz/",
+            "category": "Art & Architecture",
+            "level": "B1",
+            "chapter": 7,
+            "chapterTitle": "Inside the Buildings",
+            "storyExample": "None of the rooms have fireplaces or chimneys."
+          },
+          {
+            "word": "operating rooms",
+            "definition": "Rooms where doctors do operations.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˈɒpəreɪtɪŋ ruːmz/",
+            "category": "Science & Medicine",
+            "level": "B1",
+            "chapter": 7,
+            "chapterTitle": "Inside the Buildings",
+            "storyExample": "The Gevher Nesibe Hospital had three operating rooms, and two surgeons worked there."
+          },
+          {
+            "word": "dim light",
+            "definition": "Light that is not bright.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/dɪm laɪt/",
+            "category": "Ideas & Description",
+            "level": "B1",
+            "chapter": 7,
+            "chapterTitle": "Inside the Buildings",
+            "storyExample": "Small windows at the top of these rooms provided dim light, which made it easier to control the light during operations."
+          },
+          {
+            "word": "experts",
+            "definition": "People with special knowledge or skill.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈekspɜːrts/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 8,
+            "chapterTitle": "Caring for Mind and Body",
+            "storyExample": "These openings carried sound, and experts used them for music and suggestion therapy."
+          },
+          {
+            "word": "suggestion therapy",
+            "definition": "Helping patients with calm words and ideas.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/səɡˈdʒestʃən ˈθerəpi/",
+            "category": "Science & Medicine",
+            "level": "B1",
+            "chapter": 8,
+            "chapterTitle": "Caring for Mind and Body",
+            "storyExample": "These openings carried sound, and experts used them for music and suggestion therapy."
+          },
+          {
+            "word": "sewage system",
+            "definition": "Pipes that carry dirty water away.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˈsuːɪdʒ ˈsɪstəm/",
+            "category": "Art & Architecture",
+            "level": "B1",
+            "chapter": 8,
+            "chapterTitle": "Caring for Mind and Body",
+            "storyExample": "Also, the bathhouse had a very good sewage system."
+          },
+          {
+            "word": "master-apprentice model",
+            "definition": "Learning a skill by working with an expert.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˈmæstər əˈprentɪs ˈmɒdəl/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 9,
+            "chapterTitle": "Medical Education at the Dârüşşifâ",
+            "storyExample": "The educational method of that era was based on the master-apprentice model."
+          },
+          {
+            "word": "Treatment",
+            "definition": "Medical care for an illness.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈtriːtmənt/",
+            "category": "Science & Medicine",
+            "level": "B1",
+            "chapter": 9,
+            "chapterTitle": "Medical Education at the Dârüşşifâ",
+            "storyExample": "Treatment methods were based on the ideas of famous scientists like Bîrûnî and İbn Sînâ."
+          },
+          {
+            "word": "observing",
+            "definition": "Watching carefully.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/əbˈzɜːrvɪŋ/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 9,
+            "chapterTitle": "Medical Education at the Dârüşşifâ",
+            "storyExample": "Historical documents show that students also learned by observing doctors at patients’ bedsides."
+          },
+          {
+            "word": "provide",
+            "definition": "Give something that people need.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/prəˈvaɪd/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 9,
+            "chapterTitle": "Medical Education at the Dârüşşifâ",
+            "storyExample": "The hospital continued to provide medical care to patients until the early 20th century."
+          },
+          {
+            "word": "spirits",
+            "definition": "The inner feelings and strength of a person.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈspɪrɪts/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "Music Therapy at the Dârüşşifâ",
+            "storyExample": "In his work Kitâbü’ş-Şifâ, İbn Sînâ (known as Avicenna in the West) stated that one of the best ways to treat patients is to make their minds and spirits stronger."
+          },
+          {
+            "word": "courage",
+            "definition": "The ability to face something difficult.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkɜːrɪdʒ/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "Music Therapy at the Dârüşşifâ",
+            "storyExample": "He believed that giving them courage through their loved ones and using music can help them heal."
+          },
+          {
+            "word": "heal",
+            "definition": "Become healthy again.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/hiːl/",
+            "category": "Science & Medicine",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "Music Therapy at the Dârüşşifâ",
+            "storyExample": "He believed that giving them courage through their loved ones and using music can help them heal."
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "type": "vocabulary-match",
+        "title": "Vocabulary Challenge",
+        "image": "",
+        "audioUrl": "",
+        "content": "Match 10 words from the book with their meanings.",
+        "vocabularyPairs": [
+          {
+            "word": "practical training",
+            "meaning": "Learning by doing real work.",
+            "partOfSpeech": "noun phrase",
+            "chapter": 1,
+            "context": "this place offered both theoretical education and practical training by the patients’ bedside."
+          },
+          {
+            "word": "tuberculosis",
+            "meaning": "A serious disease of the lungs.",
+            "partOfSpeech": "noun",
+            "chapter": 2,
+            "context": "Gevher Nesibe became very sad and fell ill with tuberculosis."
+          },
+          {
+            "word": "cure",
+            "meaning": "A medicine or treatment that ends an illness.",
+            "partOfSpeech": "noun",
+            "chapter": 3,
+            "context": "I have a very serious illness, and there is no cure for it."
+          },
+          {
+            "word": "surgeons",
+            "meaning": "Doctors who do operations.",
+            "partOfSpeech": "noun",
+            "chapter": 3,
+            "context": "Let famous doctors and surgeons be trained here."
+          },
+          {
+            "word": "charity",
+            "meaning": "Help given free to people in need.",
+            "partOfSpeech": "noun",
+            "chapter": 3,
+            "context": "Let this place be a free charity in my name."
+          },
+          {
+            "word": "staff",
+            "meaning": "The people who work in a place.",
+            "partOfSpeech": "noun",
+            "chapter": 5,
+            "context": "This staff was very similar to the one at the Keykâvus Hospital in Sivas."
+          },
+          {
+            "word": "institution",
+            "meaning": "A large organization, such as a school or hospital.",
+            "partOfSpeech": "noun",
+            "chapter": 6,
+            "context": "Many famous scientists and doctors taught at this institution."
+          },
+          {
+            "word": "chimneys",
+            "meaning": "Pipes that take smoke out of a building.",
+            "partOfSpeech": "noun",
+            "chapter": 7,
+            "context": "None of the rooms have fireplaces or chimneys."
+          },
+          {
+            "word": "observing",
+            "meaning": "Watching carefully.",
+            "partOfSpeech": "verb",
+            "chapter": 9,
+            "context": "students also learned by observing doctors at patients’ bedsides."
+          },
+          {
+            "word": "heal",
+            "meaning": "Become healthy again.",
+            "partOfSpeech": "verb",
+            "chapter": 10,
+            "context": "using music can help them heal."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "exercises",
+        "title": "Language Review",
+        "image": "",
+        "content": "Review and use the language of the whole book.",
+        "exercises": [
+          {
+            "id": "gevher-b1-language-review-1-passive",
+            "type": "drag-drop",
+            "title": "Notice: Who Did It?",
+            "instructions": "Sort the sentences: is the doer named, or not named?",
+            "question": "When does the book name the doer?",
+            "dragDropGroups": [
+              {
+                "group": "The doer is named (by …)",
+                "items": [
+                  "This medical center was built by the Anatolian Seljuk ruler Gıyâseddin Keyhusrev I.",
+                  "the Imperial Medical School, which was built by the Ottoman Sultan Mahmud II"
+                ]
+              },
+              {
+                "group": "The doer is not named",
+                "items": [
+                  "Gevher Nesibe Sultan was buried in her tomb inside the madrasa.",
+                  "In the summer, classes were held in the spacious courtyards.",
+                  "Students who took classes at this madrasa were known as ‘dânişmend.’"
+                ]
+              }
+            ],
+            "correctAnswer": {
+              "The doer is named (by …)": [
+                "This medical center was built by the Anatolian Seljuk ruler Gıyâseddin Keyhusrev I.",
+                "the Imperial Medical School, which was built by the Ottoman Sultan Mahmud II"
+              ],
+              "The doer is not named": [
+                "Gevher Nesibe Sultan was buried in her tomb inside the madrasa.",
+                "In the summer, classes were held in the spacious courtyards.",
+                "Students who took classes at this madrasa were known as ‘dânişmend.’"
+              ]
+            },
+            "explanation": "The passive puts the result first. The book adds “by + doer” when the doer is important (a sultan). When the doer is clear or not important, it leaves it out.",
+            "feedback": {
+              "correct": "Good. Some passives name the doer; others do not.",
+              "incorrect": "Look for the word by."
+            }
+          },
+          {
+            "id": "gevher-b1-language-review-2-certainty",
+            "type": "multiple-choice",
+            "title": "Notice: How Sure Is the Writer?",
+            "instructions": "Read the sentences. Then choose the one that is a guess.",
+            "question": "Which sentence is a guess?",
+            "options": [
+              "Students probably lived in small rooms inside the complex.",
+              "The hospital had three operating rooms.",
+              "The bathhouse has a dome on top."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Probably” shows that the writer is not sure. The other two sentences are presented as facts.",
+            "feedback": {
+              "correct": "Correct. Probably shows a guess.",
+              "incorrect": "Look for a word that shows the writer is not sure."
+            }
+          },
+          {
+            "id": "gevher-b1-language-review-3-let",
+            "type": "true-false",
+            "title": "Notice: Let for a Wish",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "In “Let this hospital treat patients”, Let shows a strong wish.",
+            "correctAnswer": true,
+            "explanation": "“Let + noun + base verb” expresses a wish or request for the future. Gevher Nesibe uses it several times in her last wish.",
+            "feedback": {
+              "correct": "Correct. Let shows her wish.",
+              "incorrect": "Read her words in Chapter 3."
+            }
+          },
+          {
+            "id": "gevher-b1-language-review-4-linkers",
+            "type": "word-bank",
+            "title": "Build: Linking Ideas",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "How does the book link ideas?",
+            "fillBlanksText": "Her brother did not allow them to marry. [blank], he wanted his sister to marry a palace official. [blank] there was no good hospital in Kayseri, she died at a young age. [blank] his sister’s wish, the Sultan built a madrasa and a hospital.",
+            "wordBank": ["Instead", "Because", "To follow", "Although", "However"],
+            "correctAnswer": ["Instead", "Because", "To follow"],
+            "explanation": "“Instead” gives a different plan. “Because” gives a reason. “To + verb” at the start gives a purpose.",
+            "feedback": {
+              "correct": "Well done. Instead, Because, To follow.",
+              "incorrect": "Is each gap a different plan, a reason or a purpose?"
+            }
+          },
+          {
+            "id": "gevher-b1-language-review-5-patterns",
+            "type": "choose-form",
+            "title": "Build: Verb Patterns",
+            "instructions": "Choose the correct form for each sentence.",
+            "question": "Which verb pattern is correct?",
+            "formChoices": [
+              {
+                "sentence": "Her brother did not allow them [choice].",
+                "options": ["marry", "to marry", "marrying"],
+                "answer": 1
+              },
+              {
+                "sentence": "The hospital continued [choice] medical care until the early 20th century.",
+                "options": ["provide", "to provide", "provided"],
+                "answer": 1
+              },
+              {
+                "sentence": "Students learned by [choice] doctors at patients’ bedsides.",
+                "options": ["observe", "observing", "to observe"],
+                "answer": 1
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Allow + person + to + verb”, “continue to + verb”, and “by + -ing” for a method.",
+            "feedback": {
+              "correct": "Correct. To marry, to provide, observing.",
+              "incorrect": "Check the pattern after allow, continued and by."
+            }
+          },
+          {
+            "id": "gevher-b1-language-review-6-grammar",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "It is the most old Anatolian Seljuk hospital still standing today.",
+                "error": "most old",
+                "options": ["oldest", "older", "more old"],
+                "answer": 0
+              },
+              {
+                "sentence": "Each room have two small openings in the wall.",
+                "error": "have",
+                "options": ["had", "having", "were"],
+                "answer": 0
+              },
+              {
+                "sentence": "This staff was very similar with the one at the Keykâvus Hospital.",
+                "error": "with",
+                "options": ["to", "as", "than"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use “the oldest” for short adjectives, a singular verb after “each”, and “similar to”.",
+            "feedback": {
+              "correct": "Correct. Oldest, had, to.",
+              "incorrect": "Check the superlative, the verb after each, and the preposition."
+            }
+          },
+          {
+            "id": "gevher-b1-language-review-7-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Today, it serves as the Museum of the Seljuk Civilization.",
+                "frame": "Today, it is [blank] as the Museum of the Seljuk Civilization.",
+                "answers": ["used"]
+              },
+              {
+                "source": "There was no kitchen space inside the center. This shows that people brought meals from outside.",
+                "frame": "People brought meals from outside [blank] there was no kitchen space inside.",
+                "answers": ["because", "since", "as"]
+              },
+              {
+                "source": "Er-Râzî: “Doctors should treat sad patients with music.”",
+                "frame": "Er-Râzî noted that doctors [blank] treat sad patients with music.",
+                "answers": ["should"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Serves as” = “is used as”. A conclusion can come first with because. In reported speech, should stays the same.",
+            "feedback": {
+              "correct": "Well done. Same meaning, new structure.",
+              "incorrect": "Use is used as, because and should."
+            }
+          },
+          {
+            "id": "gevher-b1-language-review-8-new-context",
+            "type": "word-bank",
+            "title": "Use: A New Context",
+            "instructions": "Read about a modern hospital. Fill each gap from the word bank.",
+            "question": "Can you use the book’s language in a new text?",
+            "fillBlanksText": "Our city hospital was [blank] in 1960. It is the oldest hospital still [blank] in the region. Today, the old building [blank] as a training center for nurses. Students learn by [blank] doctors and nurses at work.",
+            "wordBank": ["built", "standing", "serves", "observing", "allowed", "instead"],
+            "correctAnswer": ["built", "standing", "serves", "observing"],
+            "explanation": "Was built, still standing, serves as and by + -ing all come from the book. Here they describe a modern hospital.",
+            "feedback": {
+              "correct": "Well done. You used the book’s language in a new text.",
+              "incorrect": "Look at the words around each gap."
+            }
+          },
+          {
+            "id": "gevher-b1-language-review-9-new-context",
+            "type": "error-correction",
+            "title": "Use: Check a Short Report",
+            "instructions": "A student wrote about a museum visit. Find and correct each mistake.",
+            "question": "What should the student change?",
+            "errorItems": [
+              {
+                "sentence": "The museum was build in the 13th century.",
+                "error": "build",
+                "options": ["built", "building", "builds"],
+                "answer": 0
+              },
+              {
+                "sentence": "Students who visit it learns a lot.",
+                "error": "learns",
+                "options": ["learn", "learning", "learned to"],
+                "answer": 0
+              },
+              {
+                "sentence": "None of the rooms has a chimney, this shows that it was warm.",
+                "error": ", this shows",
+                "options": [". This shows", ", which show", " this show"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use the past participle in a passive, a plural verb after “students who visit”, and start a new sentence with “This shows that”.",
+            "feedback": {
+              "correct": "Correct. Built, learn, . This shows.",
+              "incorrect": "Check the passive, the verb agreement and the punctuation."
+            }
+          },
+          {
+            "id": "gevher-b1-language-review-10-transfer",
+            "type": "reflection",
+            "title": "Use: A Place That Helps People",
+            "instructions": "Write six to eight sentences about a place in your town that helps people.",
+            "question": "Who built it, what does it do, and why is it important?",
+            "correctAnswer": null,
+            "explanation": "Example: “The public library in my town was built in 1985. It serves as a place for reading, studying and meeting. It probably has more than 50,000 books. Students who have no quiet room at home study there. Nobody pays to use it. It is important because it helps everyone learn. Like the Gevher Nesibe Hospital, it is a gift to the community.”",
+            "feedback": {
+              "correct": "Check: a passive, used for or serves as, one guess, one reason and a clear conclusion.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what the place is and who built it, with a passive.",
+                "mode": "Individual",
+                "example": "The library was built by …"
+              },
+              {
+                "question": "Say what it is used for.",
+                "mode": "Individual",
+                "example": "It is used for …"
+              },
+              {
+                "question": "Use one guess with probably and one fact.",
+                "mode": "Individual",
+                "example": "It probably has more than … books."
+              },
+              {
+                "question": "Say why it is important, with because.",
+                "mode": "Pair",
+                "example": "It is important because …"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "type": "final-challenge",
+        "title": "Final Challenge",
+        "image": "",
+        "content": "Bring the whole book together in the Final Challenge.",
+        "exercises": [
+          {
+            "id": "gevher-b1-final-1",
+            "type": "multiple-choice",
+            "title": "The City",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "In which city is the Gevher Nesibe Complex?",
+            "options": ["Kayseri", "Konya", "Sivas"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “The Gevher Nesibe Complex in Kayseri is the oldest Anatolian Seljuk hospital still standing today.”",
+            "feedback": {
+              "correct": "Correct. Kayseri.",
+              "incorrect": "Read the first sentence of the book."
+            }
+          },
+          {
+            "id": "gevher-b1-final-2",
+            "type": "matching",
+            "title": "People and Roles",
+            "instructions": "Match each person with the right description.",
+            "question": "Who was who in the book?",
+            "matchingHeadings": {
+              "left": "Person",
+              "right": "Description"
+            },
+            "matchingPairs": [
+              {
+                "left": "Gıyâseddin Keyhusrev I",
+                "right": "the Seljuk ruler who built the medical center"
+              },
+              {
+                "left": "Kılıçarslan II",
+                "right": "the father of Gevher Nesibe"
+              },
+              {
+                "left": "Ekmeleddin al-Nahcuvânî",
+                "right": "Mevlânâ’s close friend and doctor"
+              },
+              {
+                "left": "Fârâbî",
+                "right": "the scholar who studied how musical modes affect the soul"
+              }
+            ],
+            "correctAnswer": {
+              "Gıyâseddin Keyhusrev I": "the Seljuk ruler who built the medical center",
+              "Kılıçarslan II": "the father of Gevher Nesibe",
+              "Ekmeleddin al-Nahcuvânî": "Mevlânâ’s close friend and doctor",
+              "Fârâbî": "the scholar who studied how musical modes affect the soul"
+            },
+            "explanation": "Chapters 1, 2, 6 and 10 introduce these four people.",
+            "feedback": {
+              "correct": "Correct. Each person matches a description.",
+              "incorrect": "Look for each name in Chapters 1, 2, 6 and 10."
+            }
+          },
+          {
+            "id": "gevher-b1-final-3",
+            "type": "fill-blanks",
+            "title": "The Building Date",
+            "instructions": "Complete the sentence from Chapter 4 with one number.",
+            "question": "When was the hospital built?",
+            "fillBlanksText": "According to the writing on the main gate of the hospital, it was built in [blank].",
+            "correctAnswer": ["1205–1206", "1205-1206"],
+            "explanation": "Chapter 4: “According to the writing on the main gate of the hospital, it was built in 1205–1206.”",
+            "feedback": {
+              "correct": "Correct. 1205–1206.",
+              "incorrect": "Read the last sentence of Chapter 4."
+            }
+          },
+          {
+            "id": "gevher-b1-final-4",
+            "type": "multiple-choice",
+            "title": "Heating",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "How were the buildings heated?",
+            "options": [
+              "with an underfloor heating system that used steam from a bathhouse",
+              "with fireplaces in every room",
+              "with the sun only"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “Historical studies show that the buildings had an underfloor heating system. It used steam from a bathhouse nearby.”",
+            "feedback": {
+              "correct": "Correct. Steam from a nearby bathhouse.",
+              "incorrect": "Find “heating system” in Chapter 5."
+            }
+          },
+          {
+            "id": "gevher-b1-final-5",
+            "type": "matching",
+            "title": "Rooms and Numbers",
+            "instructions": "Match each part of the hospital with the right number.",
+            "question": "How many were there?",
+            "matchingHeadings": {
+              "left": "Part",
+              "right": "Number"
+            },
+            "matchingPairs": [
+              {
+                "left": "operating rooms",
+                "right": "three"
+              },
+              {
+                "left": "surgeons in the operating rooms",
+                "right": "two"
+              },
+              {
+                "left": "rooms in the mental health section",
+                "right": "18"
+              },
+              {
+                "left": "round windows in the bathhouse",
+                "right": "four"
+              }
+            ],
+            "correctAnswer": {
+              "operating rooms": "three",
+              "surgeons in the operating rooms": "two",
+              "rooms in the mental health section": "18",
+              "round windows in the bathhouse": "four"
+            },
+            "explanation": "Chapters 7 and 8 give these numbers.",
+            "feedback": {
+              "correct": "Correct. Each part matches its number.",
+              "incorrect": "Find the numbers in Chapters 7 and 8."
+            }
+          },
+          {
+            "id": "gevher-b1-final-6",
+            "type": "true-false",
+            "title": "The Icâzet",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The icâzet listed the names of the student’s teachers and older scientists.",
+            "correctAnswer": true,
+            "explanation": "Chapter 9: “This document listed the names of their teachers and older scientists in a line of tradition.”",
+            "feedback": {
+              "correct": "Correct. It showed a line of teachers.",
+              "incorrect": "Find icâzet in Chapter 9."
+            }
+          },
+          {
+            "id": "gevher-b1-final-7",
+            "type": "true-false",
+            "title": "Paying for Treatment",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Gevher Nesibe wanted patients to pay a small amount of money.",
+            "correctAnswer": false,
+            "explanation": "Chapter 3: “Nobody should pay any money. Let this place be a free charity in my name.”",
+            "feedback": {
+              "correct": "Correct. She wanted the hospital to be free.",
+              "incorrect": "Read her words in Chapter 3."
+            }
+          },
+          {
+            "id": "gevher-b1-final-8",
+            "type": "fill-blanks",
+            "title": "İbn Sînâ’s Book",
+            "instructions": "Complete the sentence from Chapter 10 with the name of the book.",
+            "question": "In which work did İbn Sînâ write about treating patients?",
+            "fillBlanksText": "In his work [blank], İbn Sînâ (known as Avicenna in the West) stated that one of the best ways to treat patients is to make their minds and spirits stronger.",
+            "correctAnswer": ["Kitâbü’ş-Şifâ", "Kitâbü'ş-Şifâ", "Kitabü’ş-Şifa"],
+            "explanation": "Chapter 10: “In his work Kitâbü’ş-Şifâ, İbn Sînâ (known as Avicenna in the West) stated that one of the best ways to treat patients is to make their minds and spirits stronger.”",
+            "feedback": {
+              "correct": "Correct. Kitâbü’ş-Şifâ.",
+              "incorrect": "Read the first sentence of Chapter 10."
+            }
+          },
+          {
+            "id": "gevher-b1-final-9",
+            "type": "multiple-choice",
+            "title": "Compared with Europe",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "How does the book compare the hospital with Salerno, Bologna and Paris?",
+            "options": ["It was more advanced in many ways.", "It was much smaller and simpler.", "It copied them."],
+            "correctAnswer": 0,
+            "explanation": "Chapter 11: “When we compare it to the first famous medical universities, such as Salerno, Bologna, and Paris, the Gevher Nesibe Hospital was more advanced in many ways.”",
+            "feedback": {
+              "correct": "Correct. More advanced in many ways.",
+              "incorrect": "Find Salerno in Chapter 11."
+            }
+          },
+          {
+            "id": "gevher-b1-final-10",
+            "type": "sequencing",
+            "title": "From a Wish to a Hospital",
+            "instructions": "Put the events in the order they happened.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Gevher Nesibe fell ill with tuberculosis."
+              },
+              {
+                "id": "2",
+                "text": "Gevher Nesibe asked her brother to build a hospital."
+              },
+              {
+                "id": "3",
+                "text": "The Sultan built a madrasa and a hospital."
+              },
+              {
+                "id": "4",
+                "text": "Gevher Nesibe was buried in her tomb inside the madrasa."
+              },
+              {
+                "id": "5",
+                "text": "The complex became the Museum of the Seljuk Civilization."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "The book moves from her illness and last wish (Chapters 2–3) to the buildings and her tomb (Chapter 4) and the museum of today (Chapter 1).",
+            "feedback": {
+              "correct": "Correct. From a wish to a museum.",
+              "incorrect": "Think about the story first, then about today."
+            }
+          }
+        ]
+      }
+    ],
+    "teacherGuide": [],
+    "selfStudyGuide": []
+  }
+}

@@ -1,0 +1,3181 @@
+{
+  "schema": 1,
+  "storyId": "gevherNesibe",
+  "level": "B2",
+  "language": "en",
+  "collection": "turkish",
+  "book": {
+    "id": "gevherNesibe-b2",
+    "title": "The Gevher Nesibe Hospital and Medical School",
+    "level": "B2",
+    "baseFontSize": 12,
+    "pages": [
+      {
+        "id": 1,
+        "type": "story",
+        "title": "A Hospital Ahead of Its Time",
+        "image": "",
+        "audioUrl": "",
+        "content": "The Gevher Nesibe Complex in Kayseri is the oldest surviving Anatolian Seljuk hospital, and the world’s first example of a hospital and a medical school built together as one complex. The systematic medical training established in Anatolia in the 13th century, which combined theoretical education with clinical training at the bedside, did not appear in Europe until the 16th and 17th centuries. Furthermore, the Imperial Medical School (Mekteb-i Tıbbiyye-i Adliyye-i Şâhâne), established by Sultan Mahmud II, was opened more than 600 years after the Kayseri Medical School.\n\nAt the time the Gevher Nesibe Complex was established, Konya served as the capital of the Seljuk Sultanate, while Kayseri was regarded as a second capital and was known as ‘Makarr-ı Ulemâ’ (the center of scholars).\n\nThe building complex, which today functions as the Museum of the Seljuk Civilization (Selçuklu Uygarlığı Müzesi), was constructed by the Anatolian Seljuk ruler Gıyâseddin Keyhusrev I in honor of his sister, Gevher Nesibe Sultan.",
+        "vocabulary": [
+          {
+            "word": "surviving",
+            "definition": "Still existing after a long time."
+          },
+          {
+            "word": "regarded as",
+            "definition": "Thought of as."
+          },
+          {
+            "word": "functions as",
+            "definition": "Works or is used as."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b2-en-h1a",
+            "x": 30,
+            "y": 40,
+            "title": "Kayseri",
+            "description": "The Gevher Nesibe Complex in Kayseri is the oldest surviving Anatolian Seljuk hospital."
+          },
+          {
+            "id": "gevher-b2-en-h1b",
+            "x": 70,
+            "y": 45,
+            "title": "Makarr-ı Ulemâ",
+            "description": "Kayseri was regarded as a second capital and was known as ‘Makarr-ı Ulemâ’ (the center of scholars)."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b2-quick-1",
+            "type": "multiple-choice",
+            "title": "Ahead of Its Time",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Why is the complex described as ahead of its time?",
+            "options": [
+              "It combined theoretical education with clinical training centuries before Europe did.",
+              "It was the largest hospital of the Seljuk Sultanate.",
+              "It was built by Sultan Mahmud II in Konya."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “The systematic medical training established in Anatolia in the 13th century, which combined theoretical education with clinical training at the bedside, did not appear in Europe until the 16th and 17th centuries.”",
+            "feedback": {
+              "correct": "Correct. It combined theory and clinical practice centuries earlier.",
+              "incorrect": "Read the second sentence of the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b2-language-1-reduced",
+            "type": "multiple-choice",
+            "title": "Notice: Established by …",
+            "instructions": "Read the sentence. Then choose what the phrase in bold quotes does.",
+            "question": "“The Imperial Medical School, ‘established by Sultan Mahmud II’, was opened more than 600 years after the Kayseri Medical School.” What does the phrase do?",
+            "options": [
+              "It gives extra information about the noun, like a shortened relative clause.",
+              "It is the main verb of the sentence.",
+              "It shows the purpose of the school."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Established by Sultan Mahmud II” = “which was established by Sultan Mahmud II”. A past participle phrase can follow a noun and work like a passive relative clause. The main verb is “was opened”.",
+            "feedback": {
+              "correct": "Correct. It is a reduced relative clause.",
+              "incorrect": "Find the main verb. What is left?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-1-until-while",
+            "type": "choose-form",
+            "title": "Build: Not … Until, While, Regarded As",
+            "instructions": "Choose the correct form for each sentence from Chapter 1.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "This training did not appear in Europe [choice] the 16th and 17th centuries.",
+                "options": ["until", "by", "since"],
+                "answer": 0
+              },
+              {
+                "sentence": "Konya served as the capital, [choice] Kayseri was regarded as a second capital.",
+                "options": ["while", "during", "despite"],
+                "answer": 0
+              },
+              {
+                "sentence": "Kayseri was [choice] as a second capital.",
+                "options": ["regarded", "considered being", "thought"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Not … until + time” means the event started only at that time. “While” joins two contrasting facts in one sentence. “Be regarded as” = be thought of as.",
+            "feedback": {
+              "correct": "Well done. Until, while, regarded.",
+              "incorrect": "Check the time word, the contrast linker and the passive verb."
+            }
+          },
+          {
+            "id": "gevher-b2-language-1-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express these facts?",
+            "transformItems": [
+              {
+                "source": "The building complex today functions as the Museum of the Seljuk Civilization.",
+                "frame": "Today the building complex is [blank] as the Museum of the Seljuk Civilization.",
+                "answers": ["used"]
+              },
+              {
+                "source": "This training did not appear in Europe until the 16th and 17th centuries.",
+                "frame": "It was not [blank] the 16th and 17th centuries that this training appeared in Europe.",
+                "answers": ["until"]
+              },
+              {
+                "source": "The Imperial Medical School, which was established by Sultan Mahmud II, opened much later.",
+                "frame": "The Imperial Medical School, [blank] by Sultan Mahmud II, opened much later.",
+                "answers": ["established"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Functions as” = “is used as”. “It was not until … that …” is a cleft sentence that stresses the time. A relative clause can be reduced to a past participle.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use is used as, It was not until and a past participle."
+            }
+          },
+          {
+            "id": "gevher-b2-language-1-ahead",
+            "type": "reflection",
+            "title": "Use: Ahead of Its Time",
+            "instructions": "Write a paragraph of five to six sentences about an invention or idea that was ahead of its time.",
+            "question": "What made it ahead of its time?",
+            "correctAnswer": null,
+            "explanation": "Example: “The first public libraries, opened in many Islamic cities in the 9th century, allowed ordinary people to borrow books. In many other places, it was not until much later that such libraries became common. While most books were very expensive, these libraries made knowledge free to everyone. This idea was clearly ahead of its time. Today, public libraries still serve as places where anyone can learn.”",
+            "feedback": {
+              "correct": "Check: a reduced relative clause, not … until or It was not until, and while for contrast.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the idea and say when and where it appeared.",
+                "mode": "Individual",
+                "example": "In the …, people in … began …"
+              },
+              {
+                "question": "Compare with another place using not … until or It was not until.",
+                "mode": "Individual",
+                "example": "It was not until … that …"
+              },
+              {
+                "question": "Explain why it matters today.",
+                "mode": "Pair",
+                "example": "Today, this idea still …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: When did this kind of systematic medical training appear in Europe?",
+          "options": ["in the 16th and 17th centuries", "in the 13th century", "in the 10th century"],
+          "answer": 0,
+          "quote": "did not appear in Europe until the 16th and 17th centuries."
+        },
+        "iCan": [
+          "I can explain why the complex is described as ahead of its time.",
+          "I can compare dates in Anatolia and Europe precisely.",
+          "I can use reduced relative clauses, not … until and while for contrast."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "story",
+        "title": "A Princess and a Commander",
+        "image": "",
+        "audioUrl": "",
+        "content": "Gevher Nesibe Sultan was the daughter of Kılıçarslan II (d. 1192), and also the sister of Gıyâseddin Keyhusrev I (d. 1211). According to legend, when Gevher Nesibe was a young girl, she fell in love with the commander of the Seljuk Cavalry Regiment (Süvari Alayı). However, her elder brother, Sultan Gıyâseddin Keyhusrev I, opposed the relationship and did not allow them to marry. Instead, he wanted his younger sister to marry a courtier. When her brother informed her of this decision, Gevher Nesibe rejected it. To separate them, Sultan Gıyâseddin Keyhusrev I sent the commander away to war. Following the commander’s martyrdom, Gevher Nesibe Sultan’s intense grief weakened her, eventually causing her to contract tuberculosis. Due to the lack of a proper medical facility in Kayseri, she tragically died of the disease at a young age. When she was on her deathbed, Gıyâseddin Keyhusrev I apologized to her and asked for her final wish.",
+        "vocabulary": [
+          {
+            "word": "courtier",
+            "definition": "A person who works at a royal court."
+          },
+          {
+            "word": "grief",
+            "definition": "Deep sadness, especially after a death."
+          },
+          {
+            "word": "contract",
+            "definition": "Catch or get an illness."
+          },
+          {
+            "word": "Due to",
+            "definition": "Because of."
+          },
+          {
+            "word": "proper",
+            "definition": "Right, suitable or of good quality."
+          },
+          {
+            "word": "apologized to",
+            "definition": "Said sorry to."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b2-en-h2a",
+            "x": 30,
+            "y": 40,
+            "title": "According to Legend",
+            "description": "According to legend, Gevher Nesibe fell in love with the commander of the Seljuk Cavalry Regiment."
+          },
+          {
+            "id": "gevher-b2-en-h2b",
+            "x": 70,
+            "y": 45,
+            "title": "Kılıçarslan II",
+            "description": "Gevher Nesibe Sultan was the daughter of Kılıçarslan II and the sister of Gıyâseddin Keyhusrev I."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b2-quick-2",
+            "type": "sequencing",
+            "title": "The Legend in Order",
+            "instructions": "Put the events of the legend in the order the chapter tells them.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Gevher Nesibe fell in love with the commander."
+              },
+              {
+                "id": "2",
+                "text": "Gıyâseddin Keyhusrev I opposed the relationship."
+              },
+              {
+                "id": "3",
+                "text": "Gevher Nesibe rejected her brother’s decision."
+              },
+              {
+                "id": "4",
+                "text": "The commander was sent away to war."
+              },
+              {
+                "id": "5",
+                "text": "Gevher Nesibe contracted tuberculosis."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "Chapter 2 tells the legend as a chain: love, opposition, refusal, war, grief and illness.",
+            "feedback": {
+              "correct": "Correct. Each event led to the next.",
+              "incorrect": "Follow the chapter from the beginning."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b2-language-2-participle",
+            "type": "multiple-choice",
+            "title": "Notice: Following the Commander’s Martyrdom",
+            "instructions": "Read the sentence. Then choose what the -ing phrase at the end does.",
+            "question": "“Gevher Nesibe Sultan’s intense grief weakened her, eventually causing her to contract tuberculosis.” What does “causing her to contract tuberculosis” express?",
+            "options": [
+              "a result of the first part of the sentence",
+              "the reason for her grief",
+              "an action that happened before the grief"
+            ],
+            "correctAnswer": 0,
+            "explanation": "A comma + -ing clause after the main clause can express a result: the grief weakened her, and as a result she contracted tuberculosis. “Eventually” shows that it took some time.",
+            "feedback": {
+              "correct": "Correct. It shows a result.",
+              "incorrect": "Which came first: the grief or the illness?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-2-due-to",
+            "type": "choose-form",
+            "title": "Build: Due To, Following, To + Verb",
+            "instructions": "Choose the correct form for each sentence from Chapter 2.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] the lack of a proper medical facility in Kayseri, she died at a young age.",
+                "options": ["Due to", "Because", "Although"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice] the commander’s martyrdom, her grief weakened her.",
+                "options": ["Following", "Followed", "To follow"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice] them, the Sultan sent the commander away to war.",
+                "options": ["To separate", "For separating", "Separate"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Due to” and “following” are followed by a noun phrase, not a clause. “Because” would need a subject and a verb. “To + verb” at the start of a sentence gives the purpose.",
+            "feedback": {
+              "correct": "Well done. Due to, Following, To separate.",
+              "incorrect": "Is the next part a noun phrase or a clause?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-2-cause",
+            "type": "transformation",
+            "title": "Build: Noun Phrase or Clause?",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How can we change the structure?",
+            "transformItems": [
+              {
+                "source": "Due to the lack of a proper medical facility, she died young.",
+                "frame": "Because there [blank] no proper medical facility, she died young.",
+                "answers": ["was"]
+              },
+              {
+                "source": "Her brother opposed the relationship.",
+                "frame": "Her brother was [blank] the relationship.",
+                "answers": ["against"]
+              },
+              {
+                "source": "When her brother informed her of this decision, Gevher Nesibe rejected it.",
+                "frame": "On [blank] of this decision, Gevher Nesibe rejected it.",
+                "answers": ["hearing", "learning"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Due to + noun phrase” = “because + clause”. “Oppose” = “be against”. “On + -ing” means “when / as soon as”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use was, against and an -ing form."
+            }
+          },
+          {
+            "id": "gevher-b2-language-2-legend",
+            "type": "reflection",
+            "title": "Use: Retell a Legend",
+            "instructions": "Retell a legend you know in six to eight sentences as a chain of causes and results.",
+            "question": "How does each event lead to the next?",
+            "correctAnswer": null,
+            "explanation": "Example: “According to legend, a young shepherd lived near a great mountain. Following a terrible storm, he found a small spring of water. Due to a long drought, the villagers had nothing to drink. The shepherd led them to the spring, saving the whole village. They built a fountain there to honor him. Today, people still drink from it, remembering his kindness.”",
+            "feedback": {
+              "correct": "Check: According to legend, Following …, Due to … and an -ing result clause.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Open with According to legend.",
+                "mode": "Individual",
+                "example": "According to legend, …"
+              },
+              {
+                "question": "Use a participle clause and due to.",
+                "mode": "Individual",
+                "example": "Following …, …; Due to …, …"
+              },
+              {
+                "question": "End with a result clause with -ing.",
+                "mode": "Pair",
+                "example": "…, eventually causing …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: What weakened Gevher Nesibe and led to her illness?",
+          "options": ["her intense grief", "a long journey", "a fall from a horse"],
+          "answer": 0,
+          "quote": "Gevher Nesibe Sultan’s intense grief weakened her, eventually causing her to contract tuberculosis."
+        },
+        "iCan": [
+          "I can retell the legend as a chain of causes and results.",
+          "I can recognize how the text signals a legend.",
+          "I can use participle clauses, due to and -ing clauses of result."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "story",
+        "title": "The Last Wish",
+        "image": "",
+        "audioUrl": "",
+        "content": "As the legend goes, Gevher Nesibe Sultan made a final request in her last days:\n\n“I have fallen ill with an incurable disease, and there is no hope of recovery. No physician has been able to find a cure for my illness, and I am now on my way to the afterlife. Please use my wealth to establish a hospital in my memory. Let this hospital heal the sick, while also searching for cures to untreatable diseases. Let renowned physicians and surgeons be trained here. Let no one pay a single dirhem (penny). Let this place stand as a charity in my name.” She then donated her entire fortune to this cause.",
+        "vocabulary": [
+          {
+            "word": "incurable",
+            "definition": "Impossible to cure."
+          },
+          {
+            "word": "recovery",
+            "definition": "The process of becoming healthy again."
+          },
+          {
+            "word": "untreatable",
+            "definition": "Impossible to treat with medicine."
+          },
+          {
+            "word": "charity",
+            "definition": "Help given free to people in need."
+          },
+          {
+            "word": "entire fortune",
+            "definition": "All the money and property someone has."
+          },
+          {
+            "word": "cause",
+            "definition": "An aim that people support or work for."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b2-en-h3a",
+            "x": 30,
+            "y": 40,
+            "title": "The Last Wish",
+            "description": "Gevher Nesibe asked her brother to use her wealth to establish a hospital in her memory."
+          },
+          {
+            "id": "gevher-b2-en-h3b",
+            "x": 70,
+            "y": 45,
+            "title": "A Charity",
+            "description": "She donated her entire fortune to this cause."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b2-quick-3",
+            "type": "drag-drop",
+            "title": "Her Last Wish",
+            "instructions": "Sort each part of her wish: the hospital’s work, or how it would be paid for.",
+            "question": "What did Gevher Nesibe ask for?",
+            "dragDropGroups": [
+              {
+                "group": "The work of the hospital",
+                "items": ["heal the sick", "search for cures to untreatable diseases", "train renowned physicians and surgeons"]
+              },
+              {
+                "group": "How it would be paid for",
+                "items": ["use her wealth", "let no one pay a single dirhem", "stand as a charity in her name"]
+              }
+            ],
+            "correctAnswer": {
+              "The work of the hospital": [
+                "heal the sick",
+                "search for cures to untreatable diseases",
+                "train renowned physicians and surgeons"
+              ],
+              "How it would be paid for": ["use her wealth", "let no one pay a single dirhem", "stand as a charity in her name"]
+            },
+            "explanation": "Chapter 3: Her wish had two parts: what the hospital would do, and how it would be funded. Her fortune would pay, and treatment would be free.",
+            "feedback": {
+              "correct": "Correct. You sorted the wish into its two parts.",
+              "incorrect": "Compare “Let this hospital …” with “Let no one pay …”."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b2-language-3-prefixes",
+            "type": "multiple-choice",
+            "title": "Notice: Incurable, Untreatable",
+            "instructions": "Read the sentence. Then choose what the prefixes in- and un- do.",
+            "question": "“I have fallen ill with an incurable disease … while also searching for cures to untreatable diseases.” What do in- and un- do?",
+            "options": [
+              "They give the adjective the opposite meaning: not able to be cured or treated.",
+              "They make the adjective stronger: very curable.",
+              "They change the adjective into a verb."
+            ],
+            "correctAnswer": 0,
+            "explanation": "In- and un- are negative prefixes. Curable means “able to be cured”, so incurable means “not able to be cured”. Treatable becomes untreatable. The suffix -able means “can be …”.",
+            "feedback": {
+              "correct": "Correct. They make the meaning negative.",
+              "incorrect": "Remove the prefix. What is left?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-3-let",
+            "type": "choose-form",
+            "title": "Build: Let, Present Perfect, Formal Words",
+            "instructions": "Choose the correct form for each sentence from Chapter 3.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Let renowned physicians and surgeons [choice] here.",
+                "options": ["be trained", "trained", "to be trained"],
+                "answer": 0
+              },
+              {
+                "sentence": "Let no one [choice] a single dirhem.",
+                "options": ["pay", "to pay", "pays"],
+                "answer": 0
+              },
+              {
+                "sentence": "No physician [choice] to find a cure for my illness.",
+                "options": ["has been able", "has able", "is able been"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Let + object + base verb” (or + be + past participle for a passive) expresses a solemn wish. “Has been able to” is the present perfect of can: from the past until now.",
+            "feedback": {
+              "correct": "Well done. Be trained, pay, has been able.",
+              "incorrect": "Check the verb form after Let and the present perfect."
+            }
+          },
+          {
+            "id": "gevher-b2-language-3-report",
+            "type": "transformation",
+            "title": "Build: Report Her Wish",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How can we report what she asked?",
+            "transformItems": [
+              {
+                "source": "“Please use my wealth to establish a hospital in my memory.”",
+                "frame": "She asked her brother [blank] use her wealth to establish a hospital in her memory.",
+                "answers": ["to"]
+              },
+              {
+                "source": "“Let no one pay a single dirhem.”",
+                "frame": "She insisted that no one [blank] pay a single dirhem.",
+                "answers": ["should"]
+              },
+              {
+                "source": "“There is no hope of recovery.”",
+                "frame": "She said that there [blank] no hope of recovery.",
+                "answers": ["was"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Reported requests use “ask + person + to + verb”. After insist, we can use should + base verb. Present tenses usually move back in reported speech.",
+            "feedback": {
+              "correct": "Correct. You reported her wish.",
+              "incorrect": "Use asked … to, should and was."
+            }
+          },
+          {
+            "id": "gevher-b2-language-3-cause",
+            "type": "reflection",
+            "title": "Use: A Cause Worth Supporting",
+            "instructions": "Write a paragraph of five to six sentences about a cause you would support.",
+            "question": "What should it do, and who should it help?",
+            "correctAnswer": null,
+            "explanation": "Example: “In many villages, older people live alone and cannot reach a doctor easily. I would support a mobile clinic that visits them every week. Let every patient be examined at home. Let no one pay for the visit. It is unacceptable that distance should decide who gets care. Such a cause would bring health and hope to many families.”",
+            "feedback": {
+              "correct": "Check: Let + object + verb, one negative prefix and a clear need.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the cause and explain the need.",
+                "mode": "Individual",
+                "example": "Many people in my area cannot …"
+              },
+              {
+                "question": "Use Let + object + verb for two aims.",
+                "mode": "Individual",
+                "example": "Let every child … Let no one …"
+              },
+              {
+                "question": "Use one in- or un- adjective.",
+                "mode": "Pair",
+                "example": "It is unacceptable that …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: How much were patients supposed to pay?",
+          "options": ["not a single dirhem", "one dirhem", "a small fee"],
+          "answer": 0,
+          "quote": "Let no one pay a single dirhem (penny)."
+        },
+        "iCan": [
+          "I can explain the aims of Gevher Nesibe’s last wish.",
+          "I can identify the formal tone of her words.",
+          "I can use Let + object + base verb, negative prefixes and reported requests."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "story",
+        "title": "The Twin Madrasas",
+        "image": "",
+        "audioUrl": "",
+        "content": "To fulfill his sister’s will, Gıyâseddin Keyhusrev built a madrasa (Gıyâsiye Medresesi), and then a hospital (Şifâiye). Construction of the hospital was completed in two years. Gevher Nesibe Sultan was buried in her tomb inside the madrasa. Because the two buildings are next to one another, they are also known among the people as the ‘Twin Madrasas.’ According to the inscription on the main gate of the Dârüşşifâ, the construction date is 1205–1206.",
+        "vocabulary": [
+          {
+            "word": "tomb",
+            "definition": "A large stone grave, often inside a building."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b2-en-h4a",
+            "x": 30,
+            "y": 40,
+            "title": "The Twin Madrasas",
+            "description": "Because the two buildings are next to one another, they are also known among the people as the ‘Twin Madrasas.’"
+          },
+          {
+            "id": "gevher-b2-en-h4b",
+            "x": 70,
+            "y": 45,
+            "title": "The Inscription",
+            "description": "According to the inscription on the main gate of the Dârüşşifâ, the construction date is 1205–1206."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b2-quick-4",
+            "type": "true-false",
+            "title": "The Construction Date",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The construction date of the Dârüşşifâ is known from an inscription on its main gate.",
+            "correctAnswer": true,
+            "explanation": "Chapter 4: “According to the inscription on the main gate of the Dârüşşifâ, the construction date is 1205–1206.”",
+            "feedback": {
+              "correct": "Correct. The inscription gives the date.",
+              "incorrect": "Read the last sentence of the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b2-language-4-purpose",
+            "type": "multiple-choice",
+            "title": "Notice: To Fulfill His Sister’s Will",
+            "instructions": "Read the sentence. Then choose what “To fulfill his sister’s will” tells us.",
+            "question": "“To fulfill his sister’s will, Gıyâseddin Keyhusrev built a madrasa, and then a hospital.” What does the first phrase tell us?",
+            "options": ["why he built the buildings", "when he built the buildings", "where he built the buildings"],
+            "correctAnswer": 0,
+            "explanation": "A to-infinitive at the beginning of a sentence gives the purpose of the main action. It answers the question “Why?”.",
+            "feedback": {
+              "correct": "Correct. It gives his purpose.",
+              "incorrect": "Which question does the phrase answer: why, when or where?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-4-passive",
+            "type": "choose-form",
+            "title": "Build: Passives and Be Known As",
+            "instructions": "Choose the correct form for each sentence from Chapter 4.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Construction of the hospital [choice] in two years.",
+                "options": ["was completed", "completed", "has completing"],
+                "answer": 0
+              },
+              {
+                "sentence": "Gevher Nesibe Sultan [choice] in her tomb inside the madrasa.",
+                "options": ["was buried", "buried", "has buried"],
+                "answer": 0
+              },
+              {
+                "sentence": "They are also known among the people [choice] the ‘Twin Madrasas.’",
+                "options": ["as", "like", "for"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "The passive (was + past participle) focuses on the result when the doer is obvious. “Be known as + name” gives the name people use.",
+            "feedback": {
+              "correct": "Well done. Was completed, was buried, as.",
+              "incorrect": "Is the subject doing the action or receiving it?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-4-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Because the two buildings are next to one another, they are known as the ‘Twin Madrasas.’",
+                "frame": "The two buildings are known as the ‘Twin Madrasas’ [blank] they stand next to one another.",
+                "answers": ["because", "since", "as"]
+              },
+              {
+                "source": "To fulfill his sister’s will, he built a madrasa and a hospital.",
+                "frame": "He built a madrasa and a hospital in [blank] to fulfill his sister’s will.",
+                "answers": ["order"]
+              },
+              {
+                "source": "Construction of the hospital was completed in two years.",
+                "frame": "It [blank] two years to complete the hospital.",
+                "answers": ["took"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "A reason clause can come first or second. “In order to” is a more formal purpose form. “It took + time + to + verb” is another way to express duration.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use because, in order and took."
+            }
+          },
+          {
+            "id": "gevher-b2-language-4-name",
+            "type": "reflection",
+            "title": "Use: How a Place Got Its Name",
+            "instructions": "Write a paragraph of five to six sentences about a place and how it got its name.",
+            "question": "Who built it, and why do people call it that?",
+            "correctAnswer": null,
+            "explanation": "Example: “To give children a safe place to play, our town built a park in 2010. It was completed in one year. It is known among local people as ‘the Green Heart’. People call it this because it is in the center of the town and full of trees. Today, families meet there every weekend.”",
+            "feedback": {
+              "correct": "Check: a purpose to-infinitive, a passive, be known as and a reason.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what the place is and why it was built, with to + verb.",
+                "mode": "Individual",
+                "example": "To …, the town built …"
+              },
+              {
+                "question": "Use a passive and be known as.",
+                "mode": "Individual",
+                "example": "It was completed in … It is known as …"
+              },
+              {
+                "question": "Explain the name with because.",
+                "mode": "Pair",
+                "example": "People call it … because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: How long did it take to build the hospital?",
+          "options": ["two years", "ten years", "six months"],
+          "answer": 0,
+          "quote": "Construction of the hospital was completed in two years."
+        },
+        "iCan": [
+          "I can describe how the Twin Madrasas were built and why they have this name.",
+          "I can explain how historians know the construction date.",
+          "I can use to + verb for purpose, passives and be known as."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "story",
+        "title": "Learning Beside the Patients",
+        "image": "",
+        "audioUrl": "",
+        "content": "In the 13th century, education at this medical institution combined theory at the Gıyâsiye and practical training at the Şifâiye. Excavations suggest that the buildings were heated from below using steam from a nearby bathhouse. Students likely stayed in small rooms within the complex. During the summer, classes were held in the large courtyards, which were also used to examine outpatients. Although this is not certain, the staff is generally believed to have included a chief physician with his assistants, at least two internists, two surgeons, and a pharmacist. This staff was similar to that of the Keykâvus Dârüşşifâ in Sivas.",
+        "vocabulary": [
+          {
+            "word": "Excavations",
+            "definition": "Digging work to find old buildings and objects."
+          },
+          {
+            "word": "internists",
+            "definition": "Doctors who treat illnesses without surgery."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b2-en-h5a",
+            "x": 30,
+            "y": 40,
+            "title": "Theory and Practice",
+            "description": "Education combined theory at the Gıyâsiye and practical training at the Şifâiye."
+          },
+          {
+            "id": "gevher-b2-en-h5b",
+            "x": 70,
+            "y": 45,
+            "title": "Heating",
+            "description": "Excavations suggest that the buildings were heated from below using steam from a nearby bathhouse."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b2-quick-5",
+            "type": "drag-drop",
+            "title": "How Sure Is the Writer?",
+            "instructions": "Sort the information: is it stated as fact, or as possible but uncertain?",
+            "question": "Which information is certain?",
+            "dragDropGroups": [
+              {
+                "group": "Stated as fact",
+                "items": ["Education combined theory and practical training.", "Classes were held in the courtyards in summer."]
+              },
+              {
+                "group": "Possible but uncertain",
+                "items": [
+                  "The buildings were heated from below.",
+                  "Students stayed in small rooms.",
+                  "The staff included at least two internists."
+                ]
+              }
+            ],
+            "correctAnswer": {
+              "Stated as fact": ["Education combined theory and practical training.", "Classes were held in the courtyards in summer."],
+              "Possible but uncertain": [
+                "The buildings were heated from below.",
+                "Students stayed in small rooms.",
+                "The staff included at least two internists."
+              ]
+            },
+            "explanation": "Chapter 5 uses “Excavations suggest”, “likely” and “Although this is not certain … generally believed” for uncertain information.",
+            "feedback": {
+              "correct": "Correct. You noticed the writer’s level of certainty.",
+              "incorrect": "Look for suggest, likely and believed."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b2-language-5-hedging",
+            "type": "multiple-choice",
+            "title": "Notice: Is Generally Believed to Have Included",
+            "instructions": "Read the sentence. Then choose what the writer is doing.",
+            "question": "“Although this is not certain, the staff is generally believed to have included a chief physician with his assistants …” What is the writer doing?",
+            "options": [
+              "reporting a common view about the past without claiming it is proven",
+              "giving a fact from an official document",
+              "describing the staff of a modern hospital"
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Be believed to have + past participle” reports what people generally think about the past. “Although this is not certain” makes the writer’s caution clear.",
+            "feedback": {
+              "correct": "Correct. The writer reports a belief carefully.",
+              "incorrect": "Does the writer say this is certain?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-5-hedge-forms",
+            "type": "choose-form",
+            "title": "Build: Hedging Language",
+            "instructions": "Choose the correct form for each sentence from Chapter 5.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Excavations [choice] that the buildings were heated from below.",
+                "options": ["suggest", "prove to", "are suggested"],
+                "answer": 0
+              },
+              {
+                "sentence": "Students [choice] stayed in small rooms within the complex.",
+                "options": ["likely", "likelihood", "like"],
+                "answer": 0
+              },
+              {
+                "sentence": "The staff is believed [choice] a pharmacist.",
+                "options": ["to have included", "to included", "having include"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Evidence + suggests that …” presents a careful conclusion. “Likely” is an adverb here (= probably). “Be believed to have + past participle” refers to the past.",
+            "feedback": {
+              "correct": "Well done. Suggest, likely, to have included.",
+              "incorrect": "Check the verb after Excavations, the adverb and the perfect infinitive."
+            }
+          },
+          {
+            "id": "gevher-b2-language-5-impersonal",
+            "type": "transformation",
+            "title": "Build: Impersonal Reporting",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How can we report a belief?",
+            "transformItems": [
+              {
+                "source": "People generally believe that the staff included a pharmacist.",
+                "frame": "It is generally [blank] that the staff included a pharmacist.",
+                "answers": ["believed"]
+              },
+              {
+                "source": "People generally believe that the staff included a pharmacist.",
+                "frame": "The staff is generally believed to [blank] included a pharmacist.",
+                "answers": ["have"]
+              },
+              {
+                "source": "Students likely stayed in small rooms.",
+                "frame": "Students [blank] stayed in small rooms.",
+                "answers": ["probably"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "There are two impersonal patterns: “It is believed that + clause” and “Subject + is believed to have + past participle”. Likely and probably are close in meaning.",
+            "feedback": {
+              "correct": "Correct. You reported the belief in two ways.",
+              "incorrect": "Use believed, have and probably."
+            }
+          },
+          {
+            "id": "gevher-b2-language-5-evidence",
+            "type": "reflection",
+            "title": "Use: What the Evidence Suggests",
+            "instructions": "Write a paragraph of five to six sentences about a place, mixing facts and careful guesses.",
+            "question": "What do we know, and what do we only think?",
+            "correctAnswer": null,
+            "explanation": "Example: “The old caravanserai near our town has a large courtyard and many small rooms. It was used by traders on long journeys. The marks on the walls suggest that animals were kept on the ground floor. Travelers likely slept in the rooms upstairs. The building is believed to have had a small mosque, although this is not certain. Today, it is being restored as a museum.”",
+            "feedback": {
+              "correct": "Check: two facts, suggest, likely and is believed to have.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "State two facts.",
+                "mode": "Individual",
+                "example": "The building has … It was used for …"
+              },
+              {
+                "question": "Add two careful guesses with suggest and likely.",
+                "mode": "Individual",
+                "example": "Old maps suggest that … People likely …"
+              },
+              {
+                "question": "Report a belief with is believed to have.",
+                "mode": "Pair",
+                "example": "It is believed to have …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What else were the large courtyards used for?",
+          "options": ["to examine outpatients", "to cook meals", "to keep horses"],
+          "answer": 0,
+          "quote": "During the summer, classes were held in the large courtyards, which were also used to examine outpatients."
+        },
+        "iCan": [
+          "I can describe how teaching and treatment worked in the complex.",
+          "I can separate facts from claims the writer is less sure about.",
+          "I can use hedging: suggest, likely, is believed to have + past participle."
+        ]
+      },
+      {
+        "id": 6,
+        "type": "story",
+        "title": "Great Teachers and Books",
+        "image": "",
+        "audioUrl": "",
+        "content": "Some notable physicians and scholars worked and taught there in both the Seljuk and Ottoman periods. Some of them were Abdüllatîf al-Baghdadî, Ekmeleddin al-Nahcuvânî (Mevlânâ’s close friend and personal physician), Sadreddin Konevî, Kutbüddin eş-Şîrâzî, Ali Sivasi, Inayetullah (the mufti of Kayseri), and Fahri Pasha, the Janissary (Yeniçeri) Agha. Among them, Abdüllatîf al-Baghdadî (d. 1231) was a versatile scholar and philosopher. Kutbüddin eş-Şîrâzî (d. 1311), nicknamed ‘kehhâl’ (the ophthalmologist), wrote a commentary on İbn Sînâ’s el-Kânûn fî’t-tıbb. At the Gıyâsiye, these scholars lectured on philosophy, religious sciences, Arabic, Persian, anatomy, and physiology. They taught the most important medical texts of the era, including the works of Ebû Bekir er-Râzî and İbn Sînâ. They also taught ancient Greek and Roman sources, particularly Arabic translations of Hippocrates and Galen. Clinical training, on the other hand, took place at patients’ bedsides in the Şifâiye Hospital.",
+        "vocabulary": [
+          {
+            "word": "commentary",
+            "definition": "A book that explains another book."
+          },
+          {
+            "word": "lectured on",
+            "definition": "Taught a subject by speaking to students."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b2-en-h6a",
+            "x": 30,
+            "y": 40,
+            "title": "Ekmeleddin al-Nahcuvânî",
+            "description": "Ekmeleddin al-Nahcuvânî was Mevlânâ’s close friend and personal physician."
+          },
+          {
+            "id": "gevher-b2-en-h6b",
+            "x": 70,
+            "y": 45,
+            "title": "Hippocrates and Galen",
+            "description": "They also taught ancient Greek and Roman sources, particularly Arabic translations of Hippocrates and Galen."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b2-quick-6",
+            "type": "matching",
+            "title": "Scholars and Descriptions",
+            "instructions": "Match each scholar with the description given in Chapter 6.",
+            "question": "Who was who?",
+            "matchingHeadings": {
+              "left": "Scholar",
+              "right": "Description"
+            },
+            "matchingPairs": [
+              {
+                "left": "Abdüllatîf al-Baghdadî",
+                "right": "a versatile scholar and philosopher"
+              },
+              {
+                "left": "Kutbüddin eş-Şîrâzî",
+                "right": "nicknamed ‘kehhâl’ (the ophthalmologist)"
+              },
+              {
+                "left": "Ekmeleddin al-Nahcuvânî",
+                "right": "Mevlânâ’s close friend and personal physician"
+              },
+              {
+                "left": "Inayetullah",
+                "right": "the mufti of Kayseri"
+              }
+            ],
+            "correctAnswer": {
+              "Abdüllatîf al-Baghdadî": "a versatile scholar and philosopher",
+              "Kutbüddin eş-Şîrâzî": "nicknamed ‘kehhâl’ (the ophthalmologist)",
+              "Ekmeleddin al-Nahcuvânî": "Mevlânâ’s close friend and personal physician",
+              "Inayetullah": "the mufti of Kayseri"
+            },
+            "explanation": "Chapter 6 describes each scholar with a short phrase.",
+            "feedback": {
+              "correct": "Correct. Each scholar matches his description.",
+              "incorrect": "Find each name in Chapter 6."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b2-language-6-appositive",
+            "type": "multiple-choice",
+            "title": "Notice: Nicknamed ‘Kehhâl’",
+            "instructions": "Read the sentence. Then choose what “nicknamed ‘kehhâl’ (the ophthalmologist)” does.",
+            "question": "“Kutbüddin eş-Şîrâzî (d. 1311), nicknamed ‘kehhâl’ (the ophthalmologist), wrote a commentary on İbn Sînâ’s el-Kânûn fî’t-tıbb.” What does the phrase do?",
+            "options": [
+              "It adds extra information about the person and can be removed.",
+              "It tells us which of two people with the same name is meant.",
+              "It is the main verb."
+            ],
+            "correctAnswer": 0,
+            "explanation": "The phrase between commas is extra information (like “who was nicknamed …”). Without it, the sentence is still complete: “Kutbüddin eş-Şîrâzî wrote a commentary …”.",
+            "feedback": {
+              "correct": "Correct. It is extra, non-essential information.",
+              "incorrect": "Read the sentence without the phrase. Is it still complete?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-6-relative",
+            "type": "choose-form",
+            "title": "Build: Among Them, Including, On the Other Hand",
+            "instructions": "Choose the correct form for each sentence from Chapter 6.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice], Abdüllatîf al-Baghdadî was a versatile scholar and philosopher.",
+                "options": ["Among them", "Between them", "With them"],
+                "answer": 0
+              },
+              {
+                "sentence": "They taught the most important medical texts of the era, [choice] the works of er-Râzî and İbn Sînâ.",
+                "options": ["including", "included", "include"],
+                "answer": 0
+              },
+              {
+                "sentence": "Clinical training, [choice], took place at patients’ bedsides.",
+                "options": ["on the other hand", "for example", "as a result"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Among them” picks one person from a group. “Including” introduces examples from a larger group. “On the other hand” introduces a contrast with the previous idea.",
+            "feedback": {
+              "correct": "Well done. Among them, including, on the other hand.",
+              "incorrect": "Check the group word, the example word and the contrast linker."
+            }
+          },
+          {
+            "id": "gevher-b2-language-6-combine",
+            "type": "transformation",
+            "title": "Build: Combine the Sentences",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How can we join two facts?",
+            "transformItems": [
+              {
+                "source": "Abdüllatîf al-Baghdadî died in 1231. He was a versatile scholar.",
+                "frame": "Abdüllatîf al-Baghdadî, [blank] died in 1231, was a versatile scholar.",
+                "answers": ["who"]
+              },
+              {
+                "source": "They taught ancient Greek and Roman sources, particularly Arabic translations of Hippocrates and Galen.",
+                "frame": "They taught ancient Greek and Roman sources, [blank] Arabic translations of Hippocrates and Galen.",
+                "answers": ["especially", "mainly", "in particular"]
+              },
+              {
+                "source": "These scholars lectured on philosophy and anatomy.",
+                "frame": "These scholars gave [blank] on philosophy and anatomy.",
+                "answers": ["lectures"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "A non-defining relative clause adds extra information between commas. “Particularly” = “especially”. “Lecture on” = “give lectures on”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use who, especially and lectures."
+            }
+          },
+          {
+            "id": "gevher-b2-language-6-teacher",
+            "type": "reflection",
+            "title": "Use: A Teacher Who Shaped Others",
+            "instructions": "Write a paragraph of five to six sentences about a scholar or teacher you admire.",
+            "question": "What did they teach, and what did they write or do?",
+            "correctAnswer": null,
+            "explanation": "Example: “Ms. Demir, my primary school teacher, taught me to love reading. She read us a story every morning, which was the best part of the day. She taught many subjects, including science and art. Her classroom, which was always full of books, felt like a small library. Among all my teachers, she shaped me the most.”",
+            "feedback": {
+              "correct": "Check: an appositive, a non-defining relative clause and including or particularly.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Introduce the person with an appositive.",
+                "mode": "Individual",
+                "example": "…, a well-known …, taught …"
+              },
+              {
+                "question": "Add a non-defining relative clause.",
+                "mode": "Individual",
+                "example": "…, who …, …"
+              },
+              {
+                "question": "Use including or particularly.",
+                "mode": "Pair",
+                "example": "She taught many subjects, including …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Which famous book did Kutbüddin eş-Şîrâzî write a commentary on?",
+          "options": ["İbn Sînâ’s el-Kânûn fî’t-tıbb", "Kitâbü’ş-Şifâ", "a book by Galen"],
+          "answer": 0,
+          "quote": "wrote a commentary on İbn Sînâ’s el-Kânûn fî’t-tıbb."
+        },
+        "iCan": [
+          "I can describe the scholars and the subjects taught at the Gıyâsiye.",
+          "I can explain where the medical knowledge came from.",
+          "I can use non-defining relative clauses, appositives and among them."
+        ]
+      },
+      {
+        "id": 7,
+        "type": "story",
+        "title": "Inside the Buildings",
+        "image": "",
+        "audioUrl": "",
+        "content": "The two structures are connected by a corridor. Each has an enclosed courtyard with a pool, as well as rooms of different sizes. All the doors are small and open onto covered walkways. None of the rooms have fireplaces or chimneys. No kitchen-like space was found, which suggests that meals were brought in from an outdoor kitchen.\n\nThe Gevher Nesibe Dârüşşifâ had three operating rooms, and two surgeons were on staff. Small windows at the top of the operating rooms provided dim lighting, which made it easier to control the light during operations. It is believed that minor surgeries and cataract operations were performed here.",
+        "vocabulary": [
+          {
+            "word": "suggests",
+            "definition": "Shows that something is probably true."
+          },
+          {
+            "word": "on staff",
+            "definition": "Working as part of a team."
+          },
+          {
+            "word": "dim lighting",
+            "definition": "Light that is not bright."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b2-en-h7a",
+            "x": 30,
+            "y": 40,
+            "title": "A Corridor",
+            "description": "The two structures are connected by a corridor."
+          },
+          {
+            "id": "gevher-b2-en-h7b",
+            "x": 70,
+            "y": 45,
+            "title": "Operating Rooms",
+            "description": "The Gevher Nesibe Dârüşşifâ had three operating rooms, and two surgeons were on staff."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b2-quick-7",
+            "type": "true-false",
+            "title": "Meals",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "A kitchen was found inside the buildings, where meals were cooked for patients.",
+            "correctAnswer": false,
+            "explanation": "Chapter 7: “No kitchen-like space was found, which suggests that meals were brought in from an outdoor kitchen.”",
+            "feedback": {
+              "correct": "Correct. No kitchen was found inside.",
+              "incorrect": "Find the word kitchen in the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b2-language-7-which",
+            "type": "multiple-choice",
+            "title": "Notice: …, Which Suggests That …",
+            "instructions": "Read the sentence. Then choose what “which” refers to.",
+            "question": "“No kitchen-like space was found, which suggests that meals were brought in from an outdoor kitchen.” What does “which” refer to?",
+            "options": ["the whole idea that no kitchen-like space was found", "the kitchen", "the meals"],
+            "correctAnswer": 0,
+            "explanation": "After a comma, “which” can refer to the whole previous clause, not just one noun. Here the missing kitchen is the evidence; the which-clause gives the conclusion.",
+            "feedback": {
+              "correct": "Correct. It refers to the whole idea.",
+              "incorrect": "What suggests something: the kitchen or the fact that none was found?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-7-make-it",
+            "type": "choose-form",
+            "title": "Build: Make It Easier To, Passives",
+            "instructions": "Choose the correct form for each sentence from Chapter 7.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The dim lighting made [choice] easier to control the light during operations.",
+                "options": ["it", "its", "them"],
+                "answer": 0
+              },
+              {
+                "sentence": "The two structures [choice] by a corridor.",
+                "options": ["are connected", "connect", "are connecting"],
+                "answer": 0
+              },
+              {
+                "sentence": "It is believed that minor surgeries [choice] here.",
+                "options": ["were performed", "performed", "were performing"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Make it + adjective + to + verb”: it is a placeholder for the to-infinitive. Passives describe structures and past activities when the doer is unknown or unimportant.",
+            "feedback": {
+              "correct": "Well done. It, are connected, were performed.",
+              "incorrect": "Check the placeholder it and the two passives."
+            }
+          },
+          {
+            "id": "gevher-b2-language-7-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "No kitchen-like space was found, which suggests that meals were brought in from outside.",
+                "frame": "Meals were probably brought in from outside, [blank] no kitchen-like space was found.",
+                "answers": ["since", "as", "because"]
+              },
+              {
+                "source": "It is believed that minor surgeries were performed here.",
+                "frame": "Minor surgeries are believed to [blank] been performed here.",
+                "answers": ["have"]
+              },
+              {
+                "source": "None of the rooms have fireplaces or chimneys.",
+                "frame": "There are no fireplaces or chimneys in [blank] of the rooms.",
+                "answers": ["any"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Evidence and conclusion can swap places with since or because. “It is believed that …” can become “… are believed to have been + past participle”. “None of” = “not … any”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use since, have and any."
+            }
+          },
+          {
+            "id": "gevher-b2-language-7-details",
+            "type": "reflection",
+            "title": "Use: Reading a Building",
+            "instructions": "Write a paragraph of five to six sentences about a building and what its details tell us.",
+            "question": "What can we work out from what is there, or missing?",
+            "correctAnswer": null,
+            "explanation": "Example: “Our school library has large windows on the south side. They make it easy to read without lamps during the day. There are no high shelves near the door, which suggests that the designers were thinking of young children. The tables are arranged in small groups, which makes it easier to work together. Every detail seems to have a purpose.”",
+            "feedback": {
+              "correct": "Check: two details, …, which suggests that … and make it + adjective + to.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe two details of the building.",
+                "mode": "Individual",
+                "example": "The building has … There is no …"
+              },
+              {
+                "question": "Draw a conclusion with …, which suggests that.",
+                "mode": "Individual",
+                "example": "…, which suggests that …"
+              },
+              {
+                "question": "Use make it + adjective + to.",
+                "mode": "Pair",
+                "example": "The large windows make it easy to …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Why did the operating rooms have only small windows at the top?",
+          "options": ["to control the light during operations", "to keep the rooms warm", "to save money"],
+          "answer": 0,
+          "quote": "Small windows at the top of the operating rooms provided dim lighting, which made it easier to control the light during operations."
+        },
+        "iCan": [
+          "I can describe the layout of the buildings.",
+          "I can explain what the details of a building tell us.",
+          "I can use sentential which, make it + adjective + to and It is believed that … were + past participle."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "story",
+        "title": "Caring for Mind and Body",
+        "image": "",
+        "audioUrl": "",
+        "content": "The complex also includes a psychiatric section with 18 patient rooms, nine on each side. Each room had two small openings in the wall, which served as sound corridors for music and suggestion therapy.\n\nThere is also a bathhouse inside the building. The bathhouse is covered by a dome. Inside, there are four round windows typical of Seljuk-style bathhouses. A well-designed sewage system was constructed for the bathhouse’s wastewater.",
+        "vocabulary": [
+          {
+            "word": "sewage system",
+            "definition": "Pipes that carry dirty water away."
+          },
+          {
+            "word": "wastewater",
+            "definition": "Dirty water after it has been used."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b2-en-h8a",
+            "x": 30,
+            "y": 40,
+            "title": "Sound Corridors",
+            "description": "Each room had two small openings in the wall, which served as sound corridors for music and suggestion therapy."
+          },
+          {
+            "id": "gevher-b2-en-h8b",
+            "x": 70,
+            "y": 45,
+            "title": "The Bathhouse",
+            "description": "The bathhouse is covered by a dome."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b2-quick-8",
+            "type": "multiple-choice",
+            "title": "Openings in the Walls",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What did the two small openings in each room serve as?",
+            "options": ["sound corridors for music and suggestion therapy", "windows for fresh air", "pipes for wastewater"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 8: “Each room had two small openings in the wall, which served as sound corridors for music and suggestion therapy.”",
+            "feedback": {
+              "correct": "Correct. They were sound corridors.",
+              "incorrect": "Read the second sentence of the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b2-language-8-typical",
+            "type": "multiple-choice",
+            "title": "Notice: Typical of Seljuk-Style Bathhouses",
+            "instructions": "Read the sentence. Then choose what “typical of” means.",
+            "question": "“Inside, there are four round windows typical of Seljuk-style bathhouses.” What does “typical of” mean?",
+            "options": [
+              "usual for and characteristic of that kind of building",
+              "very different from that kind of building",
+              "only found in this one bathhouse"
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Typical of + noun” means that something is a normal feature of that group. The four round windows are a usual feature of Seljuk bathhouses.",
+            "feedback": {
+              "correct": "Correct. It is a characteristic feature.",
+              "incorrect": "Are the windows special to this building or common in Seljuk bathhouses?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-8-passive-prep",
+            "type": "choose-form",
+            "title": "Build: Verbs and Prepositions",
+            "instructions": "Choose the correct form for each sentence from Chapter 8.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The openings served [choice] sound corridors.",
+                "options": ["as", "like", "for"],
+                "answer": 0
+              },
+              {
+                "sentence": "The bathhouse is covered [choice] a dome.",
+                "options": ["by", "at", "from"],
+                "answer": 0
+              },
+              {
+                "sentence": "A well-designed sewage system was constructed [choice] the bathhouse’s wastewater.",
+                "options": ["for", "to", "by"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Serve as” = function as. “Be covered by” names what is on top. “Be constructed for” gives the purpose of a structure.",
+            "feedback": {
+              "correct": "Well done. As, by, for.",
+              "incorrect": "Check the preposition after each verb."
+            }
+          },
+          {
+            "id": "gevher-b2-language-8-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we describe it?",
+            "transformItems": [
+              {
+                "source": "The complex includes a psychiatric section with 18 patient rooms.",
+                "frame": "There [blank] 18 patient rooms in the psychiatric section of the complex.",
+                "answers": ["are"]
+              },
+              {
+                "source": "The bathhouse is covered by a dome.",
+                "frame": "A dome [blank] the bathhouse.",
+                "answers": ["covers"]
+              },
+              {
+                "source": "The openings served as sound corridors.",
+                "frame": "The openings were [blank] as sound corridors.",
+                "answers": ["used"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Include … with” can become “There are … in”. A passive can become active. “Serve as” = “be used as”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use are, covers and used."
+            }
+          },
+          {
+            "id": "gevher-b2-language-8-wellbeing",
+            "type": "reflection",
+            "title": "Use: A Place That Cares for Well-Being",
+            "instructions": "Write a paragraph of five to six sentences about how a modern place could care for mind and body.",
+            "question": "What features would it have, and what would they serve as?",
+            "correctAnswer": null,
+            "explanation": "Example: “My ideal school would include a sports hall and a clean, bright canteen. A quiet garden would serve as a place to rest between lessons. Soft music could be played in the corridors in the morning. Large windows, typical of modern schools, would let in plenty of light. Such a building would care for both the mind and the body.”",
+            "feedback": {
+              "correct": "Check: serve as, typical of and features for mind and body.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe two features for physical health.",
+                "mode": "Individual",
+                "example": "The building would include …"
+              },
+              {
+                "question": "Describe one feature for mental health with serve as.",
+                "mode": "Individual",
+                "example": "A quiet garden would serve as …"
+              },
+              {
+                "question": "Use typical of.",
+                "mode": "Pair",
+                "example": "Large windows, typical of …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: How many patient rooms did the psychiatric section have?",
+          "options": ["18", "9", "4"],
+          "answer": 0,
+          "quote": "The complex also includes a psychiatric section with 18 patient rooms, nine on each side."
+        },
+        "iCan": [
+          "I can describe how the complex cared for mental and physical health.",
+          "I can explain the purpose of the openings in the walls.",
+          "I can use serve as, be covered by, typical of and was constructed for."
+        ]
+      },
+      {
+        "id": 9,
+        "type": "story",
+        "title": "Medical Education at the Dârüşşifâ",
+        "image": "",
+        "audioUrl": "",
+        "content": "The educational method of the era was based on the master-apprentice model. Students who graduated successfully received an icâzet (diploma). The document listed the names of both the instructors and their teachers in a hierarchical order. Students who took classes there were known as ‘dânişmend.’\n\nEducation at the Dârüşşifâ was essentially divided into two parts. The first stage consisted of courses in mathematics, astronomy, physics, grammar, philosophy, and medicine. Together, these courses were known as ‘dârü’l-ilim’. In the second stage, Islamic sciences were taught. Treatment methods were based on the recommendations of scientists such as Bîrûnî and İbn Sînâ (known as Avicenna in the West), who were influential figures of the time. Medicines were prepared according to the prescriptions of the era’s leading physicians. Sources also indicate that bedside training sessions were held. According to the most recent documents available, the Dârüşşifâ continued to operate until the early 1900s.",
+        "vocabulary": [
+          {
+            "word": "master-apprentice model",
+            "definition": "Learning a skill by working with an expert."
+          },
+          {
+            "word": "Treatment",
+            "definition": "Medical care for an illness."
+          },
+          {
+            "word": "figures",
+            "definition": "Important people."
+          },
+          {
+            "word": "indicate",
+            "definition": "Show or suggest."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b2-en-h9a",
+            "x": 30,
+            "y": 40,
+            "title": "Icâzet",
+            "description": "Students who graduated successfully received an icâzet (diploma)."
+          },
+          {
+            "id": "gevher-b2-en-h9b",
+            "x": 70,
+            "y": 45,
+            "title": "Dânişmend",
+            "description": "Students who took classes there were known as ‘dânişmend.’"
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b2-quick-9",
+            "type": "drag-drop",
+            "title": "Two Stages",
+            "instructions": "Sort the subjects into the stage of education in which they were taught.",
+            "question": "What was taught in each stage?",
+            "dragDropGroups": [
+              {
+                "group": "First stage (dârü’l-ilim)",
+                "items": ["mathematics", "astronomy", "grammar", "medicine"]
+              },
+              {
+                "group": "Second stage",
+                "items": ["Islamic sciences"]
+              }
+            ],
+            "correctAnswer": {
+              "First stage (dârü’l-ilim)": ["mathematics", "astronomy", "grammar", "medicine"],
+              "Second stage": ["Islamic sciences"]
+            },
+            "explanation": "Chapter 9: “The first stage consisted of courses in mathematics, astronomy, physics, grammar, philosophy, and medicine … In the second stage, Islamic sciences were taught.”",
+            "feedback": {
+              "correct": "Correct. You sorted the subjects into the two stages.",
+              "incorrect": "Read the second paragraph again."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b2-language-9-defining",
+            "type": "multiple-choice",
+            "title": "Notice: Students Who Graduated Successfully",
+            "instructions": "Read the sentence. Then choose what the who-clause does.",
+            "question": "“Students who graduated successfully received an icâzet (diploma).” What does “who graduated successfully” do?",
+            "options": [
+              "It tells us which students received an icâzet.",
+              "It adds extra information about all the students.",
+              "It explains why students received an icâzet."
+            ],
+            "correctAnswer": 0,
+            "explanation": "A defining relative clause (no commas) identifies which people we mean: not all students, only those who graduated successfully. Compare a non-defining clause, which adds extra information between commas.",
+            "feedback": {
+              "correct": "Correct. It identifies the students.",
+              "incorrect": "Did all students receive an icâzet?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-9-based-on",
+            "type": "choose-form",
+            "title": "Build: Be Based On, Consist Of, Indicate",
+            "instructions": "Choose the correct form for each sentence from Chapter 9.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The educational method of the era was based [choice] the master-apprentice model.",
+                "options": ["on", "in", "from"],
+                "answer": 0
+              },
+              {
+                "sentence": "The first stage consisted [choice] courses in mathematics, astronomy and medicine.",
+                "options": ["of", "in", "with"],
+                "answer": 0
+              },
+              {
+                "sentence": "Sources also [choice] that bedside training sessions were held.",
+                "options": ["indicate", "are indicated", "indicate to"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Be based on” gives the foundation of something. “Consist of” lists the parts. “Sources indicate that …” reports evidence cautiously.",
+            "feedback": {
+              "correct": "Well done. On, of, indicate.",
+              "incorrect": "Check the preposition after based and consisted, and the reporting verb."
+            }
+          },
+          {
+            "id": "gevher-b2-language-9-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "The first stage consisted of courses in mathematics, astronomy and medicine.",
+                "frame": "The first stage was [blank] up of courses in mathematics, astronomy and medicine.",
+                "answers": ["made"]
+              },
+              {
+                "source": "Medicines were prepared according to the prescriptions of the era’s leading physicians.",
+                "frame": "Physicians [blank] medicines according to the prescriptions of the era’s leading physicians.",
+                "answers": ["prepared"]
+              },
+              {
+                "source": "The Dârüşşifâ continued to operate until the early 1900s.",
+                "frame": "The Dârüşşifâ did not [blank] operating until the early 1900s.",
+                "answers": ["stop"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Consist of” = “be made up of”. A passive can become active. “Continue to + verb until” = “not stop + -ing until”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use made, prepared and stop."
+            }
+          },
+          {
+            "id": "gevher-b2-language-9-learning",
+            "type": "reflection",
+            "title": "Use: Learning from a Master",
+            "instructions": "Write a paragraph of five to six sentences about a skill that people learn from a master today.",
+            "question": "How is it taught, and what does the learner receive at the end?",
+            "correctAnswer": null,
+            "explanation": "Example: “Training to become a chef is often based on the master-apprentice model. The first stage consists of simple tasks, such as cutting vegetables and cleaning the kitchen. Later, apprentices learn by observing experienced chefs at work. Learners who complete the training receive a certificate. Many famous chefs still remember the masters who trained them.”",
+            "feedback": {
+              "correct": "Check: be based on, consist of and a defining relative clause.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the skill and say what the training is based on.",
+                "mode": "Individual",
+                "example": "Training in … is based on …"
+              },
+              {
+                "question": "Describe the stages with consist of.",
+                "mode": "Individual",
+                "example": "The first stage consists of …"
+              },
+              {
+                "question": "Use a defining relative clause.",
+                "mode": "Pair",
+                "example": "Learners who complete the training receive …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Until when did the Dârüşşifâ continue to operate?",
+          "options": ["until the early 1900s", "until the 16th century", "until 1206"],
+          "answer": 0,
+          "quote": "According to the most recent documents available, the Dârüşşifâ continued to operate until the early 1900s."
+        },
+        "iCan": [
+          "I can describe how medical education was organized.",
+          "I can explain what the icâzet showed.",
+          "I can use be based on, consist of, defining relative clauses and reporting verbs such as indicate."
+        ]
+      },
+      {
+        "id": 10,
+        "type": "story",
+        "title": "Music Therapy at the Dârüşşifâ",
+        "image": "",
+        "audioUrl": "",
+        "content": "In his work Kitâbü’ş-Şifâ, İbn Sînâ states that one of the best ways to treat a patient is by strengthening their mental and spiritual power, giving them courage through loved ones, and using the healing power of music. Er-Râzî noted that melancholic patients should be treated with music. Meanwhile, Fârâbî examined how different musical modes (makams) affect the human soul. He classified these modes into categories based on the emotions they evoke, such as joy, fear, comfort, and a sense of infinity. Furthermore, Fârâbî explained which mode is most effective at specific times of the day. In this context, it is clear that music therapy was also practiced at the Gevher Nesibe Dârüşşifâ.",
+        "vocabulary": [
+          {
+            "word": "evoke",
+            "definition": "Bring a feeling or memory to mind."
+          },
+          {
+            "word": "infinity",
+            "definition": "Something without any end or limit."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b2-en-h10a",
+            "x": 30,
+            "y": 40,
+            "title": "Kitâbü’ş-Şifâ",
+            "description": "In his work Kitâbü’ş-Şifâ, İbn Sînâ wrote about strengthening a patient’s mental and spiritual power."
+          },
+          {
+            "id": "gevher-b2-en-h10b",
+            "x": 70,
+            "y": 45,
+            "title": "Makams",
+            "description": "Fârâbî examined how different musical modes (makams) affect the human soul."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b2-quick-10",
+            "type": "matching",
+            "title": "Scholars and Ideas",
+            "instructions": "Match each scholar with his idea from Chapter 10.",
+            "question": "Who said or did what?",
+            "matchingHeadings": {
+              "left": "Scholar",
+              "right": "Idea"
+            },
+            "matchingPairs": [
+              {
+                "left": "İbn Sînâ",
+                "right": "Patients can be treated by strengthening their mental and spiritual power."
+              },
+              {
+                "left": "Er-Râzî",
+                "right": "Melancholic patients should be treated with music."
+              },
+              {
+                "left": "Fârâbî",
+                "right": "Different musical modes affect the human soul in different ways."
+              }
+            ],
+            "correctAnswer": {
+              "İbn Sînâ": "Patients can be treated by strengthening their mental and spiritual power.",
+              "Er-Râzî": "Melancholic patients should be treated with music.",
+              "Fârâbî": "Different musical modes affect the human soul in different ways."
+            },
+            "explanation": "Chapter 10 reports the ideas of three scholars about healing and music.",
+            "feedback": {
+              "correct": "Correct. Each scholar matches his idea.",
+              "incorrect": "Find each name in Chapter 10."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b2-language-10-by-ing",
+            "type": "multiple-choice",
+            "title": "Notice: By Strengthening …, Giving …, Using …",
+            "instructions": "Read the sentence. Then choose what the -ing forms after “by” describe.",
+            "question": "“One of the best ways to treat a patient is by strengthening their mental and spiritual power, giving them courage through loved ones, and using the healing power of music.” What do the -ing forms describe?",
+            "options": ["three methods of treatment", "three results of the illness", "three events in the past"],
+            "correctAnswer": 0,
+            "explanation": "“By + -ing” describes a method: how something is done. The three -ing forms are parallel: they share the same “by”.",
+            "feedback": {
+              "correct": "Correct. They are three methods.",
+              "incorrect": "Which question do the -ing forms answer: how, why or when?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-10-modal-passive",
+            "type": "choose-form",
+            "title": "Build: Passive Modals and Reporting Verbs",
+            "instructions": "Choose the correct form for each sentence from Chapter 10.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Er-Râzî noted that melancholic patients should [choice] with music.",
+                "options": ["be treated", "treated", "treat"],
+                "answer": 0
+              },
+              {
+                "sentence": "He classified these modes into categories based [choice] the emotions they evoke.",
+                "options": ["on", "of", "at"],
+                "answer": 0
+              },
+              {
+                "sentence": "Fârâbî explained which mode is most effective [choice] specific times of the day.",
+                "options": ["at", "in", "on"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Should be + past participle” is a passive modal: the patients receive the treatment. “Based on” gives the criterion. “At specific times” uses at for points in time.",
+            "feedback": {
+              "correct": "Well done. Be treated, on, at.",
+              "incorrect": "Check the passive modal and the prepositions."
+            }
+          },
+          {
+            "id": "gevher-b2-language-10-conclusion",
+            "type": "transformation",
+            "title": "Build: Reach a Conclusion",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "Er-Râzî noted that melancholic patients should be treated with music.",
+                "frame": "Er-Râzî noted that doctors should [blank] melancholic patients with music.",
+                "answers": ["treat"]
+              },
+              {
+                "source": "In this context, it is clear that music therapy was also practiced at the Dârüşşifâ.",
+                "frame": "In this context, music therapy was [blank] also practiced at the Dârüşşifâ.",
+                "answers": ["clearly"]
+              },
+              {
+                "source": "Fârâbî examined how different musical modes affect the human soul.",
+                "frame": "Fârâbî examined the [blank] of different musical modes on the human soul.",
+                "answers": ["effect", "effects"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "A passive modal can become active. “It is clear that …” = “clearly”. The verb “affect” has the noun “effect”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use treat, clearly and effect."
+            }
+          },
+          {
+            "id": "gevher-b2-language-10-music",
+            "type": "reflection",
+            "title": "Use: Music and Feelings",
+            "instructions": "Write a paragraph of five to six sentences about how music affects people.",
+            "question": "What kinds of music evoke which feelings?",
+            "correctAnswer": null,
+            "explanation": "Example: “Music can help people by calming their minds and lifting their mood. Slow, soft music often evokes peace, while fast music evokes energy and joy. Some hospitals today play gentle music in waiting rooms. Doctors choose the music based on what patients need. It is clear that the scholars of Fârâbî’s time understood something that we are still learning about today.”",
+            "feedback": {
+              "correct": "Check: by + -ing, evoke, based on and it is clear that.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say how music can help people, with by + -ing.",
+                "mode": "Individual",
+                "example": "Music can help people by …"
+              },
+              {
+                "question": "Use evoke and based on.",
+                "mode": "Individual",
+                "example": "Slow music often evokes …"
+              },
+              {
+                "question": "End with it is clear that.",
+                "mode": "Pair",
+                "example": "It is clear that music …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: How did Fârâbî classify the musical modes?",
+          "options": ["by the emotions they evoke", "by their length", "by the instruments used"],
+          "answer": 0,
+          "quote": "He classified these modes into categories based on the emotions they evoke"
+        },
+        "iCan": [
+          "I can explain the ideas of three scholars about music and healing.",
+          "I can follow how the writer reaches a conclusion.",
+          "I can use by + -ing, passive modals, based on and it is clear that."
+        ]
+      },
+      {
+        "id": 11,
+        "type": "story",
+        "title": "A Legacy That Lives On",
+        "image": "",
+        "audioUrl": "",
+        "content": "Throughout history, there have been many examples of hospitals and medical schools, but none are known to have combined both into a single structure quite like the Gevher Nesibe Dârüşşifâ. Compared to Salerno, Bologna, and Paris, which are historically recognized as the pioneering universities of medical education, the Gevher Nesibe Dârüşşifâ was more advanced in many aspects. This medical center (dârüşşifâ) and educational madrasa emerged directly from centuries of accumulated knowledge. They represent the great achievements of scholars in the Islamic world who thrived during the 9th, 10th, and 11th centuries.\n\nGevher Nesibe Sultan never married the love of her life, but she became the sultan of people’s hearts, living on in their memory long after her passing.",
+        "vocabulary": [
+          {
+            "word": "pioneering",
+            "definition": "Being the first to do something new."
+          },
+          {
+            "word": "advanced",
+            "definition": "Modern and highly developed."
+          },
+          {
+            "word": "achievements",
+            "definition": "Important things done with effort and skill."
+          },
+          {
+            "word": "thrived",
+            "definition": "Grew and did very well."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "gevher-b2-en-h11a",
+            "x": 30,
+            "y": 40,
+            "title": "Salerno, Bologna, Paris",
+            "description": "These are historically recognized as the pioneering universities of medical education."
+          },
+          {
+            "id": "gevher-b2-en-h11b",
+            "x": 70,
+            "y": 45,
+            "title": "Centuries of Knowledge",
+            "description": "The Dârüşşifâ and the madrasa emerged directly from centuries of accumulated knowledge."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "gevher-b2-quick-11",
+            "type": "true-false",
+            "title": "A Legacy That Lives On",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The book says that the Dârüşşifâ was more advanced than Salerno, Bologna and Paris in every aspect.",
+            "correctAnswer": false,
+            "explanation": "Chapter 11: “… the Gevher Nesibe Dârüşşifâ was more advanced in many aspects.” The book says “in many aspects”, not in every aspect.",
+            "feedback": {
+              "correct": "Correct. The claim is careful: in many aspects.",
+              "incorrect": "Read the comparison carefully. How strong is the claim?"
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "gevher-b2-language-11-known-to-have",
+            "type": "multiple-choice",
+            "title": "Notice: None Are Known to Have Combined …",
+            "instructions": "Read the sentence. Then choose what the writer is claiming.",
+            "question": "“There have been many examples of hospitals and medical schools, but none are known to have combined both into a single structure quite like the Gevher Nesibe Dârüşşifâ.” What is the writer claiming?",
+            "options": [
+              "As far as we know, no other example combined both in this way.",
+              "It is proven that no other example ever existed.",
+              "Many examples combined both in the same way."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Be known to have + past participle” limits the claim to what is known. The writer does not say it is impossible; only that no other case is known. “Quite like” also softens the comparison.",
+            "feedback": {
+              "correct": "Correct. The claim is limited to what we know.",
+              "incorrect": "Does the writer say “proven” or “known”?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-11-compare",
+            "type": "choose-form",
+            "title": "Build: Compared To, Emerged From, Represent",
+            "instructions": "Choose the correct form for each sentence from Chapter 11.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] Salerno, Bologna, and Paris, the Gevher Nesibe Dârüşşifâ was more advanced in many aspects.",
+                "options": ["Compared to", "Comparing", "Compare with"],
+                "answer": 0
+              },
+              {
+                "sentence": "This medical center and educational madrasa emerged directly [choice] centuries of accumulated knowledge.",
+                "options": ["from", "of", "by"],
+                "answer": 0
+              },
+              {
+                "sentence": "They [choice] the great achievements of scholars in the Islamic world.",
+                "options": ["represent", "are represented", "representing"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Compared to + noun” introduces a comparison at the start of a sentence. “Emerge from” = come out of. “Represent” = be an example or symbol of.",
+            "feedback": {
+              "correct": "Well done. Compared to, from, represent.",
+              "incorrect": "Check the comparison phrase, the preposition and the main verb."
+            }
+          },
+          {
+            "id": "gevher-b2-language-11-summary",
+            "type": "transformation",
+            "title": "Build: Summarize the Legacy",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "None are known to have combined both into a single structure.",
+                "frame": "It is not [blank] that any other example combined both into a single structure.",
+                "answers": ["known"]
+              },
+              {
+                "source": "Compared to Salerno, Bologna, and Paris, the Dârüşşifâ was more advanced in many aspects.",
+                "frame": "The Dârüşşifâ was more advanced [blank] Salerno, Bologna, and Paris in many aspects.",
+                "answers": ["than"]
+              },
+              {
+                "source": "She became the sultan of people’s hearts, living on in their memory long after her passing.",
+                "frame": "She became the sultan of people’s hearts, and people [blank] to remember her long after her passing.",
+                "answers": ["continued"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“None are known to have …” = “It is not known that any … ”. “Compared to” can become “more … than”. A participle clause can become a separate clause with and.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use known, than and continued."
+            }
+          },
+          {
+            "id": "gevher-b2-language-11-legacy",
+            "type": "reflection",
+            "title": "Use: Evaluating a Legacy",
+            "instructions": "Write a paragraph of six to eight sentences evaluating the legacy of a person or institution.",
+            "question": "What did they achieve, and why does it still matter?",
+            "correctAnswer": null,
+            "explanation": "Example: “The old public library in my town was founded by a group of teachers many years ago. Few buildings of that time are known to have survived in our area. Compared to modern libraries, it is small and simple. However, it represents an important idea: knowledge should be free for everyone. This idea emerged from the hard work of people who loved reading. Thousands of students have studied there, and many of them now work as teachers and doctors. The library still serves the town, inspiring new generations of readers.”",
+            "feedback": {
+              "correct": "Check: a careful claim, compared to, represent and a participle clause of result.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Make a careful claim with be known to have or in many aspects.",
+                "mode": "Individual",
+                "example": "Few … are known to have …"
+              },
+              {
+                "question": "Compare with others using compared to.",
+                "mode": "Individual",
+                "example": "Compared to …, it was …"
+              },
+              {
+                "question": "End with a participle clause of result.",
+                "mode": "Pair",
+                "example": "…, inspiring …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: How does the book compare the Dârüşşifâ with Salerno, Bologna and Paris?",
+          "options": ["It was more advanced in many aspects.", "It was much smaller.", "It copied their methods."],
+          "answer": 0,
+          "quote": "the Gevher Nesibe Dârüşşifâ was more advanced in many aspects."
+        },
+        "iCan": [
+          "I can evaluate the legacy of the Gevher Nesibe Dârüşşifâ.",
+          "I can explain the historical roots of its knowledge.",
+          "I can use none are known to have, compared to and a participle clause of result."
+        ],
+        "groupTask": {
+          "type": "project",
+          "title": "A Museum Exhibition on the Gevher Nesibe Dârüşşifâ",
+          "time": "15 min",
+          "groupSize": "3–4",
+          "steps": [
+            "Choose one part of the book: the legend, the last wish, the Twin Madrasas, teaching, the scholars, the buildings, mind and body, education or music therapy.",
+            "Write an exhibition panel of 80–100 words with three facts, one exact quote from the book and one careful claim.",
+            "Add one sentence on why it still matters today.",
+            "Put the panels in the order of the book and present them as a class exhibition."
+          ],
+          "share": "Each group presents its panel as an exhibition guide and answers one question from the class.",
+          "solo": "Write one exhibition panel of 80–100 words on one part of the Dârüşşifâ."
+        }
+      },
+      {
+        "id": 12,
+        "type": "quiz",
+        "title": "Knowledge Check",
+        "image": "",
+        "audioUrl": "",
+        "content": "Check your understanding of the complete book.",
+        "exercises": [
+          {
+            "id": "gevher-b2-kc-1-first",
+            "type": "multiple-choice",
+            "title": "A World First",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What is the Gevher Nesibe Complex the world’s first example of?",
+            "options": [
+              "a hospital and a medical school built together as one complex",
+              "a museum of medicine",
+              "a university for philosophers"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “… and the world’s first example of a hospital and a medical school built together as one complex.”",
+            "feedback": {
+              "correct": "Correct. A hospital and a medical school as one complex.",
+              "incorrect": "Read the first sentence of Chapter 1."
+            }
+          },
+          {
+            "id": "gevher-b2-kc-2-legend",
+            "type": "true-false",
+            "title": "Legend or Fact?",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The book presents the love story of Gevher Nesibe as a legend.",
+            "correctAnswer": true,
+            "explanation": "Chapter 2: “According to legend, when Gevher Nesibe was a young girl, she fell in love with the commander of the Seljuk Cavalry Regiment (Süvari Alayı).”",
+            "feedback": {
+              "correct": "Correct. It is introduced with “According to legend”.",
+              "incorrect": "Find “According to legend” in Chapter 2."
+            }
+          },
+          {
+            "id": "gevher-b2-kc-3-fortune",
+            "type": "multiple-choice",
+            "title": "Her Fortune",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What did Gevher Nesibe do with her entire fortune?",
+            "options": [
+              "She donated it to the cause of a free hospital.",
+              "She gave it to the commander’s family.",
+              "She left it to the palace."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “She then donated her entire fortune to this cause.”",
+            "feedback": {
+              "correct": "Correct. She donated it to the hospital.",
+              "incorrect": "Read the last sentence of Chapter 3."
+            }
+          },
+          {
+            "id": "gevher-b2-kc-4-date",
+            "type": "true-false",
+            "title": "The Inscription",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "According to the inscription on its main gate, the Dârüşşifâ was built in 1305–1306.",
+            "correctAnswer": false,
+            "explanation": "Chapter 4: “According to the inscription on the main gate of the Dârüşşifâ, the construction date is 1205–1206.”",
+            "feedback": {
+              "correct": "Correct. The date is 1205–1206.",
+              "incorrect": "Read the last sentence of Chapter 4."
+            }
+          },
+          {
+            "id": "gevher-b2-kc-5-certain",
+            "type": "multiple-choice",
+            "title": "How Sure?",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "Which information does Chapter 5 present as NOT certain?",
+            "options": [
+              "the list of staff members",
+              "that classes were held in the courtyards in summer",
+              "that education combined theory and practice"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “Although this is not certain, the staff is generally believed to have included a chief physician with his assistants …”",
+            "feedback": {
+              "correct": "Correct. The staff list is not certain.",
+              "incorrect": "Find “Although this is not certain”."
+            }
+          },
+          {
+            "id": "gevher-b2-kc-6-kitchen",
+            "type": "multiple-choice",
+            "title": "Reading the Evidence",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What does the missing kitchen suggest?",
+            "options": [
+              "Meals were brought in from an outdoor kitchen.",
+              "Patients did not eat at the hospital.",
+              "The kitchen was destroyed in an earthquake."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 7: “No kitchen-like space was found, which suggests that meals were brought in from an outdoor kitchen.”",
+            "feedback": {
+              "correct": "Correct. Meals came from outside.",
+              "incorrect": "Find “which suggests” in Chapter 7."
+            }
+          },
+          {
+            "id": "gevher-b2-kc-7-operate",
+            "type": "true-false",
+            "title": "Seven Centuries",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "According to the most recent documents available, the Dârüşşifâ continued to operate until the early 1900s.",
+            "correctAnswer": true,
+            "explanation": "Chapter 9: “According to the most recent documents available, the Dârüşşifâ continued to operate until the early 1900s.”",
+            "feedback": {
+              "correct": "Correct. It operated until the early 1900s.",
+              "incorrect": "Read the last sentence of Chapter 9."
+            }
+          },
+          {
+            "id": "gevher-b2-kc-8-farabi",
+            "type": "multiple-choice",
+            "title": "Fârâbî and the Makams",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What else did Fârâbî explain about the musical modes?",
+            "options": [
+              "which mode is most effective at specific times of the day",
+              "which instrument is the oldest",
+              "how to build a concert hall"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 10: “Furthermore, Fârâbî explained which mode is most effective at specific times of the day.”",
+            "feedback": {
+              "correct": "Correct. The best mode for each time of day.",
+              "incorrect": "Find “Furthermore” in Chapter 10."
+            }
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "glossary",
+        "title": "Master Glossary",
+        "content": "Review all key vocabulary from the book in one place.",
+        "image": "",
+        "vocabulary": [
+          {
+            "word": "surviving",
+            "definition": "Still existing after a long time.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/sərˈvaɪvɪŋ/",
+            "category": "Time & Change",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "A Hospital Ahead of Its Time",
+            "storyExample": "The Gevher Nesibe Complex in Kayseri is the oldest surviving Anatolian Seljuk hospital, and the world’s first example of a hospital and a medical school built together as one complex."
+          },
+          {
+            "word": "regarded as",
+            "definition": "Thought of as.",
+            "partOfSpeech": "phrase",
+            "pronunciation": "/rɪˈɡɑːrdɪd æz/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "A Hospital Ahead of Its Time",
+            "storyExample": "At the time the Gevher Nesibe Complex was established, Konya served as the capital of the Seljuk Sultanate, while Kayseri was regarded as a second capital and was known as ‘Makarr-ı Ulemâ’ (the center of scholars)."
+          },
+          {
+            "word": "functions as",
+            "definition": "Works or is used as.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/ˈfʌŋkʃənz æz/",
+            "category": "Art & Architecture",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "A Hospital Ahead of Its Time",
+            "storyExample": "The building complex, which today functions as the Museum of the Seljuk Civilization (Selçuklu Uygarlığı Müzesi), was constructed by the Anatolian Seljuk ruler Gıyâseddin Keyhusrev I in honor of his sister, Gevher Nesibe Sultan."
+          },
+          {
+            "word": "courtier",
+            "definition": "A person who works at a royal court.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkɔːrtiər/",
+            "category": "Family & People",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "Instead, he wanted his younger sister to marry a courtier."
+          },
+          {
+            "word": "grief",
+            "definition": "Deep sadness, especially after a death.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ɡriːf/",
+            "category": "Feelings & Character",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "Following the commander’s martyrdom, Gevher Nesibe Sultan’s intense grief weakened her, eventually causing her to contract tuberculosis."
+          },
+          {
+            "word": "contract",
+            "definition": "Catch or get an illness.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/kənˈtrækt/",
+            "category": "Science & Medicine",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "Following the commander’s martyrdom, Gevher Nesibe Sultan’s intense grief weakened her, eventually causing her to contract tuberculosis."
+          },
+          {
+            "word": "Due to",
+            "definition": "Because of.",
+            "partOfSpeech": "preposition",
+            "pronunciation": "/ˈduː tuː/",
+            "category": "Linking Words",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "Due to the lack of a proper medical facility in Kayseri, she tragically died of the disease at a young age."
+          },
+          {
+            "word": "proper",
+            "definition": "Right, suitable or of good quality.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈprɒpər/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "Due to the lack of a proper medical facility in Kayseri, she tragically died of the disease at a young age."
+          },
+          {
+            "word": "apologized to",
+            "definition": "Said sorry to.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/əˈpɒlədʒaɪzd tuː/",
+            "category": "Feelings & Character",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "A Princess and a Commander",
+            "storyExample": "When she was on her deathbed, Gıyâseddin Keyhusrev I apologized to her and asked for her final wish."
+          },
+          {
+            "word": "incurable",
+            "definition": "Impossible to cure.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ɪnˈkjʊrəbəl/",
+            "category": "Science & Medicine",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "As the legend goes, Gevher Nesibe Sultan made a final request in her last days: “I have fallen ill with an incurable disease, and there is no hope of recovery."
+          },
+          {
+            "word": "recovery",
+            "definition": "The process of becoming healthy again.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/rɪˈkʌvəri/",
+            "category": "Science & Medicine",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "As the legend goes, Gevher Nesibe Sultan made a final request in her last days: “I have fallen ill with an incurable disease, and there is no hope of recovery."
+          },
+          {
+            "word": "untreatable",
+            "definition": "Impossible to treat with medicine.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ʌnˈtriːtəbəl/",
+            "category": "Science & Medicine",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "Let this hospital heal the sick, while also searching for cures to untreatable diseases."
+          },
+          {
+            "word": "charity",
+            "definition": "Help given free to people in need.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈtʃærəti/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "Let this place stand as a charity in my name.”"
+          },
+          {
+            "word": "entire fortune",
+            "definition": "All the money and property someone has.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ɪnˈtaɪər ˈfɔːrtʃən/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "She then donated her entire fortune to this cause."
+          },
+          {
+            "word": "cause",
+            "definition": "An aim that people support or work for.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/kɔːz/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Last Wish",
+            "storyExample": "She then donated her entire fortune to this cause."
+          },
+          {
+            "word": "tomb",
+            "definition": "A large stone grave, often inside a building.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/tuːm/",
+            "category": "Art & Architecture",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "The Twin Madrasas",
+            "storyExample": "Gevher Nesibe Sultan was buried in her tomb inside the madrasa."
+          },
+          {
+            "word": "Excavations",
+            "definition": "Digging work to find old buildings and objects.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˌekskəˈveɪʃənz/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Learning Beside the Patients",
+            "storyExample": "Excavations suggest that the buildings were heated from below using steam from a nearby bathhouse."
+          },
+          {
+            "word": "internists",
+            "definition": "Doctors who treat illnesses without surgery.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ɪnˈtɜːrnɪsts/",
+            "category": "Science & Medicine",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Learning Beside the Patients",
+            "storyExample": "Although this is not certain, the staff is generally believed to have included a chief physician with his assistants, at least two internists, two surgeons, and a pharmacist."
+          },
+          {
+            "word": "commentary",
+            "definition": "A book that explains another book.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkɒmənteri/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Great Teachers and Books",
+            "storyExample": "Kutbüddin eş-Şîrâzî (d. 1311), nicknamed ‘kehhâl’ (the ophthalmologist), wrote a commentary on İbn Sînâ’s el-Kânûn fî’t-tıbb."
+          },
+          {
+            "word": "lectured on",
+            "definition": "Taught a subject by speaking to students.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/ˈlektʃərd ɒn/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Great Teachers and Books",
+            "storyExample": "At the Gıyâsiye, these scholars lectured on philosophy, religious sciences, Arabic, Persian, anatomy, and physiology."
+          },
+          {
+            "word": "suggests",
+            "definition": "Shows that something is probably true.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/səɡˈdʒests/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 7,
+            "chapterTitle": "Inside the Buildings",
+            "storyExample": "No kitchen-like space was found, which suggests that meals were brought in from an outdoor kitchen."
+          },
+          {
+            "word": "on staff",
+            "definition": "Working as part of a team.",
+            "partOfSpeech": "phrase",
+            "pronunciation": "/ɒn stæf/",
+            "category": "Science & Medicine",
+            "level": "B2",
+            "chapter": 7,
+            "chapterTitle": "Inside the Buildings",
+            "storyExample": "The Gevher Nesibe Dârüşşifâ had three operating rooms, and two surgeons were on staff."
+          },
+          {
+            "word": "dim lighting",
+            "definition": "Light that is not bright.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/dɪm ˈlaɪtɪŋ/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 7,
+            "chapterTitle": "Inside the Buildings",
+            "storyExample": "Small windows at the top of the operating rooms provided dim lighting, which made it easier to control the light during operations."
+          },
+          {
+            "word": "sewage system",
+            "definition": "Pipes that carry dirty water away.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˈsuːɪdʒ ˈsɪstəm/",
+            "category": "Art & Architecture",
+            "level": "B2",
+            "chapter": 8,
+            "chapterTitle": "Caring for Mind and Body",
+            "storyExample": "A well-designed sewage system was constructed for the bathhouse’s wastewater."
+          },
+          {
+            "word": "wastewater",
+            "definition": "Dirty water after it has been used.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈweɪstwɔːtər/",
+            "category": "Art & Architecture",
+            "level": "B2",
+            "chapter": 8,
+            "chapterTitle": "Caring for Mind and Body",
+            "storyExample": "A well-designed sewage system was constructed for the bathhouse’s wastewater."
+          },
+          {
+            "word": "master-apprentice model",
+            "definition": "Learning a skill by working with an expert.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˈmæstər əˈprentɪs ˈmɒdəl/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 9,
+            "chapterTitle": "Medical Education at the Dârüşşifâ",
+            "storyExample": "The educational method of the era was based on the master-apprentice model."
+          },
+          {
+            "word": "Treatment",
+            "definition": "Medical care for an illness.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈtriːtmənt/",
+            "category": "Science & Medicine",
+            "level": "B2",
+            "chapter": 9,
+            "chapterTitle": "Medical Education at the Dârüşşifâ",
+            "storyExample": "Treatment methods were based on the recommendations of scientists such as Bîrûnî and İbn Sînâ (known as Avicenna in the West), who were influential figures of the time."
+          },
+          {
+            "word": "figures",
+            "definition": "Important people.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈfɪɡjərz/",
+            "category": "Family & People",
+            "level": "B2",
+            "chapter": 9,
+            "chapterTitle": "Medical Education at the Dârüşşifâ",
+            "storyExample": "Treatment methods were based on the recommendations of scientists such as Bîrûnî and İbn Sînâ (known as Avicenna in the West), who were influential figures of the time."
+          },
+          {
+            "word": "indicate",
+            "definition": "Show or suggest.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈɪndɪkeɪt/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 9,
+            "chapterTitle": "Medical Education at the Dârüşşifâ",
+            "storyExample": "Sources also indicate that bedside training sessions were held."
+          },
+          {
+            "word": "evoke",
+            "definition": "Bring a feeling or memory to mind.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ɪˈvoʊk/",
+            "category": "Feelings & Character",
+            "level": "B2",
+            "chapter": 10,
+            "chapterTitle": "Music Therapy at the Dârüşşifâ",
+            "storyExample": "He classified these modes into categories based on the emotions they evoke, such as joy, fear, comfort, and a sense of infinity."
+          },
+          {
+            "word": "infinity",
+            "definition": "Something without any end or limit.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ɪnˈfɪnəti/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 10,
+            "chapterTitle": "Music Therapy at the Dârüşşifâ",
+            "storyExample": "He classified these modes into categories based on the emotions they evoke, such as joy, fear, comfort, and a sense of infinity."
+          },
+          {
+            "word": "pioneering",
+            "definition": "Being the first to do something new.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˌpaɪəˈnɪrɪŋ/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 11,
+            "chapterTitle": "A Legacy That Lives On",
+            "storyExample": "Compared to Salerno, Bologna, and Paris, which are historically recognized as the pioneering universities of medical education, the Gevher Nesibe Dârüşşifâ was more advanced in many aspects."
+          },
+          {
+            "word": "advanced",
+            "definition": "Modern and highly developed.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ədˈvænst/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 11,
+            "chapterTitle": "A Legacy That Lives On",
+            "storyExample": "Compared to Salerno, Bologna, and Paris, which are historically recognized as the pioneering universities of medical education, the Gevher Nesibe Dârüşşifâ was more advanced in many aspects."
+          },
+          {
+            "word": "achievements",
+            "definition": "Important things done with effort and skill.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/əˈtʃiːvmənts/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 11,
+            "chapterTitle": "A Legacy That Lives On",
+            "storyExample": "They represent the great achievements of scholars in the Islamic world who thrived during the 9th, 10th, and 11th centuries."
+          },
+          {
+            "word": "thrived",
+            "definition": "Grew and did very well.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/θraɪvd/",
+            "category": "Time & Change",
+            "level": "B2",
+            "chapter": 11,
+            "chapterTitle": "A Legacy That Lives On",
+            "storyExample": "They represent the great achievements of scholars in the Islamic world who thrived during the 9th, 10th, and 11th centuries."
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "type": "vocabulary-match",
+        "title": "Vocabulary Challenge",
+        "image": "",
+        "audioUrl": "",
+        "content": "Match 10 words from the book with their meanings.",
+        "vocabularyPairs": [
+          {
+            "word": "surviving",
+            "meaning": "Still existing after a long time.",
+            "partOfSpeech": "adjective",
+            "chapter": 1,
+            "context": "The Gevher Nesibe Complex in Kayseri is the oldest surviving Anatolian Seljuk hospital"
+          },
+          {
+            "word": "regarded as",
+            "meaning": "Thought of as.",
+            "partOfSpeech": "phrase",
+            "chapter": 1,
+            "context": "Kayseri was regarded as a second capital"
+          },
+          {
+            "word": "grief",
+            "meaning": "Deep sadness, especially after a death.",
+            "partOfSpeech": "noun",
+            "chapter": 2,
+            "context": "Gevher Nesibe Sultan’s intense grief weakened her"
+          },
+          {
+            "word": "incurable",
+            "meaning": "Impossible to cure.",
+            "partOfSpeech": "adjective",
+            "chapter": 3,
+            "context": "I have fallen ill with an incurable disease"
+          },
+          {
+            "word": "entire fortune",
+            "meaning": "All the money and property someone has.",
+            "partOfSpeech": "noun phrase",
+            "chapter": 3,
+            "context": "She then donated her entire fortune to this cause."
+          },
+          {
+            "word": "excavations",
+            "meaning": "Digging work to find old buildings and objects.",
+            "partOfSpeech": "noun",
+            "chapter": 5,
+            "context": "Excavations suggest that the buildings were heated from below"
+          },
+          {
+            "word": "commentary",
+            "meaning": "A book that explains another book.",
+            "partOfSpeech": "noun",
+            "chapter": 6,
+            "context": "wrote a commentary on İbn Sînâ’s el-Kânûn fî’t-tıbb."
+          },
+          {
+            "word": "indicate",
+            "meaning": "Show or suggest.",
+            "partOfSpeech": "verb",
+            "chapter": 9,
+            "context": "Sources also indicate that bedside training sessions were held."
+          },
+          {
+            "word": "evoke",
+            "meaning": "Bring a feeling or memory to mind.",
+            "partOfSpeech": "verb",
+            "chapter": 10,
+            "context": "He classified these modes into categories based on the emotions they evoke"
+          },
+          {
+            "word": "thrived",
+            "meaning": "Grew and did very well.",
+            "partOfSpeech": "verb",
+            "chapter": 11,
+            "context": "scholars in the Islamic world who thrived during the 9th, 10th, and 11th centuries."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "exercises",
+        "title": "Language Review",
+        "image": "",
+        "content": "Review and use the language of the whole book.",
+        "exercises": [
+          {
+            "id": "gevher-b2-language-review-1-stance",
+            "type": "drag-drop",
+            "title": "Notice: Fact, Belief or Legend?",
+            "instructions": "Sort the sentences: does the writer present them as fact, careful belief or legend?",
+            "question": "How does the writer signal certainty?",
+            "dragDropGroups": [
+              {
+                "group": "Fact",
+                "items": ["Construction of the hospital was completed in two years.", "The bathhouse is covered by a dome."]
+              },
+              {
+                "group": "Careful belief",
+                "items": [
+                  "Students likely stayed in small rooms within the complex.",
+                  "It is believed that minor surgeries and cataract operations were performed here."
+                ]
+              },
+              {
+                "group": "Legend",
+                "items": ["According to legend, when Gevher Nesibe was a young girl, she fell in love with the commander."]
+              }
+            ],
+            "correctAnswer": {
+              "Fact": ["Construction of the hospital was completed in two years.", "The bathhouse is covered by a dome."],
+              "Careful belief": [
+                "Students likely stayed in small rooms within the complex.",
+                "It is believed that minor surgeries and cataract operations were performed here."
+              ],
+              "Legend": ["According to legend, when Gevher Nesibe was a young girl, she fell in love with the commander."]
+            },
+            "explanation": "Throughout the book, the writer signals stance: plain statements for facts, likely / believed / suggest for careful beliefs, and According to legend / As the legend goes for legends.",
+            "feedback": {
+              "correct": "Good. You read the writer’s stance.",
+              "incorrect": "Look for likely, believed and legend."
+            }
+          },
+          {
+            "id": "gevher-b2-language-review-2-participle",
+            "type": "multiple-choice",
+            "title": "Notice: Participle Clauses",
+            "instructions": "Read the sentences. Then choose the one where the -ing clause shows a result.",
+            "question": "Which -ing clause shows a result?",
+            "options": [
+              "Her grief weakened her, eventually causing her to contract tuberculosis.",
+              "Following the commander’s martyrdom, she was very sad.",
+              "One of the best ways to treat a patient is by using the healing power of music."
+            ],
+            "correctAnswer": 0,
+            "explanation": "After a main clause, “…, causing …” shows a result. “Following + noun” gives time; “by + -ing” gives a method.",
+            "feedback": {
+              "correct": "Correct. Causing … shows a result.",
+              "incorrect": "Which -ing form comes after a comma at the end?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-review-3-which",
+            "type": "true-false",
+            "title": "Notice: Sentential Which",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "In “No kitchen-like space was found, which suggests that …”, which refers to the whole idea before it.",
+            "correctAnswer": true,
+            "explanation": "After a comma, which can refer to a whole clause. Here the fact that no kitchen was found is the evidence.",
+            "feedback": {
+              "correct": "Correct. Which refers to the whole clause.",
+              "incorrect": "What suggests something: the space, or the fact that none was found?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-review-4-linkers",
+            "type": "word-bank",
+            "title": "Build: Linking Ideas",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "How does the book link ideas?",
+            "fillBlanksText": "[blank] the lack of a proper medical facility, she died young. [blank] his sister’s will, the Sultan built a madrasa and a hospital. Clinical training, [blank], took place at patients’ bedsides.",
+            "wordBank": ["Due to", "To fulfill", "on the other hand", "Because", "Although"],
+            "correctAnswer": ["Due to", "To fulfill", "on the other hand"],
+            "explanation": "“Due to + noun phrase” gives a reason. “To + verb” at the start gives a purpose. “On the other hand” gives a contrast.",
+            "feedback": {
+              "correct": "Well done. Due to, To fulfill, on the other hand.",
+              "incorrect": "Is each gap a reason, a purpose or a contrast?"
+            }
+          },
+          {
+            "id": "gevher-b2-language-review-5-patterns",
+            "type": "choose-form",
+            "title": "Build: Reporting and Passive Patterns",
+            "instructions": "Choose the correct form for each sentence.",
+            "question": "Which pattern is correct?",
+            "formChoices": [
+              {
+                "sentence": "The staff is generally believed [choice] a pharmacist.",
+                "options": ["to have included", "to include having", "including"],
+                "answer": 0
+              },
+              {
+                "sentence": "Melancholic patients should [choice] with music.",
+                "options": ["be treated", "treated", "treating"],
+                "answer": 0
+              },
+              {
+                "sentence": "None are known [choice] both into a single structure.",
+                "options": ["to have combined", "to combined", "having combine"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Be believed / known to have + past participle” refers to the past. “Should be + past participle” is a passive modal.",
+            "feedback": {
+              "correct": "Correct. To have included, be treated, to have combined.",
+              "incorrect": "Check the perfect infinitive and the passive modal."
+            }
+          },
+          {
+            "id": "gevher-b2-language-review-6-grammar",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake in each sentence and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "Due to there was no proper hospital, she died young.",
+                "error": "Due to there was",
+                "options": ["Because there was", "Due to was", "Due there was"],
+                "answer": 0
+              },
+              {
+                "sentence": "The first stage consisted in courses in mathematics and medicine.",
+                "error": "consisted in",
+                "options": ["consisted of", "consisted with", "consisted by"],
+                "answer": 0
+              },
+              {
+                "sentence": "Fârâbî examined how musical modes effect the human soul.",
+                "error": "effect",
+                "options": ["affect", "effects of", "affection"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Due to” needs a noun phrase; use because before a clause. “Consist of” lists parts. “Affect” is the verb; “effect” is the noun.",
+            "feedback": {
+              "correct": "Correct. Because there was, consisted of, affect.",
+              "incorrect": "Check due to, the preposition and affect / effect."
+            }
+          },
+          {
+            "id": "gevher-b2-language-review-7-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "The building complex today functions as the Museum of the Seljuk Civilization.",
+                "frame": "The building complex is used [blank] the Museum of the Seljuk Civilization today.",
+                "answers": ["as"]
+              },
+              {
+                "source": "It is believed that minor surgeries were performed here.",
+                "frame": "Minor surgeries are believed to have [blank] performed here.",
+                "answers": ["been"]
+              },
+              {
+                "source": "This training did not appear in Europe until the 16th and 17th centuries.",
+                "frame": "It was not until the 16th and 17th centuries [blank] this training appeared in Europe.",
+                "answers": ["that"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Function as” = “be used as”. “It is believed that …” = “… are believed to have been …”. “It was not until … that …” stresses the time.",
+            "feedback": {
+              "correct": "Well done. Same meaning, new structure.",
+              "incorrect": "Use as, been and that."
+            }
+          },
+          {
+            "id": "gevher-b2-language-review-8-new-context",
+            "type": "word-bank",
+            "title": "Use: A New Context",
+            "instructions": "Read about a modern teaching hospital. Fill each gap from the word bank.",
+            "question": "Can you use the book’s language in a new text?",
+            "fillBlanksText": "Our city’s teaching hospital, [blank] in 1960, trains hundreds of doctors every year. Its method is [blank] on bedside training. Recent reports [blank] that patients recover faster there. The hospital is [blank] as one of the best in the region.",
+            "wordBank": ["founded", "based", "indicate", "regarded", "consisted", "evoke"],
+            "correctAnswer": ["founded", "based", "indicate", "regarded"],
+            "explanation": "A reduced relative clause (founded in …), be based on, reports indicate that and be regarded as all come from the book. Here they describe a modern hospital.",
+            "feedback": {
+              "correct": "Well done. You used the book’s language in a new text.",
+              "incorrect": "Look at the words around each gap."
+            }
+          },
+          {
+            "id": "gevher-b2-language-review-9-new-context",
+            "type": "error-correction",
+            "title": "Use: Check a Short Report",
+            "instructions": "A student wrote about a museum visit. Find and correct each mistake.",
+            "question": "What should the student change?",
+            "errorItems": [
+              {
+                "sentence": "The museum, which built in the 13th century, is very old.",
+                "error": "which built",
+                "options": ["which was built", "which building", "which has built"],
+                "answer": 0
+              },
+              {
+                "sentence": "Students who visits it learn a lot.",
+                "error": "visits",
+                "options": ["visit", "visiting", "visited to"],
+                "answer": 0
+              },
+              {
+                "sentence": "No kitchen was found, what suggests that meals came from outside.",
+                "error": "what",
+                "options": ["which", "that", "who"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use a passive in a relative clause about a building, a plural verb after “students who”, and which (not what) for a whole clause.",
+            "feedback": {
+              "correct": "Correct. Which was built, visit, which.",
+              "incorrect": "Check the passive, the verb agreement and the relative pronoun."
+            }
+          },
+          {
+            "id": "gevher-b2-language-review-10-transfer",
+            "type": "reflection",
+            "title": "Use: An Institution That Serves People",
+            "instructions": "Write eight to ten sentences evaluating an institution in your town that serves people.",
+            "question": "What does it do, what do we know about it, and why does it matter?",
+            "correctAnswer": null,
+            "explanation": "Example: “The public hospital in my town, built in the 1950s, is the oldest health institution in the area. It is regarded as one of the best hospitals in the region. It is believed to have treated more than a million patients, although exact numbers are not available. Its old buildings still have high ceilings and large windows, which suggests that the builders cared about light and air. Compared to new private hospitals, it is simple, but it serves everyone. Many doctors who trained there now work all over the country. Like the Gevher Nesibe Dârüşşifâ, it represents the idea that health care is a service to the community.”",
+            "feedback": {
+              "correct": "Check: a reduced relative clause, a careful belief, …, which suggests that … and compared to.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Introduce it with a reduced relative clause.",
+                "mode": "Individual",
+                "example": "The … , founded in …, …"
+              },
+              {
+                "question": "Separate facts from careful beliefs.",
+                "mode": "Individual",
+                "example": "It is believed to have …"
+              },
+              {
+                "question": "Draw a conclusion with …, which suggests that.",
+                "mode": "Individual",
+                "example": "…, which suggests that …"
+              },
+              {
+                "question": "Evaluate its legacy with compared to.",
+                "mode": "Pair",
+                "example": "Compared to …, it …"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "type": "final-challenge",
+        "title": "Final Challenge",
+        "image": "",
+        "content": "Bring the whole book together in the Final Challenge.",
+        "exercises": [
+          {
+            "id": "gevher-b2-final-1",
+            "type": "multiple-choice",
+            "title": "Two Capitals",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What was Konya at the time the complex was established?",
+            "options": ["the capital of the Seljuk Sultanate", "a second capital", "the center of scholars"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “At the time the Gevher Nesibe Complex was established, Konya served as the capital of the Seljuk Sultanate, while Kayseri was regarded as a second capital …”",
+            "feedback": {
+              "correct": "Correct. Konya was the capital.",
+              "incorrect": "Read the second paragraph of Chapter 1."
+            }
+          },
+          {
+            "id": "gevher-b2-final-2",
+            "type": "matching",
+            "title": "People and Roles",
+            "instructions": "Match each person with the right description from the book.",
+            "question": "Who was who in the book?",
+            "matchingHeadings": {
+              "left": "Person",
+              "right": "Description"
+            },
+            "matchingPairs": [
+              {
+                "left": "Gıyâseddin Keyhusrev I",
+                "right": "the ruler who built the complex in honor of his sister"
+              },
+              {
+                "left": "Kılıçarslan II",
+                "right": "the father of Gevher Nesibe Sultan"
+              },
+              {
+                "left": "Sultan Mahmud II",
+                "right": "the founder of the Imperial Medical School"
+              },
+              {
+                "left": "Abdüllatîf al-Baghdadî",
+                "right": "a versatile scholar and philosopher"
+              }
+            ],
+            "correctAnswer": {
+              "Gıyâseddin Keyhusrev I": "the ruler who built the complex in honor of his sister",
+              "Kılıçarslan II": "the father of Gevher Nesibe Sultan",
+              "Sultan Mahmud II": "the founder of the Imperial Medical School",
+              "Abdüllatîf al-Baghdadî": "a versatile scholar and philosopher"
+            },
+            "explanation": "Chapters 1, 2 and 6 introduce these four people.",
+            "feedback": {
+              "correct": "Correct. Each person matches a description.",
+              "incorrect": "Look for each name in Chapters 1, 2 and 6."
+            }
+          },
+          {
+            "id": "gevher-b2-final-3",
+            "type": "fill-blanks",
+            "title": "Construction Time",
+            "instructions": "Complete the sentence from Chapter 4 with one word.",
+            "question": "How long did the construction of the hospital take?",
+            "fillBlanksText": "Construction of the hospital was completed in [blank] years.",
+            "correctAnswer": ["two", "2"],
+            "explanation": "Chapter 4: “Construction of the hospital was completed in two years.”",
+            "feedback": {
+              "correct": "Correct. Two years.",
+              "incorrect": "Read the beginning of Chapter 4."
+            }
+          },
+          {
+            "id": "gevher-b2-final-4",
+            "type": "multiple-choice",
+            "title": "The Courtyards",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What were the large courtyards used for in summer?",
+            "options": ["for classes and to examine outpatients", "for markets and festivals", "for keeping animals"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “During the summer, classes were held in the large courtyards, which were also used to examine outpatients.”",
+            "feedback": {
+              "correct": "Correct. Classes and outpatients.",
+              "incorrect": "Find “During the summer” in Chapter 5."
+            }
+          },
+          {
+            "id": "gevher-b2-final-5",
+            "type": "matching",
+            "title": "Parts and Details",
+            "instructions": "Match each part of the complex with the detail the book gives.",
+            "question": "What does the book say about each part?",
+            "matchingHeadings": {
+              "left": "Part",
+              "right": "Detail"
+            },
+            "matchingPairs": [
+              {
+                "left": "the two structures",
+                "right": "connected by a corridor"
+              },
+              {
+                "left": "the operating rooms",
+                "right": "small windows at the top"
+              },
+              {
+                "left": "the psychiatric section",
+                "right": "18 patient rooms, nine on each side"
+              },
+              {
+                "left": "the bathhouse",
+                "right": "four round windows and a dome"
+              }
+            ],
+            "correctAnswer": {
+              "the two structures": "connected by a corridor",
+              "the operating rooms": "small windows at the top",
+              "the psychiatric section": "18 patient rooms, nine on each side",
+              "the bathhouse": "four round windows and a dome"
+            },
+            "explanation": "Chapters 7 and 8 describe these parts of the complex.",
+            "feedback": {
+              "correct": "Correct. Each part matches its detail.",
+              "incorrect": "Look in Chapters 7 and 8."
+            }
+          },
+          {
+            "id": "gevher-b2-final-6",
+            "type": "true-false",
+            "title": "The Icâzet",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The icâzet listed the names of both the instructors and their teachers in a hierarchical order.",
+            "correctAnswer": true,
+            "explanation": "Chapter 9: “The document listed the names of both the instructors and their teachers in a hierarchical order.”",
+            "feedback": {
+              "correct": "Correct. It showed a chain of teachers.",
+              "incorrect": "Find icâzet in Chapter 9."
+            }
+          },
+          {
+            "id": "gevher-b2-final-7",
+            "type": "true-false",
+            "title": "Paying for Treatment",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Gevher Nesibe wanted patients to pay one dirhem for treatment.",
+            "correctAnswer": false,
+            "explanation": "Chapter 3: “Let no one pay a single dirhem (penny).”",
+            "feedback": {
+              "correct": "Correct. She wanted treatment to be free.",
+              "incorrect": "Read her words in Chapter 3."
+            }
+          },
+          {
+            "id": "gevher-b2-final-8",
+            "type": "fill-blanks",
+            "title": "Treatment Methods",
+            "instructions": "Complete the sentence from Chapter 9 with one name.",
+            "question": "Whose recommendations were treatment methods based on?",
+            "fillBlanksText": "Treatment methods were based on the recommendations of scientists such as [blank] and İbn Sînâ.",
+            "correctAnswer": ["Bîrûnî", "Biruni", "Bîrunî"],
+            "explanation": "Chapter 9: “Treatment methods were based on the recommendations of scientists such as Bîrûnî and İbn Sînâ (known as Avicenna in the West) …”",
+            "feedback": {
+              "correct": "Correct. Bîrûnî.",
+              "incorrect": "Find “Treatment methods” in Chapter 9."
+            }
+          },
+          {
+            "id": "gevher-b2-final-9",
+            "type": "multiple-choice",
+            "title": "Roots of Knowledge",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "According to Chapter 11, where did the Dârüşşifâ and the madrasa emerge from?",
+            "options": ["centuries of accumulated knowledge", "a single European model", "the ideas of one physician"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 11: “This medical center (dârüşşifâ) and educational madrasa emerged directly from centuries of accumulated knowledge.”",
+            "feedback": {
+              "correct": "Correct. Centuries of accumulated knowledge.",
+              "incorrect": "Find “emerged” in Chapter 11."
+            }
+          },
+          {
+            "id": "gevher-b2-final-10",
+            "type": "sequencing",
+            "title": "From a Wish to a Museum",
+            "instructions": "Put the events in the order they happened.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Gevher Nesibe contracted tuberculosis."
+              },
+              {
+                "id": "2",
+                "text": "Gevher Nesibe asked her brother to establish a hospital in her memory."
+              },
+              {
+                "id": "3",
+                "text": "The Sultan built a madrasa and then a hospital."
+              },
+              {
+                "id": "4",
+                "text": "The Dârüşşifâ continued to operate until the early 1900s."
+              },
+              {
+                "id": "5",
+                "text": "The complex became the Museum of the Seljuk Civilization."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "The book moves from her illness and last wish (Chapters 2–3) to the buildings (Chapter 4), the long life of the hospital (Chapter 9) and the museum of today (Chapter 1).",
+            "feedback": {
+              "correct": "Correct. From a wish to a museum.",
+              "incorrect": "Think about the story first, then about today."
+            }
+          }
+        ]
+      }
+    ],
+    "teacherGuide": [],
+    "selfStudyGuide": []
+  }
+}
