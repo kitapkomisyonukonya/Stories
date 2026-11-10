@@ -1,111 +1,1993 @@
 {
- "schema": 1,
- "storyId": "zeroWaste",
- "level": "B1",
- "language": "en",
- "teacherGuide": {
-  "content": [],
-  "metadata": {
-   "title": "Zero Waste B1 — Teacher’s Book",
-   "subtitle": "Coming soon",
-   "level": "B1",
-   "estimatedDuration": "",
-   "targetAudience": "",
-   "targetLearners": "",
-   "purpose": "",
-   "approachDesc": "",
-   "assessmentEvidence": "",
-   "assessmentOverview": {
-    "formative": [
-     "Quick Challenge after each chapter",
-     "Language Focus: Look and Practise",
-     "Short spoken and written Use tasks",
-     "Exit tickets",
-     "Knowledge Check",
-     "Vocabulary Challenge",
-     "Language Review"
+  "schema": 1,
+  "storyId": "zeroWaste",
+  "level": "B1",
+  "language": "en",
+  "teacherGuide": {
+    "content": [
+      {
+        "chapter": "Chapter 1: What Is Waste?",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain how zero waste looks at waste.",
+          "Explain the numbers about city waste.",
+          "Explain why plastic waste is worrying.",
+          "Use expect … to and the passive."
+        ],
+        "pedagogy": "The opening chapter defines waste in two ways and gives the key numbers. A number line (2023 → 2050) and a short list of materials help learners hold the facts before the detailed chapters.",
+        "priorKnowledge": ["Present simple passive.", "Big numbers."],
+        "anticipatedMisconceptions": [
+          "The zero waste idea does not see waste as just leftovers; it sees it as the result of poor planning.",
+          "62 percent is the waste that is treated, not the waste that is recycled."
+        ],
+        "grammarFocus": "Targets: expect + object + to · present simple passive (is treated) · make up / end up\nNotice (Activity 1): Experts expect this number to reach 3.8 billion tons by 2050.\nBuild (Activities 2–3): choose the forms, then rewrite.\nLikely errors: *expect this number reaching · *waste are treated.\nUse (Activity 4): what is in our bin?",
+        "pronunciationFocus": "Numbers: two point three billion tons; three point eight billion.\nStress: fa-CIL-i-ties, or-GAN-ic, con-SUME, WOR-ry-ing.",
+        "beforeReading": ["Ask: “Is waste only what is left over, or something more?”"],
+        "duringReading": [
+          "First reading: How does zero waste look at waste?",
+          "Second reading: complete the number line.",
+          "Find why plastic waste is worrying."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Number line; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: what is in our bin?; 42–45 Exit ticket.",
+        "discussionPoints": [
+          "What is the difference between the two ideas of waste?",
+          "What makes up the largest part of city waste?",
+          "Why is the rise in plastic waste worrying?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “A Different Way” and “62 Percent” when the picture is in place.",
+          "Word Notes: consume, solid waste, expect, facility, organic, worrying, end up."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the number line with the years written in.",
+          "fastFinishers": "Write a short paragraph that compares the two ideas of waste."
+        },
+        "formativeAssessment": ["Explains the zero waste idea.", "Explains the numbers.", "Uses expect … to or the passive correctly."],
+        "expectedResponses": [
+          "The zero waste idea sees waste as the result of poor product planning. In 2023, the world produced 2.3 billion tons of city waste, and experts expect this number to reach 3.8 billion tons by 2050."
+        ],
+        "transferTask": "Write about the waste in your home bin.",
+        "teacherReflection": "Did learners see waste as a design problem, not only leftovers?",
+        "assessmentTools": {
+          "rubric": ["Idea", "Numbers", "Language"],
+          "exitTicket": ["Write one sentence with “expect … to”."],
+          "rubricLevels": [
+            {
+              "criterion": "Idea",
+              "secure": "Explains the zero waste idea.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Numbers",
+              "secure": "Explains the numbers.",
+              "notYet": "Give the number line."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses expect … to or the passive.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 2: Paper and Wood",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain why recycling paper is important.",
+          "Describe the paper recycling process.",
+          "Explain how wood is recycled.",
+          "Use the present simple passive and so that."
+        ],
+        "pedagogy": "The chapter describes processes, which makes it ideal for the present simple passive. A process flow chart (collect → press → transport → process) helps learners follow the steps.",
+        "priorKnowledge": ["Present simple passive.", "So that."],
+        "anticipatedMisconceptions": [
+          "Paper is pressed into blocks to make it easier to transport, not to make it dry.",
+          "Timber is wood that is ready to use."
+        ],
+        "grammarFocus": "Targets: present simple passive (is collected, is pressed, is processed) · so that · which makes it + adjective\nNotice (Activity 1): Paper waste is collected separately …\nBuild (Activities 2–3): order the process, then rewrite.\nLikely errors: *is collect · *so that it not gets wet.\nUse (Activity 4): describe a process.",
+        "pronunciationFocus": "Stress: CARD-board, TIM-ber, trans-PORT (verb), PRO-cessed.",
+        "beforeReading": ["Ask: “What happens to the paper in our recycling box?”"],
+        "duringReading": [
+          "First reading: Why is recycling paper important?",
+          "Second reading: complete the flow chart.",
+          "Find what wood waste becomes."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Flow chart; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: describe a process; 42–45 Exit ticket.",
+        "discussionPoints": ["Why must paper stay dry?", "Why is paper pressed into blocks?", "Why is wood an important material?"],
+        "interactiveTips": [
+          "Use the picture hotspots “Pressed into Blocks” and “Timber and Boards” when the picture is in place.",
+          "Word Notes: raw materials, press, transport, process, cardboard, timber."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the flow chart with the first step written in.",
+          "fastFinishers": "Write the process for wood recycling in the passive."
+        },
+        "formativeAssessment": ["Explains why recycling paper is important.", "Describes the process.", "Uses the passive correctly."],
+        "expectedResponses": [
+          "Recycling paper saves a great amount of raw materials. Paper waste is collected separately so that it does not get wet. Then it is pressed into blocks and processed into new paper."
+        ],
+        "transferTask": "Describe a recycling process at your school.",
+        "teacherReflection": "Did learners use the passive for the process?",
+        "assessmentTools": {
+          "rubric": ["Reason", "Process", "Language"],
+          "exitTicket": ["Write one step of paper recycling in the passive."],
+          "rubricLevels": [
+            {
+              "criterion": "Reason",
+              "secure": "Explains why recycling paper is important.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Process",
+              "secure": "Describes the process.",
+              "notYet": "Give the flow chart."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses the passive.",
+              "notYet": "Model one step."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 3: Plastic",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain why plastics cannot all be recycled in the same way.",
+          "Describe the changes in plastic production and waste.",
+          "Explain what happened to plastic waste.",
+          "Use rise from … to and the past simple passive."
+        ],
+        "pedagogy": "The chapter is full of data. A bar chart (production vs waste, 2000 and 2019) and a pie chart (9 · 19 · 50 · 22) help learners read the numbers. The language of describing data is very useful at B1.",
+        "priorKnowledge": ["Past simple passive.", "Percentages."],
+        "anticipatedMisconceptions": [
+          "Plastic waste grew faster than plastic production.",
+          "Only 9 percent was recycled; the rest was burned, buried or left in nature."
+        ],
+        "grammarFocus": "Targets: rise from … to … · an increase of … · past simple passive (was recycled, was burned)\nNotice (Activity 1): It rose from 234 to 460 million tons …\nBuild (Activities 2–3): describe the data, then choose the forms.\nLikely errors: *rose of 234 to 460 · *was burn.\nUse (Activity 4): a data report.",
+        "pronunciationFocus": "Numbers: two hundred thirty-four; four hundred sixty million tons; ninety-seven percent.\nStress: pro-DUC-tion, IN-crease (noun), DUMPS.",
+        "beforeReading": ["Ask: “Where does plastic go at the end of its life?”"],
+        "duringReading": [
+          "First reading: Why can plastics not all be recycled in the same way?",
+          "Second reading: complete the bar chart and the pie chart.",
+          "Find where most plastic ended up."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Bar and pie charts; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: a data report; 42–45 Exit ticket.",
+        "discussionPoints": [
+          "Why can plastics not all be recycled in the same way?",
+          "Which grew faster: production or waste?",
+          "What happened to the plastic that escaped into nature?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Almost Doubled” and “Open Dumps” when the picture is in place.",
+          "Word Notes: manufactured goods, global, production, double, landfill, dump, escape."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the charts with the labels written in.",
+          "fastFinishers": "Write a short data report on plastic waste in 2019."
+        },
+        "formativeAssessment": [
+          "Explains why plastic is hard to recycle.",
+          "Describes the data.",
+          "Uses rise from … to or the passive correctly."
+        ],
+        "expectedResponses": [
+          "Between 2000 and 2019, plastic waste rose from 156 to 353 million tons. Only 9 percent was recycled, and half of it went into landfills."
+        ],
+        "transferTask": "Write a data report about your school or town.",
+        "teacherReflection": "Did learners read the numbers accurately?",
+        "assessmentTools": {
+          "rubric": ["Reason", "Data", "Language"],
+          "exitTicket": ["Write one sentence with “rose from … to …”."],
+          "rubricLevels": [
+            {
+              "criterion": "Reason",
+              "secure": "Explains why plastic is hard to recycle.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Data",
+              "secure": "Describes the data.",
+              "notYet": "Give the charts."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses rise from … to or the passive.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 4: Glass and Composite Packaging",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain what glass is made from and how it is recycled.",
+          "Explain why glass is sorted by color.",
+          "Explain what composite packaging is.",
+          "Use made from, made by + -ing and for this reason."
+        ],
+        "pedagogy": "The chapter compares a simple material (glass) with a complex one (composite packaging). A comparison chart (made from · how recycled · why special) helps learners see why composite packaging is harder to recycle.",
+        "priorKnowledge": ["Present simple passive.", "Linking words."],
+        "anticipatedMisconceptions": [
+          "Composite packaging has layers that must be separated; it is not simply paper.",
+          "Sorting by color keeps the quality of glass high."
+        ],
+        "grammarFocus": "Targets: be made from · be made by + -ing · for this reason · separate from\nNotice (Activity 1): Glass is made mainly from … / Composite packaging is made by combining …\nBuild (Activities 2–3): choose the forms, then rewrite.\nLikely errors: *made by combine · *separated of.\nUse (Activity 4): how is it made?",
+        "pronunciationFocus": "Stress: LIME-stone, com-POS-ite, a-LU-mi-num (American), con-TAIN-ers.",
+        "beforeReading": ["Ask: “What is a juice carton made from?”"],
+        "duringReading": [
+          "First reading: How is glass recycled?",
+          "Second reading: complete the comparison chart.",
+          "Find why composite packaging creates a lot of waste."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Comparison chart; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: how is it made?; 42–45 Exit ticket.",
+        "discussionPoints": [
+          "Why is glass sorted by color?",
+          "How does glass recycling help the climate?",
+          "Why must composite waste be collected separately?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Sorted by Color” and “A Thin Layer” when the picture is in place.",
+          "Word Notes: limestone, container, sort, carbon emissions, composite, combine, advanced."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chart with the headings written in.",
+          "fastFinishers": "Write a short paragraph that compares glass and composite packaging."
+        },
+        "formativeAssessment": ["Explains how glass is recycled.", "Explains composite packaging.", "Uses made from or made by correctly."],
+        "expectedResponses": [
+          "Glass is made mainly from sand, soda ash and limestone. It is sorted by color to keep its quality high. Composite packaging is made by combining paperboard, plastic and aluminum."
+        ],
+        "transferTask": "Write about how a product is made and recycled.",
+        "teacherReflection": "Did learners explain why composite packaging is harder to recycle?",
+        "assessmentTools": {
+          "rubric": ["Glass", "Composite", "Language"],
+          "exitTicket": ["Write one sentence with “is made by …-ing”."],
+          "rubricLevels": [
+            {
+              "criterion": "Glass",
+              "secure": "Explains how glass is recycled.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Composite",
+              "secure": "Explains composite packaging.",
+              "notYet": "Give the chart."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses made from or made by.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 5: Metal and Vegetable Oil",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain where metal comes from and how it is recycled.",
+          "Explain why recycling metal saves energy.",
+          "Explain what vegetable waste oil is and what it becomes.",
+          "Use must be + past participle and so that … can."
+        ],
+        "pedagogy": "The chapter gives two processes with clear reasons. A reason chart (material → why collect separately → what it becomes) helps learners compare metal and oil.",
+        "priorKnowledge": ["Passive with modals.", "Comparatives."],
+        "anticipatedMisconceptions": [
+          "Biodiesel is made from vegetable oil, not from fossil fuels.",
+          "“Much less energy” uses “less” because energy is uncountable."
+        ],
+        "grammarFocus": "Targets: must be / can be + past participle · so that … can · much less … than\nNotice (Activity 1): Metal waste must be collected separately so that it can be recovered.\nBuild (Activities 2–3): choose the forms, then rewrite.\nLikely errors: *must collected · *fewer energy.\nUse (Activity 4): kitchen rules.",
+        "pronunciationFocus": "Stress: MIN-er-als, re-COV-ered, ex-pi-RA-tion, BI-o-die-sel, re-NEW-a-ble.",
+        "beforeReading": ["Ask: “What do you do with used frying oil at home?”"],
+        "duringReading": [
+          "First reading: Why is metal recycled?",
+          "Second reading: complete the reason chart.",
+          "Find what waste oil becomes."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Reason chart; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: kitchen rules; 42–45 Exit ticket.",
+        "discussionPoints": [
+          "Why does recycling metal save energy?",
+          "What counts as vegetable waste oil?",
+          "Why is biodiesel called renewable?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Much Less Energy” and “Biodiesel” when the picture is in place.",
+          "Word Notes: mineral, recover, mine, expiration date, pollute, renewable, biodiesel."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chart with the headings written in.",
+          "fastFinishers": "Write a short leaflet about waste oil."
+        },
+        "formativeAssessment": ["Explains metal recycling.", "Explains waste oil.", "Uses must be or so that correctly."],
+        "expectedResponses": [
+          "Metal waste must be collected separately so that it can be recovered. Recycling it needs much less energy than mining new metal. Waste oil can be turned into biodiesel."
+        ],
+        "transferTask": "Write rules for waste in a school canteen.",
+        "teacherReflection": "Did learners compare the two processes?",
+        "assessmentTools": {
+          "rubric": ["Metal", "Oil", "Language"],
+          "exitTicket": ["Write one rule with “must be + past participle”."],
+          "rubricLevels": [
+            {
+              "criterion": "Metal",
+              "secure": "Explains metal recycling.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Oil",
+              "secure": "Explains waste oil.",
+              "notYet": "Give the chart."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses must be or so that.",
+              "notYet": "Model one rule."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 6: Organic Waste",
+        "timing": "45 minutes",
+        "objectives": [
+          "Give examples of organic waste.",
+          "Explain where food is lost and where it is wasted.",
+          "Explain why each of us can make a difference.",
+          "Use surprisingly, in fact and as a result."
+        ],
+        "pedagogy": "The chapter moves from general facts to a surprising personal one: most food waste happens at home. A food journey line (farm → shop → home) with the numbers helps learners see where food is lost and wasted.",
+        "priorKnowledge": ["Linking words.", "Present simple passive."],
+        "anticipatedMisconceptions": [
+          "Food is “lost” before it reaches the customer and “wasted” in homes, restaurants and shops.",
+          "61 percent is the share of food waste that happens in households."
+        ],
+        "grammarFocus": "Targets: surprisingly · in fact · as a result · as well as · is lost / is wasted\nNotice (Activity 1): Surprisingly, … In fact, …\nBuild (Activities 2–3): fill the linkers, then rewrite.\nLikely errors: *In fact of · *Surprising, the answer …\nUse (Activity 4): making a difference.",
+        "pronunciationFocus": "Stress: or-GAN-ic, HAR-vest-ed, HOUSE-holds, sur-PRIS-ing-ly.\nNumbers: thirteen point two percent; sixty-one percent.",
+        "beforeReading": ["Ask: “Where do you think most food waste happens?”"],
+        "duringReading": [
+          "First reading: What is organic waste?",
+          "Second reading: complete the food journey line.",
+          "Find where most food waste happens."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Food journey line; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: making a difference; 42–45 Exit ticket.",
+        "discussionPoints": [
+          "What is the difference between lost and wasted food?",
+          "Why is the answer “our own homes” surprising?",
+          "How can each of us make a difference?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Scraps and Straw” and “Our Own Homes” when the picture is in place.",
+          "Word Notes: play a role, scraps, straw, harvest, household, make a difference."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the food journey line with the places written in.",
+          "fastFinishers": "Write a short news report about food waste."
+        },
+        "formativeAssessment": [
+          "Gives examples of organic waste.",
+          "Explains where food is lost and wasted.",
+          "Uses the linkers correctly."
+        ],
+        "expectedResponses": [
+          "Organic waste includes fruit and vegetable scraps and straw. Surprisingly, most food waste happens at home. In fact, 61 percent of all food waste happens in households."
+        ],
+        "transferTask": "Write about how your family can waste less food.",
+        "teacherReflection": "Did learners connect the numbers with their own homes?",
+        "assessmentTools": {
+          "rubric": ["Examples", "Numbers", "Language"],
+          "exitTicket": ["Write one sentence that starts with “Surprisingly”."],
+          "rubricLevels": [
+            {
+              "criterion": "Examples",
+              "secure": "Gives examples of organic waste.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Numbers",
+              "secure": "Explains lost and wasted food.",
+              "notYet": "Give the journey line."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses the linkers.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 7: Electronic Waste and Batteries",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain how electronic waste is recycled.",
+          "Explain how batteries work and why they need special bins.",
+          "Explain why recycling alone cannot solve the problem.",
+          "Use when, so that and instead of."
+        ],
+        "pedagogy": "The chapter ends the first part of the book: it shows that even good recycling has limits. This prepares learners for the big idea of Zero Waste in Chapter 8. A “limits of recycling” box helps learners see the turn.",
+        "priorKnowledge": ["Passive.", "Instead of + -ing."],
+        "anticipatedMisconceptions": [
+          "Toxic substances are removed before devices are taken apart.",
+          "Zero Waste does not stop recycling; it tries to stop waste before it is created."
+        ],
+        "grammarFocus": "Targets: when (general situations) · so that · instead of + -ing · passive (are taken apart)\nNotice (Activity 1): Instead of only managing waste, it tries to stop waste …\nBuild (Activities 2–3): choose the forms, then rewrite.\nLikely errors: *instead of manage · *can leaks.\nUse (Activity 4): the life of a phone.",
+        "pronunciationFocus": "Stress: e-lec-TRON-ic, TOX-ic, SUB-stan-ces, LITH-i-um, CO-balt, NICK-el.",
+        "beforeReading": ["Ask: “What do you do with an old phone?”"],
+        "duringReading": [
+          "First reading: How is electronic waste recycled?",
+          "Second reading: list the steps for batteries.",
+          "Find why recycling alone is not enough."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Battery steps; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: the life of a phone; 42–45 Exit ticket.",
+        "discussionPoints": [
+          "Why must toxic substances be removed safely?",
+          "How do batteries work?",
+          "Why can recycling alone not solve the problem?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Toxic Substances” and “Lithium, Cobalt and Nickel” when the picture is in place.",
+          "Word Notes: device, toxic, substance, take apart, rare, damaged, leak."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the frame: When …, … / Instead of …-ing, …",
+          "fastFinishers": "Write a short paragraph that explains the turn from recycling to Zero Waste."
+        },
+        "formativeAssessment": [
+          "Explains how electronic waste is recycled.",
+          "Explains the limits of recycling.",
+          "Uses when, so that or instead of correctly."
+        ],
+        "expectedResponses": [
+          "Electronic waste must be collected in separate bins so that its toxic substances can be removed safely. Recycling needs a lot of energy, so it cannot solve the problem alone. Instead of only managing waste, Zero Waste tries to stop it."
+        ],
+        "transferTask": "Write about what should happen to an old phone.",
+        "teacherReflection": "Did learners see the turn to Zero Waste?",
+        "assessmentTools": {
+          "rubric": ["E-waste", "Limits", "Language"],
+          "exitTicket": ["Write one sentence with “Instead of …-ing”."],
+          "rubricLevels": [
+            {
+              "criterion": "E-waste",
+              "secure": "Explains how electronic waste is recycled.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Limits",
+              "secure": "Explains the limits of recycling.",
+              "notYet": "Point to the last paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses when, so that or instead of.",
+              "notYet": "Give the frame."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 8: What Is Zero Waste?",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain what Zero Waste really means.",
+          "Explain sustainability.",
+          "Explain why waste is a loss of resources.",
+          "Use might, is based on and which means."
+        ],
+        "pedagogy": "The chapter corrects a common idea (“zero” = nothing) and introduces sustainability. A “myth / fact” chart helps learners compare the two ideas.",
+        "priorKnowledge": ["Modals of possibility.", "Relative clauses with which."],
+        "anticipatedMisconceptions": [
+          "Zero Waste does not mean no trash at all.",
+          "Sustainability is about future generations as well as today."
+        ],
+        "grammarFocus": "Targets: might (possibility) · be based on · which means + -ing · could …, and then we would …\nNotice (Activity 1): … you might think they mean producing no trash at all.\nBuild (Activities 2–3): choose the forms, then rewrite.\nLikely errors: *based in · *which means to meet.\nUse (Activity 4): what Zero Waste means to me.",
+        "pronunciationFocus": "Stress: sus-tain-a-BIL-i-ty, ap-PROACH, gen-er-A-tions, RE-sour-ces, re-SPON-si-bly.",
+        "beforeReading": ["Ask: “Does zero waste mean no waste at all?”"],
+        "duringReading": [
+          "First reading: What does Zero Waste really mean?",
+          "Second reading: complete the myth / fact chart.",
+          "Find why waste is a loss."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Myth / fact chart; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: what Zero Waste means to me; 42–45 Exit ticket.",
+        "discussionPoints": [
+          "Why is producing no trash at all impossible?",
+          "What is sustainability?",
+          "Why does the writer say we are throwing away valuable resources?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Sustainability” and “The Whole Life of a Product” when the picture is in place.",
+          "Word Notes: effort, manage, sustainable, approach, resources, responsibly, eco-friendly."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chart with the myth written in.",
+          "fastFinishers": "Write a short definition of sustainability with an example."
+        },
+        "formativeAssessment": [
+          "Explains what Zero Waste really means.",
+          "Explains sustainability.",
+          "Uses might or is based on correctly."
+        ],
+        "expectedResponses": [
+          "You might think that zero waste means producing no trash at all, but that is impossible. The Zero Waste approach is based on sustainability, which means meeting our needs today without damaging resources for the future."
+        ],
+        "transferTask": "Write about what Zero Waste means to you.",
+        "teacherReflection": "Did learners correct the myth in their own words?",
+        "assessmentTools": {
+          "rubric": ["Meaning", "Sustainability", "Language"],
+          "exitTicket": ["Write one sentence with “might”."],
+          "rubricLevels": [
+            {
+              "criterion": "Meaning",
+              "secure": "Explains what Zero Waste means.",
+              "notYet": "Give the chart."
+            },
+            {
+              "criterion": "Sustainability",
+              "secure": "Explains sustainability.",
+              "notYet": "Point to the second paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses might or is based on.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 9: The Circular Economy",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain the circular economy.",
+          "Explain why it is called “circular”.",
+          "Compare the circular and the linear economy.",
+          "Use instead and it is called … because."
+        ],
+        "pedagogy": "The chapter defines the circular economy by comparison. Two diagrams (a line and a loop) on the board make the idea visual, and learners place each description on the right diagram.",
+        "priorKnowledge": ["Passive.", "Linking words."],
+        "anticipatedMisconceptions": [
+          "The circular economy still allows economic growth, but it should not harm nature.",
+          "“Instead” comes after a negative idea."
+        ],
+        "grammarFocus": "Targets: it is called … because · instead · is seen as · by + -ing\nNotice (Activity 1): … do not move in a straight line … Instead, they move in a loop …\nBuild (Activities 2–3): sort the descriptions, then rewrite.\nLikely errors: *Instead of, they move … · *is called because of …\nUse (Activity 4): a product in a loop.",
+        "pronunciationFocus": "Stress: CIR-cu-lar, LIN-e-ar, tra-DI-tion-al, e-co-NOM-ic.",
+        "beforeReading": ["Ask: “What is the difference between a line and a loop?”"],
+        "duringReading": [
+          "First reading: What is a circular economy?",
+          "Second reading: draw the line and the loop.",
+          "Find the linear model."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Line and loop; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: a product in a loop; 42–45 Exit ticket.",
+        "discussionPoints": ["Why is Zero Waste a bridge to a circular economy?", "How does nature work?", "What is the main goal?"],
+        "interactiveTips": [
+          "Use the picture hotspots “An Important Bridge” and “Take, Make, Waste” when the picture is in place.",
+          "Word Notes: circular, bridge, aim, loop, growth, linear."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the two diagrams with the first steps written in.",
+          "fastFinishers": "Write a short paragraph that compares the two economies."
+        },
+        "formativeAssessment": [
+          "Explains the circular economy.",
+          "Compares the two models.",
+          "Uses instead or it is called … because correctly."
+        ],
+        "expectedResponses": [
+          "A circular economy keeps products and materials in use for as long as possible. It is called “circular” because resources move in a loop. A linear economy follows a “take, make, waste” model."
+        ],
+        "transferTask": "Write about one product in a linear and a circular economy.",
+        "teacherReflection": "Did learners compare the two models clearly?",
+        "assessmentTools": {
+          "rubric": ["Circular", "Comparison", "Language"],
+          "exitTicket": ["Write one sentence with “Instead,”."],
+          "rubricLevels": [
+            {
+              "criterion": "Circular",
+              "secure": "Explains the circular economy.",
+              "notYet": "Give the loop diagram."
+            },
+            {
+              "criterion": "Comparison",
+              "secure": "Compares the two models.",
+              "notYet": "Give the line diagram."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses instead.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 10: Reduce, Reuse, Recycle",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain the three principles.",
+          "Explain durable, repairable and upgradable products.",
+          "Explain the difference between recycling and upcycling.",
+          "Use should be + adjective / past participle and by + -ing."
+        ],
+        "pedagogy": "The chapter is a list of principles with explanations. A three-box chart helps learners sort actions. Learners then design a better product, which links the principles with real life.",
+        "priorKnowledge": ["Passive with modals.", "By + -ing."],
+        "anticipatedMisconceptions": [
+          "Recycling makes new materials; upcycling makes products of higher value.",
+          "Reduce comes first because it stops waste before it starts."
+        ],
+        "grammarFocus": "Targets: should be + adjective · should be + past participle · by + -ing\nNotice (Activity 1): Products should be designed to last a long time …\nBuild (Activities 2–3): sort the actions, then rewrite.\nLikely errors: *should designed · *by use.\nUse (Activity 4): design a better product.",
+        "pronunciationFocus": "Stress: PRIN-ci-ples, DU-ra-ble, up-GRADE (verb), UP-cy-cling.",
+        "beforeReading": ["Ask: “Why do some things break so quickly?”"],
+        "duringReading": [
+          "First reading: What are the three principles?",
+          "Second reading: complete the three-box chart.",
+          "Find the difference between recycling and upcycling."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Three-box chart; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: design a better product; 42–45 Exit ticket.",
+        "discussionPoints": [
+          "Why is Reduce the first principle?",
+          "What makes a product durable?",
+          "How does upcycling go one step further?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Durable Products” and “Higher Value” when the picture is in place.",
+          "Word Notes: principle, design, durable, upgrade, upcycling, value."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chart with the three headings written in.",
+          "fastFinishers": "Write a short guide to the three principles."
+        },
+        "formativeAssessment": ["Explains the three principles.", "Explains upcycling.", "Uses should be or by + -ing correctly."],
+        "expectedResponses": [
+          "Reduce means stopping waste before it starts. Products should be durable and easy to repair. Upcycling turns waste into new products of higher value."
+        ],
+        "transferTask": "Write about how a product should be designed.",
+        "teacherReflection": "Did learners separate recycling and upcycling?",
+        "assessmentTools": {
+          "rubric": ["Principles", "Upcycling", "Language"],
+          "exitTicket": ["Write one sentence with “should be designed”."],
+          "rubricLevels": [
+            {
+              "criterion": "Principles",
+              "secure": "Explains the three principles.",
+              "notYet": "Give the chart."
+            },
+            {
+              "criterion": "Upcycling",
+              "secure": "Explains upcycling.",
+              "notYet": "Point to the last paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses should be or by + -ing.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 11: Why Is the Circular Economy Important?",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain the three benefits of the circular economy.",
+          "Explain how it supports sustainable growth.",
+          "Summarize the argument.",
+          "Use in short, as a result and comparative adverbs."
+        ],
+        "pedagogy": "The chapter is a clear argument with three benefits and a summary. A benefit chart (benefit · how · result) helps learners see the structure and then write their own short argument.",
+        "priorKnowledge": ["Linking words.", "Comparatives."],
+        "anticipatedMisconceptions": [
+          "The circular economy still supports growth; it is not against the economy.",
+          "“In short” summarizes; it does not add a new benefit."
+        ],
+        "grammarFocus": "Targets: in short · as a result · comparative adverbs (more efficiently) · not as many … as\nNotice (Activity 1): In short, the circular economy is a promising new way …\nBuild (Activities 2–3): fill the words, then rewrite.\nLikely errors: *more efficient (adverb needed) · *as many new resources than.\nUse (Activity 4): benefits for our town.",
+        "pronunciationFocus": "Stress: BEN-e-fits, ef-FI-cient-ly, PROM-is-ing, sus-TAIN-a-ble.",
+        "beforeReading": ["Ask: “Why is the circular economy good for us?”"],
+        "duringReading": [
+          "First reading: What are the three benefits?",
+          "Second reading: complete the benefit chart.",
+          "Find the summary."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Benefit chart; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: benefits for our town; 42–45 Exit ticket.",
+        "discussionPoints": [
+          "How does the circular economy reduce waste?",
+          "What does using resources efficiently mean?",
+          "Why will the circular economy become more important?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Better Use of Resources” and “New Jobs” when the picture is in place.",
+          "Word Notes: benefit, efficiently, get rid of, cost, promising."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chart with the three headings written in.",
+          "fastFinishers": "Write a short argument with three benefits and a summary."
+        },
+        "formativeAssessment": ["Explains the three benefits.", "Summarizes the argument.", "Uses in short or as a result correctly."],
+        "expectedResponses": [
+          "The circular economy reduces waste and pollution, uses resources more efficiently and supports sustainable growth. In short, it is a promising new way of thinking about the economy."
+        ],
+        "transferTask": "Write about the benefits of a repair café in your town.",
+        "teacherReflection": "Did learners follow the structure of the argument?",
+        "assessmentTools": {
+          "rubric": ["Benefits", "Summary", "Language"],
+          "exitTicket": ["Write one sentence that starts with “In short”."],
+          "rubricLevels": [
+            {
+              "criterion": "Benefits",
+              "secure": "Explains the three benefits.",
+              "notYet": "Give the chart."
+            },
+            {
+              "criterion": "Summary",
+              "secure": "Summarizes the argument.",
+              "notYet": "Point to the last paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses in short or as a result.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 12: Waste and Climate",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain how waste and the climate crisis are connected.",
+          "Explain what methane is and where it comes from.",
+          "Explain the injustice of climate change.",
+          "Use the present perfect and however."
+        ],
+        "pedagogy": "The chapter links waste with climate in a chain (organic waste → landfill → methane → warming) and raises a question of justice. Learners give a reasoned opinion.",
+        "priorKnowledge": ["Present perfect.", "Contrast linkers."],
+        "anticipatedMisconceptions": [
+          "Methane comes from organic materials rotting in landfills.",
+          "Developing countries produce low emissions but suffer the most."
+        ],
+        "grammarFocus": "Targets: present perfect (have more than doubled) · however / but · so\nNotice (Activity 1): … emissions have more than doubled in the last 50 years.\nBuild (Activities 2–3): fill the linkers, then rewrite.\nLikely errors: *have doubled 50 years ago · *However they suffer, but …\nUse (Activity 4): is it fair?",
+        "pronunciationFocus": "Stress: METH-ane, in-JUS-tice, de-VEL-op-ing, POL-lu-tants.\nNumbers: fifteen to twenty percent.",
+        "beforeReading": ["Ask: “What happens to food waste in a landfill?”"],
+        "duringReading": [
+          "First reading: How are waste and climate connected?",
+          "Second reading: complete the chain.",
+          "Find the injustice."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Chain; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: is it fair?; 42–45 Exit ticket.",
+        "discussionPoints": ["What is methane?", "How does Zero Waste stop harmful gases at the source?", "Why is the situation unjust?"],
+        "interactiveTips": [
+          "Use the picture hotspots “Methane” and “A Serious Injustice” when the picture is in place.",
+          "Word Notes: crisis, greenhouse gas, rot, release, injustice, developing country, run out of, absorb."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chain with the first step written in.",
+          "fastFinishers": "Write a short paragraph about methane and black carbon."
+        },
+        "formativeAssessment": [
+          "Explains the link between waste and climate.",
+          "Explains the injustice.",
+          "Uses the present perfect or however correctly."
+        ],
+        "expectedResponses": [
+          "When organic materials rot in landfills, they release methane. Better waste management can cut emissions by 15 to 20 percent. However, developing countries often suffer the most from climate change."
+        ],
+        "transferTask": "Write about the injustice of climate change.",
+        "teacherReflection": "Did learners give a reasoned opinion?",
+        "assessmentTools": {
+          "rubric": ["Link", "Justice", "Language"],
+          "exitTicket": ["Write one sentence that starts with “However”."],
+          "rubricLevels": [
+            {
+              "criterion": "Link",
+              "secure": "Explains the link between waste and climate.",
+              "notYet": "Give the chain."
+            },
+            {
+              "criterion": "Justice",
+              "secure": "Explains the injustice.",
+              "notYet": "Point to the second paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses the present perfect or however.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 13: How Can We Help?",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain why we need to act before waste appears.",
+          "Explain how food waste can be reduced.",
+          "Explain why single-use packaging is not necessary.",
+          "Use can be replaced with and that is why."
+        ],
+        "pedagogy": "The chapter turns from ideas to action. A “replace it” chart (single-use item → waste-free choice) helps learners plan practical changes.",
+        "priorKnowledge": ["Passive with modals.", "Relative clauses."],
+        "anticipatedMisconceptions": [
+          "Packaging-free shops help stop both packaging and food waste.",
+          "“Replace A with B”: A goes, B comes."
+        ],
+        "grammarFocus": "Targets: can be replaced with · that is why · the passive (is never created)\nNotice (Activity 1): … can all be replaced with waste-free choices.\nBuild (Activities 2–3): choose the forms, then rewrite.\nLikely errors: *replaced by with · *That is because we need …\nUse (Activity 4): a waste-free canteen.",
+        "pronunciationFocus": "Stress: PRAC-ti-cal, SIN-gle-use, CAN-teen, pack-ag-ing-FREE.",
+        "beforeReading": ["Ask: “What single-use things did you use this week?”"],
+        "duringReading": [
+          "First reading: What is the best waste?",
+          "Second reading: complete the “replace it” chart.",
+          "Find where food waste can be reduced."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 “Replace it” chart; 17–21 Quick Challenge; 21–35 Language Focus 1–3; 35–42 Use: a waste-free canteen; 42–45 Exit ticket.",
+        "discussionPoints": [
+          "Why is the best waste the waste that is never created?",
+          "Where can food waste be reduced?",
+          "Why is most single-use packaging not necessary?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Never Created” and “Waste-Free Choices” when the picture is in place.",
+          "Word Notes: practical, single-use, replace, canteen, packaging-free."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chart with the single-use items written in.",
+          "fastFinishers": "Write a short leaflet with three practical ideas."
+        },
+        "formativeAssessment": ["Explains acting before waste appears.", "Gives practical ideas.", "Uses can be replaced with correctly."],
+        "expectedResponses": [
+          "The best waste is the waste that is never created. That is why we need to act before waste appears. Plastic water bottles can be replaced with waste-free choices."
+        ],
+        "transferTask": "Write ideas for a waste-free school canteen.",
+        "teacherReflection": "Did learners give practical, realistic ideas?",
+        "assessmentTools": {
+          "rubric": ["Idea", "Practice", "Language"],
+          "exitTicket": ["Write one sentence with “can be replaced with”."],
+          "rubricLevels": [
+            {
+              "criterion": "Idea",
+              "secure": "Explains acting before waste appears.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Practice",
+              "secure": "Gives practical ideas.",
+              "notYet": "Give the chart."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses can be replaced with.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 14: Cities, Families and the Future",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain what local governments can do.",
+          "Explain why teaching children and families is important.",
+          "Explain why Zero Waste is a journey.",
+          "Use where-clauses and no better time than now."
+        ],
+        "pedagogy": "The closing chapter gives ideas for cities and families and ends with a reflection and Gandhi’s words. The jigsaw town plan brings the whole book together.",
+        "priorKnowledge": ["Relative clauses.", "Comparatives."],
+        "anticipatedMisconceptions": [
+          "Gandhi’s words compare need and greed; they do not say the world is poor.",
+          "Zero Waste is a way of thinking, not a final result."
+        ],
+        "grammarFocus": "Targets: relative clauses with where · there is no better … than · not … but\nNotice (Activity 1): … tool libraries, where people borrow tools instead of buying them.\nBuild (Activities 2–3): sort the ideas, then rewrite.\nLikely errors: *tool libraries which people borrow · *no better time that now.\nUse (Activity 4): a letter to the mayor.",
+        "pronunciationFocus": "Stress: HY-giene, PLAT-forms, WASTE-ful, LIV-a-ble, con-SUMP-tion.\nName: GAN-dhi.",
+        "beforeReading": ["Ask: “What can a city do to reduce waste?”"],
+        "duringReading": [
+          "First reading: What can local governments do?",
+          "Second reading: sort the ideas.",
+          "Find why Zero Waste is a journey."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4.", "Group task: “Zero Waste: A Town Plan”."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–16 Sort the ideas; 16–20 Quick Challenge; 20–35 Language Focus 1–3; 35–42 Use: a letter to the mayor; 42–45 Exit ticket. (Town plan in a second lesson.)",
+        "discussionPoints": [
+          "What can local governments do?",
+          "Why is teaching children the best way to change habits?",
+          "What do Gandhi’s words mean?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Tool Libraries” and “A Journey” when the picture is in place.",
+          "The jigsaw town plan closes the book.",
+          "Word Notes: local government, refill, hygiene, put into practice, wasteful, platform."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the frame: Our town could … / a place where …",
+          "fastFinishers": "Write a short reflection on Gandhi’s words."
+        },
+        "formativeAssessment": ["Explains what cities can do.", "Explains why Zero Waste is a journey.", "Uses where correctly."],
+        "expectedResponses": [
+          "Local governments can set up refill systems and tool libraries, where people borrow tools instead of buying them. Zero Waste is a way of thinking, not a final result. It is a journey that continues."
+        ],
+        "transferTask": "Write a letter to your mayor.",
+        "teacherReflection": "Did learners connect the book with their own town?",
+        "assessmentTools": {
+          "rubric": ["Cities", "Journey", "Language"],
+          "exitTicket": ["Write one sentence with “where” about a place in your town."],
+          "rubricLevels": [
+            {
+              "criterion": "Cities",
+              "secure": "Explains what cities can do.",
+              "notYet": "Give the frame."
+            },
+            {
+              "criterion": "Journey",
+              "secure": "Explains why Zero Waste is a journey.",
+              "notYet": "Point to the third paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses where.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      }
     ],
-    "summative": [
-     "Final Challenge"
-    ]
-   },
-   "readingFramework": {
-    "before": "A short start from something learners can see: a picture, an object or a date.",
-    "during": "Listen first with one question, then read and do one concrete task.",
-    "after": "Quick Challenge, then the Language Focus, then a short Use task about the learners’ own life."
-   },
-   "vocabularyApproach": {
-    "selection": "The Word Notes of each chapter.",
-    "method": "Meet the word in the chapter, check its note, use it in a sentence.",
-    "recycling": "Key Terms, Master Glossary and Vocabulary Challenge."
-   },
-   "grammarApproach": "",
-   "grammarSequence": [],
-   "skillsFocus": {
-    "reading": "Find facts and numbers in an informational text.",
-    "listening": "Listen for one key fact first.",
-    "speaking": "Short pair talk about home, school and town.",
-    "writing": "Three-sentence frames."
-   },
-   "valuesFocus": [],
-   "languageFocus": [],
-   "differentiationNotes": "",
-   "sensitiveNotes": {
-    "title": "Notes for the teacher",
-    "notes": [
-     "The text is about EU policy. Türkiye’s own plan (2021, net zero by 2053) is in Chapter 8."
-    ]
-   },
-   "globalCitizenship": {
-    "title": "Our world today",
-    "description": "Learners connect EU and Türkiye goals with small actions at home and school.",
-    "themes": [
-     "Climate",
-     "Energy",
-     "Repair and reuse"
-    ],
-    "actions": [
-     "Plan a green week for the class (Language Review)."
-    ]
-   },
-   "appendices": {
-    "exitTicket": [
-     "One fact from today’s chapter."
-    ],
-    "miniProject": {
-     "title": "Green week",
-     "desc": "Plan five green actions for the class, one for each day."
-    },
-    "reflectivePrompt": {
-     "title": "My green step",
-     "desc": "What will you change this week?"
+    "metadata": {
+      "title": "Zero Waste B1 — Teacher’s Book",
+      "subtitle": "Our World Today",
+      "level": "B1",
+      "estimatedDuration": "14 chapter units of 45 minutes each. Whole-book review pages follow separately.",
+      "targetAudience": "B1 English learners.",
+      "targetLearners": "Learners who can follow connected informational texts about society, economy and the environment, and who can produce supported explanations and short arguments.",
+      "purpose": "Develop evidence-based B1 reading, listening, speaking and writing through an informational text about waste and Zero Waste: kinds of waste and their recycling processes, the limits of recycling, sustainability, the circular economy, the three principles, waste and climate, and what people and cities can do, using the Language Focus attached to every chapter.",
+      "approachDesc": "Every chapter follows the TYMM route. YDAB1 listening and YDAB2 reading establish meaning and evidence; the Quick Challenge checks comprehension. Grammar is then learned inductively: in the Language Focus, learners first NOTICE a form in a real chapter sentence and work out what it does, then BUILD it in controlled, meaningful practice, and finally USE it in connected YDAB3 speaking and YDAB4 writing about their own world.",
+      "assessmentEvidence": "14 Quick Challenges, text-evidence checks, chapter Language Focus tasks (Notice → Build → Use), exit tickets, Knowledge Check, Vocabulary Challenge, Language Review and Final Challenge.",
+      "assessmentOverview": {
+        "formative": [
+          "Quick Challenge after each chapter",
+          "Evidence checks in the text",
+          "Language Focus: Notice → Build → Use",
+          "Short spoken and written Use tasks",
+          "Exit tickets",
+          "Knowledge Check",
+          "Vocabulary Challenge",
+          "Language Review"
+        ],
+        "summative": ["Final Challenge"]
+      },
+      "readingFramework": {
+        "before": "Activate only what the chapter needs: a short question, a real object (a bottle, a carton, a battery) or a picture of a bin.",
+        "during": "Listen first for gist (when the audio is ready), then read and follow the chapter’s own structure: a number line, a process flow chart, data charts, a comparison chart, a myth / fact chart, a line and a loop, a benefit chart or a list of actions.",
+        "after": "Complete the Quick Challenge, then the chapter’s Language Focus (notice → build → use), then a connected B1 transfer about the learners’ own world."
+      },
+      "vocabularyApproach": {
+        "selection": "Word Notes are the bold words of the teacher-approved text. Prioritize them and the words needed for the chapter’s key idea.",
+        "method": "Infer meaning from context, a real object or a picture before any direct explanation.",
+        "recycling": "Reuse vocabulary in Language Focus tasks, exit tickets, Key Terms and the Language Review."
+      },
+      "grammarApproach": "Inductive and text-based. Start from the chapter sentence, ask a meaning question (What does this form tell us?), let learners formulate the rule in their own words, then confirm it and practice it in context. Rule explanations appear in the app only after learners answer.",
+      "grammarSequence": [
+        "Ch1: expect + object + to · present simple passive (is treated) · make up / end up",
+        "Ch2: present simple passive (is collected, is pressed, is processed) · so that · which makes it + adjective",
+        "Ch3: rise from … to … · an increase of … · past simple passive (was recycled, was burned)",
+        "Ch4: be made from · be made by + -ing · for this reason · separate from",
+        "Ch5: must be / can be + past participle · so that … can · much less … than",
+        "Ch6: surprisingly · in fact · as a result · as well as · is lost / is wasted",
+        "Ch7: when (general situations) · so that · instead of + -ing · passive (are taken apart)",
+        "Ch8: might (possibility) · be based on · which means + -ing · could …, and then we would …",
+        "Ch9: it is called … because · instead · is seen as · by + -ing",
+        "Ch10: should be + adjective · should be + past participle · by + -ing",
+        "Ch11: in short · as a result · comparative adverbs (more efficiently) · not as many … as",
+        "Ch12: present perfect (have more than doubled) · however / but · so",
+        "Ch13: can be replaced with · that is why · the passive (is never created)",
+        "Ch14: relative clauses with where · there is no better … than · not … but"
+      ],
+      "skillsFocus": {
+        "listening": "TYMM YDAB1: follow narration for gist, facts, numbers and processes.",
+        "reading": "TYMM YDAB2: identify main ideas, processes, data, causes and results.",
+        "speaking": "TYMM YDAB3: describe processes, explain ideas and propose solutions.",
+        "writing": "TYMM YDAB4: produce connected B1 paragraphs using evidence, linking words and chapter patterns."
+      },
+      "valuesFocus": [
+        "D16 Responsibility — Caring for nature and future generations.",
+        "D5 Sensitivity — Noticing what nature needs.",
+        "D20 Helpfulness — Sharing and helping others.",
+        "D1 Justice — Fairness between countries."
+      ],
+      "languageFocus": [
+        "Every one of the 14 chapters has a Language Focus set built as Notice → Build → Use (4 activities).",
+        "Use the Language Focus after basic comprehension and the Quick Challenge.",
+        "Always start from the story sentence and ask a meaning question before naming the form.",
+        "The Use step is connected spoken or written production about a new, non-story situation."
+      ],
+      "differentiationNotes": "Reduce linguistic load without lowering the thinking target: one paragraph at a time, charts given in part, real objects, audio replay, sentence frames and oral rehearsal. Extend by asking for one more sentence or one more reason from the book, not by introducing outside facts.",
+      "sensitiveNotes": {
+        "title": "Source fidelity and respectful teaching",
+        "notes": [
+          "Keep explanations within the wording of the book; do not add outside numbers or opinions.",
+          "Talk about food waste and money with care; some families may have little food at home.",
+          "Do not let learners touch real batteries or broken electronics in class; use pictures or closed, clean objects."
+        ]
+      },
+      "globalCitizenship": {
+        "title": "Global Citizenship and Cultural Bridges",
+        "description": "Zero Waste connects with questions every community faces today: how to use less, how to share and repair, and how to protect nature together.",
+        "themes": [
+          {
+            "title": "Need and greed:",
+            "description": "Gandhi said the world has enough for everyone’s need, but not for everyone’s greed (Chapter 14). Discuss what this means in your culture."
+          },
+          {
+            "title": "Sharing:",
+            "description": "Tool libraries let people borrow tools instead of buying them (Chapter 14). Discuss how neighbors share things in your community."
+          },
+          {
+            "title": "Fairness:",
+            "description": "Developing countries often suffer the most from climate change (Chapter 12). Discuss how countries can help each other."
+          },
+          {
+            "title": "Future generations:",
+            "description": "Sustainability protects the resources that future generations will need (Chapter 8). Discuss what we owe to people in the future."
+          }
+        ],
+        "actions": [
+          "Find the recycling bins nearest to your home.",
+          "Repair or reuse one old thing this week.",
+          "Say “no” to one single-use item this week."
+        ]
+      },
+      "appendices": {
+        "exitTicket": [
+          "One idea from today’s chapter, with the sentence that supports it, is …",
+          "One language pattern I noticed today, and what it does in the sentence, is …",
+          "One Zero Waste action I can take this week is …"
+        ],
+        "miniProject": {
+          "title": "Zero Waste: A Town Plan",
+          "desc": "In groups, each member becomes an expert on one part of the book: materials, ideas, benefits or action. Teach your part, then write a town plan with four actions."
+        },
+        "reflectivePrompt": {
+          "title": "My Zero Waste Journey",
+          "desc": "Zero Waste is a way of thinking, not a final result (Chapter 14). Write six to eight sentences about your own Zero Waste journey."
+        }
+      },
+      "valuesEducation": {
+        "title": "TYMM Values in Action",
+        "description": "Use only values the chapter really shows. Ask for the sentence first, then connect the value to a small action learners can do and see. See https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi.",
+        "items": [
+          {
+            "label": "D16 Responsibility",
+            "value": "Responsibility: Sustainability means meeting our needs today without damaging the resources that future generations will need (Chapter 8)."
+          },
+          {
+            "label": "D5 Sensitivity",
+            "value": "Sensitivity: Waste batteries must be collected in special bins because their dangerous chemicals can leak into the soil and water (Chapter 7)."
+          },
+          {
+            "label": "D20 Helpfulness",
+            "value": "Helpfulness: Tool libraries let people borrow tools instead of buying them (Chapter 14)."
+          },
+          {
+            "label": "D1 Justice",
+            "value": "Justice: Many developing countries produce very low emissions, but they often suffer the most from climate change (Chapter 12)."
+          }
+        ],
+        "questions": [
+          "Which sentence shows the value?",
+          "What small action can show it this week?",
+          "Which part is from the book and which part is my own idea?"
+        ]
+      },
+      "cefrProfile": {
+        "intro": "This book is written for CEFR B1. The table links the B1 descriptors of the End-of-Level Test B1 to the chapters of this book where learners practice them.",
+        "rows": [
+          {
+            "scale": "Overall reading comprehension",
+            "descriptor": "Can read straightforward factual texts on subjects related to his/her field and interest with a satisfactory level of comprehension.",
+            "chapters": "All chapters (1–14)",
+            "practice": ["Chapter 3 (Plastic): Read and describe the data.", "Whole book: Knowledge Check and Final Challenge."]
+          },
+          {
+            "scale": "Overall written production",
+            "descriptor": "Can write straightforward connected texts on a range of familiar subjects within his field of interest, by linking a series of shorter discrete elements into a linear sequence.",
+            "chapters": "Chapters 1–14 (Use activities)",
+            "practice": [
+              "Chapter 2 (Paper and Wood): Describe a recycling process.",
+              "Chapter 12 (Waste and Climate): Write about the injustice of climate change.",
+              "Language Review, “Use: My Zero Waste Journey”: Write six to eight sentences."
+            ]
+          },
+          {
+            "scale": "Overall spoken production",
+            "descriptor": "Can reasonably fluently sustain a straightforward description of one of a variety of subjects within his/her field of interest, presenting it as a linear sequence of points.",
+            "chapters": "Chapters 9, 11, 14",
+            "practice": [
+              "Chapter 11 (Why Is the Circular Economy Important?): Present the benefits of a repair café.",
+              "Chapter 14 (Cities, Families and the Future): Present your expert part in the town plan."
+            ]
+          }
+        ],
+        "test": {
+          "title": "End-of-Level Test B1",
+          "level": "B1",
+          "when": "Give the test when the class has finished the B1 books it reads this term. It has four parts and takes about 70 minutes plus a short speaking test for each learner.",
+          "parts": [
+            "Reading and Language (45 minutes): in the app. The learner gets a test code at the end.",
+            "Writing (25 minutes): on paper. Write an article for your school website about a person you admire. (100–130 words)",
+            "Speaking (about 8 minutes): one learner with the teacher, in 2 parts.",
+            "Scoring: type the test code in “Score a test”, then score Writing and Speaking with the bands. Copy the pilot line for the pilot results sheet."
+          ]
+        }
+      }
     }
-   },
-   "valuesEducation": {
-    "title": "Values",
-    "description": "Responsibility and not wasting, through the text’s own facts.",
-    "items": [
-     "Responsibility",
-     "Saving",
-     "Cooperation"
+  },
+  "selfStudyGuide": {
+    "content": [
+      {
+        "chapter": "Chapter 1: What Is Waste?",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain how zero waste looks at waste.",
+          "I can explain the numbers about city waste.",
+          "I can use expect + object + to and the passive is treated."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Experts expect this number to reach 3.8 billion tons by 2050”: a prediction. Then choose the forms and rewrite three sentences.",
+        "pronunciationFocus": "Say: two point three billion tons. Stress: fa-CIL-i-ties, or-GAN-ic.",
+        "lessonPlan": "Is waste only what is left over? Write one idea. Read the chapter and find how zero waste looks at waste. Make a number line.",
+        "discussionPoints": ["The basic idea of zero waste is to stop making rubbish. What rubbish could you stop making?"],
+        "interactiveTips": ["Open the picture hotspots “A Different Way” and “62 Percent” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the first paragraph again. Find “It is the result of”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five sentences about the waste in your home bin."
+        },
+        "whatToNotice": ["Zero waste sees waste in a different way.", "Plastic waste is rising fast."],
+        "readListen": [
+          "Is waste only what is left over? Write one idea.",
+          "Read the chapter and find how zero waste looks at waste.",
+          "Make a number line."
+        ],
+        "findAnswerInStory": [
+          "Find the 2023 and 2050 numbers.",
+          "Find how much city waste is treated properly.",
+          "Find what makes up the largest part of city waste."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: consume, solid waste, expect, facility, organic, worrying, end up.",
+          "“The way we consume things.” What does consume mean?",
+          "Write one sentence with end up."
+        ],
+        "quickChallengeGuide": "You will choose what waste is the result of. Read the first paragraph.",
+        "wrongAnswerSupport": ["Read the first paragraph again.", "Find “It is the result of”.", "Try again."],
+        "selfCheck": ["Can I explain the zero waste idea?", "Can I explain the numbers?", "Can I use expect … to?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five sentences about the waste in your home bin.",
+        "reflectionPrompt": "The basic idea of zero waste is to stop making rubbish. What rubbish could you stop making?"
+      },
+      {
+        "chapter": "Chapter 2: Paper and Wood",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain how paper and wood are recycled.",
+          "I can explain why recycling paper is important.",
+          "I can use the present simple passive and so that."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Paper waste is collected separately”: the passive for a process. Then order the steps and rewrite three sentences.",
+        "pronunciationFocus": "Stress: CARD-board, TIM-ber, trans-PORT.",
+        "lessonPlan": "What happens to the paper in our recycling box? Write one idea. Read the chapter and find why recycling paper is important. Make a flow chart.",
+        "discussionPoints": ["Wood can be used again instead of being thrown away. What wooden thing at home could have a second life?"],
+        "interactiveTips": ["Open the picture hotspots “Pressed into Blocks” and “Timber and Boards” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the first paragraph again. Find “because it saves”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five sentences that describe a recycling process at your school."
+        },
+        "whatToNotice": ["Paper recycling saves raw materials.", "Wood can be used again."],
+        "readListen": [
+          "What happens to the paper in our recycling box? Write one idea.",
+          "Read the chapter and find why recycling paper is important.",
+          "Make a flow chart."
+        ],
+        "findAnswerInStory": [
+          "Find why paper is collected separately.",
+          "Find why it is pressed into blocks.",
+          "Find what wood waste becomes."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: raw materials, press, transport, process, cardboard, timber.",
+          "“Raw materials.” What are raw materials?",
+          "Write one sentence with transport."
+        ],
+        "quickChallengeGuide": "You will choose why recycling paper is important. Read the first paragraph.",
+        "wrongAnswerSupport": ["Read the first paragraph again.", "Find “because it saves”.", "Try again."],
+        "selfCheck": ["Can I explain why recycling paper is important?", "Can I describe the process?", "Can I use the passive?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five sentences that describe a recycling process at your school.",
+        "reflectionPrompt": "Wood can be used again instead of being thrown away. What wooden thing at home could have a second life?"
+      },
+      {
+        "chapter": "Chapter 3: Plastic",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain why plastics cannot all be recycled in the same way.",
+          "I can describe how plastic production and waste changed.",
+          "I can use rise from … to … and the past simple passive."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “It rose from 234 to 460 million tons”: a change in numbers. Then describe the data and choose the forms.",
+        "pronunciationFocus": "Say: four hundred sixty million tons. Stress: pro-DUC-tion, IN-crease.",
+        "lessonPlan": "Where does plastic go at the end of its life? Write one idea. Read the chapter and find why plastics are hard to recycle. Make a bar chart and a pie chart.",
+        "discussionPoints": ["Only 9 percent of plastic waste was recycled. Which plastic item could you stop using?"],
+        "interactiveTips": ["Open the picture hotspots “Almost Doubled” and “Open Dumps” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the last paragraph again. Find “Half of it”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five sentences that describe a change in your school or town."
+        },
+        "whatToNotice": ["Plastic production almost doubled.", "Plastic waste grew even faster."],
+        "readListen": [
+          "Where does plastic go at the end of its life? Write one idea.",
+          "Read the chapter and find why plastics are hard to recycle.",
+          "Make a bar chart and a pie chart."
+        ],
+        "findAnswerInStory": [
+          "Find the production numbers for 2000 and 2019.",
+          "Find the waste numbers.",
+          "Find what happened to the plastic waste."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: manufactured goods, global, production, double, landfill, dump, escape.",
+          "“Open dumps.” What is a dump?",
+          "Write one sentence with double."
+        ],
+        "quickChallengeGuide": "You will choose what happened to half of all plastic waste. Read the last paragraph.",
+        "wrongAnswerSupport": ["Read the last paragraph again.", "Find “Half of it”.", "Try again."],
+        "selfCheck": ["Can I explain why plastic is hard to recycle?", "Can I describe the data?", "Can I use the passive?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five sentences that describe a change in your school or town.",
+        "reflectionPrompt": "Only 9 percent of plastic waste was recycled. Which plastic item could you stop using?"
+      },
+      {
+        "chapter": "Chapter 4: Glass and Composite Packaging",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain how glass is recycled and why it is sorted by color.",
+          "I can explain what composite packaging is and how it is recycled.",
+          "I can use is made from, is made by + -ing and for this reason."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Glass is made mainly from sand” and “Composite packaging is made by combining …”. Then choose the forms and rewrite three sentences.",
+        "pronunciationFocus": "Stress: LIME-stone, com-POS-ite, a-LU-mi-num.",
+        "lessonPlan": "What is a juice carton made from? Write one idea. Read the chapter and find how glass is recycled. Make a comparison chart.",
+        "discussionPoints": ["Juice and milk cartons create a huge amount of waste. How could you use fewer cartons?"],
+        "interactiveTips": ["Open the picture hotspots “Sorted by Color” and “A Thin Layer” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the first paragraph again. Find “This helps”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five sentences about how a product is made and recycled."
+        },
+        "whatToNotice": ["Glass is sorted by color.", "Composite packaging has layers."],
+        "readListen": [
+          "What is a juice carton made from? Write one idea.",
+          "Read the chapter and find how glass is recycled.",
+          "Make a comparison chart."
+        ],
+        "findAnswerInStory": [
+          "Find what glass is made from.",
+          "Find why glass is sorted by color.",
+          "Find what composite packaging is made by combining."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: limestone, container, sort, carbon emissions, composite, combine, advanced.",
+          "“Composite packaging.” What does composite mean?",
+          "Write one sentence with container."
+        ],
+        "quickChallengeGuide": "You will choose why glass is sorted by color. Read the first paragraph.",
+        "wrongAnswerSupport": ["Read the first paragraph again.", "Find “This helps”.", "Try again."],
+        "selfCheck": ["Can I explain how glass is recycled?", "Can I explain composite packaging?", "Can I use made from and made by?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five sentences about how a product is made and recycled.",
+        "reflectionPrompt": "Juice and milk cartons create a huge amount of waste. How could you use fewer cartons?"
+      },
+      {
+        "chapter": "Chapter 5: Metal and Vegetable Oil",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain why metal is recycled.",
+          "I can explain what vegetable waste oil is and what it becomes.",
+          "I can use must be + past participle and so that … can."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Metal waste must be collected separately so that it can be recovered”. Then choose the forms and rewrite three sentences.",
+        "pronunciationFocus": "Stress: MIN-er-als, re-COV-ered, BI-o-die-sel.",
+        "lessonPlan": "What do you do with used frying oil? Write one idea. Read the chapter and find why metal is recycled. Make a reason chart.",
+        "discussionPoints": ["Waste oil can pollute our water. How can your family store used oil safely?"],
+        "interactiveTips": ["Open the picture hotspots “Much Less Energy” and “Biodiesel” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the second paragraph again. Find “because it can”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five rules for waste in a school canteen."
+        },
+        "whatToNotice": ["Recycling metal saves energy.", "Waste oil can become a clean fuel."],
+        "readListen": [
+          "What do you do with used frying oil? Write one idea.",
+          "Read the chapter and find why metal is recycled.",
+          "Make a reason chart."
+        ],
+        "findAnswerInStory": [
+          "Find three kinds of metal waste.",
+          "Find what counts as vegetable waste oil.",
+          "Find what waste oil becomes."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: mineral, recover, mine, expiration date, pollute, renewable, biodiesel.",
+          "“Recover.” What does recover mean here?",
+          "Write one sentence with pollute."
+        ],
+        "quickChallengeGuide": "You will choose why waste oil must be collected separately. Read the second paragraph.",
+        "wrongAnswerSupport": ["Read the second paragraph again.", "Find “because it can”.", "Try again."],
+        "selfCheck": ["Can I explain metal recycling?", "Can I explain waste oil?", "Can I use must be + past participle?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five rules for waste in a school canteen.",
+        "reflectionPrompt": "Waste oil can pollute our water. How can your family store used oil safely?"
+      },
+      {
+        "chapter": "Chapter 6: Organic Waste",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can give examples of organic waste.",
+          "I can explain where food is lost and wasted.",
+          "I can use surprisingly, in fact and as a result."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Surprisingly, the answer is our own homes. In fact, …”. Then fill the linkers and rewrite three sentences.",
+        "pronunciationFocus": "Stress: or-GAN-ic, HAR-vest-ed, sur-PRIS-ing-ly.",
+        "lessonPlan": "Where do you think most food waste happens? Write one idea. Read the chapter and find examples of organic waste. Make a food journey line.",
+        "discussionPoints": ["Each of us can make a real difference. What food will you save this week?"],
+        "interactiveTips": ["Open the picture hotspots “Scraps and Straw” and “Our Own Homes” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the last paragraph again. Find “This means”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five sentences about how your family can waste less food."
+        },
+        "whatToNotice": ["Some food is lost before it reaches us.", "Most food waste happens at home."],
+        "readListen": [
+          "Where do you think most food waste happens? Write one idea.",
+          "Read the chapter and find examples of organic waste.",
+          "Make a food journey line."
+        ],
+        "findAnswerInStory": [
+          "Find examples of organic waste.",
+          "Find how much food is lost after harvest.",
+          "Find how much food waste happens in households."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: play a role, scraps, straw, harvest, household, make a difference.",
+          "“Scraps.” What are scraps?",
+          "Write one sentence with make a difference."
+        ],
+        "quickChallengeGuide": "You will choose why each of us can make a difference. Read the last paragraph.",
+        "wrongAnswerSupport": ["Read the last paragraph again.", "Find “This means”.", "Try again."],
+        "selfCheck": [
+          "Can I give examples of organic waste?",
+          "Can I explain lost and wasted food?",
+          "Can I use surprisingly and in fact?"
+        ],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five sentences about how your family can waste less food.",
+        "reflectionPrompt": "Each of us can make a real difference. What food will you save this week?"
+      },
+      {
+        "chapter": "Chapter 7: Electronic Waste and Batteries",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain how electronic waste and batteries are recycled.",
+          "I can explain why recycling alone cannot solve the problem.",
+          "I can use when, so that and instead of."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Instead of only managing waste, it tries to stop waste …”. Then choose the forms and rewrite three sentences.",
+        "pronunciationFocus": "Stress: TOX-ic, SUB-stan-ces, LITH-i-um.",
+        "lessonPlan": "What do you do with an old phone? Write one idea. Read the chapter and find how electronic waste is recycled. List the steps for batteries.",
+        "discussionPoints": ["Zero Waste tries to stop waste before it is created. What could you repair instead of replacing?"],
+        "interactiveTips": ["Open the picture hotspots “Toxic Substances” and “Lithium, Cobalt and Nickel” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the last paragraph again. Find “Instead of”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five sentences about what should happen to an old phone."
+        },
+        "whatToNotice": ["Electronic waste has toxic substances.", "Recycling alone cannot solve the problem."],
+        "readListen": [
+          "What do you do with an old phone? Write one idea.",
+          "Read the chapter and find how electronic waste is recycled.",
+          "List the steps for batteries."
+        ],
+        "findAnswerInStory": ["Find seven electronic devices.", "Find three metals in batteries.", "Find what Zero Waste tries to do."],
+        "vocabularyInContext": [
+          "Word Notes: device, toxic, substance, take apart, rare, damaged, leak.",
+          "“Toxic substances.” What does toxic mean?",
+          "Write one sentence with device."
+        ],
+        "quickChallengeGuide": "You will choose what Zero Waste tries to do. Read the last paragraph.",
+        "wrongAnswerSupport": ["Read the last paragraph again.", "Find “Instead of”.", "Try again."],
+        "selfCheck": ["Can I explain how e-waste is recycled?", "Can I explain the limits of recycling?", "Can I use instead of?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five sentences about what should happen to an old phone.",
+        "reflectionPrompt": "Zero Waste tries to stop waste before it is created. What could you repair instead of replacing?"
+      },
+      {
+        "chapter": "Chapter 8: What Is Zero Waste?",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain what Zero Waste really means.",
+          "I can explain sustainability in my own words.",
+          "I can use might, is based on and which means."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “you might think they mean producing no trash at all”: a possibility. Then choose the forms and rewrite three sentences.",
+        "pronunciationFocus": "Stress: sus-tain-a-BIL-i-ty, ap-PROACH, gen-er-A-tions.",
+        "lessonPlan": "Does zero waste mean no waste at all? Write yes or no. Read the chapter and find what Zero Waste really means. Make a myth / fact chart.",
+        "discussionPoints": ["People start to see leftover materials as something valuable. What leftover material could be valuable?"],
+        "interactiveTips": ["Open the picture hotspots “Sustainability” and “The Whole Life of a Product” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the second paragraph again. Find “which means”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five sentences explaining Zero Waste to a friend."
+        },
+        "whatToNotice": ["Producing no trash at all is impossible.", "Zero Waste is based on sustainability."],
+        "readListen": [
+          "Does zero waste mean no waste at all? Write yes or no.",
+          "Read the chapter and find what Zero Waste really means.",
+          "Make a myth / fact chart."
+        ],
+        "findAnswerInStory": [
+          "Find what sustainability means.",
+          "Find what the approach encourages people to do.",
+          "Find how much waste people produce every year."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: effort, manage, sustainable, approach, resources, responsibly, eco-friendly.",
+          "“Resources.” What are resources?",
+          "Write one sentence with responsibly."
+        ],
+        "quickChallengeGuide": "You will choose what sustainability means. Read the second paragraph.",
+        "wrongAnswerSupport": ["Read the second paragraph again.", "Find “which means”.", "Try again."],
+        "selfCheck": ["Can I explain what Zero Waste means?", "Can I explain sustainability?", "Can I use might?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five sentences explaining Zero Waste to a friend.",
+        "reflectionPrompt": "People start to see leftover materials as something valuable. What leftover material could be valuable?"
+      },
+      {
+        "chapter": "Chapter 9: The Circular Economy",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain the circular economy.",
+          "I can compare the circular and the linear economy.",
+          "I can use it is called … because and instead."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Instead, they move in a loop”: the opposite situation. Then sort the descriptions and rewrite three sentences.",
+        "pronunciationFocus": "Stress: CIR-cu-lar, LIN-e-ar, tra-DI-tion-al.",
+        "lessonPlan": "What is the difference between a line and a loop? Write one idea. Read the chapter and find what a circular economy is. Draw a line and a loop.",
+        "discussionPoints": ["In nature, nothing is wasted. What do you use again and again?"],
+        "interactiveTips": ["Open the picture hotspots “An Important Bridge” and “Take, Make, Waste” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the second paragraph again. Find “because resources”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five sentences about one product in a linear and a circular economy."
+        },
+        "whatToNotice": ["Zero Waste is a bridge to a circular economy.", "The linear economy is the opposite."],
+        "readListen": [
+          "What is the difference between a line and a loop? Write one idea.",
+          "Read the chapter and find what a circular economy is.",
+          "Draw a line and a loop."
+        ],
+        "findAnswerInStory": ["Find what a circular economy aims to do.", "Find why it is called “circular”.", "Find the linear model."],
+        "vocabularyInContext": [
+          "Word Notes: circular, bridge, aim, loop, growth, linear.",
+          "“A loop.” What is a loop?",
+          "Write one sentence with growth."
+        ],
+        "quickChallengeGuide": "You will choose why it is called “circular”. Read the second paragraph.",
+        "wrongAnswerSupport": ["Read the second paragraph again.", "Find “because resources”.", "Try again."],
+        "selfCheck": ["Can I explain the circular economy?", "Can I compare the two models?", "Can I use instead?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five sentences about one product in a linear and a circular economy.",
+        "reflectionPrompt": "In nature, nothing is wasted. What do you use again and again?"
+      },
+      {
+        "chapter": "Chapter 10: Reduce, Reuse, Recycle",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain the three principles.",
+          "I can explain the difference between recycling and upcycling.",
+          "I can use should be + adjective and by + -ing."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Products should be designed to last a long time”: passive advice. Then sort the actions and rewrite three sentences.",
+        "pronunciationFocus": "Stress: PRIN-ci-ples, DU-ra-ble, UP-cy-cling.",
+        "lessonPlan": "Why do some things break quickly? Write one idea. Read the chapter and find the three principles. Make a three-box chart.",
+        "discussionPoints": ["Repairing helps products last longer. What will you repair instead of throwing away?"],
+        "interactiveTips": ["Open the picture hotspots “Durable Products” and “Higher Value” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the Reduce paragraph again. Find “The aim is”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five sentences about how a product should be designed."
+        },
+        "whatToNotice": ["Reduce stops waste before it starts.", "Upcycling goes one step further."],
+        "readListen": [
+          "Why do some things break quickly? Write one idea.",
+          "Read the chapter and find the three principles.",
+          "Make a three-box chart."
+        ],
+        "findAnswerInStory": ["Find what products should be.", "Find what repairing means.", "Find what upcycling does."],
+        "vocabularyInContext": [
+          "Word Notes: principle, design, durable, upgrade, upcycling, value.",
+          "“Durable.” What does durable mean?",
+          "Write one sentence with upgrade."
+        ],
+        "quickChallengeGuide": "You will choose the aim of Reduce. Read the Reduce paragraph.",
+        "wrongAnswerSupport": ["Read the Reduce paragraph again.", "Find “The aim is”.", "Try again."],
+        "selfCheck": ["Can I explain the three principles?", "Can I explain upcycling?", "Can I use should be?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five sentences about how a product should be designed.",
+        "reflectionPrompt": "Repairing helps products last longer. What will you repair instead of throwing away?"
+      },
+      {
+        "chapter": "Chapter 11: Why Is the Circular Economy Important?",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain the three benefits of the circular economy.",
+          "I can summarize an argument.",
+          "I can use in short, as a result and comparative adverbs."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “In short, the circular economy is a promising new way of thinking”: a summary. Then fill the words and rewrite three sentences.",
+        "pronunciationFocus": "Stress: BEN-e-fits, ef-FI-cient-ly, PROM-is-ing.",
+        "lessonPlan": "Why is the circular economy good for us? Write one idea. Read the chapter and find the three benefits. Make a benefit chart.",
+        "discussionPoints": ["The circular economy creates new jobs in recycling and reuse. Which green job would you like to do?"],
+        "interactiveTips": ["Open the picture hotspots “Better Use of Resources” and “New Jobs” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the Sustainable growth paragraph again. Find “It lowers the cost”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five sentences about the benefits of a repair café in your town."
+        },
+        "whatToNotice": ["The circular economy has three key benefits.", "The writer ends with a summary."],
+        "readListen": [
+          "Why is the circular economy good for us? Write one idea.",
+          "Read the chapter and find the three benefits.",
+          "Make a benefit chart."
+        ],
+        "findAnswerInStory": ["Find the first benefit.", "Find how it uses resources better.", "Find what new jobs it creates."],
+        "vocabularyInContext": [
+          "Word Notes: benefit, efficiently, get rid of, cost, promising.",
+          "“Promising.” What does promising mean?",
+          "Write one sentence with get rid of."
+        ],
+        "quickChallengeGuide": "You will choose how the circular economy supports sustainable growth. Read the Sustainable growth paragraph.",
+        "wrongAnswerSupport": ["Read the Sustainable growth paragraph again.", "Find “It lowers the cost”.", "Try again."],
+        "selfCheck": ["Can I explain the three benefits?", "Can I summarize?", "Can I use in short?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five sentences about the benefits of a repair café in your town.",
+        "reflectionPrompt": "The circular economy creates new jobs in recycling and reuse. Which green job would you like to do?"
+      },
+      {
+        "chapter": "Chapter 12: Waste and Climate",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain how waste and the climate crisis are connected.",
+          "I can explain the injustice of climate change.",
+          "I can use have more than doubled and however."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “emissions have more than doubled in the last 50 years”: a change up to now. Then fill the linkers and rewrite three sentences.",
+        "pronunciationFocus": "Stress: METH-ane, in-JUS-tice, de-VEL-op-ing.",
+        "lessonPlan": "What happens to food waste in a landfill? Write one idea. Read the chapter and find how waste and climate are connected. Make a chain.",
+        "discussionPoints": ["Developing countries often suffer the most. How can young people help others who suffer?"],
+        "interactiveTips": ["Open the picture hotspots “Methane” and “A Serious Injustice” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the first paragraph again. Find “at the source”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five sentences about the injustice of climate change."
+        },
+        "whatToNotice": ["Waste and climate are closely connected.", "Climate change is not fair for everyone."],
+        "readListen": [
+          "What happens to food waste in a landfill? Write one idea.",
+          "Read the chapter and find how waste and climate are connected.",
+          "Make a chain."
+        ],
+        "findAnswerInStory": [
+          "Find what organic materials release in landfills.",
+          "Find how much better waste management can cut emissions.",
+          "Find which countries suffer the most."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: crisis, greenhouse gas, rot, release, injustice, developing country, run out of, absorb.",
+          "“Injustice.” What does injustice mean?",
+          "Write one sentence with rot."
+        ],
+        "quickChallengeGuide": "You will choose how Zero Waste stops harmful gases. Read the first paragraph.",
+        "wrongAnswerSupport": ["Read the first paragraph again.", "Find “at the source”.", "Try again."],
+        "selfCheck": ["Can I explain the link?", "Can I explain the injustice?", "Can I use however?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five sentences about the injustice of climate change.",
+        "reflectionPrompt": "Developing countries often suffer the most. How can young people help others who suffer?"
+      },
+      {
+        "chapter": "Chapter 13: How Can We Help?",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain the idea of acting before waste appears.",
+          "I can give practical ideas to reduce food and packaging waste.",
+          "I can use can be replaced with and that is why."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “… can all be replaced with waste-free choices”. Then choose the forms and rewrite three sentences.",
+        "pronunciationFocus": "Stress: PRAC-ti-cal, SIN-gle-use, CAN-teen.",
+        "lessonPlan": "What single-use things did you use this week? Write two. Read the chapter and find the best waste. Make a “replace it” chart.",
+        "discussionPoints": ["The best waste is the waste that is never created. Which single-use item will you replace this week?"],
+        "interactiveTips": ["Open the picture hotspots “Never Created” and “Waste-Free Choices” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the second paragraph again. Find “help to stop”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write four to five practical ideas for a waste-free school canteen."
+        },
+        "whatToNotice": ["We need to act before waste appears.", "Most single-use packaging is not necessary."],
+        "readListen": [
+          "What single-use things did you use this week? Write two.",
+          "Read the chapter and find the best waste.",
+          "Make a “replace it” chart."
+        ],
+        "findAnswerInStory": [
+          "Find where food waste can be reduced.",
+          "Find what packaging-free shops offer.",
+          "Find four single-use items."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: practical, single-use, replace, canteen, packaging-free.",
+          "“Single-use.” What does single-use mean?",
+          "Write one sentence with replace."
+        ],
+        "quickChallengeGuide": "You will choose what packaging-free shops help to stop. Read the second paragraph.",
+        "wrongAnswerSupport": ["Read the second paragraph again.", "Find “help to stop”.", "Try again."],
+        "selfCheck": ["Can I explain acting before waste appears?", "Can I give practical ideas?", "Can I use can be replaced with?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write four to five practical ideas for a waste-free school canteen.",
+        "reflectionPrompt": "The best waste is the waste that is never created. Which single-use item will you replace this week?"
+      },
+      {
+        "chapter": "Chapter 14: Cities, Families and the Future",
+        "timing": "About 25 minutes",
+        "objectives": [
+          "I can explain what local governments can do.",
+          "I can explain why Zero Waste is a journey.",
+          "I can use where-clauses and there is no better time than now."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “tool libraries, where people borrow tools instead of buying them”. Then sort the ideas and rewrite three sentences.",
+        "pronunciationFocus": "Stress: HY-giene, PLAT-forms, WASTE-ful.",
+        "lessonPlan": "What can a city do to reduce waste? Write one idea. Read the chapter and find what local governments can do. Sort the ideas.",
+        "discussionPoints": ["There is no better time to start than now. What will you start today?"],
+        "interactiveTips": ["Open the picture hotspots “Tool Libraries” and “A Journey” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the last paragraph again. Find “need” and “greed”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write a short letter of four to five sentences to your mayor with Zero Waste ideas."
+        },
+        "whatToNotice": ["Cities can play a big role.", "Zero Waste is a journey."],
+        "readListen": [
+          "What can a city do to reduce waste? Write one idea.",
+          "Read the chapter and find what local governments can do.",
+          "Sort the ideas."
+        ],
+        "findAnswerInStory": [
+          "Find three things local governments can do.",
+          "Find the best way to change wasteful habits.",
+          "Find Gandhi’s words."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: local government, refill, hygiene, put into practice, wasteful, platform.",
+          "“Wasteful habits.” What does wasteful mean?",
+          "Write one sentence with put into practice."
+        ],
+        "quickChallengeGuide": "You will choose what Gandhi’s words say. Read the last paragraph.",
+        "wrongAnswerSupport": ["Read the last paragraph again.", "Find “need” and “greed”.", "Try again."],
+        "selfCheck": ["Can I explain what cities can do?", "Can I explain why Zero Waste is a journey?", "Can I use where?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write a short letter of four to five sentences to your mayor with Zero Waste ideas.",
+        "reflectionPrompt": "There is no better time to start than now. What will you start today?"
+      }
     ],
-    "questions": [
-     "What can one person do for a cleaner world?"
+    "metadata": {
+      "title": "Zero Waste B1 — Self-Study Guide",
+      "subtitle": "Read • Find • Check • Build • Use",
+      "level": "B1",
+      "language": "English",
+      "estimatedStudyTime": "About 25 minutes per chapter, plus the review pages at the end",
+      "whoIsThisFor": "B1 learners who study the text about Zero Waste alone or with a teacher.",
+      "learningGoals": [
+        "Understand the 14 chapters of Zero Waste.",
+        "Find evidence in the text before answering.",
+        "Describe how different kinds of waste are recycled.",
+        "Explain Zero Waste, sustainability and the circular economy with evidence from the book.",
+        "Use each chapter’s Language Focus in connected sentences."
+      ],
+      "recommendedUse": [
+        "Study one chapter at a time.",
+        "Read (and listen, when the audio is ready) before the Quick Challenge.",
+        "Repair wrong answers with the text.",
+        "Do the Language Focus after you understand the chapter.",
+        "Do the review pages after Chapter 14."
+      ],
+      "readingDiary": {
+        "intro": "Keep this diary when you finish the book. Write short answers.",
+        "prompts": [
+          "The date I finished the book:",
+          "My favorite chapter, and one reason:",
+          "One idea about waste that changed the way I think:",
+          "One sentence for a friend: “Read this book because …”",
+          "One new word I want to keep:",
+          "The next book I want to read in the library:"
+        ]
+      }
+    },
+    "sections": [
+      {
+        "title": "1. Make Your Plan",
+        "icon": "Clock",
+        "text": "This book has 14 chapters. Plan the whole book before Chapter 1.",
+        "points": [
+          "Choose your study days and how many chapters you will read each week.",
+          "Write one personal goal for this book.",
+          "Save new words to My words and review them after one day, three days and one week."
+        ]
+      },
+      {
+        "title": "2. One Chapter per Session",
+        "icon": "Target",
+        "text": "Each chapter takes about 25 minutes. Open “Study Path” for the steps of your chapter.",
+        "points": [
+          "Preview the title and the “Before You Read” question.",
+          "Read for the main idea.",
+          "Find the evidence.",
+          "Do the Quick Challenge.",
+          "Do the Language Focus."
+        ]
+      },
+      {
+        "title": "3. Read and Listen",
+        "icon": "Ear",
+        "text": "Read every chapter twice: once for the main idea, once for the details. When the audio is ready, listen once while you follow the text.",
+        "points": [
+          "First reading: What is the chapter about?",
+          "Second reading: Mark names, dates and linking words.",
+          "Say one long sentence aloud with the right pauses."
+        ]
+      },
+      {
+        "title": "4. Word Notes",
+        "icon": "BookOpen",
+        "text": "Bold words have Word Notes. Use them after you have tried to understand the sentence yourself.",
+        "points": ["Guess the meaning from the sentence.", "Check the Word Note.", "Write the word in a new sentence of your own."]
+      },
+      {
+        "title": "5. Quick Challenge",
+        "icon": "CheckCircle",
+        "text": "Answer before you read the feedback. If you are wrong, repair the answer with the text.",
+        "points": [
+          "Find the paragraph the question is about.",
+          "Read the key sentence again.",
+          "Explain why the right answer is right, then try again."
+        ]
+      },
+      {
+        "title": "6. Language Focus",
+        "icon": "Eye",
+        "text": "Each chapter has 4 Language Focus activities built from the chapter’s own sentences.",
+        "points": [
+          "Activity 1 (Notice): Look at a sentence and what it means.",
+          "Activities 2–3 (Build): Choose, complete, correct or rewrite forms.",
+          "Activity 4 (Use): Write or say connected sentences about a different situation."
+        ]
+      },
+      {
+        "title": "7. When It Is Hard",
+        "icon": "HelpCircle",
+        "text": "Some chapters have many names and dates. Change how you study, not your goal.",
+        "points": [
+          "Read one paragraph only.",
+          "Make a time line of the dates.",
+          "List the names and what each one did.",
+          "Learn only three words today."
+        ]
+      },
+      {
+        "title": "8. Values in the Book",
+        "icon": "Heart",
+        "text": "The book shows responsibility, sensitivity, helpfulness and justice. Find the sentence first, then think of a small action of your own.",
+        "points": [
+          "Responsibility: Responsibility: Sustainability means meeting our needs today without damaging the resources that future generations will need (Chapter 8).",
+          "Sensitivity: Sensitivity: Waste batteries must be collected in special bins because their dangerous chemicals can leak into the soil and water (Chapter 7).",
+          "Helpfulness: Helpfulness: Tool libraries let people borrow tools instead of buying them (Chapter 14).",
+          "Justice: Justice: Many developing countries produce very low emissions, but they often suffer the most from climate change (Chapter 12)."
+        ]
+      },
+      {
+        "title": "9. At the End of the Book",
+        "icon": "Stars",
+        "text": "After Chapter 14, do the review pages in this order. Go back to a chapter when an answer is not clear.",
+        "points": [
+          "Key Facts",
+          "Knowledge Check",
+          "Vocabulary Challenge",
+          "Master Glossary",
+          "Key Terms",
+          "Language Review",
+          "Final Challenge"
+        ]
+      },
+      {
+        "title": "10. Look Back",
+        "icon": "BookOpen",
+        "text": "Before Chapter 1 and again at the end, answer the “I can” statements of a few chapters. What can you do now that you could not do before?",
+        "points": [
+          "Which chapter changed what you knew?",
+          "Tell someone at home in five sentences what Zero Waste means and why it matters, in your home language or in English."
+        ]
+      }
     ]
-   }
   }
- },
- "selfStudyGuide": {
-  "content": [],
-  "metadata": {
-   "title": "Zero Waste B1 — Self-Study Guide",
-   "subtitle": "Coming soon",
-   "level": "B1",
-   "language": "",
-   "estimatedStudyTime": "",
-   "whoIsThisFor": "",
-   "learningGoals": [],
-   "recommendedUse": []
-  }
- }
 }

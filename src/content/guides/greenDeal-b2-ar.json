@@ -1,111 +1,1325 @@
 {
- "schema": 1,
- "storyId": "greenDeal",
- "level": "B2",
- "language": "ar",
- "teacherGuide": {
-  "content": [],
-  "metadata": {
-   "title": "The European Green Deal B2 — Teacher’s Book",
-   "subtitle": "Coming soon",
-   "level": "B2",
-   "estimatedDuration": "",
-   "targetAudience": "",
-   "targetLearners": "",
-   "purpose": "",
-   "approachDesc": "",
-   "assessmentEvidence": "",
-   "assessmentOverview": {
-    "formative": [
-     "Quick Challenge after each chapter",
-     "Language Focus: Look and Practise",
-     "Short spoken and written Use tasks",
-     "Exit tickets",
-     "Knowledge Check",
-     "Vocabulary Challenge",
-     "Language Review"
+  "schema": 1,
+  "storyId": "greenDeal",
+  "level": "B2",
+  "language": "ar",
+  "teacherGuide": {
+    "content": [
+      {
+        "chapter": "Chapter 1: A Roadmap for a Greener Europe",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain the Green Deal as a growth strategy and a roadmap.",
+          "Explain the 2050 aim.",
+          "Explain the shift to a circular economy.",
+          "Use participle clauses, serve as and in order to."
+        ],
+        "pedagogy": "The opening chapter is dense: two long sentences carry the whole definition. Learners unpack the sentences into a definition map (who · when · what · aim · method) before they analyse the formal grammar that makes the text compact.",
+        "priorKnowledge": ["Relative clauses.", "Infinitive of purpose."],
+        "anticipatedMisconceptions": [
+          "The European Commission is an EU institution, not a country.",
+          "Net zero does not mean no emissions; emissions are balanced by what is removed.",
+          "“Announced by …” is not the main verb; the main verb is “serves”."
+        ],
+        "grammarFocus": "Targets: past participle clauses · serve as · by + -ing · in order to\nNotice (Activity 1): Announced by the European Commission …, the Green Deal serves as …\nBuild (Activities 2–3): choose the forms, then rewrite.\nLikely errors: *serves like a strategy · *by create · *in order for tackle.\nUse (Activity 4): a roadmap for our school.",
+        "pronunciationFocus": "Stress: sus-TAIN-a-ble, ROAD-map, in-I-ti-a-tive, ef-FI-cient-ly, trans-for-MA-tion.",
+        "beforeReading": ["Ask: “What is the difference between a plan and a roadmap?”"],
+        "duringReading": [
+          "First reading: What is the Green Deal?",
+          "Second reading: unpack the first sentence into a definition map.",
+          "Find how the circular economy protects nature."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–12 First reading; 12–18 Definition map; 18–22 Quick Challenge; 22–36 Language Focus 1–3; 36–43 Use: a roadmap for our school; 43–45 Exit ticket.",
+        "discussionPoints": [
+          "Why does the text call the Green Deal both a growth strategy and a roadmap?",
+          "How does the shift to a circular economy protect nature?",
+          "Why does the writer use such long sentences in this chapter?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “A Growth Strategy” and “Using Resources Efficiently” when the picture is in place.",
+          "Word Notes: sustainable, greenhouse gas, emissions, circular economy."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the definition map with the headings written in.",
+          "fastFinishers": "Rewrite the first sentence as three short sentences, then compare the effect."
+        },
+        "formativeAssessment": [
+          "Explains what the Green Deal is.",
+          "Explains the circular economy.",
+          "Uses participle clauses or in order to correctly."
+        ],
+        "expectedResponses": [
+          "Announced in 2019, the Green Deal serves as the EU’s growth strategy for sustainable development. It aims to reduce net greenhouse gas emissions to zero by 2050 by creating a clean economy and promoting the shift to a circular economy."
+        ],
+        "transferTask": "Present a green roadmap for your school.",
+        "teacherReflection": "Did learners unpack the long sentences before analysing them?",
+        "assessmentTools": {
+          "rubric": ["Definition", "Idea", "Language"],
+          "exitTicket": ["Write one sentence that starts with a past participle clause."],
+          "rubricLevels": [
+            {
+              "criterion": "Definition",
+              "secure": "Explains what the Green Deal is.",
+              "notYet": "Give the definition map."
+            },
+            {
+              "criterion": "Idea",
+              "secure": "Explains the circular economy.",
+              "notYet": "Point to the second paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses participle clauses or in order to.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 2: The Key Priorities",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain the three key priorities.",
+          "Explain the 2030 and 2050 targets.",
+          "Explain what sustainability includes.",
+          "Use preposition + -ing and formal nouns."
+        ],
+        "pedagogy": "The chapter is a structured list under three headings. Learners build a priority table (heading · aim · target or examples) and notice how formal policy writing uses nouns (depletion, loss, commitment) instead of verbs.",
+        "priorKnowledge": ["Gerunds after prepositions.", "Word formation."],
+        "anticipatedMisconceptions": [
+          "The 55% target is for 2030; climate neutrality is for 2050.",
+          "“To” in “commitment to” is a preposition, so it takes -ing, not the base verb."
+        ],
+        "grammarFocus": "Targets: preposition + -ing (step toward limiting, commitment to protecting) · nominalization (depletion, loss, commitment) · as follows\nNotice (Activity 1): This is a critical step toward limiting the effects …\nBuild (Activities 2–3): choose the forms, then turn verbs into nouns.\nLikely errors: *a commitment to protect · *step toward limit.\nUse (Activity 4): our city’s priorities.",
+        "pronunciationFocus": "Stress: pri-OR-i-ties, de-PLE-tion, bi-o-di-VER-si-ty, com-MIT-ment, neu-TRAL-i-ty.",
+        "beforeReading": ["Ask: “What is the difference between a priority and a wish?”"],
+        "duringReading": [
+          "First reading: What are the three key priorities?",
+          "Second reading: complete the priority table.",
+          "Find the 2030 and 2050 targets."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–12 First reading; 12–18 Priority table; 18–22 Quick Challenge; 22–36 Language Focus 1–3; 36–43 Use: our city’s priorities; 43–45 Exit ticket.",
+        "discussionPoints": [
+          "Why does the text call climate neutrality a critical step?",
+          "What does the sustainable use of natural resources mean?",
+          "How can economic growth be sustainable?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “A Critical Step” and “Healthy Soil” when the picture is in place.",
+          "Word Notes: climate neutrality, deforestation, depletion, biodiversity."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the table with the three headings written in.",
+          "fastFinishers": "Write a short paragraph that compares the 2030 and 2050 targets."
+        },
+        "formativeAssessment": [
+          "Explains the three priorities.",
+          "Explains the two targets.",
+          "Uses preposition + -ing or formal nouns correctly."
+        ],
+        "expectedResponses": [
+          "The EU aims to reduce greenhouse gas emissions by at least 55% by 2030 and achieve climate neutrality by 2050. The Green Deal also aims to prevent deforestation, the depletion of water resources and the loss of biodiversity."
+        ],
+        "transferTask": "Write on the key environmental priorities of your city.",
+        "teacherReflection": "Did learners notice the formal nouns in the text?",
+        "assessmentTools": {
+          "rubric": ["Priorities", "Targets", "Language"],
+          "exitTicket": ["Write one sentence with “a step toward …-ing”."],
+          "rubricLevels": [
+            {
+              "criterion": "Priorities",
+              "secure": "Explains the three priorities.",
+              "notYet": "Give the table."
+            },
+            {
+              "criterion": "Targets",
+              "secure": "Explains the two targets.",
+              "notYet": "Point to the first heading."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses preposition + -ing or formal nouns.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 3: Why Is the Green Deal Essential?",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain why the Green Deal is essential.",
+          "Explain what energy security means and why it is a challenge.",
+          "Explain how conflicts affect supply chains.",
+          "Use formal linkers and the present perfect in an argument."
+        ],
+        "pedagogy": "The chapter is a two-step argument: (1) old models are unsustainable, so a net-zero economy is needed; (2) energy is insecure, which makes the change urgent. An argument map (claim → reason → evidence → conclusion) helps learners see the logic.",
+        "priorKnowledge": ["Present perfect.", "Formal linkers."],
+        "anticipatedMisconceptions": [
+          "Energy security means having safe, reliable energy at a fair price, not only having enough energy.",
+          "“Indeed” adds support; it is not a contrast linker."
+        ],
+        "grammarFocus": "Targets: therefore · indeed · as a result · present perfect (has become, have seriously weakened) · pose a risk\nNotice (Activity 1): Therefore, … Indeed, …\nBuild (Activities 2–3): fill the linkers, then rewrite.\nLikely errors: *Therefore of this · *Indeed, but … · *has became.\nUse (Activity 4): a short argument.",
+        "pronunciationFocus": "Stress: deg-ra-DA-tion, ge-o-po-LIT-i-cal, com-pet-I-tive-ness, dis-RUP-tions, SCARCE.",
+        "beforeReading": ["Ask: “What does energy security mean?”"],
+        "duringReading": [
+          "First reading: Why is the Green Deal essential?",
+          "Second reading: complete the argument map.",
+          "Find why supply chains may face disruptions."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–12 First reading; 12–18 Argument map; 18–22 Quick Challenge; 22–36 Language Focus 1–3; 36–43 Use: a short argument; 43–45 Exit ticket.",
+        "discussionPoints": [
+          "Why are traditional economic models no longer sustainable?",
+          "What creates constant uncertainty around the world?",
+          "How do broken supply chains weaken companies?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “No Longer Sustainable” and “Energy Security” when the picture is in place.",
+          "Word Notes: fossil fuels, net-zero, transitioning, geopolitical."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the argument map with the claim written in.",
+          "fastFinishers": "Write a summary of the argument in three sentences with three different linkers."
+        },
+        "formativeAssessment": [
+          "Explains why the Green Deal is essential.",
+          "Explains the energy security problem.",
+          "Uses formal linkers correctly."
+        ],
+        "expectedResponses": [
+          "Traditional economic models are no longer sustainable. Therefore, a net-zero economy is seen as the key way to tackle the climate crisis. Indeed, energy security has become a critical challenge, because conflicts threaten trade routes."
+        ],
+        "transferTask": "Write an argument about energy security.",
+        "teacherReflection": "Did learners follow the argument from claim to conclusion?",
+        "assessmentTools": {
+          "rubric": ["Argument", "Energy", "Language"],
+          "exitTicket": ["Write one sentence with “Therefore” and one with “Indeed”."],
+          "rubricLevels": [
+            {
+              "criterion": "Argument",
+              "secure": "Explains why the Green Deal is essential.",
+              "notYet": "Give the argument map."
+            },
+            {
+              "criterion": "Energy",
+              "secure": "Explains energy security.",
+              "notYet": "Point to the second paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses formal linkers.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 4: The Switch to Renewable Energy",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain why countries are switching to renewable energy.",
+          "Explain what industrial success requires.",
+          "Explain what a comprehensive strategy should be based on.",
+          "Use gerund subjects and verb patterns."
+        ],
+        "pedagogy": "The chapter offers the solution to the problem in Chapter 3. A problem–solution–requirements chart links the two chapters and organizes the three requirements.",
+        "priorKnowledge": ["Gerunds.", "Verb + preposition."],
+        "anticipatedMisconceptions": [
+          "Renewable energy is “often” cheaper, not always.",
+          "A gerund subject takes a singular verb: Sustaining … will require / Sustaining … requires."
+        ],
+        "grammarFocus": "Targets: gerund subjects · require + -ing · call for + noun · provide someone with something\nNotice (Activity 1): Sustaining industrial success … will require …\nBuild (Activities 2–3): choose the forms, then rewrite.\nLikely errors: *Sustain industrial success will … · *calls a faster transition · *provide industries affordable energy.\nUse (Activity 4): a strategy proposal.",
+        "pronunciationFocus": "Stress: com-pre-HEN-sive, af-FORD-a-ble, de-PEN-den-cy, in-VEST-ment, in-no-VA-tion.",
+        "beforeReading": ["Ask: “What problem did Chapter 3 describe?”"],
+        "duringReading": [
+          "First reading: What are countries switching to?",
+          "Second reading: complete the chart.",
+          "Find what the strategy should be based on."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–17 Chart; 17–21 Quick Challenge; 21–36 Language Focus 1–3; 36–43 Use: a strategy proposal; 43–45 Exit ticket.",
+        "discussionPoints": [
+          "Why are countries switching to renewable energy?",
+          "What three things does industrial success require?",
+          "Why should a strategy be based on a detailed analysis?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Wind and Solar Power” and “A Comprehensive Strategy” when the picture is in place.",
+          "Word Notes: renewable energy."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chart with the problem from Chapter 3 written in.",
+          "fastFinishers": "Write a short paragraph that links the problem in Chapter 3 with the solution in Chapter 4."
+        },
+        "formativeAssessment": [
+          "Explains why countries switch to renewable energy.",
+          "Explains what success requires.",
+          "Uses gerund subjects or verb patterns correctly."
+        ],
+        "expectedResponses": [
+          "A growing number of countries are switching to renewable energy, which is often cheaper. Sustaining industrial success will require changing policies, moving toward renewable energy, and training workers with new skills."
+        ],
+        "transferTask": "Write a renewable energy strategy proposal for your town.",
+        "teacherReflection": "Did learners link this chapter with the problem in Chapter 3?",
+        "assessmentTools": {
+          "rubric": ["Solution", "Requirements", "Language"],
+          "exitTicket": ["Write one sentence with a gerund subject."],
+          "rubricLevels": [
+            {
+              "criterion": "Solution",
+              "secure": "Explains why countries switch.",
+              "notYet": "Give the chart."
+            },
+            {
+              "criterion": "Requirements",
+              "secure": "Explains what success requires.",
+              "notYet": "Point to the end of the first paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses gerund subjects or verb patterns.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 5: The Birth of a Net-Zero Era",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain the net-zero era.",
+          "Explain which countries can become global leaders.",
+          "Name the technologies in the Net-Zero Industry Act.",
+          "Use likely to, consequently and both … and."
+        ],
+        "pedagogy": "The chapter forecasts the future. Learners notice how the writer hedges (are likely to, can) and build a future map (markets · technology · industries · law). The technical words are supported by pictures.",
+        "priorKnowledge": ["Future forms.", "Modal verbs of possibility."],
+        "anticipatedMisconceptions": [
+          "The Net-Zero Industry Act is an EU law, not a company.",
+          "“Are likely to” is a prediction, not a certainty."
+        ],
+        "grammarFocus": "Targets: be likely to (hedged prediction) · consequently · both … and · bring with it · lead to the creation of\nNotice (Activity 1): The coming decades are likely to see …\nBuild (Activities 2–3): choose the forms, then rewrite.\nLikely errors: *are likely seeing · *both in technology or in … · *Consequently of this.\nUse (Activity 4): a forecast.",
+        "pronunciationFocus": "Stress: DEC-ades, e-MERG-ing, mod-ern-IZ-ing, TUR-bines, car-bon di-OX-ide.",
+        "beforeReading": ["Ask: “Which jobs will be common in 2050?”"],
+        "duringReading": [
+          "First reading: What will the net-zero era bring?",
+          "Second reading: complete the future map.",
+          "Find the technologies in the law."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–12 First reading; 12–18 Future map; 18–22 Quick Challenge; 22–36 Language Focus 1–3; 36–43 Use: a forecast; 43–45 Exit ticket.",
+        "discussionPoints": [
+          "What does the net-zero era bring with it?",
+          "Why can early investors secure a strong place?",
+          "What does the Net-Zero Industry Act help build?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “A Net-Zero Era” and “The Net-Zero Industry Act” when the picture is in place.",
+          "Word Notes: eco-friendly."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give picture cards of the five technologies.",
+          "fastFinishers": "Write a short news report about the Net-Zero Industry Act with one hedged prediction."
+        },
+        "formativeAssessment": [
+          "Explains the net-zero era.",
+          "Names the technologies in the law.",
+          "Uses likely to or consequently correctly."
+        ],
+        "expectedResponses": [
+          "The coming decades are likely to see the birth of a net-zero era. Consequently, countries that invest first can secure a strong place in the new economy. The Net-Zero Industry Act helps build batteries, wind turbines, heat pumps and solar panels."
+        ],
+        "transferTask": "Write a forecast about your country’s economy.",
+        "teacherReflection": "Did learners notice the hedging in the chapter?",
+        "assessmentTools": {
+          "rubric": ["Future", "Law", "Language"],
+          "exitTicket": ["Write one prediction with “is likely to”."],
+          "rubricLevels": [
+            {
+              "criterion": "Future",
+              "secure": "Explains the net-zero era.",
+              "notYet": "Give the future map."
+            },
+            {
+              "criterion": "Law",
+              "secure": "Names the technologies in the law.",
+              "notYet": "Give the picture cards."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses likely to or consequently.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 6: New Rules for Greener Products",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain the ban on destroying unsold clothing.",
+          "Explain the requirement for spare parts.",
+          "Explain what the rules mean for factories and governments.",
+          "Use formal noun phrases."
+        ],
+        "pedagogy": "The chapter presents regulations in formal noun phrases. Learners unpack each rule (noun phrase → plain verb phrase) and then draft their own regulation in the same formal style.",
+        "priorKnowledge": ["Nominalization.", "Verb + preposition."],
+        "anticipatedMisconceptions": ["A ban on + -ing, not *a ban to.", "“Apply to” here means “be relevant to”, not “ask for a job”."],
+        "grammarFocus": "Targets: a ban on + -ing · a requirement to + verb · apply to · give priority to + -ing\nNotice (Activity 1): … strict bans on destroying unsold clothing, as well as requirements to make spare parts …\nBuild (Activities 2–3): choose the forms, then rewrite.\nLikely errors: *ban to destroy · *requirement of make · *apply for products.\nUse (Activity 4): draft a regulation.",
+        "pronunciationFocus": "Stress: reg-u-LA-tions, re-QUIRE-ments, ac-CES-si-ble, sus-tain-a-BIL-i-ty, pri-OR-i-ty.",
+        "beforeReading": ["Ask: “Why would a shop destroy clothes that it could not sell?”"],
+        "duringReading": [
+          "First reading: What examples of rules does the chapter give?",
+          "Second reading: unpack each rule into plain language.",
+          "Find what governments will give top priority to."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–10 First reading; 10–16 Unpacking the rules; 16–20 Quick Challenge; 20–36 Language Focus 1–3; 36–43 Use: draft a regulation; 43–45 Exit ticket.",
+        "discussionPoints": [
+          "Why is destroying unsold clothing a problem for the environment?",
+          "How do accessible spare parts support a circular economy?",
+          "What will the regulations apply to in the future?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Strict Bans” and “Accessible Spare Parts” when the picture is in place.",
+          "This chapter has no Word Notes."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the frame: There is a ban on … / There is a requirement to …",
+          "fastFinishers": "Rewrite the whole chapter in plain language for younger learners."
+        },
+        "formativeAssessment": [
+          "Explains the two rules.",
+          "Explains what factories will need to do.",
+          "Uses formal noun phrases correctly."
+        ],
+        "expectedResponses": [
+          "The new rules include strict bans on destroying unsold clothing and requirements to make spare parts easily accessible for repairs. In the future, these regulations will apply to a much broader range of everyday products."
+        ],
+        "transferTask": "Draft a regulation for products sold at your school.",
+        "teacherReflection": "Did learners move confidently between formal and plain language?",
+        "assessmentTools": {
+          "rubric": ["Rules", "Future", "Language"],
+          "exitTicket": ["Write one sentence with “a ban on …-ing”."],
+          "rubricLevels": [
+            {
+              "criterion": "Rules",
+              "secure": "Explains the two rules.",
+              "notYet": "Give the frame."
+            },
+            {
+              "criterion": "Future",
+              "secure": "Explains what factories will need to do.",
+              "notYet": "Point to the end of the chapter."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses formal noun phrases.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 7: Everyday Choices and the Future of Work",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain why transparent information matters.",
+          "Explain what energy labels do.",
+          "Explain how the labor market is changing.",
+          "Use depend on + noun + -ing and the present perfect continuous."
+        ],
+        "pedagogy": "The chapter has two sides: consumers and the labor market. A two-part organizer (Consumers / Workers) helps learners compare them. Real energy labels make the first paragraph concrete.",
+        "priorKnowledge": ["Present perfect continuous.", "Verb patterns."],
+        "anticipatedMisconceptions": [
+          "Energy labels show energy use; they do not show the price.",
+          "“Has been increasing” stresses that the rise is continuing now."
+        ],
+        "grammarFocus": "Targets: depend on + noun + -ing · allow + person + to · present perfect continuous · instead of\nNotice (Activity 1): … depends heavily on consumers making smart, eco-friendly choices …\nBuild (Activities 2–3): choose the forms, then rewrite.\nLikely errors: *depends on consumers make · *allow users compare · *has been increase.\nUse (Activity 4): a consumer guide.",
+        "pronunciationFocus": "Stress: trans-PAR-ent, ap-PLI-an-ces, ef-FORT-less-ly, per-son-NEL, SPE-cial-ized.",
+        "beforeReading": ["Ask: “What information do you want before you buy a product?”"],
+        "duringReading": [
+          "First reading: What do consumers need?",
+          "Second reading: complete the two-part organizer.",
+          "Find how the labor market is changing."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–4."],
+        "lessonPlan": "0–5 Hook; 5–12 First reading; 12–18 Two-part organizer; 18–22 Quick Challenge; 22–36 Language Focus 1–3; 36–43 Use: a consumer guide; 43–45 Exit ticket.",
+        "discussionPoints": [
+          "Why does the success of the Green Deal depend on consumers?",
+          "What should people see before they buy a product?",
+          "Why will there be strong competition for specialized talent?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Transparent Information” and “The Labor Market” when the picture is in place.",
+          "This chapter has no Word Notes."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give a picture of an energy label.",
+          "fastFinishers": "Write a short report on the labor market with one present perfect continuous sentence."
+        },
+        "formativeAssessment": [
+          "Explains why information matters.",
+          "Explains how the labor market is changing.",
+          "Uses the patterns correctly."
+        ],
+        "expectedResponses": [
+          "The success of the Green Deal depends heavily on consumers making smart choices driven by transparent information. The number of green jobs has been increasing rapidly, so large-scale training programs are required."
+        ],
+        "transferTask": "Write a guide for eco-friendly consumers.",
+        "teacherReflection": "Did learners see both sides: consumers and workers?",
+        "assessmentTools": {
+          "rubric": ["Consumers", "Workers", "Language"],
+          "exitTicket": ["Write one sentence with “has been …-ing”."],
+          "rubricLevels": [
+            {
+              "criterion": "Consumers",
+              "secure": "Explains why information matters.",
+              "notYet": "Give the label picture."
+            },
+            {
+              "criterion": "Workers",
+              "secure": "Explains the labor market.",
+              "notYet": "Point to the second paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses the patterns.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 8: Education and Our Shared Future",
+        "timing": "45 minutes",
+        "objectives": [
+          "Explain why education is a major part of the Green Deal.",
+          "Explain the three areas that depend on education.",
+          "Explain why nations should keep working together.",
+          "Use concluding language and balanced arguments."
+        ],
+        "pedagogy": "The closing chapter concludes the argument: success depends on education and cooperation. Türkiye’s own plan links the text to learners’ country. The policy panel brings the whole book together and asks learners to evaluate, not only summarize.",
+        "priorKnowledge": ["Formal linkers.", "Gerund subjects."],
+        "anticipatedMisconceptions": [
+          "Türkiye’s plan was published in 2021; its net-zero goal is 2053.",
+          "“In conclusion” closes a text; it does not introduce new information."
+        ],
+        "grammarFocus": "Targets: in conclusion · because of this · depend largely on how well · it is helpful for … to · set a goal of + -ing\nNotice (Activity 1): In conclusion, the success … will depend largely on how well …\nBuild (Activities 2–3): fill the linkers, then rewrite.\nLikely errors: *In conclusion of · *set a goal to reaching · *depend largely of.\nUse (Activity 4): a balanced conclusion.",
+        "pronunciationFocus": "Names: TÜR-ki-ye.\nNumbers: twenty twenty-one; twenty fifty-three.\nStress: in-ter-con-NECT-ed, pro-duc-TIV-i-ty, in-JUS-tice, FOS-ter-ing.",
+        "beforeReading": ["Ask: “Can education solve the climate crisis?”"],
+        "duringReading": [
+          "First reading: What will the success depend on?",
+          "Second reading: find the three areas where education matters.",
+          "Find Türkiye’s plan and goal."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus Activities 1–4.",
+          "Group task: “The Green Deal: A Policy Panel”."
+        ],
+        "lessonPlan": "0–5 Hook; 5–12 First reading; 12–17 Three areas; 17–21 Quick Challenge; 21–36 Language Focus 1–3; 36–43 Use: a balanced conclusion; 43–45 Exit ticket. (Panel in a second lesson.)",
+        "discussionPoints": [
+          "Why will success depend largely on education?",
+          "What does a fair transition that prevents social injustice mean?",
+          "Why is it helpful for nations to work with international partners?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “An Informed Society” and “Türkiye’s Plan” when the picture is in place.",
+          "The policy panel closes the book; each analyst covers two chapters.",
+          "This chapter has no Word Notes."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the frame: In conclusion, … However, …",
+          "fastFinishers": "Write a balanced conclusion for the whole book in five sentences."
+        },
+        "formativeAssessment": [
+          "Explains why education matters.",
+          "Explains why nations should work together.",
+          "Uses concluding language correctly."
+        ],
+        "expectedResponses": [
+          "In conclusion, the success of the green transition will depend largely on education and workforce training. In an interconnected world, nations should keep working with their international partners. Türkiye set a goal of reaching net-zero emissions by 2053."
+        ],
+        "transferTask": "Write a balanced conclusion about education and the climate crisis.",
+        "teacherReflection": "Did learners evaluate the role of education, not only describe it?",
+        "assessmentTools": {
+          "rubric": ["Education", "Cooperation", "Language"],
+          "exitTicket": ["Write one sentence that starts with “In conclusion”."],
+          "rubricLevels": [
+            {
+              "criterion": "Education",
+              "secure": "Explains why education matters.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Cooperation",
+              "secure": "Explains why nations work together.",
+              "notYet": "Point to the second paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses concluding language.",
+              "notYet": "Give the frame."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      }
     ],
-    "summative": [
-     "Final Challenge"
-    ]
-   },
-   "readingFramework": {
-    "before": "A short start from something learners can see: a picture, an object or a date.",
-    "during": "Listen first with one question, then read and do one concrete task.",
-    "after": "Quick Challenge, then the Language Focus, then a short Use task about the learners’ own life."
-   },
-   "vocabularyApproach": {
-    "selection": "The Word Notes of each chapter.",
-    "method": "Meet the word in the chapter, check its note, use it in a sentence.",
-    "recycling": "Key Terms, Master Glossary and Vocabulary Challenge."
-   },
-   "grammarApproach": "",
-   "grammarSequence": [],
-   "skillsFocus": {
-    "reading": "Find facts and numbers in an informational text.",
-    "listening": "Listen for one key fact first.",
-    "speaking": "Short pair talk about home, school and town.",
-    "writing": "Three-sentence frames."
-   },
-   "valuesFocus": [],
-   "languageFocus": [],
-   "differentiationNotes": "",
-   "sensitiveNotes": {
-    "title": "Notes for the teacher",
-    "notes": [
-     "The text is about EU policy. Türkiye’s own plan (2021, net zero by 2053) is in Chapter 8."
-    ]
-   },
-   "globalCitizenship": {
-    "title": "Our world today",
-    "description": "Learners connect EU and Türkiye goals with small actions at home and school.",
-    "themes": [
-     "Climate",
-     "Energy",
-     "Repair and reuse"
-    ],
-    "actions": [
-     "Plan a green week for the class (Language Review)."
-    ]
-   },
-   "appendices": {
-    "exitTicket": [
-     "One fact from today’s chapter."
-    ],
-    "miniProject": {
-     "title": "Green week",
-     "desc": "Plan five green actions for the class, one for each day."
-    },
-    "reflectivePrompt": {
-     "title": "My green step",
-     "desc": "What will you change this week?"
+    "metadata": {
+      "title": "The European Green Deal B2 — Teacher’s Book",
+      "subtitle": "Our World Today",
+      "level": "B2",
+      "estimatedDuration": "8 chapter units of 45 minutes each. Whole-book review pages follow separately.",
+      "targetAudience": "B2 English learners.",
+      "targetLearners": "Learners who can follow extended informational texts about society, economy and the environment, and who can produce clear, detailed explanations, evaluations and arguments.",
+      "purpose": "Develop evidence-based B2 reading, listening, speaking and writing through an extended informational text about the European Green Deal: its roadmap and priorities, energy security, the switch to renewable energy, the net-zero era, new regulations, consumers and the labor market, education and Türkiye’s own plan, using the Language Focus attached to every chapter.",
+      "approachDesc": "Every chapter follows the TYMM route. YDAB1 listening and YDAB2 reading establish meaning and evidence; the Quick Challenge checks comprehension. Grammar is then learned inductively: in the Language Focus, learners first NOTICE a form in a real chapter sentence and work out what it does, then BUILD it in controlled, meaningful practice, and finally USE it in connected YDAB3 speaking and YDAB4 writing about their own world. At B2, learners also notice how the writer signals certainty (are likely to / may / can) and builds a formal argument (therefore / indeed / consequently / in conclusion), and they use these forms in their own writing.",
+      "assessmentEvidence": "8 Quick Challenges, text-evidence checks, chapter Language Focus tasks (Notice → Build → Use), exit tickets, Knowledge Check, Vocabulary Challenge, Language Review and Final Challenge.",
+      "assessmentOverview": {
+        "formative": [
+          "Quick Challenge after each chapter",
+          "Evidence checks in the text",
+          "Language Focus: Notice → Build → Use",
+          "Short spoken and written Use tasks",
+          "Exit tickets",
+          "Knowledge Check",
+          "Vocabulary Challenge",
+          "Language Review"
+        ],
+        "summative": ["Final Challenge"]
+      },
+      "readingFramework": {
+        "before": "Activate only what the chapter needs: a short question, a picture of a label or a machine, or a link to the previous chapter.",
+        "during": "Listen first for gist (when the audio is ready), then read and follow the chapter’s own structure: a definition map, a priority table, an argument map, a problem–solution chart, a future map, formal rules unpacked into plain language or a two-part organizer.",
+        "after": "Complete the Quick Challenge, then the chapter’s Language Focus (notice → build → use), then a connected B2 transfer: an explanation, proposal or argument about the learners’ own world."
+      },
+      "vocabularyApproach": {
+        "selection": "Word Notes are the bold words of the teacher-approved text. Prioritize them and the words needed for the chapter’s key idea.",
+        "method": "Infer meaning from context or a picture before any direct explanation.",
+        "recycling": "Reuse vocabulary in Language Focus tasks, exit tickets, Key Terms and the Language Review."
+      },
+      "grammarApproach": "Inductive and text-based. Start from the chapter sentence, ask a meaning question (What does this form tell us? How certain is the writer?), let learners formulate the rule, then confirm it and practice it in context. B2 targets include participle clauses, preposition + -ing, nominalization, gerund subjects, hedged predictions, formal noun patterns, the present perfect continuous and formal linkers. Rule explanations appear in the app only after learners answer.",
+      "grammarSequence": [
+        "Ch1: past participle clauses · serve as · by + -ing · in order to",
+        "Ch2: preposition + -ing (step toward limiting, commitment to protecting) · nominalization (depletion, loss, commitment) · as follows",
+        "Ch3: therefore · indeed · as a result · present perfect (has become, have seriously weakened) · pose a risk",
+        "Ch4: gerund subjects · require + -ing · call for + noun · provide someone with something",
+        "Ch5: be likely to (hedged prediction) · consequently · both … and · bring with it · lead to the creation of",
+        "Ch6: a ban on + -ing · a requirement to + verb · apply to · give priority to + -ing",
+        "Ch7: depend on + noun + -ing · allow + person + to · present perfect continuous · instead of",
+        "Ch8: in conclusion · because of this · depend largely on how well · it is helpful for … to · set a goal of + -ing"
+      ],
+      "skillsFocus": {
+        "listening": "TYMM YDAB1: follow extended narration for gist, arguments and key details.",
+        "reading": "TYMM YDAB2: identify arguments, degrees of certainty, causes, results and policy details.",
+        "speaking": "TYMM YDAB3: explain and evaluate ideas, propose policies and present balanced positions.",
+        "writing": "TYMM YDAB4: produce clear, detailed B2 paragraphs and short arguments with evidence, hedging and balanced conclusions."
+      },
+      "valuesFocus": [
+        "D16 Responsibility — Caring for nature and the shared future.",
+        "D5 Sensitivity — Noticing what nature and people need.",
+        "D20 Helpfulness — Working together across borders.",
+        "D1 Justice — A fair transition for all."
+      ],
+      "languageFocus": [
+        "Every one of the 8 chapters has a Language Focus set built as Notice → Build → Use (4 activities).",
+        "Use the Language Focus after basic comprehension and the Quick Challenge.",
+        "Always start from the story sentence and ask a meaning question before naming the form.",
+        "The Use step is connected spoken or written production about a new, non-story situation."
+      ],
+      "differentiationNotes": "Reduce linguistic load without lowering the reasoning target: one paragraph at a time, long sentences unpacked, charts given in part, selected vocabulary, audio replay, sentence frames and oral rehearsal. Extend by asking for evaluation, counterpoints and evidence from more than one chapter, not by introducing outside facts.",
+      "sensitiveNotes": {
+        "title": "Source fidelity and respectful teaching",
+        "notes": [
+          "Keep explanations within the wording of the book; do not add outside numbers or opinions.",
+          "The book is about EU policy; Türkiye’s own plan (2021, net zero by 2053) is in Chapter 8. Present both as the book gives them.",
+          "Discuss energy and money at home with care; some families may have difficulties paying their bills."
+        ]
+      },
+      "globalCitizenship": {
+        "title": "Global Citizenship and Cultural Bridges",
+        "description": "The Green Deal connects with questions every community faces today: how to use less energy, how to protect nature and how to work together across borders.",
+        "themes": [
+          {
+            "title": "An interconnected world:",
+            "description": "The green transition extends across all borders (Chapter 8). Discuss why nations need international partners."
+          },
+          {
+            "title": "Energy security:",
+            "description": "Regional conflicts can block trade routes and make energy scarce (Chapter 3). Discuss how this affects families in different countries."
+          },
+          {
+            "title": "Repair, not replace:",
+            "description": "New rules make spare parts easily accessible for repairs (Chapter 6). Discuss repair traditions in your culture."
+          },
+          {
+            "title": "A fair transition:",
+            "description": "Education is important for a fair transition that prevents social injustice (Chapter 8). Discuss who might be left behind and how to help them."
+          }
+        ],
+        "actions": [
+          "Find the energy label on a machine at home and read it.",
+          "Repair or reuse one old thing this week.",
+          "Find Türkiye’s Green Deal Action Plan goal year on a class poster."
+        ]
+      },
+      "appendices": {
+        "exitTicket": [
+          "One idea from today’s chapter, with the sentence that supports it, is …",
+          "One language pattern I noticed today, and what it does in the sentence, is …",
+          "One action I can take this week for a greener world is …"
+        ],
+        "miniProject": {
+          "title": "The Green Deal: A Policy Panel",
+          "desc": "In groups, each member becomes an analyst for two chapters: strategy, energy, industry or society. Prepare a two-minute statement with one quotation, hold a panel discussion and agree on three recommendations."
+        },
+        "reflectivePrompt": {
+          "title": "A Policy Brief",
+          "desc": "The success of the green transition will depend largely on education (Chapter 8). Write eight to ten sentences arguing which part of the Green Deal matters most for your country. Use evidence from the book and one counterpoint."
+        }
+      },
+      "valuesEducation": {
+        "title": "TYMM Values in Action",
+        "description": "Use only values the chapter really shows. Ask for the sentence first, then connect the value to a small action learners can do and see. See https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi.",
+        "items": [
+          {
+            "label": "D16 Responsibility",
+            "value": "Responsibility: The Green Deal stresses the sustainable use of natural resources and a commitment to protecting and restoring the environment (Chapter 2)."
+          },
+          {
+            "label": "D5 Sensitivity",
+            "value": "Sensitivity: Clear and accessible data helps individuals choose green products instead of high-emission options (Chapter 7)."
+          },
+          {
+            "label": "D20 Helpfulness",
+            "value": "Helpfulness: It is helpful for nations to keep working closely with their international partners (Chapter 8)."
+          },
+          {
+            "label": "D1 Justice",
+            "value": "Justice: Education is important for a fair transition that prevents social injustice (Chapter 8)."
+          }
+        ],
+        "questions": [
+          "Which sentence shows the value?",
+          "What small action can show it this week?",
+          "Which part is from the book and which part is my own idea?"
+        ]
+      },
+      "cefrProfile": {
+        "intro": "This book is written for CEFR B2. The table links the B2 descriptors of the End-of-Level Test B2 to the chapters of this book where learners practice them.",
+        "rows": [
+          {
+            "scale": "Overall reading comprehension",
+            "descriptor": "Can read with a large degree of independence, adapting style and speed of reading to different texts and purposes, and using appropriate reference sources selectively.",
+            "chapters": "All chapters (1–8)",
+            "practice": [
+              "Chapter 3 (Why Is the Green Deal Essential?): Follow the argument from claim to conclusion.",
+              "Whole book: Knowledge Check and Final Challenge."
+            ]
+          },
+          {
+            "scale": "Overall written production",
+            "descriptor": "Can write clear, detailed texts on a variety of subjects related to his field of interest, synthesising and evaluating information and arguments from a number of sources.",
+            "chapters": "Chapters 1–8 (Use activities)",
+            "practice": [
+              "Chapter 3 (Why Is the Green Deal Essential?): Write an argument about energy security.",
+              "Chapter 8 (Education and Our Shared Future): Write a balanced conclusion.",
+              "Language Review, “Use: A Policy Brief”: Write an argument with evidence and a counterpoint."
+            ]
+          },
+          {
+            "scale": "Overall spoken production",
+            "descriptor": "Can give clear, systematically developed descriptions and presentations, with appropriate highlighting of significant points, and relevant supporting detail.",
+            "chapters": "Chapters 4, 6, 8",
+            "practice": [
+              "Chapter 4 (The Switch to Renewable Energy): Present a strategy proposal for your town.",
+              "Chapter 8 (Education and Our Shared Future): Present your analyst statement in the policy panel."
+            ]
+          }
+        ],
+        "test": {
+          "title": "End-of-Level Test B2",
+          "level": "B2",
+          "when": "Give the test when the class has finished the B2 books it reads this term. It has four parts and takes about 85 minutes plus a short speaking test for each learner.",
+          "parts": [
+            "Reading and Language (50 minutes): in the app. The learner gets a test code at the end.",
+            "Writing (35 minutes): on paper. Write an essay discussing this statement: “Travel teaches us more than books do.” (180–220 words)",
+            "Speaking (about 10 minutes): one learner with the teacher, in 3 parts.",
+            "Scoring: type the test code in “Score a test”, then score Writing and Speaking with the bands. Copy the pilot line for the pilot results sheet."
+          ]
+        }
+      }
     }
-   },
-   "valuesEducation": {
-    "title": "Values",
-    "description": "Responsibility and not wasting, through the text’s own facts.",
-    "items": [
-     "Responsibility",
-     "Saving",
-     "Cooperation"
+  },
+  "selfStudyGuide": {
+    "content": [
+      {
+        "chapter": "Chapter 1: A Roadmap for a Greener Europe",
+        "timing": "About 30 minutes",
+        "objectives": [
+          "I can explain the Green Deal as a growth strategy and a roadmap.",
+          "I can explain how the shift to a circular economy protects nature.",
+          "I can use participle clauses and in order to in formal writing."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Announced by the European Commission …, the Green Deal serves as …”: a participle clause. Then choose the forms and rewrite three sentences.",
+        "pronunciationFocus": "Stress: sus-TAIN-a-ble, in-I-ti-a-tive, ef-FI-cient-ly.",
+        "lessonPlan": "What is a roadmap? Write one idea. Read the chapter and find what the Green Deal is. Make a definition map.",
+        "discussionPoints": [
+          "The Green Deal aims to use resources more efficiently. Which resource could you use more efficiently at home?"
+        ],
+        "interactiveTips": [
+          "Open the picture hotspots “A Growth Strategy” and “Using Resources Efficiently” when the picture is in place."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Read the end of the first paragraph again. Find “in order to”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write a formal paragraph of six to seven sentences presenting a green roadmap for your school."
+        },
+        "whatToNotice": [
+          "The Green Deal is both a growth strategy and a roadmap.",
+          "A circular economy focuses on recycling and reducing waste."
+        ],
+        "readListen": ["What is a roadmap? Write one idea.", "Read the chapter and find what the Green Deal is.", "Make a definition map."],
+        "findAnswerInStory": ["Find when the Green Deal was announced.", "Find the 2050 aim.", "Find what the master plan offers."],
+        "vocabularyInContext": [
+          "Word Notes: sustainable, greenhouse gas, emissions, circular economy.",
+          "“Sustainable development.” What does sustainable mean?",
+          "Write one sentence with emissions."
+        ],
+        "quickChallengeGuide": "You will choose why the EU wants to change its economy. Read the end of the first paragraph.",
+        "wrongAnswerSupport": ["Read the end of the first paragraph again.", "Find “in order to”.", "Try again."],
+        "selfCheck": ["Can I explain what the Green Deal is?", "Can I explain the circular economy?", "Can I use participle clauses?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write a formal paragraph of six to seven sentences presenting a green roadmap for your school.",
+        "reflectionPrompt": "The Green Deal aims to use resources more efficiently. Which resource could you use more efficiently at home?"
+      },
+      {
+        "chapter": "Chapter 2: The Key Priorities",
+        "timing": "About 30 minutes",
+        "objectives": [
+          "I can explain the three key priorities of the Green Deal.",
+          "I can explain the 2030 and 2050 targets and why they matter.",
+          "I can use step toward + -ing and formal nouns such as depletion and commitment."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “a critical step toward limiting the effects”: preposition + -ing. Then choose the forms and turn three verbs into nouns.",
+        "pronunciationFocus": "Stress: pri-OR-i-ties, de-PLE-tion, com-MIT-ment.",
+        "lessonPlan": "What is a priority? Write one priority for your town. Read the chapter and find the three key priorities. Make a priority table.",
+        "discussionPoints": [
+          "The Green Deal stresses the sustainable use of natural resources. How could your family use water more sustainably?"
+        ],
+        "interactiveTips": ["Open the picture hotspots “A Critical Step” and “Healthy Soil” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the Sustainability paragraph again. Find “such as”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write a formal paragraph of six to seven sentences on the three key environmental priorities of your city."
+        },
+        "whatToNotice": ["The chapter has three headings.", "Formal texts use nouns like depletion and loss."],
+        "readListen": [
+          "What is a priority? Write one priority for your town.",
+          "Read the chapter and find the three key priorities.",
+          "Make a priority table."
+        ],
+        "findAnswerInStory": ["Find the 2030 target.", "Find the 2050 target.", "Find what the Green Deal aims to ensure for all."],
+        "vocabularyInContext": [
+          "Word Notes: climate neutrality, deforestation, depletion, biodiversity.",
+          "“The depletion of water resources.” What does depletion mean?",
+          "Write one sentence with biodiversity."
+        ],
+        "quickChallengeGuide": "You will choose which problems the Green Deal aims to prevent. Read the Sustainability paragraph.",
+        "wrongAnswerSupport": ["Read the Sustainability paragraph again.", "Find “such as”.", "Try again."],
+        "selfCheck": ["Can I explain the three priorities?", "Can I explain the two targets?", "Can I use preposition + -ing?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write a formal paragraph of six to seven sentences on the three key environmental priorities of your city.",
+        "reflectionPrompt": "The Green Deal stresses the sustainable use of natural resources. How could your family use water more sustainably?"
+      },
+      {
+        "chapter": "Chapter 3: Why Is the Green Deal Essential?",
+        "timing": "About 30 minutes",
+        "objectives": [
+          "I can explain why the Green Deal is essential.",
+          "I can explain why energy security has become a critical challenge.",
+          "I can use formal linkers and the present perfect to build an argument."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Therefore, …” and “Indeed, …”: a conclusion and extra support. Then fill the linkers and rewrite three sentences.",
+        "pronunciationFocus": "Stress: deg-ra-DA-tion, ge-o-po-LIT-i-cal, dis-RUP-tions.",
+        "lessonPlan": "What does energy security mean? Write one idea. Read the chapter and find why the Green Deal is essential. Make an argument map.",
+        "discussionPoints": ["Energy-intensive industries suffer most from high prices. Which energy-intensive habit could you change?"],
+        "interactiveTips": ["Open the picture hotspots “No Longer Sustainable” and “Energy Security” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the end of the second paragraph again. Find “because ongoing conflicts”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write an argument of six to seven sentences about energy security."
+        },
+        "whatToNotice": ["Traditional economic models are no longer sustainable.", "Energy security has become a critical challenge."],
+        "readListen": [
+          "What does energy security mean? Write one idea.",
+          "Read the chapter and find why the Green Deal is essential.",
+          "Make an argument map."
+        ],
+        "findAnswerInStory": [
+          "Find what traditional models rely on.",
+          "Find what is seen as the key way.",
+          "Find what conflicts threaten to block."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: fossil fuels, net-zero, transitioning, geopolitical.",
+          "“Geopolitical tensions.” What does geopolitical mean?",
+          "Write one sentence with transitioning."
+        ],
+        "quickChallengeGuide": "You will choose why supply chains may face disruptions. Read the end of the second paragraph.",
+        "wrongAnswerSupport": ["Read the end of the second paragraph again.", "Find “because ongoing conflicts”.", "Try again."],
+        "selfCheck": ["Can I explain why the Green Deal is essential?", "Can I explain energy security?", "Can I use formal linkers?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write an argument of six to seven sentences about energy security.",
+        "reflectionPrompt": "Energy-intensive industries suffer most from high prices. Which energy-intensive habit could you change?"
+      },
+      {
+        "chapter": "Chapter 4: The Switch to Renewable Energy",
+        "timing": "About 30 minutes",
+        "objectives": [
+          "I can explain why countries are switching to renewable energy.",
+          "I can explain what industrial success requires.",
+          "I can use gerund subjects and require / call for + noun."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Sustaining industrial success … will require …”: an -ing subject. Then choose the forms and rewrite three sentences.",
+        "pronunciationFocus": "Stress: com-pre-HEN-sive, af-FORD-a-ble, de-PEN-den-cy.",
+        "lessonPlan": "What problem did Chapter 3 describe? Write one idea. Read the chapter and find what countries are switching to. Make a problem–solution chart.",
+        "discussionPoints": [
+          "Countries want to end their dependency on fossil fuels. Which dependency in your daily life would you like to reduce?"
+        ],
+        "interactiveTips": [
+          "Open the picture hotspots “Wind and Solar Power” and “A Comprehensive Strategy” when the picture is in place."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Read the beginning of the second paragraph again. Find “calls for”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write a formal proposal of six to seven sentences for a renewable energy strategy in your town."
+        },
+        "whatToNotice": ["Renewable energy is often cheaper.", "Industrial success requires three things."],
+        "readListen": [
+          "What problem did Chapter 3 describe? Write one idea.",
+          "Read the chapter and find what countries are switching to.",
+          "Make a problem–solution chart."
+        ],
+        "findAnswerInStory": [
+          "Find two kinds of renewable energy.",
+          "Find what industrial success will require.",
+          "Find what the strategy should be based on."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: renewable energy.",
+          "“Renewable energy.” What does renewable mean?",
+          "Write one sentence with affordable."
+        ],
+        "quickChallengeGuide": "You will choose why a faster transition is needed. Read the beginning of the second paragraph.",
+        "wrongAnswerSupport": ["Read the beginning of the second paragraph again.", "Find “calls for”.", "Try again."],
+        "selfCheck": ["Can I explain why countries switch?", "Can I explain what success requires?", "Can I use a gerund subject?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write a formal proposal of six to seven sentences for a renewable energy strategy in your town.",
+        "reflectionPrompt": "Countries want to end their dependency on fossil fuels. Which dependency in your daily life would you like to reduce?"
+      },
+      {
+        "chapter": "Chapter 5: The Birth of a Net-Zero Era",
+        "timing": "About 30 minutes",
+        "objectives": [
+          "I can explain what the net-zero era will bring.",
+          "I can explain which countries can become global leaders.",
+          "I can use likely to, consequently and both … and."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “The coming decades are likely to see …”: a hedged prediction. Then choose the forms and rewrite three sentences.",
+        "pronunciationFocus": "Stress: DEC-ades, e-MERG-ing, TUR-bines.",
+        "lessonPlan": "Which jobs will be common in 2050? Write one idea. Read the chapter and find what the net-zero era will bring. Make a future map.",
+        "discussionPoints": ["New industries require newly skilled workers. Which skill would prepare you for a green job?"],
+        "interactiveTips": ["Open the picture hotspots “A Net-Zero Era” and “The Net-Zero Industry Act” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the middle of the first paragraph again. Find “Consequently”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write a forecast of six to seven sentences about your country’s economy in a net-zero era."
+        },
+        "whatToNotice": ["The writer says the net-zero era is likely, not certain.", "The EU introduced a law for green technologies."],
+        "readListen": [
+          "Which jobs will be common in 2050? Write one idea.",
+          "Read the chapter and find what the net-zero era will bring.",
+          "Make a future map."
+        ],
+        "findAnswerInStory": [
+          "Find what the new economic structure brings with it.",
+          "Find which countries can secure a strong place.",
+          "Find the name of the law."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: eco-friendly.",
+          "“Eco-friendly production.” What does eco-friendly mean?",
+          "Write one sentence with emerging."
+        ],
+        "quickChallengeGuide": "You will choose which countries can lead. Read the middle of the first paragraph.",
+        "wrongAnswerSupport": ["Read the middle of the first paragraph again.", "Find “Consequently”.", "Try again."],
+        "selfCheck": ["Can I explain the net-zero era?", "Can I name the technologies in the law?", "Can I use likely to?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write a forecast of six to seven sentences about your country’s economy in a net-zero era.",
+        "reflectionPrompt": "New industries require newly skilled workers. Which skill would prepare you for a green job?"
+      },
+      {
+        "chapter": "Chapter 6: New Rules for Greener Products",
+        "timing": "About 30 minutes",
+        "objectives": [
+          "I can explain two specific examples of the new rules.",
+          "I can explain what the rules mean for factories and governments.",
+          "I can use noun phrases: a ban on …-ing, a requirement to …, apply to."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “strict bans on destroying unsold clothing” and “requirements to make spare parts easily accessible”. Then choose the forms and rewrite three sentences.",
+        "pronunciationFocus": "Stress: reg-u-LA-tions, re-QUIRE-ments, ac-CES-si-ble.",
+        "lessonPlan": "Why would a shop destroy unsold clothes? Write one idea. Read the chapter and find the examples of rules. Unpack each rule into plain language.",
+        "discussionPoints": ["Accessible spare parts make repairs easier. What would you repair instead of replacing?"],
+        "interactiveTips": ["Open the picture hotspots “Strict Bans” and “Accessible Spare Parts” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the end of the chapter again. Find “This means”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write a short regulation of six to seven sentences for products sold at your school."
+        },
+        "whatToNotice": ["The rules are written as noun phrases.", "The rules will apply to more products in the future."],
+        "readListen": [
+          "Why would a shop destroy unsold clothes? Write one idea.",
+          "Read the chapter and find the examples of rules.",
+          "Unpack each rule into plain language."
+        ],
+        "findAnswerInStory": ["Find what is banned.", "Find what is required.", "Find what governments will give top priority to."],
+        "vocabularyInContext": [
+          "This chapter has no Word Notes.",
+          "“Easily accessible.” What does accessible mean?",
+          "Write one sentence with regulations."
+        ],
+        "quickChallengeGuide": "You will choose what factories will need to do. Read the end of the chapter.",
+        "wrongAnswerSupport": ["Read the end of the chapter again.", "Find “This means”.", "Try again."],
+        "selfCheck": [
+          "Can I explain the two rules?",
+          "Can I explain what factories will need to do?",
+          "Can I use ban on and requirement to?"
+        ],
+        "useWhatYouLearned": "Language Focus, last activity: Write a short regulation of six to seven sentences for products sold at your school.",
+        "reflectionPrompt": "Accessible spare parts make repairs easier. What would you repair instead of replacing?"
+      },
+      {
+        "chapter": "Chapter 7: Everyday Choices and the Future of Work",
+        "timing": "About 30 minutes",
+        "objectives": [
+          "I can explain why transparent information matters for consumers.",
+          "I can explain how the labor market is changing.",
+          "I can use depend on + noun + -ing and the present perfect continuous."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “depends heavily on consumers making smart, eco-friendly choices”. Then choose the forms and rewrite three sentences.",
+        "pronunciationFocus": "Stress: trans-PAR-ent, ap-PLI-an-ces, per-son-NEL.",
+        "lessonPlan": "What do you want to know before you buy something? Write one idea. Read the chapter and find what consumers need. Make a two-part organizer.",
+        "discussionPoints": [
+          "Clear and accessible data helps people choose green products. What information will you look for next time you shop?"
+        ],
+        "interactiveTips": ["Open the picture hotspots “Transparent Information” and “The Labor Market” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the end of the second paragraph again. Find “As a result”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write a guide of six to seven sentences for eco-friendly consumers."
+        },
+        "whatToNotice": ["Consumers need transparent information.", "Green jobs have been increasing rapidly."],
+        "readListen": [
+          "What do you want to know before you buy something? Write one idea.",
+          "Read the chapter and find what consumers need.",
+          "Make a two-part organizer."
+        ],
+        "findAnswerInStory": [
+          "Find what people should see before they buy.",
+          "Find what energy labels allow.",
+          "Find what the shift is creating."
+        ],
+        "vocabularyInContext": [
+          "This chapter has no Word Notes.",
+          "“Transparent information.” What does transparent mean here?",
+          "Write one sentence with personnel."
+        ],
+        "quickChallengeGuide": "You will choose why there will be strong competition for talent. Read the end of the second paragraph.",
+        "wrongAnswerSupport": ["Read the end of the second paragraph again.", "Find “As a result”.", "Try again."],
+        "selfCheck": ["Can I explain why information matters?", "Can I explain the labor market?", "Can I use depend on + -ing?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write a guide of six to seven sentences for eco-friendly consumers.",
+        "reflectionPrompt": "Clear and accessible data helps people choose green products. What information will you look for next time you shop?"
+      },
+      {
+        "chapter": "Chapter 8: Education and Our Shared Future",
+        "timing": "About 30 minutes",
+        "objectives": [
+          "I can explain why education is a major part of the Green Deal.",
+          "I can explain why nations should keep working with their partners.",
+          "I can use concluding language and a fair transition that prevents …"
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “In conclusion, the success … will depend largely on how well nations can train workers”. Then fill the linkers and rewrite three sentences.",
+        "pronunciationFocus": "Say: twenty fifty-three. Stress: in-ter-con-NECT-ed, in-JUS-tice.",
+        "lessonPlan": "Can education solve the climate crisis? Write one idea. Read the chapter and find what the success depends on. Find Türkiye’s plan.",
+        "discussionPoints": [
+          "Leaders, organizations and citizens should all support these steps. Which step can you support as a citizen?"
+        ],
+        "interactiveTips": ["Open the picture hotspots “An Informed Society” and “Türkiye’s Plan” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the second sentence again. Find “a fair transition”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write a conclusion of six to seven sentences: Can education solve the climate crisis?"
+        },
+        "whatToNotice": ["Education is a major part of the Green Deal.", "The green transition extends across all borders."],
+        "readListen": [
+          "Can education solve the climate crisis? Write one idea.",
+          "Read the chapter and find what the success depends on.",
+          "Find Türkiye’s plan."
+        ],
+        "findAnswerInStory": [
+          "Find the three areas where education matters.",
+          "Find who should support these steps.",
+          "Find Türkiye’s goal."
+        ],
+        "vocabularyInContext": [
+          "This chapter has no Word Notes.",
+          "“An interconnected world.” What does interconnected mean?",
+          "Write one sentence with fair transition."
+        ],
+        "quickChallengeGuide": "You will choose the kind of transition the chapter mentions. Read the second sentence.",
+        "wrongAnswerSupport": ["Read the second sentence again.", "Find “a fair transition”.", "Try again."],
+        "selfCheck": [
+          "Can I explain why education matters?",
+          "Can I explain why nations work together?",
+          "Can I write a balanced conclusion?"
+        ],
+        "useWhatYouLearned": "Language Focus, last activity: Write a conclusion of six to seven sentences: Can education solve the climate crisis?",
+        "reflectionPrompt": "Leaders, organizations and citizens should all support these steps. Which step can you support as a citizen?"
+      }
     ],
-    "questions": [
-     "What can one person do for a cleaner world?"
+    "metadata": {
+      "title": "The European Green Deal B2 — Self-Study Guide",
+      "subtitle": "Read • Find • Check • Build • Use",
+      "level": "B2",
+      "language": "English",
+      "estimatedStudyTime": "About 30 minutes per chapter, plus the review pages at the end",
+      "whoIsThisFor": "B2 learners who study the text about the European Green Deal alone or with a teacher.",
+      "learningGoals": [
+        "Understand the 8 chapters of The European Green Deal.",
+        "Find evidence in the text before answering.",
+        "Follow the argument of the Green Deal text from its roadmap to its conclusion.",
+        "Evaluate the role of energy, regulation, consumers, education and cooperation with evidence from the book.",
+        "Use each chapter’s Language Focus in connected sentences."
+      ],
+      "recommendedUse": [
+        "Study one chapter at a time.",
+        "Read (and listen, when the audio is ready) before the Quick Challenge.",
+        "Repair wrong answers with the text.",
+        "Do the Language Focus after you understand the chapter.",
+        "Do the review pages after Chapter 8."
+      ],
+      "readingDiary": {
+        "intro": "Keep this diary when you finish the book. Write short answers.",
+        "prompts": [
+          "The date I finished the book:",
+          "My favorite chapter, and one reason:",
+          "One idea from the Green Deal that I think matters most for my country, and why:",
+          "One sentence for a friend: “Read this book because …”",
+          "One new word I want to keep:",
+          "The next book I want to read in the library:"
+        ]
+      }
+    },
+    "sections": [
+      {
+        "title": "1. Make Your Plan",
+        "icon": "Clock",
+        "text": "This book has 8 chapters. Plan the whole book before Chapter 1.",
+        "points": [
+          "Choose your study days and how many chapters you will read each week.",
+          "Write one personal goal for this book.",
+          "Save new words to My words and review them after one day, three days and one week."
+        ]
+      },
+      {
+        "title": "2. One Chapter per Session",
+        "icon": "Target",
+        "text": "Each chapter takes about 30 minutes. Open “Study Path” for the steps of your chapter.",
+        "points": [
+          "Preview the title and the “Before You Read” question.",
+          "Read for the main idea.",
+          "Find the evidence.",
+          "Do the Quick Challenge.",
+          "Do the Language Focus."
+        ]
+      },
+      {
+        "title": "3. Read and Listen",
+        "icon": "Ear",
+        "text": "Read every chapter twice: once for the main idea, once for the details. When the audio is ready, listen once while you follow the text.",
+        "points": [
+          "First reading: What is the chapter about?",
+          "Second reading: Mark names, dates and linking words.",
+          "Say one long sentence aloud with the right pauses."
+        ]
+      },
+      {
+        "title": "4. Word Notes",
+        "icon": "BookOpen",
+        "text": "Bold words have Word Notes. Use them after you have tried to understand the sentence yourself.",
+        "points": ["Guess the meaning from the sentence.", "Check the Word Note.", "Write the word in a new sentence of your own."]
+      },
+      {
+        "title": "5. Quick Challenge",
+        "icon": "CheckCircle",
+        "text": "Answer before you read the feedback. If you are wrong, repair the answer with the text.",
+        "points": [
+          "Find the paragraph the question is about.",
+          "Read the key sentence again.",
+          "Explain why the right answer is right, then try again."
+        ]
+      },
+      {
+        "title": "6. Language Focus",
+        "icon": "Eye",
+        "text": "Each chapter has 4 Language Focus activities built from the chapter’s own sentences.",
+        "points": [
+          "Activity 1 (Notice): Look at a sentence and what it means.",
+          "Activities 2–3 (Build): Choose, complete, correct or rewrite forms.",
+          "Activity 4 (Use): Write or say connected sentences about a different situation."
+        ]
+      },
+      {
+        "title": "7. When It Is Hard",
+        "icon": "HelpCircle",
+        "text": "Some chapters have many names and dates. Change how you study, not your goal.",
+        "points": [
+          "Read one paragraph only.",
+          "Make a time line of the dates.",
+          "List the names and what each one did.",
+          "Learn only three words today."
+        ]
+      },
+      {
+        "title": "8. Values in the Book",
+        "icon": "Heart",
+        "text": "The book shows responsibility, sensitivity, helpfulness and justice. Find the sentence first, then think of a small action of your own.",
+        "points": [
+          "Responsibility: Responsibility: The Green Deal stresses the sustainable use of natural resources and a commitment to protecting and restoring the environment (Chapter 2).",
+          "Sensitivity: Sensitivity: Clear and accessible data helps individuals choose green products instead of high-emission options (Chapter 7).",
+          "Helpfulness: Helpfulness: It is helpful for nations to keep working closely with their international partners (Chapter 8).",
+          "Justice: Justice: Education is important for a fair transition that prevents social injustice (Chapter 8)."
+        ]
+      },
+      {
+        "title": "9. At the End of the Book",
+        "icon": "Stars",
+        "text": "After Chapter 8, do the review pages in this order. Go back to a chapter when an answer is not clear.",
+        "points": [
+          "Key Facts",
+          "Knowledge Check",
+          "Vocabulary Challenge",
+          "Master Glossary",
+          "Key Terms",
+          "Language Review",
+          "Final Challenge"
+        ]
+      },
+      {
+        "title": "10. Look Back",
+        "icon": "BookOpen",
+        "text": "Before Chapter 1 and again at the end, answer the “I can” statements of a few chapters. What can you do now that you could not do before?",
+        "points": [
+          "Which chapter changed what you knew?",
+          "Explain to someone at home in six sentences what the Green Deal is and why it matters, in your home language or in English."
+        ]
+      }
     ]
-   }
   }
- },
- "selfStudyGuide": {
-  "content": [],
-  "metadata": {
-   "title": "The European Green Deal B2 — Self-Study Guide",
-   "subtitle": "Coming soon",
-   "level": "B2",
-   "language": "",
-   "estimatedStudyTime": "",
-   "whoIsThisFor": "",
-   "learningGoals": [],
-   "recommendedUse": []
-  }
- }
 }

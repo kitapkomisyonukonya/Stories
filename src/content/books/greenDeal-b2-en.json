@@ -1,150 +1,2410 @@
 {
- "schema": 1,
- "storyId": "greenDeal",
- "level": "B2",
- "language": "en",
- "collection": "today",
- "book": {
-  "id": "greenDeal-b2",
-  "title": "The European Green Deal",
+  "schema": 1,
+  "storyId": "greenDeal",
   "level": "B2",
-  "baseFontSize": 12,
-  "pages": [
-   {
-    "id": 1,
-    "type": "story",
-    "title": "A Roadmap for a Greener Europe",
-    "image": "",
-    "audioUrl": "",
-    "content": "Announced by the European Commission on 11 December 2019, the Green Deal serves as a growth strategy for sustainable development, which aims to protect the planet by creating a clean economy and reducing the EU’s net greenhouse gas emissions to zero by 2050. The Green Deal is the EU’s roadmap for making its economy, industry, and everyday life more environmentally friendly in order to tackle the climate crisis and ensure a healthier planet.\n\nA major goal of this initiative is to use resources more efficiently by promoting the shift to a circular economy, focusing on recycling materials and reducing waste to protect nature. To reach this goal, it offers a master plan with practical policies and specific opportunities for this great transformation.",
-    "vocabulary": [
-     {
-      "word": "sustainable",
-      "definition": "Able to continue for a long time without harming the environment."
-     },
-     {
-      "word": "greenhouse gas",
-      "definition": "A gas, such as carbon dioxide, that traps heat in the air and makes the Earth warmer."
-     },
-     {
-      "word": "emissions",
-      "definition": "Gases that are sent into the air, for example by cars and factories."
-     },
-     {
-      "word": "circular economy",
-      "definition": "An economy in which materials are reused, repaired, and recycled instead of being thrown away."
-     }
-    ]
-   },
-   {
-    "id": 2,
-    "type": "story",
-    "title": "The Key Priorities",
-    "image": "",
-    "audioUrl": "",
-    "content": "The key priorities of the Green Deal are as follows:\n\nAddressing Climate Change: The Green Deal emphasizes tackling climate change, which is one of the European Union’s top priorities. Within this framework, the EU and its member states aim to reduce greenhouse gas emissions by at least 55% by 2030 and achieve climate neutrality by 2050. This is a critical step toward limiting the effects of global warming and reducing the harmful impacts of climate change.\n\nSustainability: The Green Deal stresses the sustainable use of natural resources. It aims to prevent environmental problems such as deforestation, the depletion of water resources and the loss of biodiversity. The Green Deal also includes a commitment to protecting and restoring the environment, aiming to ensure clean air, clean water, healthy soil, and sustainable, healthy food for all.\n\nEconomic Transformation: The Green Deal aims to promote green technologies and environmentally friendly business models. In this way, it seeks to support economic growth in a sustainable manner.",
-    "vocabulary": [
-     {
-      "word": "climate neutrality",
-      "definition": "A state in which a country releases no more greenhouse gases than it removes from the air."
-     },
-     {
-      "word": "deforestation",
-      "definition": "The cutting down of forests over a large area."
-     },
-     {
-      "word": "depletion",
-      "definition": "A fall in the amount of something until very little is left."
-     },
-     {
-      "word": "biodiversity",
-      "definition": "The variety of plants and animals that live in a place."
-     }
-    ]
-   },
-   {
-    "id": 3,
-    "type": "story",
-    "title": "Why Is the Green Deal Essential?",
-    "image": "",
-    "audioUrl": "",
-    "content": "The Green Deal is crucial because climate change and environmental degradation pose a severe risk to the planet. Traditional economic models that rely on heavy resource consumption and fossil fuels are no longer sustainable. Therefore, transitioning to a net-zero economy is seen as the key way to tackle the climate crisis, protect biodiversity, and ensure long-term energy security.\n\nIndeed, energy security has become a critical challenge today as rising geopolitical tensions, global crises, and regional conflicts create constant uncertainty around the world. High energy prices and broken supply chains have seriously weakened the competitiveness of many companies, especially energy-intensive industries. These supply chains may face disruptions because ongoing conflicts threaten to block trade routes and stop the delivery of resources. As a result, electricity and fuel become scarce and expensive.",
-    "vocabulary": [
-     {
-      "word": "fossil fuels",
-      "definition": "Fuels such as coal, oil, and gas that formed underground from plants and animals millions of years ago."
-     },
-     {
-      "word": "net-zero",
-      "definition": "Describes a balance in which the greenhouse gases we release are equal to the amount we remove from the air."
-     },
-     {
-      "word": "transitioning",
-      "definition": "Changing from one system or situation to another."
-     },
-     {
-      "word": "geopolitical",
-      "definition": "Connected with how a country’s location and power affect its relations with other countries."
-     }
-    ]
-   },
-   {
-    "id": 4,
-    "type": "story",
-    "title": "The Switch to Renewable Energy",
-    "image": "",
-    "audioUrl": "",
-    "content": "To prevent these financial burdens, replace expensive fossil fuels, and end dependency on these traditional fuels, a growing number of countries are taking important steps to switch to renewable energy, such as wind and solar power, which is often cheaper. Sustaining industrial success in these uncertain times will require changing policies, moving toward renewable energy, and training workers with new skills.\n\nThis situation calls for a faster green transition to provide industries with affordable clean energy. Therefore, governments and organizations should design a comprehensive strategy based on a detailed analysis of investment needs for clean technology innovation and manufacturing.",
-    "vocabulary": [
-     {
-      "word": "renewable energy",
-      "definition": "Energy from sources that do not run out, such as the wind and the sun."
-     }
-    ]
-   },
-   {
-    "id": 5,
-    "type": "story",
-    "title": "The Birth of a Net-Zero Era",
-    "image": "",
-    "audioUrl": "",
-    "content": "The coming decades are likely to see the birth of a net-zero era, a period when the greenhouse gases we release are balanced by the amount we remove from the air. This new economic structure brings with it fresh markets, advanced clean technologies, and a complete transformation of our existing energy systems. Consequently, countries that choose to invest first and move faster today can secure a strong place in this emerging economy. These nations can also become global leaders both in clean technology and in addressing climate change and environmental pollution.\n\nThe transition to a green economy naturally leads to the creation of new industries requiring newly skilled workers while modernizing factories for eco-friendly production. To support this, the EU introduced the Net-Zero Industry Act to help build key green technologies such as batteries, wind turbines, heat pumps, solar panels, and systems that capture and store carbon dioxide.",
-    "vocabulary": [
-     {
-      "word": "eco-friendly",
-      "definition": "Not harmful to the environment."
-     }
-    ]
-   },
-   {
-    "id": 6,
-    "type": "story",
-    "title": "New Rules for Greener Products",
-    "image": "",
-    "audioUrl": "",
-    "content": "New rules for eco-friendly products and clean energy sources are important for the shift to a sustainable economy. These rules help create strong and successful systems for building, reusing, and recycling green technologies around the world. Specific examples of these rules include strict bans on destroying unsold clothing, as well as requirements to make spare parts easily accessible for repairs. In the future, modern regulations will apply to a much broader range of everyday products. This means factories will need to follow strict sustainability standards to protect nature. Governments will give top priority to developing net-zero technologies under these new eco-friendly plans.",
-    "vocabulary": []
-   },
-   {
-    "id": 7,
-    "type": "story",
-    "title": "Everyday Choices and the Future of Work",
-    "image": "",
-    "audioUrl": "",
-    "content": "In fact, the success of the Green Deal depends heavily on consumers making smart, eco-friendly choices driven by transparent information. People should easily see how sustainable, durable, and clean a product is before they buy it. Clear and accessible data helps individuals choose green products instead of traditional, high-emission options. For instance, energy labels on household appliances allow users to compare different choices effortlessly. Providing consumers with more information is a major step toward a successful green transition.\n\nThis economic transformation is also reshaping the labor market. As part of this change, the number of green jobs has been increasing rapidly in recent years. This shift is creating a huge demand for new skills at all levels, requiring large-scale training programs to help workers learn new technologies. Clean energy and eco-friendly manufacturing industries continue to need additional personnel. As a result, there will be strong competition for specialized talent in the near future.",
-    "vocabulary": []
-   },
-   {
-    "id": 8,
-    "type": "story",
-    "title": "Education and Our Shared Future",
-    "image": "",
-    "audioUrl": "",
-    "content": "In conclusion, the success of the green transition will depend largely on how well nations can train workers and educate society. This is true for industrial productivity based on innovation and resource efficiency, for a fair transition that prevents social injustice, and for reaching net-zero goals. Because of this, a major part of the Green Deal focuses on education. It helps all people learn essential green and digital skills. Fostering an informed and aware society through education and workforce training is essential for the world’s shared future.\n\nLeaders, organizations, and citizens should all support these steps to turn these ideas into concrete actions for a cleaner world. In an interconnected world where the green transition extends across all borders, it is helpful for nations to keep working closely with their international partners. Türkiye also published its own Green Deal Action Plan in 2021 and set a goal of reaching net-zero emissions by 2053.",
-    "vocabulary": []
-   }
-  ],
-  "teacherGuide": [],
-  "selfStudyGuide": []
- }
+  "language": "en",
+  "collection": "today",
+  "book": {
+    "id": "greenDeal-b2",
+    "title": "The European Green Deal",
+    "level": "B2",
+    "baseFontSize": 12,
+    "pages": [
+      {
+        "id": 1,
+        "type": "story",
+        "title": "A Roadmap for a Greener Europe",
+        "image": "",
+        "audioUrl": "",
+        "content": "Announced by the European Commission on 11 December 2019, the Green Deal serves as a growth strategy for sustainable development, which aims to protect the planet by creating a clean economy and reducing the EU’s net greenhouse gas emissions to zero by 2050. The Green Deal is the EU’s roadmap for making its economy, industry, and everyday life more environmentally friendly in order to tackle the climate crisis and ensure a healthier planet.\n\nA major goal of this initiative is to use resources more efficiently by promoting the shift to a circular economy, focusing on recycling materials and reducing waste to protect nature. To reach this goal, it offers a master plan with practical policies and specific opportunities for this great transformation.",
+        "vocabulary": [
+          {
+            "word": "sustainable",
+            "definition": "Able to continue for a long time without harming the environment."
+          },
+          {
+            "word": "greenhouse gas",
+            "definition": "A gas, such as carbon dioxide, that traps heat in the air and makes the Earth warmer."
+          },
+          {
+            "word": "emissions",
+            "definition": "Gases that are sent into the air, for example by cars and factories."
+          },
+          {
+            "word": "circular economy",
+            "definition": "An economy in which materials are reused, repaired, and recycled instead of being thrown away."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "greenDeal-b2-en-h1a",
+            "x": 30,
+            "y": 40,
+            "title": "A Growth Strategy",
+            "description": "Announced by the European Commission on 11 December 2019, the Green Deal serves as a growth strategy for sustainable development."
+          },
+          {
+            "id": "greenDeal-b2-en-h1b",
+            "x": 70,
+            "y": 45,
+            "title": "Using Resources Efficiently",
+            "description": "A major goal of this initiative is to use resources more efficiently by promoting the shift to a circular economy."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "greenDeal-b2-quick-1",
+            "type": "multiple-choice",
+            "title": "Why a Roadmap?",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Why does the EU want to make its economy, industry and everyday life more environmentally friendly?",
+            "options": [
+              "to tackle the climate crisis and ensure a healthier planet",
+              "to increase the use of fossil fuels",
+              "to reduce the number of member states"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “… more environmentally friendly in order to tackle the climate crisis and ensure a healthier planet.”",
+            "feedback": {
+              "correct": "Correct. To tackle the climate crisis.",
+              "incorrect": "Read the end of the first paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "greenDeal-b2-language-1-participle",
+            "type": "multiple-choice",
+            "title": "Notice: Announced By …",
+            "instructions": "Read the sentence. Then choose what the opening phrase does.",
+            "question": "“Announced by the European Commission on 11 December 2019, the Green Deal serves as a growth strategy …” What does “Announced by …” do?",
+            "options": [
+              "It gives background information about the Green Deal in a short, formal way.",
+              "It tells us what the Green Deal will do next.",
+              "It is the main verb of the sentence."
+            ],
+            "correctAnswer": 0,
+            "explanation": "A past participle clause at the start of a sentence (Announced by …) is a short, formal way to say “The Green Deal, which was announced by …”. The main verb is “serves”.",
+            "feedback": {
+              "correct": "Correct. Background information.",
+              "incorrect": "Find the main verb of the sentence."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-1-formal",
+            "type": "choose-form",
+            "title": "Build: Formal Patterns",
+            "instructions": "Choose the correct form for each sentence from Chapter 1.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The Green Deal serves [choice] a growth strategy for sustainable development.",
+                "options": ["as", "like", "for"],
+                "answer": 0
+              },
+              {
+                "sentence": "… which aims to protect the planet by [choice] a clean economy.",
+                "options": ["creating", "create", "created"],
+                "answer": 0
+              },
+              {
+                "sentence": "… more environmentally friendly in order [choice] the climate crisis.",
+                "options": ["to tackle", "tackling", "for tackling"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Serve as” + role, “by + -ing” for method and “in order to + verb” for purpose.",
+            "feedback": {
+              "correct": "Well done. As, creating, to tackle.",
+              "incorrect": "Check the word before each gap."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-1-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Announced by the European Commission on 11 December 2019, the Green Deal serves as a growth strategy.",
+                "frame": "The Green Deal, [blank] was announced by the European Commission on 11 December 2019, serves as a growth strategy.",
+                "answers": ["which"]
+              },
+              {
+                "source": "A major goal of this initiative is to use resources more efficiently.",
+                "frame": "A major goal of this initiative is the more efficient [blank] of resources.",
+                "answers": ["use"]
+              },
+              {
+                "source": "It focuses on recycling materials and reducing waste to protect nature.",
+                "frame": "It focuses on recycling materials and reducing waste so [blank] nature is protected.",
+                "answers": ["that"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "A participle clause can become a relative clause. A verb (use) can become a noun (the use of). “To + verb” for purpose can become “so that”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use which, use and that."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-1-roadmap",
+            "type": "reflection",
+            "title": "Use: A Roadmap for Our School",
+            "instructions": "Write a formal paragraph of six to seven sentences presenting a green roadmap for your school.",
+            "question": "What is the aim, and how will it be reached?",
+            "correctAnswer": null,
+            "explanation": "Example: “Prepared by our class, this roadmap aims to make our school more sustainable. Its main goal is to use resources more efficiently. We will reduce paper waste by printing on both sides and sharing digital materials. We will also recycle plastic and glass in order to protect nature. Every class will choose an energy monitor. In this way, our school can become a model for the neighborhood.”",
+            "feedback": {
+              "correct": "Check: a participle clause, in order to and by + -ing.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Introduce the roadmap with a participle clause.",
+                "mode": "Individual",
+                "example": "Prepared by our class, …"
+              },
+              {
+                "question": "Give the aim with in order to.",
+                "mode": "Individual",
+                "example": "… in order to …"
+              },
+              {
+                "question": "Give the method with by + -ing.",
+                "mode": "Pair",
+                "example": "This can be achieved by …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What does the text call the Green Deal in the second sentence?",
+          "options": ["the EU’s roadmap", "the EU’s budget", "the EU’s constitution"],
+          "answer": 0,
+          "quote": "The Green Deal is the EU’s roadmap"
+        },
+        "iCan": [
+          "I can explain the Green Deal as a growth strategy and a roadmap.",
+          "I can explain how the shift to a circular economy protects nature.",
+          "I can use participle clauses and in order to in formal writing."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "story",
+        "title": "The Key Priorities",
+        "image": "",
+        "audioUrl": "",
+        "content": "The key priorities of the Green Deal are as follows:\n\nAddressing Climate Change: The Green Deal emphasizes tackling climate change, which is one of the European Union’s top priorities. Within this framework, the EU and its member states aim to reduce greenhouse gas emissions by at least 55% by 2030 and achieve climate neutrality by 2050. This is a critical step toward limiting the effects of global warming and reducing the harmful impacts of climate change.\n\nSustainability: The Green Deal stresses the sustainable use of natural resources. It aims to prevent environmental problems such as deforestation, the depletion of water resources and the loss of biodiversity. The Green Deal also includes a commitment to protecting and restoring the environment, aiming to ensure clean air, clean water, healthy soil, and sustainable, healthy food for all.\n\nEconomic Transformation: The Green Deal aims to promote green technologies and environmentally friendly business models. In this way, it seeks to support economic growth in a sustainable manner.",
+        "vocabulary": [
+          {
+            "word": "climate neutrality",
+            "definition": "A state in which a country releases no more greenhouse gases than it removes from the air."
+          },
+          {
+            "word": "deforestation",
+            "definition": "The cutting down of forests over a large area."
+          },
+          {
+            "word": "depletion",
+            "definition": "A fall in the amount of something until very little is left."
+          },
+          {
+            "word": "biodiversity",
+            "definition": "The variety of plants and animals that live in a place."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "greenDeal-b2-en-h2a",
+            "x": 30,
+            "y": 40,
+            "title": "A Critical Step",
+            "description": "This is a critical step toward limiting the effects of global warming and reducing the harmful impacts of climate change."
+          },
+          {
+            "id": "greenDeal-b2-en-h2b",
+            "x": 70,
+            "y": 45,
+            "title": "Healthy Soil",
+            "description": "It aims to ensure clean air, clean water, healthy soil, and sustainable, healthy food for all."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "greenDeal-b2-quick-2",
+            "type": "multiple-choice",
+            "title": "Sustainability",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Which environmental problems does the Green Deal aim to prevent?",
+            "options": [
+              "deforestation, the depletion of water resources and the loss of biodiversity",
+              "high prices and broken supply chains",
+              "regional conflicts and geopolitical tensions"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 2: “It aims to prevent environmental problems such as deforestation, the depletion of water resources and the loss of biodiversity.”",
+            "feedback": {
+              "correct": "Correct. Deforestation, depletion and loss of biodiversity.",
+              "incorrect": "Read the Sustainability paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "greenDeal-b2-language-2-toward",
+            "type": "multiple-choice",
+            "title": "Notice: A Step Toward …-ing",
+            "instructions": "Read the sentence. Then choose the correct explanation.",
+            "question": "“This is a critical step toward limiting the effects of global warming …” Why is “limiting” an -ing form?",
+            "options": [
+              "Because “toward” is a preposition, and a verb after a preposition takes -ing.",
+              "Because the action is happening now.",
+              "Because it is an adjective."
+            ],
+            "correctAnswer": 0,
+            "explanation": "After a preposition (toward, by, on, of), a verb takes the -ing form: a step toward limiting, a commitment to protecting.",
+            "feedback": {
+              "correct": "Correct. A preposition comes before it.",
+              "incorrect": "What kind of word is “toward”?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-2-prepositions",
+            "type": "choose-form",
+            "title": "Build: Preposition + -ing",
+            "instructions": "Choose the correct form for each sentence from Chapter 2.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "This is a critical step toward [choice] the effects of global warming.",
+                "options": ["limiting", "limit", "limited"],
+                "answer": 0
+              },
+              {
+                "sentence": "The Green Deal also includes a commitment to [choice] and restoring the environment.",
+                "options": ["protecting", "protect", "protected"],
+                "answer": 0
+              },
+              {
+                "sentence": "The Green Deal emphasizes [choice] climate change.",
+                "options": ["tackling", "to tackle", "tackle"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Toward” and “to” (in “commitment to”) are prepositions, so they take -ing. “Emphasize” is followed by a noun or -ing.",
+            "feedback": {
+              "correct": "Well done. Limiting, protecting, tackling.",
+              "incorrect": "Is there a preposition before the gap?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-2-nouns",
+            "type": "transformation",
+            "title": "Build: Verbs to Nouns",
+            "instructions": "Complete the new sentence with a noun. Keep the same meaning.",
+            "question": "How does formal writing use nouns?",
+            "transformItems": [
+              {
+                "source": "Water resources are depleted.",
+                "frame": "There is a [blank] of water resources.",
+                "answers": ["depletion"]
+              },
+              {
+                "source": "Biodiversity is lost.",
+                "frame": "There is a [blank] of biodiversity.",
+                "answers": ["loss"]
+              },
+              {
+                "source": "The Green Deal commits to protecting the environment.",
+                "frame": "The Green Deal includes a [blank] to protecting the environment.",
+                "answers": ["commitment"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Formal texts often turn verbs into nouns: deplete → depletion, lose → loss, commit → commitment.",
+            "feedback": {
+              "correct": "Correct. Depletion, loss, commitment.",
+              "incorrect": "Find the nouns in the Sustainability paragraph."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-2-priorities",
+            "type": "reflection",
+            "title": "Use: Our City’s Priorities",
+            "instructions": "Write a formal paragraph of six to seven sentences on the three key environmental priorities of your city.",
+            "question": "What should your city focus on, and why?",
+            "correctAnswer": null,
+            "explanation": "Example: “The key priorities of our city are as follows: clean air, water and green spaces. First, air pollution from traffic is a serious problem. More electric buses would be a critical step toward reducing it. Second, the depletion of our water resources is a growing risk. Third, the city should protect its parks and plant new trees. These steps would ensure a healthier life for all.”",
+            "feedback": {
+              "correct": "Check: as follows, a formal noun and step toward + -ing.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Introduce the priorities.",
+                "mode": "Individual",
+                "example": "The key priorities of our city are as follows: …"
+              },
+              {
+                "question": "Use a formal noun.",
+                "mode": "Individual",
+                "example": "The depletion / loss / pollution of … is …"
+              },
+              {
+                "question": "Use a step toward + -ing.",
+                "mode": "Pair",
+                "example": "This is an important step toward …-ing …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: By how much do the EU and its member states aim to reduce greenhouse gas emissions by 2030?",
+          "options": ["at least 55%", "at least 25%", "exactly 100%"],
+          "answer": 0,
+          "quote": "reduce greenhouse gas emissions by at least 55% by 2030"
+        },
+        "iCan": [
+          "I can explain the three key priorities of the Green Deal.",
+          "I can explain the 2030 and 2050 targets and why they matter.",
+          "I can use step toward + -ing and formal nouns such as depletion and commitment."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "story",
+        "title": "Why Is the Green Deal Essential?",
+        "image": "",
+        "audioUrl": "",
+        "content": "The Green Deal is crucial because climate change and environmental degradation pose a severe risk to the planet. Traditional economic models that rely on heavy resource consumption and fossil fuels are no longer sustainable. Therefore, transitioning to a net-zero economy is seen as the key way to tackle the climate crisis, protect biodiversity, and ensure long-term energy security.\n\nIndeed, energy security has become a critical challenge today as rising geopolitical tensions, global crises, and regional conflicts create constant uncertainty around the world. High energy prices and broken supply chains have seriously weakened the competitiveness of many companies, especially energy-intensive industries. These supply chains may face disruptions because ongoing conflicts threaten to block trade routes and stop the delivery of resources. As a result, electricity and fuel become scarce and expensive.",
+        "vocabulary": [
+          {
+            "word": "fossil fuels",
+            "definition": "Fuels such as coal, oil, and gas that formed underground from plants and animals millions of years ago."
+          },
+          {
+            "word": "net-zero",
+            "definition": "Describes a balance in which the greenhouse gases we release are equal to the amount we remove from the air."
+          },
+          {
+            "word": "transitioning",
+            "definition": "Changing from one system or situation to another."
+          },
+          {
+            "word": "geopolitical",
+            "definition": "Connected with how a country’s location and power affect its relations with other countries."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "greenDeal-b2-en-h3a",
+            "x": 30,
+            "y": 40,
+            "title": "No Longer Sustainable",
+            "description": "Traditional economic models that rely on heavy resource consumption and fossil fuels are no longer sustainable."
+          },
+          {
+            "id": "greenDeal-b2-en-h3b",
+            "x": 70,
+            "y": 45,
+            "title": "Energy Security",
+            "description": "Indeed, energy security has become a critical challenge today."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "greenDeal-b2-quick-3",
+            "type": "multiple-choice",
+            "title": "Why Supply Chains Break",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Why may supply chains face disruptions?",
+            "options": [
+              "because ongoing conflicts threaten to block trade routes and stop the delivery of resources",
+              "because renewable energy is too cheap",
+              "because companies use too little energy"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “These supply chains may face disruptions because ongoing conflicts threaten to block trade routes and stop the delivery of resources.”",
+            "feedback": {
+              "correct": "Correct. Conflicts threaten trade routes.",
+              "incorrect": "Read the end of the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "greenDeal-b2-language-3-argument",
+            "type": "multiple-choice",
+            "title": "Notice: Building an Argument",
+            "instructions": "Read the sentences. Then choose what “Therefore” and “Indeed” do.",
+            "question": "“Therefore, transitioning to a net-zero economy is seen as the key way …” “Indeed, energy security has become a critical challenge today …” What do the two linkers do?",
+            "options": [
+              "“Therefore” gives a conclusion; “Indeed” adds strong support to the argument.",
+              "Both show contrast.",
+              "Both show time."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Therefore” introduces a logical conclusion. “Indeed” adds a point that makes the argument stronger.",
+            "feedback": {
+              "correct": "Correct. A conclusion, then support.",
+              "incorrect": "Which one gives a result?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-3-linkers",
+            "type": "word-bank",
+            "title": "Build: Formal Linkers",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "How does the writer connect the ideas?",
+            "fillBlanksText": "Traditional economic models are no longer sustainable. [blank], transitioning to a net-zero economy is seen as the key way to tackle the climate crisis. [blank], energy security has become a critical challenge today. Conflicts threaten to block trade routes. [blank], electricity and fuel become scarce and expensive.",
+            "wordBank": ["Therefore", "Indeed", "As a result", "Nevertheless", "Meanwhile"],
+            "correctAnswer": ["Therefore", "Indeed", "As a result"],
+            "explanation": "“Therefore” and “As a result” introduce results. “Indeed” adds strong support.",
+            "feedback": {
+              "correct": "Well done. Therefore, Indeed, As a result.",
+              "incorrect": "Is the next idea a result or extra support?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-3-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Climate change and environmental degradation pose a severe risk to the planet.",
+                "frame": "Climate change and environmental degradation are a severe [blank] to the planet.",
+                "answers": ["risk", "danger", "threat"]
+              },
+              {
+                "source": "Transitioning to a net-zero economy is seen as the key way to tackle the climate crisis.",
+                "frame": "Many people [blank] transitioning to a net-zero economy as the key way to tackle the climate crisis.",
+                "answers": ["see"]
+              },
+              {
+                "source": "Traditional economic models that rely on fossil fuels are no longer sustainable.",
+                "frame": "Traditional economic models that [blank] on fossil fuels are no longer sustainable.",
+                "answers": ["depend"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Pose a risk” means “be a risk”. The passive “is seen as” becomes the active “people see … as”. “Rely on” means “depend on”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use risk, see and depend."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-3-energy-security",
+            "type": "reflection",
+            "title": "Use: A Short Argument",
+            "instructions": "Write an argument of six to seven sentences: Why should your country invest in energy security?",
+            "question": "What is the problem, and what follows from it?",
+            "correctAnswer": null,
+            "explanation": "Example: “Energy security has become a critical challenge for many countries. Indeed, conflicts in other regions can raise energy prices at home. High prices weaken companies and make life harder for families. As a result, depending on imported fossil fuels is risky. Local renewable energy cannot be blocked by distant conflicts. Therefore, my country should invest more in wind and solar power. This would protect both the economy and the planet.”",
+            "feedback": {
+              "correct": "Check: a problem, indeed, as a result and therefore.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "State the problem.",
+                "mode": "Individual",
+                "example": "Energy security has become …"
+              },
+              {
+                "question": "Give support with indeed.",
+                "mode": "Individual",
+                "example": "Indeed, …"
+              },
+              {
+                "question": "Draw a conclusion with therefore.",
+                "mode": "Pair",
+                "example": "Therefore, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Which industries have high energy prices weakened most?",
+          "options": ["energy-intensive industries", "small bookshops", "online services"],
+          "answer": 0,
+          "quote": "especially energy-intensive industries"
+        },
+        "iCan": [
+          "I can explain why the Green Deal is essential.",
+          "I can explain why energy security has become a critical challenge.",
+          "I can use formal linkers and the present perfect to build an argument."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "story",
+        "title": "The Switch to Renewable Energy",
+        "image": "",
+        "audioUrl": "",
+        "content": "To prevent these financial burdens, replace expensive fossil fuels, and end dependency on these traditional fuels, a growing number of countries are taking important steps to switch to renewable energy, such as wind and solar power, which is often cheaper. Sustaining industrial success in these uncertain times will require changing policies, moving toward renewable energy, and training workers with new skills.\n\nThis situation calls for a faster green transition to provide industries with affordable clean energy. Therefore, governments and organizations should design a comprehensive strategy based on a detailed analysis of investment needs for clean technology innovation and manufacturing.",
+        "vocabulary": [
+          {
+            "word": "renewable energy",
+            "definition": "Energy from sources that do not run out, such as the wind and the sun."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "greenDeal-b2-en-h4a",
+            "x": 30,
+            "y": 40,
+            "title": "Wind and Solar Power",
+            "description": "A growing number of countries are taking important steps to switch to renewable energy, such as wind and solar power, which is often cheaper."
+          },
+          {
+            "id": "greenDeal-b2-en-h4b",
+            "x": 70,
+            "y": 45,
+            "title": "A Comprehensive Strategy",
+            "description": "Governments and organizations should design a comprehensive strategy based on a detailed analysis of investment needs."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "greenDeal-b2-quick-4",
+            "type": "multiple-choice",
+            "title": "A Faster Transition",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Why does the situation call for a faster green transition?",
+            "options": [
+              "to provide industries with affordable clean energy",
+              "to make fossil fuels more expensive for families",
+              "to close factories in Europe"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 4: “This situation calls for a faster green transition to provide industries with affordable clean energy.”",
+            "feedback": {
+              "correct": "Correct. Affordable clean energy for industries.",
+              "incorrect": "Read the beginning of the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "greenDeal-b2-language-4-gerund-subject",
+            "type": "multiple-choice",
+            "title": "Notice: An -ing Subject",
+            "instructions": "Read the sentence. Then choose the subject.",
+            "question": "“Sustaining industrial success in these uncertain times will require changing policies …” What is the subject of “will require”?",
+            "options": ["Sustaining industrial success in these uncertain times", "these uncertain times", "changing policies"],
+            "correctAnswer": 0,
+            "explanation": "A gerund phrase (Sustaining industrial success …) can be the subject of a sentence. It takes a singular verb.",
+            "feedback": {
+              "correct": "Correct. The whole -ing phrase is the subject.",
+              "incorrect": "Ask: What will require something?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-4-patterns",
+            "type": "choose-form",
+            "title": "Build: Verb Patterns",
+            "instructions": "Choose the correct form for each sentence from Chapter 4.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Sustaining industrial success will require [choice] policies.",
+                "options": ["changing", "to change", "change"],
+                "answer": 0
+              },
+              {
+                "sentence": "This situation calls [choice] a faster green transition.",
+                "options": ["for", "to", "on"],
+                "answer": 0
+              },
+              {
+                "sentence": "… to provide industries [choice] affordable clean energy.",
+                "options": ["with", "for", "by"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Require + -ing”, “call for + noun” and “provide someone with something”.",
+            "feedback": {
+              "correct": "Well done. Changing, for, with.",
+              "incorrect": "Which word goes with each verb?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-4-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Countries want to end dependency on these traditional fuels.",
+                "frame": "Countries want to stop [blank] on these traditional fuels.",
+                "answers": ["depending"]
+              },
+              {
+                "source": "… to provide industries with affordable clean energy.",
+                "frame": "… to provide affordable clean energy [blank] industries.",
+                "answers": ["to", "for"]
+              },
+              {
+                "source": "A growing number of countries are taking important steps.",
+                "frame": "[blank] and more countries are taking important steps.",
+                "answers": ["More"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“End dependency on” becomes “stop depending on”. “Provide someone with something” becomes “provide something to / for someone”. “A growing number of” means “more and more”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use depending, to and More."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-4-strategy",
+            "type": "reflection",
+            "title": "Use: A Strategy Proposal",
+            "instructions": "Write a formal proposal of six to seven sentences for a renewable energy strategy in your town.",
+            "question": "What does the town need, and why?",
+            "correctAnswer": null,
+            "explanation": "Example: “Switching to renewable energy will require a clear plan and investment. Our town has many sunny days, so solar power is a sensible choice. Rising electricity bills call for quick action. Installing solar panels on public buildings would reduce costs. Training local workers would create new jobs. Therefore, the town council should design a strategy based on a detailed analysis of costs and benefits.”",
+            "feedback": {
+              "correct": "Check: a gerund subject, call for and should.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Use a gerund subject.",
+                "mode": "Individual",
+                "example": "Switching to … will require …"
+              },
+              {
+                "question": "Use call for.",
+                "mode": "Individual",
+                "example": "The situation calls for …"
+              },
+              {
+                "question": "Give a recommendation with should.",
+                "mode": "Pair",
+                "example": "The town council should …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: What does sustaining industrial success in uncertain times require?",
+          "options": ["changing policies, moving toward renewable energy, and training workers", "more coal and oil", "fewer workers"],
+          "answer": 0,
+          "quote": "will require changing policies, moving toward renewable energy, and training workers with new skills."
+        },
+        "iCan": [
+          "I can explain why countries are switching to renewable energy.",
+          "I can explain what industrial success requires.",
+          "I can use gerund subjects and require / call for + noun."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "story",
+        "title": "The Birth of a Net-Zero Era",
+        "image": "",
+        "audioUrl": "",
+        "content": "The coming decades are likely to see the birth of a net-zero era, a period when the greenhouse gases we release are balanced by the amount we remove from the air. This new economic structure brings with it fresh markets, advanced clean technologies, and a complete transformation of our existing energy systems. Consequently, countries that choose to invest first and move faster today can secure a strong place in this emerging economy. These nations can also become global leaders both in clean technology and in addressing climate change and environmental pollution.\n\nThe transition to a green economy naturally leads to the creation of new industries requiring newly skilled workers while modernizing factories for eco-friendly production. To support this, the EU introduced the Net-Zero Industry Act to help build key green technologies such as batteries, wind turbines, heat pumps, solar panels, and systems that capture and store carbon dioxide.",
+        "vocabulary": [
+          {
+            "word": "eco-friendly",
+            "definition": "Not harmful to the environment."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "greenDeal-b2-en-h5a",
+            "x": 30,
+            "y": 40,
+            "title": "A Net-Zero Era",
+            "description": "The coming decades are likely to see the birth of a net-zero era."
+          },
+          {
+            "id": "greenDeal-b2-en-h5b",
+            "x": 70,
+            "y": 45,
+            "title": "The Net-Zero Industry Act",
+            "description": "To support this, the EU introduced the Net-Zero Industry Act to help build key green technologies."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "greenDeal-b2-quick-5",
+            "type": "multiple-choice",
+            "title": "Who Can Lead?",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Which countries can secure a strong place in the emerging economy?",
+            "options": [
+              "countries that choose to invest first and move faster today",
+              "countries with the largest oil reserves",
+              "countries that wait for others"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “Consequently, countries that choose to invest first and move faster today can secure a strong place in this emerging economy.”",
+            "feedback": {
+              "correct": "Correct. Early investors who move fast.",
+              "incorrect": "Read the middle of the first paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "greenDeal-b2-language-5-likely",
+            "type": "multiple-choice",
+            "title": "Notice: Are Likely To",
+            "instructions": "Read the sentence. Then choose how certain the writer is.",
+            "question": "“The coming decades are likely to see the birth of a net-zero era …” How certain is the writer?",
+            "options": ["fairly certain, but not completely sure", "completely certain", "not certain at all"],
+            "correctAnswer": 0,
+            "explanation": "“Be likely to + verb” shows that something will probably happen. It is less certain than “will”.",
+            "feedback": {
+              "correct": "Correct. Probable, not certain.",
+              "incorrect": "Compare “are likely to see” with “will see”."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-5-forms",
+            "type": "choose-form",
+            "title": "Build: Forms from the Chapter",
+            "instructions": "Choose the correct form for each sentence from Chapter 5.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The coming decades are likely [choice] the birth of a net-zero era.",
+                "options": ["to see", "seeing", "see"],
+                "answer": 0
+              },
+              {
+                "sentence": "This new economic structure brings [choice] it fresh markets.",
+                "options": ["with", "by", "for"],
+                "answer": 0
+              },
+              {
+                "sentence": "These nations can become global leaders both in clean technology [choice] in addressing climate change.",
+                "options": ["and", "or", "nor"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Be likely to + verb”, “bring with it” and “both … and”.",
+            "feedback": {
+              "correct": "Well done. To see, with, and.",
+              "incorrect": "Check the word before and after each gap."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-5-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "The coming decades are likely to see the birth of a net-zero era.",
+                "frame": "A net-zero era will [blank] begin in the coming decades.",
+                "answers": ["probably", "likely"]
+              },
+              {
+                "source": "The transition naturally leads to the creation of new industries.",
+                "frame": "The transition naturally [blank] new industries.",
+                "answers": ["creates"]
+              },
+              {
+                "source": "Consequently, early investors can secure a strong place.",
+                "frame": "As a [blank], early investors can secure a strong place.",
+                "answers": ["result", "consequence"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Be likely to” becomes “will probably”. “Lead to the creation of” becomes “create”. “Consequently” means “as a result”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use probably, creates and result."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-5-forecast",
+            "type": "reflection",
+            "title": "Use: A Forecast",
+            "instructions": "Write a forecast of six to seven sentences about your country’s economy in a net-zero era.",
+            "question": "What is likely to change, and what will follow?",
+            "correctAnswer": null,
+            "explanation": "Example: “The coming decades are likely to bring big changes to our economy. Solar and wind energy are likely to become our main sources of electricity. Consequently, new factories will need workers who can build and repair green technology. Both universities and vocational schools will have to train these workers. Some old jobs are likely to disappear. However, countries that prepare early can become leaders. My country should invest now.”",
+            "feedback": {
+              "correct": "Check: likely to, consequently and both … and.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Make a hedged prediction.",
+                "mode": "Individual",
+                "example": "… is likely to …"
+              },
+              {
+                "question": "Give a result with consequently.",
+                "mode": "Individual",
+                "example": "Consequently, …"
+              },
+              {
+                "question": "Use both … and.",
+                "mode": "Pair",
+                "example": "… both … and …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What are the coming decades likely to see?",
+          "options": ["the birth of a net-zero era", "the end of all industry", "a return to coal"],
+          "answer": 0,
+          "quote": "The coming decades are likely to see the birth of a net-zero era"
+        },
+        "iCan": [
+          "I can explain what the net-zero era will bring.",
+          "I can explain which countries can become global leaders.",
+          "I can use likely to, consequently and both … and."
+        ]
+      },
+      {
+        "id": 6,
+        "type": "story",
+        "title": "New Rules for Greener Products",
+        "image": "",
+        "audioUrl": "",
+        "content": "New rules for eco-friendly products and clean energy sources are important for the shift to a sustainable economy. These rules help create strong and successful systems for building, reusing, and recycling green technologies around the world. Specific examples of these rules include strict bans on destroying unsold clothing, as well as requirements to make spare parts easily accessible for repairs. In the future, modern regulations will apply to a much broader range of everyday products. This means factories will need to follow strict sustainability standards to protect nature. Governments will give top priority to developing net-zero technologies under these new eco-friendly plans.",
+        "vocabulary": [],
+        "hotspots": [
+          {
+            "id": "greenDeal-b2-en-h6a",
+            "x": 30,
+            "y": 40,
+            "title": "Strict Bans",
+            "description": "Specific examples of these rules include strict bans on destroying unsold clothing."
+          },
+          {
+            "id": "greenDeal-b2-en-h6b",
+            "x": 70,
+            "y": 45,
+            "title": "Accessible Spare Parts",
+            "description": "The rules also include requirements to make spare parts easily accessible for repairs."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "greenDeal-b2-quick-6",
+            "type": "multiple-choice",
+            "title": "What the Rules Mean",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What does the chapter say factories will need to do?",
+            "options": [
+              "follow strict sustainability standards to protect nature",
+              "produce more unsold clothing",
+              "stop making spare parts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 6: “This means factories will need to follow strict sustainability standards to protect nature.”",
+            "feedback": {
+              "correct": "Correct. Follow strict sustainability standards.",
+              "incorrect": "Read the end of the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "greenDeal-b2-language-6-ban",
+            "type": "multiple-choice",
+            "title": "Notice: A Ban On …-ing",
+            "instructions": "Read the sentence. Then choose the correct explanation.",
+            "question": "“Specific examples of these rules include strict bans on destroying unsold clothing, as well as requirements to make spare parts easily accessible …” Which forms follow “ban” and “requirement”?",
+            "options": ["ban on + -ing; requirement to + verb", "ban to + verb; requirement on + -ing", "both take the base verb"],
+            "correctAnswer": 0,
+            "explanation": "Some nouns have fixed patterns: a ban on + -ing (or noun), a requirement to + verb.",
+            "feedback": {
+              "correct": "Correct. Ban on + -ing, requirement to + verb.",
+              "incorrect": "Look at the words after each noun."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-6-nouns",
+            "type": "choose-form",
+            "title": "Build: Noun Patterns",
+            "instructions": "Choose the correct form for each sentence from Chapter 6.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "These rules include strict bans on [choice] unsold clothing.",
+                "options": ["destroying", "destroy", "to destroy"],
+                "answer": 0
+              },
+              {
+                "sentence": "… requirements [choice] spare parts easily accessible for repairs.",
+                "options": ["to make", "making", "on making"],
+                "answer": 0
+              },
+              {
+                "sentence": "Modern regulations will apply [choice] a much broader range of everyday products.",
+                "options": ["to", "for", "on"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Ban on + -ing”, “requirement to + verb” and “apply to”.",
+            "feedback": {
+              "correct": "Well done. Destroying, to make, to.",
+              "incorrect": "Which preposition or form goes with each noun or verb?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-6-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "There are strict bans on destroying unsold clothing.",
+                "frame": "Companies are not [blank] to destroy unsold clothing.",
+                "answers": ["allowed", "permitted"]
+              },
+              {
+                "source": "There are requirements to make spare parts easily accessible.",
+                "frame": "Companies [blank] make spare parts easily accessible.",
+                "answers": ["must"]
+              },
+              {
+                "source": "Governments will give top priority to developing net-zero technologies.",
+                "frame": "Developing net-zero technologies will be the top [blank] of governments.",
+                "answers": ["priority"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Formal noun phrases can become verb phrases: a ban on → not allowed to; a requirement to → must; give priority to → be the priority.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use allowed, must and priority."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-6-regulation",
+            "type": "reflection",
+            "title": "Use: Draft a Regulation",
+            "instructions": "Write a short regulation of six to seven sentences for products sold at your school.",
+            "question": "What is banned, and what is required?",
+            "correctAnswer": null,
+            "explanation": "Example: “From next term, there will be a ban on selling drinks in single-use plastic bottles at our school. The canteen will have a requirement to offer drinks in glass or refillable bottles. There will also be a requirement to label food that contains a lot of sugar. These rules apply to the canteen and to all school events. Students who bring their own bottle will get a small discount. The aim is to reduce waste and protect our health. These rules will be reviewed at the end of the year.”",
+            "feedback": {
+              "correct": "Check: ban on, requirement to and apply to.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Introduce a ban.",
+                "mode": "Group",
+                "example": "There will be a ban on …-ing …"
+              },
+              {
+                "question": "Introduce a requirement.",
+                "mode": "Group",
+                "example": "Sellers will have a requirement to …"
+              },
+              {
+                "question": "Explain who it applies to and why.",
+                "mode": "Group",
+                "example": "This rule applies to … because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: What do the new rules ban?",
+          "options": ["destroying unsold clothing", "selling second-hand clothes", "repairing old machines"],
+          "answer": 0,
+          "quote": "strict bans on destroying unsold clothing"
+        },
+        "iCan": [
+          "I can explain two specific examples of the new rules.",
+          "I can explain what the rules mean for factories and governments.",
+          "I can use noun phrases: a ban on …-ing, a requirement to …, apply to."
+        ]
+      },
+      {
+        "id": 7,
+        "type": "story",
+        "title": "Everyday Choices and the Future of Work",
+        "image": "",
+        "audioUrl": "",
+        "content": "In fact, the success of the Green Deal depends heavily on consumers making smart, eco-friendly choices driven by transparent information. People should easily see how sustainable, durable, and clean a product is before they buy it. Clear and accessible data helps individuals choose green products instead of traditional, high-emission options. For instance, energy labels on household appliances allow users to compare different choices effortlessly. Providing consumers with more information is a major step toward a successful green transition.\n\nThis economic transformation is also reshaping the labor market. As part of this change, the number of green jobs has been increasing rapidly in recent years. This shift is creating a huge demand for new skills at all levels, requiring large-scale training programs to help workers learn new technologies. Clean energy and eco-friendly manufacturing industries continue to need additional personnel. As a result, there will be strong competition for specialized talent in the near future.",
+        "vocabulary": [],
+        "hotspots": [
+          {
+            "id": "greenDeal-b2-en-h7a",
+            "x": 30,
+            "y": 40,
+            "title": "Transparent Information",
+            "description": "The success of the Green Deal depends heavily on consumers making smart, eco-friendly choices driven by transparent information."
+          },
+          {
+            "id": "greenDeal-b2-en-h7b",
+            "x": 70,
+            "y": 45,
+            "title": "The Labor Market",
+            "description": "This economic transformation is also reshaping the labor market."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "greenDeal-b2-quick-7",
+            "type": "multiple-choice",
+            "title": "Competition for Talent",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Why will there be strong competition for specialized talent?",
+            "options": [
+              "because clean energy and eco-friendly manufacturing industries continue to need additional personnel",
+              "because there are too many workers",
+              "because training programs have ended"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 7: “Clean energy and eco-friendly manufacturing industries continue to need additional personnel. As a result, there will be strong competition for specialized talent in the near future.”",
+            "feedback": {
+              "correct": "Correct. Industries need more personnel.",
+              "incorrect": "Read the end of the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "greenDeal-b2-language-7-depends",
+            "type": "multiple-choice",
+            "title": "Notice: Depends On Consumers Making",
+            "instructions": "Read the sentence. Then choose what it means.",
+            "question": "“… the success of the Green Deal depends heavily on consumers making smart, eco-friendly choices …” What does it mean?",
+            "options": [
+              "Success needs consumers to make smart choices.",
+              "Consumers depend on the Green Deal for money.",
+              "The Green Deal makes choices for consumers."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Depend on + noun + -ing” (depends on consumers making) means the result needs that person to do that action.",
+            "feedback": {
+              "correct": "Correct. Success needs smart consumer choices.",
+              "incorrect": "Who has to do the action?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-7-forms",
+            "type": "choose-form",
+            "title": "Build: Forms from the Chapter",
+            "instructions": "Choose the correct form for each sentence from Chapter 7.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The number of green jobs has been [choice] rapidly in recent years.",
+                "options": ["increasing", "increased", "increase"],
+                "answer": 0
+              },
+              {
+                "sentence": "Energy labels allow users [choice] different choices effortlessly.",
+                "options": ["to compare", "comparing", "compare"],
+                "answer": 0
+              },
+              {
+                "sentence": "Clear and accessible data helps individuals choose green products instead [choice] traditional, high-emission options.",
+                "options": ["of", "to", "from"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Has been + -ing” (present perfect continuous), “allow + person + to + verb” and “instead of”.",
+            "feedback": {
+              "correct": "Well done. Increasing, to compare, of.",
+              "incorrect": "Check the pattern of each verb."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-7-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Energy labels allow users to compare different choices effortlessly.",
+                "frame": "Thanks to energy labels, users [blank] compare different choices effortlessly.",
+                "answers": ["can"]
+              },
+              {
+                "source": "This shift is creating a huge demand for new skills.",
+                "frame": "Because of this shift, new skills are in huge [blank].",
+                "answers": ["demand"]
+              },
+              {
+                "source": "Providing consumers with more information is a major step.",
+                "frame": "It is a major step to [blank] consumers with more information.",
+                "answers": ["provide"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Allow someone to” becomes “thanks to …, someone can”. “Create a demand for” becomes “be in demand”. A gerund subject can become “It is … to + verb”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use can, demand and provide."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-7-consumers",
+            "type": "reflection",
+            "title": "Use: A Consumer Guide",
+            "instructions": "Write a guide of six to seven sentences for eco-friendly consumers.",
+            "question": "How can consumers make smart choices?",
+            "correctAnswer": null,
+            "explanation": "Example: “A green economy depends on consumers making informed choices. Before you buy a product, check how sustainable and durable it is. Energy labels allow shoppers to compare appliances effortlessly. Choose a repairable product instead of a cheap one that cannot be fixed. Second-hand items are often a good option too. Ask shops for clear information about materials. Every smart choice is a small step toward a green transition.”",
+            "feedback": {
+              "correct": "Check: depend on + -ing, allow … to and instead of.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Use depend on + noun + -ing.",
+                "mode": "Individual",
+                "example": "A green economy depends on consumers …-ing …"
+              },
+              {
+                "question": "Use allow + person + to.",
+                "mode": "Individual",
+                "example": "Labels allow shoppers to …"
+              },
+              {
+                "question": "Use instead of.",
+                "mode": "Pair",
+                "example": "Choose … instead of …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: What allows users to compare household appliances effortlessly?",
+          "options": ["energy labels", "price tags", "advertisements"],
+          "answer": 0,
+          "quote": "energy labels on household appliances allow users to compare different choices effortlessly."
+        },
+        "iCan": [
+          "I can explain why transparent information matters for consumers.",
+          "I can explain how the labor market is changing.",
+          "I can use depend on + noun + -ing and the present perfect continuous."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "story",
+        "title": "Education and Our Shared Future",
+        "image": "",
+        "audioUrl": "",
+        "content": "In conclusion, the success of the green transition will depend largely on how well nations can train workers and educate society. This is true for industrial productivity based on innovation and resource efficiency, for a fair transition that prevents social injustice, and for reaching net-zero goals. Because of this, a major part of the Green Deal focuses on education. It helps all people learn essential green and digital skills. Fostering an informed and aware society through education and workforce training is essential for the world’s shared future.\n\nLeaders, organizations, and citizens should all support these steps to turn these ideas into concrete actions for a cleaner world. In an interconnected world where the green transition extends across all borders, it is helpful for nations to keep working closely with their international partners. Türkiye also published its own Green Deal Action Plan in 2021 and set a goal of reaching net-zero emissions by 2053.",
+        "vocabulary": [],
+        "hotspots": [
+          {
+            "id": "greenDeal-b2-en-h8a",
+            "x": 30,
+            "y": 40,
+            "title": "An Informed Society",
+            "description": "Fostering an informed and aware society through education and workforce training is essential for the world’s shared future."
+          },
+          {
+            "id": "greenDeal-b2-en-h8b",
+            "x": 70,
+            "y": 45,
+            "title": "Türkiye’s Plan",
+            "description": "Türkiye also published its own Green Deal Action Plan in 2021 and set a goal of reaching net-zero emissions by 2053."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "greenDeal-b2-quick-8",
+            "type": "multiple-choice",
+            "title": "A Fair Transition",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What kind of transition does the chapter mention?",
+            "options": [
+              "a fair transition that prevents social injustice",
+              "a fast transition that ignores workers",
+              "a transition only for rich countries"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 8: “… for a fair transition that prevents social injustice …”",
+            "feedback": {
+              "correct": "Correct. A fair transition.",
+              "incorrect": "Read the second sentence."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "greenDeal-b2-language-8-conclusion",
+            "type": "multiple-choice",
+            "title": "Notice: In Conclusion",
+            "instructions": "Read the sentence. Then choose what it does.",
+            "question": "“In conclusion, the success of the green transition will depend largely on how well nations can train workers and educate society.” What does this sentence do in the text?",
+            "options": [
+              "It sums up the main point of the whole text.",
+              "It introduces a new, unrelated topic.",
+              "It gives a counterargument."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“In conclusion” signals the final summary. The writer states the most important condition for success.",
+            "feedback": {
+              "correct": "Correct. It sums up the text.",
+              "incorrect": "Where is this sentence in the book?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-8-conclude",
+            "type": "word-bank",
+            "title": "Build: Closing an Argument",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "How does the writer close the text?",
+            "fillBlanksText": "[blank], the success of the green transition will depend largely on how well nations can train workers. [blank] this, a major part of the Green Deal focuses on education. In an interconnected world, it is [blank] for nations to keep working closely with their international partners.",
+            "wordBank": ["In conclusion", "Because of", "helpful", "Despite", "useless"],
+            "correctAnswer": ["In conclusion", "Because of", "helpful"],
+            "explanation": "“In conclusion” starts the summary. “Because of this” gives a result. “It is helpful for … to …” recommends an action.",
+            "feedback": {
+              "correct": "Well done. In conclusion, Because of, helpful.",
+              "incorrect": "Which word starts a summary?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-8-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Fostering an informed and aware society is essential for the world’s shared future.",
+                "frame": "It is essential for the world’s shared future to [blank] an informed and aware society.",
+                "answers": ["foster"]
+              },
+              {
+                "source": "Türkiye set a goal of reaching net-zero emissions by 2053.",
+                "frame": "Türkiye aims [blank] reach net-zero emissions by 2053.",
+                "answers": ["to"]
+              },
+              {
+                "source": "The success will depend largely on how well nations can train workers.",
+                "frame": "How well nations can train workers will largely [blank] the success.",
+                "answers": ["determine", "decide"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "A gerund subject becomes “It is … to + verb”. “Set a goal of + -ing” becomes “aim to + verb”. “A depends on B” becomes “B determines A”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use foster, to and determine."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-8-essay",
+            "type": "reflection",
+            "title": "Use: A Balanced Conclusion",
+            "instructions": "Write a conclusion of six to seven sentences: Can education solve the climate crisis?",
+            "question": "What can education do, and what are its limits?",
+            "correctAnswer": null,
+            "explanation": "Example: “Education plays a key role in the green transition. It helps people learn green and digital skills and make informed choices. Trained workers can build and repair new technologies. However, education alone cannot solve the climate crisis. Governments also need clear policies, and countries need to work together. In conclusion, education is essential, but it must go together with action from leaders, organizations and citizens.”",
+            "feedback": {
+              "correct": "Check: a position, a counterpoint and in conclusion.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "State your position.",
+                "mode": "Individual",
+                "example": "Education plays a key role in …"
+              },
+              {
+                "question": "Give a counterpoint.",
+                "mode": "Individual",
+                "example": "However, education alone cannot …"
+              },
+              {
+                "question": "Close with in conclusion.",
+                "mode": "Pair",
+                "example": "In conclusion, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: When did Türkiye publish its own Green Deal Action Plan?",
+          "options": ["in 2021", "in 2019", "in 2053"],
+          "answer": 0,
+          "quote": "Türkiye also published its own Green Deal Action Plan in 2021"
+        },
+        "iCan": [
+          "I can explain why education is a major part of the Green Deal.",
+          "I can explain why nations should keep working with their partners.",
+          "I can use concluding language and a fair transition that prevents …"
+        ],
+        "groupTask": {
+          "type": "jigsaw",
+          "title": "The Green Deal: A Policy Panel",
+          "time": "20 min",
+          "groupSize": "4",
+          "roles": [
+            {
+              "name": "Strategy Analyst",
+              "job": "You present the roadmap, the key priorities and the targets (Chapters 1–2)."
+            },
+            {
+              "name": "Energy Analyst",
+              "job": "You present energy security and the switch to renewable energy (Chapters 3–4)."
+            },
+            {
+              "name": "Industry Analyst",
+              "job": "You present the net-zero era, the Net-Zero Industry Act and the new rules (Chapters 5–6)."
+            },
+            {
+              "name": "Society Analyst",
+              "job": "You present consumers, the labor market, education and Türkiye’s plan (Chapters 7–8)."
+            }
+          ],
+          "steps": [
+            "Read your chapters and prepare a two-minute statement with one quotation from the book.",
+            "Meet the other analysts and present your statements.",
+            "Discuss: Which part of the Green Deal matters most for a country like Türkiye, and why?",
+            "Agree on three recommendations and present them as a panel."
+          ],
+          "share": "Each panel presents its three recommendations. Listeners ask one question and give one counterpoint.",
+          "solo": "Write a policy brief of 180–220 words with two quotations from the book and one counterpoint."
+        }
+      },
+      {
+        "id": 101,
+        "type": "key-facts",
+        "title": "Key Facts",
+        "content": "One fact from every chapter. Each chapter stamp colors its stop.",
+        "facts": [
+          {
+            "chapter": 1,
+            "label": "11 December",
+            "value": "2019",
+            "title": "The European Commission announces the Green Deal.",
+            "text": "It aims to reduce the EU’s net greenhouse gas emissions to zero by 2050."
+          },
+          {
+            "chapter": 2,
+            "label": "By",
+            "value": "2030",
+            "title": "Emissions at least 55% lower.",
+            "text": "The EU and its member states aim to achieve climate neutrality by 2050."
+          },
+          {
+            "chapter": 3,
+            "label": "Today",
+            "value": "Energy security",
+            "title": "Energy security has become a critical challenge.",
+            "text": "High energy prices and broken supply chains have seriously weakened the competitiveness of many companies."
+          },
+          {
+            "chapter": 4,
+            "label": "Now",
+            "value": "Renewables",
+            "title": "A growing number of countries are switching to renewable energy.",
+            "text": "Wind and solar power are often cheaper."
+          },
+          {
+            "chapter": 5,
+            "label": "Coming decades",
+            "value": "Net zero",
+            "title": "The birth of a net-zero era is likely.",
+            "text": "The Net-Zero Industry Act helps build batteries, wind turbines, heat pumps and solar panels."
+          },
+          {
+            "chapter": 6,
+            "label": "New",
+            "value": "Regulations",
+            "title": "Strict bans on destroying unsold clothing.",
+            "text": "Spare parts must be easily accessible for repairs."
+          },
+          {
+            "chapter": 7,
+            "label": "Recent years",
+            "value": "Green jobs",
+            "title": "The number of green jobs has been increasing rapidly.",
+            "text": "Energy labels on household appliances allow users to compare choices effortlessly."
+          },
+          {
+            "chapter": 8,
+            "label": "Türkiye",
+            "value": "2021 · 2053",
+            "title": "Türkiye publishes its own Green Deal Action Plan.",
+            "text": "It set a goal of reaching net-zero emissions by 2053."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "quiz",
+        "title": "Knowledge Check",
+        "image": "",
+        "audioUrl": "",
+        "content": "Check your understanding of the complete book.",
+        "exercises": [
+          {
+            "id": "greenDeal-b2-kc-1-strategy",
+            "type": "multiple-choice",
+            "title": "A Growth Strategy",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What does the Green Deal serve as?",
+            "options": ["a growth strategy for sustainable development", "a military alliance", "a trade agreement for fossil fuels"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “… the Green Deal serves as a growth strategy for sustainable development …”",
+            "feedback": {
+              "correct": "Correct. A growth strategy.",
+              "incorrect": "Read the first sentence of Chapter 1."
+            }
+          },
+          {
+            "id": "greenDeal-b2-kc-2-targets",
+            "type": "true-false",
+            "title": "The Targets",
+            "instructions": "Is the sentence true or false?",
+            "question": "The EU aims to achieve climate neutrality by 2030.",
+            "correctAnswer": false,
+            "explanation": "Chapter 2: “… reduce greenhouse gas emissions by at least 55% by 2030 and achieve climate neutrality by 2050.”",
+            "feedback": {
+              "correct": "Correct. Climate neutrality is for 2050.",
+              "incorrect": "Read the first priority in Chapter 2."
+            }
+          },
+          {
+            "id": "greenDeal-b2-kc-3-models",
+            "type": "multiple-choice",
+            "title": "Traditional Models",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "Why are traditional economic models no longer sustainable?",
+            "options": [
+              "They rely on heavy resource consumption and fossil fuels.",
+              "They use too much renewable energy.",
+              "They create too many green jobs."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “Traditional economic models that rely on heavy resource consumption and fossil fuels are no longer sustainable.”",
+            "feedback": {
+              "correct": "Correct. Heavy resource use and fossil fuels.",
+              "incorrect": "Read the first paragraph of Chapter 3."
+            }
+          },
+          {
+            "id": "greenDeal-b2-kc-4-analysis",
+            "type": "true-false",
+            "title": "A Comprehensive Strategy",
+            "instructions": "Is the sentence true or false?",
+            "question": "The book says the strategy should be based on a detailed analysis of investment needs.",
+            "correctAnswer": true,
+            "explanation": "Chapter 4: “… design a comprehensive strategy based on a detailed analysis of investment needs for clean technology innovation and manufacturing.”",
+            "feedback": {
+              "correct": "Correct. A detailed analysis of investment needs.",
+              "incorrect": "Read the end of Chapter 4."
+            }
+          },
+          {
+            "id": "greenDeal-b2-kc-5-act",
+            "type": "multiple-choice",
+            "title": "The Net-Zero Industry Act",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What is the Net-Zero Industry Act for?",
+            "options": ["to help build key green technologies", "to protect coal mines", "to lower taxes on fuel"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “… the EU introduced the Net-Zero Industry Act to help build key green technologies …”",
+            "feedback": {
+              "correct": "Correct. Key green technologies.",
+              "incorrect": "Read the end of Chapter 5."
+            }
+          },
+          {
+            "id": "greenDeal-b2-kc-6-clothing",
+            "type": "true-false",
+            "title": "Unsold Clothing",
+            "instructions": "Is the sentence true or false?",
+            "question": "The new rules include strict bans on destroying unsold clothing.",
+            "correctAnswer": true,
+            "explanation": "Chapter 6: “Specific examples of these rules include strict bans on destroying unsold clothing …”",
+            "feedback": {
+              "correct": "Correct. That is one of the rules.",
+              "incorrect": "Read Chapter 6."
+            }
+          },
+          {
+            "id": "greenDeal-b2-kc-7-demand",
+            "type": "multiple-choice",
+            "title": "Demand for Skills",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What is the shift in the labor market creating?",
+            "options": ["a huge demand for new skills at all levels", "fewer jobs in clean energy", "an end to training programs"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 7: “This shift is creating a huge demand for new skills at all levels …”",
+            "feedback": {
+              "correct": "Correct. A huge demand for new skills.",
+              "incorrect": "Read the second paragraph of Chapter 7."
+            }
+          },
+          {
+            "id": "greenDeal-b2-kc-8-turkiye",
+            "type": "multiple-choice",
+            "title": "Türkiye",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What goal did Türkiye set in its Green Deal Action Plan?",
+            "options": ["reaching net-zero emissions by 2053", "reaching climate neutrality by 2030", "closing all factories by 2050"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 8: “Türkiye also published its own Green Deal Action Plan in 2021 and set a goal of reaching net-zero emissions by 2053.”",
+            "feedback": {
+              "correct": "Correct. Net zero by 2053.",
+              "incorrect": "Read the end of Chapter 8."
+            }
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "glossary",
+        "title": "Master Glossary",
+        "content": "Review all key vocabulary from the book in one place.",
+        "image": "",
+        "vocabulary": [
+          {
+            "word": "sustainable",
+            "definition": "Able to continue for a long time without harming the environment.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/səˈsteɪnəbəl/",
+            "category": "Nature & Environment",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "A Roadmap for a Greener Europe",
+            "storyExample": "Announced by the European Commission on 11 December 2019, the Green Deal serves as a growth strategy for sustainable development, which aims to protect the planet by creating a clean economy and reducing the EU’s net greenhouse gas emissions to zero by 2050."
+          },
+          {
+            "word": "greenhouse gas",
+            "definition": "A gas, such as carbon dioxide, that traps heat in the air and makes the Earth warmer.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈɡriːnhaʊs ɡæs/",
+            "category": "Science & Nature",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "A Roadmap for a Greener Europe",
+            "storyExample": "Announced by the European Commission on 11 December 2019, the Green Deal serves as a growth strategy for sustainable development, which aims to protect the planet by creating a clean economy and reducing the EU’s net greenhouse gas emissions to zero by 2050."
+          },
+          {
+            "word": "emissions",
+            "definition": "Gases that are sent into the air, for example by cars and factories.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ɪˈmɪʃənz/",
+            "category": "Science & Nature",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "A Roadmap for a Greener Europe",
+            "storyExample": "Announced by the European Commission on 11 December 2019, the Green Deal serves as a growth strategy for sustainable development, which aims to protect the planet by creating a clean economy and reducing the EU’s net greenhouse gas emissions to zero by 2050."
+          },
+          {
+            "word": "circular economy",
+            "definition": "An economy in which materials are reused, repaired, and recycled instead of being thrown away.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈsɜːrkjələr ɪˈkɑːnəmi/",
+            "category": "Work & Economy",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "A Roadmap for a Greener Europe",
+            "storyExample": "A major goal of this initiative is to use resources more efficiently by promoting the shift to a circular economy, focusing on recycling materials and reducing waste to protect nature."
+          },
+          {
+            "word": "climate neutrality",
+            "definition": "A state in which a country releases no more greenhouse gases than it removes from the air.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈklaɪmət nuːˈtræləti/",
+            "category": "Science & Nature",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "The Key Priorities",
+            "storyExample": "Within this framework, the EU and its member states aim to reduce greenhouse gas emissions by at least 55% by 2030 and achieve climate neutrality by 2050."
+          },
+          {
+            "word": "deforestation",
+            "definition": "The cutting down of forests over a large area.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/diːˌfɔːrɪˈsteɪʃən/",
+            "category": "Nature & Environment",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "The Key Priorities",
+            "storyExample": "It aims to prevent environmental problems such as deforestation, the depletion of water resources and the loss of biodiversity."
+          },
+          {
+            "word": "depletion",
+            "definition": "A fall in the amount of something until very little is left.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/dɪˈpliːʃən/",
+            "category": "Nature & Environment",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "The Key Priorities",
+            "storyExample": "It aims to prevent environmental problems such as deforestation, the depletion of water resources and the loss of biodiversity."
+          },
+          {
+            "word": "biodiversity",
+            "definition": "The variety of plants and animals that live in a place.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+            "category": "Nature & Environment",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "The Key Priorities",
+            "storyExample": "It aims to prevent environmental problems such as deforestation, the depletion of water resources and the loss of biodiversity."
+          },
+          {
+            "word": "fossil fuels",
+            "definition": "Fuels such as coal, oil, and gas that formed underground from plants and animals millions of years ago.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈfɑːsəl ˈfjuːəlz/",
+            "category": "Science & Nature",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "Why Is the Green Deal Essential?",
+            "storyExample": "Traditional economic models that rely on heavy resource consumption and fossil fuels are no longer sustainable."
+          },
+          {
+            "word": "net-zero",
+            "definition": "Describes a balance in which the greenhouse gases we release are equal to the amount we remove from the air.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˌnet ˈzɪroʊ/",
+            "category": "Science & Nature",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "Why Is the Green Deal Essential?",
+            "storyExample": "Therefore, transitioning to a net-zero economy is seen as the key way to tackle the climate crisis, protect biodiversity, and ensure long-term energy security."
+          },
+          {
+            "word": "transitioning",
+            "definition": "Changing from one system or situation to another.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/trænˈzɪʃənɪŋ/",
+            "category": "Actions & Behavior",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "Why Is the Green Deal Essential?",
+            "storyExample": "Therefore, transitioning to a net-zero economy is seen as the key way to tackle the climate crisis, protect biodiversity, and ensure long-term energy security."
+          },
+          {
+            "word": "geopolitical",
+            "definition": "Connected with how a country’s location and power affect its relations with other countries.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˌdʒiːoʊpəˈlɪtɪkəl/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "Why Is the Green Deal Essential?",
+            "storyExample": "Indeed, energy security has become a critical challenge today as rising geopolitical tensions, global crises, and regional conflicts create constant uncertainty around the world."
+          },
+          {
+            "word": "renewable energy",
+            "definition": "Energy from sources that do not run out, such as the wind and the sun.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/rɪˈnuːəbəl ˈenərdʒi/",
+            "category": "Science & Nature",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "The Switch to Renewable Energy",
+            "storyExample": "To prevent these financial burdens, replace expensive fossil fuels, and end dependency on these traditional fuels, a growing number of countries are taking important steps to switch to renewable energy, such as wind and solar power, which is often cheaper."
+          },
+          {
+            "word": "eco-friendly",
+            "definition": "Not harmful to the environment.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˌiːkoʊ ˈfrendli/",
+            "category": "Nature & Environment",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "The Birth of a Net-Zero Era",
+            "storyExample": "The transition to a green economy naturally leads to the creation of new industries requiring newly skilled workers while modernizing factories for eco-friendly production."
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "type": "key-terms",
+        "title": "Key Terms",
+        "content": "9 big ideas from the text. Turn a card to see it in Arabic.",
+        "terms": [
+          {
+            "kind": "Idea",
+            "term": "sustainable development",
+            "chapter": 1,
+            "definition": "Growth that meets today’s needs without harming the environment for the future.",
+            "termAr": "التَّنْمِيَةُ الْمُسْتَدَامَةُ",
+            "definitionAr": "نُمُوٌّ يُلَبِّي حَاجَاتِ الْيَوْمِ دُونَ أَنْ يَضُرَّ بِالْبِيئَةِ فِي الْمُسْتَقْبَلِ."
+          },
+          {
+            "kind": "Idea",
+            "term": "circular economy",
+            "chapter": 1,
+            "definition": "An economy in which materials are reused, repaired, and recycled instead of being thrown away.",
+            "termAr": "الِاقْتِصَادُ الدَّائِرِيُّ",
+            "definitionAr": "اقْتِصَادٌ تُعَادُ فِيهِ الْمَوَادُّ إِلَى الِاسْتِخْدَامِ وَتُصْلَحُ وَتُدَوَّرُ بَدَلًا مِنْ رَمْيِهَا."
+          },
+          {
+            "kind": "Science",
+            "term": "climate neutrality",
+            "chapter": 2,
+            "definition": "A state in which a country releases no more greenhouse gases than it removes from the air.",
+            "termAr": "الْحِيَادُ الْمُنَاخِيُّ",
+            "definitionAr": "حَالَةٌ لَا يُطْلِقُ فِيهَا بَلَدٌ غَازَاتِ دَفِيئَةٍ أَكْثَرَ مِمَّا يُزِيلُ مِنَ الْهَوَاءِ."
+          },
+          {
+            "kind": "Nature",
+            "term": "biodiversity",
+            "chapter": 2,
+            "definition": "The variety of plants and animals that live in a place.",
+            "termAr": "التَّنَوُّعُ الْحَيَوِيُّ",
+            "definitionAr": "تَنَوُّعُ النَّبَاتَاتِ وَالْحَيَوَانَاتِ الَّتِي تَعِيشُ فِي مَكَانٍ مَا."
+          },
+          {
+            "kind": "Economy",
+            "term": "energy security",
+            "chapter": 3,
+            "definition": "Having safe and reliable energy at a fair price.",
+            "termAr": "أَمْنُ الطَّاقَةِ",
+            "definitionAr": "تَوَفُّرُ طَاقَةٍ آمِنَةٍ وَمَوْثُوقَةٍ بِسِعْرٍ عَادِلٍ."
+          },
+          {
+            "kind": "Economy",
+            "term": "supply chain",
+            "chapter": 3,
+            "definition": "All the companies and steps that bring a product from the factory to the customer.",
+            "termAr": "سِلْسِلَةُ الْإِمْدَادِ",
+            "definitionAr": "جَمِيعُ الشَّرِكَاتِ وَالْخُطُوَاتِ الَّتِي تُوصِلُ الْمُنْتَجَ مِنَ الْمَصْنَعِ إِلَى الزَّبُونِ."
+          },
+          {
+            "kind": "Energy",
+            "term": "renewable energy",
+            "chapter": 4,
+            "definition": "Energy from sources that do not run out, such as the wind and the sun.",
+            "termAr": "الطَّاقَةُ الْمُتَجَدِّدَةُ",
+            "definitionAr": "طَاقَةٌ مِنْ مَصَادِرَ لَا تَنْفَدُ، مِثْلِ الرِّيَاحِ وَالشَّمْسِ."
+          },
+          {
+            "kind": "Idea",
+            "term": "net-zero",
+            "chapter": 3,
+            "definition": "A balance in which the greenhouse gases we release are equal to the amount we remove from the air.",
+            "termAr": "صَافِي الِانْبِعَاثَاتِ الصِّفْرِيُّ",
+            "definitionAr": "تَوَازُنٌ تَكُونُ فِيهِ غَازَاتُ الدَّفِيئَةِ الَّتِي نُطْلِقُهَا مُسَاوِيَةً لِلْكَمِّيَّةِ الَّتِي نُزِيلُهَا مِنَ الْهَوَاءِ."
+          },
+          {
+            "kind": "Society",
+            "term": "fair transition",
+            "chapter": 8,
+            "definition": "A green change that protects everyone and prevents social injustice.",
+            "termAr": "التَّحَوُّلُ الْعَادِلُ",
+            "definitionAr": "تَغْيِيرٌ أَخْضَرُ يَحْمِي الْجَمِيعَ وَيَمْنَعُ الظُّلْمَ الِاجْتِمَاعِيَّ."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "vocabulary-match",
+        "title": "Vocabulary Challenge",
+        "image": "",
+        "audioUrl": "",
+        "content": "Match 10 words from the book with their meanings.",
+        "vocabularyPairs": [
+          {
+            "word": "initiative",
+            "meaning": "A new plan or action to solve a problem.",
+            "partOfSpeech": "noun",
+            "chapter": 1,
+            "context": "A major goal of this initiative"
+          },
+          {
+            "word": "depletion",
+            "meaning": "A fall in the amount of something until very little is left.",
+            "partOfSpeech": "noun",
+            "chapter": 2,
+            "context": "the depletion of water resources"
+          },
+          {
+            "word": "degradation",
+            "meaning": "The process of something becoming worse or damaged.",
+            "partOfSpeech": "noun",
+            "chapter": 3,
+            "context": "environmental degradation pose a severe risk"
+          },
+          {
+            "word": "scarce",
+            "meaning": "Not easy to find because there is not enough.",
+            "partOfSpeech": "adjective",
+            "chapter": 3,
+            "context": "electricity and fuel become scarce and expensive"
+          },
+          {
+            "word": "affordable",
+            "meaning": "Cheap enough for people to buy.",
+            "partOfSpeech": "adjective",
+            "chapter": 4,
+            "context": "affordable clean energy"
+          },
+          {
+            "word": "comprehensive",
+            "meaning": "Including everything that is needed.",
+            "partOfSpeech": "adjective",
+            "chapter": 4,
+            "context": "design a comprehensive strategy"
+          },
+          {
+            "word": "emerging",
+            "meaning": "Starting to exist or grow.",
+            "partOfSpeech": "adjective",
+            "chapter": 5,
+            "context": "a strong place in this emerging economy"
+          },
+          {
+            "word": "accessible",
+            "meaning": "Easy to get or reach.",
+            "partOfSpeech": "adjective",
+            "chapter": 6,
+            "context": "make spare parts easily accessible for repairs"
+          },
+          {
+            "word": "transparent",
+            "meaning": "Clear and easy to understand; not hidden.",
+            "partOfSpeech": "adjective",
+            "chapter": 7,
+            "context": "driven by transparent information"
+          },
+          {
+            "word": "interconnected",
+            "meaning": "Closely linked with each other.",
+            "partOfSpeech": "adjective",
+            "chapter": 8,
+            "context": "In an interconnected world"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "type": "exercises",
+        "title": "Language Review",
+        "image": "",
+        "content": "Review and use the language of the whole book.",
+        "exercises": [
+          {
+            "id": "greenDeal-b2-language-review-1-certainty",
+            "type": "drag-drop",
+            "title": "Notice: How Certain Is the Writer?",
+            "instructions": "Sort the sentences by how certain the writer is.",
+            "question": "Is the writer sure, or is it a probability?",
+            "dragDropGroups": [
+              {
+                "group": "Fact or certainty",
+                "items": [
+                  "The European Commission announced the Green Deal on 11 December 2019.",
+                  "The EU introduced the Net-Zero Industry Act.",
+                  "Türkiye published its own Green Deal Action Plan in 2021."
+                ]
+              },
+              {
+                "group": "Probability or possibility",
+                "items": [
+                  "The coming decades are likely to see the birth of a net-zero era.",
+                  "These supply chains may face disruptions.",
+                  "These nations can also become global leaders."
+                ]
+              }
+            ],
+            "correctAnswer": {
+              "Fact or certainty": [
+                "The European Commission announced the Green Deal on 11 December 2019.",
+                "The EU introduced the Net-Zero Industry Act.",
+                "Türkiye published its own Green Deal Action Plan in 2021."
+              ],
+              "Probability or possibility": [
+                "The coming decades are likely to see the birth of a net-zero era.",
+                "These supply chains may face disruptions.",
+                "These nations can also become global leaders."
+              ]
+            },
+            "explanation": "Past facts use the past simple. “Are likely to”, “may” and “can” show probability or possibility.",
+            "feedback": {
+              "correct": "Good. You noticed the degrees of certainty.",
+              "incorrect": "Look for likely, may and can."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-review-2-participle",
+            "type": "multiple-choice",
+            "title": "Notice: Participle Clauses",
+            "instructions": "Choose the sentence that uses a participle clause correctly.",
+            "question": "Which sentence is correct?",
+            "options": [
+              "Announced in 2019, the Green Deal serves as a growth strategy.",
+              "Announcing in 2019, the Green Deal serves as a growth strategy.",
+              "Announced in 2019, the European Commission serves the Green Deal."
+            ],
+            "correctAnswer": 0,
+            "explanation": "A past participle clause has a passive meaning, and its subject must be the subject of the main clause: the Green Deal was announced.",
+            "feedback": {
+              "correct": "Correct. The Green Deal was announced.",
+              "incorrect": "Who or what was announced?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-review-3-gerund",
+            "type": "true-false",
+            "title": "Notice: Gerund Subjects",
+            "instructions": "Is the sentence true or false?",
+            "question": "In “Sustaining industrial success will require changing policies”, the subject is “Sustaining industrial success”.",
+            "correctAnswer": true,
+            "explanation": "A gerund phrase can be the subject of a sentence.",
+            "feedback": {
+              "correct": "Correct. The -ing phrase is the subject.",
+              "incorrect": "Ask: What will require something?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-review-4-linkers",
+            "type": "word-bank",
+            "title": "Build: Formal Linkers",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "Which linker fits?",
+            "fillBlanksText": "Traditional economic models are no longer sustainable. [blank], transitioning to a net-zero economy is seen as the key way. Countries that invest first can secure a strong place. [blank], they can become global leaders. [blank], the success of the green transition will depend largely on education.",
+            "wordBank": ["Therefore", "Moreover", "In conclusion", "Nevertheless", "Otherwise"],
+            "correctAnswer": ["Therefore", "Moreover", "In conclusion"],
+            "explanation": "“Therefore” gives a result, “Moreover” adds a point and “In conclusion” sums up.",
+            "feedback": {
+              "correct": "Well done. Therefore, Moreover, In conclusion.",
+              "incorrect": "Is it a result, an extra point or a summary?"
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-review-5-patterns",
+            "type": "choose-form",
+            "title": "Build: Choose the Form",
+            "instructions": "Choose the correct form for each sentence.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "This is a critical step toward [choice] the effects of global warming.",
+                "options": ["limiting", "limit", "limited"],
+                "answer": 0
+              },
+              {
+                "sentence": "These rules include strict bans on [choice] unsold clothing.",
+                "options": ["destroying", "destroy", "to destroy"],
+                "answer": 0
+              },
+              {
+                "sentence": "The number of green jobs has been [choice] rapidly.",
+                "options": ["increasing", "increased", "increase"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Prepositions take -ing; “has been” + -ing is the present perfect continuous.",
+            "feedback": {
+              "correct": "Correct. Limiting, destroying, increasing.",
+              "incorrect": "Check the word before the gap."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-review-6-errors",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "The situation calls a faster green transition.",
+                "error": "calls a",
+                "options": ["calls for a", "calls to a", "calls on a"],
+                "answer": 0
+              },
+              {
+                "sentence": "The Green Deal serves like a growth strategy.",
+                "error": "serves like",
+                "options": ["serves as", "serves for", "serves to"],
+                "answer": 0
+              },
+              {
+                "sentence": "Energy labels allow users compare choices.",
+                "error": "allow users compare",
+                "options": ["allow users to compare", "allow users comparing", "allow to users compare"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Call for”, “serve as” and “allow + person + to + verb”.",
+            "feedback": {
+              "correct": "Correct. Calls for, serves as, allow users to compare.",
+              "incorrect": "Check the verb pattern."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-review-7-rewrite",
+            "type": "transformation",
+            "title": "Build: Rewrite",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "The coming decades are likely to see the birth of a net-zero era.",
+                "frame": "A net-zero era will [blank] be born in the coming decades.",
+                "answers": ["probably", "likely"]
+              },
+              {
+                "source": "Water resources are being depleted.",
+                "frame": "There is a [blank] of water resources.",
+                "answers": ["depletion"]
+              },
+              {
+                "source": "There are strict bans on destroying unsold clothing.",
+                "frame": "Companies are not [blank] to destroy unsold clothing.",
+                "answers": ["allowed", "permitted"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Be likely to” becomes “will probably”. A verb becomes a noun (depletion). “A ban on” becomes “not allowed to”.",
+            "feedback": {
+              "correct": "Correct. Probably, depletion, allowed.",
+              "incorrect": "Use probably, depletion and allowed."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-review-8-new-context",
+            "type": "word-bank",
+            "title": "Use: A New Context",
+            "instructions": "Read about a city transport plan. Fill each gap from the word bank.",
+            "question": "Can you use the book’s words in a new text?",
+            "fillBlanksText": "Our city has launched a new [blank] to improve public transport. Tickets will be more [blank], so more families can use buses. The city will publish [blank] information about costs. Because parking spaces are [blank] in the center, the plan encourages cycling.",
+            "wordBank": ["initiative", "affordable", "transparent", "scarce", "emerging", "interconnected"],
+            "correctAnswer": ["initiative", "affordable", "transparent", "scarce"],
+            "explanation": "Initiative, affordable, transparent and scarce come from the book. Here they describe a city transport plan.",
+            "feedback": {
+              "correct": "Well done. You used the book’s words in a new text.",
+              "incorrect": "Read the words around each gap."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-review-9-new-context",
+            "type": "error-correction",
+            "title": "Use: Check a Short Text",
+            "instructions": "A student wrote a paragraph about energy. Find each mistake.",
+            "question": "What should the student change?",
+            "errorItems": [
+              {
+                "sentence": "Switch to renewable energy will require investment.",
+                "error": "Switch",
+                "options": ["Switching", "Switched", "To switching"],
+                "answer": 0
+              },
+              {
+                "sentence": "Energy prices has been rising for years.",
+                "error": "has been rising",
+                "options": ["have been rising", "have been rise", "has been rise"],
+                "answer": 0
+              },
+              {
+                "sentence": "There is a commitment to reduce waste at our school.",
+                "error": "commitment to reduce",
+                "options": ["commitment to reducing", "commitment for reduce", "commitment of reduce"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use a gerund as a subject, “have” with a plural subject, and -ing after the preposition “to” in “commitment to”.",
+            "feedback": {
+              "correct": "Correct. Switching, have been rising, commitment to reducing.",
+              "incorrect": "Check the subject and the form after “to”."
+            }
+          },
+          {
+            "id": "greenDeal-b2-language-review-10-transfer",
+            "type": "reflection",
+            "title": "Use: A Policy Brief",
+            "instructions": "Write eight to ten sentences: Which part of the Green Deal matters most for your country?",
+            "question": "Which part, why, and what is a counterpoint?",
+            "correctAnswer": null,
+            "explanation": "Example: “In my view, the switch to renewable energy matters most for my country. Indeed, energy security has become a critical challenge, and fuel prices depend on distant conflicts. Switching to wind and solar power would reduce this dependency. Moreover, it would create new green jobs. However, some people argue that education matters more, because new industries need newly skilled workers. This is a fair point. Without trained workers, new technologies cannot succeed. In conclusion, renewable energy and education must go together.”",
+            "feedback": {
+              "correct": "Check: a position, evidence, a counterpoint and in conclusion.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "State your position with evidence.",
+                "mode": "Individual",
+                "example": "In my view, … matters most because …"
+              },
+              {
+                "question": "Give a counterpoint.",
+                "mode": "Individual",
+                "example": "However, some people argue that …"
+              },
+              {
+                "question": "Conclude.",
+                "mode": "Pair",
+                "example": "In conclusion, …"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "type": "final-challenge",
+        "title": "Final Challenge",
+        "image": "",
+        "content": "Bring the whole book together in the Final Challenge.",
+        "exercises": [
+          {
+            "id": "greenDeal-b2-final-1",
+            "type": "multiple-choice",
+            "title": "The Roadmap",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What does the EU want to make more environmentally friendly with its roadmap?",
+            "options": ["its economy, industry, and everyday life", "only its transport system", "only its schools"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “The Green Deal is the EU’s roadmap for making its economy, industry, and everyday life more environmentally friendly …”",
+            "feedback": {
+              "correct": "Correct. Economy, industry and everyday life.",
+              "incorrect": "Read the second sentence of Chapter 1."
+            }
+          },
+          {
+            "id": "greenDeal-b2-final-2",
+            "type": "matching",
+            "title": "Terms and Meanings",
+            "instructions": "Match each term with its meaning.",
+            "question": "What do the terms mean?",
+            "matchingHeadings": {
+              "left": "Term",
+              "right": "Meaning"
+            },
+            "matchingPairs": [
+              {
+                "left": "depletion",
+                "right": "a fall until very little is left"
+              },
+              {
+                "left": "geopolitical",
+                "right": "about location, power and relations between countries"
+              },
+              {
+                "left": "deforestation",
+                "right": "the cutting down of forests over a large area"
+              },
+              {
+                "left": "transitioning",
+                "right": "changing from one system to another"
+              }
+            ],
+            "correctAnswer": {
+              "depletion": "a fall until very little is left",
+              "geopolitical": "about location, power and relations between countries",
+              "deforestation": "the cutting down of forests over a large area",
+              "transitioning": "changing from one system to another"
+            },
+            "explanation": "These terms appear in Chapters 2 and 3.",
+            "feedback": {
+              "correct": "Correct. Each term matches its meaning.",
+              "incorrect": "Think about the Word Notes."
+            }
+          },
+          {
+            "id": "greenDeal-b2-final-3",
+            "type": "fill-blanks",
+            "title": "The Target",
+            "instructions": "Complete the sentence from Chapter 2 with one number.",
+            "question": "By how much does the EU aim to reduce emissions by 2030?",
+            "fillBlanksText": "The EU and its member states aim to reduce greenhouse gas emissions by at least [blank]% by 2030.",
+            "correctAnswer": ["55"],
+            "explanation": "Chapter 2: “… reduce greenhouse gas emissions by at least 55% by 2030 …”",
+            "feedback": {
+              "correct": "Correct. 55.",
+              "incorrect": "Read the first priority in Chapter 2."
+            }
+          },
+          {
+            "id": "greenDeal-b2-final-4",
+            "type": "multiple-choice",
+            "title": "Uncertainty",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What creates constant uncertainty around the world?",
+            "options": [
+              "rising geopolitical tensions, global crises, and regional conflicts",
+              "renewable energy and green jobs",
+              "energy labels and spare parts"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “… rising geopolitical tensions, global crises, and regional conflicts create constant uncertainty around the world.”",
+            "feedback": {
+              "correct": "Correct. Tensions, crises and conflicts.",
+              "incorrect": "Read the second paragraph of Chapter 3."
+            }
+          },
+          {
+            "id": "greenDeal-b2-final-5",
+            "type": "matching",
+            "title": "Causes and Results",
+            "instructions": "Match each cause with its result.",
+            "question": "What follows?",
+            "matchingHeadings": {
+              "left": "Cause",
+              "right": "Result"
+            },
+            "matchingPairs": [
+              {
+                "left": "Conflicts threaten to block trade routes.",
+                "right": "Electricity and fuel become scarce and expensive."
+              },
+              {
+                "left": "Countries invest first and move faster.",
+                "right": "They can secure a strong place in the new economy."
+              },
+              {
+                "left": "Industries need additional personnel.",
+                "right": "There will be strong competition for specialized talent."
+              },
+              {
+                "left": "The transition extends across all borders.",
+                "right": "Nations should keep working with international partners."
+              }
+            ],
+            "correctAnswer": {
+              "Conflicts threaten to block trade routes.": "Electricity and fuel become scarce and expensive.",
+              "Countries invest first and move faster.": "They can secure a strong place in the new economy.",
+              "Industries need additional personnel.": "There will be strong competition for specialized talent.",
+              "The transition extends across all borders.": "Nations should keep working with international partners."
+            },
+            "explanation": "These causes and results appear in Chapters 3, 5, 7 and 8.",
+            "feedback": {
+              "correct": "Correct. Each cause matches its result.",
+              "incorrect": "Look for as a result and consequently."
+            }
+          },
+          {
+            "id": "greenDeal-b2-final-6",
+            "type": "true-false",
+            "title": "Broader Rules",
+            "instructions": "Is the sentence true or false?",
+            "question": "The book says the regulations will apply to fewer products in the future.",
+            "correctAnswer": false,
+            "explanation": "Chapter 6: “In the future, modern regulations will apply to a much broader range of everyday products.”",
+            "feedback": {
+              "correct": "Correct. A much broader range.",
+              "incorrect": "Read the middle of Chapter 6."
+            }
+          },
+          {
+            "id": "greenDeal-b2-final-7",
+            "type": "true-false",
+            "title": "Consumers",
+            "instructions": "Is the sentence true or false?",
+            "question": "The success of the Green Deal depends heavily on consumers making smart, eco-friendly choices.",
+            "correctAnswer": true,
+            "explanation": "Chapter 7: “In fact, the success of the Green Deal depends heavily on consumers making smart, eco-friendly choices driven by transparent information.”",
+            "feedback": {
+              "correct": "Correct. It depends heavily on consumers.",
+              "incorrect": "Read the beginning of Chapter 7."
+            }
+          },
+          {
+            "id": "greenDeal-b2-final-8",
+            "type": "fill-blanks",
+            "title": "Skills",
+            "instructions": "Complete the sentence from Chapter 8 with one word.",
+            "question": "What does education help all people learn?",
+            "fillBlanksText": "It helps all people learn essential green and [blank] skills.",
+            "correctAnswer": ["digital"],
+            "explanation": "Chapter 8: “It helps all people learn essential green and digital skills.”",
+            "feedback": {
+              "correct": "Correct. Digital.",
+              "incorrect": "Read the first paragraph of Chapter 8."
+            }
+          },
+          {
+            "id": "greenDeal-b2-final-9",
+            "type": "multiple-choice",
+            "title": "Requirements",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What will sustaining industrial success in uncertain times require?",
+            "options": [
+              "changing policies, moving toward renewable energy, and training workers with new skills",
+              "lower wages and longer hours",
+              "more fossil fuel imports"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 4: “Sustaining industrial success in these uncertain times will require changing policies, moving toward renewable energy, and training workers with new skills.”",
+            "feedback": {
+              "correct": "Correct. Policies, renewable energy and training.",
+              "incorrect": "Read the end of the first paragraph of Chapter 4."
+            }
+          },
+          {
+            "id": "greenDeal-b2-final-10",
+            "type": "sequencing",
+            "title": "Put the Dates in Order",
+            "instructions": "Put the events in order.",
+            "question": "What comes first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "The European Commission announces the Green Deal (2019)."
+              },
+              {
+                "id": "2",
+                "text": "Türkiye publishes its Green Deal Action Plan (2021)."
+              },
+              {
+                "id": "3",
+                "text": "The EU aims for emissions at least 55% lower (2030)."
+              },
+              {
+                "id": "4",
+                "text": "The EU aims to achieve climate neutrality (2050)."
+              },
+              {
+                "id": "5",
+                "text": "Türkiye aims to reach net-zero emissions (2053)."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "The dates come from Chapters 1, 2 and 8.",
+            "feedback": {
+              "correct": "Correct. From 2019 to 2053.",
+              "incorrect": "Look at the years."
+            }
+          }
+        ]
+      }
+    ],
+    "teacherGuide": [],
+    "selfStudyGuide": []
+  }
 }

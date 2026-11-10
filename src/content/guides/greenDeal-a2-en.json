@@ -1,111 +1,1242 @@
 {
- "schema": 1,
- "storyId": "greenDeal",
- "level": "A2",
- "language": "en",
- "teacherGuide": {
-  "content": [],
-  "metadata": {
-   "title": "The European Green Deal A2 — Teacher’s Book",
-   "subtitle": "Coming soon",
-   "level": "A2",
-   "estimatedDuration": "",
-   "targetAudience": "",
-   "targetLearners": "",
-   "purpose": "",
-   "approachDesc": "",
-   "assessmentEvidence": "",
-   "assessmentOverview": {
-    "formative": [
-     "Quick Challenge after each chapter",
-     "Language Focus: Look and Practise",
-     "Short spoken and written Use tasks",
-     "Exit tickets",
-     "Knowledge Check",
-     "Vocabulary Challenge",
-     "Language Review"
+  "schema": 1,
+  "storyId": "greenDeal",
+  "level": "A2",
+  "language": "en",
+  "teacherGuide": {
+    "content": [
+      {
+        "chapter": "Chapter 1: A Green Plan for Europe",
+        "timing": "40 minutes",
+        "objectives": [
+          "Say what the Green Deal is and who shared it.",
+          "Explain the 2050 goal.",
+          "Explain the circular economy.",
+          "Use wants to + verb."
+        ],
+        "pedagogy": "The opening chapter introduces the plan, its date and its big goal. A fact card (who → when → what → by when) helps learners hold the key facts. The circular economy connects the topic with learners’ daily lives.",
+        "priorKnowledge": ["Present simple.", "Numbers and dates."],
+        "anticipatedMisconceptions": [
+          "The European Commission is part of the EU; it is not a country.",
+          "Net zero does not mean no gases at all; the gases we put in are equal to the gases we take out."
+        ],
+        "grammarFocus": "Targets: want to + base verb · present simple\nLook (Activity 1): The Green Deal wants to protect our world.\nPractise (Activity 2): fill repair, recycle and away.\nLikely errors: *wants protect · *wants to protects.\nUse (Activity 3): my green plan.",
+        "pronunciationFocus": "Dates: the eleventh of December, twenty nineteen; twenty fifty.\nStress: e-CON-o-my, e-MIS-sions, re-CY-cle, CIR-cu-lar.",
+        "beforeReading": ["Ask: “What can we do to keep our world clean?”"],
+        "duringReading": [
+          "First reading: Who shared the Green Deal, and when?",
+          "Second reading: complete the fact card.",
+          "Find what people do in a circular economy."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–3."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–16 Fact card; 16–20 Quick Challenge; 20–32 Language Focus 1–2; 32–38 Use: my green plan; 38–40 Exit ticket.",
+        "discussionPoints": ["What does the Green Deal want?", "What is a circular economy?", "What can you repair or reuse at home?"],
+        "interactiveTips": [
+          "Use the picture hotspots “Shared in 2019” and “Repair and Reuse” when the picture is in place.",
+          "Word Notes: protect, economy, greenhouse gas, emissions, eco-friendly, circular economy, recycle."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the fact card with the headings written in.",
+          "fastFinishers": "Write four sentences about the Green Deal with wants to."
+        },
+        "formativeAssessment": ["Says who shared the plan and when.", "Explains the circular economy.", "Uses wants to + verb correctly."],
+        "expectedResponses": [
+          "The European Commission shared the Green Deal on 11 December 2019. The plan wants to protect our world. In a circular economy, people repair, reuse, and recycle things."
+        ],
+        "transferTask": "Write about a green plan for your home.",
+        "teacherReflection": "Did learners connect the circular economy with their own lives?",
+        "assessmentTools": {
+          "rubric": ["Facts", "Idea", "Language"],
+          "exitTicket": ["Write one sentence: What does the EU want by 2050?"],
+          "rubricLevels": [
+            {
+              "criterion": "Facts",
+              "secure": "Says who shared the plan and when.",
+              "notYet": "Give the fact card."
+            },
+            {
+              "criterion": "Idea",
+              "secure": "Explains the circular economy.",
+              "notYet": "Point to the second paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses wants to + verb.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 2: The Most Important Goals",
+        "timing": "40 minutes",
+        "objectives": [
+          "Name the three goals of the Green Deal.",
+          "Say the goals for 2030 and 2050.",
+          "Explain what Protecting Nature means.",
+          "Use must and must not."
+        ],
+        "pedagogy": "The chapter is a list of three goals with headings. A three-column chart (Climate · Nature · Economy) helps learners sort the details. The rules with must and must not connect with classroom rules.",
+        "priorKnowledge": ["Modal verbs.", "Percentages."],
+        "anticipatedMisconceptions": [
+          "Climate neutrality is for 2050; the 55% goal is for 2030.",
+          "“Must not” means it is not allowed; it does not mean “do not need to”."
+        ],
+        "grammarFocus": "Targets: must + base verb · must not + base verb\nLook (Activity 1): People must not cut down too many trees.\nPractise (Activity 2): choose must or must not.\nLikely errors: *must to stay · *mustn’t to use.\nUse (Activity 3): green class rules.",
+        "pronunciationFocus": "Numbers: fifty-five percent; twenty thirty.\nWeak form: must not /ˈmʌsənt/ (mustn’t).\nStress: neu-TRAL-i-ty, TECH-nol-o-gy.",
+        "beforeReading": ["Ask: “What are three important goals for your school?”"],
+        "duringReading": [
+          "First reading: What are the three goals?",
+          "Second reading: complete the three-column chart.",
+          "Find the goals for 2030 and 2050."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–3."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–16 Three-column chart; 16–20 Quick Challenge; 20–32 Language Focus 1–2; 32–38 Use: green class rules; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "Why do people need to protect forests?",
+          "What is the goal for 2030?",
+          "How can the economy grow and nature stay safe?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “55% Lower” and “Healthy Food for Everyone” when the picture is in place.",
+          "Word Notes: fight, climate neutrality, global warming."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chart with the three headings written in.",
+          "fastFinishers": "Write two rules with must and two with must not for your town."
+        },
+        "formativeAssessment": ["Names the three goals.", "Says the 2030 and 2050 goals.", "Uses must or must not correctly."],
+        "expectedResponses": [
+          "The three goals are Fighting Climate Change, Protecting Nature, and A New Economy. By 2030, European countries want emissions at least 55% lower. People must not cut down too many trees."
+        ],
+        "transferTask": "Write three green rules for your classroom.",
+        "teacherReflection": "Did learners separate the 2030 and 2050 goals?",
+        "assessmentTools": {
+          "rubric": ["Goals", "Dates", "Language"],
+          "exitTicket": ["Write one rule with “must” and one with “must not”."],
+          "rubricLevels": [
+            {
+              "criterion": "Goals",
+              "secure": "Names the three goals.",
+              "notYet": "Give the chart."
+            },
+            {
+              "criterion": "Dates",
+              "secure": "Says the 2030 and 2050 goals.",
+              "notYet": "Point to the first goal."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses must or must not.",
+              "notYet": "Model one rule."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 3: Why Is the Green Deal Important?",
+        "timing": "40 minutes",
+        "objectives": [
+          "Say what fossil fuels are.",
+          "Explain why fossil fuels are a problem.",
+          "Explain why safe energy is a problem today.",
+          "Use too much, because of and because."
+        ],
+        "pedagogy": "The chapter gives reasons: why fossil fuels are a problem and why energy is expensive. A cause–result chart (cause → result) helps learners see the links. The topic connects with energy bills at home.",
+        "priorKnowledge": ["Because.", "Uncountable nouns."],
+        "anticipatedMisconceptions": [
+          "Fossil fuels come from under the ground; wind and sun are not fossil fuels.",
+          "“Because of” takes a noun; “because” takes a sentence."
+        ],
+        "grammarFocus": "Targets: too much + uncountable noun · because of + noun · because + clause\nLook (Activity 1): … use too much oil, coal, and gas.\nPractise (Activity 2): fill Because of, because and expensive.\nLikely errors: *too many oil · *because of they damage.\nUse (Activity 3): too much at home.",
+        "pronunciationFocus": "Sound: coal /koʊl/, fuel /ˈfjuːəl/.\nStress: pol-LU-tion, e-LEC-tric-i-ty, ex-PEN-sive.",
+        "beforeReading": ["Ask: “What do we use to heat our homes?”"],
+        "duringReading": [
+          "First reading: Why are fossil fuels a problem?",
+          "Second reading: complete the cause–result chart.",
+          "Find why energy is expensive today."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–3."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–16 Cause–result chart; 16–20 Quick Challenge; 20–32 Language Focus 1–2; 32–38 Use: too much at home; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "What are fossil fuels?",
+          "Why do many people think a net-zero economy is the best way?",
+          "Why is safe energy a problem today?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Fossil Fuels” and “Expensive Energy” when the picture is in place.",
+          "Word Notes: pollution, coal, fossil fuels, net-zero."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chart with the first cause written in.",
+          "fastFinishers": "Write four sentences about energy with because and because of."
+        },
+        "formativeAssessment": ["Names the fossil fuels.", "Explains why energy is a problem.", "Uses because or because of correctly."],
+        "expectedResponses": [
+          "Oil, coal, and gas are fossil fuels. We cannot use them in this old way for a long time because they damage nature. Because of wars, energy prices are high."
+        ],
+        "transferTask": "Write about energy and water at home.",
+        "teacherReflection": "Did learners separate because and because of?",
+        "assessmentTools": {
+          "rubric": ["Facts", "Reasons", "Language"],
+          "exitTicket": ["Write one sentence with “because of” and one with “because”."],
+          "rubricLevels": [
+            {
+              "criterion": "Facts",
+              "secure": "Names the fossil fuels.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Reasons",
+              "secure": "Explains why energy is a problem.",
+              "notYet": "Give the chart."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses because or because of.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 4: Energy from the Wind and the Sun",
+        "timing": "40 minutes",
+        "objectives": [
+          "Say why countries use renewable energy.",
+          "Say what countries need for strong factories.",
+          "Explain why the green change must be faster.",
+          "Use comparatives with -er."
+        ],
+        "pedagogy": "A short chapter with a clear link from Chapter 3: fossil fuels are expensive, so countries use renewable energy. A two-column chart (fossil fuels / renewable energy) helps learners compare.",
+        "priorKnowledge": ["Adjectives.", "So (result)."],
+        "anticipatedMisconceptions": [
+          "Renewable energy is “often” cheaper, not always.",
+          "“Faster” here means the change must happen more quickly."
+        ],
+        "grammarFocus": "Targets: comparatives with -er (cheaper, faster) · so (result)\nLook (Activity 1): It is often cheaper. The green change must be faster.\nPractise (Activity 2): fill cheaper, faster and clean.\nLikely errors: *more cheap · *cheaper that.\nUse (Activity 3): compare two ways.",
+        "pronunciationFocus": "Stress: re-NEW-a-ble, TECH-nol-o-gy.\nWeak form: than /ðən/.",
+        "beforeReading": ["Ask: “Where can we get energy from nature?”"],
+        "duringReading": [
+          "First reading: Why do countries use wind and sun energy?",
+          "Second reading: complete the two-column chart.",
+          "Find what countries need."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–3."],
+        "lessonPlan": "0–5 Hook; 5–10 First reading; 10–15 Two-column chart; 15–19 Quick Challenge; 19–32 Language Focus 1–2; 32–38 Use: compare two ways; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "Why is renewable energy good for countries?",
+          "Why must the green change be faster?",
+          "What should the big plan show?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Wind and Sun” and “A Big Plan” when the picture is in place.",
+          "Word Notes: renewable energy, skill."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chart with the headings written in.",
+          "fastFinishers": "Write four sentences that compare fossil fuels and renewable energy."
+        },
+        "formativeAssessment": ["Says why countries use renewable energy.", "Says what countries need.", "Uses -er correctly."],
+        "expectedResponses": [
+          "More and more countries are using renewable energy because it is often cheaper. To keep their factories strong, they need new rules, more renewable energy, and workers with new skills."
+        ],
+        "transferTask": "Compare two ways to go to school.",
+        "teacherReflection": "Did learners link this chapter with Chapter 3?",
+        "assessmentTools": {
+          "rubric": ["Reason", "Needs", "Language"],
+          "exitTicket": ["Write one sentence with “cheaper than”."],
+          "rubricLevels": [
+            {
+              "criterion": "Reason",
+              "secure": "Says why countries use renewable energy.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Needs",
+              "secure": "Says what countries need.",
+              "notYet": "Give the chart."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses -er.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 5: New Opportunities",
+        "timing": "40 minutes",
+        "objectives": [
+          "Explain what the net-zero era means.",
+          "Say why some countries can be leaders.",
+          "Name the green technologies in the law.",
+          "Use will for the future."
+        ],
+        "pedagogy": "The chapter looks at the future: new markets, new jobs and new machines. A picture word list (battery, wind turbine, heat pump, solar panel) helps learners with the technical words. Learners then imagine their own town in 2050.",
+        "priorKnowledge": ["Future with will.", "Technology words."],
+        "anticipatedMisconceptions": [
+          "Net zero means the gases we put into the air are the same as the gases we take out.",
+          "The Net-Zero Industry Act is an EU law, not a company."
+        ],
+        "grammarFocus": "Targets: will + base verb (future) · present simple for facts\nLook (Activity 1): The economy will create new markets …\nPractise (Activity 2): fill will, create and skills.\nLikely errors: *will creates · *will to create.\nUse (Activity 3): my town in 2050.",
+        "pronunciationFocus": "Stress: TUR-bine, SO-lar PAN-el, BAT-ter-y, car-bon di-OX-ide.\nContraction: it will → it’ll.",
+        "beforeReading": ["Ask: “What will our town look like in 2050?”"],
+        "duringReading": [
+          "First reading: What will the new economy bring?",
+          "Second reading: list the green machines.",
+          "Find the name of the law."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–3."],
+        "lessonPlan": "0–5 Hook; 5–11 First reading; 11–16 Green machines list; 16–20 Quick Challenge; 20–32 Language Focus 1–2; 32–38 Use: my town in 2050; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "Why can some countries have a strong place in the new economy?",
+          "What do the new jobs need?",
+          "What do the machines in the law do?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “The Net-Zero Industry Act” and “Green Machines” when the picture is in place.",
+          "Word Notes: law, wind turbine, heat pump, solar panel, carbon dioxide."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give picture cards of the four machines.",
+          "fastFinishers": "Write four sentences about the future of energy with will."
+        },
+        "formativeAssessment": ["Explains the net-zero era.", "Names the green machines.", "Uses will correctly."],
+        "expectedResponses": [
+          "In the next 20 or 30 years, a new green future starts. The economy will create new markets. The Net-Zero Industry Act helps Europe build batteries, wind turbines, heat pumps, and solar panels."
+        ],
+        "transferTask": "Write about your town in 2050.",
+        "teacherReflection": "Did learners use the technical words correctly?",
+        "assessmentTools": {
+          "rubric": ["Future", "Machines", "Language"],
+          "exitTicket": ["Write one sentence with “will” about the future."],
+          "rubricLevels": [
+            {
+              "criterion": "Future",
+              "secure": "Explains the net-zero era.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Machines",
+              "secure": "Names the green machines.",
+              "notYet": "Give the picture cards."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses will.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 6: New Rules for Green Things",
+        "timing": "40 minutes",
+        "objectives": [
+          "Explain two new EU rules.",
+          "Say why spare parts are important.",
+          "Say what factories will have to do.",
+          "Use can and cannot for rules."
+        ],
+        "pedagogy": "A short chapter with two clear examples of rules: no throwing away unsold clothes, and easy-to-find spare parts. Learners connect the rules with their own things at home.",
+        "priorKnowledge": ["Can / cannot.", "So (result)."],
+        "anticipatedMisconceptions": [
+          "“Cannot” here is about a rule, not about ability.",
+          "The rules are for big companies, not for every person."
+        ],
+        "grammarFocus": "Targets: can / cannot (rules) · so (result) · will have to\nLook (Activity 1): Big companies … cannot throw away clothes …\nPractise (Activity 2): fill recycle, find and repair.\nLikely errors: *cannot to throw · *can repairing.\nUse (Activity 3): something I can repair.",
+        "pronunciationFocus": "Weak and strong forms: can /kən/, cannot /ˈkænɑːt/.\nStress: re-PAIR, re-CY-cle, PROD-ucts.",
+        "beforeReading": ["Ask: “What do you do when something at home breaks?”"],
+        "duringReading": [
+          "First reading: What are the new rules?",
+          "Second reading: underline the two examples.",
+          "Find what factories will have to do."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–3."],
+        "lessonPlan": "0–5 Hook; 5–9 First reading; 9–14 Two examples; 14–18 Quick Challenge; 18–32 Language Focus 1–2; 32–38 Use: something I can repair; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "Why is it good that companies cannot throw away clothes?",
+          "Why do people need spare parts?",
+          "What will the rules be for in the future?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “No Throwing Away” and “Spare Parts” when the picture is in place.",
+          "Word Notes: spare part."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the frame: Big companies cannot … / People can …",
+          "fastFinishers": "Write a new green rule for your school with can and cannot."
+        },
+        "formativeAssessment": ["Explains two rules.", "Says why spare parts matter.", "Uses can or cannot correctly."],
+        "expectedResponses": [
+          "Big companies in the EU cannot throw away clothes that nobody bought. Other rules make spare parts easy to find, so people can repair their things."
+        ],
+        "transferTask": "Write about a thing you can repair.",
+        "teacherReflection": "Did learners see can / cannot as rules here?",
+        "assessmentTools": {
+          "rubric": ["Rules", "Reason", "Language"],
+          "exitTicket": ["Write one rule with “cannot”."],
+          "rubricLevels": [
+            {
+              "criterion": "Rules",
+              "secure": "Explains two rules.",
+              "notYet": "Give the frame."
+            },
+            {
+              "criterion": "Reason",
+              "secure": "Says why spare parts matter.",
+              "notYet": "Point to the fourth sentence."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses can or cannot.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 7: Smart Shopping and Green Jobs",
+        "timing": "40 minutes",
+        "objectives": [
+          "Say what an energy label shows.",
+          "Explain why people need clear information.",
+          "Say how jobs are changing.",
+          "Give advice with should."
+        ],
+        "pedagogy": "The chapter links green shopping with green jobs. Real energy labels (or a picture of one) make the first paragraph concrete. Learners give advice with should.",
+        "priorKnowledge": ["Modal verbs.", "Present perfect (has grown) for recognition only."],
+        "anticipatedMisconceptions": [
+          "Energy labels show how much energy a machine uses; they do not show the price.",
+          "“Has grown” means the number became bigger up to now."
+        ],
+        "grammarFocus": "Targets: should + base verb (advice) · has grown (recognition)\nLook (Activity 1): Before they buy something, they should see how eco-friendly it is.\nPractise (Activity 2): fill grown, skills and training.\nLikely errors: *should to see · *should sees.\nUse (Activity 3): advice for a shopper.",
+        "pronunciationFocus": "Stress: IN-for-MA-tion, LA-bel, TRAIN-ing.\nWeak form: should /ʃəd/.",
+        "beforeReading": ["Ask: “What do you look at before you buy something?”"],
+        "duringReading": [
+          "First reading: What helps people choose green things?",
+          "Second reading: find two examples of machines with labels.",
+          "Find how jobs are changing."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–3."],
+        "lessonPlan": "0–5 Hook; 5–10 First reading; 10–15 Energy label picture; 15–19 Quick Challenge; 19–32 Language Focus 1–2; 32–38 Use: advice for a shopper; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "Why do people need clear information?",
+          "What do energy labels show?",
+          "Why do countries need big training programs?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Energy Labels” and “Green Jobs” when the picture is in place.",
+          "Word Notes: energy label."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give a picture of an energy label.",
+          "fastFinishers": "Write four pieces of advice for green shopping with should."
+        },
+        "formativeAssessment": ["Says what an energy label shows.", "Says how jobs are changing.", "Uses should correctly."],
+        "expectedResponses": [
+          "Fridges and washing machines have energy labels. With these labels, people can easily see which one is better. The number of green jobs has grown fast."
+        ],
+        "transferTask": "Give a friend advice before they buy a fridge.",
+        "teacherReflection": "Did learners use real-life examples of labels?",
+        "assessmentTools": {
+          "rubric": ["Labels", "Jobs", "Language"],
+          "exitTicket": ["Write one sentence of advice with “should”."],
+          "rubricLevels": [
+            {
+              "criterion": "Labels",
+              "secure": "Says what labels show.",
+              "notYet": "Give the picture."
+            },
+            {
+              "criterion": "Jobs",
+              "secure": "Says how jobs are changing.",
+              "notYet": "Point to the second paragraph."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses should.",
+              "notYet": "Model one sentence."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      },
+      {
+        "chapter": "Chapter 8: Learning and Working Together",
+        "timing": "40 minutes",
+        "objectives": [
+          "Explain why education is part of the Green Deal.",
+          "Explain why countries should work together.",
+          "Say Türkiye’s net-zero goal.",
+          "Use It is good for … to … ."
+        ],
+        "pedagogy": "The closing chapter connects the Green Deal with education, cooperation and Türkiye’s own plan. Learners then bring the book together in a class “Green Week” poster.",
+        "priorKnowledge": ["Infinitives.", "Must / should."],
+        "anticipatedMisconceptions": [
+          "Türkiye’s plan was made in 2021; its net-zero goal is 2053.",
+          "The text says climate change is a problem for every country, not only for Europe."
+        ],
+        "grammarFocus": "Targets: It is good for + someone + to + verb · must / should\nLook (Activity 1): it is good for countries to work together …\nPractise (Activity 2): fill train, digital and country.\nLikely errors: *It is good for countries work · *It is good to countries.\nUse (Activity 3): working together.",
+        "pronunciationFocus": "Names: TÜR-ki-ye.\nNumbers: twenty twenty-one; twenty fifty-three.\nStress: ed-u-CA-tion, DIG-i-tal, PART-ners.",
+        "beforeReading": ["Ask: “What can schools do for a cleaner world?”"],
+        "duringReading": [
+          "First reading: Why is education important?",
+          "Second reading: find who should help.",
+          "Find Türkiye’s plan and goal."
+        ],
+        "afterReading": ["Complete the Quick Challenge.", "Language Focus Activities 1–3.", "Group task: “Our Green Week”."],
+        "lessonPlan": "0–5 Hook; 5–10 First reading; 10–15 Who should help; 15–19 Quick Challenge; 19–32 Language Focus 1–2; 32–38 Use: working together; 38–40 Exit ticket. (Poster in a second lesson.)",
+        "discussionPoints": [
+          "Why does the green change need good education?",
+          "Why is it good for countries to work together?",
+          "What is Türkiye’s goal?"
+        ],
+        "interactiveTips": [
+          "Use the picture hotspots “Learning for the Future” and “Türkiye’s Plan” when the picture is in place.",
+          "The group task “Our Green Week” closes the book.",
+          "Word Notes: education."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the frame: It is good for … to …",
+          "fastFinishers": "Write a short paragraph about Türkiye’s Green Deal Action Plan."
+        },
+        "formativeAssessment": ["Explains why education matters.", "Says Türkiye’s goal.", "Uses It is good for … to correctly."],
+        "expectedResponses": [
+          "Education helps everyone learn green and digital skills. It is good for countries to work together with their partners. Türkiye’s goal is net-zero emissions by 2053."
+        ],
+        "transferTask": "Write about a green project for your school.",
+        "teacherReflection": "Did learners connect the Green Deal with Türkiye and their school?",
+        "assessmentTools": {
+          "rubric": ["Education", "Türkiye", "Language"],
+          "exitTicket": ["Write one sentence with “It is good for … to …”."],
+          "rubricLevels": [
+            {
+              "criterion": "Education",
+              "secure": "Explains why education matters.",
+              "notYet": "Point to the first paragraph."
+            },
+            {
+              "criterion": "Türkiye",
+              "secure": "Says Türkiye’s goal.",
+              "notYet": "Point to the last sentence."
+            },
+            {
+              "criterion": "Language",
+              "secure": "Uses It is good for … to.",
+              "notYet": "Give the frame."
+            }
+          ]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
+      }
     ],
-    "summative": [
-     "Final Challenge"
-    ]
-   },
-   "readingFramework": {
-    "before": "A short start from something learners can see: a picture, an object or a date.",
-    "during": "Listen first with one question, then read and do one concrete task.",
-    "after": "Quick Challenge, then the Language Focus, then a short Use task about the learners’ own life."
-   },
-   "vocabularyApproach": {
-    "selection": "The Word Notes of each chapter.",
-    "method": "Meet the word in the chapter, check its note, use it in a sentence.",
-    "recycling": "Key Terms, Master Glossary and Vocabulary Challenge."
-   },
-   "grammarApproach": "",
-   "grammarSequence": [],
-   "skillsFocus": {
-    "reading": "Find facts and numbers in an informational text.",
-    "listening": "Listen for one key fact first.",
-    "speaking": "Short pair talk about home, school and town.",
-    "writing": "Three-sentence frames."
-   },
-   "valuesFocus": [],
-   "languageFocus": [],
-   "differentiationNotes": "",
-   "sensitiveNotes": {
-    "title": "Notes for the teacher",
-    "notes": [
-     "The text is about EU policy. Türkiye’s own plan (2021, net zero by 2053) is in Chapter 8."
-    ]
-   },
-   "globalCitizenship": {
-    "title": "Our world today",
-    "description": "Learners connect EU and Türkiye goals with small actions at home and school.",
-    "themes": [
-     "Climate",
-     "Energy",
-     "Repair and reuse"
-    ],
-    "actions": [
-     "Plan a green week for the class (Language Review)."
-    ]
-   },
-   "appendices": {
-    "exitTicket": [
-     "One fact from today’s chapter."
-    ],
-    "miniProject": {
-     "title": "Green week",
-     "desc": "Plan five green actions for the class, one for each day."
-    },
-    "reflectivePrompt": {
-     "title": "My green step",
-     "desc": "What will you change this week?"
+    "metadata": {
+      "title": "The European Green Deal A2 — Teacher’s Book",
+      "subtitle": "Our World Today",
+      "level": "A2",
+      "estimatedDuration": "8 chapter units of 40 minutes each. Whole-book review pages follow separately.",
+      "targetAudience": "A2 English learners.",
+      "targetLearners": "Young learners and adults who can read short, simple informational texts and write short connected sentences.",
+      "purpose": "Develop A2 reading, listening, speaking and writing through a short informational text about the European Green Deal: its goals, energy, new rules, smart shopping, green jobs, education and Türkiye’s own plan, using the Language Focus attached to every chapter.",
+      "approachDesc": "Every chapter follows the TYMM route. YDAB1 listening and YDAB2 reading establish meaning; the Quick Challenge checks comprehension. Grammar is then learned in small steps: in the Language Focus, learners first LOOK at a form in a real chapter sentence, then PRACTISE it in controlled, meaningful tasks, and finally USE it in short YDAB3 speaking and YDAB4 writing about their own world.",
+      "assessmentEvidence": "8 Quick Challenges, text-evidence checks, chapter Language Focus tasks (Look → Practise → Use), exit tickets, Knowledge Check, Vocabulary Challenge, Language Review and Final Challenge.",
+      "assessmentOverview": {
+        "formative": [
+          "Quick Challenge after each chapter",
+          "Evidence checks in the text",
+          "Language Focus: Look → Practise → Use",
+          "Short spoken and written Use tasks",
+          "Exit tickets",
+          "Knowledge Check",
+          "Vocabulary Challenge",
+          "Language Review"
+        ],
+        "summative": ["Final Challenge"]
+      },
+      "readingFramework": {
+        "before": "Activate only what the chapter needs: a short question, a picture of a machine or a label, or a word from daily life.",
+        "during": "Listen first for gist (when the audio is ready), then read and follow the chapter’s own structure: a fact card, three goals, causes and results, a comparison, a list of machines or two examples of rules.",
+        "after": "Complete the Quick Challenge, then the chapter’s Language Focus (look → practise → use), then a short production about the learners’ own world."
+      },
+      "vocabularyApproach": {
+        "selection": "Word Notes are the bold words of the teacher-approved text. Prioritize them and the words needed for the chapter’s key idea.",
+        "method": "Infer meaning from context or a picture before any direct explanation.",
+        "recycling": "Reuse vocabulary in Language Focus tasks, exit tickets, Key Terms and the Language Review."
+      },
+      "grammarApproach": "Text-based and in small steps. Start from the chapter sentence, ask a simple meaning question (What does this word show?), let learners answer, then confirm the rule and practice it in context. Rule explanations appear in the app only after learners answer.",
+      "grammarSequence": [
+        "Ch1: want to + base verb · present simple",
+        "Ch2: must + base verb · must not + base verb",
+        "Ch3: too much + uncountable noun · because of + noun · because + clause",
+        "Ch4: comparatives with -er (cheaper, faster) · so (result)",
+        "Ch5: will + base verb (future) · present simple for facts",
+        "Ch6: can / cannot (rules) · so (result) · will have to",
+        "Ch7: should + base verb (advice) · has grown (recognition)",
+        "Ch8: It is good for + someone + to + verb · must / should"
+      ],
+      "skillsFocus": {
+        "listening": "TYMM YDAB1: follow narration for gist, facts and numbers.",
+        "reading": "TYMM YDAB2: find key information, dates and simple reasons.",
+        "speaking": "TYMM YDAB3: describe plans, rules and simple choices in short connected sentences.",
+        "writing": "TYMM YDAB4: write short connected sentences with and, but, so and because."
+      },
+      "valuesFocus": [
+        "D16 Responsibility — Caring for nature and our shared world.",
+        "D5 Sensitivity — Noticing what nature needs.",
+        "D20 Helpfulness — Working together for a common goal.",
+        "D1 Justice — A fair change for everyone."
+      ],
+      "languageFocus": [
+        "Every one of the 8 chapters has a Language Focus set built as Look → Practise → Use (3 activities).",
+        "Use the Language Focus after basic comprehension and the Quick Challenge.",
+        "Always start from the story sentence and ask a meaning question before naming the form.",
+        "The Use step is connected spoken or written production about a new, non-story situation."
+      ],
+      "differentiationNotes": "Reduce linguistic load without lowering the thinking target: one paragraph at a time, charts given in part, picture cards, audio replay, sentence frames and oral rehearsal. Extend by asking for one more sentence or one more reason from the book, not by introducing outside facts.",
+      "sensitiveNotes": {
+        "title": "Source fidelity and respectful teaching",
+        "notes": [
+          "Keep explanations within the wording of the book; do not add outside numbers or opinions.",
+          "The book is about EU policy; Türkiye’s own plan (2021, net zero by 2053) is in Chapter 8. Present both as the book gives them.",
+          "Discuss energy and money at home with care; some families may have difficulties paying their bills."
+        ]
+      },
+      "globalCitizenship": {
+        "title": "Global Citizenship and Cultural Bridges",
+        "description": "The Green Deal connects with questions every community faces today: how to use less energy, how to protect nature and how to work together across borders.",
+        "themes": [
+          {
+            "title": "One world:",
+            "description": "Climate change is a problem for every country in the world (Chapter 8). Discuss why countries need to work together."
+          },
+          {
+            "title": "Use less, repair more:",
+            "description": "In a circular economy, people repair, reuse, and recycle things (Chapter 1). Discuss how families can waste less."
+          },
+          {
+            "title": "New skills:",
+            "description": "Green jobs need workers with new skills (Chapter 7). Discuss which skills young people will need in the future."
+          }
+        ],
+        "actions": [
+          "Find the energy label on a machine at home and read it.",
+          "Repair or reuse one old thing this week.",
+          "Find Türkiye’s Green Deal Action Plan goal year on a class poster."
+        ]
+      },
+      "appendices": {
+        "exitTicket": [
+          "One fact I learned about the Green Deal today is …",
+          "One new word from today’s chapter is …",
+          "One green action I can do this week is …"
+        ],
+        "miniProject": {
+          "title": "Our Green Week",
+          "desc": "In groups, choose five green actions from the book, give one to each school day and present a poster."
+        },
+        "reflectivePrompt": {
+          "title": "My Green Step",
+          "desc": "The Green Deal wants to protect our world (Chapter 1). Write four to five sentences about your own green step for a cleaner world."
+        }
+      },
+      "valuesEducation": {
+        "title": "TYMM Values in Action",
+        "description": "Use only values the chapter really shows. Ask for the sentence first, then connect the value to a small action learners can do and see. See https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi.",
+        "items": [
+          {
+            "label": "D16 Responsibility",
+            "value": "Responsibility: The Green Deal wants to protect our world, and people must not use too much water (Chapters 1 and 2)."
+          },
+          {
+            "label": "D5 Sensitivity",
+            "value": "Sensitivity: Plants and animals must stay safe, and people should choose eco-friendly things (Chapters 2 and 7)."
+          },
+          {
+            "label": "D20 Helpfulness",
+            "value": "Helpfulness: Countries, companies and people should all help, and countries should work together with their partners (Chapter 8)."
+          },
+          {
+            "label": "D1 Justice",
+            "value": "Justice: Education is important for a fair change for everyone (Chapter 8)."
+          }
+        ],
+        "questions": [
+          "Which sentence shows the value?",
+          "What small action can show it this week?",
+          "Which part is from the book and which part is my own idea?"
+        ]
+      },
+      "cefrProfile": {
+        "intro": "This book is written for CEFR A2. The table links the A2 descriptors of the End-of-Level Test A2 to the chapters of this book where learners practice them.",
+        "rows": [
+          {
+            "scale": "Overall reading comprehension",
+            "descriptor": "Can understand short, simple texts containing the highest frequency vocabulary, including a proportion of shared international vocabulary items.",
+            "chapters": "All chapters (1–8)",
+            "practice": ["Chapter 2 (The Most Important Goals): Name the three goals.", "Whole book: Knowledge Check and Final Challenge."]
+          },
+          {
+            "scale": "Overall written production",
+            "descriptor": "Can write a series of simple phrases and sentences linked with simple connectors like “and”, “but” and “because”.",
+            "chapters": "Chapters 3, 4, 8",
+            "practice": [
+              "Chapter 3 (Why Is the Green Deal Important?): Write about energy and water at home.",
+              "Language Review, “Use: My Green Step”: Write four to five sentences."
+            ]
+          },
+          {
+            "scale": "Overall spoken production",
+            "descriptor": "Can give a simple description or presentation of people, living or working conditions, daily routines, likes/dislikes, etc. as a short series of simple phrases and sentences linked into a list.",
+            "chapters": "Chapters 2, 7, 8",
+            "practice": [
+              "Chapter 7 (Smart Shopping and Green Jobs): Give a friend advice before they buy a fridge.",
+              "Chapter 8 (Learning and Working Together): Present your group’s green week."
+            ]
+          }
+        ],
+        "test": {
+          "title": "End-of-Level Test A2",
+          "level": "A2",
+          "when": "Give the test when the class has finished the A2 books it reads this term. It has four parts and takes about 60 minutes plus a short speaking test for each learner.",
+          "parts": [
+            "Reading and Language (40 minutes): in the app. The learner gets a test code at the end.",
+            "Writing (20 minutes): on paper. Write an email to a friend about a visit to an old place. (50–70 words)",
+            "Speaking (about 6 minutes): one learner with the teacher, in 2 parts.",
+            "Scoring: type the test code in “Score a test”, then score Writing and Speaking with the bands. Copy the pilot line for the pilot results sheet."
+          ]
+        }
+      }
     }
-   },
-   "valuesEducation": {
-    "title": "Values",
-    "description": "Responsibility and not wasting, through the text’s own facts.",
-    "items": [
-     "Responsibility",
-     "Saving",
-     "Cooperation"
+  },
+  "selfStudyGuide": {
+    "content": [
+      {
+        "chapter": "Chapter 1: A Green Plan for Europe",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can say what the Green Deal wants.",
+          "I can say what people do in a circular economy.",
+          "I can use wants to + verb."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “The Green Deal wants to protect our world”: wants to + verb. Then fill repair, recycle and away.",
+        "pronunciationFocus": "Say: the eleventh of December, twenty nineteen. Stress: e-CON-o-my, re-CY-cle.",
+        "lessonPlan": "What can we do for a clean world? Write one idea. Read the chapter and find who shared the Green Deal. Make a fact card.",
+        "discussionPoints": ["People in a circular economy repair and reuse things. What can you repair or reuse this week?"],
+        "interactiveTips": ["Open the picture hotspots “Shared in 2019” and “Repair and Reuse” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the first paragraph again. Find “By 2050”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write three sentences about a green plan for your home."
+        },
+        "whatToNotice": ["The Green Deal is a plan for a clean economy.", "In a circular economy, people do not throw things away."],
+        "readListen": [
+          "What can we do for a clean world? Write one idea.",
+          "Read the chapter and find who shared the Green Deal.",
+          "Make a fact card."
+        ],
+        "findAnswerInStory": [
+          "Find the date of the plan.",
+          "Find what the EU wants by 2050.",
+          "Find what people do in a circular economy."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: protect, economy, greenhouse gas, emissions, eco-friendly, circular economy, recycle.",
+          "“More eco-friendly.” What does eco-friendly mean?",
+          "Write one sentence with recycle."
+        ],
+        "quickChallengeGuide": "You will choose what the EU wants by 2050. Read the sixth sentence.",
+        "wrongAnswerSupport": ["Read the first paragraph again.", "Find “By 2050”.", "Try again."],
+        "selfCheck": ["Can I say what the Green Deal wants?", "Can I explain the circular economy?", "Can I use wants to?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write three sentences about a green plan for your home.",
+        "reflectionPrompt": "People in a circular economy repair and reuse things. What can you repair or reuse this week?"
+      },
+      {
+        "chapter": "Chapter 2: The Most Important Goals",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can name the three goals of the Green Deal.",
+          "I can say what European countries want by 2030 and 2050.",
+          "I can use must and must not for rules."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “People must not cut down too many trees”: it is not OK. Then choose must or must not.",
+        "pronunciationFocus": "Say: fifty-five percent. Say mustn’t without the first t: /ˈmʌsənt/.",
+        "lessonPlan": "What are three goals for your school? Write them. Read the chapter and find the three goals. Make a three-column chart.",
+        "discussionPoints": ["We must not use too much water. How can you save water this week?"],
+        "interactiveTips": ["Open the picture hotspots “55% Lower” and “Healthy Food for Everyone” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the three headings again. Find the goal that is not there. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write three green rules for your classroom with your partner."
+        },
+        "whatToNotice": ["The chapter has three headings.", "The goals are about climate, nature and the economy."],
+        "readListen": [
+          "What are three goals for your school? Write them.",
+          "Read the chapter and find the three goals.",
+          "Make a three-column chart."
+        ],
+        "findAnswerInStory": ["Find the goal for 2030.", "Find the goal for 2050.", "Find what people must not do."],
+        "vocabularyInContext": [
+          "Word Notes: fight, climate neutrality, global warming.",
+          "“Climate neutrality.” What does it mean?",
+          "Write one sentence with fight."
+        ],
+        "quickChallengeGuide": "You will choose the goal that is NOT in the chapter. Find the three headings.",
+        "wrongAnswerSupport": ["Read the three headings again.", "Find the goal that is not there.", "Try again."],
+        "selfCheck": ["Can I name the three goals?", "Can I say the 2030 goal?", "Can I use must and must not?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write three green rules for your classroom with your partner.",
+        "reflectionPrompt": "We must not use too much water. How can you save water this week?"
+      },
+      {
+        "chapter": "Chapter 3: Why Is the Green Deal Important?",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can say why fossil fuels are a problem.",
+          "I can say why safe energy is a problem today.",
+          "I can use too much, because of and because."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “use too much oil, coal, and gas”: more than is good. Then fill Because of, because and expensive.",
+        "pronunciationFocus": "Say: coal /koʊl/. Stress: pol-LU-tion, e-LEC-tric-i-ty.",
+        "lessonPlan": "What do we use to heat our homes? Write one thing. Read the chapter and find why fossil fuels are a problem. Make a cause–result chart.",
+        "discussionPoints": ["Some people use too much energy. What can you turn off when you do not need it?"],
+        "interactiveTips": ["Open the picture hotspots “Fossil Fuels” and “Expensive Energy” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the second paragraph again. Find “Because of”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write three sentences about energy and water at home."
+        },
+        "whatToNotice": ["Fossil fuels damage nature.", "Energy is expensive today."],
+        "readListen": [
+          "What do we use to heat our homes? Write one thing.",
+          "Read the chapter and find why fossil fuels are a problem.",
+          "Make a cause–result chart."
+        ],
+        "findAnswerInStory": [
+          "Find the three fossil fuels.",
+          "Find what many people think is the best way.",
+          "Find why energy prices are high."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: pollution, coal, fossil fuels, net-zero.",
+          "“Fossil fuels.” What are fossil fuels?",
+          "Write one sentence with pollution."
+        ],
+        "quickChallengeGuide": "You will choose why safe energy is a problem. Read the second paragraph.",
+        "wrongAnswerSupport": ["Read the second paragraph again.", "Find “Because of”.", "Try again."],
+        "selfCheck": ["Can I name the fossil fuels?", "Can I explain why energy is a problem?", "Can I use because of?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write three sentences about energy and water at home.",
+        "reflectionPrompt": "Some people use too much energy. What can you turn off when you do not need it?"
+      },
+      {
+        "chapter": "Chapter 4: Energy from the Wind and the Sun",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can say why countries use energy from the wind and the sun.",
+          "I can say what countries need for strong factories.",
+          "I can compare with -er: cheaper, faster."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “It is often cheaper”: -er compares. Then fill cheaper, faster and clean.",
+        "pronunciationFocus": "Stress: re-NEW-a-ble. Say than /ðən/.",
+        "lessonPlan": "Where can we get energy from nature? Write one idea. Read the chapter and find why countries use wind and sun energy. Make a two-column chart.",
+        "discussionPoints": ["A bike is cheaper and greener than a car. When can you walk or ride a bike this week?"],
+        "interactiveTips": ["Open the picture hotspots “Wind and Sun” and “A Big Plan” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the first paragraph again. Find “countries need”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Compare two ways to go to school in three sentences."
+        },
+        "whatToNotice": ["Renewable energy is often cheaper.", "The green change must be faster."],
+        "readListen": [
+          "Where can we get energy from nature? Write one idea.",
+          "Read the chapter and find why countries use wind and sun energy.",
+          "Make a two-column chart."
+        ],
+        "findAnswerInStory": ["Find two kinds of renewable energy.", "Find what countries need.", "Find what the big plan shows."],
+        "vocabularyInContext": [
+          "Word Notes: renewable energy, skill.",
+          "“Workers with new skills.” What is a skill?",
+          "Write one sentence with renewable energy."
+        ],
+        "quickChallengeGuide": "You will choose what countries need. Read the end of the first paragraph.",
+        "wrongAnswerSupport": ["Read the first paragraph again.", "Find “countries need”.", "Try again."],
+        "selfCheck": ["Can I say why countries use renewable energy?", "Can I say what countries need?", "Can I use -er?"],
+        "useWhatYouLearned": "Language Focus, last activity: Compare two ways to go to school in three sentences.",
+        "reflectionPrompt": "A bike is cheaper and greener than a car. When can you walk or ride a bike this week?"
+      },
+      {
+        "chapter": "Chapter 5: New Opportunities",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can name green technologies from the chapter.",
+          "I can say why the EU made a new law.",
+          "I can use will for the future."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “The economy will create new markets”: the future. Then fill will, create and skills.",
+        "pronunciationFocus": "Stress: TUR-bine, SO-lar PAN-el, BAT-ter-y.",
+        "lessonPlan": "What will your town look like in 2050? Write one idea. Read the chapter and find what the new economy will bring. List the green machines.",
+        "discussionPoints": ["New jobs need new skills. Which new skill do you want to learn?"],
+        "interactiveTips": ["Open the picture hotspots “The Net-Zero Industry Act” and “Green Machines” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the end of the chapter again. Find “It helps Europe build”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write three sentences about your town in 2050."
+        },
+        "whatToNotice": ["A new green future starts in the next 20 or 30 years.", "The EU made a law for green machines."],
+        "readListen": [
+          "What will your town look like in 2050? Write one idea.",
+          "Read the chapter and find what the new economy will bring.",
+          "List the green machines."
+        ],
+        "findAnswerInStory": ["Find what will be the same in the net-zero era.", "Find the name of the law.", "Find the four machines."],
+        "vocabularyInContext": [
+          "Word Notes: law, wind turbine, heat pump, solar panel, carbon dioxide.",
+          "“A wind turbine.” What is a wind turbine?",
+          "Write one sentence with law."
+        ],
+        "quickChallengeGuide": "You will choose what the law helps Europe build. Read the end of the chapter.",
+        "wrongAnswerSupport": ["Read the end of the chapter again.", "Find “It helps Europe build”.", "Try again."],
+        "selfCheck": ["Can I explain the net-zero era?", "Can I name the machines?", "Can I use will?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write three sentences about your town in 2050.",
+        "reflectionPrompt": "New jobs need new skills. Which new skill do you want to learn?"
+      },
+      {
+        "chapter": "Chapter 6: New Rules for Green Things",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can explain two new EU rules.",
+          "I can say why spare parts are important.",
+          "I can use can and cannot for rules."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “Big companies … cannot throw away clothes …”: a rule. Then fill recycle, find and repair.",
+        "pronunciationFocus": "Say: can /kən/ and cannot /ˈkænɑːt/.",
+        "lessonPlan": "What do you do when something breaks? Write one idea. Read the chapter and find the new rules. Underline the two examples.",
+        "discussionPoints": ["Spare parts help people repair their things. What old thing can you repair instead of buying a new one?"],
+        "interactiveTips": ["Open the picture hotspots “No Throwing Away” and “Spare Parts” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the fourth sentence again. Find “so people can”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write three sentences about a thing you can repair."
+        },
+        "whatToNotice": ["The new rules help people reuse and recycle.", "Spare parts help people repair their things."],
+        "readListen": [
+          "What do you do when something breaks? Write one idea.",
+          "Read the chapter and find the new rules.",
+          "Underline the two examples."
+        ],
+        "findAnswerInStory": [
+          "Find what big companies cannot throw away.",
+          "Find why spare parts must be easy to find.",
+          "Find what factories will have to do."
+        ],
+        "vocabularyInContext": ["Word Notes: spare part.", "“Spare parts.” What is a spare part?", "Write one sentence with repair."],
+        "quickChallengeGuide": "You will choose why spare parts must be easy to find. Read the fourth sentence.",
+        "wrongAnswerSupport": ["Read the fourth sentence again.", "Find “so people can”.", "Try again."],
+        "selfCheck": ["Can I explain two rules?", "Can I say why spare parts matter?", "Can I use can and cannot for rules?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write three sentences about a thing you can repair.",
+        "reflectionPrompt": "Spare parts help people repair their things. What old thing can you repair instead of buying a new one?"
+      },
+      {
+        "chapter": "Chapter 7: Smart Shopping and Green Jobs",
+        "timing": "About 20 minutes",
+        "objectives": ["I can say what an energy label shows.", "I can say how jobs are changing.", "I can give advice with should."],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “they should see how eco-friendly it is”: advice. Then fill grown, skills and training.",
+        "pronunciationFocus": "Stress: IN-for-MA-tion, LA-bel. Say should /ʃəd/.",
+        "lessonPlan": "What do you look at before you buy something? Write one idea. Read the chapter and find what helps people choose. Find two machines with labels.",
+        "discussionPoints": ["Energy labels help people choose green things. What can you check before you buy something?"],
+        "interactiveTips": ["Open the picture hotspots “Energy Labels” and “Green Jobs” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the second sentence again. Find “people need”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Give a friend three pieces of advice before they buy a fridge."
+        },
+        "whatToNotice": ["Energy labels help people choose.", "Green jobs need new skills."],
+        "readListen": [
+          "What do you look at before you buy something? Write one idea.",
+          "Read the chapter and find what helps people choose.",
+          "Find two machines with labels."
+        ],
+        "findAnswerInStory": [
+          "Find what people need for smart shopping.",
+          "Find two machines with energy labels.",
+          "Find what workers need."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: energy label.",
+          "“Energy labels.” What is an energy label?",
+          "Write one sentence with training."
+        ],
+        "quickChallengeGuide": "You will choose what people need for smart shopping. Read the second sentence.",
+        "wrongAnswerSupport": ["Read the second sentence again.", "Find “people need”.", "Try again."],
+        "selfCheck": ["Can I say what labels show?", "Can I say how jobs are changing?", "Can I use should?"],
+        "useWhatYouLearned": "Language Focus, last activity: Give a friend three pieces of advice before they buy a fridge.",
+        "reflectionPrompt": "Energy labels help people choose green things. What can you check before you buy something?"
+      },
+      {
+        "chapter": "Chapter 8: Learning and Working Together",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can say why education is part of the Green Deal.",
+          "I can say Türkiye’s net-zero goal.",
+          "I can use It is good for … to … ."
+        ],
+        "pedagogy": "Read and listen for meaning, find the evidence, do the Quick Challenge, then use the chapter’s Language Focus in your own sentences.",
+        "grammarFocus": "Look at “it is good for countries to work together”: a good idea. Then fill train, digital and country.",
+        "pronunciationFocus": "Say: twenty fifty-three. Stress: ed-u-CA-tion, DIG-i-tal.",
+        "lessonPlan": "What can schools do for a cleaner world? Write one idea. Read the chapter and find why education is important. Find Türkiye’s plan.",
+        "discussionPoints": ["Countries, companies and people should all help. What can you do with your class for a cleaner world?"],
+        "interactiveTips": ["Open the picture hotspots “Learning for the Future” and “Türkiye’s Plan” when the picture is in place."],
+        "differentiation": {
+          "strugglingLearners": "Read the last sentence again. Find “Its goal is”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write three sentences about a green project for your school."
+        },
+        "whatToNotice": ["Education is a big part of the Green Deal.", "Every country should help."],
+        "readListen": [
+          "What can schools do for a cleaner world? Write one idea.",
+          "Read the chapter and find why education is important.",
+          "Find Türkiye’s plan."
+        ],
+        "findAnswerInStory": ["Find what countries must do.", "Find who should help with the plans.", "Find Türkiye’s goal."],
+        "vocabularyInContext": ["Word Notes: education.", "“Good education.” What is education?", "Write one sentence with digital."],
+        "quickChallengeGuide": "You will choose Türkiye’s goal. Read the last sentence.",
+        "wrongAnswerSupport": ["Read the last sentence again.", "Find “Its goal is”.", "Try again."],
+        "selfCheck": ["Can I say why education matters?", "Can I say Türkiye’s goal?", "Can I use It is good for … to?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write three sentences about a green project for your school.",
+        "reflectionPrompt": "Countries, companies and people should all help. What can you do with your class for a cleaner world?"
+      }
     ],
-    "questions": [
-     "What can one person do for a cleaner world?"
+    "metadata": {
+      "title": "The European Green Deal A2 — Self-Study Guide",
+      "subtitle": "Read • Find • Check • Build • Use",
+      "level": "A2",
+      "language": "English",
+      "estimatedStudyTime": "About 20 minutes per chapter, plus the review pages at the end",
+      "whoIsThisFor": "A2 learners who read the text about the European Green Deal alone or with a teacher.",
+      "learningGoals": [
+        "Understand the 8 chapters of The European Green Deal.",
+        "Find evidence in the text before answering.",
+        "Say the main goals of the Green Deal.",
+        "Explain what people, companies and countries can do for a cleaner world.",
+        "Use each chapter’s Language Focus in connected sentences."
+      ],
+      "recommendedUse": [
+        "Study one chapter at a time.",
+        "Read (and listen, when the audio is ready) before the Quick Challenge.",
+        "Repair wrong answers with the text.",
+        "Do the Language Focus after you understand the chapter.",
+        "Do the review pages after Chapter 8."
+      ],
+      "readingDiary": {
+        "intro": "Keep this diary when you finish the book. Write short answers.",
+        "prompts": [
+          "The date I finished the book:",
+          "My favorite chapter, and one reason:",
+          "One fact about the Green Deal that surprised me:",
+          "One sentence for a friend: “Read this book because …”",
+          "One new word I want to keep:",
+          "The next book I want to read in the library:"
+        ]
+      }
+    },
+    "sections": [
+      {
+        "title": "1. Make Your Plan",
+        "icon": "Clock",
+        "text": "This book has 8 chapters. Plan the whole book before Chapter 1.",
+        "points": [
+          "Choose your study days and how many chapters you will read each week.",
+          "Write one personal goal for this book.",
+          "Save new words to My words and review them after one day, three days and one week."
+        ]
+      },
+      {
+        "title": "2. One Chapter per Session",
+        "icon": "Target",
+        "text": "Each chapter takes about 20 minutes. Open “Study Path” for the steps of your chapter.",
+        "points": [
+          "Preview the title and the “Before You Read” question.",
+          "Read for the main idea.",
+          "Find the evidence.",
+          "Do the Quick Challenge.",
+          "Do the Language Focus."
+        ]
+      },
+      {
+        "title": "3. Read and Listen",
+        "icon": "Ear",
+        "text": "Read every chapter twice: once for the main idea, once for the details. When the audio is ready, listen once while you follow the text.",
+        "points": [
+          "First reading: What is the chapter about?",
+          "Second reading: Mark names, dates and linking words.",
+          "Say one long sentence aloud with the right pauses."
+        ]
+      },
+      {
+        "title": "4. Word Notes",
+        "icon": "BookOpen",
+        "text": "Bold words have Word Notes. Use them after you have tried to understand the sentence yourself.",
+        "points": ["Guess the meaning from the sentence.", "Check the Word Note.", "Write the word in a new sentence of your own."]
+      },
+      {
+        "title": "5. Quick Challenge",
+        "icon": "CheckCircle",
+        "text": "Answer before you read the feedback. If you are wrong, repair the answer with the text.",
+        "points": [
+          "Find the paragraph the question is about.",
+          "Read the key sentence again.",
+          "Explain why the right answer is right, then try again."
+        ]
+      },
+      {
+        "title": "6. Language Focus",
+        "icon": "Eye",
+        "text": "Each chapter has 3 Language Focus activities built from the chapter’s own sentences.",
+        "points": [
+          "Activity 1 (Notice): Look at a sentence and what it means.",
+          "Activities 2–3 (Build): Choose, complete, correct or rewrite forms.",
+          "Activity 4 (Use): Write or say connected sentences about a different situation."
+        ]
+      },
+      {
+        "title": "7. When It Is Hard",
+        "icon": "HelpCircle",
+        "text": "Some chapters have many names and dates. Change how you study, not your goal.",
+        "points": [
+          "Read one paragraph only.",
+          "Make a time line of the dates.",
+          "List the names and what each one did.",
+          "Learn only three words today."
+        ]
+      },
+      {
+        "title": "8. Values in the Book",
+        "icon": "Heart",
+        "text": "The book shows responsibility, sensitivity, helpfulness and justice. Find the sentence first, then think of a small action of your own.",
+        "points": [
+          "Responsibility: Responsibility: The Green Deal wants to protect our world, and people must not use too much water (Chapters 1 and 2).",
+          "Sensitivity: Sensitivity: Plants and animals must stay safe, and people should choose eco-friendly things (Chapters 2 and 7).",
+          "Helpfulness: Helpfulness: Countries, companies and people should all help, and countries should work together with their partners (Chapter 8).",
+          "Justice: Justice: Education is important for a fair change for everyone (Chapter 8)."
+        ]
+      },
+      {
+        "title": "9. At the End of the Book",
+        "icon": "Stars",
+        "text": "After Chapter 8, do the review pages in this order. Go back to a chapter when an answer is not clear.",
+        "points": [
+          "Key Facts",
+          "Knowledge Check",
+          "Vocabulary Challenge",
+          "Master Glossary",
+          "Key Terms",
+          "Language Review",
+          "Final Challenge"
+        ]
+      },
+      {
+        "title": "10. Look Back",
+        "icon": "BookOpen",
+        "text": "Before Chapter 1 and again at the end, answer the “I can” statements of a few chapters. What can you do now that you could not do before?",
+        "points": [
+          "Which chapter changed what you knew?",
+          "Tell someone at home in four sentences what the Green Deal wants, in your home language or in English."
+        ]
+      }
     ]
-   }
   }
- },
- "selfStudyGuide": {
-  "content": [],
-  "metadata": {
-   "title": "The European Green Deal A2 — Self-Study Guide",
-   "subtitle": "Coming soon",
-   "level": "A2",
-   "language": "",
-   "estimatedStudyTime": "",
-   "whoIsThisFor": "",
-   "learningGoals": [],
-   "recommendedUse": []
-  }
- }
 }
