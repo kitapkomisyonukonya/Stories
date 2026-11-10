@@ -12,7 +12,7 @@ const catalog = JSON.parse(readFileSync(`${root}/src/content/bookCatalog.json`, 
 };
 
 const stories = JSON.parse(readFileSync(`${root}/src/content/stories.json`, 'utf8')) as {
-  stories: { id: string; collection?: string; englishOnly?: boolean; englishOnlyLevels?: string[]; hidden?: boolean; text: { en: { name: string } } }[];
+  stories: { id: string; collection?: string; englishOnly?: boolean; englishOnlyLevels?: string[]; hidden?: boolean; availableLevels?: string[]; text: { en: { name: string } } }[];
 };
 const englishOnly = new Set(stories.stories.filter(story => story.englishOnly).map(story => story.id));
 // Single levels without Arabic yet (e.g. a new A1 edition): "storyId:level".
@@ -46,7 +46,11 @@ const changed = writeIfChanged(`${root}/src/content/seyahatname.json`, `${JSON.s
 // Open Badges 3.0 achievements (deploy/openBadges.mjs): a seal for every listed book, a certificate per level and language.
 const RECORD_NOTE = 'Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.';
 const nameOf = (storyId: string) => stories.stories.find(story => story.id === storyId)?.text.en.name ?? storyId;
-const listed = catalog.editions.filter(({ storyId }) => !stories.stories.find(story => story.id === storyId)?.hidden);
+// Hidden books, and levels of a shown book that are not on the shelf yet, get no badge.
+const listed = catalog.editions.filter(({ storyId, level }) => {
+  const story = stories.stories.find(item => item.id === storyId);
+  return story && !story.hidden && (story.availableLevels ?? []).includes(level);
+});
 const achievements: Record<string, { type: string; name: string; description: string; criteria: string; level: string }> = {};
 for (const { storyId, level } of listed) {
   achievements[`book-${storyId}-${level}`] = {
