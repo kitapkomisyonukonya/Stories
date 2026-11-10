@@ -27,7 +27,7 @@ async function seedJournal(page: Page, { allA2 = false, fresh = true } = {}) {
           'ibnjubayr-a2-language-2-goals',
           'ibnjubayr-a2-language-2-my-dream',
         ]);
-        items['v2:A2:en:2:A Young Scholar from Granada:ican'] = JSON.stringify({ 0: 'yes', 1: 'almost', 2: 'yes' });
+        items['v2:A2:en:2:A Young Scholar from Valencia:ican'] = JSON.stringify({ 0: 'yes', 1: 'almost', 2: 'yes' });
         const stamps: Record<string, number> = { 'ibnJubayr:A2:1': 1 };
         if (!fresh) stamps['ibnJubayr:A2:2'] = 1;
         const seals: Record<string, number> = {};
