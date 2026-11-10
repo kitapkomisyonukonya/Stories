@@ -98,12 +98,19 @@ for (const lang of langs) {
     .replace('href="/icons/', 'href="icons/');
   const title = `${storyName} ${level} (${LANGUAGE_NAME[lang]}) · From Language to Culture`;
   html = html.replace(/<title>[^<]*<\/title>/, `<title>${xml(title)}</title>`).replace('<html lang="en">', `<html lang="${lang}"${lang === 'ar' ? ' dir="rtl"' : ''}>`);
+  // The bundle is one classic script (vite.scorm.config.ts): load it as such, so index.html also opens from disk.
+  html = html
+    .replace(/<script type="module" crossorigin src="([^"]+)"><\/script>/, '<script defer src="$1"></script>')
+    .replace(/<link rel="stylesheet" crossorigin /g, '<link rel="stylesheet" ')
+    .replace(/\s*<link rel="modulepreload"[^>]*>/g, '');
+  if (/type="module"|crossorigin src=/.test(html)) throw new Error('index.html still loads a module script');
   writeFileSync(indexFile, html);
 
   // Font files are named from the site root in the stylesheets (src/fonts.css, src/index.css): point them at the package.
   for (const file of listFiles(appDir)) {
-    if (!/\.(css|html)$/.test(file)) continue;
-    const prefix = path.relative(path.dirname(file), appDir).split(path.sep).join('/');
+    if (!/\.(css|html|js)$/.test(file)) continue;
+    // A stylesheet file resolves url() from its own folder; CSS that the script puts into the page resolves from index.html.
+    const prefix = file.endsWith('.css') ? path.relative(path.dirname(file), appDir).split(path.sep).join('/') : '';
     const to = prefix ? `${prefix}/` : '';
     const text = readFileSync(file, 'utf8');
     const fixed = text.replace(/url\((['"]?)\/(fonts\/|Arakom-)/g, (_, quote, rest) => `url(${quote}${to}${rest}`);
@@ -147,6 +154,8 @@ ${files.map(file => `      <file href="${xml(file)}"/>`).join('\n')}
 </manifest>
 `;
   writeFileSync(path.join(dir, 'imsmanifest.xml'), manifest);
+  // The ADL SCORM 1.2 schema files the manifest names; stricter LMSs refuse a package without them.
+  cpSync(path.join(root, 'scripts/scorm/schemas-1.2'), dir, { recursive: true });
 
   const zipFile = path.join(outRoot, `${name}.zip`);
   rmSync(zipFile, { force: true });

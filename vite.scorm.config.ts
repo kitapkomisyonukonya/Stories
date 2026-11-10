@@ -78,6 +78,15 @@ export default defineConfig(env => {
       emptyOutDir: true,
       manifest: false,
       modulePreload: { polyfill: false },
+      // One classic script, not ES modules: browsers refuse module scripts from file:// (a teacher double-clicking
+      // index.html saw only the loading background), and some LMS players are picky about them too.
+      rollupOptions: {
+        output: {
+          format: 'iife',
+          inlineDynamicImports: true,
+          entryFileNames: 'assets/app-[hash].js',
+        },
+      },
     },
   } satisfies UserConfig);
 });
