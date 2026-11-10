@@ -185,6 +185,16 @@ export const hiddenStoryCatalog: StoryCatalogItem[] = storyFile.stories.filter(s
 export const isHiddenStory = (storyId: string): boolean =>
   hiddenStoryCatalog.some(story => story.id === storyId);
 
+/**
+ * A level of a shown book that is loaded in the app but not on the shelf yet: it has a book file
+ * (src/content/bookCatalog.json) but is missing from the book's availableLevels. Like a hidden
+ * book, it opens only from a preview link: `?gizli=1#/<storyId>/<level>`.
+ */
+export const isHiddenEdition = (storyId: string, level: Level): boolean => {
+  const story = storyFile.stories.find(item => item.id === storyId);
+  return Boolean(story) && !story!.availableLevels.includes(level);
+};
+
 export const collectionStoryIds: Record<StoryCollectionId, string[]> = {
   prophets: storyCatalog.filter(story => story.collection === 'prophets').map(story => story.id),
   history: storyCatalog.filter(story => story.collection === 'history').map(story => story.id),
