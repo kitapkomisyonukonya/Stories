@@ -55,6 +55,7 @@ const getCurrentStoryId = (bookId: string) => {
   if (id.includes('ahilik')) return 'ahilik';
   if (id.includes('kasgarli')) return 'kasgarli';
   if (id.includes('yesevi')) return 'yesevi';
+  if (id.includes('nuh')) return 'nuh';
   return 'adam';
 };
 

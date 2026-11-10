@@ -1,7 +1,7 @@
 import type { BookData, Level, TeacherGuideMetadata, TeacherGuideSection, StudentGuideMetadata, StudentGuideSection } from '../../types';
 
 export type Language = 'en' | 'ar';
-export type StoryId = 'adam' | 'ibrahim' | 'musa' | 'mecca' | 'ibnJubayr' | 'yunusEmre' | 'gevherNesibe' | 'ahilik' | 'kasgarli' | 'yesevi';
+export type StoryId = 'adam' | 'ibrahim' | 'musa' | 'mecca' | 'ibnJubayr' | 'yunusEmre' | 'gevherNesibe' | 'ahilik' | 'kasgarli' | 'yesevi' | 'nuh';
 export type CollectionId = 'prophets' | 'history' | 'turkish' | 'today';
 export type ReviewStatus = 'draft' | 'language-reviewed' | 'subject-reviewed' | 'approved' | 'published';
 

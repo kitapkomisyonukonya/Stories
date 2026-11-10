@@ -1,0 +1,3363 @@
+{
+  "schema": 1,
+  "storyId": "nuh",
+  "level": "B1",
+  "language": "en",
+  "collection": "prophets",
+  "book": {
+    "id": "nuh-b1",
+    "title": "Prophet Noah",
+    "level": "B1",
+    "baseFontSize": 12,
+    "pages": [
+      {
+        "id": 1,
+        "type": "story",
+        "title": "Prophet Noah (pbuh)",
+        "image": "",
+        "audioUrl": "",
+        "content": "Prophet Noah (pbuh) is one of the five Prophets of Great Determination (ulu’l azm in Arabic) in Islam. He is known for his great determination and strong belief in Allah. The 71st chapter of the Qur’an bears his name and describes his struggle for Tawhid (Oneness of Allah). His people were drowned in the Great Flood by Allah’s judgment because they did not believe in his message. This event is known as Noah’s Flood.\n\nAccording to Islamic sources, early generations from Adam (pbuh) lived with the belief in one Allah until the era of Prophet Noah (pbuh). Idolatry first appeared among Noah’s people. For this reason, Allah sent Noah (pbuh) to turn his people away from idols and guide them back to the belief in the Oneness of Allah.\n\nIn Islamic sources, Noah (pbuh) was the prophet who lived the longest. The Qur’an gives this information about his age: “We sent Noah to his people, and he stayed with them for 950 years (a thousand years minus fifty years). Then, the flood took the wrongdoers away. But Allah saved Noah (pbuh) and the people on the Ark, making it a sign for everyone.” (Surah Ankabut, verses 14–15) These verses (ayet) show that Noah (pbuh) stayed with his people for 950 years. However, it is not clear if this period was his whole life, his time as a prophet, or just the time before the flood. According to Islamic reports, Noah was the first prophet after Idris (pbuh) and he worked as a carpenter.",
+        "vocabulary": [
+          {
+            "word": "determination",
+            "definition": "A strong decision to do something even when it is difficult."
+          },
+          {
+            "word": "bears",
+            "definition": "Has; carries."
+          },
+          {
+            "word": "name",
+            "definition": "What someone or something is called."
+          },
+          {
+            "word": "judgment",
+            "definition": "A decision, especially one that brings punishment."
+          },
+          {
+            "word": "generations",
+            "definition": "All the people born at about the same time."
+          },
+          {
+            "word": "Idolatry",
+            "definition": "The worship of idols."
+          },
+          {
+            "word": "appeared",
+            "definition": "Began to exist."
+          },
+          {
+            "word": "carpenter",
+            "definition": "A person who makes things from wood."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "nuh-b1-en-h1a",
+            "x": 30,
+            "y": 40,
+            "title": "Ulu’l Azm",
+            "description": "Prophet Noah (pbuh) is one of the five Prophets of Great Determination (ulu’l azm in Arabic) in Islam."
+          },
+          {
+            "id": "nuh-b1-en-h1b",
+            "x": 70,
+            "y": 45,
+            "title": "950 Years",
+            "description": "These verses (ayet) show that Noah (pbuh) stayed with his people for 950 years."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "nuh-b1-quick-1",
+            "type": "multiple-choice",
+            "title": "Why He Was Sent",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Why did Allah send Noah to his people?",
+            "options": [
+              "to turn them away from idols and guide them back to the belief in the Oneness of Allah",
+              "to build cities for them",
+              "to teach them carpentry"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “For this reason, Allah sent Noah (pbuh) to turn his people away from idols and guide them back to the belief in the Oneness of Allah.”",
+            "feedback": {
+              "correct": "Correct. To turn them away from idols.",
+              "incorrect": "Read the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "nuh-b1-language-1-passive",
+            "type": "multiple-choice",
+            "title": "Notice: Were Drowned",
+            "instructions": "Read the sentence. Then choose what the passive does.",
+            "question": "“His people were drowned in the Great Flood by Allah’s judgment …” Why does the writer use “were drowned”?",
+            "options": ["to focus on what happened to the people", "to show that the people did the action", "to talk about the future"],
+            "correctAnswer": 0,
+            "explanation": "The passive (were + past participle) puts the focus on the people who received the action. “By …” shows the cause.",
+            "feedback": {
+              "correct": "Correct. The focus is on the people.",
+              "incorrect": "Who received the action?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-1-known",
+            "type": "choose-form",
+            "title": "Build: Known For, Known As, Bears",
+            "instructions": "Choose the correct form for each sentence from Chapter 1.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "He is [choice] for his great determination and strong belief in Allah.",
+                "options": ["known", "knew", "knowing"],
+                "answer": 0
+              },
+              {
+                "sentence": "This event is known [choice] Noah’s Flood.",
+                "options": ["as", "for", "by"],
+                "answer": 0
+              },
+              {
+                "sentence": "The 71st chapter of the Qur’an [choice] his name.",
+                "options": ["bears", "bear", "is bearing"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Known for” + a quality, “known as” + a name. “Bears his name” means “has his name”.",
+            "feedback": {
+              "correct": "Well done. Known, as, bears.",
+              "incorrect": "Is it a quality or a name?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-1-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "His people were drowned in the Great Flood.",
+                "frame": "The Great Flood [blank] his people.",
+                "answers": ["drowned"]
+              },
+              {
+                "source": "This event is known as Noah’s Flood.",
+                "frame": "People [blank] this event Noah’s Flood.",
+                "answers": ["call"]
+              },
+              {
+                "source": "Idolatry first appeared among Noah’s people.",
+                "frame": "Noah’s people were the first to [blank] idols.",
+                "answers": ["worship"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Passive to active, “be known as” to “people call”, and a noun (idolatry) to a verb phrase (worship idols).",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use drowned, call and worship."
+            }
+          },
+          {
+            "id": "nuh-b1-language-1-determination",
+            "type": "reflection",
+            "title": "Use: A Person of Determination",
+            "instructions": "Write four to five sentences about a person known for determination.",
+            "question": "What did this person do? Why do people remember them?",
+            "correctAnswer": null,
+            "explanation": "Example: “My uncle is known for his determination. He failed the university exam twice. He kept studying and passed on his third try. Today he is a doctor. From him, I learn that hard work is more important than early success.”",
+            "feedback": {
+              "correct": "Check: known for, an example and what you learn.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the person and say what they are known for.",
+                "mode": "Individual",
+                "example": "… is known for …"
+              },
+              {
+                "question": "Give an example of their determination.",
+                "mode": "Individual",
+                "example": "For example, …"
+              },
+              {
+                "question": "Say what you learn from them.",
+                "mode": "Pair",
+                "example": "From this person, I learn that …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Which chapter of the Qur’an bears his name?",
+          "options": ["the 71st", "the 1st", "the 29th"],
+          "answer": 0,
+          "quote": "The 71st chapter of the Qur’an"
+        },
+        "iCan": [
+          "I can explain who Prophet Noah was and why he is called a Prophet of Great Determination.",
+          "I can say where idolatry first appeared and why Noah was sent.",
+          "I can use the passive and is known for / as."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "story",
+        "title": "The Flood in Ancient Stories",
+        "image": "",
+        "audioUrl": "",
+        "content": "The oldest flood stories come from ancient Middle Eastern tablets which were written in Sumer and Babylon.\n\nThe most complete description of the flood story from the Babylonians is found in the Epic of Gilgamesh (Gılgamış Destanı). In this Babylonian version, the story is told as follows: after the death of his friend, Gilgamesh, King of Uruk, is deeply sad and wants to bring his friend back to life. So, he goes on a journey to find Uta-napiştim who survived the Flood and became immortal. The King hopes to learn the secret of eternal life. According to the epic, Uta-napiştim learns the gods will send a great flood to destroy humankind because of their noise, but the god Ea warns Uta-napiştim to build a ship to survive. The flood lasts six days and seven nights, and the ship lands safely on a mountain. As a result, those on board are saved.",
+        "vocabulary": [
+          {
+            "word": "description",
+            "definition": "Words that tell what something is like."
+          },
+          {
+            "word": "survived",
+            "definition": "Stayed alive after a dangerous event."
+          },
+          {
+            "word": "immortal",
+            "definition": "Living forever."
+          },
+          {
+            "word": "eternal",
+            "definition": "Lasting forever."
+          },
+          {
+            "word": "epic",
+            "definition": "A long old poem about heroes."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "nuh-b1-en-h2a",
+            "x": 30,
+            "y": 40,
+            "title": "Tablets",
+            "description": "The oldest flood stories come from ancient Middle Eastern tablets which were written in Sumer and Babylon."
+          },
+          {
+            "id": "nuh-b1-en-h2b",
+            "x": 70,
+            "y": 45,
+            "title": "Gilgamesh",
+            "description": "Gilgamesh, King of Uruk, is deeply sad and wants to bring his friend back to life."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "nuh-b1-quick-2",
+            "type": "sequencing",
+            "title": "The Babylonian Version",
+            "instructions": "Put the events of the epic in order.",
+            "question": "What happens first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Gilgamesh’s friend dies."
+              },
+              {
+                "id": "2",
+                "text": "Gilgamesh goes on a journey to find Uta-napiştim."
+              },
+              {
+                "id": "3",
+                "text": "The god Ea warns Uta-napiştim to build a ship."
+              },
+              {
+                "id": "4",
+                "text": "The flood lasts six days and seven nights."
+              },
+              {
+                "id": "5",
+                "text": "The ship lands safely on a mountain."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "Chapter 2 tells the Babylonian version in this order.",
+            "feedback": {
+              "correct": "Correct. You followed the epic.",
+              "incorrect": "Follow the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "nuh-b1-language-2-present",
+            "type": "multiple-choice",
+            "title": "Notice: The Story Is Told …",
+            "instructions": "Read the sentences. Then choose the answer.",
+            "question": "“Gilgamesh, King of Uruk, is deeply sad … So, he goes on a journey …” Why does the writer use the present simple for a very old story?",
+            "options": ["to summarize the events of a story", "to talk about habits today", "to give instructions"],
+            "correctAnswer": 0,
+            "explanation": "Writers often use the present simple to summarize the plot of a book, film or epic.",
+            "feedback": {
+              "correct": "Correct. To summarize a story.",
+              "incorrect": "Is the writer telling a summary of the epic?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-2-forms",
+            "type": "choose-form",
+            "title": "Build: Passive and Present",
+            "instructions": "Choose the correct form for each sentence from Chapter 2.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The oldest flood stories come from ancient tablets which [choice] written in Sumer and Babylon.",
+                "options": ["were", "was", "are"],
+                "answer": 0
+              },
+              {
+                "sentence": "In this Babylonian version, the story is [choice] as follows.",
+                "options": ["told", "telling", "tell"],
+                "answer": 0
+              },
+              {
+                "sentence": "The flood [choice] six days and seven nights.",
+                "options": ["lasts", "last", "is lasting"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use the passive with were / is + past participle. In a story summary, use the present simple: the flood lasts.",
+            "feedback": {
+              "correct": "Well done. Were, told, lasts.",
+              "incorrect": "Check the subject and the tense."
+            }
+          },
+          {
+            "id": "nuh-b1-language-2-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Uta-napiştim survived the Flood and became immortal.",
+                "frame": "Uta-napiştim stayed alive after the Flood and could live [blank].",
+                "answers": ["forever"]
+              },
+              {
+                "source": "The King hopes to learn the secret of eternal life.",
+                "frame": "The King wants to know how to live [blank].",
+                "answers": ["forever"]
+              },
+              {
+                "source": "Those on board are saved.",
+                "frame": "The ship [blank] those on board.",
+                "answers": ["saves"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Immortal” and “eternal” are about living forever. Passive “are saved” can become active “the ship saves”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use forever and saves."
+            }
+          },
+          {
+            "id": "nuh-b1-language-2-summary",
+            "type": "reflection",
+            "title": "Use: A Story Summary",
+            "instructions": "Summarize a story or film you know in four to five sentences.",
+            "question": "What happens in the story?",
+            "correctAnswer": null,
+            "explanation": "Example: “In The Little Prince, the main character is a pilot. His plane breaks down in the desert. There, he meets a little prince from a small planet. The prince tells him about his journey. In the end, the pilot learns what is really important in life.”",
+            "feedback": {
+              "correct": "Check: the present simple and the order of events.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the story and the main character.",
+                "mode": "Individual",
+                "example": "In …, the main character is …"
+              },
+              {
+                "question": "Tell the main events.",
+                "mode": "Individual",
+                "example": "First, he / she … Then, …"
+              },
+              {
+                "question": "Say how it ends.",
+                "mode": "Pair",
+                "example": "In the end, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: How long does the flood last in the Babylonian epic?",
+          "options": ["six days and seven nights", "40 days", "one year"],
+          "answer": 0,
+          "quote": "The flood lasts six days and seven nights"
+        },
+        "iCan": [
+          "I can summarize the Babylonian flood story.",
+          "I can explain where the oldest flood stories come from.",
+          "I can use the present simple to tell a story summary."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "story",
+        "title": "What the Qur’an Says About His People",
+        "image": "",
+        "audioUrl": "",
+        "content": "According to the Qur’an, as mentioned in Surah Nûh verses 1–4, Noah (pbuh) warned his community not to worship anyone except Allah and told them about a painful punishment if they refused to listen. In Surah Zâriyât verse 46 and Surah Necm verse 52, his people were very cruel, rebellious, and morally lost. Instead of thinking deeply about Noah’s message, they called him crazy, accused him of lying, and threatened to stone him to death (Surah Şuarâ verse 116; Surah Kamer verse 9). Finally, they challenged Noah and asked him to bring the punishment that he warned them about right away. (Surah Hûd verse 32)",
+        "vocabulary": [
+          {
+            "word": "punishment",
+            "definition": "Something bad that happens to someone because they did wrong."
+          },
+          {
+            "word": "Instead of",
+            "definition": "In place of."
+          },
+          {
+            "word": "right away",
+            "definition": "Immediately; now."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "nuh-b1-en-h3a",
+            "x": 30,
+            "y": 40,
+            "title": "Surah Nûh",
+            "description": "According to the Qur’an, as mentioned in Surah Nûh verses 1–4, Noah (pbuh) warned his community not to worship anyone except Allah."
+          },
+          {
+            "id": "nuh-b1-en-h3b",
+            "x": 70,
+            "y": 45,
+            "title": "A Challenge",
+            "description": "Finally, they challenged Noah and asked him to bring the punishment that he warned them about right away."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "nuh-b1-quick-3",
+            "type": "multiple-choice",
+            "title": "Instead of Thinking",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What did the people do instead of thinking deeply about Noah’s message?",
+            "options": [
+              "They called him crazy and accused him of lying.",
+              "They asked him many questions.",
+              "They wrote his message down."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “… they called him crazy, accused him of lying, and threatened to stone him to death …”",
+            "feedback": {
+              "correct": "Correct. They called him crazy and accused him of lying.",
+              "incorrect": "Read the third sentence."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "nuh-b1-language-3-warned-not-to",
+            "type": "multiple-choice",
+            "title": "Notice: Warned … Not to …",
+            "instructions": "Read the sentence. Then choose the answer.",
+            "question": "“Noah (pbuh) warned his community not to worship anyone except Allah.” What does “warned … not to worship” report?",
+            "options": ["a warning to avoid an action", "a question about worship", "a promise to worship"],
+            "correctAnswer": 0,
+            "explanation": "“Warn someone not to + verb” reports a warning to avoid something.",
+            "feedback": {
+              "correct": "Correct. A warning.",
+              "incorrect": "What did Noah tell them to avoid?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-3-reporting",
+            "type": "choose-form",
+            "title": "Build: Reporting Verbs",
+            "instructions": "Choose the correct form for each sentence from Chapter 3.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "They accused him of [choice].",
+                "options": ["lying", "lie", "to lie"],
+                "answer": 0
+              },
+              {
+                "sentence": "They threatened [choice] him to death.",
+                "options": ["to stone", "stoning", "stone"],
+                "answer": 0
+              },
+              {
+                "sentence": "They asked him [choice] the punishment right away.",
+                "options": ["to bring", "bringing", "bring"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Accuse someone of + -ing”, “threaten to + verb” and “ask someone to + verb”.",
+            "feedback": {
+              "correct": "Well done. Lying, to stone, to bring.",
+              "incorrect": "Check the pattern after each verb."
+            }
+          },
+          {
+            "id": "nuh-b1-language-3-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "They accused him of lying.",
+                "frame": "They said that he was a [blank].",
+                "answers": ["liar"]
+              },
+              {
+                "source": "Instead of thinking deeply about the message, they called him crazy.",
+                "frame": "They did not think deeply about the message. They called him crazy [blank].",
+                "answers": ["instead"]
+              },
+              {
+                "source": "They asked him to bring the punishment right away.",
+                "frame": "They asked him to bring the punishment [blank].",
+                "answers": ["immediately", "now"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Accuse of lying” = say he was a liar. “Instead of + -ing” can become a new sentence with “instead”. “Right away” = immediately.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use liar, instead and immediately."
+            }
+          },
+          {
+            "id": "nuh-b1-language-3-listen",
+            "type": "reflection",
+            "title": "Use: Listening Before Judging",
+            "instructions": "Write four to five sentences about why we should listen before we judge someone.",
+            "question": "What happens when people judge too quickly?",
+            "correctAnswer": null,
+            "explanation": "Example: “Some people laugh at new ideas instead of thinking about them. For example, a new student once suggested a recycling box for our class. Some friends called the idea silly. But the box worked very well. We should listen carefully before we judge.”",
+            "feedback": {
+              "correct": "Check: instead of, an example and should.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what people sometimes do.",
+                "mode": "Individual",
+                "example": "Some people … instead of …"
+              },
+              {
+                "question": "Give an example.",
+                "mode": "Individual",
+                "example": "For example, …"
+              },
+              {
+                "question": "Say what we should do.",
+                "mode": "Pair",
+                "example": "We should … before we …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What did his people threaten to do?",
+          "options": ["stone him to death", "send him away", "burn his house"],
+          "answer": 0,
+          "quote": "threatened to stone him to death"
+        },
+        "iCan": [
+          "I can describe how Noah’s people answered his warning.",
+          "I can find the Qur’anic sources in the chapter.",
+          "I can use reporting verbs: warn, accuse, threaten, challenge."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "story",
+        "title": "The Idols of Noah’s People",
+        "image": "",
+        "audioUrl": "",
+        "content": "As narrated by Ibn Abbas, who was one of the companions (sahâbe) of Prophet Muhammad (pbuh) and an important scholar of tafsir and fiqh, the Prophet (pbuh) said: “The period between Adam and Noah was ten centuries.” (İbn Sa’d et-Tabakâtû’l-Kübrâ, Beyrut t.y., I, 42)\n\nAccording to the Qur’an, Noah’s people worshipped statues instead of Allah. Surah Nûh verse 23 says Noah’s people worshiped five particular idols: Wad, Suwa’, Yaghus, Ya’uk, and Nasr. Although Prophet Noah (pbuh) invited them to worship Allah alone, they believed these idols could give them wealth and protect them from danger, and they still insisted on their false belief.\n\nOriginally, these were the names of good and righteous men in the past. After they died, people made statues of them to remember their good actions. However, later generations forgot the real story of the statues and eventually, they began worshipping them directly. This is how idol worship developed.",
+        "vocabulary": [
+          {
+            "word": "companions",
+            "definition": "Friends who were with the Prophet."
+          },
+          {
+            "word": "worshiped",
+            "definition": "Prayed to and treated as a god."
+          },
+          {
+            "word": "insisted on",
+            "definition": "Refused to change; continued to believe."
+          },
+          {
+            "word": "righteous",
+            "definition": "Good and fair; doing what is right."
+          },
+          {
+            "word": "eventually",
+            "definition": "In the end; after a long time."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "nuh-b1-en-h4a",
+            "x": 30,
+            "y": 40,
+            "title": "Ibn Abbas",
+            "description": "Ibn Abbas was one of the companions (sahâbe) of Prophet Muhammad (pbuh)."
+          },
+          {
+            "id": "nuh-b1-en-h4b",
+            "x": 70,
+            "y": 45,
+            "title": "Five Idols",
+            "description": "Noah’s people worshiped five particular idols: Wad, Suwa’, Yaghus, Ya’uk, and Nasr."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "nuh-b1-quick-4",
+            "type": "sequencing",
+            "title": "How Idol Worship Developed",
+            "instructions": "Put the steps in order.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Good and righteous men lived among the people."
+              },
+              {
+                "id": "2",
+                "text": "After they died, people made statues of them."
+              },
+              {
+                "id": "3",
+                "text": "Later generations forgot the real story of the statues."
+              },
+              {
+                "id": "4",
+                "text": "People began worshipping the statues directly."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4"],
+            "explanation": "Chapter 4: “This is how idol worship developed.”",
+            "feedback": {
+              "correct": "Correct. You followed the steps.",
+              "incorrect": "Read the last paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "nuh-b1-language-4-although",
+            "type": "multiple-choice",
+            "title": "Notice: Although …",
+            "instructions": "Read the sentence. Then choose the answer.",
+            "question": "“Although Prophet Noah (pbuh) invited them to worship Allah alone, they believed these idols could give them wealth …” What does “although” show?",
+            "options": ["a contrast between two ideas", "the reason for an idea", "the time of an event"],
+            "correctAnswer": 0,
+            "explanation": "“Although” joins two clauses that contrast: Noah invited them, but they still believed in the idols.",
+            "feedback": {
+              "correct": "Correct. A contrast.",
+              "incorrect": "Are the two ideas similar or different?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-4-linkers",
+            "type": "choose-form",
+            "title": "Build: Although, However, Eventually",
+            "instructions": "Choose the correct word for each sentence from Chapter 4.",
+            "question": "Which word fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice], later generations forgot the real story of the statues.",
+                "options": ["However", "Although", "Because"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice], they began worshipping them directly.",
+                "options": ["Eventually", "Although", "Instead of"],
+                "answer": 0
+              },
+              {
+                "sentence": "People made statues of them [choice] remember their good actions.",
+                "options": ["to", "for", "so"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“However” starts a new sentence with a contrast. “Eventually” means “in the end, after a long time”. “To + verb” gives the purpose.",
+            "feedback": {
+              "correct": "Well done. However, Eventually, to.",
+              "incorrect": "Is it a contrast, a time word or a purpose?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-4-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Although Noah invited them to worship Allah alone, they insisted on their false belief.",
+                "frame": "Noah invited them to worship Allah alone. [blank], they insisted on their false belief.",
+                "answers": ["However"]
+              },
+              {
+                "source": "After they died, people made statues of them.",
+                "frame": "People made statues of them after their [blank].",
+                "answers": ["death", "deaths"]
+              },
+              {
+                "source": "Eventually, they began worshipping them directly.",
+                "frame": "In the [blank], they began worshipping them directly.",
+                "answers": ["end"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Although” joins two clauses; “However” starts a new sentence. “After they died” = “after their death”. “Eventually” = “in the end”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use However, death and end."
+            }
+          },
+          {
+            "id": "nuh-b1-language-4-remember",
+            "type": "reflection",
+            "title": "Use: Remembering Good People Rightly",
+            "instructions": "Write four to five sentences about how we can remember good people in the right way.",
+            "question": "How do people remember good people today?",
+            "correctAnswer": null,
+            "explanation": "Example: “People remember good people by naming schools or streets after them. Although this is a nice idea, many people do not know the stories behind these names. However, we can read about their lives. The best way is to follow their good actions.”",
+            "feedback": {
+              "correct": "Check: although or however, and the best way.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say how people remember good people.",
+                "mode": "Individual",
+                "example": "People remember good people by …"
+              },
+              {
+                "question": "Use although or however.",
+                "mode": "Individual",
+                "example": "Although …, …"
+              },
+              {
+                "question": "Say what is the best way.",
+                "mode": "Pair",
+                "example": "The best way is to …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Who were Wad, Suwa’, Yaghus, Ya’uk and Nasr at first?",
+          "options": ["good and righteous men", "kings", "gods of the sea"],
+          "answer": 0,
+          "quote": "Originally, these were the names of good and"
+        },
+        "iCan": [
+          "I can explain how idol worship developed among Noah’s people.",
+          "I can say what the people believed the idols could do.",
+          "I can use although, however and eventually."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "story",
+        "title": "Noah Calls His People",
+        "image": "",
+        "audioUrl": "",
+        "content": "Allah sent Noah (pbuh) to guide his people with His message. He was a very patient man and a great speaker who always talked about Allah’s power and authority over the creation. He explained again and again that the perfect balance between day and night, the sun, and the moon shows Allah’s great, infinite power and control. Because Allah owns everything in the heavens and the earth, there can only be one true Creator. Therefore, Noah (pbuh) told his people that worshipping handmade idols of stone, wood, or metal is illogical. He tried to demonstrate that blind faith in these statues limits human potential and stops free thinking. In a sense, it means the enslavement of human beings.\n\nNoah (pbuh) never gave up inviting his people to Allah’s message and reminded them of His severe judgment. According to the Qur’an, whenever he called his people to the truth, they covered their heads with their clothes and put their fingers in their ears, so they would not hear him. (see Surah Nûh, verse 7) For centuries, his people treated him with great cruelty, beat him, and mocked him. However, Noah (pbuh) continued his mission.\n\nProphet Noah’s message of hope, equality and justice brought peace to the poor and they paid attention to his message and believed it. Yet, the rich and powerful leaders rejected it. As they wanted to keep their wealth and control, the elites argued with Noah (pbuh). They refused to believe he was a true Messenger. They said, “You are just an ordinary man like us” (Surah Hûd verse 27).\n\nWhile Noah’s message began to spread among society’s poor and helpless groups and the laborers, the elites felt threatened. The rich leaders told Noah (pbuh) they would only believe in Allah if he left his poor and humble followers. They said that rich and poor people could not share the same belief. Noah (pbuh) completely refused to send his modest and faithful friends away. He pointed out that these people sincerely believed in Allah, so he had no right to reject them. Instead, he asked the leaders to use their common sense and accept the truth.\n\nThe conflict continued, and the debates between Noah (pbuh) and the disbelievers became more serious. When the disbelievers lost all their arguments and had nothing left to say, they started to act rudely and look down on Allah’s prophet. “The leaders of his people said, ‘Verily, we see you in plain error.’” (Surah A‘râf, verse 60)\n\nProphet Noah (pbuh) invited them to worship Allah alone and abandon their false gods for a very long time, for exactly 950 years. However, every new generation was warned by their parents not to believe Noah (pbuh) and to stand against him.\n\nThen, Allah told Prophet Noah (pbuh) that no more people would believe in his message (see Surah Hûd verse 36). The Creator advised him not to be sad about the disbelievers anymore. When Noah’s suffering became too heavy to bear, he stopped hoping for them. Finally, he prayed to Allah and asked Allah not to leave any unbelievers on earth because he believed they would misguide people and would only produce sinful children. (see Surah Nûh, verses 26–27)\n\nAllah accepted Noah’s prayer. The decision was made, and Allah was going to punish the disbelievers with a great flood. Allah commanded Noah (pbuh) to follow His knowledge and instructions and build an ark.",
+        "vocabulary": [
+          {
+            "word": "illogical",
+            "definition": "Not sensible; not based on clear thinking."
+          },
+          {
+            "word": "demonstrate",
+            "definition": "Show clearly."
+          },
+          {
+            "word": "blind faith",
+            "definition": "Belief without thinking or asking questions."
+          },
+          {
+            "word": "potential",
+            "definition": "The ability to develop and do well in the future."
+          },
+          {
+            "word": "enslavement",
+            "definition": "Making someone a slave."
+          },
+          {
+            "word": "severe judgment",
+            "definition": "A very serious decision that brings punishment."
+          },
+          {
+            "word": "treated",
+            "definition": "Behaved toward."
+          },
+          {
+            "word": "beat",
+            "definition": "Hit again and again."
+          },
+          {
+            "word": "mocked",
+            "definition": "Laughed at in an unkind way."
+          },
+          {
+            "word": "laborers",
+            "definition": "Workers who do hard physical work."
+          },
+          {
+            "word": "humble",
+            "definition": "Not proud; simple."
+          },
+          {
+            "word": "modest",
+            "definition": "Not rich or important; simple."
+          },
+          {
+            "word": "pointed out",
+            "definition": "Told someone a fact they should notice."
+          },
+          {
+            "word": "Instead",
+            "definition": "In place of that."
+          },
+          {
+            "word": "conflict",
+            "definition": "A serious disagreement."
+          },
+          {
+            "word": "debates",
+            "definition": "Discussions between people with different opinions."
+          },
+          {
+            "word": "arguments",
+            "definition": "Reasons that people give to support an idea."
+          },
+          {
+            "word": "look down on",
+            "definition": "Think that someone is less important than you."
+          },
+          {
+            "word": "stand against",
+            "definition": "Oppose; fight against."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "nuh-b1-en-h5a",
+            "x": 30,
+            "y": 40,
+            "title": "Blind Faith",
+            "description": "He tried to demonstrate that blind faith in these statues limits human potential and stops free thinking."
+          },
+          {
+            "id": "nuh-b1-en-h5b",
+            "x": 70,
+            "y": 45,
+            "title": "The Elites",
+            "description": "As they wanted to keep their wealth and control, the elites argued with Noah (pbuh)."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "nuh-b1-quick-5",
+            "type": "drag-drop",
+            "title": "Two Answers",
+            "instructions": "Sort the actions into two groups.",
+            "question": "What did the poor do, and what did the rich leaders do?",
+            "dragDropGroups": [
+              {
+                "group": "The poor",
+                "items": ["paid attention to his message", "believed his message"]
+              },
+              {
+                "group": "The rich leaders",
+                "items": ["rejected his message", "argued with Noah"]
+              }
+            ],
+            "correctAnswer": {
+              "The poor": ["paid attention to his message", "believed his message"],
+              "The rich leaders": ["rejected his message", "argued with Noah"]
+            },
+            "explanation": "Chapter 5: “Prophet Noah’s message of hope, equality and justice brought peace to the poor and they paid attention to his message and believed it. Yet, the rich and powerful leaders rejected it.”",
+            "feedback": {
+              "correct": "Correct. The poor believed; the rich leaders rejected.",
+              "incorrect": "Read the third paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "nuh-b1-language-5-therefore",
+            "type": "multiple-choice",
+            "title": "Notice: Because … Therefore …",
+            "instructions": "Read the sentences. Then choose the answer.",
+            "question": "“Because Allah owns everything in the heavens and the earth, there can only be one true Creator. Therefore, Noah (pbuh) told his people that worshipping handmade idols … is illogical.” What does “therefore” show?",
+            "options": ["a result or conclusion", "a contrast", "an example"],
+            "correctAnswer": 0,
+            "explanation": "“Because” gives the reason. “Therefore” introduces the result or conclusion of that reason.",
+            "feedback": {
+              "correct": "Correct. A conclusion.",
+              "incorrect": "What follows from the first idea?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-5-linkers",
+            "type": "choose-form",
+            "title": "Build: Cause and Result",
+            "instructions": "Choose the correct word for each sentence from Chapter 5.",
+            "question": "Which word fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] they wanted to keep their wealth and control, the elites argued with Noah.",
+                "options": ["As", "Therefore", "Yet"],
+                "answer": 0
+              },
+              {
+                "sentence": "They put their fingers in their ears, [choice] they would not hear him.",
+                "options": ["so", "because", "although"],
+                "answer": 0
+              },
+              {
+                "sentence": "The poor believed his message. [choice], the rich and powerful leaders rejected it.",
+                "options": ["Yet", "So", "Because"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“As” can mean “because”. “So (that)” gives the purpose or result. “Yet” shows a contrast.",
+            "feedback": {
+              "correct": "Well done. As, so, Yet.",
+              "incorrect": "Is it a reason, a result or a contrast?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-5-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Worshipping handmade idols is illogical.",
+                "frame": "Worshipping handmade idols is not [blank].",
+                "answers": ["logical", "sensible"]
+              },
+              {
+                "source": "Noah completely refused to send his modest and faithful friends away.",
+                "frame": "Noah [blank] sent his modest and faithful friends away.",
+                "answers": ["never"]
+              },
+              {
+                "source": "As they wanted to keep their wealth, the elites argued with Noah.",
+                "frame": "The elites argued with Noah [blank] they wanted to keep their wealth.",
+                "answers": ["because"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Illogical” = “not logical”. “Completely refused to” = “never”. “As” at the start = “because”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use logical, never and because."
+            }
+          },
+          {
+            "id": "nuh-b1-language-5-equality",
+            "type": "reflection",
+            "title": "Use: Equal in Dignity",
+            "instructions": "Write five to six sentences about why rich and poor people are equal in dignity.",
+            "question": "How should a school or community treat everyone?",
+            "correctAnswer": null,
+            "explanation": "Example: “I believe that rich and poor people are equal in dignity. This is because a person’s value comes from their character, not their money. In Noah’s story, the poor believers were sincere and faithful. Noah refused to send them away. Therefore, a good school should give every student the same respect.”",
+            "feedback": {
+              "correct": "Check: an opinion, because or as, and therefore.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "State your opinion.",
+                "mode": "Individual",
+                "example": "I believe that …"
+              },
+              {
+                "question": "Give a reason with because or as.",
+                "mode": "Individual",
+                "example": "This is because …"
+              },
+              {
+                "question": "Give a conclusion with therefore.",
+                "mode": "Pair",
+                "example": "Therefore, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What did the rich leaders say about Noah?",
+          "options": ["You are just an ordinary man like us", "You are a great king", "You are an angel"],
+          "answer": 0,
+          "quote": "You are just an ordinary man like us"
+        },
+        "iCan": [
+          "I can explain Noah’s arguments against idol worship.",
+          "I can compare how the poor and the rich leaders answered his message.",
+          "I can use cause and result linkers: because, as, therefore, so."
+        ]
+      },
+      {
+        "id": 6,
+        "type": "story",
+        "title": "Noah Builds the Ark",
+        "image": "",
+        "audioUrl": "",
+        "content": "Noah (pbuh) chose a quiet place very far from the sea. He collected wood and tools, and he worked hard day and night to build the ark. When the leaders of his people passed by, they laughed at him. They said, “Noah, did you stop being a prophet to become a carpenter? Why are you building a huge ship in the middle of nowhere without any water? How will it float? Will you pull it yourself, or do you expect the wind to move it by magic?”\n\nNoah (pbuh) replied: “Soon you will see who will face humiliation and suffering.”\n\nWhen Noah (pbuh) finished building the ark, he started waiting for Allah’s command. Allah told him that the Flood would start, and that it was time to move, when water began to overflow from the earth.\n\nThe terrible day arrived when water miraculously gushed out, which was the divine sign that the great flood was beginning. Noah (pbuh) hurried to the ship he had built and called the few people who believed in Allah to come on board. Following Allah’s command, he also brought a male and a female from every kind of living creature, including animals and birds. As the disbelievers watched him gather the animals, they laughed loudly and mocked him. They thought Noah (pbuh) had lost his mind and wondered what he would do with all those creatures.",
+        "vocabulary": [
+          {
+            "word": "humiliation",
+            "definition": "A feeling of shame in front of others."
+          },
+          {
+            "word": "overflow",
+            "definition": "Come out because there is too much."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "nuh-b1-en-h6a",
+            "x": 30,
+            "y": 40,
+            "title": "In the Middle of Nowhere",
+            "description": "Noah (pbuh) chose a quiet place very far from the sea."
+          },
+          {
+            "id": "nuh-b1-en-h6b",
+            "x": 70,
+            "y": 45,
+            "title": "The Sign",
+            "description": "Allah told him that the Flood would start when water began to overflow from the earth."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "nuh-b1-quick-6",
+            "type": "true-false",
+            "title": "Near the Sea?",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Noah built the ark close to the sea.",
+            "correctAnswer": false,
+            "explanation": "Chapter 6: “Noah (pbuh) chose a quiet place very far from the sea.”",
+            "feedback": {
+              "correct": "Correct. It was very far from the sea.",
+              "incorrect": "Read the first sentence."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "nuh-b1-language-6-past-perfect",
+            "type": "multiple-choice",
+            "title": "Notice: The Ship He Had Built",
+            "instructions": "Read the sentence. Then choose the answer.",
+            "question": "“Noah (pbuh) hurried to the ship he had built …” Why does the writer use “had built”?",
+            "options": [
+              "to show that the building happened before he hurried to the ship",
+              "to show that he was building it at that moment",
+              "to talk about the future"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The past perfect (had + past participle) shows an action that happened before another past action.",
+            "feedback": {
+              "correct": "Correct. It happened earlier.",
+              "incorrect": "Which action happened first?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-6-forms",
+            "type": "choose-form",
+            "title": "Build: Past Simple or Past Perfect?",
+            "instructions": "Choose the correct form for each sentence from Chapter 6.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "When Noah (pbuh) [choice] building the ark, he started waiting for Allah’s command.",
+                "options": ["finished", "had finishing", "finishes"],
+                "answer": 0
+              },
+              {
+                "sentence": "They thought Noah (pbuh) [choice] lost his mind.",
+                "options": ["had", "has", "was"],
+                "answer": 0
+              },
+              {
+                "sentence": "When the leaders of his people passed by, they [choice] at him.",
+                "options": ["laughed", "had laughed", "laughing"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use the past simple for events in order. Use the past perfect for an earlier action or state: had lost his mind.",
+            "feedback": {
+              "correct": "Well done. Finished, had, laughed.",
+              "incorrect": "Which action is earlier?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-6-questions",
+            "type": "transformation",
+            "title": "Build: Report the Questions",
+            "instructions": "Report the leaders’ questions. Complete each sentence.",
+            "question": "How do we report a question?",
+            "transformItems": [
+              {
+                "source": "“Why are you building a huge ship?”",
+                "frame": "They asked Noah why he [blank] building a huge ship.",
+                "answers": ["was"]
+              },
+              {
+                "source": "“How will it float?”",
+                "frame": "They asked how it [blank] float.",
+                "answers": ["would"]
+              },
+              {
+                "source": "“Did you stop being a prophet?”",
+                "frame": "They asked [blank] he had stopped being a prophet.",
+                "answers": ["if", "whether"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "In reported questions, the tense moves back (are → was, will → would) and yes/no questions use if or whether.",
+            "feedback": {
+              "correct": "Correct. You reported the questions.",
+              "incorrect": "Move the tense back."
+            }
+          },
+          {
+            "id": "nuh-b1-language-6-mocked",
+            "type": "reflection",
+            "title": "Use: Working Hard When Others Doubt You",
+            "instructions": "Write five to six sentences about working hard while others doubted you.",
+            "question": "What did you do? What had people said?",
+            "correctAnswer": null,
+            "explanation": "Example: “Once, I worked on a model bridge for the science fair. Some classmates had said that it would fall down. I worked on it every evening for two weeks. When I finished, the bridge held five heavy books. My classmates were surprised, and I felt proud of my patience.”",
+            "feedback": {
+              "correct": "Check: the past perfect and the order of events.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what you worked on.",
+                "mode": "Individual",
+                "example": "Once, I worked on …"
+              },
+              {
+                "question": "Use the past perfect.",
+                "mode": "Individual",
+                "example": "Some people had said that …"
+              },
+              {
+                "question": "Say what happened in the end.",
+                "mode": "Pair",
+                "example": "When I finished, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What did Noah bring from every kind of living creature?",
+          "options": ["a male and a female", "ten animals", "only birds"],
+          "answer": 0,
+          "quote": "he also brought a male and a female from every kind of living creature"
+        },
+        "iCan": [
+          "I can describe how Noah built the ark and how the leaders reacted.",
+          "I can explain the sign that the flood was beginning.",
+          "I can use the past perfect."
+        ]
+      },
+      {
+        "id": 7,
+        "type": "story",
+        "title": "The Number of Believers",
+        "image": "",
+        "audioUrl": "",
+        "content": "Noah’s wife and his son did not believe his message. They refused to get on the Ark with him. His wife openly showed that she did not believe. His son did not accept the faith either. He chose to stay away from the believers. Just like them, the majority of the people rejected Noah’s words and decided not to enter the ship.\n\nIslamic scholars have different ideas about how many people were on the Ark with Noah (pbuh). Ibn Abbas said there were 80 believers. But some people said the number was 72. Meanwhile, others say there were only 10 people with him.",
+        "vocabulary": [],
+        "hotspots": [
+          {
+            "id": "nuh-b1-en-h7a",
+            "x": 30,
+            "y": 40,
+            "title": "His Family",
+            "description": "Noah’s wife and his son did not believe his message."
+          },
+          {
+            "id": "nuh-b1-en-h7b",
+            "x": 70,
+            "y": 45,
+            "title": "Different Ideas",
+            "description": "Islamic scholars have different ideas about how many people were on the Ark with Noah (pbuh)."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "nuh-b1-quick-7",
+            "type": "matching",
+            "title": "Different Numbers",
+            "instructions": "Match each source with the number it gives.",
+            "question": "Who said what?",
+            "matchingHeadings": {
+              "left": "Source",
+              "right": "Number of people"
+            },
+            "matchingPairs": [
+              {
+                "left": "Ibn Abbas",
+                "right": "80 believers"
+              },
+              {
+                "left": "some people",
+                "right": "72"
+              },
+              {
+                "left": "others",
+                "right": "only 10 people"
+              }
+            ],
+            "correctAnswer": {
+              "Ibn Abbas": "80 believers",
+              "some people": "72",
+              "others": "only 10 people"
+            },
+            "explanation": "Chapter 7: “Ibn Abbas said there were 80 believers. But some people said the number was 72. Meanwhile, others say there were only 10 people with him.”",
+            "feedback": {
+              "correct": "Correct. Each source matches its number.",
+              "incorrect": "Read the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "nuh-b1-language-7-either",
+            "type": "multiple-choice",
+            "title": "Notice: Either",
+            "instructions": "Read the sentence. Then choose the answer.",
+            "question": "“His son did not accept the faith either.” What does “either” mean here?",
+            "options": ["also, in a negative sentence", "only", "or"],
+            "correctAnswer": 0,
+            "explanation": "We use “either” at the end of a negative sentence to mean “also”. In a positive sentence, we use “too”.",
+            "feedback": {
+              "correct": "Correct. Also, in a negative sentence.",
+              "incorrect": "Is the sentence positive or negative?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-7-quantity",
+            "type": "choose-form",
+            "title": "Build: The Majority, Some, Others",
+            "instructions": "Choose the correct word for each sentence from Chapter 7.",
+            "question": "Which word fits?",
+            "formChoices": [
+              {
+                "sentence": "The [choice] of the people rejected Noah’s words.",
+                "options": ["majority", "many", "most"],
+                "answer": 0
+              },
+              {
+                "sentence": "Some people said the number was 72. Meanwhile, [choice] say there were only 10 people with him.",
+                "options": ["others", "other", "another"],
+                "answer": 0
+              },
+              {
+                "sentence": "His son did not accept the faith [choice].",
+                "options": ["either", "too", "also"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“The majority of” = most of. “Some … others …” compares two groups. “Either” is used in negative sentences.",
+            "feedback": {
+              "correct": "Well done. Majority, others, either.",
+              "incorrect": "Check the negative and the plural."
+            }
+          },
+          {
+            "id": "nuh-b1-language-7-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "His son did not accept the faith either.",
+                "frame": "[blank] his wife nor his son accepted the faith.",
+                "answers": ["Neither"]
+              },
+              {
+                "source": "The majority of the people rejected Noah’s words.",
+                "frame": "[blank] of the people rejected Noah’s words.",
+                "answers": ["Most"]
+              },
+              {
+                "source": "Islamic scholars have different ideas about the number.",
+                "frame": "Islamic scholars do not [blank] about the number.",
+                "answers": ["agree"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Neither … nor” joins two negatives. “The majority of” = “most of”. “Have different ideas” = “do not agree”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use Neither, Most and agree."
+            }
+          },
+          {
+            "id": "nuh-b1-language-7-opinions",
+            "type": "reflection",
+            "title": "Use: Different Opinions",
+            "instructions": "Write five to six sentences about a question on which people have different opinions.",
+            "question": "What do different people say?",
+            "correctAnswer": null,
+            "explanation": "Example: “People have different ideas about homework. Some people say it helps students to remember lessons. Others say students need more free time. The majority of my classmates want less homework. In my opinion, short daily homework is the best. It is useful and it does not take too much time.”",
+            "feedback": {
+              "correct": "Check: some … others, the majority of and your opinion.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the question.",
+                "mode": "Individual",
+                "example": "People have different ideas about …"
+              },
+              {
+                "question": "Use some … others.",
+                "mode": "Individual",
+                "example": "Some people say … Others say …"
+              },
+              {
+                "question": "Give your own view.",
+                "mode": "Pair",
+                "example": "In my opinion, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: How many believers were there, according to Ibn Abbas?",
+          "options": ["80", "72", "10"],
+          "answer": 0,
+          "quote": "Ibn Abbas said there were 80 believers."
+        },
+        "iCan": [
+          "I can explain who did not get on the Ark.",
+          "I can compare the different numbers given by scholars.",
+          "I can use either, the majority of and some … others."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "story",
+        "title": "The Flood",
+        "image": "",
+        "audioUrl": "",
+        "content": "Heavy rain poured from the sky as water burst from every crack in the ground. The water level rose continuously. Then, suddenly a strong movement from deep inside pushed the bottom of the ocean up. Soon, sea waves covered the dry land.\n\nIn that moment of horror, Noah (pbuh) asked the believers to board the ship, saying that it would sail and stop in the name of Allah. The ship moved through huge waves, and Noah (pbuh) called his son to join them and stay away from the disbelievers. The son refused. He believed a mountain would save him. But a wave separated them and he drowned, as nothing can stop Allah’s judgment.\n\nThen, Allah ordered the earth to absorb its water and the sky to stop raining. The water went away, and the Flood ended. Prophet Noah’s ark safely landed on Mount Judi. Finally, Allah declared: “Away with the wrongdoing people.” (Surah Hûd, verse 44) This great flood removed the people who believed in other gods besides Allah and disobeyed Him.",
+        "vocabulary": [
+          {
+            "word": "poured from",
+            "definition": "Came down fast and in large amounts from."
+          },
+          {
+            "word": "burst from",
+            "definition": "Came out suddenly and strongly from."
+          },
+          {
+            "word": "landed on",
+            "definition": "Came down and stopped on."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "nuh-b1-en-h8a",
+            "x": 30,
+            "y": 40,
+            "title": "Mount Judi",
+            "description": "Prophet Noah’s ark safely landed on Mount Judi."
+          },
+          {
+            "id": "nuh-b1-en-h8b",
+            "x": 70,
+            "y": 45,
+            "title": "In the Name of Allah",
+            "description": "Noah (pbuh) asked the believers to board the ship, saying that it would sail and stop in the name of Allah."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "nuh-b1-quick-8",
+            "type": "sequencing",
+            "title": "The Flood",
+            "instructions": "Put the events in order.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Heavy rain poured from the sky."
+              },
+              {
+                "id": "2",
+                "text": "Sea waves covered the dry land."
+              },
+              {
+                "id": "3",
+                "text": "Noah asked the believers to board the ship."
+              },
+              {
+                "id": "4",
+                "text": "A wave separated Noah and his son."
+              },
+              {
+                "id": "5",
+                "text": "The ark landed on Mount Judi."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "Chapter 8 tells the events of the flood in this order.",
+            "feedback": {
+              "correct": "Correct. You followed the flood.",
+              "incorrect": "Follow the chapter from the start."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "nuh-b1-language-8-ordered-to",
+            "type": "multiple-choice",
+            "title": "Notice: Ordered the Earth to …",
+            "instructions": "Read the sentence. Then choose the answer.",
+            "question": "“Allah ordered the earth to absorb its water and the sky to stop raining.” What does “ordered the earth to absorb” show?",
+            "options": ["a command given to the earth", "a question to the earth", "a description of the earth"],
+            "correctAnswer": 0,
+            "explanation": "“Order + object + to + verb” reports a command.",
+            "feedback": {
+              "correct": "Correct. A command.",
+              "incorrect": "What did Allah tell the earth to do?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-8-forms",
+            "type": "choose-form",
+            "title": "Build: Verb + Object + To",
+            "instructions": "Choose the correct form for each sentence from Chapter 8.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Noah asked the believers [choice] the ship.",
+                "options": ["to board", "boarding", "board"],
+                "answer": 0
+              },
+              {
+                "sentence": "Noah called his son [choice] them.",
+                "options": ["to join", "joining", "join"],
+                "answer": 0
+              },
+              {
+                "sentence": "The sky stopped [choice].",
+                "options": ["raining", "to rain", "rain"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Ask / call someone to + verb”. After “stop”, use -ing for the action that ends: stop raining.",
+            "feedback": {
+              "correct": "Well done. To board, to join, raining.",
+              "incorrect": "Check the verb pattern."
+            }
+          },
+          {
+            "id": "nuh-b1-language-8-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Noah asked the believers to board the ship.",
+                "frame": "Noah said to the believers, “[blank] the ship.”",
+                "answers": ["Board"]
+              },
+              {
+                "source": "Noah called his son to join them.",
+                "frame": "Noah said to his son, “[blank] us.”",
+                "answers": ["Join"]
+              },
+              {
+                "source": "The water level rose continuously.",
+                "frame": "The water level kept [blank].",
+                "answers": ["rising"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Reported commands come from imperatives: “Board the ship.” “Continuously” = “kept + -ing”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use Board, Join and rising."
+            }
+          },
+          {
+            "id": "nuh-b1-language-8-help",
+            "type": "reflection",
+            "title": "Use: Asking Others to Be Safe",
+            "instructions": "Write five to six sentences about a safety request someone made.",
+            "question": "Who asked you? Did you listen?",
+            "correctAnswer": null,
+            "explanation": "Example: “During a storm last winter, my father asked us to stay inside. He told my brother not to go to the football field. My brother wanted to go, but he listened in the end. Later, a big tree fell near the field. I learned that it is wise to listen to warnings.”",
+            "feedback": {
+              "correct": "Check: asked … to, told … not to and what you learned.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say who asked you and what.",
+                "mode": "Individual",
+                "example": "… asked me to …"
+              },
+              {
+                "question": "Say what you did.",
+                "mode": "Individual",
+                "example": "I …"
+              },
+              {
+                "question": "Say what you learned.",
+                "mode": "Pair",
+                "example": "I learned that …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What did Noah’s son believe would save him?",
+          "options": ["a mountain", "a tree", "a tower"],
+          "answer": 0,
+          "quote": "He believed a mountain would save him."
+        },
+        "iCan": [
+          "I can describe the flood in order.",
+          "I can explain what happened to Noah’s son.",
+          "I can use verb + object + to-infinitive: asked them to, ordered the earth to."
+        ]
+      },
+      {
+        "id": 9,
+        "type": "story",
+        "title": "The Believers Come Ashore",
+        "image": "",
+        "audioUrl": "",
+        "content": "Noah (pbuh) released the birds and animals to spread across the earth. Right after that, the believers stepped off the ark without any harm. Noah (pbuh) immediately bowed with his forehead to the ground to pray and show his gratitude. The survivors then gathered around a newly made fire. During the flood, making a fire on the wooden ship was not allowed. Nobody could have a warm, cooked meal during the whole journey. So, it was a huge relief for everyone.\n\nAccording to a report, Prophet Noah (pbuh) and his followers left the Ark on the tenth day of Muharram, called Ashura. They fasted on this day to thank Allah for saving them from the big flood. This fasting tradition was very old. Even before Islam, people in Mecca fasted on Ashura because it was a tradition from Prophet Abraham (pbuh).",
+        "vocabulary": [
+          {
+            "word": "gratitude",
+            "definition": "The feeling of being thankful."
+          },
+          {
+            "word": "survivors",
+            "definition": "People who stay alive after a disaster."
+          },
+          {
+            "word": "fasted",
+            "definition": "Did not eat or drink for religious reasons."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "nuh-b1-en-h9a",
+            "x": 30,
+            "y": 40,
+            "title": "A New Fire",
+            "description": "The survivors then gathered around a newly made fire."
+          },
+          {
+            "id": "nuh-b1-en-h9b",
+            "x": 70,
+            "y": 45,
+            "title": "Ashura",
+            "description": "Prophet Noah (pbuh) and his followers left the Ark on the tenth day of Muharram, called Ashura."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "nuh-b1-quick-9",
+            "type": "multiple-choice",
+            "title": "A Huge Relief",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Why was the new fire a huge relief for everyone?",
+            "options": [
+              "Making a fire on the wooden ship was not allowed during the flood.",
+              "It was very cold on the mountain.",
+              "They wanted to burn the ark."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 9: “During the flood, making a fire on the wooden ship was not allowed. Nobody could have a warm, cooked meal during the whole journey.”",
+            "feedback": {
+              "correct": "Correct. Fire was not allowed on the ship.",
+              "incorrect": "Read the end of the first paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "nuh-b1-language-9-gerund",
+            "type": "multiple-choice",
+            "title": "Notice: Making a Fire …",
+            "instructions": "Read the sentence. Then choose the answer.",
+            "question": "“During the flood, making a fire on the wooden ship was not allowed.” What is the subject of the sentence?",
+            "options": ["making a fire on the wooden ship", "the flood", "the wooden ship"],
+            "correctAnswer": 0,
+            "explanation": "A gerund (-ing form) can be the subject of a sentence: “Making a fire … was not allowed.”",
+            "feedback": {
+              "correct": "Correct. The gerund phrase is the subject.",
+              "incorrect": "What was not allowed?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-9-forms",
+            "type": "choose-form",
+            "title": "Build: Gerunds and Allowed",
+            "instructions": "Choose the correct form for each sentence.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] a fire on the wooden ship was not allowed.",
+                "options": ["Making", "Make", "Made"],
+                "answer": 0
+              },
+              {
+                "sentence": "They fasted on this day to thank Allah for [choice] them.",
+                "options": ["saving", "save", "to save"],
+                "answer": 0
+              },
+              {
+                "sentence": "Nobody [choice] have a warm, cooked meal during the whole journey.",
+                "options": ["could", "can", "must"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use a gerund as a subject and after a preposition (for saving). “Could” is the past of “can”.",
+            "feedback": {
+              "correct": "Well done. Making, saving, could.",
+              "incorrect": "Check the form after for."
+            }
+          },
+          {
+            "id": "nuh-b1-language-9-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Making a fire on the wooden ship was not allowed.",
+                "frame": "They were not allowed to [blank] a fire on the wooden ship.",
+                "answers": ["make"]
+              },
+              {
+                "source": "The believers stepped off the ark without any harm.",
+                "frame": "The believers stepped off the ark [blank].",
+                "answers": ["safely"]
+              },
+              {
+                "source": "Noah bowed with his forehead to the ground to show his gratitude.",
+                "frame": "Noah bowed to show that he was [blank].",
+                "answers": ["thankful", "grateful"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“It was not allowed” can become “they were not allowed to + verb”. “Without any harm” = “safely”. “Gratitude” = being thankful.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use make, safely and thankful."
+            }
+          },
+          {
+            "id": "nuh-b1-language-9-gratitude",
+            "type": "reflection",
+            "title": "Use: Showing Gratitude",
+            "instructions": "Write five to six sentences about how your culture shows gratitude.",
+            "question": "What do people do? Why?",
+            "correctAnswer": null,
+            "explanation": "Example: “In my culture, people often cook a special meal after a difficult time. They share it with neighbors and the poor. Sharing food is a way of saying thank you. Some people also fast or give charity. Showing gratitude matters because it reminds us of the good things we have.”",
+            "feedback": {
+              "correct": "Check: a custom, a gerund subject and because.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe a custom.",
+                "mode": "Individual",
+                "example": "In my culture, people …"
+              },
+              {
+                "question": "Use a gerund as a subject.",
+                "mode": "Individual",
+                "example": "Sharing … is a way of …"
+              },
+              {
+                "question": "Say why it matters.",
+                "mode": "Pair",
+                "example": "Showing gratitude matters because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Why did they fast on Ashura?",
+          "options": ["to thank Allah for saving them", "to remember the idols", "to prepare for a journey"],
+          "answer": 0,
+          "quote": "to thank Allah for saving them from the big flood"
+        },
+        "iCan": [
+          "I can describe what the believers did after they left the ark.",
+          "I can explain the origin of the Ashura fast in the book.",
+          "I can use gerunds as subjects and was (not) allowed."
+        ]
+      },
+      {
+        "id": 10,
+        "type": "story",
+        "title": "Ashura in Islam",
+        "image": "",
+        "audioUrl": "",
+        "content": "Prophet Muhammad (pbuh) also fasted on Ashura in Mecca and continued this after moving to Medina. He asked other Muslims to fast too. However, when the Qur’an required fasting during Ramadan, Ashura fasting became optional. After that, Muslims were free to fast on this day or not. Prophet Muhammad (pbuh) recommended fasting either on the 9th and 10th or on the 10th and 11th of Muharram.",
+        "vocabulary": [
+          {
+            "word": "recommended",
+            "definition": "Said that something is good to do."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "nuh-b1-en-h10a",
+            "x": 30,
+            "y": 40,
+            "title": "Medina",
+            "description": "Prophet Muhammad (pbuh) also fasted on Ashura in Mecca and continued this after moving to Medina."
+          },
+          {
+            "id": "nuh-b1-en-h10b",
+            "x": 70,
+            "y": 45,
+            "title": "Optional",
+            "description": "When the Qur’an required fasting during Ramadan, Ashura fasting became optional."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "nuh-b1-quick-10",
+            "type": "true-false",
+            "title": "Optional Fasting",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "After Ramadan fasting began, Muslims were free to fast on Ashura or not.",
+            "correctAnswer": true,
+            "explanation": "Chapter 10: “After that, Muslims were free to fast on this day or not.”",
+            "feedback": {
+              "correct": "Correct. It became optional.",
+              "incorrect": "Read the middle of the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "nuh-b1-language-10-either-or",
+            "type": "multiple-choice",
+            "title": "Notice: Either … Or …",
+            "instructions": "Read the sentence. Then choose the answer.",
+            "question": "“Prophet Muhammad (pbuh) recommended fasting either on the 9th and 10th or on the 10th and 11th of Muharram.” What does “either … or” show?",
+            "options": ["a choice between two options", "two things that must both happen", "a contrast"],
+            "correctAnswer": 0,
+            "explanation": "“Either … or” gives a choice between two options.",
+            "feedback": {
+              "correct": "Correct. A choice.",
+              "incorrect": "How many options are there?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-10-forms",
+            "type": "choose-form",
+            "title": "Build: Became, Free To, Recommended",
+            "instructions": "Choose the correct form for each sentence from Chapter 10.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Ashura fasting [choice] optional.",
+                "options": ["became", "become", "becoming"],
+                "answer": 0
+              },
+              {
+                "sentence": "Muslims were free [choice] on this day or not.",
+                "options": ["to fast", "fasting", "fast"],
+                "answer": 0
+              },
+              {
+                "sentence": "He recommended [choice] on the 9th and 10th.",
+                "options": ["fasting", "to fast", "fast"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Become” + adjective shows a change. “Be free to + verb”. “Recommend + -ing”.",
+            "feedback": {
+              "correct": "Well done. Became, to fast, fasting.",
+              "incorrect": "Check the verb patterns."
+            }
+          },
+          {
+            "id": "nuh-b1-language-10-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Ashura fasting became optional.",
+                "frame": "Muslims did not [blank] to fast on Ashura anymore.",
+                "answers": ["have", "need"]
+              },
+              {
+                "source": "He asked other Muslims to fast too.",
+                "frame": "He [blank] other Muslims to fast too.",
+                "answers": ["told", "encouraged"]
+              },
+              {
+                "source": "He continued this after moving to Medina.",
+                "frame": "He continued this after he [blank] to Medina.",
+                "answers": ["moved"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Optional” = you do not have to. “Ask someone to” is close to “tell / encourage someone to”. “After + -ing” = “after + subject + past verb”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use have, told and moved."
+            }
+          },
+          {
+            "id": "nuh-b1-language-10-traditions",
+            "type": "reflection",
+            "title": "Use: A Tradition That Continues",
+            "instructions": "Write five to six sentences about an old tradition that still continues today.",
+            "question": "Where does it come from? How has it changed?",
+            "correctAnswer": null,
+            "explanation": "Example: “One old tradition is visiting elders during the holidays. In the past, families walked from house to house. Today, many people live in different cities. They can either travel to visit their elders or call them on the phone. The tradition continues because respect for elders is still important.”",
+            "feedback": {
+              "correct": "Check: the tradition, a change and either … or.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the tradition.",
+                "mode": "Individual",
+                "example": "One old tradition is …"
+              },
+              {
+                "question": "Say how it has changed.",
+                "mode": "Individual",
+                "example": "In the past, … Today, …"
+              },
+              {
+                "question": "Use either … or.",
+                "mode": "Pair",
+                "example": "Today, people can either … or …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Which days of Muharram did the Prophet recommend for fasting?",
+          "options": ["the 9th and 10th or the 10th and 11th", "only the 1st", "the 20th and 21st"],
+          "answer": 0,
+          "quote": "either on the 9th and 10th or on the 10th and 11th of Muharram"
+        },
+        "iCan": [
+          "I can explain how Ashura fasting changed after Ramadan fasting began.",
+          "I can say which days the Prophet recommended.",
+          "I can use either … or, became and were free to."
+        ]
+      },
+      {
+        "id": 11,
+        "type": "story",
+        "title": "Noah’s Last Advice",
+        "image": "",
+        "audioUrl": "",
+        "content": "The Qur’an ends Noah’s story without details about what happened next. According to a hadith, Prophet Noah (pbuh) gave important advice to his sons, telling them to believe that there is no god but Allah, because this belief is more valuable than the whole universe. He also told them to stay away from giving partners to Allah and from being arrogant.\n\nNoah’s last words summarize his lifelong struggle.",
+        "vocabulary": [
+          {
+            "word": "arrogant",
+            "definition": "Thinking that you are better than other people."
+          },
+          {
+            "word": "summarize",
+            "definition": "Give the main ideas in a short form."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "nuh-b1-en-h11a",
+            "x": 30,
+            "y": 40,
+            "title": "A Hadith",
+            "description": "According to a hadith, Prophet Noah (pbuh) gave important advice to his sons."
+          },
+          {
+            "id": "nuh-b1-en-h11b",
+            "x": 70,
+            "y": 45,
+            "title": "His Last Words",
+            "description": "Noah’s last words summarize his lifelong struggle."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "nuh-b1-quick-11",
+            "type": "multiple-choice",
+            "title": "Two Things to Avoid",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What did Noah tell his sons to stay away from?",
+            "options": ["giving partners to Allah and being arrogant", "traveling and trading", "building ships and farming"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 11: “He also told them to stay away from giving partners to Allah and from being arrogant.”",
+            "feedback": {
+              "correct": "Correct. Giving partners to Allah and being arrogant.",
+              "incorrect": "Read the end of the first paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "nuh-b1-language-11-prep-ing",
+            "type": "multiple-choice",
+            "title": "Notice: Stay Away From Being …",
+            "instructions": "Read the sentence. Then choose the answer.",
+            "question": "“He also told them to stay away from giving partners to Allah and from being arrogant.” Why do we see “giving” and “being” after “from”?",
+            "options": [
+              "After a preposition, we use the -ing form of a verb.",
+              "They are in the past tense.",
+              "They are nouns for people."
+            ],
+            "correctAnswer": 0,
+            "explanation": "After prepositions such as from, of and about, we use the -ing form (gerund).",
+            "feedback": {
+              "correct": "Correct. Preposition + -ing.",
+              "incorrect": "What word comes before giving?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-11-forms",
+            "type": "choose-form",
+            "title": "Build: Telling, More Valuable, From",
+            "instructions": "Choose the correct form for each sentence from Chapter 11.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Noah gave important advice to his sons, [choice] them to believe that there is no god but Allah.",
+                "options": ["telling", "told", "tell"],
+                "answer": 0
+              },
+              {
+                "sentence": "This belief is more valuable [choice] the whole universe.",
+                "options": ["than", "as", "that"],
+                "answer": 0
+              },
+              {
+                "sentence": "He told them to stay away from [choice] arrogant.",
+                "options": ["being", "be", "to be"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "An -ing clause (telling them …) adds detail. Comparatives use “than”. After “from”, use -ing.",
+            "feedback": {
+              "correct": "Well done. Telling, than, being.",
+              "incorrect": "Check the forms after the comma, the comparative and from."
+            }
+          },
+          {
+            "id": "nuh-b1-language-11-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "This belief is more valuable than the whole universe.",
+                "frame": "The whole universe is [blank] valuable than this belief.",
+                "answers": ["less"]
+              },
+              {
+                "source": "He told them to stay away from being arrogant.",
+                "frame": "He told them never to [blank] arrogant.",
+                "answers": ["be"]
+              },
+              {
+                "source": "Noah’s last words summarize his lifelong struggle.",
+                "frame": "Noah’s last words give the main ideas of his [blank] struggle.",
+                "answers": ["lifelong", "whole"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“More … than” can be turned around with “less … than”. “Stay away from being” = “never be”. “Summarize” = give the main ideas.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use less, be and lifelong."
+            }
+          },
+          {
+            "id": "nuh-b1-language-11-advice",
+            "type": "reflection",
+            "title": "Use: Advice for the Next Generation",
+            "instructions": "Write five to six sentences of advice for the next generation.",
+            "question": "What is most valuable in life? What should young people avoid?",
+            "correctAnswer": null,
+            "explanation": "Example: “A good heart is more valuable than a big house. Stay away from lying, even about small things. Be careful about being proud of your success. Help people without waiting for thanks. This is important because good character lasts longer than money.”",
+            "feedback": {
+              "correct": "Check: more … than, from + -ing and because.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what is most valuable.",
+                "mode": "Individual",
+                "example": "… is more valuable than …"
+              },
+              {
+                "question": "Say what to stay away from.",
+                "mode": "Individual",
+                "example": "Stay away from …ing"
+              },
+              {
+                "question": "Explain why.",
+                "mode": "Pair",
+                "example": "This is important because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What is more valuable than the whole universe?",
+          "options": ["the belief that there is no god but Allah", "gold", "a long life"],
+          "answer": 0,
+          "quote": "this belief is more valuable than the whole universe"
+        },
+        "iCan": [
+          "I can explain Noah’s last advice.",
+          "I can say how his last words summarize his struggle.",
+          "I can use prepositions + -ing and more … than."
+        ],
+        "groupTask": {
+          "type": "jigsaw",
+          "title": "Prophet Noah: A Class Exhibition",
+          "time": "20 min",
+          "groupSize": "4",
+          "roles": [
+            {
+              "name": "Mission Expert",
+              "job": "You present who Noah was, the ancient flood stories and the beginning of idol worship (Chapters 1–4)."
+            },
+            {
+              "name": "Call Expert",
+              "job": "You present Noah’s arguments and the conflict with the elites (Chapter 5)."
+            },
+            {
+              "name": "Ark and Flood Expert",
+              "job": "You present the ark, the believers and the flood (Chapters 6–8)."
+            },
+            {
+              "name": "Gratitude Expert",
+              "job": "You present the landing, Ashura and Noah’s last advice (Chapters 9–11)."
+            }
+          ],
+          "steps": [
+            "Read your chapters and make five key points with one quotation.",
+            "Meet the other experts and teach your points.",
+            "Together, plan four exhibition panels: Mission, Call, Ark and Flood, Gratitude. Draw only the ark, the water, the land and the animals; never draw people.",
+            "Write a short text for each panel and present your exhibition."
+          ],
+          "share": "Each group presents its exhibition. Listeners ask one question about each panel.",
+          "solo": "Write an exhibition text of 120–150 words about Prophet Noah, with two quotations from the book."
+        }
+      },
+      {
+        "id": 12,
+        "type": "quiz",
+        "title": "Knowledge Check",
+        "image": "",
+        "audioUrl": "",
+        "content": "Check your understanding of the complete book.",
+        "exercises": [
+          {
+            "id": "nuh-b1-kc-1-idolatry",
+            "type": "multiple-choice",
+            "title": "Where Idolatry Appeared",
+            "instructions": "Choose the answer from the book.",
+            "question": "Where did idolatry first appear?",
+            "options": ["among Noah’s people", "in Babylon", "in Mecca"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “Idolatry first appeared among Noah’s people.”",
+            "feedback": {
+              "correct": "Correct. Among Noah’s people.",
+              "incorrect": "Read the second paragraph of Chapter 1."
+            }
+          },
+          {
+            "id": "nuh-b1-kc-2-tablets",
+            "type": "true-false",
+            "title": "The Oldest Stories",
+            "instructions": "Is the sentence true or false?",
+            "question": "The oldest flood stories come from tablets written in Sumer and Babylon.",
+            "correctAnswer": true,
+            "explanation": "Chapter 2: “The oldest flood stories come from ancient Middle Eastern tablets which were written in Sumer and Babylon.”",
+            "feedback": {
+              "correct": "Correct. Sumer and Babylon.",
+              "incorrect": "Read the first sentence of Chapter 2."
+            }
+          },
+          {
+            "id": "nuh-b1-kc-3-challenge",
+            "type": "multiple-choice",
+            "title": "The Challenge",
+            "instructions": "Choose the answer from the book.",
+            "question": "What did Noah’s people finally ask him to do?",
+            "options": ["bring the punishment right away", "leave the city", "build them a temple"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “Finally, they challenged Noah and asked him to bring the punishment that he warned them about right away.”",
+            "feedback": {
+              "correct": "Correct. Bring the punishment right away.",
+              "incorrect": "Read the end of Chapter 3."
+            }
+          },
+          {
+            "id": "nuh-b1-kc-4-statues",
+            "type": "true-false",
+            "title": "Why the Statues Were Made",
+            "instructions": "Is the sentence true or false?",
+            "question": "People first made the statues to worship them.",
+            "correctAnswer": false,
+            "explanation": "Chapter 4: “After they died, people made statues of them to remember their good actions.”",
+            "feedback": {
+              "correct": "Correct. They made them to remember good actions.",
+              "incorrect": "Read the last paragraph of Chapter 4."
+            }
+          },
+          {
+            "id": "nuh-b1-kc-5-condition",
+            "type": "multiple-choice",
+            "title": "The Leaders’ Condition",
+            "instructions": "Choose the answer from the book.",
+            "question": "When did the rich leaders say they would believe in Allah?",
+            "options": ["only if Noah left his poor and humble followers", "only if Noah gave them gold", "only if Noah built them a ship"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “The rich leaders told Noah (pbuh) they would only believe in Allah if he left his poor and humble followers.”",
+            "feedback": {
+              "correct": "Correct. Only if he left the poor.",
+              "incorrect": "Read the fourth paragraph of Chapter 5."
+            }
+          },
+          {
+            "id": "nuh-b1-kc-6-sign",
+            "type": "true-false",
+            "title": "The Sign",
+            "instructions": "Is the sentence true or false?",
+            "question": "The sign that the flood was beginning was water overflowing from the earth.",
+            "correctAnswer": true,
+            "explanation": "Chapter 6: “Allah told him that the Flood would start, and that it was time to move, when water began to overflow from the earth.”",
+            "feedback": {
+              "correct": "Correct. Water from the earth.",
+              "incorrect": "Read the third paragraph of Chapter 6."
+            }
+          },
+          {
+            "id": "nuh-b1-kc-7-judi",
+            "type": "multiple-choice",
+            "title": "The Landing",
+            "instructions": "Choose the answer from the book.",
+            "question": "Where did the ark land?",
+            "options": ["on Mount Judi", "on an island", "next to the sea"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 8: “Prophet Noah’s ark safely landed on Mount Judi.”",
+            "feedback": {
+              "correct": "Correct. On Mount Judi.",
+              "incorrect": "Read the last paragraph of Chapter 8."
+            }
+          },
+          {
+            "id": "nuh-b1-kc-8-ashura",
+            "type": "multiple-choice",
+            "title": "The Day They Left",
+            "instructions": "Choose the answer from the book.",
+            "question": "On which day did Noah and his followers leave the Ark, according to a report?",
+            "options": ["the tenth day of Muharram", "the first day of Ramadan", "the last day of the year"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 9: “According to a report, Prophet Noah (pbuh) and his followers left the Ark on the tenth day of Muharram, called Ashura.”",
+            "feedback": {
+              "correct": "Correct. The tenth of Muharram.",
+              "incorrect": "Read the second paragraph of Chapter 9."
+            }
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "glossary",
+        "title": "Master Glossary",
+        "content": "Review all key vocabulary from the book in one place.",
+        "image": "",
+        "vocabulary": [
+          {
+            "word": "determination",
+            "definition": "A strong decision to do something even when it is difficult.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/dɪˌtɜːrmɪˈneɪʃən/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Prophet Noah (pbuh)",
+            "storyExample": "Prophet Noah (pbuh) is one of the five Prophets of Great Determination (ulu’l azm in Arabic) in Islam."
+          },
+          {
+            "word": "bears",
+            "definition": "Has; carries.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/berz/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Prophet Noah (pbuh)",
+            "storyExample": "The 71st chapter of the Qur’an bears his name and describes his struggle for Tawhid (Oneness of Allah)."
+          },
+          {
+            "word": "name",
+            "definition": "What someone or something is called.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/neɪm/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Prophet Noah (pbuh)",
+            "storyExample": "The 71st chapter of the Qur’an bears his name and describes his struggle for Tawhid (Oneness of Allah)."
+          },
+          {
+            "word": "judgment",
+            "definition": "A decision, especially one that brings punishment.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈdʒʌdʒmənt/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Prophet Noah (pbuh)",
+            "storyExample": "His people were drowned in the Great Flood by Allah’s judgment because they did not believe in his message."
+          },
+          {
+            "word": "generations",
+            "definition": "All the people born at about the same time.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˌdʒenəˈreɪʃənz/",
+            "category": "People & Society",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Prophet Noah (pbuh)",
+            "storyExample": "According to Islamic sources, early generations from Adam (pbuh) lived with the belief in one Allah until the era of Prophet Noah (pbuh)."
+          },
+          {
+            "word": "Idolatry",
+            "definition": "The worship of idols.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/aɪˈdɑːlətri/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Prophet Noah (pbuh)",
+            "storyExample": "Idolatry first appeared among Noah’s people."
+          },
+          {
+            "word": "appeared",
+            "definition": "Began to exist.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/əˈpɪrd/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Prophet Noah (pbuh)",
+            "storyExample": "Idolatry first appeared among Noah’s people."
+          },
+          {
+            "word": "carpenter",
+            "definition": "A person who makes things from wood.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkɑːrpəntər/",
+            "category": "Work & Jobs",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Prophet Noah (pbuh)",
+            "storyExample": "According to Islamic reports, Noah was the first prophet after Idris (pbuh) and he worked as a carpenter."
+          },
+          {
+            "word": "description",
+            "definition": "Words that tell what something is like.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/dɪˈskrɪpʃən/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "The Flood in Ancient Stories",
+            "storyExample": "The most complete description of the flood story from the Babylonians is found in the Epic of Gilgamesh (Gılgamış Destanı)."
+          },
+          {
+            "word": "survived",
+            "definition": "Stayed alive after a dangerous event.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/sərˈvaɪvd/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "The Flood in Ancient Stories",
+            "storyExample": "So, he goes on a journey to find Uta-napiştim who survived the Flood and became immortal."
+          },
+          {
+            "word": "immortal",
+            "definition": "Living forever.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ɪˈmɔːrtəl/",
+            "category": "Ideas & Description",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "The Flood in Ancient Stories",
+            "storyExample": "So, he goes on a journey to find Uta-napiştim who survived the Flood and became immortal."
+          },
+          {
+            "word": "eternal",
+            "definition": "Lasting forever.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ɪˈtɜːrnəl/",
+            "category": "Ideas & Description",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "The Flood in Ancient Stories",
+            "storyExample": "The King hopes to learn the secret of eternal life."
+          },
+          {
+            "word": "epic",
+            "definition": "A long old poem about heroes.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈepɪk/",
+            "category": "Culture & Traditions",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "The Flood in Ancient Stories",
+            "storyExample": "The most complete description of the flood story from the Babylonians is found in the Epic of Gilgamesh (Gılgamış Destanı)."
+          },
+          {
+            "word": "punishment",
+            "definition": "Something bad that happens to someone because they did wrong.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈpʌnɪʃmənt/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "What the Qur’an Says About His People",
+            "storyExample": "According to the Qur’an, as mentioned in Surah Nûh verses 1–4, Noah (pbuh) warned his community not to worship anyone except Allah and told them about a painful punishment if they refused to listen."
+          },
+          {
+            "word": "Instead of",
+            "definition": "In place of.",
+            "partOfSpeech": "preposition",
+            "pronunciation": "/ɪnˈsted əv/",
+            "category": "Linking Words",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "What the Qur’an Says About His People",
+            "storyExample": "Instead of thinking deeply about Noah’s message, they called him crazy, accused him of lying, and threatened to stone him to death (Surah Şuarâ verse 116; Surah Kamer verse 9)."
+          },
+          {
+            "word": "right away",
+            "definition": "Immediately; now.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/raɪt əˈweɪ/",
+            "category": "Time & Sequence",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "What the Qur’an Says About His People",
+            "storyExample": "Finally, they challenged Noah and asked him to bring the punishment that he warned them about right away."
+          },
+          {
+            "word": "companions",
+            "definition": "Friends who were with the Prophet.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/kəmˈpænjənz/",
+            "category": "People & Society",
+            "level": "B1",
+            "chapter": 4,
+            "chapterTitle": "The Idols of Noah’s People",
+            "storyExample": "As narrated by Ibn Abbas, who was one of the companions (sahâbe) of Prophet Muhammad (pbuh) and an important scholar of tafsir and fiqh, the Prophet (pbuh) said: “The period between Adam and Noah was ten centuries.”"
+          },
+          {
+            "word": "worshiped",
+            "definition": "Prayed to and treated as a god.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈwɜːrʃɪpt/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 4,
+            "chapterTitle": "The Idols of Noah’s People",
+            "storyExample": "Surah Nûh verse 23 says Noah’s people worshiped five particular idols: Wad, Suwa’, Yaghus, Ya’uk, and Nasr."
+          },
+          {
+            "word": "insisted on",
+            "definition": "Refused to change; continued to believe.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/ɪnˈsɪstɪd ɒn/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 4,
+            "chapterTitle": "The Idols of Noah’s People",
+            "storyExample": "Although Prophet Noah (pbuh) invited them to worship Allah alone, they believed these idols could give them wealth and protect them from danger, and they still insisted on their false belief."
+          },
+          {
+            "word": "righteous",
+            "definition": "Good and fair; doing what is right.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈraɪtʃəs/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 4,
+            "chapterTitle": "The Idols of Noah’s People",
+            "storyExample": "Originally, these were the names of good and righteous men in the past."
+          },
+          {
+            "word": "eventually",
+            "definition": "In the end; after a long time.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ɪˈventʃuəli/",
+            "category": "Time & Sequence",
+            "level": "B1",
+            "chapter": 4,
+            "chapterTitle": "The Idols of Noah’s People",
+            "storyExample": "However, later generations forgot the real story of the statues and eventually, they began worshipping them directly."
+          },
+          {
+            "word": "illogical",
+            "definition": "Not sensible; not based on clear thinking.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ɪˈlɑːdʒɪkəl/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "Therefore, Noah (pbuh) told his people that worshipping handmade idols of stone, wood, or metal is illogical."
+          },
+          {
+            "word": "demonstrate",
+            "definition": "Show clearly.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈdemənstreɪt/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "He tried to demonstrate that blind faith in these statues limits human potential and stops free thinking."
+          },
+          {
+            "word": "blind faith",
+            "definition": "Belief without thinking or asking questions.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/blaɪnd feɪθ/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "He tried to demonstrate that blind faith in these statues limits human potential and stops free thinking."
+          },
+          {
+            "word": "potential",
+            "definition": "The ability to develop and do well in the future.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/pəˈtenʃəl/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "He tried to demonstrate that blind faith in these statues limits human potential and stops free thinking."
+          },
+          {
+            "word": "enslavement",
+            "definition": "Making someone a slave.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ɪnˈsleɪvmənt/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "In a sense, it means the enslavement of human beings."
+          },
+          {
+            "word": "severe judgment",
+            "definition": "A very serious decision that brings punishment.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/səˈvɪr ˈdʒʌdʒmənt/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "Noah (pbuh) never gave up inviting his people to Allah’s message and reminded them of His severe judgment."
+          },
+          {
+            "word": "treated",
+            "definition": "Behaved toward.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈtriːtɪd/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "(see Surah Nûh, verse 7) For centuries, his people treated him with great cruelty, beat him, and mocked him."
+          },
+          {
+            "word": "beat",
+            "definition": "Hit again and again.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/biːt/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "(see Surah Nûh, verse 7) For centuries, his people treated him with great cruelty, beat him, and mocked him."
+          },
+          {
+            "word": "mocked",
+            "definition": "Laughed at in an unkind way.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/mɑːkt/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "(see Surah Nûh, verse 7) For centuries, his people treated him with great cruelty, beat him, and mocked him."
+          },
+          {
+            "word": "laborers",
+            "definition": "Workers who do hard physical work.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈleɪbərərz/",
+            "category": "Work & Jobs",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "While Noah’s message began to spread among society’s poor and helpless groups and the laborers, the elites felt threatened."
+          },
+          {
+            "word": "humble",
+            "definition": "Not proud; simple.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈhʌmbəl/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "The rich leaders told Noah (pbuh) they would only believe in Allah if he left his poor and humble followers."
+          },
+          {
+            "word": "modest",
+            "definition": "Not rich or important; simple.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈmɑːdɪst/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "Noah (pbuh) completely refused to send his modest and faithful friends away."
+          },
+          {
+            "word": "pointed out",
+            "definition": "Told someone a fact they should notice.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/ˈpɔɪntɪd aʊt/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "He pointed out that these people sincerely believed in Allah, so he had no right to reject them."
+          },
+          {
+            "word": "Instead",
+            "definition": "In place of that.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ɪnˈsted/",
+            "category": "Linking Words",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "Instead, he asked the leaders to use their common sense and accept the truth."
+          },
+          {
+            "word": "conflict",
+            "definition": "A serious disagreement.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkɑːnflɪkt/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "The conflict continued, and the debates between Noah (pbuh) and the disbelievers became more serious."
+          },
+          {
+            "word": "debates",
+            "definition": "Discussions between people with different opinions.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/dɪˈbeɪts/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "The conflict continued, and the debates between Noah (pbuh) and the disbelievers became more serious."
+          },
+          {
+            "word": "arguments",
+            "definition": "Reasons that people give to support an idea.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈɑːrɡjəmənts/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "When the disbelievers lost all their arguments and had nothing left to say, they started to act rudely and look down on Allah’s prophet."
+          },
+          {
+            "word": "look down on",
+            "definition": "Think that someone is less important than you.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/lʊk daʊn ɒn/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "When the disbelievers lost all their arguments and had nothing left to say, they started to act rudely and look down on Allah’s prophet."
+          },
+          {
+            "word": "stand against",
+            "definition": "Oppose; fight against.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/stænd əˈɡenst/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "Noah Calls His People",
+            "storyExample": "However, every new generation was warned by their parents not to believe Noah (pbuh) and to stand against him."
+          },
+          {
+            "word": "humiliation",
+            "definition": "A feeling of shame in front of others.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/hjuːˌmɪliˈeɪʃən/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 6,
+            "chapterTitle": "Noah Builds the Ark",
+            "storyExample": "Noah (pbuh) replied: “Soon you will see who will face humiliation and suffering.”"
+          },
+          {
+            "word": "overflow",
+            "definition": "Come out because there is too much.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˌoʊvərˈfloʊ/",
+            "category": "Science & Nature",
+            "level": "B1",
+            "chapter": 6,
+            "chapterTitle": "Noah Builds the Ark",
+            "storyExample": "Allah told him that the Flood would start, and that it was time to move, when water began to overflow from the earth."
+          },
+          {
+            "word": "poured from",
+            "definition": "Came down fast and in large amounts from.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/pɔːrd frɒm/",
+            "category": "Science & Nature",
+            "level": "B1",
+            "chapter": 8,
+            "chapterTitle": "The Flood",
+            "storyExample": "Heavy rain poured from the sky as water burst from every crack in the ground."
+          },
+          {
+            "word": "burst from",
+            "definition": "Came out suddenly and strongly from.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/bɜːrst frɒm/",
+            "category": "Science & Nature",
+            "level": "B1",
+            "chapter": 8,
+            "chapterTitle": "The Flood",
+            "storyExample": "Heavy rain poured from the sky as water burst from every crack in the ground."
+          },
+          {
+            "word": "landed on",
+            "definition": "Came down and stopped on.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/ˈlændɪd ɒn/",
+            "category": "Travel & Transport",
+            "level": "B1",
+            "chapter": 8,
+            "chapterTitle": "The Flood",
+            "storyExample": "Prophet Noah’s ark safely landed on Mount Judi."
+          },
+          {
+            "word": "gratitude",
+            "definition": "The feeling of being thankful.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈɡrætɪtuːd/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 9,
+            "chapterTitle": "The Believers Come Ashore",
+            "storyExample": "Noah (pbuh) immediately bowed with his forehead to the ground to pray and show his gratitude."
+          },
+          {
+            "word": "survivors",
+            "definition": "People who stay alive after a disaster.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/sərˈvaɪvərz/",
+            "category": "People & Society",
+            "level": "B1",
+            "chapter": 9,
+            "chapterTitle": "The Believers Come Ashore",
+            "storyExample": "The survivors then gathered around a newly made fire."
+          },
+          {
+            "word": "fasted",
+            "definition": "Did not eat or drink for religious reasons.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈfæstɪd/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 9,
+            "chapterTitle": "The Believers Come Ashore",
+            "storyExample": "They fasted on this day to thank Allah for saving them from the big flood."
+          },
+          {
+            "word": "recommended",
+            "definition": "Said that something is good to do.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˌrekəˈmendɪd/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "Ashura in Islam",
+            "storyExample": "Prophet Muhammad (pbuh) recommended fasting either on the 9th and 10th or on the 10th and 11th of Muharram."
+          },
+          {
+            "word": "arrogant",
+            "definition": "Thinking that you are better than other people.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈærəɡənt/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 11,
+            "chapterTitle": "Noah’s Last Advice",
+            "storyExample": "He also told them to stay away from giving partners to Allah and from being arrogant."
+          },
+          {
+            "word": "summarize",
+            "definition": "Give the main ideas in a short form.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈsʌməraɪz/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 11,
+            "chapterTitle": "Noah’s Last Advice",
+            "storyExample": "Noah’s last words summarize his lifelong struggle."
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "type": "vocabulary-match",
+        "title": "Vocabulary Challenge",
+        "image": "",
+        "audioUrl": "",
+        "content": "Match 10 words from the book with their meanings.",
+        "vocabularyPairs": [
+          {
+            "word": "determination",
+            "meaning": "A strong decision to do something even when it is difficult.",
+            "partOfSpeech": "noun",
+            "chapter": 1,
+            "context": "He is known for his great determination"
+          },
+          {
+            "word": "generations",
+            "meaning": "All the people born at about the same time.",
+            "partOfSpeech": "noun",
+            "chapter": 1,
+            "context": "early generations from Adam (pbuh) lived with the belief in one Allah"
+          },
+          {
+            "word": "survived",
+            "meaning": "Stayed alive after a dangerous event.",
+            "partOfSpeech": "verb",
+            "chapter": 2,
+            "context": "who survived the Flood and became immortal"
+          },
+          {
+            "word": "punishment",
+            "meaning": "Something bad that happens because someone did wrong.",
+            "partOfSpeech": "noun",
+            "chapter": 3,
+            "context": "told them about a painful punishment if they refused to listen"
+          },
+          {
+            "word": "righteous",
+            "meaning": "Good and fair; doing what is right.",
+            "partOfSpeech": "adjective",
+            "chapter": 4,
+            "context": "these were the names of good and righteous men in the past"
+          },
+          {
+            "word": "mocked",
+            "meaning": "Laughed at in an unkind way.",
+            "partOfSpeech": "verb",
+            "chapter": 5,
+            "context": "beat him, and mocked him"
+          },
+          {
+            "word": "humble",
+            "meaning": "Not proud; simple.",
+            "partOfSpeech": "adjective",
+            "chapter": 5,
+            "context": "if he left his poor and humble followers"
+          },
+          {
+            "word": "overflow",
+            "meaning": "Come out because there is too much.",
+            "partOfSpeech": "verb",
+            "chapter": 6,
+            "context": "when water began to overflow from the earth"
+          },
+          {
+            "word": "gratitude",
+            "meaning": "The feeling of being thankful.",
+            "partOfSpeech": "noun",
+            "chapter": 9,
+            "context": "to pray and show his gratitude"
+          },
+          {
+            "word": "arrogant",
+            "meaning": "Thinking that you are better than other people.",
+            "partOfSpeech": "adjective",
+            "chapter": 11,
+            "context": "from being arrogant"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "exercises",
+        "title": "Language Review",
+        "image": "",
+        "content": "Review and use the language of the whole book.",
+        "exercises": [
+          {
+            "id": "nuh-b1-language-review-1-sources",
+            "type": "drag-drop",
+            "title": "Notice: Where Does the Information Come From?",
+            "instructions": "Sort the sentences by their source.",
+            "question": "Which source does the book give?",
+            "dragDropGroups": [
+              {
+                "group": "The Qur’an",
+                "items": ["Noah stayed with his people for 950 years.", "The leaders said, “Verily, we see you in plain error.”"]
+              },
+              {
+                "group": "Reports and scholars",
+                "items": ["Noah worked as a carpenter.", "There were 80 believers on the Ark."]
+              }
+            ],
+            "correctAnswer": {
+              "The Qur’an": ["Noah stayed with his people for 950 years.", "The leaders said, “Verily, we see you in plain error.”"],
+              "Reports and scholars": ["Noah worked as a carpenter.", "There were 80 believers on the Ark."]
+            },
+            "explanation": "The book gives surah names for Qur’anic information, and words like “according to Islamic reports” or a scholar’s name for other information.",
+            "feedback": {
+              "correct": "Good. You noticed the sources.",
+              "incorrect": "Look for the surah names and “according to”."
+            }
+          },
+          {
+            "id": "nuh-b1-language-review-2-passive",
+            "type": "multiple-choice",
+            "title": "Notice: The Passive",
+            "instructions": "Choose the sentence with a correct passive form.",
+            "question": "Which sentence is correct?",
+            "options": [
+              "The tablets were written in Sumer and Babylon.",
+              "The tablets were write in Sumer and Babylon.",
+              "The tablets written in Sumer and Babylon were."
+            ],
+            "correctAnswer": 0,
+            "explanation": "The past passive is was / were + past participle: were written.",
+            "feedback": {
+              "correct": "Correct. Were written.",
+              "incorrect": "Look for were + past participle."
+            }
+          },
+          {
+            "id": "nuh-b1-language-review-3-past-perfect",
+            "type": "true-false",
+            "title": "Notice: The Past Perfect",
+            "instructions": "Is the sentence true or false?",
+            "question": "In “Noah hurried to the ship he had built”, the building happened before he hurried.",
+            "correctAnswer": true,
+            "explanation": "The past perfect shows the earlier of two past actions.",
+            "feedback": {
+              "correct": "Correct. The building came first.",
+              "incorrect": "Which action happened first?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-review-4-linkers",
+            "type": "choose-form",
+            "title": "Build: Linking Ideas",
+            "instructions": "Choose the best linker for each sentence.",
+            "question": "Which linker fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] Noah invited them to worship Allah alone, they insisted on their false belief.",
+                "options": ["Although", "Therefore", "So"],
+                "answer": 0
+              },
+              {
+                "sentence": "Allah owns everything. [choice], there can only be one true Creator.",
+                "options": ["Therefore", "Although", "Yet"],
+                "answer": 0
+              },
+              {
+                "sentence": "The poor believed his message. [choice], the rich leaders rejected it.",
+                "options": ["Yet", "So", "Because"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Although” shows a contrast in one sentence, “therefore” a conclusion, and “yet” a contrast in a new sentence.",
+            "feedback": {
+              "correct": "Correct. Although, Therefore, Yet.",
+              "incorrect": "Is it a contrast or a conclusion?"
+            }
+          },
+          {
+            "id": "nuh-b1-language-review-5-forms",
+            "type": "word-bank",
+            "title": "Build: Complete the Summary",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "Which words complete the summary?",
+            "fillBlanksText": "Noah is [blank] for his great determination. His people accused him of [blank]. The rich leaders refused to believe [blank] they wanted to keep their wealth. Noah told his sons to stay away from [blank] arrogant.",
+            "wordBank": ["known", "lying", "as", "being", "called", "to be"],
+            "correctAnswer": ["known", "lying", "as", "being"],
+            "explanation": "These patterns come from Chapters 1, 3, 5 and 11.",
+            "feedback": {
+              "correct": "Well done. Known, lying, as, being.",
+              "incorrect": "Look back at Chapters 1, 3, 5 and 11."
+            }
+          },
+          {
+            "id": "nuh-b1-language-review-6-errors",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake in each sentence and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "They threatened stoning him to death.",
+                "error": "stoning",
+                "options": ["to stone", "stone", "stoned"],
+                "answer": 0
+              },
+              {
+                "sentence": "Noah asked the believers board the ship.",
+                "error": "board",
+                "options": ["to board", "boarding", "boarded"],
+                "answer": 0
+              },
+              {
+                "sentence": "This belief is more valuable as the whole universe.",
+                "error": "as",
+                "options": ["than", "that", "from"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use “threaten to + verb”, “ask someone to + verb” and “more … than”.",
+            "feedback": {
+              "correct": "Correct. To stone, to board, than.",
+              "incorrect": "Check the verb patterns and the comparative."
+            }
+          },
+          {
+            "id": "nuh-b1-language-review-7-rewrite",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "This event is known as Noah’s Flood.",
+                "frame": "People [blank] this event Noah’s Flood.",
+                "answers": ["call"]
+              },
+              {
+                "source": "Making a fire on the wooden ship was not allowed.",
+                "frame": "They were not allowed to [blank] a fire on the wooden ship.",
+                "answers": ["make"]
+              },
+              {
+                "source": "His son did not accept the faith either.",
+                "frame": "[blank] his wife nor his son accepted the faith.",
+                "answers": ["Neither"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Passive to active, a gerund subject to “allowed to + verb”, and “either” to “neither … nor”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use call, make and Neither."
+            }
+          },
+          {
+            "id": "nuh-b1-language-review-8-new-context",
+            "type": "word-bank",
+            "title": "Use: A New Context",
+            "instructions": "Read about a school volunteer group. Fill each gap from the word bank.",
+            "question": "Can you use the book’s words in a new text?",
+            "fillBlanksText": "Our volunteer group helps families after floods. Our leader is a [blank] woman who never talks about herself. With great [blank], she organizes food and clothes every week. Many families who [blank] the last flood write to thank us. We feel deep [blank] for their kind letters.",
+            "wordBank": ["humble", "determination", "survived", "gratitude", "arrogant", "mocked"],
+            "correctAnswer": ["humble", "determination", "survived", "gratitude"],
+            "explanation": "Humble, determination, survived and gratitude come from the book. Here they describe a volunteer group today.",
+            "feedback": {
+              "correct": "Well done. You used the book’s words in a new text.",
+              "incorrect": "Read the words around each gap."
+            }
+          },
+          {
+            "id": "nuh-b1-language-review-9-new-context",
+            "type": "error-correction",
+            "title": "Use: Check a Short Text",
+            "instructions": "A student wrote about a storm. Find each mistake.",
+            "question": "What should the student change?",
+            "errorItems": [
+              {
+                "sentence": "When we arrived home, the rain already had stopped.",
+                "error": "already had stopped",
+                "options": ["had already stopped", "has already stopped", "already stopping"],
+                "answer": 0
+              },
+              {
+                "sentence": "My mother asked us stay inside.",
+                "error": "stay",
+                "options": ["to stay", "staying", "stayed"],
+                "answer": 0
+              },
+              {
+                "sentence": "Go out in a storm is dangerous.",
+                "error": "Go out",
+                "options": ["Going out", "Went out", "To going out"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Put “already” between had and the past participle. Use “ask someone to + verb”. A gerund can be a subject.",
+            "feedback": {
+              "correct": "Correct. Had already stopped, to stay, Going out.",
+              "incorrect": "Check the past perfect, the verb pattern and the subject."
+            }
+          },
+          {
+            "id": "nuh-b1-language-review-10-transfer",
+            "type": "reflection",
+            "title": "Use: A Lesson for Today",
+            "instructions": "Write six to eight sentences about one lesson from Noah’s story for people today.",
+            "question": "Which lesson is most important? Why?",
+            "correctAnswer": null,
+            "explanation": "Example: “One lesson from Noah’s story is equality. In Chapter 5, the rich leaders wanted Noah to send away his poor followers. Although they were powerful, Noah refused. He knew that the poor believers were sincere. Today, some people still look down on others because of money. Therefore, we should judge people by their character. We can do this by treating every classmate with the same respect.”",
+            "feedback": {
+              "correct": "Check: evidence from the book, although or therefore, and by + -ing.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the lesson and give evidence from the book.",
+                "mode": "Individual",
+                "example": "One lesson from Noah’s story is … In Chapter …, …"
+              },
+              {
+                "question": "Use although or therefore.",
+                "mode": "Individual",
+                "example": "Although …, …"
+              },
+              {
+                "question": "Say how people can follow it today.",
+                "mode": "Pair",
+                "example": "Today, we can … by …ing"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "type": "final-challenge",
+        "title": "Final Challenge",
+        "image": "",
+        "content": "Bring the whole book together in the Final Challenge.",
+        "exercises": [
+          {
+            "id": "nuh-b1-final-1",
+            "type": "multiple-choice",
+            "title": "The 71st Chapter",
+            "instructions": "Choose the answer from the book.",
+            "question": "What does the 71st chapter of the Qur’an describe?",
+            "options": ["his struggle for Tawhid", "the history of Babylon", "the building of Mecca"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “The 71st chapter of the Qur’an bears his name and describes his struggle for Tawhid (Oneness of Allah).”",
+            "feedback": {
+              "correct": "Correct. His struggle for Tawhid.",
+              "incorrect": "Read the beginning of Chapter 1."
+            }
+          },
+          {
+            "id": "nuh-b1-final-2",
+            "type": "matching",
+            "title": "Words and Meanings",
+            "instructions": "Match each word with its meaning.",
+            "question": "What do the words mean?",
+            "matchingHeadings": {
+              "left": "Word",
+              "right": "Meaning"
+            },
+            "matchingPairs": [
+              {
+                "left": "righteous",
+                "right": "good and fair; doing what is right"
+              },
+              {
+                "left": "mocked",
+                "right": "laughed at in an unkind way"
+              },
+              {
+                "left": "gratitude",
+                "right": "the feeling of being thankful"
+              },
+              {
+                "left": "arrogant",
+                "right": "thinking you are better than others"
+              }
+            ],
+            "correctAnswer": {
+              "righteous": "good and fair; doing what is right",
+              "mocked": "laughed at in an unkind way",
+              "gratitude": "the feeling of being thankful",
+              "arrogant": "thinking you are better than others"
+            },
+            "explanation": "These words appear in Chapters 4, 5, 9 and 11.",
+            "feedback": {
+              "correct": "Correct. Each word matches its meaning.",
+              "incorrect": "Think about the Word Notes."
+            }
+          },
+          {
+            "id": "nuh-b1-final-3",
+            "type": "fill-blanks",
+            "title": "The Babylonian Epic",
+            "instructions": "Complete the sentence from Chapter 2 with one word.",
+            "question": "What is the name of the epic?",
+            "fillBlanksText": "The most complete description of the flood story from the Babylonians is found in the Epic of [blank].",
+            "correctAnswer": ["Gilgamesh"],
+            "explanation": "Chapter 2: “… is found in the Epic of Gilgamesh (Gılgamış Destanı).”",
+            "feedback": {
+              "correct": "Correct. Gilgamesh.",
+              "incorrect": "Read the second paragraph of Chapter 2."
+            }
+          },
+          {
+            "id": "nuh-b1-final-4",
+            "type": "multiple-choice",
+            "title": "Blind Faith",
+            "instructions": "Choose the answer from the book.",
+            "question": "According to Noah, what does blind faith in statues do?",
+            "options": ["It limits human potential and stops free thinking.", "It makes people rich.", "It protects people from danger."],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “He tried to demonstrate that blind faith in these statues limits human potential and stops free thinking.”",
+            "feedback": {
+              "correct": "Correct. It limits potential and stops free thinking.",
+              "incorrect": "Read the first paragraph of Chapter 5."
+            }
+          },
+          {
+            "id": "nuh-b1-final-5",
+            "type": "matching",
+            "title": "People and Actions",
+            "instructions": "Match each person or group with what they did.",
+            "question": "Who did what?",
+            "matchingHeadings": {
+              "left": "Person or group",
+              "right": "What they did"
+            },
+            "matchingPairs": [
+              {
+                "left": "the poor",
+                "right": "paid attention to Noah’s message"
+              },
+              {
+                "left": "the elites",
+                "right": "argued with Noah to keep their wealth"
+              },
+              {
+                "left": "Noah’s son",
+                "right": "believed a mountain would save him"
+              },
+              {
+                "left": "Ibn Abbas",
+                "right": "said there were 80 believers"
+              }
+            ],
+            "correctAnswer": {
+              "the poor": "paid attention to Noah’s message",
+              "the elites": "argued with Noah to keep their wealth",
+              "Noah’s son": "believed a mountain would save him",
+              "Ibn Abbas": "said there were 80 believers"
+            },
+            "explanation": "These people appear in Chapters 5, 7 and 8.",
+            "feedback": {
+              "correct": "Correct. Each one matches.",
+              "incorrect": "Look in Chapters 5, 7 and 8."
+            }
+          },
+          {
+            "id": "nuh-b1-final-6",
+            "type": "true-false",
+            "title": "The Leaders’ Questions",
+            "instructions": "Is the sentence true or false?",
+            "question": "The leaders asked Noah how the ship would float without water.",
+            "correctAnswer": true,
+            "explanation": "Chapter 6: “Why are you building a huge ship in the middle of nowhere without any water? How will it float?”",
+            "feedback": {
+              "correct": "Correct. They asked how it would float.",
+              "incorrect": "Read the first paragraph of Chapter 6."
+            }
+          },
+          {
+            "id": "nuh-b1-final-7",
+            "type": "true-false",
+            "title": "A Warm Meal",
+            "instructions": "Is the sentence true or false?",
+            "question": "The believers cooked warm meals on the ark during the flood.",
+            "correctAnswer": false,
+            "explanation": "Chapter 9: “Nobody could have a warm, cooked meal during the whole journey.”",
+            "feedback": {
+              "correct": "Correct. Nobody could have a warm meal.",
+              "incorrect": "Read the first paragraph of Chapter 9."
+            }
+          },
+          {
+            "id": "nuh-b1-final-8",
+            "type": "fill-blanks",
+            "title": "Optional Fasting",
+            "instructions": "Complete the sentence from Chapter 10 with one word.",
+            "question": "What happened to Ashura fasting after Ramadan fasting began?",
+            "fillBlanksText": "When the Qur’an required fasting during Ramadan, Ashura fasting became [blank].",
+            "correctAnswer": ["optional"],
+            "explanation": "Chapter 10: “However, when the Qur’an required fasting during Ramadan, Ashura fasting became optional.”",
+            "feedback": {
+              "correct": "Correct. Optional.",
+              "incorrect": "Read Chapter 10."
+            }
+          },
+          {
+            "id": "nuh-b1-final-9",
+            "type": "multiple-choice",
+            "title": "More Valuable",
+            "instructions": "Choose the answer from the book.",
+            "question": "What did Noah say is more valuable than the whole universe?",
+            "options": ["the belief that there is no god but Allah", "gold and silver", "a long life"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 11: “… telling them to believe that there is no god but Allah, because this belief is more valuable than the whole universe.”",
+            "feedback": {
+              "correct": "Correct. The belief in one Allah.",
+              "incorrect": "Read Chapter 11."
+            }
+          },
+          {
+            "id": "nuh-b1-final-10",
+            "type": "sequencing",
+            "title": "Noah’s Story",
+            "instructions": "Put the events in order.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Idolatry first appeared among Noah’s people."
+              },
+              {
+                "id": "2",
+                "text": "Noah called his people for 950 years."
+              },
+              {
+                "id": "3",
+                "text": "Noah built the ark far from the sea."
+              },
+              {
+                "id": "4",
+                "text": "The ark landed on Mount Judi."
+              },
+              {
+                "id": "5",
+                "text": "Noah gave his last advice to his sons."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "The book tells Noah’s story from the beginning of idolatry to his last advice.",
+            "feedback": {
+              "correct": "Correct. From idolatry to his last advice.",
+              "incorrect": "Follow the chapters in order."
+            }
+          }
+        ]
+      }
+    ],
+    "teacherGuide": [],
+    "selfStudyGuide": []
+  }
+}
