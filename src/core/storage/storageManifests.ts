@@ -3,11 +3,7 @@ import type { StoryId } from '../content/contracts';
 import type { BookAssetManifest } from './contracts';
 
 const manifestKey = (storyId: StoryId, level: Level) => `${storyId}:${level}` as const;
-const media = (
-  sharedImages: readonly string[],
-  englishAudio: readonly string[],
-  arabicAudio: readonly string[],
-): BookAssetManifest => ({
+const media = (sharedImages: readonly string[], englishAudio: readonly string[], arabicAudio: readonly string[]): BookAssetManifest => ({
   sharedImages: { kind: 'image', paths: sharedImages },
   englishAudio: { kind: 'audio', paths: englishAudio },
   arabicAudio: { kind: 'audio', paths: arabicAudio },
@@ -54,50 +50,68 @@ export const storageManifests: Record<string, BookAssetManifest> = {
   [manifestKey('musa', 'A2')]: media(
     ['Moses/a2/images', 'Moses/moses_a2/images', 'moses/a2/images', 'moses/moses_a2/images'],
     ['Moses/a2/audio', 'Moses/moses_a2/audio', 'moses/a2/audio', 'moses/moses_a2/audio'],
-    ['Moses/a2/audio/arabic_audio', 'Moses/moses_a2/audio/arabic_audio', 'moses/a2/audio/arabic_audio', 'moses/moses_a2/audio/arabic_audio'],
+    [
+      'Moses/a2/audio/arabic_audio',
+      'Moses/moses_a2/audio/arabic_audio',
+      'moses/a2/audio/arabic_audio',
+      'moses/moses_a2/audio/arabic_audio',
+    ],
   ),
   [manifestKey('musa', 'B1')]: media(
     ['Moses/b1/images', 'Moses/moses_b1/images', 'moses/b1/images', 'moses/moses_b1/images'],
     ['Moses/b1/audio', 'Moses/moses_b1/audio', 'moses/b1/audio', 'moses/moses_b1/audio'],
-    ['Moses/b1/audio/arabic_audio', 'Moses/moses_b1/audio/arabic_audio', 'moses/b1/audio/arabic_audio', 'moses/moses_b1/audio/arabic_audio'],
+    [
+      'Moses/b1/audio/arabic_audio',
+      'Moses/moses_b1/audio/arabic_audio',
+      'moses/b1/audio/arabic_audio',
+      'moses/moses_b1/audio/arabic_audio',
+    ],
   ),
   [manifestKey('musa', 'B2')]: media(
     ['Moses/b2/images', 'Moses/moses_b2/images', 'moses/b2/images', 'moses/moses_b2/images'],
     ['Moses/b2/audio', 'Moses/moses_b2/audio', 'moses/b2/audio', 'moses/moses_b2/audio'],
-    ['Moses/b2/audio/arabic_audio', 'Moses/moses_b2/audio/arabic_audio', 'moses/b2/audio/arabic_audio', 'moses/moses_b2/audio/arabic_audio'],
+    [
+      'Moses/b2/audio/arabic_audio',
+      'Moses/moses_b2/audio/arabic_audio',
+      'moses/b2/audio/arabic_audio',
+      'moses/moses_b2/audio/arabic_audio',
+    ],
   ),
 
   [manifestKey('mecca', 'A2')]: media(
     ['mecca/a2/images', 'Mecca/a2/images', 'mecca/mecca_a2/images', 'Mecca/mecca_a2/images'],
     ['mecca/a2/audio', 'Mecca/a2/audio', 'mecca/mecca_a2/audio', 'Mecca/mecca_a2/audio'],
-    ['mecca/a2/audio/arabic_audio', 'Mecca/a2/audio/arabic_audio', 'mecca/mecca_a2/audio/arabic_audio', 'Mecca/mecca_a2/audio/arabic_audio'],
+    [
+      'mecca/a2/audio/arabic_audio',
+      'Mecca/a2/audio/arabic_audio',
+      'mecca/mecca_a2/audio/arabic_audio',
+      'Mecca/mecca_a2/audio/arabic_audio',
+    ],
   ),
   [manifestKey('mecca', 'B1')]: media(
     ['mecca/b1/images', 'Mecca/b1/images', 'mecca/mecca_b1/images', 'Mecca/mecca_b1/images'],
     ['mecca/b1/audio', 'Mecca/b1/audio', 'mecca/mecca_b1/audio', 'Mecca/mecca_b1/audio'],
-    ['mecca/b1/audio/arabic_audio', 'Mecca/b1/audio/arabic_audio', 'mecca/mecca_b1/audio/arabic_audio', 'Mecca/mecca_b1/audio/arabic_audio'],
+    [
+      'mecca/b1/audio/arabic_audio',
+      'Mecca/b1/audio/arabic_audio',
+      'mecca/mecca_b1/audio/arabic_audio',
+      'Mecca/mecca_b1/audio/arabic_audio',
+    ],
   ),
   [manifestKey('mecca', 'B2')]: media(
     ['mecca/b2/images', 'Mecca/b2/images', 'mecca/mecca_b2/images', 'Mecca/mecca_b2/images'],
     ['mecca/b2/audio', 'Mecca/b2/audio', 'mecca/mecca_b2/audio', 'Mecca/mecca_b2/audio'],
-    ['mecca/b2/audio/arabic_audio', 'Mecca/b2/audio/arabic_audio', 'mecca/mecca_b2/audio/arabic_audio', 'Mecca/mecca_b2/audio/arabic_audio'],
+    [
+      'mecca/b2/audio/arabic_audio',
+      'Mecca/b2/audio/arabic_audio',
+      'mecca/mecca_b2/audio/arabic_audio',
+      'Mecca/mecca_b2/audio/arabic_audio',
+    ],
   ),
 
-  [manifestKey('ibnJubayr', 'A2')]: media(
-    ['andulus/a2/images', 'Andulus/a2/images'],
-    ['andulus/a2/audio', 'Andulus/a2/audio'],
-    [],
-  ),
-  [manifestKey('ibnJubayr', 'B1')]: media(
-    ['andulus/b1/images', 'Andulus/b1/images'],
-    ['andulus/b1/audio', 'Andulus/b1/audio'],
-    [],
-  ),
-  [manifestKey('ibnJubayr', 'B2')]: media(
-    ['andulus/b2/images', 'Andulus/b2/images'],
-    ['andulus/b2/audio', 'Andulus/b2/audio'],
-    [],
-  ),
+  [manifestKey('ibnJubayr', 'A2')]: media(['andulus/a2/images', 'Andulus/a2/images'], ['andulus/a2/audio', 'Andulus/a2/audio'], []),
+  [manifestKey('ibnJubayr', 'B1')]: media(['andulus/b1/images', 'Andulus/b1/images'], ['andulus/b1/audio', 'Andulus/b1/audio'], []),
+  [manifestKey('ibnJubayr', 'B2')]: media(['andulus/b2/images', 'Andulus/b2/images'], ['andulus/b2/audio', 'Andulus/b2/audio'], []),
 
   [manifestKey('gevherNesibe', 'A2')]: media(
     ['gevher_nesibe/gevher_nesibe_a2/images', 'gevherNesibe/a2/images', 'GevherNesibe/a2/images'],
@@ -115,22 +129,47 @@ export const storageManifests: Record<string, BookAssetManifest> = {
     [],
   ),
 
+  [manifestKey('ahilik', 'A2')]: media(['ahilik/a2/images'], ['ahilik/a2/audio'], []),
+  [manifestKey('ahilik', 'B1')]: media(['ahilik/b1/images'], ['ahilik/b1/audio'], []),
+  [manifestKey('ahilik', 'B2')]: media(['ahilik/b2/images'], ['ahilik/b2/audio'], []),
+
   [manifestKey('yunusEmre', 'A2')]: media(
     [
-      'Yunus/a2/images', 'yunus/a2/images', 'Yunus/yunus_a2/images', 'yunus/yunus_a2/images',
-      'YunusEmre/a2/images', 'YunusEmre/yunusemre_a2/images', 'Yunus_Emre/a2/images',
-      'Yunus_Emre/yunusemre_a2/images', 'yunusEmre/a2/images', 'yunusEmre/yunusemre_a2/images',
+      'Yunus/a2/images',
+      'yunus/a2/images',
+      'Yunus/yunus_a2/images',
+      'yunus/yunus_a2/images',
+      'YunusEmre/a2/images',
+      'YunusEmre/yunusemre_a2/images',
+      'Yunus_Emre/a2/images',
+      'Yunus_Emre/yunusemre_a2/images',
+      'yunusEmre/a2/images',
+      'yunusEmre/yunusemre_a2/images',
     ],
     ['yunus/a2/audio', 'Yunus/a2/audio', 'Yunus/yunus_a2/audio', 'YunusEmre/a2/audio', 'yunusEmre/a2/audio'],
     ['yunus/a2/audio/arabic_audio', 'Yunus/a2/audio/arabic_audio', 'Yunus/yunus_a2/audio/arabic_audio', 'YunusEmre/a2/audio/arabic_audio'],
   ),
   [manifestKey('yunusEmre', 'B1')]: media(
-    ['Yunus/b1/images', 'yunus/b1/images', 'Yunus/yunus_b1/images', 'yunus/yunus_b1/images', 'YunusEmre/b1/images', 'YunusEmre/yunusemre_b1/images'],
+    [
+      'Yunus/b1/images',
+      'yunus/b1/images',
+      'Yunus/yunus_b1/images',
+      'yunus/yunus_b1/images',
+      'YunusEmre/b1/images',
+      'YunusEmre/yunusemre_b1/images',
+    ],
     ['yunus/b1/audio', 'Yunus/b1/audio', 'Yunus/yunus_b1/audio', 'YunusEmre/b1/audio', 'yunusEmre/b1/audio'],
     ['yunus/b1/audio/arabic_audio', 'Yunus/b1/audio/arabic_audio', 'Yunus/yunus_b1/audio/arabic_audio', 'YunusEmre/b1/audio/arabic_audio'],
   ),
   [manifestKey('yunusEmre', 'B2')]: media(
-    ['yunus/b2/images', 'Yunus/b2/images', 'Yunus/yunus_b2/images', 'yunus/yunus_b2/images', 'YunusEmre/b2/images', 'YunusEmre/yunusemre_b2/images'],
+    [
+      'yunus/b2/images',
+      'Yunus/b2/images',
+      'Yunus/yunus_b2/images',
+      'yunus/yunus_b2/images',
+      'YunusEmre/b2/images',
+      'YunusEmre/yunusemre_b2/images',
+    ],
     ['yunus/b2/audio', 'Yunus/b2/audio', 'Yunus/yunus_b2/audio', 'YunusEmre/b2/audio', 'yunusEmre/b2/audio'],
     ['yunus/b2/audio/arabic_audio', 'Yunus/b2/audio/arabic_audio', 'Yunus/yunus_b2/audio/arabic_audio', 'YunusEmre/b2/audio/arabic_audio'],
   ),

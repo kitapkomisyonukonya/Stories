@@ -52,6 +52,7 @@ const getCurrentStoryId = (bookId: string) => {
   if (id.includes('ibnjubayr')) return 'ibnJubayr';
   if (id.includes('yunusemre')) return 'yunusEmre';
   if (id.includes('gevhernesibe')) return 'gevherNesibe';
+  if (id.includes('ahilik')) return 'ahilik';
   return 'adam';
 };
 

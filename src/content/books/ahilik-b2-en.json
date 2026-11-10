@@ -1,0 +1,3268 @@
+{
+  "schema": 1,
+  "storyId": "ahilik",
+  "level": "B2",
+  "language": "en",
+  "collection": "turkish",
+  "book": {
+    "id": "ahilik-b2",
+    "title": "The Ahî Organization",
+    "level": "B2",
+    "baseFontSize": 12,
+    "pages": [
+      {
+        "id": 1,
+        "type": "story",
+        "title": "The Ahî Organization",
+        "image": "",
+        "audioUrl": "",
+        "content": "The Ahî Organization, which emerged in 13th-century Anatolia, was a religious and social institution that subsequently played a crucial role in the establishment of the Ottoman Empire. Throughout the centuries, the institution guided society with principles and rules governing moral, sociocultural, and commercial life. The word ‘Ahî’ is derived either from the Arabic word ‘ah’, meaning ‘brother’, or from the Turkish word ‘akı’, meaning ‘generous and brave’. In the Arabic reading, ‘ahî’ means ‘my brother.’\n\nTo fully grasp the function of the Ahî organization, we must first focus on fütüvvet organizations, which heavily influenced the establishment of the Ahî organizations in Anatolia.",
+        "vocabulary": [
+          {
+            "word": "emerged",
+            "definition": "Appeared or came into existence."
+          },
+          {
+            "word": "subsequently",
+            "definition": "Later; after that."
+          },
+          {
+            "word": "commercial life",
+            "definition": "The world of buying and selling."
+          },
+          {
+            "word": "derived",
+            "definition": "Taken or developed from something else."
+          },
+          {
+            "word": "grasp",
+            "definition": "Understand fully."
+          },
+          {
+            "word": "function",
+            "definition": "The purpose or job of something."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "ahi-b2-en-h1a",
+            "x": 30,
+            "y": 40,
+            "title": "13th-Century Anatolia",
+            "description": "The Ahî Organization emerged in 13th-century Anatolia."
+          },
+          {
+            "id": "ahi-b2-en-h1b",
+            "x": 70,
+            "y": 45,
+            "title": "‘Ahî’: My Brother",
+            "description": "In the Arabic reading, ‘ahî’ means ‘my brother.’"
+          }
+        ],
+        "exercises": [
+          {
+            "id": "ahi-b2-quick-1",
+            "type": "multiple-choice",
+            "title": "Why Fütüvvet First?",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Why must we first focus on fütüvvet organizations?",
+            "options": [
+              "They heavily influenced the establishment of the Ahî organizations in Anatolia.",
+              "They were founded by the Ottoman sultans.",
+              "They replaced the Ahî organizations."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “… we must first focus on fütüvvet organizations, which heavily influenced the establishment of the Ahî organizations in Anatolia.”",
+            "feedback": {
+              "correct": "Correct. They heavily influenced the Ahîs.",
+              "incorrect": "Read the last sentence of the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "ahi-b2-language-1-participle",
+            "type": "multiple-choice",
+            "title": "Notice: Meaning ‘Brother’",
+            "instructions": "Read the sentence. Then choose what “meaning ‘brother’” does.",
+            "question": "“The word ‘Ahî’ is derived either from the Arabic word ‘ah’, meaning ‘brother’, or from the Turkish word ‘akı’, meaning ‘generous and brave’.” What does “meaning ‘brother’” do?",
+            "options": [
+              "It is a shortened relative clause that explains the word before it.",
+              "It is the main verb of the sentence.",
+              "It shows the result of an action."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Meaning ‘brother’” = “which means ‘brother’”. A present participle phrase after a noun can replace a relative clause and make academic writing more compact.",
+            "feedback": {
+              "correct": "Correct. It explains the word before it.",
+              "incorrect": "Rewrite it with which. Does the meaning change?"
+            }
+          },
+          {
+            "id": "ahi-b2-language-1-derived",
+            "type": "choose-form",
+            "title": "Build: Derived From, Subsequently, Which",
+            "instructions": "Choose the correct form for each sentence from Chapter 1.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The word ‘Ahî’ is [choice] either from Arabic or from Turkish.",
+                "options": ["derived", "deriving", "derives"],
+                "answer": 0
+              },
+              {
+                "sentence": "It was a religious and social institution that [choice] played a crucial role in the establishment of the Ottoman Empire.",
+                "options": ["subsequently", "previously", "consequently"],
+                "answer": 0
+              },
+              {
+                "sentence": "The Ahî Organization, [choice] emerged in 13th-century Anatolia, was a religious and social institution.",
+                "options": ["which", "that", "what"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Be derived from” = come from. “Subsequently” = later. In a non-defining relative clause (between commas), we use which, not that.",
+            "feedback": {
+              "correct": "Well done. Derived, subsequently, which.",
+              "incorrect": "Check the passive, the time adverb and the relative pronoun after a comma."
+            }
+          },
+          {
+            "id": "ahi-b2-language-1-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express these ideas?",
+            "transformItems": [
+              {
+                "source": "The word ‘Ahî’ is derived from the Arabic word ‘ah’.",
+                "frame": "The word ‘Ahî’ [blank] from the Arabic word ‘ah’.",
+                "answers": ["comes", "originates", "derives"]
+              },
+              {
+                "source": "To fully grasp the function of the Ahî organization, we must first focus on fütüvvet.",
+                "frame": "In order to fully [blank] the function of the Ahî organization, we must first focus on fütüvvet.",
+                "answers": ["understand"]
+              },
+              {
+                "source": "The Ahî Organization, which emerged in 13th-century Anatolia, guided society.",
+                "frame": "The Ahî Organization, [blank] in 13th-century Anatolia, guided society.",
+                "answers": ["emerging", "having emerged"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Be derived from” = “come from”. “Grasp” = “understand”. A relative clause can become a participle phrase.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use comes, understand and a participle."
+            }
+          },
+          {
+            "id": "ahi-b2-language-1-define",
+            "type": "reflection",
+            "title": "Use: Define an Institution",
+            "instructions": "Write a paragraph of five to six sentences defining an institution in your country.",
+            "question": "When did it emerge, what does it do and where does its name come from?",
+            "correctAnswer": null,
+            "explanation": "Example: “The Kızılay, which was founded in 1868, is the Turkish Red Crescent. Its name is derived from the red crescent, a symbol meaning help and protection. It provides food, shelter and blood donations in times of need. Throughout its history, it has supported people in Türkiye and abroad. To fully grasp its role, we must first understand how volunteers work together.”",
+            "feedback": {
+              "correct": "Check: a non-defining relative clause, be derived from, a participle phrase and a clear definition.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Define it with a non-defining relative clause.",
+                "mode": "Individual",
+                "example": "The …, which was founded in …, is …"
+              },
+              {
+                "question": "Explain its name with be derived from and a participle.",
+                "mode": "Individual",
+                "example": "Its name is derived from …, meaning …"
+              },
+              {
+                "question": "Say what we must understand first.",
+                "mode": "Pair",
+                "example": "To fully grasp its role, we must first …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What does ‘ahî’ mean in the Arabic reading?",
+          "options": ["my brother", "generous and brave", "master"],
+          "answer": 0,
+          "quote": "In the Arabic reading, ‘ahî’ means ‘my brother.’"
+        },
+        "iCan": [
+          "I can define the Ahî Organization and its historical role.",
+          "I can explain the possible origins of the word ‘Ahî’.",
+          "I can use non-defining relative clauses, be derived from and participle phrases."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "story",
+        "title": "The Fütüvvet Tradition",
+        "image": "",
+        "audioUrl": "",
+        "content": "Fütüvvet is a social concept that emerged during the first century of Islam, rooted in the term ‘fetâ’ from the pre-Islamic period. In pre-Islamic Arab society, the term ‘fetâ’ referred to qualities like generosity, bravery, fearlessness, helpfulness, and virtue. By the 9th century, the concept developed into a structured movement organizing young people socially, economically, and politically. Also in the 9th century, as the Sufi movement expanded from an individual lifestyle into an organized form, fütüvvet adopted a ‘Sufi fütüvvet’ identity and became a part of Sufism. Later, during the late Abbasid period in the late 12th and early 13th centuries, it became an official state organization. In its final stage, it became integrated with the artisan class, functioning as a professional organization while mostly keeping its Sufi character.\n\nThe concept of fütüvvet reached Anatolia through the Abbasids. From the 13th century onwards, it acquired a unique meaning among Anatolian Turks and turned into the Ahî movement.",
+        "vocabulary": [
+          {
+            "word": "virtue",
+            "definition": "A very good moral quality."
+          },
+          {
+            "word": "expanded from",
+            "definition": "Grew larger, starting from."
+          },
+          {
+            "word": "adopted",
+            "definition": "Took and began to use."
+          },
+          {
+            "word": "onwards",
+            "definition": "From that time and continuing."
+          },
+          {
+            "word": "acquired",
+            "definition": "Gained or got."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "ahi-b2-en-h2a",
+            "x": 30,
+            "y": 40,
+            "title": "Fetâ",
+            "description": "In pre-Islamic Arab society, the term ‘fetâ’ referred to qualities like generosity, bravery and virtue."
+          },
+          {
+            "id": "ahi-b2-en-h2b",
+            "x": 70,
+            "y": 45,
+            "title": "The Abbasids",
+            "description": "The concept of fütüvvet reached Anatolia through the Abbasids."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "ahi-b2-quick-2",
+            "type": "sequencing",
+            "title": "Stages of Fütüvvet",
+            "instructions": "Put the stages in the order the chapter presents them.",
+            "question": "How did fütüvvet develop?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Fütüvvet emerged during the first century of Islam."
+              },
+              {
+                "id": "2",
+                "text": "Fütüvvet developed into a structured movement of young people."
+              },
+              {
+                "id": "3",
+                "text": "Fütüvvet adopted a ‘Sufi fütüvvet’ identity."
+              },
+              {
+                "id": "4",
+                "text": "Fütüvvet became an official state organization."
+              },
+              {
+                "id": "5",
+                "text": "Fütüvvet became integrated with the artisan class."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "Chapter 2 traces fütüvvet from its emergence to its integration with the artisan class.",
+            "feedback": {
+              "correct": "Correct. You traced the stages.",
+              "incorrect": "Look for By the 9th century, Later and In its final stage."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "ahi-b2-language-2-functioning",
+            "type": "multiple-choice",
+            "title": "Notice: Functioning as … While Keeping …",
+            "instructions": "Read the sentence. Then choose what the participle phrase expresses.",
+            "question": "“In its final stage, it became integrated with the artisan class, functioning as a professional organization while mostly keeping its Sufi character.” What does “functioning as …” express?",
+            "options": [
+              "how the organization worked at the same time",
+              "the reason why it became integrated",
+              "an event that happened earlier"
+            ],
+            "correctAnswer": 0,
+            "explanation": "A comma + -ing phrase can describe what the subject was doing at the same time. “While mostly keeping” adds a second, contrasting action: it changed, but it kept its character.",
+            "feedback": {
+              "correct": "Correct. It describes how it worked at the same time.",
+              "incorrect": "Is it a reason, an earlier event or a simultaneous action?"
+            }
+          },
+          {
+            "id": "ahi-b2-language-2-rooted",
+            "type": "choose-form",
+            "title": "Build: Rooted In, As, From … Onwards",
+            "instructions": "Choose the correct form for each sentence from Chapter 2.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Fütüvvet emerged during the first century of Islam, [choice] in the term ‘fetâ’.",
+                "options": ["rooted", "rooting", "roots"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice] the Sufi movement expanded into an organized form, fütüvvet adopted a Sufi identity.",
+                "options": ["As", "Despite", "Unless"],
+                "answer": 0
+              },
+              {
+                "sentence": "From the 13th century [choice], it acquired a unique meaning among Anatolian Turks.",
+                "options": ["onwards", "before", "ago"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Rooted in” is a past participle (= which was rooted in). “As” can mean “while / at the same time as”. “From … onwards” means from that time and continuing.",
+            "feedback": {
+              "correct": "Well done. Rooted, As, onwards.",
+              "incorrect": "Check the participle, the time linker and the time phrase."
+            }
+          },
+          {
+            "id": "ahi-b2-language-2-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "The term ‘fetâ’ referred to qualities like generosity and bravery.",
+                "frame": "The term ‘fetâ’ [blank] qualities like generosity and bravery.",
+                "answers": ["described", "meant"]
+              },
+              {
+                "source": "Fütüvvet adopted a ‘Sufi fütüvvet’ identity.",
+                "frame": "Fütüvvet [blank] on a ‘Sufi fütüvvet’ identity.",
+                "answers": ["took"]
+              },
+              {
+                "source": "From the 13th century onwards, it acquired a unique meaning.",
+                "frame": "Starting [blank] the 13th century, it acquired a unique meaning.",
+                "answers": ["in", "from"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Refer to” = “describe”. “Adopt” = “take on”. “From … onwards” = “starting in / from …”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new words.",
+              "incorrect": "Use described, took and in."
+            }
+          },
+          {
+            "id": "ahi-b2-language-2-evolution",
+            "type": "reflection",
+            "title": "Use: The Evolution of an Idea",
+            "instructions": "Write a paragraph of six to eight sentences tracing how an idea or tradition evolved.",
+            "question": "What stayed the same, and what changed?",
+            "correctAnswer": null,
+            "explanation": "Example: “The tradition of the imece, rooted in village life, means working together on a shared task. At first, neighbors helped each other build houses and bring in the harvest. Later, as towns grew, the idea expanded into helping schools and mosques. From the 20th century onwards, it also took the form of volunteer groups. Today, the imece spirit appears in disaster relief, functioning as modern teamwork while still keeping its old sense of community.”",
+            "feedback": {
+              "correct": "Check: rooted in, time phrases and a participle clause.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say where the idea is rooted.",
+                "mode": "Individual",
+                "example": "The tradition of … is rooted in …"
+              },
+              {
+                "question": "Trace two or three stages with time phrases.",
+                "mode": "Individual",
+                "example": "By …, … Later, … From … onwards, …"
+              },
+              {
+                "question": "End with a participle clause showing what stayed the same.",
+                "mode": "Pair",
+                "example": "…, while still keeping …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: When did fütüvvet become an official state organization?",
+          "options": ["during the late Abbasid period", "in the first century of Islam", "in the 9th century"],
+          "answer": 0,
+          "quote": "during the late Abbasid period in the late 12th and early 13th centuries, it became an official state organization."
+        },
+        "iCan": [
+          "I can trace the development of fütüvvet through its stages.",
+          "I can explain what stayed the same and what changed.",
+          "I can use participle clauses (rooted in, functioning as) and as for time."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "story",
+        "title": "The Caliph’s Robe",
+        "image": "",
+        "audioUrl": "",
+        "content": "Indeed, during the reign of Sultan Alâeddin Keykubad I (1220–1237), the Abbasid Caliph Nâsır-Lidînillâh (1180–1225), who regarded himself as the leader of the fütüvvet order, sent a fütüvvet robe to the sultan through an emissary. The envoy sent by the caliph was Şehâbeddin es-Sühreverdî (d. 1234). Nasir-Lidinillah aimed to rule the entire Islamic world, not just in theory but also in practice, and Sühreverdî acted as a key advisor in line with this goal. Being a well-known mufassir, hadith scholar, and beloved Sufi, Sühreverdî had the influence needed to unite scattered fütüvvet groups and restructure them for this purpose.\n\nTo this end, the Caliph intended to grant official status to the fütüvvet institution, which had previously been unofficial. By transforming the organization into a governmental body, he sought to give it legitimacy and secure its political support. Consequently, this institution, which had long been an independent force during times of weak central authority, would be brought under state control. While carrying out this important task, the Caliph relied heavily on Sühreverdî, benefiting greatly from his immense spiritual influence and strategic ideas. Upon his arrival in Konya, Sühreverdî was received with great ceremony and dressed Alaeddin Keykubad in the ceremonial robe sent by the Caliph. Through this act, the Abbasid Caliph officially recognized Keykubad’s political authority.",
+        "vocabulary": [
+          {
+            "word": "emissary",
+            "definition": "A person sent with an official message."
+          },
+          {
+            "word": "envoy",
+            "definition": "An official messenger of a ruler."
+          },
+          {
+            "word": "scattered",
+            "definition": "Spread over a wide area, not united."
+          },
+          {
+            "word": "grant",
+            "definition": "Officially give."
+          },
+          {
+            "word": "legitimacy",
+            "definition": "Being accepted as lawful and right."
+          },
+          {
+            "word": "carrying out",
+            "definition": "Doing or completing."
+          },
+          {
+            "word": "immense",
+            "definition": "Extremely large."
+          },
+          {
+            "word": "ceremonial",
+            "definition": "Used in an official ceremony."
+          },
+          {
+            "word": "robe",
+            "definition": "A long, loose piece of clothing."
+          },
+          {
+            "word": "recognized",
+            "definition": "Officially accepted."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "ahi-b2-en-h3a",
+            "x": 30,
+            "y": 40,
+            "title": "A Fütüvvet Robe",
+            "description": "The Abbasid Caliph sent a fütüvvet robe to Sultan Alâeddin Keykubad I through an emissary."
+          },
+          {
+            "id": "ahi-b2-en-h3b",
+            "x": 70,
+            "y": 45,
+            "title": "Konya",
+            "description": "Upon his arrival in Konya, Sühreverdî was received with great ceremony."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "ahi-b2-quick-3",
+            "type": "multiple-choice",
+            "title": "The Caliph’s Aim",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What did the Caliph seek by transforming fütüvvet into a governmental body?",
+            "options": [
+              "to give it legitimacy and secure its political support",
+              "to weaken the Seljuk Sultan",
+              "to make it a school of theology"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “By transforming the organization into a governmental body, he sought to give it legitimacy and secure its political support.”",
+            "feedback": {
+              "correct": "Correct. Legitimacy and political support.",
+              "incorrect": "Read the second sentence of the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "ahi-b2-language-3-being",
+            "type": "multiple-choice",
+            "title": "Notice: Being a Well-Known Mufassir …",
+            "instructions": "Read the sentence. Then choose what the opening phrase expresses.",
+            "question": "“Being a well-known mufassir, hadith scholar, and beloved Sufi, Sühreverdî had the influence needed to unite scattered fütüvvet groups.” What does “Being …” express?",
+            "options": ["the reason why he had this influence", "the time when he arrived in Konya", "a contrast with his influence"],
+            "correctAnswer": 0,
+            "explanation": "A participle clause with “being” at the start can give a reason: because he was a well-known scholar and Sufi, he had the influence needed.",
+            "feedback": {
+              "correct": "Correct. It gives the reason.",
+              "incorrect": "Rewrite it with because. Does it make sense?"
+            }
+          },
+          {
+            "id": "ahi-b2-language-3-consequently",
+            "type": "choose-form",
+            "title": "Build: Consequently, Would Be Brought, Upon",
+            "instructions": "Choose the correct form for each sentence from Chapter 3.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice], this institution would be brought under state control.",
+                "options": ["Consequently", "Nevertheless", "Meanwhile"],
+                "answer": 0
+              },
+              {
+                "sentence": "This institution [choice] under state control.",
+                "options": ["would be brought", "would bring", "will brought"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice] his arrival in Konya, Sühreverdî was received with great ceremony.",
+                "options": ["Upon", "Since", "Until"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Consequently” introduces a result. “Would be + past participle” is a future-in-the-past passive: what was going to happen. “Upon + noun” = “as soon as”.",
+            "feedback": {
+              "correct": "Well done. Consequently, would be brought, Upon.",
+              "incorrect": "Check the result linker, the passive and the time preposition."
+            }
+          },
+          {
+            "id": "ahi-b2-language-3-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "Being a well-known scholar, Sühreverdî had great influence.",
+                "frame": "[blank] he was a well-known scholar, Sühreverdî had great influence.",
+                "answers": ["Because", "Since", "As"]
+              },
+              {
+                "source": "Upon his arrival in Konya, Sühreverdî was received with great ceremony.",
+                "frame": "As soon as he [blank] in Konya, Sühreverdî was received with great ceremony.",
+                "answers": ["arrived"]
+              },
+              {
+                "source": "The Abbasid Caliph officially recognized Keykubad’s political authority.",
+                "frame": "Keykubad’s political authority [blank] officially recognized by the Abbasid Caliph.",
+                "answers": ["was"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "A participle clause of reason = a because-clause. “Upon + noun” = “as soon as + clause”. Active can become passive.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use Because, arrived and was."
+            }
+          },
+          {
+            "id": "ahi-b2-language-3-symbolic",
+            "type": "reflection",
+            "title": "Use: A Symbolic Act",
+            "instructions": "Write a paragraph of six to eight sentences about a symbolic act in history or in your community.",
+            "question": "What was done, and what did it mean?",
+            "correctAnswer": null,
+            "explanation": "Example: “When a new school opens in our town, the oldest teacher cuts the ribbon. Being the most respected person in the school, she represents its history. By giving her this honor, the community shows respect for experience. The students watch and learn that knowledge passes from one generation to the next. Consequently, the ceremony is more than a celebration; it is a lesson in respect.”",
+            "feedback": {
+              "correct": "Check: a participle clause of reason, by + -ing and consequently.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe the act with a participle clause of reason.",
+                "mode": "Individual",
+                "example": "Being …, …"
+              },
+              {
+                "question": "Explain the aim with by + -ing.",
+                "mode": "Individual",
+                "example": "By …, they sought to …"
+              },
+              {
+                "question": "Give the result with consequently.",
+                "mode": "Pair",
+                "example": "Consequently, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: What did the Caliph want to give the fütüvvet institution?",
+          "options": ["official status", "a new name", "a large army"],
+          "answer": 0,
+          "quote": "the Caliph intended to grant official status to the fütüvvet institution"
+        },
+        "iCan": [
+          "I can explain the Caliph’s political aims.",
+          "I can describe Sühreverdî’s role and the meaning of the ceremony.",
+          "I can use participle clauses of reason, by + -ing, consequently and would for future in the past."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "story",
+        "title": "Ahî Evran and the Spread of the Ahîs",
+        "image": "",
+        "audioUrl": "",
+        "content": "On the other hand, Ahî Evran, who played a crucial role in the establishment of the Ahî order in Anatolia, gained the support of the Seljuk rulers. Ahî Evran was a Sufi mystic, a versatile scholar, and a philosopher who traveled to Anatolia from Central Asia. He stayed in Denizli, Konya, and Kayseri for a time, and visited many other cities and towns before finally settling in Kırşehir. Known as the spiritual leader of tanners and other craftsmen, Ahî Evran established a zaviye in Kırşehir that became the socio-religious and professional center for artisans all across Anatolia.\n\nThe members of this organization spread rapidly throughout Anatolia. The order extended from major cities to rural villages, reaching city dwellers as well as nomadic and semi-nomadic peoples. In 13th-century Anatolia, a period when state authority was severely weakened, the Ahîs played an important role in urban life, both economically and politically. They demonstrated their political and military power during times when central authority broke down and anarchy emerged. In fact, during the Mongol invasion, Ahî units took control of city administrations as local authorities.\n\nThe Ahîs resisted Gıyâseddin II, suspecting him of the assassination of Alaeddin Keykubad I. Alaeddin Keykubad I had faithfully supported the Ahî order and is believed to have been poisoned by his son. Later, following Gıyâseddin II’s defeat by the Mongols at Kösedağ, the Ahîs took part in the defense of Kayseri against the Mongols, who had already seized Tokat and Sivas, although the city eventually fell.",
+        "vocabulary": [
+          {
+            "word": "tanners",
+            "definition": "People who make leather from animal skins."
+          },
+          {
+            "word": "artisans",
+            "definition": "Skilled workers who make things by hand."
+          },
+          {
+            "word": "dwellers",
+            "definition": "People who live in a place."
+          },
+          {
+            "word": "nomadic",
+            "definition": "Moving from place to place to live."
+          },
+          {
+            "word": "semi-nomadic",
+            "definition": "Moving for part of the year."
+          },
+          {
+            "word": "demonstrated",
+            "definition": "Clearly showed."
+          },
+          {
+            "word": "assassination",
+            "definition": "The murder of an important person."
+          },
+          {
+            "word": "faithfully",
+            "definition": "In a loyal way."
+          },
+          {
+            "word": "poisoned",
+            "definition": "Killed or harmed with poison."
+          },
+          {
+            "word": "defense",
+            "definition": "Protecting a place from attack."
+          },
+          {
+            "word": "seized",
+            "definition": "Took by force."
+          },
+          {
+            "word": "eventually",
+            "definition": "In the end, after some time."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "ahi-b2-en-h4a",
+            "x": 30,
+            "y": 40,
+            "title": "Kırşehir",
+            "description": "Ahî Evran established a zaviye in Kırşehir that became a center for artisans all across Anatolia."
+          },
+          {
+            "id": "ahi-b2-en-h4b",
+            "x": 70,
+            "y": 45,
+            "title": "Kösedağ",
+            "description": "Gıyâseddin II was defeated by the Mongols at Kösedağ."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "ahi-b2-quick-4",
+            "type": "true-false",
+            "title": "The Ahîs and Gıyâseddin II",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The Ahîs supported Gıyâseddin II because he had supported their order.",
+            "correctAnswer": false,
+            "explanation": "Chapter 4: “The Ahîs resisted Gıyâseddin II, suspecting him of the assassination of Alaeddin Keykubad I.”",
+            "feedback": {
+              "correct": "Correct. They resisted him.",
+              "incorrect": "Read the beginning of the third paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "ahi-b2-language-4-perfect-passive",
+            "type": "multiple-choice",
+            "title": "Notice: Is Believed to Have Been Poisoned",
+            "instructions": "Read the sentence. Then choose what the structure expresses.",
+            "question": "“Alaeddin Keykubad I … is believed to have been poisoned by his son.” What does “is believed to have been poisoned” express?",
+            "options": [
+              "a present belief about something that happened in the past",
+              "a proven fact about the present",
+              "a plan for the future"
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Is believed” = people believe now. “To have been + past participle” = a passive action in the past. The writer reports a belief, not a proven fact.",
+            "feedback": {
+              "correct": "Correct. A present belief about the past.",
+              "incorrect": "When is the belief, and when was the action?"
+            }
+          },
+          {
+            "id": "ahi-b2-language-4-suspecting",
+            "type": "choose-form",
+            "title": "Build: Suspecting, Had Seized, A Period When",
+            "instructions": "Choose the correct form for each sentence from Chapter 4.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The Ahîs resisted Gıyâseddin II, [choice] him of the assassination of Alaeddin Keykubad I.",
+                "options": ["suspecting", "suspected", "to suspect"],
+                "answer": 0
+              },
+              {
+                "sentence": "the Mongols, who [choice] Tokat and Sivas",
+                "options": ["had already seized", "have already seized", "already seize"],
+                "answer": 0
+              },
+              {
+                "sentence": "In 13th-century Anatolia, a period [choice] state authority was severely weakened, the Ahîs played an important role.",
+                "options": ["when", "which", "where"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "A comma + -ing clause can give the reason for the main action. The past perfect shows an earlier past. “A period when …” uses when for time.",
+            "feedback": {
+              "correct": "Well done. Suspecting, had already seized, when.",
+              "incorrect": "Check the participle, the past perfect and the relative adverb."
+            }
+          },
+          {
+            "id": "ahi-b2-language-4-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "Keykubad I is believed to have been poisoned by his son.",
+                "frame": "It is believed that Keykubad I [blank] poisoned by his son.",
+                "answers": ["was"]
+              },
+              {
+                "source": "The Ahîs resisted Gıyâseddin II, suspecting him of the assassination.",
+                "frame": "The Ahîs resisted Gıyâseddin II because they [blank] him of the assassination.",
+                "answers": ["suspected"]
+              },
+              {
+                "source": "The Ahîs took part in the defense of Kayseri, although the city eventually fell.",
+                "frame": "[blank] the Ahîs took part in the defense of Kayseri, the city eventually fell.",
+                "answers": ["Although", "Even though", "Though"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Subject + is believed to have been …” = “It is believed that … was …”. A participle clause of reason = a because-clause. Although can start the sentence.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use was, suspected and Although."
+            }
+          },
+          {
+            "id": "ahi-b2-language-4-authority",
+            "type": "reflection",
+            "title": "Use: When Authority Breaks Down",
+            "instructions": "Write a paragraph of six to eight sentences about how a community organizes itself in a crisis.",
+            "question": "Who takes responsibility, and what happens?",
+            "correctAnswer": null,
+            "explanation": "Example: “After a big earthquake in our region, a period when many services stopped working, neighborhoods had to organize themselves. Local volunteers, realizing that help would take time, formed rescue teams. Shop owners opened their stores and shared food. Teachers turned schools into shelters. These groups are believed to have saved many lives in the first days. Although the damage was enormous, people did not lose hope.”",
+            "feedback": {
+              "correct": "Check: a period when, a participle clause, is believed to have and although.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe the crisis with a period when.",
+                "mode": "Individual",
+                "example": "During …, a period when …"
+              },
+              {
+                "question": "Use a participle clause of reason.",
+                "mode": "Individual",
+                "example": "…, realizing that …"
+              },
+              {
+                "question": "Report a belief with is believed to have.",
+                "mode": "Pair",
+                "example": "The group is believed to have …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Which cities had the Mongols already seized before Kayseri?",
+          "options": ["Tokat and Sivas", "Konya and Denizli", "Kırşehir and Kayseri"],
+          "answer": 0,
+          "quote": "who had already seized Tokat and Sivas"
+        },
+        "iCan": [
+          "I can describe Ahî Evran and the spread of the Ahî order.",
+          "I can explain how the Ahîs gained political and military power.",
+          "I can use participle clauses, the perfect passive infinitive and the past perfect."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "story",
+        "title": "Values and Way of Life",
+        "image": "",
+        "audioUrl": "",
+        "content": "Rooted in Islamic-Sufi thought and the principles of fütüvvet, the Ahî Organization was closely linked to tekkes and zaviyes. It also shaped economic life by regulating the relationships between masters, journeymen, and apprentices in their workshops. For example, during the Anatolian Seljuk era, this order functioned like a system of trade guilds. In this role, it was responsible for resolving trade-specific issues and managing relations with the state. Additionally, enforcing quality control and regulating prices were among the primary duties of the order.\n\nTheir values, beliefs, and way of life from the 13th to the 16th centuries were recorded in the Fütüvvetnameler (handbooks of the organization). Through these texts, Ahî traditions shared a deep connection with the cultural education of the Alevi-Bektashi community and other groups in Anatolia.\n\nThe Fütüvvet way of life includes several key characteristics that guide a person’s behavior. Followers are expected to be generous, honest, and grateful, while always showing a cheerful face and speaking with kind words. They should help their families, treat workers well, and share meals with others. Furthermore, it is crucial to avoid bad company and instead seek the company of wise elders. Finally, followers must stay away from actions forbidden by the Qur’an and the Sunnah, such as consuming alcohol, and remember that this world is temporary. They must also support fellow believers by exchanging gifts and making donations.",
+        "vocabulary": [
+          {
+            "word": "tekkes",
+            "definition": "Places where Sufis met and prayed."
+          },
+          {
+            "word": "zaviyes",
+            "definition": "Small Sufi centers that also hosted travelers."
+          },
+          {
+            "word": "regulating",
+            "definition": "Controlling with rules."
+          },
+          {
+            "word": "guide",
+            "definition": "Show the right way."
+          },
+          {
+            "word": "treat workers well",
+            "definition": "Be kind and fair to workers."
+          },
+          {
+            "word": "share meals",
+            "definition": "Eat together with others."
+          },
+          {
+            "word": "company",
+            "definition": "The people you spend time with."
+          },
+          {
+            "word": "seek the company of wise elders",
+            "definition": "Try to spend time with wise older people."
+          },
+          {
+            "word": "fellow",
+            "definition": "Sharing the same group or situation."
+          },
+          {
+            "word": "exchanging gifts",
+            "definition": "Giving gifts to each other."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "ahi-b2-en-h5a",
+            "x": 30,
+            "y": 40,
+            "title": "Trade Guilds",
+            "description": "During the Anatolian Seljuk era, this order functioned like a system of trade guilds."
+          },
+          {
+            "id": "ahi-b2-en-h5b",
+            "x": 70,
+            "y": 45,
+            "title": "Fütüvvetnameler",
+            "description": "Their values, beliefs and way of life were recorded in the Fütüvvetnameler, the handbooks of the organization."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "ahi-b2-quick-5",
+            "type": "drag-drop",
+            "title": "Economy and Ethics",
+            "instructions": "Sort the information: the order’s economic duties, or the followers’ ethical rules?",
+            "question": "What did the order do, and how should followers live?",
+            "dragDropGroups": [
+              {
+                "group": "Economic duties",
+                "items": ["resolving trade-specific issues", "managing relations with the state", "regulating prices"]
+              },
+              {
+                "group": "Ethical rules",
+                "items": ["speaking with kind words", "seeking the company of wise elders", "exchanging gifts and making donations"]
+              }
+            ],
+            "correctAnswer": {
+              "Economic duties": ["resolving trade-specific issues", "managing relations with the state", "regulating prices"],
+              "Ethical rules": ["speaking with kind words", "seeking the company of wise elders", "exchanging gifts and making donations"]
+            },
+            "explanation": "Chapter 5 first describes the order’s economic role and then the key characteristics of the Fütüvvet way of life.",
+            "feedback": {
+              "correct": "Correct. You separated economy and ethics.",
+              "incorrect": "Compare the first and the third paragraphs."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "ahi-b2-language-5-rooted",
+            "type": "multiple-choice",
+            "title": "Notice: Rooted in Islamic-Sufi Thought …",
+            "instructions": "Read the sentence. Then choose what the opening phrase does.",
+            "question": "“Rooted in Islamic-Sufi thought and the principles of fütüvvet, the Ahî Organization was closely linked to tekkes and zaviyes.” What does the opening phrase do?",
+            "options": [
+              "It gives background information about the subject of the main clause.",
+              "It describes the tekkes and zaviyes.",
+              "It gives a result of the main clause."
+            ],
+            "correctAnswer": 0,
+            "explanation": "An opening past participle phrase describes the subject of the main clause: the Ahî Organization was rooted in Islamic-Sufi thought. The subject must be the same in both parts.",
+            "feedback": {
+              "correct": "Correct. It describes the subject.",
+              "incorrect": "Who or what was rooted in Islamic-Sufi thought?"
+            }
+          },
+          {
+            "id": "ahi-b2-language-5-crucial",
+            "type": "choose-form",
+            "title": "Build: Expected To, Crucial To, While",
+            "instructions": "Choose the correct form for each sentence from Chapter 5.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Followers are expected [choice] generous, honest, and grateful.",
+                "options": ["to be", "being", "be"],
+                "answer": 0
+              },
+              {
+                "sentence": "…, [choice] always showing a cheerful face and speaking with kind words.",
+                "options": ["while", "during", "whereas"],
+                "answer": 0
+              },
+              {
+                "sentence": "Furthermore, it is crucial [choice] bad company.",
+                "options": ["to avoid", "avoiding", "avoid"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Be expected to + verb” describes a duty. “While + -ing” adds an action at the same time. “It is crucial to + verb” stresses importance.",
+            "feedback": {
+              "correct": "Well done. To be, while, to avoid.",
+              "incorrect": "Check the verb forms after expected, while and crucial."
+            }
+          },
+          {
+            "id": "ahi-b2-language-5-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "It is crucial to avoid bad company.",
+                "frame": "Avoiding bad company is [blank].",
+                "answers": ["crucial", "essential", "very important"]
+              },
+              {
+                "source": "Their values were recorded in the Fütüvvetnameler.",
+                "frame": "The Fütüvvetnameler [blank] their values.",
+                "answers": ["recorded", "contained"]
+              },
+              {
+                "source": "This order functioned like a system of trade guilds.",
+                "frame": "This order [blank] in the same way as a system of trade guilds.",
+                "answers": ["worked", "functioned", "operated"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“It is crucial to + verb” = “-ing is crucial”. A passive can become active. “Function like” = “work in the same way as”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use crucial, recorded and worked."
+            }
+          },
+          {
+            "id": "ahi-b2-language-5-code",
+            "type": "reflection",
+            "title": "Use: A Code of Conduct",
+            "instructions": "Write a paragraph of six to eight sentences presenting a code of conduct for a modern profession.",
+            "question": "What are its members expected to do, and why?",
+            "correctAnswer": null,
+            "explanation": "Example: “Rooted in the oath of Hippocrates, the medical profession has a long tradition of ethics. Doctors are expected to treat every patient with respect, while always protecting their privacy. It is crucial to tell patients the truth about their health. Furthermore, doctors should continue learning throughout their careers. They must never use their position for personal gain. Such a code builds trust between doctors and the people they serve.”",
+            "feedback": {
+              "correct": "Check: a participle phrase, are expected to, it is crucial to and while + -ing.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Open with a participle phrase.",
+                "mode": "Individual",
+                "example": "Rooted in …, the profession …"
+              },
+              {
+                "question": "Use are expected to and it is crucial to.",
+                "mode": "Individual",
+                "example": "Members are expected to … It is crucial to …"
+              },
+              {
+                "question": "Add an action with while + -ing.",
+                "mode": "Pair",
+                "example": "…, while always …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Which two duties were among the primary duties of the order?",
+          "options": [
+            "enforcing quality control and regulating prices",
+            "collecting taxes and building roads",
+            "training soldiers and judges"
+          ],
+          "answer": 0,
+          "quote": "enforcing quality control and regulating prices were among the primary duties of the order."
+        },
+        "iCan": [
+          "I can explain the economic role of the Ahî order.",
+          "I can summarize the key characteristics of the Fütüvvet way of life.",
+          "I can use participle clauses, be expected to, it is crucial to and while + -ing."
+        ]
+      },
+      {
+        "id": 6,
+        "type": "story",
+        "title": "Education in the Ahî Organization",
+        "image": "",
+        "audioUrl": "",
+        "content": "Role models play a crucial role in Ahî education, helping people develop good behavior and receive vocational training. The Fütüvvetnameler describe the qualities that these role models must possess in great detail, including performing the five daily prayers, remaining modest, and avoiding worldly attachments tied to self-interest. They must also stay away from what Allah has forbidden, obey His commands, earn a halal (helal) livelihood, and generously support their brothers in faith with kindness, while promoting good and forbidding evil.\n\nIn general, seeking knowledge is a fundamental requirement of the Ahî organization. Members are expected to form close ties with scholars and seek guidance from experts. If individuals lack the skills needed for their profession, they must actively learn them from a master or an educated person, and they must deeply value that knowledge. According to traditional Ahî teachings, failing to learn a craft properly brings shame both in this world and in the afterlife. Therefore, one must never attempt a task without proper training. Ultimately, the activities within fütüvvet circles were, in essence, a form of education.\n\nPeople who began their Ahî training at a young age went through specific ranks and examinations. They started as apprentices, advanced to journeymen, and eventually became masters. The goal of these stages was to help individuals integrate what they had learned into their daily behavior. In a sense, every aspect of a zaviye member’s life was under supervision. The rules governing all their actions, from walking down the street to visiting the sick, were taught through reading, oral instructions, or the example of a role model.\n\nAlongside the madrasas (established in Anatolia after the arrival of the Turks) and the Sufi tekkes that provided public education, Ahî zaviyes were also widespread educational institutions with a very broad sphere of influence. These zaviyes functioned as a type of school and played a significant role in educating the people of Anatolia. Their education covered every aspect of life. These institutions shaped society’s worldview and functioned as cultural centers where Anatolian Turkish society flourished.",
+        "vocabulary": [
+          {
+            "word": "Role models",
+            "definition": "People others want to be like."
+          },
+          {
+            "word": "develop good behavior",
+            "definition": "Learn to act in a good way."
+          },
+          {
+            "word": "receive vocational training",
+            "definition": "Learn the skills for a job."
+          },
+          {
+            "word": "qualities",
+            "definition": "Good parts of a person’s character."
+          },
+          {
+            "word": "possess",
+            "definition": "Have or own."
+          },
+          {
+            "word": "attachments",
+            "definition": "Strong feelings of needing something."
+          },
+          {
+            "word": "tied to",
+            "definition": "Closely connected with."
+          },
+          {
+            "word": "promoting good",
+            "definition": "Encouraging good actions."
+          },
+          {
+            "word": "forbidding evil",
+            "definition": "Stopping bad actions."
+          },
+          {
+            "word": "seeking knowledge",
+            "definition": "Trying to learn."
+          },
+          {
+            "word": "fundamental requirement",
+            "definition": "A basic and necessary rule."
+          },
+          {
+            "word": "seek guidance",
+            "definition": "Ask for advice."
+          },
+          {
+            "word": "properly",
+            "definition": "Correctly."
+          },
+          {
+            "word": "brings shame",
+            "definition": "Makes someone feel dishonored."
+          },
+          {
+            "word": "Ultimately",
+            "definition": "In the end; most importantly."
+          },
+          {
+            "word": "ranks",
+            "definition": "Levels in an organization."
+          },
+          {
+            "word": "advanced to",
+            "definition": "Moved up to a higher level."
+          },
+          {
+            "word": "supervision",
+            "definition": "Being watched and guided."
+          },
+          {
+            "word": "provided",
+            "definition": "Gave."
+          },
+          {
+            "word": "functioned",
+            "definition": "Worked or acted as."
+          },
+          {
+            "word": "flourished",
+            "definition": "Grew and developed very well."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "ahi-b2-en-h6a",
+            "x": 30,
+            "y": 40,
+            "title": "Role Models",
+            "description": "Role models play a crucial role in Ahî education."
+          },
+          {
+            "id": "ahi-b2-en-h6b",
+            "x": 70,
+            "y": 45,
+            "title": "Zaviyes",
+            "description": "Ahî zaviyes functioned as a type of school and played a significant role in educating the people of Anatolia."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "ahi-b2-quick-6",
+            "type": "sequencing",
+            "title": "Ranks of Training",
+            "instructions": "Put the ranks of Ahî training in order.",
+            "question": "How did people advance?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "People began their Ahî training at a young age."
+              },
+              {
+                "id": "2",
+                "text": "Trainees started as apprentices."
+              },
+              {
+                "id": "3",
+                "text": "Apprentices advanced to journeymen."
+              },
+              {
+                "id": "4",
+                "text": "Journeymen eventually became masters."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4"],
+            "explanation": "Chapter 6: “They started as apprentices, advanced to journeymen, and eventually became masters.”",
+            "feedback": {
+              "correct": "Correct. Apprentice, journeyman, master.",
+              "incorrect": "Read the third paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "ahi-b2-language-6-conditional-rule",
+            "type": "multiple-choice",
+            "title": "Notice: If Individuals Lack …, They Must …",
+            "instructions": "Read the sentence. Then choose what it expresses.",
+            "question": "“If individuals lack the skills needed for their profession, they must actively learn them from a master or an educated person.” What does it express?",
+            "options": [
+              "a general rule that applies whenever the condition is true",
+              "an imaginary situation in the past",
+              "a prediction about one person"
+            ],
+            "correctAnswer": 0,
+            "explanation": "“If + present simple, must + base verb” states a general rule or obligation. “Needed for their profession” is a reduced relative clause (= that are needed).",
+            "feedback": {
+              "correct": "Correct. A general rule.",
+              "incorrect": "Is it about one moment or about any time?"
+            }
+          },
+          {
+            "id": "ahi-b2-language-6-ultimately",
+            "type": "choose-form",
+            "title": "Build: Therefore, Ultimately, Under Supervision",
+            "instructions": "Choose the correct form for each sentence from Chapter 6.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Failing to learn a craft properly brings shame. [choice], one must never attempt a task without proper training.",
+                "options": ["Therefore", "Nevertheless", "Meanwhile"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice], the activities within fütüvvet circles were, in essence, a form of education.",
+                "options": ["Ultimately", "Initially", "Unlike"],
+                "answer": 0
+              },
+              {
+                "sentence": "Every aspect of a zaviye member’s life was [choice] supervision.",
+                "options": ["under", "below", "beneath"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Therefore” introduces a logical result. “Ultimately” introduces a final conclusion. “Under supervision” is a fixed phrase.",
+            "feedback": {
+              "correct": "Well done. Therefore, Ultimately, under.",
+              "incorrect": "Check the linkers and the fixed phrase."
+            }
+          },
+          {
+            "id": "ahi-b2-language-6-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "Failing to learn a craft properly brings shame.",
+                "frame": "If you [blank] to learn a craft properly, it brings shame.",
+                "answers": ["fail"]
+              },
+              {
+                "source": "The rules were taught through reading, oral instructions, or the example of a role model.",
+                "frame": "Members [blank] the rules through reading, oral instructions, or the example of a role model.",
+                "answers": ["learned"]
+              },
+              {
+                "source": "Seeking knowledge is a fundamental requirement of the Ahî organization.",
+                "frame": "The Ahî organization [blank] its members to seek knowledge.",
+                "answers": ["required", "requires", "expected", "expects"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "A gerund subject can become an if-clause. A passive can become active from another point of view. A noun phrase (requirement) can become a verb (require).",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use fail, learned and requires."
+            }
+          },
+          {
+            "id": "ahi-b2-language-6-education",
+            "type": "reflection",
+            "title": "Use: Education Beyond the Classroom",
+            "instructions": "Write a paragraph of six to eight sentences comparing Ahî education with education today.",
+            "question": "What can modern schools learn from it?",
+            "correctAnswer": null,
+            "explanation": "Example: “In Ahî education, learning a job and learning good behavior went together. Role models taught through their own example, not only through words. Today, many schools focus mainly on exams. If students want to become good professionals, they must also develop good character. Internships and mentoring programs can play the role of the Ahî master. Ultimately, education should prepare young people not only for work but also for life.”",
+            "feedback": {
+              "correct": "Check: a feature of Ahî education, a conditional rule and ultimately.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe one feature of Ahî education.",
+                "mode": "Individual",
+                "example": "In Ahî education, …"
+              },
+              {
+                "question": "Use a conditional rule with must.",
+                "mode": "Individual",
+                "example": "If students …, they must …"
+              },
+              {
+                "question": "Conclude with ultimately.",
+                "mode": "Pair",
+                "example": "Ultimately, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Through what three ways were the rules taught?",
+          "options": ["reading, oral instructions, or the example of a role model", "exams, books and travel", "songs, games and stories"],
+          "answer": 0,
+          "quote": "were taught through reading, oral instructions, or the example of a role model."
+        },
+        "iCan": [
+          "I can explain the role of role models and knowledge in Ahî education.",
+          "I can describe the ranks of training and the role of the zaviyes.",
+          "I can use conditional rules, therefore, ultimately and passive reporting."
+        ]
+      },
+      {
+        "id": 7,
+        "type": "story",
+        "title": "The Ahîs and the Ottoman State",
+        "image": "",
+        "audioUrl": "",
+        "content": "The Ahî movement also played a major role in the founding of the Ottoman Empire. Historical sources mention the Ahîs who were originally part of Turkmen groups as one of the four groups that took an active part in establishing the empire. It is known that most of the early Ottoman sultans and viziers were connected with the Ahî organization. For instance, Murad I joined this organization, and it was used as a military force during conquests. However, especially beginning in the reign of Mehmed II (1444–1446, 1451–1481), Ahî institution lost its political power. From that period on, it became an organization that only managed the administrative affairs of craft guilds.\n\nIn conclusion, the organization carried out important tasks not only in the field of education but also in the economic, military, and political spheres. Indeed, the 14th-century traveler from Tangier, Ibn Battuta, explained that the Ahî organization was found nowhere else. He noted that all the world’s beauties were found together in one place in Anatolia. The text attributes this to the brotherhood, which transformed the region into a highly prosperous area with exceptional social, economic, and political order.",
+        "vocabulary": [
+          {
+            "word": "administrative affairs",
+            "definition": "Matters of organization and management."
+          },
+          {
+            "word": "craft guilds",
+            "definition": "Groups of skilled workers in the same trade."
+          },
+          {
+            "word": "attributes",
+            "definition": "Says that something is caused by."
+          },
+          {
+            "word": "exceptional",
+            "definition": "Unusually good."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "ahi-b2-en-h7a",
+            "x": 30,
+            "y": 40,
+            "title": "Murad I",
+            "description": "Murad I joined the Ahî organization, and it was used as a military force during conquests."
+          },
+          {
+            "id": "ahi-b2-en-h7b",
+            "x": 70,
+            "y": 45,
+            "title": "Ibn Battuta",
+            "description": "The 14th-century traveler from Tangier, Ibn Battuta, explained that the Ahî organization was found nowhere else."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "ahi-b2-quick-7",
+            "type": "multiple-choice",
+            "title": "Ibn Battuta’s View",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "To what does the text attribute the prosperity of Anatolia?",
+            "options": ["to the brotherhood of the Ahî organization", "to the Mongol rulers", "to trade with Europe"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 7: “The text attributes this to the brotherhood, which transformed the region into a highly prosperous area with exceptional social, economic, and political order.”",
+            "feedback": {
+              "correct": "Correct. To the brotherhood.",
+              "incorrect": "Read the last sentence of the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "ahi-b2-language-7-it-is-known",
+            "type": "multiple-choice",
+            "title": "Notice: It Is Known That …",
+            "instructions": "Read the sentence. Then choose what “It is known that” shows.",
+            "question": "“It is known that most of the early Ottoman sultans and viziers were connected with the Ahî organization.” What does “It is known that” show?",
+            "options": [
+              "The writer presents the information as an established fact.",
+              "The writer is only guessing.",
+              "The writer disagrees with the information."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“It is known that …” is an impersonal passive that presents information as widely accepted. Compare “It is believed that …” (Chapter 4), which is less certain.",
+            "feedback": {
+              "correct": "Correct. It presents an established fact.",
+              "incorrect": "Compare it with “is believed” in Chapter 4."
+            }
+          },
+          {
+            "id": "ahi-b2-language-7-attribute",
+            "type": "choose-form",
+            "title": "Build: Not Only … But Also, Attribute … To, Mention … As",
+            "instructions": "Choose the correct form for each sentence from Chapter 7.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The organization carried out important tasks not only in the field of education [choice] in the economic, military, and political spheres.",
+                "options": ["but also", "and also not", "as well"],
+                "answer": 0
+              },
+              {
+                "sentence": "The text attributes this [choice] the brotherhood.",
+                "options": ["to", "for", "with"],
+                "answer": 0
+              },
+              {
+                "sentence": "Historical sources mention the Ahîs [choice] one of the four groups that took an active part in establishing the empire.",
+                "options": ["as", "like", "for"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Not only … but also” adds and stresses. “Attribute X to Y” = say that Y caused X. “Mention X as Y” = describe X as Y.",
+            "feedback": {
+              "correct": "Well done. But also, to, as.",
+              "incorrect": "Check the pair, and the prepositions after attribute and mention."
+            }
+          },
+          {
+            "id": "ahi-b2-language-7-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "It is known that most of the early Ottoman sultans were connected with the Ahî organization.",
+                "frame": "Most of the early Ottoman sultans are known to [blank] been connected with the Ahî organization.",
+                "answers": ["have"]
+              },
+              {
+                "source": "The text attributes this to the brotherhood.",
+                "frame": "According to the text, the brotherhood was [blank] for this.",
+                "answers": ["responsible"]
+              },
+              {
+                "source": "Ibn Battuta explained that the Ahî organization was found nowhere else.",
+                "frame": "Ibn Battuta explained that the Ahî organization was [blank].",
+                "answers": ["unique"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“It is known that …” = “… are known to have …”. “Attribute X to Y” = “Y was responsible for X”. “Found nowhere else” = “unique”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use have, responsible and unique."
+            }
+          },
+          {
+            "id": "ahi-b2-language-7-legacy",
+            "type": "reflection",
+            "title": "Use: Assessing an Institution’s Influence",
+            "instructions": "Write a paragraph of six to eight sentences assessing the influence of an institution on your country.",
+            "question": "In which areas was it influential, and what caused its success?",
+            "correctAnswer": null,
+            "explanation": "Example: “It is known that the Ottoman foundations (vakıfs) built many mosques, schools, fountains and bridges. They were influential not only in religious life but also in education and public services. Many of their buildings are still used today. Some historians attribute their success to the strong tradition of charity in society. Others point to the careful rules written in the foundation documents. Either way, their legacy is still visible in our cities.”",
+            "feedback": {
+              "correct": "Check: it is known that, not only … but also and attribute … to.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Present one established fact with it is known that.",
+                "mode": "Individual",
+                "example": "It is known that …"
+              },
+              {
+                "question": "Use not only … but also for areas of influence.",
+                "mode": "Individual",
+                "example": "It was influential not only in … but also in …"
+              },
+              {
+                "question": "Attribute its success to a cause.",
+                "mode": "Pair",
+                "example": "Historians attribute its success to …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: What happened to the Ahî institution beginning in the reign of Mehmed II?",
+          "options": ["It lost its political power.", "It became the Ottoman government.", "It moved to another country."],
+          "answer": 0,
+          "quote": "Ahî institution lost its political power."
+        },
+        "iCan": [
+          "I can explain the Ahîs’ role in the founding of the Ottoman Empire and its later decline.",
+          "I can distinguish facts, reported views and the writer’s conclusion.",
+          "I can use it is known that, not only … but also and attribute … to."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "story",
+        "title": "Joining Ceremonies",
+        "image": "",
+        "audioUrl": "",
+        "content": "Initiation into the Ahî organization involved ceremonial practices such as drinking şerbet and dressing members in a traditional belt, peştamal, or şalvar. These rituals held symbolic significance. For instance, the act of wearing the traditional belt represented the following:\n\nThe belt has seven names, and each name carries one principle. The belt has seven principles. It carries seven specific meanings for both tying and untying, with each symbolizing a different virtue.\n\nHere, doors are opened for good deeds and closed to bad ones, thus welcoming righteous actions while strictly avoiding wrongdoing.\n\nThat is to say:\n\nClose the door of stinginess and open the door of generosity,\n\nClose the door of anger and open the door of patience,\n\nClose the door of greed and desire and open the door of contentment,\n\nClose the door of overindulgence and worldly pleasures and open the door of self-discipline and repentance,\n\nClose the door to worldly expectations from other people and open the door to the gifts of the Creator,\n\nClose the door to idleness and idle talk and open the door to knowledge and wisdom,\n\nClose the door of evil deeds and open the door of righteous deeds.",
+        "vocabulary": [
+          {
+            "word": "rituals",
+            "definition": "Actions always done in the same way in a ceremony."
+          },
+          {
+            "word": "held",
+            "definition": "Had."
+          },
+          {
+            "word": "tying",
+            "definition": "Fastening with a knot."
+          },
+          {
+            "word": "untying",
+            "definition": "Opening a knot."
+          },
+          {
+            "word": "righteous",
+            "definition": "Morally right and good."
+          },
+          {
+            "word": "wrongdoing",
+            "definition": "Bad or illegal actions."
+          },
+          {
+            "word": "deeds",
+            "definition": "Actions."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "ahi-b2-en-h8a",
+            "x": 30,
+            "y": 40,
+            "title": "Şerbet",
+            "description": "Initiation into the Ahî organization involved drinking şerbet."
+          },
+          {
+            "id": "ahi-b2-en-h8b",
+            "x": 70,
+            "y": 45,
+            "title": "The Belt",
+            "description": "The belt has seven names, and each name carries one principle."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "ahi-b2-quick-8",
+            "type": "matching",
+            "title": "Close and Open",
+            "instructions": "Match each door to close with the door to open.",
+            "question": "What does the belt symbolize?",
+            "matchingHeadings": {
+              "left": "Close the door of …",
+              "right": "Open the door of …"
+            },
+            "matchingPairs": [
+              {
+                "left": "greed and desire",
+                "right": "contentment"
+              },
+              {
+                "left": "overindulgence and worldly pleasures",
+                "right": "self-discipline and repentance"
+              },
+              {
+                "left": "idleness and idle talk",
+                "right": "knowledge and wisdom"
+              },
+              {
+                "left": "evil deeds",
+                "right": "righteous deeds"
+              }
+            ],
+            "correctAnswer": {
+              "greed and desire": "contentment",
+              "overindulgence and worldly pleasures": "self-discipline and repentance",
+              "idleness and idle talk": "knowledge and wisdom",
+              "evil deeds": "righteous deeds"
+            },
+            "explanation": "Chapter 8 lists seven pairs: each closes the door of a vice and opens the door of a virtue.",
+            "feedback": {
+              "correct": "Correct. Each vice matches a virtue.",
+              "incorrect": "Read the list at the end of the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "ahi-b2-language-8-with-each",
+            "type": "multiple-choice",
+            "title": "Notice: With Each Symbolizing …",
+            "instructions": "Read the sentence. Then choose what “with each symbolizing” does.",
+            "question": "“It carries seven specific meanings for both tying and untying, with each symbolizing a different virtue.” What does “with each symbolizing a different virtue” do?",
+            "options": [
+              "It adds detail about each of the seven meanings.",
+              "It gives the reason for wearing the belt.",
+              "It describes the time of the ceremony."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“With + noun + -ing” is a compact way to add detail: “and each one symbolizes a different virtue”.",
+            "feedback": {
+              "correct": "Correct. It adds detail about each meaning.",
+              "incorrect": "Rewrite it with “and each one …”."
+            }
+          },
+          {
+            "id": "ahi-b2-language-8-thus",
+            "type": "choose-form",
+            "title": "Build: Thus, Held, That Is to Say",
+            "instructions": "Choose the correct form for each sentence from Chapter 8.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "These rituals [choice] symbolic significance.",
+                "options": ["held", "hold to", "were held"],
+                "answer": 0
+              },
+              {
+                "sentence": "Doors are opened for good deeds and closed to bad ones, [choice] welcoming righteous actions.",
+                "options": ["thus", "unless", "despite"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice]: close the door of stinginess and open the door of generosity.",
+                "options": ["That is to say", "On the contrary", "In spite of this"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Hold significance” = have meaning. “Thus + -ing” introduces a result. “That is to say” introduces an explanation.",
+            "feedback": {
+              "correct": "Well done. Held, thus, That is to say.",
+              "incorrect": "Check the verb, the result word and the explaining phrase."
+            }
+          },
+          {
+            "id": "ahi-b2-language-8-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "These rituals held symbolic significance.",
+                "frame": "These rituals [blank] a symbolic meaning.",
+                "answers": ["had"]
+              },
+              {
+                "source": "It carries seven specific meanings, with each symbolizing a different virtue.",
+                "frame": "It carries seven specific meanings, and each one [blank] a different virtue.",
+                "answers": ["symbolizes", "represents"]
+              },
+              {
+                "source": "Close the door of greed and desire and open the door of contentment.",
+                "frame": "Stop being greedy and learn to be [blank] with what you have.",
+                "answers": ["content", "happy", "satisfied"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Hold significance” = “have meaning”. “With each + -ing” = “and each one + verb”. A symbolic line can be said in plain words.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use had, symbolizes and content."
+            }
+          },
+          {
+            "id": "ahi-b2-language-8-symbol",
+            "type": "reflection",
+            "title": "Use: Interpreting a Symbol",
+            "instructions": "Write a paragraph of six to eight sentences interpreting a symbol from your culture.",
+            "question": "What does it represent, and what values does it teach?",
+            "correctAnswer": null,
+            "explanation": "Example: “In many Turkish homes, guests are offered water, coffee and a sweet. These small rituals hold deep meaning. The three gifts welcome the guest in three ways, with each expressing respect, friendship and joy. The host serves the guest first, thus showing that the guest is honored. That is to say, hospitality is not just about food; it is about making others feel valued.”",
+            "feedback": {
+              "correct": "Check: with each + -ing, thus or that is to say, and a clear interpretation.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe the symbol and when it is used.",
+                "mode": "Individual",
+                "example": "In …, people …"
+              },
+              {
+                "question": "Explain its meanings with with each + -ing.",
+                "mode": "Individual",
+                "example": "It has three parts, with each representing …"
+              },
+              {
+                "question": "Use thus or that is to say.",
+                "mode": "Pair",
+                "example": "That is to say, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: How many principles does the belt have?",
+          "options": ["seven", "four", "twelve"],
+          "answer": 0,
+          "quote": "The belt has seven principles."
+        },
+        "iCan": [
+          "I can describe the initiation rituals of the Ahî organization.",
+          "I can interpret the symbolism of the belt.",
+          "I can use participle clauses (thus welcoming, with each symbolizing) and parallel imperatives."
+        ],
+        "groupTask": {
+          "type": "jigsaw",
+          "title": "The Ahî Legacy: A Panel Discussion",
+          "time": "20 min",
+          "groupSize": "4",
+          "roles": [
+            {
+              "name": "Historian",
+              "job": "You explain the roots and political role of the Ahîs: fütüvvet, the Caliph’s robe, Ahî Evran and the Ottomans (Chapters 2–4, 7)."
+            },
+            {
+              "name": "Economist",
+              "job": "You explain how the order regulated trade, quality and prices (Chapter 5)."
+            },
+            {
+              "name": "Educator",
+              "job": "You explain role models, ranks, supervision and the zaviyes (Chapter 6)."
+            },
+            {
+              "name": "Ethicist",
+              "job": "You explain the Fütüvvet way of life and the symbolism of the belt (Chapters 5 and 8)."
+            }
+          ],
+          "steps": [
+            "Prepare a two-minute statement with three key points and one quotation from the book.",
+            "Hold a panel discussion: each expert speaks, then answers one question from the others.",
+            "Together, agree on the most important lesson of the Ahî legacy for today.",
+            "Write a joint conclusion of four to five sentences."
+          ],
+          "share": "Each panel presents its conclusion and the evidence behind it.",
+          "solo": "Write an essay paragraph on the most important lesson of the Ahî legacy, with evidence from three chapters."
+        }
+      },
+      {
+        "id": 9,
+        "type": "quiz",
+        "title": "Knowledge Check",
+        "image": "",
+        "audioUrl": "",
+        "content": "Check your understanding of the complete book.",
+        "exercises": [
+          {
+            "id": "ahi-b2-kc-1-role",
+            "type": "multiple-choice",
+            "title": "A Crucial Role",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "In what did the Ahî Organization subsequently play a crucial role?",
+            "options": ["the establishment of the Ottoman Empire", "the fall of the Abbasid Caliphate", "the Mongol conquest of Anatolia"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “… a religious and social institution that subsequently played a crucial role in the establishment of the Ottoman Empire.”",
+            "feedback": {
+              "correct": "Correct. The establishment of the Ottoman Empire.",
+              "incorrect": "Read the first sentence of the book."
+            }
+          },
+          {
+            "id": "ahi-b2-kc-2-sufi",
+            "type": "true-false",
+            "title": "The Final Stage",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "In its final stage, fütüvvet lost all of its Sufi character.",
+            "correctAnswer": false,
+            "explanation": "Chapter 2: “… functioning as a professional organization while mostly keeping its Sufi character.”",
+            "feedback": {
+              "correct": "Correct. It mostly kept its Sufi character.",
+              "incorrect": "Read the end of the first paragraph of Chapter 2."
+            }
+          },
+          {
+            "id": "ahi-b2-kc-3-caliph",
+            "type": "multiple-choice",
+            "title": "The Caliph’s Aim",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What did Nasir-Lidinillah aim to do?",
+            "options": [
+              "rule the entire Islamic world, in theory and in practice",
+              "conquer Anatolia with an army",
+              "move his capital to Konya"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “Nasir-Lidinillah aimed to rule the entire Islamic world, not just in theory but also in practice …”",
+            "feedback": {
+              "correct": "Correct. Rule the entire Islamic world.",
+              "incorrect": "Read the first paragraph of Chapter 3."
+            }
+          },
+          {
+            "id": "ahi-b2-kc-4-reach",
+            "type": "true-false",
+            "title": "Reaching Everyone",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The Ahî order reached city dwellers as well as nomadic and semi-nomadic peoples.",
+            "correctAnswer": true,
+            "explanation": "Chapter 4: “The order extended from major cities to rural villages, reaching city dwellers as well as nomadic and semi-nomadic peoples.”",
+            "feedback": {
+              "correct": "Correct. It reached all of them.",
+              "incorrect": "Read the second paragraph of Chapter 4."
+            }
+          },
+          {
+            "id": "ahi-b2-kc-5-guilds",
+            "type": "multiple-choice",
+            "title": "Trade Guilds",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "During the Anatolian Seljuk era, how did the order function?",
+            "options": ["like a system of trade guilds", "like a royal army", "like a university"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “For example, during the Anatolian Seljuk era, this order functioned like a system of trade guilds.”",
+            "feedback": {
+              "correct": "Correct. Like a system of trade guilds.",
+              "incorrect": "Read the first paragraph of Chapter 5."
+            }
+          },
+          {
+            "id": "ahi-b2-kc-6-supervision",
+            "type": "multiple-choice",
+            "title": "Under Supervision",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What was under supervision in a zaviye member’s life?",
+            "options": ["every aspect of it", "only their work", "only their prayers"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 6: “In a sense, every aspect of a zaviye member’s life was under supervision.”",
+            "feedback": {
+              "correct": "Correct. Every aspect.",
+              "incorrect": "Find “supervision” in Chapter 6."
+            }
+          },
+          {
+            "id": "ahi-b2-kc-7-military",
+            "type": "true-false",
+            "title": "A Military Force",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The Ahî organization was used as a military force during conquests.",
+            "correctAnswer": true,
+            "explanation": "Chapter 7: “For instance, Murad I joined this organization, and it was used as a military force during conquests.”",
+            "feedback": {
+              "correct": "Correct. It was used as a military force.",
+              "incorrect": "Find Murad I in Chapter 7."
+            }
+          },
+          {
+            "id": "ahi-b2-kc-8-tying",
+            "type": "multiple-choice",
+            "title": "Tying and Untying",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What does each of the seven meanings of the belt symbolize?",
+            "options": ["a different virtue", "a different city", "a different master"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 8: “It carries seven specific meanings for both tying and untying, with each symbolizing a different virtue.”",
+            "feedback": {
+              "correct": "Correct. A different virtue.",
+              "incorrect": "Read the second paragraph of Chapter 8."
+            }
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "glossary",
+        "title": "Master Glossary",
+        "content": "Review all key vocabulary from the book in one place.",
+        "image": "",
+        "vocabulary": [
+          {
+            "word": "emerged",
+            "definition": "Appeared or came into existence.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ɪˈmɜːrdʒd/",
+            "category": "Time & Change",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "The Ahî Organization",
+            "storyExample": "The Ahî Organization, which emerged in 13th-century Anatolia, was a religious and social institution that subsequently played a crucial role in the establishment of the Ottoman Empire."
+          },
+          {
+            "word": "subsequently",
+            "definition": "Later; after that.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ˈsʌbsɪkwəntli/",
+            "category": "Time & Change",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "The Ahî Organization",
+            "storyExample": "The Ahî Organization, which emerged in 13th-century Anatolia, was a religious and social institution that subsequently played a crucial role in the establishment of the Ottoman Empire."
+          },
+          {
+            "word": "commercial life",
+            "definition": "The world of buying and selling.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/kəˈmɜːrʃəl laɪf/",
+            "category": "Work & Trade",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "The Ahî Organization",
+            "storyExample": "Throughout the centuries, the institution guided society with principles and rules governing moral, sociocultural, and commercial life."
+          },
+          {
+            "word": "derived",
+            "definition": "Taken or developed from something else.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/dɪˈraɪvd/",
+            "category": "Language & Communication",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "The Ahî Organization",
+            "storyExample": "The word ‘Ahî’ is derived either from the Arabic word ‘ah’, meaning ‘brother’, or from the Turkish word ‘akı’, meaning ‘generous and brave’."
+          },
+          {
+            "word": "grasp",
+            "definition": "Understand fully.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ɡræsp/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "The Ahî Organization",
+            "storyExample": "In the Arabic reading, ‘ahî’ means ‘my brother.’ To fully grasp the function of the Ahî organization, we must first focus on fütüvvet organizations, which heavily influenced the establishment of the Ahî organizations in Anatolia."
+          },
+          {
+            "word": "function",
+            "definition": "The purpose or job of something.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈfʌŋkʃən/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "The Ahî Organization",
+            "storyExample": "In the Arabic reading, ‘ahî’ means ‘my brother.’ To fully grasp the function of the Ahî organization, we must first focus on fütüvvet organizations, which heavily influenced the establishment of the Ahî organizations in Anatolia."
+          },
+          {
+            "word": "virtue",
+            "definition": "A very good moral quality.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈvɜːrtʃuː/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "The Fütüvvet Tradition",
+            "storyExample": "In pre-Islamic Arab society, the term ‘fetâ’ referred to qualities like generosity, bravery, fearlessness, helpfulness, and virtue."
+          },
+          {
+            "word": "expanded from",
+            "definition": "Grew larger, starting from.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/ɪkˈspændɪd frɒm/",
+            "category": "Time & Change",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "The Fütüvvet Tradition",
+            "storyExample": "Also in the 9th century, as the Sufi movement expanded from an individual lifestyle into an organized form, fütüvvet adopted a ‘Sufi fütüvvet’ identity and became a part of Sufism."
+          },
+          {
+            "word": "adopted",
+            "definition": "Took and began to use.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/əˈdɒptɪd/",
+            "category": "Actions & Behavior",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "The Fütüvvet Tradition",
+            "storyExample": "Also in the 9th century, as the Sufi movement expanded from an individual lifestyle into an organized form, fütüvvet adopted a ‘Sufi fütüvvet’ identity and became a part of Sufism."
+          },
+          {
+            "word": "onwards",
+            "definition": "From that time and continuing.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ˈɒnwərdz/",
+            "category": "Time & Change",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "The Fütüvvet Tradition",
+            "storyExample": "From the 13th century onwards, it acquired a unique meaning among Anatolian Turks and turned into the Ahî movement."
+          },
+          {
+            "word": "acquired",
+            "definition": "Gained or got.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/əˈkwaɪərd/",
+            "category": "Time & Change",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "The Fütüvvet Tradition",
+            "storyExample": "From the 13th century onwards, it acquired a unique meaning among Anatolian Turks and turned into the Ahî movement."
+          },
+          {
+            "word": "emissary",
+            "definition": "A person sent with an official message.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈemɪseri/",
+            "category": "Government & Power",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Caliph’s Robe",
+            "storyExample": "Indeed, during the reign of Sultan Alâeddin Keykubad I (1220–1237), the Abbasid Caliph Nâsır-Lidînillâh (1180–1225), who regarded himself as the leader of the fütüvvet order, sent a fütüvvet robe to the sultan through an emissary."
+          },
+          {
+            "word": "envoy",
+            "definition": "An official messenger of a ruler.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈenvɔɪ/",
+            "category": "Government & Power",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Caliph’s Robe",
+            "storyExample": "The envoy sent by the caliph was Şehâbeddin es-Sühreverdî (d. 1234)."
+          },
+          {
+            "word": "scattered",
+            "definition": "Spread over a wide area, not united.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈskætərd/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Caliph’s Robe",
+            "storyExample": "Being a well-known mufassir, hadith scholar, and beloved Sufi, Sühreverdî had the influence needed to unite scattered fütüvvet groups and restructure them for this purpose."
+          },
+          {
+            "word": "grant",
+            "definition": "Officially give.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ɡrænt/",
+            "category": "Government & Power",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Caliph’s Robe",
+            "storyExample": "To this end, the Caliph intended to grant official status to the fütüvvet institution, which had previously been unofficial."
+          },
+          {
+            "word": "legitimacy",
+            "definition": "Being accepted as lawful and right.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/lɪˈdʒɪtɪməsi/",
+            "category": "Government & Power",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Caliph’s Robe",
+            "storyExample": "By transforming the organization into a governmental body, he sought to give it legitimacy and secure its political support."
+          },
+          {
+            "word": "carrying out",
+            "definition": "Doing or completing.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/ˈkæriɪŋ aʊt/",
+            "category": "Actions & Behavior",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Caliph’s Robe",
+            "storyExample": "While carrying out this important task, the Caliph relied heavily on Sühreverdî, benefiting greatly from his immense spiritual influence and strategic ideas."
+          },
+          {
+            "word": "immense",
+            "definition": "Extremely large.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ɪˈmens/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Caliph’s Robe",
+            "storyExample": "While carrying out this important task, the Caliph relied heavily on Sühreverdî, benefiting greatly from his immense spiritual influence and strategic ideas."
+          },
+          {
+            "word": "ceremonial",
+            "definition": "Used in an official ceremony.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˌserɪˈmoʊniəl/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Caliph’s Robe",
+            "storyExample": "Upon his arrival in Konya, Sühreverdî was received with great ceremony and dressed Alaeddin Keykubad in the ceremonial robe sent by the Caliph."
+          },
+          {
+            "word": "robe",
+            "definition": "A long, loose piece of clothing.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/roʊb/",
+            "category": "Things",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Caliph’s Robe",
+            "storyExample": "Indeed, during the reign of Sultan Alâeddin Keykubad I (1220–1237), the Abbasid Caliph Nâsır-Lidînillâh (1180–1225), who regarded himself as the leader of the fütüvvet order, sent a fütüvvet robe to the sultan through an emissary."
+          },
+          {
+            "word": "recognized",
+            "definition": "Officially accepted.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈrekəɡnaɪzd/",
+            "category": "Government & Power",
+            "level": "B2",
+            "chapter": 3,
+            "chapterTitle": "The Caliph’s Robe",
+            "storyExample": "Through this act, the Abbasid Caliph officially recognized Keykubad’s political authority."
+          },
+          {
+            "word": "tanners",
+            "definition": "People who make leather from animal skins.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈtænərz/",
+            "category": "Work & Trade",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "Known as the spiritual leader of tanners and other craftsmen, Ahî Evran established a zaviye in Kırşehir that became the socio-religious and professional center for artisans all across Anatolia."
+          },
+          {
+            "word": "artisans",
+            "definition": "Skilled workers who make things by hand.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈɑːrtɪzənz/",
+            "category": "Work & Trade",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "Known as the spiritual leader of tanners and other craftsmen, Ahî Evran established a zaviye in Kırşehir that became the socio-religious and professional center for artisans all across Anatolia."
+          },
+          {
+            "word": "dwellers",
+            "definition": "People who live in a place.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈdwelərz/",
+            "category": "Places & Geography",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "The order extended from major cities to rural villages, reaching city dwellers as well as nomadic and semi-nomadic peoples."
+          },
+          {
+            "word": "nomadic",
+            "definition": "Moving from place to place to live.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/noʊˈmædɪk/",
+            "category": "Places & Geography",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "The order extended from major cities to rural villages, reaching city dwellers as well as nomadic and semi-nomadic peoples."
+          },
+          {
+            "word": "semi-nomadic",
+            "definition": "Moving for part of the year.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˌsemi noʊˈmædɪk/",
+            "category": "Places & Geography",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "The order extended from major cities to rural villages, reaching city dwellers as well as nomadic and semi-nomadic peoples."
+          },
+          {
+            "word": "demonstrated",
+            "definition": "Clearly showed.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈdemənstreɪtɪd/",
+            "category": "Actions & Behavior",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "They demonstrated their political and military power during times when central authority broke down and anarchy emerged."
+          },
+          {
+            "word": "assassination",
+            "definition": "The murder of an important person.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/əˌsæsɪˈneɪʃən/",
+            "category": "War & Conflict",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "The Ahîs resisted Gıyâseddin II, suspecting him of the assassination of Alaeddin Keykubad I."
+          },
+          {
+            "word": "faithfully",
+            "definition": "In a loyal way.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ˈfeɪθfəli/",
+            "category": "Feelings & Character",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "Alaeddin Keykubad I had faithfully supported the Ahî order and is believed to have been poisoned by his son."
+          },
+          {
+            "word": "poisoned",
+            "definition": "Killed or harmed with poison.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈpɔɪzənd/",
+            "category": "War & Conflict",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "Alaeddin Keykubad I had faithfully supported the Ahî order and is believed to have been poisoned by his son."
+          },
+          {
+            "word": "defense",
+            "definition": "Protecting a place from attack.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/dɪˈfens/",
+            "category": "War & Conflict",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "Later, following Gıyâseddin II’s defeat by the Mongols at Kösedağ, the Ahîs took part in the defense of Kayseri against the Mongols, who had already seized Tokat and Sivas, although the city eventually fell."
+          },
+          {
+            "word": "seized",
+            "definition": "Took by force.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/siːzd/",
+            "category": "War & Conflict",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "Later, following Gıyâseddin II’s defeat by the Mongols at Kösedağ, the Ahîs took part in the defense of Kayseri against the Mongols, who had already seized Tokat and Sivas, although the city eventually fell."
+          },
+          {
+            "word": "eventually",
+            "definition": "In the end, after some time.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ɪˈventʃuəli/",
+            "category": "Time & Change",
+            "level": "B2",
+            "chapter": 4,
+            "chapterTitle": "Ahî Evran and the Spread of the Ahîs",
+            "storyExample": "Later, following Gıyâseddin II’s defeat by the Mongols at Kösedağ, the Ahîs took part in the defense of Kayseri against the Mongols, who had already seized Tokat and Sivas, although the city eventually fell."
+          },
+          {
+            "word": "tekkes",
+            "definition": "Places where Sufis met and prayed.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/tekˈkez/",
+            "category": "Spiritual Life",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Values and Way of Life",
+            "storyExample": "Rooted in Islamic-Sufi thought and the principles of fütüvvet, the Ahî Organization was closely linked to tekkes and zaviyes."
+          },
+          {
+            "word": "zaviyes",
+            "definition": "Small Sufi centers that also hosted travelers.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/zɑːviˈjez/",
+            "category": "Spiritual Life",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Values and Way of Life",
+            "storyExample": "Rooted in Islamic-Sufi thought and the principles of fütüvvet, the Ahî Organization was closely linked to tekkes and zaviyes."
+          },
+          {
+            "word": "regulating",
+            "definition": "Controlling with rules.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈreɡjəleɪtɪŋ/",
+            "category": "Work & Trade",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Values and Way of Life",
+            "storyExample": "It also shaped economic life by regulating the relationships between masters, journeymen, and apprentices in their workshops."
+          },
+          {
+            "word": "guide",
+            "definition": "Show the right way.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ɡaɪd/",
+            "category": "Actions & Behavior",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Values and Way of Life",
+            "storyExample": "The Fütüvvet way of life includes several key characteristics that guide a person’s behavior."
+          },
+          {
+            "word": "treat workers well",
+            "definition": "Be kind and fair to workers.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/triːt ˈwɜːrkərz wel/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Values and Way of Life",
+            "storyExample": "They should help their families, treat workers well, and share meals with others."
+          },
+          {
+            "word": "share meals",
+            "definition": "Eat together with others.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/ʃer miːlz/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Values and Way of Life",
+            "storyExample": "They should help their families, treat workers well, and share meals with others."
+          },
+          {
+            "word": "company",
+            "definition": "The people you spend time with.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkʌmpəni/",
+            "category": "Family & People",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Values and Way of Life",
+            "storyExample": "Furthermore, it is crucial to avoid bad company and instead seek the company of wise elders."
+          },
+          {
+            "word": "seek the company of wise elders",
+            "definition": "Try to spend time with wise older people.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/siːk ðə ˈkʌmpəni əv waɪz ˈeldərz/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Values and Way of Life",
+            "storyExample": "Furthermore, it is crucial to avoid bad company and instead seek the company of wise elders."
+          },
+          {
+            "word": "fellow",
+            "definition": "Sharing the same group or situation.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈfeloʊ/",
+            "category": "Family & People",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Values and Way of Life",
+            "storyExample": "They must also support fellow believers by exchanging gifts and making donations."
+          },
+          {
+            "word": "exchanging gifts",
+            "definition": "Giving gifts to each other.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/ɪksˈtʃeɪndʒɪŋ ɡɪfts/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 5,
+            "chapterTitle": "Values and Way of Life",
+            "storyExample": "They must also support fellow believers by exchanging gifts and making donations."
+          },
+          {
+            "word": "Role models",
+            "definition": "People others want to be like.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/roʊl ˈmɒdəlz/",
+            "category": "Family & People",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "Role models play a crucial role in Ahî education, helping people develop good behavior and receive vocational training."
+          },
+          {
+            "word": "develop good behavior",
+            "definition": "Learn to act in a good way.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/dɪˈveləp ɡʊd bɪˈheɪvjər/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "Role models play a crucial role in Ahî education, helping people develop good behavior and receive vocational training."
+          },
+          {
+            "word": "receive vocational training",
+            "definition": "Learn the skills for a job.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/rɪˈsiːv voʊˈkeɪʃənəl ˈtreɪnɪŋ/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "Role models play a crucial role in Ahî education, helping people develop good behavior and receive vocational training."
+          },
+          {
+            "word": "qualities",
+            "definition": "Good parts of a person’s character.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkwɒlətiz/",
+            "category": "Feelings & Character",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "The Fütüvvetnameler describe the qualities that these role models must possess in great detail, including performing the five daily prayers, remaining modest, and avoiding worldly attachments tied to self-interest."
+          },
+          {
+            "word": "possess",
+            "definition": "Have or own.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/pəˈzes/",
+            "category": "Actions & Behavior",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "The Fütüvvetnameler describe the qualities that these role models must possess in great detail, including performing the five daily prayers, remaining modest, and avoiding worldly attachments tied to self-interest."
+          },
+          {
+            "word": "attachments",
+            "definition": "Strong feelings of needing something.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/əˈtætʃmənts/",
+            "category": "Feelings & Character",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "The Fütüvvetnameler describe the qualities that these role models must possess in great detail, including performing the five daily prayers, remaining modest, and avoiding worldly attachments tied to self-interest."
+          },
+          {
+            "word": "tied to",
+            "definition": "Closely connected with.",
+            "partOfSpeech": "adjective phrase",
+            "pronunciation": "/taɪd tuː/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "The Fütüvvetnameler describe the qualities that these role models must possess in great detail, including performing the five daily prayers, remaining modest, and avoiding worldly attachments tied to self-interest."
+          },
+          {
+            "word": "promoting good",
+            "definition": "Encouraging good actions.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/prəˈmoʊtɪŋ ɡʊd/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "They must also stay away from what Allah has forbidden, obey His commands, earn a halal (helal) livelihood, and generously support their brothers in faith with kindness, while promoting good and forbidding evil."
+          },
+          {
+            "word": "forbidding evil",
+            "definition": "Stopping bad actions.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/fərˈbɪdɪŋ ˈiːvəl/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "They must also stay away from what Allah has forbidden, obey His commands, earn a halal (helal) livelihood, and generously support their brothers in faith with kindness, while promoting good and forbidding evil."
+          },
+          {
+            "word": "seeking knowledge",
+            "definition": "Trying to learn.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/ˈsiːkɪŋ ˈnɒlɪdʒ/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "In general, seeking knowledge is a fundamental requirement of the Ahî organization."
+          },
+          {
+            "word": "fundamental requirement",
+            "definition": "A basic and necessary rule.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˌfʌndəˈmentəl rɪˈkwaɪərmənt/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "In general, seeking knowledge is a fundamental requirement of the Ahî organization."
+          },
+          {
+            "word": "seek guidance",
+            "definition": "Ask for advice.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/siːk ˈɡaɪdəns/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "Members are expected to form close ties with scholars and seek guidance from experts."
+          },
+          {
+            "word": "properly",
+            "definition": "Correctly.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ˈprɒpərli/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "According to traditional Ahî teachings, failing to learn a craft properly brings shame both in this world and in the afterlife."
+          },
+          {
+            "word": "brings shame",
+            "definition": "Makes someone feel dishonored.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/brɪŋz ʃeɪm/",
+            "category": "Feelings & Character",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "According to traditional Ahî teachings, failing to learn a craft properly brings shame both in this world and in the afterlife."
+          },
+          {
+            "word": "Ultimately",
+            "definition": "In the end; most importantly.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ˈʌltɪmətli/",
+            "category": "Linking Words",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "Ultimately, the activities within fütüvvet circles were, in essence, a form of education."
+          },
+          {
+            "word": "ranks",
+            "definition": "Levels in an organization.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ræŋks/",
+            "category": "Work & Trade",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "People who began their Ahî training at a young age went through specific ranks and examinations."
+          },
+          {
+            "word": "advanced to",
+            "definition": "Moved up to a higher level.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/ədˈvænst tuː/",
+            "category": "Work & Trade",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "They started as apprentices, advanced to journeymen, and eventually became masters."
+          },
+          {
+            "word": "supervision",
+            "definition": "Being watched and guided.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˌsuːpərˈvɪʒən/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "In a sense, every aspect of a zaviye member’s life was under supervision."
+          },
+          {
+            "word": "provided",
+            "definition": "Gave.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/prəˈvaɪdɪd/",
+            "category": "Actions & Behavior",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "Alongside the madrasas (established in Anatolia after the arrival of the Turks) and the Sufi tekkes that provided public education, Ahî zaviyes were also widespread educational institutions with a very broad sphere of influence."
+          },
+          {
+            "word": "functioned",
+            "definition": "Worked or acted as.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈfʌŋkʃənd/",
+            "category": "Actions & Behavior",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "These zaviyes functioned as a type of school and played a significant role in educating the people of Anatolia."
+          },
+          {
+            "word": "flourished",
+            "definition": "Grew and developed very well.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈflɜːrɪʃt/",
+            "category": "Time & Change",
+            "level": "B2",
+            "chapter": 6,
+            "chapterTitle": "Education in the Ahî Organization",
+            "storyExample": "These institutions shaped society’s worldview and functioned as cultural centers where Anatolian Turkish society flourished."
+          },
+          {
+            "word": "administrative affairs",
+            "definition": "Matters of organization and management.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ədˈmɪnɪstreɪtɪv əˈferz/",
+            "category": "Work & Trade",
+            "level": "B2",
+            "chapter": 7,
+            "chapterTitle": "The Ahîs and the Ottoman State",
+            "storyExample": "From that period on, it became an organization that only managed the administrative affairs of craft guilds."
+          },
+          {
+            "word": "craft guilds",
+            "definition": "Groups of skilled workers in the same trade.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/kræft ɡɪldz/",
+            "category": "Work & Trade",
+            "level": "B2",
+            "chapter": 7,
+            "chapterTitle": "The Ahîs and the Ottoman State",
+            "storyExample": "From that period on, it became an organization that only managed the administrative affairs of craft guilds."
+          },
+          {
+            "word": "attributes",
+            "definition": "Says that something is caused by.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/əˈtrɪbjuːts/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 7,
+            "chapterTitle": "The Ahîs and the Ottoman State",
+            "storyExample": "The text attributes this to the brotherhood, which transformed the region into a highly prosperous area with exceptional social, economic, and political order."
+          },
+          {
+            "word": "exceptional",
+            "definition": "Unusually good.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ɪkˈsepʃənəl/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 7,
+            "chapterTitle": "The Ahîs and the Ottoman State",
+            "storyExample": "The text attributes this to the brotherhood, which transformed the region into a highly prosperous area with exceptional social, economic, and political order."
+          },
+          {
+            "word": "rituals",
+            "definition": "Actions always done in the same way in a ceremony.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈrɪtʃuəlz/",
+            "category": "Spiritual Life",
+            "level": "B2",
+            "chapter": 8,
+            "chapterTitle": "Joining Ceremonies",
+            "storyExample": "These rituals held symbolic significance."
+          },
+          {
+            "word": "held",
+            "definition": "Had.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/held/",
+            "category": "Ideas & Description",
+            "level": "B2",
+            "chapter": 8,
+            "chapterTitle": "Joining Ceremonies",
+            "storyExample": "These rituals held symbolic significance."
+          },
+          {
+            "word": "tying",
+            "definition": "Fastening with a knot.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈtaɪɪŋ/",
+            "category": "Actions & Behavior",
+            "level": "B2",
+            "chapter": 8,
+            "chapterTitle": "Joining Ceremonies",
+            "storyExample": "It carries seven specific meanings for both tying and untying, with each symbolizing a different virtue."
+          },
+          {
+            "word": "untying",
+            "definition": "Opening a knot.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ʌnˈtaɪɪŋ/",
+            "category": "Actions & Behavior",
+            "level": "B2",
+            "chapter": 8,
+            "chapterTitle": "Joining Ceremonies",
+            "storyExample": "It carries seven specific meanings for both tying and untying, with each symbolizing a different virtue."
+          },
+          {
+            "word": "righteous",
+            "definition": "Morally right and good.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈraɪtʃəs/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 8,
+            "chapterTitle": "Joining Ceremonies",
+            "storyExample": "Here, doors are opened for good deeds and closed to bad ones, thus welcoming righteous actions while strictly avoiding wrongdoing."
+          },
+          {
+            "word": "wrongdoing",
+            "definition": "Bad or illegal actions.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈrɒŋduːɪŋ/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 8,
+            "chapterTitle": "Joining Ceremonies",
+            "storyExample": "Here, doors are opened for good deeds and closed to bad ones, thus welcoming righteous actions while strictly avoiding wrongdoing."
+          },
+          {
+            "word": "deeds",
+            "definition": "Actions.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/diːdz/",
+            "category": "Values & Society",
+            "level": "B2",
+            "chapter": 8,
+            "chapterTitle": "Joining Ceremonies",
+            "storyExample": "Here, doors are opened for good deeds and closed to bad ones, thus welcoming righteous actions while strictly avoiding wrongdoing."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "vocabulary-match",
+        "title": "Vocabulary Challenge",
+        "image": "",
+        "audioUrl": "",
+        "content": "Match 10 words from the book with their meanings.",
+        "vocabularyPairs": [
+          {
+            "word": "subsequently",
+            "meaning": "Later; after that.",
+            "partOfSpeech": "adverb",
+            "chapter": 1,
+            "context": "subsequently played a crucial role in the establishment of the Ottoman Empire."
+          },
+          {
+            "word": "virtue",
+            "meaning": "A very good moral quality.",
+            "partOfSpeech": "noun",
+            "chapter": 2,
+            "context": "the term ‘fetâ’ referred to qualities like generosity, bravery, fearlessness, helpfulness, and virtue."
+          },
+          {
+            "word": "legitimacy",
+            "meaning": "Being accepted as lawful and right.",
+            "partOfSpeech": "noun",
+            "chapter": 3,
+            "context": "he sought to give it legitimacy and secure its political support."
+          },
+          {
+            "word": "immense",
+            "meaning": "Extremely large.",
+            "partOfSpeech": "adjective",
+            "chapter": 3,
+            "context": "benefiting greatly from his immense spiritual influence"
+          },
+          {
+            "word": "seized",
+            "meaning": "Took by force.",
+            "partOfSpeech": "verb",
+            "chapter": 4,
+            "context": "who had already seized Tokat and Sivas"
+          },
+          {
+            "word": "regulating",
+            "meaning": "Controlling with rules.",
+            "partOfSpeech": "verb",
+            "chapter": 5,
+            "context": "enforcing quality control and regulating prices"
+          },
+          {
+            "word": "possess",
+            "meaning": "Have or own.",
+            "partOfSpeech": "verb",
+            "chapter": 6,
+            "context": "the qualities that these role models must possess"
+          },
+          {
+            "word": "flourished",
+            "meaning": "Grew and developed very well.",
+            "partOfSpeech": "verb",
+            "chapter": 6,
+            "context": "cultural centers where Anatolian Turkish society flourished."
+          },
+          {
+            "word": "exceptional",
+            "meaning": "Unusually good.",
+            "partOfSpeech": "adjective",
+            "chapter": 7,
+            "context": "a highly prosperous area with exceptional social, economic, and political order."
+          },
+          {
+            "word": "wrongdoing",
+            "meaning": "Bad or illegal actions.",
+            "partOfSpeech": "noun",
+            "chapter": 8,
+            "context": "thus welcoming righteous actions while strictly avoiding wrongdoing."
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "type": "exercises",
+        "title": "Language Review",
+        "image": "",
+        "content": "Review and use the language of the whole book.",
+        "exercises": [
+          {
+            "id": "ahi-b2-language-review-1-certainty",
+            "type": "drag-drop",
+            "title": "Notice: Degrees of Certainty",
+            "instructions": "Sort the sentences: presented as established fact, or as belief?",
+            "question": "How certain is the writer?",
+            "dragDropGroups": [
+              {
+                "group": "Established fact",
+                "items": [
+                  "It is known that most of the early Ottoman sultans and viziers were connected with the Ahî organization.",
+                  "The concept of fütüvvet reached Anatolia through the Abbasids."
+                ]
+              },
+              {
+                "group": "Belief",
+                "items": ["Alaeddin Keykubad I … is believed to have been poisoned by his son."]
+              }
+            ],
+            "correctAnswer": {
+              "Established fact": [
+                "It is known that most of the early Ottoman sultans and viziers were connected with the Ahî organization.",
+                "The concept of fütüvvet reached Anatolia through the Abbasids."
+              ],
+              "Belief": ["Alaeddin Keykubad I … is believed to have been poisoned by his son."]
+            },
+            "explanation": "The writer distinguishes “It is known that” (established) from “is believed to have been” (less certain) (Chapters 4 and 7).",
+            "feedback": {
+              "correct": "Good. You noticed the degrees of certainty.",
+              "incorrect": "Compare known and believed."
+            }
+          },
+          {
+            "id": "ahi-b2-language-review-2-participle",
+            "type": "multiple-choice",
+            "title": "Notice: Participle Clauses",
+            "instructions": "Read the sentences. Then choose the one where the participle clause gives a reason.",
+            "question": "Which participle clause gives a reason?",
+            "options": [
+              "Being a well-known mufassir, Sühreverdî had the influence needed to unite scattered groups.",
+              "Rooted in Islamic-Sufi thought, the Ahî Organization was linked to tekkes.",
+              "Fütüvvet became integrated with the artisan class, functioning as a professional organization."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Being …” at the start can give a reason (= because he was). “Rooted in …” gives background, and “functioning as …” describes a simultaneous action.",
+            "feedback": {
+              "correct": "Correct. Being … gives a reason.",
+              "incorrect": "Which one can be rewritten with because?"
+            }
+          },
+          {
+            "id": "ahi-b2-language-review-3-which",
+            "type": "true-false",
+            "title": "Notice: Which After a Comma",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "In a non-defining relative clause between commas, we can use that instead of which.",
+            "correctAnswer": false,
+            "explanation": "Non-defining relative clauses (between commas) use which or who, not that: “The Ahî Organization, which emerged in 13th-century Anatolia, …”.",
+            "feedback": {
+              "correct": "Correct. We use which, not that.",
+              "incorrect": "Look at the first sentence of the book."
+            }
+          },
+          {
+            "id": "ahi-b2-language-review-4-linkers",
+            "type": "word-bank",
+            "title": "Build: Linking Ideas",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "How does the book link ideas?",
+            "fillBlanksText": "The Caliph wanted to grant official status to fütüvvet. [blank], the institution would be brought under state control. Failing to learn a craft brings shame. [blank], one must never attempt a task without training. [blank], the activities within fütüvvet circles were a form of education.",
+            "wordBank": ["Consequently", "Therefore", "Ultimately", "Nevertheless", "Meanwhile"],
+            "correctAnswer": ["Consequently", "Therefore", "Ultimately"],
+            "explanation": "“Consequently” and “Therefore” introduce results; “Ultimately” introduces a final conclusion.",
+            "feedback": {
+              "correct": "Well done. Consequently, Therefore, Ultimately.",
+              "incorrect": "Is each gap a result or a final conclusion?"
+            }
+          },
+          {
+            "id": "ahi-b2-language-review-5-patterns",
+            "type": "choose-form",
+            "title": "Build: Advanced Patterns",
+            "instructions": "Choose the correct form for each sentence.",
+            "question": "Which pattern is correct?",
+            "formChoices": [
+              {
+                "sentence": "Keykubad I is believed [choice] poisoned by his son.",
+                "options": ["to have been", "to be", "having been"],
+                "answer": 0
+              },
+              {
+                "sentence": "This institution [choice] under state control.",
+                "options": ["would be brought", "would bring", "will brought"],
+                "answer": 0
+              },
+              {
+                "sentence": "The text attributes this [choice] the brotherhood.",
+                "options": ["to", "for", "on"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Is believed to have been + past participle” refers to the past. “Would be + past participle” is a future-in-the-past passive. “Attribute X to Y”.",
+            "feedback": {
+              "correct": "Correct. To have been, would be brought, to.",
+              "incorrect": "Check the perfect passive infinitive, the future in the past and the preposition."
+            }
+          },
+          {
+            "id": "ahi-b2-language-review-6-grammar",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake in each sentence and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "The word ‘Ahî’ is derived of the Arabic word ‘ah’.",
+                "error": "derived of",
+                "options": ["derived from", "derived by", "derived with"],
+                "answer": 0
+              },
+              {
+                "sentence": "Upon he arrived in Konya, Sühreverdî was received with great ceremony.",
+                "error": "Upon he arrived",
+                "options": ["Upon his arrival", "Upon arrived", "Upon to arrive"],
+                "answer": 0
+              },
+              {
+                "sentence": "Followers are expected being generous and honest.",
+                "error": "expected being",
+                "options": ["expected to be", "expected be", "expecting to be"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use “derived from”, “upon + noun” and “be expected to + verb”.",
+            "feedback": {
+              "correct": "Correct. Derived from, Upon his arrival, expected to be.",
+              "incorrect": "Check the preposition, upon and the infinitive."
+            }
+          },
+          {
+            "id": "ahi-b2-language-review-7-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence so that it keeps the same meaning.",
+            "question": "How else can we express it?",
+            "transformItems": [
+              {
+                "source": "It is known that most early Ottoman sultans were connected with the Ahî organization.",
+                "frame": "Most early Ottoman sultans are known to have [blank] connected with the Ahî organization.",
+                "answers": ["been"]
+              },
+              {
+                "source": "It is crucial to avoid bad company.",
+                "frame": "Avoiding bad company is [blank].",
+                "answers": ["crucial", "essential"]
+              },
+              {
+                "source": "The Ahîs resisted Gıyâseddin II, suspecting him of the assassination.",
+                "frame": "The Ahîs resisted Gıyâseddin II [blank] they suspected him of the assassination.",
+                "answers": ["because", "since", "as"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“It is known that …” = “… are known to have been …”. “It is crucial to + verb” = “-ing is crucial”. A participle clause of reason = a because-clause.",
+            "feedback": {
+              "correct": "Well done. Same meaning, new structure.",
+              "incorrect": "Use been, crucial and because."
+            }
+          },
+          {
+            "id": "ahi-b2-language-review-8-new-context",
+            "type": "word-bank",
+            "title": "Use: A New Context",
+            "instructions": "Read about a modern professional association. Fill each gap from the word bank.",
+            "question": "Can you use the book’s language in a new text?",
+            "fillBlanksText": "The association, [blank] in 1950, sets standards for engineers. Members are [blank] to follow a strict code of ethics. It is [blank] to report unsafe work. Its success is often [blank] to its strong training programs.",
+            "wordBank": ["founded", "expected", "crucial", "attributed", "derived", "seized"],
+            "correctAnswer": ["founded", "expected", "crucial", "attributed"],
+            "explanation": "A participle phrase (founded in …), be expected to, it is crucial to and be attributed to all come from the book. Here they describe a modern association.",
+            "feedback": {
+              "correct": "Well done. You used the book’s language in a new text.",
+              "incorrect": "Look at the words around each gap."
+            }
+          },
+          {
+            "id": "ahi-b2-language-review-9-new-context",
+            "type": "error-correction",
+            "title": "Use: Check a Short Report",
+            "instructions": "A student wrote about a guild museum. Find and correct each mistake.",
+            "question": "What should the student change?",
+            "errorItems": [
+              {
+                "sentence": "The museum, that opened in 2010, shows tools of old craft guilds.",
+                "error": "that",
+                "options": ["which", "what", "who"],
+                "answer": 0
+              },
+              {
+                "sentence": "The guilds are believed to have been regulate prices.",
+                "error": "have been regulate",
+                "options": ["have regulated", "have regulate", "be regulated"],
+                "answer": 0
+              },
+              {
+                "sentence": "The masters were respected not only for their skill but too for their honesty.",
+                "error": "but too",
+                "options": ["but also", "and too", "but as well as"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use which after a comma, “be believed to have + past participle” for an active past action, and “not only … but also”.",
+            "feedback": {
+              "correct": "Correct. Which, have regulated, but also.",
+              "incorrect": "Check the relative pronoun, the perfect infinitive and the pair."
+            }
+          },
+          {
+            "id": "ahi-b2-language-review-10-transfer",
+            "type": "reflection",
+            "title": "Use: Ethics and Work Today",
+            "instructions": "Write an argument of eight to ten sentences: can modern workplaces learn from the Ahî tradition?",
+            "question": "What should they learn, and what are the limits?",
+            "correctAnswer": null,
+            "explanation": "Example: “Modern workplaces can learn a great deal from the Ahî tradition. Rooted in the idea of brotherhood, the Ahî order connected skill with character. Members were expected to be honest and to treat workers well, and the order enforced quality control and regulated prices. Furthermore, young people advanced from apprentice to master under careful supervision. Today, many companies focus on profit and speed. However, not every Ahî rule fits a modern, diverse workplace, and some practices belonged to their own time. Nevertheless, the core values of honesty, fairness and learning from experienced colleagues are still relevant. Ultimately, a workplace that combines skill and ethics earns both success and trust.”",
+            "feedback": {
+              "correct": "Check: a clear claim, evidence from two chapters, a counterpoint and a conclusion.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "State your position with a clear claim.",
+                "mode": "Individual",
+                "example": "Modern workplaces can learn a great deal from …"
+              },
+              {
+                "question": "Support it with evidence from two chapters.",
+                "mode": "Individual",
+                "example": "For instance, the Ahî order …"
+              },
+              {
+                "question": "Present a limit or counterpoint.",
+                "mode": "Individual",
+                "example": "However, not every …"
+              },
+              {
+                "question": "Conclude with ultimately.",
+                "mode": "Pair",
+                "example": "Ultimately, …"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "type": "final-challenge",
+        "title": "Final Challenge",
+        "image": "",
+        "content": "Bring the whole book together in the Final Challenge.",
+        "exercises": [
+          {
+            "id": "ahi-b2-final-1",
+            "type": "multiple-choice",
+            "title": "The Word ‘Ahî’",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What does the Turkish word ‘akı’ mean?",
+            "options": ["generous and brave", "brother", "master craftsman"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “… or from the Turkish word ‘akı’, meaning ‘generous and brave’.”",
+            "feedback": {
+              "correct": "Correct. Generous and brave.",
+              "incorrect": "Read the first paragraph of Chapter 1."
+            }
+          },
+          {
+            "id": "ahi-b2-final-2",
+            "type": "matching",
+            "title": "People and Roles",
+            "instructions": "Match each person with the right description.",
+            "question": "Who was who in the book?",
+            "matchingHeadings": {
+              "left": "Person",
+              "right": "Description"
+            },
+            "matchingPairs": [
+              {
+                "left": "Şehâbeddin es-Sühreverdî",
+                "right": "the envoy sent by the Caliph"
+              },
+              {
+                "left": "Ahî Evran",
+                "right": "the spiritual leader of tanners and other craftsmen"
+              },
+              {
+                "left": "Gıyâseddin II",
+                "right": "the ruler defeated by the Mongols at Kösedağ"
+              },
+              {
+                "left": "Ibn Battuta",
+                "right": "the 14th-century traveler from Tangier"
+              }
+            ],
+            "correctAnswer": {
+              "Şehâbeddin es-Sühreverdî": "the envoy sent by the Caliph",
+              "Ahî Evran": "the spiritual leader of tanners and other craftsmen",
+              "Gıyâseddin II": "the ruler defeated by the Mongols at Kösedağ",
+              "Ibn Battuta": "the 14th-century traveler from Tangier"
+            },
+            "explanation": "Chapters 3, 4 and 7 introduce these four people.",
+            "feedback": {
+              "correct": "Correct. Each person matches a description.",
+              "incorrect": "Look for each name in Chapters 3, 4 and 7."
+            }
+          },
+          {
+            "id": "ahi-b2-final-3",
+            "type": "fill-blanks",
+            "title": "Kösedağ",
+            "instructions": "Complete the sentence from Chapter 4 with one place name.",
+            "question": "Where did the Mongols defeat Gıyâseddin II?",
+            "fillBlanksText": "Later, following Gıyâseddin II’s defeat by the Mongols at [blank], the Ahîs took part in the defense of Kayseri.",
+            "correctAnswer": ["Kösedağ", "Kosedag"],
+            "explanation": "Chapter 4: “Later, following Gıyâseddin II’s defeat by the Mongols at Kösedağ, the Ahîs took part in the defense of Kayseri …”",
+            "feedback": {
+              "correct": "Correct. Kösedağ.",
+              "incorrect": "Read the last paragraph of Chapter 4."
+            }
+          },
+          {
+            "id": "ahi-b2-final-4",
+            "type": "multiple-choice",
+            "title": "The Handbooks",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What were the Fütüvvetnameler?",
+            "options": ["handbooks of the organization", "letters from the Caliph", "Ottoman tax records"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “Their values, beliefs, and way of life from the 13th to the 16th centuries were recorded in the Fütüvvetnameler (handbooks of the organization).”",
+            "feedback": {
+              "correct": "Correct. Handbooks of the organization.",
+              "incorrect": "Read the second paragraph of Chapter 5."
+            }
+          },
+          {
+            "id": "ahi-b2-final-5",
+            "type": "matching",
+            "title": "Vices and Virtues",
+            "instructions": "Match each door to close with the door to open.",
+            "question": "What does the belt teach?",
+            "matchingHeadings": {
+              "left": "Close the door of …",
+              "right": "Open the door of …"
+            },
+            "matchingPairs": [
+              {
+                "left": "stinginess",
+                "right": "generosity"
+              },
+              {
+                "left": "anger",
+                "right": "patience"
+              },
+              {
+                "left": "worldly expectations from other people",
+                "right": "the gifts of the Creator"
+              },
+              {
+                "left": "evil deeds",
+                "right": "righteous deeds"
+              }
+            ],
+            "correctAnswer": {
+              "stinginess": "generosity",
+              "anger": "patience",
+              "worldly expectations from other people": "the gifts of the Creator",
+              "evil deeds": "righteous deeds"
+            },
+            "explanation": "Chapter 8 lists the seven doors of the belt.",
+            "feedback": {
+              "correct": "Correct. Each vice matches a virtue.",
+              "incorrect": "Read the list in Chapter 8."
+            }
+          },
+          {
+            "id": "ahi-b2-final-6",
+            "type": "true-false",
+            "title": "Before Mehmed II",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Historical sources mention the Ahîs as one of the four groups that took an active part in establishing the Ottoman Empire.",
+            "correctAnswer": true,
+            "explanation": "Chapter 7: “Historical sources mention the Ahîs who were originally part of Turkmen groups as one of the four groups that took an active part in establishing the empire.”",
+            "feedback": {
+              "correct": "Correct. One of four groups.",
+              "incorrect": "Read the beginning of Chapter 7."
+            }
+          },
+          {
+            "id": "ahi-b2-final-7",
+            "type": "true-false",
+            "title": "Official Status",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Before the Caliph’s plan, the fütüvvet institution had already been an official state body.",
+            "correctAnswer": false,
+            "explanation": "Chapter 3: “To this end, the Caliph intended to grant official status to the fütüvvet institution, which had previously been unofficial.”",
+            "feedback": {
+              "correct": "Correct. It had previously been unofficial.",
+              "incorrect": "Read the second paragraph of Chapter 3."
+            }
+          },
+          {
+            "id": "ahi-b2-final-8",
+            "type": "fill-blanks",
+            "title": "Ranks",
+            "instructions": "Complete the sentence from Chapter 6 with one word.",
+            "question": "What rank came between apprentice and master?",
+            "fillBlanksText": "They started as apprentices, advanced to [blank], and eventually became masters.",
+            "correctAnswer": ["journeymen"],
+            "explanation": "Chapter 6: “They started as apprentices, advanced to journeymen, and eventually became masters.”",
+            "feedback": {
+              "correct": "Correct. Journeymen.",
+              "incorrect": "Read the third paragraph of Chapter 6."
+            }
+          },
+          {
+            "id": "ahi-b2-final-9",
+            "type": "multiple-choice",
+            "title": "Anarchy",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "When did the Ahîs demonstrate their political and military power?",
+            "options": [
+              "during times when central authority broke down and anarchy emerged",
+              "only during the reign of Mehmed II",
+              "during peaceful times of strong government"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 4: “They demonstrated their political and military power during times when central authority broke down and anarchy emerged.”",
+            "feedback": {
+              "correct": "Correct. When central authority broke down.",
+              "incorrect": "Read the second paragraph of Chapter 4."
+            }
+          },
+          {
+            "id": "ahi-b2-final-10",
+            "type": "sequencing",
+            "title": "From Fütüvvet to the Craft Guilds",
+            "instructions": "Put the events in the order they happened.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Fütüvvet emerged during the first century of Islam."
+              },
+              {
+                "id": "2",
+                "text": "Sühreverdî dressed Alaeddin Keykubad in the ceremonial robe."
+              },
+              {
+                "id": "3",
+                "text": "The Ahîs took part in the defense of Kayseri against the Mongols."
+              },
+              {
+                "id": "4",
+                "text": "Murad I joined the Ahî organization."
+              },
+              {
+                "id": "5",
+                "text": "The Ahî institution only managed the administrative affairs of craft guilds."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "The book moves from the roots of fütüvvet (Chapter 2) to the Seljuks (Chapters 3–4) and the Ottomans (Chapter 7).",
+            "feedback": {
+              "correct": "Correct. From fütüvvet to the craft guilds.",
+              "incorrect": "Think about the order of the chapters."
+            }
+          }
+        ]
+      }
+    ],
+    "teacherGuide": [],
+    "selfStudyGuide": []
+  }
+}
