@@ -1,0 +1,2934 @@
+{
+  "schema": 1,
+  "storyId": "kasgarli",
+  "level": "B1",
+  "language": "en",
+  "collection": "turkish",
+  "book": {
+    "id": "kasgarli-b1",
+    "title": "Mahmud Kashgari and His Work Dîvânu Lugâti’t-Türk",
+    "level": "B1",
+    "baseFontSize": 12,
+    "pages": [
+      {
+        "id": 1,
+        "type": "story",
+        "title": "The First Linguistic Study of Turkic",
+        "image": "",
+        "audioUrl": "",
+        "content": "Dîvânü lugāti’t-Türk, which means ‘Dictionary of Turkic Dialects (Lehçe)’, is the first linguistic study of the Turkic language. It was written by Mahmud Kashgari in 11th-century Karakhanid (Karahanlı) Turkish. A dialect is a regional form of a language with its own special vocabulary, grammar, and pronunciation. So, as the title of the book shows, this study includes the speech patterns, vocabulary, and grammar rules of different Turkic tribes.\n\nDîvânu Lugâti’t-Türk was prepared as a dictionary from Turkic dialects to Arabic. It aimed to teach the Turkic language to Arabs and prove that it is just as rich as Arabic. The comprehensive content of the work shows that Mahmud Kashgari had an advanced knowledge of both Arabic and Persian. In addition, he was very knowledgeable about the dictionaries written in these languages.",
+        "vocabulary": [
+          {
+            "word": "linguistic",
+            "definition": "Connected with the scientific study of language."
+          },
+          {
+            "word": "dialect",
+            "definition": "A form of a language spoken in one area."
+          },
+          {
+            "word": "comprehensive content",
+            "definition": "Material that covers almost everything about a subject."
+          },
+          {
+            "word": "advanced",
+            "definition": "At a high level."
+          },
+          {
+            "word": "knowledgeable",
+            "definition": "Knowing a lot about something."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-b1-en-h1a",
+            "x": 30,
+            "y": 40,
+            "title": "A Dictionary of Dialects",
+            "description": "The book includes the speech patterns, vocabulary and grammar rules of different Turkic tribes."
+          },
+          {
+            "id": "kasgarli-b1-en-h1b",
+            "x": 70,
+            "y": 45,
+            "title": "Turkic to Arabic",
+            "description": "Dîvânu Lugâti’t-Türk was prepared as a dictionary from Turkic dialects to Arabic."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-b1-quick-1",
+            "type": "multiple-choice",
+            "title": "The Aim of the Work",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What did the work aim to do?",
+            "options": [
+              "teach the Turkic language to Arabs and prove it is just as rich as Arabic",
+              "teach Arabic and Persian to the Turks",
+              "list the rulers of the Karakhanids"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “It aimed to teach the Turkic language to Arabs and prove that it is just as rich as Arabic.”",
+            "feedback": {
+              "correct": "Correct. Teach Turkic and show its richness.",
+              "incorrect": "Read the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-b1-language-1-passive",
+            "type": "multiple-choice",
+            "title": "Notice: It Was Written By …",
+            "instructions": "Read the sentence. Then choose what the passive form shows.",
+            "question": "“It was written by Mahmud Kashgari in 11th-century Karakhanid (Karahanlı) Turkish.” Why does the writer use “was written by”?",
+            "options": [
+              "The book is the topic, so it comes first; the writer comes after “by”.",
+              "The writer is not known.",
+              "The action is happening now."
+            ],
+            "correctAnswer": 0,
+            "explanation": "The passive (was + past participle) puts the book first because it is the topic of the chapter. “By” names who did the action.",
+            "feedback": {
+              "correct": "Correct. The book is the topic.",
+              "incorrect": "What is the chapter about: the book or the writer?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-1-forms",
+            "type": "choose-form",
+            "title": "Build: Which, Was Prepared, Both … And",
+            "instructions": "Choose the correct form for each sentence from Chapter 1.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Dîvânü lugāti’t-Türk, [choice] means ‘Dictionary of Turkic Dialects (Lehçe)’, is the first linguistic study of the Turkic language.",
+                "options": ["which", "who", "where"],
+                "answer": 0
+              },
+              {
+                "sentence": "Dîvânu Lugâti’t-Türk [choice] prepared as a dictionary from Turkic dialects to Arabic.",
+                "options": ["was", "is being", "has"],
+                "answer": 0
+              },
+              {
+                "sentence": "Mahmud Kashgari had an advanced knowledge of [choice] Arabic and Persian.",
+                "options": ["both", "either", "neither"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Which” adds information about a thing. The passive uses was + past participle. “Both … and” joins two things that are both true.",
+            "feedback": {
+              "correct": "Well done. Which, was, both.",
+              "incorrect": "Check the relative pronoun, the passive and the pair word."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-1-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Mahmud Kashgari wrote the book in the 11th century.",
+                "frame": "The book [blank] written by Mahmud Kashgari in the 11th century.",
+                "answers": ["was"]
+              },
+              {
+                "source": "He was very knowledgeable about the dictionaries written in these languages.",
+                "frame": "He knew a [blank] about the dictionaries written in these languages.",
+                "answers": ["lot"]
+              },
+              {
+                "source": "It aimed to prove that Turkic is just as rich as Arabic.",
+                "frame": "It aimed to prove that Turkic is not [blank] rich than Arabic.",
+                "answers": ["less"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "An active sentence can become passive. “Very knowledgeable” = “knew a lot”. “Just as rich as” = “not less rich than”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use was, lot and less."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-1-dialects",
+            "type": "reflection",
+            "title": "Use: Dialects in My Country",
+            "instructions": "Write four to five sentences about a dialect or accent you know.",
+            "question": "Where do people speak it? What is special about it?",
+            "correctAnswer": null,
+            "explanation": "Example: “My grandparents speak the dialect of the Black Sea region, which is very fast and musical. For example, they often change the sounds at the end of words. Some words are used only in their village. I think dialects are valuable because they keep old words alive.”",
+            "feedback": {
+              "correct": "Check: which, an example and a reason.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the dialect and where people speak it.",
+                "mode": "Individual",
+                "example": "People in … speak a dialect which …"
+              },
+              {
+                "question": "Give one special word or sound.",
+                "mode": "Individual",
+                "example": "For example, they say …"
+              },
+              {
+                "question": "Say why dialects are valuable.",
+                "mode": "Pair",
+                "example": "Dialects are valuable because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What is a dialect?",
+          "options": ["a regional form of a language", "a very old book", "a kind of poem"],
+          "answer": 0,
+          "quote": "A dialect is a regional form of a language with its own special vocabulary, grammar, and pronunciation."
+        },
+        "iCan": [
+          "I can explain what kind of study Dîvânu Lugâti’t-Türk is.",
+          "I can say what the work aimed to do.",
+          "I can use the passive (was written by) and which for extra information."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "story",
+        "title": "Who Was Mahmud Kashgari?",
+        "image": "",
+        "audioUrl": "",
+        "content": "Mahmud Kashgari was born in 1008 and died in 1105. It is generally believed that he was born in Barsgan, which is in Kyrgyzstan today, and died in Kashgar (Kaşgar). Today, Kashgar is located in China’s Sincan Uyghur Autonomous Region. This area is a historical Turkish homeland also widely known as East Turkestan (Doğu Türkistan).\n\nKashgari says that he belongs to a noble family, and his ancestor was Nasr Ilig Khan, the famous Karakhanid ruler who conquered Transoxiana (Maveraünnehir) and Bukhara. He also says he is one of the Turks who knows the language best, one of the clearest speakers, one of the wisest, and one of the best spear throwers.",
+        "vocabulary": [
+          {
+            "word": "East Turkestan (Doğu Türkistan)",
+            "definition": "A historical Turkish homeland in western China."
+          },
+          {
+            "word": "belongs to",
+            "definition": "Is a member of."
+          },
+          {
+            "word": "ancestor",
+            "definition": "A person in your family who lived long before you."
+          },
+          {
+            "word": "Maveraünnehir",
+            "definition": "Transoxiana, the land between the Amu Darya and Syr Darya rivers."
+          },
+          {
+            "word": "spear throwers",
+            "definition": "People who throw long, sharp weapons."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-b1-en-h2a",
+            "x": 30,
+            "y": 40,
+            "title": "Kashgar",
+            "description": "Today, Kashgar is located in China’s Sincan Uyghur Autonomous Region."
+          },
+          {
+            "id": "kasgarli-b1-en-h2b",
+            "x": 70,
+            "y": 45,
+            "title": "Nasr Ilig Khan",
+            "description": "Kashgari’s ancestor was Nasr Ilig Khan, the famous Karakhanid ruler who conquered Transoxiana and Bukhara."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-b1-quick-2",
+            "type": "true-false",
+            "title": "Born in Kashgar?",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "It is generally believed that Kashgari was born in Kashgar.",
+            "correctAnswer": false,
+            "explanation": "Chapter 2: “It is generally believed that he was born in Barsgan, which is in Kyrgyzstan today, and died in Kashgar (Kaşgar).”",
+            "feedback": {
+              "correct": "Correct. He was born in Barsgan and died in Kashgar.",
+              "incorrect": "Read the second sentence."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-b1-language-2-believed",
+            "type": "multiple-choice",
+            "title": "Notice: It Is Generally Believed That …",
+            "instructions": "Read the sentence. Then choose what the phrase shows.",
+            "question": "“It is generally believed that he was born in Barsgan …” Why does the writer use “It is generally believed that”?",
+            "options": ["Most people accept this, but it is not completely certain.", "The writer saw it himself.", "Nobody believes it."],
+            "correctAnswer": 0,
+            "explanation": "“It is generally believed that …” reports a common view. Writers use it when most historians agree but there is no complete proof.",
+            "feedback": {
+              "correct": "Correct. A common view, not complete proof.",
+              "incorrect": "Is the writer completely sure?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-2-superlatives",
+            "type": "choose-form",
+            "title": "Build: One of the Best",
+            "instructions": "Choose the correct form for each sentence from Chapter 2.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "He is one of the Turks who knows the language [choice].",
+                "options": ["best", "better", "good"],
+                "answer": 0
+              },
+              {
+                "sentence": "He is one of the [choice] speakers.",
+                "options": ["clearest", "clearer", "clear"],
+                "answer": 0
+              },
+              {
+                "sentence": "He is one of the best spear [choice].",
+                "options": ["throwers", "thrower", "throwing"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“One of the + superlative + plural noun” shows that someone is in the top group: one of the clearest speakers.",
+            "feedback": {
+              "correct": "Well done. Best, clearest, throwers.",
+              "incorrect": "After “one of the”, use a superlative and a plural noun."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-2-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Kashgari says that he belongs to a noble family.",
+                "frame": "Kashgari says that he [blank] from a noble family.",
+                "answers": ["comes"]
+              },
+              {
+                "source": "This area is widely known as East Turkestan.",
+                "frame": "Many people [blank] this area East Turkestan.",
+                "answers": ["call"]
+              },
+              {
+                "source": "Most historians think that he was born in Barsgan.",
+                "frame": "It is generally [blank] that he was born in Barsgan.",
+                "answers": ["believed"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Belongs to” = “comes from” here. A passive can become active. “Most people think” = “It is generally believed”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use comes, call and believed."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-2-profile",
+            "type": "reflection",
+            "title": "Use: A Short Profile",
+            "instructions": "Write four to five sentences describing a person you admire.",
+            "question": "Where is this person from? What is special about them?",
+            "correctAnswer": null,
+            "explanation": "Example: “My grandfather was born in a small village near Kayseri in 1950. He is one of the hardest-working people I know. He was a carpenter for forty years. It is generally believed in our village that his tables are the strongest. I admire him because he never gives up.”",
+            "feedback": {
+              "correct": "Check: one of the + superlative and It is generally believed.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say where the person was born.",
+                "mode": "Individual",
+                "example": "… was born in …"
+              },
+              {
+                "question": "Use one of the + superlative.",
+                "mode": "Individual",
+                "example": "He / She is one of the …"
+              },
+              {
+                "question": "Report a common view with It is generally believed.",
+                "mode": "Pair",
+                "example": "It is generally believed that …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Who was Kashgari’s ancestor?",
+          "options": ["Nasr Ilig Khan", "the Abbasid Caliph", "a Seljuk sultan"],
+          "answer": 0,
+          "quote": "his ancestor was Nasr Ilig Khan"
+        },
+        "iCan": [
+          "I can describe where Kashgari was born and died.",
+          "I can explain how Kashgari describes himself.",
+          "I can use It is generally believed that and one of the + superlative."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "story",
+        "title": "Writing the Dîvân",
+        "image": "",
+        "audioUrl": "",
+        "content": "Mahmud Kashgari began writing Dîvânu Lugâti’t-Türk in 1072 and, after improving it several times and making new additions, completed it in 1074. After that, he presented his work to the Abbasid Caliph (Abbasi Halifesi) Muktedî-Biemrillâh in Baghdad in 1077. The work contains about 9,000 Turkic words, proverbs, and idioms. It also includes the oldest examples of Turkic poetry, grammar rules of the Turkic language, many place names, personal names, various traditions, beliefs, and legends from the Turkic world of that time. In addition, it has information and practices related to nearly every aspect of life. For this reason, the work can be seen as an encyclopedia of Turkic culture.",
+        "vocabulary": [
+          {
+            "word": "related to",
+            "definition": "Connected with."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-b1-en-h3a",
+            "x": 30,
+            "y": 40,
+            "title": "Baghdad, 1077",
+            "description": "Kashgari presented his work to the Abbasid Caliph Muktedî-Biemrillâh in Baghdad in 1077."
+          },
+          {
+            "id": "kasgarli-b1-en-h3b",
+            "x": 70,
+            "y": 45,
+            "title": "An Encyclopedia",
+            "description": "The work can be seen as an encyclopedia of Turkic culture."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-b1-quick-3",
+            "type": "sequencing",
+            "title": "From Start to Baghdad",
+            "instructions": "Put the events in the order they happened.",
+            "question": "How was the Dîvân written and presented?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Mahmud Kashgari began writing Dîvânu Lugâti’t-Türk."
+              },
+              {
+                "id": "2",
+                "text": "Mahmud Kashgari improved the work several times and made new additions."
+              },
+              {
+                "id": "3",
+                "text": "Mahmud Kashgari completed the work in 1074."
+              },
+              {
+                "id": "4",
+                "text": "Mahmud Kashgari presented the work to the Abbasid Caliph in Baghdad."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4"],
+            "explanation": "Chapter 3: 1072 → improvements and additions → 1074 → Baghdad, 1077.",
+            "feedback": {
+              "correct": "Correct. Begin, improve, complete, present.",
+              "incorrect": "Look at the years in the first two sentences."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-b1-language-3-after-ing",
+            "type": "multiple-choice",
+            "title": "Notice: After Improving It …",
+            "instructions": "Read the sentence. Then choose what “after improving” shows.",
+            "question": "“… after improving it several times and making new additions, completed it in 1074.” What does “after improving” show?",
+            "options": [
+              "He improved the work first and completed it later.",
+              "He completed the work first and improved it later.",
+              "He never improved the work."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“After + -ing” shows the earlier action. The subject is the same in both parts: he improved it, then he completed it.",
+            "feedback": {
+              "correct": "Correct. Improving came first.",
+              "incorrect": "Which action happened first?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-3-linkers",
+            "type": "word-bank",
+            "title": "Build: Linking the Facts",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "How does the chapter link facts?",
+            "fillBlanksText": "Kashgari completed the work in 1074. [blank] that, he presented it in Baghdad. It contains words, poems and legends. [blank], it has information about nearly every aspect of life. [blank], the work can be seen as an encyclopedia.",
+            "wordBank": ["After", "In addition", "For this reason", "However", "Although"],
+            "correctAnswer": ["After", "In addition", "For this reason"],
+            "explanation": "“After that” shows the next event. “In addition” adds information. “For this reason” gives a result.",
+            "feedback": {
+              "correct": "Well done. After, In addition, For this reason.",
+              "incorrect": "Is it the next event, more information or a result?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-3-errors",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "After improve it several times, he completed it in 1074.",
+                "error": "improve",
+                "options": ["improving", "improved", "to improve"],
+                "answer": 0
+              },
+              {
+                "sentence": "The work contain about 9,000 Turkic words.",
+                "error": "contain",
+                "options": ["contains", "containing", "contained by"],
+                "answer": 0
+              },
+              {
+                "sentence": "The work can see as an encyclopedia of Turkic culture.",
+                "error": "can see",
+                "options": ["can be seen", "can seeing", "can saw"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use -ing after “after”. Use -s with a singular subject. Use “can be + past participle” for the passive.",
+            "feedback": {
+              "correct": "Correct. Improving, contains, can be seen.",
+              "incorrect": "Check after + -ing, the -s and the passive."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-3-project",
+            "type": "reflection",
+            "title": "Use: How I Finished a Project",
+            "instructions": "Write four to five sentences about a project you finished.",
+            "question": "What did you do first, next and last?",
+            "correctAnswer": null,
+            "explanation": "Example: “I began my science project in March. After reading three books about plants, I planned my experiment. After checking my notes several times, I completed it in May. My teacher liked the photos. For this reason, my project went on the school wall.”",
+            "feedback": {
+              "correct": "Check: after + -ing, a time order and For this reason.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say when you began.",
+                "mode": "Individual",
+                "example": "I began … in …"
+              },
+              {
+                "question": "Use after + -ing.",
+                "mode": "Individual",
+                "example": "After checking it …, I …"
+              },
+              {
+                "question": "Use For this reason.",
+                "mode": "Pair",
+                "example": "For this reason, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: How many Turkic words, proverbs and idioms does the work contain?",
+          "options": ["about 9,000", "about 900", "about 90,000"],
+          "answer": 0,
+          "quote": "The work contains about 9,000 Turkic words, proverbs, and idioms."
+        },
+        "iCan": [
+          "I can describe how the Dîvân was written and presented.",
+          "I can explain why the work can be seen as an encyclopedia.",
+          "I can use after + -ing and For this reason."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "story",
+        "title": "Words About the Turks",
+        "image": "",
+        "audioUrl": "",
+        "content": "In his work, Kashgari states that Allah gave the Turks their name and placed them in the highest part of the world, where the air is the cleanest. He writes down that Allah called the Turks His own army. He then describes many good qualities of the Turks, such as beauty, bright faces, good manners, modesty, bravery, and respect for elders. He also records the following hadith (hadis) on the same subject. Prophet Muhammad (pbuh) says, “Learn the Turkish language! This is because the Turks will have a long-lasting kingdom.”\n\nOwing to this belief and confidence, he started his journey and began to visit all Turkic countries. Mahmud of Kashgar left his home in 1057. In the next ten or fifteen years, until he arrived in Baghdad, he traveled from one Turkic tribe to another. During this time, he collected the material that he needed for his work. He says that he studied the lands of the Turks and learned the dialects of the Turks, Turkmen, Oghuz (Oğuz), Chigil (Çiğil), Yagma (Yağma), and Kyrgyz (Kırgız). He also adds that he knew the language of every tribe perfectly.",
+        "vocabulary": [
+          {
+            "word": "qualities",
+            "definition": "Good parts of a person’s character."
+          },
+          {
+            "word": "long-lasting kingdom",
+            "definition": "A rule that continues for a very long time."
+          },
+          {
+            "word": "Owing to",
+            "definition": "Because of."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-b1-en-h4a",
+            "x": 30,
+            "y": 40,
+            "title": "The Journey",
+            "description": "Mahmud of Kashgar left his home in 1057 and traveled from one Turkic tribe to another."
+          },
+          {
+            "id": "kasgarli-b1-en-h4b",
+            "x": 70,
+            "y": 45,
+            "title": "The Dialects",
+            "description": "He learned the dialects of the Turks, Turkmen, Oghuz, Chigil, Yagma and Kyrgyz."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-b1-quick-4",
+            "type": "multiple-choice",
+            "title": "Why He Traveled",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What did Kashgari do during his ten or fifteen years of travel?",
+            "options": [
+              "He collected the material he needed for his work.",
+              "He wrote poems for the caliph.",
+              "He taught Arabic in schools."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 4: “During this time, he collected the material that he needed for his work.”",
+            "feedback": {
+              "correct": "Correct. He collected material for his work.",
+              "incorrect": "Read the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-b1-language-4-owing-to",
+            "type": "multiple-choice",
+            "title": "Notice: Owing to This Belief …",
+            "instructions": "Read the sentence. Then choose what “owing to” means.",
+            "question": "“Owing to this belief and confidence, he started his journey and began to visit all Turkic countries.” What does “owing to” mean?",
+            "options": ["because of", "in spite of", "instead of"],
+            "correctAnswer": 0,
+            "explanation": "“Owing to + noun” gives a reason. It is a formal way to say “because of”.",
+            "feedback": {
+              "correct": "Correct. Because of.",
+              "incorrect": "Why did he start his journey?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-4-reporting",
+            "type": "choose-form",
+            "title": "Build: Reporting Verbs",
+            "instructions": "Choose the reporting verb that fits each sentence.",
+            "question": "Which verb fits?",
+            "formChoices": [
+              {
+                "sentence": "In his work, Kashgari [choice] that Allah gave the Turks their name.",
+                "options": ["states", "asks", "refuses"],
+                "answer": 0
+              },
+              {
+                "sentence": "He also [choice] the following hadith on the same subject.",
+                "options": ["records", "forgets", "answers"],
+                "answer": 0
+              },
+              {
+                "sentence": "He also [choice] that he knew the language of every tribe perfectly.",
+                "options": ["adds", "denies", "wonders"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Writers use reporting verbs (state, record, add, write) to show what another author says.",
+            "feedback": {
+              "correct": "Well done. States, records, adds.",
+              "incorrect": "Which verb reports what Kashgari wrote?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-4-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Owing to this belief, he started his journey.",
+                "frame": "He started his journey [blank] of this belief.",
+                "answers": ["because"]
+              },
+              {
+                "source": "He traveled from tribe to tribe until he arrived in Baghdad.",
+                "frame": "He did not stop traveling [blank] he arrived in Baghdad.",
+                "answers": ["until"]
+              },
+              {
+                "source": "He knew the language of every tribe perfectly.",
+                "frame": "He knew the language of every tribe very [blank].",
+                "answers": ["well"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Owing to” = “because of”. “Not … until” shows the end of a time. “Perfectly” = “very well”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use because, until and well."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-4-research",
+            "type": "reflection",
+            "title": "Use: My Research Trip",
+            "instructions": "Plan a research trip about language or culture in your region.",
+            "question": "Where would you go, and what would you collect?",
+            "correctAnswer": null,
+            "explanation": "Example: “I would visit five villages near my town. I would collect old songs and words because young people are forgetting them. I would record older people and write down their stories. I would travel until I had one hundred words. Then I would make a small dictionary for my school.”",
+            "feedback": {
+              "correct": "Check: would, because and until.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say where you would go.",
+                "mode": "Individual",
+                "example": "I would visit …"
+              },
+              {
+                "question": "Say what you would collect, and why.",
+                "mode": "Individual",
+                "example": "I would collect … because …"
+              },
+              {
+                "question": "Use until.",
+                "mode": "Pair",
+                "example": "I would travel until …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: What did Kashgari collect on his journey?",
+          "options": ["the material that he needed for his work", "gold and silver", "soldiers for the khan"],
+          "answer": 0,
+          "quote": "he collected the material that he needed for his work"
+        },
+        "iCan": [
+          "I can report what Kashgari writes about the Turks.",
+          "I can describe his journey and its purpose.",
+          "I can use owing to and until for reasons and time."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "story",
+        "title": "The Oghuz and the Caliph",
+        "image": "",
+        "audioUrl": "",
+        "content": "The Oghuz are the Turkic tribe that gets the most attention in the book. At that time, the Oghuz were the most powerful tribe in the western part of the Turkic world, close to the Arab and Persian regions. The information Kashgari provides about them is not only about their language. The book also offers very useful explanations about how their tribes were organized. He writes the names of twenty-two of the twenty-four Oghuz tribes.\n\nThe reason why Kashgari drew so much attention to this tribe is probably that the Seljuks, an Oghuz Turkic tribe, were very strong and protected the Abbasids, the center of the Islamic world. It is very important that a book with this information was finished in Baghdad, the capital city of the Abbasids, and given to the caliph. It is likely that Kashgari was aware of the Turks’ political power and of the fact that the Turks protected the caliph. The three great Turkic states of the time were the Karakhanids (Karahanlılar), the Ghaznavids (Gazneliler), and the Seljuks (Selçuklular).",
+        "vocabulary": [
+          {
+            "word": "tribes",
+            "definition": "Groups of families with the same ancestors and language."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-b1-en-h5a",
+            "x": 30,
+            "y": 40,
+            "title": "The Oghuz",
+            "description": "The Oghuz were the most powerful tribe in the western part of the Turkic world."
+          },
+          {
+            "id": "kasgarli-b1-en-h5b",
+            "x": 70,
+            "y": 45,
+            "title": "Three Great States",
+            "description": "The three great Turkic states of the time were the Karakhanids, the Ghaznavids and the Seljuks."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-b1-quick-5",
+            "type": "true-false",
+            "title": "The Seljuks",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The Seljuks were an Oghuz Turkic tribe that protected the Abbasids.",
+            "correctAnswer": true,
+            "explanation": "Chapter 5: “… the Seljuks, an Oghuz Turkic tribe, were very strong and protected the Abbasids, the center of the Islamic world.”",
+            "feedback": {
+              "correct": "Correct. The Seljuks protected the Abbasids.",
+              "incorrect": "Read the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-b1-language-5-likely",
+            "type": "multiple-choice",
+            "title": "Notice: Probably, It Is Likely That",
+            "instructions": "Read the sentence. Then choose what the writer is doing.",
+            "question": "“It is likely that Kashgari was aware of the Turks’ political power …” What is the writer doing?",
+            "options": [
+              "giving a careful explanation that is probably true",
+              "giving a fact that is completely certain",
+              "telling a story"
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Probably” and “It is likely that” show that the writer thinks something is very possible but cannot prove it.",
+            "feedback": {
+              "correct": "Correct. A careful explanation.",
+              "incorrect": "Can the writer prove it?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-5-reason-why",
+            "type": "choose-form",
+            "title": "Build: The Reason Why …",
+            "instructions": "Choose the correct form for each sentence from Chapter 5.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The reason [choice] Kashgari drew so much attention to this tribe is probably that the Seljuks were very strong.",
+                "options": ["why", "because", "so"],
+                "answer": 0
+              },
+              {
+                "sentence": "The information Kashgari provides about them is [choice] only about their language.",
+                "options": ["not", "no", "none"],
+                "answer": 0
+              },
+              {
+                "sentence": "At that time, the Oghuz were the [choice] powerful tribe in the western part of the Turkic world.",
+                "options": ["most", "more", "much"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“The reason why … is that …” explains a cause. “Not only” means there is more. “The most + adjective” is a superlative.",
+            "feedback": {
+              "correct": "Well done. Why, not, most.",
+              "incorrect": "Check the reason phrase, not only and the superlative."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-5-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "It is likely that Kashgari was aware of the Turks’ political power.",
+                "frame": "Kashgari was [blank] aware of the Turks’ political power.",
+                "answers": ["probably"]
+              },
+              {
+                "source": "The Oghuz are the Turkic tribe that gets the most attention in the book.",
+                "frame": "No other Turkic tribe gets [blank] attention in the book than the Oghuz.",
+                "answers": ["more"]
+              },
+              {
+                "source": "The book also offers very useful explanations about how their tribes were organized.",
+                "frame": "The book also [blank] useful explanations about how their tribes were organized.",
+                "answers": ["gives"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“It is likely that” = “probably”. A superlative can be said with “No other … more … than”. “Offers” = “gives” here.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use probably, more and gives."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-5-explain",
+            "type": "reflection",
+            "title": "Use: A Careful Explanation",
+            "instructions": "Write four to five sentences explaining why something is popular.",
+            "question": "Why is it popular? How sure are you?",
+            "correctAnswer": null,
+            "explanation": "Example: “Football is very popular in my school. The reason why it is so popular is probably that it needs only a ball. It is likely that the national team’s matches also make children interested. Many students play it every break. I am not completely sure, but these reasons seem strong.”",
+            "feedback": {
+              "correct": "Check: the reason why, probably and It is likely that.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name something popular in your school or town.",
+                "mode": "Individual",
+                "example": "… is very popular in …"
+              },
+              {
+                "question": "Give a likely reason.",
+                "mode": "Individual",
+                "example": "The reason why … is probably that …"
+              },
+              {
+                "question": "Give a second reason with It is likely that.",
+                "mode": "Pair",
+                "example": "It is likely that …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: How many Oghuz tribes does Kashgari name?",
+          "options": ["twenty-two of the twenty-four", "all twenty-four", "twelve"],
+          "answer": 0,
+          "quote": "He writes the names of twenty-two of the twenty-four Oghuz tribes."
+        },
+        "iCan": [
+          "I can explain why the Oghuz get the most attention in the book.",
+          "I can name the three great Turkic states of the time.",
+          "I can use probably and It is likely that for careful explanations."
+        ]
+      },
+      {
+        "id": 6,
+        "type": "story",
+        "title": "Why Turkish?",
+        "image": "",
+        "audioUrl": "",
+        "content": "In the schools of the Karakhanid and Transoxiana (Maveraünnehir) cultural centers, Arabic was dominant and the main language for teaching. The scholars of that time also wrote their books in Arabic. This high status of Arabic made Kashgari praise his own language, Turkish, because he believed in the richness of his mother tongue and that it could compete with Arabic.",
+        "vocabulary": [],
+        "hotspots": [
+          {
+            "id": "kasgarli-b1-en-h6a",
+            "x": 30,
+            "y": 40,
+            "title": "Arabic in Schools",
+            "description": "In the schools of the Karakhanid and Transoxiana cultural centers, Arabic was the main language for teaching."
+          },
+          {
+            "id": "kasgarli-b1-en-h6b",
+            "x": 70,
+            "y": 45,
+            "title": "His Mother Tongue",
+            "description": "Kashgari believed in the richness of his mother tongue."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-b1-quick-6",
+            "type": "multiple-choice",
+            "title": "What Made Him Praise Turkish?",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What made Kashgari praise his own language?",
+            "options": ["the high status of Arabic", "an order from the caliph", "a letter from the Seljuks"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 6: “This high status of Arabic made Kashgari praise his own language, Turkish …”",
+            "feedback": {
+              "correct": "Correct. The high status of Arabic.",
+              "incorrect": "Read the last sentence."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-b1-language-6-make",
+            "type": "multiple-choice",
+            "title": "Notice: Made Kashgari Praise …",
+            "instructions": "Read the sentence. Then choose what “made Kashgari praise” means.",
+            "question": "“This high status of Arabic made Kashgari praise his own language, Turkish.” What does “made Kashgari praise” mean?",
+            "options": [
+              "The status of Arabic caused Kashgari to praise Turkish.",
+              "Kashgari made a new language.",
+              "Kashgari did not want to praise Turkish."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Make + person + base verb” shows a cause: something causes someone to do something. Note: no “to” before praise.",
+            "feedback": {
+              "correct": "Correct. It caused him to praise Turkish.",
+              "incorrect": "What caused him to praise Turkish?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-6-forms",
+            "type": "choose-form",
+            "title": "Build: Make, Believe In, Could",
+            "instructions": "Choose the correct form for each sentence.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The high status of Arabic made Kashgari [choice] Turkish.",
+                "options": ["praise", "to praise", "praising"],
+                "answer": 0
+              },
+              {
+                "sentence": "He believed [choice] the richness of his mother tongue.",
+                "options": ["in", "on", "at"],
+                "answer": 0
+              },
+              {
+                "sentence": "He believed that Turkish [choice] compete with Arabic.",
+                "options": ["could", "can to", "could to"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use the base verb after “make + person”. We say “believe in” something. After “could”, use the base verb.",
+            "feedback": {
+              "correct": "Well done. Praise, in, could.",
+              "incorrect": "Check make + person, the preposition and the modal."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-6-errors",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "Arabic was dominant and the main language for teach.",
+                "error": "teach",
+                "options": ["teaching", "taught", "teaches"],
+                "answer": 0
+              },
+              {
+                "sentence": "The scholars of that time also writed their books in Arabic.",
+                "error": "writed",
+                "options": ["wrote", "written", "writes"],
+                "answer": 0
+              },
+              {
+                "sentence": "This made him to praise his own language.",
+                "error": "to praise",
+                "options": ["praise", "praising", "praised"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use -ing after a preposition. “Write” → “wrote”. After “make + person”, use the base verb.",
+            "feedback": {
+              "correct": "Correct. Teaching, wrote, praise.",
+              "incorrect": "Check the preposition, the irregular verb and make."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-6-mother-tongue",
+            "type": "reflection",
+            "title": "Use: In Praise of My Language",
+            "instructions": "Write four to five sentences praising your mother tongue.",
+            "question": "What makes it rich or beautiful?",
+            "correctAnswer": null,
+            "explanation": "Example: “My mother tongue is Turkish, and I believe in its richness. It has many words for family members, which make me feel close to my relatives. Its old poems make me think about life. Like English, it can express science and art. I want to protect it by reading good books.”",
+            "feedback": {
+              "correct": "Check: believe in, make + person + verb and a comparison.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what makes your language special.",
+                "mode": "Individual",
+                "example": "My language is special because …"
+              },
+              {
+                "question": "Use make + person + verb.",
+                "mode": "Individual",
+                "example": "Its poems make me …"
+              },
+              {
+                "question": "Compare it with another language you know.",
+                "mode": "Pair",
+                "example": "Like English, it can …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: In which language did the scholars of that time write their books?",
+          "options": ["Arabic", "Turkish", "Persian"],
+          "answer": 0,
+          "quote": "The scholars of that time also wrote their books in Arabic."
+        },
+        "iCan": [
+          "I can explain why Kashgari praised Turkish.",
+          "I can describe the status of Arabic at that time.",
+          "I can use make + person + verb for causes."
+        ]
+      },
+      {
+        "id": 7,
+        "type": "story",
+        "title": "The Importance of the Map",
+        "image": "",
+        "audioUrl": "",
+        "content": "Besides all this language material, the book also includes a map of the Turkic world of his time. Because of this map, which is considered the oldest document made from a Turkic geographical perspective, Kashgari is known as the first Turkic cartographer.\n\nMahmud of Kashgar says that Allah placed the Turks on the highest mountains, the center of the world, so they could rule the earth and control the whole world. It is likely that he made his map to reflect this belief. On the map, Turkestan, the homeland of the Turks, is in the center of the world. Also, the city of Balasagun, which is in modern-day Kyrgyzstan, is placed right in the heart of it. In fact, Balasagun was on a very busy part of the Silk Road. He placed all other countries, cities, and mountains according to this center. The map has a colorful, circular design. It shows mountains in red, seas in green, rivers in blue, and sandy areas in yellow. It also shows the nations that had relations with the Turks.\n\nBased on modern geography, the places on Mahmud of Kashgar’s world map go as far west as the Russian border and the Idil (Volga) River. In the south, they go from the Egyptian border to Ethiopia and India, and they reach China and Japan in the east. Interestingly, Japan is called ‘Jabarqa’ on the map, while China is shown as ‘the Land of Yecüc and Mecüc.’\n\nWith today’s knowledge, the map in Dîvânu Lugâti’t-Türk is the first world map that shows Japan. The second map to show Japan like Kashgari’s map was made about four hundred years after his book.",
+        "vocabulary": [
+          {
+            "word": "document",
+            "definition": "An old paper or object that gives information."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-b1-en-h7a",
+            "x": 30,
+            "y": 40,
+            "title": "Balasagun",
+            "description": "The city of Balasagun, in modern-day Kyrgyzstan, is placed right in the heart of the map."
+          },
+          {
+            "id": "kasgarli-b1-en-h7b",
+            "x": 70,
+            "y": 45,
+            "title": "Jabarqa",
+            "description": "Japan is called ‘Jabarqa’ on the map, while China is shown as ‘the Land of Yecüc and Mecüc’."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-b1-quick-7",
+            "type": "matching",
+            "title": "Colors on the Map",
+            "instructions": "Match each feature with its color on the map.",
+            "question": "Which color shows what?",
+            "matchingHeadings": {
+              "left": "Feature",
+              "right": "Color"
+            },
+            "matchingPairs": [
+              {
+                "left": "mountains",
+                "right": "red"
+              },
+              {
+                "left": "seas",
+                "right": "green"
+              },
+              {
+                "left": "rivers",
+                "right": "blue"
+              },
+              {
+                "left": "sandy areas",
+                "right": "yellow"
+              }
+            ],
+            "correctAnswer": {
+              "mountains": "red",
+              "seas": "green",
+              "rivers": "blue",
+              "sandy areas": "yellow"
+            },
+            "explanation": "Chapter 7: “It shows mountains in red, seas in green, rivers in blue, and sandy areas in yellow.”",
+            "feedback": {
+              "correct": "Correct. Each feature has its color.",
+              "incorrect": "Read the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-b1-language-7-while",
+            "type": "multiple-choice",
+            "title": "Notice: While China Is Shown As …",
+            "instructions": "Read the sentence. Then choose what “while” does.",
+            "question": "“Japan is called ‘Jabarqa’ on the map, while China is shown as ‘the Land of Yecüc and Mecüc.’” What does “while” do here?",
+            "options": ["It compares two different things.", "It shows that two actions happen at the same time.", "It gives a reason."],
+            "correctAnswer": 0,
+            "explanation": "“While” can join two different facts to compare them: one name for Japan, another name for China.",
+            "feedback": {
+              "correct": "Correct. It compares two things.",
+              "incorrect": "Are the two facts about the same country?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-7-forms",
+            "type": "choose-form",
+            "title": "Build: Considered, As Far … As, According To",
+            "instructions": "Choose the correct form for each sentence from Chapter 7.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "This map is [choice] the oldest document made from a Turkic geographical perspective.",
+                "options": ["considered", "consider", "considering"],
+                "answer": 0
+              },
+              {
+                "sentence": "The places on the map go as far west [choice] the Russian border.",
+                "options": ["as", "than", "to"],
+                "answer": 0
+              },
+              {
+                "sentence": "He placed all other countries, cities, and mountains according [choice] this center.",
+                "options": ["to", "with", "of"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Is considered” is a passive that reports a common view. “As far west as” shows the limit. We say “according to”.",
+            "feedback": {
+              "correct": "Well done. Considered, as, to.",
+              "incorrect": "Check the passive, as … as and the preposition."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-7-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Kashgari is known as the first Turkic cartographer.",
+                "frame": "People [blank] Kashgari as the first Turkic cartographer.",
+                "answers": ["know"]
+              },
+              {
+                "source": "The map has a colorful, circular design.",
+                "frame": "The map is colorful and [blank] in shape.",
+                "answers": ["round"]
+              },
+              {
+                "source": "The second map to show Japan was made about four hundred years after his book.",
+                "frame": "About four hundred years [blank], the second map to show Japan was made.",
+                "answers": ["later"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "A passive can become active. “Circular” = “round”. “After his book” = “later”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use know, round and later."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-7-my-map",
+            "type": "reflection",
+            "title": "Use: The Center of My Map",
+            "instructions": "Describe a map of your world, with your town at the center.",
+            "question": "What is in the center? What is far away?",
+            "correctAnswer": null,
+            "explanation": "Example: “In the center of my map, there is Konya, because it is my home. My map goes as far west as Istanbul and as far east as Van. My grandparents’ village is close, while my cousin’s city is far away. I would color the mountains brown and the lakes blue.”",
+            "feedback": {
+              "correct": "Check: in the center, as far … as and while.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what is in the center, and why.",
+                "mode": "Individual",
+                "example": "In the center of my map, there is …"
+              },
+              {
+                "question": "Use as far … as.",
+                "mode": "Individual",
+                "example": "My map goes as far east as …"
+              },
+              {
+                "question": "Compare two places with while.",
+                "mode": "Pair",
+                "example": "… is close, while … is far away."
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What is Kashgari known as because of his map?",
+          "options": ["the first Turkic cartographer", "the first Turkic poet", "the first Seljuk sultan"],
+          "answer": 0,
+          "quote": "Kashgari is known as the first Turkic cartographer."
+        },
+        "iCan": [
+          "I can describe Kashgari’s map and its center.",
+          "I can explain how the map reflects Kashgari’s belief.",
+          "I can use while for contrast and as far … as for distance."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "story",
+        "title": "The Story of the Calendar",
+        "image": "",
+        "audioUrl": "",
+        "content": "The book also includes information about the ancient calendar used by the Turks. In the dictionary section, Kashgari explains the Twelve-Animal Turkic calendar in detail. He describes the origin of this calendar and its importance in Turkish daily life. According to the text, the Turks made a twelve-year system and gave the names of twelve different animals to the years. They used this method to record their children’s ages, war dates, and other historical events. The historical background of this calendar is explained below:\n\nOne of the Turkic khans (a title used for Turkish rulers) wanted to learn the date of an old war from the past. However, the people around him did not agree on the correct date. Therefore, the khan called a kurultay, which was a national meeting, to talk with his people.\n\nThe khan said: “If we make a mistake about this date, the people after us will also make a mistake. To prevent this, let us make a system based on the twelve stars in the sky and the twelve months. We should give a name to each year. In this way, we can determine the time by counting these years. This system will be a useful record for everyone.” The people agreed with the khan’s idea. They decided to choose the names for the years in this way:\n\nThe khan went out to hunt and ordered his people to drive the wild animals toward a large river in the Ili Valley (İli Vadisi). The Ili Valley is a historically and geographically significant region located in the northern part of East Turkestan, stretching across the border into Kazakhstan (Kazakistan). The people chased them toward the river. In the end, only twelve animals could cross the river. The first animal to cross was the rat, so the first year was named after it. Then, the names of the other animals were given to the following years in the exact order they crossed. Therefore, the calendar starts with the Year of the Rat. After the rat, the years in the calendar follow the order of the animals that crossed the river successfully:",
+        "vocabulary": [
+          {
+            "word": "chased",
+            "definition": "Ran after something to catch it."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-b1-en-h8a",
+            "x": 30,
+            "y": 40,
+            "title": "The Kurultay",
+            "description": "The khan called a kurultay, a national meeting, to talk with his people."
+          },
+          {
+            "id": "kasgarli-b1-en-h8b",
+            "x": 70,
+            "y": 45,
+            "title": "The Ili Valley",
+            "description": "The Ili Valley is in the northern part of East Turkestan and stretches across the border into Kazakhstan."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-b1-quick-8",
+            "type": "sequencing",
+            "title": "The Legend in Order",
+            "instructions": "Put the events of the legend in order.",
+            "question": "How did the calendar begin?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "The khan wanted to learn the date of an old war."
+              },
+              {
+                "id": "2",
+                "text": "The people around the khan did not agree on the correct date."
+              },
+              {
+                "id": "3",
+                "text": "The khan called a kurultay to talk with his people."
+              },
+              {
+                "id": "4",
+                "text": "The people drove the wild animals toward a large river."
+              },
+              {
+                "id": "5",
+                "text": "Twelve animals crossed the river, and the years were named after them."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "Chapter 8 tells the legend step by step: the question, the disagreement, the kurultay, the hunt and the names.",
+            "feedback": {
+              "correct": "Correct. You followed the legend.",
+              "incorrect": "Follow the chapter from the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-b1-language-8-conditional",
+            "type": "multiple-choice",
+            "title": "Notice: If We Make a Mistake …",
+            "instructions": "Read the khan’s words. Then choose what the sentence shows.",
+            "question": "“If we make a mistake about this date, the people after us will also make a mistake.” What does this sentence show?",
+            "options": [
+              "a possible situation and its likely result in the future",
+              "something that happened in the past",
+              "an imaginary situation that cannot happen"
+            ],
+            "correctAnswer": 0,
+            "explanation": "The first conditional (If + present, will + verb) shows a real possibility and its likely result.",
+            "feedback": {
+              "correct": "Correct. A real possibility and its result.",
+              "incorrect": "Is the khan talking about the future?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-8-linkers",
+            "type": "choose-form",
+            "title": "Build: However, Therefore, So",
+            "instructions": "Choose the correct linker for each sentence from Chapter 8.",
+            "question": "Which linker fits?",
+            "formChoices": [
+              {
+                "sentence": "One of the Turkic khans wanted to learn the date of an old war. [choice], the people around him did not agree on the correct date.",
+                "options": ["However", "Therefore", "In addition"],
+                "answer": 0
+              },
+              {
+                "sentence": "The people did not agree. [choice], the khan called a kurultay.",
+                "options": ["Therefore", "However", "Although"],
+                "answer": 0
+              },
+              {
+                "sentence": "The first animal to cross was the rat, [choice] the first year was named after it.",
+                "options": ["so", "but", "although"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“However” shows a contrast. “Therefore” and “so” show a result.",
+            "feedback": {
+              "correct": "Well done. However, Therefore, so.",
+              "incorrect": "Is it a contrast or a result?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-8-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "The people around him did not agree on the correct date.",
+                "frame": "The people around him [blank] about the correct date.",
+                "answers": ["disagreed"]
+              },
+              {
+                "source": "The first year was named after the rat.",
+                "frame": "The first year got its [blank] from the rat.",
+                "answers": ["name"]
+              },
+              {
+                "source": "To prevent this, let us make a system.",
+                "frame": "Let us make a system [blank] that this does not happen.",
+                "answers": ["so"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Did not agree” = “disagreed”. “Was named after” = “got its name from”. “To prevent this” = “so that this does not happen”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use disagreed, name and so."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-8-class-system",
+            "type": "reflection",
+            "title": "Use: A System for Our Class",
+            "instructions": "Suggest a system that helps your class remember important dates.",
+            "question": "What is the problem, and what is your idea?",
+            "correctAnswer": null,
+            "explanation": "Example: “Sometimes we forget the dates of our exams and projects. If we forget them, we will not be ready. Let us make a big wall calendar with a different color for each subject. Every Monday, one student will update it. Therefore, everyone will know what is coming.”",
+            "feedback": {
+              "correct": "Check: if + present, will, let us and Therefore.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe the problem.",
+                "mode": "Individual",
+                "example": "Sometimes we forget …"
+              },
+              {
+                "question": "Use a first conditional.",
+                "mode": "Individual",
+                "example": "If we …, we will …"
+              },
+              {
+                "question": "Suggest an idea with let us.",
+                "mode": "Pair",
+                "example": "Let us …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Why did the khan want a calendar?",
+          "options": ["so that people after him would not make mistakes about dates", "to plan his next war", "to count his animals"],
+          "answer": 0,
+          "quote": "If we make a mistake about this date, the people after us will also make a mistake."
+        },
+        "iCan": [
+          "I can retell the story of the Twelve-Animal calendar.",
+          "I can explain the khan’s reason for a calendar.",
+          "I can use first conditional sentences and However / Therefore."
+        ]
+      },
+      {
+        "id": 9,
+        "type": "story",
+        "title": "The Twelve Animals",
+        "image": "",
+        "audioUrl": "",
+        "content": "1. Year of the Sıçgan means ‘Year of the Rat’\n\n2. Year of the Ud means ‘Year of the Ox’\n\n3. Year of the Bars means ‘Year of the Leopard’\n\n4. Year of the Tavışgan means ‘Year of the Rabbit’\n\n5. Year of the Nag means ‘Year of the Crocodile’\n\n6. Year of the Yılan means ‘Year of the Snake’\n\n7. Year of the Yund means ‘Year of the Horse’\n\n8. Year of the Koy means ‘Year of the Sheep’\n\n9. Year of the Biçin means ‘Year of the Monkey’\n\n10. Year of the Takagu means ‘Year of the Rooster’\n\n11. Year of the İt means ‘Year of the Dog’\n\n12. Year of the Toŋguz means ‘Year of the Pig’",
+        "vocabulary": [],
+        "hotspots": [
+          {
+            "id": "kasgarli-b1-en-h9a",
+            "x": 30,
+            "y": 40,
+            "title": "Year of the Rat",
+            "description": "The first year is the Year of the Sıçgan, which means ‘Year of the Rat’."
+          },
+          {
+            "id": "kasgarli-b1-en-h9b",
+            "x": 70,
+            "y": 45,
+            "title": "Year of the Pig",
+            "description": "The twelfth year is the Year of the Toŋguz, which means ‘Year of the Pig’."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-b1-quick-9",
+            "type": "matching",
+            "title": "Old Names, English Meanings",
+            "instructions": "Match each old Turkic name with its English meaning.",
+            "question": "What do the old names mean?",
+            "matchingHeadings": {
+              "left": "Old Turkic name",
+              "right": "English meaning"
+            },
+            "matchingPairs": [
+              {
+                "left": "Ud",
+                "right": "Ox"
+              },
+              {
+                "left": "Nag",
+                "right": "Crocodile"
+              },
+              {
+                "left": "Biçin",
+                "right": "Monkey"
+              },
+              {
+                "left": "Takagu",
+                "right": "Rooster"
+              }
+            ],
+            "correctAnswer": {
+              "Ud": "Ox",
+              "Nag": "Crocodile",
+              "Biçin": "Monkey",
+              "Takagu": "Rooster"
+            },
+            "explanation": "Chapter 9 lists the twelve years with their old Turkic names and English meanings.",
+            "feedback": {
+              "correct": "Correct. Each old name matches its meaning.",
+              "incorrect": "Find each name in the list."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-b1-language-9-means",
+            "type": "multiple-choice",
+            "title": "Notice: Year of the Bars Means …",
+            "instructions": "Read the line from Chapter 9. Then choose the answer.",
+            "question": "“Year of the Bars means ‘Year of the Leopard’.” What does the line do?",
+            "options": ["It gives the meaning of an old Turkic word.", "It tells a story.", "It gives a reason."],
+            "correctAnswer": 0,
+            "explanation": "“X means Y” gives the meaning of a word. Dictionaries often use this pattern, so the list works like a small dictionary.",
+            "feedback": {
+              "correct": "Correct. It gives a meaning.",
+              "incorrect": "What does the line explain?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-9-ordinals",
+            "type": "choose-form",
+            "title": "Build: Ordinal Numbers",
+            "instructions": "Choose the correct ordinal number for each sentence.",
+            "question": "Which number fits?",
+            "formChoices": [
+              {
+                "sentence": "The Year of the Leopard is the [choice] year of the calendar.",
+                "options": ["third", "three", "thirteenth"],
+                "answer": 0
+              },
+              {
+                "sentence": "The Year of the Monkey is the [choice] year.",
+                "options": ["ninth", "nineth", "nine"],
+                "answer": 0
+              },
+              {
+                "sentence": "The Year of the Pig is the [choice] and last year.",
+                "options": ["twelfth", "twelveth", "twelve"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Ordinal numbers show order. Watch the spelling: ninth (no e), twelfth (f, not ve).",
+            "feedback": {
+              "correct": "Well done. Third, ninth, twelfth.",
+              "incorrect": "Check the number in the list and the spelling."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-9-halves",
+            "type": "drag-drop",
+            "title": "Build: First Half or Second Half?",
+            "instructions": "Sort the animals: are their years in the first or second half?",
+            "question": "Where is each animal in the list?",
+            "dragDropGroups": [
+              {
+                "group": "Years 1–6",
+                "items": ["rat", "ox", "crocodile"]
+              },
+              {
+                "group": "Years 7–12",
+                "items": ["horse", "monkey", "dog"]
+              }
+            ],
+            "correctAnswer": {
+              "Years 1–6": ["rat", "ox", "crocodile"],
+              "Years 7–12": ["horse", "monkey", "dog"]
+            },
+            "explanation": "The rat (1), ox (2) and crocodile (5) are in the first half. The horse (7), monkey (9) and dog (11) are in the second half.",
+            "feedback": {
+              "correct": "Good. You used the list.",
+              "incorrect": "Find the number of each animal in the list."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-9-my-calendar",
+            "type": "reflection",
+            "title": "Use: Animals and Their Qualities",
+            "instructions": "Choose three animals from the list and describe their qualities.",
+            "question": "What is each animal like?",
+            "correctAnswer": null,
+            "explanation": "Example: “The horse is the seventh year. It is strong and fast. The sheep is the eighth year, and it is calm. The horse is faster than the sheep. I would choose the horse for our class because we work hard and quickly.”",
+            "feedback": {
+              "correct": "Check: ordinal numbers, a comparison and a reason.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Describe one animal.",
+                "mode": "Individual",
+                "example": "The … is the … year. It is …"
+              },
+              {
+                "question": "Compare two animals.",
+                "mode": "Individual",
+                "example": "The … is faster than the …"
+              },
+              {
+                "question": "Say which animal you would choose for your class, and why.",
+                "mode": "Pair",
+                "example": "I would choose … because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What does Tavışgan mean?",
+          "options": ["Rabbit", "Leopard", "Monkey"],
+          "answer": 0,
+          "quote": "Year of the Tavışgan means Year of the Rabbit"
+        },
+        "iCan": [
+          "I can name the twelve years in order.",
+          "I can match old Turkic names with their English meanings.",
+          "I can use ordinal numbers and mean / be called."
+        ]
+      },
+      {
+        "id": 10,
+        "type": "story",
+        "title": "What Each Year Means",
+        "image": "",
+        "audioUrl": "",
+        "content": "In the Twelve-Animal Turkic Calendar, some years are seen as good and successful, while others are seen as difficult. For this reason, the Turks have a belief about each year and find specific meanings in it. For example, if it is the Year of the Ox, they believe that wars will increase because the ox is an animal that fights with its horns. When the Year of the Rooster begins, food becomes easy to find, but problems grow among people. This is because the rooster eats grain and always searches for food in waste heaps. When the Year of the Snake and the Year of the Crocodile start, there is plenty of rain and the land becomes rich because the natural home of these animals is water. Finally, when the Year of the Pig begins, cold weather, snow, and confusion increase. In this way, the Turks make different predictions for each year.\n\nHistory shows that the Turks used this calendar for a very long time. For example, historical events are described according to the Twelve-Animal Turkic calendar on the Orkhon Monuments, which were made in the years 725, 731, and 732. The months on the monuments are numbered. For example, the first month is written as birinç ay and the fifth month is written as bişinç ay. This was hundreds of years before Kashgari wrote his Dîvânu Lugâti’t-Türk.\n\nAccording to the information from Kashgari, the Twelve-Animal Turkic calendar starts on March 21 in the modern calendar. Nowruz, which the Turks have celebrated since ancient times, is the first day of the new year in this calendar. Today, Turks and different communities in the Turkic world and the surrounding regions still continue to celebrate Nowruz (Nevruz) as a traditional holiday.",
+        "vocabulary": [
+          {
+            "word": "horns",
+            "definition": "Hard, pointed parts on the head of some animals."
+          },
+          {
+            "word": "predictions",
+            "definition": "Statements about what will happen in the future."
+          },
+          {
+            "word": "ancient times",
+            "definition": "A time very long ago."
+          },
+          {
+            "word": "Nowruz",
+            "definition": "The old Turkish New Year on March 21."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-b1-en-h10a",
+            "x": 30,
+            "y": 40,
+            "title": "The Orkhon Monuments",
+            "description": "The Orkhon Monuments, made in 725, 731 and 732, describe historical events according to the Twelve-Animal Turkic calendar."
+          },
+          {
+            "id": "kasgarli-b1-en-h10b",
+            "x": 70,
+            "y": 45,
+            "title": "Nowruz",
+            "description": "Nowruz is the first day of the new year in this calendar."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-b1-quick-10",
+            "type": "true-false",
+            "title": "Before Kashgari",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The Orkhon Monuments were made hundreds of years before Kashgari wrote his book.",
+            "correctAnswer": true,
+            "explanation": "Chapter 10: “This was hundreds of years before Kashgari wrote his Dîvânu Lugâti’t-Türk.”",
+            "feedback": {
+              "correct": "Correct. Hundreds of years before.",
+              "incorrect": "Read the end of the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-b1-language-10-while",
+            "type": "multiple-choice",
+            "title": "Notice: Some … While Others …",
+            "instructions": "Read the sentence. Then choose what “while” does.",
+            "question": "“Some years are seen as good and successful, while others are seen as difficult.” What does “while” do here?",
+            "options": [
+              "It shows a contrast between two groups of years.",
+              "It shows that two things happen at the same time.",
+              "It gives an example."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Some …, while others …” contrasts two groups. Here it separates good years from difficult years.",
+            "feedback": {
+              "correct": "Correct. It shows a contrast.",
+              "incorrect": "Are the two groups the same?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-10-beliefs",
+            "type": "word-bank",
+            "title": "Build: Years and Their Meanings",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "What do the Turks believe about each year?",
+            "fillBlanksText": "If it is the Year of the Ox, they believe that wars will [blank]. When the Year of the Rooster begins, food becomes easy to find, [blank] problems [blank] among people.",
+            "wordBank": ["increase", "but", "grow", "because", "stop"],
+            "correctAnswer": ["increase", "but", "grow"],
+            "explanation": "The book links each year with a belief. “But” shows a contrast between plenty of food and more problems.",
+            "feedback": {
+              "correct": "Well done. Increase, but, grow.",
+              "incorrect": "Which words describe more wars and more problems?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-10-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "History shows that the Turks used this calendar for a very long time.",
+                "frame": "The Turks used this calendar for a very long time, [blank] history shows.",
+                "answers": ["as"]
+              },
+              {
+                "source": "Turks have celebrated Nowruz since ancient times.",
+                "frame": "Turks have celebrated Nowruz [blank] a very long time.",
+                "answers": ["for"]
+              },
+              {
+                "source": "Turks and different communities still continue to celebrate Nowruz.",
+                "frame": "Turks and different communities have not [blank] celebrating Nowruz.",
+                "answers": ["stopped"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“History shows that …” = “…, as history shows”. “Since ancient times” = “for a very long time”. “Still continue” = “have not stopped”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use as, for and stopped."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-10-traditions",
+            "type": "reflection",
+            "title": "Use: An Old Tradition Today",
+            "instructions": "Write five to six sentences about an old tradition people still follow.",
+            "question": "How old is it? How do people celebrate it today?",
+            "correctAnswer": null,
+            "explanation": "Example: “Hıdırellez happens on May 6th. People in Anatolia have celebrated it for many centuries. In the past, families went to the countryside, while today many people meet in city parks. Children jump over small fires with their parents. People still continue it because it welcomes the spring.”",
+            "feedback": {
+              "correct": "Check: since or for, while and a reason.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the tradition and when it happens.",
+                "mode": "Individual",
+                "example": "… happens on …"
+              },
+              {
+                "question": "Say how long people have followed it.",
+                "mode": "Individual",
+                "example": "People have celebrated it since …"
+              },
+              {
+                "question": "Contrast the past and today with while.",
+                "mode": "Pair",
+                "example": "In the past, people …, while today …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: How is the fifth month written on the Orkhon Monuments?",
+          "options": ["bişinç ay", "birinç ay", "altınç ay"],
+          "answer": 0,
+          "quote": "the fifth month is written as bişinç ay"
+        },
+        "iCan": [
+          "I can explain the beliefs connected with some years.",
+          "I can show that the Turks used this calendar for a long time.",
+          "I can use while and when for contrast and time."
+        ]
+      },
+      {
+        "id": 11,
+        "type": "story",
+        "title": "Founder of Turkic Studies",
+        "image": "",
+        "audioUrl": "",
+        "content": "Mahmud of Kashgar is regarded as the founder of Turkic studies. He was a very well-educated linguist. UNESCO included the 950th Anniversary of his famous work, Dîvânu Lugâti’t-Türk, in its 2024 celebration program. This idea was suggested by Turkey and supported by Azerbaijan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan.\n\nToday, the only copy of Dîvânu Lugâti’t-Türk that still exists is in the Millet Library in Istanbul.",
+        "vocabulary": [
+          {
+            "word": "regarded as",
+            "definition": "Thought of as."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-b1-en-h11a",
+            "x": 30,
+            "y": 40,
+            "title": "UNESCO 2024",
+            "description": "UNESCO included the 950th Anniversary of Dîvânu Lugâti’t-Türk in its 2024 celebration program."
+          },
+          {
+            "id": "kasgarli-b1-en-h11b",
+            "x": 70,
+            "y": 45,
+            "title": "The Millet Library",
+            "description": "The only copy of Dîvânu Lugâti’t-Türk that still exists is in the Millet Library in Istanbul."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-b1-quick-11",
+            "type": "true-false",
+            "title": "The UNESCO Idea",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The idea for the UNESCO celebration was suggested by Uzbekistan alone.",
+            "correctAnswer": false,
+            "explanation": "Chapter 11: “This idea was suggested by Turkey and supported by Azerbaijan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan.”",
+            "feedback": {
+              "correct": "Correct. Turkey suggested it, and other countries supported it.",
+              "incorrect": "Read the end of the first paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-b1-language-11-regarded",
+            "type": "multiple-choice",
+            "title": "Notice: Is Regarded As",
+            "instructions": "Read the sentence. Then choose what “is regarded as” means.",
+            "question": "“Mahmud of Kashgar is regarded as the founder of Turkic studies.” What does “is regarded as” mean?",
+            "options": ["People think of him as the founder.", "He says that he is the founder.", "He wants to be the founder."],
+            "correctAnswer": 0,
+            "explanation": "“Be regarded as” is a passive that reports a shared opinion: many people think of him as the founder.",
+            "feedback": {
+              "correct": "Correct. People think of him as the founder.",
+              "incorrect": "Who thinks this?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-11-passive-by",
+            "type": "choose-form",
+            "title": "Build: The Passive with By",
+            "instructions": "Choose the correct form for each sentence from Chapter 11.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "This idea was suggested [choice] Turkey.",
+                "options": ["by", "from", "with"],
+                "answer": 0
+              },
+              {
+                "sentence": "The idea was [choice] by Azerbaijan, Kazakhstan and other countries.",
+                "options": ["supported", "support", "supporting"],
+                "answer": 0
+              },
+              {
+                "sentence": "The only copy that still [choice] is in the Millet Library in Istanbul.",
+                "options": ["exists", "exist", "is existing"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "The passive uses be + past participle, and “by” names who did the action. “Exist” is a state verb, so we say “still exists”.",
+            "feedback": {
+              "correct": "Well done. By, supported, exists.",
+              "incorrect": "Check by, the past participle and the state verb."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-11-errors",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "Mahmud of Kashgar is regarded the founder of Turkic studies.",
+                "error": "regarded the",
+                "options": ["regarded as the", "regarding the", "regards the"],
+                "answer": 0
+              },
+              {
+                "sentence": "He was a very well-educate linguist.",
+                "error": "well-educate",
+                "options": ["well-educated", "well-educating", "well-education"],
+                "answer": 0
+              },
+              {
+                "sentence": "UNESCO included the anniversary on its 2024 celebration program.",
+                "error": "on",
+                "options": ["in", "at", "by"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "We say “regarded as”. The adjective is “well-educated”. We include something “in” a program.",
+            "feedback": {
+              "correct": "Correct. Regarded as, well-educated, in.",
+              "incorrect": "Check as, the adjective form and the preposition."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-11-founder",
+            "type": "reflection",
+            "title": "Use: A Founder I Admire",
+            "instructions": "Write five to six sentences about a person regarded as a founder.",
+            "question": "What did this person start, and why is it important?",
+            "correctAnswer": null,
+            "explanation": "Example: “Mimar Sinan is regarded as one of the greatest architects in history. The Selimiye Mosque in Edirne was built by him. He trained many young architects. His buildings are still used today. They are still important because they show both beauty and strong engineering.”",
+            "feedback": {
+              "correct": "Check: is regarded as, a passive with by and a reason.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say who the person is and what they are regarded as.",
+                "mode": "Individual",
+                "example": "… is regarded as the founder of …"
+              },
+              {
+                "question": "Use a passive with by.",
+                "mode": "Individual",
+                "example": "… was started / built by …"
+              },
+              {
+                "question": "Say why the work is still important.",
+                "mode": "Pair",
+                "example": "It is still important because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Where is the only copy of the work today?",
+          "options": ["in the Millet Library in Istanbul", "in Baghdad", "in Kashgar"],
+          "answer": 0,
+          "quote": "the only copy of Dîvânu Lugâti’t-Türk that still exists is in the Millet Library in Istanbul."
+        },
+        "iCan": [
+          "I can explain why Kashgari is regarded as the founder of Turkic studies.",
+          "I can describe the UNESCO celebration and who supported it.",
+          "I can use is regarded as and the passive with by."
+        ],
+        "groupTask": {
+          "type": "jigsaw",
+          "title": "Mahmud Kashgari: A Museum Exhibition",
+          "time": "20 min",
+          "groupSize": "4",
+          "roles": [
+            {
+              "name": "Life Expert",
+              "job": "You present Kashgari’s life, family and journey (Chapters 2 and 4)."
+            },
+            {
+              "name": "Book Expert",
+              "job": "You present what the Dîvân is, how it was written and why Kashgari praised Turkish (Chapters 1, 3, 5 and 6)."
+            },
+            {
+              "name": "Map Expert",
+              "job": "You present the world map and why it is important today (Chapter 7)."
+            },
+            {
+              "name": "Calendar Expert",
+              "job": "You present the legend, the twelve animals, the beliefs and Nowruz (Chapters 8–10)."
+            }
+          ],
+          "steps": [
+            "Read your chapters and make five key points with one quotation.",
+            "Meet the other experts and teach your points.",
+            "Together, plan four exhibition panels: Life, Book, Map, Calendar.",
+            "Write a short label for each panel and present your exhibition."
+          ],
+          "share": "Each group presents its exhibition. Visitors ask one question at each panel.",
+          "solo": "Write a museum guide text of 120–150 words about Kashgari and his book, with two quotations."
+        }
+      },
+      {
+        "id": 12,
+        "type": "quiz",
+        "title": "Knowledge Check",
+        "image": "",
+        "audioUrl": "",
+        "content": "Check your understanding of the complete book.",
+        "exercises": [
+          {
+            "id": "kasgarli-b1-kc-1-study",
+            "type": "multiple-choice",
+            "title": "The First Study",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What kind of work is Dîvânu Lugâti’t-Türk?",
+            "options": [
+              "the first linguistic study of the Turkic language",
+              "a history of the Seljuk sultans",
+              "a collection of Arabic poems"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “… is the first linguistic study of the Turkic language.”",
+            "feedback": {
+              "correct": "Correct. The first linguistic study of Turkic.",
+              "incorrect": "Read the first sentence of Chapter 1."
+            }
+          },
+          {
+            "id": "kasgarli-b1-kc-2-ancestor",
+            "type": "true-false",
+            "title": "Kashgari’s Ancestor",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Kashgari says that his ancestor was Nasr Ilig Khan.",
+            "correctAnswer": true,
+            "explanation": "Chapter 2: “Kashgari says that he belongs to a noble family, and his ancestor was Nasr Ilig Khan …”",
+            "feedback": {
+              "correct": "Correct. Nasr Ilig Khan was his ancestor.",
+              "incorrect": "Read the second paragraph of Chapter 2."
+            }
+          },
+          {
+            "id": "kasgarli-b1-kc-3-caliph",
+            "type": "multiple-choice",
+            "title": "The Caliph",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "To whom did Kashgari present his work in 1077?",
+            "options": ["the Abbasid Caliph Muktedî-Biemrillâh", "Nasr Ilig Khan", "the Seljuk sultan"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “After that, he presented his work to the Abbasid Caliph (Abbasi Halifesi) Muktedî-Biemrillâh in Baghdad in 1077.”",
+            "feedback": {
+              "correct": "Correct. The Abbasid Caliph.",
+              "incorrect": "Read the second sentence of Chapter 3."
+            }
+          },
+          {
+            "id": "kasgarli-b1-kc-4-left",
+            "type": "true-false",
+            "title": "Leaving Home",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Mahmud of Kashgar left his home in 1077.",
+            "correctAnswer": false,
+            "explanation": "Chapter 4: “Mahmud of Kashgar left his home in 1057.”",
+            "feedback": {
+              "correct": "Correct. He left his home in 1057.",
+              "incorrect": "Read the second paragraph of Chapter 4."
+            }
+          },
+          {
+            "id": "kasgarli-b1-kc-5-oghuz",
+            "type": "multiple-choice",
+            "title": "The Oghuz",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "Where were the Oghuz the most powerful tribe?",
+            "options": ["in the western part of the Turkic world", "in the eastern part of China", "in Egypt"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “At that time, the Oghuz were the most powerful tribe in the western part of the Turkic world …”",
+            "feedback": {
+              "correct": "Correct. In the western part.",
+              "incorrect": "Read the first paragraph of Chapter 5."
+            }
+          },
+          {
+            "id": "kasgarli-b1-kc-6-center",
+            "type": "multiple-choice",
+            "title": "The Center of the Map",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "Which city is placed right in the heart of the Turkic homeland on the map?",
+            "options": ["Balasagun", "Baghdad", "Bukhara"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 7: “Also, the city of Balasagun, which is in modern-day Kyrgyzstan, is placed right in the heart of it.”",
+            "feedback": {
+              "correct": "Correct. Balasagun.",
+              "incorrect": "Read the second paragraph of Chapter 7."
+            }
+          },
+          {
+            "id": "kasgarli-b1-kc-7-rat",
+            "type": "true-false",
+            "title": "The First Year",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The first year of the calendar was named after the rat because it crossed the river first.",
+            "correctAnswer": true,
+            "explanation": "Chapter 8: “The first animal to cross was the rat, so the first year was named after it.”",
+            "feedback": {
+              "correct": "Correct. The rat crossed first.",
+              "incorrect": "Read the last paragraph of Chapter 8."
+            }
+          },
+          {
+            "id": "kasgarli-b1-kc-8-founder",
+            "type": "multiple-choice",
+            "title": "The Founder",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "What is Mahmud of Kashgar regarded as?",
+            "options": ["the founder of Turkic studies", "the first Seljuk sultan", "the author of the Orkhon Monuments"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 11: “Mahmud of Kashgar is regarded as the founder of Turkic studies.”",
+            "feedback": {
+              "correct": "Correct. The founder of Turkic studies.",
+              "incorrect": "Read the first sentence of Chapter 11."
+            }
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "glossary",
+        "title": "Master Glossary",
+        "content": "Review all key vocabulary from the book in one place.",
+        "image": "",
+        "vocabulary": [
+          {
+            "word": "linguistic",
+            "definition": "Connected with the scientific study of language.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/lɪŋˈɡwɪstɪk/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "The First Linguistic Study of Turkic",
+            "storyExample": "Dîvânü lugāti’t-Türk, which means ‘Dictionary of Turkic Dialects (Lehçe)’, is the first linguistic study of the Turkic language."
+          },
+          {
+            "word": "dialect",
+            "definition": "A form of a language spoken in one area.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈdaɪəlekt/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "The First Linguistic Study of Turkic",
+            "storyExample": "Dîvânü lugāti’t-Türk, which means ‘Dictionary of Turkic Dialects (Lehçe)’, is the first linguistic study of the Turkic language."
+          },
+          {
+            "word": "comprehensive content",
+            "definition": "Material that covers almost everything about a subject.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˌkɒmprɪˈhensɪv ˈkɒntent/",
+            "category": "Ideas & Description",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "The First Linguistic Study of Turkic",
+            "storyExample": "The comprehensive content of the work shows that Mahmud Kashgari had an advanced knowledge of both Arabic and Persian."
+          },
+          {
+            "word": "advanced",
+            "definition": "At a high level.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ədˈvænst/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "The First Linguistic Study of Turkic",
+            "storyExample": "The comprehensive content of the work shows that Mahmud Kashgari had an advanced knowledge of both Arabic and Persian."
+          },
+          {
+            "word": "knowledgeable",
+            "definition": "Knowing a lot about something.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈnɒlɪdʒəbəl/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "The First Linguistic Study of Turkic",
+            "storyExample": "In addition, he was very knowledgeable about the dictionaries written in these languages."
+          },
+          {
+            "word": "East Turkestan (Doğu Türkistan)",
+            "definition": "A historical Turkish homeland in western China.",
+            "partOfSpeech": "proper noun",
+            "pronunciation": "/iːst ˌtɜːrkɪˈstæn/",
+            "category": "Places & Geography",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "Who Was Mahmud Kashgari?",
+            "storyExample": "This area is a historical Turkish homeland also widely known as East Turkestan (Doğu Türkistan)."
+          },
+          {
+            "word": "belongs to",
+            "definition": "Is a member of.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/bɪˈlɒŋz tuː/",
+            "category": "Family & People",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "Who Was Mahmud Kashgari?",
+            "storyExample": "Kashgari says that he belongs to a noble family, and his ancestor was Nasr Ilig Khan, the famous Karakhanid ruler who conquered Transoxiana (Maveraünnehir) and Bukhara."
+          },
+          {
+            "word": "ancestor",
+            "definition": "A person in your family who lived long before you.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈænsestər/",
+            "category": "Family & People",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "Who Was Mahmud Kashgari?",
+            "storyExample": "Kashgari says that he belongs to a noble family, and his ancestor was Nasr Ilig Khan, the famous Karakhanid ruler who conquered Transoxiana (Maveraünnehir) and Bukhara."
+          },
+          {
+            "word": "Maveraünnehir",
+            "definition": "Transoxiana, the land between the Amu Darya and Syr Darya rivers.",
+            "partOfSpeech": "proper noun",
+            "pronunciation": "/mɑːverɑːynneˈhɪr/",
+            "category": "Places & Geography",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "Who Was Mahmud Kashgari?",
+            "storyExample": "Kashgari says that he belongs to a noble family, and his ancestor was Nasr Ilig Khan, the famous Karakhanid ruler who conquered Transoxiana (Maveraünnehir) and Bukhara."
+          },
+          {
+            "word": "spear throwers",
+            "definition": "People who throw long, sharp weapons.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/spɪr ˈθroʊərz/",
+            "category": "War & Conflict",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "Who Was Mahmud Kashgari?",
+            "storyExample": "He also says he is one of the Turks who knows the language best, one of the clearest speakers, one of the wisest, and one of the best spear throwers."
+          },
+          {
+            "word": "related to",
+            "definition": "Connected with.",
+            "partOfSpeech": "adjective phrase",
+            "pronunciation": "/rɪˈleɪtɪd tuː/",
+            "category": "Ideas & Description",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "Writing the Dîvân",
+            "storyExample": "In addition, it has information and practices related to nearly every aspect of life."
+          },
+          {
+            "word": "qualities",
+            "definition": "Good parts of a person’s character.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkwɒlətiz/",
+            "category": "Feelings & Character",
+            "level": "B1",
+            "chapter": 4,
+            "chapterTitle": "Words About the Turks",
+            "storyExample": "He then describes many good qualities of the Turks, such as beauty, bright faces, good manners, modesty, bravery, and respect for elders."
+          },
+          {
+            "word": "long-lasting kingdom",
+            "definition": "A rule that continues for a very long time.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˌlɒŋ ˈlæstɪŋ ˈkɪŋdəm/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 4,
+            "chapterTitle": "Words About the Turks",
+            "storyExample": "This is because the Turks will have a long-lasting kingdom.”"
+          },
+          {
+            "word": "Owing to",
+            "definition": "Because of.",
+            "partOfSpeech": "preposition",
+            "pronunciation": "/ˈoʊɪŋ tuː/",
+            "category": "Linking Words",
+            "level": "B1",
+            "chapter": 4,
+            "chapterTitle": "Words About the Turks",
+            "storyExample": "Owing to this belief and confidence, he started his journey and began to visit all Turkic countries."
+          },
+          {
+            "word": "tribes",
+            "definition": "Groups of families with the same ancestors and language.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/traɪbz/",
+            "category": "Family & People",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "The Oghuz and the Caliph",
+            "storyExample": "The book also offers very useful explanations about how their tribes were organized."
+          },
+          {
+            "word": "document",
+            "definition": "An old paper or object that gives information.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈdɒkjumənt/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 7,
+            "chapterTitle": "The Importance of the Map",
+            "storyExample": "Because of this map, which is considered the oldest document made from a Turkic geographical perspective, Kashgari is known as the first Turkic cartographer."
+          },
+          {
+            "word": "chased",
+            "definition": "Ran after something to catch it.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/tʃeɪst/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 8,
+            "chapterTitle": "The Story of the Calendar",
+            "storyExample": "The people chased them toward the river."
+          },
+          {
+            "word": "horns",
+            "definition": "Hard, pointed parts on the head of some animals.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/hɔːrnz/",
+            "category": "Science & Nature",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Each Year Means",
+            "storyExample": "For example, if it is the Year of the Ox, they believe that wars will increase because the ox is an animal that fights with its horns."
+          },
+          {
+            "word": "predictions",
+            "definition": "Statements about what will happen in the future.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/prɪˈdɪkʃənz/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Each Year Means",
+            "storyExample": "In this way, the Turks make different predictions for each year."
+          },
+          {
+            "word": "ancient times",
+            "definition": "A time very long ago.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˈeɪnʃənt taɪmz/",
+            "category": "Time & Change",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Each Year Means",
+            "storyExample": "Nowruz, which the Turks have celebrated since ancient times, is the first day of the new year in this calendar."
+          },
+          {
+            "word": "Nowruz",
+            "definition": "The old Turkish New Year on March 21.",
+            "partOfSpeech": "proper noun",
+            "pronunciation": "/noʊˈruːz/",
+            "category": "Culture & Traditions",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Each Year Means",
+            "storyExample": "Nowruz, which the Turks have celebrated since ancient times, is the first day of the new year in this calendar."
+          },
+          {
+            "word": "regarded as",
+            "definition": "Thought of as.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/rɪˈɡɑːrdɪd æz/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 11,
+            "chapterTitle": "Founder of Turkic Studies",
+            "storyExample": "Mahmud of Kashgar is regarded as the founder of Turkic studies."
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "type": "vocabulary-match",
+        "title": "Vocabulary Challenge",
+        "image": "",
+        "audioUrl": "",
+        "content": "Match 10 words from the book with their meanings.",
+        "vocabularyPairs": [
+          {
+            "word": "linguistic",
+            "meaning": "Connected with the scientific study of language.",
+            "partOfSpeech": "adjective",
+            "chapter": 1,
+            "context": "is the first linguistic study of the Turkic language."
+          },
+          {
+            "word": "dialect",
+            "meaning": "A form of a language spoken in one area.",
+            "partOfSpeech": "noun",
+            "chapter": 1,
+            "context": "A dialect is a regional form of a language"
+          },
+          {
+            "word": "advanced",
+            "meaning": "At a high level.",
+            "partOfSpeech": "adjective",
+            "chapter": 1,
+            "context": "had an advanced knowledge of both Arabic and Persian."
+          },
+          {
+            "word": "ancestor",
+            "meaning": "A person in your family who lived long before you.",
+            "partOfSpeech": "noun",
+            "chapter": 2,
+            "context": "his ancestor was Nasr Ilig Khan"
+          },
+          {
+            "word": "related to",
+            "meaning": "Connected with.",
+            "partOfSpeech": "adjective phrase",
+            "chapter": 3,
+            "context": "information and practices related to nearly every aspect of life."
+          },
+          {
+            "word": "confidence",
+            "meaning": "A strong feeling that you can trust something.",
+            "partOfSpeech": "noun",
+            "chapter": 4,
+            "context": "Owing to this belief and confidence, he started his journey"
+          },
+          {
+            "word": "likely",
+            "meaning": "Probably true or probably going to happen.",
+            "partOfSpeech": "adjective",
+            "chapter": 5,
+            "context": "It is likely that Kashgari was aware of the Turks’ political power"
+          },
+          {
+            "word": "dominant",
+            "meaning": "Stronger and more important than the others.",
+            "partOfSpeech": "adjective",
+            "chapter": 6,
+            "context": "Arabic was dominant and the main language for teaching."
+          },
+          {
+            "word": "perspective",
+            "meaning": "A way of seeing things.",
+            "partOfSpeech": "noun",
+            "chapter": 7,
+            "context": "made from a Turkic geographical perspective"
+          },
+          {
+            "word": "predictions",
+            "meaning": "Statements about what will happen in the future.",
+            "partOfSpeech": "noun",
+            "chapter": 10,
+            "context": "the Turks make different predictions for each year."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "exercises",
+        "title": "Language Review",
+        "image": "",
+        "content": "Review and use the language of the whole book.",
+        "exercises": [
+          {
+            "id": "kasgarli-b1-language-review-1-certainty",
+            "type": "drag-drop",
+            "title": "Notice: How Sure Is the Writer?",
+            "instructions": "Sort the sentences: stated as fact, or presented as possible or believed?",
+            "question": "How sure is the writer?",
+            "dragDropGroups": [
+              {
+                "group": "Stated as fact",
+                "items": [
+                  "Mahmud Kashgari was born in 1008 and died in 1105.",
+                  "The work contains about 9,000 Turkic words, proverbs, and idioms."
+                ]
+              },
+              {
+                "group": "Possible or believed",
+                "items": [
+                  "It is generally believed that he was born in Barsgan.",
+                  "It is likely that he made his map to reflect this belief."
+                ]
+              }
+            ],
+            "correctAnswer": {
+              "Stated as fact": [
+                "Mahmud Kashgari was born in 1008 and died in 1105.",
+                "The work contains about 9,000 Turkic words, proverbs, and idioms."
+              ],
+              "Possible or believed": [
+                "It is generally believed that he was born in Barsgan.",
+                "It is likely that he made his map to reflect this belief."
+              ]
+            },
+            "explanation": "The writer uses It is generally believed and It is likely that when something is not completely certain (Chapters 2 and 7).",
+            "feedback": {
+              "correct": "Good. You noticed the writer’s certainty.",
+              "incorrect": "Look for believed and likely."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-review-2-relative",
+            "type": "multiple-choice",
+            "title": "Notice: Who or Which?",
+            "instructions": "Read the sentences. Then choose the correct one.",
+            "question": "Which sentence is correct?",
+            "options": [
+              "Nasr Ilig Khan was the Karakhanid ruler who conquered Bukhara.",
+              "Nasr Ilig Khan was the Karakhanid ruler which conquered Bukhara.",
+              "Nasr Ilig Khan was the Karakhanid ruler where conquered Bukhara."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Use who for people and which for things.",
+            "feedback": {
+              "correct": "Correct. Who for a person.",
+              "incorrect": "Is Nasr Ilig Khan a person or a thing?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-review-3-after-ing",
+            "type": "true-false",
+            "title": "Notice: After + -ing",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "In “After improving it several times, he completed it”, improving happened first.",
+            "correctAnswer": true,
+            "explanation": "“After + -ing” shows the earlier action.",
+            "feedback": {
+              "correct": "Correct. Improving came first.",
+              "incorrect": "Which action came first?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-review-4-linkers",
+            "type": "word-bank",
+            "title": "Build: Linking Ideas",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "How does the book link ideas?",
+            "fillBlanksText": "The khan wanted to learn the date of an old war. [blank], the people did not agree. [blank], he called a kurultay. Some years are seen as good, [blank] others are seen as difficult.",
+            "wordBank": ["However", "Therefore", "while", "because", "until"],
+            "correctAnswer": ["However", "Therefore", "while"],
+            "explanation": "“However” shows a contrast between sentences. “Therefore” gives a result. “While” contrasts two parts of one sentence.",
+            "feedback": {
+              "correct": "Well done. However, Therefore, while.",
+              "incorrect": "Is it a contrast or a result?"
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-review-5-forms",
+            "type": "choose-form",
+            "title": "Build: Choose the Form",
+            "instructions": "Choose the correct form for each sentence.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "If we make a mistake, the people after us [choice] also make a mistake.",
+                "options": ["will", "would", "are"],
+                "answer": 0
+              },
+              {
+                "sentence": "The status of Arabic made Kashgari [choice] his own language.",
+                "options": ["praise", "to praise", "praised"],
+                "answer": 0
+              },
+              {
+                "sentence": "He is one of the best spear [choice].",
+                "options": ["throwers", "thrower", "throwing"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use will in the first conditional, the base verb after make + person, and a plural noun after one of the.",
+            "feedback": {
+              "correct": "Correct. Will, praise, throwers.",
+              "incorrect": "Check the conditional, make and one of the."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-review-6-grammar",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "Owing to he believed in Turkish, he started his journey.",
+                "error": "Owing to he believed",
+                "options": ["Because he believed", "Owing to believed", "Owing he believed"],
+                "answer": 0
+              },
+              {
+                "sentence": "The map goes as far west than the Russian border.",
+                "error": "than",
+                "options": ["as", "to", "from"],
+                "answer": 0
+              },
+              {
+                "sentence": "The idea was suggested from Turkey.",
+                "error": "from",
+                "options": ["by", "with", "of"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Owing to” needs a noun; use “because” before a clause. We say “as far west as”. The passive uses “by”.",
+            "feedback": {
+              "correct": "Correct. Because he believed, as, by.",
+              "incorrect": "Check owing to, as … as and the passive."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-review-7-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Most people think that he was born in Barsgan.",
+                "frame": "It is generally [blank] that he was born in Barsgan.",
+                "answers": ["believed"]
+              },
+              {
+                "source": "People think of Kashgari as the founder of Turkic studies.",
+                "frame": "Kashgari is [blank] as the founder of Turkic studies.",
+                "answers": ["regarded"]
+              },
+              {
+                "source": "He started his journey because of this belief.",
+                "frame": "He started his journey owing [blank] this belief.",
+                "answers": ["to"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use It is generally believed, be regarded as and owing to to sound more formal.",
+            "feedback": {
+              "correct": "Correct. Believed, regarded, to.",
+              "incorrect": "Use believed, regarded and to."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-review-8-new-context",
+            "type": "word-bank",
+            "title": "Use: A New Context",
+            "instructions": "Read about a modern dictionary project. Fill each gap from the word bank.",
+            "question": "Can you use the book’s language in a new text?",
+            "fillBlanksText": "A group of students started a project to record the [blank] of their region. They visited older people and collected words [blank] to farming and food. Their teacher had an [blank] knowledge of Turkish. It is [blank] that their small dictionary will help future students.",
+            "wordBank": ["dialect", "related", "advanced", "likely", "horns", "chased"],
+            "correctAnswer": ["dialect", "related", "advanced", "likely"],
+            "explanation": "Dialect, related to, advanced and It is likely that come from the book. Here they describe a modern school project.",
+            "feedback": {
+              "correct": "Well done. You used the book’s language in a new text.",
+              "incorrect": "Read the words around each gap."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-review-9-new-context",
+            "type": "error-correction",
+            "title": "Use: Check a Short Report",
+            "instructions": "A student wrote about a museum visit. Find and correct each mistake.",
+            "question": "What should the student change?",
+            "errorItems": [
+              {
+                "sentence": "The museum was opened from the city in 1990.",
+                "error": "from",
+                "options": ["by", "with", "at"],
+                "answer": 0
+              },
+              {
+                "sentence": "It has one of the oldest map in Türkiye.",
+                "error": "map",
+                "options": ["maps", "mapping", "mapped"],
+                "answer": 0
+              },
+              {
+                "sentence": "The guide made us to look at the colors carefully.",
+                "error": "to look",
+                "options": ["look", "looking", "looked"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use “by” in the passive, a plural noun after “one of the”, and the base verb after “make + person”.",
+            "feedback": {
+              "correct": "Correct. By, maps, look.",
+              "incorrect": "Check the passive, one of the and make."
+            }
+          },
+          {
+            "id": "kasgarli-b1-language-review-10-transfer",
+            "type": "reflection",
+            "title": "Use: A Book That Keeps a Culture Alive",
+            "instructions": "Write six to eight sentences about a book or record that keeps a culture alive.",
+            "question": "What does it contain, and why is it important?",
+            "correctAnswer": null,
+            "explanation": "Example: “My grandmother’s recipe notebook was written by her mother in the 1960s. It contains more than one hundred recipes from our region. Some of the dishes are not cooked anymore in our town. The notebook also includes short notes about weddings and holidays. It is regarded as a treasure in our family. It is likely that without it, many of these dishes would be forgotten. I want to type it and share it with my cousins.”",
+            "feedback": {
+              "correct": "Check: a passive, contains, is regarded as and It is likely that.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the book or record and who made it.",
+                "mode": "Individual",
+                "example": "… was written / made by …"
+              },
+              {
+                "question": "Say what it contains.",
+                "mode": "Individual",
+                "example": "It contains …"
+              },
+              {
+                "question": "Say why it is important, with a careful explanation.",
+                "mode": "Pair",
+                "example": "It is likely that without it, …"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "type": "final-challenge",
+        "title": "Final Challenge",
+        "image": "",
+        "content": "Bring the whole book together in the Final Challenge.",
+        "exercises": [
+          {
+            "id": "kasgarli-b1-final-1",
+            "type": "multiple-choice",
+            "title": "Turkic to Arabic",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "How was Dîvânu Lugâti’t-Türk prepared?",
+            "options": [
+              "as a dictionary from Turkic dialects to Arabic",
+              "as a dictionary from Arabic to Persian",
+              "as a history book in Persian"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “Dîvânu Lugâti’t-Türk was prepared as a dictionary from Turkic dialects to Arabic.”",
+            "feedback": {
+              "correct": "Correct. From Turkic dialects to Arabic.",
+              "incorrect": "Read the second paragraph of Chapter 1."
+            }
+          },
+          {
+            "id": "kasgarli-b1-final-2",
+            "type": "matching",
+            "title": "Words and Meanings",
+            "instructions": "Match each word with its meaning.",
+            "question": "What do the words mean?",
+            "matchingHeadings": {
+              "left": "Word",
+              "right": "Meaning"
+            },
+            "matchingPairs": [
+              {
+                "left": "dialect",
+                "right": "a regional form of a language"
+              },
+              {
+                "left": "ancestor",
+                "right": "a family member who lived long before you"
+              },
+              {
+                "left": "dominant",
+                "right": "stronger and more important than the others"
+              },
+              {
+                "left": "predictions",
+                "right": "statements about the future"
+              }
+            ],
+            "correctAnswer": {
+              "dialect": "a regional form of a language",
+              "ancestor": "a family member who lived long before you",
+              "dominant": "stronger and more important than the others",
+              "predictions": "statements about the future"
+            },
+            "explanation": "These words are important in Chapters 1, 2, 6 and 10.",
+            "feedback": {
+              "correct": "Correct. Each word matches its meaning.",
+              "incorrect": "Think about where each word appears."
+            }
+          },
+          {
+            "id": "kasgarli-b1-final-3",
+            "type": "fill-blanks",
+            "title": "The Work",
+            "instructions": "Complete the sentence from Chapter 3 with one word.",
+            "question": "What can the work be seen as?",
+            "fillBlanksText": "For this reason, the work can be seen as an [blank] of Turkic culture.",
+            "correctAnswer": ["encyclopedia"],
+            "explanation": "Chapter 3: “For this reason, the work can be seen as an encyclopedia of Turkic culture.”",
+            "feedback": {
+              "correct": "Correct. Encyclopedia.",
+              "incorrect": "Read the last sentence of Chapter 3."
+            }
+          },
+          {
+            "id": "kasgarli-b1-final-4",
+            "type": "multiple-choice",
+            "title": "Why Turkish?",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "Why did Kashgari praise Turkish?",
+            "options": ["He believed in the richness of his mother tongue.", "The caliph asked him to.", "He did not know Arabic."],
+            "correctAnswer": 0,
+            "explanation": "Chapter 6: “… because he believed in the richness of his mother tongue and that it could compete with Arabic.”",
+            "feedback": {
+              "correct": "Correct. He believed in its richness.",
+              "incorrect": "Read Chapter 6."
+            }
+          },
+          {
+            "id": "kasgarli-b1-final-5",
+            "type": "matching",
+            "title": "The Map",
+            "instructions": "Match each place with the name or position on the map.",
+            "question": "What does the map show?",
+            "matchingHeadings": {
+              "left": "Place",
+              "right": "On the map"
+            },
+            "matchingPairs": [
+              {
+                "left": "Japan",
+                "right": "‘Jabarqa’"
+              },
+              {
+                "left": "China",
+                "right": "‘the Land of Yecüc and Mecüc’"
+              },
+              {
+                "left": "Turkestan",
+                "right": "in the center of the world"
+              },
+              {
+                "left": "the Idil (Volga) River",
+                "right": "in the far west"
+              }
+            ],
+            "correctAnswer": {
+              "Japan": "‘Jabarqa’",
+              "China": "‘the Land of Yecüc and Mecüc’",
+              "Turkestan": "in the center of the world",
+              "the Idil (Volga) River": "in the far west"
+            },
+            "explanation": "Chapter 7 describes the places on Kashgari’s map.",
+            "feedback": {
+              "correct": "Correct. Each place matches the map.",
+              "incorrect": "Read the third paragraph of Chapter 7."
+            }
+          },
+          {
+            "id": "kasgarli-b1-final-6",
+            "type": "true-false",
+            "title": "The Dialects",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Kashgari says that he knew the language of every tribe perfectly.",
+            "correctAnswer": true,
+            "explanation": "Chapter 4: “He also adds that he knew the language of every tribe perfectly.”",
+            "feedback": {
+              "correct": "Correct. He says he knew them perfectly.",
+              "incorrect": "Read the end of Chapter 4."
+            }
+          },
+          {
+            "id": "kasgarli-b1-final-7",
+            "type": "true-false",
+            "title": "The Months",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The months on the Orkhon Monuments have animal names.",
+            "correctAnswer": false,
+            "explanation": "Chapter 10: “The months on the monuments are numbered.”",
+            "feedback": {
+              "correct": "Correct. The months are numbered.",
+              "incorrect": "Read the second paragraph of Chapter 10."
+            }
+          },
+          {
+            "id": "kasgarli-b1-final-8",
+            "type": "fill-blanks",
+            "title": "Nowruz",
+            "instructions": "Complete the sentence from Chapter 10 with a date.",
+            "question": "When does the calendar start in the modern calendar?",
+            "fillBlanksText": "According to the information from Kashgari, the Twelve-Animal Turkic calendar starts on [blank] in the modern calendar.",
+            "correctAnswer": ["March 21", "March 21st", "21 March"],
+            "explanation": "Chapter 10: “… the Twelve-Animal Turkic calendar starts on March 21 in the modern calendar.”",
+            "feedback": {
+              "correct": "Correct. March 21.",
+              "incorrect": "Read the last paragraph of Chapter 10."
+            }
+          },
+          {
+            "id": "kasgarli-b1-final-9",
+            "type": "multiple-choice",
+            "title": "Three Great States",
+            "instructions": "Choose the answer that the book supports.",
+            "question": "Which were the three great Turkic states of the time?",
+            "options": [
+              "the Karakhanids, the Ghaznavids and the Seljuks",
+              "the Abbasids, the Ottomans and the Seljuks",
+              "the Oghuz, the Kyrgyz and the Chigil"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “The three great Turkic states of the time were the Karakhanids (Karahanlılar), the Ghaznavids (Gazneliler), and the Seljuks (Selçuklular).”",
+            "feedback": {
+              "correct": "Correct. Karakhanids, Ghaznavids, Seljuks.",
+              "incorrect": "Read the end of Chapter 5."
+            }
+          },
+          {
+            "id": "kasgarli-b1-final-10",
+            "type": "sequencing",
+            "title": "From Barsgan to UNESCO",
+            "instructions": "Put the events in the order they happened.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Mahmud Kashgari was born in 1008."
+              },
+              {
+                "id": "2",
+                "text": "Mahmud Kashgari left his home to visit all Turkic countries."
+              },
+              {
+                "id": "3",
+                "text": "Mahmud Kashgari began writing Dîvânu Lugâti’t-Türk."
+              },
+              {
+                "id": "4",
+                "text": "Mahmud Kashgari presented his work in Baghdad."
+              },
+              {
+                "id": "5",
+                "text": "UNESCO included the 950th Anniversary of the work in its 2024 program."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "1008 (Chapter 2), 1057 (Chapter 4), 1072 and 1077 (Chapter 3), 2024 (Chapter 11).",
+            "feedback": {
+              "correct": "Correct. From his birth to UNESCO.",
+              "incorrect": "Look at the years in the book."
+            }
+          }
+        ]
+      }
+    ],
+    "teacherGuide": [],
+    "selfStudyGuide": []
+  }
+}

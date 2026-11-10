@@ -132,6 +132,9 @@ export const storageManifests: Record<string, BookAssetManifest> = {
   [manifestKey('ahilik', 'A2')]: media(['ahilik/a2/images'], ['ahilik/a2/audio'], []),
   [manifestKey('ahilik', 'B1')]: media(['ahilik/b1/images'], ['ahilik/b1/audio'], []),
   [manifestKey('ahilik', 'B2')]: media(['ahilik/b2/images'], ['ahilik/b2/audio'], []),
+  [manifestKey('kasgarli', 'A2')]: media(['kasgarli/a2/images'], ['kasgarli/a2/audio'], []),
+  [manifestKey('kasgarli', 'B1')]: media(['kasgarli/b1/images'], ['kasgarli/b1/audio'], []),
+  [manifestKey('kasgarli', 'B2')]: media(['kasgarli/b2/images'], ['kasgarli/b2/audio'], []),
 
   [manifestKey('yunusEmre', 'A2')]: media(
     [

@@ -1,0 +1,2168 @@
+{
+  "schema": 1,
+  "storyId": "kasgarli",
+  "level": "A2",
+  "language": "ar",
+  "collection": "turkish",
+  "book": {
+    "id": "kasgarli-a2",
+    "title": "Mahmud Kashgari and His Work Dîvânu Lugâti’t-Türk",
+    "level": "A2",
+    "baseFontSize": 12,
+    "pages": [
+      {
+        "id": 1,
+        "type": "story",
+        "title": "The Oldest Dictionary of the Turkic World",
+        "image": "",
+        "audioUrl": "",
+        "content": "In this text, you will learn about the world’s oldest Turkish dictionary and its author. The name of this dictionary is Dîvânu Lugâti’t-Türk. It means ‘Dictionary of Turkish Languages’. Today, people can find the only copy of Dîvânu Lugâti’t-Türk in Istanbul, at the Millet Library.\n\nDîvânu Lugâti’t-Türk is a historical dictionary from the 11th century by Mahmud Kashgari. He wrote it to teach Turkish to Arabs. He also wanted to show everyone that Turkish is a rich language, beautiful to write and speak. In 1072, Mahmud of Kashgar started writing his great book. He made new additions many times and finished it in 1074. Later, in 1077, he presented his work to the Abbasid Caliph (Abbasi Halifesi) in Baghdad.\n\nToday modern Turkish has 132,334 words. This dictionary from the 11th century has about 9,000 Turkic words, proverbs, and idioms, though. You can see the oldest Turkish poems and learn grammar rules of the Turkish language. The book lists many place names and personal names. It shares old traditions with interesting legends from the Turkic world. This book describes daily life then, so it is a big guide to Turkish culture.\n\nIn addition to all the language notes, it has a map of the old Turkic world. Because of this map, Kashgari became the very first Turkic mapmaker in history. The map shows where the Turks lived and the nations they met. On it, mountains are marked in red, seas in green, rivers in blue, and sandy areas in yellow. The map in Dîvânu Lugâti’t-Türk is very important because it is the first world map to show Japan. The second world map with Japan was made 400 years later.",
+        "vocabulary": [
+          {
+            "word": "oldest",
+            "definition": "Most old; from the earliest time."
+          },
+          {
+            "word": "author",
+            "definition": "The person who wrote a book."
+          },
+          {
+            "word": "Dictionary of Turkish Languages",
+            "definition": "The meaning of the name Dîvânu Lugâti’t-Türk."
+          },
+          {
+            "word": "though",
+            "definition": "Used to show that something is surprising."
+          },
+          {
+            "word": "legends",
+            "definition": "Very old stories, often not all true."
+          },
+          {
+            "word": "describes",
+            "definition": "Tells what something is like."
+          },
+          {
+            "word": "guide",
+            "definition": "Something that helps you understand or find your way."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-a2-en-h1a",
+            "x": 30,
+            "y": 40,
+            "title": "The Millet Library",
+            "description": "Today, people can find the only copy of Dîvânu Lugâti’t-Türk in Istanbul, at the Millet Library."
+          },
+          {
+            "id": "kasgarli-a2-en-h1b",
+            "x": 70,
+            "y": 45,
+            "title": "The Map",
+            "description": "The map in the book is the first world map to show Japan."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-a2-quick-1",
+            "type": "multiple-choice",
+            "title": "Why Did He Write It?",
+            "instructions": "Choose the answer from Chapter 1.",
+            "question": "Why did Mahmud Kashgari write Dîvânu Lugâti’t-Türk?",
+            "options": ["to teach Turkish to Arabs", "to teach Arabic to Turks", "to sell it in Baghdad"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “He wrote it to teach Turkish to Arabs.”",
+            "feedback": {
+              "correct": "Correct. He wanted to teach Turkish to Arabs.",
+              "incorrect": "Read the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-a2-language-1-in-year",
+            "type": "multiple-choice",
+            "title": "Look: In 1072, In 1074",
+            "instructions": "Read the sentences from Chapter 1. Then choose the answer.",
+            "question": "“In 1072, Mahmud of Kashgar started writing his great book. He made new additions many times and finished it in 1074.” How long did he work on the book?",
+            "options": ["about two years", "about ten years", "one month"],
+            "correctAnswer": 0,
+            "explanation": "We use “in” with years. From 1072 to 1074 is about two years.",
+            "feedback": {
+              "correct": "Correct. About two years.",
+              "incorrect": "Look at the two years."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-1-past",
+            "type": "word-bank",
+            "title": "Practise: The Story of the Book",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "What happened to the book?",
+            "fillBlanksText": "Kashgari [blank] writing the book in 1072. He [blank] it in 1074. In 1077, he [blank] it to the Caliph in Baghdad.",
+            "wordBank": ["started", "finished", "presented", "starts", "finishing"],
+            "correctAnswer": ["started", "finished", "presented"],
+            "explanation": "All three events happened in the past, so we use the past simple: started, finished, presented.",
+            "feedback": {
+              "correct": "Well done. Started, finished, presented.",
+              "incorrect": "The years are in the past."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-1-my-book",
+            "type": "reflection",
+            "title": "Use: A Book I Know",
+            "instructions": "Write three sentences about a book you know.",
+            "question": "Who wrote it? What is it about?",
+            "correctAnswer": null,
+            "explanation": "Example: “The book is Çalıkuşu. The author is Reşat Nuri Güntekin. I read it in 2025. I like it because the story is very interesting.”",
+            "feedback": {
+              "correct": "Check: the author, a year with in, and because.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say the name and the author.",
+                "mode": "Individual",
+                "example": "The book is … The author is …"
+              },
+              {
+                "question": "Say when you read it.",
+                "mode": "Individual",
+                "example": "I read it in …"
+              },
+              {
+                "question": "Say why you like it.",
+                "mode": "Pair",
+                "example": "I like it because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Where is the only copy of the dictionary today?",
+          "options": ["in Istanbul, at the Millet Library", "in Baghdad", "in Kashgar"],
+          "answer": 0,
+          "quote": "Today, people can find the only copy of Dîvânu Lugâti’t-Türk in Istanbul, at the Millet Library."
+        },
+        "iCan": [
+          "I can say what Dîvânu Lugâti’t-Türk is.",
+          "I can say why Mahmud Kashgari wrote it.",
+          "I can use started, finished and presented with years."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "story",
+        "title": "Who Was Mahmud Kashgari?",
+        "image": "",
+        "audioUrl": "",
+        "content": "Historians believe that Mahmud Kashgari was born in Barsgan, Kyrgyzstan, in 1008 and died in Kashgar in 1105. Kashgar is a very old city in western China. It is known as an ancient Turkic homeland and is also called East Turkestan (Doğu Türkistan). Mahmud Kashgari comes from a noble Karakhanid (Karahanlı) family. In his book, he describes himself like this: “I am a very smart person from an important family. I speak Turkish perfectly, express my ideas clearly, and I am great at throwing spears.”",
+        "vocabulary": [
+          {
+            "word": "Kashgar",
+            "definition": "An old city in western China."
+          },
+          {
+            "word": "East Turkestan (Doğu Türkistan)",
+            "definition": "An old Turkic homeland in western China."
+          },
+          {
+            "word": "perfectly",
+            "definition": "With no mistakes."
+          },
+          {
+            "word": "throwing spears",
+            "definition": "Sending long, sharp sticks through the air."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-a2-en-h2a",
+            "x": 30,
+            "y": 40,
+            "title": "Kashgar",
+            "description": "Kashgar is a very old city in western China."
+          },
+          {
+            "id": "kasgarli-a2-en-h2b",
+            "x": 70,
+            "y": 45,
+            "title": "A Noble Family",
+            "description": "Mahmud Kashgari comes from a noble Karakhanid (Karahanlı) family."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-a2-quick-2",
+            "type": "true-false",
+            "title": "Kashgar",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Kashgar is a very old city in western China.",
+            "correctAnswer": true,
+            "explanation": "Chapter 2: “Kashgar is a very old city in western China.”",
+            "feedback": {
+              "correct": "Correct. It is a very old city in western China.",
+              "incorrect": "Read the second sentence."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-a2-language-2-born",
+            "type": "multiple-choice",
+            "title": "Look: Was Born, Died",
+            "instructions": "Read the sentence from Chapter 2. Then choose the answer.",
+            "question": "“Mahmud Kashgari was born in Barsgan, Kyrgyzstan, in 1008 and died in Kashgar in 1105.” Which word comes before a place and a year?",
+            "options": ["in", "on", "at"],
+            "correctAnswer": 0,
+            "explanation": "We say “was born in + place” and “in + year”: born in Barsgan, in 1008.",
+            "feedback": {
+              "correct": "Correct. In.",
+              "incorrect": "Look at Barsgan and 1008."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-2-adverbs",
+            "type": "choose-form",
+            "title": "Practise: How Does He Do It?",
+            "instructions": "Choose the correct word for each sentence.",
+            "question": "Which word fits?",
+            "formChoices": [
+              {
+                "sentence": "He speaks Turkish [choice].",
+                "options": ["perfectly", "perfect", "perfection"],
+                "answer": 0
+              },
+              {
+                "sentence": "He expresses his ideas [choice].",
+                "options": ["clearly", "clear", "clearer"],
+                "answer": 0
+              },
+              {
+                "sentence": "He is great [choice] throwing spears.",
+                "options": ["at", "in", "on"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "An adverb with -ly tells us how someone does something. We say “great at + -ing”.",
+            "feedback": {
+              "correct": "Well done. Perfectly, clearly, at.",
+              "incorrect": "How does he speak? How does he express his ideas?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-2-about-me",
+            "type": "reflection",
+            "title": "Use: This Is Me",
+            "instructions": "Describe yourself in three sentences, like Kashgari.",
+            "question": "Where were you born? What are you good at?",
+            "correctAnswer": null,
+            "explanation": "Example: “I was born in Konya in 2012. I draw pictures carefully. I am great at playing chess.”",
+            "feedback": {
+              "correct": "Check: was born in, an -ly word and great at + -ing.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say where and when you were born.",
+                "mode": "Individual",
+                "example": "I was born in … in …"
+              },
+              {
+                "question": "Say one thing you do well, with -ly.",
+                "mode": "Pair",
+                "example": "I … well / clearly / quickly."
+              },
+              {
+                "question": "Say what you are great at.",
+                "mode": "Pair",
+                "example": "I am great at …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Where did Mahmud Kashgari die?",
+          "options": ["in Kashgar", "in Baghdad", "in Istanbul"],
+          "answer": 0,
+          "quote": "died in Kashgar in 1105"
+        },
+        "iCan": [
+          "I can say where Mahmud Kashgari was born and died.",
+          "I can say how he describes himself.",
+          "I can use was born and died with places and years."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "story",
+        "title": "In Praise of the Turks and Their Language",
+        "image": "",
+        "audioUrl": "",
+        "content": "In his book, he says that Allah gave the name ‘Turk’ to the Turkish people. He adds that Allah gave the Turks this name and put them in the highest and cleanest part of the world. He writes that Allah called them ‘My army.’ He also says that the Turks have many great qualities. They are beautiful, polite, respectful to older people, honest, and brave. He also shares this hadith (hadis). Prophet Muhammad (pbuh) says, “Learn the Turkish language! Because the Turks will rule for a very long time.” With a deep belief in his heart, Mahmud of Kashgar began his journey in 1057 to visit every Turkic land. For about ten to fifteen years, he traveled from tribe to tribe, learned their unique dialects, and gathered valuable stories and notes before finally reaching the great city of Baghdad.\n\nIn Karakhanid schools, Arabic was the main language for teaching and writing. This made Mahmud Kashgari want to praise his native language, Turkish. He believed Turkish was just as great as Arabic. To prove this, he wrote the famous book Dîvânü lugāti’t-Türk.",
+        "vocabulary": [
+          {
+            "word": "qualities",
+            "definition": "Good parts of a person’s character."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-a2-en-h3a",
+            "x": 30,
+            "y": 40,
+            "title": "A Long Journey",
+            "description": "Mahmud of Kashgar began his journey in 1057 to visit every Turkic land."
+          },
+          {
+            "id": "kasgarli-a2-en-h3b",
+            "x": 70,
+            "y": 45,
+            "title": "Karakhanid Schools",
+            "description": "In Karakhanid schools, Arabic was the main language for teaching and writing."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-a2-quick-3",
+            "type": "multiple-choice",
+            "title": "The Main Language",
+            "instructions": "Choose the answer from Chapter 3.",
+            "question": "What was the main language in Karakhanid schools?",
+            "options": ["Arabic", "Turkish", "Persian"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “In Karakhanid schools, Arabic was the main language for teaching and writing.”",
+            "feedback": {
+              "correct": "Correct. Arabic was the main language.",
+              "incorrect": "Read the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-a2-language-3-purpose",
+            "type": "multiple-choice",
+            "title": "Look: To Visit, To Prove",
+            "instructions": "Read the sentence from Chapter 3. Then choose the answer.",
+            "question": "“Mahmud of Kashgar began his journey in 1057 to visit every Turkic land.” What does “to visit” show?",
+            "options": ["why he began his journey", "when he began his journey", "where he was born"],
+            "correctAnswer": 0,
+            "explanation": "“To + verb” can show a purpose: why someone does something. He traveled because he wanted to visit every Turkic land.",
+            "feedback": {
+              "correct": "Correct. It shows why.",
+              "incorrect": "Why did he begin the journey?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-3-to-verb",
+            "type": "choose-form",
+            "title": "Practise: Why Did He Do It?",
+            "instructions": "Choose the correct form for each sentence from Chapter 3.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "He began his journey [choice] every Turkic land.",
+                "options": ["to visit", "visiting", "visits"],
+                "answer": 0
+              },
+              {
+                "sentence": "He wrote the famous book [choice] that Turkish was great.",
+                "options": ["to prove", "proving", "proves"],
+                "answer": 0
+              },
+              {
+                "sentence": "He traveled from tribe [choice] tribe.",
+                "options": ["to", "for", "at"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use “to + verb” for a purpose. “From tribe to tribe” means going from one tribe to the next.",
+            "feedback": {
+              "correct": "Well done. To visit, to prove, to.",
+              "incorrect": "Which form shows why?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-3-my-language",
+            "type": "reflection",
+            "title": "Use: Why I Learn",
+            "instructions": "Write three sentences about why you learn things.",
+            "question": "Why do you learn English? Why do you read?",
+            "correctAnswer": null,
+            "explanation": "Example: “I learn English to talk with people from other countries. I read books to learn new words. I love my language because it has beautiful poems.”",
+            "feedback": {
+              "correct": "Check: to + verb two times and because.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say why you learn English, with to.",
+                "mode": "Individual",
+                "example": "I learn English to …"
+              },
+              {
+                "question": "Say why you read books, with to.",
+                "mode": "Individual",
+                "example": "I read books to …"
+              },
+              {
+                "question": "Say one thing you love about your language.",
+                "mode": "Pair",
+                "example": "I love my language because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: How long did Kashgari travel from tribe to tribe?",
+          "options": ["about ten to fifteen years", "about one year", "about fifty years"],
+          "answer": 0,
+          "quote": "For about ten to fifteen years, he traveled from tribe to tribe"
+        },
+        "iCan": [
+          "I can say what Kashgari says about the Turks.",
+          "I can explain why he wanted to praise Turkish.",
+          "I can use to + verb for a purpose."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "story",
+        "title": "The Story of the Calendar",
+        "image": "",
+        "audioUrl": "",
+        "content": "In this old dictionary, we found an interesting calendar. Turkish people have used it since ancient times. Kashgari describes this calendar as the Twelve-Animal Turkic calendar. He explains how it started and its role in the lives of the Turks. He writes that the Turks created a 12-year calendar with 12 different animals. This special calendar helped them keep track of their children’s ages, battle dates, and other big moments. Here is the interesting story of this calendar:\n\nA long time ago, a Turkic khan (Han: a title Turkish rulers used long before Islam) wanted to learn about a battle from the past. But his people disagreed about the date, so the khan called a great kurultay to ask them. A Kurultay was a national meeting or general meeting at that time.\n\nThe khan said: “If we are wrong about this date, the people after us will also be wrong. To stop this, let’s make a calendar with the twelve stars of the sky and the twelve months, and give a name to each year. In this way, we will find the time by counting these years. This system should be a record for all of us.”\n\nThe people loved the khan’s idea too, and they named the years in this way:\n\nThe khan went to hunt. He told the people to push the wild animals toward a big river in the Ili Valley (İli Vadisi). The people chased the animals to the water. The river was dangerous, so only twelve animals could cross to the other side safely. The Turkish calendar started with the Year of the Rat because the rat crossed the river first. After that, each new year got its name from the other animals in the order they crossed.",
+        "vocabulary": [
+          {
+            "word": "since ancient",
+            "definition": "From very old (times) until now."
+          },
+          {
+            "word": "keep track",
+            "definition": "Remember or record something so you do not forget it."
+          },
+          {
+            "word": "disagreed",
+            "definition": "Had different ideas."
+          },
+          {
+            "word": "Kurultay",
+            "definition": "A big national meeting of the Turks."
+          },
+          {
+            "word": "wild animals",
+            "definition": "Animals that do not live with people."
+          },
+          {
+            "word": "Ili Valley",
+            "definition": "A valley with a big river in Central Asia."
+          },
+          {
+            "word": "cross",
+            "definition": "Go from one side to the other."
+          },
+          {
+            "word": "safely",
+            "definition": "Without danger."
+          },
+          {
+            "word": "Rat",
+            "definition": "A small animal like a big mouse."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-a2-en-h4a",
+            "x": 30,
+            "y": 40,
+            "title": "The Kurultay",
+            "description": "The khan called a great kurultay to ask his people about the date of a battle."
+          },
+          {
+            "id": "kasgarli-a2-en-h4b",
+            "x": 70,
+            "y": 45,
+            "title": "The River",
+            "description": "Only twelve animals could cross the dangerous river to the other side safely."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-a2-quick-4",
+            "type": "sequencing",
+            "title": "The Story in Order",
+            "instructions": "Put the events of the story in order.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "The people disagreed about the date of a battle."
+              },
+              {
+                "id": "2",
+                "text": "The khan called a great kurultay."
+              },
+              {
+                "id": "3",
+                "text": "The people pushed the wild animals toward a big river."
+              },
+              {
+                "id": "4",
+                "text": "Twelve animals crossed the river safely."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4"],
+            "explanation": "Chapter 4 tells the story step by step: the problem, the kurultay, the hunt and the twelve animals.",
+            "feedback": {
+              "correct": "Correct. Each event led to the next.",
+              "incorrect": "Follow the chapter from the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-a2-language-4-lets",
+            "type": "multiple-choice",
+            "title": "Look: Let’s Make a Calendar",
+            "instructions": "Read the khan’s words. Then choose the answer.",
+            "question": "“To stop this, let’s make a calendar with the twelve stars of the sky and the twelve months.” What does “let’s” show?",
+            "options": ["an idea for everyone to do together", "something that happened in the past", "a question"],
+            "correctAnswer": 0,
+            "explanation": "“Let’s + verb” gives an idea for a group. The khan and his people will make the calendar together.",
+            "feedback": {
+              "correct": "Correct. An idea for everyone.",
+              "incorrect": "Who will make the calendar?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-4-story",
+            "type": "word-bank",
+            "title": "Practise: Tell the Story",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "How does the story go?",
+            "fillBlanksText": "The people disagreed about the date, [blank] the khan called a kurultay. The river was dangerous, so only twelve animals could [blank]. The calendar started with the rat [blank] it crossed first.",
+            "wordBank": ["so", "cross", "because", "but", "crossing"],
+            "correctAnswer": ["so", "cross", "because"],
+            "explanation": "“So” gives a result. After “could”, use the base verb. “Because” gives a reason.",
+            "feedback": {
+              "correct": "Well done. So, cross, because.",
+              "incorrect": "Look at the words before each gap."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-4-lets-plan",
+            "type": "reflection",
+            "title": "Use: Let’s Do It Together",
+            "instructions": "Make a plan for your class with let’s.",
+            "question": "What can your class do together?",
+            "correctAnswer": null,
+            "explanation": "Example: “Let’s make a class calendar with our birthdays. If we write them down, we will not forget them. It is a good idea because we can celebrate together.”",
+            "feedback": {
+              "correct": "Check: let’s, if and because.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Give one idea with let’s.",
+                "mode": "Pair",
+                "example": "Let’s …"
+              },
+              {
+                "question": "Say one result with if.",
+                "mode": "Pair",
+                "example": "If we …, we will …"
+              },
+              {
+                "question": "Say why it is a good idea.",
+                "mode": "Pair",
+                "example": "It is a good idea because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Which animal crossed the river first?",
+          "options": ["the rat", "the horse", "the snake"],
+          "answer": 0,
+          "quote": "the rat crossed the river first"
+        },
+        "iCan": [
+          "I can retell the story of the Twelve-Animal calendar.",
+          "I can say why the khan wanted a calendar.",
+          "I can use let’s and if for ideas and results."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "story",
+        "title": "The Twelve Animals",
+        "image": "",
+        "audioUrl": "",
+        "content": "This is the list of the animals:\n\n1. Year of the Sıçgan means ‘Year of the Rat’\n\n2. Year of the Ud means ‘Year of the Ox’\n\n3. Year of the Bars means ‘Year of the Leopard’\n\n4. Year of the Tavışgan means ‘Year of the Rabbit’\n\n5. Year of the Nag means ‘Year of the Crocodile’\n\n6. Year of the Yılan means ‘Year of the Snake’\n\n7. Year of the Yund means ‘Year of the Horse’\n\n8. Year of the Koy means ‘Year of the Sheep’\n\n9. Year of the Biçin means ‘Year of the Monkey’\n\n10. Year of the Takagu means ‘Year of the Rooster’\n\n11. Year of the İt means ‘Year of the Dog’\n\n12. Year of the Toŋguz means ‘Year of the Pig’",
+        "vocabulary": [
+          {
+            "word": "Ox",
+            "definition": "A big, strong male cow."
+          },
+          {
+            "word": "Crocodile",
+            "definition": "A big animal with a long mouth that lives in rivers."
+          },
+          {
+            "word": "Rooster",
+            "definition": "A male chicken."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-a2-en-h5a",
+            "x": 30,
+            "y": 40,
+            "title": "Year of the Rat",
+            "description": "The first year of the calendar is the Year of the Sıçgan, the Year of the Rat."
+          },
+          {
+            "id": "kasgarli-a2-en-h5b",
+            "x": 70,
+            "y": 45,
+            "title": "Year of the Pig",
+            "description": "The last year of the calendar is the Year of the Toŋguz, the Year of the Pig."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-a2-quick-5",
+            "type": "matching",
+            "title": "Old Names and New Names",
+            "instructions": "Match each old Turkic name with its English name.",
+            "question": "What do the old names mean?",
+            "matchingHeadings": {
+              "left": "Old Turkic name",
+              "right": "English name"
+            },
+            "matchingPairs": [
+              {
+                "left": "Sıçgan",
+                "right": "Rat"
+              },
+              {
+                "left": "Bars",
+                "right": "Leopard"
+              },
+              {
+                "left": "Yund",
+                "right": "Horse"
+              },
+              {
+                "left": "İt",
+                "right": "Dog"
+              }
+            ],
+            "correctAnswer": {
+              "Sıçgan": "Rat",
+              "Bars": "Leopard",
+              "Yund": "Horse",
+              "İt": "Dog"
+            },
+            "explanation": "Chapter 5 lists the twelve years with their old Turkic names and their meanings.",
+            "feedback": {
+              "correct": "Correct. Each old name matches its animal.",
+              "incorrect": "Find each name in the list."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-a2-language-5-ordinal",
+            "type": "multiple-choice",
+            "title": "Look: The First, the Second …",
+            "instructions": "Read the list in Chapter 5. Then choose the answer.",
+            "question": "“3. Year of the Bars means ‘Year of the Leopard’.” Which year is the Year of the Leopard?",
+            "options": ["the third year", "the first year", "the thirteenth year"],
+            "correctAnswer": 0,
+            "explanation": "Ordinal numbers show order: first (1st), second (2nd), third (3rd), fourth (4th) … twelfth (12th).",
+            "feedback": {
+              "correct": "Correct. The third year.",
+              "incorrect": "Look at the number 3."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-5-ordinals",
+            "type": "choose-form",
+            "title": "Practise: Which Year Is It?",
+            "instructions": "Choose the correct ordinal number for each sentence.",
+            "question": "Which number fits?",
+            "formChoices": [
+              {
+                "sentence": "The Year of the Rat is the [choice] year.",
+                "options": ["first", "one", "once"],
+                "answer": 0
+              },
+              {
+                "sentence": "The Year of the Ox is the [choice] year.",
+                "options": ["second", "two", "twice"],
+                "answer": 0
+              },
+              {
+                "sentence": "The Year of the Pig is the [choice] year.",
+                "options": ["twelfth", "twelve", "twentieth"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use ordinal numbers (first, second, twelfth) to show order in a list.",
+            "feedback": {
+              "correct": "Well done. First, second, twelfth.",
+              "incorrect": "Find the number of each year in the list."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-5-my-animal",
+            "type": "reflection",
+            "title": "Use: Animals in My World",
+            "instructions": "Talk about three animals from the list.",
+            "question": "Which animals do you know well?",
+            "correctAnswer": null,
+            "explanation": "Example: “I like the horse most because it is fast and strong. It lives on farms. It is the seventh year in the list.”",
+            "feedback": {
+              "correct": "Check: an ordinal number and because.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say which animal you like most.",
+                "mode": "Pair",
+                "example": "I like the … most because …"
+              },
+              {
+                "question": "Say where this animal lives.",
+                "mode": "Pair",
+                "example": "It lives …"
+              },
+              {
+                "question": "Say which year it is in the list.",
+                "mode": "Pair",
+                "example": "It is the … year."
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What does Bars mean?",
+          "options": ["Leopard", "Horse", "Rabbit"],
+          "answer": 0,
+          "quote": "Year of the Bars means Year of the Leopard"
+        },
+        "iCan": [
+          "I can name the twelve animals of the calendar.",
+          "I can say the animals in order with ordinal numbers.",
+          "I can match the old Turkic names with English names."
+        ]
+      },
+      {
+        "id": 6,
+        "type": "story",
+        "title": "What Each Year Means",
+        "image": "",
+        "audioUrl": "",
+        "content": "According to very old Turkish beliefs, every year has a special meaning. For example, people believe that more wars will happen in the Year of the Ox, because the ox is an animal that likes to fight with its horns. The Year of the Rooster brings plenty of food, but it also brings a lot of trouble. This is because roosters eat grain and love to dig in the garbage. When the Year of the Snake and the Year of the Crocodile start, rain and growth come because these animals naturally live in or near water. When the Year of the Pig starts, snow gets worse and trouble grows. In this way, people give different meanings to each new year.\n\nOnce the Year of the Pig ends, the calendar goes back to the beginning with the Year of the Rat. This calendar says the Earth is 3.6 million years old. One cycle lasts 12 years. A year has 12 months, 365 days, and about 5 hours. The 7 days of the week do not have any names. A new day starts at midnight and is divided into 12 equal parts. So, each part lasts for two hours.\n\nAccording to Kashgari, the old Turkish calendar started on March 21st. Turks celebrated this day as the beginning of the new year in many places from Central Asia (Orta Asya) to the Middle East (Orta Doğu) and the Balkans. They called it Nowruz (Nevruz). It means “new day.”",
+        "vocabulary": [
+          {
+            "word": "horns",
+            "definition": "Hard, pointed parts on the head of some animals."
+          },
+          {
+            "word": "trouble",
+            "definition": "Problems and difficulties."
+          },
+          {
+            "word": "lasts",
+            "definition": "Continues for a time."
+          },
+          {
+            "word": "celebrated",
+            "definition": "Had a happy event for a special day."
+          },
+          {
+            "word": "Nowruz (Nevruz)",
+            "definition": "The old Turkish New Year on March 21st."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-a2-en-h6a",
+            "x": 30,
+            "y": 40,
+            "title": "The Year of the Ox",
+            "description": "People believe that more wars will happen in the Year of the Ox, because the ox likes to fight with its horns."
+          },
+          {
+            "id": "kasgarli-a2-en-h6b",
+            "x": 70,
+            "y": 45,
+            "title": "Nowruz",
+            "description": "Turks celebrated March 21st as the beginning of the new year and called it Nowruz."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-a2-quick-6",
+            "type": "true-false",
+            "title": "The Days of the Week",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The 7 days of the week have special names in this calendar.",
+            "correctAnswer": false,
+            "explanation": "Chapter 6: “The 7 days of the week do not have any names.”",
+            "feedback": {
+              "correct": "Correct. The days of the week do not have any names.",
+              "incorrect": "Read the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-a2-language-6-because",
+            "type": "multiple-choice",
+            "title": "Look: Because the Ox …",
+            "instructions": "Read the sentence from Chapter 6. Then choose the answer.",
+            "question": "“People believe that more wars will happen in the Year of the Ox, because the ox is an animal that likes to fight with its horns.” What does the part after “because” give?",
+            "options": ["the reason", "the result", "the date"],
+            "correctAnswer": 0,
+            "explanation": "“Because” gives a reason. The ox likes to fight → people believe that there will be more wars.",
+            "feedback": {
+              "correct": "Correct. It gives the reason.",
+              "incorrect": "Why do people believe this?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-6-reasons",
+            "type": "choose-form",
+            "title": "Practise: Year and Reason",
+            "instructions": "Choose the correct word for each sentence from Chapter 6.",
+            "question": "Which word fits?",
+            "formChoices": [
+              {
+                "sentence": "The Year of the Rooster brings plenty of food, [choice] it also brings a lot of trouble.",
+                "options": ["but", "so", "because"],
+                "answer": 0
+              },
+              {
+                "sentence": "Rain comes [choice] these animals naturally live in or near water.",
+                "options": ["because", "but", "so"],
+                "answer": 0
+              },
+              {
+                "sentence": "A new day is divided into 12 equal parts. [choice], each part lasts for two hours.",
+                "options": ["So", "But", "Because"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“But” shows something different. “Because” gives a reason. “So” gives a result.",
+            "feedback": {
+              "correct": "Well done. But, because, So.",
+              "incorrect": "Is it something different, a reason or a result?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-6-new-year",
+            "type": "reflection",
+            "title": "Use: A Special Day",
+            "instructions": "Write three sentences about a special day in your family.",
+            "question": "When is it? What do you do?",
+            "correctAnswer": null,
+            "explanation": "Example: “Our special day is my grandmother’s birthday. It is on May 5th. We cook her favorite food and visit her. It is special because all the family comes together.”",
+            "feedback": {
+              "correct": "Check: a date, what you do and because.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say the day and the date.",
+                "mode": "Individual",
+                "example": "Our special day is … It is on …"
+              },
+              {
+                "question": "Say what you do.",
+                "mode": "Individual",
+                "example": "We …"
+              },
+              {
+                "question": "Say why it is special, with because.",
+                "mode": "Pair",
+                "example": "It is special because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What does Nowruz mean?",
+          "options": ["new day", "new year", "spring"],
+          "answer": 0,
+          "quote": "It means new day."
+        },
+        "iCan": [
+          "I can explain what some years mean in the old beliefs.",
+          "I can say how the calendar counts time.",
+          "I can use because to give reasons."
+        ]
+      },
+      {
+        "id": 7,
+        "type": "story",
+        "title": "The First World Map with Japan",
+        "image": "",
+        "audioUrl": "",
+        "content": "In addition to all this information, there is also a world map in the book. Because of this map, people know Kashgari as the first Turkic map maker.\n\nMahmud of Kashgar said that Allah put the Turks on the highest mountains, the center of the world, so they could rule the earth and control the whole world. On the map, Turkestan, the home of the Turks, is in the middle of the world. The city of Balasagun in Kyrgyzstan (Kırgızistan) is right in the heart of this Turkic land. Balasagun was on a very busy part of the Silk Road. He drew all other countries, cities, and mountains around this place. The map has a colorful, round design. It shows mountains in red, seas in green, rivers in blue, and sandy areas in yellow.\n\nAccording to modern maps, Mahmud of Kashgar’s world map goes as far west as Russia and the Idil (Volga) River. In the south, the map shows the area from Egypt to Ethiopia and India. In the east, it shows China and Japan. On the map, Japan has the name ‘Jabarqa’ and China is called ‘the Land of Yecüc and Mecüc.’\n\nWith our information today, the map in Dîvânu Lugâti’t-Türk is the first world map to show Japan. The second map to show Japan was made four hundred years after his book.",
+        "vocabulary": [
+          {
+            "word": "Silk Road",
+            "definition": "Old trade roads between China and the West."
+          },
+          {
+            "word": "Yecüc and Mecüc",
+            "definition": "The name for China on Kashgari’s map."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-a2-en-h7a",
+            "x": 30,
+            "y": 40,
+            "title": "Balasagun",
+            "description": "The city of Balasagun in Kyrgyzstan is right in the heart of the Turkic land on the map."
+          },
+          {
+            "id": "kasgarli-a2-en-h7b",
+            "x": 70,
+            "y": 45,
+            "title": "Japan on the Map",
+            "description": "On the map, Japan has the name ‘Jabarqa’."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-a2-quick-7",
+            "type": "multiple-choice",
+            "title": "The Middle of the Map",
+            "instructions": "Choose the answer from Chapter 7.",
+            "question": "What is in the middle of the world on Kashgari’s map?",
+            "options": ["Turkestan, the home of the Turks", "Egypt", "Japan"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 7: “On the map, Turkestan, the home of the Turks, is in the middle of the world.”",
+            "feedback": {
+              "correct": "Correct. Turkestan is in the middle.",
+              "incorrect": "Read the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-a2-language-7-directions",
+            "type": "multiple-choice",
+            "title": "Look: In the South, In the East",
+            "instructions": "Read the sentence from Chapter 7. Then choose the answer.",
+            "question": "“In the east, it shows China and Japan.” Which words tell us where on the map?",
+            "options": ["in the east", "it shows", "China and Japan"],
+            "correctAnswer": 0,
+            "explanation": "We use “in the north / south / east / west” to say where something is on a map.",
+            "feedback": {
+              "correct": "Correct. In the east.",
+              "incorrect": "Which words show a direction?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-7-map",
+            "type": "word-bank",
+            "title": "Practise: Read the Map",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "Where is it on the map?",
+            "fillBlanksText": "The map goes as far [blank] as Russia. In the [blank], it shows the area from Egypt to Ethiopia and India. In the [blank], it shows China and Japan.",
+            "wordBank": ["west", "south", "east", "north", "middle"],
+            "correctAnswer": ["west", "south", "east"],
+            "explanation": "West, south and east are directions. Russia is in the west, Egypt is in the south and Japan is in the east of the map.",
+            "feedback": {
+              "correct": "Well done. West, south, east.",
+              "incorrect": "Find each place in the third paragraph."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-7-my-map",
+            "type": "reflection",
+            "title": "Use: A Map of My Town",
+            "instructions": "Draw a simple map of your town and describe it.",
+            "question": "What is in the middle? What is in the north?",
+            "correctAnswer": null,
+            "explanation": "Example: “In the middle of my town, there is a big mosque. In the north, there is a park. In the south, there is a river. On my map, parks are green and rivers are blue.”",
+            "feedback": {
+              "correct": "Check: in the middle, two directions and colors.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what is in the middle.",
+                "mode": "Pair",
+                "example": "In the middle, there is …"
+              },
+              {
+                "question": "Say what is in the north or south.",
+                "mode": "Pair",
+                "example": "In the north, there is …"
+              },
+              {
+                "question": "Say the colors on your map.",
+                "mode": "Pair",
+                "example": "Parks are green. Rivers are blue."
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: What color are the rivers on the map?",
+          "options": ["blue", "red", "yellow"],
+          "answer": 0,
+          "quote": "It shows mountains in red, seas in green, rivers in blue, and sandy areas in yellow."
+        },
+        "iCan": [
+          "I can describe Kashgari’s world map.",
+          "I can say what is in the middle of the map.",
+          "I can use in, in the south, in the east for places."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "story",
+        "title": "A Treasure of the Turkish Language",
+        "image": "",
+        "audioUrl": "",
+        "content": "Mahmud of Kashgar is a very important person for the Turkish language. His book is the biggest treasure of the Turkish language. At Turkey’s suggestion, UNESCO included his famous book, Dîvânu Lugâti’t-Türk, into its 2024 celebration program. Azerbaijan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan also worked together on it.\n\nThis great book still waits for new students to learn more secrets about our history.",
+        "vocabulary": [
+          {
+            "word": "suggestion",
+            "definition": "An idea that you give to someone."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "kasgarli-a2-en-h8a",
+            "x": 30,
+            "y": 40,
+            "title": "UNESCO",
+            "description": "At Turkey’s suggestion, UNESCO included Dîvânu Lugâti’t-Türk in its 2024 celebration program."
+          },
+          {
+            "id": "kasgarli-a2-en-h8b",
+            "x": 70,
+            "y": 45,
+            "title": "A Treasure",
+            "description": "His book is the biggest treasure of the Turkish language."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "kasgarli-a2-quick-8",
+            "type": "true-false",
+            "title": "Working Together",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Turkey worked alone on the UNESCO celebration.",
+            "correctAnswer": false,
+            "explanation": "Chapter 8: “Azerbaijan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan also worked together on it.”",
+            "feedback": {
+              "correct": "Correct. Other countries also worked on it.",
+              "incorrect": "Read the end of the first paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "kasgarli-a2-language-8-superlative",
+            "type": "multiple-choice",
+            "title": "Look: The Biggest Treasure",
+            "instructions": "Read the sentence from Chapter 8. Then choose the answer.",
+            "question": "“His book is the biggest treasure of the Turkish language.” What does “the biggest” mean?",
+            "options": ["bigger than all the others", "a little big", "not very big"],
+            "correctAnswer": 0,
+            "explanation": "“The biggest” is a superlative. It compares one thing with all the others: big → bigger → the biggest.",
+            "feedback": {
+              "correct": "Correct. Bigger than all the others.",
+              "incorrect": "Compare it with all the other treasures."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-8-compare",
+            "type": "choose-form",
+            "title": "Practise: Old, Older, the Oldest",
+            "instructions": "Choose the correct form for each sentence.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Dîvânu Lugâti’t-Türk is the [choice] Turkish dictionary in the world.",
+                "options": ["oldest", "older", "old"],
+                "answer": 0
+              },
+              {
+                "sentence": "His book is the [choice] treasure of the Turkish language.",
+                "options": ["biggest", "bigger", "big"],
+                "answer": 0
+              },
+              {
+                "sentence": "Mahmud of Kashgar is a very [choice] person for the Turkish language.",
+                "options": ["important", "most important", "more important"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use “the + -est” to compare one thing with all the others. Use “very + adjective” without comparing.",
+            "feedback": {
+              "correct": "Well done. Oldest, biggest, important.",
+              "incorrect": "Is the sentence comparing with all the others?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-8-treasure",
+            "type": "reflection",
+            "title": "Use: A Treasure of My Culture",
+            "instructions": "Tell your partner about a treasure of your culture.",
+            "question": "What is it? Why is it important?",
+            "correctAnswer": null,
+            "explanation": "Example: “A treasure of my culture is the Mevlana Museum in Konya. It is the most beautiful building in my town. It is important because many people visit it and learn about our history.”",
+            "feedback": {
+              "correct": "Check: the + -est and because.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what the treasure is.",
+                "mode": "Pair",
+                "example": "A treasure of my culture is …"
+              },
+              {
+                "question": "Use the + -est.",
+                "mode": "Pair",
+                "example": "It is the oldest / most beautiful …"
+              },
+              {
+                "question": "Say why it is important.",
+                "mode": "Pair",
+                "example": "It is important because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Which year did UNESCO celebrate the book?",
+          "options": ["2024", "1074", "2000"],
+          "answer": 0,
+          "quote": "into its 2024 celebration program"
+        },
+        "iCan": [
+          "I can say why Kashgari’s book is a treasure.",
+          "I can name countries that worked together for the book.",
+          "I can use the biggest and very important."
+        ],
+        "groupTask": {
+          "type": "project",
+          "title": "Our Twelve-Animal Calendar Poster",
+          "time": "15 min",
+          "groupSize": "3–4",
+          "steps": [
+            "Draw a big circle and divide it into twelve parts.",
+            "Write the twelve animals in order with their old Turkic names.",
+            "Add one sentence from the book about the calendar or Nowruz.",
+            "Present your poster and say why Kashgari’s book is a treasure."
+          ],
+          "share": "Each group presents its poster. The class finds the first and the last animal on every poster.",
+          "solo": "Make a small calendar card with your birth year’s animal and two sentences from the book."
+        }
+      },
+      {
+        "id": 9,
+        "type": "quiz",
+        "title": "Knowledge Check",
+        "image": "",
+        "audioUrl": "",
+        "content": "Check your understanding of the complete book.",
+        "exercises": [
+          {
+            "id": "kasgarli-a2-kc-1-what",
+            "type": "multiple-choice",
+            "title": "What Is It?",
+            "instructions": "Choose the answer from the book.",
+            "question": "What is Dîvânu Lugâti’t-Türk?",
+            "options": ["a historical dictionary from the 11th century", "a modern Turkish novel", "a book of maps only"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “Dîvânu Lugâti’t-Türk is a historical dictionary from the 11th century by Mahmud Kashgari.”",
+            "feedback": {
+              "correct": "Correct. A historical dictionary from the 11th century.",
+              "incorrect": "Read the second paragraph of Chapter 1."
+            }
+          },
+          {
+            "id": "kasgarli-a2-kc-2-words",
+            "type": "true-false",
+            "title": "How Many Words?",
+            "instructions": "Is the sentence true or false?",
+            "question": "The dictionary has about 9,000 Turkic words, proverbs and idioms.",
+            "correctAnswer": true,
+            "explanation": "Chapter 1: “This dictionary from the 11th century has about 9,000 Turkic words, proverbs, and idioms, though.”",
+            "feedback": {
+              "correct": "Correct. About 9,000.",
+              "incorrect": "Read the third paragraph of Chapter 1."
+            }
+          },
+          {
+            "id": "kasgarli-a2-kc-3-born",
+            "type": "multiple-choice",
+            "title": "Where Was He Born?",
+            "instructions": "Choose the answer from the book.",
+            "question": "Where was Mahmud Kashgari born?",
+            "options": ["in Barsgan, Kyrgyzstan", "in Baghdad", "in Istanbul"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 2: “Mahmud Kashgari was born in Barsgan, Kyrgyzstan, in 1008 …”",
+            "feedback": {
+              "correct": "Correct. In Barsgan.",
+              "incorrect": "Read the first sentence of Chapter 2."
+            }
+          },
+          {
+            "id": "kasgarli-a2-kc-4-journey",
+            "type": "true-false",
+            "title": "The Journey",
+            "instructions": "Is the sentence true or false?",
+            "question": "Kashgari began his journey to visit every Turkic land in 1057.",
+            "correctAnswer": true,
+            "explanation": "Chapter 3: “Mahmud of Kashgar began his journey in 1057 to visit every Turkic land.”",
+            "feedback": {
+              "correct": "Correct. In 1057.",
+              "incorrect": "Find the word journey in Chapter 3."
+            }
+          },
+          {
+            "id": "kasgarli-a2-kc-5-calendar",
+            "type": "multiple-choice",
+            "title": "The Calendar",
+            "instructions": "Choose the answer from the book.",
+            "question": "What did the calendar help the Turks keep track of?",
+            "options": ["their children’s ages and battle dates", "the prices in the market", "the weather every day"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 4: “This special calendar helped them keep track of their children’s ages, battle dates, and other big moments.”",
+            "feedback": {
+              "correct": "Correct. Ages and battle dates.",
+              "incorrect": "Read the first paragraph of Chapter 4."
+            }
+          },
+          {
+            "id": "kasgarli-a2-kc-6-first",
+            "type": "true-false",
+            "title": "The First Year",
+            "instructions": "Is the sentence true or false?",
+            "question": "The calendar started with the Year of the Horse.",
+            "correctAnswer": false,
+            "explanation": "Chapter 4: “The Turkish calendar started with the Year of the Rat because the rat crossed the river first.”",
+            "feedback": {
+              "correct": "Correct. It started with the Year of the Rat.",
+              "incorrect": "Read the end of Chapter 4."
+            }
+          },
+          {
+            "id": "kasgarli-a2-kc-7-start",
+            "type": "multiple-choice",
+            "title": "The New Year",
+            "instructions": "Choose the answer from the book.",
+            "question": "When did the old Turkish calendar start?",
+            "options": ["on March 21st", "on January 1st", "on December 31st"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 6: “According to Kashgari, the old Turkish calendar started on March 21st.”",
+            "feedback": {
+              "correct": "Correct. On March 21st.",
+              "incorrect": "Read the last paragraph of Chapter 6."
+            }
+          },
+          {
+            "id": "kasgarli-a2-kc-8-japan",
+            "type": "multiple-choice",
+            "title": "The Map",
+            "instructions": "Choose the answer from the book.",
+            "question": "Why is the map in the book very important?",
+            "options": ["It is the first world map to show Japan.", "It is the biggest map in the world.", "It shows only Baghdad."],
+            "correctAnswer": 0,
+            "explanation": "Chapter 7: “With our information today, the map in Dîvânu Lugâti’t-Türk is the first world map to show Japan.”",
+            "feedback": {
+              "correct": "Correct. It is the first world map to show Japan.",
+              "incorrect": "Read the last paragraph of Chapter 7."
+            }
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "type": "glossary",
+        "title": "Master Glossary",
+        "content": "Review all key vocabulary from the book in one place.",
+        "image": "",
+        "vocabulary": [
+          {
+            "word": "oldest",
+            "definition": "Most old; from the earliest time.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈoʊldɪst/",
+            "category": "Time & Change",
+            "level": "A2",
+            "chapter": 1,
+            "chapterTitle": "The Oldest Dictionary of the Turkic World",
+            "storyExample": "In this text, you will learn about the world’s oldest Turkish dictionary and its author."
+          },
+          {
+            "word": "author",
+            "definition": "The person who wrote a book.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈɔːθər/",
+            "category": "Language & Communication",
+            "level": "A2",
+            "chapter": 1,
+            "chapterTitle": "The Oldest Dictionary of the Turkic World",
+            "storyExample": "In this text, you will learn about the world’s oldest Turkish dictionary and its author."
+          },
+          {
+            "word": "Dictionary of Turkish Languages",
+            "definition": "The meaning of the name Dîvânu Lugâti’t-Türk.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˈdɪkʃəneri əv ˈtɜːrkɪʃ ˈlæŋɡwɪdʒɪz/",
+            "category": "Language & Communication",
+            "level": "A2",
+            "chapter": 1,
+            "chapterTitle": "The Oldest Dictionary of the Turkic World",
+            "storyExample": "It means ‘Dictionary of Turkish Languages’."
+          },
+          {
+            "word": "though",
+            "definition": "Used to show that something is surprising.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ðoʊ/",
+            "category": "Language & Communication",
+            "level": "A2",
+            "chapter": 1,
+            "chapterTitle": "The Oldest Dictionary of the Turkic World",
+            "storyExample": "This dictionary from the 11th century has about 9,000 Turkic words, proverbs, and idioms, though."
+          },
+          {
+            "word": "legends",
+            "definition": "Very old stories, often not all true.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈledʒəndz/",
+            "category": "Culture & Traditions",
+            "level": "A2",
+            "chapter": 1,
+            "chapterTitle": "The Oldest Dictionary of the Turkic World",
+            "storyExample": "It shares old traditions with interesting legends from the Turkic world."
+          },
+          {
+            "word": "describes",
+            "definition": "Tells what something is like.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/dɪˈskraɪbz/",
+            "category": "Language & Communication",
+            "level": "A2",
+            "chapter": 1,
+            "chapterTitle": "The Oldest Dictionary of the Turkic World",
+            "storyExample": "This book describes daily life then, so it is a big guide to Turkish culture."
+          },
+          {
+            "word": "guide",
+            "definition": "Something that helps you understand or find your way.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ɡaɪd/",
+            "category": "Ideas & Description",
+            "level": "A2",
+            "chapter": 1,
+            "chapterTitle": "The Oldest Dictionary of the Turkic World",
+            "storyExample": "This book describes daily life then, so it is a big guide to Turkish culture."
+          },
+          {
+            "word": "Kashgar",
+            "definition": "An old city in western China.",
+            "partOfSpeech": "proper noun",
+            "pronunciation": "/ˈkæʃɡɑːr/",
+            "category": "Places & Geography",
+            "level": "A2",
+            "chapter": 2,
+            "chapterTitle": "Who Was Mahmud Kashgari?",
+            "storyExample": "Historians believe that Mahmud Kashgari was born in Barsgan, Kyrgyzstan, in 1008 and died in Kashgar in 1105."
+          },
+          {
+            "word": "East Turkestan (Doğu Türkistan)",
+            "definition": "An old Turkic homeland in western China.",
+            "partOfSpeech": "proper noun",
+            "pronunciation": "/iːst ˌtɜːrkɪˈstæn/",
+            "category": "Places & Geography",
+            "level": "A2",
+            "chapter": 2,
+            "chapterTitle": "Who Was Mahmud Kashgari?",
+            "storyExample": "It is known as an ancient Turkic homeland and is also called East Turkestan (Doğu Türkistan)."
+          },
+          {
+            "word": "perfectly",
+            "definition": "With no mistakes.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ˈpɜːrfɪktli/",
+            "category": "Ideas & Description",
+            "level": "A2",
+            "chapter": 2,
+            "chapterTitle": "Who Was Mahmud Kashgari?",
+            "storyExample": "I speak Turkish perfectly, express my ideas clearly, and I am great at throwing spears.”"
+          },
+          {
+            "word": "throwing spears",
+            "definition": "Sending long, sharp sticks through the air.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/ˈθroʊɪŋ spɪrz/",
+            "category": "Actions & Behavior",
+            "level": "A2",
+            "chapter": 2,
+            "chapterTitle": "Who Was Mahmud Kashgari?",
+            "storyExample": "I speak Turkish perfectly, express my ideas clearly, and I am great at throwing spears.”"
+          },
+          {
+            "word": "qualities",
+            "definition": "Good parts of a person’s character.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkwɒlətiz/",
+            "category": "Feelings & Character",
+            "level": "A2",
+            "chapter": 3,
+            "chapterTitle": "In Praise of the Turks and Their Language",
+            "storyExample": "He writes that Allah called them ‘My army.’ He also says that the Turks have many great qualities."
+          },
+          {
+            "word": "since ancient",
+            "definition": "From very old (times) until now.",
+            "partOfSpeech": "phrase",
+            "pronunciation": "/sɪns ˈeɪnʃənt/",
+            "category": "Time & Change",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "The Story of the Calendar",
+            "storyExample": "Turkish people have used it since ancient times."
+          },
+          {
+            "word": "keep track",
+            "definition": "Remember or record something so you do not forget it.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/kiːp træk/",
+            "category": "Actions & Behavior",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "The Story of the Calendar",
+            "storyExample": "This special calendar helped them keep track of their children’s ages, battle dates, and other big moments."
+          },
+          {
+            "word": "disagreed",
+            "definition": "Had different ideas.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˌdɪsəˈɡriːd/",
+            "category": "Language & Communication",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "The Story of the Calendar",
+            "storyExample": "But his people disagreed about the date, so the khan called a great kurultay to ask them."
+          },
+          {
+            "word": "Kurultay",
+            "definition": "A big national meeting of the Turks.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/kʊrʊlˈtaɪ/",
+            "category": "Values & Society",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "The Story of the Calendar",
+            "storyExample": "But his people disagreed about the date, so the khan called a great kurultay to ask them."
+          },
+          {
+            "word": "wild animals",
+            "definition": "Animals that do not live with people.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/waɪld ˈænɪməlz/",
+            "category": "Science & Nature",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "The Story of the Calendar",
+            "storyExample": "He told the people to push the wild animals toward a big river in the Ili Valley (İli Vadisi)."
+          },
+          {
+            "word": "Ili Valley",
+            "definition": "A valley with a big river in Central Asia.",
+            "partOfSpeech": "proper noun",
+            "pronunciation": "/ˈiːli ˈvæli/",
+            "category": "Places & Geography",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "The Story of the Calendar",
+            "storyExample": "He told the people to push the wild animals toward a big river in the Ili Valley (İli Vadisi)."
+          },
+          {
+            "word": "cross",
+            "definition": "Go from one side to the other.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/krɒs/",
+            "category": "Actions & Behavior",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "The Story of the Calendar",
+            "storyExample": "The river was dangerous, so only twelve animals could cross to the other side safely."
+          },
+          {
+            "word": "safely",
+            "definition": "Without danger.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ˈseɪfli/",
+            "category": "Ideas & Description",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "The Story of the Calendar",
+            "storyExample": "The river was dangerous, so only twelve animals could cross to the other side safely."
+          },
+          {
+            "word": "Rat",
+            "definition": "A small animal like a big mouse.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ræt/",
+            "category": "Science & Nature",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "The Story of the Calendar",
+            "storyExample": "The Turkish calendar started with the Year of the Rat because the rat crossed the river first."
+          },
+          {
+            "word": "Ox",
+            "definition": "A big, strong male cow.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ɒks/",
+            "category": "Science & Nature",
+            "level": "A2",
+            "chapter": 5,
+            "chapterTitle": "The Twelve Animals",
+            "storyExample": "Year of the Ud means ‘Year of the Ox’ 3."
+          },
+          {
+            "word": "Crocodile",
+            "definition": "A big animal with a long mouth that lives in rivers.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkrɒkədaɪl/",
+            "category": "Science & Nature",
+            "level": "A2",
+            "chapter": 5,
+            "chapterTitle": "The Twelve Animals",
+            "storyExample": "Year of the Nag means ‘Year of the Crocodile’ 6."
+          },
+          {
+            "word": "Rooster",
+            "definition": "A male chicken.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈruːstər/",
+            "category": "Science & Nature",
+            "level": "A2",
+            "chapter": 5,
+            "chapterTitle": "The Twelve Animals",
+            "storyExample": "Year of the Takagu means ‘Year of the Rooster’ 11."
+          },
+          {
+            "word": "horns",
+            "definition": "Hard, pointed parts on the head of some animals.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/hɔːrnz/",
+            "category": "Science & Nature",
+            "level": "A2",
+            "chapter": 6,
+            "chapterTitle": "What Each Year Means",
+            "storyExample": "For example, people believe that more wars will happen in the Year of the Ox, because the ox is an animal that likes to fight with its horns."
+          },
+          {
+            "word": "trouble",
+            "definition": "Problems and difficulties.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈtrʌbəl/",
+            "category": "Ideas & Description",
+            "level": "A2",
+            "chapter": 6,
+            "chapterTitle": "What Each Year Means",
+            "storyExample": "The Year of the Rooster brings plenty of food, but it also brings a lot of trouble."
+          },
+          {
+            "word": "lasts",
+            "definition": "Continues for a time.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/læsts/",
+            "category": "Time & Change",
+            "level": "A2",
+            "chapter": 6,
+            "chapterTitle": "What Each Year Means",
+            "storyExample": "One cycle lasts 12 years."
+          },
+          {
+            "word": "celebrated",
+            "definition": "Had a happy event for a special day.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈselɪbreɪtɪd/",
+            "category": "Culture & Traditions",
+            "level": "A2",
+            "chapter": 6,
+            "chapterTitle": "What Each Year Means",
+            "storyExample": "Turks celebrated this day as the beginning of the new year in many places from Central Asia (Orta Asya) to the Middle East (Orta Doğu) and the Balkans."
+          },
+          {
+            "word": "Nowruz (Nevruz)",
+            "definition": "The old Turkish New Year on March 21st.",
+            "partOfSpeech": "proper noun",
+            "pronunciation": "/noʊˈruːz/",
+            "category": "Culture & Traditions",
+            "level": "A2",
+            "chapter": 6,
+            "chapterTitle": "What Each Year Means",
+            "storyExample": "They called it Nowruz (Nevruz)."
+          },
+          {
+            "word": "Silk Road",
+            "definition": "Old trade roads between China and the West.",
+            "partOfSpeech": "proper noun",
+            "pronunciation": "/sɪlk roʊd/",
+            "category": "Places & Geography",
+            "level": "A2",
+            "chapter": 7,
+            "chapterTitle": "The First World Map with Japan",
+            "storyExample": "Balasagun was on a very busy part of the Silk Road."
+          },
+          {
+            "word": "Yecüc and Mecüc",
+            "definition": "The name for China on Kashgari’s map.",
+            "partOfSpeech": "proper noun",
+            "pronunciation": "/jeˈdʒuːdʒ ənd meˈdʒuːdʒ/",
+            "category": "Places & Geography",
+            "level": "A2",
+            "chapter": 7,
+            "chapterTitle": "The First World Map with Japan",
+            "storyExample": "On the map, Japan has the name ‘Jabarqa’ and China is called ‘the Land of Yecüc and Mecüc.’ With our information today, the map in Dîvânu Lugâti’t-Türk is the first world map to show Japan."
+          },
+          {
+            "word": "suggestion",
+            "definition": "An idea that you give to someone.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/səɡˈdʒestʃən/",
+            "category": "Language & Communication",
+            "level": "A2",
+            "chapter": 8,
+            "chapterTitle": "A Treasure of the Turkish Language",
+            "storyExample": "At Turkey’s suggestion, UNESCO included his famous book, Dîvânu Lugâti’t-Türk, into its 2024 celebration program."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "type": "vocabulary-match",
+        "title": "Vocabulary Challenge",
+        "image": "",
+        "audioUrl": "",
+        "content": "Match 6 words from the book with their meanings.",
+        "vocabularyPairs": [
+          {
+            "word": "author",
+            "meaning": "The person who wrote a book.",
+            "partOfSpeech": "noun",
+            "chapter": 1,
+            "context": "the world’s oldest Turkish dictionary and its author"
+          },
+          {
+            "word": "legends",
+            "meaning": "Very old stories, often not all true.",
+            "partOfSpeech": "noun",
+            "chapter": 1,
+            "context": "It shares old traditions with interesting legends from the Turkic world."
+          },
+          {
+            "word": "qualities",
+            "meaning": "Good parts of a person’s character.",
+            "partOfSpeech": "noun",
+            "chapter": 3,
+            "context": "the Turks have many great qualities"
+          },
+          {
+            "word": "disagreed",
+            "meaning": "Had different ideas.",
+            "partOfSpeech": "verb",
+            "chapter": 4,
+            "context": "But his people disagreed about the date"
+          },
+          {
+            "word": "celebrated",
+            "meaning": "Had a happy event for a special day.",
+            "partOfSpeech": "verb",
+            "chapter": 6,
+            "context": "Turks celebrated this day as the beginning of the new year"
+          },
+          {
+            "word": "suggestion",
+            "meaning": "An idea that you give to someone.",
+            "partOfSpeech": "noun",
+            "chapter": 8,
+            "context": "At Turkey’s suggestion, UNESCO included his famous book"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "type": "exercises",
+        "title": "Language Review",
+        "image": "",
+        "content": "Review and use the language of the whole book.",
+        "exercises": [
+          {
+            "id": "kasgarli-a2-language-review-1-book-map",
+            "type": "drag-drop",
+            "title": "Look: The Book or the Map?",
+            "instructions": "Sort the sentences into two groups.",
+            "question": "Is it about the words or about the map?",
+            "dragDropGroups": [
+              {
+                "group": "The words",
+                "items": ["It has about 9,000 Turkic words.", "It has proverbs and idioms.", "It teaches Turkish to Arabs."]
+              },
+              {
+                "group": "The map",
+                "items": ["It shows mountains in red.", "Turkestan is in the middle.", "It shows Japan."]
+              }
+            ],
+            "correctAnswer": {
+              "The words": ["It has about 9,000 Turkic words.", "It has proverbs and idioms.", "It teaches Turkish to Arabs."],
+              "The map": ["It shows mountains in red.", "Turkestan is in the middle.", "It shows Japan."]
+            },
+            "explanation": "Dîvânu Lugâti’t-Türk is a dictionary, and it also has a world map (Chapters 1 and 7).",
+            "feedback": {
+              "correct": "Good. You sorted the words and the map.",
+              "incorrect": "Is the sentence about language or about places?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-review-2-past",
+            "type": "multiple-choice",
+            "title": "Look: Past Forms",
+            "instructions": "Choose the sentence with a correct past form.",
+            "question": "Which sentence is correct?",
+            "options": [
+              "Kashgari drew all other countries around this place.",
+              "Kashgari drawed all other countries around this place.",
+              "Kashgari draw all other countries around this place."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Draw” is an irregular verb. Its past form is “drew”.",
+            "feedback": {
+              "correct": "Correct. Drew.",
+              "incorrect": "What is the past of draw?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-review-3-purpose",
+            "type": "true-false",
+            "title": "Look: To + Verb",
+            "instructions": "Is the sentence true or false?",
+            "question": "In “He wrote it to teach Turkish to Arabs”, “to teach” shows why he wrote it.",
+            "correctAnswer": true,
+            "explanation": "“To + verb” can show a purpose: why someone does something.",
+            "feedback": {
+              "correct": "Correct. It shows why.",
+              "incorrect": "Why did he write it?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-review-4-linkers",
+            "type": "word-bank",
+            "title": "Practise: Linking Words",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "Which word fits?",
+            "fillBlanksText": "Arabic was the main language in schools, [blank] Kashgari wanted to praise Turkish. The calendar started with the rat [blank] it crossed first. The Year of the Rooster brings food, [blank] it also brings trouble.",
+            "wordBank": ["so", "because", "but", "until", "or"],
+            "correctAnswer": ["so", "because", "but"],
+            "explanation": "“So” gives a result. “Because” gives a reason. “But” shows something different.",
+            "feedback": {
+              "correct": "Well done. So, because, but.",
+              "incorrect": "Is it a result, a reason or something different?"
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-review-5-forms",
+            "type": "choose-form",
+            "title": "Practise: Choose the Form",
+            "instructions": "Choose the correct form for each sentence.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Kashgari was born [choice] 1008.",
+                "options": ["in", "on", "at"],
+                "answer": 0
+              },
+              {
+                "sentence": "The Year of the Ox is the [choice] year.",
+                "options": ["second", "two", "twice"],
+                "answer": 0
+              },
+              {
+                "sentence": "His book is the [choice] treasure of the Turkish language.",
+                "options": ["biggest", "bigger", "most big"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use “in” with years, ordinal numbers for order and “the + -est” to compare with all the others.",
+            "feedback": {
+              "correct": "Correct. In, second, biggest.",
+              "incorrect": "Check the preposition, the ordinal and the superlative."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-review-6-errors",
+            "type": "error-correction",
+            "title": "Practise: Correct the Sentences",
+            "instructions": "Find the mistake and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "Kashgari begined his journey in 1057.",
+                "error": "begined",
+                "options": ["began", "begun", "begins"],
+                "answer": 0
+              },
+              {
+                "sentence": "The rat crossed the river firstly.",
+                "error": "firstly",
+                "options": ["first", "one", "the first"],
+                "answer": 0
+              },
+              {
+                "sentence": "The khan said, “Let’s to make a calendar.”",
+                "error": "to make",
+                "options": ["make", "making", "made"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Begin → began. We say “crossed first”. After “let’s”, use the base verb.",
+            "feedback": {
+              "correct": "Correct. Began, first, make.",
+              "incorrect": "Check the irregular verb, the order word and let’s."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-review-7-new-context",
+            "type": "word-bank",
+            "title": "Use: A New Context",
+            "instructions": "Read about a school library. Fill each gap from the word bank.",
+            "question": "Can you use the book’s words in a new text?",
+            "fillBlanksText": "Our school has a small library. The [blank] book in it is from 1950. The [blank] of the book was a teacher. It has many old [blank] from our town. Every year, we [blank] Library Day.",
+            "wordBank": ["oldest", "author", "legends", "celebrate", "horns", "cross"],
+            "correctAnswer": ["oldest", "author", "legends", "celebrate"],
+            "explanation": "Oldest, author, legends and celebrate come from the book. Here they describe a school library.",
+            "feedback": {
+              "correct": "Well done. You used the book’s words in a new text.",
+              "incorrect": "Read the words around each gap."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-review-8-new-context",
+            "type": "error-correction",
+            "title": "Use: Check a Short Text",
+            "instructions": "A student wrote about a trip. Find each mistake.",
+            "question": "What should the student change?",
+            "errorItems": [
+              {
+                "sentence": "I was born on 2013.",
+                "error": "on",
+                "options": ["in", "at", "to"],
+                "answer": 0
+              },
+              {
+                "sentence": "Last summer, we go to Istanbul.",
+                "error": "go",
+                "options": ["went", "goes", "going"],
+                "answer": 0
+              },
+              {
+                "sentence": "We visited the Millet Library for see the old book.",
+                "error": "for see",
+                "options": ["to see", "seeing", "saw"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use “in” with years, a past verb for last summer and “to + verb” for a purpose.",
+            "feedback": {
+              "correct": "Correct. In, went, to see.",
+              "incorrect": "Check the preposition, the verb and the purpose."
+            }
+          },
+          {
+            "id": "kasgarli-a2-language-review-9-transfer",
+            "type": "reflection",
+            "title": "Use: Words in My Family",
+            "instructions": "Write four to five sentences about old words in your family.",
+            "question": "Which old words do older people use?",
+            "correctAnswer": null,
+            "explanation": "Example: “My grandmother uses the word ‘kuşluk’. It means ‘the middle of the morning’. She learned it from her mother. Today, young people do not use it much. It is good to write old words down because people can forget them.”",
+            "feedback": {
+              "correct": "Check: the word, its meaning and because.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say who uses the old word.",
+                "mode": "Individual",
+                "example": "My grandmother uses the word …"
+              },
+              {
+                "question": "Say what the word means.",
+                "mode": "Individual",
+                "example": "It means …"
+              },
+              {
+                "question": "Say why it is good to write old words down, with because.",
+                "mode": "Pair",
+                "example": "It is good to write them down because …"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "type": "final-challenge",
+        "title": "Final Challenge",
+        "image": "",
+        "content": "Bring the whole book together in the Final Challenge.",
+        "exercises": [
+          {
+            "id": "kasgarli-a2-final-1",
+            "type": "multiple-choice",
+            "title": "The Only Copy",
+            "instructions": "Choose the answer from the book.",
+            "question": "Where is the only copy of Dîvânu Lugâti’t-Türk today?",
+            "options": ["in Istanbul, at the Millet Library", "in Kashgar", "in Baghdad"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “Today, people can find the only copy of Dîvânu Lugâti’t-Türk in Istanbul, at the Millet Library.”",
+            "feedback": {
+              "correct": "Correct. In Istanbul.",
+              "incorrect": "Read the first paragraph of the book."
+            }
+          },
+          {
+            "id": "kasgarli-a2-final-2",
+            "type": "matching",
+            "title": "Words and Meanings",
+            "instructions": "Match each word with its meaning.",
+            "question": "What do the words mean?",
+            "matchingHeadings": {
+              "left": "Word",
+              "right": "Meaning"
+            },
+            "matchingPairs": [
+              {
+                "left": "author",
+                "right": "the person who wrote a book"
+              },
+              {
+                "left": "legends",
+                "right": "very old stories"
+              },
+              {
+                "left": "disagreed",
+                "right": "had different ideas"
+              },
+              {
+                "left": "suggestion",
+                "right": "an idea that you give to someone"
+              }
+            ],
+            "correctAnswer": {
+              "author": "the person who wrote a book",
+              "legends": "very old stories",
+              "disagreed": "had different ideas",
+              "suggestion": "an idea that you give to someone"
+            },
+            "explanation": "These words are important in the book.",
+            "feedback": {
+              "correct": "Correct. Each word matches its meaning.",
+              "incorrect": "Think about Chapters 1, 4 and 8."
+            }
+          },
+          {
+            "id": "kasgarli-a2-final-3",
+            "type": "fill-blanks",
+            "title": "Years",
+            "instructions": "Complete the sentence from Chapter 1 with one number.",
+            "question": "When did Kashgari present his work in Baghdad?",
+            "fillBlanksText": "Later, in [blank], he presented his work to the Abbasid Caliph (Abbasi Halifesi) in Baghdad.",
+            "correctAnswer": ["1077"],
+            "explanation": "Chapter 1: “Later, in 1077, he presented his work to the Abbasid Caliph (Abbasi Halifesi) in Baghdad.”",
+            "feedback": {
+              "correct": "Correct. 1077.",
+              "incorrect": "Read the second paragraph of Chapter 1."
+            }
+          },
+          {
+            "id": "kasgarli-a2-final-4",
+            "type": "multiple-choice",
+            "title": "In Praise of Turkish",
+            "instructions": "Choose the answer from the book.",
+            "question": "What did Kashgari believe about Turkish?",
+            "options": ["It was just as great as Arabic.", "It was not a rich language.", "It was only for poems."],
+            "correctAnswer": 0,
+            "explanation": "Chapter 3: “He believed Turkish was just as great as Arabic.”",
+            "feedback": {
+              "correct": "Correct. Just as great as Arabic.",
+              "incorrect": "Read the end of Chapter 3."
+            }
+          },
+          {
+            "id": "kasgarli-a2-final-5",
+            "type": "matching",
+            "title": "Years and Meanings",
+            "instructions": "Match each year with what it brings in the old beliefs.",
+            "question": "What does each year bring?",
+            "matchingHeadings": {
+              "left": "Year",
+              "right": "What it brings"
+            },
+            "matchingPairs": [
+              {
+                "left": "the Year of the Ox",
+                "right": "more wars"
+              },
+              {
+                "left": "the Year of the Rooster",
+                "right": "plenty of food and a lot of trouble"
+              },
+              {
+                "left": "the Year of the Snake",
+                "right": "rain and growth"
+              },
+              {
+                "left": "the Year of the Pig",
+                "right": "worse snow and more trouble"
+              }
+            ],
+            "correctAnswer": {
+              "the Year of the Ox": "more wars",
+              "the Year of the Rooster": "plenty of food and a lot of trouble",
+              "the Year of the Snake": "rain and growth",
+              "the Year of the Pig": "worse snow and more trouble"
+            },
+            "explanation": "Chapter 6 tells what each year means in the old Turkish beliefs.",
+            "feedback": {
+              "correct": "Correct. Each year matches its meaning.",
+              "incorrect": "Read the first paragraph of Chapter 6."
+            }
+          },
+          {
+            "id": "kasgarli-a2-final-6",
+            "type": "true-false",
+            "title": "A Day",
+            "instructions": "Is the sentence true or false?",
+            "question": "In the calendar, a new day starts at midnight.",
+            "correctAnswer": true,
+            "explanation": "Chapter 6: “A new day starts at midnight and is divided into 12 equal parts.”",
+            "feedback": {
+              "correct": "Correct. A new day starts at midnight.",
+              "incorrect": "Read the second paragraph of Chapter 6."
+            }
+          },
+          {
+            "id": "kasgarli-a2-final-7",
+            "type": "true-false",
+            "title": "The Silk Road",
+            "instructions": "Is the sentence true or false?",
+            "question": "Balasagun was far from the Silk Road.",
+            "correctAnswer": false,
+            "explanation": "Chapter 7: “Balasagun was on a very busy part of the Silk Road.”",
+            "feedback": {
+              "correct": "Correct. It was on a very busy part of the Silk Road.",
+              "incorrect": "Find the Silk Road in Chapter 7."
+            }
+          },
+          {
+            "id": "kasgarli-a2-final-8",
+            "type": "fill-blanks",
+            "title": "Nowruz",
+            "instructions": "Complete the sentence from Chapter 6 with two words.",
+            "question": "What does Nowruz mean?",
+            "fillBlanksText": "They called it Nowruz (Nevruz). It means “[blank].”",
+            "correctAnswer": ["new day"],
+            "explanation": "Chapter 6: “They called it Nowruz (Nevruz). It means ‘new day.’”",
+            "feedback": {
+              "correct": "Correct. New day.",
+              "incorrect": "Read the last sentence of Chapter 6."
+            }
+          },
+          {
+            "id": "kasgarli-a2-final-9",
+            "type": "multiple-choice",
+            "title": "Working Together",
+            "instructions": "Choose the answer from the book.",
+            "question": "Whose suggestion was the UNESCO celebration?",
+            "options": ["Turkey’s", "China’s", "Egypt’s"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 8: “At Turkey’s suggestion, UNESCO included his famous book …”",
+            "feedback": {
+              "correct": "Correct. Turkey’s suggestion.",
+              "incorrect": "Read the first paragraph of Chapter 8."
+            }
+          },
+          {
+            "id": "kasgarli-a2-final-10",
+            "type": "sequencing",
+            "title": "The Story of the Book",
+            "instructions": "Put the events in order.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Mahmud Kashgari was born in Barsgan."
+              },
+              {
+                "id": "2",
+                "text": "Mahmud Kashgari began his journey to every Turkic land."
+              },
+              {
+                "id": "3",
+                "text": "Mahmud Kashgari started writing his great book."
+              },
+              {
+                "id": "4",
+                "text": "Mahmud Kashgari presented his work in Baghdad."
+              },
+              {
+                "id": "5",
+                "text": "UNESCO included the book in its 2024 program."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "Born in 1008, journey in 1057, writing in 1072, Baghdad in 1077, UNESCO in 2024.",
+            "feedback": {
+              "correct": "Correct. From his birth to UNESCO.",
+              "incorrect": "Look at the years in Chapters 1, 2, 3 and 8."
+            }
+          }
+        ]
+      }
+    ],
+    "teacherGuide": [],
+    "selfStudyGuide": []
+  }
+}
