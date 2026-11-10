@@ -1,1782 +1,1459 @@
 {
- "schema": 1,
- "storyId": "gevherNesibe",
- "level": "A2",
- "language": "en",
- "teacherGuide": {
-  "content": [
-   {
-    "chapter": "Chapter 1 — A Hospital Ahead of Its Time",
-    "timing": "40 minutes",
-    "objectives": [
-     "Say where the Gevher Nesibe Hospital and Medical School is and why it is special in the world.",
-     "Compare when medical education started in Kayseri and in Europe.",
-     "Notice “It was built in …” and use the oldest / the first / much later.",
-     "Describe an old building in three sentences."
-    ],
-    "pedagogy": "Start with a map of Türkiye: Kayseri and Konya. The chapter is full of “firsts”, so learners make a “Why is it special?” card with three facts from the text and check each one with the sentence. A simple time line (1205–1206 → 16th and 17th centuries → Mahmud II) shows that Kayseri was far ahead. Grammar grows out of the same sentences.",
-    "priorKnowledge": [
-     "Numbers and years (1205; the 13th century).",
-     "School and hospital words: doctor, student, patient."
-    ],
-    "anticipatedMisconceptions": [
-     "The hospital is in Kayseri, not in Konya; Konya was the capital city at that time.",
-     "Gevher Nesibe did not build it; her brother Gıyâseddin Keyhusrev I built it for her."
-    ],
-    "grammarFocus": "Targets: was built (the building is important, not the builder) · the oldest / the first · much later.\nNotice (Activity 1): write “It was built in 1205–1206.” Ask: “Is the sentence about the builder or the building?”\nBuild (Activity 2): “… the oldest Seljuk hospital … the first place in the world … much later …” Ask: “Top of a group, or two times compared?”\nLikely errors: *It built in 1205 · *the most old · *more later.\nUse (Activity 3): three sentences about an old building with was built and the oldest.",
-    "pronunciationFocus": "Names: GEV-her ne-SI-be, KAY-se-ri, KON-ya, gı-ya-SED-din KEY-hus-rev.\nYears: “twelve oh five to twelve oh six”, “the thirteenth century”.\nWord stress: MED-i-cal, SCI-en-tists, PRAC-ti-cal TRAIN-ing.",
-    "beforeReading": [
-     "Show a picture of any modern hospital and ask: “Do doctors learn in a hospital or in a school?” Collect answers, then say: “800 years ago, in Kayseri, they learned in both.”"
-    ],
-    "duringReading": [
-     "First listening: In which city is the hospital?",
-     "Read and complete the “Why is it special?” card with three facts.",
-     "Put three dates on a time line: 1205–1206, the 16th and 17th centuries, Mahmud II.",
-     "Underline the two capitals: Konya and Kayseri."
-    ],
-    "afterReading": [
-     "Complete the Quick Challenge.",
-     "Language Focus: was built (Activity 1), the oldest / the first / much later (Activity 2), an old building (Activity 3).",
-     "Write one sentence: “The Gevher Nesibe Hospital is special because …”"
-    ],
-    "lessonPlan": "0–5 Hospital or school? hook and map; 5–12 Listen with books closed (which city?), then read along; 12–19 “Why is it special?” card and time line in pairs, check with “Where does it say that?”; 19–23 Quick Challenge; 23–31 Language Focus Activities 1–2 as discovery; 31–38 Activity 3: pairs describe an old building, two volunteers speak; 38–40 Exit ticket.",
-    "discussionPoints": [
-     "Why is the Gevher Nesibe Hospital special in the world?",
-     "When did European universities start this kind of education?",
-     "What is the old building today?"
-    ],
-    "interactiveTips": [
-     "Use the “Two Parts of Education” hotspot to explain classroom education and practical training.",
-     "Use the “A Museum Today” hotspot at the end of the lesson.",
-     "Replay paragraph 2 when learners mix up the centuries."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Give three fact strips and three “first / oldest / later” cards to match before writing. Let learners copy “It was built in …” from the text first.",
-     "fastFinishers": "Write four sentences comparing Kayseri and Europe with the first, the oldest and much later, using only facts from the chapter."
-    },
-    "formativeAssessment": [
-     "Says why the hospital is special with a sentence from the text.",
-     "Uses was built correctly.",
-     "Chooses the oldest / the first / much later."
-    ],
-    "expectedResponses": [
-     "The Gevher Nesibe Hospital is in Kayseri. It was built in 1205–1206. It is the first place in the world with a hospital and a medical school together."
-    ],
-    "transferTask": "Describe an old building in your town in three sentences.",
-    "teacherReflection": "Did learners check each “first” against the text, or did they guess from the title?",
-    "assessmentTools": {
-     "rubric": [
-      "Facts from the text",
-      "was built",
-      "the oldest / the first",
-      "Clear spoken sentences"
-     ],
-     "exitTicket": [
-      "Complete: “The hospital is special because ____. It was built in ____.”"
-     ]
-    },
-    "extraResources": {
-     "links": [
+  "schema": 1,
+  "storyId": "gevherNesibe",
+  "level": "A2",
+  "language": "en",
+  "teacherGuide": {
+    "content": [
       {
-       "label": "TYMM Foreign Language Skills",
-       "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+        "chapter": "Chapter 1 — A Hospital Ahead of Its Time",
+        "timing": "40 minutes",
+        "objectives": [
+          "Say where the Gevher Nesibe Hospital and Medical School is and why it is special in the world.",
+          "Compare when medical education started in Kayseri and in Europe.",
+          "Notice “It was built in …” and use the oldest / the first / much later.",
+          "Describe an old building in three sentences."
+        ],
+        "pedagogy": "Start with a map of Türkiye: Kayseri and Konya. The chapter is full of “firsts”, so learners make a “Why is it special?” card with three facts from the text and check each one with the sentence. A simple time line (1205–1206 → 16th and 17th centuries → Mahmud II) shows that Kayseri was far ahead. Grammar grows out of the same sentences.",
+        "priorKnowledge": ["Numbers and years (1205; the 13th century).", "School and hospital words: doctor, student, patient."],
+        "anticipatedMisconceptions": [
+          "The hospital is in Kayseri, not in Konya; Konya was the capital city at that time.",
+          "Gevher Nesibe did not build it; her brother Gıyâseddin Keyhusrev I built it for her."
+        ],
+        "grammarFocus": "Targets: was built (the building is important, not the builder) · the oldest / the first · much later.\nNotice (Activity 1): write “It was built in 1205–1206.” Ask: “Is the sentence about the builder or the building?”\nBuild (Activity 2): “… the oldest Seljuk hospital … the first place in the world … much later …” Ask: “Top of a group, or two times compared?”\nLikely errors: *It built in 1205 · *the most old · *more later.\nUse (Activity 3): three sentences about an old building with was built and the oldest.",
+        "pronunciationFocus": "Names: GEV-her ne-SI-be, KAY-se-ri, KON-ya, gı-ya-SED-din KEY-hus-rev.\nYears: “twelve oh five to twelve oh six”, “the thirteenth century”.\nWord stress: MED-i-cal, SCI-en-tists, PRAC-ti-cal TRAIN-ing.",
+        "beforeReading": [
+          "Show a picture of any modern hospital and ask: “Do doctors learn in a hospital or in a school?” Collect answers, then say: “800 years ago, in Kayseri, they learned in both.”"
+        ],
+        "duringReading": [
+          "First listening: In which city is the hospital?",
+          "Read and complete the “Why is it special?” card with three facts.",
+          "Put three dates on a time line: 1205–1206, the 16th and 17th centuries, Mahmud II.",
+          "Underline the two capitals: Konya and Kayseri."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus: was built (Activity 1), the oldest / the first / much later (Activity 2), an old building (Activity 3).",
+          "Write one sentence: “The Gevher Nesibe Hospital is special because …”"
+        ],
+        "lessonPlan": "0–5 Hospital or school? hook and map; 5–12 Listen with books closed (which city?), then read along; 12–19 “Why is it special?” card and time line in pairs, check with “Where does it say that?”; 19–23 Quick Challenge; 23–31 Language Focus Activities 1–2 as discovery; 31–38 Activity 3: pairs describe an old building, two volunteers speak; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "Why is the Gevher Nesibe Hospital special in the world?",
+          "When did European universities start this kind of education?",
+          "What is the old building today?"
+        ],
+        "interactiveTips": [
+          "Use the “Two Parts of Education” hotspot to explain classroom education and practical training.",
+          "Use the “A Museum Today” hotspot at the end of the lesson.",
+          "Replay paragraph 2 when learners mix up the centuries."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give three fact strips and three “first / oldest / later” cards to match before writing. Let learners copy “It was built in …” from the text first.",
+          "fastFinishers": "Write four sentences comparing Kayseri and Europe with the first, the oldest and much later, using only facts from the chapter."
+        },
+        "formativeAssessment": [
+          "Says why the hospital is special with a sentence from the text.",
+          "Uses was built correctly.",
+          "Chooses the oldest / the first / much later."
+        ],
+        "expectedResponses": [
+          "The Gevher Nesibe Hospital is in Kayseri. It was built in 1205–1206. It is the first place in the world with a hospital and a medical school together."
+        ],
+        "transferTask": "Describe an old building in your town in three sentences.",
+        "teacherReflection": "Did learners check each “first” against the text, or did they guess from the title?",
+        "assessmentTools": {
+          "rubric": ["Facts from the text", "was built", "the oldest / the first", "Clear spoken sentences"],
+          "exitTicket": ["Complete: “The hospital is special because ____. It was built in ____.”"]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
       },
       {
-       "label": "TYMM Erdem-Değer-Eylem",
-       "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
-      }
-     ]
-    }
-   },
-   {
-    "chapter": "Chapter 2 — A Princess and a Commander",
-    "timing": "40 minutes",
-    "objectives": [
-     "Retell the story of Gevher Nesibe and the young commander in order.",
-     "Explain why Gevher Nesibe died at a young age.",
-     "Use want + person + to + verb, did not + base verb, but / however / so.",
-     "Talk about wishes in their family."
-    ],
-    "pedagogy": "This is a story chapter. Learners build a four-box story strip (love → war → death → illness) and then a “because / so” chain for the end. Handle the sad ending calmly: the chapter is the reason for the hospital, which is the real topic of the book.",
-    "priorKnowledge": [
-     "Family words: daughter, sister, brother.",
-     "Past forms: loved, died, became, got."
-    ],
-    "anticipatedMisconceptions": [
-     "Her brother wanted her to marry a palace official, not the commander.",
-     "The commander did not run away; the Sultan sent him away to war."
-    ],
-    "grammarFocus": "Targets: want + thing / want + person + to + verb · did not + base verb · but / however / so.\nNotice (Activity 1): match the halves: “Her brother did not want / this marriage”, “He wanted his sister / to marry a palace official”.\nBuild (Activity 2): “But her brother … did not want this marriage.” / “… did not have a good hospital, so she died at a young age.” Ask: “Different idea or result?”\nLikely errors: *wanted his sister marry · *did not accepted.\nUse (Activity 3): “My mother wants me to … I want to …, but …”",
-    "pronunciationFocus": "Word focus: com-MAN-der, MAR-riage /ˈmærɪdʒ/, of-FI-cial /əˈfɪʃəl/, sep-a-RATE (verb).\nNames: kı-LIÇ-ars-lan the SEC-ond.\nWeak to: “wanted his sister to marry” /tə/.",
-    "beforeReading": [
-     "Ask: “Who decides who you marry: you, your family, or both?” Two or three short answers; do not discuss further."
-    ],
-    "duringReading": [
-     "First listening: Who did Gevher Nesibe love?",
-     "Read and complete the four-box story strip.",
-     "Find the reason she died young (… so …).",
-     "Underline what her brother did at the end."
-    ],
-    "afterReading": [
-     "Complete the Quick Challenge.",
-     "Language Focus: Want … to (Activity 1), but / so (Activity 2), wishes in my family (Activity 3).",
-     "Write one sentence about the brother with did not want."
-    ],
-    "lessonPlan": "0–4 Short hook; 4–11 Listen for who she loved, then read; 11–18 Story strip in pairs, check the order with the text; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3 in pairs, then write; 38–40 Exit ticket.",
-    "discussionPoints": [
-     "What did her brother want?",
-     "Why did the Sultan send the commander away?",
-     "Why did Gevher Nesibe die at a young age?"
-    ],
-    "interactiveTips": [
-     "Use the “A Brother’s Plan” hotspot before paragraph 1.",
-     "Use the “No Good Hospital” hotspot to connect this chapter to the next one."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Give four picture cards for the story strip and the frames “First, … Then, … Some time later, … So …”.",
-     "fastFinishers": "Write the story from the brother’s point of view in four sentences, using only facts from the chapter."
-    },
-    "formativeAssessment": [
-     "Puts the four events in order.",
-     "Explains the result with so.",
-     "Uses want + person + to + verb."
-    ],
-    "expectedResponses": [
-     "Gevher Nesibe loved a young commander. Her brother wanted her to marry a palace official. Kayseri did not have a good hospital, so she died young."
-    ],
-    "transferTask": "Say three sentences about wishes in your family.",
-    "teacherReflection": "Did learners keep the facts (brother, commander, illness) separate from their own opinions about the story?",
-    "assessmentTools": {
-     "rubric": [
-      "Events in order",
-      "Reason and result",
-      "want … to",
-      "Personal sentences"
-     ],
-     "exitTicket": [
-      "Complete: “Her brother wanted her to ____. Kayseri did not have a good hospital, so ____.”"
-     ]
-    },
-    "extraResources": {
-     "links": [
-      {
-       "label": "TYMM Foreign Language Skills",
-       "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+        "chapter": "Chapter 2 — A Princess and a Commander",
+        "timing": "40 minutes",
+        "objectives": [
+          "Retell the story of Gevher Nesibe and the young commander in order.",
+          "Explain why Gevher Nesibe died at a young age.",
+          "Use want + person + to + verb, did not + base verb, but / however / so.",
+          "Talk about wishes in their family."
+        ],
+        "pedagogy": "This is a story chapter. Learners build a four-box story strip (love → war → death → illness) and then a “because / so” chain for the end. Handle the sad ending calmly: the chapter is the reason for the hospital, which is the real topic of the book.",
+        "priorKnowledge": ["Family words: daughter, sister, brother.", "Past forms: loved, died, became, got."],
+        "anticipatedMisconceptions": [
+          "Her brother wanted her to marry a palace official, not the commander.",
+          "The commander did not run away; the Sultan sent him away to war."
+        ],
+        "grammarFocus": "Targets: want + thing / want + person + to + verb · did not + base verb · but / however / so.\nNotice (Activity 1): match the halves: “Her brother did not want / this marriage”, “He wanted his sister / to marry a palace official”.\nBuild (Activity 2): “But her brother … did not want this marriage.” / “… did not have a good hospital, so she died at a young age.” Ask: “Different idea or result?”\nLikely errors: *wanted his sister marry · *did not accepted.\nUse (Activity 3): “My mother wants me to … I want to …, but …”",
+        "pronunciationFocus": "Word focus: com-MAN-der, MAR-riage /ˈmærɪdʒ/, of-FI-cial /əˈfɪʃəl/, sep-a-RATE (verb).\nNames: kı-LIÇ-ars-lan the SEC-ond.\nWeak to: “wanted his sister to marry” /tə/.",
+        "beforeReading": [
+          "Ask: “Who decides who you marry: you, your family, or both?” Two or three short answers; do not discuss further."
+        ],
+        "duringReading": [
+          "First listening: Who did Gevher Nesibe love?",
+          "Read and complete the four-box story strip.",
+          "Find the reason she died young (… so …).",
+          "Underline what her brother did at the end."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus: Want … to (Activity 1), but / so (Activity 2), wishes in my family (Activity 3).",
+          "Write one sentence about the brother with did not want."
+        ],
+        "lessonPlan": "0–4 Short hook; 4–11 Listen for who she loved, then read; 11–18 Story strip in pairs, check the order with the text; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3 in pairs, then write; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "What did her brother want?",
+          "Why did the Sultan send the commander away?",
+          "Why did Gevher Nesibe die at a young age?"
+        ],
+        "interactiveTips": [
+          "Use the “A Brother’s Plan” hotspot before paragraph 1.",
+          "Use the “No Good Hospital” hotspot to connect this chapter to the next one."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give four picture cards for the story strip and the frames “First, … Then, … Some time later, … So …”.",
+          "fastFinishers": "Write the story from the brother’s point of view in four sentences, using only facts from the chapter."
+        },
+        "formativeAssessment": ["Puts the four events in order.", "Explains the result with so.", "Uses want + person + to + verb."],
+        "expectedResponses": [
+          "Gevher Nesibe loved a young commander. Her brother wanted her to marry a palace official. Kayseri did not have a good hospital, so she died young."
+        ],
+        "transferTask": "Say three sentences about wishes in your family.",
+        "teacherReflection": "Did learners keep the facts (brother, commander, illness) separate from their own opinions about the story?",
+        "assessmentTools": {
+          "rubric": ["Events in order", "Reason and result", "want … to", "Personal sentences"],
+          "exitTicket": ["Complete: “Her brother wanted her to ____. Kayseri did not have a good hospital, so ____.”"]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
       },
       {
-       "label": "TYMM Erdem-Değer-Eylem",
-       "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
-      }
-     ]
-    }
-   },
-   {
-    "chapter": "Chapter 3 — The Last Wish",
-    "timing": "40 minutes",
-    "objectives": [
-     "Say what Gevher Nesibe asked for in her last wish.",
-     "Explain why “free for everyone” was important.",
-     "Notice let + base verb and use must / should / cannot.",
-     "Write a wish for a new place in their town."
-    ],
-    "pedagogy": "The chapter is one short speech. Read it aloud slowly once, then learners make a “Wish list” with four points (money, help sick people, teachers, free). Connect it to Chapter 2: there was no good hospital, so she asked for one.",
-    "priorKnowledge": [
-     "Must and should for rules (We must …).",
-     "Medicine words: illness, doctor."
-    ],
-    "anticipatedMisconceptions": [
-     "She did not want a palace or a grave; she wanted a hospital.",
-     "The hospital was not for rich people only; it was free for everyone."
-    ],
-    "grammarFocus": "Targets: let + person/thing + base verb · must / should / cannot + base verb.\nNotice (Activity 1): “Let this hospital help sick people …” Ask: “Is she telling a story, or saying what she wants?”\nBuild (Activity 2): “doctors cannot help me”, “Nobody should pay any money”, “This place must be free”.\nLikely errors: *must is free · *should to pay · *let this hospital helps.\nUse (Activity 3): “My town needs a … Let this … help … It should … and it must …”",
-    "pronunciationFocus": "Word focus: DEATH-bed /ˈdeθbed/, CURES /kjʊəz/, dis-EAS-es /dɪˈziːzɪz/, SUR-geons /ˈsɜːdʒənz/.\nSentence stress: “This place MUST be FREE for EVERYONE.”",
-    "beforeReading": [
-     "Ask: “What does a town need most: a park, a library or a hospital? Why?” Pairs choose one."
-    ],
-    "duringReading": [
-     "First listening: What does she want to build?",
-     "Read and complete the four-point wish list.",
-     "Circle must, should and cannot.",
-     "Find who should teach at the hospital."
-    ],
-    "afterReading": [
-     "Complete the Quick Challenge.",
-     "Language Focus: Let (Activity 1), must / should / cannot (Activity 2), my wish for my town (Activity 3)."
-    ],
-    "lessonPlan": "0–5 Town needs hook; 5–10 Teacher reads the speech slowly, learners listen; 10–17 Wish list in pairs; 17–21 Quick Challenge; 21–30 Language Focus Activities 1–2; 30–38 Activity 3: write a wish for the town, read it to a partner; 38–40 Exit ticket.",
-    "discussionPoints": [
-     "What did Gevher Nesibe want to build with her money?",
-     "Who should teach there?",
-     "Why do you think she wanted the hospital to be free?"
-    ],
-    "interactiveTips": [
-     "Use the “Help for Sick People” hotspot after the first reading.",
-     "Use the “Free for Everyone” hotspot to discuss the last sentence."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Give the wish list with first letters (h______, s___ p_____, f___) and the frames “Let … help …”, “It must be …”.",
-     "fastFinishers": "Write her wish again as a short letter to her brother in four sentences, keeping every fact from the chapter."
-    },
-    "formativeAssessment": [
-     "Names at least three points of her wish.",
-     "Uses must / should + base verb.",
-     "Writes one let sentence."
-    ],
-    "expectedResponses": [
-     "She wanted a hospital. It must help sick people and find cures. Famous doctors and surgeons should teach there. It must be free for everyone."
-    ],
-    "transferTask": "Write three sentences about a new place your town needs.",
-    "teacherReflection": "Did learners connect the wish to the missing hospital in Chapter 2?",
-    "assessmentTools": {
-     "rubric": [
-      "Points of the wish",
-      "let + verb",
-      "must / should",
-      "Personal wish"
-     ],
-     "exitTicket": [
-      "Complete: “Gevher Nesibe wanted ____. Nobody should ____.”"
-     ]
-    },
-    "extraResources": {
-     "links": [
-      {
-       "label": "TYMM Foreign Language Skills",
-       "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+        "chapter": "Chapter 3 — The Last Wish",
+        "timing": "40 minutes",
+        "objectives": [
+          "Say what Gevher Nesibe asked for in her last wish.",
+          "Explain why “free for everyone” was important.",
+          "Notice let + base verb and use must / should / cannot.",
+          "Write a wish for a new place in their town."
+        ],
+        "pedagogy": "The chapter is one short speech. Read it aloud slowly once, then learners make a “Wish list” with four points (money, help sick people, teachers, free). Connect it to Chapter 2: there was no good hospital, so she asked for one.",
+        "priorKnowledge": ["Must and should for rules (We must …).", "Medicine words: illness, doctor."],
+        "anticipatedMisconceptions": [
+          "She did not want a palace or a grave; she wanted a hospital.",
+          "The hospital was not for rich people only; it was free for everyone."
+        ],
+        "grammarFocus": "Targets: let + person/thing + base verb · must / should / cannot + base verb.\nNotice (Activity 1): “Let this hospital help sick people …” Ask: “Is she telling a story, or saying what she wants?”\nBuild (Activity 2): “doctors cannot help me”, “Nobody should pay any money”, “This place must be free”.\nLikely errors: *must is free · *should to pay · *let this hospital helps.\nUse (Activity 3): “My town needs a … Let this … help … It should … and it must …”",
+        "pronunciationFocus": "Word focus: DEATH-bed /ˈdeθbed/, CURES /kjʊəz/, dis-EAS-es /dɪˈziːzɪz/, SUR-geons /ˈsɜːdʒənz/.\nSentence stress: “This place MUST be FREE for EVERYONE.”",
+        "beforeReading": ["Ask: “What does a town need most: a park, a library or a hospital? Why?” Pairs choose one."],
+        "duringReading": [
+          "First listening: What does she want to build?",
+          "Read and complete the four-point wish list.",
+          "Circle must, should and cannot.",
+          "Find who should teach at the hospital."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus: Let (Activity 1), must / should / cannot (Activity 2), my wish for my town (Activity 3)."
+        ],
+        "lessonPlan": "0–5 Town needs hook; 5–10 Teacher reads the speech slowly, learners listen; 10–17 Wish list in pairs; 17–21 Quick Challenge; 21–30 Language Focus Activities 1–2; 30–38 Activity 3: write a wish for the town, read it to a partner; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "What did Gevher Nesibe want to build with her money?",
+          "Who should teach there?",
+          "Why do you think she wanted the hospital to be free?"
+        ],
+        "interactiveTips": [
+          "Use the “Help for Sick People” hotspot after the first reading.",
+          "Use the “Free for Everyone” hotspot to discuss the last sentence."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the wish list with first letters (h______, s___ p_____, f___) and the frames “Let … help …”, “It must be …”.",
+          "fastFinishers": "Write her wish again as a short letter to her brother in four sentences, keeping every fact from the chapter."
+        },
+        "formativeAssessment": ["Names at least three points of her wish.", "Uses must / should + base verb.", "Writes one let sentence."],
+        "expectedResponses": [
+          "She wanted a hospital. It must help sick people and find cures. Famous doctors and surgeons should teach there. It must be free for everyone."
+        ],
+        "transferTask": "Write three sentences about a new place your town needs.",
+        "teacherReflection": "Did learners connect the wish to the missing hospital in Chapter 2?",
+        "assessmentTools": {
+          "rubric": ["Points of the wish", "let + verb", "must / should", "Personal wish"],
+          "exitTicket": ["Complete: “Gevher Nesibe wanted ____. Nobody should ____.”"]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
       },
       {
-       "label": "TYMM Erdem-Değer-Eylem",
-       "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
-      }
-     ]
-    }
-   },
-   {
-    "chapter": "Chapter 4 — The Twin Madrasas",
-    "timing": "40 minutes",
-    "objectives": [
-     "Name the two buildings and say what each one was.",
-     "Explain the name “Twin Madrasas”.",
-     "Use it took + time + to + verb and inside / next to / on.",
-     "Describe their school building."
-    ],
-    "pedagogy": "Draw two boxes side by side on the board: Learners label them (Gıyâsiye = medical school, Şifâiye = hospital) and add the grave and the front gate from the text. The drawing makes the place words visible before the grammar.",
-    "priorKnowledge": [
-     "Place words: in, on, next to.",
-     "The word “school”; madrasa may be new."
-    ],
-    "anticipatedMisconceptions": [
-     "The Gıyâsiye is the medical school and the Şifâiye is the hospital, not the other way round.",
-     "The grave is inside the Gıyâsiye, not in the hospital."
-    ],
-    "grammarFocus": "Targets: it took + time + to + verb · inside / next to / on.\nNotice (Activity 1): “It took two years to build the hospital.” Ask: “Is this about how long the work was?”\nBuild (Activity 2): “inside the Gıyâsiye”, “next to each other”, “on the big front gate”.\nLikely errors: *It taked two years · *next each other · *in the gate.\nUse (Activity 3): three sentences about the school building.",
-    "pronunciationFocus": "Names: gı-ya-SI-ye me-DRE-se-si, şi-FA-i-ye, dâ-rüş-şi-FÂ.\nWord focus: HEAL-ing /ˈhiːlɪŋ/, GRAVE, TWIN, FRONT GATE.",
-    "beforeReading": [
-     "Ask: “Do you know any twins? How are twins similar?”"
-    ],
-    "duringReading": [
-     "First listening: What did her brother build?",
-     "Label the two-box drawing with names from the text.",
-     "Find how long it took to build the hospital.",
-     "Find why people call them the Twin Madrasas."
-    ],
-    "afterReading": [
-     "Complete the Quick Challenge.",
-     "Language Focus: It took (Activity 1), inside / next to / on (Activity 2), around my school (Activity 3)."
-    ],
-    "lessonPlan": "0–4 Twins hook; 4–10 Listen for what he built; 10–18 Two-box drawing in pairs; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3 in pairs; 38–40 Exit ticket.",
-    "discussionPoints": [
-     "What were the Gıyâsiye and the Şifâiye?",
-     "What does Dârüşşifâ mean?",
-     "Where is the grave of Gevher Nesibe?"
-    ],
-    "interactiveTips": [
-     "Use the “The House of Healing” hotspot when learners meet the word Dârüşşifâ.",
-     "Use the “Two Buildings Side by Side” hotspot with the board drawing."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Give the two-box drawing with empty labels and a word bank (medical school, hospital, grave, front gate).",
-     "fastFinishers": "Write a short visitor’s note about the Twin Madrasas with inside, next to and on."
-    },
-    "formativeAssessment": [
-     "Labels the two buildings correctly.",
-     "Explains “Twin Madrasas” with because.",
-     "Uses it took + time + to."
-    ],
-    "expectedResponses": [
-     "He built a medical school and a hospital. They are next to each other, so people call them the Twin Madrasas. It took two years to build the hospital."
-    ],
-    "transferTask": "Describe your school building in three sentences.",
-    "teacherReflection": "Did the drawing help learners use the place words correctly?",
-    "assessmentTools": {
-     "rubric": [
-      "Buildings named",
-      "Twin Madrasas explained",
-      "it took",
-      "Place words"
-     ],
-     "exitTicket": [
-      "Complete: “People call them the Twin Madrasas because ____. It took ____ to build the hospital.”"
-     ]
-    },
-    "extraResources": {
-     "links": [
-      {
-       "label": "TYMM Foreign Language Skills",
-       "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+        "chapter": "Chapter 4 — The Twin Madrasas",
+        "timing": "40 minutes",
+        "objectives": [
+          "Name the two buildings and say what each one was.",
+          "Explain the name “Twin Madrasas”.",
+          "Use it took + time + to + verb and inside / next to / on.",
+          "Describe their school building."
+        ],
+        "pedagogy": "Draw two boxes side by side on the board: Learners label them (Gıyâsiye = medical school, Şifâiye = hospital) and add the grave and the front gate from the text. The drawing makes the place words visible before the grammar.",
+        "priorKnowledge": ["Place words: in, on, next to.", "The word “school”; madrasa may be new."],
+        "anticipatedMisconceptions": [
+          "The Gıyâsiye is the medical school and the Şifâiye is the hospital, not the other way round.",
+          "The grave is inside the Gıyâsiye, not in the hospital."
+        ],
+        "grammarFocus": "Targets: it took + time + to + verb · inside / next to / on.\nNotice (Activity 1): “It took two years to build the hospital.” Ask: “Is this about how long the work was?”\nBuild (Activity 2): “inside the Gıyâsiye”, “next to each other”, “on the big front gate”.\nLikely errors: *It taked two years · *next each other · *in the gate.\nUse (Activity 3): three sentences about the school building.",
+        "pronunciationFocus": "Names: gı-ya-SI-ye me-DRE-se-si, şi-FA-i-ye, dâ-rüş-şi-FÂ.\nWord focus: HEAL-ing /ˈhiːlɪŋ/, GRAVE, TWIN, FRONT GATE.",
+        "beforeReading": ["Ask: “Do you know any twins? How are twins similar?”"],
+        "duringReading": [
+          "First listening: What did her brother build?",
+          "Label the two-box drawing with names from the text.",
+          "Find how long it took to build the hospital.",
+          "Find why people call them the Twin Madrasas."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus: It took (Activity 1), inside / next to / on (Activity 2), around my school (Activity 3)."
+        ],
+        "lessonPlan": "0–4 Twins hook; 4–10 Listen for what he built; 10–18 Two-box drawing in pairs; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3 in pairs; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "What were the Gıyâsiye and the Şifâiye?",
+          "What does Dârüşşifâ mean?",
+          "Where is the grave of Gevher Nesibe?"
+        ],
+        "interactiveTips": [
+          "Use the “The House of Healing” hotspot when learners meet the word Dârüşşifâ.",
+          "Use the “Two Buildings Side by Side” hotspot with the board drawing."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the two-box drawing with empty labels and a word bank (medical school, hospital, grave, front gate).",
+          "fastFinishers": "Write a short visitor’s note about the Twin Madrasas with inside, next to and on."
+        },
+        "formativeAssessment": [
+          "Labels the two buildings correctly.",
+          "Explains “Twin Madrasas” with because.",
+          "Uses it took + time + to."
+        ],
+        "expectedResponses": [
+          "He built a medical school and a hospital. They are next to each other, so people call them the Twin Madrasas. It took two years to build the hospital."
+        ],
+        "transferTask": "Describe your school building in three sentences.",
+        "teacherReflection": "Did the drawing help learners use the place words correctly?",
+        "assessmentTools": {
+          "rubric": ["Buildings named", "Twin Madrasas explained", "it took", "Place words"],
+          "exitTicket": ["Complete: “People call them the Twin Madrasas because ____. It took ____ to build the hospital.”"]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
       },
       {
-       "label": "TYMM Erdem-Değer-Eylem",
-       "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
-      }
-     ]
-    }
-   },
-   {
-    "chapter": "Chapter 5 — Learning Beside the Patients",
-    "timing": "40 minutes",
-    "objectives": [
-     "Say where students learned and where they worked with patients.",
-     "Describe the heating system and the hospital team.",
-     "Notice probably and use had / used / saw.",
-     "Talk about lessons at their school."
-    ],
-    "pedagogy": "Make a three-column chart on the board: Classroom / With patients / In the summer. Learners fill it from the text. Then a “sure or not sure?” check: History books show … vs. probably.",
-    "priorKnowledge": [
-     "Seasons: summer, winter.",
-     "Job words: doctor, surgeon, pharmacist."
-    ],
-    "anticipatedMisconceptions": [
-     "Students did not only read books; they worked with real patients at the Şifâiye.",
-     "The heating system used steam from a bathhouse, not a fire in the room."
-    ],
-    "grammarFocus": "Targets: probably (not sure) · had / used / saw.\nNotice (Activity 1): “Students probably lived in small rooms inside the school.” Ask: “Is the writer sure?” Compare “History books show that …”.\nBuild (Activity 2): had, used, saw in the chapter sentences.\nLikely errors: *seed · *haved · *probably they lived (word order is fine, but practise the text order).\nUse (Activity 3): lessons in the summer and winter, similar to.",
-    "pronunciationFocus": "Word focus: HEAT-ing SYS-tem, STEAM /stiːm/, PHAR-ma-cist /ˈfɑːməsɪst/, SIM-i-lar to.\nNames: key-KÂ-vus, SI-vas.",
-    "beforeReading": [
-     "Ask: “Where do you have lessons: only in the classroom, or also outside?”"
-    ],
-    "duringReading": [
-     "First listening: Where did students work with real patients?",
-     "Fill the three-column chart.",
-     "Find how the buildings were warm.",
-     "Count the hospital team."
-    ],
-    "afterReading": [
-     "Complete the Quick Challenge.",
-     "Language Focus: Probably (Activity 1), had / used / saw (Activity 2), lessons outside (Activity 3)."
-    ],
-    "lessonPlan": "0–4 Lessons outside hook; 4–10 Listen for the patients’ building, then read; 10–18 Chart in pairs; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3; 38–40 Exit ticket.",
-    "discussionPoints": [
-     "Where did students learn lessons, and where did they work with patients?",
-     "How did the heating system work?",
-     "Who was in the hospital team?"
-    ],
-    "interactiveTips": [
-     "Use the “Warm Floors” hotspot to explain steam and the heating system.",
-     "Use the “Lessons in the Garden” hotspot for the summer column."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Give the chart with first words in each column and a word bank (Gıyâsiye, Şifâiye, gardens).",
-     "fastFinishers": "Write four sentences comparing their school with the school in Kayseri: One similar thing and one different thing."
-    },
-    "formativeAssessment": [
-     "Completes the chart from the text.",
-     "Explains probably.",
-     "Uses had, used and saw."
-    ],
-    "expectedResponses": [
-     "Students learned lessons at the Gıyâsiye and worked with real patients at the Şifâiye. In the summer, lessons were in the gardens."
-    ],
-    "transferTask": "Say three sentences about lessons at your school.",
-    "teacherReflection": "Did learners notice the difference between “history books show” and “probably”?",
-    "assessmentTools": {
-     "rubric": [
-      "Chart from the text",
-      "probably",
-      "Past forms",
-      "Personal sentences"
-     ],
-     "exitTicket": [
-      "Complete: “Students worked with patients at ____. They probably lived ____.”"
-     ]
-    },
-    "extraResources": {
-     "links": [
-      {
-       "label": "TYMM Foreign Language Skills",
-       "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+        "chapter": "Chapter 5 — Learning Beside the Patients",
+        "timing": "40 minutes",
+        "objectives": [
+          "Say where students learned and where they worked with patients.",
+          "Describe the heating system and the hospital team.",
+          "Notice probably and use had / used / saw.",
+          "Talk about lessons at their school."
+        ],
+        "pedagogy": "Make a three-column chart on the board: Classroom / With patients / In the summer. Learners fill it from the text. Then a “sure or not sure?” check: History books show … vs. probably.",
+        "priorKnowledge": ["Seasons: summer, winter.", "Job words: doctor, surgeon, pharmacist."],
+        "anticipatedMisconceptions": [
+          "Students did not only read books; they worked with real patients at the Şifâiye.",
+          "The heating system used steam from a bathhouse, not a fire in the room."
+        ],
+        "grammarFocus": "Targets: probably (not sure) · had / used / saw.\nNotice (Activity 1): “Students probably lived in small rooms inside the school.” Ask: “Is the writer sure?” Compare “History books show that …”.\nBuild (Activity 2): had, used, saw in the chapter sentences.\nLikely errors: *seed · *haved · *probably they lived (word order is fine, but practise the text order).\nUse (Activity 3): lessons in the summer and winter, similar to.",
+        "pronunciationFocus": "Word focus: HEAT-ing SYS-tem, STEAM /stiːm/, PHAR-ma-cist /ˈfɑːməsɪst/, SIM-i-lar to.\nNames: key-KÂ-vus, SI-vas.",
+        "beforeReading": ["Ask: “Where do you have lessons: only in the classroom, or also outside?”"],
+        "duringReading": [
+          "First listening: Where did students work with real patients?",
+          "Fill the three-column chart.",
+          "Find how the buildings were warm.",
+          "Count the hospital team."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus: Probably (Activity 1), had / used / saw (Activity 2), lessons outside (Activity 3)."
+        ],
+        "lessonPlan": "0–4 Lessons outside hook; 4–10 Listen for the patients’ building, then read; 10–18 Chart in pairs; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "Where did students learn lessons, and where did they work with patients?",
+          "How did the heating system work?",
+          "Who was in the hospital team?"
+        ],
+        "interactiveTips": [
+          "Use the “Warm Floors” hotspot to explain steam and the heating system.",
+          "Use the “Lessons in the Garden” hotspot for the summer column."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the chart with first words in each column and a word bank (Gıyâsiye, Şifâiye, gardens).",
+          "fastFinishers": "Write four sentences comparing their school with the school in Kayseri: One similar thing and one different thing."
+        },
+        "formativeAssessment": ["Completes the chart from the text.", "Explains probably.", "Uses had, used and saw."],
+        "expectedResponses": [
+          "Students learned lessons at the Gıyâsiye and worked with real patients at the Şifâiye. In the summer, lessons were in the gardens."
+        ],
+        "transferTask": "Say three sentences about lessons at your school.",
+        "teacherReflection": "Did learners notice the difference between “history books show” and “probably”?",
+        "assessmentTools": {
+          "rubric": ["Chart from the text", "probably", "Past forms", "Personal sentences"],
+          "exitTicket": ["Complete: “Students worked with patients at ____. They probably lived ____.”"]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
       },
       {
-       "label": "TYMM Erdem-Değer-Eylem",
-       "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
-      }
-     ]
-    }
-   },
-   {
-    "chapter": "Chapter 6 — Great Teachers and Books",
-    "timing": "40 minutes",
-    "objectives": [
-     "Name some teachers of the school and the books students read.",
-     "Say what subjects the teachers taught.",
-     "List people with one of them / another / also and use especially / like.",
-     "Talk about their own teachers."
-    ],
-    "pedagogy": "The chapter is a list. Learners make two lists on paper: Teachers / Books. Then they circle the words that start each new person (One of them, Another, There was also). The list makes the linking words easy to see.",
-    "priorKnowledge": [
-     "Subject names: religion, languages.",
-     "Famous names they may know: Mevlânâ, İbn Sînâ."
-    ],
-    "anticipatedMisconceptions": [
-     "Ekmeleddin al-Nahcuvânî was Mevlânâ’s friend and doctor; Mevlânâ was not a teacher at the school.",
-     "Hippocrates was an ancient Greek doctor; he did not teach in Kayseri."
-    ],
-    "grammarFocus": "Targets: one of them / another / there was also · especially / like.\nNotice (Activity 1): match each phrase with its job in the list.\nBuild (Activity 2): “… especially the books of İbn Sînâ.” / “… ancient Greek doctors like Hippocrates.”\nLikely errors: *one of them were · *an another doctor.\nUse (Activity 3): “One of them is … Another teacher is … I like …, especially …”",
-    "pronunciationFocus": "Names: sad-red-DIN ko-ne-VÎ, mev-lâ-NÂ, ek-me-led-DIN, ibn SÎ-nâ, hip-PO-cra-tes.\nWord focus: phi-LOS-o-phy /fɪˈlɒsəfi/, AN-cient /ˈeɪnʃənt/, PA-tients /ˈpeɪʃənts/.",
-    "beforeReading": [
-     "Ask: “Who is your favorite teacher? What does he or she teach?”"
-    ],
-    "duringReading": [
-     "First listening: Whose books did students read?",
-     "Make the Teachers and Books lists.",
-     "Underline the four subjects the scientists taught.",
-     "Find where students practised."
-    ],
-    "afterReading": [
-     "Complete the Quick Challenge.",
-     "Language Focus: One of them / another (Activity 1), especially / like (Activity 2), teachers at my school (Activity 3)."
-    ],
-    "lessonPlan": "0–4 Favorite teacher hook; 4–10 Listen for the books, then read; 10–18 Two lists in pairs; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3; 38–40 Exit ticket.",
-    "discussionPoints": [
-     "Who taught at the school?",
-     "What did the scientists teach?",
-     "Where did students practise?"
-    ],
-    "interactiveTips": [
-     "Use the “The Books of İbn Sînâ” hotspot for the Books list.",
-     "Use the “Learning at the Bedside” hotspot for the last sentence."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Give name cards and job cards (teacher, friend and doctor of Mevlânâ, eye doctor) to match first.",
-     "fastFinishers": "Write a short “Who’s who” card for three people in the chapter, using only the text."
-    },
-    "formativeAssessment": [
-     "Lists teachers and books from the text.",
-     "Uses one of them and another.",
-     "Uses especially or like correctly."
-    ],
-    "expectedResponses": [
-     "One of the teachers was Sadreddin Konevî. Students read medical books, especially the books of İbn Sînâ. They learned at the patients’ bedside."
-    ],
-    "transferTask": "Say three sentences about the teachers at your school.",
-    "teacherReflection": "Did learners separate the teachers at the school from the authors of the books?",
-    "assessmentTools": {
-     "rubric": [
-      "Teachers and books",
-      "List words",
-      "especially / like",
-      "Personal sentences"
-     ],
-     "exitTicket": [
-      "Complete: “One of the teachers was ____. Students read books, especially ____.”"
-     ]
-    },
-    "extraResources": {
-     "links": [
-      {
-       "label": "TYMM Foreign Language Skills",
-       "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+        "chapter": "Chapter 6 — Great Teachers and Books",
+        "timing": "40 minutes",
+        "objectives": [
+          "Name some teachers of the school and the books students read.",
+          "Say what subjects the teachers taught.",
+          "List people with one of them / another / also and use especially / like.",
+          "Talk about their own teachers."
+        ],
+        "pedagogy": "The chapter is a list. Learners make two lists on paper: Teachers / Books. Then they circle the words that start each new person (One of them, Another, There was also). The list makes the linking words easy to see.",
+        "priorKnowledge": ["Subject names: religion, languages.", "Famous names they may know: Mevlânâ, Ibn Sînâ."],
+        "anticipatedMisconceptions": [
+          "Ekmeleddin al-Nahcuvânî was Mevlânâ’s friend and doctor; Mevlânâ was not a teacher at the school.",
+          "Hippocrates was an ancient Greek doctor; he did not teach in Kayseri."
+        ],
+        "grammarFocus": "Targets: one of them / another / there was also · especially / like.\nNotice (Activity 1): match each phrase with its job in the list.\nBuild (Activity 2): “… especially the books of Ibn Sînâ.” / “… ancient Greek doctors like Hippocrates.”\nLikely errors: *one of them were · *an another doctor.\nUse (Activity 3): “One of them is … Another teacher is … I like …, especially …”",
+        "pronunciationFocus": "Names: sad-red-DIN ko-ne-VÎ, mev-lâ-NÂ, ek-me-led-DIN, ibn SÎ-nâ, hip-PO-cra-tes.\nWord focus: phi-LOS-o-phy /fɪˈlɒsəfi/, AN-cient /ˈeɪnʃənt/, PA-tients /ˈpeɪʃənts/.",
+        "beforeReading": ["Ask: “Who is your favorite teacher? What does he or she teach?”"],
+        "duringReading": [
+          "First listening: Whose books did students read?",
+          "Make the Teachers and Books lists.",
+          "Underline the four subjects the scientists taught.",
+          "Find where students practised."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus: One of them / another (Activity 1), especially / like (Activity 2), teachers at my school (Activity 3)."
+        ],
+        "lessonPlan": "0–4 Favorite teacher hook; 4–10 Listen for the books, then read; 10–18 Two lists in pairs; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3; 38–40 Exit ticket.",
+        "discussionPoints": ["Who taught at the school?", "What did the scientists teach?", "Where did students practise?"],
+        "interactiveTips": [
+          "Use the “The Books of Ibn Sînâ” hotspot for the Books list.",
+          "Use the “Learning at the Bedside” hotspot for the last sentence."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give name cards and job cards (teacher, friend and doctor of Mevlânâ, eye doctor) to match first.",
+          "fastFinishers": "Write a short “Who’s who” card for three people in the chapter, using only the text."
+        },
+        "formativeAssessment": [
+          "Lists teachers and books from the text.",
+          "Uses one of them and another.",
+          "Uses especially or like correctly."
+        ],
+        "expectedResponses": [
+          "One of the teachers was Sadreddin Konevî. Students read medical books, especially the books of Ibn Sînâ. They learned at the patients’ bedside."
+        ],
+        "transferTask": "Say three sentences about the teachers at your school.",
+        "teacherReflection": "Did learners separate the teachers at the school from the authors of the books?",
+        "assessmentTools": {
+          "rubric": ["Teachers and books", "List words", "especially / like", "Personal sentences"],
+          "exitTicket": ["Complete: “One of the teachers was ____. Students read books, especially ____.”"]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
       },
       {
-       "label": "TYMM Erdem-Değer-Eylem",
-       "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
-      }
-     ]
-    }
-   },
-   {
-    "chapter": "Chapter 7 — Inside the Buildings",
-    "timing": "40 minutes",
-    "objectives": [
-     "Describe the hall, courtyards, doors and operation rooms.",
-     "Explain what the missing kitchen shows.",
-     "Notice the present for a building today and use all / none of / no.",
-     "Describe their home."
-    ],
-    "pedagogy": "Learners draw a simple floor plan while they listen: Two buildings, a long hall, courtyards with pools, small doors, three operation rooms. They then check the plan with the text. The plan shows why the writer uses the present (the building is still there).",
-    "priorKnowledge": [
-     "House words: room, door, window, kitchen.",
-     "There is / there are."
-    ],
-    "anticipatedMisconceptions": [
-     "There was no kitchen inside; food came from an outdoor kitchen.",
-     "The writer is not sure about eye operations; the text says “probably”."
-    ],
-    "grammarFocus": "Targets: present simple for a building today vs past for people long ago · all / none of / no.\nNotice (Activity 1): “A long hall connects the two buildings.” vs “two surgeons worked there”.\nBuild (Activity 2): “All the doors …”, “None of the rooms …”, “There was no kitchen space …”.\nLikely errors: *None of the rooms has not · *There was not kitchen.\nUse (Activity 3): three sentences about their home.",
-    "pronunciationFocus": "Word focus: COURT-yard, COV-ered WALK-ways, FIRE-pla-ces, op-er-A-tions.\nLinking: “none of the” /ˈnʌn əv ðə/.",
-    "beforeReading": [
-     "Ask: “What rooms does a hospital need?” Collect a list on the board."
-    ],
-    "duringReading": [
-     "First listening: What connects the two buildings?",
-     "Draw the floor plan.",
-     "Find what was missing inside the center.",
-     "Find how many rooms for operations there were."
-    ],
-    "afterReading": [
-     "Complete the Quick Challenge.",
-     "Language Focus: The building today (Activity 1), all / none of / no (Activity 2), my home (Activity 3)."
-    ],
-    "lessonPlan": "0–4 Hospital rooms hook; 4–12 Listen and draw the plan; 12–18 Check the plan with the text in pairs; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3; 38–40 Exit ticket.",
-    "discussionPoints": [
-     "What does each building have?",
-     "Why do we think food came from an outdoor kitchen?",
-     "What did doctors probably do in the operation rooms?"
-    ],
-    "interactiveTips": [
-     "Use the “A Long Hall” hotspot to start the floor plan.",
-     "Use the “Light from Above” hotspot for the operation rooms."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Give a half-drawn plan and labels to place.",
-     "fastFinishers": "Write a five-sentence tour of the building with all, none of and no."
-    },
-    "formativeAssessment": [
-     "Draws the main parts from the text.",
-     "Explains the missing kitchen.",
-     "Uses all / none of / no."
-    ],
-    "expectedResponses": [
-     "A long hall connects the two buildings. None of the rooms have fireplaces. There was no kitchen, so people brought food from outside."
-    ],
-    "transferTask": "Describe your home in three sentences.",
-    "teacherReflection": "Did the floor plan make the description easier to follow?",
-    "assessmentTools": {
-     "rubric": [
-      "Plan from the text",
-      "Kitchen explained",
-      "all / none of / no",
-      "Personal description"
-     ],
-     "exitTicket": [
-      "Complete: “None of the rooms ____. There was no ____.”"
-     ]
-    },
-    "extraResources": {
-     "links": [
-      {
-       "label": "TYMM Foreign Language Skills",
-       "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+        "chapter": "Chapter 7 — Inside the Buildings",
+        "timing": "40 minutes",
+        "objectives": [
+          "Describe the hall, courtyards, doors and operation rooms.",
+          "Explain what the missing kitchen shows.",
+          "Notice the present for a building today and use all / none of / no.",
+          "Describe their home."
+        ],
+        "pedagogy": "Learners draw a simple floor plan while they listen: Two buildings, a long hall, courtyards with pools, small doors, three operation rooms. They then check the plan with the text. The plan shows why the writer uses the present (the building is still there).",
+        "priorKnowledge": ["House words: room, door, window, kitchen.", "There is / there are."],
+        "anticipatedMisconceptions": [
+          "There was no kitchen inside; food came from an outdoor kitchen.",
+          "The writer is not sure about eye operations; the text says “probably”."
+        ],
+        "grammarFocus": "Targets: present simple for a building today vs past for people long ago · all / none of / no.\nNotice (Activity 1): “A long hall connects the two buildings.” vs “two surgeons worked there”.\nBuild (Activity 2): “All the doors …”, “None of the rooms …”, “There was no kitchen space …”.\nLikely errors: *None of the rooms has not · *There was not kitchen.\nUse (Activity 3): three sentences about their home.",
+        "pronunciationFocus": "Word focus: COURT-yard, COV-ered WALK-ways, FIRE-pla-ces, op-er-A-tions.\nLinking: “none of the” /ˈnʌn əv ðə/.",
+        "beforeReading": ["Ask: “What rooms does a hospital need?” Collect a list on the board."],
+        "duringReading": [
+          "First listening: What connects the two buildings?",
+          "Draw the floor plan.",
+          "Find what was missing inside the center.",
+          "Find how many rooms for operations there were."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus: The building today (Activity 1), all / none of / no (Activity 2), my home (Activity 3)."
+        ],
+        "lessonPlan": "0–4 Hospital rooms hook; 4–12 Listen and draw the plan; 12–18 Check the plan with the text in pairs; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "What does each building have?",
+          "Why do we think food came from an outdoor kitchen?",
+          "What did doctors probably do in the operation rooms?"
+        ],
+        "interactiveTips": [
+          "Use the “A Long Hall” hotspot to start the floor plan.",
+          "Use the “Light from Above” hotspot for the operation rooms."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give a half-drawn plan and labels to place.",
+          "fastFinishers": "Write a five-sentence tour of the building with all, none of and no."
+        },
+        "formativeAssessment": ["Draws the main parts from the text.", "Explains the missing kitchen.", "Uses all / none of / no."],
+        "expectedResponses": [
+          "A long hall connects the two buildings. None of the rooms have fireplaces. There was no kitchen, so people brought food from outside."
+        ],
+        "transferTask": "Describe your home in three sentences.",
+        "teacherReflection": "Did the floor plan make the description easier to follow?",
+        "assessmentTools": {
+          "rubric": ["Plan from the text", "Kitchen explained", "all / none of / no", "Personal description"],
+          "exitTicket": ["Complete: “None of the rooms ____. There was no ____.”"]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
       },
       {
-       "label": "TYMM Erdem-Değer-Eylem",
-       "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
-      }
-     ]
-    }
-   },
-   {
-    "chapter": "Chapter 8 — Caring for Mind and Body",
-    "timing": "40 minutes",
-    "objectives": [
-     "Say how doctors helped patients with mental illnesses.",
-     "Describe the bathhouse.",
-     "Notice with + noun and adjective + noun.",
-     "Talk about how music helps them."
-    ],
-    "pedagogy": "A two-part chart: Mind / Body. Learners put music and the 18 rooms under Mind, and the bathhouse, round roof, windows and wastewater system under Body. Treat mental illness respectfully: It is an illness like any other.",
-    "priorKnowledge": [
-     "Adjectives: round, old, good.",
-     "Music and feelings: calm, happy, sad."
-    ],
-    "anticipatedMisconceptions": [
-     "The part for mental illnesses was a special part of the center, not a separate hospital.",
-     "The bathhouse was inside the building."
-    ],
-    "grammarFocus": "Targets: with + noun to add information · adjective + noun.\nNotice (Activity 1): “people with mental illnesses, with 18 rooms”.\nBuild (Activity 2): “a round roof”, “the old Seljuk style”, “a very good wastewater system”.\nLikely errors: *a roof round · *with 18 room.\nUse (Activity 3): music and me.",
-    "pronunciationFocus": "Word focus: MEN-tal ILL-ness-es, BATH-house, WASTE-wa-ter, ROUND /raʊnd/.",
-    "beforeReading": [
-     "Ask: “How does music make you feel?” One word each: happy, calm, sad …"
-    ],
-    "duringReading": [
-     "First listening: What did doctors use to help these patients?",
-     "Fill the Mind / Body chart.",
-     "Count the round windows.",
-     "Find the word that describes the wastewater system."
-    ],
-    "afterReading": [
-     "Complete the Quick Challenge.",
-     "Language Focus: With (Activity 1), describe the bathhouse (Activity 2), music and me (Activity 3)."
-    ],
-    "lessonPlan": "0–4 Music and feelings hook; 4–10 Listen, then read; 10–17 Mind / Body chart; 17–21 Quick Challenge; 21–29 Language Focus Activities 1–2; 29–37 Activity 3; 37–40 Exit ticket. After this chapter, the class can do the “Hospital Experts” group task.",
-    "discussionPoints": [
-     "How did doctors help patients with mental illnesses?",
-     "What did the bathhouse look like?",
-     "Why do you think doctors cared for the mind and the body?"
-    ],
-    "interactiveTips": [
-     "Use the “Music for the Mind” hotspot for the Mind column.",
-     "Use the “A Round Roof” hotspot for the Body column."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Give picture cards (music, roof, window) to sort into the chart first.",
-     "fastFinishers": "Write a short description of the bathhouse with four adjectives from the chapter."
-    },
-    "formativeAssessment": [
-     "Completes the chart.",
-     "Uses with + noun.",
-     "Puts adjectives before nouns."
-    ],
-    "expectedResponses": [
-     "Doctors used music to help patients with mental illnesses. The bathhouse had a round roof and four round windows."
-    ],
-    "transferTask": "Say three sentences about how music helps you.",
-    "teacherReflection": "Did learners talk about mental illness with respect?",
-    "assessmentTools": {
-     "rubric": [
-      "Chart from the text",
-      "with + noun",
-      "Adjective order",
-      "Personal sentences"
-     ],
-     "exitTicket": [
-      "Complete: “Doctors used ____ to help ____. The bathhouse had a ____ roof.”"
-     ]
-    },
-    "extraResources": {
-     "links": [
-      {
-       "label": "TYMM Foreign Language Skills",
-       "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+        "chapter": "Chapter 8 — Caring for Mind and Body",
+        "timing": "40 minutes",
+        "objectives": [
+          "Say how doctors helped patients with mental illnesses.",
+          "Describe the bathhouse.",
+          "Notice with + noun and adjective + noun.",
+          "Talk about how music helps them."
+        ],
+        "pedagogy": "A two-part chart: Mind / Body. Learners put music and the 18 rooms under Mind, and the bathhouse, round roof, windows and wastewater system under Body. Treat mental illness respectfully: It is an illness like any other.",
+        "priorKnowledge": ["Adjectives: round, old, good.", "Music and feelings: calm, happy, sad."],
+        "anticipatedMisconceptions": [
+          "The part for mental illnesses was a special part of the center, not a separate hospital.",
+          "The bathhouse was inside the building."
+        ],
+        "grammarFocus": "Targets: with + noun to add information · adjective + noun.\nNotice (Activity 1): “people with mental illnesses, with 18 rooms”.\nBuild (Activity 2): “a round roof”, “the old Seljuk style”, “a very good wastewater system”.\nLikely errors: *a roof round · *with 18 room.\nUse (Activity 3): music and me.",
+        "pronunciationFocus": "Word focus: MEN-tal ILL-ness-es, BATH-house, WASTE-wa-ter, ROUND /raʊnd/.",
+        "beforeReading": ["Ask: “How does music make you feel?” One word each: happy, calm, sad …"],
+        "duringReading": [
+          "First listening: What did doctors use to help these patients?",
+          "Fill the Mind / Body chart.",
+          "Count the round windows.",
+          "Find the word that describes the wastewater system."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus: With (Activity 1), describe the bathhouse (Activity 2), music and me (Activity 3)."
+        ],
+        "lessonPlan": "0–4 Music and feelings hook; 4–10 Listen, then read; 10–17 Mind / Body chart; 17–21 Quick Challenge; 21–29 Language Focus Activities 1–2; 29–37 Activity 3; 37–40 Exit ticket. After this chapter, the class can do the “Hospital Experts” group task.",
+        "discussionPoints": [
+          "How did doctors help patients with mental illnesses?",
+          "What did the bathhouse look like?",
+          "Why do you think doctors cared for the mind and the body?"
+        ],
+        "interactiveTips": [
+          "Use the “Music for the Mind” hotspot for the Mind column.",
+          "Use the “A Round Roof” hotspot for the Body column."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give picture cards (music, roof, window) to sort into the chart first.",
+          "fastFinishers": "Write a short description of the bathhouse with four adjectives from the chapter."
+        },
+        "formativeAssessment": ["Completes the chart.", "Uses with + noun.", "Puts adjectives before nouns."],
+        "expectedResponses": [
+          "Doctors used music to help patients with mental illnesses. The bathhouse had a round roof and four round windows."
+        ],
+        "transferTask": "Say three sentences about how music helps you.",
+        "teacherReflection": "Did learners talk about mental illness with respect?",
+        "assessmentTools": {
+          "rubric": ["Chart from the text", "with + noun", "Adjective order", "Personal sentences"],
+          "exitTicket": ["Complete: “Doctors used ____ to help ____. The bathhouse had a ____ roof.”"]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
       },
       {
-       "label": "TYMM Erdem-Değer-Eylem",
-       "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
-      }
-     ]
-    }
-   },
-   {
-    "chapter": "Chapter 9 — Medical Education at the Dârüşşifâ",
-    "timing": "40 minutes",
-    "objectives": [
-     "Explain how students learned and what their diploma showed.",
-     "Name the two parts of education.",
-     "Use when + past and first / second.",
-     "Talk about their school year."
-    ],
-    "pedagogy": "A step diagram: Learn with teachers → first part (subjects) → second part (Islamic sciences) → practice at the patients’ beds → diploma. Learners fill the steps from the text.",
-    "priorKnowledge": [
-     "School subjects: maths, physics.",
-     "Ordinals: first, second."
-    ],
-    "anticipatedMisconceptions": [
-     "Mathematics and physics were in the first part, not the second.",
-     "The diploma showed teachers’ names, not the student’s marks."
-    ],
-    "grammarFocus": "Targets: when + past, past (order of events) · the first / the second part.\nNotice (Activity 1): “When they finished school, they got a diploma.” Ask: “What happened first?”\nBuild (Activity 2): “Education … had two parts. In the first part … In the second part …”.\nLikely errors: *in first part · *when they finish school, they got.\nUse (Activity 3): our school year.",
-    "pronunciationFocus": "Words: dâ-niş-MEND, dâ-rü’l-i-LİM, di-PLO-ma, MED-i-cines, REC-i-pes /ˈresəpiz/.",
-    "beforeReading": [
-     "Ask: “What do you get at the end of the school year?”"
-    ],
-    "duringReading": [
-     "First listening: What did students get when they finished school?",
-     "Fill the step diagram.",
-     "Find the special name for students.",
-     "Find until when the hospital served patients."
-    ],
-    "afterReading": [
-     "Complete the Quick Challenge.",
-     "Language Focus: When (Activity 1), first / second (Activity 2), my school year (Activity 3)."
-    ],
-    "lessonPlan": "0–4 End-of-year hook; 4–10 Listen, then read; 10–18 Step diagram in pairs; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3; 38–40 Exit ticket.",
-    "discussionPoints": [
-     "What did the diploma show?",
-     "What were the two parts of education?",
-     "How did students learn about patients?"
-    ],
-    "interactiveTips": [
-     "Use the “A Special Name” hotspot for dânişmend.",
-     "Use the “A Diploma” hotspot for the last step of the diagram."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Give the step diagram with the first words of each step.",
-     "fastFinishers": "Write five sentences about a student’s life at the Dârüşşifâ, using first, second and when."
-    },
-    "formativeAssessment": [
-     "Completes the steps in order.",
-     "Names the two parts.",
-     "Uses when + past correctly."
-    ],
-    "expectedResponses": [
-     "Education had two parts. In the first part, students took classes in mathematics, physics and medicine. When they finished school, they got a diploma."
-    ],
-    "transferTask": "Say three sentences about your school year.",
-    "teacherReflection": "Did learners follow the order of steps without help?",
-    "assessmentTools": {
-     "rubric": [
-      "Steps in order",
-      "Two parts",
-      "when + past",
-      "Personal sentences"
-     ],
-     "exitTicket": [
-      "Complete: “In the second part, students learned ____. When they finished school, they ____.”"
-     ]
-    },
-    "extraResources": {
-     "links": [
-      {
-       "label": "TYMM Foreign Language Skills",
-       "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+        "chapter": "Chapter 9 — Medical Education at the Dârüşşifâ",
+        "timing": "40 minutes",
+        "objectives": [
+          "Explain how students learned and what their diploma showed.",
+          "Name the two parts of education.",
+          "Use when + past and first / second.",
+          "Talk about their school year."
+        ],
+        "pedagogy": "A step diagram: Learn with teachers → first part (subjects) → second part (Islamic sciences) → practice at the patients’ beds → diploma. Learners fill the steps from the text.",
+        "priorKnowledge": ["School subjects: maths, physics.", "Ordinals: first, second."],
+        "anticipatedMisconceptions": [
+          "Mathematics and physics were in the first part, not the second.",
+          "The diploma showed teachers’ names, not the student’s marks."
+        ],
+        "grammarFocus": "Targets: when + past, past (order of events) · the first / the second part.\nNotice (Activity 1): “When they finished school, they got a diploma.” Ask: “What happened first?”\nBuild (Activity 2): “Education … had two parts. In the first part … In the second part …”.\nLikely errors: *in first part · *when they finish school, they got.\nUse (Activity 3): our school year.",
+        "pronunciationFocus": "Words: dâ-niş-MEND, dâ-rü’l-i-LİM, di-PLO-ma, MED-i-cines, REC-i-pes /ˈresəpiz/.",
+        "beforeReading": ["Ask: “What do you get at the end of the school year?”"],
+        "duringReading": [
+          "First listening: What did students get when they finished school?",
+          "Fill the step diagram.",
+          "Find the special name for students.",
+          "Find until when the hospital served patients."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus: When (Activity 1), first / second (Activity 2), my school year (Activity 3)."
+        ],
+        "lessonPlan": "0–4 End-of-year hook; 4–10 Listen, then read; 10–18 Step diagram in pairs; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "What did the diploma show?",
+          "What were the two parts of education?",
+          "How did students learn about patients?"
+        ],
+        "interactiveTips": [
+          "Use the “A Special Name” hotspot for dânişmend.",
+          "Use the “A Diploma” hotspot for the last step of the diagram."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the step diagram with the first words of each step.",
+          "fastFinishers": "Write five sentences about a student’s life at the Dârüşşifâ, using first, second and when."
+        },
+        "formativeAssessment": ["Completes the steps in order.", "Names the two parts.", "Uses when + past correctly."],
+        "expectedResponses": [
+          "Education had two parts. In the first part, students took classes in mathematics, physics and medicine. When they finished school, they got a diploma."
+        ],
+        "transferTask": "Say three sentences about your school year.",
+        "teacherReflection": "Did learners follow the order of steps without help?",
+        "assessmentTools": {
+          "rubric": ["Steps in order", "Two parts", "when + past", "Personal sentences"],
+          "exitTicket": ["Complete: “In the second part, students learned ____. When they finished school, they ____.”"]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
       },
       {
-       "label": "TYMM Erdem-Değer-Eylem",
-       "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
-      }
-     ]
-    }
-   },
-   {
-    "chapter": "Chapter 10 — Music Therapy at the Dârüşşifâ",
-    "timing": "40 minutes",
-    "objectives": [
-     "Say what İbn Sînâ, Er-Râzî and Fârâbî believed about music and health.",
-     "Explain why doctors used music at the hospital.",
-     "Use said / believed / showed that and could / should + base verb.",
-     "Give advice to a sad friend."
-    ],
-    "pedagogy": "Three scientist cards: Learners write each scientist’s idea in their own short words, then find the last sentence (“So, doctors used music …”) that connects all three. The chapter links ideas to practice.",
-    "priorKnowledge": [
-     "Feelings: happy, sad, stressed, afraid.",
-     "Should for advice."
-    ],
-    "anticipatedMisconceptions": [
-     "Fârâbî did not say music only makes people happy; it can give joy, fear or comfort.",
-     "The three scientists did not work at the hospital; doctors used their ideas."
-    ],
-    "grammarFocus": "Targets: said / believed / showed that + sentence · could / should + base verb.\nNotice (Activity 1): match the reporting verbs with what follows.\nBuild (Activity 2): “… could help sick people”, “… should help sad and stressed patients”.\nLikely errors: *could helped · *should to help.\nUse (Activity 3): advice for a sad friend.",
-    "pronunciationFocus": "Names: ibn SÎ-nâ, er-RÂ-zî, fâ-râ-BÎ.\nWord focus: JOY, FEAR, COM-fort /ˈkʌmfət/, STRESSED /strest/, THER-a-py.",
-    "beforeReading": [
-     "Ask: “What do you do when you feel sad?” Collect short answers."
-    ],
-    "duringReading": [
-     "First listening: What helped sick people?",
-     "Complete the three scientist cards.",
-     "Find the three feelings music can give.",
-     "Underline the last sentence that starts with So."
-    ],
-    "afterReading": [
-     "Complete the Quick Challenge.",
-     "Language Focus: said / believed / showed that (Activity 1), could / should (Activity 2), advice for a sad friend (Activity 3)."
-    ],
-    "lessonPlan": "0–4 Feelings hook; 4–10 Listen, then read; 10–18 Scientist cards; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3; 38–40 Exit ticket.",
-    "discussionPoints": [
-     "What did İbn Sînâ believe could help sick people?",
-     "What did Fârâbî study?",
-     "Why did doctors use music at the Gevher Nesibe Hospital?"
-    ],
-    "interactiveTips": [
-     "Use the “Mind and Heart” hotspot for İbn Sînâ’s card.",
-     "Use the “Fârâbî and Music” hotspot for the three feelings."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Give the three scientist cards with sentence starters (“He believed that …”).",
-     "fastFinishers": "Write a short paragraph: “Why music helped patients”, with three facts from the chapter and so."
-    },
-    "formativeAssessment": [
-     "Matches each scientist with his idea.",
-     "Uses that + sentence.",
-     "Uses could / should + base verb."
-    ],
-    "expectedResponses": [
-     "İbn Sînâ believed that good words and music could help sick people. Fârâbî showed that music gave people joy, fear or comfort. So, doctors used music to help patients."
-    ],
-    "transferTask": "Write three sentences of advice for a sad friend.",
-    "teacherReflection": "Did learners see how the scientists’ ideas led to the doctors’ practice?",
-    "assessmentTools": {
-     "rubric": [
-      "Scientists’ ideas",
-      "Reporting verbs",
-      "could / should",
-      "Advice sentences"
-     ],
-     "exitTicket": [
-      "Complete: “Fârâbî showed that ____. So, doctors used ____.”"
-     ]
-    },
-    "extraResources": {
-     "links": [
-      {
-       "label": "TYMM Foreign Language Skills",
-       "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+        "chapter": "Chapter 10 — Music Therapy at the Dârüşşifâ",
+        "timing": "40 minutes",
+        "objectives": [
+          "Say what Ibn Sînâ, Al-Razi and Fârâbî believed about music and health.",
+          "Explain why doctors used music at the hospital.",
+          "Use said / believed / showed that and could / should + base verb.",
+          "Give advice to a sad friend."
+        ],
+        "pedagogy": "Three scientist cards: Learners write each scientist’s idea in their own short words, then find the last sentence (“So, doctors used music …”) that connects all three. The chapter links ideas to practice.",
+        "priorKnowledge": ["Feelings: happy, sad, stressed, afraid.", "Should for advice."],
+        "anticipatedMisconceptions": [
+          "Fârâbî did not say music only makes people happy; it can give joy, fear or comfort.",
+          "The three scientists did not work at the hospital; doctors used their ideas."
+        ],
+        "grammarFocus": "Targets: said / believed / showed that + sentence · could / should + base verb.\nNotice (Activity 1): match the reporting verbs with what follows.\nBuild (Activity 2): “… could help sick people”, “… should help sad and stressed patients”.\nLikely errors: *could helped · *should to help.\nUse (Activity 3): advice for a sad friend.",
+        "pronunciationFocus": "Names: ibn SÎ-nâ, er-RÂ-zî, fâ-râ-BÎ.\nWord focus: JOY, FEAR, COM-fort /ˈkʌmfət/, STRESSED /strest/, THER-a-py.",
+        "beforeReading": ["Ask: “What do you do when you feel sad?” Collect short answers."],
+        "duringReading": [
+          "First listening: What helped sick people?",
+          "Complete the three scientist cards.",
+          "Find the three feelings music can give.",
+          "Underline the last sentence that starts with So."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus: said / believed / showed that (Activity 1), could / should (Activity 2), advice for a sad friend (Activity 3)."
+        ],
+        "lessonPlan": "0–4 Feelings hook; 4–10 Listen, then read; 10–18 Scientist cards; 18–22 Quick Challenge; 22–30 Language Focus Activities 1–2; 30–38 Activity 3; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "What did Ibn Sînâ believe could help sick people?",
+          "What did Fârâbî study?",
+          "Why did doctors use music at the Gevher Nesibe Hospital?"
+        ],
+        "interactiveTips": [
+          "Use the “Mind and Heart” hotspot for Ibn Sînâ’s card.",
+          "Use the “Fârâbî and Music” hotspot for the three feelings."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the three scientist cards with sentence starters (“He believed that …”).",
+          "fastFinishers": "Write a short paragraph: “Why music helped patients”, with three facts from the chapter and so."
+        },
+        "formativeAssessment": ["Matches each scientist with his idea.", "Uses that + sentence.", "Uses could / should + base verb."],
+        "expectedResponses": [
+          "Ibn Sînâ believed that good words and music could help sick people. Fârâbî showed that music gave people joy, fear or comfort. So, doctors used music to help patients."
+        ],
+        "transferTask": "Write three sentences of advice for a sad friend.",
+        "teacherReflection": "Did learners see how the scientists’ ideas led to the doctors’ practice?",
+        "assessmentTools": {
+          "rubric": ["Scientists’ ideas", "Reporting verbs", "could / should", "Advice sentences"],
+          "exitTicket": ["Complete: “Fârâbî showed that ____. So, doctors used ____.”"]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
       },
       {
-       "label": "TYMM Erdem-Değer-Eylem",
-       "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+        "chapter": "Chapter 11 — A Legacy That Lives On",
+        "timing": "40 minutes",
+        "objectives": [
+          "Explain why the Gevher Nesibe Hospital was important in history.",
+          "Say how people remember Gevher Nesibe today.",
+          "Use never and more … than.",
+          "Talk about a person people remember."
+        ],
+        "pedagogy": "A “Then and today” board: Then (first school and hospital together, more advanced than Europe, knowledge of centuries) / Today (people remember her). Learners finish the book with a short summary of the whole story.",
+        "priorKnowledge": ["Comparatives with more … than.", "The whole story of Chapters 1–10."],
+        "anticipatedMisconceptions": [
+          "Other places had hospitals and schools, but not in the same building.",
+          "Gevher Nesibe never married the commander."
+        ],
+        "grammarFocus": "Targets: never + past verb · were not · more … than.\nNotice (Activity 1): “Gevher Nesibe Sultan never married the love of her life.”\nBuild (Activity 2): “But they were not in the same building.” / “It was more advanced than …”.\nLikely errors: *never not married · *more advanced then.\nUse (Activity 3): a person people remember.",
+        "pronunciationFocus": "Word focus: ad-VANCED /ədˈvɑːnst/, CEN-tu-ries, suc-CESS /səkˈses/.\nThan /ðən/ (weak) vs then /ðen/.",
+        "beforeReading": ["Ask: “Who is a person everyone in your town remembers? Why?”"],
+        "duringReading": [
+          "First listening: What was the hospital the first of?",
+          "Complete the “Then and today” board.",
+          "Find the comparison with Europe.",
+          "Find what people do today."
+        ],
+        "afterReading": [
+          "Complete the Quick Challenge.",
+          "Language Focus: Never (Activity 1), not / more … than (Activity 2), a person everyone remembers (Activity 3).",
+          "Group task: “Our Museum Guide”."
+        ],
+        "lessonPlan": "0–4 Remembered person hook; 4–10 Listen, then read; 10–16 “Then and today” board; 16–20 Quick Challenge; 20–27 Language Focus Activities 1–2; 27–38 Group task “Our Museum Guide” or Activity 3; 38–40 Exit ticket.",
+        "discussionPoints": [
+          "Why was the Gevher Nesibe Hospital special in history?",
+          "What did the school and hospital use?",
+          "How do people remember Gevher Nesibe today?"
+        ],
+        "interactiveTips": [
+          "Use the “School and Hospital Together” hotspot for the Then column.",
+          "Use the “Remembered Today” hotspot for the Today column."
+        ],
+        "differentiation": {
+          "strugglingLearners": "Give the board with half-sentences to complete from the text.",
+          "fastFinishers": "Write a six-sentence summary of the whole book, one sentence for every two chapters."
+        },
+        "formativeAssessment": ["Explains why the hospital was important.", "Uses never correctly.", "Uses than (not then)."],
+        "expectedResponses": [
+          "The Gevher Nesibe Hospital was the first school and hospital together. It was more advanced than the first famous medical universities in Europe. People still remember Gevher Nesibe today."
+        ],
+        "transferTask": "Say three sentences about a person people remember.",
+        "teacherReflection": "Could learners connect the last chapter to the wish in Chapter 3?",
+        "assessmentTools": {
+          "rubric": ["Importance explained", "never", "more … than", "Summary or personal sentences"],
+          "exitTicket": ["Complete: “The hospital was important because ____. Today, everyone ____.”"]
+        },
+        "extraResources": {
+          "links": [
+            {
+              "label": "TYMM Foreign Language Skills",
+              "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+            },
+            {
+              "label": "TYMM Erdem-Değer-Eylem",
+              "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+            }
+          ]
+        }
       }
-     ]
-    }
-   },
-   {
-    "chapter": "Chapter 11 — A Legacy That Lives On",
-    "timing": "40 minutes",
-    "objectives": [
-     "Explain why the Gevher Nesibe Hospital was important in history.",
-     "Say how people remember Gevher Nesibe today.",
-     "Use never and more … than.",
-     "Talk about a person people remember."
     ],
-    "pedagogy": "A “Then and today” board: Then (first school and hospital together, more advanced than Europe, knowledge of centuries) / Today (people remember her). Learners finish the book with a short summary of the whole story.",
-    "priorKnowledge": [
-     "Comparatives with more … than.",
-     "The whole story of Chapters 1–10."
-    ],
-    "anticipatedMisconceptions": [
-     "Other places had hospitals and schools, but not in the same building.",
-     "Gevher Nesibe never married the commander."
-    ],
-    "grammarFocus": "Targets: never + past verb · were not · more … than.\nNotice (Activity 1): “Gevher Nesibe Sultan never married the love of her life.”\nBuild (Activity 2): “But they were not in the same building.” / “It was more advanced than …”.\nLikely errors: *never not married · *more advanced then.\nUse (Activity 3): a person people remember.",
-    "pronunciationFocus": "Word focus: ad-VANCED /ədˈvɑːnst/, CEN-tu-ries, suc-CESS /səkˈses/.\nThan /ðən/ (weak) vs then /ðen/.",
-    "beforeReading": [
-     "Ask: “Who is a person everyone in your town remembers? Why?”"
-    ],
-    "duringReading": [
-     "First listening: What was the hospital the first of?",
-     "Complete the “Then and today” board.",
-     "Find the comparison with Europe.",
-     "Find what people do today."
-    ],
-    "afterReading": [
-     "Complete the Quick Challenge.",
-     "Language Focus: Never (Activity 1), not / more … than (Activity 2), a person everyone remembers (Activity 3).",
-     "Group task: “Our Museum Guide”."
-    ],
-    "lessonPlan": "0–4 Remembered person hook; 4–10 Listen, then read; 10–16 “Then and today” board; 16–20 Quick Challenge; 20–27 Language Focus Activities 1–2; 27–38 Group task “Our Museum Guide” or Activity 3; 38–40 Exit ticket.",
-    "discussionPoints": [
-     "Why was the Gevher Nesibe Hospital special in history?",
-     "What did the school and hospital use?",
-     "How do people remember Gevher Nesibe today?"
-    ],
-    "interactiveTips": [
-     "Use the “School and Hospital Together” hotspot for the Then column.",
-     "Use the “Remembered Today” hotspot for the Today column."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Give the board with half-sentences to complete from the text.",
-     "fastFinishers": "Write a six-sentence summary of the whole book, one sentence for every two chapters."
-    },
-    "formativeAssessment": [
-     "Explains why the hospital was important.",
-     "Uses never correctly.",
-     "Uses than (not then)."
-    ],
-    "expectedResponses": [
-     "The Gevher Nesibe Hospital was the first school and hospital together. It was more advanced than the first famous medical universities in Europe. People still remember Gevher Nesibe today."
-    ],
-    "transferTask": "Say three sentences about a person people remember.",
-    "teacherReflection": "Could learners connect the last chapter to the wish in Chapter 3?",
-    "assessmentTools": {
-     "rubric": [
-      "Importance explained",
-      "never",
-      "more … than",
-      "Summary or personal sentences"
-     ],
-     "exitTicket": [
-      "Complete: “The hospital was important because ____. Today, everyone ____.”"
-     ]
-    },
-    "extraResources": {
-     "links": [
-      {
-       "label": "TYMM Foreign Language Skills",
-       "url": "https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri"
+    "metadata": {
+      "title": "The Gevher Nesibe Hospital A2 — Teacher’s Book",
+      "subtitle": "TYMM-aligned guide with chapter-specific support, grammar learners discover from the story, and 40-minute lesson plans",
+      "level": "A2",
+      "estimatedDuration": "11 chapter units of 40 minutes each. Whole-book review pages follow separately.",
+      "targetAudience": "A2 English learners.",
+      "targetLearners": "Learners who can follow short supported narrative and historical texts and give short spoken or written answers with frames and oral rehearsal.",
+      "purpose": "Develop A2 listening, reading, speaking and writing through the story of the Gevher Nesibe Hospital and Medical School in Kayseri, the first hospital and medical school together in the world, using the Language Focus attached to every chapter.",
+      "approachDesc": "Every chapter follows the TYMM route. YDAB1 listening and YDAB2 reading come first: learners find the meaning and the evidence in the text, and the Quick Challenge checks understanding. Grammar is then learned inductively, as the Maarif Model expects for English: in the Language Focus, learners LOOK at a form in a real chapter sentence and answer a simple meaning question, so they find the rule themselves before it is confirmed; then they PRACTISE it in short, controlled tasks; finally they USE it in short YDAB3 speaking and YDAB4 writing about their own life. Simple boards and drawings (time line, story strip, floor plan, charts) keep each chapter concrete. See https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri.",
+      "assessmentEvidence": "Eleven Quick Challenges, text-evidence checks, chapter Language Focus tasks (Look → Practise → Use), exit tickets, Knowledge Check, Vocabulary Challenge, Language Review and Final Challenge.",
+      "assessmentOverview": {
+        "formative": [
+          "Quick Challenge after each chapter",
+          "Evidence checks (time line, story strip, floor plan, charts)",
+          "Language Focus: Look and Practise",
+          "Short spoken and written Use tasks",
+          "Exit tickets",
+          "Knowledge Check",
+          "Vocabulary Challenge",
+          "Language Review"
+        ],
+        "summative": ["Final Challenge"]
       },
-      {
-       "label": "TYMM Erdem-Değer-Eylem",
-       "url": "https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi"
+      "readingFramework": {
+        "before": "A short, chapter-specific start: a map, a question or one question about the learners’ own life.",
+        "during": "Listen first with one simple question, then read and do one concrete evidence task (card, chart, drawing).",
+        "after": "Quick Challenge, then the chapter’s Language Focus (Look → Practise → Use), then short production about the learners’ own world and an exit ticket."
+      },
+      "vocabularyApproach": {
+        "selection": "Prioritise the chapter Word Notes (the teacher’s bold words) and the words needed for the chapter task.",
+        "method": "Guess the meaning from the sentence or the audio before any explanation; check stress aloud.",
+        "recycling": "Reuse the words in the Use task, the exit ticket and the whole-book review."
+      },
+      "grammarApproach": "Inductive and text-based. Start from the story sentence, ask one simple meaning question, let learners say the rule in their own words, then confirm it and practise it in context. At A2, keep metalanguage to a minimum and use examples instead of terms. The explanation in the app appears only after learners answer.",
+      "grammarSequence": [
+        "Ch1: was built; the oldest / the first / much later",
+        "Ch2: want + person + to; did not + base verb; but / however / so",
+        "Ch3: let + base verb; must / should / cannot",
+        "Ch4: it took + time + to; inside / next to / on",
+        "Ch5: probably; had / used / saw",
+        "Ch6: one of them / another / also; especially / like",
+        "Ch7: present for a building today; all / none of / no",
+        "Ch8: with + noun; adjective + noun",
+        "Ch9: when + past; the first / the second",
+        "Ch10: said / believed / showed that; could / should + base verb",
+        "Ch11: never; were not; more … than"
+      ],
+      "skillsFocus": {
+        "reading": "TYMM YDAB2: find explicit evidence, order events, label a plan and compare facts.",
+        "listening": "TYMM YDAB1: listen for one simple question first, then replay short parts for detail.",
+        "speaking": "TYMM YDAB3: give short supported retells, descriptions and advice after pair rehearsal.",
+        "writing": "TYMM YDAB4: write three to five short connected sentences with the chapter’s language about the learners’ own life."
+      },
+      "valuesFocus": [
+        "D9 Compassion — a hospital that helps sick people and is free for everyone",
+        "D16 Responsibility — a brother who makes his sister’s last wish come true",
+        "D3 Diligence — students who learn from great teachers and books",
+        "D14 Respect — caring for patients’ minds as well as their bodies"
+      ],
+      "languageFocus": [
+        "Every one of the 11 chapters has a Language Focus set built as Look → Practise → Use (three activities).",
+        "Use the Language Focus after basic comprehension and the Quick Challenge.",
+        "Always start from the story sentence and ask one simple meaning question before naming the form.",
+        "At A2 the Use step is short spoken or written production about the learners’ own world, rehearsed in pairs first."
+      ],
+      "differentiationNotes": "Support with picture cards, sentence strips, word banks, strong frames, drawings and audio replay; let learners copy forms from the text before writing their own. Extend with one or two more sentences or a clearly labelled personal example, never with facts from outside the book.",
+      "sensitiveNotes": {
+        "title": "Source fidelity and respectful teaching",
+        "notes": [
+          "Chapter 2 tells of a death and an illness. Read it calmly and keep the focus on the hospital that came from her wish.",
+          "Talk about mental illness (Chapter 8) with respect: It is an illness like any other.",
+          "Keep personal application separate from facts about Gevher Nesibe and the hospital.",
+          "Do not add dates, places or events that are not in this A2 book."
+        ]
+      },
+      "globalCitizenship": {
+        "title": "Global Citizenship and Shared Knowledge",
+        "description": "The Gevher Nesibe Hospital used the knowledge of many centuries: Greek doctors, Ibn Sînâ, Fârâbî and Al-Razi. It shows how knowledge travels between cultures and helps people everywhere.",
+        "themes": [
+          {
+            "title": "Free help for everyone:",
+            "description": "Gevher Nesibe wanted a hospital that was free for everyone (Chapter 3)."
+          },
+          {
+            "title": "Knowledge from many places:",
+            "description": "Students read Ibn Sînâ and ancient Greek doctors like Hippocrates (Chapter 6)."
+          },
+          {
+            "title": "Caring for mind and body:",
+            "description": "Doctors used music to help patients with mental illnesses (Chapters 8 and 10)."
+          },
+          {
+            "title": "Ahead of its time:",
+            "description": "It was the first school and hospital together (Chapters 1 and 11)."
+          }
+        ],
+        "actions": [
+          "Make a class poster in English: “How can we help sick people in our town?”",
+          "Write a thank-you card in English to a doctor or a nurse.",
+          "Make a short museum guide for the building with facts from the book."
+        ]
+      },
+      "appendices": {
+        "exitTicket": [
+          "One fact from today’s chapter, and the sentence that shows it, is …",
+          "One word or form I looked at today, and what it does in the sentence, is …",
+          "One thing about the hospital that surprised me is … because …"
+        ],
+        "miniProject": {
+          "title": "Our Museum Guide",
+          "desc": "The building is the Museum of the Seljuk Civilization today. In groups, make a small museum guide in English for visitors. Each page has one part of the story: Gevher Nesibe’s wish, the Twin Madrasas, the students, the rooms, music and the hospital’s importance. Use the book’s language: “It was built in …”, “There was / There were …”, “It was the first …”, “It was more advanced than …”. Add one sentence from the book exactly as it is."
+        },
+        "reflectivePrompt": {
+          "title": "A Wish That Helped Many People",
+          "desc": "Gevher Nesibe’s last wish helped people for centuries. Write four to six sentences: What place would you like to build for your town? Who would it help? Why?"
+        }
+      },
+      "valuesEducation": {
+        "title": "TYMM Values in Action",
+        "description": "Use only values the chapter really shows. Ask for the sentence first, then connect the value to a small action learners can do and see. See https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi.",
+        "items": [
+          {
+            "label": "D9 Compassion",
+            "value": "Gevher Nesibe wanted a hospital that would help sick people and be free for everyone (Chapter 3)."
+          },
+          {
+            "label": "D16 Responsibility",
+            "value": "Her brother made her wish come true (Chapter 4)."
+          },
+          {
+            "label": "D3 Diligence",
+            "value": "Students learned from great teachers and books and at the patients’ bedside (Chapters 5, 6 and 9)."
+          },
+          {
+            "label": "D14 Respect",
+            "value": "Doctors cared for patients’ minds and hearts as well as their bodies (Chapters 8 and 10)."
+          }
+        ],
+        "questions": [
+          "Which sentence shows the value?",
+          "What small action can show it this week?",
+          "Which part is from the story and which part is your own idea?"
+        ]
       }
-     ]
     }
-   }
-  ],
-  "metadata": {
-   "title": "The Gevher Nesibe Hospital A2 — Teacher’s Book",
-   "subtitle": "TYMM-aligned guide with chapter-specific support, grammar learners discover from the story, and 40-minute lesson plans",
-   "level": "A2",
-   "estimatedDuration": "11 chapter units of 40 minutes each. Whole-book review pages follow separately.",
-   "targetAudience": "A2 English learners.",
-   "targetLearners": "Learners who can follow short supported narrative and historical texts and give short spoken or written answers with frames and oral rehearsal.",
-   "purpose": "Develop A2 listening, reading, speaking and writing through the story of the Gevher Nesibe Hospital and Medical School in Kayseri, the first hospital and medical school together in the world, using the Language Focus attached to every chapter.",
-   "approachDesc": "Every chapter follows the TYMM route. YDAB1 listening and YDAB2 reading come first: learners find the meaning and the evidence in the text, and the Quick Challenge checks understanding. Grammar is then learned inductively, as the Maarif Model expects for English: in the Language Focus, learners LOOK at a form in a real chapter sentence and answer a simple meaning question, so they find the rule themselves before it is confirmed; then they PRACTISE it in short, controlled tasks; finally they USE it in short YDAB3 speaking and YDAB4 writing about their own life. Simple boards and drawings (time line, story strip, floor plan, charts) keep each chapter concrete. See https://tymm.meb.gov.tr/beceriler/yabanci-dil-alan-becerileri.",
-   "assessmentEvidence": "Eleven Quick Challenges, text-evidence checks, chapter Language Focus tasks (Look → Practise → Use), exit tickets, Knowledge Check, Vocabulary Challenge, Language Review and Final Challenge.",
-   "assessmentOverview": {
-    "formative": [
-     "Quick Challenge after each chapter",
-     "Evidence checks (time line, story strip, floor plan, charts)",
-     "Language Focus: Look and Practise",
-     "Short spoken and written Use tasks",
-     "Exit tickets",
-     "Knowledge Check",
-     "Vocabulary Challenge",
-     "Language Review"
-    ],
-    "summative": [
-     "Final Challenge"
-    ]
-   },
-   "readingFramework": {
-    "before": "A short, chapter-specific start: a map, a question or one question about the learners’ own life.",
-    "during": "Listen first with one simple question, then read and do one concrete evidence task (card, chart, drawing).",
-    "after": "Quick Challenge, then the chapter’s Language Focus (Look → Practise → Use), then short production about the learners’ own world and an exit ticket."
-   },
-   "vocabularyApproach": {
-    "selection": "Prioritise the chapter Word Notes (the teacher’s bold words) and the words needed for the chapter task.",
-    "method": "Guess the meaning from the sentence or the audio before any explanation; check stress aloud.",
-    "recycling": "Reuse the words in the Use task, the exit ticket and the whole-book review."
-   },
-   "grammarApproach": "Inductive and text-based. Start from the story sentence, ask one simple meaning question, let learners say the rule in their own words, then confirm it and practise it in context. At A2, keep metalanguage to a minimum and use examples instead of terms. The explanation in the app appears only after learners answer.",
-   "grammarSequence": [
-    "Ch1: was built; the oldest / the first / much later",
-    "Ch2: want + person + to; did not + base verb; but / however / so",
-    "Ch3: let + base verb; must / should / cannot",
-    "Ch4: it took + time + to; inside / next to / on",
-    "Ch5: probably; had / used / saw",
-    "Ch6: one of them / another / also; especially / like",
-    "Ch7: present for a building today; all / none of / no",
-    "Ch8: with + noun; adjective + noun",
-    "Ch9: when + past; the first / the second",
-    "Ch10: said / believed / showed that; could / should + base verb",
-    "Ch11: never; were not; more … than"
-   ],
-   "skillsFocus": {
-    "reading": "TYMM YDAB2: find explicit evidence, order events, label a plan and compare facts.",
-    "listening": "TYMM YDAB1: listen for one simple question first, then replay short parts for detail.",
-    "speaking": "TYMM YDAB3: give short supported retells, descriptions and advice after pair rehearsal.",
-    "writing": "TYMM YDAB4: write three to five short connected sentences with the chapter’s language about the learners’ own life."
-   },
-   "valuesFocus": [
-    "D9 Compassion — a hospital that helps sick people and is free for everyone",
-    "D16 Responsibility — a brother who makes his sister’s last wish come true",
-    "D3 Diligence — students who learn from great teachers and books",
-    "D14 Respect — caring for patients’ minds as well as their bodies"
-   ],
-   "languageFocus": [
-    "Every one of the 11 chapters has a Language Focus set built as Look → Practise → Use (three activities).",
-    "Use the Language Focus after basic comprehension and the Quick Challenge.",
-    "Always start from the story sentence and ask one simple meaning question before naming the form.",
-    "At A2 the Use step is short spoken or written production about the learners’ own world, rehearsed in pairs first."
-   ],
-   "differentiationNotes": "Support with picture cards, sentence strips, word banks, strong frames, drawings and audio replay; let learners copy forms from the text before writing their own. Extend with one or two more sentences or a clearly labelled personal example, never with facts from outside the book.",
-   "sensitiveNotes": {
-    "title": "Source fidelity and respectful teaching",
-    "notes": [
-     "Chapter 2 tells of a death and an illness. Read it calmly and keep the focus on the hospital that came from her wish.",
-     "Talk about mental illness (Chapter 8) with respect: It is an illness like any other.",
-     "Keep personal application separate from facts about Gevher Nesibe and the hospital.",
-     "Do not add dates, places or events that are not in this A2 book."
-    ]
-   },
-   "globalCitizenship": {
-    "title": "Global Citizenship and Shared Knowledge",
-    "description": "The Gevher Nesibe Hospital used the knowledge of many centuries: Greek doctors, İbn Sînâ, Fârâbî and Er-Râzî. It shows how knowledge travels between cultures and helps people everywhere.",
-    "themes": [
-     {
-      "title": "Free help for everyone:",
-      "description": "Gevher Nesibe wanted a hospital that was free for everyone (Chapter 3)."
-     },
-     {
-      "title": "Knowledge from many places:",
-      "description": "Students read İbn Sînâ and ancient Greek doctors like Hippocrates (Chapter 6)."
-     },
-     {
-      "title": "Caring for mind and body:",
-      "description": "Doctors used music to help patients with mental illnesses (Chapters 8 and 10)."
-     },
-     {
-      "title": "Ahead of its time:",
-      "description": "It was the first school and hospital together (Chapters 1 and 11)."
-     }
-    ],
-    "actions": [
-     "Make a class poster in English: “How can we help sick people in our town?”",
-     "Write a thank-you card in English to a doctor or a nurse.",
-     "Make a short museum guide for the building with facts from the book."
-    ]
-   },
-   "appendices": {
-    "exitTicket": [
-     "One fact from today’s chapter, and the sentence that shows it, is …",
-     "One word or form I looked at today, and what it does in the sentence, is …",
-     "One thing about the hospital that surprised me is … because …"
-    ],
-    "miniProject": {
-     "title": "Our Museum Guide",
-     "desc": "The building is the Museum of the Seljuk Civilization today. In groups, make a small museum guide in English for visitors. Each page has one part of the story: Gevher Nesibe’s wish, the Twin Madrasas, the students, the rooms, music and the hospital’s importance. Use the book’s language: “It was built in …”, “There was / There were …”, “It was the first …”, “It was more advanced than …”. Add one sentence from the book exactly as it is."
-    },
-    "reflectivePrompt": {
-     "title": "A Wish That Helped Many People",
-     "desc": "Gevher Nesibe’s last wish helped people for centuries. Write four to six sentences: What place would you like to build for your town? Who would it help? Why?"
-    }
-   },
-   "valuesEducation": {
-    "title": "TYMM Values in Action",
-    "description": "Use only values the chapter really shows. Ask for the sentence first, then connect the value to a small action learners can do and see. See https://tymm.meb.gov.tr/beceriler/erdem-deger-eylem-cercevesi.",
-    "items": [
-     {
-      "label": "D9 Compassion",
-      "value": "Gevher Nesibe wanted a hospital that would help sick people and be free for everyone (Chapter 3)."
-     },
-     {
-      "label": "D16 Responsibility",
-      "value": "Her brother made her wish come true (Chapter 4)."
-     },
-     {
-      "label": "D3 Diligence",
-      "value": "Students learned from great teachers and books and at the patients’ bedside (Chapters 5, 6 and 9)."
-     },
-     {
-      "label": "D14 Respect",
-      "value": "Doctors cared for patients’ minds and hearts as well as their bodies (Chapters 8 and 10)."
-     }
-    ],
-    "questions": [
-     "Which sentence shows the value?",
-     "What small action can show it this week?",
-     "Which part is from the story and which part is your own idea?"
-    ]
-   }
-  }
- },
- "selfStudyGuide": {
-  "content": [
-   {
-    "chapter": "Chapter 1: A Hospital Ahead of Its Time",
-    "timing": "About 20 minutes",
-    "objectives": [
-     "I can say why the Gevher Nesibe Hospital is special.",
-     "I can say who built it and for whom.",
-     "I can use “was built” and “the oldest”."
-    ],
-    "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
-    "grammarFocus": "Read “It was built in 1205–1206.” and say what is important: The building. Then complete three sentences with the oldest, the first and later.",
-    "pronunciationFocus": "Say the names: GEV-her ne-SI-be, KAY-se-ri, KON-ya. Say the year: Twelve oh five.",
-    "lessonPlan": "Look at the title. What does “ahead of its time” mean? Guess. Listen to the chapter once. Follow the text with your eyes. Read paragraph 2 again. Find two times: Kayseri and Europe.",
-    "discussionPoints": [
-     "Kayseri was a city of scientists. What is your town famous for?"
-    ],
-    "interactiveTips": [
-     "Tap the picture hotspots “Two Parts of Education” and “A Museum Today”."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Go back to paragraph 1. Find the words “the first place in the world”. Try again.",
-     "fastFinishers": "Language Focus, last activity: Describe an old building in your town in three sentences."
-    },
-    "whatToNotice": [
-     "The hospital and the medical school were together in one place. This was the first time in the world.",
-     "Look at “It was built in 1205–1206.” The building is important here, not the builder."
-    ],
-    "readListen": [
-     "Look at the title. What does “ahead of its time” mean? Guess.",
-     "Listen to the chapter once. Follow the text with your eyes.",
-     "Read paragraph 2 again. Find two times: Kayseri and Europe.",
-     "Tap the picture hotspots “Two Parts of Education” and “A Museum Today”."
-    ],
-    "findAnswerInStory": [
-     "Paragraph 1: find two reasons why the hospital is special.",
-     "Paragraph 3: find the capital city and the second capital.",
-     "Paragraph 3: find who built the medical center."
-    ],
-    "vocabularyInContext": [
-     "Word Notes: still standing, medical, practical training, scientists.",
-     "“Medical education in Anatolia had two parts: classroom education and practical training.” What is the second part?",
-     "Write one sentence: My town is the center of …."
-    ],
-    "quickChallengeGuide": "You will choose why the hospital is the first in the world. The answer is in paragraph 1.",
-    "wrongAnswerSupport": [
-     "Go back to paragraph 1.",
-     "Find the words “the first place in the world”.",
-     "Try again."
-    ],
-    "selfCheck": [
-     "Can I say where the hospital is?",
-     "Can I say who built it?",
-     "Can I say one sentence with “was built”?"
-    ],
-    "useWhatYouLearned": "Language Focus, last activity: Describe an old building in your town in three sentences.",
-    "reflectionPrompt": "Kayseri was a city of scientists. What is your town famous for?"
-   },
-   {
-    "chapter": "Chapter 2: A Princess and a Commander",
-    "timing": "About 20 minutes",
-    "objectives": [
-     "I can tell the story of Gevher Nesibe and the commander.",
-     "I can say why she died young.",
-     "I can use “wanted … to …”."
-    ],
-    "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
-    "grammarFocus": "Match the halves of three sentences: did not want this marriage, wanted his sister to marry, did not accept. Then choose But or so for two gaps.",
-    "pronunciationFocus": "Say the stress: com-MAN-der, MAR-riage, of-FI-cial.",
-    "lessonPlan": "Look at the title. Who are the two people? Listen to the chapter once. Read again and make four small pictures: love, war, death, illness.",
-    "discussionPoints": [
-     "Her brother said sorry to her. Why is it important to say sorry?"
-    ],
-    "interactiveTips": [
-     "Tap the picture hotspots “A Brother’s Plan” and “No Good Hospital”."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Go back to the start of Chapter 2. Look for “To separate them” and “Some time later”. Try again.",
-     "fastFinishers": "Language Focus, last activity: Say three sentences about wishes in your family."
-    },
-    "whatToNotice": [
-     "This is a sad story, but it explains why the hospital was built.",
-     "Look at “He wanted his sister to marry a palace official.” Want + person + to + verb."
-    ],
-    "readListen": [
-     "Look at the title. Who are the two people?",
-     "Listen to the chapter once.",
-     "Read again and make four small pictures: love, war, death, illness.",
-     "Tap the picture hotspots “A Brother’s Plan” and “No Good Hospital”."
-    ],
-    "findAnswerInStory": [
-     "Paragraph 1: find who Gevher Nesibe loved.",
-     "Paragraph 1: find who her brother wanted her to marry.",
-     "Paragraph 2: find why she died at a young age."
-    ],
-    "vocabularyInContext": [
-     "Word Notes: commander, sent the young commander away, last wish.",
-     "“Before her death, her brother said sorry to her and asked for her last wish.” What did he ask for?",
-     "Write one sentence: My last wish for this year is …."
-    ],
-    "quickChallengeGuide": "You will put four events in order. Read the whole chapter first.",
-    "wrongAnswerSupport": [
-     "Go back to the start of Chapter 2.",
-     "Look for “To separate them” and “Some time later”.",
-     "Try again."
-    ],
-    "selfCheck": [
-     "Can I tell the story in four sentences?",
-     "Can I say why she died young?",
-     "Can I use “wanted … to …”?"
-    ],
-    "useWhatYouLearned": "Language Focus, last activity: Say three sentences about wishes in your family.",
-    "reflectionPrompt": "Her brother said sorry to her. Why is it important to say sorry?"
-   },
-   {
-    "chapter": "Chapter 3: The Last Wish",
-    "timing": "About 20 minutes",
-    "objectives": [
-     "I can say what Gevher Nesibe wanted in her last wish.",
-     "I can say why the hospital must be free.",
-     "I can use let, must and should."
-    ],
-    "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
-    "grammarFocus": "Read the “Let …” sentences and say what they show (her wish). Then choose cannot, should and must be for three sentences.",
-    "pronunciationFocus": "Say: DEATH-bed, SUR-geons, dis-EAS-es. Say the last line strongly: “This place MUST be FREE for EVERYONE.”",
-    "lessonPlan": "Look at the title. What is a last wish? Listen to the chapter once. Read her words again. Count the things she wants.",
-    "discussionPoints": [
-     "She wanted to help people after her death. How can one person help many people?"
-    ],
-    "interactiveTips": [
-     "Tap the picture hotspots “Help for Sick People” and “Free for Everyone”."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Go back to the end of her speech. Find the word “everyone”. Try again.",
-     "fastFinishers": "Language Focus, last activity: Write a wish for a new place in your town."
-    },
-    "whatToNotice": [
-     "The whole chapter is her speech. Read it like a person speaking.",
-     "Look at “This place must be free for everyone.” Must + be."
-    ],
-    "readListen": [
-     "Look at the title. What is a last wish?",
-     "Listen to the chapter once.",
-     "Read her words again. Count the things she wants.",
-     "Tap the picture hotspots “Help for Sick People” and “Free for Everyone”."
-    ],
-    "findAnswerInStory": [
-     "Find what she wanted to do with all her money.",
-     "Find who should teach at the hospital.",
-     "Find who should pay."
-    ],
-    "vocabularyInContext": [
-     "Word Notes: deathbed, sick people, cures, diseases, surgeons, free.",
-     "“Let this hospital help sick people and find cures for bad diseases.” What should the hospital find?",
-     "Write one sentence: My school library is free for …."
-    ],
-    "quickChallengeGuide": "You will decide if a sentence is true or false. Read her last two sentences.",
-    "wrongAnswerSupport": [
-     "Go back to the end of her speech.",
-     "Find the word “everyone”.",
-     "Try again."
-    ],
-    "selfCheck": [
-     "Can I name three things in her wish?",
-     "Can I say who should pay?",
-     "Can I write one sentence with “let”?"
-    ],
-    "useWhatYouLearned": "Language Focus, last activity: Write a wish for a new place in your town.",
-    "reflectionPrompt": "She wanted to help people after her death. How can one person help many people?"
-   },
-   {
-    "chapter": "Chapter 4: The Twin Madrasas",
-    "timing": "About 20 minutes",
-    "objectives": [
-     "I can name the two buildings.",
-     "I can say why people call them the Twin Madrasas.",
-     "I can use inside, next to and on."
-    ],
-    "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
-    "grammarFocus": "Read “It took two years to build the hospital.” and say what it tells us (how long). Then complete three sentences with inside, to and on.",
-    "pronunciationFocus": "Say: gı-ya-SI-ye, şi-FA-i-ye, dâ-rüş-şi-FÂ. Say HEAL-ing.",
-    "lessonPlan": "Look at the title. What are twins? Listen to the chapter once. Draw two boxes side by side. Write the names of the buildings in them.",
-    "discussionPoints": [
-     "Her brother made her wish come true. Did someone ever help you with a wish?"
-    ],
-    "interactiveTips": [
-     "Tap the picture hotspots “The House of Healing” and “Two Buildings Side by Side”."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Go back to paragraph 2. Read the sentence that starts with “Because”. Try again.",
-     "fastFinishers": "Language Focus, last activity: Say three sentences about your school building."
-    },
-    "whatToNotice": [
-     "There are two names for the hospital: Şifâiye and Dârüşşifâ.",
-     "Look at “It took two years to build the hospital.” It took + time + to."
-    ],
-    "readListen": [
-     "Look at the title. What are twins?",
-     "Listen to the chapter once.",
-     "Draw two boxes side by side. Write the names of the buildings in them.",
-     "Tap the picture hotspots “The House of Healing” and “Two Buildings Side by Side”."
-    ],
-    "findAnswerInStory": [
-     "Paragraph 1: find what Dârüşşifâ means.",
-     "Paragraph 1: find where the grave is.",
-     "Paragraph 2: find the words on the front gate."
-    ],
-    "vocabularyInContext": [
-     "Word Notes: come true, healing, grave, inside, Twin, front gate.",
-     "“To make his sister’s wish come true, Gıyâseddin Keyhusrev built a medical school …” What did her brother do?",
-     "Write one sentence: There is a … next to my house."
-    ],
-    "quickChallengeGuide": "You will choose why people say “Twin Madrasas”. Find the word “Because” in paragraph 2.",
-    "wrongAnswerSupport": [
-     "Go back to paragraph 2.",
-     "Read the sentence that starts with “Because”.",
-     "Try again."
-    ],
-    "selfCheck": [
-     "Can I name the medical school and the hospital?",
-     "Can I say how long it took?",
-     "Can I use “next to”?"
-    ],
-    "useWhatYouLearned": "Language Focus, last activity: Say three sentences about your school building.",
-    "reflectionPrompt": "Her brother made her wish come true. Did someone ever help you with a wish?"
-   },
-   {
-    "chapter": "Chapter 5: Learning Beside the Patients",
-    "timing": "About 20 minutes",
-    "objectives": [
-     "I can say where students learned and worked.",
-     "I can describe the heating system.",
-     "I can use “probably”."
-    ],
-    "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
-    "grammarFocus": "Read the “probably” sentence and decide: Sure or not sure? Then choose had, used and saw for three sentences.",
-    "pronunciationFocus": "Say: HEAT-ing SYS-tem, STEAM, PHAR-ma-cist.",
-    "lessonPlan": "Look at the title. Where do students learn? Listen to the chapter once. Make three columns: Lessons / Patients / Summer. Fill them.",
-    "discussionPoints": [
-     "Students learned with real patients. Is it better to learn from books or by doing? Why?"
-    ],
-    "interactiveTips": [
-     "Tap the picture hotspots “Warm Floors” and “Lessons in the Garden”."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Go back to Chapter 5. Find Gıyâsiye, Şifâiye and summer. Try again.",
-     "fastFinishers": "Language Focus, last activity: Say three sentences about lessons at your school."
-    },
-    "whatToNotice": [
-     "Students learned in two buildings: Lessons in one, patients in the other.",
-     "Look at “Students probably lived in small rooms.” Probably = not 100% sure."
-    ],
-    "readListen": [
-     "Look at the title. Where do students learn?",
-     "Listen to the chapter once.",
-     "Make three columns: Lessons / Patients / Summer. Fill them.",
-     "Tap the picture hotspots “Warm Floors” and “Lessons in the Garden”."
-    ],
-    "findAnswerInStory": [
-     "Paragraph 1: find where students worked with real patients.",
-     "Paragraph 1: find what was under the floor.",
-     "Paragraph 2: find who was in the hospital team."
-    ],
-    "vocabularyInContext": [
-     "Word Notes: heating system, steam, similar to.",
-     "“It used hot steam from a bathhouse near the school.” Where did the steam come from?",
-     "Write one sentence: My school is similar to …."
-    ],
-    "quickChallengeGuide": "You will match three places with what students did. Read the whole chapter first.",
-    "wrongAnswerSupport": [
-     "Go back to Chapter 5.",
-     "Find Gıyâsiye, Şifâiye and summer.",
-     "Try again."
-    ],
-    "selfCheck": [
-     "Can I say where students met patients?",
-     "Can I say how the floors were warm?",
-     "Can I say one sentence with “probably”?"
-    ],
-    "useWhatYouLearned": "Language Focus, last activity: Say three sentences about lessons at your school.",
-    "reflectionPrompt": "Students learned with real patients. Is it better to learn from books or by doing? Why?"
-   },
-   {
-    "chapter": "Chapter 6: Great Teachers and Books",
-    "timing": "About 20 minutes",
-    "objectives": [
-     "I can name some teachers and books.",
-     "I can say what the teachers taught.",
-     "I can use “one of them” and “another”."
-    ],
-    "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
-    "grammarFocus": "Match One of them, Another and There was also with their jobs. Then choose especially and like for two gaps.",
-    "pronunciationFocus": "Say: phi-LOS-o-phy, AN-cient, PA-tients, ibn SÎ-nâ.",
-    "lessonPlan": "Look at the title. Who are great teachers? Listen to the chapter once. Make two lists: Teachers and Books.",
-    "discussionPoints": [
-     "The students read books from many centuries. Which book is important to you?"
-    ],
-    "interactiveTips": [
-     "Tap the picture hotspots “The Books of İbn Sînâ” and “Learning at the Bedside”."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Go back to the middle of Chapter 6. Find the word “especially”. Try again.",
-     "fastFinishers": "Language Focus, last activity: Say three sentences about your teachers."
-    },
-    "whatToNotice": [
-     "The chapter is a list of people and books.",
-     "Look at “especially the books of İbn Sînâ”. Especially = the most important one."
-    ],
-    "readListen": [
-     "Look at the title. Who are great teachers?",
-     "Listen to the chapter once.",
-     "Make two lists: Teachers and Books.",
-     "Tap the picture hotspots “The Books of İbn Sînâ” and “Learning at the Bedside”."
-    ],
-    "findAnswerInStory": [
-     "Find the name of one teacher.",
-     "Find four things the scientists taught.",
-     "Find where students practised."
-    ],
-    "vocabularyInContext": [
-     "Word Notes: close friend, philosophy, ancient, patients.",
-     "“They also read books by ancient Greek doctors like Hippocrates.” Were these doctors new or very old?",
-     "Write one sentence: My close friend is …."
-    ],
-    "quickChallengeGuide": "You will choose whose books students read. Find the word “especially”.",
-    "wrongAnswerSupport": [
-     "Go back to the middle of Chapter 6.",
-     "Find the word “especially”.",
-     "Try again."
-    ],
-    "selfCheck": [
-     "Can I name one teacher?",
-     "Can I name the subjects?",
-     "Can I use “another”?"
-    ],
-    "useWhatYouLearned": "Language Focus, last activity: Say three sentences about your teachers.",
-    "reflectionPrompt": "The students read books from many centuries. Which book is important to you?"
-   },
-   {
-    "chapter": "Chapter 7: Inside the Buildings",
-    "timing": "About 20 minutes",
-    "objectives": [
-     "I can describe the rooms of the buildings.",
-     "I can say why food came from outside.",
-     "I can use all, none of and no."
-    ],
-    "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
-    "grammarFocus": "Decide why the writer uses connects and has (the building is still there). Then complete three sentences with All, None and no.",
-    "pronunciationFocus": "Say: COURT-yard, FIRE-pla-ces, op-er-A-tions.",
-    "lessonPlan": "Look at the title. What rooms do you think are inside? Listen to the chapter once and draw a simple plan. Read again and check your plan.",
-    "discussionPoints": [
-     "The rooms had no fireplaces. How do you think people stayed warm? Look back at Chapter 5."
-    ],
-    "interactiveTips": [
-     "Tap the picture hotspots “A Long Hall” and “Light from Above”."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Go back to the first sentence of Chapter 7. Read it slowly. Try again.",
-     "fastFinishers": "Language Focus, last activity: Describe your home in three sentences."
-    },
-    "whatToNotice": [
-     "The building is still there, so the writer uses the present: connects, has.",
-     "Look at “None of the rooms have fireplaces.” None of = not one."
-    ],
-    "readListen": [
-     "Look at the title. What rooms do you think are inside?",
-     "Listen to the chapter once and draw a simple plan.",
-     "Read again and check your plan.",
-     "Tap the picture hotspots “A Long Hall” and “Light from Above”."
-    ],
-    "findAnswerInStory": [
-     "Paragraph 1: find what connects the two buildings.",
-     "Paragraph 1: find what was missing inside the center.",
-     "Paragraph 2: find how many rooms for operations there were."
-    ],
-    "vocabularyInContext": [
-     "Word Note: operations.",
-     "“Doctors probably did eye operations here.” Is the writer sure?",
-     "Write one sentence: There is no … in my classroom."
-    ],
-    "quickChallengeGuide": "You will choose what connects the two buildings. Read the first sentence.",
-    "wrongAnswerSupport": [
-     "Go back to the first sentence of Chapter 7.",
-     "Read it slowly.",
-     "Try again."
-    ],
-    "selfCheck": [
-     "Can I describe one room?",
-     "Can I say why food came from outside?",
-     "Can I use “none of”?"
-    ],
-    "useWhatYouLearned": "Language Focus, last activity: Describe your home in three sentences.",
-    "reflectionPrompt": "The rooms had no fireplaces. How do you think people stayed warm? Look back at Chapter 5."
-   },
-   {
-    "chapter": "Chapter 8: Caring for Mind and Body",
-    "timing": "About 20 minutes",
-    "objectives": [
-     "I can say how doctors helped patients with mental illnesses.",
-     "I can describe the bathhouse.",
-     "I can put adjectives before nouns."
-    ],
-    "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
-    "grammarFocus": "Say what the two with phrases add. Then complete the bathhouse sentences with round, old and good.",
-    "pronunciationFocus": "Say: MEN-tal ILL-ness-es, BATH-house, WASTE-wa-ter.",
-    "lessonPlan": "Look at the title. What are the mind and the body? Listen to the chapter once. Make two columns: Mind / Body. Fill them.",
-    "discussionPoints": [
-     "Doctors cared for the mind and the body. What helps you feel calm?"
-    ],
-    "interactiveTips": [
-     "Tap the picture hotspots “Music for the Mind” and “A Round Roof”."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Go back to paragraph 1. Find the words “to help these patients”. Try again.",
-     "fastFinishers": "Language Focus, last activity: Say three sentences about how music helps you."
-    },
-    "whatToNotice": [
-     "The hospital cared for the mind and the body.",
-     "Look at “a round roof”. The adjective comes before the noun."
-    ],
-    "readListen": [
-     "Look at the title. What are the mind and the body?",
-     "Listen to the chapter once.",
-     "Make two columns: Mind / Body. Fill them.",
-     "Tap the picture hotspots “Music for the Mind” and “A Round Roof”."
-    ],
-    "findAnswerInStory": [
-     "Paragraph 1: find how many rooms the special part had.",
-     "Paragraph 1: find what doctors used.",
-     "Paragraph 2: find what the bathhouse had."
-    ],
-    "vocabularyInContext": [
-     "Word Notes: mental illnesses, round.",
-     "“There was also a bathhouse inside the building, and it had a round roof.” What shape was the roof?",
-     "Write one sentence: My … has a round …."
-    ],
-    "quickChallengeGuide": "You will choose how doctors helped these patients. Read paragraph 1.",
-    "wrongAnswerSupport": [
-     "Go back to paragraph 1.",
-     "Find the words “to help these patients”.",
-     "Try again."
-    ],
-    "selfCheck": [
-     "Can I say how music helped?",
-     "Can I describe the bathhouse?",
-     "Can I use one adjective + noun?"
-    ],
-    "useWhatYouLearned": "Language Focus, last activity: Say three sentences about how music helps you.",
-    "reflectionPrompt": "Doctors cared for the mind and the body. What helps you feel calm?"
-   },
-   {
-    "chapter": "Chapter 9: Medical Education at the Dârüşşifâ",
-    "timing": "About 20 minutes",
-    "objectives": [
-     "I can explain how students learned.",
-     "I can name the two parts of education.",
-     "I can use “when” and “first / second”."
-    ],
-    "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
-    "grammarFocus": "Decide what happened first in the when sentence. Then complete the parts of education with two, first and second.",
-    "pronunciationFocus": "Say: dâ-niş-MEND, di-PLO-ma, REC-i-pes.",
-    "lessonPlan": "Look at the title. What is medical education? Listen to the chapter once. Draw steps: teachers → first part → second part → diploma.",
-    "discussionPoints": [
-     "The diploma showed the names of teachers. Why are teachers important in your life?"
-    ],
-    "interactiveTips": [
-     "Tap the picture hotspots “A Special Name” and “A Diploma”."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Go back to paragraph 1. Find the word “diploma”. Try again.",
-     "fastFinishers": "Language Focus, last activity: Say three sentences about your school year."
-    },
-    "whatToNotice": [
-     "Students learned with their teachers and by watching doctors.",
-     "Look at “When they finished school, they got a diploma.” First they finished, then they got a diploma."
-    ],
-    "readListen": [
-     "Look at the title. What is medical education?",
-     "Listen to the chapter once.",
-     "Draw steps: teachers → first part → second part → diploma.",
-     "Tap the picture hotspots “A Special Name” and “A Diploma”."
-    ],
-    "findAnswerInStory": [
-     "Paragraph 1: find what the diploma showed.",
-     "Paragraph 2: find the subjects in the first part.",
-     "Paragraph 2: find until when the hospital served patients."
-    ],
-    "vocabularyInContext": [
-     "Word Note: served.",
-     "“The hospital served patients until the early 1900s.” For how long did it help people?",
-     "Write one sentence: Our school serves … students."
-    ],
-    "quickChallengeGuide": "You will choose what the diploma showed. Read paragraph 1.",
-    "wrongAnswerSupport": [
-     "Go back to paragraph 1.",
-     "Find the word “diploma”.",
-     "Try again."
-    ],
-    "selfCheck": [
-     "Can I name the two parts?",
-     "Can I say what the diploma showed?",
-     "Can I use “when”?"
-    ],
-    "useWhatYouLearned": "Language Focus, last activity: Say three sentences about your school year.",
-    "reflectionPrompt": "The diploma showed the names of teachers. Why are teachers important in your life?"
-   },
-   {
-    "chapter": "Chapter 10: Music Therapy at the Dârüşşifâ",
-    "timing": "About 20 minutes",
-    "objectives": [
-     "I can say what three scientists believed about music.",
-     "I can say why doctors used music.",
-     "I can use “could” and “should” + verb."
-    ],
-    "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
-    "grammarFocus": "Match said that, believed that and showed that with their sentences. Then choose help after could and should.",
-    "pronunciationFocus": "Say: ibn SÎ-nâ, er-RÂ-zî, fâ-râ-BÎ, COM-fort.",
-    "lessonPlan": "Look at the title. What is music therapy? Guess. Listen to the chapter once. Make three cards: İbn Sînâ, Er-Râzî, Fârâbî. Write one idea on each.",
-    "discussionPoints": [
-     "Good words from loved ones can help sick people. How can you help a sick friend?"
-    ],
-    "interactiveTips": [
-     "Tap the picture hotspots “Mind and Heart” and “Fârâbî and Music”."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Go back to Chapter 10. Find each name and read the words after it. Try again.",
-     "fastFinishers": "Language Focus, last activity: Write three sentences of advice for a sad friend."
-    },
-    "whatToNotice": [
-     "Three scientists had ideas; the doctors used these ideas.",
-     "Look at “He showed that music gave people joy, fear, or comfort.” Showed that + a sentence."
-    ],
-    "readListen": [
-     "Look at the title. What is music therapy? Guess.",
-     "Listen to the chapter once.",
-     "Make three cards: İbn Sînâ, Er-Râzî, Fârâbî. Write one idea on each.",
-     "Tap the picture hotspots “Mind and Heart” and “Fârâbî and Music”."
-    ],
-    "findAnswerInStory": [
-     "Find what İbn Sînâ believed.",
-     "Find who should help sad patients with music.",
-     "Find the three feelings music can give."
-    ],
-    "vocabularyInContext": [
-     "Word Notes: joy, fear, comfort.",
-     "“He showed that music gave people joy, fear, or comfort.” Which feeling is happy?",
-     "Write one sentence: Music gives me …."
-    ],
-    "quickChallengeGuide": "You will match three scientists with their ideas. Read the whole chapter first.",
-    "wrongAnswerSupport": [
-     "Go back to Chapter 10.",
-     "Find each name and read the words after it.",
-     "Try again."
-    ],
-    "selfCheck": [
-     "Can I say one idea of each scientist?",
-     "Can I say why doctors used music?",
-     "Can I use “should + verb”?"
-    ],
-    "useWhatYouLearned": "Language Focus, last activity: Write three sentences of advice for a sad friend.",
-    "reflectionPrompt": "Good words from loved ones can help sick people. How can you help a sick friend?"
-   },
-   {
-    "chapter": "Chapter 11: A Legacy That Lives On",
-    "timing": "About 20 minutes",
-    "objectives": [
-     "I can say why the hospital was important in history.",
-     "I can say how people remember Gevher Nesibe.",
-     "I can use “never” and “more … than”."
-    ],
-    "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
-    "grammarFocus": "Decide what never means. Then complete two sentences with not and than.",
-    "pronunciationFocus": "Say: ad-VANCED, CEN-tu-ries. Say than quickly: /ðən/.",
-    "lessonPlan": "Look at the title. What does “lives on” mean? Guess. Listen to the chapter once. Make two columns: Then / Today.",
-    "discussionPoints": [
-     "Gevher Nesibe’s wish helped people for many centuries. What would you like people to remember about you?"
-    ],
-    "interactiveTips": [
-     "Tap the picture hotspots “School and Hospital Together” and “Remembered Today”."
-    ],
-    "differentiation": {
-     "strugglingLearners": "Go back to the last paragraph. Find the word “never”. Try again.",
-     "fastFinishers": "Language Focus, last activity: Say three sentences about a person people remember."
-    },
-    "whatToNotice": [
-     "Other places had hospitals and schools, but not together.",
-     "Look at “more advanced than”. Use than, not then."
-    ],
-    "readListen": [
-     "Look at the title. What does “lives on” mean? Guess.",
-     "Listen to the chapter once.",
-     "Make two columns: Then / Today.",
-     "Tap the picture hotspots “School and Hospital Together” and “Remembered Today”."
-    ],
-    "findAnswerInStory": [
-     "Paragraph 1: find what was new about this hospital.",
-     "Paragraph 1: find the comparison with Europe.",
-     "Paragraph 2: find what people do today."
-    ],
-    "vocabularyInContext": [
-     "Word Notes: advanced, success, the love of her life.",
-     "“It was more advanced than the first famous medical universities in Europe.” Was it older and simpler, or newer and better?",
-     "Write one sentence: My biggest success this year was …."
-    ],
-    "quickChallengeGuide": "You will decide if a sentence about Gevher Nesibe is true or false. Read the last paragraph.",
-    "wrongAnswerSupport": [
-     "Go back to the last paragraph.",
-     "Find the word “never”.",
-     "Try again."
-    ],
-    "selfCheck": [
-     "Can I say why the hospital was important?",
-     "Can I tell the whole story in five sentences?",
-     "Can I use “never”?"
-    ],
-    "useWhatYouLearned": "Language Focus, last activity: Say three sentences about a person people remember.",
-    "reflectionPrompt": "Gevher Nesibe’s wish helped people for many centuries. What would you like people to remember about you?"
-   }
-  ],
-  "metadata": {
-   "title": "The Gevher Nesibe Hospital A2 — Self-Study Guide",
-   "subtitle": "Look • Listen • Read • Check • Use",
-   "level": "A2",
-   "language": "English",
-   "estimatedStudyTime": "About 20 minutes per chapter, plus the review pages at the end",
-   "whoIsThisFor": "A2 learners who study the story of the Gevher Nesibe Hospital and Medical School at home or on their own.",
-   "learningGoals": [
-    "Understand the 11 chapters of the story.",
-    "Say why the Gevher Nesibe Hospital was special.",
-    "Find the answer sentence in the story.",
-    "Learn the Word Notes of each chapter.",
-    "Use each chapter’s Language Focus in your own sentences."
-   ],
-   "recommendedUse": [
-    "Study one chapter at a time.",
-    "Listen or read first, then check.",
-    "Answer the Quick Challenge before you read the feedback.",
-    "Do the Language Focus after you understand the chapter.",
-    "Do the review pages after Chapter 11."
-   ]
   },
-  "sections": [
-   {
-    "title": "1. One Chapter at a Time",
-    "icon": "Target",
-    "text": "Study one chapter in one sitting. It takes about 20 minutes. Open “Study Path” to see the steps for your chapter.",
-    "points": [
-     "Look at the title.",
-     "Listen and follow the text.",
-     "Read one paragraph at a time.",
-     "Do the Quick Challenge.",
-     "Do the Language Focus."
+  "selfStudyGuide": {
+    "content": [
+      {
+        "chapter": "Chapter 1: A Hospital Ahead of Its Time",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can say why the Gevher Nesibe Hospital is special.",
+          "I can say who built it and for whom.",
+          "I can use “was built” and “the oldest”."
+        ],
+        "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
+        "grammarFocus": "Read “It was built in 1205–1206.” and say what is important: The building. Then complete three sentences with the oldest, the first and later.",
+        "pronunciationFocus": "Say the names: GEV-her ne-SI-be, KAY-se-ri, KON-ya. Say the year: Twelve oh five.",
+        "lessonPlan": "Look at the title. What does “ahead of its time” mean? Guess. Listen to the chapter once. Follow the text with your eyes. Read paragraph 2 again. Find two times: Kayseri and Europe.",
+        "discussionPoints": ["Kayseri was a city of scientists. What is your town famous for?"],
+        "interactiveTips": ["Tap the picture hotspots “Two Parts of Education” and “A Museum Today”."],
+        "differentiation": {
+          "strugglingLearners": "Go back to paragraph 1. Find the words “the first place in the world”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Describe an old building in your town in three sentences."
+        },
+        "whatToNotice": [
+          "The hospital and the medical school were together in one place. This was the first time in the world.",
+          "Look at “It was built in 1205–1206.” The building is important here, not the builder."
+        ],
+        "readListen": [
+          "Look at the title. What does “ahead of its time” mean? Guess.",
+          "Listen to the chapter once. Follow the text with your eyes.",
+          "Read paragraph 2 again. Find two times: Kayseri and Europe.",
+          "Tap the picture hotspots “Two Parts of Education” and “A Museum Today”."
+        ],
+        "findAnswerInStory": [
+          "Paragraph 1: find two reasons why the hospital is special.",
+          "Paragraph 3: find the capital city and the second capital.",
+          "Paragraph 3: find who built the medical center."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: still standing, medical, practical training, scientists.",
+          "“Medical education in Anatolia had two parts: classroom education and practical training.” What is the second part?",
+          "Write one sentence: My town is the center of …."
+        ],
+        "quickChallengeGuide": "You will choose why the hospital is the first in the world. The answer is in paragraph 1.",
+        "wrongAnswerSupport": ["Go back to paragraph 1.", "Find the words “the first place in the world”.", "Try again."],
+        "selfCheck": ["Can I say where the hospital is?", "Can I say who built it?", "Can I say one sentence with “was built”?"],
+        "useWhatYouLearned": "Language Focus, last activity: Describe an old building in your town in three sentences.",
+        "reflectionPrompt": "Kayseri was a city of scientists. What is your town famous for?"
+      },
+      {
+        "chapter": "Chapter 2: A Princess and a Commander",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can tell the story of Gevher Nesibe and the commander.",
+          "I can say why she died young.",
+          "I can use “wanted … to …”."
+        ],
+        "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
+        "grammarFocus": "Match the halves of three sentences: did not want this marriage, wanted his sister to marry, did not accept. Then choose But or so for two gaps.",
+        "pronunciationFocus": "Say the stress: com-MAN-der, MAR-riage, of-FI-cial.",
+        "lessonPlan": "Look at the title. Who are the two people? Listen to the chapter once. Read again and make four small pictures: love, war, death, illness.",
+        "discussionPoints": ["Her brother said sorry to her. Why is it important to say sorry?"],
+        "interactiveTips": ["Tap the picture hotspots “A Brother’s Plan” and “No Good Hospital”."],
+        "differentiation": {
+          "strugglingLearners": "Go back to the start of Chapter 2. Look for “To separate them” and “Some time later”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Say three sentences about wishes in your family."
+        },
+        "whatToNotice": [
+          "This is a sad story, but it explains why the hospital was built.",
+          "Look at “He wanted his sister to marry a palace official.” Want + person + to + verb."
+        ],
+        "readListen": [
+          "Look at the title. Who are the two people?",
+          "Listen to the chapter once.",
+          "Read again and make four small pictures: love, war, death, illness.",
+          "Tap the picture hotspots “A Brother’s Plan” and “No Good Hospital”."
+        ],
+        "findAnswerInStory": [
+          "Paragraph 1: find who Gevher Nesibe loved.",
+          "Paragraph 1: find who her brother wanted her to marry.",
+          "Paragraph 2: find why she died at a young age."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: commander, sent the young commander away, last wish.",
+          "“Before her death, her brother said sorry to her and asked for her last wish.” What did he ask for?",
+          "Write one sentence: My last wish for this year is …."
+        ],
+        "quickChallengeGuide": "You will put four events in order. Read the whole chapter first.",
+        "wrongAnswerSupport": ["Go back to the start of Chapter 2.", "Look for “To separate them” and “Some time later”.", "Try again."],
+        "selfCheck": ["Can I tell the story in four sentences?", "Can I say why she died young?", "Can I use “wanted … to …”?"],
+        "useWhatYouLearned": "Language Focus, last activity: Say three sentences about wishes in your family.",
+        "reflectionPrompt": "Her brother said sorry to her. Why is it important to say sorry?"
+      },
+      {
+        "chapter": "Chapter 3: The Last Wish",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can say what Gevher Nesibe wanted in her last wish.",
+          "I can say why the hospital must be free.",
+          "I can use let, must and should."
+        ],
+        "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
+        "grammarFocus": "Read the “Let …” sentences and say what they show (her wish). Then choose cannot, should and must be for three sentences.",
+        "pronunciationFocus": "Say: DEATH-bed, SUR-geons, dis-EAS-es. Say the last line strongly: “This place MUST be FREE for EVERYONE.”",
+        "lessonPlan": "Look at the title. What is a last wish? Listen to the chapter once. Read her words again. Count the things she wants.",
+        "discussionPoints": ["She wanted to help people after her death. How can one person help many people?"],
+        "interactiveTips": ["Tap the picture hotspots “Help for Sick People” and “Free for Everyone”."],
+        "differentiation": {
+          "strugglingLearners": "Go back to the end of her speech. Find the word “everyone”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write a wish for a new place in your town."
+        },
+        "whatToNotice": [
+          "The whole chapter is her speech. Read it like a person speaking.",
+          "Look at “This place must be free for everyone.” Must + be."
+        ],
+        "readListen": [
+          "Look at the title. What is a last wish?",
+          "Listen to the chapter once.",
+          "Read her words again. Count the things she wants.",
+          "Tap the picture hotspots “Help for Sick People” and “Free for Everyone”."
+        ],
+        "findAnswerInStory": [
+          "Find what she wanted to do with all her money.",
+          "Find who should teach at the hospital.",
+          "Find who should pay."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: deathbed, sick people, cures, diseases, surgeons, free.",
+          "“Let this hospital help sick people and find cures for bad diseases.” What should the hospital find?",
+          "Write one sentence: My school library is free for …."
+        ],
+        "quickChallengeGuide": "You will decide if a sentence is true or false. Read her last two sentences.",
+        "wrongAnswerSupport": ["Go back to the end of her speech.", "Find the word “everyone”.", "Try again."],
+        "selfCheck": ["Can I name three things in her wish?", "Can I say who should pay?", "Can I write one sentence with “let”?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write a wish for a new place in your town.",
+        "reflectionPrompt": "She wanted to help people after her death. How can one person help many people?"
+      },
+      {
+        "chapter": "Chapter 4: The Twin Madrasas",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can name the two buildings.",
+          "I can say why people call them the Twin Madrasas.",
+          "I can use inside, next to and on."
+        ],
+        "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
+        "grammarFocus": "Read “It took two years to build the hospital.” and say what it tells us (how long). Then complete three sentences with inside, to and on.",
+        "pronunciationFocus": "Say: gı-ya-SI-ye, şi-FA-i-ye, dâ-rüş-şi-FÂ. Say HEAL-ing.",
+        "lessonPlan": "Look at the title. What are twins? Listen to the chapter once. Draw two boxes side by side. Write the names of the buildings in them.",
+        "discussionPoints": ["Her brother made her wish come true. Did someone ever help you with a wish?"],
+        "interactiveTips": ["Tap the picture hotspots “The House of Healing” and “Two Buildings Side by Side”."],
+        "differentiation": {
+          "strugglingLearners": "Go back to paragraph 2. Read the sentence that starts with “Because”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Say three sentences about your school building."
+        },
+        "whatToNotice": [
+          "There are two names for the hospital: Şifâiye and Dârüşşifâ.",
+          "Look at “It took two years to build the hospital.” It took + time + to."
+        ],
+        "readListen": [
+          "Look at the title. What are twins?",
+          "Listen to the chapter once.",
+          "Draw two boxes side by side. Write the names of the buildings in them.",
+          "Tap the picture hotspots “The House of Healing” and “Two Buildings Side by Side”."
+        ],
+        "findAnswerInStory": [
+          "Paragraph 1: find what Dârüşşifâ means.",
+          "Paragraph 1: find where the grave is.",
+          "Paragraph 2: find the words on the front gate."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: come true, healing, grave, inside, Twin, front gate.",
+          "“To make his sister’s wish come true, Gıyâseddin Keyhusrev built a medical school …” What did her brother do?",
+          "Write one sentence: There is a … next to my house."
+        ],
+        "quickChallengeGuide": "You will choose why people say “Twin Madrasas”. Find the word “Because” in paragraph 2.",
+        "wrongAnswerSupport": ["Go back to paragraph 2.", "Read the sentence that starts with “Because”.", "Try again."],
+        "selfCheck": ["Can I name the medical school and the hospital?", "Can I say how long it took?", "Can I use “next to”?"],
+        "useWhatYouLearned": "Language Focus, last activity: Say three sentences about your school building.",
+        "reflectionPrompt": "Her brother made her wish come true. Did someone ever help you with a wish?"
+      },
+      {
+        "chapter": "Chapter 5: Learning Beside the Patients",
+        "timing": "About 20 minutes",
+        "objectives": ["I can say where students learned and worked.", "I can describe the heating system.", "I can use “probably”."],
+        "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
+        "grammarFocus": "Read the “probably” sentence and decide: Sure or not sure? Then choose had, used and saw for three sentences.",
+        "pronunciationFocus": "Say: HEAT-ing SYS-tem, STEAM, PHAR-ma-cist.",
+        "lessonPlan": "Look at the title. Where do students learn? Listen to the chapter once. Make three columns: Lessons / Patients / Summer. Fill them.",
+        "discussionPoints": ["Students learned with real patients. Is it better to learn from books or by doing? Why?"],
+        "interactiveTips": ["Tap the picture hotspots “Warm Floors” and “Lessons in the Garden”."],
+        "differentiation": {
+          "strugglingLearners": "Go back to Chapter 5. Find Gıyâsiye, Şifâiye and summer. Try again.",
+          "fastFinishers": "Language Focus, last activity: Say three sentences about lessons at your school."
+        },
+        "whatToNotice": [
+          "Students learned in two buildings: Lessons in one, patients in the other.",
+          "Look at “Students probably lived in small rooms.” Probably = not 100% sure."
+        ],
+        "readListen": [
+          "Look at the title. Where do students learn?",
+          "Listen to the chapter once.",
+          "Make three columns: Lessons / Patients / Summer. Fill them.",
+          "Tap the picture hotspots “Warm Floors” and “Lessons in the Garden”."
+        ],
+        "findAnswerInStory": [
+          "Paragraph 1: find where students worked with real patients.",
+          "Paragraph 1: find what was under the floor.",
+          "Paragraph 2: find who was in the hospital team."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: heating system, steam, similar to.",
+          "“It used hot steam from a bathhouse near the school.” Where did the steam come from?",
+          "Write one sentence: My school is similar to …."
+        ],
+        "quickChallengeGuide": "You will match three places with what students did. Read the whole chapter first.",
+        "wrongAnswerSupport": ["Go back to Chapter 5.", "Find Gıyâsiye, Şifâiye and summer.", "Try again."],
+        "selfCheck": [
+          "Can I say where students met patients?",
+          "Can I say how the floors were warm?",
+          "Can I say one sentence with “probably”?"
+        ],
+        "useWhatYouLearned": "Language Focus, last activity: Say three sentences about lessons at your school.",
+        "reflectionPrompt": "Students learned with real patients. Is it better to learn from books or by doing? Why?"
+      },
+      {
+        "chapter": "Chapter 6: Great Teachers and Books",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can name some teachers and books.",
+          "I can say what the teachers taught.",
+          "I can use “one of them” and “another”."
+        ],
+        "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
+        "grammarFocus": "Match One of them, Another and There was also with their jobs. Then choose especially and like for two gaps.",
+        "pronunciationFocus": "Say: phi-LOS-o-phy, AN-cient, PA-tients, ibn SÎ-nâ.",
+        "lessonPlan": "Look at the title. Who are great teachers? Listen to the chapter once. Make two lists: Teachers and Books.",
+        "discussionPoints": ["The students read books from many centuries. Which book is important to you?"],
+        "interactiveTips": ["Tap the picture hotspots “The Books of Ibn Sînâ” and “Learning at the Bedside”."],
+        "differentiation": {
+          "strugglingLearners": "Go back to the middle of Chapter 6. Find the word “especially”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Say three sentences about your teachers."
+        },
+        "whatToNotice": [
+          "The chapter is a list of people and books.",
+          "Look at “especially the books of Ibn Sînâ”. Especially = the most important one."
+        ],
+        "readListen": [
+          "Look at the title. Who are great teachers?",
+          "Listen to the chapter once.",
+          "Make two lists: Teachers and Books.",
+          "Tap the picture hotspots “The Books of Ibn Sînâ” and “Learning at the Bedside”."
+        ],
+        "findAnswerInStory": ["Find the name of one teacher.", "Find four things the scientists taught.", "Find where students practised."],
+        "vocabularyInContext": [
+          "Word Notes: close friend, philosophy, ancient, patients.",
+          "“They also read books by ancient Greek doctors like Hippocrates.” Were these doctors new or very old?",
+          "Write one sentence: My close friend is …."
+        ],
+        "quickChallengeGuide": "You will choose whose books students read. Find the word “especially”.",
+        "wrongAnswerSupport": ["Go back to the middle of Chapter 6.", "Find the word “especially”.", "Try again."],
+        "selfCheck": ["Can I name one teacher?", "Can I name the subjects?", "Can I use “another”?"],
+        "useWhatYouLearned": "Language Focus, last activity: Say three sentences about your teachers.",
+        "reflectionPrompt": "The students read books from many centuries. Which book is important to you?"
+      },
+      {
+        "chapter": "Chapter 7: Inside the Buildings",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can describe the rooms of the buildings.",
+          "I can say why food came from outside.",
+          "I can use all, none of and no."
+        ],
+        "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
+        "grammarFocus": "Decide why the writer uses connects and has (the building is still there). Then complete three sentences with All, None and no.",
+        "pronunciationFocus": "Say: COURT-yard, FIRE-pla-ces, op-er-A-tions.",
+        "lessonPlan": "Look at the title. What rooms do you think are inside? Listen to the chapter once and draw a simple plan. Read again and check your plan.",
+        "discussionPoints": ["The rooms had no fireplaces. How do you think people stayed warm? Look back at Chapter 5."],
+        "interactiveTips": ["Tap the picture hotspots “A Long Hall” and “Light from Above”."],
+        "differentiation": {
+          "strugglingLearners": "Go back to the first sentence of Chapter 7. Read it slowly. Try again.",
+          "fastFinishers": "Language Focus, last activity: Describe your home in three sentences."
+        },
+        "whatToNotice": [
+          "The building is still there, so the writer uses the present: connects, has.",
+          "Look at “None of the rooms have fireplaces.” None of = not one."
+        ],
+        "readListen": [
+          "Look at the title. What rooms do you think are inside?",
+          "Listen to the chapter once and draw a simple plan.",
+          "Read again and check your plan.",
+          "Tap the picture hotspots “A Long Hall” and “Light from Above”."
+        ],
+        "findAnswerInStory": [
+          "Paragraph 1: find what connects the two buildings.",
+          "Paragraph 1: find what was missing inside the center.",
+          "Paragraph 2: find how many rooms for operations there were."
+        ],
+        "vocabularyInContext": [
+          "Word Note: operations.",
+          "“Doctors probably did eye operations here.” Is the writer sure?",
+          "Write one sentence: There is no … in my classroom."
+        ],
+        "quickChallengeGuide": "You will choose what connects the two buildings. Read the first sentence.",
+        "wrongAnswerSupport": ["Go back to the first sentence of Chapter 7.", "Read it slowly.", "Try again."],
+        "selfCheck": ["Can I describe one room?", "Can I say why food came from outside?", "Can I use “none of”?"],
+        "useWhatYouLearned": "Language Focus, last activity: Describe your home in three sentences.",
+        "reflectionPrompt": "The rooms had no fireplaces. How do you think people stayed warm? Look back at Chapter 5."
+      },
+      {
+        "chapter": "Chapter 8: Caring for Mind and Body",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can say how doctors helped patients with mental illnesses.",
+          "I can describe the bathhouse.",
+          "I can put adjectives before nouns."
+        ],
+        "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
+        "grammarFocus": "Say what the two with phrases add. Then complete the bathhouse sentences with round, old and good.",
+        "pronunciationFocus": "Say: MEN-tal ILL-ness-es, BATH-house, WASTE-wa-ter.",
+        "lessonPlan": "Look at the title. What are the mind and the body? Listen to the chapter once. Make two columns: Mind / Body. Fill them.",
+        "discussionPoints": ["Doctors cared for the mind and the body. What helps you feel calm?"],
+        "interactiveTips": ["Tap the picture hotspots “Music for the Mind” and “A Round Roof”."],
+        "differentiation": {
+          "strugglingLearners": "Go back to paragraph 1. Find the words “to help these patients”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Say three sentences about how music helps you."
+        },
+        "whatToNotice": ["The hospital cared for the mind and the body.", "Look at “a round roof”. The adjective comes before the noun."],
+        "readListen": [
+          "Look at the title. What are the mind and the body?",
+          "Listen to the chapter once.",
+          "Make two columns: Mind / Body. Fill them.",
+          "Tap the picture hotspots “Music for the Mind” and “A Round Roof”."
+        ],
+        "findAnswerInStory": [
+          "Paragraph 1: find how many rooms the special part had.",
+          "Paragraph 1: find what doctors used.",
+          "Paragraph 2: find what the bathhouse had."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: mental illnesses, round.",
+          "“There was also a bathhouse inside the building, and it had a round roof.” What shape was the roof?",
+          "Write one sentence: My … has a round …."
+        ],
+        "quickChallengeGuide": "You will choose how doctors helped these patients. Read paragraph 1.",
+        "wrongAnswerSupport": ["Go back to paragraph 1.", "Find the words “to help these patients”.", "Try again."],
+        "selfCheck": ["Can I say how music helped?", "Can I describe the bathhouse?", "Can I use one adjective + noun?"],
+        "useWhatYouLearned": "Language Focus, last activity: Say three sentences about how music helps you.",
+        "reflectionPrompt": "Doctors cared for the mind and the body. What helps you feel calm?"
+      },
+      {
+        "chapter": "Chapter 9: Medical Education at the Dârüşşifâ",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can explain how students learned.",
+          "I can name the two parts of education.",
+          "I can use “when” and “first / second”."
+        ],
+        "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
+        "grammarFocus": "Decide what happened first in the when sentence. Then complete the parts of education with two, first and second.",
+        "pronunciationFocus": "Say: dâ-niş-MEND, di-PLO-ma, REC-i-pes.",
+        "lessonPlan": "Look at the title. What is medical education? Listen to the chapter once. Draw steps: teachers → first part → second part → diploma.",
+        "discussionPoints": ["The diploma showed the names of teachers. Why are teachers important in your life?"],
+        "interactiveTips": ["Tap the picture hotspots “A Special Name” and “A Diploma”."],
+        "differentiation": {
+          "strugglingLearners": "Go back to paragraph 1. Find the word “diploma”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Say three sentences about your school year."
+        },
+        "whatToNotice": [
+          "Students learned with their teachers and by watching doctors.",
+          "Look at “When they finished school, they got a diploma.” First they finished, then they got a diploma."
+        ],
+        "readListen": [
+          "Look at the title. What is medical education?",
+          "Listen to the chapter once.",
+          "Draw steps: teachers → first part → second part → diploma.",
+          "Tap the picture hotspots “A Special Name” and “A Diploma”."
+        ],
+        "findAnswerInStory": [
+          "Paragraph 1: find what the diploma showed.",
+          "Paragraph 2: find the subjects in the first part.",
+          "Paragraph 2: find until when the hospital served patients."
+        ],
+        "vocabularyInContext": [
+          "Word Note: served.",
+          "“The hospital served patients until the early 1900s.” For how long did it help people?",
+          "Write one sentence: Our school serves … students."
+        ],
+        "quickChallengeGuide": "You will choose what the diploma showed. Read paragraph 1.",
+        "wrongAnswerSupport": ["Go back to paragraph 1.", "Find the word “diploma”.", "Try again."],
+        "selfCheck": ["Can I name the two parts?", "Can I say what the diploma showed?", "Can I use “when”?"],
+        "useWhatYouLearned": "Language Focus, last activity: Say three sentences about your school year.",
+        "reflectionPrompt": "The diploma showed the names of teachers. Why are teachers important in your life?"
+      },
+      {
+        "chapter": "Chapter 10: Music Therapy at the Dârüşşifâ",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can say what three scientists believed about music.",
+          "I can say why doctors used music.",
+          "I can use “could” and “should” + verb."
+        ],
+        "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
+        "grammarFocus": "Match said that, believed that and showed that with their sentences. Then choose help after could and should.",
+        "pronunciationFocus": "Say: ibn SÎ-nâ, er-RÂ-zî, fâ-râ-BÎ, COM-fort.",
+        "lessonPlan": "Look at the title. What is music therapy? Guess. Listen to the chapter once. Make three cards: Ibn Sînâ, Al-Razi, Fârâbî. Write one idea on each.",
+        "discussionPoints": ["Good words from loved ones can help sick people. How can you help a sick friend?"],
+        "interactiveTips": ["Tap the picture hotspots “Mind and Heart” and “Fârâbî and Music”."],
+        "differentiation": {
+          "strugglingLearners": "Go back to Chapter 10. Find each name and read the words after it. Try again.",
+          "fastFinishers": "Language Focus, last activity: Write three sentences of advice for a sad friend."
+        },
+        "whatToNotice": [
+          "Three scientists had ideas; the doctors used these ideas.",
+          "Look at “He showed that music gave people joy, fear, or comfort.” Showed that + a sentence."
+        ],
+        "readListen": [
+          "Look at the title. What is music therapy? Guess.",
+          "Listen to the chapter once.",
+          "Make three cards: Ibn Sînâ, Al-Razi, Fârâbî. Write one idea on each.",
+          "Tap the picture hotspots “Mind and Heart” and “Fârâbî and Music”."
+        ],
+        "findAnswerInStory": [
+          "Find what Ibn Sînâ believed.",
+          "Find who should help sad patients with music.",
+          "Find the three feelings music can give."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: joy, fear, comfort.",
+          "“He showed that music gave people joy, fear, or comfort.” Which feeling is happy?",
+          "Write one sentence: Music gives me …."
+        ],
+        "quickChallengeGuide": "You will match three scientists with their ideas. Read the whole chapter first.",
+        "wrongAnswerSupport": ["Go back to Chapter 10.", "Find each name and read the words after it.", "Try again."],
+        "selfCheck": ["Can I say one idea of each scientist?", "Can I say why doctors used music?", "Can I use “should + verb”?"],
+        "useWhatYouLearned": "Language Focus, last activity: Write three sentences of advice for a sad friend.",
+        "reflectionPrompt": "Good words from loved ones can help sick people. How can you help a sick friend?"
+      },
+      {
+        "chapter": "Chapter 11: A Legacy That Lives On",
+        "timing": "About 20 minutes",
+        "objectives": [
+          "I can say why the hospital was important in history.",
+          "I can say how people remember Gevher Nesibe.",
+          "I can use “never” and “more … than”."
+        ],
+        "pedagogy": "Look, listen and read first. Then find the answer sentences, do the Quick Challenge, and use the chapter’s Language Focus.",
+        "grammarFocus": "Decide what never means. Then complete two sentences with not and than.",
+        "pronunciationFocus": "Say: ad-VANCED, CEN-tu-ries. Say than quickly: /ðən/.",
+        "lessonPlan": "Look at the title. What does “lives on” mean? Guess. Listen to the chapter once. Make two columns: Then / Today.",
+        "discussionPoints": ["Gevher Nesibe’s wish helped people for many centuries. What would you like people to remember about you?"],
+        "interactiveTips": ["Tap the picture hotspots “School and Hospital Together” and “Remembered Today”."],
+        "differentiation": {
+          "strugglingLearners": "Go back to the last paragraph. Find the word “never”. Try again.",
+          "fastFinishers": "Language Focus, last activity: Say three sentences about a person people remember."
+        },
+        "whatToNotice": ["Other places had hospitals and schools, but not together.", "Look at “more advanced than”. Use than, not then."],
+        "readListen": [
+          "Look at the title. What does “lives on” mean? Guess.",
+          "Listen to the chapter once.",
+          "Make two columns: Then / Today.",
+          "Tap the picture hotspots “School and Hospital Together” and “Remembered Today”."
+        ],
+        "findAnswerInStory": [
+          "Paragraph 1: find what was new about this hospital.",
+          "Paragraph 1: find the comparison with Europe.",
+          "Paragraph 2: find what people do today."
+        ],
+        "vocabularyInContext": [
+          "Word Notes: advanced, success, the love of her life.",
+          "“It was more advanced than the first famous medical universities in Europe.” Was it older and simpler, or newer and better?",
+          "Write one sentence: My biggest success this year was …."
+        ],
+        "quickChallengeGuide": "You will decide if a sentence about Gevher Nesibe is true or false. Read the last paragraph.",
+        "wrongAnswerSupport": ["Go back to the last paragraph.", "Find the word “never”.", "Try again."],
+        "selfCheck": ["Can I say why the hospital was important?", "Can I tell the whole story in five sentences?", "Can I use “never”?"],
+        "useWhatYouLearned": "Language Focus, last activity: Say three sentences about a person people remember.",
+        "reflectionPrompt": "Gevher Nesibe’s wish helped people for many centuries. What would you like people to remember about you?"
+      }
+    ],
+    "metadata": {
+      "title": "The Gevher Nesibe Hospital A2 — Self-Study Guide",
+      "subtitle": "Look • Listen • Read • Check • Use",
+      "level": "A2",
+      "language": "English",
+      "estimatedStudyTime": "About 20 minutes per chapter, plus the review pages at the end",
+      "whoIsThisFor": "A2 learners who study the story of the Gevher Nesibe Hospital and Medical School at home or on their own.",
+      "learningGoals": [
+        "Understand the 11 chapters of the story.",
+        "Say why the Gevher Nesibe Hospital was special.",
+        "Find the answer sentence in the story.",
+        "Learn the Word Notes of each chapter.",
+        "Use each chapter’s Language Focus in your own sentences."
+      ],
+      "recommendedUse": [
+        "Study one chapter at a time.",
+        "Listen or read first, then check.",
+        "Answer the Quick Challenge before you read the feedback.",
+        "Do the Language Focus after you understand the chapter.",
+        "Do the review pages after Chapter 11."
+      ]
+    },
+    "sections": [
+      {
+        "title": "1. One Chapter at a Time",
+        "icon": "Target",
+        "text": "Study one chapter in one sitting. It takes about 20 minutes. Open “Study Path” to see the steps for your chapter.",
+        "points": [
+          "Look at the title.",
+          "Listen and follow the text.",
+          "Read one paragraph at a time.",
+          "Do the Quick Challenge.",
+          "Do the Language Focus."
+        ]
+      },
+      {
+        "title": "2. Listen and Read",
+        "icon": "Ear",
+        "text": "Listen first when audio is available, then read.",
+        "points": [
+          "First time: Listen or read for the main idea.",
+          "Second time: Follow the words with your eyes.",
+          "Stop and say one short sentence again."
+        ]
+      },
+      {
+        "title": "3. Draw and Write",
+        "icon": "Compass",
+        "text": "This book is about a building and its people. Small drawings help you remember.",
+        "points": ["Draw the two buildings side by side.", "Add a fact to each part.", "Use your drawing to retell the story."]
+      },
+      {
+        "title": "4. Word Notes and Hotspots",
+        "icon": "BookOpen",
+        "text": "Each chapter has underlined words. Tap a word to see its Word Note. Tap the hotspots on the picture for short notes.",
+        "points": [
+          "Read the word in its sentence first.",
+          "Guess the meaning, then check the Word Note.",
+          "Write the word and one sentence in your notebook."
+        ]
+      },
+      {
+        "title": "5. Quick Challenge and Language Focus",
+        "icon": "CheckCircle",
+        "text": "Each chapter has one Quick Challenge and three Language Focus activities.",
+        "points": [
+          "Answer first, then read the feedback.",
+          "Wrong answer? Find the answer sentence and try again.",
+          "Activity 1: look. Activity 2: practise. Activity 3: use the language about your own life."
+        ]
+      },
+      {
+        "title": "6. When It Is Hard",
+        "icon": "HelpCircle",
+        "text": "Some chapters have many names. Change how you study, not your goal.",
+        "points": ["Read one paragraph only.", "Write the names in a list.", "Look at the hotspots again.", "Learn only two words today."]
+      },
+      {
+        "title": "7. Values in the Story",
+        "icon": "Heart",
+        "text": "This story shows compassion, responsibility and love of learning. Turn each value into one small action.",
+        "points": [
+          "Compassion: A hospital free for everyone (Chapter 3).",
+          "Responsibility: A brother makes a wish come true (Chapter 4).",
+          "Learning: Students learn from great teachers and books (Chapters 5–6).",
+          "Care: Doctors help the mind and the body (Chapters 8 and 10)."
+        ]
+      },
+      {
+        "title": "8. At the End of the Book",
+        "icon": "Stars",
+        "text": "After Chapter 11, do the review pages in this order. Go back to a chapter when an answer is not clear.",
+        "points": ["Knowledge Check", "Vocabulary Challenge", "Master Glossary", "Language Review", "Final Challenge"]
+      }
     ]
-   },
-   {
-    "title": "2. Listen and Read",
-    "icon": "Ear",
-    "text": "Listen first when audio is available, then read.",
-    "points": [
-     "First time: Listen or read for the main idea.",
-     "Second time: Follow the words with your eyes.",
-     "Stop and say one short sentence again."
-    ]
-   },
-   {
-    "title": "3. Draw and Write",
-    "icon": "Compass",
-    "text": "This book is about a building and its people. Small drawings help you remember.",
-    "points": [
-     "Draw the two buildings side by side.",
-     "Add a fact to each part.",
-     "Use your drawing to retell the story."
-    ]
-   },
-   {
-    "title": "4. Word Notes and Hotspots",
-    "icon": "BookOpen",
-    "text": "Each chapter has underlined words. Tap a word to see its Word Note. Tap the hotspots on the picture for short notes.",
-    "points": [
-     "Read the word in its sentence first.",
-     "Guess the meaning, then check the Word Note.",
-     "Write the word and one sentence in your notebook."
-    ]
-   },
-   {
-    "title": "5. Quick Challenge and Language Focus",
-    "icon": "CheckCircle",
-    "text": "Each chapter has one Quick Challenge and three Language Focus activities.",
-    "points": [
-     "Answer first, then read the feedback.",
-     "Wrong answer? Find the answer sentence and try again.",
-     "Activity 1: look. Activity 2: practise. Activity 3: use the language about your own life."
-    ]
-   },
-   {
-    "title": "6. When It Is Hard",
-    "icon": "HelpCircle",
-    "text": "Some chapters have many names. Change how you study, not your goal.",
-    "points": [
-     "Read one paragraph only.",
-     "Write the names in a list.",
-     "Look at the hotspots again.",
-     "Learn only two words today."
-    ]
-   },
-   {
-    "title": "7. Values in the Story",
-    "icon": "Heart",
-    "text": "This story shows compassion, responsibility and love of learning. Turn each value into one small action.",
-    "points": [
-     "Compassion: A hospital free for everyone (Chapter 3).",
-     "Responsibility: A brother makes a wish come true (Chapter 4).",
-     "Learning: Students learn from great teachers and books (Chapters 5–6).",
-     "Care: Doctors help the mind and the body (Chapters 8 and 10)."
-    ]
-   },
-   {
-    "title": "8. At the End of the Book",
-    "icon": "Stars",
-    "text": "After Chapter 11, do the review pages in this order. Go back to a chapter when an answer is not clear.",
-    "points": [
-     "Knowledge Check",
-     "Vocabulary Challenge",
-     "Master Glossary",
-     "Language Review",
-     "Final Challenge"
-    ]
-   }
-  ]
- }
+  }
 }
