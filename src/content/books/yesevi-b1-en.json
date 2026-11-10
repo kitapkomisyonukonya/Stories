@@ -1,0 +1,3627 @@
+{
+  "schema": 1,
+  "storyId": "yesevi",
+  "level": "B1",
+  "language": "en",
+  "collection": "turkish",
+  "book": {
+    "id": "yesevi-b1",
+    "title": "Ahmed Yesevî",
+    "level": "B1",
+    "baseFontSize": 12,
+    "pages": [
+      {
+        "id": 1,
+        "type": "story",
+        "title": "Pîr-i Turkistan",
+        "image": "",
+        "audioUrl": "",
+        "content": "Ahmed Yesevî, known as Pîr-i Turkistan, was the first great Sufi poet to write and recite his poems in plain Turkish. In the Persian language, the word ‘pîr’ means a Sufi master, spiritual guide, or elder. Yesevî was one of the most important figures in Turkish-Islamic culture. He was also the founder of the Yesevî Order (here, ‘order’ means a spiritual path). His poems are called ‘hikmet’ (wisdom). Both his poems and the Yesevî Path aimed to spread Islam among Turkish people and teach them the ways of Sufism.",
+        "vocabulary": [
+          {
+            "word": "recite",
+            "definition": "Say a poem or text aloud from memory."
+          },
+          {
+            "word": "plain",
+            "definition": "Simple and easy to understand."
+          },
+          {
+            "word": "Persian language",
+            "definition": "The language of Iran."
+          },
+          {
+            "word": "Sufi master",
+            "definition": "A teacher who guides people on the Sufi path."
+          },
+          {
+            "word": "spiritual guide",
+            "definition": "A person who helps others in their religious and inner life."
+          },
+          {
+            "word": "wisdom",
+            "definition": "Deep knowledge and good judgment."
+          },
+          {
+            "word": "spread",
+            "definition": "Make something reach many people or places."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h1a",
+            "x": 30,
+            "y": 40,
+            "title": "Pîr-i Turkistan",
+            "description": "In the Persian language, the word ‘pîr’ means a Sufi master, spiritual guide, or elder."
+          },
+          {
+            "id": "yesevi-b1-en-h1b",
+            "x": 70,
+            "y": 45,
+            "title": "Hikmet",
+            "description": "His poems are called ‘hikmet’ (wisdom)."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-1",
+            "type": "multiple-choice",
+            "title": "The Aim of the Path",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What did his poems and the Yesevî Path aim to do?",
+            "options": [
+              "spread Islam among Turkish people and teach them the ways of Sufism",
+              "teach Persian to Turkish people",
+              "build mosques in Persia"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “Both his poems and the Yesevî Path aimed to spread Islam among Turkish people and teach them the ways of Sufism.”",
+            "feedback": {
+              "correct": "Correct. Spread Islam and teach Sufism.",
+              "incorrect": "Read the last sentence."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-1-known-as",
+            "type": "multiple-choice",
+            "title": "Notice: Known As …",
+            "instructions": "Read the sentence. Then choose what “known as” does.",
+            "question": "“Ahmed Yesevî, known as Pîr-i Turkistan, was the first great Sufi poet …” What does “known as Pîr-i Turkistan” add?",
+            "options": ["another name that people use for him", "the place where he was born", "the title of his book"],
+            "correctAnswer": 0,
+            "explanation": "“Known as” (= who is known as) adds another name. The commas show that it is extra information.",
+            "feedback": {
+              "correct": "Correct. Another name.",
+              "incorrect": "What do people call him?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-1-definitions",
+            "type": "choose-form",
+            "title": "Build: Means, Called, Founder",
+            "instructions": "Choose the correct form for each sentence from Chapter 1.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "In the Persian language, the word ‘pîr’ [choice] a Sufi master, spiritual guide, or elder.",
+                "options": ["means", "is called", "calls"],
+                "answer": 0
+              },
+              {
+                "sentence": "His poems are [choice] ‘hikmet’ (wisdom).",
+                "options": ["called", "meant", "known"],
+                "answer": 0
+              },
+              {
+                "sentence": "He was also the [choice] of the Yesevî Order.",
+                "options": ["founder", "found", "founded"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Means” explains a word. “Be called” gives a name. “Founder” is the person who starts something.",
+            "feedback": {
+              "correct": "Well done. Means, called, founder.",
+              "incorrect": "Is it a meaning, a name or a person?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-1-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "His poems are called ‘hikmet’.",
+                "frame": "People [blank] his poems ‘hikmet’.",
+                "answers": ["call"]
+              },
+              {
+                "source": "Yesevî founded the Yesevî Order.",
+                "frame": "Yesevî was the [blank] of the Yesevî Order.",
+                "answers": ["founder"]
+              },
+              {
+                "source": "Both his poems and the Yesevî Path aimed to spread Islam.",
+                "frame": "His poems aimed to spread Islam, and the Yesevî Path aimed to spread it [blank].",
+                "answers": ["too"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Passive “are called” = active “people call”. A verb can become a noun (found → founder). “Both … and” = “…, and … too”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use call, founder and too."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-1-titles",
+            "type": "reflection",
+            "title": "Use: A Person with a Title",
+            "instructions": "Write four to five sentences about a person known by a title.",
+            "question": "What is the title? What does it mean?",
+            "correctAnswer": null,
+            "explanation": "Example: “Mimar Sinan, known as the Great Architect, built many mosques and bridges. The word ‘mimar’ means architect. People called him this because his buildings were strong and beautiful. Many of them are still used today.”",
+            "feedback": {
+              "correct": "Check: known as, means and a reason.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the person and the title.",
+                "mode": "Individual",
+                "example": "…, known as …, was …"
+              },
+              {
+                "question": "Explain the meaning of the title.",
+                "mode": "Individual",
+                "example": "The word … means …"
+              },
+              {
+                "question": "Say why people gave this title.",
+                "mode": "Pair",
+                "example": "People called him / her this because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What does the word ‘order’ mean here?",
+          "options": ["a spiritual path", "a command", "a group of soldiers"],
+          "answer": 0,
+          "quote": "here, ‘order’ means a spiritual path"
+        },
+        "iCan": [
+          "I can explain who Ahmed Yesevî was and why he is called Pîr-i Turkistan.",
+          "I can say what his poems and the Yesevî Path aimed to do.",
+          "I can use known as, means and aimed to in definitions."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "story",
+        "title": "Childhood and Education",
+        "image": "",
+        "audioUrl": "",
+        "content": "It is believed that he was born in the town of Sayram, in East Turkestan, during the second half of the 11th century. Ahmed Yesevî moved to the city of Yesi in Turkestan (which is now the city of Turkestan in Kazakhstan) at a young age. There, he studied with Arslan Baba and received a good education. He lived during the era of the Karakhanids (Karahanlılar) (840–1212) and grew up at a time when Turkestan was a center for various fields of knowledge.",
+        "vocabulary": [
+          {
+            "word": "received",
+            "definition": "Got."
+          },
+          {
+            "word": "grew up",
+            "definition": "Became an adult."
+          },
+          {
+            "word": "various",
+            "definition": "Many different."
+          },
+          {
+            "word": "fields",
+            "definition": "Areas of study or knowledge."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h2a",
+            "x": 30,
+            "y": 40,
+            "title": "Sayram",
+            "description": "It is believed that he was born in the town of Sayram, in East Turkestan."
+          },
+          {
+            "id": "yesevi-b1-en-h2b",
+            "x": 70,
+            "y": 45,
+            "title": "The Karakhanids",
+            "description": "He lived during the era of the Karakhanids (840–1212)."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-2",
+            "type": "true-false",
+            "title": "The City of Yesi",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Today, the city of Yesi is the city of Turkestan in Kazakhstan.",
+            "correctAnswer": true,
+            "explanation": "Chapter 2: “… the city of Yesi in Turkestan (which is now the city of Turkestan in Kazakhstan) …”",
+            "feedback": {
+              "correct": "Correct. Yesi is now the city of Turkestan.",
+              "incorrect": "Read the brackets in the second sentence."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-2-believed",
+            "type": "multiple-choice",
+            "title": "Notice: It Is Believed That …",
+            "instructions": "Read the sentence. Then choose what the phrase shows.",
+            "question": "“It is believed that he was born in the town of Sayram …” Why does the writer start like this?",
+            "options": ["Many people accept this, but it is not completely certain.", "The writer saw it himself.", "Nobody believes it."],
+            "correctAnswer": 0,
+            "explanation": "“It is believed that …” reports a common view. Writers use it when there is no complete proof.",
+            "feedback": {
+              "correct": "Correct. A common view, not complete proof.",
+              "incorrect": "Is the writer completely sure?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-2-forms",
+            "type": "choose-form",
+            "title": "Build: Which Is Now, Grew Up, At a Time When",
+            "instructions": "Choose the correct form for each sentence from Chapter 2.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "He moved to the city of Yesi ([choice] is now the city of Turkestan in Kazakhstan).",
+                "options": ["which", "who", "what"],
+                "answer": 0
+              },
+              {
+                "sentence": "He [choice] up at a time when Turkestan was a center for various fields of knowledge.",
+                "options": ["grew", "grow", "grown"],
+                "answer": 0
+              },
+              {
+                "sentence": "He grew up at a time [choice] Turkestan was a center for knowledge.",
+                "options": ["when", "which", "where"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Which” adds information about a place. “Grow up” is irregular: grew up. “At a time when” describes a period.",
+            "feedback": {
+              "correct": "Well done. Which, grew, when.",
+              "incorrect": "Check the relative word, the past form and the time word."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-2-errors",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake in each sentence and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "It believed that he was born in Sayram.",
+                "error": "believed",
+                "options": ["is believed", "believes", "was believing"],
+                "answer": 0
+              },
+              {
+                "sentence": "He receive a good education in Yesi.",
+                "error": "receive",
+                "options": ["received", "receives", "receiving"],
+                "answer": 0
+              },
+              {
+                "sentence": "Turkestan was a center for various field of knowledge.",
+                "error": "field",
+                "options": ["fields", "field’s", "fielded"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“It is believed that” needs “is”. Use the past simple for his life. After “various”, use a plural noun.",
+            "feedback": {
+              "correct": "Correct. Is believed, received, fields.",
+              "incorrect": "Check the passive, the tense and the plural."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-2-my-town",
+            "type": "reflection",
+            "title": "Use: A Place Then and Now",
+            "instructions": "Write four to five sentences about a place that had another name in the past.",
+            "question": "What was it called? What is it called now?",
+            "correctAnswer": null,
+            "explanation": "Example: “Ankara was called Ankyra in ancient times. It is believed that it was an important stop on old trade roads. Later, it grew into a large city. Today, Ankara is the capital of Türkiye.”",
+            "feedback": {
+              "correct": "Check: which is now or an old name, It is believed that and today.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Give the old name and the new name.",
+                "mode": "Individual",
+                "example": "…, which is now …, was …"
+              },
+              {
+                "question": "Say what it was like in the past.",
+                "mode": "Individual",
+                "example": "It is believed that …"
+              },
+              {
+                "question": "Say what it is like today.",
+                "mode": "Pair",
+                "example": "Today, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Who did Yesevî study with in Yesi?",
+          "options": ["Arslan Baba", "Sheikh Yûsuf el-Hemedânî", "Timur"],
+          "answer": 0,
+          "quote": "There, he studied with Arslan Baba and received a good education."
+        },
+        "iCan": [
+          "I can describe Yesevî’s childhood and education.",
+          "I can explain what Turkestan was like in his time.",
+          "I can use It is believed that and which is now."
+        ]
+      },
+      {
+        "id": 3,
+        "type": "story",
+        "title": "Master and Return to Yesi",
+        "image": "",
+        "audioUrl": "",
+        "content": "After Arslan Baba died, Ahmed Yesevî went to Bukhara (Buhara). At that time, Bukhara was a very important center for Islam. There, Yesevî learned Islamic sciences under the guidance of Sheikh Yûsuf el-Hemedânî. He was a great scholar and a famous Sufi master who played the greatest role in training Yesevî.\n\nWhen his master died, Yesevî continued his work in that area for a short time. Later, he handed over his duty as a spiritual leader to Sheikh Abdülhâlik Gucdüvânî. He then returned to Yesi and continued his spiritual guidance there until he died in 1166.",
+        "vocabulary": [
+          {
+            "word": "scholar",
+            "definition": "A person who has studied a subject deeply."
+          },
+          {
+            "word": "training",
+            "definition": "Teaching the skills for a job or way of life."
+          },
+          {
+            "word": "handed over",
+            "definition": "Gave a duty or position to someone else."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h3a",
+            "x": 30,
+            "y": 40,
+            "title": "Bukhara",
+            "description": "At that time, Bukhara was a very important center for Islam."
+          },
+          {
+            "id": "yesevi-b1-en-h3b",
+            "x": 70,
+            "y": 45,
+            "title": "Sheikh Yûsuf el-Hemedânî",
+            "description": "He was a great scholar and a famous Sufi master who played the greatest role in training Yesevî."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-3",
+            "type": "sequencing",
+            "title": "From Bukhara to Yesi",
+            "instructions": "Put the events in order.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Arslan Baba died."
+              },
+              {
+                "id": "2",
+                "text": "Ahmed Yesevî went to Bukhara."
+              },
+              {
+                "id": "3",
+                "text": "Ahmed Yesevî learned Islamic sciences under Sheikh Yûsuf el-Hemedânî."
+              },
+              {
+                "id": "4",
+                "text": "Ahmed Yesevî handed over his duty to Sheikh Abdülhâlik Gucdüvânî."
+              },
+              {
+                "id": "5",
+                "text": "Ahmed Yesevî returned to Yesi."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "Chapter 3 tells the events in order: Arslan Baba’s death, Bukhara, his master, handing over his duty and his return.",
+            "feedback": {
+              "correct": "Correct. You followed the order of the chapter.",
+              "incorrect": "Follow the chapter from the start."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-3-who-played",
+            "type": "multiple-choice",
+            "title": "Notice: A Master Who Played the Greatest Role",
+            "instructions": "Read the sentence. Then choose what the “who” part does.",
+            "question": "“He was a great scholar and a famous Sufi master who played the greatest role in training Yesevî.” What does the “who” part tell us?",
+            "options": ["which master it was and why he was important", "when Yesevî was born", "where Bukhara is"],
+            "correctAnswer": 0,
+            "explanation": "A defining relative clause with “who” tells us more about the person. Here, it shows why this master was important.",
+            "feedback": {
+              "correct": "Correct. It describes the master.",
+              "incorrect": "What did this master do?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-3-order",
+            "type": "choose-form",
+            "title": "Build: After, When, Then",
+            "instructions": "Choose the correct word for each sentence from Chapter 3.",
+            "question": "Which word fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] Arslan Baba died, Ahmed Yesevî went to Bukhara.",
+                "options": ["After", "Then", "Until"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice] his master died, Yesevî continued his work in that area for a short time.",
+                "options": ["When", "Then", "Until"],
+                "answer": 0
+              },
+              {
+                "sentence": "He [choice] returned to Yesi and continued his spiritual guidance there.",
+                "options": ["then", "when", "after"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“After” and “when” start a time clause. “Then” shows the next event.",
+            "feedback": {
+              "correct": "Well done. After, When, then.",
+              "incorrect": "Which word starts a time clause?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-3-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "He handed over his duty to Sheikh Abdülhâlik Gucdüvânî.",
+                "frame": "He [blank] his duty to Sheikh Abdülhâlik Gucdüvânî.",
+                "answers": ["gave"]
+              },
+              {
+                "source": "Yesevî learned Islamic sciences under the guidance of Sheikh Yûsuf el-Hemedânî.",
+                "frame": "Sheikh Yûsuf el-Hemedânî [blank] Yesevî Islamic sciences.",
+                "answers": ["taught"]
+              },
+              {
+                "source": "He continued his spiritual guidance there until he died in 1166.",
+                "frame": "He continued his spiritual guidance there until his [blank] in 1166.",
+                "answers": ["death"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Hand over” = “give”. “Learn under someone” = “someone teaches you”. “Until he died” = “until his death”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use gave, taught and death."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-3-my-teacher",
+            "type": "reflection",
+            "title": "Use: A Teacher Who Trained Me",
+            "instructions": "Write four to five sentences about a person who trained you.",
+            "question": "What did this person teach you?",
+            "correctAnswer": null,
+            "explanation": "Example: “My swimming coach is a person who never gives up on his students. When I started, I was afraid of the water. After many lessons, I learned to swim well. Now I help younger children in the pool.”",
+            "feedback": {
+              "correct": "Check: who, after or when, and now.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say who the person is with who.",
+                "mode": "Individual",
+                "example": "… is a person who …"
+              },
+              {
+                "question": "Order two events with after or when.",
+                "mode": "Individual",
+                "example": "After / When …, I …"
+              },
+              {
+                "question": "Say what you do now.",
+                "mode": "Pair",
+                "example": "Now I …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: When did Yesevî die?",
+          "options": ["in 1166", "in 1212", "in 1405"],
+          "answer": 0,
+          "quote": "until he died in 1166"
+        },
+        "iCan": [
+          "I can describe Yesevî’s years in Bukhara in order.",
+          "I can explain the role of his master.",
+          "I can use after, when and then to order past events."
+        ]
+      },
+      {
+        "id": 4,
+        "type": "story",
+        "title": "Fame Among the Nomads",
+        "image": "",
+        "audioUrl": "",
+        "content": "During this period, he became widely known among the nomadic Turkic communities that lived near Tashkent (Taşkent) and along the Syr Darya River (Seyhun Nehri). He won the love of the people because of his simple language and his words of wisdom (hikmet).",
+        "vocabulary": [],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h4a",
+            "x": 30,
+            "y": 40,
+            "title": "Nomadic Communities",
+            "description": "He became widely known among the nomadic Turkic communities."
+          },
+          {
+            "id": "yesevi-b1-en-h4b",
+            "x": 70,
+            "y": 45,
+            "title": "The Syr Darya River",
+            "description": "These communities lived near Tashkent and along the Syr Darya River (Seyhun Nehri)."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-4",
+            "type": "true-false",
+            "title": "His Wealth",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "People loved Yesevî because of his wealth and power.",
+            "correctAnswer": false,
+            "explanation": "Chapter 4: “He won the love of the people because of his simple language and his words of wisdom (hikmet).”",
+            "feedback": {
+              "correct": "Correct. Simple language and wisdom won their love.",
+              "incorrect": "Read the second sentence."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-4-because-of",
+            "type": "multiple-choice",
+            "title": "Notice: Because Of …",
+            "instructions": "Read the sentence. Then choose what comes after “because of”.",
+            "question": "“He won the love of the people because of his simple language and his words of wisdom.” What comes after “because of”?",
+            "options": ["a noun phrase", "a full sentence with a verb", "an adjective alone"],
+            "correctAnswer": 0,
+            "explanation": "“Because of” is followed by a noun phrase (his simple language). “Because” is followed by a clause with a verb (he used simple language).",
+            "feedback": {
+              "correct": "Correct. A noun phrase.",
+              "incorrect": "Is there a verb after “because of”?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-4-because",
+            "type": "choose-form",
+            "title": "Build: Because or Because Of?",
+            "instructions": "Choose the correct form for each sentence.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "He won the love of the people [choice] his simple language.",
+                "options": ["because of", "because", "so"],
+                "answer": 0
+              },
+              {
+                "sentence": "People loved him [choice] he used simple language.",
+                "options": ["because", "because of", "so"],
+                "answer": 0
+              },
+              {
+                "sentence": "He spoke words of wisdom, [choice] people listened to him.",
+                "options": ["so", "because of", "because"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Because of + noun”, “because + clause”, and “so” for a result.",
+            "feedback": {
+              "correct": "Well done. Because of, because, so.",
+              "incorrect": "Is there a noun, a clause or a result?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-4-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "He won the love of the people because of his simple language.",
+                "frame": "He won the love of the people because he [blank] simple language.",
+                "answers": ["used"]
+              },
+              {
+                "source": "He became widely known among the nomadic Turkic communities.",
+                "frame": "Many people in the nomadic Turkic communities [blank] him.",
+                "answers": ["knew"]
+              },
+              {
+                "source": "The people loved him.",
+                "frame": "He [blank] the love of the people.",
+                "answers": ["won"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Because of + noun” can become “because + clause”. “Became widely known” = “many people knew him”. “Win someone’s love” = “be loved”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use used, knew and won."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-4-speaker",
+            "type": "reflection",
+            "title": "Use: A Speaker People Love",
+            "instructions": "Write four to five sentences about a person whose words people love.",
+            "question": "Why do people listen to this person?",
+            "correctAnswer": null,
+            "explanation": "Example: “Many people in our town love our imam. People listen to him because of his calm voice and short, clear talks. They also like him because he speaks to children kindly. Everyone understands his words.”",
+            "feedback": {
+              "correct": "Check: because of + noun and because + clause.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say who the person is.",
+                "mode": "Individual",
+                "example": "Many people love …"
+              },
+              {
+                "question": "Give a reason with because of.",
+                "mode": "Individual",
+                "example": "People listen to him / her because of …"
+              },
+              {
+                "question": "Give a reason with because.",
+                "mode": "Pair",
+                "example": "They also like him / her because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Why did the people love Yesevî?",
+          "options": ["because of his simple language and his words of wisdom", "because of his wealth", "because he was a ruler"],
+          "answer": 0,
+          "quote": "He won the love of the people because of his simple language and his words of wisdom (hikmet)."
+        },
+        "iCan": ["I can say where Yesevî became widely known.", "I can explain why people loved him.", "I can use because and because of."]
+      },
+      {
+        "id": 5,
+        "type": "story",
+        "title": "The Yesevî Path and the Mausoleum",
+        "image": "",
+        "audioUrl": "",
+        "content": "Ahmed Yesevî is still respected as a great spiritual leader by all Turkic peoples, especially the Kazakhs, Kyrgyz, Uzbeks, and Turkmen. They call him Pîr-i Turkistan, Hoca Yesevî, or Ata Yesevî. The Yesevî Path, which he started, spread across a very large area as far as Anatolia and the Balkans. At some point between 1389 and 1405, Timur traveled to the city of Yesi and visited the tomb of Ahmed Yesevî. After that, he ordered a great building, a mausoleum, to be built over the grave. This complex also included a mosque and a center for the Sufi students. However, the construction was left unfinished when Timur died in 1405. It was very important for Central Asian Turks, the people of the steppes, to be buried near this area. For this reason, many people bought pieces of land near the mausoleum during their lives to be buried there. This tradition clearly shows the deep influence of Ahmed Yesevî.\n\nIn 2003, the historic structure was added to the UNESCO World Heritage List. Its restoration, landscaping, and exterior lighting have been fully completed by TİKA (Turkish Cooperation and Coordination Agency). The complex is currently open to visitors, under protection, and in active use. This mausoleum and complex represent a shared cultural heritage of the Turkic-Islamic world.",
+        "vocabulary": [
+          {
+            "word": "respected",
+            "definition": "Admired for good qualities."
+          },
+          {
+            "word": "spread across",
+            "definition": "Reached many parts of an area."
+          },
+          {
+            "word": "tomb",
+            "definition": "A grave, often with a building over it."
+          },
+          {
+            "word": "steppes",
+            "definition": "Large, flat lands with grass and few trees."
+          },
+          {
+            "word": "to be buried",
+            "definition": "To be put in the ground after death."
+          },
+          {
+            "word": "Heritage",
+            "definition": "Traditions, buildings and culture from the past."
+          },
+          {
+            "word": "landscaping",
+            "definition": "Making the land around a building beautiful."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h5a",
+            "x": 30,
+            "y": 40,
+            "title": "The Mausoleum",
+            "description": "Timur ordered a great building, a mausoleum, to be built over the grave of Ahmed Yesevî."
+          },
+          {
+            "id": "yesevi-b1-en-h5b",
+            "x": 70,
+            "y": 45,
+            "title": "UNESCO 2003",
+            "description": "In 2003, the historic structure was added to the UNESCO World Heritage List."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-5",
+            "type": "multiple-choice",
+            "title": "Buried Near the Mausoleum",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Why did many people buy land near the mausoleum during their lives?",
+            "options": ["to be buried there", "to build houses for visitors", "to sell it later"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “For this reason, many people bought pieces of land near the mausoleum during their lives to be buried there.”",
+            "feedback": {
+              "correct": "Correct. To be buried there.",
+              "incorrect": "Read the end of the first paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-5-passive",
+            "type": "multiple-choice",
+            "title": "Notice: Was Left Unfinished",
+            "instructions": "Read the sentence. Then choose what the passive form shows.",
+            "question": "“However, the construction was left unfinished when Timur died in 1405.” Why does the writer use “was left”?",
+            "options": [
+              "The construction is the topic; who left it is not important.",
+              "Timur left the city.",
+              "The construction is still going on."
+            ],
+            "correctAnswer": 0,
+            "explanation": "The passive (was + past participle) puts the construction first. The person who did the action is not important here.",
+            "feedback": {
+              "correct": "Correct. The construction is the topic.",
+              "incorrect": "What is the sentence about?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-5-passives",
+            "type": "choose-form",
+            "title": "Build: Past and Present Perfect Passive",
+            "instructions": "Choose the correct form for each sentence from Chapter 5.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "In 2003, the historic structure [choice] added to the UNESCO World Heritage List.",
+                "options": ["was", "has", "is being"],
+                "answer": 0
+              },
+              {
+                "sentence": "Its restoration and landscaping [choice] been fully completed by TİKA.",
+                "options": ["have", "were", "has"],
+                "answer": 0
+              },
+              {
+                "sentence": "Timur ordered a great building to be [choice] over the grave.",
+                "options": ["built", "build", "building"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use “was + past participle” with a past date (2003). Use “have been + past participle” for a result that matters now. After “to be”, use the past participle.",
+            "feedback": {
+              "correct": "Well done. Was, have, built.",
+              "incorrect": "Is it a past date or a result now?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-5-errors",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake in each sentence and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "Ahmed Yesevî is still respect by all Turkic peoples.",
+                "error": "respect",
+                "options": ["respected", "respecting", "respects"],
+                "answer": 0
+              },
+              {
+                "sentence": "The complex is currently open to visitors and under protect.",
+                "error": "protect",
+                "options": ["protection", "protected", "protecting"],
+                "answer": 0
+              },
+              {
+                "sentence": "Many people bought land to be bury there.",
+                "error": "bury",
+                "options": ["buried", "burying", "burial"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "The passive needs a past participle (respected, buried). After “under”, use a noun (protection).",
+            "feedback": {
+              "correct": "Correct. Respected, protection, buried.",
+              "incorrect": "Check the passive forms and the noun."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-5-monument",
+            "type": "reflection",
+            "title": "Use: A Historic Building I Know",
+            "instructions": "Write five to six sentences about a historic building. Use two passive forms.",
+            "question": "When was it built? What has been done to protect it?",
+            "correctAnswer": null,
+            "explanation": "Example: “The Mevlana Museum in Konya is a historic building. Its famous green dome was built in the 13th century. Later, more rooms were added. In recent years, it has been carefully restored. Today, it is visited by many people because it is part of our shared culture.”",
+            "feedback": {
+              "correct": "Check: was built, has been and a reason.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say when and by whom it was built.",
+                "mode": "Individual",
+                "example": "… was built by … in …"
+              },
+              {
+                "question": "Say what has been done recently.",
+                "mode": "Individual",
+                "example": "It has been …"
+              },
+              {
+                "question": "Say why it is important today.",
+                "mode": "Pair",
+                "example": "It is important because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: When did Timur die?",
+          "options": ["in 1405", "in 1389", "in 2003"],
+          "answer": 0,
+          "quote": "the construction was left unfinished when Timur died in 1405."
+        },
+        "iCan": [
+          "I can explain how the Yesevî Path spread and how people respect Yesevî today.",
+          "I can describe the history of the mausoleum.",
+          "I can use the passive in the past and the present perfect."
+        ]
+      },
+      {
+        "id": 6,
+        "type": "story",
+        "title": "Why Turkish?",
+        "image": "",
+        "audioUrl": "",
+        "content": "During Ahmed Yesevî’s time, people used Arabic for education and religion, and Persian for literature. However, Yesevî chose to write his poems in Turkish, which helped develop a Turkish identity in Islamic culture. He was a Hanafi (Hanefi) scholar who received a strict madrasa education and gained a wide knowledge of Sufism. His main goal was to spread Islam among the Turks. As a spiritual guide, he also aimed to teach the rules of Sharia (Islamic Law) and the principles of Sufism. Thanks to his followers, his Sufi path spread to many places. He sent many of the scholars he trained to Turkmen tribes to teach them the ideas of statehood and nationhood.\n\nAhmed Yesevî wanted to introduce Islam to Turkish communities using simple and clear teachings. He wrote about the connections between Allah, the universe, and people in a way that everyone could easily understand. He shared these ideas through simple poems, which were later collected in the book Dîvân-ı Hikmet.",
+        "vocabulary": [
+          {
+            "word": "strict",
+            "definition": "Following rules very carefully."
+          },
+          {
+            "word": "introduce",
+            "definition": "Present something new to people."
+          },
+          {
+            "word": "the universe",
+            "definition": "Everything that exists."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h6a",
+            "x": 30,
+            "y": 40,
+            "title": "Arabic and Persian",
+            "description": "During Ahmed Yesevî’s time, people used Arabic for education and religion, and Persian for literature."
+          },
+          {
+            "id": "yesevi-b1-en-h6b",
+            "x": 70,
+            "y": 45,
+            "title": "Dîvân-ı Hikmet",
+            "description": "His simple poems were later collected in the book Dîvân-ı Hikmet."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-6",
+            "type": "drag-drop",
+            "title": "Which Language For What?",
+            "instructions": "Sort the uses into the correct language.",
+            "question": "What did people use each language for?",
+            "dragDropGroups": [
+              {
+                "group": "Arabic",
+                "items": ["education", "religion"]
+              },
+              {
+                "group": "Persian",
+                "items": ["literature"]
+              },
+              {
+                "group": "Turkish",
+                "items": ["Yesevî’s poems"]
+              }
+            ],
+            "correctAnswer": {
+              "Arabic": ["education", "religion"],
+              "Persian": ["literature"],
+              "Turkish": ["Yesevî’s poems"]
+            },
+            "explanation": "Chapter 6: “people used Arabic for education and religion, and Persian for literature. However, Yesevî chose to write his poems in Turkish …”",
+            "feedback": {
+              "correct": "Correct. Arabic, Persian and Turkish each had a use.",
+              "incorrect": "Read the first two sentences."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-6-which-helped",
+            "type": "multiple-choice",
+            "title": "Notice: …, Which Helped …",
+            "instructions": "Read the sentence. Then choose what “which” refers to.",
+            "question": "“Yesevî chose to write his poems in Turkish, which helped develop a Turkish identity in Islamic culture.” What does “which” refer to?",
+            "options": ["his choice to write in Turkish", "Islamic culture", "the poems in Persian"],
+            "correctAnswer": 0,
+            "explanation": "Here “which” refers to the whole idea before it: his choice to write in Turkish. This choice helped develop a Turkish identity.",
+            "feedback": {
+              "correct": "Correct. His choice.",
+              "incorrect": "What helped develop a Turkish identity?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-6-linkers",
+            "type": "choose-form",
+            "title": "Build: However, Thanks To, In a Way That",
+            "instructions": "Choose the correct word for each sentence from Chapter 6.",
+            "question": "Which word fits?",
+            "formChoices": [
+              {
+                "sentence": "People used Arabic for religion. [choice], Yesevî chose to write his poems in Turkish.",
+                "options": ["However", "Because", "So"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice] his followers, his Sufi path spread to many places.",
+                "options": ["Thanks to", "Because", "Although"],
+                "answer": 0
+              },
+              {
+                "sentence": "He wrote about these connections in a way [choice] everyone could easily understand.",
+                "options": ["that", "what", "who"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“However” shows a contrast. “Thanks to + noun” gives a positive reason. “In a way that” describes how.",
+            "feedback": {
+              "correct": "Well done. However, Thanks to, that.",
+              "incorrect": "Check the contrast, the reason and the description."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-6-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "His main goal was to spread Islam among the Turks.",
+                "frame": "He mainly [blank] to spread Islam among the Turks.",
+                "answers": ["aimed", "wanted"]
+              },
+              {
+                "source": "Thanks to his followers, his Sufi path spread to many places.",
+                "frame": "His Sufi path spread to many places [blank] of his followers.",
+                "answers": ["because"]
+              },
+              {
+                "source": "His poems were later collected in the book Dîvân-ı Hikmet.",
+                "frame": "Later, people [blank] his poems in the book Dîvân-ı Hikmet.",
+                "answers": ["collected"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“His goal was to” = “he aimed to”. “Thanks to” = “because of” (positive). A passive can become active.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use aimed, because and collected."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-6-my-language",
+            "type": "reflection",
+            "title": "Use: Why My Language Matters",
+            "instructions": "Write five to six sentences about why your language matters to you.",
+            "question": "When do you use it? Why is it important?",
+            "correctAnswer": null,
+            "explanation": "Example: “I use Turkish at home and with my friends. At school, I also learn English and Arabic. Many people think English is enough for the internet. However, I love reading poems in my own language. Thanks to my language, I can understand my grandparents’ stories.”",
+            "feedback": {
+              "correct": "Check: However, Thanks to and a clear reason.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what your language is and where you use it.",
+                "mode": "Individual",
+                "example": "I use … at home and …"
+              },
+              {
+                "question": "Use However for a contrast.",
+                "mode": "Individual",
+                "example": "Many people … However, …"
+              },
+              {
+                "question": "Use Thanks to for a positive reason.",
+                "mode": "Pair",
+                "example": "Thanks to my language, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Which language did people use for literature in Yesevî’s time?",
+          "options": ["Persian", "Arabic", "Turkish"],
+          "answer": 0,
+          "quote": "people used Arabic for education and religion, and Persian for literature."
+        },
+        "iCan": [
+          "I can explain why Yesevî chose Turkish.",
+          "I can describe his goals as a scholar and spiritual guide.",
+          "I can use However, which and Thanks to."
+        ]
+      },
+      {
+        "id": 7,
+        "type": "story",
+        "title": "The Path of Wisdom and Society",
+        "image": "",
+        "audioUrl": "",
+        "content": "According to him, the main goal of wisdom is to help people leave their ego behind and live according to the will of Allah. To achieve this, education and self-discipline are very important. People must destroy bad feelings like greed and lies, and they must develop good values like patience, love, and humility. He showed that religion is not just about sin and reward. True wisdom means being a good and real human being.\n\nIn his poems, Ahmed Yesevî did not only focus on religious topics but also wrote about social problems. In his wise words, he discussed the importance of caring for orphans and strangers, helping oppressed people, and not hurting anyone, even if they are non-believers. At the same time, he strongly criticized those who harm society, such as dishonest judges who take bribes and cruel rulers.",
+        "vocabulary": [
+          {
+            "word": "behind",
+            "definition": "In the past; no longer with you."
+          },
+          {
+            "word": "sin",
+            "definition": "An action that is wrong in religion."
+          },
+          {
+            "word": "reward",
+            "definition": "Something good given for a good action."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h7a",
+            "x": 30,
+            "y": 40,
+            "title": "Good Values",
+            "description": "People must develop good values like patience, love, and humility."
+          },
+          {
+            "id": "yesevi-b1-en-h7b",
+            "x": 70,
+            "y": 45,
+            "title": "Social Problems",
+            "description": "In his poems, Ahmed Yesevî did not only focus on religious topics but also wrote about social problems."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-7",
+            "type": "true-false",
+            "title": "Only Religious Topics?",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Ahmed Yesevî wrote only about religious topics in his poems.",
+            "correctAnswer": false,
+            "explanation": "Chapter 7: “In his poems, Ahmed Yesevî did not only focus on religious topics but also wrote about social problems.”",
+            "feedback": {
+              "correct": "Correct. He also wrote about social problems.",
+              "incorrect": "Read the first sentence of the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-7-not-only",
+            "type": "multiple-choice",
+            "title": "Notice: Not Only … But Also",
+            "instructions": "Read the sentence. Then choose what the structure shows.",
+            "question": "“He did not only focus on religious topics but also wrote about social problems.” What does “not only … but also” show?",
+            "options": ["He did both things.", "He did only the first thing.", "He did neither thing."],
+            "correctAnswer": 0,
+            "explanation": "“Not only … but also” adds a second, often surprising, point to the first one: religious topics AND social problems.",
+            "feedback": {
+              "correct": "Correct. He did both.",
+              "incorrect": "Did he write about one topic or two?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-7-forms",
+            "type": "choose-form",
+            "title": "Build: Must, Like, Even If",
+            "instructions": "Choose the correct form for each sentence from Chapter 7.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "People [choice] destroy bad feelings like greed and lies.",
+                "options": ["must", "can", "might"],
+                "answer": 0
+              },
+              {
+                "sentence": "They must develop good values [choice] patience, love, and humility.",
+                "options": ["like", "as if", "unlike"],
+                "answer": 0
+              },
+              {
+                "sentence": "He discussed not hurting anyone, [choice] if they are non-believers.",
+                "options": ["even", "only", "as"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Must” shows a strong duty. “Like” gives examples. “Even if” means “it does not matter whether”.",
+            "feedback": {
+              "correct": "Well done. Must, like, even.",
+              "incorrect": "Check the duty, the examples and the condition."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-7-errors",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake in each sentence and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "People must to develop good values.",
+                "error": "must to",
+                "options": ["must", "must be", "musts"],
+                "answer": 0
+              },
+              {
+                "sentence": "Education and self-discipline is very important.",
+                "error": "is",
+                "options": ["are", "be", "was being"],
+                "answer": 0
+              },
+              {
+                "sentence": "He criticized those who harms society.",
+                "error": "harms",
+                "options": ["harm", "harming", "harmed by"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "After “must”, use the base verb. Two subjects joined by “and” take a plural verb. “Those who” takes a plural verb.",
+            "feedback": {
+              "correct": "Correct. Must, are, harm.",
+              "incorrect": "Check the modal and the subject–verb agreement."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-7-good-person",
+            "type": "reflection",
+            "title": "Use: Being a Good Person Today",
+            "instructions": "Write five to six sentences about what a good person must do today.",
+            "question": "Which values matter? Which problems should we care about?",
+            "correctAnswer": null,
+            "explanation": "Example: “A good person must be honest and patient. A good person not only prays but also helps neighbors in need. We should care for lonely old people in our street. We should help others even if they are very different from us. True goodness shows in our actions.”",
+            "feedback": {
+              "correct": "Check: must, not only … but also and even if.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what a good person must do.",
+                "mode": "Individual",
+                "example": "A good person must …"
+              },
+              {
+                "question": "Use not only … but also.",
+                "mode": "Individual",
+                "example": "A good person not only … but also …"
+              },
+              {
+                "question": "Use even if.",
+                "mode": "Pair",
+                "example": "We should help others even if …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Which bad feelings must people destroy?",
+          "options": ["greed and lies", "patience and love", "fear and hunger"],
+          "answer": 0,
+          "quote": "People must destroy bad feelings like greed and lies"
+        },
+        "iCan": [
+          "I can explain the main goal of wisdom for Yesevî.",
+          "I can describe the social problems in his poems.",
+          "I can use must, not only … but also and even if."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "story",
+        "title": "Teaching with Love",
+        "image": "",
+        "audioUrl": "",
+        "content": "Yesevî’s education method was centered on love. In his view, teaching students properly is only possible if you make them love what they learn. People will not accept something they do not love, even if they learn it. For this reason, teachers must treat their students with love and kindness so that students will listen to them and focus on the lessons.\n\nThe movement started by Ahmed Yesevî in Turkestan grew quickly and became very strong. Later, his teachings spread to many places and became a major Sufi path in Islamic countries, especially in the Turkic world. Through his followers, his poems even reached Turkish tribes who lived in the most distant areas. In this way, the Yesevî path spread among the Turks of Central Asia in a short time.",
+        "vocabulary": [
+          {
+            "word": "properly",
+            "definition": "In the right way."
+          },
+          {
+            "word": "treat",
+            "definition": "Behave toward someone in a certain way."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h8a",
+            "x": 30,
+            "y": 40,
+            "title": "Love in Teaching",
+            "description": "Yesevî’s education method was centered on love."
+          },
+          {
+            "id": "yesevi-b1-en-h8b",
+            "x": 70,
+            "y": 45,
+            "title": "Distant Tribes",
+            "description": "Through his followers, his poems even reached Turkish tribes who lived in the most distant areas."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-8",
+            "type": "multiple-choice",
+            "title": "Why Love?",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Why must teachers treat their students with love and kindness?",
+            "options": [
+              "so that students will listen to them and focus on the lessons",
+              "so that students will finish school quickly",
+              "so that teachers can rest"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 8: “… teachers must treat their students with love and kindness so that students will listen to them and focus on the lessons.”",
+            "feedback": {
+              "correct": "Correct. So that students listen and focus.",
+              "incorrect": "Read the end of the first paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-8-only-if",
+            "type": "multiple-choice",
+            "title": "Notice: Only Possible If …",
+            "instructions": "Read the sentence. Then choose what “only possible if” means.",
+            "question": "“In his view, teaching students properly is only possible if you make them love what they learn.” What does this mean?",
+            "options": [
+              "Without love for the subject, good teaching cannot happen.",
+              "Teaching is always possible.",
+              "Students must love their teachers only."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Only possible if” gives the one condition that is necessary. Without it, the result cannot happen.",
+            "feedback": {
+              "correct": "Correct. Love is the necessary condition.",
+              "incorrect": "What must happen first?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-8-forms",
+            "type": "choose-form",
+            "title": "Build: So That, Even If, For This Reason",
+            "instructions": "Choose the correct words for each sentence from Chapter 8.",
+            "question": "Which words fit?",
+            "formChoices": [
+              {
+                "sentence": "People will not accept something they do not love, [choice] if they learn it.",
+                "options": ["even", "only", "as"],
+                "answer": 0
+              },
+              {
+                "sentence": "[choice], teachers must treat their students with love and kindness.",
+                "options": ["For this reason", "Even if", "Although"],
+                "answer": 0
+              },
+              {
+                "sentence": "Teachers must be kind [choice] students will listen to them.",
+                "options": ["so that", "even if", "because of"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Even if” = it does not matter whether. “For this reason” = because of this. “So that” gives a purpose.",
+            "feedback": {
+              "correct": "Well done. Even, For this reason, so that.",
+              "incorrect": "Is it a condition, a reason or a purpose?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-8-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Teaching students properly is only possible if you make them love what they learn.",
+                "frame": "You cannot teach students properly [blank] you make them love what they learn.",
+                "answers": ["unless"]
+              },
+              {
+                "source": "The movement grew quickly and became very strong.",
+                "frame": "The movement grew quickly and became very [blank].",
+                "answers": ["powerful"]
+              },
+              {
+                "source": "The Yesevî path spread among the Turks of Central Asia in a short time.",
+                "frame": "The Yesevî path spread among the Turks of Central Asia very [blank].",
+                "answers": ["quickly"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Only possible if” = “cannot … unless”. “Strong” ≈ “powerful”. “In a short time” = “quickly”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use unless, powerful and quickly."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-8-best-teacher",
+            "type": "reflection",
+            "title": "Use: How the Best Teachers Teach",
+            "instructions": "Write five to six sentences about how the best teachers teach.",
+            "question": "How do they make students love learning?",
+            "correctAnswer": null,
+            "explanation": "Example: “The best teachers are patient and kind. They tell stories so that students remember the lesson. They also listen to every student’s ideas. Good learning is only possible if students feel safe. When students love a subject, they keep learning at home.”",
+            "feedback": {
+              "correct": "Check: so that, only possible if and an example.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what the best teachers do.",
+                "mode": "Individual",
+                "example": "The best teachers …"
+              },
+              {
+                "question": "Use so that for a purpose.",
+                "mode": "Individual",
+                "example": "They … so that students …"
+              },
+              {
+                "question": "Use only possible if.",
+                "mode": "Pair",
+                "example": "Good learning is only possible if …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: What was Yesevî’s education method centered on?",
+          "options": ["love", "fear", "punishment"],
+          "answer": 0,
+          "quote": "Yesevî’s education method was centered on love."
+        },
+        "iCan": [
+          "I can explain Yesevî’s education method.",
+          "I can describe how his movement spread.",
+          "I can use only possible if, so that and even if."
+        ]
+      },
+      {
+        "id": 9,
+        "type": "story",
+        "title": "The Dîvân-ı Hikmet",
+        "image": "",
+        "audioUrl": "",
+        "content": "Three important works are believed to belong to Ahmed Yesevî. They reflect his Sufi ideas and teachings: the Dîvân-ı Hikmet, the Fakrnâme, and the Risale der Adab-i Tarikat. However, the texts we have today were not written by Yesevî himself. Because people passed these sayings down for generations, they were probably written down much later.\n\nDîvân-ı Hikmet is the title of a collection that contains Yesevî’s poems called ‘hikmet’. It is the first and most important text of Turkic Sufi literature. Hikmets are very important because they played a big role in uniting Turks around the same ideas and thoughts.",
+        "vocabulary": [
+          {
+            "word": "passed these sayings down",
+            "definition": "Taught these sayings to younger people."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h9a",
+            "x": 30,
+            "y": 40,
+            "title": "Three Works",
+            "description": "Three important works are believed to belong to Ahmed Yesevî: the Dîvân-ı Hikmet, the Fakrnâme, and the Risale der Adab-i Tarikat."
+          },
+          {
+            "id": "yesevi-b1-en-h9b",
+            "x": 70,
+            "y": 45,
+            "title": "Passed Down",
+            "description": "People passed these sayings down for generations."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-9",
+            "type": "true-false",
+            "title": "Written by Yesevî Himself?",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The texts we have today were written by Yesevî himself.",
+            "correctAnswer": false,
+            "explanation": "Chapter 9: “However, the texts we have today were not written by Yesevî himself.”",
+            "feedback": {
+              "correct": "Correct. They were probably written down much later.",
+              "incorrect": "Read the third sentence."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-9-believed-to",
+            "type": "multiple-choice",
+            "title": "Notice: Are Believed to Belong",
+            "instructions": "Read the sentence. Then choose what the structure shows.",
+            "question": "“Three important works are believed to belong to Ahmed Yesevî.” What does “are believed to belong” show?",
+            "options": [
+              "People think the works are his, but this is not completely certain.",
+              "Yesevî wrote all three works himself.",
+              "Nobody knows the works."
+            ],
+            "correctAnswer": 0,
+            "explanation": "“Be believed to + verb” reports a common view about the subject. It is a careful way of writing when there is no full proof.",
+            "feedback": {
+              "correct": "Correct. A common view.",
+              "incorrect": "Is the writer completely sure?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-9-forms",
+            "type": "choose-form",
+            "title": "Build: Himself, Passed Down, Probably",
+            "instructions": "Choose the correct form for each sentence from Chapter 9.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The texts we have today were not written by Yesevî [choice].",
+                "options": ["himself", "itself", "him"],
+                "answer": 0
+              },
+              {
+                "sentence": "People [choice] these sayings down for generations.",
+                "options": ["passed", "past", "passing"],
+                "answer": 0
+              },
+              {
+                "sentence": "They were [choice] written down much later.",
+                "options": ["probably", "probable", "probability"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Himself” emphasizes the person. “Pass down” is a phrasal verb (passed). “Probably” is an adverb that shows the writer is not completely sure.",
+            "feedback": {
+              "correct": "Well done. Himself, passed, probably.",
+              "incorrect": "Check the pronoun, the verb and the adverb."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-9-errors",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake in each sentence and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "Three works are believe to belong to Yesevî.",
+                "error": "believe",
+                "options": ["believed", "believing", "belief"],
+                "answer": 0
+              },
+              {
+                "sentence": "The texts were not wrote by Yesevî himself.",
+                "error": "wrote",
+                "options": ["written", "writing", "writes"],
+                "answer": 0
+              },
+              {
+                "sentence": "Hikmets played a big role in unite Turks.",
+                "error": "unite",
+                "options": ["uniting", "united", "unites"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "The passive needs a past participle (believed, written). After a preposition (in), use the -ing form.",
+            "feedback": {
+              "correct": "Correct. Believed, written, uniting.",
+              "incorrect": "Check the passive forms and the verb after “in”."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-9-family-saying",
+            "type": "reflection",
+            "title": "Use: A Saying Passed Down in My Family",
+            "instructions": "Write five to six sentences about a saying passed down in your family.",
+            "question": "Who said it first? What does it mean?",
+            "correctAnswer": null,
+            "explanation": "Example: “A saying that has been passed down in my family is ‘Patience is the key to every door.’ It is believed to come from my great-grandmother. She probably heard it from her own mother. It means that we should wait calmly when things are difficult. I like it because it helps me before exams.”",
+            "feedback": {
+              "correct": "Check: passed down, is believed to and probably.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Give the saying.",
+                "mode": "Individual",
+                "example": "A saying that has been passed down in my family is …"
+              },
+              {
+                "question": "Say who it is believed to come from.",
+                "mode": "Individual",
+                "example": "It is believed to come from …"
+              },
+              {
+                "question": "Say what it means and why you like it.",
+                "mode": "Pair",
+                "example": "It means … I like it because …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: Which is the first and most important text of Turkic Sufi literature?",
+          "options": ["Dîvân-ı Hikmet", "Fakrnâme", "Risale der Adab-i Tarikat"],
+          "answer": 0,
+          "quote": "It is the first and most important text of Turkic Sufi literature."
+        },
+        "iCan": [
+          "I can name the three works believed to belong to Yesevî.",
+          "I can explain how the texts reached us.",
+          "I can use are believed to, the passive with by and probably."
+        ]
+      },
+      {
+        "id": 10,
+        "type": "story",
+        "title": "What Is Wisdom?",
+        "image": "",
+        "audioUrl": "",
+        "content": "In the Turkish-Islamic tradition, the word “wisdom” (hikmet) is very important. In fact, the Holy Qur’an is seen as a source of wisdom itself. The Qur’an looks at wisdom in two different ways. First, wisdom is a main aim of education. It helps students know the truth, understand it deeply, and make good choices. This is one of the most important goals that students are expected to achieve. Second, the Qur’an shows wisdom as a great gift from Allah and an important quality of prophets. In the end, this wisdom brings important values like honesty, justice, doing good deeds, and living with religious values.\n\nDivine religions make rules so that people can live with faith and good morals. The ideas of “forbidden” (haram) and “permitted” (helal), and all other religious rules, are not just simple rules. The real reason behind every rule is wisdom. In Islamic law, this idea is called Makasidü’ş-şeria (the goals of Islamic law). Its purpose is to protect five important things: life, mind, religion, family, and property.\n\nWisdom explains the meaning and purpose of every action we take. Without wisdom, religious rules and duties are just empty tasks. While law answers the questions “What?” and “How?”, wisdom answers the question “Why?”.\n\nKnowing what to do and how to do it is important. However, the question of ‘why’ is the most important because it gives meaning to all our actions. In the end, all rules and duties become truly important because of the wisdom behind them.\n\nOriginally, the Arabic word for wisdom means ‘to prevent.’ Wisdom protects people from ignorance and injustice. The Arabic word for ‘rule’ (hüküm) comes from the same root. Rules tell us ‘How to do’ something, but wisdom tells us ‘Why we do’ it. Without wisdom, rules have no meaning. If we do not ask ‘Why?’, religion and morals become just meaningless rules.",
+        "vocabulary": [
+          {
+            "word": "achieve",
+            "definition": "Succeed in doing something."
+          },
+          {
+            "word": "justice",
+            "definition": "Fair treatment for everyone."
+          },
+          {
+            "word": "deeds",
+            "definition": "Actions."
+          },
+          {
+            "word": "forbidden",
+            "definition": "Not allowed."
+          },
+          {
+            "word": "permitted",
+            "definition": "Allowed."
+          },
+          {
+            "word": "goals",
+            "definition": "Aims."
+          },
+          {
+            "word": "property",
+            "definition": "The things that a person owns."
+          },
+          {
+            "word": "to prevent",
+            "definition": "To stop something from happening."
+          },
+          {
+            "word": "protects",
+            "definition": "Keeps safe."
+          },
+          {
+            "word": "ignorance",
+            "definition": "Not knowing."
+          },
+          {
+            "word": "injustice",
+            "definition": "Unfair treatment."
+          },
+          {
+            "word": "meaningless",
+            "definition": "Without meaning or purpose."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h10a",
+            "x": 30,
+            "y": 40,
+            "title": "Makasidü’ş-şeria",
+            "description": "In Islamic law, the real reason behind every rule is called Makasidü’ş-şeria (the goals of Islamic law)."
+          },
+          {
+            "id": "yesevi-b1-en-h10b",
+            "x": 70,
+            "y": 45,
+            "title": "Five Important Things",
+            "description": "Its purpose is to protect five important things: life, mind, religion, family, and property."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-10",
+            "type": "multiple-choice",
+            "title": "Five Important Things",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "Which five things does Makasidü’ş-şeria aim to protect?",
+            "options": [
+              "life, mind, religion, family, and property",
+              "life, money, land, power, and fame",
+              "mind, language, music, art, and science"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 10: “Its purpose is to protect five important things: life, mind, religion, family, and property.”",
+            "feedback": {
+              "correct": "Correct. Life, mind, religion, family, and property.",
+              "incorrect": "Read the end of the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-10-while",
+            "type": "multiple-choice",
+            "title": "Notice: While Law Answers …",
+            "instructions": "Read the sentence. Then choose what “While” does.",
+            "question": "“While law answers the questions “What?” and “How?”, wisdom answers the question “Why?”.” What does “While” do here?",
+            "options": ["It compares two different things.", "It shows that two actions happen at the same time.", "It gives a reason."],
+            "correctAnswer": 0,
+            "explanation": "Here “while” compares two things: law and wisdom. It means “whereas”, not “during the time that”.",
+            "feedback": {
+              "correct": "Correct. It compares law and wisdom.",
+              "incorrect": "Is it about time or about a difference?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-10-forms",
+            "type": "choose-form",
+            "title": "Build: Without, So That, Comes From",
+            "instructions": "Choose the correct form for each sentence from Chapter 10.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] wisdom, religious rules and duties are just empty tasks.",
+                "options": ["Without", "With", "Unless"],
+                "answer": 0
+              },
+              {
+                "sentence": "Divine religions make rules [choice] people can live with faith and good morals.",
+                "options": ["so that", "even if", "because"],
+                "answer": 0
+              },
+              {
+                "sentence": "The Arabic word for ‘rule’ (hüküm) [choice] from the same root.",
+                "options": ["comes", "come", "coming"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Without + noun” means “if there is no”. “So that” gives a purpose. A singular subject takes “comes”.",
+            "feedback": {
+              "correct": "Well done. Without, so that, comes.",
+              "incorrect": "Check the preposition, the purpose and the verb."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-10-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "Without wisdom, rules have no meaning.",
+                "frame": "If there is no wisdom, rules are [blank].",
+                "answers": ["meaningless"]
+              },
+              {
+                "source": "Wisdom protects people from ignorance and injustice.",
+                "frame": "Wisdom keeps people [blank] from ignorance and injustice.",
+                "answers": ["safe"]
+              },
+              {
+                "source": "The question of ‘why’ is the most important.",
+                "frame": "No question is [blank] important than the question of ‘why’.",
+                "answers": ["more"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“No meaning” = “meaningless”. “Protect” = “keep safe”. A superlative can become “No … is more … than”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use meaningless, safe and more."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-10-why-rule",
+            "type": "reflection",
+            "title": "Use: The Wisdom Behind a Rule",
+            "instructions": "Write five to six sentences about the wisdom behind a rule.",
+            "question": "What does the rule say? Why do we follow it?",
+            "correctAnswer": null,
+            "explanation": "Example: “The rule says that we must stop at a red light. We wait until the light turns green. While the rule tells us what to do, its wisdom tells us why: to protect lives. Without this rule, there would be many accidents. When we know the reason, we follow the rule more willingly.”",
+            "feedback": {
+              "correct": "Check: While, Without and the purpose of the rule.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say the rule and how we follow it.",
+                "mode": "Individual",
+                "example": "The rule says … We …"
+              },
+              {
+                "question": "Use While to compare what and why.",
+                "mode": "Individual",
+                "example": "While the rule tells us …, its wisdom tells us …"
+              },
+              {
+                "question": "Use Without.",
+                "mode": "Pair",
+                "example": "Without this rule, …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What does the Arabic word for wisdom originally mean?",
+          "options": ["to prevent", "to know", "to rule"],
+          "answer": 0,
+          "quote": "Originally, the Arabic word for wisdom means ‘to prevent.’"
+        },
+        "iCan": [
+          "I can explain the two ways the Qur’an looks at wisdom.",
+          "I can explain the difference between rules and wisdom.",
+          "I can use While, Without and so that to compare and explain."
+        ]
+      },
+      {
+        "id": 11,
+        "type": "story",
+        "title": "Wisdom in the Qur’an and Hadith",
+        "image": "",
+        "audioUrl": "",
+        "content": "Many verses in the Qur’an invite believers to look at the universe and themselves to understand the meaning of all things. Allah does not create anything without a purpose, so He does not want people to act without a purpose either. Everything we do must have a meaning and wisdom. In fact, understanding the purpose and wisdom is a very important part of every act of worship.\n\nThe Qur’an talks about wisdom in many verses. One verse states: “Allah has given you the Book and wisdom, and He has taught you what you did not know.” (Surah An-Nisa, 113) It also says, “And indeed, We gave wisdom to Luqman so that he would be thankful to Allah” (Surah Luqman, 12). In another verse, it is stated, “These are some of the wisdom that Allah gives you.” (Surah Al-Isra, 39). This means that the Qur’an cannot be understood without wisdom. The verse also states: “Allah gives wisdom to anyone He chooses. Whoever receives wisdom receives a very great blessing. However, only people with clear minds can understand this.” (Surah al-Baqarah, 269). In this sense, there is a connection between wisdom and ‘deep understanding,’ the technical term for which is ‘fiqh’ (fıkıh).\n\nA hadith states, “Wisdom is the lost treasure of the believer; wherever he finds it, he takes it” (Ibn Mājah, “Zuhd,” 15; Tirmidhī, “ʿIlm,” 19). This defines wisdom from a broader perspective. It shows that Muslims must accept useful knowledge and true words. It does not matter who says them or where they come from.",
+        "vocabulary": [
+          {
+            "word": "purpose",
+            "definition": "The reason why something is done or made."
+          },
+          {
+            "word": "receives",
+            "definition": "Gets."
+          },
+          {
+            "word": "blessing",
+            "definition": "A gift from Allah."
+          },
+          {
+            "word": "defines",
+            "definition": "Explains the meaning of."
+          },
+          {
+            "word": "perspective",
+            "definition": "A way of looking at something."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h11a",
+            "x": 30,
+            "y": 40,
+            "title": "Luqman",
+            "description": "The Qur’an says that Allah gave wisdom to Luqman so that he would be thankful."
+          },
+          {
+            "id": "yesevi-b1-en-h11b",
+            "x": 70,
+            "y": 45,
+            "title": "The Lost Treasure",
+            "description": "A hadith calls wisdom the lost treasure of the believer."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-11",
+            "type": "multiple-choice",
+            "title": "The Lost Treasure",
+            "instructions": "Choose the answer that the chapter supports.",
+            "question": "What does the hadith about the lost treasure show?",
+            "options": [
+              "Muslims must accept useful knowledge and true words, whoever says them.",
+              "Muslims must look for gold and treasure.",
+              "Muslims must learn only from their own teachers."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Chapter 11: “It shows that Muslims must accept useful knowledge and true words. It does not matter who says them or where they come from.”",
+            "feedback": {
+              "correct": "Correct. Useful knowledge and true words, from anyone.",
+              "incorrect": "Read the last paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-11-so-either",
+            "type": "multiple-choice",
+            "title": "Notice: So … Either",
+            "instructions": "Read the sentence. Then choose what “either” does.",
+            "question": "“Allah does not create anything without a purpose, so He does not want people to act without a purpose either.” What does “either” do?",
+            "options": [
+              "It adds a second negative idea that is like the first one.",
+              "It gives a choice between two things.",
+              "It makes the sentence positive."
+            ],
+            "correctAnswer": 0,
+            "explanation": "We use “either” at the end of a negative sentence to add a similar negative idea. Compare “too” in positive sentences.",
+            "feedback": {
+              "correct": "Correct. It adds a similar negative idea.",
+              "incorrect": "Is the sentence positive or negative?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-11-forms",
+            "type": "choose-form",
+            "title": "Build: In Fact, It Does Not Matter, From",
+            "instructions": "Choose the correct form for each sentence from Chapter 11.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Everything we do must have a meaning. [choice], understanding the purpose is very important in worship.",
+                "options": ["In fact", "However", "Instead"],
+                "answer": 0
+              },
+              {
+                "sentence": "It does not matter [choice] says them.",
+                "options": ["who", "which", "whose"],
+                "answer": 0
+              },
+              {
+                "sentence": "This defines wisdom from a broader [choice].",
+                "options": ["perspective", "perspectives", "perspective’s"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“In fact” adds a stronger point. “It does not matter who” = anyone at all. “From a broader perspective” takes a singular noun.",
+            "feedback": {
+              "correct": "Well done. In fact, who, perspective.",
+              "incorrect": "Check the linker, the question word and the noun."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-11-errors",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake in each sentence and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "Many verses invite believers look at the universe.",
+                "error": "look",
+                "options": ["to look", "looking", "looks"],
+                "answer": 0
+              },
+              {
+                "sentence": "Everything we do must has a meaning.",
+                "error": "has",
+                "options": ["have", "having", "had"],
+                "answer": 0
+              },
+              {
+                "sentence": "It does not matter where they comes from.",
+                "error": "comes",
+                "options": ["come", "coming", "came from"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Invite someone to + verb”. After “must”, use the base verb. “They” takes “come”.",
+            "feedback": {
+              "correct": "Correct. To look, have, come.",
+              "incorrect": "Check the verb patterns."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-11-learn-anyone",
+            "type": "reflection",
+            "title": "Use: Learning from Anyone",
+            "instructions": "Write five to six sentences about something useful you learned from an unexpected person.",
+            "question": "Who was the person? What did you learn?",
+            "correctAnswer": null,
+            "explanation": "Example: “I once learned something useful from a little boy in the park. He was only six years old. He taught me how to fix a bicycle chain quickly. I was surprised because he was so young. Now I know that it does not matter who teaches you. Useful knowledge is always valuable.”",
+            "feedback": {
+              "correct": "Check: who the person was, what you learned and It does not matter who.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say who the person was.",
+                "mode": "Individual",
+                "example": "I once learned something useful from …"
+              },
+              {
+                "question": "Say what you learned.",
+                "mode": "Individual",
+                "example": "He / She taught me …"
+              },
+              {
+                "question": "Use It does not matter who.",
+                "mode": "Pair",
+                "example": "It does not matter who …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: What is the technical term for ‘deep understanding’?",
+          "options": ["fiqh", "hikmet", "hadith"],
+          "answer": 0,
+          "quote": "the technical term for which is ‘fiqh’ (fıkıh)."
+        },
+        "iCan": [
+          "I can explain why every action should have a purpose.",
+          "I can explain what the hadith about the lost treasure teaches.",
+          "I can use so, either and It does not matter who."
+        ]
+      },
+      {
+        "id": 12,
+        "type": "story",
+        "title": "A Civilization of Wisdom",
+        "image": "",
+        "audioUrl": "",
+        "content": "Ahmed Yesevî enlightened a very large area from Central Asia to Anatolia and the Balkans. Great thinkers who followed his path built a civilization of wisdom in Anatolia. They included Tapduk Emre, Yunus Emre, Mevlana Jalaluddin Rumi, Sadreddin Konevi, Hacı Bektaş-ı Veli, Sarı Saltuk, Baba İlyas, and Somuncu Baba. These wise people continued the Yesevî tradition. They turned cultural and geographical differences into a great and rich civilization.\n\nToday, Ahmed Yesevî’s Dîvân-ı Hikmet is still like a spiritual home for Turkish-speaking peoples in Central Asia. They live in different countries and physical homelands now, but this book still keeps them together.",
+        "vocabulary": [
+          {
+            "word": "enlightened",
+            "definition": "Gave knowledge and understanding to."
+          },
+          {
+            "word": "civilization",
+            "definition": "A society with its own culture and way of life."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h12a",
+            "x": 30,
+            "y": 40,
+            "title": "Great Thinkers",
+            "description": "Great thinkers who followed his path included Yunus Emre, Mevlana Jalaluddin Rumi and Hacı Bektaş-ı Veli."
+          },
+          {
+            "id": "yesevi-b1-en-h12b",
+            "x": 70,
+            "y": 45,
+            "title": "A Spiritual Home",
+            "description": "Today, the Dîvân-ı Hikmet is still like a spiritual home for Turkish-speaking peoples in Central Asia."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-12",
+            "type": "true-false",
+            "title": "One Country?",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "Turkish-speaking peoples in Central Asia all live in one country today.",
+            "correctAnswer": false,
+            "explanation": "Chapter 12: “They live in different countries and physical homelands now, but this book still keeps them together.”",
+            "feedback": {
+              "correct": "Correct. They live in different countries.",
+              "incorrect": "Read the last sentence."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-12-turned-into",
+            "type": "multiple-choice",
+            "title": "Notice: Turned … Into …",
+            "instructions": "Read the sentence. Then choose what “turned … into” means.",
+            "question": "“They turned cultural and geographical differences into a great and rich civilization.” What does “turned … into” mean?",
+            "options": ["changed one thing so that it became something else", "moved something to another place", "refused something"],
+            "correctAnswer": 0,
+            "explanation": "“Turn A into B” means “change A so that it becomes B”. Differences became a rich civilization.",
+            "feedback": {
+              "correct": "Correct. Changed it into something new.",
+              "incorrect": "What did the differences become?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-12-forms",
+            "type": "choose-form",
+            "title": "Build: Who, Still, Like",
+            "instructions": "Choose the correct form for each sentence from Chapter 12.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "Great thinkers [choice] followed his path built a civilization of wisdom in Anatolia.",
+                "options": ["who", "which", "where"],
+                "answer": 0
+              },
+              {
+                "sentence": "Today, Ahmed Yesevî’s Dîvân-ı Hikmet is [choice] like a spiritual home.",
+                "options": ["still", "yet", "already"],
+                "answer": 0
+              },
+              {
+                "sentence": "The book is still [choice] a spiritual home for Turkish-speaking peoples.",
+                "options": ["like", "as if", "alike"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Who” is for people. “Still” shows that something continues from the past to now. “Like + noun” compares.",
+            "feedback": {
+              "correct": "Well done. Who, still, like.",
+              "incorrect": "Check the relative pronoun, still and the comparison."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-12-another-way",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "These wise people continued the Yesevî tradition.",
+                "frame": "These wise people kept the Yesevî tradition [blank].",
+                "answers": ["alive"]
+              },
+              {
+                "source": "This book still keeps them together.",
+                "frame": "This book still [blank] them.",
+                "answers": ["unites", "connects"]
+              },
+              {
+                "source": "They live in different countries now.",
+                "frame": "They do not live in the [blank] country now.",
+                "answers": ["same"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Continue a tradition” = “keep it alive”. “Keep together” = “unite”. “Different” = “not the same”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use alive, unites and same."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-12-unites-us",
+            "type": "reflection",
+            "title": "Use: Something That Keeps Us Together",
+            "instructions": "Write five to six sentences about something that keeps people together.",
+            "question": "What is it? How does it unite people?",
+            "correctAnswer": null,
+            "explanation": "Example: “Our village festival is still like a big family meeting. People who live in different cities come back every summer. We cook together and share stories. The festival turns strangers into friends. It keeps our village together.”",
+            "feedback": {
+              "correct": "Check: still, who and turn … into.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Name the thing.",
+                "mode": "Individual",
+                "example": "… is still like … for …"
+              },
+              {
+                "question": "Use who for the people.",
+                "mode": "Individual",
+                "example": "People who …"
+              },
+              {
+                "question": "Use turn … into.",
+                "mode": "Pair",
+                "example": "It turns … into …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: From where to where did Yesevî enlighten a large area?",
+          "options": ["from Central Asia to Anatolia and the Balkans", "from Arabia to Africa", "from Persia to India"],
+          "answer": 0,
+          "quote": "Ahmed Yesevî enlightened a very large area from Central Asia to Anatolia and the Balkans."
+        },
+        "iCan": [
+          "I can name great thinkers who followed Yesevî’s path.",
+          "I can explain why the Dîvân-ı Hikmet is still important.",
+          "I can use who clauses, turn … into and still."
+        ]
+      },
+      {
+        "id": 13,
+        "type": "story",
+        "title": "From the Dîvân",
+        "image": "",
+        "audioUrl": "",
+        "content": "Here are a few lines from his Dîvân:\n\n“Your scholars do not like your beautiful Turkish\n\nIf you listen to the wise, they will enlighten your heart\n\nIt would be better for the verses (of the Qur’an) and the sayings of the Prophet to be in Turkish\n\nThose who know their meanings lower their heads.”\n\n“Sevmiyorlar bilginler sizin güzel Türkçe dilini\n\nBilenlerden işitsen açar gönül ilini\n\nÂyet, hadis anlamı Türkçe olsa duyarlar\n\nAnlamına erenler başı eğip uyarlar”\n\n“Do not harm anybody even if he is a non-believer, which is the custom of the Prophet,\n\nEven Allah complains about the cold-hearted and the breakers of hearts\n\nFor whom Sijjin (Hell) is ready, as Allah is the witness\n\nI narrated these words having heard them from the wise”\n\n“Sünnet imiş, kafir de olsa, incitme sen;\n\nHüdâ bîzardır (şikayetçidir, uzaktır) katı yürekli gönül incitenden.\n\nAllah şahit, öyle kula hazırdır Siccîn (cehennem);\n\nBilginlerden duyup bu sözü söyledim işte.”",
+        "vocabulary": [],
+        "hotspots": [
+          {
+            "id": "yesevi-b1-en-h13a",
+            "x": 30,
+            "y": 40,
+            "title": "Turkish Lines",
+            "description": "The lines appear in English and in Turkish."
+          },
+          {
+            "id": "yesevi-b1-en-h13b",
+            "x": 70,
+            "y": 45,
+            "title": "The Wise",
+            "description": "In the second poem, the poet says that he heard these words from the wise."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "yesevi-b1-quick-13",
+            "type": "multiple-choice",
+            "title": "Do Not Harm",
+            "instructions": "Choose the answer that the poem supports.",
+            "question": "Whom does the second poem say we must not harm?",
+            "options": ["anybody, even if he is a non-believer", "only our friends", "only our family"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 13: “Do not harm anybody even if he is a non-believer, which is the custom of the Prophet,”",
+            "feedback": {
+              "correct": "Correct. Anybody, even a non-believer.",
+              "incorrect": "Read the first line of the second poem."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "yesevi-b1-language-13-would-be-better",
+            "type": "multiple-choice",
+            "title": "Notice: It Would Be Better For …",
+            "instructions": "Read the line. Then choose what it expresses.",
+            "question": "“It would be better for the verses (of the Qur’an) and the sayings of the Prophet to be in Turkish.” What does this line express?",
+            "options": ["a wish or a suggestion", "a past fact", "a question"],
+            "correctAnswer": 0,
+            "explanation": "“It would be better for + noun + to + verb” expresses a wish or a suggestion: the poet thinks people would understand more.",
+            "feedback": {
+              "correct": "Correct. A wish or a suggestion.",
+              "incorrect": "Is the poet describing a fact or giving an opinion?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-13-forms",
+            "type": "choose-form",
+            "title": "Build: If, Even If, Having Heard",
+            "instructions": "Choose the correct form for each line from Chapter 13.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "[choice] you listen to the wise, they will enlighten your heart.",
+                "options": ["If", "Unless", "Although"],
+                "answer": 0
+              },
+              {
+                "sentence": "Do not harm anybody [choice] if he is a non-believer.",
+                "options": ["even", "only", "as"],
+                "answer": 0
+              },
+              {
+                "sentence": "I narrated these words [choice] heard them from the wise.",
+                "options": ["having", "have", "had"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“If + present, will + verb” is a first conditional. “Even if” = it does not matter whether. “Having + past participle” shows an earlier action.",
+            "feedback": {
+              "correct": "Well done. If, even, having.",
+              "incorrect": "Check the condition and the earlier action."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-13-another-way",
+            "type": "transformation",
+            "title": "Build: Say It in Modern English",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "If you listen to the wise, they will enlighten your heart.",
+                "frame": "Listening to the wise will [blank] your heart.",
+                "answers": ["enlighten"]
+              },
+              {
+                "source": "Those who know their meanings lower their heads.",
+                "frame": "People who understand the meanings become [blank].",
+                "answers": ["humble"]
+              },
+              {
+                "source": "I narrated these words having heard them from the wise.",
+                "frame": "I told these words after I [blank] them from the wise.",
+                "answers": ["heard"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "An if-clause can become an -ing subject. “Lower their heads” here shows humility. “Having heard” = “after I heard”.",
+            "feedback": {
+              "correct": "Correct. Same meaning in modern English.",
+              "incorrect": "Use enlighten, humble and heard."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-13-advice",
+            "type": "reflection",
+            "title": "Use: My Advice in Four Lines",
+            "instructions": "Write four short lines of advice for young people today.",
+            "question": "What wise advice would you give?",
+            "correctAnswer": null,
+            "explanation": "Example: “If you listen to your elders, you will learn a lot. Do not speak unkindly even if you are angry. It would be better for us to read more and scroll less. A kind word can open a closed heart.”",
+            "feedback": {
+              "correct": "Check: If, even if and It would be better for.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Write a line with If.",
+                "mode": "Individual",
+                "example": "If you …, you will …"
+              },
+              {
+                "question": "Write a line with even if.",
+                "mode": "Individual",
+                "example": "Do not … even if …"
+              },
+              {
+                "question": "Write a line with It would be better.",
+                "mode": "Pair",
+                "example": "It would be better for … to …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: In which language did Yesevî want the meanings of the verses and the sayings of the Prophet to be?",
+          "options": ["Turkish", "Persian", "Greek"],
+          "answer": 0,
+          "quote": "It would be better for the verses (of the Qur’an) and the sayings of the Prophet to be in Turkish"
+        },
+        "iCan": [
+          "I can explain the main ideas of the two poems.",
+          "I can connect the poems with earlier chapters.",
+          "I can use It would be better for … to and even if."
+        ],
+        "groupTask": {
+          "type": "jigsaw",
+          "title": "Ahmed Yesevî: A Guide for Visitors",
+          "time": "20 min",
+          "groupSize": "4",
+          "roles": [
+            {
+              "name": "Life Expert",
+              "job": "You present Yesevî’s life, teachers and fame (Chapters 1–4)."
+            },
+            {
+              "name": "Heritage Expert",
+              "job": "You present the Yesevî Path and the mausoleum (Chapter 5)."
+            },
+            {
+              "name": "Ideas Expert",
+              "job": "You present why he chose Turkish and his ideas about wisdom and teaching (Chapters 6–8 and 10–11)."
+            },
+            {
+              "name": "Works Expert",
+              "job": "You present the Dîvân-ı Hikmet, the thinkers who followed him and the poem lines (Chapters 9, 12 and 13)."
+            }
+          ],
+          "steps": [
+            "Read your chapters and make five key points with one quotation.",
+            "Meet the other experts and teach your points.",
+            "Together, plan a four-page visitor guide: Life, Heritage, Ideas, Works.",
+            "Write a short text for each page and present your guide."
+          ],
+          "share": "Each group presents its visitor guide. Listeners ask one question about each page.",
+          "solo": "Write a visitor guide text of 120–150 words about Ahmed Yesevî, with two quotations from the book."
+        }
+      },
+      {
+        "id": 14,
+        "type": "quiz",
+        "title": "Knowledge Check",
+        "image": "",
+        "audioUrl": "",
+        "content": "Check your understanding of the complete book.",
+        "exercises": [
+          {
+            "id": "yesevi-b1-kc-1-pir",
+            "type": "multiple-choice",
+            "title": "The Word Pîr",
+            "instructions": "Choose the answer from the book.",
+            "question": "What does the Persian word ‘pîr’ mean?",
+            "options": ["a Sufi master, spiritual guide, or elder", "a king or ruler", "a poem or song"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “In the Persian language, the word ‘pîr’ means a Sufi master, spiritual guide, or elder.”",
+            "feedback": {
+              "correct": "Correct. A Sufi master, spiritual guide, or elder.",
+              "incorrect": "Read Chapter 1."
+            }
+          },
+          {
+            "id": "yesevi-b1-kc-2-hemedani",
+            "type": "true-false",
+            "title": "His Greatest Teacher",
+            "instructions": "Is the sentence true or false?",
+            "question": "Sheikh Yûsuf el-Hemedânî played the greatest role in training Yesevî.",
+            "correctAnswer": true,
+            "explanation": "Chapter 3: “He was a great scholar and a famous Sufi master who played the greatest role in training Yesevî.”",
+            "feedback": {
+              "correct": "Correct. Hemedânî trained him most.",
+              "incorrect": "Read the first paragraph of Chapter 3."
+            }
+          },
+          {
+            "id": "yesevi-b1-kc-3-timur",
+            "type": "multiple-choice",
+            "title": "The Mausoleum",
+            "instructions": "Choose the answer from the book.",
+            "question": "Who ordered the mausoleum to be built over Yesevî’s grave?",
+            "options": ["Timur", "TİKA", "Arslan Baba"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “After that, he ordered a great building, a mausoleum, to be built over the grave.”",
+            "feedback": {
+              "correct": "Correct. Timur.",
+              "incorrect": "Read the first paragraph of Chapter 5."
+            }
+          },
+          {
+            "id": "yesevi-b1-kc-4-identity",
+            "type": "true-false",
+            "title": "A Turkish Identity",
+            "instructions": "Is the sentence true or false?",
+            "question": "Writing in Turkish helped develop a Turkish identity in Islamic culture.",
+            "correctAnswer": true,
+            "explanation": "Chapter 6: “Yesevî chose to write his poems in Turkish, which helped develop a Turkish identity in Islamic culture.”",
+            "feedback": {
+              "correct": "Correct. It helped develop a Turkish identity.",
+              "incorrect": "Read the beginning of Chapter 6."
+            }
+          },
+          {
+            "id": "yesevi-b1-kc-5-criticized",
+            "type": "multiple-choice",
+            "title": "Whom He Criticized",
+            "instructions": "Choose the answer from the book.",
+            "question": "Whom did Yesevî strongly criticize in his poems?",
+            "options": ["dishonest judges who take bribes and cruel rulers", "orphans and strangers", "poor farmers"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 7: “… he strongly criticized those who harm society, such as dishonest judges who take bribes and cruel rulers.”",
+            "feedback": {
+              "correct": "Correct. Dishonest judges and cruel rulers.",
+              "incorrect": "Read the end of Chapter 7."
+            }
+          },
+          {
+            "id": "yesevi-b1-kc-6-love",
+            "type": "true-false",
+            "title": "Learning Without Love",
+            "instructions": "Is the sentence true or false?",
+            "question": "For Yesevî, people accept everything they learn, even if they do not love it.",
+            "correctAnswer": false,
+            "explanation": "Chapter 8: “People will not accept something they do not love, even if they learn it.”",
+            "feedback": {
+              "correct": "Correct. They do not accept what they do not love.",
+              "incorrect": "Read the first paragraph of Chapter 8."
+            }
+          },
+          {
+            "id": "yesevi-b1-kc-7-why",
+            "type": "multiple-choice",
+            "title": "Law and Wisdom",
+            "instructions": "Choose the answer from the book.",
+            "question": "Which question does wisdom answer?",
+            "options": ["“Why?”", "“What?”", "“How?”"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 10: “While law answers the questions “What?” and “How?”, wisdom answers the question “Why?”.”",
+            "feedback": {
+              "correct": "Correct. “Why?”",
+              "incorrect": "Read the third paragraph of Chapter 10."
+            }
+          },
+          {
+            "id": "yesevi-b1-kc-8-thinkers",
+            "type": "multiple-choice",
+            "title": "Followers of His Path",
+            "instructions": "Choose the answer from the book.",
+            "question": "Who was one of the great thinkers who followed Yesevî’s path in Anatolia?",
+            "options": ["Yunus Emre", "Timur", "Arslan Baba"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 12: “They included Tapduk Emre, Yunus Emre, Mevlana Jalaluddin Rumi …”",
+            "feedback": {
+              "correct": "Correct. Yunus Emre.",
+              "incorrect": "Read the first paragraph of Chapter 12."
+            }
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "type": "glossary",
+        "title": "Master Glossary",
+        "content": "Review all key vocabulary from the book in one place.",
+        "image": "",
+        "vocabulary": [
+          {
+            "word": "recite",
+            "definition": "Say a poem or text aloud from memory.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/rɪˈsaɪt/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Pîr-i Turkistan",
+            "storyExample": "Ahmed Yesevî, known as Pîr-i Turkistan, was the first great Sufi poet to write and recite his poems in plain Turkish."
+          },
+          {
+            "word": "plain",
+            "definition": "Simple and easy to understand.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/pleɪn/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Pîr-i Turkistan",
+            "storyExample": "Ahmed Yesevî, known as Pîr-i Turkistan, was the first great Sufi poet to write and recite his poems in plain Turkish."
+          },
+          {
+            "word": "Persian language",
+            "definition": "The language of Iran.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˈpɜːrʒən ˈlæŋɡwɪdʒ/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Pîr-i Turkistan",
+            "storyExample": "In the Persian language, the word ‘pîr’ means a Sufi master, spiritual guide, or elder."
+          },
+          {
+            "word": "Sufi master",
+            "definition": "A teacher who guides people on the Sufi path.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˈsuːfi ˈmæstər/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Pîr-i Turkistan",
+            "storyExample": "In the Persian language, the word ‘pîr’ means a Sufi master, spiritual guide, or elder."
+          },
+          {
+            "word": "spiritual guide",
+            "definition": "A person who helps others in their religious and inner life.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ˈspɪrɪtʃuəl ɡaɪd/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Pîr-i Turkistan",
+            "storyExample": "In the Persian language, the word ‘pîr’ means a Sufi master, spiritual guide, or elder."
+          },
+          {
+            "word": "wisdom",
+            "definition": "Deep knowledge and good judgment.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈwɪzdəm/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Pîr-i Turkistan",
+            "storyExample": "His poems are called ‘hikmet’ (wisdom)."
+          },
+          {
+            "word": "spread",
+            "definition": "Make something reach many people or places.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/spred/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 1,
+            "chapterTitle": "Pîr-i Turkistan",
+            "storyExample": "Both his poems and the Yesevî Path aimed to spread Islam among Turkish people and teach them the ways of Sufism."
+          },
+          {
+            "word": "received",
+            "definition": "Got.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/rɪˈsiːvd/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "Childhood and Education",
+            "storyExample": "There, he studied with Arslan Baba and received a good education."
+          },
+          {
+            "word": "grew up",
+            "definition": "Became an adult.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/ɡruː ʌp/",
+            "category": "Time & Change",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "Childhood and Education",
+            "storyExample": "He lived during the era of the Karakhanids (Karahanlılar) (840–1212) and grew up at a time when Turkestan was a center for various fields of knowledge."
+          },
+          {
+            "word": "various",
+            "definition": "Many different.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈveriəs/",
+            "category": "Ideas & Description",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "Childhood and Education",
+            "storyExample": "He lived during the era of the Karakhanids (Karahanlılar) (840–1212) and grew up at a time when Turkestan was a center for various fields of knowledge."
+          },
+          {
+            "word": "fields",
+            "definition": "Areas of study or knowledge.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/fiːldz/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "Childhood and Education",
+            "storyExample": "He lived during the era of the Karakhanids (Karahanlılar) (840–1212) and grew up at a time when Turkestan was a center for various fields of knowledge."
+          },
+          {
+            "word": "scholar",
+            "definition": "A person who has studied a subject deeply.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈskɒlər/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "Master and Return to Yesi",
+            "storyExample": "He was a great scholar and a famous Sufi master who played the greatest role in training Yesevî."
+          },
+          {
+            "word": "training",
+            "definition": "Teaching the skills for a job or way of life.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈtreɪnɪŋ/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "Master and Return to Yesi",
+            "storyExample": "He was a great scholar and a famous Sufi master who played the greatest role in training Yesevî."
+          },
+          {
+            "word": "handed over",
+            "definition": "Gave a duty or position to someone else.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/ˈhændɪd ˈoʊvər/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 3,
+            "chapterTitle": "Master and Return to Yesi",
+            "storyExample": "Later, he handed over his duty as a spiritual leader to Sheikh Abdülhâlik Gucdüvânî."
+          },
+          {
+            "word": "respected",
+            "definition": "Admired for good qualities.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/rɪˈspektɪd/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "The Yesevî Path and the Mausoleum",
+            "storyExample": "Ahmed Yesevî is still respected as a great spiritual leader by all Turkic peoples, especially the Kazakhs, Kyrgyz, Uzbeks, and Turkmen."
+          },
+          {
+            "word": "spread across",
+            "definition": "Reached many parts of an area.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/spred əˈkrɒs/",
+            "category": "Places & Geography",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "The Yesevî Path and the Mausoleum",
+            "storyExample": "The Yesevî Path, which he started, spread across a very large area as far as Anatolia and the Balkans."
+          },
+          {
+            "word": "tomb",
+            "definition": "A grave, often with a building over it.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/tuːm/",
+            "category": "Culture & Traditions",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "The Yesevî Path and the Mausoleum",
+            "storyExample": "At some point between 1389 and 1405, Timur traveled to the city of Yesi and visited the tomb of Ahmed Yesevî."
+          },
+          {
+            "word": "steppes",
+            "definition": "Large, flat lands with grass and few trees.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/steps/",
+            "category": "Places & Geography",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "The Yesevî Path and the Mausoleum",
+            "storyExample": "It was very important for Central Asian Turks, the people of the steppes, to be buried near this area."
+          },
+          {
+            "word": "to be buried",
+            "definition": "To be put in the ground after death.",
+            "partOfSpeech": "verb phrase",
+            "pronunciation": "/tə bi ˈberid/",
+            "category": "Culture & Traditions",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "The Yesevî Path and the Mausoleum",
+            "storyExample": "It was very important for Central Asian Turks, the people of the steppes, to be buried near this area."
+          },
+          {
+            "word": "Heritage",
+            "definition": "Traditions, buildings and culture from the past.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈherɪtɪdʒ/",
+            "category": "Culture & Traditions",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "The Yesevî Path and the Mausoleum",
+            "storyExample": "In 2003, the historic structure was added to the UNESCO World Heritage List."
+          },
+          {
+            "word": "landscaping",
+            "definition": "Making the land around a building beautiful.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈlændskeɪpɪŋ/",
+            "category": "Science & Nature",
+            "level": "B1",
+            "chapter": 5,
+            "chapterTitle": "The Yesevî Path and the Mausoleum",
+            "storyExample": "Its restoration, landscaping, and exterior lighting have been fully completed by TİKA (Turkish Cooperation and Coordination Agency)."
+          },
+          {
+            "word": "strict",
+            "definition": "Following rules very carefully.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/strɪkt/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 6,
+            "chapterTitle": "Why Turkish?",
+            "storyExample": "He was a Hanafi (Hanefi) scholar who received a strict madrasa education and gained a wide knowledge of Sufism."
+          },
+          {
+            "word": "introduce",
+            "definition": "Present something new to people.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˌɪntrəˈduːs/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 6,
+            "chapterTitle": "Why Turkish?",
+            "storyExample": "Ahmed Yesevî wanted to introduce Islam to Turkish communities using simple and clear teachings."
+          },
+          {
+            "word": "the universe",
+            "definition": "Everything that exists.",
+            "partOfSpeech": "noun phrase",
+            "pronunciation": "/ðə ˈjuːnɪvɜːrs/",
+            "category": "Science & Nature",
+            "level": "B1",
+            "chapter": 6,
+            "chapterTitle": "Why Turkish?",
+            "storyExample": "He wrote about the connections between Allah, the universe, and people in a way that everyone could easily understand."
+          },
+          {
+            "word": "behind",
+            "definition": "In the past; no longer with you.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/bɪˈhaɪnd/",
+            "category": "Ideas & Description",
+            "level": "B1",
+            "chapter": 7,
+            "chapterTitle": "The Path of Wisdom and Society",
+            "storyExample": "According to him, the main goal of wisdom is to help people leave their ego behind and live according to the will of Allah."
+          },
+          {
+            "word": "sin",
+            "definition": "An action that is wrong in religion.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/sɪn/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 7,
+            "chapterTitle": "The Path of Wisdom and Society",
+            "storyExample": "He showed that religion is not just about sin and reward."
+          },
+          {
+            "word": "reward",
+            "definition": "Something good given for a good action.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/rɪˈwɔːrd/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 7,
+            "chapterTitle": "The Path of Wisdom and Society",
+            "storyExample": "He showed that religion is not just about sin and reward."
+          },
+          {
+            "word": "properly",
+            "definition": "In the right way.",
+            "partOfSpeech": "adverb",
+            "pronunciation": "/ˈprɒpərli/",
+            "category": "Ideas & Description",
+            "level": "B1",
+            "chapter": 8,
+            "chapterTitle": "Teaching with Love",
+            "storyExample": "In his view, teaching students properly is only possible if you make them love what they learn."
+          },
+          {
+            "word": "treat",
+            "definition": "Behave toward someone in a certain way.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/triːt/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 8,
+            "chapterTitle": "Teaching with Love",
+            "storyExample": "For this reason, teachers must treat their students with love and kindness so that students will listen to them and focus on the lessons."
+          },
+          {
+            "word": "passed these sayings down",
+            "definition": "Taught these sayings to younger people.",
+            "partOfSpeech": "phrasal verb",
+            "pronunciation": "/pæst ðiːz ˈseɪɪŋz daʊn/",
+            "category": "Culture & Traditions",
+            "level": "B1",
+            "chapter": 9,
+            "chapterTitle": "The Dîvân-ı Hikmet",
+            "storyExample": "Because people passed these sayings down for generations, they were probably written down much later."
+          },
+          {
+            "word": "achieve",
+            "definition": "Succeed in doing something.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/əˈtʃiːv/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "This is one of the most important goals that students are expected to achieve."
+          },
+          {
+            "word": "justice",
+            "definition": "Fair treatment for everyone.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈdʒʌstɪs/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "In the end, this wisdom brings important values like honesty, justice, doing good deeds, and living with religious values."
+          },
+          {
+            "word": "deeds",
+            "definition": "Actions.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/diːdz/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "In the end, this wisdom brings important values like honesty, justice, doing good deeds, and living with religious values."
+          },
+          {
+            "word": "forbidden",
+            "definition": "Not allowed.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/fərˈbɪdən/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "The ideas of “forbidden”"
+          },
+          {
+            "word": "permitted",
+            "definition": "Allowed.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/pərˈmɪtɪd/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "(haram) and “permitted”"
+          },
+          {
+            "word": "goals",
+            "definition": "Aims.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ɡoʊlz/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "This is one of the most important goals that students are expected to achieve."
+          },
+          {
+            "word": "property",
+            "definition": "The things that a person owns.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈprɒpərti/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "Its purpose is to protect five important things: life, mind, religion, family, and property."
+          },
+          {
+            "word": "to prevent",
+            "definition": "To stop something from happening.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/tə prɪˈvent/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "Originally, the Arabic word for wisdom means ‘to prevent.’ Wisdom protects people from ignorance and injustice."
+          },
+          {
+            "word": "protects",
+            "definition": "Keeps safe.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/prəˈtekts/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "Originally, the Arabic word for wisdom means ‘to prevent.’ Wisdom protects people from ignorance and injustice."
+          },
+          {
+            "word": "ignorance",
+            "definition": "Not knowing.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈɪɡnərəns/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "Originally, the Arabic word for wisdom means ‘to prevent.’ Wisdom protects people from ignorance and injustice."
+          },
+          {
+            "word": "injustice",
+            "definition": "Unfair treatment.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ɪnˈdʒʌstɪs/",
+            "category": "Values & Society",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "Originally, the Arabic word for wisdom means ‘to prevent.’ Wisdom protects people from ignorance and injustice."
+          },
+          {
+            "word": "meaningless",
+            "definition": "Without meaning or purpose.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈmiːnɪŋləs/",
+            "category": "Ideas & Description",
+            "level": "B1",
+            "chapter": 10,
+            "chapterTitle": "What Is Wisdom?",
+            "storyExample": "If we do not ask ‘Why?’, religion and morals become just meaningless rules."
+          },
+          {
+            "word": "purpose",
+            "definition": "The reason why something is done or made.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈpɜːrpəs/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 11,
+            "chapterTitle": "Wisdom in the Qur’an and Hadith",
+            "storyExample": "Allah does not create anything without a purpose, so He does not want people to act without a purpose either."
+          },
+          {
+            "word": "receives",
+            "definition": "Gets.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/rɪˈsiːvz/",
+            "category": "Actions & Behavior",
+            "level": "B1",
+            "chapter": 11,
+            "chapterTitle": "Wisdom in the Qur’an and Hadith",
+            "storyExample": "Whoever receives wisdom receives a very great blessing."
+          },
+          {
+            "word": "blessing",
+            "definition": "A gift from Allah.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈblesɪŋ/",
+            "category": "Spiritual Life",
+            "level": "B1",
+            "chapter": 11,
+            "chapterTitle": "Wisdom in the Qur’an and Hadith",
+            "storyExample": "Whoever receives wisdom receives a very great blessing."
+          },
+          {
+            "word": "defines",
+            "definition": "Explains the meaning of.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/dɪˈfaɪnz/",
+            "category": "Language & Communication",
+            "level": "B1",
+            "chapter": 11,
+            "chapterTitle": "Wisdom in the Qur’an and Hadith",
+            "storyExample": "This defines wisdom from a broader perspective."
+          },
+          {
+            "word": "perspective",
+            "definition": "A way of looking at something.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/pərˈspektɪv/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 11,
+            "chapterTitle": "Wisdom in the Qur’an and Hadith",
+            "storyExample": "This defines wisdom from a broader perspective."
+          },
+          {
+            "word": "enlightened",
+            "definition": "Gave knowledge and understanding to.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ɪnˈlaɪtənd/",
+            "category": "Thinking & Learning",
+            "level": "B1",
+            "chapter": 12,
+            "chapterTitle": "A Civilization of Wisdom",
+            "storyExample": "Ahmed Yesevî enlightened a very large area from Central Asia to Anatolia and the Balkans."
+          },
+          {
+            "word": "civilization",
+            "definition": "A society with its own culture and way of life.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˌsɪvələˈzeɪʃən/",
+            "category": "Culture & Traditions",
+            "level": "B1",
+            "chapter": 12,
+            "chapterTitle": "A Civilization of Wisdom",
+            "storyExample": "Great thinkers who followed his path built a civilization of wisdom in Anatolia."
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "type": "vocabulary-match",
+        "title": "Vocabulary Challenge",
+        "image": "",
+        "audioUrl": "",
+        "content": "Match 10 words from the book with their meanings.",
+        "vocabularyPairs": [
+          {
+            "word": "recite",
+            "meaning": "Say a poem or text aloud from memory.",
+            "partOfSpeech": "verb",
+            "chapter": 1,
+            "context": "the first great Sufi poet to write and recite his poems in plain Turkish."
+          },
+          {
+            "word": "spiritual guide",
+            "meaning": "A person who helps others in their religious and inner life.",
+            "partOfSpeech": "noun phrase",
+            "chapter": 1,
+            "context": "means a Sufi master, spiritual guide, or elder."
+          },
+          {
+            "word": "various",
+            "meaning": "Many different.",
+            "partOfSpeech": "adjective",
+            "chapter": 2,
+            "context": "a center for various fields of knowledge."
+          },
+          {
+            "word": "scholar",
+            "meaning": "A person who has studied a subject deeply.",
+            "partOfSpeech": "noun",
+            "chapter": 3,
+            "context": "He was a great scholar and a famous Sufi master"
+          },
+          {
+            "word": "heritage",
+            "meaning": "Traditions, buildings and culture from the past.",
+            "partOfSpeech": "noun",
+            "chapter": 5,
+            "context": "represent a shared cultural heritage of the Turkic-Islamic world."
+          },
+          {
+            "word": "strict",
+            "meaning": "Following rules very carefully.",
+            "partOfSpeech": "adjective",
+            "chapter": 6,
+            "context": "who received a strict madrasa education"
+          },
+          {
+            "word": "reward",
+            "meaning": "Something good given for a good action.",
+            "partOfSpeech": "noun",
+            "chapter": 7,
+            "context": "religion is not just about sin and reward."
+          },
+          {
+            "word": "properly",
+            "meaning": "In the right way.",
+            "partOfSpeech": "adverb",
+            "chapter": 8,
+            "context": "teaching students properly is only possible if you make them love what they learn."
+          },
+          {
+            "word": "ignorance",
+            "meaning": "Not knowing.",
+            "partOfSpeech": "noun",
+            "chapter": 10,
+            "context": "Wisdom protects people from ignorance and injustice."
+          },
+          {
+            "word": "perspective",
+            "meaning": "A way of looking at something.",
+            "partOfSpeech": "noun",
+            "chapter": 11,
+            "context": "This defines wisdom from a broader perspective."
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "type": "exercises",
+        "title": "Language Review",
+        "image": "",
+        "content": "Review and use the language of the whole book.",
+        "exercises": [
+          {
+            "id": "yesevi-b1-language-review-1-certainty",
+            "type": "drag-drop",
+            "title": "Notice: How Sure Is the Writer?",
+            "instructions": "Sort the sentences: stated as fact, or presented as believed or probable?",
+            "question": "How sure is the writer?",
+            "dragDropGroups": [
+              {
+                "group": "Stated as fact",
+                "items": [
+                  "In 2003, the historic structure was added to the UNESCO World Heritage List.",
+                  "He continued his spiritual guidance there until he died in 1166."
+                ]
+              },
+              {
+                "group": "Believed or probable",
+                "items": ["It is believed that he was born in the town of Sayram.", "They were probably written down much later."]
+              }
+            ],
+            "correctAnswer": {
+              "Stated as fact": [
+                "In 2003, the historic structure was added to the UNESCO World Heritage List.",
+                "He continued his spiritual guidance there until he died in 1166."
+              ],
+              "Believed or probable": [
+                "It is believed that he was born in the town of Sayram.",
+                "They were probably written down much later."
+              ]
+            },
+            "explanation": "Dates and recorded events are stated as facts. “It is believed that” and “probably” show that the writer is careful.",
+            "feedback": {
+              "correct": "Good. You noticed how sure the writer is.",
+              "incorrect": "Look for believed and probably."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-review-2-passive",
+            "type": "multiple-choice",
+            "title": "Notice: The Passive",
+            "instructions": "Choose the sentence with a correct passive form.",
+            "question": "Which sentence is correct?",
+            "options": [
+              "The mausoleum was left unfinished when Timur died.",
+              "The mausoleum was leave unfinished when Timur died.",
+              "The mausoleum left unfinished when Timur died."
+            ],
+            "correctAnswer": 0,
+            "explanation": "The past passive is was / were + past participle: was left.",
+            "feedback": {
+              "correct": "Correct. Was left.",
+              "incorrect": "Look for was + past participle."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-review-3-because-of",
+            "type": "true-false",
+            "title": "Notice: Because Of",
+            "instructions": "Is the sentence true or false?",
+            "question": "In “because of his simple language”, because of is followed by a noun phrase.",
+            "correctAnswer": true,
+            "explanation": "“Because of” takes a noun phrase; “because” takes a clause with a verb.",
+            "feedback": {
+              "correct": "Correct. A noun phrase.",
+              "incorrect": "Is there a verb after because of?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-review-4-linkers",
+            "type": "choose-form",
+            "title": "Build: Linking Ideas",
+            "instructions": "Choose the best linker for each sentence.",
+            "question": "Which linker fits?",
+            "formChoices": [
+              {
+                "sentence": "People used Persian for literature. [choice], Yesevî wrote in Turkish.",
+                "options": ["However", "So", "Because"],
+                "answer": 0
+              },
+              {
+                "sentence": "Teachers must be kind [choice] students will listen to them.",
+                "options": ["so that", "even if", "although"],
+                "answer": 0
+              },
+              {
+                "sentence": "Do not harm anybody, [choice] if he is a non-believer.",
+                "options": ["even", "only", "so"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“However” shows a contrast, “so that” a purpose, and “even if” a condition that does not change the result.",
+            "feedback": {
+              "correct": "Correct. However, so that, even.",
+              "incorrect": "Is it a contrast, a purpose or a condition?"
+            }
+          },
+          {
+            "id": "yesevi-b1-language-review-5-forms",
+            "type": "word-bank",
+            "title": "Build: Complete the Summary",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "Which words complete the summary?",
+            "fillBlanksText": "Ahmed Yesevî, [blank] as Pîr-i Turkistan, wrote in plain Turkish. His teaching was [blank] on love. [blank] wisdom, rules are just empty tasks. His followers [blank] differences into a rich civilization.",
+            "wordBank": ["known", "centered", "Without", "turned", "called", "With"],
+            "correctAnswer": ["known", "centered", "Without", "turned"],
+            "explanation": "These patterns come from Chapters 1, 8, 10 and 12.",
+            "feedback": {
+              "correct": "Well done. Known, centered, Without, turned.",
+              "incorrect": "Look back at Chapters 1, 8, 10 and 12."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-review-6-errors",
+            "type": "error-correction",
+            "title": "Build: Correct the Sentences",
+            "instructions": "Find the mistake in each sentence and choose the correct form.",
+            "question": "Which form is correct?",
+            "errorItems": [
+              {
+                "sentence": "Three works are believe to belong to Yesevî.",
+                "error": "believe",
+                "options": ["believed", "believing", "belief"],
+                "answer": 0
+              },
+              {
+                "sentence": "People must to develop patience and love.",
+                "error": "must to",
+                "options": ["must", "must be", "musts"],
+                "answer": 0
+              },
+              {
+                "sentence": "Its restoration has been fully complete.",
+                "error": "complete",
+                "options": ["completed", "completing", "completes"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "The passive needs a past participle. After “must”, use the base verb.",
+            "feedback": {
+              "correct": "Correct. Believed, must, completed.",
+              "incorrect": "Check the passives and the modal."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-review-7-rewrite",
+            "type": "transformation",
+            "title": "Build: Say It Another Way",
+            "instructions": "Complete the new sentence. Keep the same meaning.",
+            "question": "How else can we say it?",
+            "transformItems": [
+              {
+                "source": "His poems are called ‘hikmet’.",
+                "frame": "People [blank] his poems ‘hikmet’.",
+                "answers": ["call"]
+              },
+              {
+                "source": "He won the love of the people because of his simple language.",
+                "frame": "He won the love of the people because he [blank] simple language.",
+                "answers": ["used"]
+              },
+              {
+                "source": "Without wisdom, rules have no meaning.",
+                "frame": "If there is no wisdom, rules are [blank].",
+                "answers": ["meaningless"]
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Passive to active, “because of” to “because”, and “no meaning” to “meaningless”.",
+            "feedback": {
+              "correct": "Correct. Same meaning, new structure.",
+              "incorrect": "Use call, used and meaningless."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-review-8-new-context",
+            "type": "word-bank",
+            "title": "Use: A New Context",
+            "instructions": "Read about a school club. Fill each gap from the word bank.",
+            "question": "Can you use the book’s words in a new text?",
+            "fillBlanksText": "Our reading club meets every Friday. Our teacher is a real [blank] who has read hundreds of books. She explains difficult ideas [blank], so everyone understands. Club rules are not [blank]; we can choose our own books. We also learn about the cultural [blank] of our city.",
+            "wordBank": ["scholar", "properly", "strict", "heritage", "reward", "ignorance"],
+            "correctAnswer": ["scholar", "properly", "strict", "heritage"],
+            "explanation": "Scholar, properly, strict and heritage come from the book. Here they describe a school club today.",
+            "feedback": {
+              "correct": "Well done. You used the book’s words in a new text.",
+              "incorrect": "Read the words around each gap."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-review-9-new-context",
+            "type": "error-correction",
+            "title": "Use: Check a Short Text",
+            "instructions": "A student wrote about a historic building. Find each mistake.",
+            "question": "What should the student change?",
+            "errorItems": [
+              {
+                "sentence": "The old mosque in our town was build in 1550.",
+                "error": "build",
+                "options": ["built", "building", "builds"],
+                "answer": 0
+              },
+              {
+                "sentence": "It has been restore by the city last year.",
+                "error": "has been restore",
+                "options": ["was restored", "has restored", "is restore"],
+                "answer": 0
+              },
+              {
+                "sentence": "Many people visits it because of its beautiful garden.",
+                "error": "visits",
+                "options": ["visit", "visiting", "visited by"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use the past participle in the passive. With “last year”, use the past simple passive. A plural subject takes “visit”.",
+            "feedback": {
+              "correct": "Correct. Built, was restored, visit.",
+              "incorrect": "Check the passives, the time words and the subject."
+            }
+          },
+          {
+            "id": "yesevi-b1-language-review-10-transfer",
+            "type": "reflection",
+            "title": "Use: A Wise Teacher in My Life",
+            "instructions": "Write six to eight sentences about a wise teacher in your life.",
+            "question": "How did this person teach? What did you learn?",
+            "correctAnswer": null,
+            "explanation": "Example: “My primary school teacher, known in our school as Ayşe Abla, taught with great patience. She always explained the reason behind every rule. I loved her lessons because of her stories. She never shouted, even if we made mistakes. She taught me to ask ‘Why?’ before I do something. Without this lesson, I would not understand many things. I still remember her words today.”",
+            "feedback": {
+              "correct": "Check: known as, because (of), even if and Without.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say who the teacher was and how they taught.",
+                "mode": "Individual",
+                "example": "…, known as …, taught …"
+              },
+              {
+                "question": "Use because or because of.",
+                "mode": "Individual",
+                "example": "I loved the lessons because …"
+              },
+              {
+                "question": "Say what wisdom you learned and why it matters.",
+                "mode": "Pair",
+                "example": "Without this lesson, …"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "type": "final-challenge",
+        "title": "Final Challenge",
+        "image": "",
+        "content": "Bring the whole book together in the Final Challenge.",
+        "exercises": [
+          {
+            "id": "yesevi-b1-final-1",
+            "type": "multiple-choice",
+            "title": "Plain Turkish",
+            "instructions": "Choose the answer from the book.",
+            "question": "What was Yesevî the first great Sufi poet to do?",
+            "options": ["write and recite his poems in plain Turkish", "write his poems in Persian", "build a mausoleum"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 1: “… the first great Sufi poet to write and recite his poems in plain Turkish.”",
+            "feedback": {
+              "correct": "Correct. Write and recite in plain Turkish.",
+              "incorrect": "Read the first sentence of Chapter 1."
+            }
+          },
+          {
+            "id": "yesevi-b1-final-2",
+            "type": "matching",
+            "title": "Words and Meanings",
+            "instructions": "Match each word with its meaning.",
+            "question": "What do the words mean?",
+            "matchingHeadings": {
+              "left": "Word",
+              "right": "Meaning"
+            },
+            "matchingPairs": [
+              {
+                "left": "scholar",
+                "right": "a person who has studied a subject deeply"
+              },
+              {
+                "left": "heritage",
+                "right": "traditions, buildings and culture from the past"
+              },
+              {
+                "left": "ignorance",
+                "right": "not knowing"
+              },
+              {
+                "left": "perspective",
+                "right": "a way of looking at something"
+              }
+            ],
+            "correctAnswer": {
+              "scholar": "a person who has studied a subject deeply",
+              "heritage": "traditions, buildings and culture from the past",
+              "ignorance": "not knowing",
+              "perspective": "a way of looking at something"
+            },
+            "explanation": "These words appear in Chapters 3, 5, 10 and 11.",
+            "feedback": {
+              "correct": "Correct. Each word matches its meaning.",
+              "incorrect": "Think about the Word Notes."
+            }
+          },
+          {
+            "id": "yesevi-b1-final-3",
+            "type": "fill-blanks",
+            "title": "The UNESCO List",
+            "instructions": "Complete the sentence from Chapter 5 with one number.",
+            "question": "When was the structure added to the UNESCO list?",
+            "fillBlanksText": "In [blank], the historic structure was added to the UNESCO World Heritage List.",
+            "correctAnswer": ["2003"],
+            "explanation": "Chapter 5: “In 2003, the historic structure was added to the UNESCO World Heritage List.”",
+            "feedback": {
+              "correct": "Correct. 2003.",
+              "incorrect": "Read the second paragraph of Chapter 5."
+            }
+          },
+          {
+            "id": "yesevi-b1-final-4",
+            "type": "multiple-choice",
+            "title": "The Main Goal",
+            "instructions": "Choose the answer from the book.",
+            "question": "What was Yesevî’s main goal?",
+            "options": ["to spread Islam among the Turks", "to become a ruler", "to travel to Persia"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 6: “His main goal was to spread Islam among the Turks.”",
+            "feedback": {
+              "correct": "Correct. To spread Islam among the Turks.",
+              "incorrect": "Read the first paragraph of Chapter 6."
+            }
+          },
+          {
+            "id": "yesevi-b1-final-5",
+            "type": "matching",
+            "title": "People and Roles",
+            "instructions": "Match each person with their role in the book.",
+            "question": "Who did what?",
+            "matchingHeadings": {
+              "left": "Person",
+              "right": "Role"
+            },
+            "matchingPairs": [
+              {
+                "left": "Arslan Baba",
+                "right": "taught young Yesevî in Yesi"
+              },
+              {
+                "left": "Sheikh Yûsuf el-Hemedânî",
+                "right": "trained Yesevî in Bukhara"
+              },
+              {
+                "left": "Sheikh Abdülhâlik Gucdüvânî",
+                "right": "received Yesevî’s duty as a spiritual leader"
+              },
+              {
+                "left": "Timur",
+                "right": "ordered the mausoleum to be built"
+              }
+            ],
+            "correctAnswer": {
+              "Arslan Baba": "taught young Yesevî in Yesi",
+              "Sheikh Yûsuf el-Hemedânî": "trained Yesevî in Bukhara",
+              "Sheikh Abdülhâlik Gucdüvânî": "received Yesevî’s duty as a spiritual leader",
+              "Timur": "ordered the mausoleum to be built"
+            },
+            "explanation": "These people appear in Chapters 2, 3 and 5.",
+            "feedback": {
+              "correct": "Correct. Each person matches his role.",
+              "incorrect": "Look in Chapters 2, 3 and 5."
+            }
+          },
+          {
+            "id": "yesevi-b1-final-6",
+            "type": "true-false",
+            "title": "Teaching with Love",
+            "instructions": "Is the sentence true or false?",
+            "question": "Yesevî’s education method was centered on love.",
+            "correctAnswer": true,
+            "explanation": "Chapter 8: “Yesevî’s education method was centered on love.”",
+            "feedback": {
+              "correct": "Correct. It was centered on love.",
+              "incorrect": "Read the first sentence of Chapter 8."
+            }
+          },
+          {
+            "id": "yesevi-b1-final-7",
+            "type": "true-false",
+            "title": "The Texts Today",
+            "instructions": "Is the sentence true or false?",
+            "question": "The Dîvân-ı Hikmet is the first and most important text of Turkic Sufi literature.",
+            "correctAnswer": true,
+            "explanation": "Chapter 9: “It is the first and most important text of Turkic Sufi literature.”",
+            "feedback": {
+              "correct": "Correct. It is the first and most important.",
+              "incorrect": "Read the second paragraph of Chapter 9."
+            }
+          },
+          {
+            "id": "yesevi-b1-final-8",
+            "type": "fill-blanks",
+            "title": "The Original Meaning",
+            "instructions": "Complete the sentence from Chapter 10 with one word.",
+            "question": "What does the Arabic word for wisdom originally mean?",
+            "fillBlanksText": "Originally, the Arabic word for wisdom means ‘to [blank].’",
+            "correctAnswer": ["prevent"],
+            "explanation": "Chapter 10: “Originally, the Arabic word for wisdom means ‘to prevent.’”",
+            "feedback": {
+              "correct": "Correct. Prevent.",
+              "incorrect": "Read the last paragraph of Chapter 10."
+            }
+          },
+          {
+            "id": "yesevi-b1-final-9",
+            "type": "multiple-choice",
+            "title": "A Spiritual Home",
+            "instructions": "Choose the answer from the book.",
+            "question": "What is the Dîvân-ı Hikmet like for Turkish-speaking peoples in Central Asia today?",
+            "options": ["a spiritual home", "an old law book", "a history of wars"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 12: “Today, Ahmed Yesevî’s Dîvân-ı Hikmet is still like a spiritual home for Turkish-speaking peoples in Central Asia.”",
+            "feedback": {
+              "correct": "Correct. A spiritual home.",
+              "incorrect": "Read the last paragraph of Chapter 12."
+            }
+          },
+          {
+            "id": "yesevi-b1-final-10",
+            "type": "sequencing",
+            "title": "Yesevî’s Life",
+            "instructions": "Put the events in order.",
+            "question": "What happened first, next and last?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "Ahmed Yesevî studied with Arslan Baba in Yesi."
+              },
+              {
+                "id": "2",
+                "text": "Ahmed Yesevî learned Islamic sciences in Bukhara."
+              },
+              {
+                "id": "3",
+                "text": "Ahmed Yesevî returned to Yesi and died there in 1166."
+              },
+              {
+                "id": "4",
+                "text": "Timur ordered a mausoleum to be built over the grave."
+              },
+              {
+                "id": "5",
+                "text": "The mausoleum was added to the UNESCO World Heritage List."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4", "5"],
+            "explanation": "Chapters 2, 3 and 5 tell the events from his education to UNESCO.",
+            "feedback": {
+              "correct": "Correct. From his education to UNESCO.",
+              "incorrect": "Follow Chapters 2, 3 and 5."
+            }
+          }
+        ]
+      }
+    ],
+    "teacherGuide": [],
+    "selfStudyGuide": []
+  }
+}
