@@ -1,3 +1,5 @@
+// First: a working storage before any module reads it (see the file).
+import './lib/safeStorage';
 import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 import App from './App.tsx';

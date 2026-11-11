@@ -117,6 +117,24 @@ for (const lang of langs) {
     if (fixed !== text) writeFileSync(file, fixed);
   }
 
+  // Fonts go into the stylesheet itself: a player that runs the package in a sandboxed frame gives it no origin,
+  // and the browser then refuses font files from the package folder (CORS), so the text fell back to system fonts.
+  // The .ttf fallbacks are dropped; every browser that runs the app reads woff2.
+  for (const file of listFiles(appDir)) {
+    if (!/\.(css|js)$/.test(file)) continue;
+    const text = readFileSync(file, 'utf8');
+    const fixed = text
+      .replace(/,\s*url\((['"]?)[^)'"]*\.ttf\1\)\s*format\((['"])truetype\2\)/g, '')
+      .replace(/url\((['"]?)((?:\.\.\/)*)((?:fonts\/[\w/-]+|Arakom-[\w-]+)\.woff2)\1\)/g, (_, _q, _up, font) =>
+        `url(data:font/woff2;base64,${readFileSync(path.join(appDir, font)).toString('base64')})`);
+    if (fixed !== text) writeFileSync(file, fixed);
+  }
+  if (listFiles(appDir).some(file => /\.(css|js)$/.test(file) && /url\([^)]*\.(woff2|ttf)/.test(readFileSync(file, 'utf8')))) {
+    throw new Error('A font file is still linked instead of embedded');
+  }
+  rmSync(path.join(appDir, 'fonts'), { recursive: true, force: true });
+  for (const font of ['Arakom-Regular.woff2', 'Arakom-Bold.woff2', 'Arakom-Regular.ttf', 'Arakom-Bold.ttf']) rmSync(path.join(appDir, font), { force: true });
+
   // Any leftover absolute path would point at the LMS's own server.
   const absolute = listFiles(appDir)
     .filter(file => /\.(html|css|js)$/.test(file))
