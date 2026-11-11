@@ -207,7 +207,7 @@
     "type": "story",
     "title": "Iblis Says No",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam-a2_adam_a2_chapter3.png?alt=media&token=47e43312-d51a-45a8-9349-7f2f097d37a2",
-    "content": "Allah gave Adam knowledge. Adam could learn, think and understand. Allah taught him the names of many things. Adam knew more than the angels. Allah told the angels to show respect to Adam. All the angels did this. But Iblis did not.\n\nAllah asked Iblis about this. Iblis said, “I am better than Adam. You made me from fire, and You made Adam from soil.” Iblis thought he was very important. Iblis did not say sorry. Allah sent him out.",
+    "content": "Allah gave Adam knowledge. Adam could learn, think and understand. Allah taught him the names of many things. Adam knew more than the angels. Allah told the angels to show respect to Adam. All the angels did this. But Iblis did not.\n\nAllah asked Iblis about this. Iblis said, “I am better than Adam. You made me from fire, and You made Adam from soil.” He thought he was too important. He did not say sorry to Allah. So, Allah told Iblis, “Get out of here!” Iblis was wrong.",
     "vocabulary": [
      {
       "word": "knowledge",
@@ -570,7 +570,7 @@
     "type": "story",
     "title": "A Big Mistake",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter5.png?alt=media&token=76cd56fb-6403-4eed-9d22-2125689e9ab1",
-    "content": "One day, Iblis came to Adam and Eve. He said, “I am your friend. Eat from that tree, and you will never die.” It was a big lie. After some time, Adam and Eve believed him. They forgot Allah’s words. They ate fruit from the tree.\n\nAdam and Eve were very sad. They knew it was a mistake. They said sorry to Allah, and Allah forgave them. Iblis was different. He never said sorry. He always thought he was right.",
+    "content": "One day, Iblis came to Adam and Eve. He said, “I am your friend. Eat from that tree, and you will never die.” It was a big lie. After some time, Adam and Eve believed him. They forgot Allah’s words. They ate fruit from the tree. Sadly, sometimes people forget and make mistakes.\n\nAdam and Eve were very sad. They knew it was a mistake. They said sorry to Allah, and Allah forgave them. Iblis was different. He never said sorry. He always thought he was right. Iblis did not see the right way. He thought he was too important.",
     "vocabulary": [
      {
       "word": "lie",
@@ -939,7 +939,7 @@
     "type": "story",
     "title": "Two Brothers",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter8.png?alt=media&token=4a3d55b6-fba5-4d1b-ac6d-368ea81562f6",
-    "content": "Adam and Eve had two sons, Habil and Qabil. Habil was kind and gentle. He looked after sheep and cows. Qabil was a farmer. He grew food on his farm. But Qabil was often jealous of his brother.\n\nOne day, the brothers each gave a present to Allah. Habil gave his best sheep. Qabil gave only a little food from his farm. Allah was happy with Habil’s present, because it came from his heart. Qabil was very angry. He said, “This is your end.” Habil said, “I will not hurt you. You are my brother, and I fear Allah.”",
+    "content": "Adam and Eve had two sons, Habil and Qabil. Habil was kind and gentle. He looked after sheep and cows. Qabil was a farmer. He grew food on his farm. But Qabil was often jealous of his brother.\n\nOne day, the brothers had a big problem. Qabil was very angry. He said, “This is your end.” Habil said, “I will not hurt you. You are my brother, and I fear Allah.”",
     "vocabulary": [
      {
       "word": "gentle",
@@ -948,10 +948,6 @@
      {
       "word": "jealous",
       "definition": "Unhappy because someone has something good."
-     },
-     {
-      "word": "present",
-      "definition": "A thing you give to someone."
      },
      {
       "word": "fear",
@@ -970,8 +966,8 @@
       "id": "h6-2",
       "x": 68,
       "y": 50,
-      "title": "A Present from the Heart",
-      "description": "Allah was happy with Habil’s present, because it came from his heart."
+      "title": "A Big Problem",
+      "description": "One day, the brothers had a big problem. Qabil was very angry."
      }
     ],
     "exercises": [
@@ -988,41 +984,41 @@
       "matchingPairs": [
        {
         "left": "Habil",
-        "right": "He gave his best sheep."
+        "right": "He looked after sheep and cows."
        },
        {
         "left": "Qabil",
-        "right": "He gave only a little food."
+        "right": "He grew food on his farm."
        }
       ],
       "correctAnswer": {
-       "Habil": "He gave his best sheep.",
-       "Qabil": "He gave only a little food."
+       "Habil": "He looked after sheep and cows.",
+       "Qabil": "He grew food on his farm."
       },
-      "explanation": "Chapter 6 says: “Habil gave his best sheep. Qabil gave only a little food from his farm.”",
+      "explanation": "Chapter 6 says: “He looked after sheep and cows. Qabil was a farmer. He grew food on his farm.”",
       "feedback": {
-       "correct": "Yes! Habil gave his best. Qabil gave only a little.",
-       "incorrect": "Read the second paragraph of Chapter 6 again."
+       "correct": "Yes! Habil looked after animals. Qabil was a farmer.",
+       "incorrect": "Read the first paragraph of Chapter 6 again."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "adam-a1-language-6-because",
+      "id": "adam-a1-language-6-will-not",
       "type": "multiple-choice",
-      "title": "Look: Because",
+      "title": "Look: Will Not",
       "instructions": "Choose the right answer.",
-      "question": "“Allah was happy with Habil’s present, because it came from his heart.” What does “because” tell us?",
+      "question": "Habil said, “I will not hurt you.” What does this mean?",
       "options": [
-       "why",
-       "when",
-       "where"
+       "Habil is not going to hurt his brother.",
+       "Habil hurt his brother yesterday.",
+       "Habil wants to hurt his brother."
       ],
       "correctAnswer": 0,
-      "explanation": "“Because” tells us why. Why was Allah happy? Because the present came from Habil’s heart.",
+      "explanation": "“Will not” + verb tells us about later. Habil is not going to do it.",
       "feedback": {
-       "correct": "Yes. Because tells us why.",
-       "incorrect": "Ask: Why was Allah happy? The answer comes after “because”."
+       "correct": "Yes. Will not = not later.",
+       "incorrect": "Read Habil’s words at the end of Chapter 6."
       }
      },
      {
@@ -1067,44 +1063,44 @@
      {
       "id": "adam-a1-language-6-write-it",
       "type": "reflection",
-      "title": "Write It: A Good Present",
-      "instructions": "Write about a present you gave.",
-      "question": "What did you give, and why?",
+      "title": "Write It: Two People",
+      "instructions": "Write about two people in your family.",
+      "question": "Who are they, and what do they do?",
       "correctAnswer": null,
-      "explanation": "Use gave and because.",
+      "explanation": "Use is + a word for a person, and one verb.",
       "feedback": {
-       "correct": "Write two sentences. Use because in one sentence.",
+       "correct": "Write two sentences, one for each person.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I gave … to …”",
+        "question": "“My … is kind and …”",
         "mode": "Individual",
-        "example": "I gave a book to my friend."
+        "example": "My sister is kind and gentle."
        },
        {
-        "question": "“… because …”",
+        "question": "“My … is a … He / She …”",
         "mode": "Individual",
-        "example": "I gave it because she likes stories."
+        "example": "My uncle is a farmer. He grows apples."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Habil give to Allah?",
+     "question": "Guess first: Who was kind and gentle?",
      "options": [
-      "his best sheep",
-      "a little food",
-      "a big house"
+      "Habil",
+      "Qabil",
+      "Iblis"
      ],
      "answer": 0,
-     "quote": "Habil gave his best sheep."
+     "quote": "Habil was kind and gentle."
     },
     "iCan": [
      "I can tell about Habil and Qabil.",
-     "I can use because.",
-     "I can write about a present."
+     "I can understand “will not”.",
+     "I can write about two people."
     ]
    },
    {
@@ -1337,7 +1333,7 @@
       "question": "What does the story of Habil and Qabil teach us?",
       "options": [
        "Do not be jealous, and stop your anger.",
-       "Always give a little.",
+       "Always be first.",
        "Never work on a farm."
       ],
       "correctAnswer": 0,
@@ -1725,7 +1721,7 @@
       "pronunciation": "/mɪˈsteɪk/",
       "chapter": 4,
       "chapterTitle": "A Big Mistake",
-      "storyExample": "They knew it was a mistake.",
+      "storyExample": "Sadly, sometimes people forget and make mistakes.",
       "category": "Values"
      },
      {
@@ -1793,17 +1789,6 @@
       "chapterTitle": "Two Brothers",
       "storyExample": "But Qabil was often jealous of his brother.",
       "category": "Feelings"
-     },
-     {
-      "word": "present",
-      "definition": "A thing you give to someone.",
-      "partOfSpeech": "noun",
-      "level": "A1",
-      "pronunciation": "/ˈpreznt/",
-      "chapter": 6,
-      "chapterTitle": "Two Brothers",
-      "storyExample": "One day, the brothers each gave a present to Allah.",
-      "category": "Things"
      },
      {
       "word": "fear",
@@ -2060,21 +2045,21 @@
         "answer": 0
        },
        {
-        "sentence": "Habil gived his best sheep.",
-        "error": "gived",
+        "sentence": "Qabil growed food on his farm.",
+        "error": "growed",
         "options": [
-         "give",
-         "gave",
-         "gives"
+         "grow",
+         "grew",
+         "grows"
         ],
         "answer": 1
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Make” and “give” change in the past: made, gave.",
+      "explanation": "“Make” and “grow” change in the past: made, grew.",
       "feedback": {
        "correct": "Well done.",
-       "incorrect": "Make → made. Give → gave. They do not take -ed."
+       "incorrect": "Make → made. Grow → grew. They do not take -ed."
       }
      },
      {
@@ -2232,18 +2217,18 @@
      {
       "id": "adam-a1-final-7",
       "type": "multiple-choice",
-      "title": "Why Was Allah Happy?",
+      "title": "Habil’s Words",
       "instructions": "Choose the answer.",
-      "question": "Why was Allah happy with Habil’s present?",
+      "question": "What did Habil say to Qabil?",
       "options": [
-       "It came from his heart.",
-       "It was very big.",
-       "It was food from a farm."
+       "“I will not hurt you.”",
+       "“This is your end.”",
+       "“I am better than you.”"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 6: “Allah was happy with Habil’s present, because it came from his heart.”",
+      "explanation": "Chapter 6: Habil said, “I will not hurt you. You are my brother, and I fear Allah.”",
       "feedback": {
-       "correct": "Yes. It came from his heart.",
+       "correct": "Yes. Habil did not want to hurt his brother.",
        "incorrect": "Read the second paragraph of Chapter 6."
       }
      },

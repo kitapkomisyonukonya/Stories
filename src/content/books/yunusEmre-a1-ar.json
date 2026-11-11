@@ -15,7 +15,7 @@
     "type": "story",
     "title": "A Great Poet",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch1-clean.png?alt=media&token=6c39aefe-e1bc-4d97-a8c5-553d0db338a9",
-    "content": "Yunus Emre was a great Turkish poet. He was born in Anatolia in 1240. He wrote poems in easy Turkish, and people understood them well. His poems talk about love for Allah and for Prophet Muhammad (pbuh). They teach good lessons. People read them today, too.\n\nWhen Yunus was young, he went to a madrasa. A madrasa was a school. After school, he was a dervish. Dervishes lived in a dervish house with a teacher. Yunus’s teacher was Taptuk Emre. Yunus lived at the same time as Mevlana. He died in 1320.",
+    "content": "Yunus Emre was a great Turkish poet. He was born in Anatolia in 1240. He wrote poems in simple Turkish, and people understood them well. His poems talk about love for Allah and for Prophet Muhammad (pbuh). They teach good lessons. People read them today, too.\n\nWhen Yunus was young, he went to a madrasa. A madrasa was a school. After school, he became a dervish. Dervishes lived in a dervish house with a teacher. Yunus’s teacher was Taptuk Emre. Yunus lived at the same time as Mevlana. He died in 1320.",
     "vocabulary": [
      {
       "word": "Anatolia",
@@ -52,7 +52,7 @@
       "x": 35,
       "y": 46,
       "title": "Easy Turkish",
-      "description": "Yunus Emre wrote his poems in easy Turkish. People understood them well."
+      "description": "Yunus Emre wrote his poems in simple Turkish. People understood them well."
      },
      {
       "id": "h1-2",
@@ -196,11 +196,11 @@
      "question": "Guess first: What did Yunus Emre write?",
      "options": [
       "stories for children",
-      "poems in easy Turkish",
+      "poems in simple Turkish",
       "books about the sea"
      ],
      "answer": 1,
-     "quote": "He wrote poems in easy Turkish, and people understood them well."
+     "quote": "He wrote poems in simple Turkish, and people understood them well."
     },
     "iCan": [
      "I can say who Yunus Emre was.",
@@ -396,7 +396,7 @@
     "type": "story",
     "title": "Straight Wood",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch4-clean.png?alt=media&token=ca4e4897-3845-4b61-b7a0-5b4d0dbc10b4",
-    "content": "Yunus went to the dervish house of Taptuk Emre. He said to his teacher, “I want to work for you.” Taptuk Emre gave Yunus a job. There was a mountain behind the dervish house. Every day, Yunus went up the mountain. He found wood there and carried it on his back. It was very hard work.\n\nYunus only took straight wood to the house. He never took wood that was not straight. He looked for the best wood. The wood was like his heart. Yunus worked on the wood, and he also worked on his heart. Every day, his heart was a little better.",
+    "content": "Yunus went to the dervish house of Taptuk Emre. He said to his teacher, “I want to stay here and learn from you. And I want to help you.” Taptuk Emre gave Yunus a job. There was a mountain behind the dervish house. Every day, Yunus went up the mountain. He found wood there and carried it on his back. It was very hard work.\n\nYunus only took straight wood to the house. He never took wood that was not straight. He looked for the best wood. The wood was like his heart. Yunus worked on the wood, and he also worked on his heart. Every day, his heart was a little better.",
     "vocabulary": [
      {
       "word": "mountain",
@@ -441,7 +441,7 @@
        },
        {
         "id": "2",
-        "text": "Yunus Emre said, “I want to work for you.”"
+        "text": "Yunus Emre said, “I want to stay here and learn from you.”"
        },
        {
         "id": "3",
@@ -1363,7 +1363,7 @@
       "pronunciation": "/ˈpoʊəm/",
       "chapter": 1,
       "chapterTitle": "A Great Poet",
-      "storyExample": "He wrote poems in easy Turkish, and people understood them well.",
+      "storyExample": "He wrote poems in simple Turkish, and people understood them well.",
       "category": "Language"
      },
      {
@@ -1789,13 +1789,13 @@
       "title": "Easy Turkish",
       "instructions": "Complete the sentence with one word: Turkish, Arabic or Persian.",
       "question": "In which language did Yunus Emre write?",
-      "fillBlanksText": "Yunus Emre wrote poems in easy [blank].",
+      "fillBlanksText": "Yunus Emre wrote poems in simple [blank].",
       "correctAnswer": [
        "Turkish"
       ],
-      "explanation": "Chapter 1: “He wrote poems in easy Turkish.”",
+      "explanation": "Chapter 1: “He wrote poems in simple Turkish.”",
       "feedback": {
-       "correct": "Yes. He wrote in easy Turkish.",
+       "correct": "Yes. He wrote in simple Turkish.",
        "incorrect": "Read the first paragraph of Chapter 1."
       }
      },
