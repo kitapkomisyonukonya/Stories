@@ -6,32 +6,32 @@
  "collection": "prophets",
  "book": {
   "id": "adam-a1-ar",
-  "title": "Prophet Adam (pbuh): The First Human (A1)",
+  "title": "آدم عليه السلام: الإنسان الأول (A1)",
   "level": "A1",
-  "baseFontSize": 13,
+  "baseFontSize": 14,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "The First Human",
+    "title": "الْإِنْسَانُ الْأَوَّلُ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_ch1.png?alt=media&token=ca08c6ed-5540-4dc8-b880-7de3d943ce9c",
-    "content": "A very long time ago, Allah made the sky and the earth. Then He told the angels about the first human. The human was going to live on the earth. The angels were surprised.\n\nThen the angels took soil from different parts of the earth. Allah made the first human from this soil. His name was Adam. Prophet Muhammad (pbuh) told us about this soil. It came from many different places. Because of this, people have different skin colors. Adam is the father of all people. We are all his children.",
+    "content": "قَبْلَ زَمَنٍ طَوِيلٍ جِدًّا، خَلَقَ اللهُ السَّمَاءَ وَالْأَرْضَ. ثُمَّ أَخْبَرَ اللهُ الْمَلَائِكَةَ عَنِ الْإِنْسَانِ الْأَوَّلِ. سَيَعِيشُ هَذَا الْإِنْسَانُ فِي الْأَرْضِ. تَعَجَّبَتِ الْمَلَائِكَةُ.\n\nثُمَّ أَخَذَتِ الْمَلَائِكَةُ تُرَابًا مِنْ أَمَاكِنَ مُخْتَلِفَةٍ فِي الْأَرْضِ. خَلَقَ اللهُ الْإِنْسَانَ الْأَوَّلَ مِنْ هَذَا التُّرَابِ. اسْمُهُ آدَمُ عَلَيْهِ السَّلَامُ. أَخْبَرَنَا النَّبِيُّ مُحَمَّدٌ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ عَنْ هَذَا التُّرَابِ. جَاءَ مِنْ أَمَاكِنَ كَثِيرَةٍ مُخْتَلِفَةٍ. لِذَلِكَ أَلْوَانُ النَّاسِ مُخْتَلِفَةٌ. آدَمُ أَبُو كُلِّ النَّاسِ. كُلُّنَا أَوْلَادُهُ.",
     "vocabulary": [
      {
-      "word": "earth",
-      "definition": "The world we live on."
+      "word": "الْأَرْضَ",
+      "definition": "الْمَكَانُ الَّذِي نَعِيشُ عَلَيْهِ."
      },
      {
-      "word": "angel",
-      "definition": "A being of light; it always does what Allah says."
+      "word": "الْمَلَائِكَةَ",
+      "definition": "خَلْقٌ مِنْ نُورٍ، يَفْعَلُونَ مَا يَأْمُرُ اللهُ دَائِمًا."
      },
      {
-      "word": "surprised",
-      "definition": "Feeling \"Oh! I did not know that!\"."
+      "word": "تَعَجَّبَتِ",
+      "definition": "رَأَتْ أَوْ سَمِعَتْ شَيْئًا جَدِيدًا غَرِيبًا."
      },
      {
-      "word": "soil",
-      "definition": "The brown ground; plants grow in it."
+      "word": "تُرَابًا",
+      "definition": "الْأَرْضُ النَّاعِمَةُ؛ يَنْبُتُ فِيهَا النَّبَاتُ."
      }
     ],
     "hotspots": [
@@ -39,187 +39,187 @@
       "id": "h1-1",
       "x": 35,
       "y": 46,
-      "title": "The Angels",
-      "description": "Allah told the angels about the first human. The angels were surprised."
+      "title": "الْمَلَائِكَةُ",
+      "description": "أَخْبَرَ اللهُ الْمَلَائِكَةَ عَنِ الْإِنْسَانِ الْأَوَّلِ. تَعَجَّبَتِ الْمَلَائِكَةُ."
      },
      {
       "id": "h1-2",
       "x": 68,
       "y": 50,
-      "title": "Soil from Many Places",
-      "description": "The soil came from many places. Because of this, people have different skin colors."
+      "title": "تُرَابٌ مِنْ أَمَاكِنَ كَثِيرَةٍ",
+      "description": "جَاءَ التُّرَابُ مِنْ أَمَاكِنَ كَثِيرَةٍ مُخْتَلِفَةٍ. لِذَلِكَ أَلْوَانُ النَّاسِ مُخْتَلِفَةٌ."
      }
     ],
     "exercises": [
      {
-      "id": "adam-a1-quick-1",
+      "id": "adam-a1-ar-quick-1",
       "type": "drag-drop",
-      "title": "The First Human",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 1?",
+      "title": "الْإِنْسَانُ الْأَوَّلُ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الْأَوَّلِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "Then the angels took soil from different parts of the earth.",
-         "Adam is the father of all people."
+         "أَخَذَتِ الْمَلَائِكَةُ تُرَابًا مِنْ أَمَاكِنَ مُخْتَلِفَةٍ فِي الْأَرْضِ.",
+         "آدَمُ أَبُو كُلِّ النَّاسِ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "The angels made the first human."
+         "خَلَقَتِ الْمَلَائِكَةُ الْإِنْسَانَ الْأَوَّلَ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "Then the angels took soil from different parts of the earth.",
-        "Adam is the father of all people."
+       "صَحِيحٌ": [
+        "أَخَذَتِ الْمَلَائِكَةُ تُرَابًا مِنْ أَمَاكِنَ مُخْتَلِفَةٍ فِي الْأَرْضِ.",
+        "آدَمُ أَبُو كُلِّ النَّاسِ."
        ],
-       "False": [
-        "The angels made the first human."
+       "خَطَأٌ": [
+        "خَلَقَتِ الْمَلَائِكَةُ الْإِنْسَانَ الْأَوَّلَ."
        ]
       },
-      "explanation": "Chapter 1 says: “Allah made the first human from this soil.” The angels only took the soil.",
+      "explanation": "يقول الفصل الأول: «خَلَقَ اللهُ الْإِنْسَانَ الْأَوَّلَ مِنْ هَذَا التُّرَابِ». الملائكة أخذت التراب فقط.",
       "feedback": {
-       "correct": "Yes! Allah made Adam. The angels took the soil.",
-       "incorrect": "Read the second paragraph of Chapter 1 again."
+       "correct": "أَحْسَنْتَ! اللهُ خَلَقَ الْإِنْسَانَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "adam-a1-language-1-past",
+      "id": "adam-a1-ar-language-1-past",
       "type": "matching",
-      "title": "Look: Made, Took, Told",
-      "instructions": "Match the verb with its past form.",
-      "question": "What is the past form?",
+      "title": "انْظُرْ: خَلَقَ، أَخَذَ، أَخْبَرَ",
+      "instructions": "صِلِ الْفِعْلَ بِصِيغَةِ الْمَاضِي.",
+      "question": "مَا صِيغَةُ الْمَاضِي؟",
       "matchingHeadings": {
-       "left": "Verb",
-       "right": "Past form"
+       "left": "الْمُضَارِعُ",
+       "right": "الْمَاضِي"
       },
       "matchingPairs": [
        {
-        "left": "make",
-        "right": "made"
+        "left": "يَخْلُقُ",
+        "right": "خَلَقَ"
        },
        {
-        "left": "take",
-        "right": "took"
+        "left": "يَأْخُذُ",
+        "right": "أَخَذَ"
        },
        {
-        "left": "tell",
-        "right": "told"
+        "left": "يُخْبِرُ",
+        "right": "أَخْبَرَ"
        },
        {
-        "left": "come",
-        "right": "came"
+        "left": "يَجِيءُ",
+        "right": "جَاءَ"
        }
       ],
       "correctAnswer": {
-       "make": "made",
-       "take": "took",
-       "tell": "told",
-       "come": "came"
+       "يَخْلُقُ": "خَلَقَ",
+       "يَأْخُذُ": "أَخَذَ",
+       "يُخْبِرُ": "أَخْبَرَ",
+       "يَجِيءُ": "جَاءَ"
       },
-      "explanation": "The story happened a long time ago, so it is in the past. These verbs change in the past: made, took, told, came.",
+      "explanation": "القصة حدثت قبل زمن طويل، فهي في الماضي: خَلَقَ، أَخَذَتْ، أَخْبَرَ، جَاءَ.",
       "feedback": {
-       "correct": "Good. You found the past forms.",
-       "incorrect": "Find made, took, told and came in Chapter 1."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "ابْحَثْ عَنْ هَذِهِ الْأَفْعَالِ فِي الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "adam-a1-language-1-practise",
+      "id": "adam-a1-ar-language-1-practise",
       "type": "word-bank",
-      "title": "Practise: A Long Time Ago",
-      "instructions": "Fill the gaps with the words.",
-      "question": "Which words tell the past?",
-      "fillBlanksText": "Allah [blank] the sky and the earth. Then the angels [blank] soil from different parts of the earth. His name [blank] Adam.",
+      "title": "تَدَرَّبْ: قَبْلَ زَمَنٍ طَوِيلٍ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "أَيُّ كَلِمَةٍ لِلْمَاضِي؟",
+      "fillBlanksText": "قَبْلَ زَمَنٍ طَوِيلٍ جِدًّا، [blank] اللهُ السَّمَاءَ وَالْأَرْضَ. ثُمَّ [blank] الْمَلَائِكَةُ تُرَابًا. [blank] اللهُ الْمَلَائِكَةَ عَنِ الْإِنْسَانِ الْأَوَّلِ.",
       "wordBank": [
-       "made",
-       "took",
-       "was",
-       "makes",
-       "is"
+       "خَلَقَ",
+       "أَخَذَتِ",
+       "أَخْبَرَ",
+       "يَخْلُقُ",
+       "تَأْخُذُ"
       ],
       "correctAnswer": [
-       "made",
-       "took",
-       "was"
+       "خَلَقَ",
+       "أَخَذَتِ",
+       "أَخْبَرَ"
       ],
-      "explanation": "All three sentences tell the past. We use made, took and was.",
+      "explanation": "الجمل الثلاث في الماضي: خَلَقَ، أَخَذَتِ، أَخْبَرَ. ومع «الْمَلَائِكَةُ» نقول «أَخَذَتْ».",
       "feedback": {
-       "correct": "Correct. All three words tell the past.",
-       "incorrect": "Look at Chapter 1. Find made, took and was."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الْأَوَّلَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "adam-a1-language-1-say-it",
+      "id": "adam-a1-ar-language-1-say-it",
       "type": "reflection",
-      "title": "Say It: All People",
-      "instructions": "Say three sentences about Chapter 1.",
-      "question": "What do you know about Adam?",
+      "title": "قُلْهَا: كُلُّ النَّاسِ",
+      "instructions": "قُلْ ثَلَاثَ جُمَلٍ عَنِ الْفَصْلِ.",
+      "question": "مَاذَا تَعْرِفُ عَنْ آدَمَ؟",
       "correctAnswer": null,
-      "explanation": "Use the facts from Chapter 1 only.",
+      "explanation": "استعمل معلومات الفصل الأول فقط.",
       "feedback": {
-       "correct": "Say one thing in each sentence.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Allah made Adam from …”",
+        "question": "«خَلَقَ اللهُ آدَمَ مِنْ …»",
         "mode": "Individual",
-        "example": "Allah made Adam from soil."
+        "example": "خَلَقَ اللهُ آدَمَ مِنْ تُرَابٍ."
        },
        {
-        "question": "“Adam is the father of …”",
+        "question": "«آدَمُ أَبُو …»",
         "mode": "Individual",
-        "example": "Adam is the father of all people."
+        "example": "آدَمُ أَبُو كُلِّ النَّاسِ."
        },
        {
-        "question": "“People have different …”",
+        "question": "«أَلْوَانُ النَّاسِ …»",
         "mode": "Pair",
-        "example": "People have different skin colors."
+        "example": "أَلْوَانُ النَّاسِ مُخْتَلِفَةٌ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Allah make the first human from?",
+     "question": "خَمِّنْ أَوَّلًا: مِنْ أَيِّ شَيْءٍ خَلَقَ اللهُ الْإِنْسَانَ الْأَوَّلَ؟",
      "options": [
-      "soil",
-      "water",
-      "fire"
+      "مِنْ تُرَابٍ",
+      "مِنْ مَاءٍ",
+      "مِنْ نَارٍ"
      ],
      "answer": 0,
-     "quote": "Allah made the first human from this soil."
+     "quote": "خَلَقَ اللهُ الْإِنْسَانَ الْأَوَّلَ مِنْ هَذَا التُّرَابِ."
     },
     "iCan": [
-     "I can say what Allah made Adam from.",
-     "I can use made, took and told.",
-     "I can say why people have different skin colors."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مِنْ أَيِّ شَيْءٍ خَلَقَ اللهُ آدَمَ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ خَلَقَ وَأَخَذَ وَأَخْبَرَ.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ لِمَاذَا أَلْوَانُ النَّاسِ مُخْتَلِفَةٌ."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "Iblis Says No",
+    "title": "إِبْلِيسُ يَقُولُ: لَا",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam-a2_adam_a2_chapter3.png?alt=media&token=47e43312-d51a-45a8-9349-7f2f097d37a2",
-    "content": "Allah gave Adam knowledge. Adam could learn, think and understand. Allah taught him the names of many things. Adam knew more than the angels. Allah told the angels to show respect to Adam. All the angels did this. But Iblis did not.\n\nAllah asked Iblis, “Why did you not show respect to Adam?” Iblis said, “I am better than Adam. You made me from fire, and You made Adam from soil.” He thought he was too important. He did not say sorry to Allah. So, Allah told Iblis, “Get out of here!” Iblis was wrong.",
+    "content": "أَعْطَى اللهُ آدَمَ عِلْمًا. اسْتَطَاعَ آدَمُ أَنْ يَتَعَلَّمَ وَيُفَكِّرَ وَيَفْهَمَ. عَلَّمَهُ اللهُ أَسْمَاءَ أَشْيَاءَ كَثِيرَةٍ. عَرَفَ آدَمُ أَكْثَرَ مِنَ الْمَلَائِكَةِ. أَمَرَ اللهُ الْمَلَائِكَةَ أَنْ يَسْجُدُوا لِآدَمَ احْتِرَامًا لَهُ. فَسَجَدَ كُلُّ الْمَلَائِكَةِ. لَكِنَّ إِبْلِيسَ مَا سَجَدَ.\n\nسَأَلَ اللهُ إِبْلِيسَ عَنْ ذَلِكَ. قَالَ إِبْلِيسُ: ﴿أَنَا خَيْرٌ مِنْهُ خَلَقْتَنِي مِنْ نَارٍ وَخَلَقْتَهُ مِنْ طِينٍ﴾ (سُورَةُ الْأَعْرَافِ). ظَنَّ أَنَّهُ مُهِمٌّ جِدًّا. مَا طَلَبَ إِبْلِيسُ الْمَغْفِرَةَ، فَأَخْرَجَهُ اللهُ. مَا كَانَ إِبْلِيسُ عَلَى حَقٍّ.",
     "vocabulary": [
      {
-      "word": "knowledge",
-      "definition": "The things you know and learn."
+      "word": "عِلْمًا",
+      "definition": "الْأَشْيَاءُ الَّتِي نَعْرِفُهَا وَنَتَعَلَّمُهَا."
      },
      {
-      "word": "respect",
-      "definition": "A feeling that someone is important."
+      "word": "احْتِرَامًا",
+      "definition": "شُعُورٌ بِأَنَّ شَخْصًا مَا مُهِمٌّ."
      },
      {
-      "word": "fire",
-      "definition": "Something very hot, red and yellow."
+      "word": "نَارٍ",
+      "definition": "شَيْءٌ حَارٌّ جِدًّا، لَوْنُهُ أَحْمَرُ وَأَصْفَرُ."
      }
     ],
     "hotspots": [
@@ -227,156 +227,156 @@
       "id": "h2-1",
       "x": 35,
       "y": 46,
-      "title": "Knowledge",
-      "description": "Allah taught Adam the names of many things. Adam could learn, think and understand."
+      "title": "الْعِلْمُ",
+      "description": "عَلَّمَ اللهُ آدَمَ أَسْمَاءَ أَشْيَاءَ كَثِيرَةٍ. اسْتَطَاعَ آدَمُ أَنْ يَتَعَلَّمَ وَيُفَكِّرَ وَيَفْهَمَ."
      },
      {
       "id": "h2-2",
       "x": 68,
       "y": 50,
-      "title": "Iblis Says No",
-      "description": "Iblis said, “I am better than Adam.” He did not show respect to Adam."
+      "title": "إِبْلِيسُ يَقُولُ: لَا",
+      "description": "ظَنَّ إِبْلِيسُ أَنَّهُ خَيْرٌ مِنْ آدَمَ، فَمَا سَجَدَ لَهُ."
      }
     ],
     "exercises": [
      {
-      "id": "adam-a1-quick-2",
+      "id": "adam-a1-ar-quick-2",
       "type": "multiple-choice",
-      "title": "Why Did Iblis Say No?",
-      "instructions": "Choose the best answer.",
-      "question": "Why did Iblis not show respect to Adam?",
+      "title": "لِمَاذَا قَالَ إِبْلِيسُ: لَا؟",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "لِمَاذَا مَا سَجَدَ إِبْلِيسُ لِآدَمَ؟",
       "options": [
-       "Iblis thought he was better than Adam.",
-       "Iblis did not see Adam.",
-       "Iblis was sad."
+       "ظَنَّ إِبْلِيسُ أَنَّهُ خَيْرٌ مِنْ آدَمَ.",
+       "مَا رَأَى إِبْلِيسُ آدَمَ.",
+       "كَانَ إِبْلِيسُ حَزِينًا."
       ],
       "correctAnswer": 0,
-      "explanation": "Iblis said, “I am better than Adam. You made me from fire, and You made Adam from soil.”",
+      "explanation": "قال إبليس: ﴿أَنَا خَيْرٌ مِنْهُ﴾، و«ظَنَّ أَنَّهُ مُهِمٌّ جِدًّا».",
       "feedback": {
-       "correct": "Yes! Iblis thought he was better.",
-       "incorrect": "Read what Iblis said in Chapter 2."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّانِي."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "adam-a1-language-2-could",
+      "id": "adam-a1-ar-language-2-could",
       "type": "multiple-choice",
-      "title": "Look: Could",
-      "instructions": "Choose the right answer.",
-      "question": "“Adam could learn, think and understand.” What is “could”?",
+      "title": "انْظُرْ: اسْتَطَاعَ أَنْ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«اسْتَطَاعَ آدَمُ أَنْ يَتَعَلَّمَ وَيُفَكِّرَ وَيَفْهَمَ.» مَا مَعْنَى «اسْتَطَاعَ»؟",
       "options": [
-       "the past of “can”",
-       "the past of “come”",
-       "the past of “cold”"
+       "مَاضِي «يَسْتَطِيعُ»",
+       "مَاضِي «يَتَعَلَّمُ»",
+       "مَاضِي «يَفْهَمُ»"
       ],
       "correctAnswer": 0,
-      "explanation": "“Could” is the past of “can”. Today: I can read. In the past: I could read.",
+      "explanation": "«اسْتَطَاعَ» ماضي «يَسْتَطِيعُ». اليوم: أَسْتَطِيعُ أَنْ أَقْرَأَ. في الماضي: اسْتَطَعْتُ أَنْ أَقْرَأَ.",
       "feedback": {
-       "correct": "Yes. Could = can, in the past.",
-       "incorrect": "Read the sentence again: “Adam could learn, think and understand.”"
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْجُمْلَةَ الثَّانِيَةَ مِنَ الْفَصْلِ."
       }
      },
      {
-      "id": "adam-a1-language-2-did-not",
+      "id": "adam-a1-ar-language-2-practise",
       "type": "choose-form",
-      "title": "Practise: Did or Did Not?",
-      "instructions": "Choose the right words.",
-      "question": "Who did it? Who did not?",
+      "title": "تَدَرَّبْ: سَجَدَ أَمْ مَا سَجَدَ؟",
+      "instructions": "اخْتَرِ الْكَلِمَاتِ الصَّحِيحَةَ.",
+      "question": "مَنْ فَعَلَ؟ مَنْ مَا فَعَلَ؟",
       "formChoices": [
        {
-        "sentence": "All the angels [choice] respect to Adam.",
+        "sentence": "[choice] كُلُّ الْمَلَائِكَةِ لِآدَمَ.",
         "options": [
-         "showed",
-         "did not show"
+         "سَجَدَ",
+         "مَا سَجَدَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Iblis [choice] respect to Adam.",
+        "sentence": "إِبْلِيسُ [choice] لِآدَمَ.",
         "options": [
-         "showed",
-         "did not show"
+         "سَجَدَ",
+         "مَا سَجَدَ"
         ],
         "answer": 1
        },
        {
-        "sentence": "Iblis [choice] sorry.",
+        "sentence": "إِبْلِيسُ [choice] الْمَغْفِرَةَ.",
         "options": [
-         "said",
-         "did not say"
+         "طَلَبَ",
+         "مَا طَلَبَ"
         ],
         "answer": 1
        }
       ],
       "correctAnswer": null,
-      "explanation": "For “no” in the past, we use did not + verb: did not show, did not say.",
+      "explanation": "للنفي في الماضي نقول «مَا» + الفعل الماضي: مَا سَجَدَ، مَا طَلَبَ.",
       "feedback": {
-       "correct": "Correct. Did not + verb.",
-       "incorrect": "Look at Chapter 2. Did Iblis show respect? Did he say sorry?"
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الثَّانِيَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "adam-a1-language-2-say-it",
+      "id": "adam-a1-ar-language-2-say-it",
       "type": "reflection",
-      "title": "Say It: I Could",
-      "instructions": "Say what you could do as a child.",
-      "question": "What could you do when you were five?",
+      "title": "قُلْهَا: اسْتَطَعْتُ",
+      "instructions": "قُلْ مَاذَا اسْتَطَعْتَ وَأَنْتَ صَغِيرٌ.",
+      "question": "مَاذَا اسْتَطَعْتَ أَنْ تَفْعَلَ وَعُمْرُكَ خَمْسُ سَنَوَاتٍ؟",
       "correctAnswer": null,
-      "explanation": "Use could and could not + verb.",
+      "explanation": "استعمل «اسْتَطَعْتُ أَنْ» و«مَا اسْتَطَعْتُ أَنْ» + المضارع.",
       "feedback": {
-       "correct": "Say one could sentence and one could not sentence.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“When I was five, I could …”",
+        "question": "«عِنْدَمَا كَانَ عُمْرِي خَمْسَ سَنَوَاتٍ، اسْتَطَعْتُ أَنْ …»",
         "mode": "Individual",
-        "example": "When I was five, I could swim."
+        "example": "عِنْدَمَا كَانَ عُمْرِي خَمْسَ سَنَوَاتٍ، اسْتَطَعْتُ أَنْ أَسْبَحَ."
        },
        {
-        "question": "“When I was five, I could not …”",
+        "question": "«… مَا اسْتَطَعْتُ أَنْ …»",
         "mode": "Pair",
-        "example": "When I was five, I could not read."
+        "example": "مَا اسْتَطَعْتُ أَنْ أَقْرَأَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Who did not show respect to Adam?",
+     "question": "خَمِّنْ أَوَّلًا: مَنْ مَا سَجَدَ لِآدَمَ؟",
      "options": [
-      "the angels",
-      "Iblis",
-      "Adam’s children"
+      "الْمَلَائِكَةُ",
+      "إِبْلِيسُ",
+      "أَوْلَادُ آدَمَ"
      ],
      "answer": 1,
-     "quote": "All the angels did this. But Iblis did not."
+     "quote": "لَكِنَّ إِبْلِيسَ مَا سَجَدَ."
     },
     "iCan": [
-     "I can say why Iblis did not show respect.",
-     "I can use could.",
-     "I can use did not in the past."
+     "أَسْتَطِيعُ أَنْ أَقُولَ لِمَاذَا مَا سَجَدَ إِبْلِيسُ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «اسْتَطَاعَ أَنْ».",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «مَا» + الْمَاضِي."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "A Beautiful Garden",
+    "title": "حَدِيقَةٌ جَمِيلَةٌ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter4.png?alt=media&token=1d8c7a12-f7d4-4b4b-8435-43e353ae29ff",
-    "content": "Iblis was very angry. He hated Adam. He wanted Adam to be sad, too. Allah told Adam to be careful. Iblis was not his friend.\n\nAdam lived in Paradise. It was a very beautiful garden. But Adam had no one with him. Then Allah gave him a wife. Her name was Eve (Hawwa). Everything in Paradise was for them. Allah told them only one thing: “Do not go near this tree.”",
+    "content": "غَضِبَ إِبْلِيسُ كَثِيرًا. كَرِهَ آدَمَ، وَأَرَادَ أَنْ يَكُونَ آدَمُ حَزِينًا أَيْضًا. أَمَرَ اللهُ آدَمَ أَنْ يَحْذَرَ، لِأَنَّ إِبْلِيسَ لَيْسَ صَدِيقَهُ.\n\nسَكَنَ آدَمُ فِي الْجَنَّةِ. كَانَتْ حَدِيقَةً جَمِيلَةً جِدًّا. لَكِنْ مَا كَانَ مَعَهُ أَحَدٌ. ثُمَّ أَعْطَاهُ اللهُ زَوْجَةً، اسْمُهَا حَوَّاءُ. كُلُّ شَيْءٍ فِي الْجَنَّةِ كَانَ لَهُمَا. قَالَ اللهُ لَهُمَا شَيْئًا وَاحِدًا فَقَطْ: ﴿وَلَا تَقْرَبَا هَذِهِ الشَّجَرَةَ﴾ (سُورَةُ الْبَقَرَةِ).",
     "vocabulary": [
      {
-      "word": "angry",
-      "definition": "Very unhappy because of something bad."
+      "word": "غَضِبَ",
+      "definition": "صَارَ غَيْرَ سَعِيدٍ جِدًّا بِسَبَبِ شَيْءٍ سَيِّئٍ."
      },
      {
-      "word": "careful",
-      "definition": "Thinking before you do something."
+      "word": "يَحْذَرَ",
+      "definition": "يُفَكِّرُ قَبْلَ أَنْ يَفْعَلَ شَيْئًا."
      },
      {
-      "word": "Paradise",
-      "definition": "Allah's beautiful garden; Jannah."
+      "word": "الْجَنَّةِ",
+      "definition": "حَدِيقَةُ اللهِ الْجَمِيلَةُ."
      }
     ],
     "hotspots": [
@@ -384,40 +384,40 @@
       "id": "h3-1",
       "x": 35,
       "y": 46,
-      "title": "Paradise",
-      "description": "Adam lived in Paradise. It was a very beautiful garden."
+      "title": "الْجَنَّةُ",
+      "description": "سَكَنَ آدَمُ فِي الْجَنَّةِ. كَانَتْ حَدِيقَةً جَمِيلَةً جِدًّا."
      },
      {
       "id": "h3-2",
       "x": 68,
       "y": 50,
-      "title": "One Tree",
-      "description": "Allah told Adam and Eve, “Do not go near this tree.”"
+      "title": "شَجَرَةٌ وَاحِدَةٌ",
+      "description": "قَالَ اللهُ لِآدَمَ وَحَوَّاءَ شَيْئًا وَاحِدًا فَقَطْ: لَا تَقْرَبَا هَذِهِ الشَّجَرَةَ."
      }
     ],
     "exercises": [
      {
-      "id": "adam-a1-quick-3",
+      "id": "adam-a1-ar-quick-3",
       "type": "sequencing",
-      "title": "In Paradise",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "فِي الْجَنَّةِ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Iblis was very angry."
+        "text": "غَضِبَ إِبْلِيسُ كَثِيرًا."
        },
        {
         "id": "2",
-        "text": "Allah told Adam to be careful."
+        "text": "أَمَرَ اللهُ آدَمَ أَنْ يَحْذَرَ."
        },
        {
         "id": "3",
-        "text": "Allah gave Adam a wife."
+        "text": "أَعْطَى اللهُ آدَمَ زَوْجَةً."
        },
        {
         "id": "4",
-        "text": "Allah told them, “Do not go near this tree.”"
+        "text": "قَالَ اللهُ لَهُمَا شَيْئًا وَاحِدًا فَقَطْ."
        }
       ],
       "correctAnswer": [
@@ -426,167 +426,167 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 3: Iblis was angry. Allah told Adam to be careful. Then Allah gave Adam a wife, Eve. Allah told them one thing.",
+      "explanation": "الفصل الثالث: غضب إبليس، وأمر الله آدم أن يحذر. ثم أعطاه الله زوجة، حواء، وقال لهما شيئًا واحدًا فقط.",
       "feedback": {
-       "correct": "Great! You put the chapter in order.",
-       "incorrect": "Read Chapter 3 from the start again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفَصْلَ الثَّالِثَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "adam-a1-language-3-was-were",
+      "id": "adam-a1-ar-language-3-kana",
       "type": "drag-drop",
-      "title": "Look: Was or Were?",
-      "instructions": "Put each sentence in the right group.",
-      "question": "One or many?",
+      "title": "انْظُرْ: كَانَ أَمْ كَانَتْ؟",
+      "instructions": "ضَعْ كُلَّ جُمْلَةٍ فِي مَجْمُوعَتِهَا.",
+      "question": "مُذَكَّرٌ أَمْ مُؤَنَّثٌ؟",
       "dragDropGroups": [
        {
-        "group": "was",
+        "group": "كَانَ",
         "items": [
-         "Iblis ___ very angry.",
-         "It ___ a very beautiful garden."
+         "___ إِبْلِيسُ غَاضِبًا جِدًّا.",
+         "___ آدَمُ وَحْدَهُ."
         ]
        },
        {
-        "group": "were",
+        "group": "كَانَتْ",
         "items": [
-         "Adam and Eve ___ in Paradise.",
-         "All the trees ___ for them."
+         "___ الْجَنَّةُ حَدِيقَةً جَمِيلَةً.",
+         "___ حَوَّاءُ زَوْجَةَ آدَمَ."
         ]
        }
       ],
       "correctAnswer": {
-       "was": [
-        "Iblis ___ very angry.",
-        "It ___ a very beautiful garden."
+       "كَانَ": [
+        "___ إِبْلِيسُ غَاضِبًا جِدًّا.",
+        "___ آدَمُ وَحْدَهُ."
        ],
-       "were": [
-        "Adam and Eve ___ in Paradise.",
-        "All the trees ___ for them."
+       "كَانَتْ": [
+        "___ الْجَنَّةُ حَدِيقَةً جَمِيلَةً.",
+        "___ حَوَّاءُ زَوْجَةَ آدَمَ."
        ]
       },
-      "explanation": "One person or thing: was. Two or more: were.",
+      "explanation": "مع المذكر نقول «كَانَ»، ومع المؤنث «كَانَتْ»: كَانَتْ حَدِيقَةً جَمِيلَةً جِدًّا.",
       "feedback": {
-       "correct": "Good. One: was. Two or more: were.",
-       "incorrect": "Is it one person or thing, or two or more?"
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "إِبْلِيسُ وَآدَمُ مُذَكَّرٌ. الْجَنَّةُ وَحَوَّاءُ مُؤَنَّثٌ."
       }
      },
      {
-      "id": "adam-a1-language-3-do-not",
+      "id": "adam-a1-ar-language-3-practise",
       "type": "choose-form",
-      "title": "Practise: Do Not",
-      "instructions": "Choose the right words.",
-      "question": "What did Allah tell them?",
+      "title": "تَدَرَّبْ: لَا تَفْعَلْ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "مَاذَا قَالَ اللهُ لَهُمَا؟",
       "formChoices": [
        {
-        "sentence": "“[choice] go near this tree.”",
+        "sentence": "«[choice] مِنْ هَذِهِ الشَّجَرَةِ.»",
         "options": [
-         "Do not",
-         "Does not"
+         "لَا تَقْتَرِبَا",
+         "لَا يَقْتَرِبَانِ"
         ],
         "answer": 0
        },
        {
-        "sentence": "“Be [choice].”",
+        "sentence": "«[choice]، إِبْلِيسُ لَيْسَ صَدِيقَكَ.»",
         "options": [
-         "careful",
-         "carefully"
+         "احْذَرْ",
+         "يَحْذَرُ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Do not” + verb tells a person not to do something. “Be careful” is a short and important sentence.",
+      "explanation": "«لَا» + المضارع المجزوم يقول للإنسان: لا تفعل هذا. و«احْذَرْ» جملة قصيرة ومهمة. في القرآن: ﴿وَلَا تَقْرَبَا هَذِهِ الشَّجَرَةَ﴾.",
       "feedback": {
-       "correct": "Correct. Do not go. Be careful.",
-       "incorrect": "Look at the end of Chapter 3: “Do not go near this tree.”"
+       "correct": "صَحِيحٌ.",
+       "incorrect": "نَحْنُ نَتَكَلَّمُ مَعَ آدَمَ وَحَوَّاءَ: «أَنْتُمَا»."
       }
      },
      {
-      "id": "adam-a1-language-3-write-it",
+      "id": "adam-a1-ar-language-3-write-it",
       "type": "reflection",
-      "title": "Write It: My Garden",
-      "instructions": "Write about a beautiful place.",
-      "question": "What is a beautiful place for you?",
+      "title": "اكْتُبْهَا: حَدِيقَتِي",
+      "instructions": "اكْتُبْ عَنْ مَكَانٍ جَمِيلٍ.",
+      "question": "مَا الْمَكَانُ الْجَمِيلُ عِنْدَكَ؟",
       "correctAnswer": null,
-      "explanation": "Use is, there are and do not.",
+      "explanation": "استعمل جملة اسمية، و«فِيهِ»، و«لَا» + الفعل.",
       "feedback": {
-       "correct": "Write three short sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“… is a beautiful place.”",
+        "question": "«… مَكَانٌ جَمِيلٌ.»",
         "mode": "Individual",
-        "example": "My mother’s garden is a beautiful place."
+        "example": "حَدِيقَةُ أُمِّي مَكَانٌ جَمِيلٌ."
        },
        {
-        "question": "“There are … there.”",
+        "question": "«فِيهِ …»",
         "mode": "Individual",
-        "example": "There are many trees and flowers there."
+        "example": "فِيهِ أَشْجَارٌ وَزُهُورٌ كَثِيرَةٌ."
        },
        {
-        "question": "“Do not … there.”",
+        "question": "«لَا … هُنَاكَ.»",
         "mode": "Individual",
-        "example": "Do not run there."
+        "example": "لَا تَرْكُضْ هُنَاكَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "picture",
-     "question": "Look at the picture. Where did Adam live?",
+     "question": "انْظُرْ إِلَى الصُّورَةِ. أَيْنَ سَكَنَ آدَمُ؟",
      "options": [
-      "in a city",
-      "in a beautiful garden",
-      "near the sea"
+      "فِي مَدِينَةٍ",
+      "فِي حَدِيقَةٍ جَمِيلَةٍ",
+      "قُرْبَ الْبَحْرِ"
      ],
      "answer": 1,
-     "quote": "It was a very beautiful garden."
+     "quote": "كَانَتْ حَدِيقَةً جَمِيلَةً جِدًّا."
     },
     "iCan": [
-     "I can say where Adam lived.",
-     "I can use was and were.",
-     "I can understand “Do not …”."
+     "أَسْتَطِيعُ أَنْ أَقُولَ أَيْنَ سَكَنَ آدَمُ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ كَانَ وَكَانَتْ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «لَا تَفْعَلْ»."
     ],
     "groupTask": {
      "type": "project",
-     "title": "The Garden Poster",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "لَوْحَةُ الْحَدِيقَةِ",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group draws a big garden on a poster.",
-      "Each student writes one sentence for the garden: “Do not …” or “Be …”.",
-      "The group puts the sentences on the garden.",
-      "One student reads the sentences to the class."
+      "تَرْسُمُ الْمَجْمُوعَةُ حَدِيقَةً كَبِيرَةً عَلَى لَوْحَةٍ.",
+      "يَكْتُبُ كُلُّ طَالِبٍ جُمْلَةً لِلْحَدِيقَةِ: «لَا …» أَوْ «احْذَرْ …».",
+      "تَضَعُ الْمَجْمُوعَةُ الْجُمَلَ عَلَى الْحَدِيقَةِ.",
+      "يَقْرَأُ طَالِبٌ وَاحِدٌ الْجُمَلَ لِلصَّفِّ."
      ],
-     "share": "One student reads the garden sentences. Link: “Allah told them only one thing: Do not go near this tree.”",
-     "solo": "Draw a garden. Write two sentences for it: “Do not …” and “Be …”."
+     "share": "يَقْرَأُ طَالِبٌ وَاحِدٌ جُمَلَ الْحَدِيقَةِ. مِنَ الْقِصَّةِ: «قَالَ اللهُ لَهُمَا شَيْئًا وَاحِدًا فَقَطْ.»",
+     "solo": "ارْسُمْ حَدِيقَةً، وَاكْتُبْ لَهَا جُمْلَتَيْنِ: «لَا …» وَ«احْذَرْ …»."
     }
    },
    {
     "id": 4,
     "type": "story",
-    "title": "A Big Mistake",
+    "title": "خَطَأٌ كَبِيرٌ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter5.png?alt=media&token=76cd56fb-6403-4eed-9d22-2125689e9ab1",
-    "content": "One day, Iblis came to Adam and Eve. He said, “I am your friend. Eat from that tree, and you will never die.” It was a big lie. After some time, Adam and Eve believed him. They forgot Allah’s words. They ate fruit from the tree. Sadly, sometimes people forget and make mistakes.\n\nAdam and Eve were very sad. They knew it was a mistake. They said sorry to Allah, and Allah forgave them. Iblis was different. He never said sorry. He always thought he was right. Iblis did not see the right way. He thought he was too important.",
+    "content": "فِي يَوْمٍ مِنَ الْأَيَّامِ، جَاءَ إِبْلِيسُ إِلَى آدَمَ وَحَوَّاءَ. قَالَ: «أَنَا صَدِيقُكُمَا. كُلَا مِنْ تِلْكَ الشَّجَرَةِ، فَلَا تَمُوتَانِ أَبَدًا.» كَانَ هَذَا كَذِبًا كَبِيرًا. بَعْدَ وَقْتٍ، صَدَّقَهُ آدَمُ وَحَوَّاءُ. نَسِيَا كَلَامَ اللهِ، وَأَكَلَا مِنَ الشَّجَرَةِ. لِلْأَسَفِ، يَنْسَى النَّاسُ أَحْيَانًا، وَيَفْعَلُونَ أَخْطَاءً.\n\nحَزِنَ آدَمُ وَحَوَّاءُ كَثِيرًا. عَرَفَا أَنَّ هَذَا خَطَأٌ. طَلَبَا مِنَ اللهِ أَنْ يُسَامِحَهُمَا، فَغَفَرَ اللهُ لَهُمَا. أَمَّا إِبْلِيسُ فَكَانَ مُخْتَلِفًا. مَا طَلَبَ الْمَغْفِرَةَ أَبَدًا. ظَنَّ دَائِمًا أَنَّهُ عَلَى حَقٍّ. مَا رَأَى إِبْلِيسُ الطَّرِيقَ الصَّحِيحَ. ظَنَّ أَنَّهُ مُهِمٌّ جِدًّا.",
     "vocabulary": [
      {
-      "word": "lie",
-      "definition": "Words that are not true."
+      "word": "كَذِبًا",
+      "definition": "كَلَامٌ لَيْسَ صَحِيحًا."
      },
      {
-      "word": "believe",
-      "definition": "Think that something is true."
+      "word": "صَدَّقَهُ",
+      "definition": "ظَنَّ أَنَّ كَلَامَهُ صَحِيحٌ."
      },
      {
-      "word": "mistake",
-      "definition": "Something wrong that you do."
+      "word": "خَطَأٌ",
+      "definition": "شَيْءٌ غَيْرُ صَحِيحٍ تَفْعَلُهُ."
      },
      {
-      "word": "forgive",
-      "definition": "Stop being angry with someone."
+      "word": "غَفَرَ",
+      "definition": "سَامَحَ، وَتَرَكَ الْعِقَابَ."
      }
     ],
     "hotspots": [
@@ -594,188 +594,188 @@
       "id": "h4-1",
       "x": 35,
       "y": 46,
-      "title": "A Big Lie",
-      "description": "Iblis said, “I am your friend.” It was not true. It was a big lie."
+      "title": "كَذِبٌ كَبِيرٌ",
+      "description": "قَالَ إِبْلِيسُ: «أَنَا صَدِيقُكُمَا.» مَا كَانَ هَذَا صَحِيحًا. كَانَ كَذِبًا كَبِيرًا."
      },
      {
       "id": "h4-2",
       "x": 68,
       "y": 50,
-      "title": "Saying Sorry",
-      "description": "Adam and Eve said sorry to Allah, and Allah forgave them."
+      "title": "طَلَبُ الْمَغْفِرَةِ",
+      "description": "طَلَبَ آدَمُ وَحَوَّاءُ مِنَ اللهِ أَنْ يُسَامِحَهُمَا، فَغَفَرَ اللهُ لَهُمَا."
      }
     ],
     "exercises": [
      {
-      "id": "adam-a1-quick-4",
+      "id": "adam-a1-ar-quick-4",
       "type": "drag-drop",
-      "title": "A Big Mistake",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 4?",
+      "title": "خَطَأٌ كَبِيرٌ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الرَّابِعِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "Adam and Eve ate fruit from the tree.",
-         "Allah forgave Adam and Eve."
+         "أَكَلَ آدَمُ وَحَوَّاءُ مِنَ الشَّجَرَةِ.",
+         "غَفَرَ اللهُ لِآدَمَ وَحَوَّاءَ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "Iblis said sorry to Allah."
+         "طَلَبَ إِبْلِيسُ الْمَغْفِرَةَ مِنَ اللهِ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "Adam and Eve ate fruit from the tree.",
-        "Allah forgave Adam and Eve."
+       "صَحِيحٌ": [
+        "أَكَلَ آدَمُ وَحَوَّاءُ مِنَ الشَّجَرَةِ.",
+        "غَفَرَ اللهُ لِآدَمَ وَحَوَّاءَ."
        ],
-       "False": [
-        "Iblis said sorry to Allah."
+       "خَطَأٌ": [
+        "طَلَبَ إِبْلِيسُ الْمَغْفِرَةَ مِنَ اللهِ."
        ]
       },
-      "explanation": "Chapter 4 says: “They ate fruit from the tree.” “Allah forgave them.” “He never said sorry.”",
+      "explanation": "يقول الفصل الرابع: «وَأَكَلَا مِنَ الشَّجَرَةِ»، «فَغَفَرَ اللهُ لَهُمَا»، و«مَا طَلَبَ الْمَغْفِرَةَ أَبَدًا».",
       "feedback": {
-       "correct": "Yes! Adam and Eve said sorry. Iblis never said sorry.",
-       "incorrect": "Read the second paragraph of Chapter 4 again."
+       "correct": "أَحْسَنْتَ! إِبْلِيسُ مَا طَلَبَ الْمَغْفِرَةَ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الرَّابِعَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "adam-a1-language-4-past",
+      "id": "adam-a1-ar-language-4-dual",
       "type": "matching",
-      "title": "Look: Past Forms",
-      "instructions": "Match the verb with its past form.",
-      "question": "What is the past form?",
+      "title": "انْظُرْ: هُمَا",
+      "instructions": "صِلِ الْفِعْلَ بِصِيغَةِ «هُمَا».",
+      "question": "مَاذَا فَعَلَ آدَمُ وَحَوَّاءُ؟",
       "matchingHeadings": {
-       "left": "Verb",
-       "right": "Past form"
+       "left": "هُوَ",
+       "right": "هُمَا"
       },
       "matchingPairs": [
        {
-        "left": "eat",
-        "right": "ate"
+        "left": "أَكَلَ",
+        "right": "أَكَلَا"
        },
        {
-        "left": "forget",
-        "right": "forgot"
+        "left": "نَسِيَ",
+        "right": "نَسِيَا"
        },
        {
-        "left": "know",
-        "right": "knew"
+        "left": "عَرَفَ",
+        "right": "عَرَفَا"
        },
        {
-        "left": "forgive",
-        "right": "forgave"
+        "left": "طَلَبَ",
+        "right": "طَلَبَا"
        }
       ],
       "correctAnswer": {
-       "eat": "ate",
-       "forget": "forgot",
-       "know": "knew",
-       "forgive": "forgave"
+       "أَكَلَ": "أَكَلَا",
+       "نَسِيَ": "نَسِيَا",
+       "عَرَفَ": "عَرَفَا",
+       "طَلَبَ": "طَلَبَا"
       },
-      "explanation": "These verbs change in the past. They do not end in -ed.",
+      "explanation": "لشخصين في الماضي نزيد ألفًا: أَكَلَ ← أَكَلَا، نَسِيَ ← نَسِيَا. في الفصل: «نَسِيَا كَلَامَ اللهِ، وَأَكَلَا مِنَ الشَّجَرَةِ».",
       "feedback": {
-       "correct": "Good. You found the past forms.",
-       "incorrect": "Find ate, forgot, knew and forgave in Chapter 4."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "ابْحَثْ عَنْ هَذِهِ الْأَفْعَالِ فِي الْفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "adam-a1-language-4-always-never",
+      "id": "adam-a1-ar-language-4-practise",
       "type": "choose-form",
-      "title": "Practise: Always or Never?",
-      "instructions": "Choose always or never.",
-      "question": "Every time or not one time?",
+      "title": "تَدَرَّبْ: دَائِمًا أَمْ أَبَدًا؟",
+      "instructions": "اخْتَرْ دَائِمًا أَوْ أَبَدًا.",
+      "question": "كُلَّ مَرَّةٍ أَمْ وَلَا مَرَّةً؟",
       "formChoices": [
        {
-        "sentence": "Iblis [choice] said sorry.",
+        "sentence": "مَا طَلَبَ إِبْلِيسُ الْمَغْفِرَةَ [choice].",
         "options": [
-         "always",
-         "never"
+         "دَائِمًا",
+         "أَبَدًا"
         ],
         "answer": 1
        },
        {
-        "sentence": "Iblis [choice] thought he was right.",
+        "sentence": "ظَنَّ إِبْلِيسُ [choice] أَنَّهُ عَلَى حَقٍّ.",
         "options": [
-         "always",
-         "never"
+         "دَائِمًا",
+         "أَبَدًا"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Always = every time. Never = not one time.",
+      "explanation": "«دَائِمًا» = كل مرة. «أَبَدًا» تأتي مع النفي: مَا طَلَبَ الْمَغْفِرَةَ أَبَدًا = ولا مرة.",
       "feedback": {
-       "correct": "Correct. Iblis never said sorry. He always thought he was right.",
-       "incorrect": "Read the last two sentences of Chapter 4."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "«أَبَدًا» تَأْتِي مَعَ «مَا» أَوْ «لَا»."
       }
      },
      {
-      "id": "adam-a1-language-4-say-it",
+      "id": "adam-a1-ar-language-4-say-it",
       "type": "reflection",
-      "title": "Say It: Sorry",
-      "instructions": "Say what you do after a mistake.",
-      "question": "What do you do after a mistake?",
+      "title": "قُلْهَا: آسِفٌ",
+      "instructions": "قُلْ مَاذَا تَفْعَلُ بَعْدَ الْخَطَأِ.",
+      "question": "مَاذَا تَفْعَلُ بَعْدَ الْخَطَأِ؟",
       "correctAnswer": null,
-      "explanation": "Put always and never before the verb.",
+      "explanation": "استعمل «دَائِمًا» و«لَا … أَبَدًا».",
       "feedback": {
-       "correct": "Say two sentences: one with always and one with never.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“After a mistake, I always …”",
+        "question": "«بَعْدَ الْخَطَأِ، أَنَا دَائِمًا …»",
         "mode": "Individual",
-        "example": "After a mistake, I always say sorry."
+        "example": "بَعْدَ الْخَطَأِ، أَنَا دَائِمًا أَقُولُ: أَنَا آسِفٌ."
        },
        {
-        "question": "“I never …”",
+        "question": "«لَا … أَبَدًا.»",
         "mode": "Pair",
-        "example": "I never tell lies."
+        "example": "لَا أَكْذِبُ أَبَدًا."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Iblis tell Adam and Eve?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا قَالَ إِبْلِيسُ لِآدَمَ وَحَوَّاءَ؟",
      "options": [
-      "true words",
-      "a big lie",
-      "a funny story"
+      "كَلَامًا صَحِيحًا",
+      "كَذِبًا كَبِيرًا",
+      "قِصَّةً مُضْحِكَةً"
      ],
      "answer": 1,
-     "quote": "It was a big lie."
+     "quote": "كَانَ هَذَا كَذِبًا كَبِيرًا."
     },
     "iCan": [
-     "I can say what Adam and Eve did after their mistake.",
-     "I can use ate, knew and forgave.",
-     "I can use always and never."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَاذَا فَعَلَ آدَمُ وَحَوَّاءُ بَعْدَ الْخَطَأِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ أَكَلَا وَعَرَفَا وَطَلَبَا.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ دَائِمًا وَأَبَدًا."
     ]
    },
    {
     "id": 5,
     "type": "story",
-    "title": "Life on Earth",
+    "title": "الْحَيَاةُ عَلَى الْأَرْضِ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter6.png?alt=media&token=98ad5740-e8d4-4413-8b73-b4b53e959d2d",
-    "content": "Then Allah sent Adam and Eve to the earth. They worked on farms and grew food. They had animals and made houses. They looked after plants and animals, and they helped people in need. But Iblis came to the earth, too. He wanted people to forget Allah.\n\nAllah made Adam His first Messenger. Adam taught his children to be good and honest. He told them to remember Allah. He also told them, “Iblis is not your friend. Be careful.”",
+    "content": "ثُمَّ أَنْزَلَ اللهُ آدَمَ وَحَوَّاءَ إِلَى الْأَرْضِ. عَمِلَا فِي الْأَرْضِ، وَزَرَعَا الطَّعَامَ. كَانَتْ عِنْدَهُمَا حَيَوَانَاتٌ، وَبَنَيَا بُيُوتًا. اعْتَنَيَا بِالنَّبَاتَاتِ وَالْحَيَوَانَاتِ، وَسَاعَدَا الْمُحْتَاجِينَ. لَكِنَّ إِبْلِيسَ جَاءَ إِلَى الْأَرْضِ أَيْضًا. أَرَادَ أَنْ يَنْسَى النَّاسُ اللهَ.\n\nجَعَلَ اللهُ آدَمَ أَوَّلَ نَبِيٍّ. عَلَّمَ آدَمُ أَوْلَادَهُ أَنْ يَكُونُوا طَيِّبِينَ وَصَادِقِينَ، وَأَنْ يَذْكُرُوا اللهَ. وَقَالَ لَهُمْ أَيْضًا: «إِبْلِيسُ لَيْسَ صَدِيقَكُمْ. احْذَرُوا.»",
     "vocabulary": [
      {
-      "word": "grow",
-      "definition": "Make plants come up from the soil."
+      "word": "زَرَعَا",
+      "definition": "وَضَعَا الْبُذُورَ فِي التُّرَابِ، فَنَبَتَ النَّبَاتُ."
      },
      {
-      "word": "messenger",
-      "definition": "A person who brings Allah's words."
+      "word": "نَبِيٍّ",
+      "definition": "إِنْسَانٌ يَخْتَارُهُ اللهُ لِيُعَلِّمَ النَّاسَ دِينَهُ."
      },
      {
-      "word": "honest",
-      "definition": "Always says true things."
+      "word": "صَادِقِينَ",
+      "definition": "يَقُولُونَ الْحَقَّ دَائِمًا."
      }
     ],
     "hotspots": [
@@ -783,175 +783,173 @@
       "id": "h5-1",
       "x": 35,
       "y": 46,
-      "title": "Work on the Farm",
-      "description": "Adam and Eve worked on farms and grew food. They had animals and made houses."
+      "title": "الْعَمَلُ فِي الْأَرْضِ",
+      "description": "عَمِلَ آدَمُ وَحَوَّاءُ فِي الْأَرْضِ، وَزَرَعَا الطَّعَامَ. كَانَتْ عِنْدَهُمَا حَيَوَانَاتٌ، وَبَنَيَا بُيُوتًا."
      },
      {
       "id": "h5-2",
       "x": 68,
       "y": 50,
-      "title": "The First Messenger",
-      "description": "Allah made Adam His first Messenger."
+      "title": "أَوَّلُ نَبِيٍّ",
+      "description": "جَعَلَ اللهُ آدَمَ أَوَّلَ نَبِيٍّ."
      }
     ],
     "exercises": [
      {
-      "id": "adam-a1-quick-5",
+      "id": "adam-a1-ar-quick-5",
       "type": "multiple-choice",
-      "title": "Adam’s Words",
-      "instructions": "Choose the best answer.",
-      "question": "What did Adam tell his children?",
+      "title": "كَلَامُ آدَمَ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "مَاذَا عَلَّمَ آدَمُ أَوْلَادَهُ؟",
       "options": [
-       "Be good and honest, and remember Allah.",
-       "Do not work on farms.",
-       "Iblis is your friend."
+       "أَنْ يَكُونُوا طَيِّبِينَ وَصَادِقِينَ، وَأَنْ يَذْكُرُوا اللهَ",
+       "أَنْ لَا يَعْمَلُوا فِي الْأَرْضِ",
+       "أَنَّ إِبْلِيسَ صَدِيقُهُمْ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5 says: “Adam taught his children to be good and honest. He told them to remember Allah.”",
+      "explanation": "الفصل الخامس: «عَلَّمَ آدَمُ أَوْلَادَهُ أَنْ يَكُونُوا طَيِّبِينَ وَصَادِقِينَ، وَأَنْ يَذْكُرُوا اللهَ».",
       "feedback": {
-       "correct": "Yes! Be good and honest, and remember Allah.",
-       "incorrect": "Read the second paragraph of Chapter 5 again."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الْخَامِسِ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "adam-a1-language-5-ed",
+      "id": "adam-a1-ar-language-5-dual",
       "type": "drag-drop",
-      "title": "Look: Verbs with -ed",
-      "instructions": "Put each verb in the right group.",
-      "question": "Does the verb end in -ed?",
+      "title": "انْظُرْ: هُوَ أَمْ هُمَا؟",
+      "instructions": "ضَعْ كُلَّ فِعْلٍ فِي مَجْمُوعَتِهِ.",
+      "question": "مَنْ فَعَلَ؟",
       "dragDropGroups": [
        {
-        "group": "Ends in -ed",
+        "group": "هُوَ (آدَمُ)",
         "items": [
-         "worked",
-         "looked after",
-         "helped",
-         "wanted"
+         "عَلَّمَ",
+         "قَالَ",
+         "أَنْزَلَ"
         ]
        },
        {
-        "group": "Changes",
+        "group": "هُمَا (آدَمُ وَحَوَّاءُ)",
         "items": [
-         "grew",
-         "had",
-         "made",
-         "taught"
+         "عَمِلَا",
+         "زَرَعَا",
+         "بَنَيَا",
+         "سَاعَدَا"
         ]
        }
       ],
       "correctAnswer": {
-       "Ends in -ed": [
-        "worked",
-        "looked after",
-        "helped",
-        "wanted"
+       "هُوَ (آدَمُ)": [
+        "عَلَّمَ",
+        "قَالَ",
+        "أَنْزَلَ"
        ],
-       "Changes": [
-        "grew",
-        "had",
-        "made",
-        "taught"
+       "هُمَا (آدَمُ وَحَوَّاءُ)": [
+        "عَمِلَا",
+        "زَرَعَا",
+        "بَنَيَا",
+        "سَاعَدَا"
        ]
       },
-      "explanation": "Many verbs add -ed in the past: work → worked, help → helped. Some verbs change: grow → grew, teach → taught.",
+      "explanation": "الفعل الماضي لشخص واحد: عَلَّمَ، قَالَ. ولشخصين نزيد ألفًا: عَمِلَا، زَرَعَا، بَنَيَا، سَاعَدَا.",
       "feedback": {
-       "correct": "Good. You found the two kinds of past.",
-       "incorrect": "Say the verb today: work, grow … Does it add -ed or change?"
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "هَلْ فِي آخِرِ الْفِعْلِ أَلِفٌ؟ إِذَنْ هُوَ لِـ«هُمَا»."
       }
      },
      {
-      "id": "adam-a1-language-5-practise",
+      "id": "adam-a1-ar-language-5-practise",
       "type": "word-bank",
-      "title": "Practise: Life on Earth",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What did Adam and Eve do?",
-      "fillBlanksText": "Adam and Eve [blank] on farms. They [blank] after plants and animals. They [blank] people in need.",
+      "title": "تَدَرَّبْ: الْحَيَاةُ عَلَى الْأَرْضِ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "مَاذَا فَعَلَ آدَمُ وَحَوَّاءُ؟",
+      "fillBlanksText": "آدَمُ وَحَوَّاءُ [blank] فِي الْأَرْضِ. [blank] بِالنَّبَاتَاتِ وَالْحَيَوَانَاتِ. [blank] الْمُحْتَاجِينَ.",
       "wordBank": [
-       "worked",
-       "looked",
-       "helped",
-       "work",
-       "helps"
+       "عَمِلَا",
+       "اعْتَنَيَا",
+       "سَاعَدَا",
+       "عَمِلَ",
+       "يُسَاعِدُ"
       ],
       "correctAnswer": [
-       "worked",
-       "looked",
-       "helped"
+       "عَمِلَا",
+       "اعْتَنَيَا",
+       "سَاعَدَا"
       ],
-      "explanation": "All three verbs tell the past and end in -ed.",
+      "explanation": "الأفعال الثلاثة في الماضي لشخصين: عَمِلَا، اعْتَنَيَا، سَاعَدَا.",
       "feedback": {
-       "correct": "Correct. Worked, looked and helped.",
-       "incorrect": "Look at the first paragraph of Chapter 5."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "adam-a1-language-5-say-it",
+      "id": "adam-a1-ar-language-5-say-it",
       "type": "reflection",
-      "title": "Say It: Helping at Home",
-      "instructions": "Say how you helped at home yesterday.",
-      "question": "How did you help yesterday?",
+      "title": "قُلْهَا: أُسَاعِدُ فِي الْبَيْتِ",
+      "instructions": "قُلْ كَيْفَ سَاعَدْتَ فِي الْبَيْتِ أَمْسِ.",
+      "question": "كَيْفَ سَاعَدْتَ أَمْسِ؟",
       "correctAnswer": null,
-      "explanation": "Use past verbs with -ed.",
+      "explanation": "عن نفسك في الماضي تزيد «ـتُ»: سَاعَدْتُ، عَمِلْتُ.",
       "feedback": {
-       "correct": "Say three sentences with -ed verbs.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Yesterday, I helped …”",
+        "question": "«أَمْسِ، سَاعَدْتُ …»",
         "mode": "Individual",
-        "example": "Yesterday, I helped my father."
+        "example": "أَمْسِ، سَاعَدْتُ أَبِي."
        },
        {
-        "question": "“I looked after …”",
+        "question": "«اعْتَنَيْتُ بِـ…»",
         "mode": "Individual",
-        "example": "I looked after my little sister."
+        "example": "اعْتَنَيْتُ بِأُخْتِي الصَّغِيرَةِ."
        },
        {
-        "question": "“I worked …”",
+        "question": "«عَمِلْتُ …»",
         "mode": "Pair",
-        "example": "I worked in the garden."
+        "example": "عَمِلْتُ فِي الْحَدِيقَةِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Adam and Eve do on the earth?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا فَعَلَ آدَمُ وَحَوَّاءُ فِي الْأَرْضِ؟",
      "options": [
-      "They worked on farms.",
-      "They went to school.",
-      "They lived in the sea."
+      "عَمِلَا فِي الْأَرْضِ.",
+      "ذَهَبَا إِلَى الْمَدْرَسَةِ.",
+      "سَكَنَا فِي الْبَحْرِ."
      ],
      "answer": 0,
-     "quote": "They worked on farms and grew food."
+     "quote": "عَمِلَا فِي الْأَرْضِ، وَزَرَعَا الطَّعَامَ."
     },
     "iCan": [
-     "I can say how Adam and Eve lived on the earth.",
-     "I can use verbs with -ed.",
-     "I can say how I helped at home."
+     "أَسْتَطِيعُ أَنْ أَقُولَ كَيْفَ عَاشَ آدَمُ وَحَوَّاءُ فِي الْأَرْضِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ الْمَاضِيَ لِشَخْصَيْنِ.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ كَيْفَ سَاعَدْتُ فِي الْبَيْتِ."
     ]
    },
    {
     "id": 6,
     "type": "story",
-    "title": "Two Brothers",
+    "title": "أَخَوَانِ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter8.png?alt=media&token=4a3d55b6-fba5-4d1b-ac6d-368ea81562f6",
-    "content": "Adam and Eve had two sons, Habil and Qabil. Habil was kind and gentle. He looked after sheep and cows. Qabil was a farmer. He grew food on his farm. But Qabil was often jealous of his brother.\n\nOne day, the brothers had a big problem. Qabil was very angry. He said, “This is your end.” Habil said, “I will not hurt you. You are my brother, and I fear Allah.”",
+    "content": "كَانَ لِآدَمَ وَحَوَّاءَ ابْنَانِ: هَابِيلُ وَقَابِيلُ. كَانَ هَابِيلُ طَيِّبًا وَلَطِيفًا، وَاعْتَنَى بِالْغَنَمِ وَالْبَقَرِ. وَكَانَ قَابِيلُ مُزَارِعًا، يَزْرَعُ الطَّعَامَ فِي أَرْضِهِ. وَكَانَ قَابِيلُ يَحْسُدُ أَخَاهُ كَثِيرًا.\n\nفِي يَوْمٍ مِنَ الْأَيَّامِ، كَانَتْ بَيْنَ الْأَخَوَيْنِ مُشْكِلَةٌ كَبِيرَةٌ. غَضِبَ قَابِيلُ كَثِيرًا. قَالَ: «هَذِهِ نِهَايَتُكَ.» قَالَ هَابِيلُ: «أَنَا لَا أُؤْذِيكَ. أَنْتَ أَخِي، وَأَنَا أَخَافُ اللهَ.»",
     "vocabulary": [
      {
-      "word": "gentle",
-      "definition": "Kind and quiet; does not hurt others."
+      "word": "لَطِيفًا",
+      "definition": "طَيِّبٌ وَهَادِئٌ؛ لَا يُؤْذِي أَحَدًا."
      },
      {
-      "word": "jealous",
-      "definition": "Unhappy because someone has something good."
+      "word": "يَحْسُدُ",
+      "definition": "يَحْزَنُ لِأَنَّ عِنْدَ غَيْرِهِ شَيْئًا جَمِيلًا."
      },
      {
-      "word": "fear",
-      "definition": "Be afraid of."
+      "word": "أَخَافُ",
+      "definition": "أَخَافُ اللهَ: لَا أَفْعَلُ مَا لَا يُحِبُّهُ اللهُ."
      }
     ],
     "hotspots": [
@@ -959,164 +957,164 @@
       "id": "h6-1",
       "x": 35,
       "y": 46,
-      "title": "Two Brothers",
-      "description": "Habil looked after sheep and cows. Qabil was a farmer."
+      "title": "أَخَوَانِ",
+      "description": "اعْتَنَى هَابِيلُ بِالْغَنَمِ وَالْبَقَرِ. وَكَانَ قَابِيلُ مُزَارِعًا."
      },
      {
       "id": "h6-2",
       "x": 68,
       "y": 50,
-      "title": "A Big Problem",
-      "description": "One day, the brothers had a big problem. Qabil was very angry."
+      "title": "مُشْكِلَةٌ كَبِيرَةٌ",
+      "description": "فِي يَوْمٍ مِنَ الْأَيَّامِ، كَانَتْ بَيْنَ الْأَخَوَيْنِ مُشْكِلَةٌ كَبِيرَةٌ. غَضِبَ قَابِيلُ كَثِيرًا."
      }
     ],
     "exercises": [
      {
-      "id": "adam-a1-quick-6",
+      "id": "adam-a1-ar-quick-6",
       "type": "matching",
-      "title": "Habil and Qabil",
-      "instructions": "Match the name with the sentence.",
-      "question": "Who did it?",
+      "title": "هَابِيلُ وَقَابِيلُ",
+      "instructions": "صِلِ الِاسْمَ بِالْجُمْلَةِ.",
+      "question": "مَنْ فَعَلَ؟",
       "matchingHeadings": {
-       "left": "Name",
-       "right": "Sentence"
+       "left": "الِاسْمُ",
+       "right": "الْجُمْلَةُ"
       },
       "matchingPairs": [
        {
-        "left": "Habil",
-        "right": "He looked after sheep and cows."
+        "left": "هَابِيلُ",
+        "right": "اعْتَنَى بِالْغَنَمِ وَالْبَقَرِ."
        },
        {
-        "left": "Qabil",
-        "right": "He grew food on his farm."
+        "left": "قَابِيلُ",
+        "right": "زَرَعَ الطَّعَامَ فِي أَرْضِهِ."
        }
       ],
       "correctAnswer": {
-       "Habil": "He looked after sheep and cows.",
-       "Qabil": "He grew food on his farm."
+       "هَابِيلُ": "اعْتَنَى بِالْغَنَمِ وَالْبَقَرِ.",
+       "قَابِيلُ": "زَرَعَ الطَّعَامَ فِي أَرْضِهِ."
       },
-      "explanation": "Chapter 6 says: “He looked after sheep and cows. Qabil was a farmer. He grew food on his farm.”",
+      "explanation": "الفصل السادس: «وَاعْتَنَى بِالْغَنَمِ وَالْبَقَرِ. وَكَانَ قَابِيلُ مُزَارِعًا، يَزْرَعُ الطَّعَامَ فِي أَرْضِهِ».",
       "feedback": {
-       "correct": "Yes! Habil looked after animals. Qabil was a farmer.",
-       "incorrect": "Read the first paragraph of Chapter 6 again."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ السَّادِسِ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "adam-a1-language-6-will-not",
+      "id": "adam-a1-ar-language-6-la",
       "type": "multiple-choice",
-      "title": "Look: Will Not",
-      "instructions": "Choose the right answer.",
-      "question": "Habil said, “I will not hurt you.” What does this mean?",
+      "title": "انْظُرْ: لَا أُؤْذِيكَ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "قَالَ هَابِيلُ: «أَنَا لَا أُؤْذِيكَ.» مَا مَعْنَى هَذَا؟",
       "options": [
-       "Habil is not going to hurt his brother.",
-       "Habil hurt his brother yesterday.",
-       "Habil wants to hurt his brother."
+       "هَابِيلُ لَنْ يُؤْذِيَ أَخَاهُ.",
+       "هَابِيلُ آذَى أَخَاهُ أَمْسِ.",
+       "هَابِيلُ يُرِيدُ أَنْ يُؤْذِيَ أَخَاهُ."
       ],
       "correctAnswer": 0,
-      "explanation": "“Will not” + verb tells us about later. Habil is not going to do it.",
+      "explanation": "«لَا» + المضارع تنفي الفعل الآن وبعد الآن: أَنَا لَا أُؤْذِيكَ.",
       "feedback": {
-       "correct": "Yes. Will not = not later.",
-       "incorrect": "Read Habil’s words at the end of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأْ كَلَامَ هَابِيلَ فِي آخِرِ الْفَصْلِ."
       }
      },
      {
-      "id": "adam-a1-language-6-practise",
+      "id": "adam-a1-ar-language-6-practise",
       "type": "choose-form",
-      "title": "Practise: Habil or Qabil?",
-      "instructions": "Choose the right words.",
-      "question": "Who was it?",
+      "title": "تَدَرَّبْ: هَابِيلُ أَمْ قَابِيلُ؟",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "مَنْ هُوَ؟",
       "formChoices": [
        {
-        "sentence": "Habil was kind and [choice].",
+        "sentence": "كَانَ هَابِيلُ طَيِّبًا وَ[choice].",
         "options": [
-         "gentle",
-         "jealous"
+         "لَطِيفًا",
+         "يَحْسُدُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Qabil was often [choice] of his brother.",
+        "sentence": "وَكَانَ قَابِيلُ [choice] أَخَاهُ كَثِيرًا.",
         "options": [
-         "gentle",
-         "jealous"
+         "لَطِيفًا",
+         "يَحْسُدُ"
         ],
         "answer": 1
        },
        {
-        "sentence": "Habil said, “I will not [choice] you.”",
+        "sentence": "قَالَ هَابِيلُ: «أَنَا لَا [choice].»",
         "options": [
-         "hurt",
-         "hurts"
+         "أُؤْذِيكَ",
+         "آذَيْتُكَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Habil was kind and gentle. Qabil was jealous. After “will not”, the verb has no -s.",
+      "explanation": "كان هابيل طيبًا ولطيفًا، وكان قابيل يحسد أخاه. وبعد «لَا» يأتي المضارع: لَا أُؤْذِيكَ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the first paragraph of Chapter 6 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ السَّادِسَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "adam-a1-language-6-write-it",
+      "id": "adam-a1-ar-language-6-write-it",
       "type": "reflection",
-      "title": "Write It: Two People",
-      "instructions": "Write about two people in your family.",
-      "question": "Who are they, and what do they do?",
+      "title": "اكْتُبْهَا: شَخْصَانِ",
+      "instructions": "اكْتُبْ عَنْ شَخْصَيْنِ فِي عَائِلَتِكَ.",
+      "question": "مَنْ هُمَا؟ وَمَاذَا يَفْعَلَانِ؟",
       "correctAnswer": null,
-      "explanation": "Use is + a word for a person, and one verb.",
+      "explanation": "استعمل جملة اسمية بصفتين، ثم فعلًا مضارعًا.",
       "feedback": {
-       "correct": "Write two sentences, one for each person.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“My … is kind and …”",
+        "question": "«… طَيِّبٌ وَ…»",
         "mode": "Individual",
-        "example": "My sister is kind and gentle."
+        "example": "أَخِي طَيِّبٌ وَلَطِيفٌ."
        },
        {
-        "question": "“My … is a … He / She …”",
+        "question": "«… مُزَارِعٌ / مُعَلِّمٌ. هُوَ …»",
         "mode": "Individual",
-        "example": "My uncle is a farmer. He grows apples."
+        "example": "عَمِّي مُزَارِعٌ. هُوَ يَزْرَعُ التُّفَّاحَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Who was kind and gentle?",
+     "question": "خَمِّنْ أَوَّلًا: مَنْ كَانَ طَيِّبًا وَلَطِيفًا؟",
      "options": [
-      "Habil",
-      "Qabil",
-      "Iblis"
+      "هَابِيلُ",
+      "قَابِيلُ",
+      "إِبْلِيسُ"
      ],
      "answer": 0,
-     "quote": "Habil was kind and gentle."
+     "quote": "كَانَ هَابِيلُ طَيِّبًا وَلَطِيفًا."
     },
     "iCan": [
-     "I can tell about Habil and Qabil.",
-     "I can understand “will not”.",
-     "I can write about two people."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنْ هَابِيلَ وَقَابِيلَ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «لَا» + الْمُضَارِعِ.",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنْ شَخْصَيْنِ."
     ]
    },
    {
     "id": 7,
     "type": "story",
-    "title": "The Crow",
+    "title": "الْغُرَابُ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter9.png?alt=media&token=12a5e3e0-c1be-47c1-9a1d-0b64288ddf56",
-    "content": "But Qabil hit Habil with a stone, and Habil died. Then Qabil’s anger went away, and he felt very sad. He did not know what to do. Allah sent a crow. The crow made a hole in the soil. Then it put a dead bird in the ground. Qabil watched it and learned what to do with his brother’s body. He cried and said, “This crow knows more than me.” Then he went to another land. Adam was very sad. He said goodbye to his two sons on the same day. One went to a far country, and one died.",
+    "content": "لَكِنَّ قَابِيلَ ضَرَبَ هَابِيلَ بِحَجَرٍ، فَمَاتَ هَابِيلُ. ثُمَّ ذَهَبَ غَضَبُ قَابِيلَ، وَحَزِنَ كَثِيرًا. مَا عَرَفَ مَاذَا يَفْعَلُ. أَرْسَلَ اللهُ غُرَابًا. حَفَرَ الْغُرَابُ حُفْرَةً فِي التُّرَابِ. ثُمَّ وَضَعَ طَائِرًا مَيِّتًا فِي الْأَرْضِ. نَظَرَ قَابِيلُ إِلَيْهِ، وَتَعَلَّمَ مَاذَا يَفْعَلُ بِجِسْمِ أَخِيهِ. بَكَى وَقَالَ: «هَذَا الْغُرَابُ يَعْرِفُ أَكْثَرَ مِنِّي.» ثُمَّ ذَهَبَ إِلَى مَكَانٍ آخَرَ. حَزِنَ آدَمُ كَثِيرًا. وَدَّعَ ابْنَيْهِ الِاثْنَيْنِ فِي يَوْمٍ وَاحِدٍ. ذَهَبَ وَاحِدٌ إِلَى بَلَدٍ بَعِيدٍ، وَمَاتَ الْآخَرُ.",
     "vocabulary": [
      {
-      "word": "crow",
-      "definition": "A big black bird."
+      "word": "غُرَابًا",
+      "definition": "طَائِرٌ كَبِيرٌ أَسْوَدُ."
      },
      {
-      "word": "hole",
-      "definition": "An open space in something."
+      "word": "حُفْرَةً",
+      "definition": "مَكَانٌ مَفْتُوحٌ فِي الْأَرْضِ."
      }
     ],
     "hotspots": [
@@ -1124,40 +1122,40 @@
       "id": "h7-1",
       "x": 35,
       "y": 46,
-      "title": "The Crow",
-      "description": "Allah sent a crow. The crow made a hole in the soil."
+      "title": "الْغُرَابُ",
+      "description": "أَرْسَلَ اللهُ غُرَابًا. حَفَرَ الْغُرَابُ حُفْرَةً فِي التُّرَابِ."
      },
      {
       "id": "h7-2",
       "x": 68,
       "y": 50,
-      "title": "A Sad Day",
-      "description": "Adam was very sad. He said goodbye to his two sons on the same day."
+      "title": "يَوْمٌ حَزِينٌ",
+      "description": "حَزِنَ آدَمُ كَثِيرًا. وَدَّعَ ابْنَيْهِ الِاثْنَيْنِ فِي يَوْمٍ وَاحِدٍ."
      }
     ],
     "exercises": [
      {
-      "id": "adam-a1-quick-7",
+      "id": "adam-a1-ar-quick-7",
       "type": "sequencing",
-      "title": "After Habil Died",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "بَعْدَ مَوْتِ هَابِيلَ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Qabil felt very sad."
+        "text": "حَزِنَ قَابِيلُ كَثِيرًا."
        },
        {
         "id": "2",
-        "text": "Allah sent a crow."
+        "text": "أَرْسَلَ اللهُ غُرَابًا."
        },
        {
         "id": "3",
-        "text": "The crow made a hole in the soil."
+        "text": "حَفَرَ الْغُرَابُ حُفْرَةً فِي التُّرَابِ."
        },
        {
         "id": "4",
-        "text": "Qabil went to another land."
+        "text": "ذَهَبَ قَابِيلُ إِلَى مَكَانٍ آخَرَ."
        }
       ],
       "correctAnswer": [
@@ -1166,146 +1164,146 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 7: Qabil felt sad. Allah sent a crow. The crow made a hole. Then Qabil went to another land.",
+      "explanation": "الفصل السابع: حزن قابيل. أرسل الله غرابًا. حفر الغراب حفرة. ثم ذهب قابيل إلى مكان آخر.",
       "feedback": {
-       "correct": "Great! You put the chapter in order.",
-       "incorrect": "Read Chapter 7 again. What did the crow do?"
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفَصْلَ السَّابِعَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "adam-a1-language-7-past",
+      "id": "adam-a1-ar-language-7-past",
       "type": "matching",
-      "title": "Look: Past Forms",
-      "instructions": "Match the verb with its past form.",
-      "question": "What is the past form?",
+      "title": "انْظُرْ: أَرْسَلَ، حَفَرَ، بَكَى",
+      "instructions": "صِلِ الْفِعْلَ بِصِيغَةِ الْمَاضِي.",
+      "question": "مَا صِيغَةُ الْمَاضِي؟",
       "matchingHeadings": {
-       "left": "Verb",
-       "right": "Past form"
+       "left": "الْمُضَارِعُ",
+       "right": "الْمَاضِي"
       },
       "matchingPairs": [
        {
-        "left": "feel",
-        "right": "felt"
+        "left": "يُرْسِلُ",
+        "right": "أَرْسَلَ"
        },
        {
-        "left": "send",
-        "right": "sent"
+        "left": "يَحْفِرُ",
+        "right": "حَفَرَ"
        },
        {
-        "left": "learn",
-        "right": "learned"
+        "left": "يَتَعَلَّمُ",
+        "right": "تَعَلَّمَ"
        },
        {
-        "left": "cry",
-        "right": "cried"
+        "left": "يَبْكِي",
+        "right": "بَكَى"
        }
       ],
       "correctAnswer": {
-       "feel": "felt",
-       "send": "sent",
-       "learn": "learned",
-       "cry": "cried"
+       "يُرْسِلُ": "أَرْسَلَ",
+       "يَحْفِرُ": "حَفَرَ",
+       "يَتَعَلَّمُ": "تَعَلَّمَ",
+       "يَبْكِي": "بَكَى"
       },
-      "explanation": "“Felt” and “sent” change in the past. “Learned” and “cried” end in -ed. Cry → cried.",
+      "explanation": "في الفصل: «أَرْسَلَ اللهُ غُرَابًا»، «حَفَرَ الْغُرَابُ»، «وَتَعَلَّمَ»، «بَكَى». في «يَبْكِي ← بَكَى» تصير الياء ألفًا.",
       "feedback": {
-       "correct": "Good. You found the past forms.",
-       "incorrect": "Find felt, sent, learned and cried in Chapter 7."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "ابْحَثْ عَنْ هَذِهِ الْأَفْعَالِ فِي الْفَصْلِ."
       }
      },
      {
-      "id": "adam-a1-language-7-practise",
+      "id": "adam-a1-ar-language-7-practise",
       "type": "choose-form",
-      "title": "Practise: What Did They Do?",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: مَاذَا فَعَلُوا؟",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ لِلْمَاضِي؟",
       "formChoices": [
        {
-        "sentence": "Allah [choice] a crow.",
+        "sentence": "[choice] اللهُ غُرَابًا.",
         "options": [
-         "sent",
-         "sends"
+         "أَرْسَلَ",
+         "يُرْسِلُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The crow [choice] a hole in the soil.",
+        "sentence": "[choice] الْغُرَابُ حُفْرَةً فِي التُّرَابِ.",
         "options": [
-         "made",
-         "makes"
+         "حَفَرَ",
+         "يَحْفِرُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Qabil [choice] and learned.",
+        "sentence": "[choice] قَابِيلُ إِلَيْهِ، وَتَعَلَّمَ.",
         "options": [
-         "watches",
-         "watched"
+         "يَنْظُرُ",
+         "نَظَرَ"
         ],
         "answer": 1
        }
       ],
       "correctAnswer": null,
-      "explanation": "The story is in the past: sent, made, watched.",
+      "explanation": "القصة في الماضي: أَرْسَلَ، حَفَرَ، نَظَرَ.",
       "feedback": {
-       "correct": "Correct. All three tell the past.",
-       "incorrect": "Look at Chapter 7. Find sent, made and watched."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "الْقِصَّةُ فِي الْمَاضِي."
       }
      },
      {
-      "id": "adam-a1-language-7-say-it",
+      "id": "adam-a1-ar-language-7-say-it",
       "type": "reflection",
-      "title": "Say It: I Learned",
-      "instructions": "Say what you learned from a person.",
-      "question": "Who taught you something?",
+      "title": "قُلْهَا: تَعَلَّمْتُ",
+      "instructions": "قُلْ مَاذَا تَعَلَّمْتَ مِنْ شَخْصٍ.",
+      "question": "مَنْ عَلَّمَكَ شَيْئًا؟",
       "correctAnswer": null,
-      "explanation": "Use watched, learned and knows more than me.",
+      "explanation": "استعمل «نَظَرْتُ» و«تَعَلَّمْتُ» و«يَعْرِفُ أَكْثَرَ مِنِّي».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I watched … and learned …”",
+        "question": "«نَظَرْتُ إِلَى … وَتَعَلَّمْتُ …»",
         "mode": "Individual",
-        "example": "I watched my mother and learned to cook rice."
+        "example": "نَظَرْتُ إِلَى أُمِّي وَتَعَلَّمْتُ طَبْخَ الْأَرُزِّ."
        },
        {
-        "question": "“… knows more than me about …”",
+        "question": "«… يَعْرِفُ أَكْثَرَ مِنِّي عَنْ …»",
         "mode": "Pair",
-        "example": "My brother knows more than me about computers."
+        "example": "أَخِي يَعْرِفُ أَكْثَرَ مِنِّي عَنِ الْحَاسُوبِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Allah send to Qabil?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا أَرْسَلَ اللهُ إِلَى قَابِيلَ؟",
      "options": [
-      "a crow",
-      "an angel",
-      "a sheep"
+      "غُرَابًا",
+      "مَلَكًا",
+      "خَرُوفًا"
      ],
      "answer": 0,
-     "quote": "Allah sent a crow."
+     "quote": "أَرْسَلَ اللهُ غُرَابًا."
     },
     "iCan": [
-     "I can tell what the crow did.",
-     "I can use felt, sent and learned.",
-     "I can say what I learned from a person."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَاذَا فَعَلَ الْغُرَابُ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ أَرْسَلَ وَحَفَرَ وَتَعَلَّمَ.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَاذَا تَعَلَّمْتُ مِنْ شَخْصٍ."
     ]
    },
    {
     "id": 8,
     "type": "story",
-    "title": "Adam’s Message",
+    "title": "رِسَالَةُ آدَمَ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter10.png?alt=media&token=97c7a607-186e-439b-9f2d-8d4c9b11bd7f",
-    "content": "Adam grew old. His children and their children took his message to every part of the world. The message is easy: Love Allah, be kind to people and do good things.\n\nThe story of Habil and Qabil also teaches us a lesson. Do not be jealous, and stop your anger. Allah is always with people. He never leaves them alone.",
+    "content": "كَبِرَ آدَمُ فِي السِّنِّ. حَمَلَ أَوْلَادُهُ وَأَوْلَادُ أَوْلَادِهِ رِسَالَتَهُ إِلَى كُلِّ مَكَانٍ فِي الْعَالَمِ. الرِّسَالَةُ سَهْلَةٌ: أَحِبَّ اللهَ، وَكُنْ طَيِّبًا مَعَ النَّاسِ، وَافْعَلِ الْخَيْرَ.\n\nوَقِصَّةُ هَابِيلَ وَقَابِيلَ تُعَلِّمُنَا دَرْسًا أَيْضًا: لَا تَحْسُدْ، وَأَوْقِفْ غَضَبَكَ. اللهُ مَعَ النَّاسِ دَائِمًا، وَلَا يَتْرُكُهُمْ وَحْدَهُمْ أَبَدًا.",
     "vocabulary": [
      {
-      "word": "message",
-      "definition": "Words you send or tell to people."
+      "word": "رِسَالَتَهُ",
+      "definition": "كَلَامٌ تُرْسِلُهُ أَوْ تَقُولُهُ لِلنَّاسِ."
      }
     ],
     "hotspots": [
@@ -1313,263 +1311,275 @@
       "id": "h8-1",
       "x": 35,
       "y": 46,
-      "title": "Adam’s Message",
-      "description": "Adam’s children took his message to every part of the world."
+      "title": "رِسَالَةُ آدَمَ",
+      "description": "حَمَلَ أَوْلَادُ آدَمَ رِسَالَتَهُ إِلَى كُلِّ مَكَانٍ فِي الْعَالَمِ."
      },
      {
       "id": "h8-2",
       "x": 68,
       "y": 50,
-      "title": "Allah Is with Us",
-      "description": "Allah is always with people. He never leaves them alone."
+      "title": "اللهُ مَعَنَا",
+      "description": "اللهُ مَعَ النَّاسِ دَائِمًا، وَلَا يَتْرُكُهُمْ وَحْدَهُمْ أَبَدًا."
      }
     ],
     "exercises": [
      {
-      "id": "adam-a1-quick-8",
+      "id": "adam-a1-ar-quick-8",
       "type": "multiple-choice",
-      "title": "The Lesson",
-      "instructions": "Choose the best answer.",
-      "question": "What does the story of Habil and Qabil teach us?",
+      "title": "الدَّرْسُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "مَاذَا تُعَلِّمُنَا قِصَّةُ هَابِيلَ وَقَابِيلَ؟",
       "options": [
-       "Do not be jealous, and stop your anger.",
-       "Always be first.",
-       "Never work on a farm."
+       "لَا تَحْسُدْ، وَأَوْقِفْ غَضَبَكَ.",
+       "كُنْ دَائِمًا الْأَوَّلَ.",
+       "لَا تَعْمَلْ فِي الْأَرْضِ أَبَدًا."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 8 says: “Do not be jealous, and stop your anger.”",
+      "explanation": "الفصل الثامن: «لَا تَحْسُدْ، وَأَوْقِفْ غَضَبَكَ».",
       "feedback": {
-       "correct": "Yes! Do not be jealous, and stop your anger.",
-       "incorrect": "Read the second paragraph of Chapter 8 again."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّامِنِ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "adam-a1-language-8-do-dont",
+      "id": "adam-a1-ar-language-8-do",
       "type": "drag-drop",
-      "title": "Look: Do and Do Not",
-      "instructions": "Put each sentence in the right group.",
-      "question": "Is it a good thing to do?",
+      "title": "انْظُرْ: افْعَلْ وَلَا تَفْعَلْ",
+      "instructions": "ضَعْ كُلَّ جُمْلَةٍ فِي مَجْمُوعَتِهَا.",
+      "question": "هَلْ هُوَ شَيْءٌ طَيِّبٌ؟",
       "dragDropGroups": [
        {
-        "group": "Do it",
+        "group": "افْعَلْ",
         "items": [
-         "Love Allah.",
-         "Be kind to people.",
-         "Do good things."
+         "أَحِبَّ اللهَ.",
+         "كُنْ طَيِّبًا مَعَ النَّاسِ.",
+         "افْعَلِ الْخَيْرَ."
         ]
        },
        {
-        "group": "Do not do it",
+        "group": "لَا تَفْعَلْ",
         "items": [
-         "Be jealous.",
-         "Tell lies."
+         "تَحْسُدُ.",
+         "تَكْذِبُ."
         ]
        }
       ],
       "correctAnswer": {
-       "Do it": [
-        "Love Allah.",
-        "Be kind to people.",
-        "Do good things."
+       "افْعَلْ": [
+        "أَحِبَّ اللهَ.",
+        "كُنْ طَيِّبًا مَعَ النَّاسِ.",
+        "افْعَلِ الْخَيْرَ."
        ],
-       "Do not do it": [
-        "Be jealous.",
-        "Tell lies."
+       "لَا تَفْعَلْ": [
+        "تَحْسُدُ.",
+        "تَكْذِبُ."
        ]
       },
-      "explanation": "In Chapter 8, Adam’s message tells us what to do: love Allah, be kind, do good things. The lesson tells us what not to do: do not be jealous.",
+      "explanation": "في الفصل الثامن، رسالة آدم تقول لنا ماذا نفعل: أَحِبَّ اللهَ، كُنْ طَيِّبًا، افْعَلِ الْخَيْرَ. والدرس يقول ماذا لا نفعل: لَا تَحْسُدْ.",
       "feedback": {
-       "correct": "Good. You know the message.",
-       "incorrect": "Read Adam’s message in Chapter 8 again."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الثَّامِنَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "adam-a1-language-8-make",
-      "type": "sentence-building",
-      "title": "Practise: Make the Sentence",
-      "instructions": "Make the sentence.",
-      "question": "What does the message say?",
-      "sentenceChunks": [
-       "Be",
-       "kind",
-       "to",
-       "people."
+      "id": "adam-a1-ar-language-8-practise",
+      "type": "choose-form",
+      "title": "تَدَرَّبْ: كُنْ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "مَاذَا تَقُولُ الرِّسَالَةُ؟",
+      "formChoices": [
+       {
+        "sentence": "[choice] طَيِّبًا مَعَ النَّاسِ.",
+        "options": [
+         "كُنْ",
+         "كَانَ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "لَا [choice].",
+        "options": [
+         "تَحْسُدْ",
+         "تَحْسُدُ"
+        ],
+        "answer": 0
+       }
       ],
       "correctAnswer": null,
-      "explanation": "Be + a word: Be kind. Be careful. Be honest.",
+      "explanation": "«كُنْ» + صفة بالفتحة: كُنْ طَيِّبًا، كُنْ صَادِقًا. وبعد «لَا» الناهية يُجزم الفعل: لَا تَحْسُدْ.",
       "feedback": {
-       "correct": "Correct. Be kind to people.",
-       "incorrect": "Start with “Be”."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الرِّسَالَةَ فِي الْفَصْلِ الثَّامِنِ."
       }
      },
      {
-      "id": "adam-a1-language-8-write-it",
+      "id": "adam-a1-ar-language-8-write-it",
       "type": "reflection",
-      "title": "Write It: My Message",
-      "instructions": "Write a short message for your class.",
-      "question": "What is your message?",
+      "title": "اكْتُبْهَا: رِسَالَتِي",
+      "instructions": "اكْتُبْ رِسَالَةً قَصِيرَةً لِصَفِّكَ.",
+      "question": "مَا رِسَالَتُكَ؟",
       "correctAnswer": null,
-      "explanation": "Use Be, Do not and Always.",
+      "explanation": "استعمل «كُنْ» و«لَا» و«دَائِمًا».",
       "feedback": {
-       "correct": "Write three short sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Be …”",
+        "question": "«كُنْ …»",
         "mode": "Individual",
-        "example": "Be honest."
+        "example": "كُنْ صَادِقًا."
        },
        {
-        "question": "“Do not …”",
+        "question": "«لَا …»",
         "mode": "Individual",
-        "example": "Do not be jealous."
+        "example": "لَا تَحْسُدْ."
        },
        {
-        "question": "“Always …”",
+        "question": "«دَائِمًا …»",
         "mode": "Individual",
-        "example": "Always help your friends."
+        "example": "سَاعِدْ أَصْدِقَاءَكَ دَائِمًا."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Adam’s message is easy. What is it?",
+     "question": "خَمِّنْ أَوَّلًا: رِسَالَةُ آدَمَ سَهْلَةٌ. مَا هِيَ؟",
      "options": [
-      "Love Allah, be kind to people and do good things.",
-      "Work hard and get a lot of money.",
-      "Live alone and do not talk."
+      "أَحِبَّ اللهَ، وَكُنْ طَيِّبًا مَعَ النَّاسِ، وَافْعَلِ الْخَيْرَ.",
+      "اعْمَلْ كَثِيرًا، وَخُذْ مَالًا كَثِيرًا.",
+      "عِشْ وَحْدَكَ، وَلَا تَتَكَلَّمْ."
      ],
      "answer": 0,
-     "quote": "The message is easy: Love Allah, be kind to people and do good things."
+     "quote": "الرِّسَالَةُ سَهْلَةٌ: أَحِبَّ اللهَ، وَكُنْ طَيِّبًا مَعَ النَّاسِ، وَافْعَلِ الْخَيْرَ."
     },
     "iCan": [
-     "I can say Adam’s message.",
-     "I can use “Be …” and “Do not …”.",
-     "I can write a short message."
+     "أَسْتَطِيعُ أَنْ أَقُولَ رِسَالَةَ آدَمَ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «كُنْ …» وَ«لَا تَفْعَلْ».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ رِسَالَةً قَصِيرَةً."
     ],
     "groupTask": {
      "type": "project",
-     "title": "Our Message Poster",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "لَوْحَةُ رِسَالَتِنَا",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "Each student writes one good sentence for the world: “Be …” or “Do not …”.",
-      "The group draws a big world on a poster.",
-      "The group puts the sentences on the world.",
-      "One student reads the poster to the class."
+      "يَكْتُبُ كُلُّ طَالِبٍ جُمْلَةً طَيِّبَةً لِلْعَالَمِ: «كُنْ …» أَوْ «لَا …».",
+      "تَرْسُمُ الْمَجْمُوعَةُ عَالَمًا كَبِيرًا عَلَى لَوْحَةٍ.",
+      "تَضَعُ الْمَجْمُوعَةُ الْجُمَلَ عَلَى الْعَالَمِ.",
+      "يَقْرَأُ طَالِبٌ وَاحِدٌ اللَّوْحَةَ لِلصَّفِّ."
      ],
-     "share": "One student reads the poster. Link: “Love Allah, be kind to people and do good things.”",
-     "solo": "Draw the world. Write three good sentences around it."
+     "share": "يَقْرَأُ طَالِبٌ وَاحِدٌ اللَّوْحَةَ. مِنَ الْقِصَّةِ: «أَحِبَّ اللهَ، وَكُنْ طَيِّبًا مَعَ النَّاسِ، وَافْعَلِ الْخَيْرَ.»",
+     "solo": "ارْسُمِ الْعَالَمَ، وَاكْتُبْ حَوْلَهُ ثَلَاثَ جُمَلٍ طَيِّبَةٍ."
     }
    },
    {
     "id": 11,
     "type": "quiz",
-    "title": "Knowledge Check",
+    "title": "اختبار المعرفة",
     "image": "https://picsum.photos/seed/quiz-adam-a1/1200/800",
     "audioUrl": "",
-    "content": "Check your understanding of the complete story.",
+    "content": "اختبر فهمك لثماني أفكار أساسية من القصة.",
     "exercises": [
      {
-      "id": "adam-a1-kc-1",
+      "id": "adam-a1-ar-kc-1",
       "type": "multiple-choice",
-      "title": "From Soil",
-      "instructions": "Choose the answer.",
-      "question": "What did Allah make Adam from?",
+      "title": "مِنْ تُرَابٍ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مِنْ أَيِّ شَيْءٍ خَلَقَ اللهُ آدَمَ؟",
       "options": [
-       "soil",
-       "fire",
-       "water"
+       "مِنْ تُرَابٍ",
+       "مِنْ نَارٍ",
+       "مِنْ مَاءٍ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 1: “Allah made the first human from this soil.”",
+      "explanation": "الفصل الأول: «خَلَقَ اللهُ الْإِنْسَانَ الْأَوَّلَ مِنْ هَذَا التُّرَابِ».",
       "feedback": {
-       "correct": "Yes. Allah made Adam from soil.",
-       "incorrect": "Read the second paragraph of Chapter 1."
+       "correct": "نَعَمْ. مِنْ تُرَابٍ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "adam-a1-kc-2",
+      "id": "adam-a1-ar-kc-2",
       "type": "multiple-choice",
-      "title": "Iblis",
-      "instructions": "Choose the answer.",
-      "question": "Who did not show respect to Adam?",
+      "title": "إِبْلِيسُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَنْ مَا سَجَدَ لِآدَمَ؟",
       "options": [
-       "the angels",
-       "Iblis",
-       "Eve"
+       "الْمَلَائِكَةُ",
+       "إِبْلِيسُ",
+       "حَوَّاءُ"
       ],
       "correctAnswer": 1,
-      "explanation": "Chapter 2: “All the angels did this. But Iblis did not.”",
+      "explanation": "الفصل الثاني: «فَسَجَدَ كُلُّ الْمَلَائِكَةِ. لَكِنَّ إِبْلِيسَ مَا سَجَدَ».",
       "feedback": {
-       "correct": "Yes. Iblis did not.",
-       "incorrect": "Read the first paragraph of Chapter 2."
+       "correct": "نَعَمْ. إِبْلِيسُ.",
+       "incorrect": "اقْرَأْ آخِرَ الْفِقْرَةِ الْأُولَى مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "adam-a1-kc-3",
+      "id": "adam-a1-ar-kc-3",
       "type": "true-false",
-      "title": "The Tree",
-      "instructions": "Is it true or false?",
-      "question": "Allah told Adam and Eve, “Do not go near this tree.”",
+      "title": "الشَّجَرَةُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "قَالَ اللهُ لِآدَمَ وَحَوَّاءَ: لَا تَقْرَبَا هَذِهِ الشَّجَرَةَ.",
       "correctAnswer": true,
-      "explanation": "Chapter 3: Allah told them only one thing: “Do not go near this tree.”",
+      "explanation": "الفصل الثالث: قال الله لهما شيئًا واحدًا فقط: ﴿وَلَا تَقْرَبَا هَذِهِ الشَّجَرَةَ﴾.",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the end of Chapter 3."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأْ آخِرَ الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "adam-a1-kc-4",
+      "id": "adam-a1-ar-kc-4",
       "type": "true-false",
-      "title": "Saying Sorry",
-      "instructions": "Is it true or false?",
-      "question": "Iblis said sorry to Allah.",
+      "title": "طَلَبُ الْمَغْفِرَةِ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "طَلَبَ إِبْلِيسُ الْمَغْفِرَةَ مِنَ اللهِ.",
       "correctAnswer": false,
-      "explanation": "Chapter 4: “He never said sorry.”",
+      "explanation": "الفصل الرابع: «مَا طَلَبَ الْمَغْفِرَةَ أَبَدًا».",
       "feedback": {
-       "correct": "Yes, it is false. Iblis never said sorry.",
-       "incorrect": "Read the second paragraph of Chapter 4."
+       "correct": "نَعَمْ، هَذَا خَطَأٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "adam-a1-kc-5",
+      "id": "adam-a1-ar-kc-5",
       "type": "multiple-choice",
-      "title": "The First Messenger",
-      "instructions": "Choose the answer.",
-      "question": "Who was Allah’s first Messenger?",
+      "title": "أَوَّلُ نَبِيٍّ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَنْ أَوَّلُ نَبِيٍّ؟",
       "options": [
-       "Habil",
-       "Adam",
-       "Qabil"
+       "هَابِيلُ",
+       "آدَمُ",
+       "قَابِيلُ"
       ],
       "correctAnswer": 1,
-      "explanation": "Chapter 5: “Allah made Adam His first Messenger.”",
+      "explanation": "الفصل الخامس: «جَعَلَ اللهُ آدَمَ أَوَّلَ نَبِيٍّ».",
       "feedback": {
-       "correct": "Yes. Adam was the first Messenger.",
-       "incorrect": "Read the second paragraph of Chapter 5."
+       "correct": "نَعَمْ. آدَمُ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "adam-a1-kc-6",
+      "id": "adam-a1-ar-kc-6",
       "type": "multiple-choice",
-      "title": "The Crow",
-      "instructions": "Choose the answer.",
-      "question": "What did the crow make in the soil?",
+      "title": "الْغُرَابُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا حَفَرَ الْغُرَابُ فِي التُّرَابِ؟",
       "options": [
-       "a hole",
-       "a house",
-       "a farm"
+       "حُفْرَةً",
+       "بَيْتًا",
+       "بِئْرًا"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: “The crow made a hole in the soil.”",
+      "explanation": "الفصل السابع: «حَفَرَ الْغُرَابُ حُفْرَةً فِي التُّرَابِ».",
       "feedback": {
-       "correct": "Yes. The crow made a hole.",
-       "incorrect": "Read Chapter 7 again."
+       "correct": "نَعَمْ. حُفْرَةً.",
+       "incorrect": "اقْرَأِ الْفَصْلَ السَّابِعَ."
       }
      }
     ]
@@ -1577,518 +1587,490 @@
    {
     "id": 13,
     "type": "glossary",
-    "title": "Master Glossary",
-    "content": "Review all key vocabulary from the story in one place.",
+    "title": "المعجم الرئيسي",
+    "content": "راجع جميع مفردات القصة المهمة في مكان واحد.",
     "image": "https://picsum.photos/seed/glossary-adam-a1/1200/800",
     "vocabulary": [
      {
-      "word": "earth",
-      "definition": "The world we live on.",
+      "word": "الْأَرْضَ",
+      "definition": "الْمَكَانُ الَّذِي نَعِيشُ عَلَيْهِ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ɜːrθ/",
       "chapter": 1,
-      "chapterTitle": "The First Human",
-      "storyExample": "A very long time ago, Allah made the sky and the earth.",
-      "category": "Nature"
+      "chapterTitle": "الْإِنْسَانُ الْأَوَّلُ",
+      "storyExample": "قَبْلَ زَمَنٍ طَوِيلٍ جِدًّا، خَلَقَ اللهُ السَّمَاءَ وَالْأَرْضَ."
      },
      {
-      "word": "angel",
-      "definition": "A being of light; it always does what Allah says.",
+      "word": "الْمَلَائِكَةَ",
+      "definition": "خَلْقٌ مِنْ نُورٍ، يَفْعَلُونَ مَا يَأْمُرُ اللهُ دَائِمًا.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈeɪndʒəl/",
       "chapter": 1,
-      "chapterTitle": "The First Human",
-      "storyExample": "Then He told the angels about the first human.",
-      "category": "Faith"
+      "chapterTitle": "الْإِنْسَانُ الْأَوَّلُ",
+      "storyExample": "ثُمَّ أَخْبَرَ اللهُ الْمَلَائِكَةَ عَنِ الْإِنْسَانِ الْأَوَّلِ."
      },
      {
-      "word": "surprised",
-      "definition": "Feeling \"Oh! I did not know that!\".",
+      "word": "تَعَجَّبَتِ",
+      "definition": "رَأَتْ أَوْ سَمِعَتْ شَيْئًا جَدِيدًا غَرِيبًا.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/sərˈpraɪzd/",
       "chapter": 1,
-      "chapterTitle": "The First Human",
-      "storyExample": "The angels were surprised.",
-      "category": "Feelings"
+      "chapterTitle": "الْإِنْسَانُ الْأَوَّلُ",
+      "storyExample": "تَعَجَّبَتِ الْمَلَائِكَةُ."
      },
      {
-      "word": "soil",
-      "definition": "The brown ground; plants grow in it.",
+      "word": "تُرَابًا",
+      "definition": "الْأَرْضُ النَّاعِمَةُ؛ يَنْبُتُ فِيهَا النَّبَاتُ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/sɔɪl/",
       "chapter": 1,
-      "chapterTitle": "The First Human",
-      "storyExample": "Then the angels took soil from different parts of the earth.",
-      "category": "Nature"
+      "chapterTitle": "الْإِنْسَانُ الْأَوَّلُ",
+      "storyExample": "ثُمَّ أَخَذَتِ الْمَلَائِكَةُ تُرَابًا مِنْ أَمَاكِنَ مُخْتَلِفَةٍ فِي الْأَرْضِ."
      },
      {
-      "word": "knowledge",
-      "definition": "The things you know and learn.",
+      "word": "عِلْمًا",
+      "definition": "الْأَشْيَاءُ الَّتِي نَعْرِفُهَا وَنَتَعَلَّمُهَا.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈnɑːlɪdʒ/",
       "chapter": 2,
-      "chapterTitle": "Iblis Says No",
-      "storyExample": "Allah gave Adam knowledge.",
-      "category": "Learning"
+      "chapterTitle": "إِبْلِيسُ يَقُولُ: لَا",
+      "storyExample": "أَعْطَى اللهُ آدَمَ عِلْمًا."
      },
      {
-      "word": "respect",
-      "definition": "A feeling that someone is important.",
+      "word": "احْتِرَامًا",
+      "definition": "شُعُورٌ بِأَنَّ شَخْصًا مَا مُهِمٌّ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/rɪˈspekt/",
       "chapter": 2,
-      "chapterTitle": "Iblis Says No",
-      "storyExample": "Allah told the angels to show respect to Adam.",
-      "category": "Values"
+      "chapterTitle": "إِبْلِيسُ يَقُولُ: لَا",
+      "storyExample": "أَمَرَ اللهُ الْمَلَائِكَةَ أَنْ يَسْجُدُوا لِآدَمَ احْتِرَامًا لَهُ."
      },
      {
-      "word": "fire",
-      "definition": "Something very hot, red and yellow.",
+      "word": "نَارٍ",
+      "definition": "شَيْءٌ حَارٌّ جِدًّا، لَوْنُهُ أَحْمَرُ وَأَصْفَرُ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈfaɪər/",
       "chapter": 2,
-      "chapterTitle": "Iblis Says No",
-      "storyExample": "You made me from fire, and You made Adam from soil.”",
-      "category": "Nature"
+      "chapterTitle": "إِبْلِيسُ يَقُولُ: لَا",
+      "storyExample": "قَالَ إِبْلِيسُ: ﴿أَنَا خَيْرٌ مِنْهُ خَلَقْتَنِي مِنْ نَارٍ وَخَلَقْتَهُ مِنْ طِينٍ﴾ (سُورَةُ الْأَعْرَافِ)."
      },
      {
-      "word": "angry",
-      "definition": "Very unhappy because of something bad.",
+      "word": "غَضِبَ",
+      "definition": "صَارَ غَيْرَ سَعِيدٍ جِدًّا بِسَبَبِ شَيْءٍ سَيِّئٍ.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/ˈæŋɡri/",
       "chapter": 3,
-      "chapterTitle": "A Beautiful Garden",
-      "storyExample": "Iblis was very angry.",
-      "category": "Feelings"
+      "chapterTitle": "حَدِيقَةٌ جَمِيلَةٌ",
+      "storyExample": "غَضِبَ إِبْلِيسُ كَثِيرًا."
      },
      {
-      "word": "careful",
-      "definition": "Thinking before you do something.",
+      "word": "يَحْذَرَ",
+      "definition": "يُفَكِّرُ قَبْلَ أَنْ يَفْعَلَ شَيْئًا.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/ˈkerfl/",
       "chapter": 3,
-      "chapterTitle": "A Beautiful Garden",
-      "storyExample": "Allah told Adam to be careful.",
-      "category": "Describing"
+      "chapterTitle": "حَدِيقَةٌ جَمِيلَةٌ",
+      "storyExample": "أَمَرَ اللهُ آدَمَ أَنْ يَحْذَرَ، لِأَنَّ إِبْلِيسَ لَيْسَ صَدِيقَهُ."
      },
      {
-      "word": "Paradise",
-      "definition": "Allah's beautiful garden; Jannah.",
+      "word": "الْجَنَّةِ",
+      "definition": "حَدِيقَةُ اللهِ الْجَمِيلَةُ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈpærədaɪs/",
       "chapter": 3,
-      "chapterTitle": "A Beautiful Garden",
-      "storyExample": "Adam lived in Paradise.",
-      "category": "Faith"
+      "chapterTitle": "حَدِيقَةٌ جَمِيلَةٌ",
+      "storyExample": "سَكَنَ آدَمُ فِي الْجَنَّةِ."
      },
      {
-      "word": "lie",
-      "definition": "Words that are not true.",
+      "word": "كَذِبًا",
+      "definition": "كَلَامٌ لَيْسَ صَحِيحًا.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/laɪ/",
       "chapter": 4,
-      "chapterTitle": "A Big Mistake",
-      "storyExample": "It was a big lie.",
-      "category": "Values"
+      "chapterTitle": "خَطَأٌ كَبِيرٌ",
+      "storyExample": "كَانَ هَذَا كَذِبًا كَبِيرًا."
      },
      {
-      "word": "believe",
-      "definition": "Think that something is true.",
+      "word": "صَدَّقَهُ",
+      "definition": "ظَنَّ أَنَّ كَلَامَهُ صَحِيحٌ.",
       "partOfSpeech": "verb",
       "level": "A1",
-      "pronunciation": "/bɪˈliːv/",
       "chapter": 4,
-      "chapterTitle": "A Big Mistake",
-      "storyExample": "After some time, Adam and Eve believed him.",
-      "category": "Actions"
+      "chapterTitle": "خَطَأٌ كَبِيرٌ",
+      "storyExample": "بَعْدَ وَقْتٍ، صَدَّقَهُ آدَمُ وَحَوَّاءُ."
      },
      {
-      "word": "mistake",
-      "definition": "Something wrong that you do.",
+      "word": "خَطَأٌ",
+      "definition": "شَيْءٌ غَيْرُ صَحِيحٍ تَفْعَلُهُ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/mɪˈsteɪk/",
       "chapter": 4,
-      "chapterTitle": "A Big Mistake",
-      "storyExample": "Sadly, sometimes people forget and make mistakes.",
-      "category": "Values"
+      "chapterTitle": "خَطَأٌ كَبِيرٌ",
+      "storyExample": "لِلْأَسَفِ، يَنْسَى النَّاسُ أَحْيَانًا، وَيَفْعَلُونَ أَخْطَاءً."
      },
      {
-      "word": "forgive",
-      "definition": "Stop being angry with someone.",
+      "word": "غَفَرَ",
+      "definition": "سَامَحَ، وَتَرَكَ الْعِقَابَ.",
       "partOfSpeech": "verb",
       "level": "A1",
-      "pronunciation": "/fərˈɡɪv/",
       "chapter": 4,
-      "chapterTitle": "A Big Mistake",
-      "storyExample": "They said sorry to Allah, and Allah forgave them.",
-      "category": "Values"
+      "chapterTitle": "خَطَأٌ كَبِيرٌ",
+      "storyExample": "طَلَبَا مِنَ اللهِ أَنْ يُسَامِحَهُمَا، فَغَفَرَ اللهُ لَهُمَا."
      },
      {
-      "word": "grow",
-      "definition": "Make plants come up from the soil.",
+      "word": "زَرَعَا",
+      "definition": "وَضَعَا الْبُذُورَ فِي التُّرَابِ، فَنَبَتَ النَّبَاتُ.",
       "partOfSpeech": "verb",
       "level": "A1",
-      "pronunciation": "/ɡroʊ/",
       "chapter": 5,
-      "chapterTitle": "Life on Earth",
-      "storyExample": "They worked on farms and grew food.",
-      "category": "Actions"
+      "chapterTitle": "الْحَيَاةُ عَلَى الْأَرْضِ",
+      "storyExample": "عَمِلَا فِي الْأَرْضِ، وَزَرَعَا الطَّعَامَ."
      },
      {
-      "word": "messenger",
-      "definition": "A person who brings Allah's words.",
+      "word": "نَبِيٍّ",
+      "definition": "إِنْسَانٌ يَخْتَارُهُ اللهُ لِيُعَلِّمَ النَّاسَ دِينَهُ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈmesɪndʒər/",
       "chapter": 5,
-      "chapterTitle": "Life on Earth",
-      "storyExample": "Allah made Adam His first Messenger.",
-      "category": "Faith"
+      "chapterTitle": "الْحَيَاةُ عَلَى الْأَرْضِ",
+      "storyExample": "جَعَلَ اللهُ آدَمَ أَوَّلَ نَبِيٍّ."
      },
      {
-      "word": "honest",
-      "definition": "Always says true things.",
+      "word": "صَادِقِينَ",
+      "definition": "يَقُولُونَ الْحَقَّ دَائِمًا.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/ˈɑːnɪst/",
       "chapter": 5,
-      "chapterTitle": "Life on Earth",
-      "storyExample": "Adam taught his children to be good and honest.",
-      "category": "Values"
+      "chapterTitle": "الْحَيَاةُ عَلَى الْأَرْضِ",
+      "storyExample": "عَلَّمَ آدَمُ أَوْلَادَهُ أَنْ يَكُونُوا طَيِّبِينَ وَصَادِقِينَ، وَأَنْ يَذْكُرُوا اللهَ."
      },
      {
-      "word": "gentle",
-      "definition": "Kind and quiet; does not hurt others.",
+      "word": "لَطِيفًا",
+      "definition": "طَيِّبٌ وَهَادِئٌ؛ لَا يُؤْذِي أَحَدًا.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/ˈdʒentl/",
       "chapter": 6,
-      "chapterTitle": "Two Brothers",
-      "storyExample": "Habil was kind and gentle.",
-      "category": "Describing"
+      "chapterTitle": "أَخَوَانِ",
+      "storyExample": "كَانَ هَابِيلُ طَيِّبًا وَلَطِيفًا، وَاعْتَنَى بِالْغَنَمِ وَالْبَقَرِ."
      },
      {
-      "word": "jealous",
-      "definition": "Unhappy because someone has something good.",
+      "word": "يَحْسُدُ",
+      "definition": "يَحْزَنُ لِأَنَّ عِنْدَ غَيْرِهِ شَيْئًا جَمِيلًا.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/ˈdʒeləs/",
       "chapter": 6,
-      "chapterTitle": "Two Brothers",
-      "storyExample": "But Qabil was often jealous of his brother.",
-      "category": "Feelings"
+      "chapterTitle": "أَخَوَانِ",
+      "storyExample": "وَكَانَ قَابِيلُ يَحْسُدُ أَخَاهُ كَثِيرًا."
      },
      {
-      "word": "fear",
-      "definition": "Be afraid of.",
+      "word": "أَخَافُ",
+      "definition": "أَخَافُ اللهَ: لَا أَفْعَلُ مَا لَا يُحِبُّهُ اللهُ.",
       "partOfSpeech": "verb",
       "level": "A1",
-      "pronunciation": "/fɪr/",
       "chapter": 6,
-      "chapterTitle": "Two Brothers",
-      "storyExample": "Habil said, “I will not hurt you. You are my brother, and I fear Allah.”",
-      "category": "Feelings"
+      "chapterTitle": "أَخَوَانِ",
+      "storyExample": "أَنْتَ أَخِي، وَأَنَا أَخَافُ اللهَ.»"
      },
      {
-      "word": "crow",
-      "definition": "A big black bird.",
+      "word": "غُرَابًا",
+      "definition": "طَائِرٌ كَبِيرٌ أَسْوَدُ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/kroʊ/",
       "chapter": 7,
-      "chapterTitle": "The Crow",
-      "storyExample": "Allah sent a crow.",
-      "category": "Nature"
+      "chapterTitle": "الْغُرَابُ",
+      "storyExample": "أَرْسَلَ اللهُ غُرَابًا."
      },
      {
-      "word": "hole",
-      "definition": "An open space in something.",
+      "word": "حُفْرَةً",
+      "definition": "مَكَانٌ مَفْتُوحٌ فِي الْأَرْضِ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/hoʊl/",
       "chapter": 7,
-      "chapterTitle": "The Crow",
-      "storyExample": "The crow made a hole in the soil.",
-      "category": "Things"
+      "chapterTitle": "الْغُرَابُ",
+      "storyExample": "حَفَرَ الْغُرَابُ حُفْرَةً فِي التُّرَابِ."
      },
      {
-      "word": "message",
-      "definition": "Words you send or tell to people.",
+      "word": "رِسَالَتَهُ",
+      "definition": "كَلَامٌ تُرْسِلُهُ أَوْ تَقُولُهُ لِلنَّاسِ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈmesɪdʒ/",
       "chapter": 8,
-      "chapterTitle": "Adam’s Message",
-      "storyExample": "His children and their children took his message to every part of the world.",
-      "category": "Language"
+      "chapterTitle": "رِسَالَةُ آدَمَ",
+      "storyExample": "حَمَلَ أَوْلَادُهُ وَأَوْلَادُ أَوْلَادِهِ رِسَالَتَهُ إِلَى كُلِّ مَكَانٍ فِي الْعَالَمِ."
      }
     ]
    },
    {
     "id": 12,
     "type": "vocabulary-match",
-    "title": "Vocabulary Challenge",
+    "title": "تحدي المفردات",
     "image": "https://picsum.photos/seed/vocab-match-adam-a1/1200/800",
     "audioUrl": "",
-    "content": "Match six story words with their meanings.",
+    "content": "صِلْ سِتَّ كَلِمَاتٍ مِنَ الْقِصَّةِ بِمَعَانِيهَا.",
     "vocabularyPairs": [
      {
-      "word": "angel",
-      "meaning": "A being of light; it always does what Allah says.",
+      "word": "الْمَلَائِكَةَ",
+      "meaning": "خَلْقٌ مِنْ نُورٍ، يَفْعَلُونَ مَا يَأْمُرُ اللهُ دَائِمًا.",
       "partOfSpeech": "noun",
       "chapter": 1,
-      "context": "Then He told the angels about the first human."
+      "context": "ثُمَّ أَخْبَرَ اللهُ الْمَلَائِكَةَ عَنِ الْإِنْسَانِ الْأَوَّلِ."
      },
      {
-      "word": "soil",
-      "meaning": "The brown ground; plants grow in it.",
+      "word": "تُرَابًا",
+      "meaning": "الْأَرْضُ النَّاعِمَةُ؛ يَنْبُتُ فِيهَا النَّبَاتُ.",
       "partOfSpeech": "noun",
       "chapter": 1,
-      "context": "Then the angels took soil from different parts of the earth."
+      "context": "ثُمَّ أَخَذَتِ الْمَلَائِكَةُ تُرَابًا مِنْ أَمَاكِنَ مُخْتَلِفَةٍ فِي الْأَرْضِ."
      },
      {
-      "word": "careful",
-      "meaning": "Thinking before you do something.",
+      "word": "يَحْذَرَ",
+      "meaning": "يُفَكِّرُ قَبْلَ أَنْ يَفْعَلَ شَيْئًا.",
       "partOfSpeech": "adjective",
       "chapter": 3,
-      "context": "Allah told Adam to be careful."
+      "context": "أَمَرَ اللهُ آدَمَ أَنْ يَحْذَرَ، لِأَنَّ إِبْلِيسَ لَيْسَ صَدِيقَهُ."
      },
      {
-      "word": "mistake",
-      "meaning": "Something wrong that you do.",
+      "word": "خَطَأٌ",
+      "meaning": "شَيْءٌ غَيْرُ صَحِيحٍ تَفْعَلُهُ.",
       "partOfSpeech": "noun",
       "chapter": 4,
-      "context": "They knew it was a mistake."
+      "context": "لِلْأَسَفِ، يَنْسَى النَّاسُ أَحْيَانًا، وَيَفْعَلُونَ أَخْطَاءً."
      },
      {
-      "word": "honest",
-      "meaning": "Always says true things.",
+      "word": "صَادِقِينَ",
+      "meaning": "يَقُولُونَ الْحَقَّ دَائِمًا.",
       "partOfSpeech": "adjective",
       "chapter": 5,
-      "context": "Adam taught his children to be good and honest."
+      "context": "عَلَّمَ آدَمُ أَوْلَادَهُ أَنْ يَكُونُوا طَيِّبِينَ وَصَادِقِينَ، وَأَنْ يَذْكُرُوا اللهَ."
      },
      {
-      "word": "jealous",
-      "meaning": "Unhappy because someone has something good.",
+      "word": "يَحْسُدُ",
+      "meaning": "يَحْزَنُ لِأَنَّ عِنْدَ غَيْرِهِ شَيْئًا جَمِيلًا.",
       "partOfSpeech": "adjective",
       "chapter": 6,
-      "context": "But Qabil was often jealous of his brother."
+      "context": "وَكَانَ قَابِيلُ يَحْسُدُ أَخَاهُ كَثِيرًا."
      }
     ]
    },
    {
     "id": 14,
     "type": "exercises",
-    "title": "Language Review",
+    "title": "مراجعة اللغة",
     "image": "https://picsum.photos/seed/exercises-adam-a1/1200/800",
-    "content": "Review the language from all chapters.",
+    "content": "رَاجِعْ لُغَةَ الْفُصُولِ كُلِّهَا.",
     "exercises": [
      {
-      "id": "adam-a1-language-review-1",
+      "id": "adam-a1-ar-language-review-1",
       "type": "drag-drop",
-      "title": "Look: Two Kinds of Past",
-      "instructions": "Put each verb in the right group.",
-      "question": "How does each verb show the past?",
+      "title": "انْظُرْ: هُوَ، هُمَا، أَنَا",
+      "instructions": "ضَعْ كُلَّ فِعْلٍ فِي مَجْمُوعَتِهِ.",
+      "question": "مَنْ فَعَلَ؟",
       "dragDropGroups": [
        {
-        "group": "Ends in -ed",
+        "group": "هُوَ",
         "items": [
-         "worked",
-         "helped",
-         "learned",
-         "watched"
+         "خَلَقَ",
+         "أَخَذَ",
+         "غَفَرَ"
         ]
        },
        {
-        "group": "Changes",
+        "group": "هُمَا",
         "items": [
-         "made",
-         "took",
-         "ate",
-         "gave"
+         "أَكَلَا",
+         "عَمِلَا",
+         "زَرَعَا"
+        ]
+       },
+       {
+        "group": "أَنَا",
+        "items": [
+         "سَاعَدْتُ",
+         "تَعَلَّمْتُ"
         ]
        }
       ],
       "correctAnswer": {
-       "Ends in -ed": [
-        "worked",
-        "helped",
-        "learned",
-        "watched"
+       "هُوَ": [
+        "خَلَقَ",
+        "أَخَذَ",
+        "غَفَرَ"
        ],
-       "Changes": [
-        "made",
-        "took",
-        "ate",
-        "gave"
+       "هُمَا": [
+        "أَكَلَا",
+        "عَمِلَا",
+        "زَرَعَا"
+       ],
+       "أَنَا": [
+        "سَاعَدْتُ",
+        "تَعَلَّمْتُ"
        ]
       },
-      "explanation": "Many verbs add -ed: work → worked, help → helped. Some verbs change: make → made, take → took, eat → ate, give → gave.",
+      "explanation": "الماضي لـ«هُوَ»: خَلَقَ. لـ«هُمَا» نزيد ألفًا: أَكَلَا. لـ«أَنَا» نزيد «ـتُ»: سَاعَدْتُ.",
       "feedback": {
-       "correct": "Well done. You found the two kinds of past.",
-       "incorrect": "Say the verb today: work, make … Does it add -ed or change?"
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "انْظُرْ إِلَى آخِرِ الْفِعْلِ."
       }
      },
      {
-      "id": "adam-a1-language-review-2",
+      "id": "adam-a1-ar-language-review-2",
       "type": "choose-form",
-      "title": "Practise: Was or Were",
-      "instructions": "Choose was or were.",
-      "question": "One or many?",
+      "title": "تَدَرَّبْ: كَانَ، كَانَتْ، كَانَا",
+      "instructions": "اخْتَرِ الْفِعْلَ الصَّحِيحَ.",
+      "question": "وَاحِدٌ أَمْ وَاحِدَةٌ أَمِ اثْنَانِ؟",
       "formChoices": [
        {
-        "sentence": "Iblis [choice] very angry.",
+        "sentence": "[choice] إِبْلِيسُ غَاضِبًا جِدًّا.",
         "options": [
-         "was",
-         "were"
+         "كَانَ",
+         "كَانَتْ",
+         "كَانَا"
         ],
         "answer": 0
        },
        {
-        "sentence": "Adam and Eve [choice] very sad.",
+        "sentence": "[choice] الْجَنَّةُ جَمِيلَةً جِدًّا.",
         "options": [
-         "was",
-         "were"
+         "كَانَ",
+         "كَانَتْ",
+         "كَانَا"
         ],
         "answer": 1
+       },
+       {
+        "sentence": "آدَمُ وَحَوَّاءُ [choice] حَزِينَيْنِ.",
+        "options": [
+         "كَانَ",
+         "كَانَتْ",
+         "كَانَا"
+        ],
+        "answer": 2
        }
       ],
       "correctAnswer": null,
-      "explanation": "One person: was. Two or more: were.",
+      "explanation": "للمذكر: كَانَ. للمؤنث: كَانَتْ. ولاثنين قبل الفعل: آدَمُ وَحَوَّاءُ كَانَا.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Iblis = one. Adam and Eve = two."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "انْظُرْ: مَنْ فِي الْجُمْلَةِ؟"
       }
      },
      {
-      "id": "adam-a1-language-review-3",
+      "id": "adam-a1-ar-language-review-3",
       "type": "choose-form",
-      "title": "Practise: Did Not",
-      "instructions": "Choose the right form.",
-      "question": "What did Iblis not do?",
+      "title": "تَدَرَّبْ: مَا + الْمَاضِي",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "مَاذَا مَا فَعَلَ إِبْلِيسُ؟",
       "formChoices": [
        {
-        "sentence": "Iblis [choice] respect to Adam.",
+        "sentence": "إِبْلِيسُ [choice] لِآدَمَ.",
         "options": [
-         "did not show",
-         "not showed"
+         "مَا سَجَدَ",
+         "لَا سَجَدَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Iblis [choice] sorry.",
+        "sentence": "إِبْلِيسُ [choice] الْمَغْفِرَةَ.",
         "options": [
-         "did not say",
-         "did not said"
+         "مَا طَلَبَ",
+         "مَا يَطْلُبَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Did not + verb: did not show, did not say.",
+      "explanation": "للنفي في الماضي: «مَا» + الفعل الماضي: مَا سَجَدَ، مَا طَلَبَ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "After did not, the verb is like today: show, say."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "فِي الْمَاضِي: «مَا» + الْفِعْلُ الْمَاضِي."
       }
      },
      {
-      "id": "adam-a1-language-review-4",
+      "id": "adam-a1-ar-language-review-4",
       "type": "word-bank",
-      "title": "Practise: Always, Often, Never",
-      "instructions": "Fill the gaps with the words.",
-      "question": "How often?",
-      "fillBlanksText": "Iblis [blank] said sorry. Iblis [blank] thought he was right. Qabil was [blank] jealous of his brother.",
+      "title": "تَدَرَّبْ: دَائِمًا، كَثِيرًا، أَبَدًا",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "كَمْ مَرَّةً؟",
+      "fillBlanksText": "مَا طَلَبَ إِبْلِيسُ الْمَغْفِرَةَ [blank]. ظَنَّ [blank] أَنَّهُ عَلَى حَقٍّ. كَانَ قَابِيلُ يَحْسُدُ أَخَاهُ [blank].",
       "wordBank": [
-       "never",
-       "always",
-       "often",
-       "only"
+       "أَبَدًا",
+       "دَائِمًا",
+       "كَثِيرًا",
+       "فَقَطْ"
       ],
       "correctAnswer": [
-       "never",
-       "always",
-       "often"
+       "أَبَدًا",
+       "دَائِمًا",
+       "كَثِيرًا"
       ],
-      "explanation": "Always = every time. Often = many times. Never = not one time.",
+      "explanation": "«دَائِمًا» = كل مرة. «كَثِيرًا» = مرات كثيرة. «أَبَدًا» مع النفي = ولا مرة.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Find never, always and often in Chapters 4 and 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَيْنِ الرَّابِعَ وَالسَّادِسَ."
       }
      },
      {
-      "id": "adam-a1-language-review-5",
+      "id": "adam-a1-ar-language-review-5",
       "type": "error-correction",
-      "title": "Practise: Fix One Word",
-      "instructions": "Find the wrong word. Write the right word.",
-      "question": "Can you fix the verb?",
+      "title": "تَدَرَّبْ: صَحِّحْ كَلِمَةً وَاحِدَةً",
+      "instructions": "ابْحَثْ عَنِ الْكَلِمَةِ الْخَطَأِ وَصَحِّحْهَا.",
+      "question": "أَيُّ فِعْلٍ خَطَأٌ؟",
       "errorItems": [
        {
-        "sentence": "Allah maked Adam from soil.",
-        "error": "maked",
+        "sentence": "آدَمُ وَحَوَّاءُ أَكَلَ مِنَ الشَّجَرَةِ.",
+        "error": "أَكَلَ",
         "options": [
-         "made",
-         "make",
-         "makes"
+         "أَكَلَا",
+         "يَأْكُلُ",
+         "كُلْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Qabil growed food on his farm.",
-        "error": "growed",
+        "sentence": "أَمْسِ يَزْرَعُ قَابِيلُ الطَّعَامَ فِي أَرْضِهِ.",
+        "error": "يَزْرَعُ",
         "options": [
-         "grow",
-         "grew",
-         "grows"
+         "ازْرَعْ",
+         "زَرَعَ",
+         "يَزْرَعَانِ"
         ],
         "answer": 1
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Make” and “grow” change in the past: made, grew.",
+      "explanation": "إذا جاء «آدَمُ وَحَوَّاءُ» قبل الفعل نقول: أَكَلَا. و«أَمْسِ» تحتاج الماضي: زَرَعَ.",
       "feedback": {
-       "correct": "Well done.",
-       "incorrect": "Make → made. Grow → grew. They do not take -ed."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "انْظُرْ: مَنْ فَعَلَ؟ وَمَتَى؟"
       }
      },
      {
-      "id": "adam-a1-language-review-6",
+      "id": "adam-a1-ar-language-review-6",
       "type": "reflection",
-      "title": "Use: A Good Day",
-      "instructions": "Write three sentences about a good day.",
-      "question": "What did you do on a good day?",
+      "title": "اسْتَعْمِلْ: يَوْمٌ جَمِيلٌ",
+      "instructions": "اكْتُبْ ثَلَاثَ جُمَلٍ عَنْ يَوْمٍ جَمِيلٍ.",
+      "question": "مَاذَا فَعَلْتَ فِي يَوْمٍ جَمِيلٍ؟",
       "correctAnswer": null,
-      "explanation": "Use one past verb, one because and one “Be …” sentence.",
+      "explanation": "استعمل فعلًا ماضيًا، و«لِأَنَّ»، وجملة بـ«كُنْ».",
       "feedback": {
-       "correct": "Write three short sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "One past verb: “I helped …”",
+        "question": "فِعْلٌ مَاضٍ: «سَاعَدْتُ …»",
         "mode": "Individual",
-        "example": "I helped my father."
+        "example": "سَاعَدْتُ أَبِي."
        },
        {
-        "question": "One “because”: “I was happy because …”",
+        "question": "«لِأَنَّ»: «كُنْتُ سَعِيدًا لِأَنَّ …»",
         "mode": "Individual",
-        "example": "I was happy because my friend came."
+        "example": "كُنْتُ سَعِيدًا لِأَنَّ صَدِيقِي جَاءَ."
        },
        {
-        "question": "One “Be …”: a message for you",
+        "question": "«كُنْ …»: رِسَالَةٌ لَكَ",
         "mode": "Individual",
-        "example": "Be kind."
+        "example": "كُنْ طَيِّبًا."
        }
       ]
      }
@@ -2097,163 +2079,165 @@
    {
     "id": 15,
     "type": "final-challenge",
-    "title": "Final Challenge",
+    "title": "التحدي النهائي",
     "image": "https://picsum.photos/seed/challenge-adam-a1/1200/800",
-    "content": "Bring the whole story together in the Final Challenge.",
+    "content": "أظهر ما تعلمته من القصة كلها عبر عشرة أنشطة مختلفة قابلة للتقييم.",
     "exercises": [
      {
-      "id": "adam-a1-final-1",
-      "type": "fill-blanks",
-      "title": "The Father of All People",
-      "instructions": "Complete the sentence with one word: father, brother or son.",
-      "question": "Who is Adam for all people?",
-      "fillBlanksText": "Adam is the [blank] of all people.",
-      "correctAnswer": [
-       "father"
-      ],
-      "explanation": "Chapter 1: “Adam is the father of all people.”",
-      "feedback": {
-       "correct": "Yes. Adam is the father of all people.",
-       "incorrect": "Read the second paragraph of Chapter 1."
-      }
-     },
-     {
-      "id": "adam-a1-final-2",
+      "id": "adam-a1-ar-final-1",
       "type": "multiple-choice",
-      "title": "Names",
-      "instructions": "Choose the answer.",
-      "question": "What did Allah teach Adam?",
+      "title": "أَبُو كُلِّ النَّاسِ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَنْ آدَمُ لِكُلِّ النَّاسِ؟",
       "options": [
-       "the names of many things",
-       "how to make fire",
-       "how to make a house"
+       "أَبُوهُمْ",
+       "أَخُوهُمْ",
+       "ابْنُهُمْ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: “Allah taught him the names of many things.”",
+      "explanation": "الفصل الأول: «آدَمُ أَبُو كُلِّ النَّاسِ. كُلُّنَا أَوْلَادُهُ».",
       "feedback": {
-       "correct": "Yes. The names of many things.",
-       "incorrect": "Read the first paragraph of Chapter 2."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأْ آخِرَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "adam-a1-final-3",
+      "id": "adam-a1-ar-final-2",
+      "type": "multiple-choice",
+      "title": "الْأَسْمَاءُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا عَلَّمَ اللهُ آدَمَ؟",
+      "options": [
+       "أَسْمَاءَ أَشْيَاءَ كَثِيرَةٍ",
+       "كَيْفَ يَصْنَعُ النَّارَ",
+       "كَيْفَ يَبْنِي بَيْتًا"
+      ],
+      "correctAnswer": 0,
+      "explanation": "الفصل الثاني: «عَلَّمَهُ اللهُ أَسْمَاءَ أَشْيَاءَ كَثِيرَةٍ».",
+      "feedback": {
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ الثَّانِي."
+      }
+     },
+     {
+      "id": "adam-a1-ar-final-3",
       "type": "true-false",
-      "title": "Eve",
-      "instructions": "Is it true or false?",
-      "question": "Eve (Hawwa) was Adam’s wife.",
+      "title": "حَوَّاءُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "حَوَّاءُ زَوْجَةُ آدَمَ.",
       "correctAnswer": true,
-      "explanation": "Chapter 3: “Allah gave him a wife. Her name was Eve (Hawwa).”",
+      "explanation": "الفصل الثالث: «ثُمَّ أَعْطَاهُ اللهُ زَوْجَةً، اسْمُهَا حَوَّاءُ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "adam-a1-final-4",
+      "id": "adam-a1-ar-final-4",
       "type": "multiple-choice",
-      "title": "A Big Lie",
-      "instructions": "Choose the answer.",
-      "question": "What was Iblis’s lie?",
+      "title": "كَذِبٌ كَبِيرٌ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَا كَذِبُ إِبْلِيسَ؟",
       "options": [
-       "“Eat from that tree, and you will never die.”",
-       "“Do not go near this tree.”",
-       "“Be careful.”"
+       "«كُلَا مِنْ تِلْكَ الشَّجَرَةِ، فَلَا تَمُوتَانِ أَبَدًا.»",
+       "«لَا تَقْرَبَا هَذِهِ الشَّجَرَةَ.»",
+       "«احْذَرْ.»"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 4: Iblis said, “Eat from that tree, and you will never die.” It was a big lie.",
+      "explanation": "الفصل الرابع: قال إبليس: «كُلَا مِنْ تِلْكَ الشَّجَرَةِ، فَلَا تَمُوتَانِ أَبَدًا». كان هذا كذبًا كبيرًا.",
       "feedback": {
-       "correct": "Yes. That was the lie.",
-       "incorrect": "Read the first paragraph of Chapter 4."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "adam-a1-final-5",
+      "id": "adam-a1-ar-final-5",
       "type": "matching",
-      "title": "Who Is It?",
-      "instructions": "Match the name with the sentence.",
-      "question": "Who is it?",
+      "title": "مَنْ هُوَ؟",
+      "instructions": "صِلِ الِاسْمَ بِالْجُمْلَةِ.",
+      "question": "مَنْ هُوَ؟",
       "matchingHeadings": {
-       "left": "Name",
-       "right": "Sentence"
+       "left": "الِاسْمُ",
+       "right": "الْجُمْلَةُ"
       },
       "matchingPairs": [
        {
-        "left": "Eve",
-        "right": "Adam’s wife"
+        "left": "حَوَّاءُ",
+        "right": "زَوْجَةُ آدَمَ"
        },
        {
-        "left": "Habil",
-        "right": "a kind and gentle son"
+        "left": "هَابِيلُ",
+        "right": "ابْنٌ طَيِّبٌ وَلَطِيفٌ"
        },
        {
-        "left": "Iblis",
-        "right": "He never said sorry."
+        "left": "إِبْلِيسُ",
+        "right": "مَا طَلَبَ الْمَغْفِرَةَ أَبَدًا."
        }
       ],
       "correctAnswer": {
-       "Eve": "Adam’s wife",
-       "Habil": "a kind and gentle son",
-       "Iblis": "He never said sorry."
+       "حَوَّاءُ": "زَوْجَةُ آدَمَ",
+       "هَابِيلُ": "ابْنٌ طَيِّبٌ وَلَطِيفٌ",
+       "إِبْلِيسُ": "مَا طَلَبَ الْمَغْفِرَةَ أَبَدًا."
       },
-      "explanation": "Chapter 3: Eve was Adam’s wife. Chapter 6: “Habil was kind and gentle.” Chapter 4: Iblis “never said sorry”.",
+      "explanation": "الفصل الثالث: حواء زوجة آدم. الفصل السادس: «كَانَ هَابِيلُ طَيِّبًا وَلَطِيفًا». الفصل الرابع: إبليس «مَا طَلَبَ الْمَغْفِرَةَ أَبَدًا».",
       "feedback": {
-       "correct": "Good. You matched all three.",
-       "incorrect": "Read Chapters 3, 4 and 6 again."
+       "correct": "أَحْسَنْتَ. وَصَلْتَ الثَّلَاثَةَ.",
+       "incorrect": "اقْرَأِ الْفُصُولَ ٣ وَ٤ وَ٦."
       }
      },
      {
-      "id": "adam-a1-final-6",
+      "id": "adam-a1-ar-final-6",
       "type": "true-false",
-      "title": "Life on Earth",
-      "instructions": "Is it true or false?",
-      "question": "Adam and Eve grew food on farms.",
+      "title": "الْحَيَاةُ عَلَى الْأَرْضِ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "زَرَعَ آدَمُ وَحَوَّاءُ الطَّعَامَ فِي الْأَرْضِ.",
       "correctAnswer": true,
-      "explanation": "Chapter 5: “They worked on farms and grew food.”",
+      "explanation": "الفصل الخامس: «عَمِلَا فِي الْأَرْضِ، وَزَرَعَا الطَّعَامَ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the first paragraph of Chapter 5."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "adam-a1-final-7",
+      "id": "adam-a1-ar-final-7",
       "type": "multiple-choice",
-      "title": "Habil’s Words",
-      "instructions": "Choose the answer.",
-      "question": "What did Habil say to Qabil?",
+      "title": "كَلَامُ هَابِيلَ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا قَالَ هَابِيلُ لِقَابِيلَ؟",
       "options": [
-       "“I will not hurt you.”",
-       "“This is your end.”",
-       "“I am better than you.”"
+       "«أَنَا لَا أُؤْذِيكَ.»",
+       "«هَذِهِ نِهَايَتُكَ.»",
+       "«أَنَا خَيْرٌ مِنْكَ.»"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 6: Habil said, “I will not hurt you. You are my brother, and I fear Allah.”",
+      "explanation": "الفصل السادس: قال هابيل: «أَنَا لَا أُؤْذِيكَ. أَنْتَ أَخِي، وَأَنَا أَخَافُ اللهَ».",
       "feedback": {
-       "correct": "Yes. Habil did not want to hurt his brother.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأْ آخِرَ الْفَصْلِ السَّادِسِ."
       }
      },
      {
-      "id": "adam-a1-final-8",
+      "id": "adam-a1-ar-final-8",
       "type": "sequencing",
-      "title": "The Story of Adam",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "قِصَّةُ آدَمَ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Allah made Adam from soil."
+        "text": "خَلَقَ اللهُ آدَمَ مِنْ تُرَابٍ."
        },
        {
         "id": "2",
-        "text": "Adam and Eve lived in Paradise."
+        "text": "سَكَنَ آدَمُ وَحَوَّاءُ فِي الْجَنَّةِ."
        },
        {
         "id": "3",
-        "text": "Adam and Eve went to the earth."
+        "text": "أَنْزَلَ اللهُ آدَمَ وَحَوَّاءَ إِلَى الْأَرْضِ."
        },
        {
         "id": "4",
-        "text": "Adam’s children took his message to the world."
+        "text": "حَمَلَ أَوْلَادُ آدَمَ رِسَالَتَهُ إِلَى الْعَالَمِ."
        }
       ],
       "correctAnswer": [
@@ -2262,10 +2246,10 @@
        "3",
        "4"
       ],
-      "explanation": "Soil (Chapter 1) → Paradise (Chapter 3) → the earth (Chapter 5) → the message (Chapter 8).",
+      "explanation": "التراب (الفصل ١) ← الجنة (الفصل ٣) ← الأرض (الفصل ٥) ← الرسالة (الفصل ٨).",
       "feedback": {
-       "correct": "Great! You know the story of Adam.",
-       "incorrect": "Think about the order of the chapters."
+       "correct": "رَائِعٌ! أَنْتَ تَعْرِفُ قِصَّةَ آدَمَ.",
+       "incorrect": "فَكِّرْ فِي تَرْتِيبِ الْفُصُولِ."
       }
      }
     ]

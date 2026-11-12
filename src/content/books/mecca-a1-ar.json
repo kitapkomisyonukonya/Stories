@@ -6,40 +6,40 @@
  "collection": "history",
  "book": {
   "id": "mecca-a1-ar",
-  "title": "Bilal ibn Rabah and Mecca (A1)",
+  "title": "بلال بن رباح ومكة (A1)",
   "level": "A1",
-  "baseFontSize": 13,
+  "baseFontSize": 14,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "Bilal ibn Rabah",
+    "title": "بِلَالُ بْنُ رَبَاحٍ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/mecca%2Fa2%2Fimages%2Fmecca_a2_ch1.png?alt=media&token=20e4bbdd-4474-4c82-aa54-3ff1cef617d1",
-    "content": "Bilal ibn Rabah was born in Mecca. He was a black slave. His mother and father were slaves, too. His mother was from Ethiopia.\n\nPeople in Mecca thought Bilal was not important. But Islam made him a free and great man. He was one of the first Muslims in Mecca. He stayed with Prophet Muhammad (pbuh) all his life. He also gave the first Adhan. The Adhan tells people it is time for prayer.\n\nHis story teaches us a lesson. The color of your skin does not make you better than other people.",
+    "content": "وُلِدَ بِلَالُ بْنُ رَبَاحٍ فِي مَكَّةَ. كَانَ عَبْدًا أَسْوَدَ. وَكَانَتْ أُمُّهُ وَأَبُوهُ عَبْدَيْنِ أَيْضًا. وَكَانَتْ أُمُّهُ مِنَ الْحَبَشَةِ.\n\nظَنَّ النَّاسُ فِي مَكَّةَ أَنَّ بِلَالًا لَيْسَ مُهِمًّا. لَكِنَّ الْإِسْلَامَ جَعَلَهُ رَجُلًا حُرًّا عَظِيمًا. كَانَ مِنْ أَوَّلِ الْمُسْلِمِينَ فِي مَكَّةَ. بَقِيَ مَعَ النَّبِيِّ مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ طُولَ حَيَاتِهِ. وَرَفَعَ أَيْضًا أَوَّلَ أَذَانٍ. الْأَذَانُ يُخْبِرُ النَّاسَ أَنَّ وَقْتَ الصَّلَاةِ جَاءَ.\n\nتُعَلِّمُنَا قِصَّتُهُ دَرْسًا: لَوْنُكَ لَا يَجْعَلُكَ أَحْسَنَ مِنَ النَّاسِ الْآخَرِينَ.",
     "vocabulary": [
      {
-      "word": "Mecca",
+      "word": "مَكَّةَ",
       "definition": "__historical_entity__:mecca-a1-mecca-7th-century"
      },
      {
-      "word": "Ethiopia",
+      "word": "الْحَبَشَةِ",
       "definition": "__historical_entity__:mecca-a1-abyssinia"
      },
      {
-      "word": "slave",
-      "definition": "A person who works for no money and is not free."
+      "word": "عَبْدًا",
+      "definition": "إِنْسَانٌ لَيْسَ حُرًّا، يَعْمَلُ بِلَا مَالٍ."
      },
      {
-      "word": "free",
-      "definition": "Not a slave; you can do what you want."
+      "word": "حُرًّا",
+      "definition": "لَيْسَ عَبْدًا؛ يَفْعَلُ مَا يُرِيدُ."
      },
      {
-      "word": "Adhan",
-      "definition": "The call to prayer."
+      "word": "أَذَانٍ",
+      "definition": "النِّدَاءُ إِلَى الصَّلَاةِ."
      },
      {
-      "word": "prayer",
-      "definition": "Talking to Allah; salah."
+      "word": "الصَّلَاةِ",
+      "definition": "عِبَادَةٌ نُكَلِّمُ فِيهَا اللهَ."
      }
     ],
     "hotspots": [
@@ -47,187 +47,179 @@
       "id": "h1-1",
       "x": 35,
       "y": 46,
-      "title": "A Slave in Mecca",
-      "description": "Bilal was born in Mecca. He was a black slave."
+      "title": "عَبْدٌ فِي مَكَّةَ",
+      "description": "وُلِدَ بِلَالٌ فِي مَكَّةَ. كَانَ عَبْدًا أَسْوَدَ."
      },
      {
       "id": "h1-2",
       "x": 68,
       "y": 50,
-      "title": "The First Adhan",
-      "description": "Bilal gave the first Adhan. The Adhan tells people it is time for prayer."
+      "title": "الْأَذَانُ الْأَوَّلُ",
+      "description": "رَفَعَ بِلَالٌ أَوَّلَ أَذَانٍ. الْأَذَانُ يُخْبِرُ النَّاسَ أَنَّ وَقْتَ الصَّلَاةِ جَاءَ."
      }
     ],
     "exercises": [
      {
-      "id": "mecca-a1-quick-1",
+      "id": "mecca-a1-ar-quick-1",
       "type": "drag-drop",
-      "title": "Who Was Bilal?",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 1?",
+      "title": "مَنْ كَانَ بِلَالٌ؟",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الْأَوَّلِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "Bilal was born in Mecca.",
-         "Bilal was one of the first Muslims."
+         "وُلِدَ بِلَالٌ فِي مَكَّةَ.",
+         "كَانَ بِلَالٌ مِنْ أَوَّلِ الْمُسْلِمِينَ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "Bilal’s mother was from Mecca."
+         "كَانَتْ أُمُّ بِلَالٍ مِنْ مَكَّةَ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "Bilal was born in Mecca.",
-        "Bilal was one of the first Muslims."
+       "صَحِيحٌ": [
+        "وُلِدَ بِلَالٌ فِي مَكَّةَ.",
+        "كَانَ بِلَالٌ مِنْ أَوَّلِ الْمُسْلِمِينَ."
        ],
-       "False": [
-        "Bilal’s mother was from Mecca."
+       "خَطَأٌ": [
+        "كَانَتْ أُمُّ بِلَالٍ مِنْ مَكَّةَ."
        ]
       },
-      "explanation": "Chapter 1 says: “Bilal ibn Rabah was born in Mecca.” “His mother was from Ethiopia.” “He was one of the first Muslims in Mecca.”",
+      "explanation": "يقول الفصل الأول: «وُلِدَ بِلَالُ بْنُ رَبَاحٍ فِي مَكَّةَ»، «كَانَ مِنْ أَوَّلِ الْمُسْلِمِينَ»، «وَكَانَتْ أُمُّهُ مِنَ الْحَبَشَةِ».",
       "feedback": {
-       "correct": "Yes! His mother was from Ethiopia.",
-       "incorrect": "Read the first paragraph of Chapter 1 again."
+       "correct": "أَحْسَنْتَ! كَانَتْ أُمُّهُ مِنَ الْحَبَشَةِ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الْأَوَّلَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "mecca-a1-language-1-born",
+      "id": "mecca-a1-ar-language-1-born",
       "type": "multiple-choice",
-      "title": "Look: Was Born",
-      "instructions": "Choose the right answer.",
-      "question": "“Bilal ibn Rabah was born in Mecca.” What does this tell us?",
+      "title": "انْظُرْ: وُلِدَ فِي",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«وُلِدَ بِلَالُ بْنُ رَبَاحٍ فِي مَكَّةَ.» مَاذَا تَقُولُ لَنَا هَذِهِ الْجُمْلَةُ؟",
       "options": [
-       "where he was born",
-       "where he worked",
-       "where he died"
+       "أَيْنَ وُلِدَ",
+       "أَيْنَ عَمِلَ",
+       "أَيْنَ مَاتَ"
       ],
       "correctAnswer": 0,
-      "explanation": "We say was born + in + place: I was born in Konya.",
+      "explanation": "«وُلِدَ فِي» + مكان تقول أين بدأت حياة الإنسان: وُلِدَ بِلَالٌ فِي مَكَّةَ.",
       "feedback": {
-       "correct": "Yes. He was born in Mecca.",
-       "incorrect": "Read the first sentence of Chapter 1 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْجُمْلَةَ الْأُولَى مِنَ الْفَصْلِ."
       }
      },
      {
-      "id": "mecca-a1-language-1-practise",
+      "id": "mecca-a1-ar-language-1-practise",
       "type": "choose-form",
-      "title": "Practise: Was or Were",
-      "instructions": "Choose was or were.",
-      "question": "One or many?",
+      "title": "تَدَرَّبْ: كَانَ أَمْ كَانَتْ؟",
+      "instructions": "اخْتَرْ كَانَ أَوْ كَانَتْ.",
+      "question": "وَلَدٌ أَمْ بِنْتٌ؟",
       "formChoices": [
        {
-        "sentence": "Bilal [choice] a black slave.",
+        "sentence": "[choice] بِلَالٌ عَبْدًا أَسْوَدَ.",
         "options": [
-         "was",
-         "were"
+         "كَانَ",
+         "كَانَتْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "His mother and father [choice] slaves, too.",
+        "sentence": "[choice] أُمُّهُ مِنَ الْحَبَشَةِ.",
         "options": [
-         "was",
-         "were"
+         "كَانَ",
+         "كَانَتْ"
         ],
         "answer": 1
-       },
-       {
-        "sentence": "His mother [choice] from Ethiopia.",
-        "options": [
-         "was",
-         "were"
-        ],
-        "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "One person: was. Two or more people: were.",
+      "explanation": "مع المذكر نقول «كَانَ»: كَانَ بِلَالٌ. ومع المؤنث «كَانَتْ»: كَانَتْ أُمُّهُ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Bilal = one. His mother and father = two."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "بِلَالٌ رَجُلٌ. أُمُّهُ امْرَأَةٌ."
       }
      },
      {
-      "id": "mecca-a1-language-1-say-it",
+      "id": "mecca-a1-ar-language-1-say-it",
       "type": "reflection",
-      "title": "Say It: About Me",
-      "instructions": "Tell your partner about you.",
-      "question": "Where were you born?",
+      "title": "قُلْهَا: عَنِّي",
+      "instructions": "قُلْ لِزَمِيلِكَ عَنْ نَفْسِكَ.",
+      "question": "أَيْنَ وُلِدْتَ؟",
       "correctAnswer": null,
-      "explanation": "Use I was born in … and is from …",
+      "explanation": "عن نفسك تقول «وُلِدْتُ»، وتسأل زميلك: «أَيْنَ وُلِدْتَ؟».",
       "feedback": {
-       "correct": "Say two sentences and ask one question.",
+       "correct": "قُلْ جُمْلَتَيْنِ، ثُمَّ اسْأَلْ زَمِيلَكَ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I was born in …”",
+        "question": "«وُلِدْتُ فِي …»",
         "mode": "Pair",
-        "example": "I was born in Konya."
+        "example": "وُلِدْتُ فِي قُونِيَةَ."
        },
        {
-        "question": "“My mother is from …”",
+        "question": "«أُمِّي مِنْ …»",
         "mode": "Pair",
-        "example": "My mother is from Ankara."
+        "example": "أُمِّي مِنْ أَنْقَرَةَ."
        },
        {
-        "question": "“Where were you born?”",
+        "question": "«أَيْنَ وُلِدْتَ؟»",
         "mode": "Pair",
-        "example": "Where were you born?"
+        "example": "أَيْنَ وُلِدْتَ؟"
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Bilal give for the first time?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا فَعَلَ بِلَالٌ أَوَّلَ مَرَّةٍ فِي التَّارِيخِ؟",
      "options": [
-      "the Adhan",
-      "a speech",
-      "a book"
+      "رَفَعَ الْأَذَانَ",
+      "كَتَبَ كِتَابًا",
+      "بَنَى مَسْجِدًا"
      ],
      "answer": 0,
-     "quote": "He also gave the first Adhan."
+     "quote": "وَرَفَعَ أَيْضًا أَوَّلَ أَذَانٍ."
     },
     "iCan": [
-     "I can say who Bilal was.",
-     "I can use was born.",
-     "I can say where I was born."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَنْ كَانَ بِلَالٌ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «وُلِدَ فِي».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ أَيْنَ وُلِدْتُ."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "Life in Old Mecca",
+    "title": "الْحَيَاةُ فِي مَكَّةَ الْقَدِيمَةِ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/mecca%2Fa2%2Fimages%2Fmecca_a2_ch2.png?alt=media&token=9b4da4cd-2f99-4e5e-b0f3-5a7d27d3bd72",
-    "content": "Before Islam, many people in Mecca did not believe in one Allah. They prayed to idols.\n\nLife was not fair. Rich people had a lot of money. They ate from gold plates and drank from beautiful cups. Poor people had very little. Their life was very hard.\n\nMecca had big slave markets. People bought and sold slaves there. Bilal was one of these slaves. His master was Umayya ibn Khalaf. Umayya was rich and strong. He loved his idols, and he hated Islam.",
+    "content": "قَبْلَ الْإِسْلَامِ، مَا آمَنَ نَاسٌ كَثِيرُونَ فِي مَكَّةَ بِاللهِ الْوَاحِدِ. عَبَدُوا الْأَصْنَامَ.\n\nمَا كَانَتِ الْحَيَاةُ عَادِلَةً. كَانَ عِنْدَ النَّاسِ الْأَغْنِيَاءِ مَالٌ كَثِيرٌ. أَكَلُوا فِي صُحُونٍ مِنْ ذَهَبٍ، وَشَرِبُوا فِي كُؤُوسٍ جَمِيلَةٍ. وَكَانَ عِنْدَ النَّاسِ الْفُقَرَاءِ شَيْءٌ قَلِيلٌ. كَانَتْ حَيَاتُهُمْ صَعْبَةً جِدًّا.\n\nكَانَتْ فِي مَكَّةَ أَسْوَاقٌ كَبِيرَةٌ لِلْعَبِيدِ. بَاعَ النَّاسُ الْعَبِيدَ هُنَاكَ وَاشْتَرَوْهُمْ. كَانَ بِلَالٌ وَاحِدًا مِنْ هَؤُلَاءِ الْعَبِيدِ. وَكَانَ سَيِّدُهُ أُمَيَّةَ بْنَ خَلَفٍ. كَانَ أُمَيَّةُ غَنِيًّا وَقَوِيًّا. أَحَبَّ أَصْنَامَهُ، وَكَرِهَ الْإِسْلَامَ.",
     "vocabulary": [
      {
-      "word": "idol",
-      "definition": "A stone or wood thing people pray to."
+      "word": "الْأَصْنَامَ",
+      "definition": "الصَّنَمُ: شَيْءٌ مِنْ حَجَرٍ أَوْ خَشَبٍ يَعْبُدُهُ النَّاسُ."
      },
      {
-      "word": "fair",
-      "definition": "Right and good for everyone."
+      "word": "عَادِلَةً",
+      "definition": "صَحِيحَةٌ وَطَيِّبَةٌ لِكُلِّ النَّاسِ."
      },
      {
-      "word": "rich",
-      "definition": "With a lot of money or good things."
+      "word": "الْأَغْنِيَاءِ",
+      "definition": "الْغَنِيُّ: عِنْدَهُ مَالٌ كَثِيرٌ أَوْ خَيْرٌ كَثِيرٌ."
      },
      {
-      "word": "gold",
-      "definition": "A yellow, very expensive metal."
+      "word": "ذَهَبٍ",
+      "definition": "مَعْدِنٌ أَصْفَرُ، غَالٍ جِدًّا."
      },
      {
-      "word": "master",
-      "definition": "The man who owns a slave."
+      "word": "سَيِّدُهُ",
+      "definition": "الرَّجُلُ الَّذِي يَمْلِكُ الْعَبْدَ."
      }
     ],
     "hotspots": [
@@ -235,175 +227,175 @@
       "id": "h2-1",
       "x": 35,
       "y": 46,
-      "title": "Rich People",
-      "description": "Rich people had a lot of money. They ate from gold plates."
+      "title": "الْأَغْنِيَاءُ",
+      "description": "كَانَ عِنْدَ الْأَغْنِيَاءِ مَالٌ كَثِيرٌ. أَكَلُوا فِي صُحُونٍ مِنْ ذَهَبٍ."
      },
      {
       "id": "h2-2",
       "x": 68,
       "y": 50,
-      "title": "Poor People",
-      "description": "Poor people had very little. Their life was very hard."
+      "title": "الْفُقَرَاءُ",
+      "description": "كَانَ عِنْدَ الْفُقَرَاءِ شَيْءٌ قَلِيلٌ. كَانَتْ حَيَاتُهُمْ صَعْبَةً جِدًّا."
      }
     ],
     "exercises": [
      {
-      "id": "mecca-a1-quick-2",
+      "id": "mecca-a1-ar-quick-2",
       "type": "multiple-choice",
-      "title": "Life in Old Mecca",
-      "instructions": "Choose the best answer.",
-      "question": "Who was Bilal’s master?",
+      "title": "الْحَيَاةُ فِي مَكَّةَ الْقَدِيمَةِ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "مَنْ كَانَ سَيِّدَ بِلَالٍ؟",
       "options": [
-       "Umayya ibn Khalaf",
-       "Abu Bakr",
-       "Rabah"
+       "أُمَيَّةُ بْنُ خَلَفٍ",
+       "أَبُو بَكْرٍ",
+       "رَبَاحٌ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: “His master was Umayya ibn Khalaf.”",
+      "explanation": "الفصل الثاني: «وَكَانَ سَيِّدُهُ أُمَيَّةَ بْنَ خَلَفٍ».",
       "feedback": {
-       "correct": "Yes! Umayya was his master.",
-       "incorrect": "Read the last paragraph of Chapter 2 again."
+       "correct": "نَعَمْ. كَانَ أُمَيَّةُ سَيِّدَهُ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّالِثَةَ مِنَ الْفَصْلِ الثَّانِي."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "mecca-a1-language-2-rich-poor",
+      "id": "mecca-a1-ar-language-2-rich-poor",
       "type": "drag-drop",
-      "title": "Look: Rich and Poor",
-      "instructions": "Put each sentence in the right group.",
-      "question": "Who had what?",
+      "title": "انْظُرْ: الْأَغْنِيَاءُ وَالْفُقَرَاءُ",
+      "instructions": "ضَعْ كُلَّ جُمْلَةٍ فِي مَجْمُوعَتِهَا.",
+      "question": "مَنْ كَانَ عِنْدَهُ مَاذَا؟",
       "dragDropGroups": [
        {
-        "group": "Rich people",
+        "group": "الْأَغْنِيَاءُ",
         "items": [
-         "had a lot of money.",
-         "ate from gold plates."
+         "كَانَ عِنْدَهُمْ مَالٌ كَثِيرٌ.",
+         "أَكَلُوا فِي صُحُونٍ مِنْ ذَهَبٍ."
         ]
        },
        {
-        "group": "Poor people",
+        "group": "الْفُقَرَاءُ",
         "items": [
-         "had very little.",
-         "had a very hard life."
+         "كَانَ عِنْدَهُمْ شَيْءٌ قَلِيلٌ.",
+         "كَانَتْ حَيَاتُهُمْ صَعْبَةً جِدًّا."
         ]
        }
       ],
       "correctAnswer": {
-       "Rich people": [
-        "had a lot of money.",
-        "ate from gold plates."
+       "الْأَغْنِيَاءُ": [
+        "كَانَ عِنْدَهُمْ مَالٌ كَثِيرٌ.",
+        "أَكَلُوا فِي صُحُونٍ مِنْ ذَهَبٍ."
        ],
-       "Poor people": [
-        "had very little.",
-        "had a very hard life."
+       "الْفُقَرَاءُ": [
+        "كَانَ عِنْدَهُمْ شَيْءٌ قَلِيلٌ.",
+        "كَانَتْ حَيَاتُهُمْ صَعْبَةً جِدًّا."
        ]
       },
-      "explanation": "Rich and poor are opposites. Had is the past of have.",
+      "explanation": "«غَنِيٌّ» عكس «فَقِيرٌ». ونقول «كَانَ عِنْدَ …» لما يملكه الإنسان: «كَانَ عِنْدَ النَّاسِ الْأَغْنِيَاءِ مَالٌ كَثِيرٌ».",
       "feedback": {
-       "correct": "Good. Life was not fair.",
-       "incorrect": "Read the second paragraph of Chapter 2 again."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "mecca-a1-language-2-practise",
+      "id": "mecca-a1-ar-language-2-practise",
       "type": "word-bank",
-      "title": "Practise: Umayya",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What was Umayya like?",
-      "fillBlanksText": "Umayya was [blank] and strong. He [blank] his idols, and he [blank] Islam.",
+      "title": "تَدَرَّبْ: أُمَيَّةُ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "كَيْفَ كَانَ أُمَيَّةُ؟",
+      "fillBlanksText": "كَانَ أُمَيَّةُ [blank] وَقَوِيًّا. [blank] أَصْنَامَهُ. [blank] الْإِسْلَامَ.",
       "wordBank": [
-       "rich",
-       "loved",
-       "hated",
-       "poor",
-       "loves"
+       "غَنِيًّا",
+       "أَحَبَّ",
+       "كَرِهَ",
+       "فَقِيرًا",
+       "يُحِبُّ"
       ],
       "correctAnswer": [
-       "rich",
-       "loved",
-       "hated"
+       "غَنِيًّا",
+       "أَحَبَّ",
+       "كَرِهَ"
       ],
-      "explanation": "Chapter 2: “Umayya was rich and strong. He loved his idols, and he hated Islam.”",
+      "explanation": "في الفصل: «كَانَ أُمَيَّةُ غَنِيًّا وَقَوِيًّا. أَحَبَّ أَصْنَامَهُ، وَكَرِهَ الْإِسْلَامَ». بعد «كَانَ» تأتي الصفة بالفتحة: غَنِيًّا.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the last two sentences of Chapter 2."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْجُمْلَتَيْنِ الْأَخِيرَتَيْنِ مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "mecca-a1-language-2-say-it",
+      "id": "mecca-a1-ar-language-2-say-it",
       "type": "reflection",
-      "title": "Say It: Fair or Not Fair?",
-      "instructions": "Say if it is fair or not fair.",
-      "question": "Is it fair?",
+      "title": "قُلْهَا: عَادِلٌ أَمْ لَيْسَ عَادِلًا؟",
+      "instructions": "قُلْ: هَلْ هَذَا عَادِلٌ؟",
+      "question": "هَلْ هَذَا عَادِلٌ؟",
       "correctAnswer": null,
-      "explanation": "Use It is fair. / It is not fair.",
+      "explanation": "نقول «هَذَا عَادِلٌ» أو «هَذَا لَيْسَ عَادِلًا». في الفصل: «مَا كَانَتِ الْحَيَاةُ عَادِلَةً».",
       "feedback": {
-       "correct": "Say three sentences.",
+       "correct": "قُلْ رَأْيَكَ فِي كُلِّ جُمْلَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Some children have food, and some have no food.”",
+        "question": "«بَعْضُ الْأَطْفَالِ عِنْدَهُمْ طَعَامٌ، وَبَعْضُهُمْ لَيْسَ عِنْدَهُمْ طَعَامٌ.»",
         "mode": "Pair",
-        "example": "It is not fair."
+        "example": "هَذَا لَيْسَ عَادِلًا."
        },
        {
-        "question": "“Everyone gets a piece of cake.”",
+        "question": "«كُلُّ وَاحِدٍ يَأْخُذُ قِطْعَةً مِنَ الْكَعْكَةِ.»",
         "mode": "Pair",
-        "example": "It is fair."
+        "example": "هَذَا عَادِلٌ."
        },
        {
-        "question": "“It is fair when …”",
+        "question": "«يَكُونُ الْأَمْرُ عَادِلًا عِنْدَمَا …»",
         "mode": "Individual",
-        "example": "It is fair when everyone plays."
+        "example": "يَكُونُ الْأَمْرُ عَادِلًا عِنْدَمَا يَلْعَبُ الْجَمِيعُ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "picture",
-     "question": "Look at the picture. What did rich people eat from?",
+     "question": "انْظُرْ إِلَى الصُّورَةِ. فِي أَيِّ شَيْءٍ أَكَلَ الْأَغْنِيَاءُ؟",
      "options": [
-      "gold plates",
-      "small plates",
-      "their hands"
+      "فِي صُحُونٍ مِنْ ذَهَبٍ",
+      "فِي صُحُونٍ صَغِيرَةٍ",
+      "بِأَيْدِيهِمْ"
      ],
      "answer": 0,
-     "quote": "They ate from gold plates and drank from beautiful cups."
+     "quote": "أَكَلُوا فِي صُحُونٍ مِنْ ذَهَبٍ، وَشَرِبُوا فِي كُؤُوسٍ جَمِيلَةٍ."
     },
     "iCan": [
-     "I can tell about life in old Mecca.",
-     "I can use rich and poor.",
-     "I can say if something is fair."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنِ الْحَيَاةِ فِي مَكَّةَ الْقَدِيمَةِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ غَنِيًّا وَفَقِيرًا.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ: هَذَا عَادِلٌ، أَوْ لَيْسَ عَادِلًا."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "A Hard Life",
+    "title": "حَيَاةٌ صَعْبَةٌ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/mecca%2Fa2%2Fimages%2Fmecca_a2_ch4.png?alt=media&token=973d7f83-3ddb-4692-87c6-62963772b371",
-    "content": "Umayya was very unkind to Bilal. His family was unkind, too. They called him “the son of the black woman.” This made Bilal very sad.\n\nBilal worked all day. He looked after the camels in the hot desert. In the evening, he took food to his master. He was always patient.\n\nOne day, Bilal heard about a new Prophet, Muhammad (pbuh). The Prophet (pbuh) told people to pray only to Allah. He taught that all people are equal. Bilal thought about this for many days.",
+    "content": "كَانَ أُمَيَّةُ قَاسِيًا جِدًّا مَعَ بِلَالٍ، وَكَانَتْ عَائِلَتُهُ قَاسِيَةً أَيْضًا. كَانُوا يُنَادُونَهُ: «ابْنَ السَّوْدَاءِ.» فَحَزِنَ بِلَالٌ كَثِيرًا.\n\nعَمِلَ بِلَالٌ طُولَ الْيَوْمِ. اعْتَنَى بِالْجِمَالِ فِي الصَّحْرَاءِ الْحَارَّةِ. وَفِي الْمَسَاءِ، أَخَذَ الطَّعَامَ إِلَى سَيِّدِهِ. وَكَانَ دَائِمًا صَبُورًا.\n\nفِي يَوْمٍ مِنَ الْأَيَّامِ، سَمِعَ بِلَالٌ عَنْ نَبِيٍّ جَدِيدٍ، هُوَ مُحَمَّدٌ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ. دَعَا النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ النَّاسَ إِلَى عِبَادَةِ اللهِ وَحْدَهُ. وَعَلَّمَهُمْ أَنَّ النَّاسَ كُلَّهُمْ سَوَاءٌ. فَكَّرَ بِلَالٌ فِي هَذَا أَيَّامًا كَثِيرَةً.",
     "vocabulary": [
      {
-      "word": "unkind",
-      "definition": "Not kind; bad to other people."
+      "word": "قَاسِيًا",
+      "definition": "لَيْسَ لَطِيفًا؛ يُعَامِلُ النَّاسَ بِسُوءٍ."
      },
      {
-      "word": "camel",
-      "definition": "A big desert animal with a hump."
+      "word": "الْجِمَالِ",
+      "definition": "الْجَمَلُ: حَيَوَانٌ كَبِيرٌ فِي الصَّحْرَاءِ، عَلَى ظَهْرِهِ سَنَامٌ."
      },
      {
-      "word": "desert",
-      "definition": "A hot, dry place with sand."
+      "word": "الصَّحْرَاءِ",
+      "definition": "مَكَانٌ حَارٌّ جَافٌّ، فِيهِ رَمْلٌ كَثِيرٌ."
      },
      {
-      "word": "patient",
-      "definition": "Calm; you wait and do not get angry."
+      "word": "صَبُورًا",
+      "definition": "هَادِئٌ؛ يَنْتَظِرُ وَلَا يَغْضَبُ."
      },
      {
-      "word": "equal",
-      "definition": "The same; no one is better."
+      "word": "سَوَاءٌ",
+      "definition": "مِثْلُ بَعْضِهِمْ؛ لَا أَحَدَ أَحْسَنُ مِنْ أَحَدٍ."
      }
     ],
     "hotspots": [
@@ -411,40 +403,40 @@
       "id": "h3-1",
       "x": 35,
       "y": 46,
-      "title": "In the Desert",
-      "description": "Bilal looked after the camels in the hot desert."
+      "title": "فِي الصَّحْرَاءِ",
+      "description": "اعْتَنَى بِلَالٌ بِالْجِمَالِ فِي الصَّحْرَاءِ الْحَارَّةِ."
      },
      {
       "id": "h3-2",
       "x": 68,
       "y": 50,
-      "title": "Patient",
-      "description": "Bilal worked all day. He was always patient."
+      "title": "صَبُورٌ",
+      "description": "عَمِلَ بِلَالٌ طُولَ الْيَوْمِ، وَكَانَ دَائِمًا صَبُورًا."
      }
     ],
     "exercises": [
      {
-      "id": "mecca-a1-quick-3",
+      "id": "mecca-a1-ar-quick-3",
       "type": "sequencing",
-      "title": "Bilal’s Day",
-      "instructions": "Put the sentences in order.",
-      "question": "What did Bilal do first?",
+      "title": "يَوْمُ بِلَالٍ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا فَعَلَ بِلَالٌ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Bilal worked all day in the desert."
+        "text": "عَمِلَ بِلَالٌ طُولَ الْيَوْمِ فِي الصَّحْرَاءِ."
        },
        {
         "id": "2",
-        "text": "In the evening, Bilal took food to his master."
+        "text": "فِي الْمَسَاءِ، أَخَذَ بِلَالٌ الطَّعَامَ إِلَى سَيِّدِهِ."
        },
        {
         "id": "3",
-        "text": "One day, Bilal heard about a new Prophet."
+        "text": "فِي يَوْمٍ مِنَ الْأَيَّامِ، سَمِعَ بِلَالٌ عَنْ نَبِيٍّ جَدِيدٍ."
        },
        {
         "id": "4",
-        "text": "Bilal thought about this for many days."
+        "text": "فَكَّرَ بِلَالٌ فِي هَذَا أَيَّامًا كَثِيرَةً."
        }
       ],
       "correctAnswer": [
@@ -453,160 +445,160 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 3: Bilal worked all day. In the evening, he took food to his master. One day, he heard about the Prophet (pbuh). He thought about it.",
+      "explanation": "الفصل الثالث: عمل بلال طول اليوم، وفي المساء أخذ الطعام إلى سيده. ثم سمع عن نبي جديد، وفكّر في هذا أيامًا كثيرة.",
       "feedback": {
-       "correct": "Great! You put the chapter in order.",
-       "incorrect": "Read Chapter 3 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَتَيْنِ الثَّانِيَةَ وَالثَّالِثَةَ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "mecca-a1-language-3-time",
+      "id": "mecca-a1-ar-language-3-time",
       "type": "matching",
-      "title": "Look: Time Words",
-      "instructions": "Match the time word and the action.",
-      "question": "When did Bilal do it?",
+      "title": "انْظُرْ: كَلِمَاتُ الْوَقْتِ",
+      "instructions": "صِلْ كَلِمَةَ الْوَقْتِ بِالْعَمَلِ.",
+      "question": "مَتَى فَعَلَ بِلَالٌ ذَلِكَ؟",
       "matchingHeadings": {
-       "left": "Time",
-       "right": "Action"
+       "left": "مَتَى؟",
+       "right": "مَاذَا فَعَلَ؟"
       },
       "matchingPairs": [
        {
-        "left": "All day",
-        "right": "Bilal worked."
+        "left": "طُولَ الْيَوْمِ",
+        "right": "عَمِلَ بِلَالٌ."
        },
        {
-        "left": "In the evening",
-        "right": "he took food to his master."
+        "left": "فِي الْمَسَاءِ",
+        "right": "أَخَذَ الطَّعَامَ إِلَى سَيِّدِهِ."
        },
        {
-        "left": "One day",
-        "right": "he heard about a new Prophet."
+        "left": "فِي يَوْمٍ مِنَ الْأَيَّامِ",
+        "right": "سَمِعَ عَنْ نَبِيٍّ جَدِيدٍ."
        }
       ],
       "correctAnswer": {
-       "All day": "Bilal worked.",
-       "In the evening": "he took food to his master.",
-       "One day": "he heard about a new Prophet."
+       "طُولَ الْيَوْمِ": "عَمِلَ بِلَالٌ.",
+       "فِي الْمَسَاءِ": "أَخَذَ الطَّعَامَ إِلَى سَيِّدِهِ.",
+       "فِي يَوْمٍ مِنَ الْأَيَّامِ": "سَمِعَ عَنْ نَبِيٍّ جَدِيدٍ."
       },
-      "explanation": "All day, in the evening and one day tell us when.",
+      "explanation": "«طُولَ الْيَوْمِ» و«فِي الْمَسَاءِ» و«فِي يَوْمٍ مِنَ الْأَيَّامِ» تقول متى حدث الشيء.",
       "feedback": {
-       "correct": "Good. You found the time words.",
-       "incorrect": "Read Chapter 3 again."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "ابْحَثْ عَنْ كَلِمَاتِ الْوَقْتِ فِي الْفَصْلِ."
       }
      },
      {
-      "id": "mecca-a1-language-3-practise",
+      "id": "mecca-a1-ar-language-3-practise",
       "type": "choose-form",
-      "title": "Practise: Always",
-      "instructions": "Choose the right words.",
-      "question": "Where does always go?",
+      "title": "تَدَرَّبْ: كَانَ دَائِمًا صَبُورًا",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ صَحِيحَةٌ؟",
       "formChoices": [
        {
-        "sentence": "He [choice] patient.",
+        "sentence": "وَكَانَ دَائِمًا [choice].",
         "options": [
-         "was always",
-         "always was"
+         "صَبُورًا",
+         "صَبُورٌ"
         ],
         "answer": 0
        },
        {
-        "sentence": "All people [choice] equal.",
+        "sentence": "وَكَانَتْ عَائِلَتُهُ [choice] أَيْضًا.",
         "options": [
-         "are",
-         "is"
+         "قَاسِيًا",
+         "قَاسِيَةً"
         ],
-        "answer": 0
+        "answer": 1
        }
       ],
       "correctAnswer": null,
-      "explanation": "Always comes after was: He was always patient. All people = many: are.",
+      "explanation": "بعد «كَانَ» تأتي الصفة بالفتحة: صَبُورًا. و«عَائِلَتُهُ» مؤنثة، فالصفة مؤنثة: قَاسِيَةً.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 3 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "انْظُرْ: هَلِ الِاسْمُ مُذَكَّرٌ أَمْ مُؤَنَّثٌ؟"
       }
      },
      {
-      "id": "mecca-a1-language-3-write-it",
+      "id": "mecca-a1-ar-language-3-write-it",
       "type": "reflection",
-      "title": "Write It: My Day",
-      "instructions": "Write about your day.",
-      "question": "What do you do every day?",
+      "title": "اكْتُبْهَا: يَوْمِي",
+      "instructions": "اكْتُبْ عَنْ يَوْمِكَ.",
+      "question": "مَاذَا تَفْعَلُ كُلَّ يَوْمٍ؟",
       "correctAnswer": null,
-      "explanation": "Use time words and the present.",
+      "explanation": "ابدأ كل جملة بكلمة وقت.",
       "feedback": {
-       "correct": "Write three sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“In the morning, I …”",
+        "question": "«فِي الصَّبَاحِ، …»",
         "mode": "Individual",
-        "example": "In the morning, I go to school."
+        "example": "فِي الصَّبَاحِ، أَذْهَبُ إِلَى الْمَدْرَسَةِ."
        },
        {
-        "question": "“In the evening, I …”",
+        "question": "«فِي الْمَسَاءِ، …»",
         "mode": "Individual",
-        "example": "In the evening, I help my mother."
+        "example": "فِي الْمَسَاءِ، أُسَاعِدُ أُمِّي."
        },
        {
-        "question": "“I am always …”",
+        "question": "«أَنَا دَائِمًا …»",
         "mode": "Individual",
-        "example": "I am always happy on Fridays."
+        "example": "أَنَا دَائِمًا سَعِيدٌ يَوْمَ الْجُمُعَةِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Bilal look after?",
+     "question": "خَمِّنْ أَوَّلًا: بِمَاذَا اعْتَنَى بِلَالٌ؟",
      "options": [
-      "camels",
-      "children",
-      "books"
+      "بِالْجِمَالِ",
+      "بِالْأَطْفَالِ",
+      "بِالْكُتُبِ"
      ],
      "answer": 0,
-     "quote": "He looked after the camels in the hot desert."
+     "quote": "اعْتَنَى بِالْجِمَالِ فِي الصَّحْرَاءِ الْحَارَّةِ."
     },
     "iCan": [
-     "I can tell about Bilal’s hard life.",
-     "I can use time words.",
-     "I can write about my day."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنْ حَيَاةِ بِلَالٍ الصَّعْبَةِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ كَلِمَاتِ الْوَقْتِ.",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنْ يَوْمِي."
     ],
     "groupTask": {
      "type": "project",
-     "title": "We Are Equal",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "نَحْنُ سَوَاءٌ",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "Each student draws their hand on paper.",
-      "Inside the hand, each student writes one good thing about a friend.",
-      "The group puts all the hands on one poster. They write: “We Are Equal”.",
-      "One student reads the poster to the class."
+      "يَرْسُمُ كُلُّ طَالِبٍ يَدَهُ عَلَى وَرَقَةٍ.",
+      "دَاخِلَ الْيَدِ، يَكْتُبُ كُلُّ طَالِبٍ شَيْئًا طَيِّبًا عَنْ صَدِيقٍ.",
+      "تَضَعُ الْمَجْمُوعَةُ الْأَيْدِيَ كُلَّهَا عَلَى لَوْحَةٍ وَاحِدَةٍ، وَتَكْتُبُ: «نَحْنُ سَوَاءٌ».",
+      "يَقْرَأُ طَالِبٌ وَاحِدٌ اللَّوْحَةَ لِلصَّفِّ."
      ],
-     "share": "One student reads the poster. Story: “He taught that all people are equal.”",
-     "solo": "Draw your hand. Write two good things about a friend in it."
+     "share": "يَقْرَأُ طَالِبٌ وَاحِدٌ اللَّوْحَةَ. مِنَ الْقِصَّةِ: «وَعَلَّمَهُمْ أَنَّ النَّاسَ كُلَّهُمْ سَوَاءٌ.»",
+     "solo": "ارْسُمْ يَدَكَ، وَاكْتُبْ فِيهَا شَيْئَيْنِ طَيِّبَيْنِ عَنْ صَدِيقٍ."
     }
    },
    {
     "id": 4,
     "type": "story",
-    "title": "A Visit at Night",
+    "title": "زِيَارَةٌ فِي اللَّيْلِ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/mecca%2Fa2%2Fimages%2Fmecca_a2_ch6.png?alt=media&token=7cf6f58f-a546-4cac-8d5c-278289477fff",
-    "content": "One night, Bilal left his room secretly. It was very dark. He was afraid. He went to the house of Abu Bakr. Abu Bakr was the close friend of the Prophet (pbuh). He was very kind to slaves.\n\nBilal asked many questions. Abu Bakr told him about Islam: “There is no god but Allah. Allah is One.”\n\nBilal said, “I want to be a Muslim, too.” Abu Bakr was very happy. Bilal knew his life was going to be hard. But he believed in Allah. He was a Muslim now.",
+    "content": "فِي لَيْلَةٍ مِنَ اللَّيَالِي، خَرَجَ بِلَالٌ مِنْ غُرْفَتِهِ سِرًّا. كَانَ اللَّيْلُ مُظْلِمًا جِدًّا، وَكَانَ بِلَالٌ خَائِفًا. ذَهَبَ إِلَى بَيْتِ أَبِي بَكْرٍ. كَانَ أَبُو بَكْرٍ صَدِيقَ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ الْقَرِيبَ. وَكَانَ طَيِّبًا جِدًّا مَعَ الْعَبِيدِ.\n\nسَأَلَ بِلَالٌ أَسْئِلَةً كَثِيرَةً. أَخْبَرَهُ أَبُو بَكْرٍ عَنِ الْإِسْلَامِ: «لَا إِلَهَ إِلَّا اللهُ. اللهُ وَاحِدٌ.»\n\nقَالَ بِلَالٌ: «أُرِيدُ أَنْ أَكُونَ مُسْلِمًا أَيْضًا.» فَفَرِحَ أَبُو بَكْرٍ كَثِيرًا. عَرَفَ بِلَالٌ أَنَّ حَيَاتَهُ سَتَكُونُ صَعْبَةً. لَكِنَّهُ آمَنَ بِاللهِ، وَصَارَ مُسْلِمًا.",
     "vocabulary": [
      {
-      "word": "secretly",
-      "definition": "So other people do not see or know."
+      "word": "سِرًّا",
+      "definition": "لَا يَرَاهُ النَّاسُ وَلَا يَعْرِفُونَ."
      },
      {
-      "word": "afraid",
-      "definition": "Feeling that something bad will happen."
+      "word": "خَائِفًا",
+      "definition": "يَشْعُرُ أَنَّ شَيْئًا سَيِّئًا سَيَحْدُثُ."
      },
      {
-      "word": "believe",
-      "definition": "Think that something is true."
+      "word": "آمَنَ",
+      "definition": "صَدَّقَ بِقَلْبِهِ أَنَّ هَذَا حَقٌّ."
      }
     ],
     "hotspots": [
@@ -614,175 +606,175 @@
       "id": "h4-1",
       "x": 35,
       "y": 46,
-      "title": "At Night",
-      "description": "One night, Bilal left his room secretly. It was very dark."
+      "title": "فِي اللَّيْلِ",
+      "description": "فِي لَيْلَةٍ مِنَ اللَّيَالِي، خَرَجَ بِلَالٌ مِنْ غُرْفَتِهِ سِرًّا. كَانَ اللَّيْلُ مُظْلِمًا جِدًّا."
      },
      {
       "id": "h4-2",
       "x": 68,
       "y": 50,
-      "title": "A New Muslim",
-      "description": "Bilal said, “I want to be a Muslim, too.”"
+      "title": "مُسْلِمٌ جَدِيدٌ",
+      "description": "قَالَ بِلَالٌ: «أُرِيدُ أَنْ أَكُونَ مُسْلِمًا أَيْضًا»."
      }
     ],
     "exercises": [
      {
-      "id": "mecca-a1-quick-4",
+      "id": "mecca-a1-ar-quick-4",
       "type": "drag-drop",
-      "title": "A Visit at Night",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 4?",
+      "title": "زِيَارَةٌ فِي اللَّيْلِ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الرَّابِعِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "Abu Bakr was very kind to slaves.",
-         "Abu Bakr was very happy."
+         "كَانَ أَبُو بَكْرٍ طَيِّبًا جِدًّا مَعَ الْعَبِيدِ.",
+         "فَرِحَ أَبُو بَكْرٍ كَثِيرًا."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "Bilal went to Abu Bakr in the morning."
+         "ذَهَبَ بِلَالٌ إِلَى أَبِي بَكْرٍ فِي الصَّبَاحِ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "Abu Bakr was very kind to slaves.",
-        "Abu Bakr was very happy."
+       "صَحِيحٌ": [
+        "كَانَ أَبُو بَكْرٍ طَيِّبًا جِدًّا مَعَ الْعَبِيدِ.",
+        "فَرِحَ أَبُو بَكْرٍ كَثِيرًا."
        ],
-       "False": [
-        "Bilal went to Abu Bakr in the morning."
+       "خَطَأٌ": [
+        "ذَهَبَ بِلَالٌ إِلَى أَبِي بَكْرٍ فِي الصَّبَاحِ."
        ]
       },
-      "explanation": "Chapter 4 says: “One night, Bilal left his room secretly.” “He was very kind to slaves.” “Abu Bakr was very happy.”",
+      "explanation": "يقول الفصل الرابع: «فِي لَيْلَةٍ مِنَ اللَّيَالِي … ذَهَبَ إِلَى بَيْتِ أَبِي بَكْرٍ»، «وَكَانَ طَيِّبًا جِدًّا مَعَ الْعَبِيدِ»، «فَفَرِحَ أَبُو بَكْرٍ كَثِيرًا».",
       "feedback": {
-       "correct": "Yes! Bilal went at night.",
-       "incorrect": "Read the first paragraph of Chapter 4 again."
+       "correct": "أَحْسَنْتَ! ذَهَبَ بِلَالٌ فِي اللَّيْلِ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الرَّابِعَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "mecca-a1-language-4-want",
+      "id": "mecca-a1-ar-language-4-want",
       "type": "multiple-choice",
-      "title": "Look: I Want to …",
-      "instructions": "Choose the right answer.",
-      "question": "“I want to be a Muslim, too.” What does Bilal want?",
+      "title": "انْظُرْ: أُرِيدُ أَنْ …",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«أُرِيدُ أَنْ أَكُونَ مُسْلِمًا أَيْضًا.» مَاذَا يُرِيدُ بِلَالٌ؟",
       "options": [
-       "to be a Muslim",
-       "to go home",
-       "to sleep"
+       "أَنْ يَكُونَ مُسْلِمًا",
+       "أَنْ يَرْجِعَ إِلَى بَيْتِهِ",
+       "أَنْ يَنَامَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Want to + verb: I want to be … I want to go …",
+      "explanation": "«أُرِيدُ أَنْ» + المضارع تقول ما يحبّ الإنسان أن يفعله: أُرِيدُ أَنْ أَكُونَ.",
       "feedback": {
-       "correct": "Yes. He wants to be a Muslim.",
-       "incorrect": "Read what Bilal said in Chapter 4."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأْ كَلَامَ بِلَالٍ فِي آخِرِ الْفَصْلِ."
       }
      },
      {
-      "id": "mecca-a1-language-4-practise",
+      "id": "mecca-a1-ar-language-4-practise",
       "type": "choose-form",
-      "title": "Practise: Feelings",
-      "instructions": "Choose the right word.",
-      "question": "How did they feel?",
+      "title": "تَدَرَّبْ: الْمَشَاعِرُ",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "كَيْفَ كَانُوا يَشْعُرُونَ؟",
       "formChoices": [
        {
-        "sentence": "It was very dark. Bilal was [choice].",
+        "sentence": "كَانَ اللَّيْلُ مُظْلِمًا جِدًّا، وَكَانَ بِلَالٌ [choice].",
         "options": [
-         "afraid",
-         "happy"
+         "خَائِفًا",
+         "سَعِيدًا"
         ],
         "answer": 0
        },
        {
-        "sentence": "Bilal was a Muslim. Abu Bakr was very [choice].",
+        "sentence": "قَالَ بِلَالٌ: «أُرِيدُ أَنْ أَكُونَ مُسْلِمًا.» [choice] أَبُو بَكْرٍ كَثِيرًا.",
         "options": [
-         "happy",
-         "angry"
+         "فَفَرِحَ",
+         "فَغَضِبَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Afraid and happy tell us how they felt.",
+      "explanation": "الليل المظلم جعل بلالًا خائفًا. وعندما أراد بلال أن يكون مسلمًا: «فَفَرِحَ أَبُو بَكْرٍ كَثِيرًا».",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 4 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَتَيْنِ الْأُولَى وَالثَّالِثَةَ."
       }
      },
      {
-      "id": "mecca-a1-language-4-say-it",
+      "id": "mecca-a1-ar-language-4-say-it",
       "type": "reflection",
-      "title": "Say It: I Want to …",
-      "instructions": "Say what you want to do.",
-      "question": "What do you want to do?",
+      "title": "قُلْهَا: أُرِيدُ أَنْ …",
+      "instructions": "قُلْ مَاذَا تُرِيدُ أَنْ تَفْعَلَ.",
+      "question": "مَاذَا تُرِيدُ أَنْ تَفْعَلَ؟",
       "correctAnswer": null,
-      "explanation": "Use want to + verb.",
+      "explanation": "بعد «أَنْ» يأتي المضارع بالفتحة: أَنْ أَكُونَ، أَنْ تَلْعَبَ.",
       "feedback": {
-       "correct": "Say one sentence and ask one question.",
+       "correct": "قُلْ جُمْلَةً، ثُمَّ اسْأَلْ زَمِيلَكَ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I want to …”",
+        "question": "«أُرِيدُ أَنْ …»",
         "mode": "Individual",
-        "example": "I want to be a doctor."
+        "example": "أُرِيدُ أَنْ أَكُونَ طَبِيبًا."
        },
        {
-        "question": "“Do you want to …?”",
+        "question": "«هَلْ تُرِيدُ أَنْ …؟»",
         "mode": "Pair",
-        "example": "Do you want to play football?"
+        "example": "هَلْ تُرِيدُ أَنْ تَلْعَبَ كُرَةَ الْقَدَمِ؟"
        },
        {
-        "question": "“Yes, I do.” / “No, I do not.”",
+        "question": "«نَعَمْ، أُرِيدُ.» أَوْ «لَا، لَا أُرِيدُ.»",
         "mode": "Pair",
-        "example": "Yes, I do."
+        "example": "نَعَمْ، أُرِيدُ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Where did Bilal go at night?",
+     "question": "خَمِّنْ أَوَّلًا: إِلَى أَيْنَ ذَهَبَ بِلَالٌ فِي اللَّيْلِ؟",
      "options": [
-      "to the house of Abu Bakr",
-      "to the market",
-      "to the desert"
+      "إِلَى بَيْتِ أَبِي بَكْرٍ",
+      "إِلَى السُّوقِ",
+      "إِلَى الصَّحْرَاءِ"
      ],
      "answer": 0,
-     "quote": "He went to the house of Abu Bakr."
+     "quote": "ذَهَبَ إِلَى بَيْتِ أَبِي بَكْرٍ."
     },
     "iCan": [
-     "I can tell about Bilal’s visit at night.",
-     "I can use want to.",
-     "I can say what I want to do."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنْ زِيَارَةِ بِلَالٍ فِي اللَّيْلِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «أُرِيدُ أَنْ».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَاذَا أُرِيدُ أَنْ أَفْعَلَ."
     ]
    },
    {
     "id": 5,
     "type": "story",
-    "title": "“Allah Is One”",
+    "title": "«أَحَدٌ أَحَدٌ»",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/mecca%2Fa2%2Fimages%2Fmecca_a2_ch8.png?alt=media&token=694894dc-dc04-4bd1-b486-65d05451f524",
-    "content": "Umayya heard the news. He was very angry. He asked Bilal, “Did you leave our gods?” Bilal said, “Yes. Now I believe in Allah.”\n\nUmayya put Bilal in a dark room. He gave him no food or water. He wanted Bilal to pray to the idols again. But Bilal said no.\n\nThen Umayya hurt Bilal very badly. He put a big, hot rock on Bilal’s chest in the sun. He said, “Say good words about our idols, and you can go.” But Bilal only said, “Allah is One, Allah is One.” He was in great pain, but he was very strong.",
+    "content": "سَمِعَ أُمَيَّةُ الْخَبَرَ، فَغَضِبَ كَثِيرًا. سَأَلَ بِلَالًا: «هَلْ تَرَكْتَ آلِهَتَنَا؟» قَالَ بِلَالٌ: «نَعَمْ. الْآنَ أَنَا أُؤْمِنُ بِاللهِ.»\n\nوَضَعَ أُمَيَّةُ بِلَالًا فِي غُرْفَةٍ مُظْلِمَةٍ، وَمَا أَعْطَاهُ طَعَامًا وَلَا مَاءً. أَرَادَ أَنْ يَعْبُدَ بِلَالٌ الْأَصْنَامَ مَرَّةً أُخْرَى. لَكِنَّ بِلَالًا قَالَ: لَا.\n\nثُمَّ آذَى أُمَيَّةُ بِلَالًا كَثِيرًا. وَضَعَ صَخْرَةً كَبِيرَةً حَارَّةً عَلَى صَدْرِهِ فِي الشَّمْسِ. قَالَ لَهُ: «قُلْ كَلَامًا طَيِّبًا عَنْ أَصْنَامِنَا، ثُمَّ تَذْهَبُ.» لَكِنَّ بِلَالًا قَالَ فَقَطْ: «أَحَدٌ أَحَدٌ.» كَانَ فِي أَلَمٍ شَدِيدٍ، لَكِنَّهُ كَانَ قَوِيًّا جِدًّا.",
     "vocabulary": [
      {
-      "word": "hurt",
-      "definition": "Make a person feel pain."
+      "word": "آذَى",
+      "definition": "جَعَلَهُ يَشْعُرُ بِالْأَلَمِ."
      },
      {
-      "word": "rock",
-      "definition": "A very big stone."
+      "word": "صَخْرَةً",
+      "definition": "حَجَرٌ كَبِيرٌ جِدًّا."
      },
      {
-      "word": "chest",
-      "definition": "The front of your body, under your neck."
+      "word": "صَدْرِهِ",
+      "definition": "الصَّدْرُ: مُقَدِّمَةُ الْجِسْمِ تَحْتَ الرَّقَبَةِ."
      },
      {
-      "word": "pain",
-      "definition": "The bad feeling when you are hurt."
+      "word": "أَلَمٍ",
+      "definition": "الشُّعُورُ السَّيِّئُ عِنْدَمَا يُؤْذِيكَ شَيْءٌ."
      }
     ],
     "hotspots": [
@@ -790,161 +782,161 @@
       "id": "h5-1",
       "x": 35,
       "y": 46,
-      "title": "The Big Rock",
-      "description": "Umayya put a big, hot rock on Bilal’s chest in the sun."
+      "title": "الصَّخْرَةُ الْكَبِيرَةُ",
+      "description": "وَضَعَ أُمَيَّةُ صَخْرَةً كَبِيرَةً حَارَّةً عَلَى صَدْرِ بِلَالٍ فِي الشَّمْسِ."
      },
      {
       "id": "h5-2",
       "x": 68,
       "y": 50,
-      "title": "Very Strong",
-      "description": "Bilal was in great pain, but he was very strong."
+      "title": "قَوِيٌّ جِدًّا",
+      "description": "كَانَ بِلَالٌ فِي أَلَمٍ شَدِيدٍ، لَكِنَّهُ كَانَ قَوِيًّا جِدًّا."
      }
     ],
     "exercises": [
      {
-      "id": "mecca-a1-quick-5",
+      "id": "mecca-a1-ar-quick-5",
       "type": "multiple-choice",
-      "title": "Allah Is One",
-      "instructions": "Choose the best answer.",
-      "question": "Why was Umayya angry?",
+      "title": "أَحَدٌ أَحَدٌ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "لِمَاذَا غَضِبَ أُمَيَّةُ؟",
       "options": [
-       "Bilal left the idols and believed in Allah.",
-       "Bilal did not work.",
-       "Bilal ran away."
+       "تَرَكَ بِلَالٌ الْأَصْنَامَ، وَآمَنَ بِاللهِ.",
+       "مَا عَمِلَ بِلَالٌ.",
+       "هَرَبَ بِلَالٌ."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: Umayya asked, “Did you leave our gods?” Bilal said, “Yes. Now I believe in Allah.”",
+      "explanation": "الفصل الخامس: سأل أمية: «هَلْ تَرَكْتَ آلِهَتَنَا؟» قَالَ بِلَالٌ: «نَعَمْ. الْآنَ أَنَا أُؤْمِنُ بِاللهِ.»",
       "feedback": {
-       "correct": "Yes! Bilal believed in Allah.",
-       "incorrect": "Read the first paragraph of Chapter 5 again."
+       "correct": "أَحْسَنْتَ! تَرَكَ بِلَالٌ الْأَصْنَامَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الْخَامِسِ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "mecca-a1-language-5-did",
+      "id": "mecca-a1-ar-language-5-questions",
       "type": "matching",
-      "title": "Look: Did You …?",
-      "instructions": "Match the question and the answer.",
-      "question": "Which answer goes with the question?",
+      "title": "انْظُرْ: هَلْ …؟",
+      "instructions": "صِلِ السُّؤَالَ بِالْجَوَابِ.",
+      "question": "أَيُّ جَوَابٍ يُنَاسِبُ السُّؤَالَ؟",
       "matchingHeadings": {
-       "left": "Question",
-       "right": "Answer"
+       "left": "السُّؤَالُ",
+       "right": "الْجَوَابُ"
       },
       "matchingPairs": [
        {
-        "left": "“Did you leave our gods?”",
-        "right": "“Yes. Now I believe in Allah.”"
+        "left": "«هَلْ تَرَكْتَ آلِهَتَنَا؟»",
+        "right": "«نَعَمْ. الْآنَ أَنَا أُؤْمِنُ بِاللهِ.»"
        },
        {
-        "left": "Did Umayya give Bilal food?",
-        "right": "No, he did not."
+        "left": "هَلْ أَعْطَى أُمَيَّةُ بِلَالًا طَعَامًا؟",
+        "right": "لَا، مَا أَعْطَاهُ."
        },
        {
-        "left": "Did Bilal say no?",
-        "right": "Yes, he did."
+        "left": "هَلْ قَالَ بِلَالٌ: لَا؟",
+        "right": "نَعَمْ، قَالَ: لَا."
        }
       ],
       "correctAnswer": {
-       "“Did you leave our gods?”": "“Yes. Now I believe in Allah.”",
-       "Did Umayya give Bilal food?": "No, he did not.",
-       "Did Bilal say no?": "Yes, he did."
+       "«هَلْ تَرَكْتَ آلِهَتَنَا؟»": "«نَعَمْ. الْآنَ أَنَا أُؤْمِنُ بِاللهِ.»",
+       "هَلْ أَعْطَى أُمَيَّةُ بِلَالًا طَعَامًا؟": "لَا، مَا أَعْطَاهُ.",
+       "هَلْ قَالَ بِلَالٌ: لَا؟": "نَعَمْ، قَالَ: لَا."
       },
-      "explanation": "Did + person + verb? asks about the past. Short answers: Yes, he did. / No, he did not.",
+      "explanation": "«هَلْ» تبدأ سؤالًا جوابه «نَعَمْ» أو «لَا».",
       "feedback": {
-       "correct": "Good. You matched the questions and answers.",
-       "incorrect": "Read Chapter 5 again."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَتَيْنِ الْأُولَى وَالثَّانِيَةَ."
       }
      },
      {
-      "id": "mecca-a1-language-5-practise",
+      "id": "mecca-a1-ar-language-5-practise",
       "type": "choose-form",
-      "title": "Practise: But",
-      "instructions": "Choose the right word.",
-      "question": "Which word joins the ideas?",
+      "title": "تَدَرَّبْ: لَكِنَّ",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةٍ تَجْمَعُ الْفِكْرَتَيْنِ؟",
       "formChoices": [
        {
-        "sentence": "He was in great pain, [choice] he was very strong.",
+        "sentence": "كَانَ فِي أَلَمٍ شَدِيدٍ، [choice] كَانَ قَوِيًّا جِدًّا.",
         "options": [
-         "but",
-         "and"
+         "لَكِنَّهُ",
+         "لِأَنَّهُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "He gave him no food [choice] water.",
+        "sentence": "مَا أَعْطَاهُ طَعَامًا [choice] مَاءً.",
         "options": [
-         "or",
-         "but"
+         "وَلَا",
+         "لَكِنْ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "But joins two different ideas: pain, but strong. After no, we use or: no food or water.",
+      "explanation": "«لَكِنَّ» تجمع فكرتين مختلفتين: ألم شديد، لكنه قوي. و«وَلَا» تأتي بعد النفي: «مَا أَعْطَاهُ طَعَامًا وَلَا مَاءً».",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the last paragraph of Chapter 5."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى، وَابْحَثْ عَنِ الْجُمْلَتَيْنِ."
       }
      },
      {
-      "id": "mecca-a1-language-5-write-it",
+      "id": "mecca-a1-ar-language-5-write-it",
       "type": "reflection",
-      "title": "Write It: Strong Inside",
-      "instructions": "Write about a hard day.",
-      "question": "What do you do on a hard day?",
+      "title": "اكْتُبْهَا: قَوِيٌّ مِنَ الدَّاخِلِ",
+      "instructions": "اكْتُبْ عَنْ يَوْمٍ صَعْبٍ.",
+      "question": "مَاذَا تَفْعَلُ فِي يَوْمٍ صَعْبٍ؟",
       "correctAnswer": null,
-      "explanation": "Use but to join two ideas.",
+      "explanation": "استعمل «لَكِنَّ» لتجمع فكرتين مختلفتين.",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“It was hard, but I …”",
+        "question": "«كَانَ الْأَمْرُ صَعْبًا، لَكِنِّي …»",
         "mode": "Individual",
-        "example": "It was hard, but I did my homework."
+        "example": "كَانَ الْأَمْرُ صَعْبًا، لَكِنِّي كَتَبْتُ وَاجِبِي."
        },
        {
-        "question": "“On a hard day, I …”",
+        "question": "«فِي يَوْمٍ صَعْبٍ، …»",
         "mode": "Individual",
-        "example": "On a hard day, I pray to Allah."
+        "example": "فِي يَوْمٍ صَعْبٍ، أَدْعُو اللهَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Bilal say again and again?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا قَالَ بِلَالٌ مَرَّةً بَعْدَ مَرَّةٍ؟",
      "options": [
-      "“Allah is One.”",
-      "“Help me.”",
-      "“I am sorry.”"
+      "«أَحَدٌ أَحَدٌ.»",
+      "«سَاعِدُونِي.»",
+      "«أَنَا آسِفٌ.»"
      ],
      "answer": 0,
-     "quote": "But Bilal only said, “Allah is One, Allah is One.”"
+     "quote": "لَكِنَّ بِلَالًا قَالَ فَقَطْ: «أَحَدٌ أَحَدٌ.»"
     },
     "iCan": [
-     "I can tell how Bilal stayed strong.",
-     "I can understand “Did you …?” questions.",
-     "I can use but."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ كَيْفَ بَقِيَ بِلَالٌ قَوِيًّا.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ السُّؤَالَ بِـ«هَلْ».",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «لَكِنَّ»."
     ]
    },
    {
     "id": 6,
     "type": "story",
-    "title": "Abu Bakr Helps Bilal",
+    "title": "أَبُو بَكْرٍ يُسَاعِدُ بِلَالًا",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/mecca%2Fa2%2Fimages%2Fmecca_a2_ch9.png?alt=media&token=de7d6436-0cd2-4eed-af16-d0b9e83b84bc",
-    "content": "Abu Bakr heard about Bilal. He went to Umayya quickly. He said, “Sell Bilal to me.” Umayya laughed. Then he sold Bilal for some gold. Abu Bakr paid the money.\n\nAbu Bakr took the big rock from Bilal’s chest. He said, “You are free now. You are not a slave.” Bilal was a free Muslim now. He was very happy, and he thanked Allah.",
+    "content": "سَمِعَ أَبُو بَكْرٍ عَنْ بِلَالٍ، فَذَهَبَ إِلَى أُمَيَّةَ بِسُرْعَةٍ. قَالَ: «بِعْنِي بِلَالًا.» ضَحِكَ أُمَيَّةُ، ثُمَّ بَاعَ بِلَالًا بِشَيْءٍ مِنَ الذَّهَبِ. وَدَفَعَ أَبُو بَكْرٍ الْمَالَ.\n\nأَخَذَ أَبُو بَكْرٍ الصَّخْرَةَ الْكَبِيرَةَ عَنْ صَدْرِ بِلَالٍ، وَقَالَ: «أَنْتَ حُرٌّ الْآنَ. لَسْتَ عَبْدًا.» صَارَ بِلَالٌ مُسْلِمًا حُرًّا. فَرِحَ كَثِيرًا، وَشَكَرَ اللهَ.",
     "vocabulary": [
      {
-      "word": "sell",
-      "definition": "Give something and get money for it."
+      "word": "بِعْنِي",
+      "definition": "بَاعَ: أَعْطَى شَيْئًا، وَأَخَذَ مَالًا."
      },
      {
-      "word": "pay",
-      "definition": "Give money for something."
+      "word": "دَفَعَ",
+      "definition": "أَعْطَى الْمَالَ ثَمَنًا لِشَيْءٍ."
      }
     ],
     "hotspots": [
@@ -952,40 +944,40 @@
       "id": "h6-1",
       "x": 35,
       "y": 46,
-      "title": "Sell Him to Me",
-      "description": "Abu Bakr said to Umayya, “Sell Bilal to me.”"
+      "title": "بِعْنِي",
+      "description": "قَالَ أَبُو بَكْرٍ لِأُمَيَّةَ: «بِعْنِي بِلَالًا»."
      },
      {
       "id": "h6-2",
       "x": 68,
       "y": 50,
-      "title": "Free",
-      "description": "Abu Bakr said, “You are free now. You are not a slave.”"
+      "title": "حُرٌّ",
+      "description": "قَالَ أَبُو بَكْرٍ: «أَنْتَ حُرٌّ الْآنَ. لَسْتَ عَبْدًا»."
      }
     ],
     "exercises": [
      {
-      "id": "mecca-a1-quick-6",
+      "id": "mecca-a1-ar-quick-6",
       "type": "sequencing",
-      "title": "Abu Bakr Helps",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "أَبُو بَكْرٍ يُسَاعِدُ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Abu Bakr heard about Bilal."
+        "text": "سَمِعَ أَبُو بَكْرٍ عَنْ بِلَالٍ."
        },
        {
         "id": "2",
-        "text": "Abu Bakr went to Umayya quickly."
+        "text": "ذَهَبَ أَبُو بَكْرٍ إِلَى أُمَيَّةَ بِسُرْعَةٍ."
        },
        {
         "id": "3",
-        "text": "Abu Bakr paid the money."
+        "text": "دَفَعَ أَبُو بَكْرٍ الْمَالَ."
        },
        {
         "id": "4",
-        "text": "Abu Bakr said, “You are free now.”"
+        "text": "قَالَ أَبُو بَكْرٍ: «أَنْتَ حُرٌّ الْآنَ.»"
        }
       ],
       "correctAnswer": [
@@ -994,142 +986,142 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 6: Abu Bakr heard about Bilal. He went to Umayya. He paid the money. He made Bilal free.",
+      "explanation": "الفصل السادس: سمع أبو بكر عن بلال، فذهب إلى أمية بسرعة، ودفع المال، ثم قال لبلال: «أَنْتَ حُرٌّ الْآنَ».",
       "feedback": {
-       "correct": "Great! You put the chapter in order.",
-       "incorrect": "Read Chapter 6 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفَصْلَ السَّادِسَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "mecca-a1-language-6-past",
+      "id": "mecca-a1-ar-language-6-past",
       "type": "matching",
-      "title": "Look: Sell, Pay, Take",
-      "instructions": "Match the verb with its past form.",
-      "question": "What is the past form?",
+      "title": "انْظُرْ: بَاعَ، دَفَعَ، أَخَذَ",
+      "instructions": "صِلِ الْفِعْلَ بِصِيغَةِ الْمَاضِي.",
+      "question": "مَا صِيغَةُ الْمَاضِي؟",
       "matchingHeadings": {
-       "left": "Verb",
-       "right": "Past form"
+       "left": "الْمُضَارِعُ",
+       "right": "الْمَاضِي فِي الْقِصَّةِ"
       },
       "matchingPairs": [
        {
-        "left": "sell",
-        "right": "sold"
+        "left": "يَبِيعُ",
+        "right": "بَاعَ"
        },
        {
-        "left": "pay",
-        "right": "paid"
+        "left": "يَدْفَعُ",
+        "right": "دَفَعَ"
        },
        {
-        "left": "take",
-        "right": "took"
+        "left": "يَأْخُذُ",
+        "right": "أَخَذَ"
        },
        {
-        "left": "laugh",
-        "right": "laughed"
+        "left": "يَضْحَكُ",
+        "right": "ضَحِكَ"
        }
       ],
       "correctAnswer": {
-       "sell": "sold",
-       "pay": "paid",
-       "take": "took",
-       "laugh": "laughed"
+       "يَبِيعُ": "بَاعَ",
+       "يَدْفَعُ": "دَفَعَ",
+       "يَأْخُذُ": "أَخَذَ",
+       "يَضْحَكُ": "ضَحِكَ"
       },
-      "explanation": "Sold, paid and took change in the past. Laughed ends in -ed.",
+      "explanation": "في الفصل: «بَاعَ بِلَالًا»، «وَدَفَعَ أَبُو بَكْرٍ الْمَالَ»، «أَخَذَ أَبُو بَكْرٍ الصَّخْرَةَ»، «ضَحِكَ أُمَيَّةُ». في «يَبِيعُ ← بَاعَ» تصير الياء ألفًا.",
       "feedback": {
-       "correct": "Good. You found the past forms.",
-       "incorrect": "Find sold, paid, took and laughed in Chapter 6."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "ابْحَثْ عَنْ هَذِهِ الْأَفْعَالِ فِي الْفَصْلِ السَّادِسِ."
       }
      },
      {
-      "id": "mecca-a1-language-6-practise",
+      "id": "mecca-a1-ar-language-6-practise",
       "type": "choose-form",
-      "title": "Practise: Quickly",
-      "instructions": "Choose the right word.",
-      "question": "How did he do it?",
+      "title": "تَدَرَّبْ: بِسُرْعَةٍ",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "كَيْفَ فَعَلَهُ؟",
       "formChoices": [
        {
-        "sentence": "Abu Bakr went to Umayya [choice].",
+        "sentence": "ذَهَبَ أَبُو بَكْرٍ إِلَى أُمَيَّةَ [choice].",
         "options": [
-         "quickly",
-         "quick"
+         "بِسُرْعَةٍ",
+         "سَرِيعٌ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Bilal was very [choice].",
+        "sentence": "فَرِحَ بِلَالٌ [choice].",
         "options": [
-         "happy",
-         "happily"
+         "كَثِيرًا",
+         "كَثِيرٌ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Quickly tells us how he went. Happy tells us how Bilal felt.",
+      "explanation": "«بِسُرْعَةٍ» و«كَثِيرًا» تقولان كيف حدث الفعل: ذَهَبَ بِسُرْعَةٍ، فَرِحَ كَثِيرًا.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 6 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ، وَابْحَثْ عَنْ بِسُرْعَةٍ وَكَثِيرًا."
       }
      },
      {
-      "id": "mecca-a1-language-6-say-it",
+      "id": "mecca-a1-ar-language-6-say-it",
       "type": "reflection",
-      "title": "Say It: Thank You",
-      "instructions": "Say thank you to someone.",
-      "question": "Who do you want to thank?",
+      "title": "قُلْهَا: شُكْرًا",
+      "instructions": "اشْكُرْ شَخْصًا.",
+      "question": "مَنْ تُرِيدُ أَنْ تَشْكُرَ؟",
       "correctAnswer": null,
-      "explanation": "Use Thank you for …",
+      "explanation": "شكر بلال الله. ونحن نقول «شُكْرًا» لمن يساعدنا، ويجيب: «عَفْوًا».",
       "feedback": {
-       "correct": "Say thank you and answer your partner.",
+       "correct": "قُلِ الْجُمْلَتَيْنِ مَعَ زَمِيلِكَ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Thank you for …”",
+        "question": "«شُكْرًا عَلَى …»",
         "mode": "Pair",
-        "example": "Thank you for your help."
+        "example": "شُكْرًا عَلَى مُسَاعَدَتِكَ."
        },
        {
-        "question": "“You are welcome.”",
+        "question": "«عَفْوًا.»",
         "mode": "Pair",
-        "example": "You are welcome."
+        "example": "عَفْوًا."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Abu Bakr do?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا فَعَلَ أَبُو بَكْرٍ؟",
      "options": [
-      "He paid money for Bilal.",
-      "He hurt Bilal.",
-      "He left Mecca."
+      "دَفَعَ الْمَالَ.",
+      "آذَى بِلَالًا.",
+      "تَرَكَ مَكَّةَ."
      ],
      "answer": 0,
-     "quote": "Abu Bakr paid the money."
+     "quote": "وَدَفَعَ أَبُو بَكْرٍ الْمَالَ."
     },
     "iCan": [
-     "I can tell how Abu Bakr helped Bilal.",
-     "I can use sold, paid and took.",
-     "I can say thank you."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ كَيْفَ سَاعَدَ أَبُو بَكْرٍ بِلَالًا.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ بَاعَ وَدَفَعَ وَأَخَذَ.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ: شُكْرًا."
     ]
    },
    {
     "id": 7,
     "type": "story",
-    "title": "The First Adhan",
+    "title": "الْأَذَانُ الْأَوَّلُ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/mecca%2Fa2%2Fimages%2Fmecca_a2_ch11.png?alt=media&token=2a892d1b-9ec9-4806-b178-d9e9f60c8f9d",
-    "content": "Later, the Muslims went to live in Medina. The Prophet (pbuh) wanted a person for the Adhan. He chose Bilal. Bilal had a beautiful voice. He was also very brave. In Mecca, he said “Allah is One” in great pain.\n\nBilal stood up and gave the first Adhan: “Allah is the greatest, Allah is the greatest.” People heard his voice and came to the mosque. Every morning, Bilal gave the Adhan very early. He added these words: “Prayer is better than sleep.” The Prophet (pbuh) was happy with this.",
+    "content": "بَعْدَ ذَلِكَ، ذَهَبَ الْمُسْلِمُونَ لِيَعِيشُوا فِي الْمَدِينَةِ. أَرَادَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ رَجُلًا لِلْأَذَانِ، فَاخْتَارَ بِلَالًا. كَانَ لِبِلَالٍ صَوْتٌ جَمِيلٌ. وَكَانَ شُجَاعًا جِدًّا أَيْضًا. فِي مَكَّةَ، قَالَ: «أَحَدٌ أَحَدٌ» وَهُوَ فِي أَلَمٍ شَدِيدٍ.\n\nوَقَفَ بِلَالٌ، وَرَفَعَ الْأَذَانَ الْأَوَّلَ: «اللهُ أَكْبَرُ، اللهُ أَكْبَرُ.» سَمِعَ النَّاسُ صَوْتَهُ، وَجَاؤُوا إِلَى الْمَسْجِدِ. وَكُلَّ صَبَاحٍ، رَفَعَ بِلَالٌ الْأَذَانَ مُبَكِّرًا جِدًّا. وَزَادَ هَذِهِ الْكَلِمَاتِ: «الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ.» فَفَرِحَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ بِذَلِكَ.",
     "vocabulary": [
      {
-      "word": "voice",
-      "definition": "The sound of someone speaking."
+      "word": "صَوْتٌ",
+      "definition": "مَا نَسْمَعُهُ عِنْدَمَا يَتَكَلَّمُ أَحَدٌ."
      },
      {
-      "word": "brave",
-      "definition": "Not afraid of danger."
+      "word": "شُجَاعًا",
+      "definition": "لَا يَخَافُ مِنَ الْخَطَرِ."
      }
     ],
     "hotspots": [
@@ -1137,152 +1129,152 @@
       "id": "h7-1",
       "x": 35,
       "y": 46,
-      "title": "The First Adhan",
-      "description": "Bilal stood up and gave the first Adhan."
+      "title": "الْأَذَانُ الْأَوَّلُ",
+      "description": "وَقَفَ بِلَالٌ، وَرَفَعَ الْأَذَانَ الْأَوَّلَ."
      },
      {
       "id": "h7-2",
       "x": 68,
       "y": 50,
-      "title": "Better Than Sleep",
-      "description": "Every morning, Bilal added these words: “Prayer is better than sleep.”"
+      "title": "خَيْرٌ مِنَ النَّوْمِ",
+      "description": "كُلَّ صَبَاحٍ، زَادَ بِلَالٌ هَذِهِ الْكَلِمَاتِ: «الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ»."
      }
     ],
     "exercises": [
      {
-      "id": "mecca-a1-quick-7",
+      "id": "mecca-a1-ar-quick-7",
       "type": "multiple-choice",
-      "title": "The First Adhan",
-      "instructions": "Choose the best answer.",
-      "question": "What did Bilal add to the morning Adhan?",
+      "title": "الْأَذَانُ الْأَوَّلُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "مَاذَا زَادَ بِلَالٌ فِي أَذَانِ الصَّبَاحِ؟",
       "options": [
-       "“Prayer is better than sleep.”",
-       "“Good morning.”",
-       "“Come to the market.”"
+       "«الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ.»",
+       "«صَبَاحَ الْخَيْرِ.»",
+       "«تَعَالَوْا إِلَى السُّوقِ.»"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: He added these words: “Prayer is better than sleep.”",
+      "explanation": "الفصل السابع: «وَزَادَ هَذِهِ الْكَلِمَاتِ: «الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ».»",
       "feedback": {
-       "correct": "Yes!",
-       "incorrect": "Read the second paragraph of Chapter 7 again."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ السَّابِعِ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "mecca-a1-language-7-better",
+      "id": "mecca-a1-ar-language-7-better",
       "type": "multiple-choice",
-      "title": "Look: Better Than",
-      "instructions": "Choose the right answer.",
-      "question": "“Prayer is better than sleep.” What does this mean?",
+      "title": "انْظُرْ: خَيْرٌ مِنْ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ.» مَا مَعْنَى هَذَا؟",
       "options": [
-       "Prayer is more important than sleep.",
-       "Sleep is more important than prayer.",
-       "Prayer and sleep are the same."
+       "الصَّلَاةُ أَهَمُّ مِنَ النَّوْمِ.",
+       "النَّوْمُ أَهَمُّ مِنَ الصَّلَاةِ.",
+       "الصَّلَاةُ وَالنَّوْمُ سَوَاءٌ."
       ],
       "correctAnswer": 0,
-      "explanation": "Good → better. We use better than for two things.",
+      "explanation": "«خَيْرٌ مِنْ» و«أَحْسَنُ مِنْ» تقارنان بين شيئين: الأول أحسن.",
       "feedback": {
-       "correct": "Yes. Prayer is more important.",
-       "incorrect": "Read the end of Chapter 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "فَكِّرْ: أَيُّهُمَا أَحْسَنُ؟"
       }
      },
      {
-      "id": "mecca-a1-language-7-practise",
+      "id": "mecca-a1-ar-language-7-practise",
       "type": "choose-form",
-      "title": "Practise: Had, Was",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: كَانَ، جَاؤُوا، وَقَفَ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ لِلْمَاضِي؟",
       "formChoices": [
        {
-        "sentence": "Bilal [choice] a beautiful voice.",
+        "sentence": "[choice] لِبِلَالٍ صَوْتٌ جَمِيلٌ.",
         "options": [
-         "had",
-         "has"
+         "كَانَ",
+         "يَكُونُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "He [choice] also very brave.",
+        "sentence": "سَمِعَ النَّاسُ صَوْتَهُ، وَ[choice] إِلَى الْمَسْجِدِ.",
         "options": [
-         "was",
-         "is"
+         "جَاؤُوا",
+         "يَجِيئُونَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "People heard his voice and [choice] to the mosque.",
+        "sentence": "[choice] بِلَالٌ، وَرَفَعَ الْأَذَانَ الْأَوَّلَ.",
         "options": [
-         "came",
-         "come"
+         "وَقَفَ",
+         "يَقِفُ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Has → had, is → was, come → came in the past.",
+      "explanation": "القصة في الماضي: كَانَ، جَاؤُوا، وَقَفَ. و«كَانَ لِبِلَالٍ صَوْتٌ جَمِيلٌ» تعني أن صوتًا جميلًا كان عنده.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 7 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "الْقِصَّةُ فِي الْمَاضِي."
       }
      },
      {
-      "id": "mecca-a1-language-7-say-it",
+      "id": "mecca-a1-ar-language-7-say-it",
       "type": "reflection",
-      "title": "Say It: Better Than",
-      "instructions": "Say what you think is better.",
-      "question": "Which one is better?",
+      "title": "قُلْهَا: خَيْرٌ مِنْ",
+      "instructions": "قُلْ مَا الْأَحْسَنُ عِنْدَكَ.",
+      "question": "أَيُّهُمَا أَحْسَنُ؟",
       "correctAnswer": null,
-      "explanation": "Use better than.",
+      "explanation": "قارن بين شيئين بـ«خَيْرٌ مِنْ» أو «أَحْسَنُ مِنْ».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“… is better than …”",
+        "question": "«… خَيْرٌ مِنْ …»",
         "mode": "Pair",
-        "example": "Water is better than cola."
+        "example": "الْمَاءُ خَيْرٌ مِنَ الْكُولَا."
        },
        {
-        "question": "“I think … is better.”",
+        "question": "«أَظُنُّ أَنَّ … أَحْسَنُ.»",
         "mode": "Pair",
-        "example": "I think walking is better."
+        "example": "أَظُنُّ أَنَّ الْمَشْيَ أَحْسَنُ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Why did the Prophet (pbuh) choose Bilal?",
+     "question": "خَمِّنْ أَوَّلًا: لِمَاذَا اخْتَارَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ بِلَالًا؟",
      "options": [
-      "He had a beautiful voice.",
-      "He was rich.",
-      "He was tall."
+      "كَانَ لَهُ صَوْتٌ جَمِيلٌ.",
+      "كَانَ غَنِيًّا.",
+      "كَانَ طَوِيلًا."
      ],
      "answer": 0,
-     "quote": "Bilal had a beautiful voice."
+     "quote": "كَانَ لِبِلَالٍ صَوْتٌ جَمِيلٌ."
     },
     "iCan": [
-     "I can tell about the first Adhan.",
-     "I can understand better than.",
-     "I can say which thing is better."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنِ الْأَذَانِ الْأَوَّلِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «خَيْرٌ مِنْ».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ أَيُّ شَيْءٍ أَحْسَنُ."
     ]
    },
    {
     "id": 8,
     "type": "story",
-    "title": "Everyone Is Equal",
+    "title": "النَّاسُ كُلُّهُمْ سَوَاءٌ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/mecca%2Fa2%2Fimages%2Fmecca_a2_ch13.png?alt=media&token=8c78587d-ea7d-48ec-815c-666ad38a66ac",
-    "content": "In 632, the Prophet (pbuh) gave his last speech. He taught that all people come from Adam and Eve. Arabs are not better than other people. White people are not better than black people. Only good actions make a person better.\n\nThen the Prophet (pbuh) died. Bilal was very sad. He went to Damascus and died there.\n\nBilal’s story teaches us a lesson. Skin color is not important. A good heart and good actions are important.",
+    "content": "فِي سَنَةِ سِتِّمِئَةٍ وَاثْنَتَيْنِ وَثَلَاثِينَ، أَلْقَى النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ آخِرَ خُطْبَةٍ لَهُ. عَلَّمَ النَّاسَ أَنَّهُمْ كُلَّهُمْ مِنْ آدَمَ وَحَوَّاءَ. الْعَرَبِيُّ لَيْسَ أَحْسَنَ مِنْ غَيْرِهِ. وَالْأَبْيَضُ لَيْسَ أَحْسَنَ مِنَ الْأَسْوَدِ. الْأَعْمَالُ الطَّيِّبَةُ فَقَطْ تَجْعَلُ الْإِنْسَانَ أَحْسَنَ.\n\nثُمَّ مَاتَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، فَحَزِنَ بِلَالٌ كَثِيرًا. ذَهَبَ إِلَى دِمَشْقَ، وَمَاتَ هُنَاكَ.\n\nتُعَلِّمُنَا قِصَّةُ بِلَالٍ دَرْسًا: لَوْنُ الْإِنْسَانِ لَيْسَ مُهِمًّا. الْمُهِمُّ الْقَلْبُ الطَّيِّبُ وَالْأَعْمَالُ الطَّيِّبَةُ.",
     "vocabulary": [
      {
-      "word": "speech",
-      "definition": "A talk to many people."
+      "word": "خُطْبَةٍ",
+      "definition": "كَلَامٌ يَقُولُهُ رَجُلٌ أَمَامَ نَاسٍ كَثِيرِينَ."
      },
      {
-      "word": "action",
-      "definition": "A thing that you do."
+      "word": "الْأَعْمَالُ",
+      "definition": "الْعَمَلُ: شَيْءٌ تَفْعَلُهُ."
      }
     ],
     "hotspots": [
@@ -1290,187 +1282,187 @@
       "id": "h8-1",
       "x": 35,
       "y": 46,
-      "title": "The Last Speech",
-      "description": "In 632, the Prophet (pbuh) gave his last speech."
+      "title": "الْخُطْبَةُ الْأَخِيرَةُ",
+      "description": "سَنَةَ 632، أَلْقَى النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ آخِرَ خُطْبَةٍ لَهُ."
      },
      {
       "id": "h8-2",
       "x": 68,
       "y": 50,
-      "title": "Everyone Is Equal",
-      "description": "White people are not better than black people. Only good actions make a person better."
+      "title": "النَّاسُ كُلُّهُمْ سَوَاءٌ",
+      "description": "الْأَبْيَضُ لَيْسَ أَحْسَنَ مِنَ الْأَسْوَدِ. الْأَعْمَالُ الطَّيِّبَةُ فَقَطْ تَجْعَلُ الْإِنْسَانَ أَحْسَنَ."
      }
     ],
     "exercises": [
      {
-      "id": "mecca-a1-quick-8",
+      "id": "mecca-a1-ar-quick-8",
       "type": "drag-drop",
-      "title": "Everyone Is Equal",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 8?",
+      "title": "النَّاسُ كُلُّهُمْ سَوَاءٌ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الثَّامِنِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "All people come from Adam and Eve.",
-         "Bilal went to Damascus."
+         "النَّاسُ كُلُّهُمْ مِنْ آدَمَ وَحَوَّاءَ.",
+         "ذَهَبَ بِلَالٌ إِلَى دِمَشْقَ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "Arabs are better than other people."
+         "الْعَرَبِيُّ أَحْسَنُ مِنْ غَيْرِهِ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "All people come from Adam and Eve.",
-        "Bilal went to Damascus."
+       "صَحِيحٌ": [
+        "النَّاسُ كُلُّهُمْ مِنْ آدَمَ وَحَوَّاءَ.",
+        "ذَهَبَ بِلَالٌ إِلَى دِمَشْقَ."
        ],
-       "False": [
-        "Arabs are better than other people."
+       "خَطَأٌ": [
+        "الْعَرَبِيُّ أَحْسَنُ مِنْ غَيْرِهِ."
        ]
       },
-      "explanation": "Chapter 8 says: “All people come from Adam and Eve.” “Arabs are not better than other people.” “He went to Damascus and died there.”",
+      "explanation": "يقول الفصل الثامن: «عَلَّمَ النَّاسَ أَنَّهُمْ كُلَّهُمْ مِنْ آدَمَ وَحَوَّاءَ. الْعَرَبِيُّ لَيْسَ أَحْسَنَ مِنْ غَيْرِهِ»، و«ذَهَبَ إِلَى دِمَشْقَ».",
       "feedback": {
-       "correct": "Yes! No one is better because of their color.",
-       "incorrect": "Read the first paragraph of Chapter 8 again."
+       "correct": "أَحْسَنْتَ! الْعَرَبِيُّ لَيْسَ أَحْسَنَ مِنْ غَيْرِهِ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الثَّامِنَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "mecca-a1-language-8-important",
+      "id": "mecca-a1-ar-language-8-important",
       "type": "drag-drop",
-      "title": "Look: Important or Not Important",
-      "instructions": "Put each word in the right group.",
-      "question": "What is important?",
+      "title": "انْظُرْ: مُهِمٌّ أَمْ لَيْسَ مُهِمًّا؟",
+      "instructions": "ضَعْ كُلَّ كَلِمَةٍ فِي مَجْمُوعَتِهَا.",
+      "question": "مَا الْمُهِمُّ؟",
       "dragDropGroups": [
        {
-        "group": "Important",
+        "group": "مُهِمٌّ",
         "items": [
-         "a good heart",
-         "good actions"
+         "الْقَلْبُ الطَّيِّبُ",
+         "الْأَعْمَالُ الطَّيِّبَةُ"
         ]
        },
        {
-        "group": "Not important",
+        "group": "لَيْسَ مُهِمًّا",
         "items": [
-         "skin color",
-         "a lot of money"
+         "لَوْنُ الْإِنْسَانِ",
+         "مَالٌ كَثِيرٌ"
         ]
        }
       ],
       "correctAnswer": {
-       "Important": [
-        "a good heart",
-        "good actions"
+       "مُهِمٌّ": [
+        "الْقَلْبُ الطَّيِّبُ",
+        "الْأَعْمَالُ الطَّيِّبَةُ"
        ],
-       "Not important": [
-        "skin color",
-        "a lot of money"
+       "لَيْسَ مُهِمًّا": [
+        "لَوْنُ الْإِنْسَانِ",
+        "مَالٌ كَثِيرٌ"
        ]
       },
-      "explanation": "Chapter 8: “Skin color is not important. A good heart and good actions are important.”",
+      "explanation": "آخر الفصل: «لَوْنُ الْإِنْسَانِ لَيْسَ مُهِمًّا. الْمُهِمُّ الْقَلْبُ الطَّيِّبُ وَالْأَعْمَالُ الطَّيِّبَةُ».",
       "feedback": {
-       "correct": "Good. You understood the lesson.",
-       "incorrect": "Read the last paragraph of Chapter 8."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "اقْرَأْ آخِرَ الْفَصْلِ."
       }
      },
      {
-      "id": "mecca-a1-language-8-practise",
+      "id": "mecca-a1-ar-language-8-practise",
       "type": "choose-form",
-      "title": "Practise: Is Not, Are Not",
-      "instructions": "Choose the right words.",
-      "question": "One or many?",
+      "title": "تَدَرَّبْ: لَيْسَ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ صَحِيحَةٌ؟",
       "formChoices": [
        {
-        "sentence": "Arabs [choice] better than other people.",
+        "sentence": "الْعَرَبِيُّ [choice] أَحْسَنَ مِنْ غَيْرِهِ.",
         "options": [
-         "are not",
-         "is not"
+         "لَيْسَ",
+         "لَيْسَتْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Skin color [choice] important.",
+        "sentence": "لَوْنُ الْإِنْسَانِ لَيْسَ [choice].",
         "options": [
-         "is not",
-         "are not"
+         "مُهِمًّا",
+         "مُهِمٌّ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "One thing: is not. Many people or things: are not.",
+      "explanation": "«لَيْسَ» تنفي الجملة الاسمية، وما بعدها بالفتحة: لَيْسَ مُهِمًّا، لَيْسَ أَحْسَنَ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Arabs = many. Skin color = one thing."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "بَعْدَ «لَيْسَ» تَأْتِي الْفَتْحَةُ."
       }
      },
      {
-      "id": "mecca-a1-language-8-write-it",
+      "id": "mecca-a1-ar-language-8-write-it",
       "type": "reflection",
-      "title": "Write It: A Good Person",
-      "instructions": "Write about a good person.",
-      "question": "What does a good person do?",
+      "title": "اكْتُبْهَا: إِنْسَانٌ طَيِّبٌ",
+      "instructions": "اكْتُبْ عَنْ إِنْسَانٍ طَيِّبٍ.",
+      "question": "مَاذَا يَفْعَلُ الْإِنْسَانُ الطَّيِّبُ؟",
       "correctAnswer": null,
-      "explanation": "Use is / is not important.",
+      "explanation": "استعمل «لَيْسَ» من الفصل الثامن.",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“A good person …”",
+        "question": "«الْإِنْسَانُ الطَّيِّبُ …»",
         "mode": "Individual",
-        "example": "A good person helps others."
+        "example": "الْإِنْسَانُ الطَّيِّبُ يُسَاعِدُ النَّاسَ."
        },
        {
-        "question": "“… is not important.”",
+        "question": "«… لَيْسَ مُهِمًّا.»",
         "mode": "Individual",
-        "example": "Money is not important."
+        "example": "الْمَالُ لَيْسَ مُهِمًّا."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What makes a person better?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا يَجْعَلُ الْإِنْسَانَ أَحْسَنَ؟",
      "options": [
-      "good actions",
-      "a lot of money",
-      "skin color"
+      "الْأَعْمَالُ الطَّيِّبَةُ",
+      "الْمَالُ الْكَثِيرُ",
+      "لَوْنُ الْإِنْسَانِ"
      ],
      "answer": 0,
-     "quote": "Only good actions make a person better."
+     "quote": "الْأَعْمَالُ الطَّيِّبَةُ فَقَطْ تَجْعَلُ الْإِنْسَانَ أَحْسَنَ."
     },
     "iCan": [
-     "I can tell the lesson of the last speech.",
-     "I can use is not and are not.",
-     "I can write about a good person."
+     "أَسْتَطِيعُ أَنْ أَقُولَ دَرْسَ الْخُطْبَةِ الْأَخِيرَةِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «لَيْسَ».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنْ إِنْسَانٍ طَيِّبٍ."
     ],
     "groupTask": {
      "type": "project",
-     "title": "A Good Heart",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "قَلْبٌ طَيِّبٌ",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group draws a big heart on paper.",
-      "Inside the heart, each student writes one good action: “I help …”, “I share …”.",
-      "Outside the heart, the group writes: “Skin color is not important.”",
-      "One student reads the poster to the class."
+      "تَرْسُمُ الْمَجْمُوعَةُ قَلْبًا كَبِيرًا عَلَى وَرَقَةٍ.",
+      "دَاخِلَ الْقَلْبِ، يَكْتُبُ كُلُّ طَالِبٍ عَمَلًا طَيِّبًا: «أُسَاعِدُ …»، «أُعْطِي …».",
+      "خَارِجَ الْقَلْبِ، تَكْتُبُ الْمَجْمُوعَةُ: «لَوْنُ الْإِنْسَانِ لَيْسَ مُهِمًّا.»",
+      "يَقْرَأُ طَالِبٌ وَاحِدٌ اللَّوْحَةَ لِلصَّفِّ."
      ],
-     "share": "One student reads the poster. Story: “A good heart and good actions are important.”",
-     "solo": "Draw a heart. Write three good actions in it."
+     "share": "يَقْرَأُ طَالِبٌ وَاحِدٌ اللَّوْحَةَ. مِنَ الْقِصَّةِ: «الْمُهِمُّ الْقَلْبُ الطَّيِّبُ وَالْأَعْمَالُ الطَّيِّبَةُ.»",
+     "solo": "ارْسُمْ قَلْبًا، وَاكْتُبْ فِيهِ ثَلَاثَةَ أَعْمَالٍ طَيِّبَةٍ."
     }
    },
    {
     "id": 101,
     "type": "map",
-    "title": "Bilal’s World",
-    "subtitle": "Map · Chapters 1–8",
+    "title": "عَالَمُ بِلَالٍ",
+    "subtitle": "خَرِيطَةٌ · الْفُصُولُ مِنْ 1 إِلَى 8",
     "content": "",
     "map": {
      "baseMap": "nearEast",
@@ -1494,8 +1486,8 @@
       "mode": "stages"
      },
      "legend": {
-      "route:hijra": "The Muslims go to Medina",
-      "route:toDamascus": "Bilal goes to Damascus"
+      "route:hijra": "الْمُسْلِمُونَ يَذْهَبُونَ إِلَى الْمَدِينَةِ",
+      "route:toDamascus": "بِلَالٌ يَذْهَبُ إِلَى دِمَشْقَ"
      },
      "routes": [
       {
@@ -1564,11 +1556,11 @@
        "icon": "city",
        "tone": "place",
        "labelSide": "right",
-       "name": "Mecca",
-       "kind": "City",
-       "text": "Bilal was born in Mecca. He was a slave here. Then he was a Muslim, and Abu Bakr made him free.",
-       "teacherNote": "Chapters 1–6 happen in Mecca.",
-       "question": "Who made Bilal free?"
+       "name": "مَكَّةُ",
+       "kind": "مَدِينَةٌ",
+       "text": "وُلِدَ بِلَالٌ فِي مَكَّةَ. كَانَ عَبْدًا هُنَا. ثُمَّ صَارَ مُسْلِمًا، وَجَعَلَهُ أَبُو بَكْرٍ حُرًّا.",
+       "teacherNote": "تجري أحداث الفصول ١–٦ في مكة.",
+       "question": "مَنْ جَعَلَ بِلَالًا حُرًّا؟"
       },
       {
        "id": "abyssinia",
@@ -1580,11 +1572,11 @@
        "areaRadiusKm": 270,
        "showArea": true,
        "labelSide": "right",
-       "name": "Ethiopia",
-       "kind": "Land",
-       "text": "Bilal’s mother was from Ethiopia. It is a land in Africa.",
-       "teacherNote": "The A1 text says “Ethiopia”. Older books call it Abyssinia. Bilal was born in Mecca.",
-       "question": "Where was Bilal’s mother from?"
+       "name": "الْحَبَشَةُ",
+       "kind": "أَرْضٌ",
+       "text": "كَانَتْ أُمُّ بِلَالٍ مِنَ الْحَبَشَةِ. هِيَ أَرْضٌ فِي إِفْرِيقِيَا.",
+       "teacherNote": "الحبشة اسمها اليوم إثيوبيا. ووُلد بلال نفسه في مكة.",
+       "question": "مِنْ أَيْنَ كَانَتْ أُمُّ بِلَالٍ؟"
       },
       {
        "id": "medina",
@@ -1594,11 +1586,11 @@
        "icon": "palm",
        "tone": "place",
        "labelSide": "right",
-       "name": "Medina",
-       "kind": "City",
-       "text": "Later, the Muslims went to live in Medina. Here, Bilal gave the first Adhan.",
-       "teacherNote": "The A1 text does not use the word Hijrah.",
-       "question": "What did Bilal give in Medina?"
+       "name": "الْمَدِينَةُ",
+       "kind": "مَدِينَةٌ",
+       "text": "بَعْدَ ذَلِكَ، ذَهَبَ الْمُسْلِمُونَ لِيَعِيشُوا فِي الْمَدِينَةِ. هُنَا رَفَعَ بِلَالٌ الْأَذَانَ الْأَوَّلَ.",
+       "teacherNote": "لا يستعمل نص A1 كلمة «الهجرة».",
+       "question": "مَاذَا رَفَعَ بِلَالٌ فِي الْمَدِينَةِ؟"
       },
       {
        "id": "damascus",
@@ -1608,11 +1600,11 @@
        "icon": "city",
        "tone": "place",
        "labelSide": "right",
-       "name": "Damascus",
-       "kind": "City",
-       "text": "The Prophet (pbuh) died in 632. Bilal was very sad. He went to Damascus and died there.",
-       "teacherNote": "The book gives no year for Bilal’s journey to Damascus.",
-       "question": "Where did Bilal die?"
+       "name": "دِمَشْقُ",
+       "kind": "مَدِينَةٌ",
+       "text": "مَاتَ النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ سَنَةَ 632، فَحَزِنَ بِلَالٌ كَثِيرًا. ذَهَبَ إِلَى دِمَشْقَ، وَمَاتَ هُنَاكَ.",
+       "teacherNote": "لا يذكر الكتاب سنة ذهاب بلال إلى دمشق.",
+       "question": "أَيْنَ مَاتَ بِلَالٌ؟"
       }
      ],
      "towns": [],
@@ -1621,13 +1613,13 @@
        "id": "redSea",
        "lon": 38.8,
        "lat": 19.5,
-       "name": "Red Sea"
+       "name": "الْبَحْرُ الْأَحْمَرُ"
       },
       {
        "id": "mediterranean",
        "lon": 32.6,
        "lat": 33.3,
-       "name": "Mediterranean Sea"
+       "name": "الْبَحْرُ الْأَبْيَضُ الْمُتَوَسِّطُ"
       }
      ],
      "timeline": [
@@ -1643,7 +1635,7 @@
         "kind": "dawn",
         "placeId": "mecca"
        },
-       "label": "Bilal is born"
+       "label": "وُلِدَ بِلَالٌ"
       },
       {
        "year": 2,
@@ -1660,7 +1652,7 @@
          "abyssinia"
         ]
        },
-       "label": "Slaves in Mecca"
+       "label": "عَبِيدٌ فِي مَكَّةَ"
       },
       {
        "year": 3,
@@ -1675,7 +1667,7 @@
         "placeId": "mecca",
         "reach": []
        },
-       "label": "A new Prophet"
+       "label": "نَبِيٌّ جَدِيدٌ"
       },
       {
        "year": 4,
@@ -1689,7 +1681,7 @@
         "kind": "dawn",
         "placeId": "mecca"
        },
-       "label": "Bilal is free"
+       "label": "بِلَالٌ حُرٌّ"
       },
       {
        "year": 5,
@@ -1704,7 +1696,7 @@
         "placeId": "medina",
         "reach": []
        },
-       "label": "Going to Medina"
+       "label": "إِلَى الْمَدِينَةِ"
       },
       {
        "year": 6,
@@ -1722,7 +1714,7 @@
          "damascus"
         ]
        },
-       "label": "Bilal goes to Damascus"
+       "label": "بِلَالٌ يَذْهَبُ إِلَى دِمَشْقَ"
       }
      ],
      "challenge": [
@@ -1731,28 +1723,28 @@
        "lon": 39.83,
        "lat": 21.42,
        "radiusKm": 110,
-       "prompt": "Find Mecca. Bilal was born here."
+       "prompt": "ابْحَثْ عَنْ مَكَّةَ. وُلِدَ بِلَالٌ هُنَا."
       },
       {
        "id": "abyssinia",
        "lon": 38.9,
        "lat": 13.3,
        "radiusKm": 300,
-       "prompt": "Find Ethiopia. Bilal’s mother was from here."
+       "prompt": "ابْحَثْ عَنِ الْحَبَشَةِ. كَانَتْ أُمُّ بِلَالٍ مِنْ هُنَا."
       },
       {
        "id": "medina",
        "lon": 39.61,
        "lat": 24.47,
        "radiusKm": 100,
-       "prompt": "Find Medina. Bilal gave the first Adhan here."
+       "prompt": "ابْحَثْ عَنِ الْمَدِينَةِ. رَفَعَ بِلَالٌ الْأَذَانَ الْأَوَّلَ هُنَا."
       },
       {
        "id": "damascus",
        "lon": 36.29,
        "lat": 33.51,
        "radiusKm": 130,
-       "prompt": "Find Damascus. Bilal died here."
+       "prompt": "ابْحَثْ عَنْ دِمَشْقَ. مَاتَ بِلَالٌ هُنَا."
       }
      ]
     }
@@ -1760,107 +1752,107 @@
    {
     "id": 11,
     "type": "quiz",
-    "title": "Knowledge Check",
+    "title": "اختبار المعرفة",
     "image": "https://picsum.photos/seed/quiz-mecca-a1/1200/800",
     "audioUrl": "",
-    "content": "Check your understanding of the complete story.",
+    "content": "اختبر فهمك لقصة بلال بن رباح ومكة قبل الإسلام.",
     "exercises": [
      {
-      "id": "mecca-a1-kc-1",
+      "id": "mecca-a1-ar-kc-1",
       "type": "multiple-choice",
-      "title": "Bilal",
-      "instructions": "Choose the answer.",
-      "question": "Where was Bilal born?",
+      "title": "بِلَالٌ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "أَيْنَ وُلِدَ بِلَالٌ؟",
       "options": [
-       "in Mecca",
-       "in Ethiopia",
-       "in Damascus"
+       "فِي مَكَّةَ",
+       "فِي الْحَبَشَةِ",
+       "فِي دِمَشْقَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 1: “Bilal ibn Rabah was born in Mecca.”",
+      "explanation": "الفصل الأول: «وُلِدَ بِلَالُ بْنُ رَبَاحٍ فِي مَكَّةَ».",
       "feedback": {
-       "correct": "Yes. In Mecca.",
-       "incorrect": "Read the first sentence of Chapter 1."
+       "correct": "نَعَمْ. وُلِدَ فِي مَكَّةَ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "mecca-a1-kc-2",
+      "id": "mecca-a1-ar-kc-2",
       "type": "true-false",
-      "title": "Old Mecca",
-      "instructions": "Is it true or false?",
-      "question": "Before Islam, life in Mecca was fair.",
+      "title": "مَكَّةُ الْقَدِيمَةُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "قَبْلَ الْإِسْلَامِ، كَانَتِ الْحَيَاةُ فِي مَكَّةَ عَادِلَةً.",
       "correctAnswer": false,
-      "explanation": "Chapter 2: “Life was not fair.”",
+      "explanation": "الفصل الثاني: «مَا كَانَتِ الْحَيَاةُ عَادِلَةً».",
       "feedback": {
-       "correct": "Yes, it is false.",
-       "incorrect": "Read the second paragraph of Chapter 2."
+       "correct": "نَعَمْ، هَذَا خَطَأٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "mecca-a1-kc-3",
+      "id": "mecca-a1-ar-kc-3",
       "type": "multiple-choice",
-      "title": "In the Desert",
-      "instructions": "Choose the answer.",
-      "question": "What did Bilal look after in the desert?",
+      "title": "فِي الصَّحْرَاءِ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "بِمَاذَا اعْتَنَى بِلَالٌ فِي الصَّحْرَاءِ؟",
       "options": [
-       "the camels",
-       "the children",
-       "the sheep"
+       "بِالْجِمَالِ",
+       "بِالْأَطْفَالِ",
+       "بِالْغَنَمِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 3: “He looked after the camels in the hot desert.”",
+      "explanation": "الفصل الثالث: «اعْتَنَى بِالْجِمَالِ فِي الصَّحْرَاءِ الْحَارَّةِ».",
       "feedback": {
-       "correct": "Yes. The camels.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "نَعَمْ. اعْتَنَى بِالْجِمَالِ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "mecca-a1-kc-4",
+      "id": "mecca-a1-ar-kc-4",
       "type": "true-false",
-      "title": "Abu Bakr",
-      "instructions": "Is it true or false?",
-      "question": "Abu Bakr was the close friend of the Prophet (pbuh).",
+      "title": "أَبُو بَكْرٍ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "كَانَ أَبُو بَكْرٍ صَدِيقَ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ الْقَرِيبَ.",
       "correctAnswer": true,
-      "explanation": "Chapter 4: “Abu Bakr was the close friend of the Prophet (pbuh).”",
+      "explanation": "الفصل الرابع: «كَانَ أَبُو بَكْرٍ صَدِيقَ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ الْقَرِيبَ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the first paragraph of Chapter 4."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "mecca-a1-kc-5",
+      "id": "mecca-a1-ar-kc-5",
       "type": "multiple-choice",
-      "title": "Free",
-      "instructions": "Choose the answer.",
-      "question": "Who made Bilal free?",
+      "title": "حُرٌّ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَنْ جَعَلَ بِلَالًا حُرًّا؟",
       "options": [
-       "Abu Bakr",
-       "Umayya",
-       "his mother"
+       "أَبُو بَكْرٍ",
+       "أُمَيَّةُ",
+       "أُمُّهُ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 6: Abu Bakr said, “You are free now. You are not a slave.”",
+      "explanation": "الفصل السادس: قَالَ أَبُو بَكْرٍ: «أَنْتَ حُرٌّ الْآنَ. لَسْتَ عَبْدًا.»",
       "feedback": {
-       "correct": "Yes. Abu Bakr.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "نَعَمْ. أَبُو بَكْرٍ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ السَّادِسَ."
       }
      },
      {
-      "id": "mecca-a1-kc-6",
+      "id": "mecca-a1-ar-kc-6",
       "type": "multiple-choice",
-      "title": "Damascus",
-      "instructions": "Choose the answer.",
-      "question": "Where did Bilal die?",
+      "title": "دِمَشْقُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "أَيْنَ مَاتَ بِلَالٌ؟",
       "options": [
-       "in Damascus",
-       "in Mecca",
-       "in Medina"
+       "فِي دِمَشْقَ",
+       "فِي مَكَّةَ",
+       "فِي الْمَدِينَةِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 8: “He went to Damascus and died there.”",
+      "explanation": "الفصل الثامن: «ذَهَبَ إِلَى دِمَشْقَ، وَمَاتَ هُنَاكَ».",
       "feedback": {
-       "correct": "Yes. In Damascus.",
-       "incorrect": "Read the second paragraph of Chapter 8."
+       "correct": "نَعَمْ. مَاتَ فِي دِمَشْقَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّامِنِ."
       }
      }
     ]
@@ -1868,570 +1860,516 @@
    {
     "id": 13,
     "type": "glossary",
-    "title": "Master Glossary",
-    "content": "Review all key vocabulary from the story in one place.",
+    "title": "المعجم الرئيسي",
+    "content": "راجع جميع مفردات القصة المهمة في مكان واحد.",
     "image": "https://picsum.photos/seed/glossary-mecca-a1/1200/800",
     "vocabulary": [
      {
-      "word": "slave",
-      "definition": "A person who works for no money and is not free.",
+      "word": "عَبْدًا",
+      "definition": "إِنْسَانٌ لَيْسَ حُرًّا، يَعْمَلُ بِلَا مَالٍ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/sleɪv/",
       "chapter": 1,
-      "chapterTitle": "Bilal ibn Rabah",
-      "storyExample": "He was a black slave.",
-      "category": "People"
+      "chapterTitle": "بِلَالُ بْنُ رَبَاحٍ",
+      "storyExample": "كَانَ عَبْدًا أَسْوَدَ."
      },
      {
-      "word": "free",
-      "definition": "Not a slave; you can do what you want.",
+      "word": "حُرًّا",
+      "definition": "لَيْسَ عَبْدًا؛ يَفْعَلُ مَا يُرِيدُ.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/friː/",
       "chapter": 1,
-      "chapterTitle": "Bilal ibn Rabah",
-      "storyExample": "But Islam made him a free and great man.",
-      "category": "Values"
+      "chapterTitle": "بِلَالُ بْنُ رَبَاحٍ",
+      "storyExample": "لَكِنَّ الْإِسْلَامَ جَعَلَهُ رَجُلًا حُرًّا عَظِيمًا."
      },
      {
-      "word": "Adhan",
-      "definition": "The call to prayer.",
+      "word": "أَذَانٍ",
+      "definition": "النِّدَاءُ إِلَى الصَّلَاةِ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/əˈðɑːn/",
       "chapter": 1,
-      "chapterTitle": "Bilal ibn Rabah",
-      "storyExample": "He also gave the first Adhan.",
-      "category": "Faith"
+      "chapterTitle": "بِلَالُ بْنُ رَبَاحٍ",
+      "storyExample": "وَرَفَعَ أَيْضًا أَوَّلَ أَذَانٍ."
      },
      {
-      "word": "prayer",
-      "definition": "Talking to Allah; salah.",
+      "word": "الصَّلَاةِ",
+      "definition": "عِبَادَةٌ نُكَلِّمُ فِيهَا اللهَ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/prer/",
       "chapter": 1,
-      "chapterTitle": "Bilal ibn Rabah",
-      "storyExample": "The Adhan tells people it is time for prayer.",
-      "category": "Faith"
+      "chapterTitle": "بِلَالُ بْنُ رَبَاحٍ",
+      "storyExample": "الْأَذَانُ يُخْبِرُ النَّاسَ أَنَّ وَقْتَ الصَّلَاةِ جَاءَ."
      },
      {
-      "word": "idol",
-      "definition": "A stone or wood thing people pray to.",
+      "word": "الْأَصْنَامَ",
+      "definition": "الصَّنَمُ: شَيْءٌ مِنْ حَجَرٍ أَوْ خَشَبٍ يَعْبُدُهُ النَّاسُ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈaɪdl/",
       "chapter": 2,
-      "chapterTitle": "Life in Old Mecca",
-      "storyExample": "They prayed to idols.",
-      "category": "Faith"
+      "chapterTitle": "الْحَيَاةُ فِي مَكَّةَ الْقَدِيمَةِ",
+      "storyExample": "عَبَدُوا الْأَصْنَامَ."
      },
      {
-      "word": "fair",
-      "definition": "Right and good for everyone.",
+      "word": "عَادِلَةً",
+      "definition": "صَحِيحَةٌ وَطَيِّبَةٌ لِكُلِّ النَّاسِ.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/fer/",
       "chapter": 2,
-      "chapterTitle": "Life in Old Mecca",
-      "storyExample": "Life was not fair.",
-      "category": "Values"
+      "chapterTitle": "الْحَيَاةُ فِي مَكَّةَ الْقَدِيمَةِ",
+      "storyExample": "مَا كَانَتِ الْحَيَاةُ عَادِلَةً."
      },
      {
-      "word": "rich",
-      "definition": "With a lot of money or good things.",
+      "word": "الْأَغْنِيَاءِ",
+      "definition": "الْغَنِيُّ: عِنْدَهُ مَالٌ كَثِيرٌ أَوْ خَيْرٌ كَثِيرٌ.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/rɪtʃ/",
       "chapter": 2,
-      "chapterTitle": "Life in Old Mecca",
-      "storyExample": "Rich people had a lot of money.",
-      "category": "Describing"
+      "chapterTitle": "الْحَيَاةُ فِي مَكَّةَ الْقَدِيمَةِ",
+      "storyExample": "كَانَ عِنْدَ النَّاسِ الْأَغْنِيَاءِ مَالٌ كَثِيرٌ."
      },
      {
-      "word": "gold",
-      "definition": "A yellow, very expensive metal.",
+      "word": "ذَهَبٍ",
+      "definition": "مَعْدِنٌ أَصْفَرُ، غَالٍ جِدًّا.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ɡoʊld/",
       "chapter": 2,
-      "chapterTitle": "Life in Old Mecca",
-      "storyExample": "They ate from gold plates and drank from beautiful cups.",
-      "category": "Things"
+      "chapterTitle": "الْحَيَاةُ فِي مَكَّةَ الْقَدِيمَةِ",
+      "storyExample": "أَكَلُوا فِي صُحُونٍ مِنْ ذَهَبٍ، وَشَرِبُوا فِي كُؤُوسٍ جَمِيلَةٍ."
      },
      {
-      "word": "master",
-      "definition": "The man who owns a slave.",
+      "word": "سَيِّدُهُ",
+      "definition": "الرَّجُلُ الَّذِي يَمْلِكُ الْعَبْدَ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈmæstər/",
       "chapter": 2,
-      "chapterTitle": "Life in Old Mecca",
-      "storyExample": "His master was Umayya ibn Khalaf.",
-      "category": "People"
+      "chapterTitle": "الْحَيَاةُ فِي مَكَّةَ الْقَدِيمَةِ",
+      "storyExample": "وَكَانَ سَيِّدُهُ أُمَيَّةَ بْنَ خَلَفٍ."
      },
      {
-      "word": "unkind",
-      "definition": "Not kind; bad to other people.",
+      "word": "قَاسِيًا",
+      "definition": "لَيْسَ لَطِيفًا؛ يُعَامِلُ النَّاسَ بِسُوءٍ.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/ʌnˈkaɪnd/",
       "chapter": 3,
-      "chapterTitle": "A Hard Life",
-      "storyExample": "Umayya was very unkind to Bilal.",
-      "category": "Describing"
+      "chapterTitle": "حَيَاةٌ صَعْبَةٌ",
+      "storyExample": "كَانَ أُمَيَّةُ قَاسِيًا جِدًّا مَعَ بِلَالٍ، وَكَانَتْ عَائِلَتُهُ قَاسِيَةً أَيْضًا."
      },
      {
-      "word": "camel",
-      "definition": "A big desert animal with a hump.",
+      "word": "الْجِمَالِ",
+      "definition": "الْجَمَلُ: حَيَوَانٌ كَبِيرٌ فِي الصَّحْرَاءِ، عَلَى ظَهْرِهِ سَنَامٌ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈkæml/",
       "chapter": 3,
-      "chapterTitle": "A Hard Life",
-      "storyExample": "He looked after the camels in the hot desert.",
-      "category": "Nature"
+      "chapterTitle": "حَيَاةٌ صَعْبَةٌ",
+      "storyExample": "اعْتَنَى بِالْجِمَالِ فِي الصَّحْرَاءِ الْحَارَّةِ."
      },
      {
-      "word": "desert",
-      "definition": "A hot, dry place with sand.",
+      "word": "الصَّحْرَاءِ",
+      "definition": "مَكَانٌ حَارٌّ جَافٌّ، فِيهِ رَمْلٌ كَثِيرٌ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈdezərt/",
       "chapter": 3,
-      "chapterTitle": "A Hard Life",
-      "storyExample": "He looked after the camels in the hot desert.",
-      "category": "Nature"
+      "chapterTitle": "حَيَاةٌ صَعْبَةٌ",
+      "storyExample": "اعْتَنَى بِالْجِمَالِ فِي الصَّحْرَاءِ الْحَارَّةِ."
      },
      {
-      "word": "patient",
-      "definition": "Calm; you wait and do not get angry.",
+      "word": "صَبُورًا",
+      "definition": "هَادِئٌ؛ يَنْتَظِرُ وَلَا يَغْضَبُ.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/ˈpeɪʃnt/",
       "chapter": 3,
-      "chapterTitle": "A Hard Life",
-      "storyExample": "He was always patient.",
-      "category": "Values"
+      "chapterTitle": "حَيَاةٌ صَعْبَةٌ",
+      "storyExample": "وَكَانَ دَائِمًا صَبُورًا."
      },
      {
-      "word": "equal",
-      "definition": "The same; no one is better.",
+      "word": "سَوَاءٌ",
+      "definition": "مِثْلُ بَعْضِهِمْ؛ لَا أَحَدَ أَحْسَنُ مِنْ أَحَدٍ.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/ˈiːkwəl/",
       "chapter": 3,
-      "chapterTitle": "A Hard Life",
-      "storyExample": "He taught that all people are equal.",
-      "category": "Values"
+      "chapterTitle": "حَيَاةٌ صَعْبَةٌ",
+      "storyExample": "وَعَلَّمَهُمْ أَنَّ النَّاسَ كُلَّهُمْ سَوَاءٌ."
      },
      {
-      "word": "secretly",
-      "definition": "So other people do not see or know.",
+      "word": "سِرًّا",
+      "definition": "لَا يَرَاهُ النَّاسُ وَلَا يَعْرِفُونَ.",
       "partOfSpeech": "adverb",
       "level": "A1",
-      "pronunciation": "/ˈsiːkrətli/",
       "chapter": 4,
-      "chapterTitle": "A Visit at Night",
-      "storyExample": "One night, Bilal left his room secretly.",
-      "category": "Describing"
+      "chapterTitle": "زِيَارَةٌ فِي اللَّيْلِ",
+      "storyExample": "فِي لَيْلَةٍ مِنَ اللَّيَالِي، خَرَجَ بِلَالٌ مِنْ غُرْفَتِهِ سِرًّا."
      },
      {
-      "word": "afraid",
-      "definition": "Feeling that something bad will happen.",
+      "word": "خَائِفًا",
+      "definition": "يَشْعُرُ أَنَّ شَيْئًا سَيِّئًا سَيَحْدُثُ.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/əˈfreɪd/",
       "chapter": 4,
-      "chapterTitle": "A Visit at Night",
-      "storyExample": "He was afraid.",
-      "category": "Feelings"
+      "chapterTitle": "زِيَارَةٌ فِي اللَّيْلِ",
+      "storyExample": "كَانَ اللَّيْلُ مُظْلِمًا جِدًّا، وَكَانَ بِلَالٌ خَائِفًا."
      },
      {
-      "word": "believe",
-      "definition": "Think that something is true.",
+      "word": "آمَنَ",
+      "definition": "صَدَّقَ بِقَلْبِهِ أَنَّ هَذَا حَقٌّ.",
       "partOfSpeech": "verb",
       "level": "A1",
-      "pronunciation": "/bɪˈliːv/",
       "chapter": 4,
-      "chapterTitle": "A Visit at Night",
-      "storyExample": "But he believed in Allah.",
-      "category": "Faith"
+      "chapterTitle": "زِيَارَةٌ فِي اللَّيْلِ",
+      "storyExample": "لَكِنَّهُ آمَنَ بِاللهِ، وَصَارَ مُسْلِمًا."
      },
      {
-      "word": "hurt",
-      "definition": "Make a person feel pain.",
+      "word": "آذَى",
+      "definition": "جَعَلَهُ يَشْعُرُ بِالْأَلَمِ.",
       "partOfSpeech": "verb",
       "level": "A1",
-      "pronunciation": "/hɜːrt/",
       "chapter": 5,
-      "chapterTitle": "“Allah Is One”",
-      "storyExample": "Then Umayya hurt Bilal very badly.",
-      "category": "Actions"
+      "chapterTitle": "«أَحَدٌ أَحَدٌ»",
+      "storyExample": "ثُمَّ آذَى أُمَيَّةُ بِلَالًا كَثِيرًا."
      },
      {
-      "word": "rock",
-      "definition": "A very big stone.",
+      "word": "صَخْرَةً",
+      "definition": "حَجَرٌ كَبِيرٌ جِدًّا.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/rɑːk/",
       "chapter": 5,
-      "chapterTitle": "“Allah Is One”",
-      "storyExample": "He put a big, hot rock on Bilal’s chest in the sun.",
-      "category": "Nature"
+      "chapterTitle": "«أَحَدٌ أَحَدٌ»",
+      "storyExample": "وَضَعَ صَخْرَةً كَبِيرَةً حَارَّةً عَلَى صَدْرِهِ فِي الشَّمْسِ."
      },
      {
-      "word": "chest",
-      "definition": "The front of your body, under your neck.",
+      "word": "صَدْرِهِ",
+      "definition": "الصَّدْرُ: مُقَدِّمَةُ الْجِسْمِ تَحْتَ الرَّقَبَةِ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/tʃest/",
       "chapter": 5,
-      "chapterTitle": "“Allah Is One”",
-      "storyExample": "He put a big, hot rock on Bilal’s chest in the sun.",
-      "category": "Body"
+      "chapterTitle": "«أَحَدٌ أَحَدٌ»",
+      "storyExample": "وَضَعَ صَخْرَةً كَبِيرَةً حَارَّةً عَلَى صَدْرِهِ فِي الشَّمْسِ."
      },
      {
-      "word": "pain",
-      "definition": "The bad feeling when you are hurt.",
+      "word": "أَلَمٍ",
+      "definition": "الشُّعُورُ السَّيِّئُ عِنْدَمَا يُؤْذِيكَ شَيْءٌ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/peɪn/",
       "chapter": 5,
-      "chapterTitle": "“Allah Is One”",
-      "storyExample": "He was in great pain, but he was very strong.",
-      "category": "Feelings"
+      "chapterTitle": "«أَحَدٌ أَحَدٌ»",
+      "storyExample": "كَانَ فِي أَلَمٍ شَدِيدٍ، لَكِنَّهُ كَانَ قَوِيًّا جِدًّا."
      },
      {
-      "word": "sell",
-      "definition": "Give something and get money for it.",
+      "word": "بِعْنِي",
+      "definition": "بَاعَ: أَعْطَى شَيْئًا، وَأَخَذَ مَالًا.",
       "partOfSpeech": "verb",
       "level": "A1",
-      "pronunciation": "/sel/",
       "chapter": 6,
-      "chapterTitle": "Abu Bakr Helps Bilal",
-      "storyExample": "He said, “Sell Bilal to me.”",
-      "category": "Actions"
+      "chapterTitle": "أَبُو بَكْرٍ يُسَاعِدُ بِلَالًا",
+      "storyExample": "قَالَ: «بِعْنِي بِلَالًا.»"
      },
      {
-      "word": "pay",
-      "definition": "Give money for something.",
+      "word": "دَفَعَ",
+      "definition": "أَعْطَى الْمَالَ ثَمَنًا لِشَيْءٍ.",
       "partOfSpeech": "verb",
       "level": "A1",
-      "pronunciation": "/peɪ/",
       "chapter": 6,
-      "chapterTitle": "Abu Bakr Helps Bilal",
-      "storyExample": "Abu Bakr paid the money.",
-      "category": "Actions"
+      "chapterTitle": "أَبُو بَكْرٍ يُسَاعِدُ بِلَالًا",
+      "storyExample": "وَدَفَعَ أَبُو بَكْرٍ الْمَالَ."
      },
      {
-      "word": "voice",
-      "definition": "The sound of someone speaking.",
+      "word": "صَوْتٌ",
+      "definition": "مَا نَسْمَعُهُ عِنْدَمَا يَتَكَلَّمُ أَحَدٌ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/vɔɪs/",
       "chapter": 7,
-      "chapterTitle": "The First Adhan",
-      "storyExample": "Bilal had a beautiful voice.",
-      "category": "Life"
+      "chapterTitle": "الْأَذَانُ الْأَوَّلُ",
+      "storyExample": "كَانَ لِبِلَالٍ صَوْتٌ جَمِيلٌ."
      },
      {
-      "word": "brave",
-      "definition": "Not afraid of danger.",
+      "word": "شُجَاعًا",
+      "definition": "لَا يَخَافُ مِنَ الْخَطَرِ.",
       "partOfSpeech": "adjective",
       "level": "A1",
-      "pronunciation": "/breɪv/",
       "chapter": 7,
-      "chapterTitle": "The First Adhan",
-      "storyExample": "He was also very brave.",
-      "category": "Values"
+      "chapterTitle": "الْأَذَانُ الْأَوَّلُ",
+      "storyExample": "وَكَانَ شُجَاعًا جِدًّا أَيْضًا."
      },
      {
-      "word": "speech",
-      "definition": "A talk to many people.",
+      "word": "خُطْبَةٍ",
+      "definition": "كَلَامٌ يَقُولُهُ رَجُلٌ أَمَامَ نَاسٍ كَثِيرِينَ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/spiːtʃ/",
       "chapter": 8,
-      "chapterTitle": "Everyone Is Equal",
-      "storyExample": "In 632, the Prophet (pbuh) gave his last speech.",
-      "category": "Life"
+      "chapterTitle": "النَّاسُ كُلُّهُمْ سَوَاءٌ",
+      "storyExample": "فِي سَنَةِ سِتِّمِئَةٍ وَاثْنَتَيْنِ وَثَلَاثِينَ، أَلْقَى النَّبِيُّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ آخِرَ خُطْبَةٍ لَهُ."
      },
      {
-      "word": "action",
-      "definition": "A thing that you do.",
+      "word": "الْأَعْمَالُ",
+      "definition": "الْعَمَلُ: شَيْءٌ تَفْعَلُهُ.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈækʃn/",
       "chapter": 8,
-      "chapterTitle": "Everyone Is Equal",
-      "storyExample": "Only good actions make a person better.",
-      "category": "Values"
+      "chapterTitle": "النَّاسُ كُلُّهُمْ سَوَاءٌ",
+      "storyExample": "الْأَعْمَالُ الطَّيِّبَةُ فَقَطْ تَجْعَلُ الْإِنْسَانَ أَحْسَنَ."
      }
     ]
    },
    {
     "id": 102,
     "type": "places",
-    "title": "Places & People",
-    "content": "Find every place and person from the story on the map.",
+    "title": "الأَمَاكِنُ وَالأَشْخَاصُ",
+    "content": "اِبْحَثْ عَلَى الخَرِيطَةِ عَنْ كُلِّ مَدِينَةٍ وَأَرْضٍ وَبَحْرٍ وَشَخْصٍ فِي القِصَّةِ.",
     "entityBookKey": "mecca-a1"
    },
    {
     "id": 12,
     "type": "vocabulary-match",
-    "title": "Vocabulary Challenge",
+    "title": "تحدي المفردات",
     "image": "https://picsum.photos/seed/vocab-match-mecca-a1/1200/800",
     "audioUrl": "",
-    "content": "Match six story words with their meanings.",
+    "content": "صِلْ سِتَّ كَلِمَاتٍ مِنَ الْقِصَّةِ بِمَعَانِيهَا.",
     "vocabularyPairs": [
      {
-      "word": "slave",
-      "meaning": "A person who works for no money and is not free.",
+      "word": "عَبْدًا",
+      "meaning": "إِنْسَانٌ لَيْسَ حُرًّا، يَعْمَلُ بِلَا مَالٍ.",
       "partOfSpeech": "noun",
       "chapter": 1,
-      "context": "He was a black slave."
+      "context": "كَانَ عَبْدًا أَسْوَدَ."
      },
      {
-      "word": "rich",
-      "meaning": "With a lot of money.",
+      "word": "الْأَغْنِيَاءِ",
+      "meaning": "الْغَنِيُّ: عِنْدَهُ مَالٌ كَثِيرٌ أَوْ خَيْرٌ كَثِيرٌ.",
       "partOfSpeech": "adjective",
       "chapter": 2,
-      "context": "Rich people had a lot of money."
+      "context": "كَانَ عِنْدَ النَّاسِ الْأَغْنِيَاءِ مَالٌ كَثِيرٌ."
      },
      {
-      "word": "patient",
-      "meaning": "You wait and do not get angry.",
+      "word": "صَبُورًا",
+      "meaning": "هَادِئٌ؛ يَنْتَظِرُ وَلَا يَغْضَبُ.",
       "partOfSpeech": "adjective",
       "chapter": 3,
-      "context": "He was always patient."
+      "context": "وَكَانَ دَائِمًا صَبُورًا."
      },
      {
-      "word": "afraid",
-      "meaning": "You think something bad will happen.",
+      "word": "خَائِفًا",
+      "meaning": "يَشْعُرُ أَنَّ شَيْئًا سَيِّئًا سَيَحْدُثُ.",
       "partOfSpeech": "adjective",
       "chapter": 4,
-      "context": "He was afraid."
+      "context": "كَانَ اللَّيْلُ مُظْلِمًا جِدًّا، وَكَانَ بِلَالٌ خَائِفًا."
      },
      {
-      "word": "pain",
-      "meaning": "The bad feeling when you are hurt.",
+      "word": "أَلَمٍ",
+      "meaning": "الشُّعُورُ السَّيِّئُ عِنْدَمَا يُؤْذِيكَ شَيْءٌ.",
       "partOfSpeech": "noun",
       "chapter": 5,
-      "context": "He was in great pain, but he was very strong."
+      "context": "كَانَ فِي أَلَمٍ شَدِيدٍ، لَكِنَّهُ كَانَ قَوِيًّا جِدًّا."
      },
      {
-      "word": "brave",
-      "meaning": "Not afraid.",
+      "word": "شُجَاعًا",
+      "meaning": "لَا يَخَافُ مِنَ الْخَطَرِ.",
       "partOfSpeech": "adjective",
       "chapter": 7,
-      "context": "He was also very brave."
+      "context": "وَكَانَ شُجَاعًا جِدًّا أَيْضًا."
      }
     ]
    },
    {
     "id": 14,
     "type": "exercises",
-    "title": "Language Review",
+    "title": "مراجعة اللغة",
     "image": "https://picsum.photos/seed/exercises-mecca-a1/1200/800",
-    "content": "Review the language from all chapters.",
+    "content": "رَاجِعْ لُغَةَ الْفُصُولِ كُلِّهَا.",
     "exercises": [
      {
-      "id": "mecca-a1-language-review-1",
+      "id": "mecca-a1-ar-language-review-1",
       "type": "drag-drop",
-      "title": "Look: Two Kinds of Past",
-      "instructions": "Put each verb in the right group.",
-      "question": "How does each verb show the past?",
+      "title": "انْظُرْ: هُوَ أَمْ هُمْ؟",
+      "instructions": "ضَعْ كُلَّ فِعْلٍ فِي مَجْمُوعَتِهِ.",
+      "question": "مَنْ فَعَلَ؟",
       "dragDropGroups": [
        {
-        "group": "Ends in -ed",
+        "group": "هُوَ (بِلَالٌ، أَبُو بَكْرٍ)",
         "items": [
-         "prayed",
-         "worked",
-         "looked after",
-         "added"
+         "عَمِلَ",
+         "اعْتَنَى",
+         "دَفَعَ",
+         "بَاعَ"
         ]
        },
        {
-        "group": "Changes",
+        "group": "هُمْ (النَّاسُ)",
         "items": [
-         "had",
-         "took",
-         "sold",
-         "paid"
+         "عَبَدُوا",
+         "أَكَلُوا",
+         "شَرِبُوا",
+         "جَاؤُوا"
         ]
        }
       ],
       "correctAnswer": {
-       "Ends in -ed": [
-        "prayed",
-        "worked",
-        "looked after",
-        "added"
+       "هُوَ (بِلَالٌ، أَبُو بَكْرٍ)": [
+        "عَمِلَ",
+        "اعْتَنَى",
+        "دَفَعَ",
+        "بَاعَ"
        ],
-       "Changes": [
-        "had",
-        "took",
-        "sold",
-        "paid"
+       "هُمْ (النَّاسُ)": [
+        "عَبَدُوا",
+        "أَكَلُوا",
+        "شَرِبُوا",
+        "جَاؤُوا"
        ]
       },
-      "explanation": "Many verbs add -ed: pray → prayed, work → worked. Some verbs change: have → had, take → took, sell → sold, pay → paid.",
+      "explanation": "الفعل الماضي مع «هُوَ» ينتهي بفتحة أو ألف: عَمِلَ، اعْتَنَى. ومع «هُمْ» ينتهي بـ«ـُوا»: عَبَدُوا، جَاؤُوا.",
       "feedback": {
-       "correct": "Well done. You found the two kinds of past.",
-       "incorrect": "Say the verb today: pray, have … Does it add -ed or change?"
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "هَلْ فِي آخِرِ الْفِعْلِ «ـُوا»؟ إِذَنْ هُوَ لِـ«هُمْ»."
       }
      },
      {
-      "id": "mecca-a1-language-review-2",
+      "id": "mecca-a1-ar-language-review-2",
       "type": "choose-form",
-      "title": "Practise: Was or Were",
-      "instructions": "Choose was or were.",
-      "question": "One or many?",
+      "title": "تَدَرَّبْ: كَانَ أَمْ كَانَتْ؟",
+      "instructions": "اخْتَرْ كَانَ أَوْ كَانَتْ.",
+      "question": "مُذَكَّرٌ أَمْ مُؤَنَّثٌ؟",
       "formChoices": [
        {
-        "sentence": "Life [choice] not fair.",
+        "sentence": "مَا [choice] الْحَيَاةُ عَادِلَةً.",
         "options": [
-         "was",
-         "were"
+         "كَانَ",
+         "كَانَتِ"
+        ],
+        "answer": 1
+       },
+       {
+        "sentence": "[choice] أُمَيَّةُ غَنِيًّا وَقَوِيًّا.",
+        "options": [
+         "كَانَ",
+         "كَانَتْ"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "«الْحَيَاةُ» مؤنثة: كَانَتِ الْحَيَاةُ. و«أُمَيَّةُ» اسم رجل، وإن كان في آخره ـة: كَانَ أُمَيَّةُ.",
+      "feedback": {
+       "correct": "صَحِيحٌ.",
+       "incorrect": "أُمَيَّةُ رَجُلٌ."
+      }
+     },
+     {
+      "id": "mecca-a1-ar-language-review-3",
+      "type": "choose-form",
+      "title": "تَدَرَّبْ: مَا + الْمَاضِي",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ صَحِيحَةٌ؟",
+      "formChoices": [
+       {
+        "sentence": "قَبْلَ الْإِسْلَامِ، [choice] نَاسٌ كَثِيرُونَ بِاللهِ الْوَاحِدِ.",
+        "options": [
+         "مَا آمَنَ",
+         "لَا آمَنَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "His mother and father [choice] slaves.",
+        "sentence": "[choice] أُمَيَّةُ بِلَالًا طَعَامًا.",
         "options": [
-         "was",
-         "were"
+         "لَا أَعْطَى",
+         "مَا أَعْطَى"
         ],
         "answer": 1
        }
       ],
       "correctAnswer": null,
-      "explanation": "One thing: was. Two or more: were.",
+      "explanation": "للنفي في الماضي نقول «مَا» + الفعل الماضي: مَا آمَنَ، مَا أَعْطَى.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Life = one thing. Mother and father = two."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "فِي الْمَاضِي: «مَا» + الْفِعْلُ."
       }
      },
      {
-      "id": "mecca-a1-language-review-3",
-      "type": "choose-form",
-      "title": "Practise: Did Not",
-      "instructions": "Choose the right words.",
-      "question": "Which form is right?",
-      "formChoices": [
-       {
-        "sentence": "Many people [choice] in one Allah.",
-        "options": [
-         "did not believe",
-         "did not believed"
-        ],
-        "answer": 0
-       },
-       {
-        "sentence": "Umayya [choice] Bilal food.",
-        "options": [
-         "did not give",
-         "did not gave"
-        ],
-        "answer": 0
-       }
-      ],
-      "correctAnswer": null,
-      "explanation": "After did not, use the verb with no change: did not believe, did not give.",
-      "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Did not + believe, give."
-      }
-     },
-     {
-      "id": "mecca-a1-language-review-4",
+      "id": "mecca-a1-ar-language-review-4",
       "type": "word-bank",
-      "title": "Practise: Better Than",
-      "instructions": "Fill the gaps with the words.",
-      "question": "Who is better?",
-      "fillBlanksText": "Prayer is better [blank] sleep. Arabs are [blank] better than other people. Only good actions make a person [blank].",
+      "title": "تَدَرَّبْ: خَيْرٌ مِنْ، أَحْسَنُ مِنْ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "مَنْ أَحْسَنُ؟",
+      "fillBlanksText": "الصَّلَاةُ خَيْرٌ [blank] النَّوْمِ. الْعَرَبِيُّ [blank] أَحْسَنَ مِنْ غَيْرِهِ. الْأَعْمَالُ الطَّيِّبَةُ فَقَطْ تَجْعَلُ الْإِنْسَانَ [blank].",
       "wordBank": [
-       "than",
-       "not",
-       "better",
-       "then",
-       "good"
+       "مِنَ",
+       "لَيْسَ",
+       "أَحْسَنَ",
+       "عَنِ",
+       "طَيِّبًا"
       ],
       "correctAnswer": [
-       "than",
-       "not",
-       "better"
+       "مِنَ",
+       "لَيْسَ",
+       "أَحْسَنَ"
       ],
-      "explanation": "We use better than for two things.",
+      "explanation": "في الفصلين ٧ و٨: «الصَّلَاةُ خَيْرٌ مِنَ النَّوْمِ»، «الْعَرَبِيُّ لَيْسَ أَحْسَنَ مِنْ غَيْرِهِ»، «تَجْعَلُ الْإِنْسَانَ أَحْسَنَ».",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Find better in Chapters 7 and 8."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَيْنِ السَّابِعَ وَالثَّامِنَ."
       }
      },
      {
-      "id": "mecca-a1-language-review-5",
+      "id": "mecca-a1-ar-language-review-5",
       "type": "error-correction",
-      "title": "Practise: Fix One Word",
-      "instructions": "Find the wrong word. Write the right word.",
-      "question": "Which word is wrong?",
+      "title": "تَدَرَّبْ: صَحِّحْ كَلِمَةً وَاحِدَةً",
+      "instructions": "ابْحَثْ عَنِ الْكَلِمَةِ الْخَطَأِ وَصَحِّحْهَا.",
+      "question": "أَيُّ كَلِمَةٍ خَطَأٌ؟",
       "errorItems": [
        {
-        "sentence": "Abu Bakr payed the money.",
-        "error": "payed",
+        "sentence": "أَمْسِ يَدْفَعُ أَبُو بَكْرٍ الْمَالَ.",
+        "error": "يَدْفَعُ",
         "options": [
-         "paid",
-         "pay",
-         "pays"
+         "دَفَعَ",
+         "ادْفَعْ",
+         "يَدْفَعُونَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Umayya selled Bilal for some gold.",
-        "error": "selled",
+        "sentence": "بَاعَتْ أُمَيَّةُ بِلَالًا بِشَيْءٍ مِنَ الذَّهَبِ.",
+        "error": "بَاعَتْ",
         "options": [
-         "sell",
-         "sold",
-         "sells"
+         "تَبِيعُ",
+         "بَاعَ",
+         "بِعْنِي"
         ],
         "answer": 1
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Pay” and “sell” change in the past: paid, sold.",
+      "explanation": "«أَمْسِ» تحتاج الماضي: دَفَعَ. و«أُمَيَّةُ» رجل، فنقول: بَاعَ.",
       "feedback": {
-       "correct": "Well done.",
-       "incorrect": "Pay → paid. Sell → sold. They do not take -ed."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "«أَمْسِ» لِلْمَاضِي. وَأُمَيَّةُ رَجُلٌ."
       }
      },
      {
-      "id": "mecca-a1-language-review-6",
+      "id": "mecca-a1-ar-language-review-6",
       "type": "reflection",
-      "title": "Use: My Friend",
-      "instructions": "Write three sentences about a friend.",
-      "question": "Who is your friend?",
+      "title": "اسْتَعْمِلْ: صَدِيقِي",
+      "instructions": "اكْتُبْ ثَلَاثَ جُمَلٍ عَنْ صَدِيقٍ.",
+      "question": "مَنْ صَدِيقُكَ؟",
       "correctAnswer": null,
-      "explanation": "Use was born, one past verb and but.",
+      "explanation": "استعمل «وُلِدَ فِي»، وفعلًا ماضيًا، و«لَكِنَّ».",
       "feedback": {
-       "correct": "Write three short sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "One “was born in”: “My friend was born in …”",
+        "question": "«وُلِدَ صَدِيقِي فِي …»",
         "mode": "Individual",
-        "example": "My friend was born in İzmir."
+        "example": "وُلِدَ صَدِيقِي فِي إِزْمِيرَ."
        },
        {
-        "question": "One past verb: “Yesterday, we …”",
+        "question": "فِعْلٌ مَاضٍ: «أَمْسِ، …»",
         "mode": "Individual",
-        "example": "Yesterday, we played football."
+        "example": "أَمْسِ، لَعِبْنَا كُرَةَ الْقَدَمِ."
        },
        {
-        "question": "One “but”: “He is …, but …”",
+        "question": "«لَكِنَّ»: «هُوَ صَغِيرٌ، لَكِنَّهُ …»",
         "mode": "Individual",
-        "example": "He is small, but he is very strong."
+        "example": "هُوَ صَغِيرٌ، لَكِنَّهُ قَوِيٌّ جِدًّا."
        }
       ]
      }
@@ -2440,163 +2378,165 @@
    {
     "id": 15,
     "type": "final-challenge",
-    "title": "Final Challenge",
+    "title": "التحدي النهائي",
     "image": "https://picsum.photos/seed/challenge-mecca-a1/1200/800",
-    "content": "Bring the whole story together in the Final Challenge.",
+    "content": "أظهر ما فهمته من قصة بلال بن رباح كاملة.",
     "exercises": [
      {
-      "id": "mecca-a1-final-1",
-      "type": "fill-blanks",
-      "title": "The Adhan",
-      "instructions": "Write one word.",
-      "question": "What does the Adhan tell people?",
-      "fillBlanksText": "The Adhan tells people it is time for [blank].",
-      "correctAnswer": [
-       "prayer"
-      ],
-      "explanation": "Chapter 1: “The Adhan tells people it is time for prayer.”",
-      "feedback": {
-       "correct": "Yes. Prayer.",
-       "incorrect": "Read the second paragraph of Chapter 1."
-      }
-     },
-     {
-      "id": "mecca-a1-final-2",
+      "id": "mecca-a1-ar-final-1",
       "type": "multiple-choice",
-      "title": "Idols",
-      "instructions": "Choose the answer.",
-      "question": "Before Islam, what did many people in Mecca pray to?",
+      "title": "الْأَذَانُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "بِمَاذَا يُخْبِرُ الْأَذَانُ النَّاسَ؟",
       "options": [
-       "idols",
-       "the sun",
-       "the sea"
+       "أَنَّ وَقْتَ الصَّلَاةِ جَاءَ",
+       "أَنَّ وَقْتَ الطَّعَامِ جَاءَ",
+       "أَنَّ اللَّيْلَ جَاءَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: “They prayed to idols.”",
+      "explanation": "الفصل الأول: «الْأَذَانُ يُخْبِرُ النَّاسَ أَنَّ وَقْتَ الصَّلَاةِ جَاءَ».",
       "feedback": {
-       "correct": "Yes. Idols.",
-       "incorrect": "Read the first paragraph of Chapter 2."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "mecca-a1-final-3",
+      "id": "mecca-a1-ar-final-2",
+      "type": "multiple-choice",
+      "title": "الْأَصْنَامُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "قَبْلَ الْإِسْلَامِ، مَاذَا عَبَدَ نَاسٌ كَثِيرُونَ فِي مَكَّةَ؟",
+      "options": [
+       "الْأَصْنَامَ",
+       "الشَّمْسَ",
+       "الْبَحْرَ"
+      ],
+      "correctAnswer": 0,
+      "explanation": "الفصل الثاني: «عَبَدُوا الْأَصْنَامَ».",
+      "feedback": {
+       "correct": "نَعَمْ. عَبَدُوا الْأَصْنَامَ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ الثَّانِي."
+      }
+     },
+     {
+      "id": "mecca-a1-ar-final-3",
       "type": "true-false",
-      "title": "Unkind Words",
-      "instructions": "Is it true or false?",
-      "question": "Umayya’s family called Bilal “the son of the black woman.”",
+      "title": "كَلَامٌ قَاسٍ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "كَانَتْ عَائِلَةُ أُمَيَّةَ تُنَادِي بِلَالًا: «ابْنَ السَّوْدَاءِ».",
       "correctAnswer": true,
-      "explanation": "Chapter 3: They called him “the son of the black woman.” This made Bilal very sad.",
+      "explanation": "الفصل الثالث: «كَانُوا يُنَادُونَهُ: ابْنَ السَّوْدَاءِ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the first paragraph of Chapter 3."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "mecca-a1-final-4",
+      "id": "mecca-a1-ar-final-4",
       "type": "multiple-choice",
-      "title": "Abu Bakr’s Words",
-      "instructions": "Choose the answer.",
-      "question": "What did Abu Bakr tell Bilal about Islam?",
+      "title": "كَلَامُ أَبِي بَكْرٍ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا أَخْبَرَ أَبُو بَكْرٍ بِلَالًا عَنِ الْإِسْلَامِ؟",
       "options": [
-       "“There is no god but Allah. Allah is One.”",
-       "“Go back to your master.”",
-       "“Do not ask questions.”"
+       "«لَا إِلَهَ إِلَّا اللهُ. اللهُ وَاحِدٌ.»",
+       "«ارْجِعْ إِلَى سَيِّدِكَ.»",
+       "«لَا تَسْأَلْ أَسْئِلَةً.»"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 4: Abu Bakr told him about Islam: “There is no god but Allah. Allah is One.”",
+      "explanation": "الفصل الرابع: «أَخْبَرَهُ أَبُو بَكْرٍ عَنِ الْإِسْلَامِ: لَا إِلَهَ إِلَّا اللهُ. اللهُ وَاحِدٌ».",
       "feedback": {
-       "correct": "Yes.",
-       "incorrect": "Read the second paragraph of Chapter 4."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "mecca-a1-final-5",
+      "id": "mecca-a1-ar-final-5",
       "type": "matching",
-      "title": "Who Is It?",
-      "instructions": "Match the name with the sentence.",
-      "question": "Who is it?",
+      "title": "مَنْ هُوَ؟",
+      "instructions": "صِلِ الِاسْمَ بِالْجُمْلَةِ.",
+      "question": "مَنْ هُوَ؟",
       "matchingHeadings": {
-       "left": "Name",
-       "right": "Sentence"
+       "left": "الِاسْمُ",
+       "right": "الْجُمْلَةُ"
       },
       "matchingPairs": [
        {
-        "left": "Umayya",
-        "right": "He was Bilal’s master."
+        "left": "أُمَيَّةُ",
+        "right": "كَانَ سَيِّدَ بِلَالٍ."
        },
        {
-        "left": "Abu Bakr",
-        "right": "He made Bilal free."
+        "left": "أَبُو بَكْرٍ",
+        "right": "جَعَلَ بِلَالًا حُرًّا."
        },
        {
-        "left": "Bilal",
-        "right": "He gave the first Adhan."
+        "left": "بِلَالٌ",
+        "right": "رَفَعَ الْأَذَانَ الْأَوَّلَ."
        }
       ],
       "correctAnswer": {
-       "Umayya": "He was Bilal’s master.",
-       "Abu Bakr": "He made Bilal free.",
-       "Bilal": "He gave the first Adhan."
+       "أُمَيَّةُ": "كَانَ سَيِّدَ بِلَالٍ.",
+       "أَبُو بَكْرٍ": "جَعَلَ بِلَالًا حُرًّا.",
+       "بِلَالٌ": "رَفَعَ الْأَذَانَ الْأَوَّلَ."
       },
-      "explanation": "Chapter 2: Umayya was Bilal’s master. Chapter 6: Abu Bakr made Bilal free. Chapter 7: Bilal gave the first Adhan.",
+      "explanation": "الفصل الثاني: «وَكَانَ سَيِّدُهُ أُمَيَّةَ بْنَ خَلَفٍ». الفصل السادس: «أَنْتَ حُرٌّ الْآنَ». الفصل السابع: «وَرَفَعَ الْأَذَانَ الْأَوَّلَ».",
       "feedback": {
-       "correct": "Good. You matched all three.",
-       "incorrect": "Read Chapters 2, 6 and 7 again."
+       "correct": "أَحْسَنْتَ. وَصَلْتَ الثَّلَاثَةَ.",
+       "incorrect": "اقْرَأِ الْفُصُولَ ٢ وَ٦ وَ٧."
       }
      },
      {
-      "id": "mecca-a1-final-6",
+      "id": "mecca-a1-ar-final-6",
       "type": "true-false",
-      "title": "The Rock",
-      "instructions": "Is it true or false?",
-      "question": "Bilal said good words about the idols.",
+      "title": "الصَّخْرَةُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "قَالَ بِلَالٌ كَلَامًا طَيِّبًا عَنِ الْأَصْنَامِ.",
       "correctAnswer": false,
-      "explanation": "Chapter 5: “But Bilal only said, ‘Allah is One, Allah is One.’”",
+      "explanation": "الفصل الخامس: «لَكِنَّ بِلَالًا قَالَ فَقَطْ: أَحَدٌ أَحَدٌ».",
       "feedback": {
-       "correct": "Yes, it is false.",
-       "incorrect": "Read the last paragraph of Chapter 5."
+       "correct": "نَعَمْ، هَذَا خَطَأٌ. قَالَ: «أَحَدٌ أَحَدٌ».",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّالِثَةَ مِنَ الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "mecca-a1-final-7",
+      "id": "mecca-a1-ar-final-7",
       "type": "multiple-choice",
-      "title": "Medina",
-      "instructions": "Choose the answer.",
-      "question": "Where did the Muslims go to live?",
+      "title": "الْمَدِينَةُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "إِلَى أَيْنَ ذَهَبَ الْمُسْلِمُونَ لِيَعِيشُوا؟",
       "options": [
-       "in Medina",
-       "in Damascus",
-       "in Ethiopia"
+       "إِلَى الْمَدِينَةِ",
+       "إِلَى دِمَشْقَ",
+       "إِلَى الْحَبَشَةِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: “Later, the Muslims went to live in Medina.”",
+      "explanation": "الفصل السابع: «ذَهَبَ الْمُسْلِمُونَ لِيَعِيشُوا فِي الْمَدِينَةِ».",
       "feedback": {
-       "correct": "Yes. In Medina.",
-       "incorrect": "Read the first sentence of Chapter 7."
+       "correct": "نَعَمْ. إِلَى الْمَدِينَةِ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ السَّابِعِ."
       }
      },
      {
-      "id": "mecca-a1-final-8",
+      "id": "mecca-a1-ar-final-8",
       "type": "sequencing",
-      "title": "The Story of Bilal",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "قِصَّةُ بِلَالٍ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Bilal went to the house of Abu Bakr at night."
+        "text": "ذَهَبَ بِلَالٌ إِلَى بَيْتِ أَبِي بَكْرٍ فِي اللَّيْلِ."
        },
        {
         "id": "2",
-        "text": "Umayya put a big rock on Bilal’s chest."
+        "text": "وَضَعَ أُمَيَّةُ صَخْرَةً كَبِيرَةً عَلَى صَدْرِ بِلَالٍ."
        },
        {
         "id": "3",
-        "text": "Abu Bakr made Bilal free."
+        "text": "جَعَلَ أَبُو بَكْرٍ بِلَالًا حُرًّا."
        },
        {
         "id": "4",
-        "text": "Bilal gave the first Adhan."
+        "text": "رَفَعَ بِلَالٌ الْأَذَانَ الْأَوَّلَ."
        }
       ],
       "correctAnswer": [
@@ -2605,10 +2545,10 @@
        "3",
        "4"
       ],
-      "explanation": "Abu Bakr’s house (Chapter 4) → the rock (Chapter 5) → free (Chapter 6) → the first Adhan (Chapter 7).",
+      "explanation": "زيارة الليل (الفصل ٤) ← الصخرة (الفصل ٥) ← الحرية (الفصل ٦) ← الأذان الأول (الفصل ٧).",
       "feedback": {
-       "correct": "Great! You know the story of Bilal.",
-       "incorrect": "Think about the order of the chapters."
+       "correct": "رَائِعٌ! أَنْتَ تَعْرِفُ قِصَّةَ بِلَالٍ.",
+       "incorrect": "فَكِّرْ فِي تَرْتِيبِ الْفُصُولِ."
       }
      }
     ]
