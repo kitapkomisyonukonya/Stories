@@ -4,8 +4,9 @@
  * the Teacher's Book and the Self-Study Guide. They are built outside the app from the book data; Ibn Jubayr has an English
  * edition only.
  */
+import type { Level } from '../types';
 import { appFileUrl } from '../scorm/config';
-import { isHiddenStory } from '../core/content/storyCatalog';
+import { isEnglishOnlyEdition, isHiddenStory } from '../core/content/storyCatalog';
 
 export type BookPdfKind = 'story' | 'story-only' | 'story-activities' | 'teachers-book' | 'self-study-guide';
 
@@ -22,8 +23,8 @@ const A1_PDF_BOOKS = new Set(['adam', 'ibrahim', 'musa', 'mecca', 'yunusEmre', '
 export const hasBookPdfs = (storyId: string, level: string) => !isHiddenStory(storyId) && (level !== 'A1' || A1_PDF_BOOKS.has(storyId));
 
 export const bookPdfUrl = (storyId: string, level: string, language: string, kind: BookPdfKind) => {
-  // A1 is English only for now (stories.json englishOnlyLevels), so its PDFs are English too.
-  const lang = language === 'ar' && !ENGLISH_ONLY.has(storyId) && level !== 'A1' ? 'ar' : 'en';
+  // An edition that is English only (stories.json englishOnly / englishOnlyLevels) has English PDFs only.
+  const lang = language === 'ar' && !ENGLISH_ONLY.has(storyId) && !isEnglishOnlyEdition(storyId, level as Level) ? 'ar' : 'en';
   return appFileUrl(`/pdfs/books/${SLUGS[storyId] ?? storyId}-${level.toLowerCase()}-${lang}-${kind}.pdf`);
 };
 
