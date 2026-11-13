@@ -16,7 +16,7 @@
         "title": "What Was the Ahî Organization?",
         "image": "",
         "audioUrl": "",
-        "content": "The Ahî Organization was a religious, social, and trade group. It started in Anatolia in the 13th century and played a big role in the founding of the Ottoman Empire. This group had a big effect on many areas of life, from work life to personal life. For a long time, it guided society and shaped a person’s moral and daily life. In workshops, this group organized work life for apprentices, experienced workers, and masters. As a trade group, it checked the quality of goods, set prices, and solved business problems.\n\nA person’s character was very important in this group. Members had to be honest, generous, and thankful. They always encouraged good behavior, helped people in need, and stayed away from actions forbidden by the Qur’an and the teachings of the Prophet. For example, they did not drink alcohol or tell lies. With the help of role models, members learned good manners for daily life, such as walking on the street or visiting sick people.",
+        "content": "The Ahî Organization was a religious, social, and trade group. It started in Anatolia in the 13th century and played a big role in the founding of the Ottoman Empire. This group had a big effect on many areas of life, from work life to personal life. For a long time, it guided society and shaped a person’s moral and daily life. In workshops, this group organized work life for apprentices, experienced workers, and masters. As a trade group, it checked the quality of goods, set prices, and solved business problems.",
         "vocabulary": [
           {
             "word": "trade",
@@ -41,22 +41,6 @@
           {
             "word": "solved",
             "definition": "Found an answer to a problem."
-          },
-          {
-            "word": "encouraged",
-            "definition": "Helped someone want to do something."
-          },
-          {
-            "word": "forbidden",
-            "definition": "Not allowed."
-          },
-          {
-            "word": "tell lies",
-            "definition": "Say things that are not true."
-          },
-          {
-            "word": "good manners",
-            "definition": "Polite and kind ways of behaving."
           }
         ],
         "hotspots": [
@@ -91,16 +75,147 @@
             "explanation": "Chapter 1: “As a trade group, it checked the quality of goods, set prices, and solved business problems.”",
             "feedback": {
               "correct": "Correct. It checked goods and set prices.",
-              "incorrect": "Read the last sentence of the first paragraph."
+              "incorrect": "Read the last sentence of the chapter."
             }
           }
         ],
         "languageFocusExercises": [
           {
-            "id": "ahi-a2-language-1-had-to",
+            "id": "ahi-a2-language-1-past-ed",
+            "type": "multiple-choice",
+            "title": "Look: It Checked the Quality",
+            "instructions": "Read the sentence from Chapter 1. Then choose the answer.",
+            "question": "“It checked the quality of goods, set prices, and solved business problems.” When did this happen?",
+            "options": ["in the past", "now, every day", "in the future"],
+            "correctAnswer": 0,
+            "explanation": "“Checked” and “solved” end in -ed. The -ed ending shows the past.",
+            "feedback": {
+              "correct": "Correct. In the past.",
+              "incorrect": "Look at the ending of “checked” and “solved”."
+            }
+          },
+          {
+            "id": "ahi-a2-language-1-group",
+            "type": "word-bank",
+            "title": "Practise: What the Group Did",
+            "instructions": "Fill each gap from the word bank. Two words are not needed.",
+            "question": "What did the group do?",
+            "fillBlanksText": "The Ahî Organization [blank] in Anatolia. It [blank] work life in workshops. It [blank] the quality of goods.",
+            "wordBank": ["started", "organized", "checked", "starts", "checks"],
+            "correctAnswer": ["started", "organized", "checked"],
+            "explanation": "The chapter tells us about the past, so the verbs end in -ed.",
+            "feedback": {
+              "correct": "Well done. Started, organized, checked.",
+              "incorrect": "All three sentences are in the past."
+            }
+          },
+          {
+            "id": "ahi-a2-language-1-my-club",
+            "type": "reflection",
+            "title": "Use: A Group in My School",
+            "instructions": "Tell your partner about a group or club you know.",
+            "question": "What does the group do? What did it do last year?",
+            "correctAnswer": null,
+            "explanation": "Example: “In our school there is a library club. It helps students find good books. Last year, it organized a book fair and collected books for a village school.”",
+            "feedback": {
+              "correct": "Check: a present verb for now and a past -ed verb for last year.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say the name of the group.",
+                "mode": "Pair",
+                "example": "In our school there is a … club."
+              },
+              {
+                "question": "Say what it does.",
+                "mode": "Pair",
+                "example": "It helps … / It makes …"
+              },
+              {
+                "question": "Say one thing it did last year.",
+                "mode": "Pair",
+                "example": "Last year, it organized …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "find",
+          "question": "Find it fast: When did the Ahî Organization start?",
+          "options": ["in the 13th century", "in the 10th century", "in the 18th century"],
+          "answer": 0,
+          "quote": "It started in Anatolia in the 13th century"
+        },
+        "iCan": [
+          "I can say what the Ahî Organization was.",
+          "I can name three jobs of the group in trade.",
+          "I can use past verbs with -ed."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "story",
+        "title": "Good Character",
+        "image": "",
+        "audioUrl": "",
+        "content": "A person’s character was very important in this group. Members had to be honest, generous, and thankful. They always encouraged good behavior, helped people in need, and stayed away from actions forbidden by the Qur’an and the teachings of the Prophet. For example, they did not drink alcohol or tell lies. With the help of role models, members learned good manners for daily life, such as walking on the street or visiting sick people.",
+        "vocabulary": [
+          {
+            "word": "encouraged",
+            "definition": "Helped someone want to do something."
+          },
+          {
+            "word": "forbidden",
+            "definition": "Not allowed."
+          },
+          {
+            "word": "tell lies",
+            "definition": "Say things that are not true."
+          },
+          {
+            "word": "good manners",
+            "definition": "Polite and kind ways of behaving."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "ahi-a2-en-h2a",
+            "x": 30,
+            "y": 40,
+            "title": "Honest Members",
+            "description": "Members had to be honest, generous, and thankful."
+          },
+          {
+            "id": "ahi-a2-en-h2b",
+            "x": 70,
+            "y": 45,
+            "title": "Visiting the Sick",
+            "description": "Members learned good manners for daily life, such as visiting sick people."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "ahi-a2-quick-2",
+            "type": "multiple-choice",
+            "title": "Good Members",
+            "instructions": "Choose the answer from Chapter 2.",
+            "question": "What did members have to be?",
+            "options": ["honest, generous, and thankful", "rich, strong, and famous", "quiet, fast, and young"],
+            "correctAnswer": 0,
+            "explanation": "Chapter 2: “Members had to be honest, generous, and thankful.”",
+            "feedback": {
+              "correct": "Correct. Honest, generous, and thankful.",
+              "incorrect": "Read the second sentence of the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "ahi-a2-language-2-had-to",
             "type": "multiple-choice",
             "title": "Look: Members Had To …",
-            "instructions": "Read the sentence from Chapter 1. Then choose the answer.",
+            "instructions": "Read the sentence from Chapter 2. Then choose the answer.",
             "question": "“Members had to be honest, generous, and thankful.” What does “had to” mean here?",
             "options": ["It was a rule for members.", "Members did not want this.", "This happened only once."],
             "correctAnswer": 0,
@@ -111,7 +226,7 @@
             }
           },
           {
-            "id": "ahi-a2-language-1-rules",
+            "id": "ahi-a2-language-2-rules",
             "type": "word-bank",
             "title": "Practise: Rules of the Group",
             "instructions": "Fill each gap from the word bank. Two words are not needed.",
@@ -126,7 +241,7 @@
             }
           },
           {
-            "id": "ahi-a2-language-1-my-rules",
+            "id": "ahi-a2-language-2-my-rules",
             "type": "reflection",
             "title": "Use: Rules in My Class",
             "instructions": "Tell your partner three rules in your class.",
@@ -158,19 +273,19 @@
         ],
         "beforeYouRead": {
           "kind": "find",
-          "question": "Find it fast: When did the Ahî Organization start?",
-          "options": ["in the 13th century", "in the 10th century", "in the 18th century"],
+          "question": "Find it fast: What did members not do?",
+          "options": ["drink alcohol or tell lies", "visit sick people", "help people in need"],
           "answer": 0,
-          "quote": "It started in Anatolia in the 13th century"
+          "quote": "they did not drink alcohol or tell lies"
         },
         "iCan": [
-          "I can say what the Ahî Organization was.",
-          "I can name three jobs of the group.",
+          "I can name good behaviors of the Ahî members.",
+          "I can say how members learned good manners.",
           "I can use had to and did not for rules."
         ]
       },
       {
-        "id": 2,
+        "id": 3,
         "type": "story",
         "title": "Training and Culture",
         "image": "",
@@ -220,14 +335,14 @@
         ],
         "hotspots": [
           {
-            "id": "ahi-a2-en-h2a",
+            "id": "ahi-a2-en-h3a",
             "x": 30,
             "y": 40,
             "title": "Masters",
             "description": "Young people started as apprentices and went through different levels until they became masters."
           },
           {
-            "id": "ahi-a2-en-h2b",
+            "id": "ahi-a2-en-h3b",
             "x": 70,
             "y": 45,
             "title": "Schools for the People",
@@ -236,7 +351,7 @@
         ],
         "exercises": [
           {
-            "id": "ahi-a2-quick-2",
+            "id": "ahi-a2-quick-3",
             "type": "sequencing",
             "title": "From Apprentice to Master",
             "instructions": "Put the steps in order.",
@@ -256,7 +371,7 @@
               }
             ],
             "correctAnswer": ["1", "2", "3"],
-            "explanation": "Chapter 2: “Young people started as apprentices and went through different levels until they became masters.”",
+            "explanation": "Chapter 3: “Young people started as apprentices and went through different levels until they became masters.”",
             "feedback": {
               "correct": "Correct. Apprentice, levels, master.",
               "incorrect": "Read the second sentence of the chapter."
@@ -265,10 +380,10 @@
         ],
         "languageFocusExercises": [
           {
-            "id": "ahi-a2-language-2-until",
+            "id": "ahi-a2-language-3-until",
             "type": "multiple-choice",
             "title": "Look: Until They Became Masters",
-            "instructions": "Read the sentence from Chapter 2. Then choose the answer.",
+            "instructions": "Read the sentence from Chapter 3. Then choose the answer.",
             "question": "“Young people … went through different levels until they became masters.” What does “until” mean?",
             "options": ["up to the time when", "because", "before the start"],
             "correctAnswer": 0,
@@ -279,10 +394,10 @@
             }
           },
           {
-            "id": "ahi-a2-language-2-so",
+            "id": "ahi-a2-language-3-so",
             "type": "choose-form",
             "title": "Practise: So, But, Until",
-            "instructions": "Choose the correct word for each sentence from Chapter 2.",
+            "instructions": "Choose the correct word for each sentence from Chapter 3.",
             "question": "Which word fits?",
             "formChoices": [
               {
@@ -309,7 +424,7 @@
             }
           },
           {
-            "id": "ahi-a2-language-2-learn",
+            "id": "ahi-a2-language-3-learn",
             "type": "reflection",
             "title": "Use: A Skill I Am Learning",
             "instructions": "Write three sentences about a skill you are learning.",
@@ -353,12 +468,12 @@
         ]
       },
       {
-        "id": 3,
+        "id": 4,
         "type": "story",
-        "title": "The Shoe on the Roof",
+        "title": "Bad Shoes",
         "image": "",
         "audioUrl": "",
-        "content": "The Ahî Organization helped workers and checked their work. They wanted every shop owner to do honest and quality work.\n\nIn a small town, a shoemaker wanted to make more money, so he began using cheap leather. Soon, his customers saw a problem. Their new shoes broke after only a few weeks. They became angry and went to the Ahî leader to complain.\n\nThe leader walked into the shop and looked closely at the poor-quality shoes. He decided to do something about it. He threw the low-quality shoes onto the roof of the shop. This was a big warning for every shop owner in town. It showed that the shoemaker did a poor job. If he did not improve the quality, he could not sell shoes in that town again. This is where the saying ‘pabucu dama atılmak’ comes from.",
+        "content": "The Ahî Organization helped workers and checked their work. They wanted every shop owner to do honest and quality work.\n\nIn a small town, a shoemaker wanted to make more money, so he began using cheap leather. Soon, his customers saw a problem. Their new shoes broke after only a few weeks. They became angry and went to the Ahî leader to complain.",
         "vocabulary": [
           {
             "word": "quality work",
@@ -377,18 +492,6 @@
             "definition": "To say that something is wrong."
           },
           {
-            "word": "poor-quality",
-            "definition": "Not made well."
-          },
-          {
-            "word": "low-quality",
-            "definition": "Cheap and not good."
-          },
-          {
-            "word": "improve",
-            "definition": "Make something better."
-          },
-          {
             "word": "honest",
             "definition": "Always telling the truth."
           },
@@ -403,26 +506,26 @@
         ],
         "hotspots": [
           {
-            "id": "ahi-a2-en-h3a",
+            "id": "ahi-a2-en-h4a",
             "x": 30,
             "y": 40,
             "title": "The Shoemaker",
             "description": "A shoemaker wanted to make more money, so he began using cheap leather."
           },
           {
-            "id": "ahi-a2-en-h3b",
+            "id": "ahi-a2-en-h4b",
             "x": 70,
             "y": 45,
-            "title": "On the Roof",
-            "description": "The leader threw the low-quality shoes onto the roof of the shop."
+            "title": "Angry Customers",
+            "description": "The customers became angry and went to the Ahî leader to complain."
           }
         ],
         "exercises": [
           {
-            "id": "ahi-a2-quick-3",
+            "id": "ahi-a2-quick-4",
             "type": "sequencing",
-            "title": "The Story in Order",
-            "instructions": "Put the events of the story in order.",
+            "title": "The Problem in Order",
+            "instructions": "Put the events in order.",
             "question": "What happened first, next and last?",
             "sequencingItems": [
               {
@@ -436,14 +539,10 @@
               {
                 "id": "3",
                 "text": "The customers went to the Ahî leader to complain."
-              },
-              {
-                "id": "4",
-                "text": "The leader threw the shoes onto the roof."
               }
             ],
-            "correctAnswer": ["1", "2", "3", "4"],
-            "explanation": "Chapter 3 tells the story step by step: cheap leather, broken shoes, complaints and the warning on the roof.",
+            "correctAnswer": ["1", "2", "3"],
+            "explanation": "Chapter 4 tells the problem step by step: cheap leather, broken shoes, complaints.",
             "feedback": {
               "correct": "Correct. Each event led to the next.",
               "incorrect": "Follow the chapter from the start."
@@ -452,21 +551,21 @@
         ],
         "languageFocusExercises": [
           {
-            "id": "ahi-a2-language-3-if",
+            "id": "ahi-a2-language-4-so",
             "type": "multiple-choice",
-            "title": "Look: If He Did Not Improve …",
-            "instructions": "Read the sentence from Chapter 3. Then choose the answer.",
-            "question": "“If he did not improve the quality, he could not sell shoes in that town again.” What does this sentence show?",
-            "options": ["a condition and its result", "two events in the past", "a question"],
+            "title": "Look: So He Began …",
+            "instructions": "Read the sentence from Chapter 4. Then choose the answer.",
+            "question": "“A shoemaker wanted to make more money, so he began using cheap leather.” What does “so” show?",
+            "options": ["a result", "a time", "a place"],
             "correctAnswer": 0,
-            "explanation": "“If” gives a condition. The second part gives the result: no better shoes → no more selling.",
+            "explanation": "“So” gives a result. He wanted more money → he used cheap leather.",
             "feedback": {
-              "correct": "Correct. A condition and a result.",
-              "incorrect": "What would happen if he did not improve?"
+              "correct": "Correct. A result.",
+              "incorrect": "Why did he use cheap leather?"
             }
           },
           {
-            "id": "ahi-a2-language-3-story",
+            "id": "ahi-a2-language-4-story",
             "type": "word-bank",
             "title": "Practise: Tell the Story",
             "instructions": "Fill each gap from the word bank. Two words are not needed.",
@@ -481,15 +580,15 @@
             }
           },
           {
-            "id": "ahi-a2-language-3-honest",
+            "id": "ahi-a2-language-4-honest",
             "type": "reflection",
             "title": "Use: Honest Work",
             "instructions": "Write three sentences about honest work in a shop today.",
             "question": "What should a good shop owner do?",
             "correctAnswer": null,
-            "explanation": "Example: “A good shop owner sells good things at a fair price. If a shop sells bad things, people stop buying there. Customers are happy when the shop is honest.”",
+            "explanation": "Example: “A good shop owner sells good things at a fair price. The bread in our shop is fresh, so many people buy it there. Customers are happy when the shop is honest.”",
             "feedback": {
-              "correct": "Check: if and a clear idea of honest work.",
+              "correct": "Check: so and a clear idea of honest work.",
               "incorrect": ""
             },
             "discussionPrompts": [
@@ -499,14 +598,156 @@
                 "example": "A good shop owner …"
               },
               {
-                "question": "Use if.",
+                "question": "Use so.",
                 "mode": "Individual",
-                "example": "If a shop sells bad things, …"
+                "example": "The shop sells good things, so …"
               },
               {
                 "question": "Say how customers feel.",
                 "mode": "Pair",
                 "example": "Customers are happy when …"
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: Why did the customers become angry?",
+          "options": ["Their new shoes broke after a few weeks.", "The shoes were too expensive.", "The shop was closed."],
+          "answer": 0,
+          "quote": "Their new shoes broke after only a few weeks."
+        },
+        "iCan": [
+          "I can say what the Ahî Organization wanted from shop owners.",
+          "I can explain the shoemaker’s problem.",
+          "I can use so, after and to + verb."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "story",
+        "title": "The Shoe on the Roof",
+        "image": "",
+        "audioUrl": "",
+        "content": "The leader walked into the shop and looked closely at the poor-quality shoes. He decided to do something about it. He threw the low-quality shoes onto the roof of the shop. This was a big warning for every shop owner in town. It showed that the shoemaker did a poor job. If he did not improve the quality, he could not sell shoes in that town again. This is where the saying ‘pabucu dama atılmak’ comes from.",
+        "vocabulary": [
+          {
+            "word": "poor-quality",
+            "definition": "Not made well."
+          },
+          {
+            "word": "low-quality",
+            "definition": "Cheap and not good."
+          },
+          {
+            "word": "improve",
+            "definition": "Make something better."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "ahi-a2-en-h5a",
+            "x": 30,
+            "y": 40,
+            "title": "The Ahî Leader",
+            "description": "The leader walked into the shop and looked closely at the poor-quality shoes."
+          },
+          {
+            "id": "ahi-a2-en-h5b",
+            "x": 70,
+            "y": 45,
+            "title": "On the Roof",
+            "description": "The leader threw the low-quality shoes onto the roof of the shop."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "ahi-a2-quick-5",
+            "type": "multiple-choice",
+            "title": "A Big Warning",
+            "instructions": "Choose the answer from Chapter 5.",
+            "question": "Why did the leader throw the shoes onto the roof?",
+            "options": ["It was a warning for every shop owner.", "The shoes were too big.", "The shop had no room for them."],
+            "correctAnswer": 0,
+            "explanation": "Chapter 5: “This was a big warning for every shop owner in town.”",
+            "feedback": {
+              "correct": "Correct. It was a warning for every shop owner.",
+              "incorrect": "Find the word warning in the chapter."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "ahi-a2-language-5-if",
+            "type": "multiple-choice",
+            "title": "Look: If He Did Not Improve …",
+            "instructions": "Read the sentence from Chapter 5. Then choose the answer.",
+            "question": "“If he did not improve the quality, he could not sell shoes in that town again.” What does this sentence show?",
+            "options": ["a condition and its result", "two events in the past", "a question"],
+            "correctAnswer": 0,
+            "explanation": "“If” gives a condition. The second part gives the result: no better shoes → no more selling.",
+            "feedback": {
+              "correct": "Correct. A condition and a result.",
+              "incorrect": "What would happen if he did not improve?"
+            }
+          },
+          {
+            "id": "ahi-a2-language-5-past",
+            "type": "choose-form",
+            "title": "Practise: What the Leader Did",
+            "instructions": "Choose the correct past form for each sentence.",
+            "question": "Which form fits?",
+            "formChoices": [
+              {
+                "sentence": "The leader [choice] into the shop.",
+                "options": ["walked", "walks", "walking"],
+                "answer": 0
+              },
+              {
+                "sentence": "He [choice] to do something about it.",
+                "options": ["decided", "decides", "decide"],
+                "answer": 0
+              },
+              {
+                "sentence": "He [choice] the low-quality shoes onto the roof.",
+                "options": ["threw", "throwed", "throws"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "“Walked” and “decided” are regular past forms with -ed. “Throw” is irregular: its past form is “threw”.",
+            "feedback": {
+              "correct": "Well done. Walked, decided, threw.",
+              "incorrect": "Is the verb regular or irregular?"
+            }
+          },
+          {
+            "id": "ahi-a2-language-5-if-rules",
+            "type": "reflection",
+            "title": "Use: If You Break a Rule",
+            "instructions": "Write three sentences about rules in your school with if.",
+            "question": "What happens if someone breaks a rule?",
+            "correctAnswer": null,
+            "explanation": "Example: “In our school, we have to keep the library quiet. If a student talks loudly, the teacher asks him or her to leave. This rule is good because people can read and study there.”",
+            "feedback": {
+              "correct": "Check: if, a clear result and because.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say one rule.",
+                "mode": "Individual",
+                "example": "In our school, we have to …"
+              },
+              {
+                "question": "Use if for the result.",
+                "mode": "Individual",
+                "example": "If a student is late, …"
+              },
+              {
+                "question": "Say why the rule is good.",
+                "mode": "Pair",
+                "example": "This rule is good because …"
               }
             ]
           }
@@ -519,18 +760,18 @@
           "quote": "He threw the low-quality shoes onto the roof of the shop."
         },
         "iCan": [
-          "I can retell the story of the shoe on the roof.",
+          "I can say what the Ahî leader did and why.",
           "I can explain where the saying ‘pabucu dama atılmak’ comes from.",
-          "I can use so, after and if."
+          "I can use if for a condition and its result."
         ]
       },
       {
-        "id": 4,
+        "id": 6,
         "type": "story",
-        "title": "The Secret of the Glass",
+        "title": "Not Ready Yet",
         "image": "",
         "audioUrl": "",
-        "content": "In the past, in a town in Central Anatolia, a young apprentice wanted to open his own shop. However, in the Ahî tradition, an apprentice needed a special certificate from his master first. The young glassmaker asked for this certificate. But his master shook his head and said, “You are not ready yet.”\n\nThe apprentice did not listen to his master. He packed his things, went to another city, and opened a new shop. But things went wrong. All of his new glass cups and figures cracked after a short time. No one wanted to buy his work. He lost all his money and had to return to his master. He said, “I am sorry,” and his kind master forgave him.\n\nThey worked together for some more time. After that, the master looked at him and said, “Now you are ready.” He took the apprentice into a special dark room. Masters used this room to cool down hot glass slowly so it did not crack. Also, it was very easy to see mistakes in the dark.\n\nInside the room, a little sunlight came through a small hole in the ceiling. The master held up a hot piece of glass to the light. There was a tiny air bubble inside it. The master blew on it softly. “Püf!” The bubble disappeared.\n\nAt that moment, the apprentice understood his mistake. He also understood why his master had said, “You are not ready yet.” The glass pieces he had made before had cracked because he had not blown out those tiny air bubbles. He finally learned this important secret, thanked his master, and started a very successful business. In Turkish, the key point of a job is called ‘püf noktası.’",
+        "content": "In the past, in a town in Central Anatolia, a young apprentice wanted to open his own shop. However, in the Ahî tradition, an apprentice needed a special certificate from his master first. The young glassmaker asked for this certificate. But his master shook his head and said, “You are not ready yet.”\n\nThe apprentice did not listen to his master. He packed his things, went to another city, and opened a new shop. But things went wrong. All of his new glass cups and figures cracked after a short time. No one wanted to buy his work. He lost all his money and had to return to his master. He said, “I am sorry,” and his kind master forgave him.",
         "vocabulary": [
           {
             "word": "certificate",
@@ -547,7 +788,136 @@
           {
             "word": "forgave",
             "definition": "Stopped being angry with someone."
+          }
+        ],
+        "hotspots": [
+          {
+            "id": "ahi-a2-en-h6a",
+            "x": 30,
+            "y": 40,
+            "title": "The Glassmaker",
+            "description": "A young apprentice wanted to open his own shop, but his master said, “You are not ready yet.”"
           },
+          {
+            "id": "ahi-a2-en-h6b",
+            "x": 70,
+            "y": 45,
+            "title": "Cracked Glass",
+            "description": "All of his new glass cups and figures cracked after a short time."
+          }
+        ],
+        "exercises": [
+          {
+            "id": "ahi-a2-quick-6",
+            "type": "true-false",
+            "title": "The Apprentice",
+            "instructions": "Read the statement. Is it true or false?",
+            "question": "The apprentice listened to his master and waited.",
+            "correctAnswer": false,
+            "explanation": "Chapter 6: “The apprentice did not listen to his master. He packed his things, went to another city, and opened a new shop.”",
+            "feedback": {
+              "correct": "Correct. He did not listen.",
+              "incorrect": "Read the beginning of the second paragraph."
+            }
+          }
+        ],
+        "languageFocusExercises": [
+          {
+            "id": "ahi-a2-language-6-yet",
+            "type": "multiple-choice",
+            "title": "Look: You Are Not Ready Yet",
+            "instructions": "Read the master’s words. Then choose the answer.",
+            "question": "“You are not ready yet.” What does “not … yet” mean?",
+            "options": ["You are not ready now, but you will be ready later.", "You will never be ready.", "You were ready before."],
+            "correctAnswer": 0,
+            "explanation": "“Not … yet” means “not now, but later”. In Chapter 7, the master says, “Now you are ready.”",
+            "feedback": {
+              "correct": "Correct. Not now, but later.",
+              "incorrect": "Does the master think the apprentice can learn?"
+            }
+          },
+          {
+            "id": "ahi-a2-language-6-had-to",
+            "type": "choose-form",
+            "title": "Practise: Had To, Did Not, Yet",
+            "instructions": "Choose the correct word for each sentence from Chapter 6.",
+            "question": "Which word fits?",
+            "formChoices": [
+              {
+                "sentence": "The apprentice did not [choice] to his master.",
+                "options": ["listen", "listened", "listens"],
+                "answer": 0
+              },
+              {
+                "sentence": "He lost all his money and [choice] to return to his master.",
+                "options": ["had", "has", "must"],
+                "answer": 0
+              },
+              {
+                "sentence": "“You are not ready [choice].”",
+                "options": ["yet", "still", "already"],
+                "answer": 0
+              }
+            ],
+            "correctAnswer": null,
+            "explanation": "Use “did not + base verb” for the past negative. “Had to” is the past of “have to”. “Not … yet” means not now.",
+            "feedback": {
+              "correct": "Well done. Listen, had, yet.",
+              "incorrect": "Check the negative, the past form and not … yet."
+            }
+          },
+          {
+            "id": "ahi-a2-language-6-not-yet",
+            "type": "reflection",
+            "title": "Use: Not Ready Yet",
+            "instructions": "Tell your partner about something you are not ready for yet.",
+            "question": "What do you need to learn first?",
+            "correctAnswer": null,
+            "explanation": "Example: “I am not ready to cook a big meal yet. I have to learn how to use the oven. My grandmother can help me. When I am ready, I will cook for my family.”",
+            "feedback": {
+              "correct": "Check: not … yet, have to and a helper.",
+              "incorrect": ""
+            },
+            "discussionPrompts": [
+              {
+                "question": "Say what you are not ready for yet.",
+                "mode": "Pair",
+                "example": "I am not ready to … yet."
+              },
+              {
+                "question": "Say what you have to learn.",
+                "mode": "Pair",
+                "example": "I have to learn …"
+              },
+              {
+                "question": "Say who can help you.",
+                "mode": "Pair",
+                "example": "My … can help me."
+              }
+            ]
+          }
+        ],
+        "beforeYouRead": {
+          "kind": "guess",
+          "question": "Guess first: What did the master say to the young glassmaker?",
+          "options": ["“You are not ready yet.”", "“Here is your certificate.”", "“Go to another city.”"],
+          "answer": 0,
+          "quote": "You are not ready yet."
+        },
+        "iCan": [
+          "I can say what the apprentice wanted and what his master said.",
+          "I can explain what went wrong in the new shop.",
+          "I can use not … yet, had to and did not."
+        ]
+      },
+      {
+        "id": 7,
+        "type": "story",
+        "title": "The Secret of the Glass",
+        "image": "",
+        "audioUrl": "",
+        "content": "They worked together for some more time. After that, the master looked at him and said, “Now you are ready.” He took the apprentice into a special dark room. Masters used this room to cool down hot glass slowly so it did not crack. Also, it was very easy to see mistakes in the dark.\n\nInside the room, a little sunlight came through a small hole in the ceiling. The master held up a hot piece of glass to the light. There was a tiny air bubble inside it. The master blew on it softly. “Püf!” The bubble disappeared.\n\nAt that moment, the apprentice understood his mistake. He also understood why his master had said, “You are not ready yet.” The glass pieces he had made before had cracked because he had not blown out those tiny air bubbles. He finally learned this important secret, thanked his master, and started a very successful business. In Turkish, the key point of a job is called ‘püf noktası.’",
+        "vocabulary": [
           {
             "word": "cool down",
             "definition": "Become less hot."
@@ -587,107 +957,125 @@
         ],
         "hotspots": [
           {
-            "id": "ahi-a2-en-h4a",
+            "id": "ahi-a2-en-h7a",
             "x": 30,
             "y": 40,
-            "title": "The Glassmaker",
-            "description": "A young apprentice wanted to open his own shop, but his master said, “You are not ready yet.”"
-          },
-          {
-            "id": "ahi-a2-en-h4b",
-            "x": 70,
-            "y": 45,
             "title": "The Dark Room",
             "description": "Masters used a special dark room to cool down hot glass slowly."
+          },
+          {
+            "id": "ahi-a2-en-h7b",
+            "x": 70,
+            "y": 45,
+            "title": "The Air Bubble",
+            "description": "The master blew on a tiny air bubble, and it disappeared."
           }
         ],
         "exercises": [
           {
-            "id": "ahi-a2-quick-4",
-            "type": "true-false",
-            "title": "The Apprentice",
-            "instructions": "Read the statement. Is it true or false?",
-            "question": "The apprentice listened to his master and waited.",
-            "correctAnswer": false,
-            "explanation": "Chapter 4: “The apprentice did not listen to his master. He packed his things, went to another city, and opened a new shop.”",
+            "id": "ahi-a2-quick-7",
+            "type": "sequencing",
+            "title": "In the Dark Room",
+            "instructions": "Put the events in order.",
+            "question": "What happened in the dark room?",
+            "sequencingItems": [
+              {
+                "id": "1",
+                "text": "The master took the apprentice into a dark room."
+              },
+              {
+                "id": "2",
+                "text": "The master held up a hot piece of glass to the light."
+              },
+              {
+                "id": "3",
+                "text": "The master blew on the tiny air bubble."
+              },
+              {
+                "id": "4",
+                "text": "The bubble disappeared."
+              }
+            ],
+            "correctAnswer": ["1", "2", "3", "4"],
+            "explanation": "Chapter 7: The master took him into the dark room, held up the glass, blew on it, and the bubble disappeared.",
             "feedback": {
-              "correct": "Correct. He did not listen.",
-              "incorrect": "Read the beginning of the second paragraph."
+              "correct": "Correct. Room, light, blow, gone.",
+              "incorrect": "Read the first two paragraphs again."
             }
           }
         ],
         "languageFocusExercises": [
           {
-            "id": "ahi-a2-language-4-yet",
+            "id": "ahi-a2-language-7-because",
             "type": "multiple-choice",
-            "title": "Look: You Are Not Ready Yet",
-            "instructions": "Read the master’s words. Then choose the answer.",
-            "question": "“You are not ready yet.” What does “not … yet” mean?",
-            "options": ["You are not ready now, but you will be ready later.", "You will never be ready.", "You were ready before."],
+            "title": "Look: Because He Had Not Blown …",
+            "instructions": "Read the sentence from Chapter 7. Then choose the answer.",
+            "question": "“The glass pieces he had made before had cracked because he had not blown out those tiny air bubbles.” What does “because” give?",
+            "options": ["the reason for the cracks", "the time of the cracks", "the place of the shop"],
             "correctAnswer": 0,
-            "explanation": "“Not … yet” means “not now, but later”. At the end of the story, the master says, “Now you are ready.”",
+            "explanation": "“Because” gives a reason. The glass cracked → the reason: the tiny air bubbles were still inside.",
             "feedback": {
-              "correct": "Correct. Not now, but later.",
-              "incorrect": "What does the master say at the end?"
+              "correct": "Correct. The reason.",
+              "incorrect": "Why did the glass crack?"
             }
           },
           {
-            "id": "ahi-a2-language-4-had-to",
+            "id": "ahi-a2-language-7-forms",
             "type": "choose-form",
-            "title": "Practise: Had To, Because, Yet",
-            "instructions": "Choose the correct word for each sentence from Chapter 4.",
+            "title": "Practise: To, Was, Because",
+            "instructions": "Choose the correct word for each sentence from Chapter 7.",
             "question": "Which word fits?",
             "formChoices": [
               {
-                "sentence": "He lost all his money and [choice] to return to his master.",
-                "options": ["had", "has", "must"],
+                "sentence": "Masters used this room [choice] cool down hot glass slowly.",
+                "options": ["to", "for", "and"],
+                "answer": 0
+              },
+              {
+                "sentence": "There [choice] a tiny air bubble inside it.",
+                "options": ["was", "were", "is"],
                 "answer": 0
               },
               {
                 "sentence": "The glass cracked [choice] he had not blown out the air bubbles.",
                 "options": ["because", "so", "but"],
                 "answer": 0
-              },
-              {
-                "sentence": "“You are not ready [choice].”",
-                "options": ["yet", "still", "already"],
-                "answer": 0
               }
             ],
             "correctAnswer": null,
-            "explanation": "“Had to” is the past of “have to”. “Because” gives a reason. “Not … yet” means not now.",
+            "explanation": "“To + verb” gives a purpose. Use “there was” for one thing in the past. “Because” gives a reason.",
             "feedback": {
-              "correct": "Well done. Had, because, yet.",
-              "incorrect": "Check the past form, the reason word and not … yet."
+              "correct": "Well done. To, was, because.",
+              "incorrect": "Check the purpose, the past form and the reason word."
             }
           },
           {
-            "id": "ahi-a2-language-4-not-yet",
+            "id": "ahi-a2-language-7-secret",
             "type": "reflection",
-            "title": "Use: Not Ready Yet",
-            "instructions": "Tell your partner about something you are not ready for yet.",
-            "question": "What do you need to learn first?",
+            "title": "Use: The Secret of a Skill",
+            "instructions": "Tell your partner the secret of a skill you know.",
+            "question": "What is the most important point? Why?",
             "correctAnswer": null,
-            "explanation": "Example: “I am not ready to cook a big meal yet. I have to learn how to use the oven. My grandmother can help me. When I am ready, I will cook for my family.”",
+            "explanation": "Example: “I can make good tea. The secret is the water. You have to use fresh water and wait for the right time. It is important because old water makes the tea taste bad.”",
             "feedback": {
-              "correct": "Check: not … yet, have to and a helper.",
+              "correct": "Check: the secret, because and one clear reason.",
               "incorrect": ""
             },
             "discussionPrompts": [
               {
-                "question": "Say what you are not ready for yet.",
+                "question": "Say the skill.",
                 "mode": "Pair",
-                "example": "I am not ready to … yet."
+                "example": "I can make … / I can ride …"
               },
               {
-                "question": "Say what you have to learn.",
+                "question": "Say the secret.",
                 "mode": "Pair",
-                "example": "I have to learn …"
+                "example": "The secret is …"
               },
               {
-                "question": "Say who can help you.",
+                "question": "Say why, with because.",
                 "mode": "Pair",
-                "example": "My … can help me."
+                "example": "It is important because …"
               }
             ]
           }
@@ -700,9 +1088,9 @@
           "quote": "The glass pieces he had made before had cracked because he had not blown out those tiny air bubbles."
         },
         "iCan": [
-          "I can retell the story of the secret of the glass.",
+          "I can explain the secret of the glass.",
           "I can explain where the saying ‘püf noktası’ comes from.",
-          "I can use not … yet, had to and because."
+          "I can use because and to + verb."
         ],
         "groupTask": {
           "type": "project",
@@ -710,7 +1098,7 @@
           "time": "15 min",
           "groupSize": "3–4",
           "steps": [
-            "Choose one story: The Shoe on the Roof or The Secret of the Glass.",
+            "Choose one story: The Shoe on the Roof (Chapters 4–5) or The Secret of the Glass (Chapters 6–7).",
             "Write four short scenes with the people in the story.",
             "Use one sentence from the book in your play.",
             "Act out your play and explain the Turkish saying at the end."
@@ -720,7 +1108,7 @@
         }
       },
       {
-        "id": 5,
+        "id": 8,
         "type": "quiz",
         "title": "Knowledge Check",
         "image": "",
@@ -762,10 +1150,10 @@
             "question": "How did members learn good manners?",
             "options": ["with the help of role models", "from television", "in the army"],
             "correctAnswer": 0,
-            "explanation": "Chapter 1: “With the help of role models, members learned good manners for daily life, such as walking on the street or visiting sick people.”",
+            "explanation": "Chapter 2: “With the help of role models, members learned good manners for daily life, such as walking on the street or visiting sick people.”",
             "feedback": {
               "correct": "Correct. With the help of role models.",
-              "incorrect": "Read the end of Chapter 1."
+              "incorrect": "Read the end of Chapter 2."
             }
           },
           {
@@ -775,10 +1163,10 @@
             "instructions": "Is the sentence true or false?",
             "question": "In Ahî culture, not learning a job correctly brought shame.",
             "correctAnswer": true,
-            "explanation": "Chapter 2: “In their culture, not learning a job correctly brought shame in this world and after death.”",
+            "explanation": "Chapter 3: “In their culture, not learning a job correctly brought shame in this world and after death.”",
             "feedback": {
               "correct": "Correct. It brought shame.",
-              "incorrect": "Find the word shame in Chapter 2."
+              "incorrect": "Find the word shame in Chapter 3."
             }
           },
           {
@@ -789,10 +1177,10 @@
             "question": "Why did the shoemaker use cheap leather?",
             "options": ["He wanted to make more money.", "He had no good leather.", "His customers asked for it."],
             "correctAnswer": 0,
-            "explanation": "Chapter 3: “In a small town, a shoemaker wanted to make more money, so he began using cheap leather.”",
+            "explanation": "Chapter 4: “In a small town, a shoemaker wanted to make more money, so he began using cheap leather.”",
             "feedback": {
               "correct": "Correct. He wanted more money.",
-              "incorrect": "Read the second paragraph of Chapter 3."
+              "incorrect": "Read the second paragraph of Chapter 4."
             }
           },
           {
@@ -802,10 +1190,10 @@
             "instructions": "Is the sentence true or false?",
             "question": "The shoes on the roof were a warning only for the shoemaker.",
             "correctAnswer": false,
-            "explanation": "Chapter 3: “This was a big warning for every shop owner in town.”",
+            "explanation": "Chapter 5: “This was a big warning for every shop owner in town.”",
             "feedback": {
               "correct": "Correct. It was a warning for every shop owner.",
-              "incorrect": "Find the word warning in Chapter 3."
+              "incorrect": "Find the word warning in Chapter 5."
             }
           },
           {
@@ -816,10 +1204,10 @@
             "question": "What did masters use the dark room for?",
             "options": ["to cool down hot glass slowly", "to sleep", "to keep money"],
             "correctAnswer": 0,
-            "explanation": "Chapter 4: “Masters used this room to cool down hot glass slowly so it did not crack.”",
+            "explanation": "Chapter 7: “Masters used this room to cool down hot glass slowly so it did not crack.”",
             "feedback": {
               "correct": "Correct. To cool down hot glass slowly.",
-              "incorrect": "Find the dark room in Chapter 4."
+              "incorrect": "Find the dark room in Chapter 7."
             }
           },
           {
@@ -830,16 +1218,16 @@
             "question": "What did the master do to the tiny air bubble?",
             "options": ["He blew on it softly.", "He broke the glass.", "He put it in water."],
             "correctAnswer": 0,
-            "explanation": "Chapter 4: “The master blew on it softly. ‘Püf!’ The bubble disappeared.”",
+            "explanation": "Chapter 7: “The master blew on it softly. ‘Püf!’ The bubble disappeared.”",
             "feedback": {
               "correct": "Correct. He blew on it softly.",
-              "incorrect": "Read the fourth paragraph of Chapter 4."
+              "incorrect": "Read the second paragraph of Chapter 7."
             }
           }
         ]
       },
       {
-        "id": 7,
+        "id": 10,
         "type": "glossary",
         "title": "Master Glossary",
         "content": "Review all key vocabulary from the book in one place.",
@@ -918,8 +1306,8 @@
             "pronunciation": "/ɪnˈkʌrɪdʒd/",
             "category": "Actions & Behavior",
             "level": "A2",
-            "chapter": 1,
-            "chapterTitle": "What Was the Ahî Organization?",
+            "chapter": 2,
+            "chapterTitle": "Good Character",
             "storyExample": "They always encouraged good behavior, helped people in need, and stayed away from actions forbidden by the Qur’an and the teachings of the Prophet."
           },
           {
@@ -929,8 +1317,8 @@
             "pronunciation": "/fərˈbɪdən/",
             "category": "Values & Society",
             "level": "A2",
-            "chapter": 1,
-            "chapterTitle": "What Was the Ahî Organization?",
+            "chapter": 2,
+            "chapterTitle": "Good Character",
             "storyExample": "They always encouraged good behavior, helped people in need, and stayed away from actions forbidden by the Qur’an and the teachings of the Prophet."
           },
           {
@@ -940,8 +1328,8 @@
             "pronunciation": "/tel laɪz/",
             "category": "Values & Society",
             "level": "A2",
-            "chapter": 1,
-            "chapterTitle": "What Was the Ahî Organization?",
+            "chapter": 2,
+            "chapterTitle": "Good Character",
             "storyExample": "For example, they did not drink alcohol or tell lies."
           },
           {
@@ -951,8 +1339,8 @@
             "pronunciation": "/ɡʊd ˈmænərz/",
             "category": "Values & Society",
             "level": "A2",
-            "chapter": 1,
-            "chapterTitle": "What Was the Ahî Organization?",
+            "chapter": 2,
+            "chapterTitle": "Good Character",
             "storyExample": "With the help of role models, members learned good manners for daily life, such as walking on the street or visiting sick people."
           },
           {
@@ -962,7 +1350,7 @@
             "pronunciation": "/ˈmæstərz/",
             "category": "Work & Trade",
             "level": "A2",
-            "chapter": 2,
+            "chapter": 3,
             "chapterTitle": "Training and Culture",
             "storyExample": "Young people started as apprentices and went through different levels until they became masters."
           },
@@ -973,7 +1361,7 @@
             "pronunciation": "/ɡroʊ/",
             "category": "Time & Change",
             "level": "A2",
-            "chapter": 2,
+            "chapter": 3,
             "chapterTitle": "Training and Culture",
             "storyExample": "This helped Anatolian Turkish culture grow."
           },
@@ -984,7 +1372,7 @@
             "pronunciation": "/ɪˈfekt/",
             "category": "Ideas & Description",
             "level": "A2",
-            "chapter": 2,
+            "chapter": 3,
             "chapterTitle": "Training and Culture",
             "storyExample": "Also, the group had a big effect on the cultural life of Anatolia, not just personal life."
           },
@@ -995,7 +1383,7 @@
             "pronunciation": "/ˈpɜːrsənəl/",
             "category": "Feelings & Character",
             "level": "A2",
-            "chapter": 2,
+            "chapter": 3,
             "chapterTitle": "Training and Culture",
             "storyExample": "Also, the group had a big effect on the cultural life of Anatolia, not just personal life."
           },
@@ -1006,7 +1394,7 @@
             "pronunciation": "/ˈkʌltʃərəl/",
             "category": "Values & Society",
             "level": "A2",
-            "chapter": 2,
+            "chapter": 3,
             "chapterTitle": "Training and Culture",
             "storyExample": "Also, the group had a big effect on the cultural life of Anatolia, not just personal life."
           },
@@ -1017,7 +1405,7 @@
             "pronunciation": "/ˌɔːrɡənəˈzeɪʃənz/",
             "category": "Values & Society",
             "level": "A2",
-            "chapter": 2,
+            "chapter": 3,
             "chapterTitle": "Training and Culture",
             "storyExample": "Like madrasas and dervish schools, Ahî organizations worked as important schools for the people in Anatolia."
           },
@@ -1028,7 +1416,7 @@
             "pronunciation": "/ˈtreɪnɪŋ/",
             "category": "Work & Economy",
             "level": "A2",
-            "chapter": 2,
+            "chapter": 3,
             "chapterTitle": "Training and Culture",
             "storyExample": "But their training was not just about learning a job."
           },
@@ -1039,7 +1427,7 @@
             "pronunciation": "/ˈekspɜːrts/",
             "category": "People & Society",
             "level": "A2",
-            "chapter": 2,
+            "chapter": 3,
             "chapterTitle": "Training and Culture",
             "storyExample": "Members also learned from wise teachers and experts."
           },
@@ -1050,7 +1438,7 @@
             "pronunciation": "/ʃeɪm/",
             "category": "Feelings & Character",
             "level": "A2",
-            "chapter": 2,
+            "chapter": 3,
             "chapterTitle": "Training and Culture",
             "storyExample": "In their culture, not learning a job correctly brought shame in this world and after death."
           },
@@ -1061,7 +1449,7 @@
             "pronunciation": "/waɪz/",
             "category": "Feelings & Character",
             "level": "A2",
-            "chapter": 2,
+            "chapter": 3,
             "chapterTitle": "Training and Culture",
             "storyExample": "Members also learned from wise teachers and experts."
           },
@@ -1072,8 +1460,8 @@
             "pronunciation": "/ˈkwɒləti wɜːrk/",
             "category": "Work & Trade",
             "level": "A2",
-            "chapter": 3,
-            "chapterTitle": "The Shoe on the Roof",
+            "chapter": 4,
+            "chapterTitle": "Bad Shoes",
             "storyExample": "They wanted every shop owner to do honest and quality work."
           },
           {
@@ -1083,8 +1471,8 @@
             "pronunciation": "/ˈkʌstəmərz/",
             "category": "Work & Trade",
             "level": "A2",
-            "chapter": 3,
-            "chapterTitle": "The Shoe on the Roof",
+            "chapter": 4,
+            "chapterTitle": "Bad Shoes",
             "storyExample": "Soon, his customers saw a problem."
           },
           {
@@ -1094,8 +1482,8 @@
             "pronunciation": "/broʊk/",
             "category": "Actions & Behavior",
             "level": "A2",
-            "chapter": 3,
-            "chapterTitle": "The Shoe on the Roof",
+            "chapter": 4,
+            "chapterTitle": "Bad Shoes",
             "storyExample": "Their new shoes broke after only a few weeks."
           },
           {
@@ -1105,8 +1493,41 @@
             "pronunciation": "/tə kəmˈpleɪn/",
             "category": "Language & Communication",
             "level": "A2",
-            "chapter": 3,
-            "chapterTitle": "The Shoe on the Roof",
+            "chapter": 4,
+            "chapterTitle": "Bad Shoes",
+            "storyExample": "They became angry and went to the Ahî leader to complain."
+          },
+          {
+            "word": "honest",
+            "definition": "Always telling the truth.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/ˈɑːnɪst/",
+            "category": "Feelings & Character",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "Bad Shoes",
+            "storyExample": "They wanted every shop owner to do honest and quality work."
+          },
+          {
+            "word": "owner",
+            "definition": "A person who has something, like a shop.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈoʊnər/",
+            "category": "People & Society",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "Bad Shoes",
+            "storyExample": "They wanted every shop owner to do honest and quality work."
+          },
+          {
+            "word": "leader",
+            "definition": "A person who guides a group.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈliːdər/",
+            "category": "People & Society",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "Bad Shoes",
             "storyExample": "They became angry and went to the Ahî leader to complain."
           },
           {
@@ -1116,7 +1537,7 @@
             "pronunciation": "/ˌpʊr ˈkwɒləti/",
             "category": "Ideas & Description",
             "level": "A2",
-            "chapter": 3,
+            "chapter": 5,
             "chapterTitle": "The Shoe on the Roof",
             "storyExample": "The leader walked into the shop and looked closely at the poor-quality shoes."
           },
@@ -1127,7 +1548,7 @@
             "pronunciation": "/ˌloʊ ˈkwɒləti/",
             "category": "Ideas & Description",
             "level": "A2",
-            "chapter": 3,
+            "chapter": 5,
             "chapterTitle": "The Shoe on the Roof",
             "storyExample": "He threw the low-quality shoes onto the roof of the shop."
           },
@@ -1138,42 +1559,9 @@
             "pronunciation": "/ɪmˈpruːv/",
             "category": "Time & Change",
             "level": "A2",
-            "chapter": 3,
+            "chapter": 5,
             "chapterTitle": "The Shoe on the Roof",
             "storyExample": "If he did not improve the quality, he could not sell shoes in that town again."
-          },
-          {
-            "word": "honest",
-            "definition": "Always telling the truth.",
-            "partOfSpeech": "adjective",
-            "pronunciation": "/ˈɑːnɪst/",
-            "category": "Feelings & Character",
-            "level": "A2",
-            "chapter": 3,
-            "chapterTitle": "The Shoe on the Roof",
-            "storyExample": "They wanted every shop owner to do honest and quality work."
-          },
-          {
-            "word": "owner",
-            "definition": "A person who has something, like a shop.",
-            "partOfSpeech": "noun",
-            "pronunciation": "/ˈoʊnər/",
-            "category": "People & Society",
-            "level": "A2",
-            "chapter": 3,
-            "chapterTitle": "The Shoe on the Roof",
-            "storyExample": "They wanted every shop owner to do honest and quality work."
-          },
-          {
-            "word": "leader",
-            "definition": "A person who guides a group.",
-            "partOfSpeech": "noun",
-            "pronunciation": "/ˈliːdər/",
-            "category": "People & Society",
-            "level": "A2",
-            "chapter": 3,
-            "chapterTitle": "The Shoe on the Roof",
-            "storyExample": "They became angry and went to the Ahî leader to complain."
           },
           {
             "word": "certificate",
@@ -1182,8 +1570,8 @@
             "pronunciation": "/sərˈtɪfɪkət/",
             "category": "Work & Trade",
             "level": "A2",
-            "chapter": 4,
-            "chapterTitle": "The Secret of the Glass",
+            "chapter": 6,
+            "chapterTitle": "Not Ready Yet",
             "storyExample": "However, in the Ahî tradition, an apprentice needed a special certificate from his master first."
           },
           {
@@ -1193,8 +1581,8 @@
             "pronunciation": "/ˈredi/",
             "category": "Feelings & Character",
             "level": "A2",
-            "chapter": 4,
-            "chapterTitle": "The Secret of the Glass",
+            "chapter": 6,
+            "chapterTitle": "Not Ready Yet",
             "storyExample": "But his master shook his head and said, “You are not ready yet.”"
           },
           {
@@ -1204,8 +1592,8 @@
             "pronunciation": "/krækt/",
             "category": "Actions & Behavior",
             "level": "A2",
-            "chapter": 4,
-            "chapterTitle": "The Secret of the Glass",
+            "chapter": 6,
+            "chapterTitle": "Not Ready Yet",
             "storyExample": "All of his new glass cups and figures cracked after a short time."
           },
           {
@@ -1215,8 +1603,8 @@
             "pronunciation": "/fərˈɡeɪv/",
             "category": "Feelings & Character",
             "level": "A2",
-            "chapter": 4,
-            "chapterTitle": "The Secret of the Glass",
+            "chapter": 6,
+            "chapterTitle": "Not Ready Yet",
             "storyExample": "He said, “I am sorry,” and his kind master forgave him."
           },
           {
@@ -1226,7 +1614,7 @@
             "pronunciation": "/kuːl daʊn/",
             "category": "Science & Nature",
             "level": "A2",
-            "chapter": 4,
+            "chapter": 7,
             "chapterTitle": "The Secret of the Glass",
             "storyExample": "Masters used this room to cool down hot glass slowly so it did not crack."
           },
@@ -1237,7 +1625,7 @@
             "pronunciation": "/ˈsiːlɪŋ/",
             "category": "Art & Architecture",
             "level": "A2",
-            "chapter": 4,
+            "chapter": 7,
             "chapterTitle": "The Secret of the Glass",
             "storyExample": "Inside the room, a little sunlight came through a small hole in the ceiling."
           },
@@ -1248,7 +1636,7 @@
             "pronunciation": "/held ʌp/",
             "category": "Actions & Behavior",
             "level": "A2",
-            "chapter": 4,
+            "chapter": 7,
             "chapterTitle": "The Secret of the Glass",
             "storyExample": "The master held up a hot piece of glass to the light."
           },
@@ -1259,7 +1647,7 @@
             "pronunciation": "/ˈtaɪni/",
             "category": "Ideas & Description",
             "level": "A2",
-            "chapter": 4,
+            "chapter": 7,
             "chapterTitle": "The Secret of the Glass",
             "storyExample": "There was a tiny air bubble inside it."
           },
@@ -1270,7 +1658,7 @@
             "pronunciation": "/ˈbʌbəl/",
             "category": "Science & Nature",
             "level": "A2",
-            "chapter": 4,
+            "chapter": 7,
             "chapterTitle": "The Secret of the Glass",
             "storyExample": "There was a tiny air bubble inside it."
           },
@@ -1281,7 +1669,7 @@
             "pronunciation": "/ɪnˈsaɪd/",
             "category": "Places & Geography",
             "level": "A2",
-            "chapter": 4,
+            "chapter": 7,
             "chapterTitle": "The Secret of the Glass",
             "storyExample": "Inside the room, a little sunlight came through a small hole in the ceiling."
           },
@@ -1292,7 +1680,7 @@
             "pronunciation": "/bluː ɒn/",
             "category": "Actions & Behavior",
             "level": "A2",
-            "chapter": 4,
+            "chapter": 7,
             "chapterTitle": "The Secret of the Glass",
             "storyExample": "The master blew on it softly."
           },
@@ -1303,7 +1691,7 @@
             "pronunciation": "/ˌdɪsəˈpɪrd/",
             "category": "Time & Change",
             "level": "A2",
-            "chapter": 4,
+            "chapter": 7,
             "chapterTitle": "The Secret of the Glass",
             "storyExample": "The bubble disappeared."
           },
@@ -1314,14 +1702,14 @@
             "pronunciation": "/kiː pɔɪnt əv ə dʒɒb/",
             "category": "Work & Trade",
             "level": "A2",
-            "chapter": 4,
+            "chapter": 7,
             "chapterTitle": "The Secret of the Glass",
             "storyExample": "In Turkish, the key point of a job is called ‘püf noktası.’"
           }
         ]
       },
       {
-        "id": 6,
+        "id": 9,
         "type": "vocabulary-match",
         "title": "Vocabulary Challenge",
         "image": "",
@@ -1339,41 +1727,41 @@
             "word": "masters",
             "meaning": "People with great skill in a job.",
             "partOfSpeech": "noun",
-            "chapter": 2,
+            "chapter": 3,
             "context": "until they became masters."
           },
           {
             "word": "customers",
             "meaning": "People who buy things from a shop.",
             "partOfSpeech": "noun",
-            "chapter": 3,
+            "chapter": 4,
             "context": "Soon, his customers saw a problem."
           },
           {
             "word": "improve",
             "meaning": "Make something better.",
             "partOfSpeech": "verb",
-            "chapter": 3,
+            "chapter": 5,
             "context": "If he did not improve the quality, he could not sell shoes in that town again."
           },
           {
             "word": "certificate",
             "meaning": "An official paper that shows you can do something.",
             "partOfSpeech": "noun",
-            "chapter": 4,
+            "chapter": 6,
             "context": "The young glassmaker asked for this certificate."
           },
           {
-            "word": "forgave",
-            "meaning": "Stopped being angry with someone.",
-            "partOfSpeech": "verb",
-            "chapter": 4,
-            "context": "his kind master forgave him."
+            "word": "tiny",
+            "meaning": "Very small.",
+            "partOfSpeech": "adjective",
+            "chapter": 7,
+            "context": "There was a tiny air bubble inside it."
           }
         ]
       },
       {
-        "id": 8,
+        "id": 11,
         "type": "exercises",
         "title": "Language Review",
         "image": "",
@@ -1399,7 +1787,7 @@
               "Work": ["It checked the quality of goods.", "It set prices.", "It solved business problems."],
               "Character": ["Members had to be honest.", "They helped people in need.", "They did not tell lies."]
             },
-            "explanation": "The Ahî Organization organized work and also taught good character (Chapter 1).",
+            "explanation": "The Ahî Organization organized work (Chapter 1) and also taught good character (Chapter 2).",
             "feedback": {
               "correct": "Good. You sorted work and character.",
               "incorrect": "Is the sentence about a job or about a person?"
@@ -1595,7 +1983,7 @@
         ]
       },
       {
-        "id": 9,
+        "id": 12,
         "type": "final-challenge",
         "title": "Final Challenge",
         "image": "",
@@ -1649,24 +2037,24 @@
               "customer": "a person who buys things from a shop",
               "certificate": "an official paper that shows you can do something"
             },
-            "explanation": "These words are important in all four chapters.",
+            "explanation": "These words are important in the whole book.",
             "feedback": {
               "correct": "Correct. Each word matches its meaning.",
-              "incorrect": "Think about the stories in Chapters 3 and 4."
+              "incorrect": "Think about the stories in Chapters 4 to 7."
             }
           },
           {
             "id": "ahi-a2-final-3",
             "type": "fill-blanks",
             "title": "Members",
-            "instructions": "Complete the sentence from Chapter 1 with one word.",
+            "instructions": "Complete the sentence from Chapter 2 with one word.",
             "question": "What did members have to be?",
             "fillBlanksText": "Members had to be honest, generous, and [blank].",
             "correctAnswer": ["thankful"],
-            "explanation": "Chapter 1: “Members had to be honest, generous, and thankful.”",
+            "explanation": "Chapter 2: “Members had to be honest, generous, and thankful.”",
             "feedback": {
               "correct": "Correct. Thankful.",
-              "incorrect": "Read the second paragraph of Chapter 1."
+              "incorrect": "Read the beginning of Chapter 2."
             }
           },
           {
@@ -1677,10 +2065,10 @@
             "question": "What were Ahî organizations like?",
             "options": ["madrasas and dervish schools", "markets", "palaces"],
             "correctAnswer": 0,
-            "explanation": "Chapter 2: “Like madrasas and dervish schools, Ahî organizations worked as important schools for the people in Anatolia.”",
+            "explanation": "Chapter 3: “Like madrasas and dervish schools, Ahî organizations worked as important schools for the people in Anatolia.”",
             "feedback": {
               "correct": "Correct. Like madrasas and dervish schools.",
-              "incorrect": "Find the word schools in Chapter 2."
+              "incorrect": "Find the word schools in Chapter 3."
             }
           },
           {
@@ -1717,10 +2105,10 @@
               "the apprentice": "opened a shop in another city",
               "the glass master": "blew on the air bubble"
             },
-            "explanation": "Chapters 3 and 4 tell two stories about Ahî workers.",
+            "explanation": "Chapters 4 to 7 tell two stories about Ahî workers.",
             "feedback": {
               "correct": "Correct. Each person matches his action.",
-              "incorrect": "Look in Chapters 3 and 4."
+              "incorrect": "Look in Chapters 4 to 7."
             }
           },
           {
@@ -1730,10 +2118,10 @@
             "instructions": "Is the sentence true or false?",
             "question": "The apprentice’s new shop in another city was very successful.",
             "correctAnswer": false,
-            "explanation": "Chapter 4: “But things went wrong. All of his new glass cups and figures cracked after a short time. No one wanted to buy his work.”",
+            "explanation": "Chapter 6: “But things went wrong. All of his new glass cups and figures cracked after a short time. No one wanted to buy his work.”",
             "feedback": {
               "correct": "Correct. Things went wrong.",
-              "incorrect": "Read the second paragraph of Chapter 4."
+              "incorrect": "Read the second paragraph of Chapter 6."
             }
           },
           {
@@ -1743,21 +2131,21 @@
             "instructions": "Is the sentence true or false?",
             "question": "The master forgave the apprentice when he came back.",
             "correctAnswer": true,
-            "explanation": "Chapter 4: “He said, ‘I am sorry,’ and his kind master forgave him.”",
+            "explanation": "Chapter 6: “He said, ‘I am sorry,’ and his kind master forgave him.”",
             "feedback": {
               "correct": "Correct. The master forgave him.",
-              "incorrect": "Find the word forgave in Chapter 4."
+              "incorrect": "Find the word forgave in Chapter 6."
             }
           },
           {
             "id": "ahi-a2-final-8",
             "type": "fill-blanks",
             "title": "A Saying",
-            "instructions": "Complete the sentence from Chapter 4 with two Turkish words.",
+            "instructions": "Complete the sentence from Chapter 7 with two Turkish words.",
             "question": "What is the key point of a job called in Turkish?",
             "fillBlanksText": "In Turkish, the key point of a job is called ‘[blank].’",
             "correctAnswer": ["püf noktası", "puf noktasi"],
-            "explanation": "Chapter 4: “In Turkish, the key point of a job is called ‘püf noktası.’”",
+            "explanation": "Chapter 7: “In Turkish, the key point of a job is called ‘püf noktası.’”",
             "feedback": {
               "correct": "Correct. Püf noktası.",
               "incorrect": "Read the last sentence of the book."
@@ -1771,10 +2159,10 @@
             "question": "When did the new shoes break?",
             "options": ["after only a few weeks", "after many years", "on the first day"],
             "correctAnswer": 0,
-            "explanation": "Chapter 3: “Their new shoes broke after only a few weeks.”",
+            "explanation": "Chapter 4: “Their new shoes broke after only a few weeks.”",
             "feedback": {
               "correct": "Correct. After only a few weeks.",
-              "incorrect": "Read the second paragraph of Chapter 3."
+              "incorrect": "Read the second paragraph of Chapter 4."
             }
           },
           {
@@ -1806,10 +2194,10 @@
               }
             ],
             "correctAnswer": ["1", "2", "3", "4", "5"],
-            "explanation": "Chapter 4 tells the story from the request to the secret.",
+            "explanation": "Chapters 6 and 7 tell the story from the request to the secret.",
             "feedback": {
               "correct": "Correct. From the request to the secret.",
-              "incorrect": "Follow Chapter 4 from the start."
+              "incorrect": "Follow Chapters 6 and 7 from the start."
             }
           }
         ]
