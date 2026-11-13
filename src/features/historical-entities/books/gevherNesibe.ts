@@ -1,6 +1,7 @@
 import { defineEntity, type EntitySpec } from './define';
 import { medFeature, medPoint } from '../mediterraneanMap';
 import type { EntityBookSet } from './index';
+import type { HistoricalEntity } from '../types';
 
 // Places & People cards for The Gevher Nesibe Hospital (A2). The book is
 // English only for now: the Arabic copy repeats the English until the Arabic
@@ -165,7 +166,42 @@ const CHAPTERS: Record<number, string[]> = {
   11: ['gevher-complex', 'gevher-europe'],
 };
 
+// The A1 book has its own, simpler card words (A1 words, and only what the A1 story says).
+// Maps, pictures and sources are the same as the A2 cards.
+const byId: Record<string, HistoricalEntity> = Object.fromEntries(entities.map(entity => [entity.id, entity]));
+const a1Card = (baseId: string, en: Text, aliasesEn: string[]): HistoricalEntity => {
+  const base = byId[baseId];
+  const words = { ...base.copy.en, ...en, mapAlt: base.copy.en.mapAlt.replace(base.copy.en.title, en.title) };
+  return { ...base, id: baseId.replace(/^gevher-/, 'gevher-a1-'), aliases: { en: aliasesEn, ar: [] }, copy: { en: words, ar: words } };
+};
+
+const a1Entities: HistoricalEntity[] = [
+  a1Card('gevher-complex', { title: 'The Gevher Nesibe Hospital and Medical School', kindLabel: 'Hospital and school', periodLabel: '1205–1206', summary: 'This old building in Kayseri was both a hospital and a school. It was the first place in the world with both.', more: 'Today, it is the Museum of the Seljuk Civilization.' }, ['Gevher Nesibe Hospital and Medical School', 'Gevher Nesibe Hospital', 'Twin Madrasas']),
+  a1Card('gevher-kayseri', { title: 'Kayseri', kindLabel: 'City', periodLabel: 'Anatolia', summary: 'Kayseri is a city in Anatolia. The Gevher Nesibe Hospital and Medical School is here.', more: 'It is the oldest Seljuk hospital in Anatolia.' }, ['Kayseri']),
+  a1Card('gevher-anatolia', { title: 'Anatolia', kindLabel: 'Land', periodLabel: 'Türkiye today', summary: 'Anatolia is a big land. Kayseri is a city in Anatolia.', more: 'Today, Anatolia is a part of Türkiye.' }, ['Anatolia']),
+  a1Card('gevher-europe', { title: 'Europe', kindLabel: 'Land', periodLabel: 'Today and in history', summary: 'Europe is a big land. In Europe, similar schools started more than 300 years later.' }, ['Europe']),
+  a1Card('gevher-gevher-nesibe-sultan', { title: 'Gevher Nesibe', kindLabel: 'Seljuk princess', periodLabel: 'The 1100s', summary: 'Gevher Nesibe was a Seljuk princess. She became very sick and died at a young age.', more: 'Her last wish was a hospital, free for everyone.' }, ['Gevher Nesibe']),
+  a1Card('gevher-kilicarslan-ii', { title: 'Kılıçarslan II', kindLabel: 'Seljuk sultan', periodLabel: 'The 1100s', summary: 'Sultan Kılıçarslan II was a Seljuk sultan. He was the father of Gevher Nesibe.' }, ['Kılıçarslan II']),
+  a1Card('gevher-giyaseddin-keyhusrev-i', { title: 'Gıyâseddin Keyhusrev I', kindLabel: 'Seljuk sultan', periodLabel: 'The early 1200s', summary: 'Sultan Gıyâseddin Keyhusrev I was the brother of Gevher Nesibe.', more: 'He kept his promise and built two buildings next to each other.' }, ['Gıyâseddin Keyhusrev I']),
+  a1Card('gevher-giyasiye', { title: 'Gıyâsiye Madrasa', kindLabel: 'School for doctors', periodLabel: 'The early 1200s', summary: 'The Gıyâsiye Madrasa was a school for doctors. Gevher Nesibe’s grave is inside it.' }, ['Gıyâsiye Madrasa', 'Gıyâsiye']),
+  a1Card('gevher-sifaiye', { title: 'Şifâiye', kindLabel: 'Hospital', periodLabel: 'The early 1200s', summary: 'The Şifâiye was the hospital. People also called it “the house of healing”.' }, ['Şifâiye']),
+  a1Card('gevher-ibn-sina', { title: 'İbn Sînâ', kindLabel: 'Scientist', periodLabel: '980–1037', summary: 'İbn Sînâ was a great scientist. The students in Kayseri read his important books.', more: 'He wrote that kind words and music can help sick people.' }, ['İbn Sînâ']),
+  a1Card('gevher-hippocrates', { title: 'Hippocrates', kindLabel: 'Doctor', periodLabel: 'Ancient Greece', summary: 'Hippocrates was a doctor from ancient Greece. The students in Kayseri read his books.' }, ['Hippocrates']),
+  a1Card('gevher-farabi', { title: 'Fârâbî', kindLabel: 'Scientist', periodLabel: 'The 800s and 900s', summary: 'Fârâbî was a scientist. He also studied music.', more: 'He found that music can make people happy or calm.' }, ['Fârâbî']),
+];
+
+const A1_CHAPTERS: Record<number, string[]> = {
+  1: ['gevher-a1-kayseri', 'gevher-a1-anatolia', 'gevher-a1-complex', 'gevher-a1-europe'],
+  2: ['gevher-a1-gevher-nesibe-sultan', 'gevher-a1-kilicarslan-ii', 'gevher-a1-giyaseddin-keyhusrev-i', 'gevher-a1-kayseri'],
+  3: ['gevher-a1-gevher-nesibe-sultan'],
+  4: ['gevher-a1-giyaseddin-keyhusrev-i', 'gevher-a1-giyasiye', 'gevher-a1-sifaiye', 'gevher-a1-gevher-nesibe-sultan'],
+  5: ['gevher-a1-giyasiye', 'gevher-a1-sifaiye'],
+  6: ['gevher-a1-ibn-sina', 'gevher-a1-hippocrates'],
+  7: ['gevher-a1-ibn-sina', 'gevher-a1-farabi', 'gevher-a1-kayseri'],
+  8: ['gevher-a1-gevher-nesibe-sultan', 'gevher-a1-complex'],
+};
+
 export const GEVHER_NESIBE_SET: EntityBookSet = {
-  entities,
-  chapters: { 'gevherNesibe-a2': CHAPTERS },
+  entities: [...entities, ...a1Entities],
+  chapters: { 'gevherNesibe-a2': CHAPTERS, 'gevherNesibe-a1': A1_CHAPTERS },
 };

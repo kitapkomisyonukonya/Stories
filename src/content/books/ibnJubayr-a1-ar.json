@@ -15,7 +15,7 @@
     "type": "story",
     "title": "Al-Andalus",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch1.jpeg?alt=media",
-    "content": "From 711 to 1492, Muslims ruled parts of Spain and Portugal. This place had a name: Al-Andalus. Muslims, Christians and Jews lived there together. They worked, bought, sold and studied together.\n\nAl-Andalus had big, beautiful cities. Córdoba was the biggest city in Western Europe. Sevilla had 1,000 mosques. People there were good at art, medicine and science.\n\nIbn Jubayr was born in Valencia in 1145. Valencia is a city in the east of Spain, near the sea. Ibn Jubayr was a famous traveler.",
+    "content": "From 711 to 1492, Muslims lived in Spain and Portugal. The name of this place was Al-Andalus. Muslims, Christians and Jews lived there together. They worked and studied together.\n\nPeople in Al-Andalus made beautiful houses, gardens and pictures. They wrote important books. They were good at medicine and science. For example, Ibn Rushd was a doctor and a scientist. Ibn Tufayl was a doctor and a writer, too. He wrote books.\n\nAl-Andalus had big, beautiful cities. Córdoba was the biggest city in Western Europe. Granada and Seville were big cities, too.\n\nIbn Jubayr was born in Valencia in 1145. Valencia is a city in Spain, near the sea.",
     "vocabulary": [
      {
       "word": "Al-Andalus",
@@ -26,20 +26,16 @@
       "definition": "__historical_entity__:ibnjubayr-a1-cordoba"
      },
      {
-      "word": "Sevilla",
+      "word": "Granada",
+      "definition": "__historical_entity__:ibnjubayr-a1-granada"
+     },
+     {
+      "word": "Seville",
       "definition": "__historical_entity__:ibnjubayr-a1-seville"
      },
      {
       "word": "Valencia",
       "definition": "__historical_entity__:ibnjubayr-a1-valencia"
-     },
-     {
-      "word": "rule",
-      "definition": "Be the leader of a country."
-     },
-     {
-      "word": "mosque",
-      "definition": "A building where Muslims pray."
      },
      {
       "word": "medicine",
@@ -48,10 +44,6 @@
      {
       "word": "science",
       "definition": "The study of the world and nature."
-     },
-     {
-      "word": "traveler",
-      "definition": "A person who goes to many places."
      }
     ],
     "hotspots": [
@@ -60,14 +52,14 @@
       "x": 35,
       "y": 46,
       "title": "Al-Andalus",
-      "description": "From 711 to 1492, Muslims ruled parts of Spain and Portugal. This place was Al-Andalus."
+      "description": "From 711 to 1492, Muslims lived in Spain and Portugal. The name of this place was Al-Andalus."
      },
      {
       "id": "h1-2",
       "x": 68,
       "y": 50,
       "title": "Big Cities",
-      "description": "Córdoba was the biggest city in Western Europe. Sevilla had 1,000 mosques."
+      "description": "Córdoba was the biggest city in Western Europe. Granada and Seville were big cities, too."
      }
     ],
     "exercises": [
@@ -88,7 +80,7 @@
        {
         "group": "False",
         "items": [
-         "Sevilla had 100 mosques."
+         "Ibn Rushd was a king."
         ]
        }
       ],
@@ -98,12 +90,12 @@
         "Ibn Jubayr was born in Valencia."
        ],
        "False": [
-        "Sevilla had 100 mosques."
+        "Ibn Rushd was a king."
        ]
       },
-      "explanation": "Chapter 1 says: “Córdoba was the biggest city in Western Europe.” “Sevilla had 1,000 mosques.” “Ibn Jubayr was born in Valencia in 1145.”",
+      "explanation": "Chapter 1 says: “Córdoba was the biggest city in Western Europe.” “Ibn Rushd was a doctor and a scientist.” “Ibn Jubayr was born in Valencia in 1145.”",
       "feedback": {
-       "correct": "Yes! Sevilla had 1,000 mosques.",
+       "correct": "Yes! Ibn Rushd was a doctor and a scientist.",
        "incorrect": "Read the second paragraph of Chapter 1 again."
       }
      }
@@ -124,7 +116,7 @@
       "explanation": "Big → bigger → the biggest. The biggest = number one.",
       "feedback": {
        "correct": "Yes. No city there was bigger.",
-       "incorrect": "Read the second paragraph of Chapter 1 again."
+       "incorrect": "Read the third paragraph of Chapter 1 again."
       }
      },
      {
@@ -143,7 +135,7 @@
         "answer": 0
        },
        {
-        "sentence": "Muslims ruled there [choice] 711 to 1492.",
+        "sentence": "Muslims lived there [choice] 711 to 1492.",
         "options": [
          "from",
          "in"
@@ -209,17 +201,177 @@
    {
     "id": 2,
     "type": "story",
-    "title": "A Big Dream",
+    "title": "Three Great Travelers",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch2.jpeg?alt=media",
+    "content": "Do you know Marco Polo and Ibn Battuta? They were great travelers. Ibn Jubayr was a great traveler, too.\n\nIbn Jubayr traveled from 1183 to 1185. His trip was about 15,000 kilometers. Marco Polo went about 24,000 kilometers, and Ibn Battuta’s journey was 117,000 kilometers!\n\nIbn Jubayr did not go very far. But he wrote one of the first travel books in the world. Ibn Battuta read his book, too.",
+    "vocabulary": [
+     {
+      "word": "traveler",
+      "definition": "A person who goes to many places."
+     },
+     {
+      "word": "trip",
+      "definition": "A time when you go to a place and come back."
+     },
+     {
+      "word": "kilometer",
+      "definition": "1,000 meters."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h2-1",
+      "x": 35,
+      "y": 46,
+      "title": "Three Travelers",
+      "description": "Marco Polo, Ibn Battuta and Ibn Jubayr were great travelers."
+     },
+     {
+      "id": "h2-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Travel Book",
+      "description": "Ibn Jubayr wrote one of the first travel books in the world."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "ibnjubayr-a1-quick-2",
+      "type": "matching",
+      "title": "Three Great Travelers",
+      "instructions": "Match the traveler with the number.",
+      "question": "How far did they go?",
+      "matchingHeadings": {
+       "left": "Traveler",
+       "right": "Kilometers"
+      },
+      "matchingPairs": [
+       {
+        "left": "Ibn Jubayr",
+        "right": "about 15,000"
+       },
+       {
+        "left": "Marco Polo",
+        "right": "about 24,000"
+       },
+       {
+        "left": "Ibn Battuta",
+        "right": "117,000"
+       }
+      ],
+      "correctAnswer": {
+       "Ibn Jubayr": "about 15,000",
+       "Marco Polo": "about 24,000",
+       "Ibn Battuta": "117,000"
+      },
+      "explanation": "Chapter 2: “His trip was about 15,000 kilometers. Marco Polo went about 24,000 kilometers, and Ibn Battuta’s journey was 117,000 kilometers!”",
+      "feedback": {
+       "correct": "Yes! You matched all three.",
+       "incorrect": "Read the second paragraph of Chapter 2 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "ibnjubayr-a1-language-2-too",
+      "type": "multiple-choice",
+      "title": "Look: Too",
+      "instructions": "Choose the right answer.",
+      "question": "“Ibn Jubayr was a great traveler, too.” What does “too” mean here?",
+      "options": [
+       "also, like the other two",
+       "very",
+       "not"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Too at the end of a sentence = also. Marco Polo and Ibn Battuta were great travelers. Ibn Jubayr was a great traveler, too.",
+      "feedback": {
+       "correct": "Yes. Too = also.",
+       "incorrect": "Read the first paragraph of Chapter 2 again."
+      }
+     },
+     {
+      "id": "ibnjubayr-a1-language-2-practise",
+      "type": "word-bank",
+      "title": "Practise: Big Numbers",
+      "instructions": "Fill the gaps with the words.",
+      "question": "How far did they go?",
+      "fillBlanksText": "Ibn Jubayr traveled [blank] 1183 to 1185. His trip was [blank] 15,000 kilometers. Ibn Battuta read his book, [blank].",
+      "wordBank": [
+       "from",
+       "about",
+       "too",
+       "in",
+       "to"
+      ],
+      "correctAnswer": [
+       "from",
+       "about",
+       "too"
+      ],
+      "explanation": "From … to …: from 1183 to 1185. About 15,000 = not exactly 15,000. Too = also.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 2 again."
+      }
+     },
+     {
+      "id": "ibnjubayr-a1-language-2-say-it",
+      "type": "reflection",
+      "title": "Say It: Far Places",
+      "instructions": "Ask and answer with your partner.",
+      "question": "Where did you go?",
+      "correctAnswer": null,
+      "explanation": "Use about + number.",
+      "feedback": {
+       "correct": "Ask one question. Answer one question.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Did you go far?”",
+        "mode": "Pair",
+        "example": "Yes, I did. I went to İzmir."
+       },
+       {
+        "question": "“My city is about … kilometers from …”",
+        "mode": "Pair",
+        "example": "My city is about 250 kilometers from Ankara."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Who traveled the most?",
+     "options": [
+      "Ibn Battuta",
+      "Ibn Jubayr",
+      "Marco Polo"
+     ],
+     "answer": 0,
+     "quote": "Ibn Battuta’s journey was 117,000 kilometers!"
+    },
+    "iCan": [
+     "I can tell about three great travelers.",
+     "I can use too.",
+     "I can say big numbers with about."
+    ]
+   },
+   {
+    "id": 3,
+    "type": "story",
+    "title": "A Young Man from Valencia",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch3.jpeg?alt=media",
-    "content": "When he was young, Ibn Jubayr studied a lot. He learned about Islam, languages and books. Then he worked in Granada. He was a secretary for the governor.\n\nHe had a big dream. He wanted to go on Hajj. He also wanted to learn new things and see other Muslim countries.\n\nHe started his long journey in 1183. He took a diary with him. He wrote in it every day. People call his book the Rihla. Rihla means “travel book”. In those days, travel was very hard and dangerous. His journey was more than two years long.",
+    "content": "When he was young, Ibn Jubayr studied hard. He learned about Islam, languages and books. Then he got a job in Granada. He was a secretary for the ruler of Granada.\n\nHe had a big dream. He wanted to go on Hajj. He also wanted to see other Muslim countries and learn new things. He wanted to see Baghdad, Aleppo, Jerusalem and Damascus.\n\nIn 1183, he started his long journey. He was 38 years old.",
     "vocabulary": [
      {
       "word": "secretary",
       "definition": "A person who writes letters for a boss."
      },
      {
-      "word": "governor",
-      "definition": "The leader of a city or area."
+      "word": "ruler",
+      "definition": "The head of a country or a city."
      },
      {
       "word": "dream",
@@ -228,55 +380,47 @@
      {
       "word": "journey",
       "definition": "A long trip from one place to another."
-     },
-     {
-      "word": "diary",
-      "definition": "A book; you write about your day in it."
-     },
-     {
-      "word": "dangerous",
-      "definition": "Can hurt you or kill you."
      }
     ],
     "hotspots": [
      {
-      "id": "h2-1",
+      "id": "h3-1",
       "x": 35,
       "y": 46,
-      "title": "A Big Dream",
-      "description": "Ibn Jubayr had a big dream. He wanted to go on Hajj."
+      "title": "A Secretary",
+      "description": "Ibn Jubayr got a job in Granada. He was a secretary for the ruler of Granada."
      },
      {
-      "id": "h2-2",
+      "id": "h3-2",
       "x": 68,
       "y": 50,
-      "title": "The Diary",
-      "description": "He wrote in his diary every day. People call his book the Rihla."
+      "title": "A Big Dream",
+      "description": "He wanted to go on Hajj. He also wanted to see Baghdad, Aleppo, Jerusalem and Damascus."
      }
     ],
     "exercises": [
      {
-      "id": "ibnjubayr-a1-quick-2",
+      "id": "ibnjubayr-a1-quick-3",
       "type": "multiple-choice",
-      "title": "A Big Dream",
+      "title": "A Young Man from Valencia",
       "instructions": "Choose the best answer.",
-      "question": "What does Rihla mean?",
+      "question": "How old was Ibn Jubayr in 1183?",
       "options": [
-       "“travel book”",
-       "“big city”",
-       "“good friend”"
+       "38 years old",
+       "18 years old",
+       "83 years old"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: Rihla means “travel book”.",
+      "explanation": "Chapter 3: “In 1183, he started his long journey. He was 38 years old.”",
       "feedback": {
-       "correct": "Yes! Rihla means “travel book”.",
-       "incorrect": "Read the last paragraph of Chapter 2 again."
+       "correct": "Yes! He was 38 years old.",
+       "incorrect": "Read the last paragraph of Chapter 3 again."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ibnjubayr-a1-language-2-wanted",
+      "id": "ibnjubayr-a1-language-3-wanted",
       "type": "matching",
       "title": "Look: He Wanted to …",
       "instructions": "Match the two parts.",
@@ -296,47 +440,61 @@
        },
        {
         "left": "He wanted to see",
-        "right": "other Muslim countries."
+        "right": "Baghdad and Damascus."
        }
       ],
       "correctAnswer": {
        "He wanted to go": "on Hajj.",
        "He wanted to learn": "new things.",
-       "He wanted to see": "other Muslim countries."
+       "He wanted to see": "Baghdad and Damascus."
       },
       "explanation": "Wanted to + verb: He wanted to go. He wanted to learn.",
       "feedback": {
        "correct": "Good. You found his dreams.",
-       "incorrect": "Read the second paragraph of Chapter 2."
+       "incorrect": "Read the second paragraph of Chapter 3."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-2-practise",
-      "type": "word-bank",
-      "title": "Practise: Every Day",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What did he do?",
-      "fillBlanksText": "He started his long journey [blank] 1183. He took a diary with him. He [blank] in it every [blank].",
-      "wordBank": [
-       "in",
-       "wrote",
-       "day",
-       "on",
-       "writes"
+      "id": "ibnjubayr-a1-language-3-practise",
+      "type": "choose-form",
+      "title": "Practise: Studied, Learned, Got",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "When he was young, Ibn Jubayr [choice] hard.",
+        "options": [
+         "studied",
+         "studies"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "He [choice] about Islam, languages and books.",
+        "options": [
+         "learned",
+         "learns"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Then he [choice] a job in Granada.",
+        "options": [
+         "got",
+         "gets"
+        ],
+        "answer": 0
+       }
       ],
-      "correctAnswer": [
-       "in",
-       "wrote",
-       "day"
-      ],
-      "explanation": "In + year. Write → wrote in the past. Every day = on all days.",
+      "correctAnswer": null,
+      "explanation": "Study → studied, learn → learned. Get → got: it changes.",
       "feedback": {
        "correct": "Correct.",
-       "incorrect": "Read the last paragraph of Chapter 2."
+       "incorrect": "Read the first paragraph of Chapter 3 again."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-2-write-it",
+      "id": "ibnjubayr-a1-language-3-write-it",
       "type": "reflection",
       "title": "Write It: My Dream",
       "instructions": "Write about your dream.",
@@ -361,7 +519,185 @@
        {
         "question": "“I want to see …”",
         "mode": "Individual",
-        "example": "I want to see the sea."
+        "example": "I want to see Damascus."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "picture",
+     "question": "Look at the picture. What was Ibn Jubayr’s dream?",
+     "options": [
+      "to go on Hajj",
+      "to be a king",
+      "to build a ship"
+     ],
+     "answer": 0,
+     "quote": "He wanted to go on Hajj."
+    },
+    "iCan": [
+     "I can tell about Ibn Jubayr’s job and dream.",
+     "I can use wanted to.",
+     "I can write about my dream."
+    ]
+   },
+   {
+    "id": 4,
+    "type": "story",
+    "title": "The Rihla",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch12.jpeg?alt=media",
+    "content": "Many people from Al-Andalus went on Hajj. But Ibn Jubayr did something new. He took a diary with him. He wrote in it every day. He wrote about people and cities.\n\nAfter the journey, his diary became a book. Its name is the Rihla. Rihla is the Arabic word for “journey”. The book made Ibn Jubayr famous. Later, other travelers wrote similar books.\n\nIn those days, travel was very hard and dangerous. Ibn Jubayr went on ships, on camels and on foot. His journey was more than two years long.",
+    "vocabulary": [
+     {
+      "word": "diary",
+      "definition": "A book; you write about your day in it."
+     },
+     {
+      "word": "become",
+      "definition": "Start to be."
+     },
+     {
+      "word": "similar",
+      "definition": "Almost the same."
+     },
+     {
+      "word": "dangerous",
+      "definition": "Can hurt you or kill you."
+     },
+     {
+      "word": "camel",
+      "definition": "A big animal; people ride it in the desert."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h4-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Diary",
+      "description": "Ibn Jubayr wrote in his diary every day. He wrote about people and cities."
+     },
+     {
+      "id": "h4-2",
+      "x": 68,
+      "y": 50,
+      "title": "Hard Travel",
+      "description": "Ibn Jubayr went on ships, on camels and on foot."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "ibnjubayr-a1-quick-4",
+      "type": "multiple-choice",
+      "title": "The Rihla",
+      "instructions": "Choose the best answer.",
+      "question": "What does Rihla mean?",
+      "options": [
+       "“journey”",
+       "“big city”",
+       "“good friend”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 4: “Rihla is the Arabic word for ‘journey’.”",
+      "feedback": {
+       "correct": "Yes! Rihla means “journey”.",
+       "incorrect": "Read the second paragraph of Chapter 4 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "ibnjubayr-a1-language-4-on",
+      "type": "drag-drop",
+      "title": "Look: On a Ship, On Foot",
+      "instructions": "Put each word in the right group.",
+      "question": "How did he travel?",
+      "dragDropGroups": [
+       {
+        "group": "He went on …",
+        "items": [
+         "ships",
+         "camels",
+         "foot"
+        ]
+       },
+       {
+        "group": "He wrote about …",
+        "items": [
+         "people",
+         "cities"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "He went on …": [
+        "ships",
+        "camels",
+        "foot"
+       ],
+       "He wrote about …": [
+        "people",
+        "cities"
+       ]
+      },
+      "explanation": "“He went on ships, on camels and on foot.” “He wrote about people and cities.”",
+      "feedback": {
+       "correct": "Good.",
+       "incorrect": "Read Chapter 4 again."
+      }
+     },
+     {
+      "id": "ibnjubayr-a1-language-4-practise",
+      "type": "word-bank",
+      "title": "Practise: Every Day",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What did he do?",
+      "fillBlanksText": "He took a diary with him. He [blank] in it every [blank]. After the journey, his diary [blank] a book.",
+      "wordBank": [
+       "wrote",
+       "day",
+       "became",
+       "writes",
+       "night"
+      ],
+      "correctAnswer": [
+       "wrote",
+       "day",
+       "became"
+      ],
+      "explanation": "Write → wrote, become → became in the past. Every day = on all days.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first two paragraphs of Chapter 4."
+      }
+     },
+     {
+      "id": "ibnjubayr-a1-language-4-write-it",
+      "type": "reflection",
+      "title": "Write It: My Diary",
+      "instructions": "Write a diary for one day.",
+      "question": "What did you do today?",
+      "correctAnswer": null,
+      "explanation": "Use the past: went, saw.",
+      "feedback": {
+       "correct": "Write three sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Today, I went to …”",
+        "mode": "Individual",
+        "example": "Today, I went to school."
+       },
+       {
+        "question": "“I saw …”",
+        "mode": "Individual",
+        "example": "I saw my friend Elif."
+       },
+       {
+        "question": "“I went on foot / by bus.”",
+        "mode": "Individual",
+        "example": "I went on foot."
        }
       ]
      }
@@ -378,50 +714,76 @@
      "quote": "He took a diary with him."
     },
     "iCan": [
-     "I can tell about Ibn Jubayr’s dream.",
-     "I can use wanted to.",
-     "I can write about my dream."
-    ]
+     "I can tell about the Rihla.",
+     "I can say how people traveled.",
+     "I can write a short diary."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Our Travel Diary",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group chooses one day of a school trip.",
+      "Each student writes one sentence: “Today, we …”.",
+      "The group puts the sentences in order.",
+      "One student reads the diary to the class."
+     ],
+     "share": "One student reads the diary. Story: “He wrote in it every day.”",
+     "solo": "Write three diary sentences about one day."
+    }
    },
    {
-    "id": 3,
+    "id": 5,
     "type": "story",
     "title": "A Storm at Sea",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch4.jpeg?alt=media",
-    "content": "In February 1183, Ibn Jubayr left Granada. He went to Ceuta in North Africa. There, he got on a ship. The ship went past Sardinia and Sicily. Then a very bad storm came. The people on the ship were afraid. But the ship was fine.\n\nIn March, the ship came to Alexandria, in Egypt. There, Ibn Jubayr saw the famous lighthouse of Alexandria. It was very tall and very old. He loved it.\n\nAfter eight days, he went to Cairo.",
+    "content": "On February 3, 1183, Ibn Jubayr left Granada. He went to Ceuta in North Africa. There, he got on a ship. The ship went past Sardinia and Sicily. During his journey, Ibn Jubayr had many interesting moments and some dangerous ones.\n\nNear Sardinia, he saw 80 Muslim prisoners. Ibn Jubayr was very sad.\n\nThen a very bad storm came. The people on the ship were afraid. But the ship and the people were all safe. Then the ship went to Crete and then to Egypt.\n\nOn March 26, the ship came to Alexandria.",
     "vocabulary": [
+     {
+      "word": "leave",
+      "definition": "Go away from a place."
+     },
      {
       "word": "ship",
       "definition": "A very big boat."
      },
      {
-      "word": "storm",
-      "definition": "Very bad weather with strong wind and rain."
+      "word": "go past",
+      "definition": "Go near a place and not stop."
      },
      {
-      "word": "lighthouse",
-      "definition": "A tall tower with a light for ships."
+      "word": "moment",
+      "definition": "A very short time."
+     },
+     {
+      "word": "prisoner",
+      "definition": "A person who cannot leave a place and is not free."
+     },
+     {
+      "word": "storm",
+      "definition": "Very bad weather with strong wind and rain."
      }
     ],
     "hotspots": [
      {
-      "id": "h3-1",
+      "id": "h5-1",
       "x": 35,
       "y": 46,
-      "title": "The Storm",
-      "description": "A very bad storm came. The people on the ship were afraid."
+      "title": "The Ship",
+      "description": "Ibn Jubayr got on a ship in Ceuta. The ship went past Sardinia and Sicily."
      },
      {
-      "id": "h3-2",
+      "id": "h5-2",
       "x": 68,
       "y": 50,
-      "title": "The Lighthouse",
-      "description": "In Alexandria, Ibn Jubayr saw the famous lighthouse. It was very tall and very old."
+      "title": "The Storm",
+      "description": "A very bad storm came. The people on the ship were afraid."
      }
     ],
     "exercises": [
      {
-      "id": "ibnjubayr-a1-quick-3",
+      "id": "ibnjubayr-a1-quick-5",
       "type": "sequencing",
       "title": "A Storm at Sea",
       "instructions": "Put the sentences in order.",
@@ -450,56 +812,64 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 3: Granada → Ceuta → the storm → Alexandria.",
+      "explanation": "Chapter 5: Granada → Ceuta → the storm → Alexandria.",
       "feedback": {
        "correct": "Great! You put the chapter in order.",
-       "incorrect": "Read Chapter 3 again."
+       "incorrect": "Read Chapter 5 again."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ibnjubayr-a1-language-3-months",
+      "id": "ibnjubayr-a1-language-5-dates",
       "type": "matching",
-      "title": "Look: Months",
-      "instructions": "Match the two parts.",
+      "title": "Look: Dates",
+      "instructions": "Match the date with the sentence.",
       "question": "When did it happen?",
       "matchingHeadings": {
-       "left": "Month",
+       "left": "Date",
        "right": "What happened?"
       },
       "matchingPairs": [
        {
-        "left": "In February 1183,",
+        "left": "On February 3, 1183,",
         "right": "Ibn Jubayr left Granada."
        },
        {
-        "left": "In March,",
+        "left": "On March 26,",
         "right": "the ship came to Alexandria."
        }
       ],
       "correctAnswer": {
-       "In February 1183,": "Ibn Jubayr left Granada.",
-       "In March,": "the ship came to Alexandria."
+       "On February 3, 1183,": "Ibn Jubayr left Granada.",
+       "On March 26,": "the ship came to Alexandria."
       },
-      "explanation": "In + month: in February, in March. Months start with a capital letter.",
+      "explanation": "On + date: on February 3, on March 26. Months start with a capital letter.",
       "feedback": {
-       "correct": "Good. You found the months.",
-       "incorrect": "Read Chapter 3 again."
+       "correct": "Good. You found the dates.",
+       "incorrect": "Read Chapter 5 again."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-3-practise",
+      "id": "ibnjubayr-a1-language-5-practise",
       "type": "choose-form",
-      "title": "Practise: Got On, Came, Saw",
+      "title": "Practise: Left, Saw, Came",
       "instructions": "Choose the right form.",
       "question": "Which form tells the past?",
       "formChoices": [
        {
-        "sentence": "He [choice] on a ship.",
+        "sentence": "Ibn Jubayr [choice] Granada.",
         "options": [
-         "got",
-         "gets"
+         "left",
+         "leaves"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Near Sardinia, he [choice] 80 Muslim prisoners.",
+        "options": [
+         "saw",
+         "sees"
         ],
         "answer": 0
        },
@@ -510,25 +880,17 @@
          "comes"
         ],
         "answer": 0
-       },
-       {
-        "sentence": "He [choice] the famous lighthouse.",
-        "options": [
-         "saw",
-         "sees"
-        ],
-        "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Get → got, come → came, see → saw in the past.",
+      "explanation": "Leave → left, see → saw, come → came in the past.",
       "feedback": {
        "correct": "Correct.",
-       "incorrect": "Read Chapter 3 again."
+       "incorrect": "Read Chapter 5 again."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-3-say-it",
+      "id": "ibnjubayr-a1-language-5-say-it",
       "type": "reflection",
       "title": "Say It: The Weather",
       "instructions": "Talk about the weather.",
@@ -566,7 +928,7 @@
     },
     "iCan": [
      "I can tell about the storm at sea.",
-     "I can use in + month.",
+     "I can use on + date.",
      "I can talk about the weather."
     ],
     "groupTask": {
@@ -580,24 +942,203 @@
       "For each city, the group writes one sentence: “In …, Ibn Jubayr …”.",
       "One student tells the journey with the map."
      ],
-     "share": "One student tells the journey. Story: “In March, the ship came to Alexandria.”",
+     "share": "One student tells the journey. Story: “On March 26, the ship came to Alexandria.”",
      "solo": "Draw the map. Write one sentence for two cities."
     }
    },
    {
-    "id": 4,
+    "id": 6,
+    "type": "story",
+    "title": "The Lighthouse of Alexandria",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch4.jpeg?alt=media",
+    "content": "In Alexandria, he went to see the famous lighthouse of Alexandria. It was very tall and very old. Ibn Jubayr wrote, “It is taller than 50 men!” He thought it was amazing.\n\nAfter eight days, he went to Cairo.",
+    "vocabulary": [
+     {
+      "word": "lighthouse",
+      "definition": "A tall tower with a light for ships."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h6-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Lighthouse",
+      "description": "The lighthouse of Alexandria was very tall and very old."
+     },
+     {
+      "id": "h6-2",
+      "x": 68,
+      "y": 50,
+      "title": "Taller than 50 Men",
+      "description": "Ibn Jubayr wrote, “It is taller than 50 men!”"
+     }
+    ],
+    "exercises": [
+     {
+      "id": "ibnjubayr-a1-quick-6",
+      "type": "drag-drop",
+      "title": "The Lighthouse of Alexandria",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 6?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The lighthouse was very tall and very old.",
+         "Ibn Jubayr went to Cairo after eight days."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Ibn Jubayr did not like the lighthouse."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The lighthouse was very tall and very old.",
+        "Ibn Jubayr went to Cairo after eight days."
+       ],
+       "False": [
+        "Ibn Jubayr did not like the lighthouse."
+       ]
+      },
+      "explanation": "Chapter 6 says: “It was very tall and very old.” “He thought it was amazing.” “After eight days, he went to Cairo.”",
+      "feedback": {
+       "correct": "Yes! He thought it was amazing.",
+       "incorrect": "Read Chapter 6 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "ibnjubayr-a1-language-6-taller",
+      "type": "multiple-choice",
+      "title": "Look: Taller Than",
+      "instructions": "Choose the right answer.",
+      "question": "“It is taller than 50 men!” What does this mean?",
+      "options": [
+       "50 men are not as tall as the lighthouse.",
+       "The lighthouse is small.",
+       "50 men live in the lighthouse."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Tall → taller than. We use taller than for two things.",
+      "feedback": {
+       "correct": "Yes. The lighthouse is very, very tall.",
+       "incorrect": "Read Chapter 6 again."
+      }
+     },
+     {
+      "id": "ibnjubayr-a1-language-6-practise",
+      "type": "choose-form",
+      "title": "Practise: Taller, Older, Bigger",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes with than?",
+      "formChoices": [
+       {
+        "sentence": "The lighthouse is [choice] than a house.",
+        "options": [
+         "taller",
+         "tall"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "My grandfather is [choice] than my father.",
+        "options": [
+         "older",
+         "old"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Cairo is [choice] than my town.",
+        "options": [
+         "bigger",
+         "big"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Tall → taller, old → older, big → bigger. Then add than.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Tall + er = taller."
+      }
+     },
+     {
+      "id": "ibnjubayr-a1-language-6-say-it",
+      "type": "reflection",
+      "title": "Say It: Tall Things",
+      "instructions": "Talk about two things with your partner.",
+      "question": "What is taller?",
+      "correctAnswer": null,
+      "explanation": "Use taller than and older than.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“… is taller than …”",
+        "mode": "Pair",
+        "example": "The mosque is taller than my school."
+       },
+       {
+        "question": "“… is older than …”",
+        "mode": "Pair",
+        "example": "My sister is older than me."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "picture",
+     "question": "Look at the picture. What is this building?",
+     "options": [
+      "a lighthouse",
+      "a mosque",
+      "a school"
+     ],
+     "answer": 0,
+     "quote": "In Alexandria, he went to see the famous lighthouse of Alexandria."
+    },
+    "iCan": [
+     "I can tell about the lighthouse of Alexandria.",
+     "I can understand taller than.",
+     "I can say which thing is taller."
+    ]
+   },
+   {
+    "id": 7,
     "type": "story",
     "title": "Cairo and Saladin",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch5.jpeg?alt=media",
-    "content": "In Cairo, the leader was Sultan Saladin. Ibn Jubayr liked him very much. Saladin was kind and fair. He helped mosques, schools and hospitals. The roads were safe day and night.\n\nIbn Jubayr visited a big hospital. It was free for everyone. It had different rooms for men and for women. He saw the pyramids, too.\n\nSaladin built houses for students, teachers and poor people. Every day, he gave 2,000 loaves of bread to poor people.",
+    "content": "In Cairo, the ruler was Sultan Saladin. Ibn Jubayr had great respect for him. Saladin was kind and fair. He took care of mosques, schools and hospitals. The roads were safe day and night.\n\nIbn Jubayr visited a big hospital in Cairo. It was free for all people. It had different rooms for men and for women. He saw the pyramids, too.\n\nSaladin also opened houses for students, teachers and poor people. They lived there, and they got food and clothes. Saladin did not forget poor people, either. Every day, he gave 2,000 loaves of bread to poor people.",
     "vocabulary": [
      {
       "word": "fair",
       "definition": "Right and good for everyone."
      },
      {
+      "word": "take care of",
+      "definition": "Look after; help and keep well."
+     },
+     {
+      "word": "mosque",
+      "definition": "A building where Muslims pray."
+     },
+     {
       "word": "hospital",
       "definition": "A place where doctors help sick people."
+     },
+     {
+      "word": "free",
+      "definition": "You do not pay money for it."
      },
      {
       "word": "pyramid",
@@ -610,14 +1151,14 @@
     ],
     "hotspots": [
      {
-      "id": "h4-1",
+      "id": "h7-1",
       "x": 35,
       "y": 46,
       "title": "A Free Hospital",
-      "description": "Ibn Jubayr visited a big hospital. It was free for everyone."
+      "description": "Ibn Jubayr visited a big hospital in Cairo. It was free for all people."
      },
      {
-      "id": "h4-2",
+      "id": "h7-2",
       "x": 68,
       "y": 50,
       "title": "Bread for the Poor",
@@ -626,11 +1167,11 @@
     ],
     "exercises": [
      {
-      "id": "ibnjubayr-a1-quick-4",
+      "id": "ibnjubayr-a1-quick-7",
       "type": "drag-drop",
       "title": "Cairo and Saladin",
       "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 4?",
+      "question": "What happened in Chapter 7?",
       "dragDropGroups": [
        {
         "group": "True",
@@ -655,16 +1196,16 @@
         "People paid a lot of money at the hospital."
        ]
       },
-      "explanation": "Chapter 4 says: “The roads were safe day and night.” “It was free for everyone.” “He saw the pyramids, too.”",
+      "explanation": "Chapter 7 says: “The roads were safe day and night.” “It was free for all people.” “He saw the pyramids, too.”",
       "feedback": {
        "correct": "Yes! The hospital was free.",
-       "incorrect": "Read the second paragraph of Chapter 4 again."
+       "incorrect": "Read the second paragraph of Chapter 7 again."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ibnjubayr-a1-language-4-saladin",
+      "id": "ibnjubayr-a1-language-7-saladin",
       "type": "drag-drop",
       "title": "Look: What Was Saladin Like?",
       "instructions": "Put each word in the right group.",
@@ -678,7 +1219,7 @@
         ]
        },
        {
-        "group": "Saladin helped",
+        "group": "Saladin took care of",
         "items": [
          "mosques",
          "hospitals"
@@ -690,26 +1231,26 @@
         "kind",
         "fair"
        ],
-       "Saladin helped": [
+       "Saladin took care of": [
         "mosques",
         "hospitals"
        ]
       },
-      "explanation": "Saladin was kind. Saladin was fair. He helped mosques and hospitals.",
+      "explanation": "Saladin was kind. Saladin was fair. He took care of mosques, schools and hospitals.",
       "feedback": {
        "correct": "Good.",
-       "incorrect": "Read the first paragraph of Chapter 4."
+       "incorrect": "Read the first paragraph of Chapter 7."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-4-practise",
+      "id": "ibnjubayr-a1-language-7-practise",
       "type": "choose-form",
       "title": "Practise: For",
       "instructions": "Choose the right word.",
       "question": "Who was it for?",
       "formChoices": [
        {
-        "sentence": "The hospital was free [choice] everyone.",
+        "sentence": "The hospital was free [choice] all people.",
         "options": [
          "for",
          "to"
@@ -717,7 +1258,7 @@
         "answer": 0
        },
        {
-        "sentence": "He built houses [choice] students and teachers.",
+        "sentence": "Saladin opened houses [choice] students and teachers.",
         "options": [
          "for",
          "from"
@@ -726,20 +1267,20 @@
        }
       ],
       "correctAnswer": null,
-      "explanation": "For + person: free for everyone, houses for students.",
+      "explanation": "For + people: free for all people, houses for students.",
       "feedback": {
        "correct": "Correct.",
-       "incorrect": "Read Chapter 4 again."
+       "incorrect": "Read Chapter 7 again."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-4-write-it",
+      "id": "ibnjubayr-a1-language-7-write-it",
       "type": "reflection",
       "title": "Write It: A Good Leader",
       "instructions": "Write about a good leader.",
       "question": "What does a good leader do?",
       "correctAnswer": null,
-      "explanation": "Use is + adjective and helps + people.",
+      "explanation": "Use is + kind / fair and takes care of.",
       "feedback": {
        "correct": "Write two sentences.",
        "incorrect": ""
@@ -751,36 +1292,36 @@
         "example": "A good leader is kind and fair."
        },
        {
-        "question": "“A good leader helps …”",
+        "question": "“A good leader takes care of …”",
         "mode": "Individual",
-        "example": "A good leader helps poor people."
+        "example": "A good leader takes care of poor people."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Who was the leader in Cairo?",
+     "question": "Guess first: Who was the ruler in Cairo?",
      "options": [
       "Sultan Saladin",
       "Ibn Jubayr",
       "the king of Sicily"
      ],
      "answer": 0,
-     "quote": "In Cairo, the leader was Sultan Saladin."
+     "quote": "In Cairo, the ruler was Sultan Saladin."
     },
     "iCan": [
      "I can tell about Cairo and Saladin.",
-     "I can use for + person.",
+     "I can use for + people.",
      "I can write about a good leader."
     ]
    },
    {
-    "id": 5,
+    "id": 8,
     "type": "story",
     "title": "Eight Months in Mecca",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch7.jpeg?alt=media",
-    "content": "From Egypt, Ibn Jubayr traveled to the Red Sea with a caravan of camels. Some people had very big and beautiful tents!\n\nIn August 1183, he arrived in Mecca. He stayed there for more than eight months. He made the Hajj. He visited the Ka’ba with great love and respect. People came to Mecca from Persia, India and Africa.\n\nMecca is in a narrow valley. But there is room for very big groups of people. Ibn Jubayr said, “This is one of Allah’s miracles.”",
+    "content": "From Egypt, Ibn Jubayr traveled with a caravan of camels. Ibn Jubayr wrote, “Some tents in the caravan are so big and beautiful. They are like moving palaces!”\n\nIn August 1183, he came to Mecca. He stayed there for more than eight months. He made the Hajj. He visited the Ka’ba with great love and respect. People came to Mecca from Persia, India and Africa.\n\nIn his book, he wrote about Mecca: “Mecca is a small place between mountains. But thousands of people can stay there together. This is a great wonder from Allah. Doctors say Mecca and a mother’s body are similar. A mother’s body grows and makes a place for her baby. It is the same for Mecca. Even the biggest city in the world cannot hold this many people.”",
     "vocabulary": [
      {
       "word": "caravan",
@@ -788,129 +1329,133 @@
      },
      {
       "word": "tent",
-      "definition": "A small house made of cloth."
+      "definition": "A small house of cloth; you can move it."
      },
      {
       "word": "respect",
-      "definition": "A feeling that someone is important."
+      "definition": "A feeling that someone or something is important."
      },
      {
-      "word": "narrow",
-      "definition": "Not wide."
+      "word": "wonder",
+      "definition": "A great and surprising thing."
      },
      {
-      "word": "miracle",
-      "definition": "A wonderful thing that only Allah can do."
+      "word": "grow",
+      "definition": "Become bigger."
+     },
+     {
+      "word": "make a place",
+      "definition": "Make space for someone."
      }
     ],
     "hotspots": [
      {
-      "id": "h5-1",
+      "id": "h8-1",
       "x": 35,
       "y": 46,
       "title": "The Caravan",
-      "description": "Ibn Jubayr traveled to the Red Sea with a caravan of camels."
+      "description": "From Egypt, Ibn Jubayr traveled with a caravan of camels. Some tents were like moving palaces."
      },
      {
-      "id": "h5-2",
+      "id": "h8-2",
       "x": 68,
       "y": 50,
-      "title": "The Ka’ba",
-      "description": "He visited the Ka’ba with great love and respect."
+      "title": "Mecca",
+      "description": "Ibn Jubayr made the Hajj. He visited the Ka’ba with great love and respect."
      }
     ],
     "exercises": [
      {
-      "id": "ibnjubayr-a1-quick-5",
+      "id": "ibnjubayr-a1-quick-8",
       "type": "multiple-choice",
       "title": "Eight Months in Mecca",
       "instructions": "Choose the best answer.",
-      "question": "Where did people come to Mecca from?",
+      "question": "Why is Mecca like a mother’s body?",
       "options": [
-       "from Persia, India and Africa",
-       "only from Spain",
-       "only from Egypt"
+       "It makes a place for many people.",
+       "It is very old.",
+       "It is near the sea."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “People came to Mecca from Persia, India and Africa.”",
+      "explanation": "Chapter 8: “A mother’s body grows and makes a place for her baby. It is the same for Mecca.”",
       "feedback": {
-       "correct": "Yes!",
-       "incorrect": "Read the second paragraph of Chapter 5 again."
+       "correct": "Yes! Mecca makes a place for thousands of people.",
+       "incorrect": "Read the last paragraph of Chapter 8 again."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ibnjubayr-a1-language-5-for",
+      "id": "ibnjubayr-a1-language-8-for",
       "type": "multiple-choice",
       "title": "Look: For + Time",
       "instructions": "Choose the right answer.",
-      "question": "“He stayed there for more than eight months.” What does for tell us?",
+      "question": "“He stayed there for more than eight months.” What does “for” tell us?",
       "options": [
        "how long",
        "where",
        "who"
       ],
       "correctAnswer": 0,
-      "explanation": "For + time tells us how long: for eight months, for two weeks.",
+      "explanation": "For + time tells how long: for eight months, for five nights.",
       "feedback": {
-       "correct": "Yes. For tells us how long.",
-       "incorrect": "Read the second paragraph of Chapter 5."
+       "correct": "Yes. For tells how long.",
+       "incorrect": "Read the second paragraph of Chapter 8 again."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-5-practise",
+      "id": "ibnjubayr-a1-language-8-practise",
       "type": "choose-form",
-      "title": "Practise: Narrow and Big",
+      "title": "Practise: In, For",
       "instructions": "Choose the right word.",
-      "question": "How is Mecca?",
+      "question": "When? How long?",
       "formChoices": [
        {
-        "sentence": "Mecca is in a [choice] valley.",
+        "sentence": "[choice] August 1183, he came to Mecca.",
         "options": [
-         "narrow",
-         "wide"
+         "In",
+         "For"
         ],
         "answer": 0
        },
        {
-        "sentence": "But there is room for very [choice] groups of people.",
+        "sentence": "He stayed there [choice] more than eight months.",
         "options": [
-         "big",
-         "small"
+         "for",
+         "in"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Narrow is the opposite of wide. This is why Ibn Jubayr called it a miracle.",
+      "explanation": "In + month and year: in August 1183. For + time: for eight months.",
       "feedback": {
        "correct": "Correct.",
-       "incorrect": "Read the last paragraph of Chapter 5."
+       "incorrect": "In August. For eight months."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-5-say-it",
+      "id": "ibnjubayr-a1-language-8-say-it",
       "type": "reflection",
       "title": "Say It: How Long?",
-      "instructions": "Ask and answer with how long.",
-      "question": "How long do you sleep?",
+      "instructions": "Ask your partner two questions.",
+      "question": "How long do you …?",
       "correctAnswer": null,
-      "explanation": "Use How long …? and For + time.",
+      "explanation": "Answer with for + time.",
       "feedback": {
-       "correct": "Ask two questions and answer two questions.",
+       "correct": "Ask two questions.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“How long do you …?”",
+        "question": "“How long do you sleep?”",
         "mode": "Pair",
-        "example": "How long do you sleep?"
+        "example": "I sleep for nine hours."
        },
        {
-        "question": "“For … hours.”",
+        "question": "“How long do you read every day?”",
         "mode": "Pair",
-        "example": "For nine hours."
+        "example": "I read for twenty minutes."
        }
       ]
      }
@@ -933,64 +1478,68 @@
     ]
    },
    {
-    "id": 6,
+    "id": 9,
     "type": "story",
-    "title": "Baghdad and Damascus",
+    "title": "Medina, Baghdad and Damascus",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch9.jpeg?alt=media",
-    "content": "In April 1184, Ibn Jubayr went to Medina. Then he traveled through the desert to Baghdad. Baghdad was the capital of the Abbasids. It had 2,000 public baths!\n\nNext, he went to Aleppo and Damascus. He visited the Great Mosque of Damascus. He wrote about its tall minarets, its beautiful mosaics and its water clock.\n\nIn Damascus, students and travelers from other countries stayed in madrasas for free. Ibn Jubayr liked this very much.",
+    "content": "On April 16, 1184, Ibn Jubayr went to Medina. He stayed there for five nights. Then he went across the desert with a big caravan. He went to Baghdad.\n\nBaghdad was a very big city. Ibn Jubayr wrote, “Baghdad has 2,000 baths and 11 big mosques.”\n\nThen he went to Aleppo and Damascus. In Damascus, he saw the Great Mosque. He wrote about its doors, its towers and its beautiful walls.\n\nIn Damascus, students and travelers stayed in schools for free. Travel was easy for them there.",
     "vocabulary": [
      {
       "word": "desert",
-      "definition": "A hot, dry place with sand."
+      "definition": "A big, dry place with sand and very little water."
      },
      {
-      "word": "capital",
-      "definition": "The most important city of a country."
+      "word": "Great Mosque",
+      "definition": "The biggest and most important mosque of a city."
      },
      {
-      "word": "mosaic",
-      "definition": "A picture made of small pieces of colored stone."
+      "word": "tower",
+      "definition": "A tall, thin building or part of a building."
+     },
+     {
+      "word": "for free",
+      "definition": "And you do not pay money."
      }
     ],
     "hotspots": [
      {
-      "id": "h6-1",
+      "id": "h9-1",
       "x": 35,
       "y": 46,
-      "title": "The Great Mosque",
-      "description": "Ibn Jubayr visited the Great Mosque of Damascus. It had beautiful mosaics."
+      "title": "Baghdad",
+      "description": "Ibn Jubayr wrote, “Baghdad has 2,000 baths and 11 big mosques.”"
      },
      {
-      "id": "h6-2",
+      "id": "h9-2",
       "x": 68,
       "y": 50,
-      "title": "A Water Clock",
-      "description": "He wrote about its tall minarets, its mosaics and its water clock."
+      "title": "The Great Mosque",
+      "description": "In Damascus, he saw the Great Mosque. He wrote about its doors, its towers and its beautiful walls."
      }
     ],
     "exercises": [
      {
-      "id": "ibnjubayr-a1-quick-6",
+      "id": "ibnjubayr-a1-quick-9",
       "type": "sequencing",
-      "title": "Baghdad and Damascus",
-      "instructions": "Put the places in order.",
-      "question": "Where did he go first?",
+      "title": "Medina, Baghdad and Damascus",
+      "instructions": "Put the cities in order.",
+      "question": "Where did Ibn Jubayr go first?",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Medina"
+        "text": "Ibn Jubayr went to Medina."
        },
        {
         "id": "2",
-        "text": "Baghdad"
+        "text": "Ibn Jubayr went across the desert to Baghdad."
        },
        {
         "id": "3",
-        "text": "Aleppo"
+        "text": "Ibn Jubayr went to Aleppo."
        },
        {
         "id": "4",
-        "text": "Damascus"
+        "text": "Ibn Jubayr saw the Great Mosque in Damascus."
        }
       ],
       "correctAnswer": [
@@ -999,137 +1548,307 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 6: Medina → Baghdad → Aleppo → Damascus.",
+      "explanation": "Chapter 9: Medina → Baghdad → Aleppo → Damascus.",
       "feedback": {
-       "correct": "Great! You followed the journey.",
-       "incorrect": "Read Chapter 6 again."
+       "correct": "Great! You know the way.",
+       "incorrect": "Read Chapter 9 again."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ibnjubayr-a1-language-6-its",
-      "type": "matching",
+      "id": "ibnjubayr-a1-language-9-its",
+      "type": "multiple-choice",
       "title": "Look: Its",
-      "instructions": "Match the two parts.",
-      "question": "What did the mosque have?",
-      "matchingHeadings": {
-       "left": "Start",
-       "right": "End"
-      },
-      "matchingPairs": [
-       {
-        "left": "its tall",
-        "right": "minarets"
-       },
-       {
-        "left": "its beautiful",
-        "right": "mosaics"
-       },
-       {
-        "left": "its water",
-        "right": "clock"
-       }
+      "instructions": "Choose the right answer.",
+      "question": "“He wrote about its doors, its towers and its beautiful walls.” What does “its” mean?",
+      "options": [
+       "of the Great Mosque",
+       "of Ibn Jubayr",
+       "of Baghdad"
       ],
-      "correctAnswer": {
-       "its tall": "minarets",
-       "its beautiful": "mosaics",
-       "its water": "clock"
-      },
-      "explanation": "Its = of the mosque: its minarets = the minarets of the mosque.",
+      "correctAnswer": 0,
+      "explanation": "Its = of it. The doors of the mosque = its doors. There is no apostrophe in its.",
       "feedback": {
-       "correct": "Good.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "Yes. Its = of the mosque.",
+       "incorrect": "Read the third paragraph of Chapter 9 again."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-6-practise",
-      "type": "choose-form",
-      "title": "Practise: Next, Then",
-      "instructions": "Choose the right word.",
-      "question": "Which word tells the order?",
-      "formChoices": [
-       {
-        "sentence": "In April 1184, he went to Medina. [choice] he traveled to Baghdad.",
-        "options": [
-         "Then",
-         "Before"
-        ],
-        "answer": 0
-       },
-       {
-        "sentence": "[choice], he went to Aleppo and Damascus.",
-        "options": [
-         "Next",
-         "Yesterday"
-        ],
-        "answer": 0
-       }
+      "id": "ibnjubayr-a1-language-9-practise",
+      "type": "word-bank",
+      "title": "Practise: Then",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What happened next?",
+      "fillBlanksText": "Ibn Jubayr went to Medina. [blank] he went across the [blank] to Baghdad. Baghdad [blank] 2,000 baths.",
+      "wordBank": [
+       "Then",
+       "desert",
+       "has",
+       "sea",
+       "have"
       ],
-      "correctAnswer": null,
-      "explanation": "Then and next tell the order of a story.",
+      "correctAnswer": [
+       "Then",
+       "desert",
+       "has"
+      ],
+      "explanation": "Then = after that. Baghdad has (one city) 2,000 baths.",
       "feedback": {
        "correct": "Correct.",
-       "incorrect": "Read Chapter 6 again."
+       "incorrect": "Read the first two paragraphs of Chapter 9."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-6-write-it",
+      "id": "ibnjubayr-a1-language-9-write-it",
       "type": "reflection",
-      "title": "Write It: A Beautiful Building",
-      "instructions": "Write about a building you like.",
-      "question": "What building do you like?",
+      "title": "Write It: A Building",
+      "instructions": "Write about a building in your town.",
+      "question": "What does it have?",
       "correctAnswer": null,
-      "explanation": "Use I like and It has.",
+      "explanation": "Use has and its.",
       "feedback": {
        "correct": "Write two sentences.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I like …”",
+        "question": "“… has …”",
         "mode": "Individual",
-        "example": "I like the Mevlana Museum."
+        "example": "Our mosque has two towers."
        },
        {
-        "question": "“It has …”",
+        "question": "“Its … are …”",
         "mode": "Individual",
-        "example": "It has a green dome."
+        "example": "Its doors are big."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: How many public baths did Baghdad have?",
+     "question": "Guess first: Where did Ibn Jubayr go after Medina?",
      "options": [
-      "2,000",
-      "20",
-      "200"
+      "to Baghdad",
+      "to Granada",
+      "to Sicily"
      ],
      "answer": 0,
-     "quote": "It had 2,000 public baths!"
+     "quote": "He went to Baghdad."
     },
     "iCan": [
      "I can tell about Baghdad and Damascus.",
-     "I can use then and next.",
+     "I can understand its.",
      "I can write about a building."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "A City Poster",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "Each student in the group chooses one city: Medina, Baghdad, Aleppo or Damascus.",
+      "Each student draws the city and writes one sentence from the chapter.",
+      "The group puts the four cities in order on one poster.",
+      "The group shows the poster and reads the sentences."
+     ],
+     "share": "The group reads the poster. Story: “Baghdad has 2,000 baths and 11 big mosques.”",
+     "solo": "Draw two cities. Write one sentence for each city."
+    }
+   },
+   {
+    "id": 10,
+    "type": "story",
+    "title": "Acre and the Way Home",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch10.jpeg?alt=media",
+    "content": "Next, Ibn Jubayr went to Acre. Acre is a city near the sea. He waited there for about two weeks. He needed a good wind for the ship.\n\nThen he got on a ship with 50 Muslims and many Christians. There were big storms again. Near Sicily, the ship hit the ground and stopped. It could not move. Ibn Jubayr was in great danger. But finally, he was safe. William II, the king of Sicily, helped the people from the ship. The king knew Arabic!",
+    "vocabulary": [
+     {
+      "word": "wind",
+      "definition": "Air that moves."
+     },
+     {
+      "word": "get on",
+      "definition": "Go into a ship, a bus or a train."
+     },
+     {
+      "word": "hit the ground",
+      "definition": "Touch the ground under the sea and stop."
+     },
+     {
+      "word": "king",
+      "definition": "A man; he is the head of a country."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h10-1",
+      "x": 35,
+      "y": 46,
+      "title": "Acre",
+      "description": "Acre is a city near the sea. Ibn Jubayr waited there for about two weeks."
+     },
+     {
+      "id": "h10-2",
+      "x": 68,
+      "y": 50,
+      "title": "The King of Sicily",
+      "description": "William II, the king of Sicily, helped the people from the ship. The king knew Arabic!"
+     }
+    ],
+    "exercises": [
+     {
+      "id": "ibnjubayr-a1-quick-10",
+      "type": "drag-drop",
+      "title": "Acre and the Way Home",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 10?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Ibn Jubayr waited in Acre for about two weeks.",
+         "The king of Sicily knew Arabic."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The weather was good on the sea."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Ibn Jubayr waited in Acre for about two weeks.",
+        "The king of Sicily knew Arabic."
+       ],
+       "False": [
+        "The weather was good on the sea."
+       ]
+      },
+      "explanation": "Chapter 10 says: “He waited there for about two weeks.” “There were big storms again.” “The king knew Arabic!”",
+      "feedback": {
+       "correct": "Yes! There were big storms again.",
+       "incorrect": "Read the second paragraph of Chapter 10 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "ibnjubayr-a1-language-10-could",
+      "type": "multiple-choice",
+      "title": "Look: Could Not",
+      "instructions": "Choose the right answer.",
+      "question": "“It could not move.” What does this mean?",
+      "options": [
+       "The ship stopped. It did not go.",
+       "The ship went very fast.",
+       "The ship went home."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Can → could in the past. It could not move = it stopped.",
+      "feedback": {
+       "correct": "Yes. The ship stopped.",
+       "incorrect": "Read the second paragraph of Chapter 10 again."
+      }
+     },
+     {
+      "id": "ibnjubayr-a1-language-10-practise",
+      "type": "choose-form",
+      "title": "Practise: Waited, Needed, Helped",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "He [choice] there for about two weeks.",
+        "options": [
+         "waited",
+         "waits"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "He [choice] a good wind for the ship.",
+        "options": [
+         "needed",
+         "needs"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The king [choice] the people from the ship.",
+        "options": [
+         "helped",
+         "helps"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Many verbs add -ed in the past: wait → waited, need → needed, help → helped.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Find the -ed verbs in Chapter 10."
+      }
+     },
+     {
+      "id": "ibnjubayr-a1-language-10-say-it",
+      "type": "reflection",
+      "title": "Say It: Can and Could",
+      "instructions": "Talk about you with your partner.",
+      "question": "What can you do?",
+      "correctAnswer": null,
+      "explanation": "Use can for now and could not for the past.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I can … now.”",
+        "mode": "Pair",
+        "example": "I can swim now."
+       },
+       {
+        "question": "“I could not … when I was five.”",
+        "mode": "Pair",
+        "example": "I could not read when I was five."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What does a ship need?",
+     "options": [
+      "a good wind",
+      "a big tree",
+      "a lot of bread"
+     ],
+     "answer": 0,
+     "quote": "He needed a good wind for the ship."
+    },
+    "iCan": [
+     "I can tell what happened near Sicily.",
+     "I can understand could not.",
+     "I can say what I can do now."
     ]
    },
    {
-    "id": 7,
+    "id": 11,
     "type": "story",
-    "title": "A Ship Hits the Rocks",
+    "title": "Home Again",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch11.jpeg?alt=media",
-    "content": "Then Ibn Jubayr went to Acre, in Palestine. At that time, the Crusaders ruled Palestine. He waited two weeks for good winds. Then he got on a ship for home.\n\nThe sea was very dangerous. There were big storms. Near Sicily, the ship hit some rocks and broke. Ibn Jubayr almost died, but he was safe in the end. The king of Sicily, William II, helped the people from the ship.\n\nIn 1185, Ibn Jubayr arrived home. He thanked Allah. He always prayed in danger.",
+    "content": "Ibn Jubayr waited in Sicily for good weather. Then he got on a new ship. In 1185, he came back to Spain. He was home again!\n\nHis journey was two years and three and a half months long. It was dangerous. On the sea, there were storms. In the desert, there were thieves. The sun was very hot, and people needed water.\n\nIn the end, he was safe back home. He thanked Allah.",
     "vocabulary": [
      {
-      "word": "Crusaders",
-      "definition": "Soldiers from Europe who came to fight."
+      "word": "thief",
+      "definition": "A person who takes things from other people."
      },
      {
-      "word": "rock",
-      "definition": "A very big stone."
+      "word": "need",
+      "definition": "Must have."
      },
      {
       "word": "thank",
@@ -1138,90 +1857,142 @@
     ],
     "hotspots": [
      {
-      "id": "h7-1",
+      "id": "h11-1",
       "x": 35,
       "y": 46,
-      "title": "Waiting for Wind",
-      "description": "In Acre, Ibn Jubayr waited two weeks for good winds."
+      "title": "Home Again",
+      "description": "In 1185, Ibn Jubayr came back to Spain. He was home again!"
      },
      {
-      "id": "h7-2",
+      "id": "h11-2",
       "x": 68,
       "y": 50,
-      "title": "Safe in the End",
-      "description": "Ibn Jubayr almost died, but he was safe in the end."
+      "title": "Dangers",
+      "description": "On the sea, there were storms. In the desert, there were thieves."
      }
     ],
     "exercises": [
      {
-      "id": "ibnjubayr-a1-quick-7",
-      "type": "multiple-choice",
-      "title": "A Ship Hits the Rocks",
-      "instructions": "Choose the best answer.",
-      "question": "Who helped the people from the ship?",
-      "options": [
-       "William II, the king of Sicily",
-       "Saladin",
-       "the Crusaders"
+      "id": "ibnjubayr-a1-quick-11",
+      "type": "drag-drop",
+      "title": "Home Again",
+      "instructions": "Put each danger in the right place.",
+      "question": "Where was each danger?",
+      "dragDropGroups": [
+       {
+        "group": "On the sea",
+        "items": [
+         "storms"
+        ]
+       },
+       {
+        "group": "In the desert",
+        "items": [
+         "thieves",
+         "a very hot sun"
+        ]
+       }
       ],
-      "correctAnswer": 0,
-      "explanation": "Chapter 7: “The king of Sicily, William II, helped the people from the ship.”",
+      "correctAnswer": {
+       "On the sea": [
+        "storms"
+       ],
+       "In the desert": [
+        "thieves",
+        "a very hot sun"
+       ]
+      },
+      "explanation": "Chapter 11: “On the sea, there were storms. In the desert, there were thieves. The sun was very hot, and people needed water.”",
       "feedback": {
-       "correct": "Yes!",
-       "incorrect": "Read the second paragraph of Chapter 7 again."
+       "correct": "Yes! You found the dangers.",
+       "incorrect": "Read the second paragraph of Chapter 11 again."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ibnjubayr-a1-language-7-almost",
-      "type": "multiple-choice",
-      "title": "Look: Almost",
-      "instructions": "Choose the right answer.",
-      "question": "“Ibn Jubayr almost died.” Did he die?",
-      "options": [
-       "No, he did not.",
-       "Yes, he did.",
-       "We do not know."
+      "id": "ibnjubayr-a1-language-11-there",
+      "type": "drag-drop",
+      "title": "Look: There Was, There Were",
+      "instructions": "Put each word in the right group.",
+      "question": "One or many?",
+      "dragDropGroups": [
+       {
+        "group": "There was …",
+        "items": [
+         "a storm",
+         "a hot sun"
+        ]
+       },
+       {
+        "group": "There were …",
+        "items": [
+         "storms",
+         "thieves"
+        ]
+       }
       ],
-      "correctAnswer": 0,
-      "explanation": "Almost = very near, but not. He almost died, but he was safe.",
+      "correctAnswer": {
+       "There was …": [
+        "a storm",
+        "a hot sun"
+       ],
+       "There were …": [
+        "storms",
+        "thieves"
+       ]
+      },
+      "explanation": "One thing: there was. Two or more: there were.",
       "feedback": {
-       "correct": "Yes. He was safe in the end.",
-       "incorrect": "Read the second paragraph of Chapter 7."
+       "correct": "Good.",
+       "incorrect": "Thieves = many. A storm = one."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-7-practise",
-      "type": "word-bank",
-      "title": "Practise: Coming Home",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What happened at the end?",
-      "fillBlanksText": "In 1185, Ibn Jubayr [blank] home. He [blank] Allah. He always [blank] in danger.",
-      "wordBank": [
-       "arrived",
-       "thanked",
-       "prayed",
-       "arrives",
-       "thanks"
+      "id": "ibnjubayr-a1-language-11-practise",
+      "type": "choose-form",
+      "title": "Practise: There Was, There Were",
+      "instructions": "Choose there was or there were.",
+      "question": "One or many?",
+      "formChoices": [
+       {
+        "sentence": "On the sea, [choice] storms.",
+        "options": [
+         "there were",
+         "there was"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "In the desert, [choice] thieves.",
+        "options": [
+         "there were",
+         "there was"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "In Cairo, [choice] a big hospital.",
+        "options": [
+         "there was",
+         "there were"
+        ],
+        "answer": 0
+       }
       ],
-      "correctAnswer": [
-       "arrived",
-       "thanked",
-       "prayed"
-      ],
-      "explanation": "Arrive → arrived, thank → thanked, pray → prayed: these verbs add -ed.",
+      "correctAnswer": null,
+      "explanation": "Storms, thieves = many: there were. A hospital = one: there was.",
       "feedback": {
        "correct": "Correct.",
-       "incorrect": "Read the last paragraph of Chapter 7."
+       "incorrect": "Read the second paragraph of Chapter 11 again."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-7-say-it",
+      "id": "ibnjubayr-a1-language-11-say-it",
       "type": "reflection",
       "title": "Say It: Thank You",
       "instructions": "Say thank you for good things.",
-      "question": "What do you say thank you for?",
+      "question": "What are you happy about?",
       "correctAnswer": null,
       "explanation": "Use thank you for + thing.",
       "feedback": {
@@ -1244,147 +2015,119 @@
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What happened to the ship near Sicily?",
+     "question": "Guess first: When did Ibn Jubayr come back to Spain?",
      "options": [
-      "It hit some rocks.",
-      "It went very fast.",
-      "It came home."
+      "in 1185",
+      "in 1145",
+      "in 1217"
      ],
      "answer": 0,
-     "quote": "Near Sicily, the ship hit some rocks and broke."
+     "quote": "In 1185, he came back to Spain."
     },
     "iCan": [
      "I can tell how Ibn Jubayr came home.",
-     "I can understand almost.",
+     "I can use there was and there were.",
      "I can say thank you for good things."
     ]
    },
    {
-    "id": 8,
+    "id": 12,
     "type": "story",
-    "title": "Travel and Knowledge",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch12.jpeg?alt=media",
-    "content": "Travel in those days was dangerous. At sea, there were storms. In the desert, there were thieves. They took everything from travelers. Caravans traveled at night, because the sun was too hot in the day.\n\nAt home in Granada, Ibn Jubayr wrote his travel book. He taught hadiths. Hadiths are the words and actions of Prophet Muhammad (pbuh). Later, he went to Mecca again. He died in Alexandria in 1217.\n\nHis journeys gave him a lot of knowledge. He told young people, “Travel and learn.”",
+    "title": "Lessons from a Journey",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch13.jpeg?alt=media",
+    "content": "Back in Granada, Ibn Jubayr finished his book, Rihla. He also taught the hadiths. Hadiths are the words of Prophet Muhammad (pbuh).\n\nAfter that, he went to Mecca two more times. In the end, he lived in Alexandria. He died there in 1217.\n\nIbn Jubayr’s first goal was the Hajj. But his journey gave him much more. He saw many cities. He met Muslims from many countries. He learned many new things. He did not find these things at home.\n\nIbn Jubayr said to young people, “Travel and learn!”",
     "vocabulary": [
      {
-      "word": "thief",
-      "definition": "A person who takes things that are not his."
-     },
-     {
       "word": "hadith",
-      "definition": "The words and actions of the Prophet (pbuh)."
+      "definition": "The words of Prophet Muhammad (pbuh)."
      },
      {
-      "word": "knowledge",
-      "definition": "The things you know and learn."
+      "word": "goal",
+      "definition": "A thing you want to do."
      }
     ],
     "hotspots": [
      {
-      "id": "h8-1",
+      "id": "h12-1",
       "x": 35,
       "y": 46,
-      "title": "Thieves in the Desert",
-      "description": "In the desert, there were thieves. They took everything from travelers."
+      "title": "The Book",
+      "description": "Back in Granada, Ibn Jubayr finished his book, Rihla. He also taught the hadiths."
      },
      {
-      "id": "h8-2",
+      "id": "h12-2",
       "x": 68,
       "y": 50,
       "title": "Travel and Learn",
-      "description": "His journeys gave him a lot of knowledge."
+      "description": "Ibn Jubayr saw many cities. He met Muslims from many countries."
      }
     ],
     "exercises": [
      {
-      "id": "ibnjubayr-a1-quick-8",
-      "type": "drag-drop",
-      "title": "Travel and Knowledge",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 8?",
-      "dragDropGroups": [
-       {
-        "group": "True",
-        "items": [
-         "Caravans traveled at night.",
-         "Ibn Jubayr wrote his travel book in Granada."
-        ]
-       },
-       {
-        "group": "False",
-        "items": [
-         "Ibn Jubayr died in Granada."
-        ]
-       }
+      "id": "ibnjubayr-a1-quick-12",
+      "type": "multiple-choice",
+      "title": "Lessons from a Journey",
+      "instructions": "Choose the best answer.",
+      "question": "Where did Ibn Jubayr die?",
+      "options": [
+       "in Alexandria",
+       "in Granada",
+       "in Mecca"
       ],
-      "correctAnswer": {
-       "True": [
-        "Caravans traveled at night.",
-        "Ibn Jubayr wrote his travel book in Granada."
-       ],
-       "False": [
-        "Ibn Jubayr died in Granada."
-       ]
-      },
-      "explanation": "Chapter 8 says: “Caravans traveled at night.” “At home in Granada, Ibn Jubayr wrote his travel book.” “He died in Alexandria in 1217.”",
+      "correctAnswer": 0,
+      "explanation": "Chapter 12: “In the end, he lived in Alexandria. He died there in 1217.”",
       "feedback": {
        "correct": "Yes! He died in Alexandria.",
-       "incorrect": "Read the second paragraph of Chapter 8 again."
+       "incorrect": "Read the second paragraph of Chapter 12 again."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ibnjubayr-a1-language-8-too",
+      "id": "ibnjubayr-a1-language-12-but",
       "type": "multiple-choice",
-      "title": "Look: Too Hot",
+      "title": "Look: But",
       "instructions": "Choose the right answer.",
-      "question": "“The sun was too hot in the day.” What does this mean?",
+      "question": "“Ibn Jubayr’s first goal was the Hajj. But his journey gave him much more.” What does “but” do?",
       "options": [
-       "It was very hot. People could not travel.",
-       "It was a little hot.",
-       "It was cold."
+       "It shows a different idea.",
+       "It gives a number.",
+       "It names a city."
       ],
       "correctAnswer": 0,
-      "explanation": "Too hot = very, very hot; it is not OK.",
+      "explanation": "But shows a different idea: His first goal was the Hajj. But he got much more.",
       "feedback": {
-       "correct": "Yes. It was too hot to travel.",
-       "incorrect": "Read the first paragraph of Chapter 8."
+       "correct": "Yes. But shows a different idea.",
+       "incorrect": "Read the third paragraph of Chapter 12 again."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-8-practise",
-      "type": "choose-form",
-      "title": "Practise: Because",
-      "instructions": "Choose the right word.",
-      "question": "Why?",
-      "formChoices": [
-       {
-        "sentence": "Caravans traveled at night, [choice] the sun was too hot in the day.",
-        "options": [
-         "because",
-         "but"
-        ],
-        "answer": 0
-       },
-       {
-        "sentence": "Travel was dangerous, [choice] Ibn Jubayr traveled.",
-        "options": [
-         "but",
-         "because"
-        ],
-        "answer": 0
-       }
+      "id": "ibnjubayr-a1-language-12-practise",
+      "type": "word-bank",
+      "title": "Practise: Saw, Met, Learned",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What did his journey give him?",
+      "fillBlanksText": "He [blank] many cities. He [blank] Muslims from many countries. He [blank] many new things.",
+      "wordBank": [
+       "saw",
+       "met",
+       "learned",
+       "sees",
+       "meets"
       ],
-      "correctAnswer": null,
-      "explanation": "Because tells why. But joins two different ideas.",
+      "correctAnswer": [
+       "saw",
+       "met",
+       "learned"
+      ],
+      "explanation": "See → saw, meet → met. Learn → learned.",
       "feedback": {
        "correct": "Correct.",
-       "incorrect": "Read Chapter 8 again."
+       "incorrect": "Read the third paragraph of Chapter 12."
       }
      },
      {
-      "id": "ibnjubayr-a1-language-8-write-it",
+      "id": "ibnjubayr-a1-language-12-write-it",
       "type": "reflection",
       "title": "Write It: Travel and Learn",
       "instructions": "Write about a place you want to visit.",
@@ -1402,7 +2145,7 @@
         "example": "I want to visit Damascus."
        },
        {
-        "question": "“I want to learn about …”",
+        "question": "“I want to learn …”",
         "mode": "Individual",
         "example": "I want to learn about its old mosque."
        }
@@ -1411,40 +2154,26 @@
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Ibn Jubayr tell young people?",
+     "question": "Guess first: What did Ibn Jubayr say to young people?",
      "options": [
-      "“Travel and learn.”",
-      "“Stay at home.”",
-      "“Do not read.”"
+      "“Travel and learn!”",
+      "“Stay at home!”",
+      "“Do not read!”"
      ],
      "answer": 0,
-     "quote": "He told young people, “Travel and learn.”"
+     "quote": "Ibn Jubayr said to young people, “Travel and learn!”"
     },
     "iCan": [
-     "I can tell about travel in those days.",
-     "I can use too and because.",
+     "I can tell the lessons of the journey.",
+     "I can understand but.",
      "I can write about a place I want to visit."
-    ],
-    "groupTask": {
-     "type": "project",
-     "title": "A Travel Diary",
-     "time": "10 min",
-     "groupSize": "3–4",
-     "steps": [
-      "The group chooses one city from the story.",
-      "Each student writes one diary sentence: “Today, I saw …”.",
-      "The group puts the sentences in order and adds a date.",
-      "One student reads the diary page to the class."
-     ],
-     "share": "One student reads the diary page. Story: “He wrote in it every day.”",
-     "solo": "Write a diary page about your day. Write three sentences."
-    }
+    ]
    },
    {
     "id": 101,
     "type": "map",
     "title": "Ibn Jubayr’s Journey",
-    "subtitle": "Map · Chapters 1–8",
+    "subtitle": "Map · Chapters 1–12",
     "content": "",
     "map": {
      "baseMap": "mediterranean",
@@ -1815,8 +2544,8 @@
        "labelSide": "right",
        "name": "Valencia",
        "kind": "City",
-       "text": "Ibn Jubayr was born in Valencia in 1145. Valencia is a city in the east of Spain, near the sea.",
-       "teacherNote": "Chapter 1. At that time, Valencia was a part of Al-Andalus.",
+       "text": "Ibn Jubayr was born in Valencia in 1145. Valencia is a city in Spain, near the sea.",
+       "teacherNote": "Chapters 1 and 3. At that time, Valencia was a part of Al-Andalus.",
        "question": "When was Ibn Jubayr born?"
       },
       {
@@ -1829,8 +2558,8 @@
        "labelSide": "right",
        "name": "Granada",
        "kind": "City",
-       "text": "Ibn Jubayr worked in Granada. He was a secretary for the governor. He started his journey here in 1183. At home in Granada, he wrote his travel book.",
-       "teacherNote": "Chapters 2, 3 and 8. Granada is the start and the end of the journey.",
+       "text": "Ibn Jubayr worked in Granada. He was a secretary for the ruler of Granada. He left Granada on February 3, 1183. Back in Granada, he finished his book.",
+       "teacherNote": "Chapters 3, 5 and 12. Granada is the start and the end of the journey.",
        "question": "What was Ibn Jubayr’s job in Granada?"
       },
       {
@@ -1843,8 +2572,8 @@
        "labelSide": "bottom",
        "name": "Ceuta",
        "kind": "City",
-       "text": "Ceuta is a city in North Africa. Here, Ibn Jubayr got on a ship.",
-       "teacherNote": "Chapter 3. The book does not say how he went from Granada to Ceuta, so this part of the line is only a guide.",
+       "text": "Ceuta is a city in North Africa. There, Ibn Jubayr got on a ship.",
+       "teacherNote": "Chapter 5. The book does not say how he went from Granada to Ceuta, so this part of the line is only a guide.",
        "question": "What did Ibn Jubayr get on in Ceuta?"
       },
       {
@@ -1858,8 +2587,8 @@
        "labelSide": "top",
        "name": "Sicily",
        "kind": "Island",
-       "text": "Sicily is a big island. On the way home, the ship hit some rocks near Sicily. The king of Sicily helped the people from the ship.",
-       "teacherNote": "Chapters 3 and 7. The book does not name the place of the accident, so the map marks the whole island.",
+       "text": "Sicily is a big island. The ship went past Sicily. On the way home, the ship hit the ground near Sicily. William II, the king of Sicily, helped the people from the ship.",
+       "teacherNote": "Chapters 5, 10 and 11. The book does not name the place of the accident, so the map marks the whole island.",
        "question": "Who helped the people from the ship?"
       },
       {
@@ -1872,8 +2601,8 @@
        "labelSide": "left",
        "name": "Alexandria",
        "kind": "City",
-       "text": "The ship came to Alexandria in March 1183. Ibn Jubayr saw the famous lighthouse. It was very tall and very old. He died in Alexandria in 1217.",
-       "teacherNote": "Chapters 3 and 8. The sea line is only a guide.",
+       "text": "On March 26, the ship came to Alexandria. Ibn Jubayr saw the famous lighthouse. It was very tall and very old. In the end, he lived in Alexandria and died there in 1217.",
+       "teacherNote": "Chapters 5, 6 and 12. The sea line is only a guide.",
        "question": "What did Ibn Jubayr see in Alexandria?"
       },
       {
@@ -1886,9 +2615,9 @@
        "labelSide": "left",
        "name": "Cairo",
        "kind": "City",
-       "text": "In Cairo, the leader was Sultan Saladin. Ibn Jubayr visited a big, free hospital. He saw the pyramids, too.",
-       "teacherNote": "Chapter 4.",
-       "question": "Who was the leader in Cairo?"
+       "text": "In Cairo, the ruler was Sultan Saladin. Ibn Jubayr visited a big hospital. It was free for all people. He saw the pyramids, too.",
+       "teacherNote": "Chapter 7.",
+       "question": "Who was the ruler in Cairo?"
       },
       {
        "id": "mecca",
@@ -1900,8 +2629,8 @@
        "labelSide": "right",
        "name": "Mecca",
        "kind": "City",
-       "text": "Ibn Jubayr arrived in Mecca in August 1183. He stayed there for more than eight months. He made the Hajj.",
-       "teacherNote": "Chapter 5. The book names no stops between Cairo and the Red Sea, so the line is only a guide.",
+       "text": "Ibn Jubayr came to Mecca in August 1183. He stayed there for more than eight months. He made the Hajj.",
+       "teacherNote": "Chapter 8. The book names no stops between Egypt and Mecca, so the line is only a guide.",
        "question": "How long did Ibn Jubayr stay in Mecca?"
       },
       {
@@ -1914,9 +2643,9 @@
        "labelSide": "left",
        "name": "Medina",
        "kind": "City",
-       "text": "In April 1184, Ibn Jubayr went to Medina.",
-       "teacherNote": "Chapter 6.",
-       "question": "When did Ibn Jubayr go to Medina?"
+       "text": "On April 16, 1184, Ibn Jubayr went to Medina. He stayed there for five nights.",
+       "teacherNote": "Chapter 9.",
+       "question": "How many nights did Ibn Jubayr stay in Medina?"
       },
       {
        "id": "baghdad",
@@ -1928,9 +2657,9 @@
        "labelSide": "right",
        "name": "Baghdad",
        "kind": "City",
-       "text": "Ibn Jubayr traveled through the desert to Baghdad. Baghdad was the capital of the Abbasids. It had 2,000 public baths.",
-       "teacherNote": "Chapter 6. The line through the desert is only a guide.",
-       "question": "How many public baths did Baghdad have?"
+       "text": "Ibn Jubayr went across the desert to Baghdad. He wrote, “Baghdad has 2,000 baths and 11 big mosques.”",
+       "teacherNote": "Chapter 9. The line through the desert is only a guide.",
+       "question": "How many baths did Baghdad have?"
       },
       {
        "id": "aleppo",
@@ -1943,7 +2672,7 @@
        "name": "Aleppo",
        "kind": "City",
        "text": "After Baghdad, Ibn Jubayr went to Aleppo.",
-       "teacherNote": "Chapter 6.",
+       "teacherNote": "Chapter 9.",
        "question": "Where did Ibn Jubayr go after Baghdad?"
       },
       {
@@ -1956,9 +2685,9 @@
        "labelSide": "right",
        "name": "Damascus",
        "kind": "City",
-       "text": "Ibn Jubayr visited the Great Mosque of Damascus. It had tall minarets, beautiful mosaics and a water clock.",
-       "teacherNote": "Chapter 6. Students and travelers stayed in madrasas here for free.",
-       "question": "What did Ibn Jubayr visit in Damascus?"
+       "text": "In Damascus, Ibn Jubayr saw the Great Mosque. He wrote about its doors, its towers and its beautiful walls.",
+       "teacherNote": "Chapter 9. Students and travelers stayed in schools here for free.",
+       "question": "What did Ibn Jubayr see in Damascus?"
       },
       {
        "id": "acre",
@@ -1970,8 +2699,8 @@
        "labelSide": "left",
        "name": "Acre",
        "kind": "City",
-       "text": "Acre is a city in Palestine. Ibn Jubayr waited here two weeks for good winds. Then he got on a ship for home.",
-       "teacherNote": "Chapter 7. At that time, the Crusaders ruled Palestine.",
+       "text": "Acre is a city near the sea. Ibn Jubayr waited here for about two weeks. He needed a good wind for the ship.",
+       "teacherNote": "Chapter 10.",
        "question": "Why did Ibn Jubayr wait in Acre?"
       }
      ],
@@ -2145,7 +2874,7 @@
        "lon": 31.24,
        "lat": 30.04,
        "radiusKm": 130,
-       "prompt": "Find Cairo. Saladin was the leader here."
+       "prompt": "Find Cairo. Saladin was the ruler here."
       },
       {
        "id": "mecca",
@@ -2159,27 +2888,27 @@
        "lon": 44.36,
        "lat": 33.31,
        "radiusKm": 170,
-       "prompt": "Find Baghdad. It was the capital of the Abbasids."
+       "prompt": "Find Baghdad. It had 2,000 baths."
       },
       {
        "id": "damascus",
        "lon": 36.29,
        "lat": 33.51,
        "radiusKm": 140,
-       "prompt": "Find Damascus. It has a great mosque."
+       "prompt": "Find Damascus. It has a Great Mosque."
       },
       {
        "id": "sicily",
        "lon": 14.1,
        "lat": 37.55,
        "radiusKm": 200,
-       "prompt": "Find Sicily. The ship hit some rocks near it."
+       "prompt": "Find Sicily. The ship hit the ground near it."
       }
      ]
     }
    },
    {
-    "id": 11,
+    "id": 15,
     "type": "quiz",
     "title": "Knowledge Check",
     "image": "https://picsum.photos/seed/quiz-ibnjubayr-a1/1200/800",
@@ -2209,12 +2938,12 @@
       "type": "true-false",
       "title": "His Job",
       "instructions": "Is it true or false?",
-      "question": "Ibn Jubayr was a secretary for the governor.",
+      "question": "Ibn Jubayr was a secretary for the ruler of Granada.",
       "correctAnswer": true,
-      "explanation": "Chapter 2: “He was a secretary for the governor.”",
+      "explanation": "Chapter 3: “He was a secretary for the ruler of Granada.”",
       "feedback": {
        "correct": "Yes, it is true.",
-       "incorrect": "Read the first paragraph of Chapter 2."
+       "incorrect": "Read the first paragraph of Chapter 3."
       }
      },
      {
@@ -2229,10 +2958,10 @@
        "the Great Mosque"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 3: “There, Ibn Jubayr saw the famous lighthouse of Alexandria.”",
+      "explanation": "Chapter 6: “In Alexandria, he went to see the famous lighthouse of Alexandria.”",
       "feedback": {
        "correct": "Yes. The lighthouse.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "incorrect": "Read Chapter 6."
       }
      },
      {
@@ -2242,10 +2971,10 @@
       "instructions": "Is it true or false?",
       "question": "Saladin gave 200 loaves of bread every day.",
       "correctAnswer": false,
-      "explanation": "Chapter 4: “Every day, he gave 2,000 loaves of bread to poor people.”",
+      "explanation": "Chapter 7: “Every day, he gave 2,000 loaves of bread to poor people.”",
       "feedback": {
        "correct": "Yes, it is false. It was 2,000.",
-       "incorrect": "Read the last paragraph of Chapter 4."
+       "incorrect": "Read the last paragraph of Chapter 7."
       }
      },
      {
@@ -2253,17 +2982,17 @@
       "type": "multiple-choice",
       "title": "Baghdad",
       "instructions": "Choose the answer.",
-      "question": "Baghdad was the capital of …",
+      "question": "How many baths did Baghdad have?",
       "options": [
-       "the Abbasids",
-       "Al-Andalus",
-       "Sicily"
+       "2,000",
+       "11",
+       "50"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 6: “Baghdad was the capital of the Abbasids.”",
+      "explanation": "Chapter 9: “Baghdad has 2,000 baths and 11 big mosques.”",
       "feedback": {
-       "correct": "Yes. The Abbasids.",
-       "incorrect": "Read the first paragraph of Chapter 6."
+       "correct": "Yes. 2,000.",
+       "incorrect": "Read the second paragraph of Chapter 9."
       }
      },
      {
@@ -2271,50 +3000,28 @@
       "type": "multiple-choice",
       "title": "Home",
       "instructions": "Choose the answer.",
-      "question": "When did Ibn Jubayr arrive home?",
+      "question": "When did Ibn Jubayr come back to Spain?",
       "options": [
        "in 1185",
        "in 1145",
        "in 1217"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: “In 1185, Ibn Jubayr arrived home.”",
+      "explanation": "Chapter 11: “In 1185, he came back to Spain.”",
       "feedback": {
        "correct": "Yes. In 1185.",
-       "incorrect": "Read the last paragraph of Chapter 7."
+       "incorrect": "Read the first paragraph of Chapter 11."
       }
      }
     ]
    },
    {
-    "id": 13,
+    "id": 17,
     "type": "glossary",
     "title": "Master Glossary",
     "content": "Review all key vocabulary from the story in one place.",
     "image": "https://picsum.photos/seed/glossary-ibnjubayr-a1/1200/800",
     "vocabulary": [
-     {
-      "word": "rule",
-      "definition": "Be the leader of a country.",
-      "partOfSpeech": "verb",
-      "level": "A1",
-      "pronunciation": "/ruːl/",
-      "chapter": 1,
-      "chapterTitle": "Al-Andalus",
-      "storyExample": "From 711 to 1492, Muslims ruled parts of Spain and Portugal.",
-      "category": "History"
-     },
-     {
-      "word": "mosque",
-      "definition": "A building where Muslims pray.",
-      "partOfSpeech": "noun",
-      "level": "A1",
-      "pronunciation": "/mɑːsk/",
-      "chapter": 1,
-      "chapterTitle": "Al-Andalus",
-      "storyExample": "Sevilla had 1,000 mosques.",
-      "category": "Faith"
-     },
      {
       "word": "medicine",
       "definition": "The study of illness and how to help sick people.",
@@ -2323,7 +3030,7 @@
       "pronunciation": "/ˈmedɪsn/",
       "chapter": 1,
       "chapterTitle": "Al-Andalus",
-      "storyExample": "People there were good at art, medicine and science.",
+      "storyExample": "They were good at medicine and science.",
       "category": "Learning"
      },
      {
@@ -2334,7 +3041,7 @@
       "pronunciation": "/ˈsaɪəns/",
       "chapter": 1,
       "chapterTitle": "Al-Andalus",
-      "storyExample": "People there were good at art, medicine and science.",
+      "storyExample": "They were good at medicine and science.",
       "category": "Learning"
      },
      {
@@ -2343,10 +3050,32 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/ˈtrævələr/",
-      "chapter": 1,
-      "chapterTitle": "Al-Andalus",
-      "storyExample": "Ibn Jubayr was a famous traveler.",
+      "chapter": 2,
+      "chapterTitle": "Three Great Travelers",
+      "storyExample": "They were great travelers.",
       "category": "Travel"
+     },
+     {
+      "word": "trip",
+      "definition": "A time when you go to a place and come back.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/trɪp/",
+      "chapter": 2,
+      "chapterTitle": "Three Great Travelers",
+      "storyExample": "His trip was about 15,000 kilometers.",
+      "category": "Travel"
+     },
+     {
+      "word": "kilometer",
+      "definition": "1,000 meters.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/kɪˈlɑːmɪtər/",
+      "chapter": 2,
+      "chapterTitle": "Three Great Travelers",
+      "storyExample": "His trip was about 15,000 kilometers.",
+      "category": "Numbers"
      },
      {
       "word": "secretary",
@@ -2354,20 +3083,20 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/ˈsekrəteri/",
-      "chapter": 2,
-      "chapterTitle": "A Big Dream",
-      "storyExample": "He was a secretary for the governor.",
+      "chapter": 3,
+      "chapterTitle": "A Young Man from Valencia",
+      "storyExample": "He was a secretary for the ruler of Granada.",
       "category": "Work"
      },
      {
-      "word": "governor",
-      "definition": "The leader of a city or area.",
+      "word": "ruler",
+      "definition": "The head of a country or a city.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈɡʌvərnər/",
-      "chapter": 2,
-      "chapterTitle": "A Big Dream",
-      "storyExample": "He was a secretary for the governor.",
+      "pronunciation": "/ˈruːlər/",
+      "chapter": 3,
+      "chapterTitle": "A Young Man from Valencia",
+      "storyExample": "He was a secretary for the ruler of Granada.",
       "category": "People"
      },
      {
@@ -2376,8 +3105,8 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/driːm/",
-      "chapter": 2,
-      "chapterTitle": "A Big Dream",
+      "chapter": 3,
+      "chapterTitle": "A Young Man from Valencia",
       "storyExample": "He had a big dream.",
       "category": "Life"
      },
@@ -2387,9 +3116,9 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/ˈdʒɜːrni/",
-      "chapter": 2,
-      "chapterTitle": "A Big Dream",
-      "storyExample": "He started his long journey in 1183.",
+      "chapter": 3,
+      "chapterTitle": "A Young Man from Valencia",
+      "storyExample": "In 1183, he started his long journey.",
       "category": "Travel"
      },
      {
@@ -2398,10 +3127,32 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/ˈdaɪəri/",
-      "chapter": 2,
-      "chapterTitle": "A Big Dream",
+      "chapter": 4,
+      "chapterTitle": "The Rihla",
       "storyExample": "He took a diary with him.",
       "category": "Things"
+     },
+     {
+      "word": "become",
+      "definition": "Start to be.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/bɪˈkʌm/",
+      "chapter": 4,
+      "chapterTitle": "The Rihla",
+      "storyExample": "After the journey, his diary became a book.",
+      "category": "Actions"
+     },
+     {
+      "word": "similar",
+      "definition": "Almost the same.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈsɪmələr/",
+      "chapter": 4,
+      "chapterTitle": "The Rihla",
+      "storyExample": "Later, other travelers wrote similar books.",
+      "category": "Describing"
      },
      {
       "word": "dangerous",
@@ -2409,10 +3160,32 @@
       "partOfSpeech": "adjective",
       "level": "A1",
       "pronunciation": "/ˈdeɪndʒərəs/",
-      "chapter": 2,
-      "chapterTitle": "A Big Dream",
+      "chapter": 4,
+      "chapterTitle": "The Rihla",
       "storyExample": "In those days, travel was very hard and dangerous.",
       "category": "Describing"
+     },
+     {
+      "word": "camel",
+      "definition": "A big animal; people ride it in the desert.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈkæml/",
+      "chapter": 4,
+      "chapterTitle": "The Rihla",
+      "storyExample": "Ibn Jubayr went on ships, on camels and on foot.",
+      "category": "Animals"
+     },
+     {
+      "word": "leave",
+      "definition": "Go away from a place.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/liːv/",
+      "chapter": 5,
+      "chapterTitle": "A Storm at Sea",
+      "storyExample": "On February 3, 1183, Ibn Jubayr left Granada.",
+      "category": "Actions"
      },
      {
       "word": "ship",
@@ -2420,10 +3193,43 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/ʃɪp/",
-      "chapter": 3,
+      "chapter": 5,
       "chapterTitle": "A Storm at Sea",
       "storyExample": "There, he got on a ship.",
       "category": "Travel"
+     },
+     {
+      "word": "go past",
+      "definition": "Go near a place and not stop.",
+      "partOfSpeech": "phrasal verb",
+      "level": "A1",
+      "pronunciation": "/ɡoʊ pæst/",
+      "chapter": 5,
+      "chapterTitle": "A Storm at Sea",
+      "storyExample": "The ship went past Sardinia and Sicily.",
+      "category": "Travel"
+     },
+     {
+      "word": "moment",
+      "definition": "A very short time.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmoʊmənt/",
+      "chapter": 5,
+      "chapterTitle": "A Storm at Sea",
+      "storyExample": "During his journey, Ibn Jubayr had many interesting moments and some dangerous ones.",
+      "category": "Time"
+     },
+     {
+      "word": "prisoner",
+      "definition": "A person who cannot leave a place and is not free.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈprɪznər/",
+      "chapter": 5,
+      "chapterTitle": "A Storm at Sea",
+      "storyExample": "Near Sardinia, he saw 80 Muslim prisoners.",
+      "category": "People"
      },
      {
       "word": "storm",
@@ -2431,7 +3237,7 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/stɔːrm/",
-      "chapter": 3,
+      "chapter": 5,
       "chapterTitle": "A Storm at Sea",
       "storyExample": "Then a very bad storm came.",
       "category": "Nature"
@@ -2442,9 +3248,9 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/ˈlaɪthaʊs/",
-      "chapter": 3,
-      "chapterTitle": "A Storm at Sea",
-      "storyExample": "There, Ibn Jubayr saw the famous lighthouse of Alexandria.",
+      "chapter": 6,
+      "chapterTitle": "The Lighthouse of Alexandria",
+      "storyExample": "In Alexandria, he went to see the famous lighthouse of Alexandria.",
       "category": "Places"
      },
      {
@@ -2453,10 +3259,32 @@
       "partOfSpeech": "adjective",
       "level": "A1",
       "pronunciation": "/fer/",
-      "chapter": 4,
+      "chapter": 7,
       "chapterTitle": "Cairo and Saladin",
       "storyExample": "Saladin was kind and fair.",
       "category": "Values"
+     },
+     {
+      "word": "take care of",
+      "definition": "Look after; help and keep well.",
+      "partOfSpeech": "phrasal verb",
+      "level": "A1",
+      "pronunciation": "/teɪk ker əv/",
+      "chapter": 7,
+      "chapterTitle": "Cairo and Saladin",
+      "storyExample": "He took care of mosques, schools and hospitals.",
+      "category": "Actions"
+     },
+     {
+      "word": "mosque",
+      "definition": "A building where Muslims pray.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/mɑːsk/",
+      "chapter": 7,
+      "chapterTitle": "Cairo and Saladin",
+      "storyExample": "He took care of mosques, schools and hospitals.",
+      "category": "Faith"
      },
      {
       "word": "hospital",
@@ -2464,10 +3292,21 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/ˈhɑːspɪtl/",
-      "chapter": 4,
+      "chapter": 7,
       "chapterTitle": "Cairo and Saladin",
-      "storyExample": "Ibn Jubayr visited a big hospital.",
+      "storyExample": "Ibn Jubayr visited a big hospital in Cairo.",
       "category": "Places"
+     },
+     {
+      "word": "free",
+      "definition": "You do not pay money for it.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/friː/",
+      "chapter": 7,
+      "chapterTitle": "Cairo and Saladin",
+      "storyExample": "It was free for all people.",
+      "category": "Describing"
      },
      {
       "word": "pyramid",
@@ -2475,7 +3314,7 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/ˈpɪrəmɪd/",
-      "chapter": 4,
+      "chapter": 7,
       "chapterTitle": "Cairo and Saladin",
       "storyExample": "He saw the pyramids, too.",
       "category": "Places"
@@ -2486,7 +3325,7 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/loʊf/",
-      "chapter": 4,
+      "chapter": 7,
       "chapterTitle": "Cairo and Saladin",
       "storyExample": "Every day, he gave 2,000 loaves of bread to poor people.",
       "category": "Food"
@@ -2497,109 +3336,175 @@
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/ˈkærəvæn/",
-      "chapter": 5,
+      "chapter": 8,
       "chapterTitle": "Eight Months in Mecca",
-      "storyExample": "From Egypt, Ibn Jubayr traveled to the Red Sea with a caravan of camels.",
+      "storyExample": "From Egypt, Ibn Jubayr traveled with a caravan of camels.",
       "category": "Travel"
      },
      {
       "word": "tent",
-      "definition": "A small house made of cloth.",
+      "definition": "A small house of cloth; you can move it.",
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/tent/",
-      "chapter": 5,
+      "chapter": 8,
       "chapterTitle": "Eight Months in Mecca",
-      "storyExample": "Some people had very big and beautiful tents!",
+      "storyExample": "Some tents in the caravan are so big and beautiful.",
       "category": "Things"
      },
      {
       "word": "respect",
-      "definition": "A feeling that someone is important.",
+      "definition": "A feeling that someone or something is important.",
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/rɪˈspekt/",
-      "chapter": 5,
+      "chapter": 8,
       "chapterTitle": "Eight Months in Mecca",
       "storyExample": "He visited the Ka’ba with great love and respect.",
       "category": "Values"
      },
      {
-      "word": "narrow",
-      "definition": "Not wide.",
-      "partOfSpeech": "adjective",
-      "level": "A1",
-      "pronunciation": "/ˈnæroʊ/",
-      "chapter": 5,
-      "chapterTitle": "Eight Months in Mecca",
-      "storyExample": "Mecca is in a narrow valley.",
-      "category": "Describing"
-     },
-     {
-      "word": "miracle",
-      "definition": "A wonderful thing that only Allah can do.",
+      "word": "wonder",
+      "definition": "A great and surprising thing.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈmɪrəkl/",
-      "chapter": 5,
+      "pronunciation": "/ˈwʌndər/",
+      "chapter": 8,
       "chapterTitle": "Eight Months in Mecca",
-      "storyExample": "Ibn Jubayr said, “This is one of Allah’s miracles.”",
+      "storyExample": "This is a great wonder from Allah.",
       "category": "Faith"
      },
      {
+      "word": "grow",
+      "definition": "Become bigger.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/ɡroʊ/",
+      "chapter": 8,
+      "chapterTitle": "Eight Months in Mecca",
+      "storyExample": "A mother’s body grows and makes a place for her baby.",
+      "category": "Actions"
+     },
+     {
+      "word": "make a place",
+      "definition": "Make space for someone.",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "pronunciation": "/meɪk ə pleɪs/",
+      "chapter": 8,
+      "chapterTitle": "Eight Months in Mecca",
+      "storyExample": "A mother’s body grows and makes a place for her baby.",
+      "category": "Actions"
+     },
+     {
       "word": "desert",
-      "definition": "A hot, dry place with sand.",
+      "definition": "A big, dry place with sand and very little water.",
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/ˈdezərt/",
-      "chapter": 6,
-      "chapterTitle": "Baghdad and Damascus",
-      "storyExample": "Then he traveled through the desert to Baghdad.",
+      "chapter": 9,
+      "chapterTitle": "Medina, Baghdad and Damascus",
+      "storyExample": "Then he went across the desert with a big caravan.",
       "category": "Nature"
      },
      {
-      "word": "capital",
-      "definition": "The most important city of a country.",
+      "word": "Great Mosque",
+      "definition": "The biggest and most important mosque of a city.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈkæpɪtl/",
-      "chapter": 6,
-      "chapterTitle": "Baghdad and Damascus",
-      "storyExample": "Baghdad was the capital of the Abbasids.",
+      "pronunciation": "/ɡreɪt mɑːsk/",
+      "chapter": 9,
+      "chapterTitle": "Medina, Baghdad and Damascus",
+      "storyExample": "In Damascus, he saw the Great Mosque.",
       "category": "Places"
      },
      {
-      "word": "mosaic",
-      "definition": "A picture made of small pieces of colored stone.",
+      "word": "tower",
+      "definition": "A tall, thin building or part of a building.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/moʊˈzeɪɪk/",
-      "chapter": 6,
-      "chapterTitle": "Baghdad and Damascus",
-      "storyExample": "He wrote about its tall minarets, its beautiful mosaics and its water clock.",
-      "category": "Art"
+      "pronunciation": "/ˈtaʊər/",
+      "chapter": 9,
+      "chapterTitle": "Medina, Baghdad and Damascus",
+      "storyExample": "He wrote about its doors, its towers and its beautiful walls.",
+      "category": "Places"
      },
      {
-      "word": "Crusaders",
-      "definition": "Soldiers from Europe who came to fight.",
-      "partOfSpeech": "noun",
+      "word": "for free",
+      "definition": "And you do not pay money.",
+      "partOfSpeech": "phrase",
       "level": "A1",
-      "pronunciation": "/kruːˈseɪdərz/",
-      "chapter": 7,
-      "chapterTitle": "A Ship Hits the Rocks",
-      "storyExample": "At that time, the Crusaders ruled Palestine.",
-      "category": "History"
+      "pronunciation": "/fər friː/",
+      "chapter": 9,
+      "chapterTitle": "Medina, Baghdad and Damascus",
+      "storyExample": "In Damascus, students and travelers stayed in schools for free.",
+      "category": "Describing"
      },
      {
-      "word": "rock",
-      "definition": "A very big stone.",
+      "word": "wind",
+      "definition": "Air that moves.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/rɑːk/",
-      "chapter": 7,
-      "chapterTitle": "A Ship Hits the Rocks",
-      "storyExample": "Near Sicily, the ship hit some rocks and broke.",
+      "pronunciation": "/wɪnd/",
+      "chapter": 10,
+      "chapterTitle": "Acre and the Way Home",
+      "storyExample": "He needed a good wind for the ship.",
       "category": "Nature"
+     },
+     {
+      "word": "get on",
+      "definition": "Go into a ship, a bus or a train.",
+      "partOfSpeech": "phrasal verb",
+      "level": "A1",
+      "pronunciation": "/ɡet ɑːn/",
+      "chapter": 10,
+      "chapterTitle": "Acre and the Way Home",
+      "storyExample": "Then he got on a ship with 50 Muslims and many Christians.",
+      "category": "Travel"
+     },
+     {
+      "word": "hit the ground",
+      "definition": "Touch the ground under the sea and stop.",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "pronunciation": "/hɪt ðə ɡraʊnd/",
+      "chapter": 10,
+      "chapterTitle": "Acre and the Way Home",
+      "storyExample": "Near Sicily, the ship hit the ground and stopped.",
+      "category": "Travel"
+     },
+     {
+      "word": "king",
+      "definition": "A man; he is the head of a country.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/kɪŋ/",
+      "chapter": 10,
+      "chapterTitle": "Acre and the Way Home",
+      "storyExample": "William II, the king of Sicily, helped the people from the ship.",
+      "category": "People"
+     },
+     {
+      "word": "thief",
+      "definition": "A person who takes things from other people.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/θiːf/",
+      "chapter": 11,
+      "chapterTitle": "Home Again",
+      "storyExample": "In the desert, there were thieves.",
+      "category": "People"
+     },
+     {
+      "word": "need",
+      "definition": "Must have.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/niːd/",
+      "chapter": 11,
+      "chapterTitle": "Home Again",
+      "storyExample": "The sun was very hot, and people needed water.",
+      "category": "Actions"
      },
      {
       "word": "thank",
@@ -2607,43 +3512,32 @@
       "partOfSpeech": "verb",
       "level": "A1",
       "pronunciation": "/θæŋk/",
-      "chapter": 7,
-      "chapterTitle": "A Ship Hits the Rocks",
+      "chapter": 11,
+      "chapterTitle": "Home Again",
       "storyExample": "He thanked Allah.",
       "category": "Actions"
      },
      {
-      "word": "thief",
-      "definition": "A person who takes things that are not his.",
-      "partOfSpeech": "noun",
-      "level": "A1",
-      "pronunciation": "/θiːf/",
-      "chapter": 8,
-      "chapterTitle": "Travel and Knowledge",
-      "storyExample": "In the desert, there were thieves.",
-      "category": "People"
-     },
-     {
       "word": "hadith",
-      "definition": "The words and actions of the Prophet (pbuh).",
+      "definition": "The words of Prophet Muhammad (pbuh).",
       "partOfSpeech": "noun",
       "level": "A1",
       "pronunciation": "/ˈhædɪθ/",
-      "chapter": 8,
-      "chapterTitle": "Travel and Knowledge",
-      "storyExample": "He taught hadiths.",
+      "chapter": 12,
+      "chapterTitle": "Lessons from a Journey",
+      "storyExample": "He also taught the hadiths.",
       "category": "Faith"
      },
      {
-      "word": "knowledge",
-      "definition": "The things you know and learn.",
+      "word": "goal",
+      "definition": "A thing you want to do.",
       "partOfSpeech": "noun",
       "level": "A1",
-      "pronunciation": "/ˈnɑːlɪdʒ/",
-      "chapter": 8,
-      "chapterTitle": "Travel and Knowledge",
-      "storyExample": "His journeys gave him a lot of knowledge.",
-      "category": "Learning"
+      "pronunciation": "/ɡoʊl/",
+      "chapter": 12,
+      "chapterTitle": "Lessons from a Journey",
+      "storyExample": "Ibn Jubayr’s first goal was the Hajj.",
+      "category": "Life"
      }
     ]
    },
@@ -2655,7 +3549,7 @@
     "entityBookKey": "ibnjubayr-a1"
    },
    {
-    "id": 12,
+    "id": 16,
     "type": "vocabulary-match",
     "title": "Vocabulary Challenge",
     "image": "https://picsum.photos/seed/vocab-match-ibnjubayr-a1/1200/800",
@@ -2666,48 +3560,48 @@
       "word": "traveler",
       "meaning": "A person who goes to many places.",
       "partOfSpeech": "noun",
-      "chapter": 1,
-      "context": "Ibn Jubayr was a famous traveler."
+      "chapter": 2,
+      "context": "They were great travelers."
      },
      {
       "word": "diary",
       "meaning": "A book; you write about your day in it.",
       "partOfSpeech": "noun",
-      "chapter": 2,
+      "chapter": 4,
       "context": "He took a diary with him."
      },
      {
       "word": "storm",
       "meaning": "Very bad weather with strong wind and rain.",
       "partOfSpeech": "noun",
-      "chapter": 3,
+      "chapter": 5,
       "context": "Then a very bad storm came."
      },
      {
-      "word": "hospital",
-      "meaning": "A place where doctors help sick people.",
-      "partOfSpeech": "noun",
-      "chapter": 4,
-      "context": "Ibn Jubayr visited a big hospital."
-     },
-     {
-      "word": "tent",
-      "meaning": "A small house made of cloth.",
-      "partOfSpeech": "noun",
-      "chapter": 5,
-      "context": "Some people had very big and beautiful tents!"
-     },
-     {
-      "word": "capital",
-      "meaning": "The most important city of a country.",
+      "word": "lighthouse",
+      "meaning": "A tall tower with a light for ships.",
       "partOfSpeech": "noun",
       "chapter": 6,
-      "context": "Baghdad was the capital of the Abbasids."
+      "context": "In Alexandria, he went to see the famous lighthouse of Alexandria."
+     },
+     {
+      "word": "caravan",
+      "meaning": "A group of people and animals on a journey.",
+      "partOfSpeech": "noun",
+      "chapter": 8,
+      "context": "From Egypt, Ibn Jubayr traveled with a caravan of camels."
+     },
+     {
+      "word": "thief",
+      "meaning": "A person who takes things from other people.",
+      "partOfSpeech": "noun",
+      "chapter": 11,
+      "context": "In the desert, there were thieves."
      }
     ]
    },
    {
-    "id": 14,
+    "id": 18,
     "type": "exercises",
     "title": "Language Review",
     "image": "https://picsum.photos/seed/exercises-ibnjubayr-a1/1200/800",
@@ -2725,8 +3619,8 @@
         "items": [
          "studied",
          "visited",
-         "arrived",
-         "stayed"
+         "waited",
+         "thanked"
         ]
        },
        {
@@ -2735,7 +3629,7 @@
          "wrote",
          "saw",
          "went",
-         "took"
+         "left"
         ]
        }
       ],
@@ -2743,17 +3637,17 @@
        "Ends in -ed": [
         "studied",
         "visited",
-        "arrived",
-        "stayed"
+        "waited",
+        "thanked"
        ],
        "Changes": [
         "wrote",
         "saw",
         "went",
-        "took"
+        "left"
        ]
       },
-      "explanation": "Many verbs add -ed: study → studied, visit → visited. Some verbs change: write → wrote, see → saw, go → went, take → took.",
+      "explanation": "Many verbs add -ed: study → studied, visit → visited. Some verbs change: write → wrote, see → saw, go → went, leave → left.",
       "feedback": {
        "correct": "Well done. You found the two kinds of past.",
        "incorrect": "Say the verb today: study, write … Does it add -ed or change?"
@@ -2762,7 +3656,7 @@
      {
       "id": "ibnjubayr-a1-language-review-2",
       "type": "choose-form",
-      "title": "Practise: In, On, At",
+      "title": "Practise: In, On",
       "instructions": "Choose the right word.",
       "question": "Which word goes with the time?",
       "formChoices": [
@@ -2770,24 +3664,24 @@
         "sentence": "He started his journey [choice] 1183.",
         "options": [
          "in",
-         "at"
+         "on"
         ],
         "answer": 0
        },
        {
-        "sentence": "Caravans traveled [choice] night.",
+        "sentence": "He left Granada [choice] February 3.",
         "options": [
-         "at",
+         "on",
          "in"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "In + year or month: in 1183, in March. At night.",
+      "explanation": "In + year or month: in 1183, in August. On + date: on February 3.",
       "feedback": {
        "correct": "Correct.",
-       "incorrect": "In 1183. At night."
+       "incorrect": "In 1183. On February 3."
       }
      },
      {
@@ -2824,33 +3718,33 @@
      {
       "id": "ibnjubayr-a1-language-review-4",
       "type": "word-bank",
-      "title": "Practise: The Biggest and More Than",
+      "title": "Practise: The Biggest and Taller Than",
       "instructions": "Fill the gaps with the words.",
-      "question": "How big? How long?",
-      "fillBlanksText": "Córdoba was the [blank] city in Western Europe. His journey was [blank] than two years long. He stayed in Mecca for more [blank] eight months.",
+      "question": "How big? How tall?",
+      "fillBlanksText": "Córdoba was the [blank] city in Western Europe. The lighthouse was [blank] than 50 men. He stayed in Mecca for more [blank] eight months.",
       "wordBank": [
        "biggest",
-       "more",
+       "taller",
        "than",
        "big",
        "then"
       ],
       "correctAnswer": [
        "biggest",
-       "more",
+       "taller",
        "than"
       ],
-      "explanation": "The biggest = number one. More than = over.",
+      "explanation": "The biggest = number one. Taller than, more than: we talk about two things.",
       "feedback": {
        "correct": "Correct.",
-       "incorrect": "Find these words in Chapters 1, 2 and 5."
+       "incorrect": "Find these words in Chapters 1, 6 and 8."
       }
      },
      {
       "id": "ibnjubayr-a1-language-review-5",
       "type": "error-correction",
       "title": "Practise: Fix One Word",
-      "instructions": "Find the wrong word. Write the right word.",
+      "instructions": "Find the wrong word. Choose the right word.",
       "question": "Which word is wrong?",
       "errorItems": [
        {
@@ -2914,7 +3808,7 @@
     ]
    },
    {
-    "id": 15,
+    "id": 19,
     "type": "final-challenge",
     "title": "Final Challenge",
     "image": "https://picsum.photos/seed/challenge-ibnjubayr-a1/1200/800",
@@ -2948,10 +3842,10 @@
        "ten years"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: “His journey was more than two years long.”",
+      "explanation": "Chapter 4: “His journey was more than two years long.”",
       "feedback": {
        "correct": "Yes. More than two years.",
-       "incorrect": "Read the last paragraph of Chapter 2."
+       "incorrect": "Read the last paragraph of Chapter 4."
       }
      },
      {
@@ -2959,12 +3853,12 @@
       "type": "true-false",
       "title": "The Storm",
       "instructions": "Is it true or false?",
-      "question": "The ship was fine after the storm.",
+      "question": "The ship and the people were all safe after the storm.",
       "correctAnswer": true,
-      "explanation": "Chapter 3: “But the ship was fine.”",
+      "explanation": "Chapter 5: “But the ship and the people were all safe.”",
       "feedback": {
        "correct": "Yes, it is true.",
-       "incorrect": "Read the first paragraph of Chapter 3."
+       "incorrect": "Read the third paragraph of Chapter 5."
       }
      },
      {
@@ -2974,15 +3868,15 @@
       "instructions": "Choose the answer.",
       "question": "Who could go to the hospital in Cairo?",
       "options": [
-       "everyone",
+       "all people",
        "only rich people",
        "only men"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 4: “It was free for everyone. It had different rooms for men and for women.”",
+      "explanation": "Chapter 7: “It was free for all people. It had different rooms for men and for women.”",
       "feedback": {
-       "correct": "Yes. Everyone.",
-       "incorrect": "Read the second paragraph of Chapter 4."
+       "correct": "Yes. All people.",
+       "incorrect": "Read the second paragraph of Chapter 7."
       }
      },
      {
@@ -3002,35 +3896,35 @@
        },
        {
         "left": "Damascus",
-        "right": "He visited its Great Mosque."
+        "right": "He saw the Great Mosque here."
        },
        {
         "left": "Acre",
-        "right": "He waited here two weeks for good winds."
+        "right": "He waited here for a good wind."
        }
       ],
       "correctAnswer": {
        "Mecca": "He made the Hajj here.",
-       "Damascus": "He visited its Great Mosque.",
-       "Acre": "He waited here two weeks for good winds."
+       "Damascus": "He saw the Great Mosque here.",
+       "Acre": "He waited here for a good wind."
       },
-      "explanation": "Chapter 5: Mecca. Chapter 6: Damascus. Chapter 7: Acre.",
+      "explanation": "Chapter 8: Mecca. Chapter 9: Damascus. Chapter 10: Acre.",
       "feedback": {
        "correct": "Good. You matched all three.",
-       "incorrect": "Read Chapters 5, 6 and 7 again."
+       "incorrect": "Read Chapters 8, 9 and 10 again."
       }
      },
      {
       "id": "ibnjubayr-a1-final-6",
       "type": "true-false",
-      "title": "Madrasas",
+      "title": "Schools in Damascus",
       "instructions": "Is it true or false?",
-      "question": "In Damascus, students and travelers paid a lot of money in madrasas.",
+      "question": "In Damascus, students and travelers paid a lot of money in schools.",
       "correctAnswer": false,
-      "explanation": "Chapter 6: “In Damascus, students and travelers from other countries stayed in madrasas for free.”",
+      "explanation": "Chapter 9: “In Damascus, students and travelers stayed in schools for free.”",
       "feedback": {
        "correct": "Yes, it is false. It was free.",
-       "incorrect": "Read the last paragraph of Chapter 6."
+       "incorrect": "Read the last paragraph of Chapter 9."
       }
      },
      {
@@ -3040,15 +3934,15 @@
       "instructions": "Choose the answer.",
       "question": "What are hadiths?",
       "options": [
-       "the words and actions of Prophet Muhammad (pbuh)",
+       "the words of Prophet Muhammad (pbuh)",
        "old travel books",
        "big ships"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 8: “Hadiths are the words and actions of Prophet Muhammad (pbuh).”",
+      "explanation": "Chapter 12: “Hadiths are the words of Prophet Muhammad (pbuh).”",
       "feedback": {
        "correct": "Yes.",
-       "incorrect": "Read the second paragraph of Chapter 8."
+       "incorrect": "Read the first paragraph of Chapter 12."
       }
      },
      {
@@ -3068,11 +3962,11 @@
        },
        {
         "id": "3",
-        "text": "Ibn Jubayr visited the Great Mosque of Damascus."
+        "text": "Ibn Jubayr saw the Great Mosque of Damascus."
        },
        {
         "id": "4",
-        "text": "The ship hit some rocks near Sicily."
+        "text": "The ship hit the ground near Sicily."
        }
       ],
       "correctAnswer": [
@@ -3081,7 +3975,7 @@
        "3",
        "4"
       ],
-      "explanation": "The storm (Chapter 3) → Mecca (Chapter 5) → Damascus (Chapter 6) → Sicily (Chapter 7).",
+      "explanation": "The storm (Chapter 5) → Mecca (Chapter 8) → Damascus (Chapter 9) → Sicily (Chapter 10).",
       "feedback": {
        "correct": "Great! You know the journey of Ibn Jubayr.",
        "incorrect": "Think about the order of the chapters."

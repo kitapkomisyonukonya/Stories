@@ -1,0 +1,2034 @@
+{
+ "schema": 1,
+ "storyId": "yesevi",
+ "level": "A1",
+ "language": "en",
+ "collection": "turkish",
+ "book": {
+  "id": "yesevi-a1",
+  "title": "Ahmed Yesevî: A Wise Teacher and His Student (A1)",
+  "level": "A1",
+  "baseFontSize": 12,
+  "pages": [
+   {
+    "id": 1,
+    "type": "story",
+    "title": "A Great Teacher",
+    "content": "Ahmed Yesevî was a great Turkish poet and teacher. He was the first great Sufi poet in the Turkish language. Sufis want to be very close to Allah. They live a simple life and remember Allah all the time.\n\nAhmed Yesevî’s poems have a special name: “hikmet”. This word means “wisdom”. He also had a school. There, he taught Islam to the Turkish people in Turkestan. The Turkish people were learning the rules of Islam in their own language. They spoke Turkish. People call him “Pîr-i Turkistan”. It means “the guide of Turkestan”.",
+    "vocabulary": [
+     {
+      "word": "poet",
+      "definition": "A person who writes poems."
+     },
+     {
+      "word": "Sufi",
+      "definition": "A Muslim who wants to be very close to Allah."
+     },
+     {
+      "word": "poem",
+      "definition": "A short text with lines, like a song."
+     },
+     {
+      "word": "wisdom",
+      "definition": "Knowing the right and good way."
+     },
+     {
+      "word": "guide",
+      "definition": "A person who shows you the way."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h1-1",
+      "x": 35,
+      "y": 46,
+      "title": "A Sufi Poet",
+      "description": "He was the first great Sufi poet in the Turkish language."
+     },
+     {
+      "id": "h1-2",
+      "x": 68,
+      "y": 50,
+      "title": "Hikmet",
+      "description": "Ahmed Yesevî’s poems have a special name: “hikmet”. This word means “wisdom”."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yesevi-a1-quick-1",
+      "type": "drag-drop",
+      "title": "A Great Teacher",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 1?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Ahmed Yesevî had a school.",
+         "He taught Islam to the Turkish people in Turkestan."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "His poems were in Arabic."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Ahmed Yesevî had a school.",
+        "He taught Islam to the Turkish people in Turkestan."
+       ],
+       "False": [
+        "His poems were in Arabic."
+       ]
+      },
+      "explanation": "Chapter 1 says: “He was the first great Sufi poet in the Turkish language.” “He also had a school. There, he taught Islam to the Turkish people in Turkestan.”",
+      "feedback": {
+       "correct": "Yes! He wrote in Turkish.",
+       "incorrect": "Read the first paragraph of Chapter 1 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yesevi-a1-language-1-means",
+      "type": "matching",
+      "title": "Look: It Means …",
+      "instructions": "Match the word with its meaning.",
+      "question": "What does it mean?",
+      "matchingHeadings": {
+       "left": "Word",
+       "right": "It means …"
+      },
+      "matchingPairs": [
+       {
+        "left": "hikmet",
+        "right": "“wisdom”"
+       },
+       {
+        "left": "Pîr-i Turkistan",
+        "right": "“the guide of Turkestan”"
+       }
+      ],
+      "correctAnswer": {
+       "hikmet": "“wisdom”",
+       "Pîr-i Turkistan": "“the guide of Turkestan”"
+      },
+      "explanation": "“This word means ‘wisdom’.” “It means ‘the guide of Turkestan’.”",
+      "feedback": {
+       "correct": "Good. You found the meanings.",
+       "incorrect": "Read the second paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-1-practise",
+      "type": "choose-form",
+      "title": "Practise: Sufis Want, Sufis Live",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "Sufis [choice] to be very close to Allah.",
+        "options": [
+         "want",
+         "wants"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "They [choice] a simple life.",
+        "options": [
+         "live",
+         "lives"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "They [choice] Allah all the time.",
+        "options": [
+         "remember",
+         "remembers"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "They / Sufis + verb (no -s): Sufis want, they live, they remember.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-1-say-it",
+      "type": "reflection",
+      "title": "Say It: Words and Meanings",
+      "instructions": "Tell your partner a word and its meaning.",
+      "question": "What does it mean?",
+      "correctAnswer": null,
+      "explanation": "Use means.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“In Turkish, … means …”",
+        "mode": "Pair",
+        "example": "In Turkish, “kitap” means “book”."
+       },
+       {
+        "question": "“My name means …”",
+        "mode": "Pair",
+        "example": "My name means “light”."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What was Ahmed Yesevî?",
+     "options": [
+      "a poet and teacher",
+      "a king",
+      "a shoemaker"
+     ],
+     "answer": 0,
+     "quote": "Ahmed Yesevî was a great Turkish poet and teacher."
+    },
+    "iCan": [
+     "I can tell about Ahmed Yesevî.",
+     "I can use means.",
+     "I can say a word and its meaning."
+    ]
+   },
+   {
+    "id": 2,
+    "type": "story",
+    "title": "Young Ahmed",
+    "content": "Ahmed was born in East Turkestan more than 900 years ago. When he was young, he went to the city of Yesi. Today, Yesi is in Kazakhstan. There, he studied with a wise teacher, Arslan Baba.\n\nLater, he went to Bukhara, a big city of Islam and science. Today, Bukhara is in Uzbekistan. Ahmed learned from great teachers there. Then he returned to Yesi. He taught people there until he died in 1166.",
+    "vocabulary": [
+     {
+      "word": "wise",
+      "definition": "Knowing a lot about life and people."
+     },
+     {
+      "word": "science",
+      "definition": "Learning about the world."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h2-1",
+      "x": 35,
+      "y": 46,
+      "title": "Yesi",
+      "description": "When he was young, Ahmed went to the city of Yesi. Today, Yesi is in Kazakhstan."
+     },
+     {
+      "id": "h2-2",
+      "x": 68,
+      "y": 50,
+      "title": "Bukhara",
+      "description": "Later, he went to Bukhara, a big city of Islam and science. Today, Bukhara is in Uzbekistan."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yesevi-a1-quick-2",
+      "type": "sequencing",
+      "title": "Young Ahmed",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Ahmed was born in East Turkestan."
+       },
+       {
+        "id": "2",
+        "text": "Ahmed studied with Arslan Baba in Yesi."
+       },
+       {
+        "id": "3",
+        "text": "Ahmed learned from great teachers in Bukhara."
+       },
+       {
+        "id": "4",
+        "text": "Ahmed returned to Yesi and taught people there."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 2: East Turkestan → Yesi → Bukhara → back to Yesi.",
+      "feedback": {
+       "correct": "Great! You put his life in order.",
+       "incorrect": "Read Chapter 2 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yesevi-a1-language-2-today",
+      "type": "matching",
+      "title": "Look: Today, It Is in …",
+      "instructions": "Match the city with the country.",
+      "question": "Where is it today?",
+      "matchingHeadings": {
+       "left": "City",
+       "right": "Today"
+      },
+      "matchingPairs": [
+       {
+        "left": "Yesi",
+        "right": "in Kazakhstan"
+       },
+       {
+        "left": "Bukhara",
+        "right": "in Uzbekistan"
+       }
+      ],
+      "correctAnswer": {
+       "Yesi": "in Kazakhstan",
+       "Bukhara": "in Uzbekistan"
+      },
+      "explanation": "“Today, Yesi is in Kazakhstan.” “Today, Bukhara is in Uzbekistan.”",
+      "feedback": {
+       "correct": "Good. You know the countries.",
+       "incorrect": "Read Chapter 2 again."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-2-practise",
+      "type": "choose-form",
+      "title": "Practise: Went, Studied, Returned",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "When he was young, he [choice] to the city of Yesi.",
+        "options": [
+         "went",
+         "goes"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "There, he [choice] with a wise teacher.",
+        "options": [
+         "studied",
+         "studies"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Then he [choice] to Yesi.",
+        "options": [
+         "returned",
+         "returns"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Go → went: it changes. Study → studied, return → returned: they add -ed.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 2 again."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-2-write-it",
+      "type": "reflection",
+      "title": "Write It: My Life",
+      "instructions": "Write about your life.",
+      "question": "Where were you born?",
+      "correctAnswer": null,
+      "explanation": "Use was born in and study at.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I was born in …”",
+        "mode": "Individual",
+        "example": "I was born in Kayseri."
+       },
+       {
+        "question": "“I study at …”",
+        "mode": "Individual",
+        "example": "I study at Yunus Emre Primary School."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Where did young Ahmed study?",
+     "options": [
+      "in Yesi and Bukhara",
+      "in Baghdad and Cairo",
+      "in Konya"
+     ],
+     "answer": 0,
+     "quote": "There, he studied with a wise teacher, Arslan Baba."
+    },
+    "iCan": [
+     "I can tell about young Ahmed.",
+     "I can use went, studied and returned.",
+     "I can write where I was born."
+    ]
+   },
+   {
+    "id": 3,
+    "type": "story",
+    "title": "Easy Words",
+    "content": "Ahmed Yesevî talked to people in simple Turkish. Everybody understood him, and people loved him. They came to him from many different places.\n\nHis poems tell us about wisdom. But what is wisdom? Every day, we do many things. Rules tell us “What do I do?” and “How do I do it?” Wisdom answers a different question: “Why do I do it?” When we know the answer, our work has a real meaning.",
+    "vocabulary": [
+     {
+      "word": "rule",
+      "definition": "Words that tell us the right thing to do."
+     },
+     {
+      "word": "meaning",
+      "definition": "The reason for something; why it is important."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h3-1",
+      "x": 35,
+      "y": 46,
+      "title": "Easy Words",
+      "description": "Everybody understood him, and people loved him."
+     },
+     {
+      "id": "h3-2",
+      "x": 68,
+      "y": 50,
+      "title": "What Is Wisdom?",
+      "description": "Wisdom answers a different question: “Why do I do it?”"
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yesevi-a1-quick-3",
+      "type": "matching",
+      "title": "Easy Words",
+      "instructions": "Match the two parts.",
+      "question": "Which question?",
+      "matchingHeadings": {
+       "left": "What?",
+       "right": "Question"
+      },
+      "matchingPairs": [
+       {
+        "left": "Rules tell us",
+        "right": "“What do I do?” and “How do I do it?”"
+       },
+       {
+        "left": "Wisdom answers",
+        "right": "“Why do I do it?”"
+       }
+      ],
+      "correctAnswer": {
+       "Rules tell us": "“What do I do?” and “How do I do it?”",
+       "Wisdom answers": "“Why do I do it?”"
+      },
+      "explanation": "Chapter 3: “Rules tell us ‘What do I do?’ and ‘How do I do it?’ Wisdom answers a different question: ‘Why do I do it?’”",
+      "feedback": {
+       "correct": "Yes! Wisdom answers “Why?”.",
+       "incorrect": "Read the second paragraph of Chapter 3 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yesevi-a1-language-3-questions",
+      "type": "drag-drop",
+      "title": "Look: What, How, Why",
+      "instructions": "Put each question in the right group.",
+      "question": "Who answers the question?",
+      "dragDropGroups": [
+       {
+        "group": "Rules answer",
+        "items": [
+         "What do I do?",
+         "How do I do it?"
+        ]
+       },
+       {
+        "group": "Wisdom answers",
+        "items": [
+         "Why do I do it?"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Rules answer": [
+        "What do I do?",
+        "How do I do it?"
+       ],
+       "Wisdom answers": [
+        "Why do I do it?"
+       ]
+      },
+      "explanation": "What = which thing. How = in which way. Why = for which reason.",
+      "feedback": {
+       "correct": "Good.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-3-practise",
+      "type": "choose-form",
+      "title": "Practise: Question Words",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "[choice] do you read? I read books.",
+        "options": [
+         "What",
+         "Why"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] do you go to school? On foot.",
+        "options": [
+         "How",
+         "What"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] do you study? Because I want to learn.",
+        "options": [
+         "Why",
+         "How"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "What → a thing. How → a way. Why → a reason (because …).",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Look at the answers first."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-3-say-it",
+      "type": "reflection",
+      "title": "Say It: Why?",
+      "instructions": "Ask your partner two “Why” questions.",
+      "question": "Why do you do it?",
+      "correctAnswer": null,
+      "explanation": "Answer with because.",
+      "feedback": {
+       "correct": "Ask two questions.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Why do you read books?”",
+        "mode": "Pair",
+        "example": "Because I love stories."
+       },
+       {
+        "question": "“Why do you help your mother?”",
+        "mode": "Pair",
+        "example": "Because I love her."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: How did Ahmed Yesevî talk to people?",
+     "options": [
+      "in simple Turkish",
+      "in very hard words",
+      "only in Arabic"
+     ],
+     "answer": 0,
+     "quote": "Ahmed Yesevî talked to people in simple Turkish."
+    },
+    "iCan": [
+     "I can tell what wisdom is.",
+     "I can use what, how and why.",
+     "I can ask and answer “Why …?”."
+    ]
+   },
+   {
+    "id": 4,
+    "type": "story",
+    "title": "A Boy with the Qur’an",
+    "content": "One day, Ahmed Yesevî was in front of his school. Some children walked past on their way to the mosque for Qur’an lessons. Most of them carried their Qur’ans in bags. But one boy carried his Qur’an on his head. He showed respect to the Qur’an, and Ahmed Yesevî smiled.\n\nAfter the lesson, the boy walked past the school again. This time, he walked backwards. He did not want to turn his back to his teacher. Ahmed Yesevî was very pleased with the little boy’s respect. Ahmed Yesevî said to him, “My son, ask your mother and father. Then come to my lessons.” The boy’s family said yes. The boy’s name was Süleyman.",
+    "vocabulary": [
+     {
+      "word": "mosque",
+      "definition": "A building where Muslims pray."
+     },
+     {
+      "word": "respect",
+      "definition": "A feeling that someone or something is very important."
+     },
+     {
+      "word": "smile",
+      "definition": "Make a happy face, with the mouth up."
+     },
+     {
+      "word": "backwards",
+      "definition": "With your back in front."
+     },
+     {
+      "word": "pleased",
+      "definition": "Happy about something."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h4-1",
+      "x": 35,
+      "y": 46,
+      "title": "On His Head",
+      "description": "Most children carried their Qur’ans in bags. But one boy carried his Qur’an on his head."
+     },
+     {
+      "id": "h4-2",
+      "x": 68,
+      "y": 50,
+      "title": "Backwards",
+      "description": "After the lesson, the boy walked backwards. He did not want to turn his back to his teacher."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yesevi-a1-quick-4",
+      "type": "drag-drop",
+      "title": "A Boy with the Qur’an",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 4?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The boy walked backwards after the lesson.",
+         "The boy’s name was Süleyman."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The boy’s family said no."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The boy walked backwards after the lesson.",
+        "The boy’s name was Süleyman."
+       ],
+       "False": [
+        "The boy’s family said no."
+       ]
+      },
+      "explanation": "Chapter 4 says: “This time, he walked backwards.” “The boy’s family said yes. The boy’s name was Süleyman.”",
+      "feedback": {
+       "correct": "Yes! The family said yes.",
+       "incorrect": "Read the second paragraph of Chapter 4 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yesevi-a1-language-4-most",
+      "type": "multiple-choice",
+      "title": "Look: Most of Them … But One …",
+      "instructions": "Choose the right answer.",
+      "question": "“Most of them carried their Qur’ans in bags. But one boy carried his Qur’an on his head.” Who was different?",
+      "options": [
+       "one boy",
+       "most of the children",
+       "Ahmed Yesevî"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Most of them = a lot of them, not all. But one boy = this boy was different.",
+      "feedback": {
+       "correct": "Yes. One boy was different.",
+       "incorrect": "Read the first paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-4-practise",
+      "type": "word-bank",
+      "title": "Practise: His Words",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What did Ahmed Yesevî say?",
+      "fillBlanksText": "“My son, [blank] your mother and father. [blank] come to my [blank].”",
+      "wordBank": [
+       "ask",
+       "Then",
+       "lessons",
+       "asks",
+       "Than"
+      ],
+      "correctAnswer": [
+       "ask",
+       "Then",
+       "lessons"
+      ],
+      "explanation": "Ask, come: verbs at the start = an instruction. Then = after that.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-4-say-it",
+      "type": "reflection",
+      "title": "Say It: Respect",
+      "instructions": "Talk about respect with your partner.",
+      "question": "How do you show respect?",
+      "correctAnswer": null,
+      "explanation": "Use I show respect to ….",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I show respect to my teacher. I …”",
+        "mode": "Pair",
+        "example": "I show respect to my teacher. I listen to her."
+       },
+       {
+        "question": "“I show respect to books. I …”",
+        "mode": "Pair",
+        "example": "I show respect to books. I keep them clean."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: How did one boy carry his Qur’an?",
+     "options": [
+      "on his head",
+      "in a bag",
+      "under his arm"
+     ],
+     "answer": 0,
+     "quote": "But one boy carried his Qur’an on his head."
+    },
+    "iCan": [
+     "I can tell about the boy with the Qur’an.",
+     "I can understand most of them … but one ….",
+     "I can say how I show respect."
+    ]
+   },
+   {
+    "id": 5,
+    "type": "story",
+    "title": "Wood in the Rain",
+    "content": "Süleyman started to learn from Ahmed Yesevî. One day, Ahmed Yesevî sent Süleyman and his friends out for wood. The school kitchen needed it. The students collected the wood. But on the way back, it started to rain.\n\nSüleyman thought, “We cannot cook with wet wood.” So he took off his coat and put it around his wood. Back at the school, the other children’s wood was wet. It did not burn. But Süleyman’s wood was dry, and it burned well. Ahmed Yesevî said, “My son, you have a wise heart. Your name is Hakîm Süleyman now.” Hakîm means “wise”.",
+    "vocabulary": [
+     {
+      "word": "wood",
+      "definition": "The hard part of a tree."
+     },
+     {
+      "word": "wet",
+      "definition": "With water on it; not dry."
+     },
+     {
+      "word": "take off",
+      "definition": "Take a thing off your body, like a coat."
+     },
+     {
+      "word": "burn",
+      "definition": "Be on fire."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h5-1",
+      "x": 35,
+      "y": 46,
+      "title": "Wood in the Rain",
+      "description": "On the way back, it started to rain. Süleyman put his coat around his wood."
+     },
+     {
+      "id": "h5-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Wise Heart",
+      "description": "Ahmed Yesevî said, “My son, you have a wise heart. Your name is Hakîm Süleyman now.”"
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yesevi-a1-quick-5",
+      "type": "sequencing",
+      "title": "Wood in the Rain",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "The students collected the wood."
+       },
+       {
+        "id": "2",
+        "text": "It started to rain."
+       },
+       {
+        "id": "3",
+        "text": "Süleyman took off his coat and put it around his wood."
+       },
+       {
+        "id": "4",
+        "text": "Süleyman’s wood burned well."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 5: wood → rain → the coat → the dry wood burned.",
+      "feedback": {
+       "correct": "Great! You put the story in order.",
+       "incorrect": "Read Chapter 5 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yesevi-a1-language-5-wet",
+      "type": "drag-drop",
+      "title": "Look: Wet and Dry",
+      "instructions": "Put each word in the right group.",
+      "question": "Wet or dry?",
+      "dragDropGroups": [
+       {
+        "group": "Wet wood",
+        "items": [
+         "did not burn",
+         "the other children’s wood"
+        ]
+       },
+       {
+        "group": "Dry wood",
+        "items": [
+         "burned well",
+         "Süleyman’s wood"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Wet wood": [
+        "did not burn",
+        "the other children’s wood"
+       ],
+       "Dry wood": [
+        "burned well",
+        "Süleyman’s wood"
+       ]
+      },
+      "explanation": "Wet ≠ dry. The wet wood did not burn. The dry wood burned well.",
+      "feedback": {
+       "correct": "Good.",
+       "incorrect": "Read the second paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-5-practise",
+      "type": "choose-form",
+      "title": "Practise: So",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "“We cannot cook with wet wood.” [choice] he took off his coat.",
+        "options": [
+         "So",
+         "But"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The other children’s wood was wet. [choice] Süleyman’s wood was dry.",
+        "options": [
+         "But",
+         "So"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "So tells what happened next. But shows a different idea.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-5-write-it",
+      "type": "reflection",
+      "title": "Write It: A Wise Idea",
+      "instructions": "Write about a wise idea.",
+      "question": "What can you do?",
+      "correctAnswer": null,
+      "explanation": "Use so.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“It is raining, so I …”",
+        "mode": "Individual",
+        "example": "It is raining, so I take my umbrella."
+       },
+       {
+        "question": "“It is cold, so I …”",
+        "mode": "Individual",
+        "example": "It is cold, so I wear my coat."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What happened to the wood in the rain?",
+     "options": [
+      "It was wet.",
+      "It was gone.",
+      "It was very hot."
+     ],
+     "answer": 0,
+     "quote": "Back at the school, the other children’s wood was wet."
+    },
+    "iCan": [
+     "I can tell why Süleyman was wise.",
+     "I can use so and but.",
+     "I can write about a wise idea."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Act the Story",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group chooses roles: Ahmed Yesevî, Süleyman and two students.",
+      "The students collect “wood” (pencils). It starts to rain.",
+      "Süleyman says: “We cannot cook with wet wood.” He puts his coat around his wood.",
+      "Ahmed Yesevî says his words. The group acts the story for the class."
+     ],
+     "share": "The group acts the story. Story: “My son, you have a wise heart.”",
+     "solo": "Write Süleyman’s words and Ahmed Yesevî’s words."
+    }
+   },
+   {
+    "id": 6,
+    "type": "story",
+    "title": "Hakîm Ata",
+    "content": "Süleyman learned a lot of lessons from his teacher. They were very useful and important. He grew up at his school. Later, people called him Hakîm Ata.\n\nAfter many years, Hakîm Ata went to Khwarazm. Today, this place is in Uzbekistan and Turkmenistan. He taught Islam and good manners to the people there. He was an early teacher for the Turkish people. Like his teacher Ahmed Yesevî, he also wrote poems in Turkish.",
+    "vocabulary": [
+     {
+      "word": "manners",
+      "definition": "The polite way to do things."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h6-1",
+      "x": 35,
+      "y": 46,
+      "title": "Hakîm Ata",
+      "description": "Süleyman grew up at his school. Later, people called him Hakîm Ata."
+     },
+     {
+      "id": "h6-2",
+      "x": 68,
+      "y": 50,
+      "title": "Khwarazm",
+      "description": "Hakîm Ata went to Khwarazm. He taught Islam and good manners to the people there."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yesevi-a1-quick-6",
+      "type": "multiple-choice",
+      "title": "Hakîm Ata",
+      "instructions": "Choose the best answer.",
+      "question": "Where is Khwarazm today?",
+      "options": [
+       "in Uzbekistan and Turkmenistan",
+       "in Kazakhstan",
+       "in Türkiye"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 6: “After many years, Hakîm Ata went to Khwarazm. Today, this place is in Uzbekistan and Turkmenistan.”",
+      "feedback": {
+       "correct": "Yes! In Uzbekistan and Turkmenistan.",
+       "incorrect": "Read the second paragraph of Chapter 6 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yesevi-a1-language-6-like",
+      "type": "multiple-choice",
+      "title": "Look: Like His Teacher",
+      "instructions": "Choose the right answer.",
+      "question": "“Like his teacher Ahmed Yesevî, he also wrote poems in Turkish.” What does this mean?",
+      "options": [
+       "Ahmed Yesevî and Hakîm Ata both wrote poems in Turkish.",
+       "Hakîm Ata did not write poems.",
+       "Only Ahmed Yesevî wrote poems."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Like + person = in the same way as this person.",
+      "feedback": {
+       "correct": "Yes. They both wrote poems in Turkish.",
+       "incorrect": "Read the last sentence of Chapter 6."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-6-practise",
+      "type": "word-bank",
+      "title": "Practise: Grew Up, Taught, Wrote",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What did Hakîm Ata do?",
+      "fillBlanksText": "He [blank] up at his school. He [blank] Islam and good manners to the people there. He also [blank] poems in Turkish.",
+      "wordBank": [
+       "grew",
+       "taught",
+       "wrote",
+       "grows",
+       "teached"
+      ],
+      "correctAnswer": [
+       "grew",
+       "taught",
+       "wrote"
+      ],
+      "explanation": "Grow → grew, teach → taught, write → wrote: they change in the past.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 6 again."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-6-write-it",
+      "type": "reflection",
+      "title": "Write It: My Teacher",
+      "instructions": "Write about a teacher.",
+      "question": "What does your teacher do?",
+      "correctAnswer": null,
+      "explanation": "Use teaches and like + person.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“My teacher teaches …”",
+        "mode": "Individual",
+        "example": "My teacher teaches English."
+       },
+       {
+        "question": "“Like my teacher, I …”",
+        "mode": "Individual",
+        "example": "Like my teacher, I love books."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What did people later call Süleyman?",
+     "options": [
+      "Hakîm Ata",
+      "Arslan Baba",
+      "Pîr-i Turkistan"
+     ],
+     "answer": 0,
+     "quote": "Later, people called him Hakîm Ata."
+    },
+    "iCan": [
+     "I can tell about Hakîm Ata.",
+     "I can understand like + person.",
+     "I can write about a teacher."
+    ]
+   },
+   {
+    "id": 7,
+    "type": "story",
+    "title": "Wise Words",
+    "content": "Hakîm Ata has some famous words. One of them is about guests and nights: “See every guest as Khizr, and see every night as Laylat al-Qadr.” In Turkish, it is “Her geleni Hızır, her geceyi Kadir bil.” Khizr is a good and wise servant of Allah. Laylat al-Qadr is a very special night in Ramadan.\n\nTurkish people still use these words today.",
+    "vocabulary": [
+     {
+      "word": "guest",
+      "definition": "A person who visits your home."
+     },
+     {
+      "word": "servant",
+      "definition": "A person who works for someone."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h7-1",
+      "x": 35,
+      "y": 46,
+      "title": "Every Guest",
+      "description": "“See every guest as Khizr, and see every night as Laylat al-Qadr.”"
+     },
+     {
+      "id": "h7-2",
+      "x": 68,
+      "y": 50,
+      "title": "Laylat al-Qadr",
+      "description": "Laylat al-Qadr is a very special night in Ramadan."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "yesevi-a1-quick-7",
+      "type": "matching",
+      "title": "Wise Words",
+      "instructions": "Match the name with the meaning.",
+      "question": "Who or what is it?",
+      "matchingHeadings": {
+       "left": "Name",
+       "right": "Meaning"
+      },
+      "matchingPairs": [
+       {
+        "left": "Khizr",
+        "right": "a good and wise servant of Allah"
+       },
+       {
+        "left": "Laylat al-Qadr",
+        "right": "a very special night in Ramadan"
+       }
+      ],
+      "correctAnswer": {
+       "Khizr": "a good and wise servant of Allah",
+       "Laylat al-Qadr": "a very special night in Ramadan"
+      },
+      "explanation": "Chapter 7: “Khizr is a good and wise servant of Allah. Laylat al-Qadr is a very special night in Ramadan.”",
+      "feedback": {
+       "correct": "Yes! You matched the two names.",
+       "incorrect": "Read Chapter 7 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "yesevi-a1-language-7-every",
+      "type": "multiple-choice",
+      "title": "Look: Every",
+      "instructions": "Choose the right answer.",
+      "question": "“See every guest as Khizr.” What does “every guest” mean?",
+      "options": [
+       "all guests, one by one",
+       "one guest only",
+       "no guests"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Every + one thing = all of them, one by one: every guest, every night.",
+      "feedback": {
+       "correct": "Yes. All guests.",
+       "incorrect": "Read the first paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-7-practise",
+      "type": "choose-form",
+      "title": "Practise: Every",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes after every?",
+      "formChoices": [
+       {
+        "sentence": "See every [choice] as Khizr.",
+        "options": [
+         "guest",
+         "guests"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "See every [choice] as Laylat al-Qadr.",
+        "options": [
+         "night",
+         "nights"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Every + one thing (no -s): every guest, every night.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Every guest, every night."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-7-say-it",
+      "type": "reflection",
+      "title": "Say It: Guests",
+      "instructions": "Talk about guests with your partner.",
+      "question": "What do you do for guests?",
+      "correctAnswer": null,
+      "explanation": "Use every guest and when a guest comes.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“When a guest comes, I …”",
+        "mode": "Pair",
+        "example": "When a guest comes, I make tea."
+       },
+       {
+        "question": "“Every guest is …”",
+        "mode": "Pair",
+        "example": "Every guest is important."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Hakîm Ata’s famous words are about …",
+     "options": [
+      "guests and nights",
+      "shoes and shops",
+      "ships and storms"
+     ],
+     "answer": 0,
+     "quote": "One of them is about guests and nights: “See every guest as Khizr, and see every night as Laylat al-Qadr.”"
+    },
+    "iCan": [
+     "I can tell Hakîm Ata’s wise words.",
+     "I can use every + one thing.",
+     "I can talk about guests."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "A Wise Words Poster",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group writes Hakîm Ata’s words in English and in Turkish.",
+      "The group draws a guest at the door and a night sky.",
+      "Each student writes one sentence: “When a guest comes, we …”.",
+      "The group shows the poster to the class."
+     ],
+     "share": "The group reads the poster. Story: “Turkish people still use these words today.”",
+     "solo": "Write the words in English and in Turkish. Write one sentence about guests."
+    }
+   },
+   {
+    "id": 10,
+    "type": "quiz",
+    "title": "Knowledge Check",
+    "image": "https://picsum.photos/seed/quiz-yesevi-a1/1200/800",
+    "audioUrl": "",
+    "content": "Check your understanding of the complete story.",
+    "exercises": [
+     {
+      "id": "yesevi-a1-kc-1",
+      "type": "multiple-choice",
+      "title": "Hikmet",
+      "instructions": "Choose the answer.",
+      "question": "What does “hikmet” mean?",
+      "options": [
+       "wisdom",
+       "school",
+       "teacher"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 1: “This word means ‘wisdom’.”",
+      "feedback": {
+       "correct": "Yes. Wisdom.",
+       "incorrect": "Read the second paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "yesevi-a1-kc-2",
+      "type": "true-false",
+      "title": "Arslan Baba",
+      "instructions": "Is it true or false?",
+      "question": "Ahmed studied with Arslan Baba in Yesi.",
+      "correctAnswer": true,
+      "explanation": "Chapter 2: “There, he studied with a wise teacher, Arslan Baba.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the first paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "yesevi-a1-kc-3",
+      "type": "multiple-choice",
+      "title": "Wisdom",
+      "instructions": "Choose the answer.",
+      "question": "What question does wisdom answer?",
+      "options": [
+       "“Why do I do it?”",
+       "“What do I do?”",
+       "“How do I do it?”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: “Wisdom answers a different question: ‘Why do I do it?’”",
+      "feedback": {
+       "correct": "Yes. Why.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "yesevi-a1-kc-4",
+      "type": "true-false",
+      "title": "The Boy",
+      "instructions": "Is it true or false?",
+      "question": "The boy carried his Qur’an in a bag.",
+      "correctAnswer": false,
+      "explanation": "Chapter 4: “But one boy carried his Qur’an on his head.”",
+      "feedback": {
+       "correct": "Yes, it is false. He carried it on his head.",
+       "incorrect": "Read the first paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "yesevi-a1-kc-5",
+      "type": "multiple-choice",
+      "title": "A New Name",
+      "instructions": "Choose the answer.",
+      "question": "What does “Hakîm” mean?",
+      "options": [
+       "wise",
+       "young",
+       "happy"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: “Hakîm means ‘wise’.”",
+      "feedback": {
+       "correct": "Yes. Wise.",
+       "incorrect": "Read the last sentence of Chapter 5."
+      }
+     },
+     {
+      "id": "yesevi-a1-kc-6",
+      "type": "multiple-choice",
+      "title": "Khwarazm",
+      "instructions": "Choose the answer.",
+      "question": "What did Hakîm Ata teach in Khwarazm?",
+      "options": [
+       "Islam and good manners",
+       "music and games",
+       "medicine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 6: “He taught Islam and good manners to the people there.”",
+      "feedback": {
+       "correct": "Yes. Islam and good manners.",
+       "incorrect": "Read the second paragraph of Chapter 6."
+      }
+     }
+    ]
+   },
+   {
+    "id": 12,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "Review all key vocabulary from the story in one place.",
+    "image": "https://picsum.photos/seed/glossary-yesevi-a1/1200/800",
+    "vocabulary": [
+     {
+      "word": "poet",
+      "definition": "A person who writes poems.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈpoʊət/",
+      "chapter": 1,
+      "chapterTitle": "A Great Teacher",
+      "storyExample": "Ahmed Yesevî was a great Turkish poet and teacher.",
+      "category": "People"
+     },
+     {
+      "word": "Sufi",
+      "definition": "A Muslim who wants to be very close to Allah.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈsuːfi/",
+      "chapter": 1,
+      "chapterTitle": "A Great Teacher",
+      "storyExample": "He was the first great Sufi poet in the Turkish language.",
+      "category": "Faith"
+     },
+     {
+      "word": "poem",
+      "definition": "A short text with lines, like a song.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈpoʊəm/",
+      "chapter": 1,
+      "chapterTitle": "A Great Teacher",
+      "storyExample": "Ahmed Yesevî’s poems have a special name: “hikmet”.",
+      "category": "Learning"
+     },
+     {
+      "word": "wisdom",
+      "definition": "Knowing the right and good way.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈwɪzdəm/",
+      "chapter": 1,
+      "chapterTitle": "A Great Teacher",
+      "storyExample": "This word means “wisdom”.",
+      "category": "Values"
+     },
+     {
+      "word": "guide",
+      "definition": "A person who shows you the way.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɡaɪd/",
+      "chapter": 1,
+      "chapterTitle": "A Great Teacher",
+      "storyExample": "It means “the guide of Turkestan”.",
+      "category": "People"
+     },
+     {
+      "word": "wise",
+      "definition": "Knowing a lot about life and people.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/waɪz/",
+      "chapter": 2,
+      "chapterTitle": "Young Ahmed",
+      "storyExample": "There, he studied with a wise teacher, Arslan Baba.",
+      "category": "Values"
+     },
+     {
+      "word": "science",
+      "definition": "Learning about the world.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈsaɪəns/",
+      "chapter": 2,
+      "chapterTitle": "Young Ahmed",
+      "storyExample": "Later, he went to Bukhara, a big city of Islam and science.",
+      "category": "Learning"
+     },
+     {
+      "word": "rule",
+      "definition": "Words that tell us the right thing to do.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ruːl/",
+      "chapter": 3,
+      "chapterTitle": "Easy Words",
+      "storyExample": "Rules tell us “What do I do?” and “How do I do it?”",
+      "category": "Life"
+     },
+     {
+      "word": "meaning",
+      "definition": "The reason for something; why it is important.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmiːnɪŋ/",
+      "chapter": 3,
+      "chapterTitle": "Easy Words",
+      "storyExample": "When we know the answer, our work has a real meaning.",
+      "category": "Values"
+     },
+     {
+      "word": "mosque",
+      "definition": "A building where Muslims pray.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/mɑːsk/",
+      "chapter": 4,
+      "chapterTitle": "A Boy with the Qur’an",
+      "storyExample": "Some children walked past on their way to the mosque for Qur’an lessons.",
+      "category": "Faith"
+     },
+     {
+      "word": "respect",
+      "definition": "A feeling that someone or something is very important.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/rɪˈspekt/",
+      "chapter": 4,
+      "chapterTitle": "A Boy with the Qur’an",
+      "storyExample": "He showed respect to the Qur’an, and Ahmed Yesevî smiled.",
+      "category": "Values"
+     },
+     {
+      "word": "smile",
+      "definition": "Make a happy face, with the mouth up.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/smaɪl/",
+      "chapter": 4,
+      "chapterTitle": "A Boy with the Qur’an",
+      "storyExample": "He showed respect to the Qur’an, and Ahmed Yesevî smiled.",
+      "category": "Feelings"
+     },
+     {
+      "word": "backwards",
+      "definition": "With your back in front.",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "pronunciation": "/ˈbækwərdz/",
+      "chapter": 4,
+      "chapterTitle": "A Boy with the Qur’an",
+      "storyExample": "This time, he walked backwards.",
+      "category": "Describing"
+     },
+     {
+      "word": "pleased",
+      "definition": "Happy about something.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/pliːzd/",
+      "chapter": 4,
+      "chapterTitle": "A Boy with the Qur’an",
+      "storyExample": "Ahmed Yesevî was very pleased with the little boy’s respect.",
+      "category": "Feelings"
+     },
+     {
+      "word": "wood",
+      "definition": "The hard part of a tree.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/wʊd/",
+      "chapter": 5,
+      "chapterTitle": "Wood in the Rain",
+      "storyExample": "One day, Ahmed Yesevî sent Süleyman and his friends out for wood.",
+      "category": "Things"
+     },
+     {
+      "word": "wet",
+      "definition": "With water on it; not dry.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/wet/",
+      "chapter": 5,
+      "chapterTitle": "Wood in the Rain",
+      "storyExample": "Süleyman thought, “We cannot cook with wet wood.”",
+      "category": "Describing"
+     },
+     {
+      "word": "take off",
+      "definition": "Take a thing off your body, like a coat.",
+      "partOfSpeech": "phrasal verb",
+      "level": "A1",
+      "pronunciation": "/teɪk ɔːf/",
+      "chapter": 5,
+      "chapterTitle": "Wood in the Rain",
+      "storyExample": "So he took off his coat and put it around his wood.",
+      "category": "Actions"
+     },
+     {
+      "word": "burn",
+      "definition": "Be on fire.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/bɜːrn/",
+      "chapter": 5,
+      "chapterTitle": "Wood in the Rain",
+      "storyExample": "But Süleyman’s wood was dry, and it burned well.",
+      "category": "Actions"
+     },
+     {
+      "word": "manners",
+      "definition": "The polite way to do things.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmænərz/",
+      "chapter": 6,
+      "chapterTitle": "Hakîm Ata",
+      "storyExample": "He taught Islam and good manners to the people there.",
+      "category": "Values"
+     },
+     {
+      "word": "guest",
+      "definition": "A person who visits your home.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɡest/",
+      "chapter": 7,
+      "chapterTitle": "Wise Words",
+      "storyExample": "One of them is about guests and nights: “See every guest as Khizr, and see every night as Laylat al-Qadr.”",
+      "category": "People"
+     },
+     {
+      "word": "servant",
+      "definition": "A person who works for someone.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈsɜːrvənt/",
+      "chapter": 7,
+      "chapterTitle": "Wise Words",
+      "storyExample": "Khizr is a good and wise servant of Allah.",
+      "category": "People"
+     }
+    ]
+   },
+   {
+    "id": 11,
+    "type": "vocabulary-match",
+    "title": "Vocabulary Challenge",
+    "image": "https://picsum.photos/seed/vocab-match-yesevi-a1/1200/800",
+    "audioUrl": "",
+    "content": "Match six story words with their meanings.",
+    "vocabularyPairs": [
+     {
+      "word": "poet",
+      "meaning": "A person who writes poems.",
+      "partOfSpeech": "noun",
+      "chapter": 1,
+      "context": "Ahmed Yesevî was a great Turkish poet and teacher."
+     },
+     {
+      "word": "wise",
+      "meaning": "Knowing a lot about life and people.",
+      "partOfSpeech": "adjective",
+      "chapter": 2,
+      "context": "There, he studied with a wise teacher, Arslan Baba."
+     },
+     {
+      "word": "rule",
+      "meaning": "Words that tell us the right thing to do.",
+      "partOfSpeech": "noun",
+      "chapter": 3,
+      "context": "Rules tell us “What do I do?” and “How do I do it?”"
+     },
+     {
+      "word": "backwards",
+      "meaning": "With your back in front.",
+      "partOfSpeech": "adverb",
+      "chapter": 4,
+      "context": "This time, he walked backwards."
+     },
+     {
+      "word": "wet",
+      "meaning": "With water on it; not dry.",
+      "partOfSpeech": "adjective",
+      "chapter": 5,
+      "context": "Süleyman thought, “We cannot cook with wet wood.”"
+     },
+     {
+      "word": "guest",
+      "meaning": "A person who visits your home.",
+      "partOfSpeech": "noun",
+      "chapter": 7,
+      "context": "One of them is about guests and nights: “See every guest as Khizr, and see every night as Laylat al-Qadr.”"
+     }
+    ]
+   },
+   {
+    "id": 13,
+    "type": "exercises",
+    "title": "Language Review",
+    "image": "https://picsum.photos/seed/exercises-yesevi-a1/1200/800",
+    "content": "Review the language from all chapters.",
+    "exercises": [
+     {
+      "id": "yesevi-a1-language-review-1",
+      "type": "drag-drop",
+      "title": "Look: Two Kinds of Past",
+      "instructions": "Put each verb in the right group.",
+      "question": "How does each verb show the past?",
+      "dragDropGroups": [
+       {
+        "group": "Ends in -ed",
+        "items": [
+         "studied",
+         "returned",
+         "walked",
+         "collected"
+        ]
+       },
+       {
+        "group": "Changes",
+        "items": [
+         "went",
+         "taught",
+         "took",
+         "grew"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Ends in -ed": [
+        "studied",
+        "returned",
+        "walked",
+        "collected"
+       ],
+       "Changes": [
+        "went",
+        "taught",
+        "took",
+        "grew"
+       ]
+      },
+      "explanation": "Many verbs add -ed: study → studied, walk → walked. Some verbs change: go → went, teach → taught, take → took, grow → grew.",
+      "feedback": {
+       "correct": "Well done. You found the two kinds of past.",
+       "incorrect": "Say the verb today: study, go … Does it add -ed or change?"
+      }
+     },
+     {
+      "id": "yesevi-a1-language-review-2",
+      "type": "choose-form",
+      "title": "Practise: What, How, Why",
+      "instructions": "Choose the right word.",
+      "question": "Which question word?",
+      "formChoices": [
+       {
+        "sentence": "[choice] do I do it? Because it is right.",
+        "options": [
+         "Why",
+         "What"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] do I do it? Slowly and carefully.",
+        "options": [
+         "How",
+         "Why"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Why → a reason. How → a way.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Look at the answers first."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-review-3",
+      "type": "choose-form",
+      "title": "Practise: So, But",
+      "instructions": "Choose so or but.",
+      "question": "So or but?",
+      "formChoices": [
+       {
+        "sentence": "The wood was wet, [choice] it did not burn.",
+        "options": [
+         "so",
+         "but"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Most children carried their Qur’ans in bags, [choice] one boy carried his Qur’an on his head.",
+        "options": [
+         "but",
+         "so"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "So tells what happened next. But shows a different idea.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Wet → did not burn: so. Most ≠ one boy: but."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-review-4",
+      "type": "word-bank",
+      "title": "Practise: Every and Like",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What are the words?",
+      "fillBlanksText": "See [blank] guest as Khizr. [blank] his teacher, Hakîm Ata wrote poems in Turkish. Hikmet [blank] “wisdom”.",
+      "wordBank": [
+       "every",
+       "Like",
+       "means",
+       "all",
+       "mean"
+      ],
+      "correctAnswer": [
+       "every",
+       "Like",
+       "means"
+      ],
+      "explanation": "Every + one thing. Like + person = in the same way. Hikmet means … (one word: means).",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Find these words in Chapters 1, 6 and 7."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-review-5",
+      "type": "error-correction",
+      "title": "Practise: Fix One Word",
+      "instructions": "Find the wrong word. Choose the right word.",
+      "question": "Which word is wrong?",
+      "errorItems": [
+       {
+        "sentence": "Hakîm Ata teached Islam in Khwarazm.",
+        "error": "teached",
+        "options": [
+         "taught",
+         "teach",
+         "teaches"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Süleyman taked off his coat.",
+        "error": "taked",
+        "options": [
+         "take",
+         "took",
+         "takes"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "“Teach” and “take” change in the past: taught, took.",
+      "feedback": {
+       "correct": "Well done.",
+       "incorrect": "Teach → taught. Take → took. They do not take -ed."
+      }
+     },
+     {
+      "id": "yesevi-a1-language-review-6",
+      "type": "reflection",
+      "title": "Use: A Wise Person",
+      "instructions": "Write three sentences about a wise person.",
+      "question": "Who is wise?",
+      "correctAnswer": null,
+      "explanation": "Use is wise, one past verb and because.",
+      "feedback": {
+       "correct": "Write three short sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "One “is wise”: “My grandmother is wise.”",
+        "mode": "Individual",
+        "example": "My grandmother is wise."
+       },
+       {
+        "question": "One past verb: “She taught me …”",
+        "mode": "Individual",
+        "example": "She taught me a prayer."
+       },
+       {
+        "question": "One “because”: “I love her because …”",
+        "mode": "Individual",
+        "example": "I love her because she is kind."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": 14,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "image": "https://picsum.photos/seed/challenge-yesevi-a1/1200/800",
+    "content": "Bring the whole story together in the Final Challenge.",
+    "exercises": [
+     {
+      "id": "yesevi-a1-final-1",
+      "type": "fill-blanks",
+      "title": "A Great Teacher",
+      "instructions": "Write one word.",
+      "question": "Which language did his poems use?",
+      "fillBlanksText": "He was the first great Sufi poet in the [blank] language.",
+      "correctAnswer": [
+       "Turkish"
+      ],
+      "explanation": "Chapter 1: “He was the first great Sufi poet in the Turkish language.”",
+      "feedback": {
+       "correct": "Yes. Turkish.",
+       "incorrect": "Read the first paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "yesevi-a1-final-2",
+      "type": "multiple-choice",
+      "title": "Young Ahmed",
+      "instructions": "Choose the answer.",
+      "question": "When did Ahmed Yesevî die?",
+      "options": [
+       "in 1166",
+       "in 1066",
+       "in 1266"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 2: “He taught people there until he died in 1166.”",
+      "feedback": {
+       "correct": "Yes. In 1166.",
+       "incorrect": "Read the last sentence of Chapter 2."
+      }
+     },
+     {
+      "id": "yesevi-a1-final-3",
+      "type": "true-false",
+      "title": "Simple Turkish",
+      "instructions": "Is it true or false?",
+      "question": "Everybody understood Ahmed Yesevî.",
+      "correctAnswer": true,
+      "explanation": "Chapter 3: “Everybody understood him, and people loved him.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the first paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "yesevi-a1-final-4",
+      "type": "matching",
+      "title": "Who Is It?",
+      "instructions": "Match the person with the sentence.",
+      "question": "Who is it?",
+      "matchingHeadings": {
+       "left": "Person",
+       "right": "Sentence"
+      },
+      "matchingPairs": [
+       {
+        "left": "Arslan Baba",
+        "right": "He was young Ahmed’s wise teacher."
+       },
+       {
+        "left": "Süleyman",
+        "right": "He put his coat around his wood."
+       },
+       {
+        "left": "Hakîm Ata",
+        "right": "He went to Khwarazm."
+       }
+      ],
+      "correctAnswer": {
+       "Arslan Baba": "He was young Ahmed’s wise teacher.",
+       "Süleyman": "He put his coat around his wood.",
+       "Hakîm Ata": "He went to Khwarazm."
+      },
+      "explanation": "Chapter 2: Arslan Baba. Chapter 5: Süleyman. Chapter 6: Hakîm Ata.",
+      "feedback": {
+       "correct": "Good. You matched all three.",
+       "incorrect": "Read Chapters 2, 5 and 6 again."
+      }
+     },
+     {
+      "id": "yesevi-a1-final-5",
+      "type": "multiple-choice",
+      "title": "Backwards",
+      "instructions": "Choose the answer.",
+      "question": "Why did the boy walk backwards?",
+      "options": [
+       "He did not want to turn his back to his teacher.",
+       "He was afraid of the rain.",
+       "He lost his bag."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 4: “He did not want to turn his back to his teacher.”",
+      "feedback": {
+       "correct": "Yes. He showed respect.",
+       "incorrect": "Read the second paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "yesevi-a1-final-6",
+      "type": "true-false",
+      "title": "The Wood",
+      "instructions": "Is it true or false?",
+      "question": "Süleyman’s wood was wet.",
+      "correctAnswer": false,
+      "explanation": "Chapter 5: “But Süleyman’s wood was dry, and it burned well.”",
+      "feedback": {
+       "correct": "Yes, it is false. His wood was dry.",
+       "incorrect": "Read the second paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "yesevi-a1-final-7",
+      "type": "multiple-choice",
+      "title": "Wise Words",
+      "instructions": "Choose the answer.",
+      "question": "Do Turkish people use Hakîm Ata’s words today?",
+      "options": [
+       "Yes, they still use them.",
+       "No, nobody uses them.",
+       "Only in Arabic."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 7: “Turkish people still use these words today.”",
+      "feedback": {
+       "correct": "Yes. They still use them.",
+       "incorrect": "Read the last sentence of Chapter 7."
+      }
+     },
+     {
+      "id": "yesevi-a1-final-8",
+      "type": "sequencing",
+      "title": "The Teacher and His Student",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Ahmed Yesevî studied in Yesi and Bukhara."
+       },
+       {
+        "id": "2",
+        "text": "Ahmed Yesevî saw a boy with the Qur’an on his head."
+       },
+       {
+        "id": "3",
+        "text": "Ahmed Yesevî gave Süleyman a new name: Hakîm Süleyman."
+       },
+       {
+        "id": "4",
+        "text": "Hakîm Ata went to Khwarazm."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Yesi and Bukhara (Chapter 2) → the boy (Chapter 4) → a new name (Chapter 5) → Khwarazm (Chapter 6).",
+      "feedback": {
+       "correct": "Great! You know the story of the teacher and his student.",
+       "incorrect": "Think about the order of the chapters."
+      }
+     }
+    ]
+   }
+  ],
+  "teacherGuide": [],
+  "selfStudyGuide": []
+ }
+}

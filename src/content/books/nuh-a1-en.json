@@ -1,0 +1,2402 @@
+{
+ "schema": 1,
+ "storyId": "nuh",
+ "level": "A1",
+ "language": "en",
+ "collection": "prophets",
+ "book": {
+  "id": "nuh-a1",
+  "title": "Prophet Noah (pbuh): The Ark and the Flood (A1)",
+  "level": "A1",
+  "baseFontSize": 12,
+  "pages": [
+   {
+    "id": 1,
+    "type": "story",
+    "title": "Five Great Prophets",
+    "content": "Allah sent prophets to people. Five of them were very great prophets. They were very patient and strong in their hearts. They had a very important duty. They showed people the right way to Allah.\n\nThese five prophets are Noah (pbuh), Abraham (pbuh), Moses (pbuh), Jesus (pbuh) and Muhammad (pbuh). This is the story of Prophet Noah (pbuh).",
+    "vocabulary": [
+     {
+      "word": "send",
+      "definition": "Make someone go to a place."
+     },
+     {
+      "word": "prophet",
+      "definition": "A person who brings Allah's words to people."
+     },
+     {
+      "word": "patient",
+      "definition": "Can wait a long time and not get angry."
+     },
+     {
+      "word": "duty",
+      "definition": "A thing you must do."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h1-1",
+      "x": 35,
+      "y": 46,
+      "title": "Prophets",
+      "description": "Allah sent prophets to people. They showed people the right way to Allah."
+     },
+     {
+      "id": "h1-2",
+      "x": 68,
+      "y": 50,
+      "title": "Five Great Prophets",
+      "description": "These five prophets are Noah (pbuh), Abraham (pbuh), Moses (pbuh), Jesus (pbuh) and Muhammad (pbuh)."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "nuh-a1-quick-1",
+      "type": "drag-drop",
+      "title": "Five Great Prophets",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 1?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The five prophets were very patient.",
+         "They showed people the right way to Allah."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Noah (pbuh) is not one of the five great prophets."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The five prophets were very patient.",
+        "They showed people the right way to Allah."
+       ],
+       "False": [
+        "Noah (pbuh) is not one of the five great prophets."
+       ]
+      },
+      "explanation": "Chapter 1 says: “They were very patient and strong in their hearts.” “They showed people the right way to Allah.” “These five prophets are Noah (pbuh), Abraham (pbuh), Moses (pbuh), Jesus (pbuh) and Muhammad (pbuh).”",
+      "feedback": {
+       "correct": "Yes! Noah (pbuh) is one of the five.",
+       "incorrect": "Read the second paragraph of Chapter 1 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "nuh-a1-language-1-patient",
+      "type": "multiple-choice",
+      "title": "Look: Patient",
+      "instructions": "Choose the right answer.",
+      "question": "“They were very patient.” What does a patient person do?",
+      "options": [
+       "waits a long time and does not get angry",
+       "gets angry very fast",
+       "runs very fast"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Patient = can wait a long time and not get angry.",
+      "feedback": {
+       "correct": "Yes. A patient person waits and is calm.",
+       "incorrect": "Read the first paragraph of Chapter 1 again."
+      }
+     },
+     {
+      "id": "nuh-a1-language-1-practise",
+      "type": "choose-form",
+      "title": "Practise: Was, Were",
+      "instructions": "Choose the right word.",
+      "question": "One or many?",
+      "formChoices": [
+       {
+        "sentence": "They [choice] very patient.",
+        "options": [
+         "were",
+         "was"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "This [choice] a very important duty.",
+        "options": [
+         "was",
+         "were"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "They (many) → were. This (one) → was.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "They = many. This = one."
+      }
+     },
+     {
+      "id": "nuh-a1-language-1-say-it",
+      "type": "reflection",
+      "title": "Say It: Patient People",
+      "instructions": "Talk about patience with your partner.",
+      "question": "Who is patient?",
+      "correctAnswer": null,
+      "explanation": "Use is patient.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“My … is very patient.”",
+        "mode": "Pair",
+        "example": "My grandmother is very patient."
+       },
+       {
+        "question": "“I am patient when …”",
+        "mode": "Pair",
+        "example": "I am patient when I wait for the bus."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: How many very great prophets are there?",
+     "options": [
+      "five",
+      "two",
+      "ten"
+     ],
+     "answer": 0,
+     "quote": "Five of them were very great prophets."
+    },
+    "iCan": [
+     "I can tell about the five great prophets.",
+     "I can understand patient.",
+     "I can talk about patient people."
+    ]
+   },
+   {
+    "id": 2,
+    "type": "story",
+    "title": "Good Men and Stone Statues",
+    "content": "After Prophet Adam (pbuh), many people lived on the earth. At first, they worshipped only Allah. They remembered the prophets’ words and prayed only to Allah. Later, people forgot Allah’s words. But there were five good men. They still prayed to Allah day and night. People loved them very much. Their names were Wadd, Suwa', Yaghuth, Ya’uq and Nasr.\n\nWhen these good men died, the people missed them. First, they made their pictures. Later, they made statues of them. After many years, people forgot Allah and started to pray to statues of these five men. This was very wrong.",
+    "vocabulary": [
+     {
+      "word": "earth",
+      "definition": "The world we live in."
+     },
+     {
+      "word": "worship",
+      "definition": "Pray to and love God."
+     },
+     {
+      "word": "still",
+      "definition": "Then, too, like before."
+     },
+     {
+      "word": "pray",
+      "definition": "Talk to Allah."
+     },
+     {
+      "word": "miss",
+      "definition": "Feel sad because a person is not with you."
+     },
+     {
+      "word": "statue",
+      "definition": "A big figure of a person, made of stone."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h2-1",
+      "x": 35,
+      "y": 46,
+      "title": "Five Good Men",
+      "description": "Five good men still prayed to Allah day and night. People loved them very much."
+     },
+     {
+      "id": "h2-2",
+      "x": 68,
+      "y": 50,
+      "title": "Statues",
+      "description": "After many years, people forgot Allah and started to pray to statues of these five men."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "nuh-a1-quick-2",
+      "type": "sequencing",
+      "title": "Good Men and Stone Statues",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "The five good men died."
+       },
+       {
+        "id": "2",
+        "text": "The people made pictures of them."
+       },
+       {
+        "id": "3",
+        "text": "The people made statues of them."
+       },
+       {
+        "id": "4",
+        "text": "The people started to pray to the statues."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 2: the men died → pictures → statues → people prayed to the statues.",
+      "feedback": {
+       "correct": "Great! You put the chapter in order.",
+       "incorrect": "Read the second paragraph of Chapter 2 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "nuh-a1-language-2-order",
+      "type": "drag-drop",
+      "title": "Look: First, Later",
+      "instructions": "Put each sentence in the right group.",
+      "question": "When was it?",
+      "dragDropGroups": [
+       {
+        "group": "First",
+        "items": [
+         "They made their pictures."
+        ]
+       },
+       {
+        "group": "Later",
+        "items": [
+         "They made statues of them."
+        ]
+       },
+       {
+        "group": "After many years",
+        "items": [
+         "People forgot Allah."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "First": [
+        "They made their pictures."
+       ],
+       "Later": [
+        "They made statues of them."
+       ],
+       "After many years": [
+        "People forgot Allah."
+       ]
+      },
+      "explanation": "First → later → after many years: these words tell the order.",
+      "feedback": {
+       "correct": "Good.",
+       "incorrect": "Read the second paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "nuh-a1-language-2-practise",
+      "type": "choose-form",
+      "title": "Practise: Missed, Forgot, Made",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "When these good men died, the people [choice] them.",
+        "options": [
+         "missed",
+         "miss"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Later, people [choice] Allah’s words.",
+        "options": [
+         "forgot",
+         "forget"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "First, they [choice] their pictures.",
+        "options": [
+         "made",
+         "make"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Miss → missed: it adds -ed. Forget → forgot, make → made: they change.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 2 again."
+      }
+     },
+     {
+      "id": "nuh-a1-language-2-write-it",
+      "type": "reflection",
+      "title": "Write It: I Miss …",
+      "instructions": "Write about a person you miss.",
+      "question": "Who do you miss?",
+      "correctAnswer": null,
+      "explanation": "Use I miss.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I miss my …”",
+        "mode": "Individual",
+        "example": "I miss my grandfather."
+       },
+       {
+        "question": "“He / She lives in …”",
+        "mode": "Individual",
+        "example": "He lives in Erzurum."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What did the people make?",
+     "options": [
+      "statues of five good men",
+      "a big ship",
+      "a school"
+     ],
+     "answer": 0,
+     "quote": "Later, they made statues of them."
+    },
+    "iCan": [
+     "I can tell how people started to pray to statues.",
+     "I can use first and later.",
+     "I can write about a person I miss."
+    ]
+   },
+   {
+    "id": 3,
+    "type": "story",
+    "title": "Noah’s Message",
+    "content": "Then Allah sent Noah (pbuh) to these people. Noah was kind, honest and patient. He always said true words. He said to his people, “O my people, worship Allah. You have no god but Him.” (Surah al-A‘râf, 59) He also told them, “I am a Messenger of Allah. Do not pray to statues.”\n\nSome people listened to him and believed him. Most of them were poor and weak. For Allah, poor people and rich people are the same.",
+    "vocabulary": [
+     {
+      "word": "honest",
+      "definition": "Always says true things."
+     },
+     {
+      "word": "true",
+      "definition": "Right, not a lie."
+     },
+     {
+      "word": "messenger",
+      "definition": "A person who brings words from Allah."
+     },
+     {
+      "word": "believe",
+      "definition": "Think that something is true."
+     },
+     {
+      "word": "weak",
+      "definition": "Not strong."
+     },
+     {
+      "word": "rich",
+      "definition": "With a lot of money."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h3-1",
+      "x": 35,
+      "y": 46,
+      "title": "A Messenger",
+      "description": "Noah said, “I am a Messenger of Allah. Do not pray to statues.”"
+     },
+     {
+      "id": "h3-2",
+      "x": 68,
+      "y": 50,
+      "title": "The Believers",
+      "description": "Some people listened to him and believed him. Most of them were poor and weak."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "nuh-a1-quick-3",
+      "type": "multiple-choice",
+      "title": "Noah’s Message",
+      "instructions": "Choose the best answer.",
+      "question": "Who believed Noah (pbuh) first?",
+      "options": [
+       "some people, most of them poor and weak",
+       "all the rich men",
+       "nobody"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: “Some people listened to him and believed him. Most of them were poor and weak.”",
+      "feedback": {
+       "correct": "Yes! Most of them were poor and weak.",
+       "incorrect": "Read the second paragraph of Chapter 3 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "nuh-a1-language-3-opposites",
+      "type": "matching",
+      "title": "Look: Opposites",
+      "instructions": "Match the word with its opposite.",
+      "question": "What is the opposite?",
+      "matchingHeadings": {
+       "left": "Word",
+       "right": "Opposite"
+      },
+      "matchingPairs": [
+       {
+        "left": "rich",
+        "right": "poor"
+       },
+       {
+        "left": "weak",
+        "right": "strong"
+       },
+       {
+        "left": "true",
+        "right": "not true"
+       }
+      ],
+      "correctAnswer": {
+       "rich": "poor",
+       "weak": "strong",
+       "true": "not true"
+      },
+      "explanation": "“For Allah, poor people and rich people are the same.” Weak = not strong.",
+      "feedback": {
+       "correct": "Good. You know the opposites.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "nuh-a1-language-3-practise",
+      "type": "choose-form",
+      "title": "Practise: Said, Told, Believed",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "He always [choice] true words.",
+        "options": [
+         "said",
+         "says"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "He also [choice] them, “I am a Messenger of Allah.”",
+        "options": [
+         "told",
+         "tells"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Some people [choice] him.",
+        "options": [
+         "believed",
+         "believe"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Say → said, tell → told: they change. Believe → believed: it adds -d.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 3 again."
+      }
+     },
+     {
+      "id": "nuh-a1-language-3-say-it",
+      "type": "reflection",
+      "title": "Say It: A Good Friend",
+      "instructions": "Tell your partner about a good friend.",
+      "question": "What is your friend like?",
+      "correctAnswer": null,
+      "explanation": "Use is + kind / honest / patient and always.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“My friend is kind and …”",
+        "mode": "Pair",
+        "example": "My friend is kind and honest."
+       },
+       {
+        "question": "“He / She always …”",
+        "mode": "Pair",
+        "example": "She always says true words."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What was Noah (pbuh) like?",
+     "options": [
+      "kind, honest and patient",
+      "proud and cruel",
+      "rich and angry"
+     ],
+     "answer": 0,
+     "quote": "Noah was kind, honest and patient."
+    },
+    "iCan": [
+     "I can tell about Noah’s message.",
+     "I can use opposites: rich – poor, weak – strong.",
+     "I can talk about a good friend."
+    ]
+   },
+   {
+    "id": 4,
+    "type": "story",
+    "title": "The Rich Men Say No",
+    "content": "The rich and important men did not listen to Noah. They were proud. They said: “You are only a man like us.” (Surah Hûd, 27)\n\nNoah answered, “Yes, I am a man, and I am a Messenger of Allah.” Then the rich men said, “Tell the poor people to go. Then we can come to you.” But Noah said that the believers would stay with him.",
+    "vocabulary": [
+     {
+      "word": "important",
+      "definition": "Big and strong in a group; people listen to them."
+     },
+     {
+      "word": "proud",
+      "definition": "Thinking that you are better than others."
+     },
+     {
+      "word": "believer",
+      "definition": "A person who believes in Allah."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h4-1",
+      "x": 35,
+      "y": 46,
+      "title": "Proud Men",
+      "description": "The rich and important men did not listen to Noah. They were proud."
+     },
+     {
+      "id": "h4-2",
+      "x": 68,
+      "y": 50,
+      "title": "The Believers Stay",
+      "description": "Noah said that the believers would stay with him."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "nuh-a1-quick-4",
+      "type": "drag-drop",
+      "title": "The Rich Men Say No",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 4?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The rich men were proud.",
+         "The rich men said, “Tell the poor people to go.”"
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Noah (pbuh) sent the believers away."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The rich men were proud.",
+        "The rich men said, “Tell the poor people to go.”"
+       ],
+       "False": [
+        "Noah (pbuh) sent the believers away."
+       ]
+      },
+      "explanation": "Chapter 4 says: “They were proud.” “Then the rich men said, ‘Tell the poor people to go.’” “But Noah said that the believers would stay with him.”",
+      "feedback": {
+       "correct": "Yes! The believers stayed with him.",
+       "incorrect": "Read the second paragraph of Chapter 4 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "nuh-a1-language-4-like",
+      "type": "multiple-choice",
+      "title": "Look: Like Us",
+      "instructions": "Choose the right answer.",
+      "question": "“You are only a man like us.” What did the rich men mean?",
+      "options": [
+       "“You are the same as us.”",
+       "“You are very rich.”",
+       "“You are an animal.”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Like us = the same as us.",
+      "feedback": {
+       "correct": "Yes. They said he was the same as them.",
+       "incorrect": "Read the first paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "nuh-a1-language-4-practise",
+      "type": "choose-form",
+      "title": "Practise: Did Not",
+      "instructions": "Choose the right words.",
+      "question": "Which words go in the gap?",
+      "formChoices": [
+       {
+        "sentence": "The rich men [choice] listen to Noah.",
+        "options": [
+         "did not",
+         "not"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Noah [choice] send the believers away.",
+        "options": [
+         "did not",
+         "does not"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Past negative: did not + verb. The rich men did not listen.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 4 again."
+      }
+     },
+     {
+      "id": "nuh-a1-language-4-say-it",
+      "type": "reflection",
+      "title": "Say It: Like Me",
+      "instructions": "Tell your partner who is like you.",
+      "question": "Who is like you?",
+      "correctAnswer": null,
+      "explanation": "Use like + person.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“My brother is like me. We …”",
+        "mode": "Pair",
+        "example": "My brother is like me. We love football."
+       },
+       {
+        "question": "“For Allah, all people are …”",
+        "mode": "Pair",
+        "example": "For Allah, all people are the same."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Did the rich men listen to Noah (pbuh)?",
+     "options": [
+      "No, they did not.",
+      "Yes, they did.",
+      "Only one man listened."
+     ],
+     "answer": 0,
+     "quote": "The rich and important men did not listen to Noah."
+    },
+    "iCan": [
+     "I can tell what the rich men said.",
+     "I can understand like us.",
+     "I can use did not."
+    ]
+   },
+   {
+    "id": 5,
+    "type": "story",
+    "title": "Nine Hundred and Fifty Years",
+    "content": "Noah talked to his people day and night for 950 years. He did not want money from them. He only wanted to show the right way.\n\nBut the people did not change. When Noah talked, they put their fingers in their ears and laughed at him. Later, they became cruel and hurt him. But Noah stayed patient. In the end, Allah told Noah, “Nobody from your people will believe.” (Surah Hûd, 36) Noah prayed to Allah, “My Lord, do not leave any bad people on the earth. They lead good people to the wrong way.” (Surah Nûh, 26–27) Allah accepted his prayer.",
+    "vocabulary": [
+     {
+      "word": "laugh",
+      "definition": "Make a happy sound \"ha ha\"."
+     },
+     {
+      "word": "cruel",
+      "definition": "Very bad and unkind to others."
+     },
+     {
+      "word": "lead",
+      "definition": "Take someone to a place."
+     },
+     {
+      "word": "accept",
+      "definition": "Say yes to something."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h5-1",
+      "x": 35,
+      "y": 46,
+      "title": "Day and Night",
+      "description": "Noah talked to his people day and night for 950 years. He did not want money from them."
+     },
+     {
+      "id": "h5-2",
+      "x": 68,
+      "y": 50,
+      "title": "Patient",
+      "description": "The people laughed at him and hurt him. But Noah stayed patient."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "nuh-a1-quick-5",
+      "type": "sequencing",
+      "title": "Nine Hundred and Fifty Years",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Noah talked to his people for 950 years."
+       },
+       {
+        "id": "2",
+        "text": "The people laughed at Noah."
+       },
+       {
+        "id": "3",
+        "text": "The people became cruel and hurt him."
+       },
+       {
+        "id": "4",
+        "text": "Allah accepted Noah’s prayer."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 5: 950 years → they laughed → they became cruel → Allah accepted his prayer.",
+      "feedback": {
+       "correct": "Great! You put the chapter in order.",
+       "incorrect": "Read Chapter 5 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "nuh-a1-language-5-for",
+      "type": "multiple-choice",
+      "title": "Look: For + Time",
+      "instructions": "Choose the right answer.",
+      "question": "“Noah talked to his people day and night for 950 years.” What does “for 950 years” tell us?",
+      "options": [
+       "how long",
+       "where",
+       "why"
+      ],
+      "correctAnswer": 0,
+      "explanation": "For + time tells how long: for 950 years, for two hours.",
+      "feedback": {
+       "correct": "Yes. It tells how long.",
+       "incorrect": "Read the first paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "nuh-a1-language-5-practise",
+      "type": "word-bank",
+      "title": "Practise: Noah Stayed Patient",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What happened?",
+      "fillBlanksText": "He did [blank] want money from them. The people [blank] at him. [blank] Noah stayed patient.",
+      "wordBank": [
+       "not",
+       "laughed",
+       "But",
+       "no",
+       "So"
+      ],
+      "correctAnswer": [
+       "not",
+       "laughed",
+       "But"
+      ],
+      "explanation": "Did not + verb. Laugh → laughed. But shows a different idea.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 5 again."
+      }
+     },
+     {
+      "id": "nuh-a1-language-5-write-it",
+      "type": "reflection",
+      "title": "Write It: Be Patient",
+      "instructions": "Write about being patient.",
+      "question": "When are you patient?",
+      "correctAnswer": null,
+      "explanation": "Use for + time and because.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I wait for … for … minutes.”",
+        "mode": "Individual",
+        "example": "I wait for the bus for ten minutes."
+       },
+       {
+        "question": "“I am patient because …”",
+        "mode": "Individual",
+        "example": "I am patient because it is good."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: How long did Noah (pbuh) talk to his people?",
+     "options": [
+      "for 950 years",
+      "for 50 years",
+      "for 9 years"
+     ],
+     "answer": 0,
+     "quote": "Noah talked to his people day and night for 950 years."
+    },
+    "iCan": [
+     "I can tell how Noah (pbuh) stayed patient.",
+     "I can use for + time.",
+     "I can write about being patient."
+    ]
+   },
+   {
+    "id": 6,
+    "type": "story",
+    "title": "A Ship on the Land",
+    "content": "Allah told Noah to build an ark. So Noah and the believers started to build a very big ship. They used wood and nails, and they built it far from the sea.\n\nPeople walked past and laughed at Noah. “Look! A ship, but there is no sea here!” they said. But Noah kept working, because he trusted Allah. Then the ark was ready.",
+    "vocabulary": [
+     {
+      "word": "ark",
+      "definition": "A very big ship."
+     },
+     {
+      "word": "build",
+      "definition": "Make a house, a ship or a building."
+     },
+     {
+      "word": "ship",
+      "definition": "A very big boat."
+     },
+     {
+      "word": "nail",
+      "definition": "A small, thin piece of metal for wood."
+     },
+     {
+      "word": "trust",
+      "definition": "Believe that someone is good and true."
+     },
+     {
+      "word": "ready",
+      "definition": "Finished; you can use it now."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h6-1",
+      "x": 35,
+      "y": 46,
+      "title": "Wood and Nails",
+      "description": "They used wood and nails, and they built it far from the sea."
+     },
+     {
+      "id": "h6-2",
+      "x": 68,
+      "y": 50,
+      "title": "People Laughed",
+      "description": "“Look! A ship, but there is no sea here!” they said."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "nuh-a1-quick-6",
+      "type": "drag-drop",
+      "title": "A Ship on the Land",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 6?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "They built the ark far from the sea.",
+         "Noah (pbuh) kept working."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "They built the ark with stones."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "They built the ark far from the sea.",
+        "Noah (pbuh) kept working."
+       ],
+       "False": [
+        "They built the ark with stones."
+       ]
+      },
+      "explanation": "Chapter 6 says: “They used wood and nails, and they built it far from the sea.” “But Noah kept working, because he trusted Allah.”",
+      "feedback": {
+       "correct": "Yes! They used wood and nails.",
+       "incorrect": "Read the first paragraph of Chapter 6 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "nuh-a1-language-6-because",
+      "type": "multiple-choice",
+      "title": "Look: Because",
+      "instructions": "Choose the right answer.",
+      "question": "“But Noah kept working, because he trusted Allah.” Why did Noah (pbuh) keep working?",
+      "options": [
+       "He trusted Allah.",
+       "He wanted money.",
+       "He was afraid of the people."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because tells why: because he trusted Allah.",
+      "feedback": {
+       "correct": "Yes. He trusted Allah.",
+       "incorrect": "Read the second paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "nuh-a1-language-6-practise",
+      "type": "choose-form",
+      "title": "Practise: There Is, There Is No",
+      "instructions": "Choose the right words.",
+      "question": "Which words go in the gap?",
+      "formChoices": [
+       {
+        "sentence": "“Look! A ship, but [choice] sea here!”",
+        "options": [
+         "there is no",
+         "there is a"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] a very big ship on the land.",
+        "options": [
+         "There is",
+         "There are"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "There is a … = one thing is here. There is no … = it is not here.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "nuh-a1-language-6-say-it",
+      "type": "reflection",
+      "title": "Say It: I Made It",
+      "instructions": "Tell your partner about a thing you made.",
+      "question": "What did you make?",
+      "correctAnswer": null,
+      "explanation": "Use made and used.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I made a …”",
+        "mode": "Pair",
+        "example": "I made a paper boat."
+       },
+       {
+        "question": "“I used …”",
+        "mode": "Pair",
+        "example": "I used paper and glue."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "picture",
+     "question": "Guess first: What did Noah (pbuh) and the believers build?",
+     "options": [
+      "a very big ship",
+      "a house",
+      "a mosque"
+     ],
+     "answer": 0,
+     "quote": "So Noah and the believers started to build a very big ship."
+    },
+    "iCan": [
+     "I can tell about the ark.",
+     "I can use because.",
+     "I can say there is no …."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Building the Ark",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group draws the ark on the land, far from the sea.",
+      "The group writes the things they used: wood and nails.",
+      "One student writes what the people said. One student writes why Noah kept working.",
+      "The group shows the poster to the class."
+     ],
+     "share": "One student reads the poster. Story: “But Noah kept working, because he trusted Allah.”",
+     "solo": "Draw the ark. Write two sentences from the chapter."
+    }
+   },
+   {
+    "id": 7,
+    "type": "story",
+    "title": "The Great Flood",
+    "content": "Then heavy rain came down from the sky. Water came up from the ground, too. This was the flood. Allah told Noah to go into the ark. The believers and two of every animal went in with him.\n\nNoah’s wife and one of his sons did not believe. Noah saw his son near the ship and called, “My son, come with us!” His son said, “I will go up a mountain. It will keep me safe from the water.” Noah said, “Today, nobody is safe from Allah’s order. Only the people with His mercy are safe.” (Surah Hûd, 42–43) Then a big wave came between them, and the son drowned.",
+    "vocabulary": [
+     {
+      "word": "ground",
+      "definition": "The earth under your feet."
+     },
+     {
+      "word": "flood",
+      "definition": "A lot of water everywhere."
+     },
+     {
+      "word": "keep safe",
+      "definition": "Stop bad things from happening to someone."
+     },
+     {
+      "word": "order",
+      "definition": "Words that say \"Do this!\"."
+     },
+     {
+      "word": "mercy",
+      "definition": "Love and kindness from Allah."
+     },
+     {
+      "word": "wave",
+      "definition": "A big moving line of water in the sea."
+     },
+     {
+      "word": "drown",
+      "definition": "Die in water."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h7-1",
+      "x": 35,
+      "y": 46,
+      "title": "The Flood",
+      "description": "Heavy rain came down from the sky. Water came up from the ground, too."
+     },
+     {
+      "id": "h7-2",
+      "x": 68,
+      "y": 50,
+      "title": "Two of Every Animal",
+      "description": "The believers and two of every animal went into the ark with Noah."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "nuh-a1-quick-7",
+      "type": "multiple-choice",
+      "title": "The Great Flood",
+      "instructions": "Choose the best answer.",
+      "question": "What did Noah’s son say?",
+      "options": [
+       "“I will go up a mountain.”",
+       "“I will go into the ark.”",
+       "“I will build a ship.”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 7: His son said, “I will go up a mountain. It will keep me safe from the water.”",
+      "feedback": {
+       "correct": "Yes. He wanted to go up a mountain.",
+       "incorrect": "Read the second paragraph of Chapter 7 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "nuh-a1-language-7-will",
+      "type": "multiple-choice",
+      "title": "Look: Will",
+      "instructions": "Choose the right answer.",
+      "question": "“I will go up a mountain.” When is this?",
+      "options": [
+       "in the future, after now",
+       "in the past",
+       "every day"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Will + verb = the future: I will go.",
+      "feedback": {
+       "correct": "Yes. It is the future.",
+       "incorrect": "Read the second paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "nuh-a1-language-7-practise",
+      "type": "choose-form",
+      "title": "Practise: Came, Went, Saw",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "Then heavy rain [choice] down from the sky.",
+        "options": [
+         "came",
+         "comes"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The believers [choice] in with him.",
+        "options": [
+         "went",
+         "go"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Noah [choice] his son near the ship.",
+        "options": [
+         "saw",
+         "sees"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Come → came, go → went, see → saw in the past.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 7 again."
+      }
+     },
+     {
+      "id": "nuh-a1-language-7-say-it",
+      "type": "reflection",
+      "title": "Say It: Two of Every Animal",
+      "instructions": "Say animals in pairs with your partner.",
+      "question": "Which animals went into the ark?",
+      "correctAnswer": null,
+      "explanation": "Use two + animals and will.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Two …”",
+        "mode": "Pair",
+        "example": "Two cats, two horses."
+       },
+       {
+        "question": "“I will …”",
+        "mode": "Individual",
+        "example": "I will read my book after school."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Who went into the ark?",
+     "options": [
+      "the believers and two of every animal",
+      "only Noah (pbuh)",
+      "all the people"
+     ],
+     "answer": 0,
+     "quote": "The believers and two of every animal went in with him."
+    },
+    "iCan": [
+     "I can tell about the great flood.",
+     "I can understand will.",
+     "I can name animals in pairs."
+    ]
+   },
+   {
+    "id": 8,
+    "type": "story",
+    "title": "A New Start",
+    "content": "Then Allah said: “O earth, take back your water! O sky, stop!” (Surah Hûd, 44) The water went down, and the ark stopped on Mount Judi.\n\nNoah opened the door. The animals and birds went out and lived all over the earth. Noah and the believers came out, too. Noah put his head on the ground and thanked Allah.\n\nMany years later, Noah was very old. He gave advice to his children. He told them to believe only in Allah and never to be proud.",
+    "vocabulary": [
+     {
+      "word": "advice",
+      "definition": "Words that help someone do the right thing."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h8-1",
+      "x": 35,
+      "y": 46,
+      "title": "A New Start",
+      "description": "The animals and birds went out and lived all over the earth."
+     },
+     {
+      "id": "h8-2",
+      "x": 68,
+      "y": 50,
+      "title": "Advice",
+      "description": "Noah gave advice to his children. He told them to believe only in Allah and never to be proud."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "nuh-a1-quick-8",
+      "type": "drag-drop",
+      "title": "A New Start",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 8?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Noah (pbuh) thanked Allah.",
+         "The animals lived all over the earth."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Noah (pbuh) told his children to be proud."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Noah (pbuh) thanked Allah.",
+        "The animals lived all over the earth."
+       ],
+       "False": [
+        "Noah (pbuh) told his children to be proud."
+       ]
+      },
+      "explanation": "Chapter 8 says: “Noah put his head on the ground and thanked Allah.” “He told them to believe only in Allah and never to be proud.”",
+      "feedback": {
+       "correct": "Yes! He told them never to be proud.",
+       "incorrect": "Read the last paragraph of Chapter 8 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "nuh-a1-language-8-told",
+      "type": "multiple-choice",
+      "title": "Look: Told Them to …",
+      "instructions": "Choose the right answer.",
+      "question": "“He told them to believe only in Allah and never to be proud.” What did Noah (pbuh) say?",
+      "options": [
+       "“Believe only in Allah. Never be proud.”",
+       "“Be proud.”",
+       "“Build a ship.”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Told + person + to + verb: He told them to believe. Never to be = do not be.",
+      "feedback": {
+       "correct": "Yes. That was his advice.",
+       "incorrect": "Read the last paragraph of Chapter 8."
+      }
+     },
+     {
+      "id": "nuh-a1-language-8-practise",
+      "type": "word-bank",
+      "title": "Practise: A New Start",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What happened?",
+      "fillBlanksText": "The water went [blank], and the ark stopped on Mount Judi. Noah [blank] the door. He put his head on the ground and [blank] Allah.",
+      "wordBank": [
+       "down",
+       "opened",
+       "thanked",
+       "up",
+       "opens"
+      ],
+      "correctAnswer": [
+       "down",
+       "opened",
+       "thanked"
+      ],
+      "explanation": "Went down ≠ went up. Open → opened, thank → thanked.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first two paragraphs of Chapter 8."
+      }
+     },
+     {
+      "id": "nuh-a1-language-8-write-it",
+      "type": "reflection",
+      "title": "Write It: Good Advice",
+      "instructions": "Write advice for a friend.",
+      "question": "What is good advice?",
+      "correctAnswer": null,
+      "explanation": "Use always and never + verb.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Always …”",
+        "mode": "Individual",
+        "example": "Always say true words."
+       },
+       {
+        "question": "“Never …”",
+        "mode": "Individual",
+        "example": "Never be proud."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Where did the ark stop?",
+     "options": [
+      "on Mount Judi",
+      "in the sea",
+      "in a city"
+     ],
+     "answer": 0,
+     "quote": "The water went down, and the ark stopped on Mount Judi."
+    },
+    "iCan": [
+     "I can tell about the new start.",
+     "I can understand told them to ….",
+     "I can write good advice."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Noah’s Advice Poster",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group writes Noah’s advice in the middle of the poster.",
+      "Each student writes one more piece of good advice: “Always …” or “Never …”.",
+      "The group draws the ark on Mount Judi.",
+      "The group reads the advice to the class."
+     ],
+     "share": "The group reads the poster. Story: “He gave advice to his children.”",
+     "solo": "Write Noah’s advice and two more pieces of advice."
+    }
+   },
+   {
+    "id": 11,
+    "type": "quiz",
+    "title": "Knowledge Check",
+    "image": "https://picsum.photos/seed/quiz-nuh-a1/1200/800",
+    "audioUrl": "",
+    "content": "Check your understanding of the complete story.",
+    "exercises": [
+     {
+      "id": "nuh-a1-kc-1",
+      "type": "multiple-choice",
+      "title": "Five Great Prophets",
+      "instructions": "Choose the answer.",
+      "question": "Who is one of the five great prophets?",
+      "options": [
+       "Noah (pbuh)",
+       "Wadd",
+       "Nasr"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 1: “These five prophets are Noah (pbuh), Abraham (pbuh), Moses (pbuh), Jesus (pbuh) and Muhammad (pbuh).”",
+      "feedback": {
+       "correct": "Yes. Noah (pbuh).",
+       "incorrect": "Read the second paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "nuh-a1-kc-2",
+      "type": "true-false",
+      "title": "Statues",
+      "instructions": "Is it true or false?",
+      "question": "People started to pray to statues of five good men.",
+      "correctAnswer": true,
+      "explanation": "Chapter 2: “After many years, people forgot Allah and started to pray to statues of these five men.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the second paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "nuh-a1-kc-3",
+      "type": "multiple-choice",
+      "title": "Noah’s Message",
+      "instructions": "Choose the answer.",
+      "question": "What did Noah (pbuh) say?",
+      "options": [
+       "“Do not pray to statues.”",
+       "“Make more statues.”",
+       "“Go away.”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: He also told them, “I am a Messenger of Allah. Do not pray to statues.”",
+      "feedback": {
+       "correct": "Yes.",
+       "incorrect": "Read the first paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "nuh-a1-kc-4",
+      "type": "true-false",
+      "title": "Money",
+      "instructions": "Is it true or false?",
+      "question": "Noah (pbuh) wanted money from his people.",
+      "correctAnswer": false,
+      "explanation": "Chapter 5: “He did not want money from them.”",
+      "feedback": {
+       "correct": "Yes, it is false. He did not want money.",
+       "incorrect": "Read the first paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "nuh-a1-kc-5",
+      "type": "multiple-choice",
+      "title": "The Ark",
+      "instructions": "Choose the answer.",
+      "question": "What did they use for the ark?",
+      "options": [
+       "wood and nails",
+       "stone and gold",
+       "paper"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 6: “They used wood and nails.”",
+      "feedback": {
+       "correct": "Yes. Wood and nails.",
+       "incorrect": "Read the first paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "nuh-a1-kc-6",
+      "type": "multiple-choice",
+      "title": "Mount Judi",
+      "instructions": "Choose the answer.",
+      "question": "What did Noah (pbuh) do after the ark stopped?",
+      "options": [
+       "He thanked Allah.",
+       "He built a house.",
+       "He went to sleep."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 8: “Noah put his head on the ground and thanked Allah.”",
+      "feedback": {
+       "correct": "Yes. He thanked Allah.",
+       "incorrect": "Read the second paragraph of Chapter 8."
+      }
+     }
+    ]
+   },
+   {
+    "id": 13,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "Review all key vocabulary from the story in one place.",
+    "image": "https://picsum.photos/seed/glossary-nuh-a1/1200/800",
+    "vocabulary": [
+     {
+      "word": "send",
+      "definition": "Make someone go to a place.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/send/",
+      "chapter": 1,
+      "chapterTitle": "Five Great Prophets",
+      "storyExample": "Allah sent prophets to people.",
+      "category": "Actions"
+     },
+     {
+      "word": "prophet",
+      "definition": "A person who brings Allah's words to people.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈprɑːfɪt/",
+      "chapter": 1,
+      "chapterTitle": "Five Great Prophets",
+      "storyExample": "Allah sent prophets to people.",
+      "category": "Faith"
+     },
+     {
+      "word": "patient",
+      "definition": "Can wait a long time and not get angry.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈpeɪʃnt/",
+      "chapter": 1,
+      "chapterTitle": "Five Great Prophets",
+      "storyExample": "They were very patient and strong in their hearts.",
+      "category": "Values"
+     },
+     {
+      "word": "duty",
+      "definition": "A thing you must do.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈduːti/",
+      "chapter": 1,
+      "chapterTitle": "Five Great Prophets",
+      "storyExample": "They had a very important duty.",
+      "category": "Values"
+     },
+     {
+      "word": "earth",
+      "definition": "The world we live in.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɜːrθ/",
+      "chapter": 2,
+      "chapterTitle": "Good Men and Stone Statues",
+      "storyExample": "After Prophet Adam (pbuh), many people lived on the earth.",
+      "category": "Nature"
+     },
+     {
+      "word": "worship",
+      "definition": "Pray to and love God.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/ˈwɜːrʃɪp/",
+      "chapter": 2,
+      "chapterTitle": "Good Men and Stone Statues",
+      "storyExample": "At first, they worshipped only Allah.",
+      "category": "Faith"
+     },
+     {
+      "word": "still",
+      "definition": "Then, too, like before.",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "pronunciation": "/stɪl/",
+      "chapter": 2,
+      "chapterTitle": "Good Men and Stone Statues",
+      "storyExample": "They still prayed to Allah day and night.",
+      "category": "Describing"
+     },
+     {
+      "word": "pray",
+      "definition": "Talk to Allah.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/preɪ/",
+      "chapter": 2,
+      "chapterTitle": "Good Men and Stone Statues",
+      "storyExample": "They still prayed to Allah day and night.",
+      "category": "Faith"
+     },
+     {
+      "word": "miss",
+      "definition": "Feel sad because a person is not with you.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/mɪs/",
+      "chapter": 2,
+      "chapterTitle": "Good Men and Stone Statues",
+      "storyExample": "When these good men died, the people missed them.",
+      "category": "Feelings"
+     },
+     {
+      "word": "statue",
+      "definition": "A big figure of a person, made of stone.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈstætʃuː/",
+      "chapter": 2,
+      "chapterTitle": "Good Men and Stone Statues",
+      "storyExample": "Later, they made statues of them.",
+      "category": "Things"
+     },
+     {
+      "word": "honest",
+      "definition": "Always says true things.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈɑːnɪst/",
+      "chapter": 3,
+      "chapterTitle": "Noah’s Message",
+      "storyExample": "Noah was kind, honest and patient.",
+      "category": "Values"
+     },
+     {
+      "word": "true",
+      "definition": "Right, not a lie.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/truː/",
+      "chapter": 3,
+      "chapterTitle": "Noah’s Message",
+      "storyExample": "He always said true words.",
+      "category": "Values"
+     },
+     {
+      "word": "messenger",
+      "definition": "A person who brings words from Allah.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmesɪndʒər/",
+      "chapter": 3,
+      "chapterTitle": "Noah’s Message",
+      "storyExample": "He also told them, “I am a Messenger of Allah. Do not pray to statues.”",
+      "category": "Faith"
+     },
+     {
+      "word": "believe",
+      "definition": "Think that something is true.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/bɪˈliːv/",
+      "chapter": 3,
+      "chapterTitle": "Noah’s Message",
+      "storyExample": "Some people listened to him and believed him.",
+      "category": "Faith"
+     },
+     {
+      "word": "weak",
+      "definition": "Not strong.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/wiːk/",
+      "chapter": 3,
+      "chapterTitle": "Noah’s Message",
+      "storyExample": "Most of them were poor and weak.",
+      "category": "Describing"
+     },
+     {
+      "word": "rich",
+      "definition": "With a lot of money.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/rɪtʃ/",
+      "chapter": 3,
+      "chapterTitle": "Noah’s Message",
+      "storyExample": "For Allah, poor people and rich people are the same.",
+      "category": "Describing"
+     },
+     {
+      "word": "important",
+      "definition": "Big and strong in a group; people listen to them.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ɪmˈpɔːrtnt/",
+      "chapter": 4,
+      "chapterTitle": "The Rich Men Say No",
+      "storyExample": "The rich and important men did not listen to Noah.",
+      "category": "Describing"
+     },
+     {
+      "word": "proud",
+      "definition": "Thinking that you are better than others.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/praʊd/",
+      "chapter": 4,
+      "chapterTitle": "The Rich Men Say No",
+      "storyExample": "They were proud.",
+      "category": "Values"
+     },
+     {
+      "word": "believer",
+      "definition": "A person who believes in Allah.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/bɪˈliːvər/",
+      "chapter": 4,
+      "chapterTitle": "The Rich Men Say No",
+      "storyExample": "But Noah said that the believers would stay with him.",
+      "category": "Faith"
+     },
+     {
+      "word": "laugh",
+      "definition": "Make a happy sound \"ha ha\".",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/læf/",
+      "chapter": 5,
+      "chapterTitle": "Nine Hundred and Fifty Years",
+      "storyExample": "When Noah talked, they put their fingers in their ears and laughed at him.",
+      "category": "Actions"
+     },
+     {
+      "word": "cruel",
+      "definition": "Very bad and unkind to others.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈkruːəl/",
+      "chapter": 5,
+      "chapterTitle": "Nine Hundred and Fifty Years",
+      "storyExample": "Later, they became cruel and hurt him.",
+      "category": "Values"
+     },
+     {
+      "word": "lead",
+      "definition": "Take someone to a place.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/liːd/",
+      "chapter": 5,
+      "chapterTitle": "Nine Hundred and Fifty Years",
+      "storyExample": "They lead good people to the wrong way.",
+      "category": "Actions"
+     },
+     {
+      "word": "accept",
+      "definition": "Say yes to something.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/əkˈsept/",
+      "chapter": 5,
+      "chapterTitle": "Nine Hundred and Fifty Years",
+      "storyExample": "Allah accepted his prayer.",
+      "category": "Actions"
+     },
+     {
+      "word": "ark",
+      "definition": "A very big ship.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɑːrk/",
+      "chapter": 6,
+      "chapterTitle": "A Ship on the Land",
+      "storyExample": "Allah told Noah to build an ark.",
+      "category": "Things"
+     },
+     {
+      "word": "build",
+      "definition": "Make a house, a ship or a building.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/bɪld/",
+      "chapter": 6,
+      "chapterTitle": "A Ship on the Land",
+      "storyExample": "So Noah and the believers started to build a very big ship.",
+      "category": "Actions"
+     },
+     {
+      "word": "ship",
+      "definition": "A very big boat.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ʃɪp/",
+      "chapter": 6,
+      "chapterTitle": "A Ship on the Land",
+      "storyExample": "So Noah and the believers started to build a very big ship.",
+      "category": "Things"
+     },
+     {
+      "word": "nail",
+      "definition": "A small, thin piece of metal for wood.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/neɪl/",
+      "chapter": 6,
+      "chapterTitle": "A Ship on the Land",
+      "storyExample": "They used wood and nails, and they built it far from the sea.",
+      "category": "Things"
+     },
+     {
+      "word": "trust",
+      "definition": "Believe that someone is good and true.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/trʌst/",
+      "chapter": 6,
+      "chapterTitle": "A Ship on the Land",
+      "storyExample": "But Noah kept working, because he trusted Allah.",
+      "category": "Faith"
+     },
+     {
+      "word": "ready",
+      "definition": "Finished; you can use it now.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈredi/",
+      "chapter": 6,
+      "chapterTitle": "A Ship on the Land",
+      "storyExample": "Then the ark was ready.",
+      "category": "Describing"
+     },
+     {
+      "word": "ground",
+      "definition": "The earth under your feet.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɡraʊnd/",
+      "chapter": 7,
+      "chapterTitle": "The Great Flood",
+      "storyExample": "Water came up from the ground, too.",
+      "category": "Nature"
+     },
+     {
+      "word": "flood",
+      "definition": "A lot of water everywhere.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/flʌd/",
+      "chapter": 7,
+      "chapterTitle": "The Great Flood",
+      "storyExample": "This was the flood.",
+      "category": "Nature"
+     },
+     {
+      "word": "keep safe",
+      "definition": "Stop bad things from happening to someone.",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "pronunciation": "/kiːp seɪf/",
+      "chapter": 7,
+      "chapterTitle": "The Great Flood",
+      "storyExample": "It will keep me safe from the water.",
+      "category": "Actions"
+     },
+     {
+      "word": "order",
+      "definition": "Words that say \"Do this!\".",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈɔːrdər/",
+      "chapter": 7,
+      "chapterTitle": "The Great Flood",
+      "storyExample": "Today, nobody is safe from Allah’s order.",
+      "category": "Faith"
+     },
+     {
+      "word": "mercy",
+      "definition": "Love and kindness from Allah.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmɜːrsi/",
+      "chapter": 7,
+      "chapterTitle": "The Great Flood",
+      "storyExample": "Only the people with His mercy are safe.",
+      "category": "Faith"
+     },
+     {
+      "word": "wave",
+      "definition": "A big moving line of water in the sea.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/weɪv/",
+      "chapter": 7,
+      "chapterTitle": "The Great Flood",
+      "storyExample": "Then a big wave came between them, and the son drowned.",
+      "category": "Nature"
+     },
+     {
+      "word": "drown",
+      "definition": "Die in water.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/draʊn/",
+      "chapter": 7,
+      "chapterTitle": "The Great Flood",
+      "storyExample": "Then a big wave came between them, and the son drowned.",
+      "category": "Actions"
+     },
+     {
+      "word": "advice",
+      "definition": "Words that help someone do the right thing.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ədˈvaɪs/",
+      "chapter": 8,
+      "chapterTitle": "A New Start",
+      "storyExample": "He gave advice to his children.",
+      "category": "Values"
+     }
+    ]
+   },
+   {
+    "id": 12,
+    "type": "vocabulary-match",
+    "title": "Vocabulary Challenge",
+    "image": "https://picsum.photos/seed/vocab-match-nuh-a1/1200/800",
+    "audioUrl": "",
+    "content": "Match six story words with their meanings.",
+    "vocabularyPairs": [
+     {
+      "word": "patient",
+      "meaning": "Can wait a long time and not get angry.",
+      "partOfSpeech": "adjective",
+      "chapter": 1,
+      "context": "They were very patient and strong in their hearts."
+     },
+     {
+      "word": "statue",
+      "meaning": "A big figure of a person, made of stone.",
+      "partOfSpeech": "noun",
+      "chapter": 2,
+      "context": "Later, they made statues of them."
+     },
+     {
+      "word": "proud",
+      "meaning": "Thinking that you are better than others.",
+      "partOfSpeech": "adjective",
+      "chapter": 4,
+      "context": "They were proud."
+     },
+     {
+      "word": "cruel",
+      "meaning": "Very bad and unkind to others.",
+      "partOfSpeech": "adjective",
+      "chapter": 5,
+      "context": "Later, they became cruel and hurt him."
+     },
+     {
+      "word": "nail",
+      "meaning": "A small, thin piece of metal for wood.",
+      "partOfSpeech": "noun",
+      "chapter": 6,
+      "context": "They used wood and nails, and they built it far from the sea."
+     },
+     {
+      "word": "flood",
+      "meaning": "A lot of water everywhere.",
+      "partOfSpeech": "noun",
+      "chapter": 7,
+      "context": "This was the flood."
+     }
+    ]
+   },
+   {
+    "id": 14,
+    "type": "exercises",
+    "title": "Language Review",
+    "image": "https://picsum.photos/seed/exercises-nuh-a1/1200/800",
+    "content": "Review the language from all chapters.",
+    "exercises": [
+     {
+      "id": "nuh-a1-language-review-1",
+      "type": "drag-drop",
+      "title": "Look: Two Kinds of Past",
+      "instructions": "Put each verb in the right group.",
+      "question": "How does each verb show the past?",
+      "dragDropGroups": [
+       {
+        "group": "Ends in -ed",
+        "items": [
+         "prayed",
+         "missed",
+         "laughed",
+         "trusted"
+        ]
+       },
+       {
+        "group": "Changes",
+        "items": [
+         "sent",
+         "forgot",
+         "built",
+         "came"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Ends in -ed": [
+        "prayed",
+        "missed",
+        "laughed",
+        "trusted"
+       ],
+       "Changes": [
+        "sent",
+        "forgot",
+        "built",
+        "came"
+       ]
+      },
+      "explanation": "Many verbs add -ed: pray → prayed, miss → missed. Some verbs change: send → sent, forget → forgot, build → built, come → came.",
+      "feedback": {
+       "correct": "Well done. You found the two kinds of past.",
+       "incorrect": "Say the verb today: pray, send … Does it add -ed or change?"
+      }
+     },
+     {
+      "id": "nuh-a1-language-review-2",
+      "type": "choose-form",
+      "title": "Practise: Because, But",
+      "instructions": "Choose the right word.",
+      "question": "Because or but?",
+      "formChoices": [
+       {
+        "sentence": "Noah kept working, [choice] he trusted Allah.",
+        "options": [
+         "because",
+         "but"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The people laughed at him, [choice] Noah stayed patient.",
+        "options": [
+         "but",
+         "because"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Because tells why. But shows a different idea.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Why did he work? Because …"
+      }
+     },
+     {
+      "id": "nuh-a1-language-review-3",
+      "type": "choose-form",
+      "title": "Practise: Was, Were",
+      "instructions": "Choose was or were.",
+      "question": "One or many?",
+      "formChoices": [
+       {
+        "sentence": "Most of them [choice] poor and weak.",
+        "options": [
+         "were",
+         "was"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Then the ark [choice] ready.",
+        "options": [
+         "was",
+         "were"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "One thing: was. Two or more: were.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Most of them = many. The ark = one."
+      }
+     },
+     {
+      "id": "nuh-a1-language-review-4",
+      "type": "word-bank",
+      "title": "Practise: For, Will",
+      "instructions": "Fill the gaps with the words.",
+      "question": "How long? What next?",
+      "fillBlanksText": "Noah talked to his people [blank] 950 years. His son said, “I [blank] go up a mountain.” Noah told his children [blank] be proud.",
+      "wordBank": [
+       "for",
+       "will",
+       "never to",
+       "in",
+       "not"
+      ],
+      "correctAnswer": [
+       "for",
+       "will",
+       "never to"
+      ],
+      "explanation": "For + time: for 950 years. Will + verb: the future. Never to + verb.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Find these words in Chapters 5, 7 and 8."
+      }
+     },
+     {
+      "id": "nuh-a1-language-review-5",
+      "type": "error-correction",
+      "title": "Practise: Fix One Word",
+      "instructions": "Find the wrong word. Choose the right word.",
+      "question": "Which word is wrong?",
+      "errorItems": [
+       {
+        "sentence": "Noah and the believers builded a ship.",
+        "error": "builded",
+        "options": [
+         "built",
+         "build",
+         "builds"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "People forgetted Allah’s words.",
+        "error": "forgetted",
+        "options": [
+         "forget",
+         "forgot",
+         "forgets"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "“Build” and “forget” change in the past: built, forgot.",
+      "feedback": {
+       "correct": "Well done.",
+       "incorrect": "Build → built. Forget → forgot. They do not take -ed."
+      }
+     },
+     {
+      "id": "nuh-a1-language-review-6",
+      "type": "reflection",
+      "title": "Use: Patience",
+      "instructions": "Write three sentences about patience.",
+      "question": "When are you patient?",
+      "correctAnswer": null,
+      "explanation": "Use patient, because and never.",
+      "feedback": {
+       "correct": "Write three short sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "One “patient”: “I am patient when …”",
+        "mode": "Individual",
+        "example": "I am patient when I help my brother."
+       },
+       {
+        "question": "One “because”: “… because …”",
+        "mode": "Individual",
+        "example": "I wait because my friend is late."
+       },
+       {
+        "question": "One “never”: “Never …”",
+        "mode": "Individual",
+        "example": "Never get angry fast."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": 15,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "image": "https://picsum.photos/seed/challenge-nuh-a1/1200/800",
+    "content": "Bring the whole story together in the Final Challenge.",
+    "exercises": [
+     {
+      "id": "nuh-a1-final-1",
+      "type": "fill-blanks",
+      "title": "Five Great Prophets",
+      "instructions": "Write one word.",
+      "question": "What were the five prophets like?",
+      "fillBlanksText": "They were very [blank] and strong in their hearts.",
+      "correctAnswer": [
+       "patient"
+      ],
+      "explanation": "Chapter 1: “They were very patient and strong in their hearts.”",
+      "feedback": {
+       "correct": "Yes. Patient.",
+       "incorrect": "Read the first paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "nuh-a1-final-2",
+      "type": "multiple-choice",
+      "title": "Five Good Men",
+      "instructions": "Choose the answer.",
+      "question": "What did people do after the five good men died?",
+      "options": [
+       "They made their pictures and then statues.",
+       "They built a ship.",
+       "They went to a mountain."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 2: “First, they made their pictures. Later, they made statues of them.”",
+      "feedback": {
+       "correct": "Yes.",
+       "incorrect": "Read the second paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "nuh-a1-final-3",
+      "type": "true-false",
+      "title": "Poor and Rich",
+      "instructions": "Is it true or false?",
+      "question": "For Allah, poor people and rich people are the same.",
+      "correctAnswer": true,
+      "explanation": "Chapter 3: “For Allah, poor people and rich people are the same.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "nuh-a1-final-4",
+      "type": "matching",
+      "title": "Who Said It?",
+      "instructions": "Match the people with their words.",
+      "question": "Who said it?",
+      "matchingHeadings": {
+       "left": "Who?",
+       "right": "Words"
+      },
+      "matchingPairs": [
+       {
+        "left": "the rich men",
+        "right": "“Tell the poor people to go.”"
+       },
+       {
+        "left": "the people",
+        "right": "“Look! A ship, but there is no sea here!”"
+       },
+       {
+        "left": "Noah’s son",
+        "right": "“I will go up a mountain.”"
+       }
+      ],
+      "correctAnswer": {
+       "the rich men": "“Tell the poor people to go.”",
+       "the people": "“Look! A ship, but there is no sea here!”",
+       "Noah’s son": "“I will go up a mountain.”"
+      },
+      "explanation": "Chapter 4: the rich men. Chapter 6: the people. Chapter 7: Noah’s son.",
+      "feedback": {
+       "correct": "Good. You matched all three.",
+       "incorrect": "Read Chapters 4, 6 and 7 again."
+      }
+     },
+     {
+      "id": "nuh-a1-final-5",
+      "type": "multiple-choice",
+      "title": "The People",
+      "instructions": "Choose the answer.",
+      "question": "What did the people do when Noah (pbuh) talked?",
+      "options": [
+       "They put their fingers in their ears.",
+       "They listened carefully.",
+       "They wrote his words."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: “When Noah talked, they put their fingers in their ears and laughed at him.”",
+      "feedback": {
+       "correct": "Yes.",
+       "incorrect": "Read the second paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "nuh-a1-final-6",
+      "type": "true-false",
+      "title": "The Ark",
+      "instructions": "Is it true or false?",
+      "question": "They built the ark near the sea.",
+      "correctAnswer": false,
+      "explanation": "Chapter 6: “They used wood and nails, and they built it far from the sea.”",
+      "feedback": {
+       "correct": "Yes, it is false. It was far from the sea.",
+       "incorrect": "Read the first paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "nuh-a1-final-7",
+      "type": "multiple-choice",
+      "title": "The Flood",
+      "instructions": "Choose the answer.",
+      "question": "Where did the water come from?",
+      "options": [
+       "from the sky and from the ground",
+       "only from the sea",
+       "from a river"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 7: “Then heavy rain came down from the sky. Water came up from the ground, too.”",
+      "feedback": {
+       "correct": "Yes.",
+       "incorrect": "Read the first paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "nuh-a1-final-8",
+      "type": "sequencing",
+      "title": "The Story of Noah (pbuh)",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Allah sent Noah (pbuh) to the people."
+       },
+       {
+        "id": "2",
+        "text": "Noah (pbuh) and the believers built the ark."
+       },
+       {
+        "id": "3",
+        "text": "The flood came."
+       },
+       {
+        "id": "4",
+        "text": "The ark stopped on Mount Judi."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Noah’s message (Chapter 3) → the ark (Chapter 6) → the flood (Chapter 7) → Mount Judi (Chapter 8).",
+      "feedback": {
+       "correct": "Great! You know the story of Noah (pbuh).",
+       "incorrect": "Think about the order of the chapters."
+      }
+     }
+    ]
+   }
+  ],
+  "teacherGuide": [],
+  "selfStudyGuide": []
+ }
+}

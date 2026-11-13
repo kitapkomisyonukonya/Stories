@@ -1,0 +1,2358 @@
+{
+ "schema": 1,
+ "storyId": "gevherNesibe",
+ "level": "A1",
+ "language": "en",
+ "collection": "turkish",
+ "book": {
+  "id": "gevherNesibe-turkish-a1-en",
+  "title": "The Gevher Nesibe Hospital: A Princess and Her Last Wish (A1)",
+  "level": "A1",
+  "baseFontSize": 13,
+  "pages": [
+   {
+    "id": 1,
+    "type": "story",
+    "title": "A Very Old Hospital",
+    "content": "Kayseri is a city in Anatolia. There is a very old building there. It is the Gevher Nesibe Hospital and Medical School. It is the oldest Seljuk hospital in Anatolia. People built it in 1205–1206.\n\nThis building was both a hospital and a school. Medical students studied and practiced here. It was the first place in the world with both. In Europe, similar schools started more than 300 years later. Today, this old building is the Museum of the Seljuk Civilization. We can visit it.",
+    "vocabulary": [
+     {
+      "word": "Kayseri",
+      "definition": "__historical_entity__:gevher-a1-kayseri"
+     },
+     {
+      "word": "Anatolia",
+      "definition": "__historical_entity__:gevher-a1-anatolia"
+     },
+     {
+      "word": "building",
+      "definition": "A house, a school or a hospital."
+     },
+     {
+      "word": "hospital",
+      "definition": "A place for sick people and doctors."
+     },
+     {
+      "word": "build",
+      "definition": "Make a house or a building."
+     },
+     {
+      "word": "both",
+      "definition": "The two; this one and that one."
+     },
+     {
+      "word": "similar",
+      "definition": "Almost the same."
+     },
+     {
+      "word": "museum",
+      "definition": "A building with old and interesting things."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h1-1",
+      "x": 35,
+      "y": 46,
+      "title": "Kayseri",
+      "description": "Kayseri is a city in Anatolia. The old hospital is there."
+     },
+     {
+      "id": "h1-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Museum Today",
+      "description": "Today, this old building is the Museum of the Seljuk Civilization."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "gevhernesibe-a1-quick-1",
+      "type": "drag-drop",
+      "title": "A Very Old Hospital",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 1?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "People built it in 1205–1206.",
+         "Today, the building is a museum."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "In Europe, similar schools started before it."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "People built it in 1205–1206.",
+        "Today, the building is a museum."
+       ],
+       "False": [
+        "In Europe, similar schools started before it."
+       ]
+      },
+      "explanation": "Chapter 1 says: “People built it in 1205–1206.” “In Europe, similar schools started more than 300 years later.” “Today, this old building is the Museum of the Seljuk Civilization.”",
+      "feedback": {
+       "correct": "Yes! Schools in Europe started 300 years later.",
+       "incorrect": "Read the second paragraph of Chapter 1 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "gevhernesibe-a1-language-1-both",
+      "type": "multiple-choice",
+      "title": "Look: Both … and …",
+      "instructions": "Choose the right answer.",
+      "question": "“This building was both a hospital and a school.” What does this mean?",
+      "options": [
+       "It was a hospital. It was a school, too.",
+       "It was only a hospital.",
+       "It was only a school."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Both A and B = A and B, the two of them.",
+      "feedback": {
+       "correct": "Yes. It was a hospital and a school.",
+       "incorrect": "Read the second paragraph of Chapter 1 again."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-1-practise",
+      "type": "choose-form",
+      "title": "Practise: There Is, It Is",
+      "instructions": "Choose the right words.",
+      "question": "Which words go in the gap?",
+      "formChoices": [
+       {
+        "sentence": "[choice] a very old building in Kayseri.",
+        "options": [
+         "There is",
+         "It is"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] the oldest Seljuk hospital in Anatolia.",
+        "options": [
+         "It is",
+         "There is"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "There is = a thing is in a place. It is = we talk about that thing again.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-1-say-it",
+      "type": "reflection",
+      "title": "Say It: My City",
+      "instructions": "Tell your partner about your city.",
+      "question": "What is in your city?",
+      "correctAnswer": null,
+      "explanation": "Use there is and it is.",
+      "feedback": {
+       "correct": "Say three sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“There is a … in my city.”",
+        "mode": "Pair",
+        "example": "There is a very old mosque in my city."
+       },
+       {
+        "question": "“It is …”",
+        "mode": "Pair",
+        "example": "It is very big."
+       },
+       {
+        "question": "“We can visit …”",
+        "mode": "Individual",
+        "example": "We can visit the museum."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What was this old building?",
+     "options": [
+      "a hospital and a school",
+      "a shop",
+      "a palace"
+     ],
+     "answer": 0,
+     "quote": "This building was both a hospital and a school."
+    },
+    "iCan": [
+     "I can tell about the old hospital in Kayseri.",
+     "I can understand both … and ….",
+     "I can use there is and it is."
+    ]
+   },
+   {
+    "id": 2,
+    "type": "story",
+    "title": "A Princess",
+    "content": "Gevher Nesibe was a Seljuk princess. Her father was Sultan Kılıçarslan II. Her brother was Sultan Gıyâseddin Keyhusrev I.\n\nPeople tell a famous story about her. When she was young, she loved a young commander and wanted to marry him. But her brother did not agree. He sent the young man to a war, far away. The commander died there. Gevher Nesibe was very sad. Soon, she became very sick. At that time, there was no good hospital in Kayseri.",
+    "vocabulary": [
+     {
+      "word": "Kılıçarslan II",
+      "definition": "__historical_entity__:gevher-a1-kilicarslan-ii"
+     },
+     {
+      "word": "Gıyâseddin Keyhusrev I",
+      "definition": "__historical_entity__:gevher-a1-giyaseddin-keyhusrev-i"
+     },
+     {
+      "word": "princess",
+      "definition": "The daughter of a king or sultan."
+     },
+     {
+      "word": "commander",
+      "definition": "A leader of soldiers."
+     },
+     {
+      "word": "marry",
+      "definition": "Be husband and wife."
+     },
+     {
+      "word": "agree",
+      "definition": "Say yes; think the same."
+     },
+     {
+      "word": "war",
+      "definition": "A big fight between two countries."
+     },
+     {
+      "word": "far away",
+      "definition": "In a place a long way from here."
+     },
+     {
+      "word": "sick",
+      "definition": "Not well; with an illness."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h2-1",
+      "x": 35,
+      "y": 46,
+      "title": "A Seljuk Family",
+      "description": "Her father was Sultan Kılıçarslan II. Her brother was Sultan Gıyâseddin Keyhusrev I."
+     },
+     {
+      "id": "h2-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Sad Story",
+      "description": "The young commander died in a war, far away. Gevher Nesibe was very sad."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "gevhernesibe-a1-quick-2",
+      "type": "sequencing",
+      "title": "A Princess",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Gevher Nesibe loved a young commander."
+       },
+       {
+        "id": "2",
+        "text": "Gevher Nesibe’s brother sent the young man to a war."
+       },
+       {
+        "id": "3",
+        "text": "The commander died in the war."
+       },
+       {
+        "id": "4",
+        "text": "Gevher Nesibe became very sick."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 2: She loved a commander → her brother sent him to a war → he died → she became sick.",
+      "feedback": {
+       "correct": "Great! You put the story in order.",
+       "incorrect": "Read the second paragraph of Chapter 2 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "gevhernesibe-a1-language-2-family",
+      "type": "matching",
+      "title": "Look: Her Family",
+      "instructions": "Match the two parts.",
+      "question": "Who was who?",
+      "matchingHeadings": {
+       "left": "Person",
+       "right": "Who?"
+      },
+      "matchingPairs": [
+       {
+        "left": "Kılıçarslan II",
+        "right": "her father"
+       },
+       {
+        "left": "Gıyâseddin Keyhusrev I",
+        "right": "her brother"
+       },
+       {
+        "left": "Gevher Nesibe",
+        "right": "a Seljuk princess"
+       }
+      ],
+      "correctAnswer": {
+       "Kılıçarslan II": "her father",
+       "Gıyâseddin Keyhusrev I": "her brother",
+       "Gevher Nesibe": "a Seljuk princess"
+      },
+      "explanation": "“Her father was Sultan Kılıçarslan II. Her brother was Sultan Gıyâseddin Keyhusrev I.”",
+      "feedback": {
+       "correct": "Good. You know her family.",
+       "incorrect": "Read the first paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-2-practise",
+      "type": "choose-form",
+      "title": "Practise: Sent, Died, Became",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "He [choice] the young man to a war.",
+        "options": [
+         "sent",
+         "sends"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The commander [choice] there.",
+        "options": [
+         "died",
+         "dies"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Soon, she [choice] very sick.",
+        "options": [
+         "became",
+         "becomes"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Send → sent, become → became: they change. Die → died: it adds -d.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 2 again."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-2-write-it",
+      "type": "reflection",
+      "title": "Write It: My Family",
+      "instructions": "Write about your family.",
+      "question": "Who is in your family?",
+      "correctAnswer": null,
+      "explanation": "Use my father, my brother, my sister.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“My father is …”",
+        "mode": "Individual",
+        "example": "My father is a teacher."
+       },
+       {
+        "question": "“My brother / sister is …”",
+        "mode": "Individual",
+        "example": "My sister is ten years old."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Who was Gevher Nesibe?",
+     "options": [
+      "a Seljuk princess",
+      "a doctor",
+      "a teacher"
+     ],
+     "answer": 0,
+     "quote": "Gevher Nesibe was a Seljuk princess."
+    },
+    "iCan": [
+     "I can tell about Gevher Nesibe and her family.",
+     "I can use sent, died and became.",
+     "I can write about my family."
+    ]
+   },
+   {
+    "id": 3,
+    "type": "story",
+    "title": "Her Last Wish",
+    "content": "The doctors could not help Gevher Nesibe. Her brother was very sad. He said, “Please tell me your last wish.”\n\nShe said, “Please use my money to build a hospital. Sick people can get help there, and good doctors can teach students. Please do not take money from anyone. Make it free for everyone.”\n\nGevher Nesibe died at a young age. But her wish did not die with her.",
+    "vocabulary": [
+     {
+      "word": "wish",
+      "definition": "A thing you really want."
+     },
+     {
+      "word": "get help",
+      "definition": "Find a person who helps you."
+     },
+     {
+      "word": "free",
+      "definition": "You do not pay money for it."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h3-1",
+      "x": 35,
+      "y": 46,
+      "title": "Her Last Wish",
+      "description": "Gevher Nesibe said, “Please use my money to build a hospital.”"
+     },
+     {
+      "id": "h3-2",
+      "x": 68,
+      "y": 50,
+      "title": "Free for Everyone",
+      "description": "“Please do not take money from anyone. Make it free for everyone.”"
+     }
+    ],
+    "exercises": [
+     {
+      "id": "gevhernesibe-a1-quick-3",
+      "type": "multiple-choice",
+      "title": "Her Last Wish",
+      "instructions": "Choose the best answer.",
+      "question": "Who can pay money at the hospital?",
+      "options": [
+       "nobody; it is free",
+       "only rich people",
+       "only doctors"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: “Please do not take money from anyone. Make it free for everyone.”",
+      "feedback": {
+       "correct": "Yes! The hospital is free for everyone.",
+       "incorrect": "Read the second paragraph of Chapter 3 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "gevhernesibe-a1-language-3-please",
+      "type": "multiple-choice",
+      "title": "Look: Please + Verb",
+      "instructions": "Choose the right answer.",
+      "question": "“Please use my money to build a hospital.” What is this sentence?",
+      "options": [
+       "a polite request",
+       "a question",
+       "a story about the past"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Please + verb asks for something in a polite way: Please use … Please tell me …",
+      "feedback": {
+       "correct": "Yes. It is a polite request.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-3-practise",
+      "type": "word-bank",
+      "title": "Practise: Her Words",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What did she say?",
+      "fillBlanksText": "Please [blank] my money to build a hospital. Sick people [blank] get help there. Please do [blank] take money from anyone.",
+      "wordBank": [
+       "use",
+       "can",
+       "not",
+       "uses",
+       "no"
+      ],
+      "correctAnswer": [
+       "use",
+       "can",
+       "not"
+      ],
+      "explanation": "Please + verb: Please use. Can + verb: can get help. Do not + verb: do not take.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-3-say-it",
+      "type": "reflection",
+      "title": "Say It: My Wish",
+      "instructions": "Tell your partner your wish.",
+      "question": "What is your wish?",
+      "correctAnswer": null,
+      "explanation": "Use my wish is and please.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“My wish is …”",
+        "mode": "Pair",
+        "example": "My wish is a big library in my town."
+       },
+       {
+        "question": "“Please …”",
+        "mode": "Pair",
+        "example": "Please help me."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What was her last wish?",
+     "options": [
+      "a hospital",
+      "a palace",
+      "a big garden"
+     ],
+     "answer": 0,
+     "quote": "She said, “Please use my money to build a hospital.”"
+    },
+    "iCan": [
+     "I can tell about Gevher Nesibe’s last wish.",
+     "I can use please + verb.",
+     "I can say my wish."
+    ]
+   },
+   {
+    "id": 4,
+    "type": "story",
+    "title": "Two Buildings",
+    "content": "Her brother, the Sultan, kept his promise. He built two buildings next to each other. One of them was a school for doctors, the Gıyâsiye Madrasa. The other one was the hospital, the Şifâiye. People also called it “the house of healing”.\n\nThe two buildings look almost the same, so people call them the “Twin Madrasas”. Gevher Nesibe’s grave is inside the school building.",
+    "vocabulary": [
+     {
+      "word": "keep a promise",
+      "definition": "Do the thing you said."
+     },
+     {
+      "word": "healing",
+      "definition": "Making a sick person well again."
+     },
+     {
+      "word": "twin",
+      "definition": "One of two things that look the same."
+     },
+     {
+      "word": "grave",
+      "definition": "The place in the ground for a dead person."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h4-1",
+      "x": 35,
+      "y": 46,
+      "title": "Two Buildings",
+      "description": "One was a school for doctors, the Gıyâsiye Madrasa. The other one was the hospital, the Şifâiye."
+     },
+     {
+      "id": "h4-2",
+      "x": 68,
+      "y": 50,
+      "title": "The Twin Madrasas",
+      "description": "The two buildings look almost the same, so people call them the “Twin Madrasas”."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "gevhernesibe-a1-quick-4",
+      "type": "matching",
+      "title": "Two Buildings",
+      "instructions": "Match the building with the sentence.",
+      "question": "Which building is it?",
+      "matchingHeadings": {
+       "left": "Building",
+       "right": "What was it?"
+      },
+      "matchingPairs": [
+       {
+        "left": "the Gıyâsiye Madrasa",
+        "right": "a school for doctors"
+       },
+       {
+        "left": "the Şifâiye",
+        "right": "the hospital, “the house of healing”"
+       }
+      ],
+      "correctAnswer": {
+       "the Gıyâsiye Madrasa": "a school for doctors",
+       "the Şifâiye": "the hospital, “the house of healing”"
+      },
+      "explanation": "Chapter 4: “One of them was a school for doctors, the Gıyâsiye Madrasa. The other one was the hospital, the Şifâiye.”",
+      "feedback": {
+       "correct": "Yes! You matched the two buildings.",
+       "incorrect": "Read the first paragraph of Chapter 4 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "gevhernesibe-a1-language-4-next",
+      "type": "multiple-choice",
+      "title": "Look: Next to",
+      "instructions": "Choose the right answer.",
+      "question": "“He built two buildings next to each other.” Where are the buildings?",
+      "options": [
+       "very near; side by side",
+       "far away",
+       "one on the other"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Next to = very near, at the side of.",
+      "feedback": {
+       "correct": "Yes. They are side by side.",
+       "incorrect": "Read the first paragraph of Chapter 4 again."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-4-practise",
+      "type": "choose-form",
+      "title": "Practise: One, The Other One",
+      "instructions": "Choose the right words.",
+      "question": "Which words go in the gap?",
+      "formChoices": [
+       {
+        "sentence": "[choice] of them was a school for doctors.",
+        "options": [
+         "One",
+         "Other"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] was the hospital.",
+        "options": [
+         "The other one",
+         "One other"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Two things: one … the other one.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-4-say-it",
+      "type": "reflection",
+      "title": "Say It: Two Things",
+      "instructions": "Talk about two things with your partner.",
+      "question": "What are the two things?",
+      "correctAnswer": null,
+      "explanation": "Use one of them and the other one.",
+      "feedback": {
+       "correct": "Say three sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“One of them is …”",
+        "mode": "Pair",
+        "example": "One of them is my pen."
+       },
+       {
+        "question": "“The other one is …”",
+        "mode": "Pair",
+        "example": "The other one is my pencil."
+       },
+       {
+        "question": "“They look almost the same.”",
+        "mode": "Pair",
+        "example": "My two bags look almost the same."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "picture",
+     "question": "Look at the two buildings. What are they like?",
+     "options": [
+      "almost the same",
+      "very different",
+      "very small"
+     ],
+     "answer": 0,
+     "quote": "The two buildings look almost the same, so people call them the “Twin Madrasas”."
+    },
+    "iCan": [
+     "I can tell about the two buildings.",
+     "I can use next to.",
+     "I can use one … the other one."
+    ]
+   },
+   {
+    "id": 5,
+    "type": "story",
+    "title": "Learning Next to the Patients",
+    "content": "Students had lessons in the school. Then they went to the hospital. There, they worked with real patients. They watched the doctors carefully and learned from them.\n\nIn summer, the students had lessons in the big gardens. In winter, the buildings were warm, because hot water went under the floor. The hospital had two doctors, two surgeons and a man for medicines. There were also rooms for eye operations.",
+    "vocabulary": [
+     {
+      "word": "patient",
+      "definition": "A sick person with a doctor."
+     },
+     {
+      "word": "carefully",
+      "definition": "Slowly and well, with all your mind."
+     },
+     {
+      "word": "surgeon",
+      "definition": "A doctor who opens the body to help."
+     },
+     {
+      "word": "medicine",
+      "definition": "A thing you take when you are sick."
+     },
+     {
+      "word": "operation",
+      "definition": "A doctor's work inside the body."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h5-1",
+      "x": 35,
+      "y": 46,
+      "title": "Real Patients",
+      "description": "The students worked with real patients. They watched the doctors carefully."
+     },
+     {
+      "id": "h5-2",
+      "x": 68,
+      "y": 50,
+      "title": "Warm in Winter",
+      "description": "In winter, the buildings were warm, because hot water went under the floor."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "gevhernesibe-a1-quick-5",
+      "type": "drag-drop",
+      "title": "Learning Next to the Patients",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 5?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "In summer, the students had lessons in the gardens.",
+         "There were rooms for eye operations."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The hospital had ten surgeons."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "In summer, the students had lessons in the gardens.",
+        "There were rooms for eye operations."
+       ],
+       "False": [
+        "The hospital had ten surgeons."
+       ]
+      },
+      "explanation": "Chapter 5 says: “In summer, the students had lessons in the big gardens.” “The hospital had two doctors, two surgeons and a man for medicines.” “There were also rooms for eye operations.”",
+      "feedback": {
+       "correct": "Yes! The hospital had two surgeons.",
+       "incorrect": "Read the second paragraph of Chapter 5 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "gevhernesibe-a1-language-5-seasons",
+      "type": "drag-drop",
+      "title": "Look: In Summer, In Winter",
+      "instructions": "Put each sentence in the right group.",
+      "question": "When was it?",
+      "dragDropGroups": [
+       {
+        "group": "In summer",
+        "items": [
+         "The students had lessons in the big gardens."
+        ]
+       },
+       {
+        "group": "In winter",
+        "items": [
+         "The buildings were warm.",
+         "Hot water went under the floor."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "In summer": [
+        "The students had lessons in the big gardens."
+       ],
+       "In winter": [
+        "The buildings were warm.",
+        "Hot water went under the floor."
+       ]
+      },
+      "explanation": "In + season: in summer, in winter.",
+      "feedback": {
+       "correct": "Good.",
+       "incorrect": "Read the second paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-5-practise",
+      "type": "choose-form",
+      "title": "Practise: Because",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "The buildings were warm, [choice] hot water went under the floor.",
+        "options": [
+         "because",
+         "but"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The students watched the doctors, [choice] they learned from them.",
+        "options": [
+         "and",
+         "because"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Because tells why. And adds more.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 5 again."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-5-say-it",
+      "type": "reflection",
+      "title": "Say It: My School",
+      "instructions": "Tell your partner about your school.",
+      "question": "What do you do at school?",
+      "correctAnswer": null,
+      "explanation": "Use in summer and in winter.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“In summer, we …”",
+        "mode": "Pair",
+        "example": "In summer, we play in the garden."
+       },
+       {
+        "question": "“In winter, our classroom is …”",
+        "mode": "Pair",
+        "example": "In winter, our classroom is warm."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Where did the students work with patients?",
+     "options": [
+      "in the hospital",
+      "in the market",
+      "at home"
+     ],
+     "answer": 0,
+     "quote": "Then they went to the hospital. There, they worked with real patients."
+    },
+    "iCan": [
+     "I can tell how the students learned.",
+     "I can use in summer and in winter.",
+     "I can use because."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "A Hospital School Poster",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group draws two parts: the school and the hospital.",
+      "In the school part, the group writes one thing the students did.",
+      "In the hospital part, the group writes one thing the students did.",
+      "The group shows the poster: “In the school, they … In the hospital, they …”"
+     ],
+     "share": "One student reads the poster. Story: “Students had lessons in the school. Then they went to the hospital.”",
+     "solo": "Draw the two parts. Write one sentence for each part."
+    }
+   },
+   {
+    "id": 6,
+    "type": "story",
+    "title": "Great Teachers and Books",
+    "content": "Many famous teachers worked at this school. Students learned about the body, medicines, languages and Islam. They read the important books of the scientist İbn Sînâ. They also read the books of Hippocrates, a doctor from ancient Greece.\n\nAt the end of school, every student got a diploma. It had the names of his teachers on it. The hospital helped sick people for about 700 years, until the early 1900s.",
+    "vocabulary": [
+     {
+      "word": "language",
+      "definition": "The words people speak, like English or Turkish."
+     },
+     {
+      "word": "scientist",
+      "definition": "A person who studies and learns new things."
+     },
+     {
+      "word": "ancient",
+      "definition": "Very, very old."
+     },
+     {
+      "word": "diploma",
+      "definition": "A paper you get at the end of school."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h6-1",
+      "x": 35,
+      "y": 46,
+      "title": "Great Books",
+      "description": "Students read the books of İbn Sînâ and Hippocrates."
+     },
+     {
+      "id": "h6-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Diploma",
+      "description": "Every student got a diploma. It had the names of his teachers on it."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "gevhernesibe-a1-quick-6",
+      "type": "multiple-choice",
+      "title": "Great Teachers and Books",
+      "instructions": "Choose the best answer.",
+      "question": "How long did the hospital help sick people?",
+      "options": [
+       "for about 700 years",
+       "for about 70 years",
+       "for about 7 years"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 6: “The hospital helped sick people for about 700 years, until the early 1900s.”",
+      "feedback": {
+       "correct": "Yes! About 700 years.",
+       "incorrect": "Read the second paragraph of Chapter 6 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "gevhernesibe-a1-language-6-learned",
+      "type": "drag-drop",
+      "title": "Look: They Learned About …",
+      "instructions": "Put each word in the right group.",
+      "question": "What did they learn? Whose books did they read?",
+      "dragDropGroups": [
+       {
+        "group": "They learned about …",
+        "items": [
+         "the body",
+         "medicines",
+         "languages"
+        ]
+       },
+       {
+        "group": "They read the books of …",
+        "items": [
+         "İbn Sînâ",
+         "Hippocrates"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "They learned about …": [
+        "the body",
+        "medicines",
+        "languages"
+       ],
+       "They read the books of …": [
+        "İbn Sînâ",
+        "Hippocrates"
+       ]
+      },
+      "explanation": "“Students learned about the body, medicines, languages and Islam.” “They read the important books of the scientist İbn Sînâ.”",
+      "feedback": {
+       "correct": "Good.",
+       "incorrect": "Read the first paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-6-practise",
+      "type": "word-bank",
+      "title": "Practise: For, Until",
+      "instructions": "Fill the gaps with the words.",
+      "question": "How long?",
+      "fillBlanksText": "At the end of school, every student [blank] a diploma. The hospital helped sick people [blank] about 700 years, [blank] the early 1900s.",
+      "wordBank": [
+       "got",
+       "for",
+       "until",
+       "gets",
+       "in"
+      ],
+      "correctAnswer": [
+       "got",
+       "for",
+       "until"
+      ],
+      "explanation": "Get → got. For + time: for 700 years. Until = up to that time.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-6-write-it",
+      "type": "reflection",
+      "title": "Write It: My Lessons",
+      "instructions": "Write about your lessons.",
+      "question": "What do you learn at school?",
+      "correctAnswer": null,
+      "explanation": "Use learn about.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“At school, I learn about …”",
+        "mode": "Individual",
+        "example": "At school, I learn about animals."
+       },
+       {
+        "question": "“My favorite lesson is …”",
+        "mode": "Individual",
+        "example": "My favorite lesson is English."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What did every student get at the end?",
+     "options": [
+      "a diploma",
+      "a horse",
+      "a house"
+     ],
+     "answer": 0,
+     "quote": "At the end of school, every student got a diploma."
+    },
+    "iCan": [
+     "I can tell what the students learned.",
+     "I can use for and until.",
+     "I can write about my lessons."
+    ]
+   },
+   {
+    "id": 7,
+    "type": "story",
+    "title": "Music for the Heart",
+    "content": "The hospital had a special part with 18 rooms. It was for people with an illness of the mind. The doctors helped these patients with music.\n\nİbn Sînâ wrote about this in his book. Kind words and music can help sick people. The scientist Fârâbî also studied music. He found that music can make people happy or calm. Some music is good for the morning, and some is good for the night. The doctors in Kayseri knew these ideas and used them.",
+    "vocabulary": [
+     {
+      "word": "illness",
+      "definition": "A problem in the body or mind."
+     },
+     {
+      "word": "mind",
+      "definition": "The part of you that thinks and feels."
+     },
+     {
+      "word": "kind words",
+      "definition": "Nice and friendly words."
+     },
+     {
+      "word": "found",
+      "definition": "Learned a new thing."
+     },
+     {
+      "word": "calm",
+      "definition": "Quiet, not angry and not afraid."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h7-1",
+      "x": 35,
+      "y": 46,
+      "title": "A Special Part",
+      "description": "The hospital had a special part with 18 rooms."
+     },
+     {
+      "id": "h7-2",
+      "x": 68,
+      "y": 50,
+      "title": "Music",
+      "description": "Fârâbî found that music can make people happy or calm."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "gevhernesibe-a1-quick-7",
+      "type": "drag-drop",
+      "title": "Music for the Heart",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 7?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The special part had 18 rooms.",
+         "Fârâbî studied music."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "All music is good for the night."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The special part had 18 rooms.",
+        "Fârâbî studied music."
+       ],
+       "False": [
+        "All music is good for the night."
+       ]
+      },
+      "explanation": "Chapter 7 says: “The hospital had a special part with 18 rooms.” “The scientist Fârâbî also studied music.” “Some music is good for the morning, and some is good for the night.”",
+      "feedback": {
+       "correct": "Yes! Some music is good for the morning.",
+       "incorrect": "Read the second paragraph of Chapter 7 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "gevhernesibe-a1-language-7-can",
+      "type": "multiple-choice",
+      "title": "Look: Can + Verb",
+      "instructions": "Choose the right answer.",
+      "question": "“Music can make people happy or calm.” What does “can” tell us?",
+      "options": [
+       "It is possible.",
+       "It happened yesterday.",
+       "It is a question."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Can + verb: music can help, music can make people happy.",
+      "feedback": {
+       "correct": "Yes. It is possible.",
+       "incorrect": "Read the second paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-7-practise",
+      "type": "choose-form",
+      "title": "Practise: Some … Some …",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "Some music is good for the [choice].",
+        "options": [
+         "morning",
+         "mornings"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Kind words and music [choice] help sick people.",
+        "options": [
+         "can",
+         "cans"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Can does not change: I can, music can. Good for the morning, good for the night.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-7-say-it",
+      "type": "reflection",
+      "title": "Say It: Music I Like",
+      "instructions": "Talk about music with your partner.",
+      "question": "What music do you like?",
+      "correctAnswer": null,
+      "explanation": "Use can + verb.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I like … music.”",
+        "mode": "Pair",
+        "example": "I like quiet music."
+       },
+       {
+        "question": "“Music can make me …”",
+        "mode": "Pair",
+        "example": "Music can make me happy."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: How did the doctors help some patients?",
+     "options": [
+      "with music",
+      "with games",
+      "with money"
+     ],
+     "answer": 0,
+     "quote": "The doctors helped these patients with music."
+    },
+    "iCan": [
+     "I can tell how music helped patients.",
+     "I can use can + verb.",
+     "I can talk about music I like."
+    ]
+   },
+   {
+    "id": 8,
+    "type": "story",
+    "title": "We Remember Her",
+    "content": "There were many hospitals and many schools in history. But the Gevher Nesibe Hospital was the first hospital and school in one place.\n\nGevher Nesibe never married the young commander. She died, but the hospital with her name helped sick people for hundreds of years. People loved her very much. Today, we still remember her name.",
+    "vocabulary": [],
+    "hotspots": [
+     {
+      "id": "h8-1",
+      "x": 35,
+      "y": 46,
+      "title": "The First",
+      "description": "The Gevher Nesibe Hospital was the first hospital and school in one place."
+     },
+     {
+      "id": "h8-2",
+      "x": 68,
+      "y": 50,
+      "title": "Her Name",
+      "description": "The hospital with her name helped sick people for hundreds of years."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "gevhernesibe-a1-quick-8",
+      "type": "multiple-choice",
+      "title": "We Remember Her",
+      "instructions": "Choose the best answer.",
+      "question": "Why was the Gevher Nesibe Hospital special?",
+      "options": [
+       "It was the first hospital and school in one place.",
+       "It was the biggest building in the world.",
+       "It was very new."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 8: “But the Gevher Nesibe Hospital was the first hospital and school in one place.”",
+      "feedback": {
+       "correct": "Yes! It was the first.",
+       "incorrect": "Read the first paragraph of Chapter 8 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "gevhernesibe-a1-language-8-never",
+      "type": "multiple-choice",
+      "title": "Look: Never, Still",
+      "instructions": "Choose the right answer.",
+      "question": "“Gevher Nesibe never married the young commander.” What does “never” mean?",
+      "options": [
+       "not one time",
+       "every day",
+       "two times"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Never = not at any time. Still = it did not stop; it is true today, too.",
+      "feedback": {
+       "correct": "Yes. Not one time.",
+       "incorrect": "Read the second paragraph of Chapter 8."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-8-practise",
+      "type": "word-bank",
+      "title": "Practise: Her Story",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What happened?",
+      "fillBlanksText": "Gevher Nesibe [blank] married the young commander. She died, [blank] the hospital helped sick people for hundreds of years. Today, we [blank] remember her name.",
+      "wordBank": [
+       "never",
+       "but",
+       "still",
+       "always",
+       "because"
+      ],
+      "correctAnswer": [
+       "never",
+       "but",
+       "still"
+      ],
+      "explanation": "Never = not at any time. But shows a different idea. Still = it is true today, too.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 8."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-8-write-it",
+      "type": "reflection",
+      "title": "Write It: A Good Person",
+      "instructions": "Write about a good person.",
+      "question": "Who do we remember?",
+      "correctAnswer": null,
+      "explanation": "Use the past: helped, gave, built.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“We remember …”",
+        "mode": "Individual",
+        "example": "We remember Gevher Nesibe."
+       },
+       {
+        "question": "“She / He helped …”",
+        "mode": "Individual",
+        "example": "She helped sick people."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Do we remember Gevher Nesibe today?",
+     "options": [
+      "Yes, we still remember her name.",
+      "No, nobody knows her.",
+      "Only in Europe."
+     ],
+     "answer": 0,
+     "quote": "Today, we still remember her name."
+    },
+    "iCan": [
+     "I can tell why we remember Gevher Nesibe.",
+     "I can understand never and still.",
+     "I can write about a good person."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Thank You, Gevher Nesibe",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group makes a big thank-you card.",
+      "Each student writes one sentence: “Thank you for …”.",
+      "The group adds one fact from the book.",
+      "The group reads the card to the class."
+     ],
+     "share": "The group reads the card. Story: “Today, we still remember her name.”",
+     "solo": "Write a thank-you card with two sentences."
+    }
+   },
+   {
+    "id": 11,
+    "type": "quiz",
+    "title": "Knowledge Check",
+    "image": "https://picsum.photos/seed/quiz-gevhernesibe-a1/1200/800",
+    "audioUrl": "",
+    "content": "Check your understanding of the complete story.",
+    "exercises": [
+     {
+      "id": "gevhernesibe-a1-kc-1",
+      "type": "multiple-choice",
+      "title": "Kayseri",
+      "instructions": "Choose the answer.",
+      "question": "Where is the Gevher Nesibe Hospital?",
+      "options": [
+       "in Kayseri",
+       "in Konya",
+       "in Europe"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 1: “Kayseri is a city in Anatolia. There is a very old building there. It is the Gevher Nesibe Hospital and Medical School.”",
+      "feedback": {
+       "correct": "Yes. In Kayseri.",
+       "incorrect": "Read the first paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-kc-2",
+      "type": "true-false",
+      "title": "Her Family",
+      "instructions": "Is it true or false?",
+      "question": "Gevher Nesibe’s father was Sultan Kılıçarslan II.",
+      "correctAnswer": true,
+      "explanation": "Chapter 2: “Her father was Sultan Kılıçarslan II.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the first paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-kc-3",
+      "type": "multiple-choice",
+      "title": "Her Wish",
+      "instructions": "Choose the answer.",
+      "question": "What did Gevher Nesibe want?",
+      "options": [
+       "a free hospital for everyone",
+       "a big palace",
+       "a new school for princes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: “Please use my money to build a hospital.” “Make it free for everyone.”",
+      "feedback": {
+       "correct": "Yes. A free hospital.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-kc-4",
+      "type": "true-false",
+      "title": "Her Grave",
+      "instructions": "Is it true or false?",
+      "question": "Gevher Nesibe’s grave is inside the hospital building.",
+      "correctAnswer": false,
+      "explanation": "Chapter 4: “Gevher Nesibe’s grave is inside the school building.”",
+      "feedback": {
+       "correct": "Yes, it is false. It is in the school building.",
+       "incorrect": "Read the second paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-kc-5",
+      "type": "multiple-choice",
+      "title": "The Diploma",
+      "instructions": "Choose the answer.",
+      "question": "What was on the diploma?",
+      "options": [
+       "the names of his teachers",
+       "a picture of the sultan",
+       "a map of Kayseri"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 6: “It had the names of his teachers on it.”",
+      "feedback": {
+       "correct": "Yes. The names of his teachers.",
+       "incorrect": "Read the second paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-kc-6",
+      "type": "multiple-choice",
+      "title": "Music",
+      "instructions": "Choose the answer.",
+      "question": "Who found that music can make people happy or calm?",
+      "options": [
+       "Fârâbî",
+       "Hippocrates",
+       "the Sultan"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 7: “The scientist Fârâbî also studied music. He found that music can make people happy or calm.”",
+      "feedback": {
+       "correct": "Yes. Fârâbî.",
+       "incorrect": "Read the second paragraph of Chapter 7."
+      }
+     }
+    ]
+   },
+   {
+    "id": 13,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "Review all key vocabulary from the story in one place.",
+    "image": "https://picsum.photos/seed/glossary-gevhernesibe-a1/1200/800",
+    "vocabulary": [
+     {
+      "word": "building",
+      "definition": "A house, a school or a hospital.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈbɪldɪŋ/",
+      "chapter": 1,
+      "chapterTitle": "A Very Old Hospital",
+      "storyExample": "There is a very old building there.",
+      "category": "Places"
+     },
+     {
+      "word": "hospital",
+      "definition": "A place for sick people and doctors.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈhɑːspɪtl/",
+      "chapter": 1,
+      "chapterTitle": "A Very Old Hospital",
+      "storyExample": "It is the Gevher Nesibe Hospital and Medical School.",
+      "category": "Places"
+     },
+     {
+      "word": "build",
+      "definition": "Make a house or a building.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/bɪld/",
+      "chapter": 1,
+      "chapterTitle": "A Very Old Hospital",
+      "storyExample": "People built it in 1205–1206.",
+      "category": "Actions"
+     },
+     {
+      "word": "both",
+      "definition": "The two; this one and that one.",
+      "partOfSpeech": "determiner",
+      "level": "A1",
+      "pronunciation": "/boʊθ/",
+      "chapter": 1,
+      "chapterTitle": "A Very Old Hospital",
+      "storyExample": "This building was both a hospital and a school.",
+      "category": "Describing"
+     },
+     {
+      "word": "similar",
+      "definition": "Almost the same.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈsɪmələr/",
+      "chapter": 1,
+      "chapterTitle": "A Very Old Hospital",
+      "storyExample": "In Europe, similar schools started more than 300 years later.",
+      "category": "Describing"
+     },
+     {
+      "word": "museum",
+      "definition": "A building with old and interesting things.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/mjuˈziːəm/",
+      "chapter": 1,
+      "chapterTitle": "A Very Old Hospital",
+      "storyExample": "Today, this old building is the Museum of the Seljuk Civilization.",
+      "category": "Places"
+     },
+     {
+      "word": "princess",
+      "definition": "The daughter of a king or sultan.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈprɪnses/",
+      "chapter": 2,
+      "chapterTitle": "A Princess",
+      "storyExample": "Gevher Nesibe was a Seljuk princess.",
+      "category": "People"
+     },
+     {
+      "word": "commander",
+      "definition": "A leader of soldiers.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/kəˈmændər/",
+      "chapter": 2,
+      "chapterTitle": "A Princess",
+      "storyExample": "When she was young, she loved a young commander and wanted to marry him.",
+      "category": "People"
+     },
+     {
+      "word": "marry",
+      "definition": "Be husband and wife.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/ˈmæri/",
+      "chapter": 2,
+      "chapterTitle": "A Princess",
+      "storyExample": "When she was young, she loved a young commander and wanted to marry him.",
+      "category": "Life"
+     },
+     {
+      "word": "agree",
+      "definition": "Say yes; think the same.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/əˈɡriː/",
+      "chapter": 2,
+      "chapterTitle": "A Princess",
+      "storyExample": "But her brother did not agree.",
+      "category": "Actions"
+     },
+     {
+      "word": "war",
+      "definition": "A big fight between two countries.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/wɔːr/",
+      "chapter": 2,
+      "chapterTitle": "A Princess",
+      "storyExample": "He sent the young man to a war, far away.",
+      "category": "History"
+     },
+     {
+      "word": "far away",
+      "definition": "In a place a long way from here.",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "pronunciation": "/fɑːr əˈweɪ/",
+      "chapter": 2,
+      "chapterTitle": "A Princess",
+      "storyExample": "He sent the young man to a war, far away.",
+      "category": "Places"
+     },
+     {
+      "word": "sick",
+      "definition": "Not well; with an illness.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/sɪk/",
+      "chapter": 2,
+      "chapterTitle": "A Princess",
+      "storyExample": "Soon, she became very sick.",
+      "category": "Health"
+     },
+     {
+      "word": "wish",
+      "definition": "A thing you really want.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/wɪʃ/",
+      "chapter": 3,
+      "chapterTitle": "Her Last Wish",
+      "storyExample": "He said, “Please tell me your last wish.”",
+      "category": "Life"
+     },
+     {
+      "word": "get help",
+      "definition": "Find a person who helps you.",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "pronunciation": "/ɡet help/",
+      "chapter": 3,
+      "chapterTitle": "Her Last Wish",
+      "storyExample": "Sick people can get help there, and good doctors can teach students.",
+      "category": "Health"
+     },
+     {
+      "word": "free",
+      "definition": "You do not pay money for it.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/friː/",
+      "chapter": 3,
+      "chapterTitle": "Her Last Wish",
+      "storyExample": "Make it free for everyone.",
+      "category": "Describing"
+     },
+     {
+      "word": "keep a promise",
+      "definition": "Do the thing you said.",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "pronunciation": "/kiːp ə ˈprɑːmɪs/",
+      "chapter": 4,
+      "chapterTitle": "Two Buildings",
+      "storyExample": "Her brother, the Sultan, kept his promise.",
+      "category": "Values"
+     },
+     {
+      "word": "healing",
+      "definition": "Making a sick person well again.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈhiːlɪŋ/",
+      "chapter": 4,
+      "chapterTitle": "Two Buildings",
+      "storyExample": "People also called it “the house of healing”.",
+      "category": "Health"
+     },
+     {
+      "word": "twin",
+      "definition": "One of two things that look the same.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/twɪn/",
+      "chapter": 4,
+      "chapterTitle": "Two Buildings",
+      "storyExample": "The two buildings look almost the same, so people call them the “Twin Madrasas”.",
+      "category": "Describing"
+     },
+     {
+      "word": "grave",
+      "definition": "The place in the ground for a dead person.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɡreɪv/",
+      "chapter": 4,
+      "chapterTitle": "Two Buildings",
+      "storyExample": "Gevher Nesibe’s grave is inside the school building.",
+      "category": "Places"
+     },
+     {
+      "word": "patient",
+      "definition": "A sick person with a doctor.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈpeɪʃnt/",
+      "chapter": 5,
+      "chapterTitle": "Learning Next to the Patients",
+      "storyExample": "There, they worked with real patients.",
+      "category": "Health"
+     },
+     {
+      "word": "carefully",
+      "definition": "Slowly and well, with all your mind.",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "pronunciation": "/ˈkerfəli/",
+      "chapter": 5,
+      "chapterTitle": "Learning Next to the Patients",
+      "storyExample": "They watched the doctors carefully and learned from them.",
+      "category": "Describing"
+     },
+     {
+      "word": "surgeon",
+      "definition": "A doctor who opens the body to help.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈsɜːrdʒən/",
+      "chapter": 5,
+      "chapterTitle": "Learning Next to the Patients",
+      "storyExample": "The hospital had two doctors, two surgeons and a man for medicines.",
+      "category": "Health"
+     },
+     {
+      "word": "medicine",
+      "definition": "A thing you take when you are sick.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmedɪsn/",
+      "chapter": 5,
+      "chapterTitle": "Learning Next to the Patients",
+      "storyExample": "The hospital had two doctors, two surgeons and a man for medicines.",
+      "category": "Health"
+     },
+     {
+      "word": "operation",
+      "definition": "A doctor's work inside the body.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˌɑːpəˈreɪʃn/",
+      "chapter": 5,
+      "chapterTitle": "Learning Next to the Patients",
+      "storyExample": "There were also rooms for eye operations.",
+      "category": "Health"
+     },
+     {
+      "word": "language",
+      "definition": "The words people speak, like English or Turkish.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈlæŋɡwɪdʒ/",
+      "chapter": 6,
+      "chapterTitle": "Great Teachers and Books",
+      "storyExample": "Students learned about the body, medicines, languages and Islam.",
+      "category": "Learning"
+     },
+     {
+      "word": "scientist",
+      "definition": "A person who studies and learns new things.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈsaɪəntɪst/",
+      "chapter": 6,
+      "chapterTitle": "Great Teachers and Books",
+      "storyExample": "They read the important books of the scientist İbn Sînâ.",
+      "category": "Learning"
+     },
+     {
+      "word": "ancient",
+      "definition": "Very, very old.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈeɪnʃənt/",
+      "chapter": 6,
+      "chapterTitle": "Great Teachers and Books",
+      "storyExample": "They also read the books of Hippocrates, a doctor from ancient Greece.",
+      "category": "History"
+     },
+     {
+      "word": "diploma",
+      "definition": "A paper you get at the end of school.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/dɪˈploʊmə/",
+      "chapter": 6,
+      "chapterTitle": "Great Teachers and Books",
+      "storyExample": "At the end of school, every student got a diploma.",
+      "category": "Learning"
+     },
+     {
+      "word": "illness",
+      "definition": "A problem in the body or mind.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈɪlnəs/",
+      "chapter": 7,
+      "chapterTitle": "Music for the Heart",
+      "storyExample": "It was for people with an illness of the mind.",
+      "category": "Health"
+     },
+     {
+      "word": "mind",
+      "definition": "The part of you that thinks and feels.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/maɪnd/",
+      "chapter": 7,
+      "chapterTitle": "Music for the Heart",
+      "storyExample": "It was for people with an illness of the mind.",
+      "category": "Health"
+     },
+     {
+      "word": "kind words",
+      "definition": "Nice and friendly words.",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "pronunciation": "/kaɪnd wɜːrdz/",
+      "chapter": 7,
+      "chapterTitle": "Music for the Heart",
+      "storyExample": "Kind words and music can help sick people.",
+      "category": "Values"
+     },
+     {
+      "word": "found",
+      "definition": "Learned a new thing.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/faʊnd/",
+      "chapter": 7,
+      "chapterTitle": "Music for the Heart",
+      "storyExample": "He found that music can make people happy or calm.",
+      "category": "Learning"
+     },
+     {
+      "word": "calm",
+      "definition": "Quiet, not angry and not afraid.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/kɑːm/",
+      "chapter": 7,
+      "chapterTitle": "Music for the Heart",
+      "storyExample": "He found that music can make people happy or calm.",
+      "category": "Feelings"
+     }
+    ]
+   },
+   {
+    "id": 102,
+    "type": "places",
+    "title": "Places & People",
+    "content": "Find every place and person from the story on the map.",
+    "entityBookKey": "gevherNesibe-a1"
+   },
+   {
+    "id": 12,
+    "type": "vocabulary-match",
+    "title": "Vocabulary Challenge",
+    "image": "https://picsum.photos/seed/vocab-match-gevhernesibe-a1/1200/800",
+    "audioUrl": "",
+    "content": "Match six story words with their meanings.",
+    "vocabularyPairs": [
+     {
+      "word": "museum",
+      "meaning": "A building with old and interesting things.",
+      "partOfSpeech": "noun",
+      "chapter": 1,
+      "context": "Today, this old building is the Museum of the Seljuk Civilization."
+     },
+     {
+      "word": "princess",
+      "meaning": "The daughter of a king or sultan.",
+      "partOfSpeech": "noun",
+      "chapter": 2,
+      "context": "Gevher Nesibe was a Seljuk princess."
+     },
+     {
+      "word": "wish",
+      "meaning": "A thing you really want.",
+      "partOfSpeech": "noun",
+      "chapter": 3,
+      "context": "He said, “Please tell me your last wish.”"
+     },
+     {
+      "word": "twin",
+      "meaning": "One of two things that look the same.",
+      "partOfSpeech": "adjective",
+      "chapter": 4,
+      "context": "The two buildings look almost the same, so people call them the “Twin Madrasas”."
+     },
+     {
+      "word": "surgeon",
+      "meaning": "A doctor who opens the body to help.",
+      "partOfSpeech": "noun",
+      "chapter": 5,
+      "context": "The hospital had two doctors, two surgeons and a man for medicines."
+     },
+     {
+      "word": "calm",
+      "meaning": "Quiet, not angry and not afraid.",
+      "partOfSpeech": "adjective",
+      "chapter": 7,
+      "context": "He found that music can make people happy or calm."
+     }
+    ]
+   },
+   {
+    "id": 14,
+    "type": "exercises",
+    "title": "Language Review",
+    "image": "https://picsum.photos/seed/exercises-gevhernesibe-a1/1200/800",
+    "content": "Review the language from all chapters.",
+    "exercises": [
+     {
+      "id": "gevhernesibe-a1-language-review-1",
+      "type": "drag-drop",
+      "title": "Look: Two Kinds of Past",
+      "instructions": "Put each verb in the right group.",
+      "question": "How does each verb show the past?",
+      "dragDropGroups": [
+       {
+        "group": "Ends in -ed",
+        "items": [
+         "loved",
+         "wanted",
+         "worked",
+         "watched"
+        ]
+       },
+       {
+        "group": "Changes",
+        "items": [
+         "built",
+         "sent",
+         "became",
+         "got"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Ends in -ed": [
+        "loved",
+        "wanted",
+        "worked",
+        "watched"
+       ],
+       "Changes": [
+        "built",
+        "sent",
+        "became",
+        "got"
+       ]
+      },
+      "explanation": "Many verbs add -ed: love → loved, work → worked. Some verbs change: build → built, send → sent, become → became, get → got.",
+      "feedback": {
+       "correct": "Well done. You found the two kinds of past.",
+       "incorrect": "Say the verb today: love, build … Does it add -ed or change?"
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-review-2",
+      "type": "choose-form",
+      "title": "Practise: In, For",
+      "instructions": "Choose the right word.",
+      "question": "When? How long?",
+      "formChoices": [
+       {
+        "sentence": "People built it [choice] 1205–1206.",
+        "options": [
+         "in",
+         "for"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The hospital helped sick people [choice] about 700 years.",
+        "options": [
+         "for",
+         "in"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "In + year: in 1205. For + time: for 700 years.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "In 1205. For 700 years."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-review-3",
+      "type": "choose-form",
+      "title": "Practise: There Was, There Were",
+      "instructions": "Choose there was or there were.",
+      "question": "One or many?",
+      "formChoices": [
+       {
+        "sentence": "At that time, [choice] no good hospital in Kayseri.",
+        "options": [
+         "there was",
+         "there were"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] also rooms for eye operations.",
+        "options": [
+         "There were",
+         "There was"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "One thing: there was. Two or more: there were.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "A hospital = one. Rooms = many."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-review-4",
+      "type": "word-bank",
+      "title": "Practise: Please and Can",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What did Gevher Nesibe say?",
+      "fillBlanksText": "[blank] use my money to build a hospital. Sick people [blank] get help there. Make it [blank] for everyone.",
+      "wordBank": [
+       "Please",
+       "can",
+       "free",
+       "Plays",
+       "cans"
+      ],
+      "correctAnswer": [
+       "Please",
+       "can",
+       "free"
+      ],
+      "explanation": "Please + verb asks politely. Can + verb: can get help.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 3 again."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-review-5",
+      "type": "error-correction",
+      "title": "Practise: Fix One Word",
+      "instructions": "Find the wrong word. Choose the right word.",
+      "question": "Which word is wrong?",
+      "errorItems": [
+       {
+        "sentence": "The Sultan builded two buildings.",
+        "error": "builded",
+        "options": [
+         "built",
+         "build",
+         "builds"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Every student getted a diploma.",
+        "error": "getted",
+        "options": [
+         "get",
+         "got",
+         "gets"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "“Build” and “get” change in the past: built, got.",
+      "feedback": {
+       "correct": "Well done.",
+       "incorrect": "Build → built. Get → got. They do not take -ed."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-language-review-6",
+      "type": "reflection",
+      "title": "Use: A Good Place",
+      "instructions": "Write three sentences about a good place.",
+      "question": "What is a good place in your town?",
+      "correctAnswer": null,
+      "explanation": "Use there is, can and free.",
+      "feedback": {
+       "correct": "Write three short sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "One “There is …”: “There is a … in my town.”",
+        "mode": "Individual",
+        "example": "There is a big library in my town."
+       },
+       {
+        "question": "One “can”: “People can …”",
+        "mode": "Individual",
+        "example": "People can read books there."
+       },
+       {
+        "question": "One “free”: “It is free for …”",
+        "mode": "Individual",
+        "example": "It is free for everyone."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": 15,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "image": "https://picsum.photos/seed/challenge-gevhernesibe-a1/1200/800",
+    "content": "Bring the whole story together in the Final Challenge.",
+    "exercises": [
+     {
+      "id": "gevhernesibe-a1-final-1",
+      "type": "fill-blanks",
+      "title": "A Very Old Hospital",
+      "instructions": "Write one word.",
+      "question": "What was the building?",
+      "fillBlanksText": "This building was both a hospital and a [blank].",
+      "correctAnswer": [
+       "school"
+      ],
+      "explanation": "Chapter 1: “This building was both a hospital and a school.”",
+      "feedback": {
+       "correct": "Yes. A school.",
+       "incorrect": "Read the second paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-final-2",
+      "type": "multiple-choice",
+      "title": "A Princess",
+      "instructions": "Choose the answer.",
+      "question": "Why was Gevher Nesibe very sad?",
+      "options": [
+       "The young commander died.",
+       "She lost her money.",
+       "Her school was closed."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 2: “The commander died there. Gevher Nesibe was very sad.”",
+      "feedback": {
+       "correct": "Yes. The commander died.",
+       "incorrect": "Read the second paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-final-3",
+      "type": "true-false",
+      "title": "Her Wish",
+      "instructions": "Is it true or false?",
+      "question": "Gevher Nesibe’s wish died with her.",
+      "correctAnswer": false,
+      "explanation": "Chapter 3: “But her wish did not die with her.”",
+      "feedback": {
+       "correct": "Yes, it is false. Her brother built the hospital.",
+       "incorrect": "Read the last paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-final-4",
+      "type": "matching",
+      "title": "Who Is It?",
+      "instructions": "Match the person with the sentence.",
+      "question": "Who is it?",
+      "matchingHeadings": {
+       "left": "Person",
+       "right": "Sentence"
+      },
+      "matchingPairs": [
+       {
+        "left": "the Sultan",
+        "right": "He kept his promise."
+       },
+       {
+        "left": "İbn Sînâ",
+        "right": "Students read his important books."
+       },
+       {
+        "left": "Fârâbî",
+        "right": "He studied music."
+       }
+      ],
+      "correctAnswer": {
+       "the Sultan": "He kept his promise.",
+       "İbn Sînâ": "Students read his important books.",
+       "Fârâbî": "He studied music."
+      },
+      "explanation": "Chapter 4: the Sultan. Chapter 6: İbn Sînâ. Chapter 7: Fârâbî.",
+      "feedback": {
+       "correct": "Good. You matched all three.",
+       "incorrect": "Read Chapters 4, 6 and 7 again."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-final-5",
+      "type": "multiple-choice",
+      "title": "Warm Buildings",
+      "instructions": "Choose the answer.",
+      "question": "Why were the buildings warm in winter?",
+      "options": [
+       "Hot water went under the floor.",
+       "The rooms were very small.",
+       "The sun was very hot."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: “In winter, the buildings were warm, because hot water went under the floor.”",
+      "feedback": {
+       "correct": "Yes. Hot water went under the floor.",
+       "incorrect": "Read the second paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-final-6",
+      "type": "true-false",
+      "title": "Real Patients",
+      "instructions": "Is it true or false?",
+      "question": "The students worked with real patients in the hospital.",
+      "correctAnswer": true,
+      "explanation": "Chapter 5: “There, they worked with real patients.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the first paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-final-7",
+      "type": "multiple-choice",
+      "title": "Music",
+      "instructions": "Choose the answer.",
+      "question": "How did the doctors help patients with an illness of the mind?",
+      "options": [
+       "with music",
+       "with long walks",
+       "with new clothes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 7: “The doctors helped these patients with music.”",
+      "feedback": {
+       "correct": "Yes. With music.",
+       "incorrect": "Read the first paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "gevhernesibe-a1-final-8",
+      "type": "sequencing",
+      "title": "The Story of the Hospital",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Gevher Nesibe became very sick."
+       },
+       {
+        "id": "2",
+        "text": "Gevher Nesibe told her brother her last wish."
+       },
+       {
+        "id": "3",
+        "text": "The Sultan built two buildings next to each other."
+       },
+       {
+        "id": "4",
+        "text": "The students got a diploma at the end of school."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "She became sick (Chapter 2) → her wish (Chapter 3) → two buildings (Chapter 4) → the diploma (Chapter 6).",
+      "feedback": {
+       "correct": "Great! You know the story of the hospital.",
+       "incorrect": "Think about the order of the chapters."
+      }
+     }
+    ]
+   }
+  ],
+  "teacherGuide": [],
+  "selfStudyGuide": []
+ }
+}

@@ -1,0 +1,2073 @@
+{
+ "schema": 1,
+ "storyId": "ahilik",
+ "level": "A1",
+ "language": "ar",
+ "collection": "turkish",
+ "book": {
+  "id": "ahilik-a1-ar",
+  "title": "The Ahî Organization: Good Work and Good People (A1)",
+  "level": "A1",
+  "baseFontSize": 12,
+  "pages": [
+   {
+    "id": 1,
+    "type": "story",
+    "title": "A Group for Workers",
+    "content": "Seven hundred years ago, there was a special group in Anatolia. Its name was the Ahî Organization. It was a group for workers and masters. The group helped workers in both work and daily life. This group taught people to be good and kind. At work, older workers taught new learners, and everyone worked well together.\n\nIt visited the shops and checked their work. It also checked things, chose good prices, and helped with work problems. When people had a problem, the Ahîs helped them. The organization was very important in the early years of the Ottomans, too.",
+    "vocabulary": [
+     {
+      "word": "organization",
+      "definition": "A big group of people with one job."
+     },
+     {
+      "word": "worker",
+      "definition": "A person who does a job."
+     },
+     {
+      "word": "master",
+      "definition": "A person who is very good at a job."
+     },
+     {
+      "word": "check",
+      "definition": "Look at something carefully."
+     },
+     {
+      "word": "price",
+      "definition": "How much money something is."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h1-1",
+      "x": 35,
+      "y": 46,
+      "title": "A Special Group",
+      "description": "Seven hundred years ago, there was a special group in Anatolia: the Ahî Organization."
+     },
+     {
+      "id": "h1-2",
+      "x": 68,
+      "y": 50,
+      "title": "Checking the Shops",
+      "description": "It visited the shops and checked their work."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "ahilik-a1-quick-1",
+      "type": "drag-drop",
+      "title": "A Group for Workers",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 1?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The group visited the shops.",
+         "Older workers taught new learners."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The group was only for rich people."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The group visited the shops.",
+        "Older workers taught new learners."
+       ],
+       "False": [
+        "The group was only for rich people."
+       ]
+      },
+      "explanation": "Chapter 1 says: “It was a group for workers and masters.” “At work, older workers taught new learners.” “It visited the shops and checked their work.”",
+      "feedback": {
+       "correct": "Yes! It was a group for workers and masters.",
+       "incorrect": "Read the first paragraph of Chapter 1 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "ahilik-a1-language-1-ago",
+      "type": "multiple-choice",
+      "title": "Look: … Years Ago",
+      "instructions": "Choose the right answer.",
+      "question": "“Seven hundred years ago, there was a special group in Anatolia.” When was it?",
+      "options": [
+       "700 years before today",
+       "700 years after today",
+       "today"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ago = before now. Seven hundred years ago = 700 years before today.",
+      "feedback": {
+       "correct": "Yes. 700 years before today.",
+       "incorrect": "Read the first sentence of Chapter 1 again."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-1-practise",
+      "type": "choose-form",
+      "title": "Practise: Visited, Checked, Helped",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "It [choice] the shops.",
+        "options": [
+         "visited",
+         "visits"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "It [choice] their work.",
+        "options": [
+         "checked",
+         "checks"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "When people had a problem, the Ahîs [choice] them.",
+        "options": [
+         "helped",
+         "help"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Many verbs add -ed in the past: visit → visited, check → checked, help → helped.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-1-say-it",
+      "type": "reflection",
+      "title": "Say It: Jobs",
+      "instructions": "Tell your partner about jobs.",
+      "question": "What jobs do you know?",
+      "correctAnswer": null,
+      "explanation": "Use is a + job.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“My … is a …”",
+        "mode": "Pair",
+        "example": "My father is a driver."
+       },
+       {
+        "question": "“A good worker is …”",
+        "mode": "Pair",
+        "example": "A good worker is kind."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Who was the Ahî Organization for?",
+     "options": [
+      "workers and masters",
+      "kings",
+      "children"
+     ],
+     "answer": 0,
+     "quote": "It was a group for workers and masters."
+    },
+    "iCan": [
+     "I can tell about the Ahî Organization.",
+     "I can understand … years ago.",
+     "I can talk about jobs."
+    ]
+   },
+   {
+    "id": 2,
+    "type": "story",
+    "title": "Good People",
+    "content": "For the Ahîs, a good worker was also a good person. They were honest and never told lies. They were generous, so they helped poor people and visited sick neighbors. They did not do things that Allah does not want.\n\nYoung Ahîs learned good manners from their teachers, too. They learned to be nice to people everywhere, even in the street. For them, good work and a good heart always went together.",
+    "vocabulary": [
+     {
+      "word": "honest",
+      "definition": "Always says true things."
+     },
+     {
+      "word": "lie",
+      "definition": "Words that are not true."
+     },
+     {
+      "word": "generous",
+      "definition": "Happy to give things to other people."
+     },
+     {
+      "word": "manners",
+      "definition": "The polite way to do things."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h2-1",
+      "x": 35,
+      "y": 46,
+      "title": "Honest",
+      "description": "The Ahîs were honest and never told lies."
+     },
+     {
+      "id": "h2-2",
+      "x": 68,
+      "y": 50,
+      "title": "Generous",
+      "description": "They were generous, so they helped poor people and visited sick neighbors."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "ahilik-a1-quick-2",
+      "type": "drag-drop",
+      "title": "Good People",
+      "instructions": "Put each action in the right group.",
+      "question": "What did the Ahîs do?",
+      "dragDropGroups": [
+       {
+        "group": "They did",
+        "items": [
+         "helped poor people",
+         "visited sick neighbors"
+        ]
+       },
+       {
+        "group": "They did not do",
+        "items": [
+         "told lies"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "They did": [
+        "helped poor people",
+        "visited sick neighbors"
+       ],
+       "They did not do": [
+        "told lies"
+       ]
+      },
+      "explanation": "Chapter 2: “They were honest and never told lies. They were generous, so they helped poor people and visited sick neighbors.”",
+      "feedback": {
+       "correct": "Yes! The Ahîs never told lies.",
+       "incorrect": "Read the first paragraph of Chapter 2 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "ahilik-a1-language-2-words",
+      "type": "matching",
+      "title": "Look: Good People",
+      "instructions": "Match the word with the meaning.",
+      "question": "What do the words mean?",
+      "matchingHeadings": {
+       "left": "Word",
+       "right": "Meaning"
+      },
+      "matchingPairs": [
+       {
+        "left": "honest",
+        "right": "always says true things"
+       },
+       {
+        "left": "generous",
+        "right": "happy to give things"
+       },
+       {
+        "left": "nice",
+        "right": "kind and friendly"
+       }
+      ],
+      "correctAnswer": {
+       "honest": "always says true things",
+       "generous": "happy to give things",
+       "nice": "kind and friendly"
+      },
+      "explanation": "They were honest. They were generous. They learned to be nice to people.",
+      "feedback": {
+       "correct": "Good. You know the words.",
+       "incorrect": "Read Chapter 2 again."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-2-practise",
+      "type": "choose-form",
+      "title": "Practise: So",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "They were generous, [choice] they helped poor people.",
+        "options": [
+         "so",
+         "but"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "They were honest, [choice] they never told lies.",
+        "options": [
+         "so",
+         "or"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "So tells what happened next: They were generous, so they helped poor people.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-2-write-it",
+      "type": "reflection",
+      "title": "Write It: A Good Person",
+      "instructions": "Write about a good person.",
+      "question": "What is a good person like?",
+      "correctAnswer": null,
+      "explanation": "Use is + honest / kind / generous and never.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“A good person is …”",
+        "mode": "Individual",
+        "example": "A good person is honest."
+       },
+       {
+        "question": "“A good person never …”",
+        "mode": "Individual",
+        "example": "A good person never tells lies."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: For the Ahîs, what was a good worker?",
+     "options": [
+      "also a good person",
+      "a rich person",
+      "a fast person"
+     ],
+     "answer": 0,
+     "quote": "For the Ahîs, a good worker was also a good person."
+    },
+    "iCan": [
+     "I can tell about good Ahî people.",
+     "I can use so.",
+     "I can write about a good person."
+    ]
+   },
+   {
+    "id": 3,
+    "type": "story",
+    "title": "Learning a Job",
+    "content": "A young person started work as an apprentice. He worked in a shop next to a master. The master taught him the job day after day. After many years, the apprentice became a good worker. Later, he became a master, too.\n\nFor the Ahîs, bad work was a shame. So an apprentice could not open his own shop too early. First, his master had to say, “Now you are ready.” The Ahî shops were like schools. People learned a job there, and they also learned to be good people.",
+    "vocabulary": [
+     {
+      "word": "apprentice",
+      "definition": "A young person who learns a job from a master."
+     },
+     {
+      "word": "shame",
+      "definition": "A bad feeling after a wrong thing."
+     },
+     {
+      "word": "own",
+      "definition": "Of you, not of other people."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h3-1",
+      "x": 35,
+      "y": 46,
+      "title": "An Apprentice",
+      "description": "A young person started work as an apprentice. He worked in a shop next to a master."
+     },
+     {
+      "id": "h3-2",
+      "x": 68,
+      "y": 50,
+      "title": "Shops like Schools",
+      "description": "People learned a job there, and they also learned to be good people."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "ahilik-a1-quick-3",
+      "type": "sequencing",
+      "title": "Learning a Job",
+      "instructions": "Put the steps in order.",
+      "question": "What came first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "A young person started work as an apprentice."
+       },
+       {
+        "id": "2",
+        "text": "The master taught the apprentice the job day after day."
+       },
+       {
+        "id": "3",
+        "text": "After many years, the apprentice became a good worker."
+       },
+       {
+        "id": "4",
+        "text": "Later, the worker became a master, too."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 3: apprentice → good worker → master.",
+      "feedback": {
+       "correct": "Great! You know the steps.",
+       "incorrect": "Read the first paragraph of Chapter 3 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "ahilik-a1-language-3-had-to",
+      "type": "multiple-choice",
+      "title": "Look: Had to",
+      "instructions": "Choose the right answer.",
+      "question": "“First, his master had to say, ‘Now you are ready.’” What does “had to” mean?",
+      "options": [
+       "It was necessary.",
+       "It was a game.",
+       "It was a question."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Have to → had to in the past. Had to = it was necessary.",
+      "feedback": {
+       "correct": "Yes. It was necessary.",
+       "incorrect": "Read the second paragraph of Chapter 3 again."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-3-practise",
+      "type": "word-bank",
+      "title": "Practise: Became",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What happened?",
+      "fillBlanksText": "After many years, the apprentice [blank] a good worker. Later, he became a master, [blank]. An apprentice [blank] not open his own shop too early.",
+      "wordBank": [
+       "became",
+       "too",
+       "could",
+       "becomes",
+       "can"
+      ],
+      "correctAnswer": [
+       "became",
+       "too",
+       "could"
+      ],
+      "explanation": "Become → became. Too = also. Can → could in the past.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 3 again."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-3-say-it",
+      "type": "reflection",
+      "title": "Say It: My Job",
+      "instructions": "Tell your partner about a job.",
+      "question": "What job do you want?",
+      "correctAnswer": null,
+      "explanation": "Use want to be.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I want to be a …”",
+        "mode": "Pair",
+        "example": "I want to be a doctor."
+       },
+       {
+        "question": "“I can learn it from …”",
+        "mode": "Pair",
+        "example": "I can learn it from my teacher."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Who taught the apprentice?",
+     "options": [
+      "the master",
+      "his mother",
+      "the sultan"
+     ],
+     "answer": 0,
+     "quote": "The master taught him the job day after day."
+    },
+    "iCan": [
+     "I can tell how a young person learned a job.",
+     "I can understand had to.",
+     "I can say the job I want."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "From Apprentice to Master",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group draws three steps: apprentice, worker, master.",
+      "For each step, the group writes one sentence from the chapter.",
+      "The group chooses one job, like shoemaker, and adds it to the steps.",
+      "The group shows the steps to the class."
+     ],
+     "share": "One student tells the steps. Story: “Later, he became a master, too.”",
+     "solo": "Draw the three steps. Write one sentence for each step."
+    }
+   },
+   {
+    "id": 4,
+    "type": "story",
+    "title": "Bad Shoes",
+    "content": "There was a shoemaker in a small town. He wanted to earn more money. So he used cheap leather for his shoes. The shoes looked nice, but they were not strong.\n\nPeople bought them. After only two or three weeks, the shoes were already broken. The customers were very angry. They went to the Ahî leader. “Look at these shoes!” they said. “They are new, but they are broken.”",
+    "vocabulary": [
+     {
+      "word": "shoemaker",
+      "definition": "A person who makes shoes."
+     },
+     {
+      "word": "leather",
+      "definition": "The skin of an animal, for shoes and bags."
+     },
+     {
+      "word": "customer",
+      "definition": "A person who buys things in a shop."
+     },
+     {
+      "word": "leader",
+      "definition": "The most important person in a group."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h4-1",
+      "x": 35,
+      "y": 46,
+      "title": "Cheap Leather",
+      "description": "The shoemaker wanted to earn more money. So he used cheap leather for his shoes."
+     },
+     {
+      "id": "h4-2",
+      "x": 68,
+      "y": 50,
+      "title": "Angry Customers",
+      "description": "The customers were very angry. They went to the Ahî leader."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "ahilik-a1-quick-4",
+      "type": "multiple-choice",
+      "title": "Bad Shoes",
+      "instructions": "Choose the best answer.",
+      "question": "When were the shoes broken?",
+      "options": [
+       "after only two or three weeks",
+       "after two or three years",
+       "on the first day"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 4: “After only two or three weeks, the shoes were already broken.”",
+      "feedback": {
+       "correct": "Yes! After only two or three weeks.",
+       "incorrect": "Read the second paragraph of Chapter 4 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "ahilik-a1-language-4-but",
+      "type": "multiple-choice",
+      "title": "Look: But",
+      "instructions": "Choose the right answer.",
+      "question": "“The shoes looked nice, but they were not strong.” What does “but” do?",
+      "options": [
+       "It shows a different idea.",
+       "It tells the time.",
+       "It tells the place."
+      ],
+      "correctAnswer": 0,
+      "explanation": "But shows a different idea: They looked nice. They were not strong.",
+      "feedback": {
+       "correct": "Yes. But shows a different idea.",
+       "incorrect": "Read the first paragraph of Chapter 4 again."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-4-practise",
+      "type": "choose-form",
+      "title": "Practise: Looked, Were",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "The shoes [choice] nice.",
+        "options": [
+         "looked",
+         "looks"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The customers [choice] very angry.",
+        "options": [
+         "were",
+         "was"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "“They are new, [choice] they are broken.”",
+        "options": [
+         "but",
+         "so"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Look + adjective: looked nice. Many people: were.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 4 again."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-4-say-it",
+      "type": "reflection",
+      "title": "Say It: In a Shop",
+      "instructions": "Act in a shop with your partner.",
+      "question": "What is wrong?",
+      "correctAnswer": null,
+      "explanation": "Use but.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Look at this …!”",
+        "mode": "Pair",
+        "example": "Look at this bag!"
+       },
+       {
+        "question": "“It is new, but it is broken.”",
+        "mode": "Pair",
+        "example": "It is new, but it is broken."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Why were the shoes bad?",
+     "options": [
+      "cheap leather",
+      "a bad color",
+      "very small"
+     ],
+     "answer": 0,
+     "quote": "So he used cheap leather for his shoes."
+    },
+    "iCan": [
+     "I can tell about the bad shoes.",
+     "I can use but.",
+     "I can say what is wrong in a shop."
+    ]
+   },
+   {
+    "id": 5,
+    "type": "story",
+    "title": "Shoes on the Roof",
+    "content": "The Ahî leader went to the shop and looked at the shoes carefully. They really were bad. Then he took the shoes and threw them up on the roof of the shop!\n\nEverybody in the town saw the shoes up there. Now they knew about the bad work. This was a warning for the shoemaker: “Make good shoes, or you cannot sell shoes in this town again.” In Turkish, people still say “pabucu dama atılmak”. It means “his shoes are on the roof”.",
+    "vocabulary": [
+     {
+      "word": "throw",
+      "definition": "Send something through the air with your hand."
+     },
+     {
+      "word": "roof",
+      "definition": "The top part of a house."
+     },
+     {
+      "word": "warning",
+      "definition": "Words about a bad thing that can happen."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h5-1",
+      "x": 35,
+      "y": 46,
+      "title": "On the Roof",
+      "description": "The Ahî leader threw the shoes up on the roof of the shop."
+     },
+     {
+      "id": "h5-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Warning",
+      "description": "“Make good shoes, or you cannot sell shoes in this town again.”"
+     }
+    ],
+    "exercises": [
+     {
+      "id": "ahilik-a1-quick-5",
+      "type": "drag-drop",
+      "title": "Shoes on the Roof",
+      "instructions": "Read. Is it true or false?",
+      "question": "What happened in Chapter 5?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Everybody in the town saw the shoes.",
+         "The leader looked at the shoes carefully."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The leader said, “These are very good shoes.”"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Everybody in the town saw the shoes.",
+        "The leader looked at the shoes carefully."
+       ],
+       "False": [
+        "The leader said, “These are very good shoes.”"
+       ]
+      },
+      "explanation": "Chapter 5 says: “The Ahî leader went to the shop and looked at the shoes carefully. They really were bad.” “Everybody in the town saw the shoes up there.”",
+      "feedback": {
+       "correct": "Yes! The shoes were bad.",
+       "incorrect": "Read the first paragraph of Chapter 5 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "ahilik-a1-language-5-or",
+      "type": "multiple-choice",
+      "title": "Look: … or …",
+      "instructions": "Choose the right answer.",
+      "question": "“Make good shoes, or you cannot sell shoes in this town again.” What does this mean?",
+      "options": [
+       "If the shoes are bad, he cannot sell shoes.",
+       "He can sell bad shoes.",
+       "He must make bags."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Do this, or …: if you do not do this, a bad thing can happen.",
+      "feedback": {
+       "correct": "Yes. It is a warning.",
+       "incorrect": "Read the second paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-5-practise",
+      "type": "choose-form",
+      "title": "Practise: Threw, Saw, Knew",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "He [choice] them up on the roof.",
+        "options": [
+         "threw",
+         "throws"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Everybody in the town [choice] the shoes.",
+        "options": [
+         "saw",
+         "sees"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Now they [choice] about the bad work.",
+        "options": [
+         "knew",
+         "know"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Throw → threw, see → saw, know → knew in the past.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 5 again."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-5-say-it",
+      "type": "reflection",
+      "title": "Say It: Class Rules",
+      "instructions": "Say class rules with your partner.",
+      "question": "What are our rules?",
+      "correctAnswer": null,
+      "explanation": "Use verb …, or ….",
+      "feedback": {
+       "correct": "Say two rules.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Do your homework, or …”",
+        "mode": "Pair",
+        "example": "Do your homework, or you cannot learn."
+       },
+       {
+        "question": "“Be on time, or …”",
+        "mode": "Pair",
+        "example": "Be on time, or you miss the lesson."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Where did the Ahî leader throw the shoes?",
+     "options": [
+      "on the roof",
+      "in the river",
+      "in a box"
+     ],
+     "answer": 0,
+     "quote": "Then he took the shoes and threw them up on the roof of the shop!"
+    },
+    "iCan": [
+     "I can tell what the Ahî leader did.",
+     "I can understand a warning with or.",
+     "I can say class rules."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Act the Story",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group chooses roles: the shoemaker, two customers and the Ahî leader.",
+      "The customers say: “Look at these shoes! They are new, but they are broken.”",
+      "The leader throws the shoes on the “roof” and says the warning.",
+      "The group acts the story for the class."
+     ],
+     "share": "The group acts the story. Story: “This was a warning for the shoemaker.”",
+     "solo": "Write the warning and two customer sentences."
+    }
+   },
+   {
+    "id": 6,
+    "type": "story",
+    "title": "Not Ready Yet",
+    "content": "In a town in Anatolia, a young Ahî learner made nice things from glass with his master. One day, he said, “My master, I think I am ready to open my own shop.” But his master answered, “You are not ready yet.”\n\nThe young learner did not listen. He moved to a different city and opened a shop there. He made glass cups. But after a short time, all the cups broke. Nobody wanted his cups, and he lost all his money. He went back to his master and said, “I am sorry.” His kind master forgave him.",
+    "vocabulary": [
+     {
+      "word": "glass",
+      "definition": "A hard thing you can see through, like a window."
+     },
+     {
+      "word": "break",
+      "definition": "Go into pieces."
+     },
+     {
+      "word": "forgive",
+      "definition": "Stop being angry with someone."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h6-1",
+      "x": 35,
+      "y": 46,
+      "title": "Not Ready Yet",
+      "description": "The young learner wanted his own shop. But his master said, “You are not ready yet.”"
+     },
+     {
+      "id": "h6-2",
+      "x": 68,
+      "y": 50,
+      "title": "Broken Cups",
+      "description": "After a short time, all the cups broke. Nobody wanted his cups."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "ahilik-a1-quick-6",
+      "type": "sequencing",
+      "title": "Not Ready Yet",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "The young learner said, “I am ready to open my own shop.”"
+       },
+       {
+        "id": "2",
+        "text": "The young learner opened a shop in a different city."
+       },
+       {
+        "id": "3",
+        "text": "All the glass cups broke."
+       },
+       {
+        "id": "4",
+        "text": "The young learner went back to his master."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 6: “I am ready” → a new shop → the cups broke → back to the master.",
+      "feedback": {
+       "correct": "Great! You put the story in order.",
+       "incorrect": "Read Chapter 6 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "ahilik-a1-language-6-yet",
+      "type": "multiple-choice",
+      "title": "Look: Not … Yet",
+      "instructions": "Choose the right answer.",
+      "question": "“You are not ready yet.” What does this mean?",
+      "options": [
+       "He is not ready now. He can be ready later.",
+       "He is never ready.",
+       "He was ready last year."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Not … yet = not now, but later maybe.",
+      "feedback": {
+       "correct": "Yes. Not now, but later.",
+       "incorrect": "Read the first paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-6-practise",
+      "type": "choose-form",
+      "title": "Practise: Did Not",
+      "instructions": "Choose the right words.",
+      "question": "Which words go in the gap?",
+      "formChoices": [
+       {
+        "sentence": "The young learner [choice] listen.",
+        "options": [
+         "did not",
+         "not"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Nobody [choice] his cups.",
+        "options": [
+         "wanted",
+         "want"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Past negative: did not + verb (did not listen). Nobody + past verb: nobody wanted.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-6-say-it",
+      "type": "reflection",
+      "title": "Say It: I Am Sorry",
+      "instructions": "Say sorry with your partner.",
+      "question": "How do we say sorry?",
+      "correctAnswer": null,
+      "explanation": "Use I am sorry and did not.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“I am sorry. I …”",
+        "mode": "Pair",
+        "example": "I am sorry. I did not listen."
+       },
+       {
+        "question": "“That is OK.”",
+        "mode": "Pair",
+        "example": "That is OK."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Was the young learner ready?",
+     "options": [
+      "No, not yet.",
+      "Yes, he was ready.",
+      "He did not want a shop."
+     ],
+     "answer": 0,
+     "quote": "But his master answered, “You are not ready yet.”"
+    },
+    "iCan": [
+     "I can tell about the young learner.",
+     "I can understand not … yet.",
+     "I can say sorry."
+    ]
+   },
+   {
+    "id": 7,
+    "type": "story",
+    "title": "The Secret of the Glass",
+    "content": "They worked together again for a long time. One day, the master said, “Now you are ready. Come with me.” They went into a dark room. A little light came in through a small hole in the ceiling.\n\nThe master held a hot glass cup in the light. Inside it, there was a very small air bubble. The master blew on it, “Püf!”, and the bubble was gone.\n\nNow the apprentice understood. “My cups broke because of the bubbles!” he said. He thanked his master and opened a very good shop. In Turkish, people call the secret of a job “püf noktası”.",
+    "vocabulary": [
+     {
+      "word": "hole",
+      "definition": "An open place in something."
+     },
+     {
+      "word": "ceiling",
+      "definition": "The top part of a room, over your head."
+     },
+     {
+      "word": "bubble",
+      "definition": "A very small ball of air."
+     },
+     {
+      "word": "blow",
+      "definition": "Push air out of your mouth."
+     },
+     {
+      "word": "secret",
+      "definition": "A thing only a few people know."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h7-1",
+      "x": 35,
+      "y": 46,
+      "title": "A Dark Room",
+      "description": "A little light came in through a small hole in the ceiling."
+     },
+     {
+      "id": "h7-2",
+      "x": 68,
+      "y": 50,
+      "title": "The Bubble",
+      "description": "Inside the cup, there was a very small air bubble. The master blew on it, “Püf!”"
+     }
+    ],
+    "exercises": [
+     {
+      "id": "ahilik-a1-quick-7",
+      "type": "multiple-choice",
+      "title": "The Secret of the Glass",
+      "instructions": "Choose the best answer.",
+      "question": "What did the master do to the bubble?",
+      "options": [
+       "He blew on it.",
+       "He threw it on the roof.",
+       "He sold it."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 7: “The master blew on it, ‘Püf!’, and the bubble was gone.”",
+      "feedback": {
+       "correct": "Yes! He blew on it.",
+       "incorrect": "Read the second paragraph of Chapter 7 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "ahilik-a1-language-7-because-of",
+      "type": "multiple-choice",
+      "title": "Look: Because of",
+      "instructions": "Choose the right answer.",
+      "question": "“My cups broke because of the bubbles!” What does “because of” tell us?",
+      "options": [
+       "why the cups broke",
+       "when the cups broke",
+       "where the cups were"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Because of + thing tells why: because of the bubbles.",
+      "feedback": {
+       "correct": "Yes. It tells why.",
+       "incorrect": "Read the last paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-7-practise",
+      "type": "word-bank",
+      "title": "Practise: The Dark Room",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What happened in the room?",
+      "fillBlanksText": "A little light came in [blank] a small hole in the ceiling. The master [blank] a hot glass cup in the light. Then he [blank] on the bubble.",
+      "wordBank": [
+       "through",
+       "held",
+       "blew",
+       "on",
+       "holds"
+      ],
+      "correctAnswer": [
+       "through",
+       "held",
+       "blew"
+      ],
+      "explanation": "Through = in one side and out the other. Hold → held, blow → blew in the past.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first two paragraphs of Chapter 7."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-7-write-it",
+      "type": "reflection",
+      "title": "Write It: The Secret of a Job",
+      "instructions": "Write the secret of a job.",
+      "question": "What is the secret?",
+      "correctAnswer": null,
+      "explanation": "Use the secret of … is ….",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“The secret of good bread is …”",
+        "mode": "Individual",
+        "example": "The secret of good bread is patience."
+       },
+       {
+        "question": "“The secret of a good teacher is …”",
+        "mode": "Individual",
+        "example": "The secret of a good teacher is love."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Why did the cups break?",
+     "options": [
+      "because of air bubbles",
+      "because of the cold",
+      "because of the color"
+     ],
+     "answer": 0,
+     "quote": "“My cups broke because of the bubbles!” he said."
+    },
+    "iCan": [
+     "I can tell the secret of the glass.",
+     "I can understand because of.",
+     "I can write the secret of a job."
+    ]
+   },
+   {
+    "id": 10,
+    "type": "quiz",
+    "title": "Knowledge Check",
+    "image": "https://picsum.photos/seed/quiz-ahilik-a1/1200/800",
+    "audioUrl": "",
+    "content": "Check your understanding of the complete story.",
+    "exercises": [
+     {
+      "id": "ahilik-a1-kc-1",
+      "type": "multiple-choice",
+      "title": "The Group",
+      "instructions": "Choose the answer.",
+      "question": "Where was the Ahî Organization?",
+      "options": [
+       "in Anatolia",
+       "in Europe",
+       "in Egypt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 1: “Seven hundred years ago, there was a special group in Anatolia.”",
+      "feedback": {
+       "correct": "Yes. In Anatolia.",
+       "incorrect": "Read the first paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "ahilik-a1-kc-2",
+      "type": "true-false",
+      "title": "Good People",
+      "instructions": "Is it true or false?",
+      "question": "The Ahîs never told lies.",
+      "correctAnswer": true,
+      "explanation": "Chapter 2: “They were honest and never told lies.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the first paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "ahilik-a1-kc-3",
+      "type": "multiple-choice",
+      "title": "An Apprentice",
+      "instructions": "Choose the answer.",
+      "question": "Where did an apprentice work?",
+      "options": [
+       "in a shop next to a master",
+       "in a palace",
+       "at home"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: “He worked in a shop next to a master.”",
+      "feedback": {
+       "correct": "Yes. In a shop.",
+       "incorrect": "Read the first paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "ahilik-a1-kc-4",
+      "type": "true-false",
+      "title": "The Shoes",
+      "instructions": "Is it true or false?",
+      "question": "The shoemaker used very good leather.",
+      "correctAnswer": false,
+      "explanation": "Chapter 4: “So he used cheap leather for his shoes.”",
+      "feedback": {
+       "correct": "Yes, it is false. The leather was cheap.",
+       "incorrect": "Read the first paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "ahilik-a1-kc-5",
+      "type": "multiple-choice",
+      "title": "The Cups",
+      "instructions": "Choose the answer.",
+      "question": "What did the young learner make?",
+      "options": [
+       "glass cups",
+       "shoes",
+       "bread"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 6: “He made glass cups.”",
+      "feedback": {
+       "correct": "Yes. Glass cups.",
+       "incorrect": "Read the second paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "ahilik-a1-kc-6",
+      "type": "multiple-choice",
+      "title": "Püf Noktası",
+      "instructions": "Choose the answer.",
+      "question": "What do Turkish people call “püf noktası”?",
+      "options": [
+       "the secret of a job",
+       "a glass cup",
+       "a dark room"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 7: “In Turkish, people call the secret of a job ‘püf noktası’.”",
+      "feedback": {
+       "correct": "Yes. The secret of a job.",
+       "incorrect": "Read the last paragraph of Chapter 7."
+      }
+     }
+    ]
+   },
+   {
+    "id": 12,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "Review all key vocabulary from the story in one place.",
+    "image": "https://picsum.photos/seed/glossary-ahilik-a1/1200/800",
+    "vocabulary": [
+     {
+      "word": "organization",
+      "definition": "A big group of people with one job.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˌɔːrɡənəˈzeɪʃn/",
+      "chapter": 1,
+      "chapterTitle": "A Group for Workers",
+      "storyExample": "Its name was the Ahî Organization.",
+      "category": "People"
+     },
+     {
+      "word": "worker",
+      "definition": "A person who does a job.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈwɜːrkər/",
+      "chapter": 1,
+      "chapterTitle": "A Group for Workers",
+      "storyExample": "It was a group for workers and masters.",
+      "category": "Work"
+     },
+     {
+      "word": "master",
+      "definition": "A person who is very good at a job.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmæstər/",
+      "chapter": 1,
+      "chapterTitle": "A Group for Workers",
+      "storyExample": "It was a group for workers and masters.",
+      "category": "Work"
+     },
+     {
+      "word": "check",
+      "definition": "Look at something carefully.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/tʃek/",
+      "chapter": 1,
+      "chapterTitle": "A Group for Workers",
+      "storyExample": "It visited the shops and checked their work.",
+      "category": "Actions"
+     },
+     {
+      "word": "price",
+      "definition": "How much money something is.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/praɪs/",
+      "chapter": 1,
+      "chapterTitle": "A Group for Workers",
+      "storyExample": "It also checked things, chose good prices, and helped with work problems.",
+      "category": "Money"
+     },
+     {
+      "word": "honest",
+      "definition": "Always says true things.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈɑːnɪst/",
+      "chapter": 2,
+      "chapterTitle": "Good People",
+      "storyExample": "They were honest and never told lies.",
+      "category": "Values"
+     },
+     {
+      "word": "lie",
+      "definition": "Words that are not true.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/laɪ/",
+      "chapter": 2,
+      "chapterTitle": "Good People",
+      "storyExample": "They were honest and never told lies.",
+      "category": "Values"
+     },
+     {
+      "word": "generous",
+      "definition": "Happy to give things to other people.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈdʒenərəs/",
+      "chapter": 2,
+      "chapterTitle": "Good People",
+      "storyExample": "They were generous, so they helped poor people and visited sick neighbors.",
+      "category": "Values"
+     },
+     {
+      "word": "manners",
+      "definition": "The polite way to do things.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmænərz/",
+      "chapter": 2,
+      "chapterTitle": "Good People",
+      "storyExample": "Young Ahîs learned good manners from their teachers, too.",
+      "category": "Values"
+     },
+     {
+      "word": "apprentice",
+      "definition": "A young person who learns a job from a master.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/əˈprentɪs/",
+      "chapter": 3,
+      "chapterTitle": "Learning a Job",
+      "storyExample": "A young person started work as an apprentice.",
+      "category": "Work"
+     },
+     {
+      "word": "shame",
+      "definition": "A bad feeling after a wrong thing.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ʃeɪm/",
+      "chapter": 3,
+      "chapterTitle": "Learning a Job",
+      "storyExample": "For the Ahîs, bad work was a shame.",
+      "category": "Feelings"
+     },
+     {
+      "word": "own",
+      "definition": "Of you, not of other people.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/oʊn/",
+      "chapter": 3,
+      "chapterTitle": "Learning a Job",
+      "storyExample": "So an apprentice could not open his own shop too early.",
+      "category": "Describing"
+     },
+     {
+      "word": "shoemaker",
+      "definition": "A person who makes shoes.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈʃuːmeɪkər/",
+      "chapter": 4,
+      "chapterTitle": "Bad Shoes",
+      "storyExample": "There was a shoemaker in a small town.",
+      "category": "Work"
+     },
+     {
+      "word": "leather",
+      "definition": "The skin of an animal, for shoes and bags.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈleðər/",
+      "chapter": 4,
+      "chapterTitle": "Bad Shoes",
+      "storyExample": "So he used cheap leather for his shoes.",
+      "category": "Things"
+     },
+     {
+      "word": "customer",
+      "definition": "A person who buys things in a shop.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈkʌstəmər/",
+      "chapter": 4,
+      "chapterTitle": "Bad Shoes",
+      "storyExample": "The customers were very angry.",
+      "category": "People"
+     },
+     {
+      "word": "leader",
+      "definition": "The most important person in a group.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈliːdər/",
+      "chapter": 4,
+      "chapterTitle": "Bad Shoes",
+      "storyExample": "They went to the Ahî leader.",
+      "category": "People"
+     },
+     {
+      "word": "throw",
+      "definition": "Send something through the air with your hand.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/θroʊ/",
+      "chapter": 5,
+      "chapterTitle": "Shoes on the Roof",
+      "storyExample": "Then he took the shoes and threw them up on the roof of the shop!",
+      "category": "Actions"
+     },
+     {
+      "word": "roof",
+      "definition": "The top part of a house.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ruːf/",
+      "chapter": 5,
+      "chapterTitle": "Shoes on the Roof",
+      "storyExample": "Then he took the shoes and threw them up on the roof of the shop!",
+      "category": "Places"
+     },
+     {
+      "word": "warning",
+      "definition": "Words about a bad thing that can happen.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈwɔːrnɪŋ/",
+      "chapter": 5,
+      "chapterTitle": "Shoes on the Roof",
+      "storyExample": "This was a warning for the shoemaker: “Make good shoes, or you cannot sell shoes in this town again.”",
+      "category": "Life"
+     },
+     {
+      "word": "glass",
+      "definition": "A hard thing you can see through, like a window.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɡlæs/",
+      "chapter": 6,
+      "chapterTitle": "Not Ready Yet",
+      "storyExample": "In a town in Anatolia, a young Ahî learner made nice things from glass with his master.",
+      "category": "Things"
+     },
+     {
+      "word": "break",
+      "definition": "Go into pieces.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/breɪk/",
+      "chapter": 6,
+      "chapterTitle": "Not Ready Yet",
+      "storyExample": "But after a short time, all the cups broke.",
+      "category": "Actions"
+     },
+     {
+      "word": "forgive",
+      "definition": "Stop being angry with someone.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/fərˈɡɪv/",
+      "chapter": 6,
+      "chapterTitle": "Not Ready Yet",
+      "storyExample": "His kind master forgave him.",
+      "category": "Values"
+     },
+     {
+      "word": "hole",
+      "definition": "An open place in something.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/hoʊl/",
+      "chapter": 7,
+      "chapterTitle": "The Secret of the Glass",
+      "storyExample": "A little light came in through a small hole in the ceiling.",
+      "category": "Things"
+     },
+     {
+      "word": "ceiling",
+      "definition": "The top part of a room, over your head.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈsiːlɪŋ/",
+      "chapter": 7,
+      "chapterTitle": "The Secret of the Glass",
+      "storyExample": "A little light came in through a small hole in the ceiling.",
+      "category": "Places"
+     },
+     {
+      "word": "bubble",
+      "definition": "A very small ball of air.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈbʌbl/",
+      "chapter": 7,
+      "chapterTitle": "The Secret of the Glass",
+      "storyExample": "Inside it, there was a very small air bubble.",
+      "category": "Things"
+     },
+     {
+      "word": "blow",
+      "definition": "Push air out of your mouth.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/bloʊ/",
+      "chapter": 7,
+      "chapterTitle": "The Secret of the Glass",
+      "storyExample": "The master blew on it, “Püf!”, and the bubble was gone.",
+      "category": "Actions"
+     },
+     {
+      "word": "secret",
+      "definition": "A thing only a few people know.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈsiːkrət/",
+      "chapter": 7,
+      "chapterTitle": "The Secret of the Glass",
+      "storyExample": "In Turkish, people call the secret of a job “püf noktası”.",
+      "category": "Work"
+     }
+    ]
+   },
+   {
+    "id": 11,
+    "type": "vocabulary-match",
+    "title": "Vocabulary Challenge",
+    "image": "https://picsum.photos/seed/vocab-match-ahilik-a1/1200/800",
+    "audioUrl": "",
+    "content": "Match six story words with their meanings.",
+    "vocabularyPairs": [
+     {
+      "word": "worker",
+      "meaning": "A person who does a job.",
+      "partOfSpeech": "noun",
+      "chapter": 1,
+      "context": "It was a group for workers and masters."
+     },
+     {
+      "word": "honest",
+      "meaning": "Always says true things.",
+      "partOfSpeech": "adjective",
+      "chapter": 2,
+      "context": "They were honest and never told lies."
+     },
+     {
+      "word": "apprentice",
+      "meaning": "A young person who learns a job from a master.",
+      "partOfSpeech": "noun",
+      "chapter": 3,
+      "context": "A young person started work as an apprentice."
+     },
+     {
+      "word": "customer",
+      "meaning": "A person who buys things in a shop.",
+      "partOfSpeech": "noun",
+      "chapter": 4,
+      "context": "The customers were very angry."
+     },
+     {
+      "word": "roof",
+      "meaning": "The top part of a house.",
+      "partOfSpeech": "noun",
+      "chapter": 5,
+      "context": "Then he took the shoes and threw them up on the roof of the shop!"
+     },
+     {
+      "word": "bubble",
+      "meaning": "A very small ball of air.",
+      "partOfSpeech": "noun",
+      "chapter": 7,
+      "context": "Inside it, there was a very small air bubble."
+     }
+    ]
+   },
+   {
+    "id": 13,
+    "type": "exercises",
+    "title": "Language Review",
+    "image": "https://picsum.photos/seed/exercises-ahilik-a1/1200/800",
+    "content": "Review the language from all chapters.",
+    "exercises": [
+     {
+      "id": "ahilik-a1-language-review-1",
+      "type": "drag-drop",
+      "title": "Look: Two Kinds of Past",
+      "instructions": "Put each verb in the right group.",
+      "question": "How does each verb show the past?",
+      "dragDropGroups": [
+       {
+        "group": "Ends in -ed",
+        "items": [
+         "visited",
+         "checked",
+         "helped",
+         "opened"
+        ]
+       },
+       {
+        "group": "Changes",
+        "items": [
+         "taught",
+         "threw",
+         "broke",
+         "forgave"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Ends in -ed": [
+        "visited",
+        "checked",
+        "helped",
+        "opened"
+       ],
+       "Changes": [
+        "taught",
+        "threw",
+        "broke",
+        "forgave"
+       ]
+      },
+      "explanation": "Many verbs add -ed: visit → visited, check → checked. Some verbs change: teach → taught, throw → threw, break → broke, forgive → forgave.",
+      "feedback": {
+       "correct": "Well done. You found the two kinds of past.",
+       "incorrect": "Say the verb today: visit, teach … Does it add -ed or change?"
+      }
+     },
+     {
+      "id": "ahilik-a1-language-review-2",
+      "type": "choose-form",
+      "title": "Practise: So, But",
+      "instructions": "Choose the right word.",
+      "question": "So or but?",
+      "formChoices": [
+       {
+        "sentence": "They were generous, [choice] they helped poor people.",
+        "options": [
+         "so",
+         "but"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The shoes looked nice, [choice] they were not strong.",
+        "options": [
+         "but",
+         "so"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "So tells what happened next. But shows a different idea.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Generous → helped: so. Nice ≠ not strong: but."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-review-3",
+      "type": "choose-form",
+      "title": "Practise: Was, Were",
+      "instructions": "Choose was or were.",
+      "question": "One or many?",
+      "formChoices": [
+       {
+        "sentence": "The customers [choice] very angry.",
+        "options": [
+         "were",
+         "was"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "This [choice] a warning for the shoemaker.",
+        "options": [
+         "was",
+         "were"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "One thing: was. Two or more: were.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Customers = many. This = one."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-review-4",
+      "type": "word-bank",
+      "title": "Practise: Ready",
+      "instructions": "Fill the gaps with the words.",
+      "question": "Was he ready?",
+      "fillBlanksText": "“You are not ready [blank].” The young learner did [blank] listen. Later, the master said, “[blank] you are ready.”",
+      "wordBank": [
+       "yet",
+       "not",
+       "Now",
+       "no",
+       "Never"
+      ],
+      "correctAnswer": [
+       "yet",
+       "not",
+       "Now"
+      ],
+      "explanation": "Not … yet = not now. Did not + verb. Now = at this time.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Find these words in Chapters 6 and 7."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-review-5",
+      "type": "error-correction",
+      "title": "Practise: Fix One Word",
+      "instructions": "Find the wrong word. Choose the right word.",
+      "question": "Which word is wrong?",
+      "errorItems": [
+       {
+        "sentence": "The master teached him the job.",
+        "error": "teached",
+        "options": [
+         "taught",
+         "teach",
+         "teaches"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "All the cups breaked.",
+        "error": "breaked",
+        "options": [
+         "break",
+         "broke",
+         "breaks"
+        ],
+        "answer": 1
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "“Teach” and “break” change in the past: taught, broke.",
+      "feedback": {
+       "correct": "Well done.",
+       "incorrect": "Teach → taught. Break → broke. They do not take -ed."
+      }
+     },
+     {
+      "id": "ahilik-a1-language-review-6",
+      "type": "reflection",
+      "title": "Use: A Good Worker",
+      "instructions": "Write three sentences about a good worker.",
+      "question": "What is a good worker like?",
+      "correctAnswer": null,
+      "explanation": "Use is + adjective, never and so.",
+      "feedback": {
+       "correct": "Write three short sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "One adjective: “A good worker is …”",
+        "mode": "Individual",
+        "example": "A good worker is honest."
+       },
+       {
+        "question": "One “never”: “A good worker never …”",
+        "mode": "Individual",
+        "example": "A good worker never tells lies."
+       },
+       {
+        "question": "One “so”: “He is kind, so …”",
+        "mode": "Individual",
+        "example": "He is kind, so people love him."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": 14,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "image": "https://picsum.photos/seed/challenge-ahilik-a1/1200/800",
+    "content": "Bring the whole story together in the Final Challenge.",
+    "exercises": [
+     {
+      "id": "ahilik-a1-final-1",
+      "type": "fill-blanks",
+      "title": "A Group for Workers",
+      "instructions": "Write one word.",
+      "question": "What did the group visit?",
+      "fillBlanksText": "It visited the [blank] and checked their work.",
+      "correctAnswer": [
+       "shops"
+      ],
+      "explanation": "Chapter 1: “It visited the shops and checked their work.”",
+      "feedback": {
+       "correct": "Yes. The shops.",
+       "incorrect": "Read the second paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "ahilik-a1-final-2",
+      "type": "multiple-choice",
+      "title": "Good People",
+      "instructions": "Choose the answer.",
+      "question": "For the Ahîs, what went together?",
+      "options": [
+       "good work and a good heart",
+       "money and gold",
+       "shoes and bags"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 2: “For them, good work and a good heart always went together.”",
+      "feedback": {
+       "correct": "Yes. Good work and a good heart.",
+       "incorrect": "Read the second paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "ahilik-a1-final-3",
+      "type": "true-false",
+      "title": "Bad Work",
+      "instructions": "Is it true or false?",
+      "question": "For the Ahîs, bad work was a shame.",
+      "correctAnswer": true,
+      "explanation": "Chapter 3: “For the Ahîs, bad work was a shame.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "ahilik-a1-final-4",
+      "type": "matching",
+      "title": "Who Is It?",
+      "instructions": "Match the person with the sentence.",
+      "question": "Who is it?",
+      "matchingHeadings": {
+       "left": "Person",
+       "right": "Sentence"
+      },
+      "matchingPairs": [
+       {
+        "left": "the shoemaker",
+        "right": "He used cheap leather."
+       },
+       {
+        "left": "the Ahî leader",
+        "right": "He threw the shoes on the roof."
+       },
+       {
+        "left": "the kind master",
+        "right": "He forgave the young learner."
+       }
+      ],
+      "correctAnswer": {
+       "the shoemaker": "He used cheap leather.",
+       "the Ahî leader": "He threw the shoes on the roof.",
+       "the kind master": "He forgave the young learner."
+      },
+      "explanation": "Chapter 4: the shoemaker. Chapter 5: the Ahî leader. Chapter 6: the kind master.",
+      "feedback": {
+       "correct": "Good. You matched all three.",
+       "incorrect": "Read Chapters 4, 5 and 6 again."
+      }
+     },
+     {
+      "id": "ahilik-a1-final-5",
+      "type": "multiple-choice",
+      "title": "Pabucu Dama Atılmak",
+      "instructions": "Choose the answer.",
+      "question": "What does “pabucu dama atılmak” mean?",
+      "options": [
+       "“His shoes are on the roof.”",
+       "“His shoes are new.”",
+       "“His shop is open.”"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: “In Turkish, people still say ‘pabucu dama atılmak’. It means ‘his shoes are on the roof’.”",
+      "feedback": {
+       "correct": "Yes.",
+       "incorrect": "Read the last part of Chapter 5."
+      }
+     },
+     {
+      "id": "ahilik-a1-final-6",
+      "type": "true-false",
+      "title": "The Young Learner",
+      "instructions": "Is it true or false?",
+      "question": "The young learner lost all his money.",
+      "correctAnswer": true,
+      "explanation": "Chapter 6: “Nobody wanted his cups, and he lost all his money.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the second paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "ahilik-a1-final-7",
+      "type": "multiple-choice",
+      "title": "The Dark Room",
+      "instructions": "Choose the answer.",
+      "question": "How did light come into the dark room?",
+      "options": [
+       "through a small hole in the ceiling",
+       "through a big door",
+       "through a window"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 7: “A little light came in through a small hole in the ceiling.”",
+      "feedback": {
+       "correct": "Yes. Through a small hole.",
+       "incorrect": "Read the first paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "ahilik-a1-final-8",
+      "type": "sequencing",
+      "title": "The Glass Cups",
+      "instructions": "Put the sentences in order.",
+      "question": "What happened first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "The young learner opened a shop in a different city."
+       },
+       {
+        "id": "2",
+        "text": "The young learner went back and said, “I am sorry.”"
+       },
+       {
+        "id": "3",
+        "text": "The master showed the young learner the air bubble."
+       },
+       {
+        "id": "4",
+        "text": "The young learner opened a very good shop."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "A shop in a different city (Chapter 6) → “I am sorry” (Chapter 6) → the bubble (Chapter 7) → a very good shop (Chapter 7).",
+      "feedback": {
+       "correct": "Great! You know the story of the glass cups.",
+       "incorrect": "Think about the order of Chapters 6 and 7."
+      }
+     }
+    ]
+   }
+  ],
+  "teacherGuide": [],
+  "selfStudyGuide": []
+ }
+}

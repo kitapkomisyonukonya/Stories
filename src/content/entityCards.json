@@ -620,7 +620,7 @@
     "title": "Al-Andalus",
     "kindLabel": "Land",
     "periodLabel": "711–1492",
-    "summary": "Al-Andalus was the name of the Muslim lands in Spain and Portugal. Muslims, Christians and Jews lived there together.",
+    "summary": "From 711 to 1492, Muslims lived in Spain and Portugal. The name of this place was Al-Andalus. Muslims, Christians and Jews lived there together.",
     "more": "It had big, beautiful cities."
    },
    "aliases": {
@@ -650,16 +650,16 @@
   },
   "ibnjubayr-a1-seville": {
    "en": {
-    "title": "Sevilla",
+    "title": "Seville",
     "kindLabel": "City",
     "periodLabel": "Al-Andalus",
-    "summary": "Sevilla is a city in Spain. In the time of Al-Andalus, it had 1,000 mosques.",
-    "more": "In English, people also say Seville."
+    "summary": "Seville is a city in Spain. In the time of Al-Andalus, it was a big city.",
+    "more": "In Spanish, its name is Sevilla."
    },
    "aliases": {
     "en": [
-     "Sevilla",
-     "Seville"
+     "Seville",
+     "Sevilla"
     ],
     "ar": []
    },
@@ -670,7 +670,7 @@
     "title": "Valencia",
     "kindLabel": "City",
     "periodLabel": "Al-Andalus",
-    "summary": "Valencia is a city in the east of Spain, near the sea. Ibn Jubayr was born here in 1145.",
+    "summary": "Valencia is a city in Spain, near the sea. Ibn Jubayr was born here in 1145.",
     "more": "At that time, it was a part of Al-Andalus."
    },
    "aliases": {
@@ -686,8 +686,8 @@
     "title": "Granada",
     "kindLabel": "City",
     "periodLabel": "Al-Andalus",
-    "summary": "Granada is a city in Spain. Ibn Jubayr worked here. He started and ended his journey in Granada.",
-    "more": "He wrote his travel book here."
+    "summary": "Granada is a city in Spain. Ibn Jubayr was a secretary for the ruler of Granada. He started his journey here.",
+    "more": "Back in Granada, he finished his book."
    },
    "aliases": {
     "en": [
@@ -696,6 +696,22 @@
     "ar": []
    },
    "tr": "Gırnata"
+  },
+  "ibnjubayr-a1-jerusalem": {
+   "en": {
+    "title": "Jerusalem",
+    "kindLabel": "City",
+    "periodLabel": "Palestine",
+    "summary": "Jerusalem is a very old city. Ibn Jubayr wanted to see it.",
+    "more": "It is an important city for Muslims."
+   },
+   "aliases": {
+    "en": [
+     "Jerusalem"
+    ],
+    "ar": []
+   },
+   "tr": "Kudüs"
   },
   "ibnjubayr-a1-ceuta": {
    "en": {
@@ -713,13 +729,29 @@
    },
    "tr": "Sebte"
   },
+  "ibnjubayr-a1-sardinia": {
+   "en": {
+    "title": "Sardinia",
+    "kindLabel": "Island",
+    "periodLabel": "In the sea, near Italy",
+    "summary": "Sardinia is a big island. Ibn Jubayr’s ship went past it. Near Sardinia, he saw 80 Muslim prisoners.",
+    "more": "Ibn Jubayr was very sad."
+   },
+   "aliases": {
+    "en": [
+     "Sardinia"
+    ],
+    "ar": []
+   },
+   "tr": "Sardinya"
+  },
   "ibnjubayr-a1-sicily": {
    "en": {
     "title": "Sicily",
     "kindLabel": "Island",
     "periodLabel": "In the sea, near Italy",
-    "summary": "Sicily is a big island. Ibn Jubayr’s ship went past it. On the way home, his ship hit some rocks near Sicily.",
-    "more": "The king of Sicily, William II, helped the people from the ship."
+    "summary": "Sicily is a big island. Ibn Jubayr’s ship went past it. On the way home, his ship hit the ground near Sicily.",
+    "more": "William II, the king of Sicily, helped the people from the ship."
    },
    "aliases": {
     "en": [
@@ -729,13 +761,45 @@
    },
    "tr": "Sicilya"
   },
+  "ibnjubayr-a1-crete": {
+   "en": {
+    "title": "Crete",
+    "kindLabel": "Island",
+    "periodLabel": "In the sea",
+    "summary": "Crete is a big island. After the storm, Ibn Jubayr’s ship went to Crete and then to Egypt.",
+    "more": "It is a part of Greece today."
+   },
+   "aliases": {
+    "en": [
+     "Crete"
+    ],
+    "ar": []
+   },
+   "tr": "Girit"
+  },
+  "ibnjubayr-a1-egypt": {
+   "en": {
+    "title": "Egypt",
+    "kindLabel": "Country",
+    "periodLabel": "North Africa",
+    "summary": "Egypt is a country in North Africa. Alexandria and Cairo are in Egypt.",
+    "more": "Ibn Jubayr saw the pyramids here."
+   },
+   "aliases": {
+    "en": [
+     "Egypt"
+    ],
+    "ar": []
+   },
+   "tr": "Mısır"
+  },
   "ibnjubayr-a1-alexandria": {
    "en": {
     "title": "Alexandria",
     "kindLabel": "City",
     "periodLabel": "Egypt",
-    "summary": "Alexandria is a city in Egypt, near the sea. Ibn Jubayr saw its famous lighthouse. He died here in 1217.",
-    "more": "It is a very old city."
+    "summary": "Alexandria is a city in Egypt, near the sea. Ibn Jubayr saw its famous lighthouse.",
+    "more": "In the end, he lived here. He died here in 1217."
    },
    "aliases": {
     "en": [
@@ -750,7 +814,7 @@
     "title": "The Lighthouse of Alexandria",
     "kindLabel": "Building",
     "periodLabel": "Egypt",
-    "summary": "This lighthouse was very tall and very old. It had a light for ships. Ibn Jubayr loved it.",
+    "summary": "This lighthouse was very tall and very old. Ibn Jubayr wrote, “It is taller than 50 men!”",
     "more": "Today, it is not there."
    },
    "aliases": {
@@ -767,8 +831,8 @@
     "title": "Cairo",
     "kindLabel": "City",
     "periodLabel": "Egypt",
-    "summary": "Cairo is a big city in Egypt. In Ibn Jubayr’s time, the leader here was Saladin.",
-    "more": "Today, it is the capital of Egypt."
+    "summary": "Cairo is a big city in Egypt. In Ibn Jubayr’s time, the ruler here was Sultan Saladin.",
+    "more": "Ibn Jubayr visited a big, free hospital here."
    },
    "aliases": {
     "en": [
@@ -783,7 +847,7 @@
     "title": "Saladin",
     "kindLabel": "Sultan",
     "periodLabel": "The 1100s",
-    "summary": "Saladin was the sultan in Cairo. He was kind and fair. He helped mosques, schools and hospitals.",
+    "summary": "Saladin was the sultan in Cairo. He was kind and fair. He took care of mosques, schools and hospitals.",
     "more": "Every day, he gave bread to poor people."
    },
    "aliases": {
@@ -796,28 +860,12 @@
    },
    "tr": "Selâhaddîn-i Eyyûbî"
   },
-  "ibnjubayr-a1-red-sea": {
-   "en": {
-    "title": "The Red Sea",
-    "kindLabel": "Sea",
-    "periodLabel": "Between Africa and Arabia",
-    "summary": "The Red Sea is between Africa and Arabia. Ibn Jubayr went to the Red Sea with a caravan of camels.",
-    "more": "Then he went to Mecca."
-   },
-   "aliases": {
-    "en": [
-     "Red Sea"
-    ],
-    "ar": []
-   },
-   "tr": "Kızıldeniz"
-  },
   "ibnjubayr-a1-mecca": {
    "en": {
     "title": "Mecca",
     "kindLabel": "City",
     "periodLabel": "Arabia",
-    "summary": "Mecca is in a narrow valley. The Ka’ba is here. Ibn Jubayr stayed here for more than eight months and made the Hajj.",
+    "summary": "Mecca is a small place between mountains. The Ka’ba is here. Ibn Jubayr stayed here for more than eight months and made the Hajj.",
     "more": "People come here from many countries."
    },
    "aliases": {
@@ -833,7 +881,7 @@
     "title": "Medina",
     "kindLabel": "City",
     "periodLabel": "Arabia",
-    "summary": "Medina is a city north of Mecca. Ibn Jubayr went here in April 1184.",
+    "summary": "Medina is a city in Arabia. Ibn Jubayr went here on April 16, 1184. He stayed for five nights.",
     "more": "The mosque of the Prophet (pbuh) is in Medina."
    },
    "aliases": {
@@ -849,7 +897,7 @@
     "title": "Baghdad",
     "kindLabel": "City",
     "periodLabel": "Iraq",
-    "summary": "Baghdad was the capital of the Abbasids. It had 2,000 public baths.",
+    "summary": "Baghdad was a very big city. Ibn Jubayr wrote, “Baghdad has 2,000 baths and 11 big mosques.”",
     "more": "Today, it is the capital of Iraq."
    },
    "aliases": {
@@ -859,22 +907,6 @@
     "ar": []
    },
    "tr": "Bağdat"
-  },
-  "ibnjubayr-a1-abbasids": {
-   "en": {
-    "title": "The Abbasids",
-    "kindLabel": "Ruling family",
-    "periodLabel": "750–1258",
-    "summary": "The Abbasids were a family of Muslim leaders. Their capital was Baghdad.",
-    "more": "They ruled for a very long time."
-   },
-   "aliases": {
-    "en": [
-     "Abbasids"
-    ],
-    "ar": []
-   },
-   "tr": "Abbâsîler"
   },
   "ibnjubayr-a1-aleppo": {
    "en": {
@@ -897,7 +929,7 @@
     "title": "Damascus",
     "kindLabel": "City",
     "periodLabel": "Syria",
-    "summary": "Damascus is an old city in Syria. Ibn Jubayr visited its Great Mosque. Students and travelers stayed in madrasas here for free.",
+    "summary": "Damascus is an old city in Syria. Ibn Jubayr saw its Great Mosque. Students and travelers stayed in schools here for free.",
     "more": "Today, it is the capital of Syria."
    },
    "aliases": {
@@ -913,7 +945,7 @@
     "title": "The Great Mosque of Damascus",
     "kindLabel": "Mosque",
     "periodLabel": "Syria",
-    "summary": "This is a very big, old mosque in Damascus. It has tall minarets and beautiful mosaics. It had a water clock, too.",
+    "summary": "This is a very big, old mosque in Damascus. Ibn Jubayr wrote about its doors, its towers and its beautiful walls.",
     "more": "People pray there today, too."
    },
    "aliases": {
@@ -928,8 +960,8 @@
    "en": {
     "title": "Acre",
     "kindLabel": "City",
-    "periodLabel": "Palestine",
-    "summary": "Acre is a city in Palestine, near the sea. Ibn Jubayr waited here two weeks for good winds.",
+    "periodLabel": "Near the sea",
+    "summary": "Acre is a city near the sea. Ibn Jubayr waited here for about two weeks. He needed a good wind for the ship.",
     "more": "Then he got on a ship for home."
    },
    "aliases": {
@@ -939,22 +971,6 @@
     "ar": []
    },
    "tr": "Akkâ"
-  },
-  "ibnjubayr-a1-crusaders": {
-   "en": {
-    "title": "The Crusaders",
-    "kindLabel": "Soldiers",
-    "periodLabel": "The 1100s",
-    "summary": "The Crusaders were soldiers from Europe. They came to fight. In Ibn Jubayr’s time, they ruled Palestine.",
-    "more": "Later, Saladin took Jerusalem back from them."
-   },
-   "aliases": {
-    "en": [
-     "Crusaders"
-    ],
-    "ar": []
-   },
-   "tr": "Haçlılar"
   },
   "mecca-mecca-7th-century": {
    "en": {
@@ -5221,6 +5237,278 @@
     "ar": []
    },
    "tr": "Mekteb-i Tıbbiyye-i Adliyye-i Şâhâne"
+  },
+  "gevher-a1-complex": {
+   "en": {
+    "title": "The Gevher Nesibe Hospital and Medical School",
+    "kindLabel": "Hospital and school",
+    "periodLabel": "1205–1206",
+    "summary": "This old building in Kayseri was both a hospital and a school. It was the first place in the world with both.",
+    "more": "Today, it is the Museum of the Seljuk Civilization."
+   },
+   "ar": {
+    "title": "The Gevher Nesibe Hospital and Medical School",
+    "kindLabel": "Hospital and school",
+    "periodLabel": "1205–1206",
+    "summary": "This old building in Kayseri was both a hospital and a school. It was the first place in the world with both.",
+    "more": "Today, it is the Museum of the Seljuk Civilization."
+   },
+   "aliases": {
+    "en": [
+     "Gevher Nesibe Hospital and Medical School",
+     "Gevher Nesibe Hospital",
+     "Twin Madrasas"
+    ],
+    "ar": []
+   },
+   "tr": "Gevher Nesibe Darüşşifası ve Tıp Medresesi (Çifte Medrese)"
+  },
+  "gevher-a1-kayseri": {
+   "en": {
+    "title": "Kayseri",
+    "kindLabel": "City",
+    "periodLabel": "Anatolia",
+    "summary": "Kayseri is a city in Anatolia. The Gevher Nesibe Hospital and Medical School is here.",
+    "more": "It is the oldest Seljuk hospital in Anatolia."
+   },
+   "ar": {
+    "title": "Kayseri",
+    "kindLabel": "City",
+    "periodLabel": "Anatolia",
+    "summary": "Kayseri is a city in Anatolia. The Gevher Nesibe Hospital and Medical School is here.",
+    "more": "It is the oldest Seljuk hospital in Anatolia."
+   },
+   "aliases": {
+    "en": [
+     "Kayseri"
+    ],
+    "ar": []
+   }
+  },
+  "gevher-a1-anatolia": {
+   "en": {
+    "title": "Anatolia",
+    "kindLabel": "Land",
+    "periodLabel": "Türkiye today",
+    "summary": "Anatolia is a big land. Kayseri is a city in Anatolia.",
+    "more": "Today, Anatolia is a part of Türkiye."
+   },
+   "ar": {
+    "title": "Anatolia",
+    "kindLabel": "Land",
+    "periodLabel": "Türkiye today",
+    "summary": "Anatolia is a big land. Kayseri is a city in Anatolia.",
+    "more": "Today, Anatolia is a part of Türkiye."
+   },
+   "aliases": {
+    "en": [
+     "Anatolia"
+    ],
+    "ar": []
+   },
+   "tr": "Anadolu"
+  },
+  "gevher-a1-europe": {
+   "en": {
+    "title": "Europe",
+    "kindLabel": "Land",
+    "periodLabel": "Today and in history",
+    "summary": "Europe is a big land. In Europe, similar schools started more than 300 years later."
+   },
+   "ar": {
+    "title": "Europe",
+    "kindLabel": "Land",
+    "periodLabel": "Today and in history",
+    "summary": "Europe is a big land. In Europe, similar schools started more than 300 years later."
+   },
+   "aliases": {
+    "en": [
+     "Europe"
+    ],
+    "ar": []
+   },
+   "tr": "Avrupa"
+  },
+  "gevher-a1-gevher-nesibe-sultan": {
+   "en": {
+    "title": "Gevher Nesibe",
+    "kindLabel": "Seljuk princess",
+    "periodLabel": "The 1100s",
+    "summary": "Gevher Nesibe was a Seljuk princess. She became very sick and died at a young age.",
+    "more": "Her last wish was a hospital, free for everyone."
+   },
+   "ar": {
+    "title": "Gevher Nesibe",
+    "kindLabel": "Seljuk princess",
+    "periodLabel": "The 1100s",
+    "summary": "Gevher Nesibe was a Seljuk princess. She became very sick and died at a young age.",
+    "more": "Her last wish was a hospital, free for everyone."
+   },
+   "aliases": {
+    "en": [
+     "Gevher Nesibe"
+    ],
+    "ar": []
+   },
+   "tr": "Gevher Nesibe Sultan"
+  },
+  "gevher-a1-kilicarslan-ii": {
+   "en": {
+    "title": "Kılıçarslan II",
+    "kindLabel": "Seljuk sultan",
+    "periodLabel": "The 1100s",
+    "summary": "Sultan Kılıçarslan II was a Seljuk sultan. He was the father of Gevher Nesibe."
+   },
+   "ar": {
+    "title": "Kılıçarslan II",
+    "kindLabel": "Seljuk sultan",
+    "periodLabel": "The 1100s",
+    "summary": "Sultan Kılıçarslan II was a Seljuk sultan. He was the father of Gevher Nesibe."
+   },
+   "aliases": {
+    "en": [
+     "Kılıçarslan II"
+    ],
+    "ar": []
+   },
+   "tr": "II. Kılıçarslan"
+  },
+  "gevher-a1-giyaseddin-keyhusrev-i": {
+   "en": {
+    "title": "Gıyâseddin Keyhusrev I",
+    "kindLabel": "Seljuk sultan",
+    "periodLabel": "The early 1200s",
+    "summary": "Sultan Gıyâseddin Keyhusrev I was the brother of Gevher Nesibe.",
+    "more": "He kept his promise and built two buildings next to each other."
+   },
+   "ar": {
+    "title": "Gıyâseddin Keyhusrev I",
+    "kindLabel": "Seljuk sultan",
+    "periodLabel": "The early 1200s",
+    "summary": "Sultan Gıyâseddin Keyhusrev I was the brother of Gevher Nesibe.",
+    "more": "He kept his promise and built two buildings next to each other."
+   },
+   "aliases": {
+    "en": [
+     "Gıyâseddin Keyhusrev I"
+    ],
+    "ar": []
+   },
+   "tr": "I. Gıyâseddin Keyhusrev"
+  },
+  "gevher-a1-giyasiye": {
+   "en": {
+    "title": "Gıyâsiye Madrasa",
+    "kindLabel": "School for doctors",
+    "periodLabel": "The early 1200s",
+    "summary": "The Gıyâsiye Madrasa was a school for doctors. Gevher Nesibe’s grave is inside it.",
+    "more": "The grave of Gevher Nesibe Sultan is inside it."
+   },
+   "ar": {
+    "title": "Gıyâsiye Madrasa",
+    "kindLabel": "School for doctors",
+    "periodLabel": "The early 1200s",
+    "summary": "The Gıyâsiye Madrasa was a school for doctors. Gevher Nesibe’s grave is inside it.",
+    "more": "The grave of Gevher Nesibe Sultan is inside it."
+   },
+   "aliases": {
+    "en": [
+     "Gıyâsiye Madrasa",
+     "Gıyâsiye"
+    ],
+    "ar": []
+   },
+   "tr": "Gıyâsiye Medresesi"
+  },
+  "gevher-a1-sifaiye": {
+   "en": {
+    "title": "Şifâiye",
+    "kindLabel": "Hospital",
+    "periodLabel": "The early 1200s",
+    "summary": "The Şifâiye was the hospital. People also called it “the house of healing”.",
+    "more": "Students worked with real patients here."
+   },
+   "ar": {
+    "title": "Şifâiye",
+    "kindLabel": "Hospital",
+    "periodLabel": "The early 1200s",
+    "summary": "The Şifâiye was the hospital. People also called it “the house of healing”.",
+    "more": "Students worked with real patients here."
+   },
+   "aliases": {
+    "en": [
+     "Şifâiye"
+    ],
+    "ar": []
+   },
+   "tr": "Şifâiye (Darüşşifa)"
+  },
+  "gevher-a1-ibn-sina": {
+   "en": {
+    "title": "İbn Sînâ",
+    "kindLabel": "Scientist",
+    "periodLabel": "980–1037",
+    "summary": "İbn Sînâ was a great scientist. The students in Kayseri read his important books.",
+    "more": "He wrote that kind words and music can help sick people."
+   },
+   "ar": {
+    "title": "İbn Sînâ",
+    "kindLabel": "Scientist",
+    "periodLabel": "980–1037",
+    "summary": "İbn Sînâ was a great scientist. The students in Kayseri read his important books.",
+    "more": "He wrote that kind words and music can help sick people."
+   },
+   "aliases": {
+    "en": [
+     "İbn Sînâ"
+    ],
+    "ar": []
+   },
+   "tr": "İbn Sînâ"
+  },
+  "gevher-a1-hippocrates": {
+   "en": {
+    "title": "Hippocrates",
+    "kindLabel": "Doctor",
+    "periodLabel": "Ancient Greece",
+    "summary": "Hippocrates was a doctor from ancient Greece. The students in Kayseri read his books."
+   },
+   "ar": {
+    "title": "Hippocrates",
+    "kindLabel": "Doctor",
+    "periodLabel": "Ancient Greece",
+    "summary": "Hippocrates was a doctor from ancient Greece. The students in Kayseri read his books."
+   },
+   "aliases": {
+    "en": [
+     "Hippocrates"
+    ],
+    "ar": []
+   },
+   "tr": "Hipokrat"
+  },
+  "gevher-a1-farabi": {
+   "en": {
+    "title": "Fârâbî",
+    "kindLabel": "Scientist",
+    "periodLabel": "The 800s and 900s",
+    "summary": "Fârâbî was a scientist. He also studied music.",
+    "more": "He found that music can make people happy or calm."
+   },
+   "ar": {
+    "title": "Fârâbî",
+    "kindLabel": "Scientist",
+    "periodLabel": "The 800s and 900s",
+    "summary": "Fârâbî was a scientist. He also studied music.",
+    "more": "He found that music can make people happy or calm."
+   },
+   "aliases": {
+    "en": [
+     "Fârâbî"
+    ],
+    "ar": []
+   },
+   "tr": "Fârâbî"
   }
  }
 }
