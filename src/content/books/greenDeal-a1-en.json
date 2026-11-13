@@ -14,9 +14,7 @@
     "id": 1,
     "type": "story",
     "title": "A Green Plan for Europe",
-    "image": "",
-    "audioUrl": "",
-    "content": "The European Union (EU) is a group of countries in Europe. The European Commission works for the EU. On 11 December 2019, it showed a new plan to the world. The name of the plan is the Green Deal.\n\nToday, cars and factories send bad gases into the air. These gases make our world hot. The Green Deal wants a clean world. The EU wants net zero in 2050. Gas goes into the air. Then the same gas comes out of the air.\n\nThe plan also says, \"Use less, and throw away less.\" People can use old things again.",
+    "content": "The European Union (EU) is a group of countries in Europe. The European Commission works for the EU. On 11 December 2019, it showed a new plan to the world. The name of the plan is the Green Deal.\n\nToday, cars and factories send bad gases into the air. These gases make our world hot. The Green Deal wants a clean world. The EU wants net zero in 2050. Gas goes into the air. Then the same gas comes out of the air.\n\nThe plan also says, “Use less, and throw away less.” People can use old things again.",
     "vocabulary": [
      {
       "word": "plan",
@@ -42,14 +40,166 @@
       "word": "throw away",
       "definition": "Put in the trash; not keep."
      }
+    ],
+    "hotspots": [
+     {
+      "id": "h1-1",
+      "x": 35,
+      "y": 46,
+      "title": "A New Plan",
+      "description": "On 11 December 2019, the European Commission showed a new plan to the world: the Green Deal."
+     },
+     {
+      "id": "h1-2",
+      "x": 68,
+      "y": 50,
+      "title": "Bad Gases",
+      "description": "Cars and factories send bad gases into the air. These gases make our world hot."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "greenDeal-a1-quick-1",
+      "type": "drag-drop",
+      "title": "A Green Plan for Europe",
+      "instructions": "Read. Is it true or false?",
+      "question": "What does Chapter 1 say?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The EU is a group of countries.",
+         "Bad gases make our world hot."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The Green Deal is a plan for one city."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The EU is a group of countries.",
+        "Bad gases make our world hot."
+       ],
+       "False": [
+        "The Green Deal is a plan for one city."
+       ]
+      },
+      "explanation": "Chapter 1 says: “The European Union (EU) is a group of countries in Europe.” “These gases make our world hot.”",
+      "feedback": {
+       "correct": "Yes! The EU is a group of countries.",
+       "incorrect": "Read the first two paragraphs of Chapter 1 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "greenDeal-a1-language-1-wants",
+      "type": "multiple-choice",
+      "title": "Look: The EU Wants …",
+      "instructions": "Choose the right answer.",
+      "question": "“The EU wants net zero in 2050.” Why is it “wants”, not “want”?",
+      "options": [
+       "The EU is one thing.",
+       "The EU is many people.",
+       "It is in the past."
+      ],
+      "correctAnswer": 0,
+      "explanation": "One person or one thing (he, she, it, the EU) + verb + -s: wants, works, says.",
+      "feedback": {
+       "correct": "Yes. The EU is one thing, so we say “wants”.",
+       "incorrect": "Read the second paragraph of Chapter 1 again."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-1-practise",
+      "type": "choose-form",
+      "title": "Practise: Works, Make, Says",
+      "instructions": "Choose the right form.",
+      "question": "Which form is right?",
+      "formChoices": [
+       {
+        "sentence": "The European Commission [choice] for the EU.",
+        "options": [
+         "works",
+         "work"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "These gases [choice] our world hot.",
+        "options": [
+         "make",
+         "makes"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The plan also [choice], “Use less.”",
+        "options": [
+         "says",
+         "say"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "One thing: works, says. Many things: make.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 1 again."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-1-say-it",
+      "type": "reflection",
+      "title": "Say It: Use Less",
+      "instructions": "Tell your partner about your home.",
+      "question": "How can you use less?",
+      "correctAnswer": null,
+      "explanation": "Use less + water / paper / energy.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“At home, I use less …”",
+        "mode": "Pair",
+        "example": "At home, I use less water."
+       },
+       {
+        "question": "“I can use my old … again.”",
+        "mode": "Pair",
+        "example": "I can use my old bag again."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What is the Green Deal?",
+     "options": [
+      "a plan",
+      "a game",
+      "a shop"
+     ],
+     "answer": 0,
+     "quote": "The name of the plan is the Green Deal."
+    },
+    "iCan": [
+     "I can say what the Green Deal is.",
+     "I can use wants and says.",
+     "I can say how I use less."
     ]
    },
    {
     "id": 2,
     "type": "story",
     "title": "Three Big Goals",
-    "image": "",
-    "audioUrl": "",
     "content": "The Green Deal has three big goals.\n\nGoal 1 is about the climate. Our world is getting hotter. This is a big problem for all countries. The EU wants 55% less bad gas in 2030. It wants net zero in 2050.\n\nGoal 2 is about nature. Water and trees are very important. We should not cut too many trees. We should not use too much water. Plants and animals need a safe home. All people need clean water, clean air and good food.\n\nGoal 3 is about work and money. The EU wants new green companies. Then people can have jobs, and nature can stay safe.",
     "vocabulary": [
      {
@@ -68,14 +218,157 @@
       "word": "company",
       "definition": "A business, like a shop or factory."
      }
+    ],
+    "hotspots": [
+     {
+      "id": "h2-1",
+      "x": 35,
+      "y": 46,
+      "title": "Goal 1: Climate",
+      "description": "Our world is getting hotter. The EU wants 55% less bad gas in 2030."
+     },
+     {
+      "id": "h2-2",
+      "x": 68,
+      "y": 50,
+      "title": "Goal 2: Nature",
+      "description": "Plants and animals need a safe home. All people need clean water, clean air and good food."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "greenDeal-a1-quick-2",
+      "type": "matching",
+      "title": "Three Big Goals",
+      "instructions": "Match the goal with the idea.",
+      "question": "What is each goal about?",
+      "matchingHeadings": {
+       "left": "Goal",
+       "right": "Idea"
+      },
+      "matchingPairs": [
+       {
+        "left": "Goal 1",
+        "right": "the climate"
+       },
+       {
+        "left": "Goal 2",
+        "right": "nature"
+       },
+       {
+        "left": "Goal 3",
+        "right": "work and money"
+       }
+      ],
+      "correctAnswer": {
+       "Goal 1": "the climate",
+       "Goal 2": "nature",
+       "Goal 3": "work and money"
+      },
+      "explanation": "Chapter 2: “Goal 1 is about the climate.” “Goal 2 is about nature.” “Goal 3 is about work and money.”",
+      "feedback": {
+       "correct": "Great! You know the three goals.",
+       "incorrect": "Read Chapter 2 again. Find “Goal 1”, “Goal 2” and “Goal 3”."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "greenDeal-a1-language-2-should-not",
+      "type": "multiple-choice",
+      "title": "Look: Should Not",
+      "instructions": "Choose the right answer.",
+      "question": "“We should not cut too many trees.” What does this mean?",
+      "options": [
+       "It is not good to do it.",
+       "It is good to do it.",
+       "It is a question."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Should not + verb = it is not good to do it. Should + verb = it is good to do it.",
+      "feedback": {
+       "correct": "Yes. It is not good to do it.",
+       "incorrect": "Read the Goal 2 paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-2-practise",
+      "type": "choose-form",
+      "title": "Practise: Too Many, Too Much",
+      "instructions": "Choose the right words.",
+      "question": "Which words go in the gap?",
+      "formChoices": [
+       {
+        "sentence": "We should not cut [choice] trees.",
+        "options": [
+         "too many",
+         "too much"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "We should not use [choice] water.",
+        "options": [
+         "too much",
+         "too many"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Too many + trees, cars, people. Too much + water, food, money.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the Goal 2 paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-2-write-it",
+      "type": "reflection",
+      "title": "Write It: Good Ideas",
+      "instructions": "Write two sentences about nature.",
+      "question": "What should we do?",
+      "correctAnswer": null,
+      "explanation": "Use should and should not + verb.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“We should …”",
+        "mode": "Individual",
+        "example": "We should save water."
+       },
+       {
+        "question": "“We should not …”",
+        "mode": "Individual",
+        "example": "We should not cut too many trees."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: How many big goals does the Green Deal have?",
+     "options": [
+      "three",
+      "ten",
+      "one"
+     ],
+     "answer": 0,
+     "quote": "The Green Deal has three big goals."
+    },
+    "iCan": [
+     "I can name the three big goals.",
+     "I can use should not.",
+     "I can write about nature with should."
     ]
    },
    {
     "id": 3,
     "type": "story",
     "title": "Why Do We Need It?",
-    "image": "",
-    "audioUrl": "",
     "content": "Why is the Green Deal important? Our world is in danger. There is a lot of pollution in the air and in the water. The weather is changing, too.\n\nFor many years, people used oil, gas and coal for energy. Cars, homes and factories use them every day. But they make bad gases, and they are bad for nature. And one day, there will be no more oil, gas and coal. We cannot use them like this for a long time.\n\nEnergy is a big problem today, too. There are wars in some places. Some things from other countries cannot come on time. Then energy is very expensive.",
     "vocabulary": [
      {
@@ -102,14 +395,184 @@
       "word": "war",
       "definition": "Fighting between countries."
      }
-    ]
+    ],
+    "hotspots": [
+     {
+      "id": "h3-1",
+      "x": 35,
+      "y": 46,
+      "title": "Pollution",
+      "description": "There is a lot of pollution in the air and in the water. The weather is changing, too."
+     },
+     {
+      "id": "h3-2",
+      "x": 68,
+      "y": 50,
+      "title": "Oil, Gas and Coal",
+      "description": "For many years, people used oil, gas and coal for energy. But they make bad gases."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "greenDeal-a1-quick-3",
+      "type": "drag-drop",
+      "title": "Why Do We Need It?",
+      "instructions": "Put each word in the right group.",
+      "question": "What do people use for energy?",
+      "dragDropGroups": [
+       {
+        "group": "For energy",
+        "items": [
+         "oil",
+         "gas",
+         "coal"
+        ]
+       },
+       {
+        "group": "Problems",
+        "items": [
+         "pollution",
+         "wars"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "For energy": [
+        "oil",
+        "gas",
+        "coal"
+       ],
+       "Problems": [
+        "pollution",
+        "wars"
+       ]
+      },
+      "explanation": "Chapter 3: “For many years, people used oil, gas and coal for energy.” “There is a lot of pollution.” “There are wars in some places.”",
+      "feedback": {
+       "correct": "Yes! Oil, gas and coal give energy.",
+       "incorrect": "Read the second paragraph of Chapter 3 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "greenDeal-a1-language-3-there-is",
+      "type": "multiple-choice",
+      "title": "Look: There Is, There Are",
+      "instructions": "Choose the right answer.",
+      "question": "“There are wars in some places.” Why is it “are”?",
+      "options": [
+       "Wars = more than one.",
+       "Wars = one thing.",
+       "It is in the past."
+      ],
+      "correctAnswer": 0,
+      "explanation": "There is + one thing, or pollution, water, money. There are + two or more things (wars).",
+      "feedback": {
+       "correct": "Yes. Wars are more than one.",
+       "incorrect": "Read the last paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-3-practise",
+      "type": "choose-form",
+      "title": "Practise: Is or Are?",
+      "instructions": "Choose is or are.",
+      "question": "One or many?",
+      "formChoices": [
+       {
+        "sentence": "There [choice] a lot of pollution in the air.",
+        "options": [
+         "is",
+         "are"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "There [choice] wars in some places.",
+        "options": [
+         "are",
+         "is"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "One day, there [choice] be no more oil.",
+        "options": [
+         "will",
+         "is"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "There is + one. There are + many. There will be = in the future.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 3 again."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-3-say-it",
+      "type": "reflection",
+      "title": "Say It: My Town",
+      "instructions": "Tell your partner about your town.",
+      "question": "What is in your town?",
+      "correctAnswer": null,
+      "explanation": "Use there is and there are.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“In my town, there is …”",
+        "mode": "Pair",
+        "example": "In my town, there is a big park."
+       },
+       {
+        "question": "“There are a lot of …”",
+        "mode": "Pair",
+        "example": "There are a lot of cars."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Is our world in danger?",
+     "options": [
+      "Yes, it is.",
+      "No, it is not.",
+      "Only the sea."
+     ],
+     "answer": 0,
+     "quote": "Our world is in danger."
+    },
+    "iCan": [
+     "I can say why the Green Deal is important.",
+     "I can use there is and there are.",
+     "I can talk about my town."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Problems and Answers",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group draws two columns: “Problems” and “Green Deal”.",
+      "Under “Problems”, the group writes three problems from Chapter 3.",
+      "Under “Green Deal”, the group writes one idea from Chapters 1 and 2 for each problem.",
+      "The group shows the poster to the class."
+     ],
+     "share": "One student reads one problem and one answer. Story: “Our world is in danger.”",
+     "solo": "Draw the two columns. Write two problems and two answers."
+    }
    },
    {
     "id": 4,
     "type": "story",
     "title": "Energy from the Wind and the Sun",
-    "image": "",
-    "audioUrl": "",
     "content": "Now many countries use energy from the wind and the sun. This energy never ends, and it is often cheaper. With it, countries do not need expensive oil and gas.\n\nFactories need a lot of energy. They need clean energy at a good price. The EU wants this change to be fast. Countries need a big plan. They also need a lot of money for new clean machines.",
     "vocabulary": [
      {
@@ -124,14 +587,134 @@
       "word": "money",
       "definition": "We pay for things with it."
      }
+    ],
+    "hotspots": [
+     {
+      "id": "h4-1",
+      "x": 35,
+      "y": 46,
+      "title": "Wind and Sun",
+      "description": "Energy from the wind and the sun never ends, and it is often cheaper."
+     },
+     {
+      "id": "h4-2",
+      "x": 68,
+      "y": 50,
+      "title": "Factories",
+      "description": "Factories need a lot of energy. They need clean energy at a good price."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "greenDeal-a1-quick-4",
+      "type": "multiple-choice",
+      "title": "Energy from the Wind and the Sun",
+      "instructions": "Choose the best answer.",
+      "question": "Why is energy from the wind and the sun good?",
+      "options": [
+       "It never ends, and it is often cheaper.",
+       "It is very expensive.",
+       "It makes bad gases."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 4: “This energy never ends, and it is often cheaper.”",
+      "feedback": {
+       "correct": "Yes! It never ends.",
+       "incorrect": "Read the first paragraph of Chapter 4 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "greenDeal-a1-language-4-cheaper",
+      "type": "multiple-choice",
+      "title": "Look: Cheaper",
+      "instructions": "Choose the right answer.",
+      "question": "“It is often cheaper.” What does “cheaper” mean?",
+      "options": [
+       "You pay less money.",
+       "You pay more money.",
+       "It is very old."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cheap + -er = cheaper (less money). Hot + -er = hotter.",
+      "feedback": {
+       "correct": "Yes. You pay less money.",
+       "incorrect": "Read the first paragraph of Chapter 4 again."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-4-practise",
+      "type": "word-bank",
+      "title": "Practise: Need",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What do factories and countries need?",
+      "fillBlanksText": "Factories need a lot of [blank]. Countries need a big [blank]. They also need a lot of [blank] for new clean machines.",
+      "wordBank": [
+       "energy",
+       "plan",
+       "money",
+       "wind",
+       "price"
+      ],
+      "correctAnswer": [
+       "energy",
+       "plan",
+       "money"
+      ],
+      "explanation": "Need + a thing: need energy, need a plan, need money.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-4-say-it",
+      "type": "reflection",
+      "title": "Say It: I Need …",
+      "instructions": "Tell your partner what you need.",
+      "question": "What do you need for school?",
+      "correctAnswer": null,
+      "explanation": "Use need + thing and cheaper than.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“For school, I need …”",
+        "mode": "Pair",
+        "example": "For school, I need a pen and a bag."
+       },
+       {
+        "question": "“My … is cheaper than …”",
+        "mode": "Pair",
+        "example": "My pen is cheaper than my bag."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Where does clean energy come from?",
+     "options": [
+      "the wind and the sun",
+      "coal",
+      "oil"
+     ],
+     "answer": 0,
+     "quote": "Now many countries use energy from the wind and the sun."
+    },
+    "iCan": [
+     "I can tell about energy from the wind and the sun.",
+     "I can understand cheaper.",
+     "I can say what I need."
     ]
    },
    {
     "id": 5,
     "type": "story",
     "title": "New Machines for Clean Energy",
-    "image": "",
-    "audioUrl": "",
     "content": "In 20 or 30 years, the world can be net zero. Then there will be new jobs, new machines and new kinds of energy. Some countries start early and work fast. They can be the best in the world at clean energy.\n\nThe EU has a law for this. Its name is the Net-Zero Industry Act. With this law, factories in Europe can make batteries, solar panels and big wind machines. They can also make machines that take bad gas out of the air.",
     "vocabulary": [
      {
@@ -150,15 +733,167 @@
       "word": "solar panel",
       "definition": "It makes energy from the sun."
      }
+    ],
+    "hotspots": [
+     {
+      "id": "h5-1",
+      "x": 35,
+      "y": 46,
+      "title": "Net Zero",
+      "description": "In 20 or 30 years, the world can be net zero. Then there will be new jobs and new machines."
+     },
+     {
+      "id": "h5-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Law",
+      "description": "The EU has a law for this. Its name is the Net-Zero Industry Act."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "greenDeal-a1-quick-5",
+      "type": "drag-drop",
+      "title": "New Machines for Clean Energy",
+      "instructions": "Read. Is it true or false?",
+      "question": "What does Chapter 5 say?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "There will be new jobs.",
+         "Factories in Europe can make batteries."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The Net-Zero Industry Act is a game."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "There will be new jobs.",
+        "Factories in Europe can make batteries."
+       ],
+       "False": [
+        "The Net-Zero Industry Act is a game."
+       ]
+      },
+      "explanation": "Chapter 5 says: “Then there will be new jobs, new machines and new kinds of energy.” “With this law, factories in Europe can make batteries, solar panels and big wind machines.”",
+      "feedback": {
+       "correct": "Yes! It is a law, not a game.",
+       "incorrect": "Read Chapter 5 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "greenDeal-a1-language-5-will",
+      "type": "multiple-choice",
+      "title": "Look: There Will Be",
+      "instructions": "Choose the right answer.",
+      "question": "“Then there will be new jobs.” When is it?",
+      "options": [
+       "in the future",
+       "today",
+       "in the past"
+      ],
+      "correctAnswer": 0,
+      "explanation": "There will be = in the future. There is / There are = now.",
+      "feedback": {
+       "correct": "Yes. In the future.",
+       "incorrect": "Read the first paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-5-practise",
+      "type": "choose-form",
+      "title": "Practise: Can, Will, The Best",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "In 20 or 30 years, the world [choice] be net zero.",
+        "options": [
+         "can",
+         "is"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Then there [choice] be new jobs.",
+        "options": [
+         "will",
+         "are"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "They can be the [choice] in the world at clean energy.",
+        "options": [
+         "best",
+         "good"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Can and will + verb: can be, will be. Good → better → the best.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-5-say-it",
+      "type": "reflection",
+      "title": "Say It: The Future",
+      "instructions": "Tell your partner about the future.",
+      "question": "What will there be in 2050?",
+      "correctAnswer": null,
+      "explanation": "Use there will be and the best.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“In 2050, there will be …”",
+        "mode": "Pair",
+        "example": "In 2050, there will be more solar panels."
+       },
+       {
+        "question": "“I can be the best at …”",
+        "mode": "Pair",
+        "example": "I can be the best at drawing."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What can factories in Europe make?",
+     "options": [
+      "batteries and solar panels",
+      "cars with coal",
+      "plastic bags"
+     ],
+     "answer": 0,
+     "quote": "With this law, factories in Europe can make batteries, solar panels and big wind machines."
+    },
+    "iCan": [
+     "I can tell about new machines for clean energy.",
+     "I can understand there will be.",
+     "I can talk about the future."
     ]
    },
    {
     "id": 6,
     "type": "story",
     "title": "Repair and Reuse",
-    "image": "",
-    "audioUrl": "",
-    "content": "The EU has new rules for green things, too. Here are two examples.\n\nRule 1: Big companies in the EU mustn't throw away new clothes. Sometimes people do not buy some clothes, but the companies mustn't throw them away. That is waste.\n\nRule 2: It is easy to find parts for machines. Then people can repair their old things and use them again.\n\nSoon, there will be rules like these for a lot of things.",
+    "content": "The EU has new rules for green things, too. Here are two examples.\n\nRule 1: Big companies in the EU mustn’t throw away new clothes. Sometimes people do not buy some clothes, but the companies mustn’t throw them away. That is waste.\n\nRule 2: It is easy to find parts for machines. Then people can repair their old things and use them again.\n\nSoon, there will be rules like these for a lot of things.",
     "vocabulary": [
      {
       "word": "rule",
@@ -176,15 +911,167 @@
       "word": "repair",
       "definition": "Make a broken thing good again."
      }
-    ]
+    ],
+    "hotspots": [
+     {
+      "id": "h6-1",
+      "x": 35,
+      "y": 46,
+      "title": "Rule 1",
+      "description": "Big companies in the EU mustn’t throw away new clothes. That is waste."
+     },
+     {
+      "id": "h6-2",
+      "x": 68,
+      "y": 50,
+      "title": "Rule 2",
+      "description": "It is easy to find parts for machines. Then people can repair their old things."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "greenDeal-a1-quick-6",
+      "type": "drag-drop",
+      "title": "Repair and Reuse",
+      "instructions": "Put each sentence in the right group.",
+      "question": "Which rule is it?",
+      "dragDropGroups": [
+       {
+        "group": "Rule 1",
+        "items": [
+         "Companies mustn’t throw away new clothes."
+        ]
+       },
+       {
+        "group": "Rule 2",
+        "items": [
+         "It is easy to find parts for machines.",
+         "People can repair their old things."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Rule 1": [
+        "Companies mustn’t throw away new clothes."
+       ],
+       "Rule 2": [
+        "It is easy to find parts for machines.",
+        "People can repair their old things."
+       ]
+      },
+      "explanation": "Chapter 6: Rule 1 is about clothes. Rule 2 is about parts for machines.",
+      "feedback": {
+       "correct": "Yes! You know the two rules.",
+       "incorrect": "Read the Rule 1 and Rule 2 paragraphs again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "greenDeal-a1-language-6-mustnt",
+      "type": "multiple-choice",
+      "title": "Look: Mustn’t",
+      "instructions": "Choose the right answer.",
+      "question": "“The companies mustn’t throw them away.” What does “mustn’t” mean?",
+      "options": [
+       "They cannot do it. It is a rule.",
+       "They can do it.",
+       "They want to do it."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mustn’t + verb = it is against the rule. Do not do it.",
+      "feedback": {
+       "correct": "Yes. It is a rule.",
+       "incorrect": "Read the Rule 1 paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-6-practise",
+      "type": "word-bank",
+      "title": "Practise: Rules",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What are the rules?",
+      "fillBlanksText": "Big companies [blank] throw away new clothes. That is [blank]. People can [blank] their old things and use them again.",
+      "wordBank": [
+       "mustn’t",
+       "waste",
+       "repair",
+       "must",
+       "buy"
+      ],
+      "correctAnswer": [
+       "mustn’t",
+       "waste",
+       "repair"
+      ],
+      "explanation": "Mustn’t + verb = a rule. Repair = make a broken thing good again.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 6 again."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-6-say-it",
+      "type": "reflection",
+      "title": "Say It: Class Rules",
+      "instructions": "Say class rules with your partner.",
+      "question": "What are our class rules?",
+      "correctAnswer": null,
+      "explanation": "Use mustn’t + verb.",
+      "feedback": {
+       "correct": "Say two rules.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“In class, we mustn’t …”",
+        "mode": "Pair",
+        "example": "In class, we mustn’t throw paper on the floor."
+       },
+       {
+        "question": "“We can repair …”",
+        "mode": "Pair",
+        "example": "We can repair a broken chair."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What mustn’t big companies throw away?",
+     "options": [
+      "new clothes",
+      "old paper",
+      "bad food"
+     ],
+     "answer": 0,
+     "quote": "Big companies in the EU mustn’t throw away new clothes."
+    },
+    "iCan": [
+     "I can tell the two new rules.",
+     "I can understand mustn’t.",
+     "I can say class rules."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Our Repair Corner",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group makes a list of four old or broken things at school or at home.",
+      "For each thing, the group writes: “We can repair …” or “We can use … again.”",
+      "The group adds one rule: “We mustn’t throw away …”",
+      "The group shows the list to the class."
+     ],
+     "share": "One student reads the rule. Story: “Then people can repair their old things and use them again.”",
+     "solo": "Write two things you can repair and one rule."
+    }
    },
    {
     "id": 7,
     "type": "story",
     "title": "Smart Shopping and Green Jobs",
-    "image": "",
-    "audioUrl": "",
-    "content": "Shoppers are important, too. Before they buy something, they need good information. Look at a new TV. It has an energy label. The label tells you about the TV's energy. Then you can choose the green one.\n\nJobs are changing, too. There are more green jobs every year. People need new skills for these jobs. Countries need training for these people.",
+    "content": "Shoppers are important, too. Before they buy something, they need good information. Look at a new TV. It has an energy label. The label tells you about the TV’s energy. Then you can choose the green one.\n\nJobs are changing, too. There are more green jobs every year. People need new skills for these jobs. Countries need training for these people.",
     "vocabulary": [
      {
       "word": "information",
@@ -202,14 +1089,158 @@
       "word": "training",
       "definition": "Learning how to do a job."
      }
+    ],
+    "hotspots": [
+     {
+      "id": "h7-1",
+      "x": 35,
+      "y": 46,
+      "title": "An Energy Label",
+      "description": "A new TV has an energy label. The label tells you about the TV’s energy."
+     },
+     {
+      "id": "h7-2",
+      "x": 68,
+      "y": 50,
+      "title": "Green Jobs",
+      "description": "There are more green jobs every year. People need new skills for these jobs."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "greenDeal-a1-quick-7",
+      "type": "sequencing",
+      "title": "Smart Shopping",
+      "instructions": "Put the sentences in order.",
+      "question": "What does a smart shopper do?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "A shopper wants a new TV."
+       },
+       {
+        "id": "2",
+        "text": "The shopper looks at the energy label."
+       },
+       {
+        "id": "3",
+        "text": "The label tells the shopper about the TV’s energy."
+       },
+       {
+        "id": "4",
+        "text": "The shopper chooses the green one."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 7: look at the label → learn about the energy → choose the green one.",
+      "feedback": {
+       "correct": "Great! You are a smart shopper.",
+       "incorrect": "Read the first paragraph of Chapter 7 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "greenDeal-a1-language-7-changing",
+      "type": "multiple-choice",
+      "title": "Look: Are Changing",
+      "instructions": "Choose the right answer.",
+      "question": "“Jobs are changing, too.” When is it?",
+      "options": [
+       "now, in these years",
+       "only in the past",
+       "never"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Is / are + verb + -ing = now, in these days: Jobs are changing. The weather is changing.",
+      "feedback": {
+       "correct": "Yes. Now, in these years.",
+       "incorrect": "Read the second paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-7-practise",
+      "type": "choose-form",
+      "title": "Practise: Before, Then",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "[choice] they buy something, they need good information.",
+        "options": [
+         "Before",
+         "Then"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] you can choose the green one.",
+        "options": [
+         "Then",
+         "Before"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Before = first this, then that. Then = next.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-7-write-it",
+      "type": "reflection",
+      "title": "Write It: Smart Shopping",
+      "instructions": "Write two sentences about shopping.",
+      "question": "What do you do before you buy?",
+      "correctAnswer": null,
+      "explanation": "Use before and then.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Before I buy …, I look at …”",
+        "mode": "Individual",
+        "example": "Before I buy a fridge, I look at the energy label."
+       },
+       {
+        "question": "“Then I choose …”",
+        "mode": "Individual",
+        "example": "Then I choose the green one."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What does a new TV have?",
+     "options": [
+      "an energy label",
+      "a solar panel",
+      "a battery"
+     ],
+     "answer": 0,
+     "quote": "It has an energy label."
+    },
+    "iCan": [
+     "I can tell about energy labels and green jobs.",
+     "I can understand are changing.",
+     "I can write about smart shopping."
     ]
    },
    {
     "id": 8,
     "type": "story",
     "title": "Learning and Working Together",
-    "image": "",
-    "audioUrl": "",
     "content": "Education is a big part of the Green Deal. All people can learn green skills and computer skills. Then we can all help our world.\n\nCountries, companies and people can all help. Climate change is a problem for every country. Countries should work together.\n\nTürkiye has a Green Deal plan, too. Türkiye made it in 2021. Türkiye wants net zero in 2053.",
     "vocabulary": [
      {
@@ -219,6 +1250,1183 @@
      {
       "word": "together",
       "definition": "With other people."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h8-1",
+      "x": 35,
+      "y": 46,
+      "title": "Education",
+      "description": "Education is a big part of the Green Deal. All people can learn green skills and computer skills."
+     },
+     {
+      "id": "h8-2",
+      "x": 68,
+      "y": 50,
+      "title": "Türkiye",
+      "description": "Türkiye has a Green Deal plan, too. Türkiye wants net zero in 2053."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "greenDeal-a1-quick-8",
+      "type": "multiple-choice",
+      "title": "Learning and Working Together",
+      "instructions": "Choose the best answer.",
+      "question": "Who can help?",
+      "options": [
+       "countries, companies and people",
+       "only countries",
+       "only children"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 8: “Countries, companies and people can all help.”",
+      "feedback": {
+       "correct": "Yes! We can all help.",
+       "incorrect": "Read the second paragraph of Chapter 8 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "greenDeal-a1-language-8-made",
+      "type": "multiple-choice",
+      "title": "Look: Made and Wants",
+      "instructions": "Choose the right answer.",
+      "question": "“Türkiye made it in 2021. Türkiye wants net zero in 2053.” Which verb tells the past?",
+      "options": [
+       "made",
+       "wants",
+       "has"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Make → made (past). Wants and has tell about now.",
+      "feedback": {
+       "correct": "Yes. “Made” tells the past.",
+       "incorrect": "Read the last paragraph of Chapter 8."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-8-practise",
+      "type": "choose-form",
+      "title": "Practise: Should, Can",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "Countries [choice] work together.",
+        "options": [
+         "should",
+         "shoulds"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "All people [choice] learn green skills.",
+        "options": [
+         "can",
+         "cans"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Türkiye [choice] it in 2021.",
+        "options": [
+         "made",
+         "makes"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Should and can never take -s. Make → made in the past.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 8 again."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-8-write-it",
+      "type": "reflection",
+      "title": "Write It: We Can Help",
+      "instructions": "Write about helping our world.",
+      "question": "How can you help?",
+      "correctAnswer": null,
+      "explanation": "Use can and should + verb.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“At school, we can …”",
+        "mode": "Individual",
+        "example": "At school, we can turn off the lights."
+       },
+       {
+        "question": "“We should work together and …”",
+        "mode": "Individual",
+        "example": "We should work together and plant trees."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: When did Türkiye make its Green Deal plan?",
+     "options": [
+      "in 2021",
+      "in 2053",
+      "in 2019"
+     ],
+     "answer": 0,
+     "quote": "Türkiye made it in 2021."
+    },
+    "iCan": [
+     "I can tell about learning and working together.",
+     "I can understand made and wants.",
+     "I can write how we can help."
+    ]
+   },
+   {
+    "id": 101,
+    "type": "key-facts",
+    "title": "Key Facts",
+    "content": "One fact from every chapter. Each chapter stamp colors its stop.",
+    "facts": [
+     {
+      "chapter": 1,
+      "label": "11 December",
+      "value": "2019",
+      "title": "The European Commission shows the Green Deal.",
+      "text": "The EU wants net zero in 2050."
+     },
+     {
+      "chapter": 2,
+      "label": "In",
+      "value": "2030",
+      "title": "The EU wants 55% less bad gas.",
+      "text": "The Green Deal has three big goals: climate, nature, and work and money."
+     },
+     {
+      "chapter": 3,
+      "label": "Today",
+      "value": "Danger",
+      "title": "There is a lot of pollution in the air and in the water.",
+      "text": "Oil, gas and coal make bad gases."
+     },
+     {
+      "chapter": 4,
+      "label": "Now",
+      "value": "Wind and sun",
+      "title": "This energy never ends.",
+      "text": "It is often cheaper."
+     },
+     {
+      "chapter": 5,
+      "label": "In 20 or 30 years",
+      "value": "Net zero",
+      "title": "There will be new jobs and new machines.",
+      "text": "The Net-Zero Industry Act helps factories in Europe."
+     },
+     {
+      "chapter": 6,
+      "label": "New",
+      "value": "Rules",
+      "title": "Big companies mustn’t throw away new clothes.",
+      "text": "People can repair their old things."
+     },
+     {
+      "chapter": 7,
+      "label": "In the shops",
+      "value": "Labels",
+      "title": "An energy label tells you about a TV’s energy.",
+      "text": "There are more green jobs every year."
+     },
+     {
+      "chapter": 8,
+      "label": "Türkiye",
+      "value": "2021 · 2053",
+      "title": "Türkiye made a Green Deal plan in 2021.",
+      "text": "Türkiye wants net zero in 2053."
+     }
+    ]
+   },
+   {
+    "id": 11,
+    "type": "quiz",
+    "title": "Knowledge Check",
+    "image": "",
+    "audioUrl": "",
+    "content": "Check your understanding of the complete book.",
+    "exercises": [
+     {
+      "id": "greenDeal-a1-kc-1",
+      "type": "multiple-choice",
+      "title": "The Plan",
+      "instructions": "Choose the answer.",
+      "question": "When did the European Commission show the Green Deal?",
+      "options": [
+       "on 11 December 2019",
+       "in 2050",
+       "in 2021"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 1: “On 11 December 2019, it showed a new plan to the world.”",
+      "feedback": {
+       "correct": "Yes. On 11 December 2019.",
+       "incorrect": "Read the first paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "greenDeal-a1-kc-2",
+      "type": "true-false",
+      "title": "Goal 1",
+      "instructions": "Is it true or false?",
+      "question": "The EU wants 55% less bad gas in 2030.",
+      "correctAnswer": true,
+      "explanation": "Chapter 2: “The EU wants 55% less bad gas in 2030.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the Goal 1 paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "greenDeal-a1-kc-3",
+      "type": "multiple-choice",
+      "title": "Pollution",
+      "instructions": "Choose the answer.",
+      "question": "Where is there a lot of pollution?",
+      "options": [
+       "in the air and in the water",
+       "only in shops",
+       "only in schools"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: “There is a lot of pollution in the air and in the water.”",
+      "feedback": {
+       "correct": "Yes. In the air and in the water.",
+       "incorrect": "Read the first paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "greenDeal-a1-kc-4",
+      "type": "true-false",
+      "title": "Wind and Sun",
+      "instructions": "Is it true or false?",
+      "question": "Energy from the wind and the sun is always expensive.",
+      "correctAnswer": false,
+      "explanation": "Chapter 4: “This energy never ends, and it is often cheaper.”",
+      "feedback": {
+       "correct": "Yes, it is false. It is often cheaper.",
+       "incorrect": "Read the first paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "greenDeal-a1-kc-5",
+      "type": "multiple-choice",
+      "title": "Parts",
+      "instructions": "Choose the answer.",
+      "question": "Why is it good to find parts for machines?",
+      "options": [
+       "People can repair their old things.",
+       "People can buy more clothes.",
+       "Factories can make bad gases."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 6: “Then people can repair their old things and use them again.”",
+      "feedback": {
+       "correct": "Yes. People can repair their things.",
+       "incorrect": "Read the Rule 2 paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "greenDeal-a1-kc-6",
+      "type": "multiple-choice",
+      "title": "Türkiye",
+      "instructions": "Choose the answer.",
+      "question": "When does Türkiye want net zero?",
+      "options": [
+       "in 2053",
+       "in 2021",
+       "in 2030"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 8: “Türkiye wants net zero in 2053.”",
+      "feedback": {
+       "correct": "Yes. In 2053.",
+       "incorrect": "Read the last paragraph of Chapter 8."
+      }
+     }
+    ]
+   },
+   {
+    "id": 13,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "Review all key vocabulary from the book in one place.",
+    "image": "",
+    "vocabulary": [
+     {
+      "word": "plan",
+      "definition": "What you want to do and how.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/plæn/",
+      "chapter": 1,
+      "chapterTitle": "A Green Plan for Europe",
+      "storyExample": "On 11 December 2019, it showed a new plan to the world.",
+      "category": "Ideas"
+     },
+     {
+      "word": "factory",
+      "definition": "A building where people make things.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈfæktəri/",
+      "chapter": 1,
+      "chapterTitle": "A Green Plan for Europe",
+      "storyExample": "Today, cars and factories send bad gases into the air.",
+      "category": "Places"
+     },
+     {
+      "word": "air",
+      "definition": "It is all around us; we need it.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/er/",
+      "chapter": 1,
+      "chapterTitle": "A Green Plan for Europe",
+      "storyExample": "Today, cars and factories send bad gases into the air.",
+      "category": "Nature"
+     },
+     {
+      "word": "gas",
+      "definition": "Something like air; we cannot see it.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɡæs/",
+      "chapter": 1,
+      "chapterTitle": "A Green Plan for Europe",
+      "storyExample": "These gases make our world hot.",
+      "category": "Science"
+     },
+     {
+      "word": "net zero",
+      "definition": "Same gas in and out of the air.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˌnet ˈzɪroʊ/",
+      "chapter": 1,
+      "chapterTitle": "A Green Plan for Europe",
+      "storyExample": "The EU wants net zero in 2050.",
+      "category": "Science"
+     },
+     {
+      "word": "throw away",
+      "definition": "Put in the trash; not keep.",
+      "partOfSpeech": "phrasal verb",
+      "level": "A1",
+      "pronunciation": "/ˌθroʊ əˈweɪ/",
+      "chapter": 1,
+      "chapterTitle": "A Green Plan for Europe",
+      "storyExample": "The plan also says, “Use less, and throw away less.”",
+      "category": "Actions"
+     },
+     {
+      "word": "goal",
+      "definition": "Something you want to do in the future.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɡoʊl/",
+      "chapter": 2,
+      "chapterTitle": "Three Big Goals",
+      "storyExample": "The Green Deal has three big goals.",
+      "category": "Ideas"
+     },
+     {
+      "word": "climate",
+      "definition": "The usual weather in a place.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈklaɪmət/",
+      "chapter": 2,
+      "chapterTitle": "Three Big Goals",
+      "storyExample": "Goal 1 is about the climate.",
+      "category": "Nature"
+     },
+     {
+      "word": "nature",
+      "definition": "Trees, flowers, animals, rivers and mountains.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈneɪtʃər/",
+      "chapter": 2,
+      "chapterTitle": "Three Big Goals",
+      "storyExample": "Goal 2 is about nature.",
+      "category": "Nature"
+     },
+     {
+      "word": "company",
+      "definition": "A business, like a shop or factory.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈkʌmpəni/",
+      "chapter": 2,
+      "chapterTitle": "Three Big Goals",
+      "storyExample": "The EU wants new green companies.",
+      "category": "Work"
+     },
+     {
+      "word": "danger",
+      "definition": "Something that can hurt you.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈdeɪndʒər/",
+      "chapter": 3,
+      "chapterTitle": "Why Do We Need It?",
+      "storyExample": "Our world is in danger.",
+      "category": "Problems"
+     },
+     {
+      "word": "pollution",
+      "definition": "Dirty air, water or land.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/pəˈluːʃn/",
+      "chapter": 3,
+      "chapterTitle": "Why Do We Need It?",
+      "storyExample": "There is a lot of pollution in the air and in the water.",
+      "category": "Problems"
+     },
+     {
+      "word": "oil",
+      "definition": "A black thing from under the ground.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɔɪl/",
+      "chapter": 3,
+      "chapterTitle": "Why Do We Need It?",
+      "storyExample": "For many years, people used oil, gas and coal for energy.",
+      "category": "Energy"
+     },
+     {
+      "word": "coal",
+      "definition": "A black stone; people burn it.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/koʊl/",
+      "chapter": 3,
+      "chapterTitle": "Why Do We Need It?",
+      "storyExample": "For many years, people used oil, gas and coal for energy.",
+      "category": "Energy"
+     },
+     {
+      "word": "energy",
+      "definition": "Power for lights, machines and cars.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈenərdʒi/",
+      "chapter": 3,
+      "chapterTitle": "Why Do We Need It?",
+      "storyExample": "For many years, people used oil, gas and coal for energy.",
+      "category": "Energy"
+     },
+     {
+      "word": "war",
+      "definition": "Fighting between countries.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/wɔːr/",
+      "chapter": 3,
+      "chapterTitle": "Why Do We Need It?",
+      "storyExample": "There are wars in some places.",
+      "category": "Problems"
+     },
+     {
+      "word": "wind",
+      "definition": "Air that moves fast outside.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/wɪnd/",
+      "chapter": 4,
+      "chapterTitle": "Energy from the Wind and the Sun",
+      "storyExample": "Now many countries use energy from the wind and the sun.",
+      "category": "Nature"
+     },
+     {
+      "word": "price",
+      "definition": "How much money something is.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/praɪs/",
+      "chapter": 4,
+      "chapterTitle": "Energy from the Wind and the Sun",
+      "storyExample": "They need clean energy at a good price.",
+      "category": "Money"
+     },
+     {
+      "word": "money",
+      "definition": "We pay for things with it.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmʌni/",
+      "chapter": 4,
+      "chapterTitle": "Energy from the Wind and the Sun",
+      "storyExample": "They also need a lot of money for new clean machines.",
+      "category": "Money"
+     },
+     {
+      "word": "machine",
+      "definition": "A thing that does work for us.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/məˈʃiːn/",
+      "chapter": 5,
+      "chapterTitle": "New Machines for Clean Energy",
+      "storyExample": "Then there will be new jobs, new machines and new kinds of energy.",
+      "category": "Things"
+     },
+     {
+      "word": "law",
+      "definition": "A rule of a country.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/lɔː/",
+      "chapter": 5,
+      "chapterTitle": "New Machines for Clean Energy",
+      "storyExample": "The EU has a law for this.",
+      "category": "Rules"
+     },
+     {
+      "word": "battery",
+      "definition": "It gives energy to phones and cars.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈbætəri/",
+      "chapter": 5,
+      "chapterTitle": "New Machines for Clean Energy",
+      "storyExample": "With this law, factories in Europe can make batteries, solar panels and big wind machines.",
+      "category": "Things"
+     },
+     {
+      "word": "solar panel",
+      "definition": "It makes energy from the sun.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˌsoʊlər ˈpænl/",
+      "chapter": 5,
+      "chapterTitle": "New Machines for Clean Energy",
+      "storyExample": "With this law, factories in Europe can make batteries, solar panels and big wind machines.",
+      "category": "Energy"
+     },
+     {
+      "word": "rule",
+      "definition": "It tells you what you must do.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ruːl/",
+      "chapter": 6,
+      "chapterTitle": "Repair and Reuse",
+      "storyExample": "The EU has new rules for green things, too.",
+      "category": "Rules"
+     },
+     {
+      "word": "waste",
+      "definition": "Using something badly; throwing good things away.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/weɪst/",
+      "chapter": 6,
+      "chapterTitle": "Repair and Reuse",
+      "storyExample": "That is waste.",
+      "category": "Problems"
+     },
+     {
+      "word": "part",
+      "definition": "One piece of a bigger thing.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/pɑːrt/",
+      "chapter": 6,
+      "chapterTitle": "Repair and Reuse",
+      "storyExample": "Rule 2: It is easy to find parts for machines.",
+      "category": "Things"
+     },
+     {
+      "word": "repair",
+      "definition": "Make a broken thing good again.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/rɪˈper/",
+      "chapter": 6,
+      "chapterTitle": "Repair and Reuse",
+      "storyExample": "Then people can repair their old things and use them again.",
+      "category": "Actions"
+     },
+     {
+      "word": "information",
+      "definition": "Facts about something.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˌɪnfərˈmeɪʃn/",
+      "chapter": 7,
+      "chapterTitle": "Smart Shopping and Green Jobs",
+      "storyExample": "Before they buy something, they need good information.",
+      "category": "Shopping"
+     },
+     {
+      "word": "energy label",
+      "definition": "It shows how much energy a machine uses.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈenərdʒi ˌleɪbl/",
+      "chapter": 7,
+      "chapterTitle": "Smart Shopping and Green Jobs",
+      "storyExample": "It has an energy label.",
+      "category": "Shopping"
+     },
+     {
+      "word": "skill",
+      "definition": "Something you can do well.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/skɪl/",
+      "chapter": 7,
+      "chapterTitle": "Smart Shopping and Green Jobs",
+      "storyExample": "People need new skills for these jobs.",
+      "category": "Work"
+     },
+     {
+      "word": "training",
+      "definition": "Learning how to do a job.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈtreɪnɪŋ/",
+      "chapter": 7,
+      "chapterTitle": "Smart Shopping and Green Jobs",
+      "storyExample": "Countries need training for these people.",
+      "category": "Work"
+     },
+     {
+      "word": "education",
+      "definition": "Teaching and learning, at school and at work.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˌedʒuˈkeɪʃn/",
+      "chapter": 8,
+      "chapterTitle": "Learning and Working Together",
+      "storyExample": "Education is a big part of the Green Deal.",
+      "category": "Learning"
+     },
+     {
+      "word": "together",
+      "definition": "With other people.",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "pronunciation": "/təˈɡeðər/",
+      "chapter": 8,
+      "chapterTitle": "Learning and Working Together",
+      "storyExample": "Countries should work together.",
+      "category": "Learning"
+     }
+    ]
+   },
+   {
+    "id": 102,
+    "type": "key-terms",
+    "title": "Key Terms",
+    "content": "6 big ideas from the text. Turn a card to see it in Arabic.",
+    "terms": [
+     {
+      "kind": "Idea",
+      "term": "net zero",
+      "chapter": 1,
+      "definition": "The gas that goes into the air is the same as the gas that comes out of it.",
+      "termAr": "صَافِي الِانْبِعَاثَاتِ الصِّفْرِيُّ",
+      "definitionAr": "الْغَازُ الَّذِي يَدْخُلُ الْهَوَاءَ يُسَاوِي الْغَازَ الَّذِي يَخْرُجُ مِنْهُ."
+     },
+     {
+      "kind": "Science",
+      "term": "climate",
+      "chapter": 2,
+      "definition": "The usual weather in a place.",
+      "termAr": "الْمُنَاخُ",
+      "definitionAr": "الطَّقْسُ الْمُعْتَادُ فِي مَكَانٍ مَا."
+     },
+     {
+      "kind": "Science",
+      "term": "pollution",
+      "chapter": 3,
+      "definition": "Dirty air, water or land.",
+      "termAr": "التَّلَوُّثُ",
+      "definitionAr": "هَوَاءٌ أَوْ مَاءٌ أَوْ أَرْضٌ غَيْرُ نَظِيفَةٍ."
+     },
+     {
+      "kind": "Energy",
+      "term": "clean energy",
+      "chapter": 4,
+      "definition": "Energy from the wind and the sun. It does not make bad gases.",
+      "termAr": "الطَّاقَةُ النَّظِيفَةُ",
+      "definitionAr": "طَاقَةٌ مِنَ الرِّيَاحِ وَالشَّمْسِ، لَا تُنْتِجُ غَازَاتٍ ضَارَّةً."
+     },
+     {
+      "kind": "Energy",
+      "term": "solar panel",
+      "chapter": 5,
+      "definition": "It makes energy from the sun.",
+      "termAr": "اللَّوْحُ الشَّمْسِيُّ",
+      "definitionAr": "يُنْتِجُ الطَّاقَةَ مِنَ الشَّمْسِ."
+     },
+     {
+      "kind": "Everyday life",
+      "term": "energy label",
+      "chapter": 7,
+      "definition": "A label that shows how much energy a machine uses.",
+      "termAr": "مُلْصَقُ الطَّاقَةِ",
+      "definitionAr": "مُلْصَقٌ يُبَيِّنُ كَمْ مِنَ الطَّاقَةِ تَسْتَهْلِكُ الْآلَةُ."
+     }
+    ]
+   },
+   {
+    "id": 12,
+    "type": "vocabulary-match",
+    "title": "Vocabulary Challenge",
+    "image": "",
+    "audioUrl": "",
+    "content": "Match six words from the book with their meanings.",
+    "vocabularyPairs": [
+     {
+      "word": "factory",
+      "meaning": "A building where people make things.",
+      "partOfSpeech": "noun",
+      "chapter": 1,
+      "context": "Today, cars and factories send bad gases into the air."
+     },
+     {
+      "word": "nature",
+      "meaning": "Trees, flowers, animals, rivers and mountains.",
+      "partOfSpeech": "noun",
+      "chapter": 2,
+      "context": "Goal 2 is about nature."
+     },
+     {
+      "word": "pollution",
+      "meaning": "Dirty air, water or land.",
+      "partOfSpeech": "noun",
+      "chapter": 3,
+      "context": "There is a lot of pollution in the air and in the water."
+     },
+     {
+      "word": "wind",
+      "meaning": "Air that moves fast outside.",
+      "partOfSpeech": "noun",
+      "chapter": 4,
+      "context": "Now many countries use energy from the wind and the sun."
+     },
+     {
+      "word": "repair",
+      "meaning": "Make a broken thing good again.",
+      "partOfSpeech": "verb",
+      "chapter": 6,
+      "context": "Then people can repair their old things and use them again."
+     },
+     {
+      "word": "skill",
+      "meaning": "Something you can do well.",
+      "partOfSpeech": "noun",
+      "chapter": 7,
+      "context": "People need new skills for these jobs."
+     }
+    ]
+   },
+   {
+    "id": 14,
+    "type": "exercises",
+    "title": "Language Review",
+    "image": "",
+    "content": "Review the language from all chapters.",
+    "exercises": [
+     {
+      "id": "greenDeal-a1-language-review-1",
+      "type": "choose-form",
+      "title": "Look: One or Many",
+      "instructions": "Choose the right form.",
+      "question": "Which form is right?",
+      "formChoices": [
+       {
+        "sentence": "The EU [choice] net zero in 2050.",
+        "options": [
+         "wants",
+         "want"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Factories [choice] a lot of energy.",
+        "options": [
+         "need",
+         "needs"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "The label [choice] you about the TV’s energy.",
+        "options": [
+         "tells",
+         "tell"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "One thing (the EU, the label) + verb + -s. Many things (factories) + verb.",
+      "feedback": {
+       "correct": "Well done.",
+       "incorrect": "One thing: add -s. Many things: no -s."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-review-2",
+      "type": "drag-drop",
+      "title": "Practise: Should or Mustn’t?",
+      "instructions": "Put each sentence in the right group.",
+      "question": "Should or mustn’t?",
+      "dragDropGroups": [
+       {
+        "group": "Good to do (should)",
+        "items": [
+         "Countries should work together.",
+         "We should not use too much water."
+        ]
+       },
+       {
+        "group": "Do not do it (mustn’t)",
+        "items": [
+         "Big companies mustn’t throw away new clothes."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Good to do (should)": [
+        "Countries should work together.",
+        "We should not use too much water."
+       ],
+       "Do not do it (mustn’t)": [
+        "Big companies mustn’t throw away new clothes."
+       ]
+      },
+      "explanation": "Should = it is good to do it. Mustn’t = a rule: do not do it.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Chapter 2 and 8: should. Chapter 6: mustn’t."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-review-3",
+      "type": "choose-form",
+      "title": "Practise: Is, Are, Will Be",
+      "instructions": "Choose the right words.",
+      "question": "Which words go in the gap?",
+      "formChoices": [
+       {
+        "sentence": "There [choice] a lot of pollution.",
+        "options": [
+         "is",
+         "are"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "There [choice] wars in some places.",
+        "options": [
+         "are",
+         "is"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "There [choice] new jobs in the future.",
+        "options": [
+         "will be",
+         "was"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "There is + one. There are + many. There will be = in the future.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Find these sentences in Chapters 3 and 5."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-review-4",
+      "type": "word-bank",
+      "title": "Practise: Hotter, Cheaper, The Best",
+      "instructions": "Fill the gaps with the words.",
+      "question": "Which word goes in the gap?",
+      "fillBlanksText": "Our world is getting [blank]. Energy from the wind and the sun is often [blank]. Some countries can be the [blank] in the world at clean energy.",
+      "wordBank": [
+       "hotter",
+       "cheaper",
+       "best",
+       "hot",
+       "good"
+      ],
+      "correctAnswer": [
+       "hotter",
+       "cheaper",
+       "best"
+      ],
+      "explanation": "Hot → hotter. Cheap → cheaper. Good → the best.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Find these words in Chapters 2, 4 and 5."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-review-5",
+      "type": "error-correction",
+      "title": "Practise: Fix One Word",
+      "instructions": "Find the wrong word. Choose the right word.",
+      "question": "Which word is wrong?",
+      "errorItems": [
+       {
+        "sentence": "The European Commission work for the EU.",
+        "error": "work",
+        "options": [
+         "works",
+         "working",
+         "worked"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Countries shoulds work together.",
+        "error": "shoulds",
+        "options": [
+         "should",
+         "shoulding",
+         "to should"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "The European Commission = one: works. Should never takes -s.",
+      "feedback": {
+       "correct": "Well done.",
+       "incorrect": "One thing + verb + -s. Should + verb, no -s."
+      }
+     },
+     {
+      "id": "greenDeal-a1-language-review-6",
+      "type": "reflection",
+      "title": "Use: My Green Plan",
+      "instructions": "Write three sentences: your green plan.",
+      "question": "What is your green plan?",
+      "correctAnswer": null,
+      "explanation": "Use should, mustn’t and can + verb.",
+      "feedback": {
+       "correct": "Write three short sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "One “should”: “We should …”",
+        "mode": "Individual",
+        "example": "We should use less water."
+       },
+       {
+        "question": "One “mustn’t”: “We mustn’t …”",
+        "mode": "Individual",
+        "example": "We mustn’t throw away good food."
+       },
+       {
+        "question": "One “can”: “I can …”",
+        "mode": "Individual",
+        "example": "I can repair my old bike."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": 15,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "image": "",
+    "content": "Bring the whole book together in the Final Challenge.",
+    "exercises": [
+     {
+      "id": "greenDeal-a1-final-1",
+      "type": "fill-blanks",
+      "title": "The EU",
+      "instructions": "Write one word.",
+      "question": "What is the EU?",
+      "fillBlanksText": "The European Union (EU) is a group of [blank] in Europe.",
+      "correctAnswer": [
+       "countries"
+      ],
+      "explanation": "Chapter 1: “The European Union (EU) is a group of countries in Europe.”",
+      "feedback": {
+       "correct": "Yes. Countries.",
+       "incorrect": "Read the first sentence of Chapter 1."
+      }
+     },
+     {
+      "id": "greenDeal-a1-final-2",
+      "type": "multiple-choice",
+      "title": "Goal 3",
+      "instructions": "Choose the answer.",
+      "question": "What does the EU want for Goal 3?",
+      "options": [
+       "new green companies",
+       "more coal",
+       "more cars"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 2: “The EU wants new green companies.”",
+      "feedback": {
+       "correct": "Yes. New green companies.",
+       "incorrect": "Read the Goal 3 paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "greenDeal-a1-final-3",
+      "type": "true-false",
+      "title": "Oil, Gas and Coal",
+      "instructions": "Is it true or false?",
+      "question": "One day, there will be no more oil, gas and coal.",
+      "correctAnswer": true,
+      "explanation": "Chapter 3: “And one day, there will be no more oil, gas and coal.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "greenDeal-a1-final-4",
+      "type": "matching",
+      "title": "What Is It?",
+      "instructions": "Match the word with the sentence.",
+      "question": "What is it?",
+      "matchingHeadings": {
+       "left": "Word",
+       "right": "Sentence"
+      },
+      "matchingPairs": [
+       {
+        "left": "a solar panel",
+        "right": "It makes energy from the sun."
+       },
+       {
+        "left": "an energy label",
+        "right": "It tells you about a machine’s energy."
+       },
+       {
+        "left": "a battery",
+        "right": "It gives energy to phones and cars."
+       }
+      ],
+      "correctAnswer": {
+       "a solar panel": "It makes energy from the sun.",
+       "an energy label": "It tells you about a machine’s energy.",
+       "a battery": "It gives energy to phones and cars."
+      },
+      "explanation": "Chapter 5: batteries and solar panels. Chapter 7: the energy label.",
+      "feedback": {
+       "correct": "Good. You matched all three.",
+       "incorrect": "Read Chapters 5 and 7 again."
+      }
+     },
+     {
+      "id": "greenDeal-a1-final-5",
+      "type": "multiple-choice",
+      "title": "The Law",
+      "instructions": "Choose the answer.",
+      "question": "What is the name of the EU law?",
+      "options": [
+       "the Net-Zero Industry Act",
+       "the Green Shop Act",
+       "the Clean Car Act"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: “Its name is the Net-Zero Industry Act.”",
+      "feedback": {
+       "correct": "Yes.",
+       "incorrect": "Read the second paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "greenDeal-a1-final-6",
+      "type": "true-false",
+      "title": "Clothes",
+      "instructions": "Is it true or false?",
+      "question": "Big companies in the EU can throw away new clothes.",
+      "correctAnswer": false,
+      "explanation": "Chapter 6: “Big companies in the EU mustn’t throw away new clothes.”",
+      "feedback": {
+       "correct": "Yes, it is false. They mustn’t.",
+       "incorrect": "Read the Rule 1 paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "greenDeal-a1-final-7",
+      "type": "multiple-choice",
+      "title": "Green Jobs",
+      "instructions": "Choose the answer.",
+      "question": "What do people need for green jobs?",
+      "options": [
+       "new skills",
+       "more coal",
+       "old machines"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 7: “People need new skills for these jobs.”",
+      "feedback": {
+       "correct": "Yes. New skills.",
+       "incorrect": "Read the second paragraph of Chapter 7."
+      }
+     },
+     {
+      "id": "greenDeal-a1-final-8",
+      "type": "sequencing",
+      "title": "The Years",
+      "instructions": "Put the years in order.",
+      "question": "What comes first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "2019: The European Commission shows the Green Deal."
+       },
+       {
+        "id": "2",
+        "text": "2021: Türkiye makes its Green Deal plan."
+       },
+       {
+        "id": "3",
+        "text": "2030: The EU wants 55% less bad gas."
+       },
+       {
+        "id": "4",
+        "text": "2050: The EU wants net zero."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 1: 2019 and 2050. Chapter 2: 2030. Chapter 8: 2021.",
+      "feedback": {
+       "correct": "Great! You know the years of the Green Deal.",
+       "incorrect": "Find the years in Chapters 1, 2 and 8."
+      }
      }
     ]
    }

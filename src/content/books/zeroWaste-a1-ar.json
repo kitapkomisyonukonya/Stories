@@ -5,7 +5,7 @@
  "language": "ar",
  "collection": "today",
  "book": {
-  "id": "zeroWaste-a1",
+  "id": "zeroWaste-a1-ar",
   "title": "Zero Waste",
   "level": "A1",
   "baseFontSize": 12,
@@ -14,9 +14,7 @@
     "id": 1,
     "type": "story",
     "title": "What Is Waste?",
-    "image": "",
-    "audioUrl": "",
-    "content": "Every day, we eat food and drink water. We use bottles, boxes and bags. Then we throw away these things. This is waste.\n\nThere is a lot of waste in the world. In 2023, people in cities made more than 2 billion tons of waste. In 2050, there will be about 4 billion tons!\n\nA lot of waste is food. There is a lot of paper and plastic, too. But many old things are good. We can use them again.",
+    "content": "Every day, we buy food in boxes. We drink water from plastic or glass bottles. Sometimes we do not eat all our food, so we throw it away. These boxes, bottles and food are not the only waste. Everything we throw away is waste. The world is big, but these things are not forever. So, we should not waste our food and items.\n\nThere is a lot of waste in the world. In 2023, people in cities made more than 2 billion tons of waste. In 2050, there will be about 4 billion tons!\n\nThere is a lot of waste, but it is not all trash. We can use it again.",
     "vocabulary": [
      {
       "word": "throw away",
@@ -27,38 +25,198 @@
       "definition": "Things we do not want or need."
      },
      {
+      "word": "forever",
+      "definition": "For all time; with no end."
+     },
+     {
+      "word": "items",
+      "definition": "Things, like boxes, bottles or clothes."
+     },
+     {
       "word": "billion",
       "definition": "1,000,000,000."
      },
      {
       "word": "tons",
       "definition": "1 ton is 1,000 kilograms."
+     },
+     {
+      "word": "trash",
+      "definition": "Things with no use; we cannot use them again."
      }
+    ],
+    "hotspots": [
+     {
+      "id": "h1-1",
+      "x": 35,
+      "y": 46,
+      "title": "Boxes and Bottles",
+      "description": "Every day, we buy food in boxes. We drink water from plastic or glass bottles."
+     },
+     {
+      "id": "h1-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Lot of Waste",
+      "description": "In 2023, people in cities made more than 2 billion tons of waste."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "zeroWaste-a1-quick-1",
+      "type": "drag-drop",
+      "title": "What Is Waste?",
+      "instructions": "Read. Is it true or false?",
+      "question": "What does Chapter 1 say?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Everything we throw away is waste.",
+         "We can use some waste again."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "There is very little waste in the world."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Everything we throw away is waste.",
+        "We can use some waste again."
+       ],
+       "False": [
+        "There is very little waste in the world."
+       ]
+      },
+      "explanation": "Chapter 1 says: “Everything we throw away is waste.” “There is a lot of waste in the world.” “We can use it again.”",
+      "feedback": {
+       "correct": "Yes! There is a lot of waste.",
+       "incorrect": "Read Chapter 1 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "zeroWaste-a1-language-1-should-not",
+      "type": "multiple-choice",
+      "title": "Look: Should Not",
+      "instructions": "Choose the right answer.",
+      "question": "“So, we should not waste our food and items.” What does this mean?",
+      "options": [
+       "It is not good to waste food.",
+       "It is good to waste food.",
+       "We have no food."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Should not + verb = it is not good to do it.",
+      "feedback": {
+       "correct": "Yes. It is not good to do it.",
+       "incorrect": "Read the first paragraph of Chapter 1 again."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-1-practise",
+      "type": "choose-form",
+      "title": "Practise: Numbers",
+      "instructions": "Choose the right number.",
+      "question": "How much waste?",
+      "formChoices": [
+       {
+        "sentence": "In 2023, people in cities made more than [choice] billion tons of waste.",
+        "options": [
+         "2",
+         "4"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "In 2050, there will be about [choice] billion tons!",
+        "options": [
+         "4",
+         "2"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "2023: more than 2 billion tons. 2050: about 4 billion tons. There will be = in the future.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-1-say-it",
+      "type": "reflection",
+      "title": "Say It: My Waste",
+      "instructions": "Tell your partner about your waste.",
+      "question": "What do you throw away?",
+      "correctAnswer": null,
+      "explanation": "Use throw away and should not.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“Every day, I throw away …”",
+        "mode": "Pair",
+        "example": "Every day, I throw away a juice box."
+       },
+       {
+        "question": "“I should not waste …”",
+        "mode": "Pair",
+        "example": "I should not waste bread."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What is waste?",
+     "options": [
+      "everything we throw away",
+      "only food",
+      "only plastic"
+     ],
+     "answer": 0,
+     "quote": "Everything we throw away is waste."
+    },
+    "iCan": [
+     "I can say what waste is.",
+     "I can understand should not.",
+     "I can talk about my waste."
     ]
    },
    {
     "id": 2,
     "type": "story",
     "title": "Paper, Wood and Glass",
-    "image": "",
-    "audioUrl": "",
-    "content": "Paper and wood come from trees. We can recycle old paper. Then we can make new paper and new boxes. This is good for the trees. Old paper goes in a paper bin.\n\nWe can make new things from old wood, too.\n\nGlass comes from sand. Old glass bottles and jars go in a glass bin. Workers put the green, brown and white glass in groups. They make it very hot. Then they make new bottles and jars.",
+    "content": "Paper and wood come from trees. We can recycle old paper. Then we can make new paper and new boxes. This is good for the world.\n\nWe can make new things from used wood, too. For example, old tables and chairs go to recycling factories. There, workers make new home items from them.\n\nWe should put old glass bottles and jars in a recycling bin. Recycling workers take them. They put green, brown and white glass in different groups. Then, they make new bottles and jars.",
     "vocabulary": [
      {
       "word": "wood",
       "definition": "The hard part of a tree."
      },
      {
-      "word": "bin",
-      "definition": "A box for waste."
-     },
-     {
       "word": "recycle",
       "definition": "Make new things from old things."
      },
      {
-      "word": "sand",
-      "definition": "Small yellow pieces on a beach."
+      "word": "used",
+      "definition": "Old; not new."
+     },
+     {
+      "word": "home items",
+      "definition": "Things for the home, like tables and chairs."
+     },
+     {
+      "word": "bin",
+      "definition": "A box for waste."
      },
      {
       "word": "jars",
@@ -68,15 +226,153 @@
       "word": "workers",
       "definition": "People at work."
      }
+    ],
+    "hotspots": [
+     {
+      "id": "h2-1",
+      "x": 35,
+      "y": 46,
+      "title": "Recycle Paper",
+      "description": "We can recycle old paper. Then we can make new paper and new boxes."
+     },
+     {
+      "id": "h2-2",
+      "x": 68,
+      "y": 50,
+      "title": "Glass",
+      "description": "Recycling workers put green, brown and white glass in different groups."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "zeroWaste-a1-quick-2",
+      "type": "sequencing",
+      "title": "Paper, Wood and Glass",
+      "instructions": "Put the steps in order.",
+      "question": "Where does old glass go?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "We put old glass bottles in a recycling bin."
+       },
+       {
+        "id": "2",
+        "text": "Recycling workers take the bottles."
+       },
+       {
+        "id": "3",
+        "text": "The workers put green, brown and white glass in different groups."
+       },
+       {
+        "id": "4",
+        "text": "The workers make new bottles and jars."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 2: the recycling bin → the workers → three groups → new bottles and jars.",
+      "feedback": {
+       "correct": "Great! You know the steps.",
+       "incorrect": "Read the last paragraph of Chapter 2 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "zeroWaste-a1-language-2-come-from",
+      "type": "multiple-choice",
+      "title": "Look: Come From",
+      "instructions": "Choose the right answer.",
+      "question": "“Paper and wood come from trees.” What does “come from” tell us?",
+      "options": [
+       "where they start",
+       "when they start",
+       "how much they are"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Come from + place = where a thing starts.",
+      "feedback": {
+       "correct": "Yes. They start in trees.",
+       "incorrect": "Read the first sentence of Chapter 2."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-2-practise",
+      "type": "word-bank",
+      "title": "Practise: Old Things, New Things",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What can we make?",
+      "fillBlanksText": "We can recycle old [blank]. Old tables and [blank] go to recycling factories. We should put old glass bottles and jars in a recycling [blank].",
+      "wordBank": [
+       "paper",
+       "chairs",
+       "bin",
+       "trees",
+       "sea"
+      ],
+      "correctAnswer": [
+       "paper",
+       "chairs",
+       "bin"
+      ],
+      "explanation": "Recycle old paper. Tables and chairs go to factories. Glass goes in a recycling bin.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 2 again."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-2-say-it",
+      "type": "reflection",
+      "title": "Say It: Where Does It Go?",
+      "instructions": "Tell your partner where things go.",
+      "question": "Where should we put old things?",
+      "correctAnswer": null,
+      "explanation": "Use should put … in and come from.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“We should put old paper in …”",
+        "mode": "Pair",
+        "example": "We should put old paper in a recycling bin."
+       },
+       {
+        "question": "“… come from trees.”",
+        "mode": "Pair",
+        "example": "Books come from trees."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Where do paper and wood come from?",
+     "options": [
+      "trees",
+      "the sea",
+      "factories"
+     ],
+     "answer": 0,
+     "quote": "Paper and wood come from trees."
+    },
+    "iCan": [
+     "I can tell how we recycle paper, wood and glass.",
+     "I can understand come from.",
+     "I can say where old things go."
     ]
    },
    {
     "id": 3,
     "type": "story",
     "title": "Plastic and the Sea",
-    "image": "",
-    "audioUrl": "",
-    "content": "Plastic is in many things. Bags, bottles, pens and phones have plastic in them.\n\nIn 2019, there were about 350 million tons of plastic waste in the world. People recycled only 9 percent of it. Half of it went under the ground. A lot of it went into rivers and the sea.\n\nPlastic in the sea is very bad. Fish and birds eat it, and they get ill. We should help the seas. We shouldn't throw plastic on the beach.",
+    "content": "Plastic is in many things. Bags, bottles, pens and phones have plastic in them.\n\nIn 2019, there were about 350 million tons of plastic waste in the world. People recycled only 9 percent of it. People put half of it under the ground. And people threw a lot of it into rivers and the sea. Plastic in rivers and the sea is a big problem. Fish and birds eat it, and they get ill. Plastic also makes the water dirty. We shouldn’t throw plastic into rivers and the sea.",
     "vocabulary": [
      {
       "word": "plastic",
@@ -94,19 +390,195 @@
       "word": "ground",
       "definition": "The earth under our feet."
      }
-    ]
+    ],
+    "hotspots": [
+     {
+      "id": "h3-1",
+      "x": 35,
+      "y": 46,
+      "title": "Plastic Everywhere",
+      "description": "Bags, bottles, pens and phones have plastic in them."
+     },
+     {
+      "id": "h3-2",
+      "x": 68,
+      "y": 50,
+      "title": "Rivers and the Sea",
+      "description": "Fish and birds eat plastic, and they get ill. Plastic also makes the water dirty."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "zeroWaste-a1-quick-3",
+      "type": "drag-drop",
+      "title": "Plastic and the Sea",
+      "instructions": "Put each sentence in the right group.",
+      "question": "Where did the plastic go?",
+      "dragDropGroups": [
+       {
+        "group": "People did this",
+        "items": [
+         "They recycled 9 percent of it.",
+         "They put half of it under the ground.",
+         "They threw a lot of it into rivers and the sea."
+        ]
+       },
+       {
+        "group": "Plastic does this",
+        "items": [
+         "It makes the water dirty."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "People did this": [
+        "They recycled 9 percent of it.",
+        "They put half of it under the ground.",
+        "They threw a lot of it into rivers and the sea."
+       ],
+       "Plastic does this": [
+        "It makes the water dirty."
+       ]
+      },
+      "explanation": "Chapter 3: “People recycled only 9 percent of it. People put half of it under the ground. And people threw a lot of it into rivers and the sea.” “Plastic also makes the water dirty.”",
+      "feedback": {
+       "correct": "Yes! You know where the plastic went.",
+       "incorrect": "Read the second paragraph of Chapter 3 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "zeroWaste-a1-language-3-half",
+      "type": "multiple-choice",
+      "title": "Look: Percent and Half",
+      "instructions": "Choose the right answer.",
+      "question": "“People put half of it under the ground.” How much is half?",
+      "options": [
+       "50 percent",
+       "9 percent",
+       "100 percent"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Half = 50 percent. All = 100 percent.",
+      "feedback": {
+       "correct": "Yes. Half is 50 percent.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-3-practise",
+      "type": "choose-form",
+      "title": "Practise: Recycled, Put, Threw",
+      "instructions": "Choose the right form.",
+      "question": "Which form tells the past?",
+      "formChoices": [
+       {
+        "sentence": "In 2019, people [choice] only 9 percent of it.",
+        "options": [
+         "recycled",
+         "recycle"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "People [choice] a lot of it into rivers and the sea.",
+        "options": [
+         "threw",
+         "throw"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "In 2019, there [choice] about 350 million tons of plastic waste.",
+        "options": [
+         "were",
+         "are"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Recycle → recycled. Throw → threw. There are → there were in the past.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-3-write-it",
+      "type": "reflection",
+      "title": "Write It: Clean Water",
+      "instructions": "Write two sentences about clean water.",
+      "question": "What shouldn’t we do?",
+      "correctAnswer": null,
+      "explanation": "Use shouldn’t + verb.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“We shouldn’t throw …”",
+        "mode": "Individual",
+        "example": "We shouldn’t throw plastic into rivers."
+       },
+       {
+        "question": "“Fish and birds need …”",
+        "mode": "Individual",
+        "example": "Fish and birds need clean water."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: How much plastic did people recycle?",
+     "options": [
+      "only 9 percent",
+      "all of it",
+      "half of it"
+     ],
+     "answer": 0,
+     "quote": "People recycled only 9 percent of it."
+    },
+    "iCan": [
+     "I can tell why plastic is a big problem.",
+     "I can understand percent and half.",
+     "I can write about clean water."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Plastic in My Bag",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "Each student looks in their school bag. The group makes a list of plastic things.",
+      "The group puts the list in two columns: “I can use it again” and “I throw it away”.",
+      "The group writes one sentence: “We shouldn’t throw … into rivers and the sea.”",
+      "The group shows the list to the class."
+     ],
+     "share": "One student reads the sentence. Story: “Plastic in rivers and the sea is a big problem.”",
+     "solo": "Make a list of three plastic things. Write one shouldn’t sentence."
+    }
    },
    {
     "id": 4,
     "type": "story",
     "title": "Cartons, Cans and Oil",
-    "image": "",
-    "audioUrl": "",
-    "content": "Juice and milk cartons have paper and plastic in them. Workers take out the paper and the plastic. Then they make new things.\n\nDrink cans are metal. Workers make old metal very hot. Then they make new things from it.\n\nAfter we cook food, we have old oil. It is waste, too. We mustn't put it in the water. It is bad for the water. Workers change it into fuel for cars.",
+    "content": "Juice and milk cartons have paper and plastic in them. Workers at the recycling factory separate the paper and the plastic. Then they make new products.\n\nDrink cans are metal. They are not trash, either. Recycling workers melt used metal and make new things from it.\n\nAnother problem is waste oil. After we cook food, we have used oil. It is waste, too. We mustn’t put it into the sink. It makes the water dirty.",
     "vocabulary": [
      {
       "word": "cartons",
       "definition": "Paper boxes for milk or juice."
+     },
+     {
+      "word": "separate",
+      "definition": "Put things in different groups."
+     },
+     {
+      "word": "products",
+      "definition": "Things that people make and sell."
      },
      {
       "word": "cans",
@@ -117,44 +589,320 @@
       "definition": "A hard material, like iron."
      },
      {
+      "word": "melt",
+      "definition": "Make something very hot until it becomes soft."
+     },
+     {
       "word": "oil",
       "definition": "A liquid from plants for cooking."
      },
      {
-      "word": "fuel",
-      "definition": "Cars need it to move."
+      "word": "sink",
+      "definition": "The place in the kitchen where we wash things."
      }
+    ],
+    "hotspots": [
+     {
+      "id": "h4-1",
+      "x": 35,
+      "y": 46,
+      "title": "Cartons",
+      "description": "Juice and milk cartons have paper and plastic in them. Workers separate the paper and the plastic."
+     },
+     {
+      "id": "h4-2",
+      "x": 68,
+      "y": 50,
+      "title": "Waste Oil",
+      "description": "After we cook food, we have used oil. We mustn’t put it into the sink."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "zeroWaste-a1-quick-4",
+      "type": "drag-drop",
+      "title": "Cartons, Cans and Oil",
+      "instructions": "Put each thing in the right group.",
+      "question": "What is in it?",
+      "dragDropGroups": [
+       {
+        "group": "Paper and plastic",
+        "items": [
+         "a milk carton",
+         "a juice carton"
+        ]
+       },
+       {
+        "group": "Metal",
+        "items": [
+         "a drink can"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Paper and plastic": [
+        "a milk carton",
+        "a juice carton"
+       ],
+       "Metal": [
+        "a drink can"
+       ]
+      },
+      "explanation": "Chapter 4: “Juice and milk cartons have paper and plastic in them.” “Drink cans are metal.”",
+      "feedback": {
+       "correct": "Yes! Cans are metal.",
+       "incorrect": "Read the first two paragraphs of Chapter 4."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "zeroWaste-a1-language-4-mustnt",
+      "type": "multiple-choice",
+      "title": "Look: Mustn’t",
+      "instructions": "Choose the right answer.",
+      "question": "“We mustn’t put it into the sink.” What does “mustn’t” mean?",
+      "options": [
+       "Do not do it. It is a rule.",
+       "It is good to do it.",
+       "You can do it."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mustn’t + verb = do not do it. It is very important.",
+      "feedback": {
+       "correct": "Yes. Do not do it.",
+       "incorrect": "Read the last paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-4-practise",
+      "type": "word-bank",
+      "title": "Practise: At the Factory",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What do the workers do?",
+      "fillBlanksText": "Workers at the recycling factory [blank] the paper and the plastic. Then they make new [blank]. Recycling workers [blank] used metal.",
+      "wordBank": [
+       "separate",
+       "products",
+       "melt",
+       "sink",
+       "drink"
+      ],
+      "correctAnswer": [
+       "separate",
+       "products",
+       "melt"
+      ],
+      "explanation": "Separate = put things in different groups. Melt = make very hot until soft.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the first two paragraphs of Chapter 4."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-4-say-it",
+      "type": "reflection",
+      "title": "Say It: Kitchen Rules",
+      "instructions": "Say kitchen rules with your partner.",
+      "question": "What mustn’t we do in the kitchen?",
+      "correctAnswer": null,
+      "explanation": "Use mustn’t + verb.",
+      "feedback": {
+       "correct": "Say two rules.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“We mustn’t put … into the sink.”",
+        "mode": "Pair",
+        "example": "We mustn’t put oil into the sink."
+       },
+       {
+        "question": "“Cans are not trash. We can …”",
+        "mode": "Pair",
+        "example": "Cans are not trash. We can recycle them."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What are drink cans?",
+     "options": [
+      "metal",
+      "paper",
+      "glass"
+     ],
+     "answer": 0,
+     "quote": "Drink cans are metal."
+    },
+    "iCan": [
+     "I can tell about cartons, cans and oil.",
+     "I can understand mustn’t.",
+     "I can say kitchen rules."
     ]
    },
    {
     "id": 5,
     "type": "story",
     "title": "Food Waste",
-    "image": "",
-    "audioUrl": "",
-    "content": "A lot of food is waste. Some food never comes to the shops. Some food goes in the bin at home, in restaurants and in shops.\n\nWhere is a lot of food waste? It is at home! 61 percent of all food waste is in our homes. We buy a lot of food. Then some of it goes bad.\n\nWe should buy only the food that we need. We should eat our old bread first.",
+    "content": "A lot of food goes to waste. We throw away food at home, in restaurants and in shops. But where is the biggest problem? It is at home! 61 percent of all food waste comes from our homes. We buy too much food, and then we cannot eat it.\n\nWe should buy only the food that we need. For example, we should eat the bread from yesterday first.",
     "vocabulary": [
      {
-      "word": "bad",
-      "definition": "Not good to eat."
+      "word": "goes to waste",
+      "definition": "Is not used; goes into the bin."
      }
+    ],
+    "hotspots": [
+     {
+      "id": "h5-1",
+      "x": 35,
+      "y": 46,
+      "title": "At Home",
+      "description": "61 percent of all food waste comes from our homes."
+     },
+     {
+      "id": "h5-2",
+      "x": 68,
+      "y": 50,
+      "title": "Buy What We Need",
+      "description": "We should buy only the food that we need."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "zeroWaste-a1-quick-5",
+      "type": "multiple-choice",
+      "title": "Food Waste",
+      "instructions": "Choose the best answer.",
+      "question": "Why do we waste food at home?",
+      "options": [
+       "We buy too much food.",
+       "We buy too little food.",
+       "We cook in restaurants."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: “We buy too much food, and then we cannot eat it.”",
+      "feedback": {
+       "correct": "Yes! We buy too much.",
+       "incorrect": "Read the first paragraph of Chapter 5 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "zeroWaste-a1-language-5-biggest",
+      "type": "multiple-choice",
+      "title": "Look: The Biggest",
+      "instructions": "Choose the right answer.",
+      "question": "“But where is the biggest problem?” What does “the biggest” mean?",
+      "options": [
+       "bigger than all the others",
+       "very small",
+       "not a problem"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Big → bigger → the biggest. The biggest = number one in size.",
+      "feedback": {
+       "correct": "Yes. Bigger than all the others.",
+       "incorrect": "Read the first paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-5-practise",
+      "type": "choose-form",
+      "title": "Practise: Should, Too Much",
+      "instructions": "Choose the right words.",
+      "question": "Which words go in the gap?",
+      "formChoices": [
+       {
+        "sentence": "We buy [choice] food, and then we cannot eat it.",
+        "options": [
+         "too much",
+         "too many"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "We [choice] buy only the food that we need.",
+        "options": [
+         "should",
+         "shouldn’t"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "We should eat the bread from [choice] first.",
+        "options": [
+         "yesterday",
+         "tomorrow"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Too much + food, water, money. Should = it is good to do it.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 5 again."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-5-write-it",
+      "type": "reflection",
+      "title": "Write It: My Shopping List",
+      "instructions": "Write a short, smart shopping list.",
+      "question": "What do you need?",
+      "correctAnswer": null,
+      "explanation": "Use need and should.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“We need …”",
+        "mode": "Individual",
+        "example": "We need bread, milk and apples."
+       },
+       {
+        "question": "“We should eat … first.”",
+        "mode": "Individual",
+        "example": "We should eat the old apples first."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Where is the biggest food waste problem?",
+     "options": [
+      "at home",
+      "in shops",
+      "in restaurants"
+     ],
+     "answer": 0,
+     "quote": "It is at home!"
+    },
+    "iCan": [
+     "I can tell about food waste.",
+     "I can understand the biggest.",
+     "I can write a smart shopping list."
     ]
    },
    {
     "id": 6,
     "type": "story",
     "title": "Old Phones and Batteries",
-    "image": "",
-    "audioUrl": "",
-    "content": "We have a lot of machines at home and at school. Phones, computers and TVs help us every day. Sometimes they are old or broken. Then they are waste.\n\nOld machines go in a different bin. Workers open them. They can use the metal and the plastic again.\n\nBatteries make games, phones and clocks work. Old batteries are dangerous. We mustn't throw them in the kitchen bin. They go in a battery bin.",
+    "content": "We have a lot of machines at home and at school. We use phones, computers and TVs every day. Sometimes they get old or break, so we throw them away.\n\nWe should put old machines in a recycling bin. Recycling workers take them from these bins. Then they bring them to recycling factories. There, they separate the metal and plastic pieces to use them again.\n\nBatteries make games, phones and clocks work. Old batteries are dangerous. We mustn’t throw them in the kitchen bin. We should put old batteries in a battery bin.",
     "vocabulary": [
      {
       "word": "machines",
       "definition": "Phones, computers, TVs and other things like them."
      },
      {
-      "word": "broken",
-      "definition": "Not working."
+      "word": "break",
+      "definition": "Stop working."
      },
      {
       "word": "batteries",
@@ -164,15 +912,176 @@
       "word": "dangerous",
       "definition": "Bad for people and nature."
      }
-    ]
+    ],
+    "hotspots": [
+     {
+      "id": "h6-1",
+      "x": 35,
+      "y": 46,
+      "title": "Old Machines",
+      "description": "We should put old machines in a recycling bin. Recycling workers take them from these bins."
+     },
+     {
+      "id": "h6-2",
+      "x": 68,
+      "y": 50,
+      "title": "A Battery Bin",
+      "description": "Old batteries are dangerous. We should put old batteries in a battery bin."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "zeroWaste-a1-quick-6",
+      "type": "drag-drop",
+      "title": "Old Phones and Batteries",
+      "instructions": "Put each sentence in the right group.",
+      "question": "Is it good?",
+      "dragDropGroups": [
+       {
+        "group": "Good",
+        "items": [
+         "Put old machines in a recycling bin.",
+         "Put old batteries in a battery bin."
+        ]
+       },
+       {
+        "group": "Not good",
+        "items": [
+         "Throw old batteries in the kitchen bin."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Good": [
+        "Put old machines in a recycling bin.",
+        "Put old batteries in a battery bin."
+       ],
+       "Not good": [
+        "Throw old batteries in the kitchen bin."
+       ]
+      },
+      "explanation": "Chapter 6: “We mustn’t throw them in the kitchen bin. We should put old batteries in a battery bin.”",
+      "feedback": {
+       "correct": "Yes! Batteries go in a battery bin.",
+       "incorrect": "Read the last paragraph of Chapter 6 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "zeroWaste-a1-language-6-or",
+      "type": "multiple-choice",
+      "title": "Look: Or and So",
+      "instructions": "Choose the right answer.",
+      "question": "“Sometimes they get old or break, so we throw them away.” What does “so” tell us?",
+      "options": [
+       "what comes next",
+       "when it is",
+       "where it is"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Or = one of two things (old or broken). So = what comes next.",
+      "feedback": {
+       "correct": "Yes. So tells what comes next.",
+       "incorrect": "Read the first paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-6-practise",
+      "type": "drag-drop",
+      "title": "Practise: Should or Mustn’t?",
+      "instructions": "Put each sentence in the right group.",
+      "question": "Should or mustn’t?",
+      "dragDropGroups": [
+       {
+        "group": "Good to do (should)",
+        "items": [
+         "We should put old machines in a recycling bin."
+        ]
+       },
+       {
+        "group": "Do not do it (mustn’t)",
+        "items": [
+         "We mustn’t throw batteries in the kitchen bin."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Good to do (should)": [
+        "We should put old machines in a recycling bin."
+       ],
+       "Do not do it (mustn’t)": [
+        "We mustn’t throw batteries in the kitchen bin."
+       ]
+      },
+      "explanation": "Should = it is good to do it. Mustn’t = do not do it.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read the last two paragraphs of Chapter 6."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-6-say-it",
+      "type": "reflection",
+      "title": "Say It: My Old Things",
+      "instructions": "Tell your partner about old machines.",
+      "question": "What do you do with old machines?",
+      "correctAnswer": null,
+      "explanation": "Use so and mustn’t.",
+      "feedback": {
+       "correct": "Say two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“My old … is broken, so …”",
+        "mode": "Pair",
+        "example": "My old phone is broken, so I put it in a recycling bin."
+       },
+       {
+        "question": "“We mustn’t throw batteries …”",
+        "mode": "Pair",
+        "example": "We mustn’t throw batteries in the kitchen bin."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Are old batteries safe?",
+     "options": [
+      "No, they are dangerous.",
+      "Yes, they are safe.",
+      "They are food."
+     ],
+     "answer": 0,
+     "quote": "Old batteries are dangerous."
+    },
+    "iCan": [
+     "I can tell about old phones and batteries.",
+     "I can understand or and so.",
+     "I can say what to do with old machines."
+    ],
+    "groupTask": {
+     "type": "project",
+     "title": "Our Class Bins",
+     "time": "10 min",
+     "groupSize": "3–4",
+     "steps": [
+      "The group draws three bins: “Paper”, “Glass” and “Batteries”.",
+      "The group writes or draws two things for each bin.",
+      "The group writes one rule: “We mustn’t …”",
+      "The group shows the bins to the class."
+     ],
+     "share": "One student reads the rule. Story: “We should put old batteries in a battery bin.”",
+     "solo": "Draw three bins. Write two things for each bin."
+    }
    },
    {
     "id": 7,
     "type": "story",
     "title": "Zero Waste and the Three Rs",
-    "image": "",
-    "audioUrl": "",
-    "content": "What is Zero Waste? It is not \"no waste\". Every person makes some waste every day. Zero Waste is less waste. We use things again and again.\n\nHere are the three Rs of Zero Waste:\n\nReduce: Use less. Buy only the things that you need.\n\nReuse and Repair: Use things again. When something is broken, repair it.\n\nRecycle: Make new things from old things.\n\nOld things can be new things again.",
+    "content": "What is Zero Waste? It is not “no waste”. Every person makes some waste every day. Zero Waste is less waste. We can use items and products again and again.\n\nHere are the three Rs of Zero Waste:\n\nReduce: Use less. Buy only the things that you need.\n\nReuse and Repair: Use products again. When something is broken, repair it.\n\nRecycle: Make new things from old things.\n\nOld items can become new products again.",
     "vocabulary": [
      {
       "word": "Zero Waste",
@@ -194,20 +1103,172 @@
       "word": "repair",
       "definition": "Make a broken thing good again."
      }
+    ],
+    "hotspots": [
+     {
+      "id": "h7-1",
+      "x": 35,
+      "y": 46,
+      "title": "Less Waste",
+      "description": "Every person makes some waste every day. Zero Waste is less waste."
+     },
+     {
+      "id": "h7-2",
+      "x": 68,
+      "y": 50,
+      "title": "The Three Rs",
+      "description": "Reduce. Reuse and Repair. Recycle."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "zeroWaste-a1-quick-7",
+      "type": "matching",
+      "title": "The Three Rs",
+      "instructions": "Match the word with the meaning.",
+      "question": "What does each R mean?",
+      "matchingHeadings": {
+       "left": "Word",
+       "right": "Meaning"
+      },
+      "matchingPairs": [
+       {
+        "left": "Reduce",
+        "right": "Use less."
+       },
+       {
+        "left": "Reuse",
+        "right": "Use products again."
+       },
+       {
+        "left": "Recycle",
+        "right": "Make new things from old things."
+       }
+      ],
+      "correctAnswer": {
+       "Reduce": "Use less.",
+       "Reuse": "Use products again.",
+       "Recycle": "Make new things from old things."
+      },
+      "explanation": "Chapter 7: “Reduce: Use less.” “Reuse and Repair: Use products again.” “Recycle: Make new things from old things.”",
+      "feedback": {
+       "correct": "Great! You know the three Rs.",
+       "incorrect": "Read the list in Chapter 7 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "zeroWaste-a1-language-7-imperative",
+      "type": "multiple-choice",
+      "title": "Look: Use Less!",
+      "instructions": "Choose the right answer.",
+      "question": "“Use less. Buy only the things that you need.” What are these sentences?",
+      "options": [
+       "“Do this!” sentences",
+       "questions",
+       "past sentences"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Verb at the start = “Do this!”: Use less. Buy only … Repair it.",
+      "feedback": {
+       "correct": "Yes. They are “Do this!” sentences.",
+       "incorrect": "Read the list in Chapter 7."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-7-practise",
+      "type": "choose-form",
+      "title": "Practise: When Something Is Broken",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "When something is broken, [choice] it.",
+        "options": [
+         "repair",
+         "throw"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] only the things that you need.",
+        "options": [
+         "Buy",
+         "Bought"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Every person [choice] some waste every day.",
+        "options": [
+         "makes",
+         "make"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "“Do this!” sentences: verb at the start (repair, buy). One person + verb + -s: makes.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 7 again."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-7-write-it",
+      "type": "reflection",
+      "title": "Write It: Three Rs at Home",
+      "instructions": "Write one sentence for each R.",
+      "question": "What can you do at home?",
+      "correctAnswer": null,
+      "explanation": "Use I can + verb.",
+      "feedback": {
+       "correct": "Write three sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "Reduce: “I can use less …”",
+        "mode": "Individual",
+        "example": "I can use less paper."
+       },
+       {
+        "question": "Reuse: “I can use my … again.”",
+        "mode": "Individual",
+        "example": "I can use my old jar again."
+       },
+       {
+        "question": "Recycle: “I can put … in a recycling bin.”",
+        "mode": "Individual",
+        "example": "I can put old bottles in a recycling bin."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: Is Zero Waste “no waste”?",
+     "options": [
+      "No, it is less waste.",
+      "Yes, it is no waste.",
+      "It is more waste."
+     ],
+     "answer": 0,
+     "quote": "Zero Waste is less waste."
+    },
+    "iCan": [
+     "I can say what Zero Waste is.",
+     "I can understand “Use less.” and “Buy only …”.",
+     "I can write about the three Rs at home."
     ]
    },
    {
     "id": 8,
     "type": "story",
     "title": "What Can We Do?",
-    "image": "",
-    "audioUrl": "",
-    "content": "Food in the ground makes a bad gas. This gas makes our world hotter. With less waste, there is less gas.\n\nThe best waste is the waste that we never make. We can all help. Take a bag from home to the shop. Take a bottle and a cup from home to school. Say \"no\" to plastic straws.\n\nCities can help, too. Some cities have tool libraries. People can take tools from there, and they do not need to buy them.\n\nFamilies can learn about Zero Waste together. The best time to start is now!",
+    "content": "The best waste is no waste! We can all help the world. For example, we can take a bag from home to the shop. At school, we can use our own bottles and cups. We should also say “no” to plastic straws.\n\nCities can help, too. Some cities have tool libraries. People can take tools from there, and they do not need to buy them.\n\nFamilies can learn about Zero Waste together. The best time to start is now!",
     "vocabulary": [
-     {
-      "word": "gas",
-      "definition": "Something like air; we cannot see it."
-     },
      {
       "word": "bottle",
       "definition": "A glass or plastic thing for water."
@@ -219,6 +1280,1255 @@
      {
       "word": "tool libraries",
       "definition": "Places where you can take tools and bring them back."
+     }
+    ],
+    "hotspots": [
+     {
+      "id": "h8-1",
+      "x": 35,
+      "y": 46,
+      "title": "At School",
+      "description": "At school, we can use our own bottles and cups. We should also say “no” to plastic straws."
+     },
+     {
+      "id": "h8-2",
+      "x": 68,
+      "y": 50,
+      "title": "Tool Libraries",
+      "description": "Some cities have tool libraries. People can take tools from there."
+     }
+    ],
+    "exercises": [
+     {
+      "id": "zeroWaste-a1-quick-8",
+      "type": "drag-drop",
+      "title": "What Can We Do?",
+      "instructions": "Read. Is it true or false?",
+      "question": "What does Chapter 8 say?",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "We can take a bag from home to the shop.",
+         "Some cities have tool libraries."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "We should use more plastic straws."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "We can take a bag from home to the shop.",
+        "Some cities have tool libraries."
+       ],
+       "False": [
+        "We should use more plastic straws."
+       ]
+      },
+      "explanation": "Chapter 8 says: “We can take a bag from home to the shop.” “We should also say ‘no’ to plastic straws.” “Some cities have tool libraries.”",
+      "feedback": {
+       "correct": "Yes! We should say “no” to plastic straws.",
+       "incorrect": "Read Chapter 8 again."
+      }
+     }
+    ],
+    "languageFocusExercises": [
+     {
+      "id": "zeroWaste-a1-language-8-can",
+      "type": "multiple-choice",
+      "title": "Look: We Can …",
+      "instructions": "Choose the right answer.",
+      "question": "“We can take a bag from home to the shop.” What is this?",
+      "options": [
+       "one thing we can do",
+       "a thing we must do",
+       "a past sentence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "We can + verb = one thing we can do. We should + verb = it is good to do it.",
+      "feedback": {
+       "correct": "Yes. It is one thing we can do.",
+       "incorrect": "Read the first paragraph of Chapter 8."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-8-practise",
+      "type": "word-bank",
+      "title": "Practise: What Can We Do?",
+      "instructions": "Fill the gaps with the words.",
+      "question": "What can we do?",
+      "fillBlanksText": "At school, we can use our [blank] bottles and cups. We should also say “no” to plastic [blank]. The best time to start is [blank]!",
+      "wordBank": [
+       "own",
+       "straws",
+       "now",
+       "tools",
+       "never"
+      ],
+      "correctAnswer": [
+       "own",
+       "straws",
+       "now"
+      ],
+      "explanation": "Our own = it is ours. The best time to start is now.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 8 again."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-8-write-it",
+      "type": "reflection",
+      "title": "Write It: My Zero Waste Plan",
+      "instructions": "Write your Zero Waste plan.",
+      "question": "What can you do?",
+      "correctAnswer": null,
+      "explanation": "Use can + verb.",
+      "feedback": {
+       "correct": "Write two sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "“At school, I can …”",
+        "mode": "Individual",
+        "example": "At school, I can use my own cup."
+       },
+       {
+        "question": "“At home, my family can …”",
+        "mode": "Individual",
+        "example": "At home, my family can buy only the food that we need."
+       }
+      ]
+     }
+    ],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess first: What is the best waste?",
+     "options": [
+      "no waste",
+      "plastic waste",
+      "food waste"
+     ],
+     "answer": 0,
+     "quote": "The best waste is no waste!"
+    },
+    "iCan": [
+     "I can tell what we can do for Zero Waste.",
+     "I can understand we can.",
+     "I can write my Zero Waste plan."
+    ]
+   },
+   {
+    "id": 101,
+    "type": "key-facts",
+    "title": "Key Facts",
+    "content": "One fact from every chapter. Each chapter stamp colors its stop.",
+    "facts": [
+     {
+      "chapter": 1,
+      "label": "2023",
+      "value": "2 billion tons",
+      "title": "People in cities made more than 2 billion tons of waste.",
+      "text": "In 2050, there will be about 4 billion tons."
+     },
+     {
+      "chapter": 2,
+      "label": "Paper",
+      "value": "Recycle",
+      "title": "We can make new paper from old paper.",
+      "text": "Workers make new bottles and jars from old glass."
+     },
+     {
+      "chapter": 3,
+      "label": "2019",
+      "value": "9 percent",
+      "title": "People recycled only 9 percent of plastic waste.",
+      "text": "Fish and birds eat plastic, and they get ill."
+     },
+     {
+      "chapter": 4,
+      "label": "Cans",
+      "value": "Metal",
+      "title": "Recycling workers melt used metal.",
+      "text": "We mustn’t put used oil into the sink."
+     },
+     {
+      "chapter": 5,
+      "label": "Food",
+      "value": "61 percent",
+      "title": "61 percent of all food waste comes from our homes.",
+      "text": "We should buy only the food that we need."
+     },
+     {
+      "chapter": 6,
+      "label": "Batteries",
+      "value": "Battery bin",
+      "title": "Old batteries are dangerous.",
+      "text": "We should put old batteries in a battery bin."
+     },
+     {
+      "chapter": 7,
+      "label": "Zero Waste",
+      "value": "3 Rs",
+      "title": "Reduce, Reuse and Repair, Recycle.",
+      "text": "Zero Waste is less waste."
+     },
+     {
+      "chapter": 8,
+      "label": "Start",
+      "value": "Now",
+      "title": "The best waste is no waste!",
+      "text": "Some cities have tool libraries."
+     }
+    ]
+   },
+   {
+    "id": 11,
+    "type": "quiz",
+    "title": "Knowledge Check",
+    "image": "",
+    "audioUrl": "",
+    "content": "Check your understanding of the complete book.",
+    "exercises": [
+     {
+      "id": "zeroWaste-a1-kc-1",
+      "type": "multiple-choice",
+      "title": "Waste in the World",
+      "instructions": "Choose the answer.",
+      "question": "How much waste did people in cities make in 2023?",
+      "options": [
+       "more than 2 billion tons",
+       "about 9 tons",
+       "only 61 tons"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 1: “In 2023, people in cities made more than 2 billion tons of waste.”",
+      "feedback": {
+       "correct": "Yes. More than 2 billion tons.",
+       "incorrect": "Read the second paragraph of Chapter 1."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-kc-2",
+      "type": "true-false",
+      "title": "Glass",
+      "instructions": "Is it true or false?",
+      "question": "Workers put green, brown and white glass in different groups.",
+      "correctAnswer": true,
+      "explanation": "Chapter 2: “They put green, brown and white glass in different groups.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the last paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-kc-3",
+      "type": "multiple-choice",
+      "title": "Plastic",
+      "instructions": "Choose the answer.",
+      "question": "Fish and birds eat plastic. Then what?",
+      "options": [
+       "They get ill.",
+       "They get big.",
+       "They get happy."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 3: “Fish and birds eat it, and they get ill.”",
+      "feedback": {
+       "correct": "Yes. They get ill.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-kc-4",
+      "type": "true-false",
+      "title": "Used Oil",
+      "instructions": "Is it true or false?",
+      "question": "We should put used oil into the sink.",
+      "correctAnswer": false,
+      "explanation": "Chapter 4: “We mustn’t put it into the sink. It makes the water dirty.”",
+      "feedback": {
+       "correct": "Yes, it is false. We mustn’t.",
+       "incorrect": "Read the last paragraph of Chapter 4."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-kc-5",
+      "type": "multiple-choice",
+      "title": "Food Waste",
+      "instructions": "Choose the answer.",
+      "question": "How much food waste comes from our homes?",
+      "options": [
+       "61 percent",
+       "9 percent",
+       "100 percent"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: “61 percent of all food waste comes from our homes.”",
+      "feedback": {
+       "correct": "Yes. 61 percent.",
+       "incorrect": "Read the first paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-kc-6",
+      "type": "multiple-choice",
+      "title": "Zero Waste",
+      "instructions": "Choose the answer.",
+      "question": "What is Zero Waste?",
+      "options": [
+       "less waste",
+       "no waste at all",
+       "more recycling factories"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 7: “It is not ‘no waste’.” “Zero Waste is less waste.”",
+      "feedback": {
+       "correct": "Yes. Less waste.",
+       "incorrect": "Read the first paragraph of Chapter 7."
+      }
+     }
+    ]
+   },
+   {
+    "id": 13,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "Review all key vocabulary from the book in one place.",
+    "image": "",
+    "vocabulary": [
+     {
+      "word": "throw away",
+      "definition": "Put something in the bin.",
+      "partOfSpeech": "phrasal verb",
+      "level": "A1",
+      "pronunciation": "/ˌθroʊ əˈweɪ/",
+      "chapter": 1,
+      "chapterTitle": "What Is Waste?",
+      "storyExample": "Everything we throw away is waste.",
+      "category": "Actions"
+     },
+     {
+      "word": "waste",
+      "definition": "Things we do not want or need.",
+      "partOfSpeech": "verb, noun",
+      "level": "A1",
+      "pronunciation": "/weɪst/",
+      "chapter": 1,
+      "chapterTitle": "What Is Waste?",
+      "storyExample": "So, we should not waste our food and items.",
+      "category": "Waste"
+     },
+     {
+      "word": "forever",
+      "definition": "For all time; with no end.",
+      "partOfSpeech": "adverb",
+      "level": "A1",
+      "pronunciation": "/fərˈevər/",
+      "chapter": 1,
+      "chapterTitle": "What Is Waste?",
+      "storyExample": "The world is big, but these things are not forever.",
+      "category": "Time"
+     },
+     {
+      "word": "items",
+      "definition": "Things, like boxes, bottles or clothes.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈaɪtəmz/",
+      "chapter": 1,
+      "chapterTitle": "What Is Waste?",
+      "storyExample": "So, we should not waste our food and items.",
+      "category": "Things"
+     },
+     {
+      "word": "billion",
+      "definition": "1,000,000,000.",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "pronunciation": "/ˈbɪljən/",
+      "chapter": 1,
+      "chapterTitle": "What Is Waste?",
+      "storyExample": "In 2023, people in cities made more than 2 billion tons of waste.",
+      "category": "Numbers"
+     },
+     {
+      "word": "tons",
+      "definition": "1 ton is 1,000 kilograms.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/tʌnz/",
+      "chapter": 1,
+      "chapterTitle": "What Is Waste?",
+      "storyExample": "In 2023, people in cities made more than 2 billion tons of waste.",
+      "category": "Numbers"
+     },
+     {
+      "word": "trash",
+      "definition": "Things with no use; we cannot use them again.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/træʃ/",
+      "chapter": 1,
+      "chapterTitle": "What Is Waste?",
+      "storyExample": "There is a lot of waste, but it is not all trash.",
+      "category": "Waste"
+     },
+     {
+      "word": "wood",
+      "definition": "The hard part of a tree.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/wʊd/",
+      "chapter": 2,
+      "chapterTitle": "Paper, Wood and Glass",
+      "storyExample": "Paper and wood come from trees.",
+      "category": "Materials"
+     },
+     {
+      "word": "recycle",
+      "definition": "Make new things from old things.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/ˌriːˈsaɪkl/",
+      "chapter": 2,
+      "chapterTitle": "Paper, Wood and Glass",
+      "storyExample": "We can recycle old paper.",
+      "category": "Actions"
+     },
+     {
+      "word": "used",
+      "definition": "Old; not new.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/juːzd/",
+      "chapter": 2,
+      "chapterTitle": "Paper, Wood and Glass",
+      "storyExample": "We can make new things from used wood, too.",
+      "category": "Describing"
+     },
+     {
+      "word": "home items",
+      "definition": "Things for the home, like tables and chairs.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈhoʊm ˌaɪtəmz/",
+      "chapter": 2,
+      "chapterTitle": "Paper, Wood and Glass",
+      "storyExample": "There, workers make new home items from them.",
+      "category": "Things"
+     },
+     {
+      "word": "bin",
+      "definition": "A box for waste.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/bɪn/",
+      "chapter": 2,
+      "chapterTitle": "Paper, Wood and Glass",
+      "storyExample": "We should put old glass bottles and jars in a recycling bin.",
+      "category": "Waste"
+     },
+     {
+      "word": "jars",
+      "definition": "Glass boxes for food, like honey.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/dʒɑːrz/",
+      "chapter": 2,
+      "chapterTitle": "Paper, Wood and Glass",
+      "storyExample": "We should put old glass bottles and jars in a recycling bin.",
+      "category": "Things"
+     },
+     {
+      "word": "workers",
+      "definition": "People at work.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈwɜːrkərz/",
+      "chapter": 2,
+      "chapterTitle": "Paper, Wood and Glass",
+      "storyExample": "There, workers make new home items from them.",
+      "category": "People"
+     },
+     {
+      "word": "plastic",
+      "definition": "A light, strong material for bags and bottles.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈplæstɪk/",
+      "chapter": 3,
+      "chapterTitle": "Plastic and the Sea",
+      "storyExample": "Plastic is in many things.",
+      "category": "Materials"
+     },
+     {
+      "word": "million",
+      "definition": "1,000,000.",
+      "partOfSpeech": "number",
+      "level": "A1",
+      "pronunciation": "/ˈmɪljən/",
+      "chapter": 3,
+      "chapterTitle": "Plastic and the Sea",
+      "storyExample": "In 2019, there were about 350 million tons of plastic waste in the world.",
+      "category": "Numbers"
+     },
+     {
+      "word": "percent",
+      "definition": "A part of 100; 50 percent is half.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/pərˈsent/",
+      "chapter": 3,
+      "chapterTitle": "Plastic and the Sea",
+      "storyExample": "People recycled only 9 percent of it.",
+      "category": "Numbers"
+     },
+     {
+      "word": "ground",
+      "definition": "The earth under our feet.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɡraʊnd/",
+      "chapter": 3,
+      "chapterTitle": "Plastic and the Sea",
+      "storyExample": "People put half of it under the ground.",
+      "category": "Nature"
+     },
+     {
+      "word": "cartons",
+      "definition": "Paper boxes for milk or juice.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈkɑːrtnz/",
+      "chapter": 4,
+      "chapterTitle": "Cartons, Cans and Oil",
+      "storyExample": "Juice and milk cartons have paper and plastic in them.",
+      "category": "Things"
+     },
+     {
+      "word": "separate",
+      "definition": "Put things in different groups.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/ˈsepəreɪt/",
+      "chapter": 4,
+      "chapterTitle": "Cartons, Cans and Oil",
+      "storyExample": "Workers at the recycling factory separate the paper and the plastic.",
+      "category": "Actions"
+     },
+     {
+      "word": "products",
+      "definition": "Things that people make and sell.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈprɑːdʌkts/",
+      "chapter": 4,
+      "chapterTitle": "Cartons, Cans and Oil",
+      "storyExample": "Then they make new products.",
+      "category": "Things"
+     },
+     {
+      "word": "cans",
+      "definition": "Metal boxes for drinks or food.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/kænz/",
+      "chapter": 4,
+      "chapterTitle": "Cartons, Cans and Oil",
+      "storyExample": "Drink cans are metal.",
+      "category": "Things"
+     },
+     {
+      "word": "metal",
+      "definition": "A hard material, like iron.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈmetl/",
+      "chapter": 4,
+      "chapterTitle": "Cartons, Cans and Oil",
+      "storyExample": "Drink cans are metal.",
+      "category": "Materials"
+     },
+     {
+      "word": "melt",
+      "definition": "Make something very hot until it becomes soft.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/melt/",
+      "chapter": 4,
+      "chapterTitle": "Cartons, Cans and Oil",
+      "storyExample": "Recycling workers melt used metal and make new things from it.",
+      "category": "Actions"
+     },
+     {
+      "word": "oil",
+      "definition": "A liquid from plants for cooking.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ɔɪl/",
+      "chapter": 4,
+      "chapterTitle": "Cartons, Cans and Oil",
+      "storyExample": "Another problem is waste oil.",
+      "category": "Kitchen"
+     },
+     {
+      "word": "sink",
+      "definition": "The place in the kitchen where we wash things.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/sɪŋk/",
+      "chapter": 4,
+      "chapterTitle": "Cartons, Cans and Oil",
+      "storyExample": "We mustn’t put it into the sink.",
+      "category": "Kitchen"
+     },
+     {
+      "word": "goes to waste",
+      "definition": "Is not used; goes into the bin.",
+      "partOfSpeech": "phrase",
+      "level": "A1",
+      "pronunciation": "/ɡoʊz tə ˈweɪst/",
+      "chapter": 5,
+      "chapterTitle": "Food Waste",
+      "storyExample": "A lot of food goes to waste.",
+      "category": "Waste"
+     },
+     {
+      "word": "machines",
+      "definition": "Phones, computers, TVs and other things like them.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/məˈʃiːnz/",
+      "chapter": 6,
+      "chapterTitle": "Old Phones and Batteries",
+      "storyExample": "We have a lot of machines at home and at school.",
+      "category": "Things"
+     },
+     {
+      "word": "break",
+      "definition": "Stop working.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/breɪk/",
+      "chapter": 6,
+      "chapterTitle": "Old Phones and Batteries",
+      "storyExample": "Sometimes they get old or break, so we throw them away.",
+      "category": "Actions"
+     },
+     {
+      "word": "batteries",
+      "definition": "Small things that make phones and clocks work.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈbætəriz/",
+      "chapter": 6,
+      "chapterTitle": "Old Phones and Batteries",
+      "storyExample": "Batteries make games, phones and clocks work.",
+      "category": "Things"
+     },
+     {
+      "word": "dangerous",
+      "definition": "Bad for people and nature.",
+      "partOfSpeech": "adjective",
+      "level": "A1",
+      "pronunciation": "/ˈdeɪndʒərəs/",
+      "chapter": 6,
+      "chapterTitle": "Old Phones and Batteries",
+      "storyExample": "Old batteries are dangerous.",
+      "category": "Describing"
+     },
+     {
+      "word": "Zero Waste",
+      "definition": "A way of life with less waste.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˌzɪroʊ ˈweɪst/",
+      "chapter": 7,
+      "chapterTitle": "Zero Waste and the Three Rs",
+      "storyExample": "What is Zero Waste?",
+      "category": "Ideas"
+     },
+     {
+      "word": "less",
+      "definition": "Not as much.",
+      "partOfSpeech": "determiner",
+      "level": "A1",
+      "pronunciation": "/les/",
+      "chapter": 7,
+      "chapterTitle": "Zero Waste and the Three Rs",
+      "storyExample": "Zero Waste is less waste.",
+      "category": "Ideas"
+     },
+     {
+      "word": "reduce",
+      "definition": "Use less.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/rɪˈduːs/",
+      "chapter": 7,
+      "chapterTitle": "Zero Waste and the Three Rs",
+      "storyExample": "Reduce: Use less.",
+      "category": "Actions"
+     },
+     {
+      "word": "reuse",
+      "definition": "Use again.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/ˌriːˈjuːz/",
+      "chapter": 7,
+      "chapterTitle": "Zero Waste and the Three Rs",
+      "storyExample": "Reuse and Repair: Use products again.",
+      "category": "Actions"
+     },
+     {
+      "word": "repair",
+      "definition": "Make a broken thing good again.",
+      "partOfSpeech": "verb",
+      "level": "A1",
+      "pronunciation": "/rɪˈper/",
+      "chapter": 7,
+      "chapterTitle": "Zero Waste and the Three Rs",
+      "storyExample": "When something is broken, repair it.",
+      "category": "Actions"
+     },
+     {
+      "word": "bottle",
+      "definition": "A glass or plastic thing for water.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈbɑːtl/",
+      "chapter": 8,
+      "chapterTitle": "What Can We Do?",
+      "storyExample": "At school, we can use our own bottles and cups.",
+      "category": "Things"
+     },
+     {
+      "word": "straws",
+      "definition": "Thin plastic tubes for drinks.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/strɔːz/",
+      "chapter": 8,
+      "chapterTitle": "What Can We Do?",
+      "storyExample": "We should also say “no” to plastic straws.",
+      "category": "Things"
+     },
+     {
+      "word": "tool libraries",
+      "definition": "Places where you can take tools and bring them back.",
+      "partOfSpeech": "noun",
+      "level": "A1",
+      "pronunciation": "/ˈtuːl ˌlaɪbreriz/",
+      "chapter": 8,
+      "chapterTitle": "What Can We Do?",
+      "storyExample": "Some cities have tool libraries.",
+      "category": "Places"
+     }
+    ]
+   },
+   {
+    "id": 102,
+    "type": "key-terms",
+    "title": "Key Terms",
+    "content": "6 big ideas from the text. Turn a card to see it in Arabic.",
+    "terms": [
+     {
+      "kind": "Idea",
+      "term": "Zero Waste",
+      "chapter": 7,
+      "definition": "A way of life with less waste.",
+      "termAr": "صِفْرُ نُفَايَاتٍ",
+      "definitionAr": "أُسْلُوبُ حَيَاةٍ بِنُفَايَاتٍ أَقَلَّ."
+     },
+     {
+      "kind": "Action",
+      "term": "recycle",
+      "chapter": 2,
+      "definition": "Make new things from old things.",
+      "termAr": "إِعَادَةُ التَّدْوِيرِ",
+      "definitionAr": "صُنْعُ أَشْيَاءَ جَدِيدَةٍ مِنْ أَشْيَاءَ قَدِيمَةٍ."
+     },
+     {
+      "kind": "Action",
+      "term": "reduce",
+      "chapter": 7,
+      "definition": "Use less. Buy only the things that you need.",
+      "termAr": "التَّقْلِيلُ",
+      "definitionAr": "أَنْ نَسْتَخْدِمَ أَقَلَّ، وَأَلَّا نَشْتَرِيَ إِلَّا مَا نَحْتَاجُ إِلَيْهِ."
+     },
+     {
+      "kind": "Action",
+      "term": "reuse",
+      "chapter": 7,
+      "definition": "Use a thing again.",
+      "termAr": "إِعَادَةُ الِاسْتِخْدَامِ",
+      "definitionAr": "اسْتِخْدَامُ الشَّيْءِ مَرَّةً أُخْرَى."
+     },
+     {
+      "kind": "Place",
+      "term": "recycling bin",
+      "chapter": 2,
+      "definition": "A box for things that we can recycle.",
+      "termAr": "حَاوِيَةُ إِعَادَةِ التَّدْوِيرِ",
+      "definitionAr": "صُنْدُوقٌ لِلْأَشْيَاءِ الَّتِي يُمْكِنُ إِعَادَةُ تَدْوِيرِهَا."
+     },
+     {
+      "kind": "Place",
+      "term": "tool library",
+      "chapter": 8,
+      "definition": "A place where people take tools and bring them back.",
+      "termAr": "مَكْتَبَةُ الْأَدَوَاتِ",
+      "definitionAr": "مَكَانٌ يَأْخُذُ مِنْهُ النَّاسُ الْأَدَوَاتِ ثُمَّ يُعِيدُونَهَا."
+     }
+    ]
+   },
+   {
+    "id": 12,
+    "type": "vocabulary-match",
+    "title": "Vocabulary Challenge",
+    "image": "",
+    "audioUrl": "",
+    "content": "Match six words from the book with their meanings.",
+    "vocabularyPairs": [
+     {
+      "word": "trash",
+      "meaning": "Things with no use; we cannot use them again.",
+      "partOfSpeech": "noun",
+      "chapter": 1,
+      "context": "There is a lot of waste, but it is not all trash."
+     },
+     {
+      "word": "recycle",
+      "meaning": "Make new things from old things.",
+      "partOfSpeech": "verb",
+      "chapter": 2,
+      "context": "We can recycle old paper."
+     },
+     {
+      "word": "ground",
+      "meaning": "The earth under our feet.",
+      "partOfSpeech": "noun",
+      "chapter": 3,
+      "context": "People put half of it under the ground."
+     },
+     {
+      "word": "metal",
+      "meaning": "A hard material, like iron.",
+      "partOfSpeech": "noun",
+      "chapter": 4,
+      "context": "Drink cans are metal."
+     },
+     {
+      "word": "dangerous",
+      "meaning": "Bad for people and nature.",
+      "partOfSpeech": "adjective",
+      "chapter": 6,
+      "context": "Old batteries are dangerous."
+     },
+     {
+      "word": "reduce",
+      "meaning": "Use less.",
+      "partOfSpeech": "verb",
+      "chapter": 7,
+      "context": "Reduce: Use less."
+     }
+    ]
+   },
+   {
+    "id": 14,
+    "type": "exercises",
+    "title": "Language Review",
+    "image": "",
+    "content": "Review the language from all chapters.",
+    "exercises": [
+     {
+      "id": "zeroWaste-a1-language-review-1",
+      "type": "choose-form",
+      "title": "Look: Should, Shouldn’t, Mustn’t",
+      "instructions": "Choose the right word.",
+      "question": "Which word goes in the gap?",
+      "formChoices": [
+       {
+        "sentence": "We [choice] buy only the food that we need.",
+        "options": [
+         "should",
+         "mustn’t"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "We [choice] throw plastic into rivers and the sea.",
+        "options": [
+         "shouldn’t",
+         "should"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "We [choice] put used oil into the sink.",
+        "options": [
+         "mustn’t",
+         "should"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Should = it is good to do it. Shouldn’t = it is not good to do it. Mustn’t = do not do it.",
+      "feedback": {
+       "correct": "Well done.",
+       "incorrect": "Find these sentences in Chapters 3, 4 and 5."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-review-2",
+      "type": "drag-drop",
+      "title": "Practise: Which Bin?",
+      "instructions": "Put each thing in the right group.",
+      "question": "Where does it go?",
+      "dragDropGroups": [
+       {
+        "group": "Recycling bin",
+        "items": [
+         "old glass jars",
+         "old paper",
+         "old phones"
+        ]
+       },
+       {
+        "group": "Battery bin",
+        "items": [
+         "old batteries"
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "Recycling bin": [
+        "old glass jars",
+        "old paper",
+        "old phones"
+       ],
+       "Battery bin": [
+        "old batteries"
+       ]
+      },
+      "explanation": "Chapter 2: glass and paper. Chapter 6: old machines go in a recycling bin, old batteries go in a battery bin.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapters 2 and 6 again."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-review-3",
+      "type": "choose-form",
+      "title": "Practise: Then and Now",
+      "instructions": "Choose the right form.",
+      "question": "Past or now?",
+      "formChoices": [
+       {
+        "sentence": "In 2019, there [choice] about 350 million tons of plastic waste.",
+        "options": [
+         "were",
+         "are"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "People [choice] only 9 percent of it.",
+        "options": [
+         "recycled",
+         "recycle"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Today, plastic [choice] in many things.",
+        "options": [
+         "is",
+         "was"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "In 2019 = the past: were, recycled. Today = now: is.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Read Chapter 3 again."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-review-4",
+      "type": "word-bank",
+      "title": "Practise: The Best, The Biggest",
+      "instructions": "Fill the gaps with the words.",
+      "question": "Which word goes in the gap?",
+      "fillBlanksText": "Where is the [blank] problem? It is at home! The [blank] waste is no waste! The best time to start is [blank]!",
+      "wordBank": [
+       "biggest",
+       "best",
+       "now",
+       "big",
+       "good"
+      ],
+      "correctAnswer": [
+       "biggest",
+       "best",
+       "now"
+      ],
+      "explanation": "Big → the biggest. Good → the best.",
+      "feedback": {
+       "correct": "Correct.",
+       "incorrect": "Find these sentences in Chapters 5 and 8."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-review-5",
+      "type": "error-correction",
+      "title": "Practise: Fix One Word",
+      "instructions": "Find the wrong word. Choose the right word.",
+      "question": "Which word is wrong?",
+      "errorItems": [
+       {
+        "sentence": "People throwed a lot of it into rivers.",
+        "error": "throwed",
+        "options": [
+         "threw",
+         "throw",
+         "throws"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "Every person make some waste every day.",
+        "error": "make",
+        "options": [
+         "makes",
+         "making",
+         "maked"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "Throw changes in the past: threw. Every person = one: makes.",
+      "feedback": {
+       "correct": "Well done.",
+       "incorrect": "Throw → threw. One person + verb + -s."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-language-review-6",
+      "type": "reflection",
+      "title": "Use: Our Zero Waste Class",
+      "instructions": "Write three sentences: a Zero Waste class.",
+      "question": "What can our class do?",
+      "correctAnswer": null,
+      "explanation": "Use should, mustn’t and a “Do this!” sentence.",
+      "feedback": {
+       "correct": "Write three short sentences.",
+       "incorrect": ""
+      },
+      "discussionPrompts": [
+       {
+        "question": "One “should”: “We should …”",
+        "mode": "Individual",
+        "example": "We should use our own bottles."
+       },
+       {
+        "question": "One “mustn’t”: “We mustn’t …”",
+        "mode": "Individual",
+        "example": "We mustn’t throw batteries in the bin."
+       },
+       {
+        "question": "One “Do this!” sentence: “Use … / Buy … / Repair …”",
+        "mode": "Individual",
+        "example": "Repair old books."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": 15,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "image": "",
+    "content": "Bring the whole book together in the Final Challenge.",
+    "exercises": [
+     {
+      "id": "zeroWaste-a1-final-1",
+      "type": "fill-blanks",
+      "title": "Paper and Wood",
+      "instructions": "Write one word.",
+      "question": "Where do paper and wood come from?",
+      "fillBlanksText": "Paper and wood come from [blank].",
+      "correctAnswer": [
+       "trees"
+      ],
+      "explanation": "Chapter 2: “Paper and wood come from trees.”",
+      "feedback": {
+       "correct": "Yes. Trees.",
+       "incorrect": "Read the first sentence of Chapter 2."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-final-2",
+      "type": "multiple-choice",
+      "title": "Old Tables and Chairs",
+      "instructions": "Choose the answer.",
+      "question": "What do workers make from old tables and chairs?",
+      "options": [
+       "new home items",
+       "new bottles",
+       "new phones"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 2: “There, workers make new home items from them.”",
+      "feedback": {
+       "correct": "Yes. New home items.",
+       "incorrect": "Read the second paragraph of Chapter 2."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-final-3",
+      "type": "true-false",
+      "title": "Plastic",
+      "instructions": "Is it true or false?",
+      "question": "People put half of the plastic waste under the ground.",
+      "correctAnswer": true,
+      "explanation": "Chapter 3: “People put half of it under the ground.”",
+      "feedback": {
+       "correct": "Yes, it is true.",
+       "incorrect": "Read the second paragraph of Chapter 3."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-final-4",
+      "type": "matching",
+      "title": "What Is It?",
+      "instructions": "Match the thing with the sentence.",
+      "question": "What is it?",
+      "matchingHeadings": {
+       "left": "Thing",
+       "right": "Sentence"
+      },
+      "matchingPairs": [
+       {
+        "left": "a carton",
+        "right": "It has paper and plastic in it."
+       },
+       {
+        "left": "a drink can",
+        "right": "It is metal."
+       },
+       {
+        "left": "an old battery",
+        "right": "It is dangerous."
+       }
+      ],
+      "correctAnswer": {
+       "a carton": "It has paper and plastic in it.",
+       "a drink can": "It is metal.",
+       "an old battery": "It is dangerous."
+      },
+      "explanation": "Chapter 4: cartons and cans. Chapter 6: old batteries.",
+      "feedback": {
+       "correct": "Good. You matched all three.",
+       "incorrect": "Read Chapters 4 and 6 again."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-final-5",
+      "type": "multiple-choice",
+      "title": "Food",
+      "instructions": "Choose the answer.",
+      "question": "What should we eat first?",
+      "options": [
+       "the bread from yesterday",
+       "new food from the shop",
+       "food from a restaurant"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 5: “For example, we should eat the bread from yesterday first.”",
+      "feedback": {
+       "correct": "Yes. The bread from yesterday.",
+       "incorrect": "Read the last paragraph of Chapter 5."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-final-6",
+      "type": "true-false",
+      "title": "Batteries",
+      "instructions": "Is it true or false?",
+      "question": "We can throw old batteries in the kitchen bin.",
+      "correctAnswer": false,
+      "explanation": "Chapter 6: “We mustn’t throw them in the kitchen bin.”",
+      "feedback": {
+       "correct": "Yes, it is false. They go in a battery bin.",
+       "incorrect": "Read the last paragraph of Chapter 6."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-final-7",
+      "type": "multiple-choice",
+      "title": "Tool Libraries",
+      "instructions": "Choose the answer.",
+      "question": "Why are tool libraries good?",
+      "options": [
+       "People do not need to buy tools.",
+       "People can buy more tools.",
+       "People can throw tools away."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Chapter 8: “People can take tools from there, and they do not need to buy them.”",
+      "feedback": {
+       "correct": "Yes. People do not need to buy tools.",
+       "incorrect": "Read the second paragraph of Chapter 8."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-final-8",
+      "type": "sequencing",
+      "title": "The Life of a Can",
+      "instructions": "Put the steps in order.",
+      "question": "What comes first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "We drink juice from a can."
+       },
+       {
+        "id": "2",
+        "text": "We put the can in a recycling bin."
+       },
+       {
+        "id": "3",
+        "text": "Recycling workers melt the metal."
+       },
+       {
+        "id": "4",
+        "text": "The workers make new things from the metal."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4"
+      ],
+      "explanation": "Chapter 4: “Recycling workers melt used metal and make new things from it.”",
+      "feedback": {
+       "correct": "Great! A can is not trash.",
+       "incorrect": "Read the second paragraph of Chapter 4."
+      }
      }
     ]
    }
