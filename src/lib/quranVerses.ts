@@ -20,6 +20,8 @@ const EXTRA: Record<string, Record<number, [string, string][]>> = {
   'musa-A1': { 6: [['“O Moses,', 'I am Allah.”']], 7: [['“We believe in the Lord', 'Moses and Aaron.”']], 8: [['“No! My Lord is with me', 'show me the way.”']] },
   'ibrahim-A1': { 4: [['“O fire, be cold', 'for Abraham.”']] },
   'nuh-A1': { 7: [['“I will go up a mountain.', 'from the water.”']] },
+  'nuh-A2': { 3: [['“Warn your people', 'punishment comes.”']], 6: [['“Earth, take the water back!', 'stop the rain!”']] },
+  'nuh-B2': { 11: [['“Embark in it.', 'among the drowned.']] },
   'adam-A1': {
     2: [['“I am better than Adam', 'Adam from soil.”'], ['“Get out', 'of here!”']],
     3: [['“Do not go near', 'this tree.”']],
