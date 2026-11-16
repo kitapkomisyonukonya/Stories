@@ -1406,6 +1406,251 @@
     }
    },
    {
+    "id": 101,
+    "type": "map",
+    "title": "Mahmud Kashgari’s World",
+    "subtitle": "Map · Chapters 1–8",
+    "content": "",
+    "map": {
+     "baseMap": "centralAsia",
+     "home": {
+      "west": 26,
+      "east": 92,
+      "south": 28,
+      "north": 52
+     },
+     "overlays": [],
+     "features": {
+      "timeSlider": true,
+      "tour": true,
+      "challenge": true,
+      "classroom": true
+     },
+     "time": {
+      "start": 1,
+      "lastYear": 6,
+      "birth": 1,
+      "mode": "stages"
+     },
+     "legend": {},
+     "routes": [],
+     "places": [
+      {
+       "id": "barsgan",
+       "entityId": "kasgarli-a1-barsgan",
+       "lon": 77.6,
+       "lat": 42.15,
+       "icon": "tent",
+       "tone": "place",
+       "labelSide": "right",
+       "name": "Barsgan",
+       "kind": "Town",
+       "text": "Mahmud was born in 1008 in Barsgan. Today, Barsgan is in Kyrgyzstan.",
+       "teacherNote": "Chapter 2.",
+       "question": "Where was Mahmud born?"
+      },
+      {
+       "id": "kashgar",
+       "entityId": "kasgarli-a1-kashgar",
+       "lon": 75.99,
+       "lat": 39.47,
+       "icon": "city",
+       "tone": "place",
+       "labelSide": "bottom",
+       "name": "Kashgar",
+       "kind": "City",
+       "text": "Mahmud lived in Kashgar for many years and died there in 1105. Kashgar is a very old city in East Turkestan.",
+       "teacherNote": "Chapter 2. “Kashgari” means “the man from Kashgar”.",
+       "question": "Why do people call him Kashgari?"
+      },
+      {
+       "id": "balasagun",
+       "entityId": "kasgarli-a1-balasagun",
+       "lon": 75.25,
+       "lat": 42.75,
+       "icon": "palace",
+       "tone": "place",
+       "labelSide": "left",
+       "name": "Balasagun",
+       "kind": "City",
+       "text": "Balasagun, a city of the Turks, is in the middle of Mahmud’s map.",
+       "teacherNote": "Chapter 8.",
+       "question": "What is in the middle of the map?"
+      },
+      {
+       "id": "ili",
+       "entityId": "kasgarli-a1-ili-valley",
+       "lon": 81.3,
+       "lat": 43.9,
+       "icon": "waves",
+       "tone": "place",
+       "areaRadiusKm": 120,
+       "labelSide": "top",
+       "name": "The Ili Valley",
+       "kind": "Valley",
+       "text": "People pushed many wild animals to a big river in the Ili Valley. Only twelve animals got to the other side.",
+       "teacherNote": "Chapter 6. This is the story of the twelve-animal calendar.",
+       "question": "How many animals got to the other side?"
+      },
+      {
+       "id": "baghdad",
+       "entityId": "kasgarli-a1-baghdad",
+       "lon": 44.36,
+       "lat": 33.31,
+       "icon": "palace",
+       "tone": "place",
+       "labelSide": "bottom",
+       "name": "Baghdad",
+       "kind": "City",
+       "text": "Mahmud went to Baghdad and wrote his big book there. In 1077, he gave it to the Caliph.",
+       "teacherNote": "Chapters 1 and 3.",
+       "question": "Who did Mahmud give his book to?"
+      },
+      {
+       "id": "istanbul",
+       "entityId": "kasgarli-a1-millet-library",
+       "lon": 28.98,
+       "lat": 41.01,
+       "icon": "quill",
+       "tone": "place",
+       "labelSide": "left",
+       "name": "Istanbul",
+       "kind": "City",
+       "text": "Mahmud’s old book is in Istanbul today, in the Millet Library.",
+       "teacherNote": "Chapter 1.",
+       "question": "Where is the book today?"
+      }
+     ],
+     "towns": [],
+     "seas": [
+      {
+       "id": "caspian",
+       "lon": 51,
+       "lat": 41.5,
+       "name": "Caspian Sea"
+      },
+      {
+       "id": "blackSea",
+       "lon": 34.5,
+       "lat": 43.2,
+       "name": "Black Sea"
+      },
+      {
+       "id": "aral",
+       "lon": 60,
+       "lat": 45.2,
+       "name": "Aral Sea"
+      }
+     ],
+     "timeline": [
+      {
+       "year": 1,
+       "chapter": 2,
+       "placeId": "barsgan",
+       "camera": {
+        "lon": 77,
+        "lat": 42,
+        "zoom": 2.4
+       },
+       "scene": {
+        "kind": "dawn",
+        "placeId": "barsgan"
+       },
+       "label": "Born in Barsgan"
+      },
+      {
+       "year": 2,
+       "chapter": 2,
+       "placeId": "kashgar",
+       "camera": {
+        "lon": 76,
+        "lat": 39.6,
+        "zoom": 2.4
+       },
+       "label": "Kashgar"
+      },
+      {
+       "year": 3,
+       "chapter": 3,
+       "placeId": "baghdad",
+       "camera": {
+        "lon": 45,
+        "lat": 33.5,
+        "zoom": 2.2
+       },
+       "label": "The book in Baghdad"
+      },
+      {
+       "year": 4,
+       "chapter": 6,
+       "placeId": "ili",
+       "camera": {
+        "lon": 80,
+        "lat": 43.5,
+        "zoom": 2.4
+       },
+       "label": "The animal calendar"
+      },
+      {
+       "year": 5,
+       "chapter": 8,
+       "placeId": "balasagun",
+       "camera": {
+        "lon": 70,
+        "lat": 40,
+        "zoom": 1.3
+       },
+       "scene": {
+        "kind": "radiate",
+        "placeId": "balasagun"
+       },
+       "label": "The world map"
+      },
+      {
+       "year": 6,
+       "chapter": 1,
+       "placeId": "istanbul",
+       "camera": {
+        "lon": 30,
+        "lat": 41,
+        "zoom": 2.2
+       },
+       "label": "The book today"
+      }
+     ],
+     "challenge": [
+      {
+       "id": "barsgan",
+       "lon": 77.6,
+       "lat": 42.15,
+       "radiusKm": 120,
+       "prompt": "Find Barsgan. Mahmud was born here."
+      },
+      {
+       "id": "kashgar",
+       "lon": 75.99,
+       "lat": 39.47,
+       "radiusKm": 120,
+       "prompt": "Find Kashgar."
+      },
+      {
+       "id": "baghdad",
+       "lon": 44.36,
+       "lat": 33.31,
+       "radiusKm": 150,
+       "prompt": "Find Baghdad. Mahmud wrote his book here."
+      },
+      {
+       "id": "istanbul",
+       "lon": 28.98,
+       "lat": 41.01,
+       "radiusKm": 150,
+       "prompt": "Find Istanbul. The book is here today."
+      }
+     ]
+    }
+   },
+   {
     "id": 11,
     "type": "quiz",
     "title": "Knowledge Check",

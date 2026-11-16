@@ -2169,6 +2169,258 @@
         }
       },
       {
+        "id": 101,
+        "type": "map",
+        "title": "The Flood and Mount Judi",
+        "subtitle": "Map · Chapters 1–11",
+        "content": "",
+        "map": {
+          "baseMap": "nearEast",
+          "home": {
+            "west": 33,
+            "east": 51,
+            "south": 19.5,
+            "north": 39.5
+          },
+          "overlays": [],
+          "features": {
+            "timeSlider": true,
+            "tour": true,
+            "challenge": true,
+            "classroom": true
+          },
+          "time": {
+            "start": 1,
+            "lastYear": 6,
+            "birth": 1,
+            "mode": "stages"
+          },
+          "legend": {},
+          "routes": [],
+          "places": [
+            {
+              "id": "judi",
+              "entityId": "nuh-mount-judi",
+              "lon": 42.35,
+              "lat": 37.37,
+              "icon": "mountain",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Mount Judi",
+              "kind": "Mountain",
+              "text": "After the flood, Prophet Noah’s ark safely landed on Mount Judi.",
+              "teacherNote": "Chapter 8. Noah and his followers left the Ark on the day of Ashura.",
+              "question": "On which day did they leave the Ark?"
+            },
+            {
+              "id": "sumer",
+              "entityId": "nuh-sumer",
+              "lon": 46,
+              "lat": 31.3,
+              "icon": "city",
+              "tone": "place",
+              "areaRadiusKm": 170,
+              "labelSide": "right",
+              "name": "Sumer",
+              "kind": "Ancient land",
+              "text": "The oldest flood stories come from ancient tablets written in Sumer and Babylon.",
+              "teacherNote": "Chapter 2.",
+              "question": "Where do the oldest flood stories come from?"
+            },
+            {
+              "id": "babylon",
+              "entityId": "nuh-babylon",
+              "lon": 44.42,
+              "lat": 32.54,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "bottom",
+              "name": "Babylon",
+              "kind": "Ancient city",
+              "text": "The most complete flood story from the Babylonians is in the Epic of Gilgamesh.",
+              "teacherNote": "Chapter 2. The Qur’an tells the story of Noah differently.",
+              "question": "How is the Qur’an’s story different?"
+            },
+            {
+              "id": "uruk",
+              "entityId": "nuh-uruk",
+              "lon": 45.64,
+              "lat": 31.32,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "bottom",
+              "name": "Uruk",
+              "kind": "Ancient city",
+              "text": "In the Epic of Gilgamesh, Gilgamesh, King of Uruk, goes on a journey to find Uta-napishtim.",
+              "teacherNote": "Chapter 2.",
+              "question": "Why does Gilgamesh go on a journey?"
+            },
+            {
+              "id": "mecca",
+              "entityId": "nuh-mecca",
+              "lon": 39.83,
+              "lat": 21.42,
+              "icon": "kaaba",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Mecca",
+              "kind": "City",
+              "text": "Even before Islam, people in Mecca fasted on Ashura. Prophet Muhammad (pbuh) also fasted on Ashura in Mecca.",
+              "teacherNote": "Chapters 9 and 10. It was a tradition from Prophet Abraham (pbuh).",
+              "question": "Why did people in Mecca fast on Ashura?"
+            },
+            {
+              "id": "medina",
+              "entityId": "nuh-medina",
+              "lon": 39.61,
+              "lat": 24.47,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Medina",
+              "kind": "City",
+              "text": "Prophet Muhammad (pbuh) continued the Ashura fast after moving to Medina.",
+              "teacherNote": "Chapter 10. Later, fasting in Ramadan became required, and Ashura fasting became optional.",
+              "question": "When did Ashura fasting become optional?"
+            }
+          ],
+          "towns": [],
+          "seas": [
+            {
+              "id": "redSea",
+              "lon": 38,
+              "lat": 21,
+              "name": "Red Sea"
+            },
+            {
+              "id": "gulf",
+              "lon": 50.5,
+              "lat": 27.3,
+              "name": "Persian Gulf"
+            },
+            {
+              "id": "mediterranean",
+              "lon": 31,
+              "lat": 33.5,
+              "name": "Mediterranean Sea"
+            }
+          ],
+          "timeline": [
+            {
+              "year": 1,
+              "chapter": 2,
+              "placeId": "sumer",
+              "camera": {
+                "lon": 45.6,
+                "lat": 31.5,
+                "zoom": 2
+              },
+              "label": "Sumer"
+            },
+            {
+              "year": 2,
+              "chapter": 2,
+              "placeId": "babylon",
+              "camera": {
+                "lon": 44.6,
+                "lat": 32.5,
+                "zoom": 2.2
+              },
+              "label": "Babylon"
+            },
+            {
+              "year": 3,
+              "chapter": 2,
+              "placeId": "uruk",
+              "camera": {
+                "lon": 45.6,
+                "lat": 31.3,
+                "zoom": 2.4
+              },
+              "label": "Uruk"
+            },
+            {
+              "year": 4,
+              "chapter": 8,
+              "placeId": "judi",
+              "camera": {
+                "lon": 42.35,
+                "lat": 37.3,
+                "zoom": 2.2
+              },
+              "scene": {
+                "kind": "dawn",
+                "placeId": "judi"
+              },
+              "label": "Mount Judi"
+            },
+            {
+              "year": 5,
+              "chapter": 9,
+              "placeId": "mecca",
+              "camera": {
+                "lon": 39.8,
+                "lat": 22,
+                "zoom": 2
+              },
+              "label": "Ashura in Mecca"
+            },
+            {
+              "year": 6,
+              "chapter": 10,
+              "placeId": "medina",
+              "camera": {
+                "lon": 39.6,
+                "lat": 24.3,
+                "zoom": 2
+              },
+              "scene": {
+                "kind": "radiate",
+                "placeId": "medina"
+              },
+              "label": "Medina"
+            }
+          ],
+          "challenge": [
+            {
+              "id": "judi",
+              "lon": 42.35,
+              "lat": 37.37,
+              "radiusKm": 130,
+              "prompt": "Find Mount Judi, where the ark landed."
+            },
+            {
+              "id": "sumer",
+              "lon": 46,
+              "lat": 31.3,
+              "radiusKm": 200,
+              "prompt": "Find Sumer. The oldest flood stories were written here."
+            },
+            {
+              "id": "uruk",
+              "lon": 45.64,
+              "lat": 31.32,
+              "radiusKm": 110,
+              "prompt": "Find Uruk, the city of Gilgamesh."
+            },
+            {
+              "id": "mecca",
+              "lon": 39.83,
+              "lat": 21.42,
+              "radiusKm": 130,
+              "prompt": "Find Mecca."
+            },
+            {
+              "id": "medina",
+              "lon": 39.61,
+              "lat": 24.47,
+              "radiusKm": 130,
+              "prompt": "Find Medina."
+            }
+          ]
+        }
+      },
+      {
         "id": 12,
         "type": "quiz",
         "title": "Knowledge Check",

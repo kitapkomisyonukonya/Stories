@@ -2765,6 +2765,289 @@
         }
       },
       {
+        "id": 101,
+        "type": "map",
+        "title": "Al-Andalus, 711–1492",
+        "subtitle": "Map · Chapters 1–13",
+        "content": "",
+        "map": {
+          "baseMap": "mediterranean",
+          "home": {
+            "west": -10.5,
+            "east": 12,
+            "south": 33.5,
+            "north": 44.5
+          },
+          "overlays": [],
+          "features": {
+            "timeSlider": true,
+            "tour": true,
+            "challenge": true,
+            "classroom": true
+          },
+          "time": {
+            "start": 1,
+            "lastYear": 7,
+            "birth": 1,
+            "mode": "stages"
+          },
+          "legend": {},
+          "routes": [],
+          "places": [
+            {
+              "id": "toledo",
+              "entityId": "andalus-b-toledo",
+              "lon": -4.02,
+              "lat": 39.86,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Toledo",
+              "kind": "City",
+              "text": "In 711, Tariq ibn Ziyad captured Toledo, the capital city of the Visigoths.",
+              "teacherNote": "Chapters 2 and 6. Later, the rulers of Toledo made an alliance with Castile.",
+              "question": "Why did Toledo make an alliance with Castile?"
+            },
+            {
+              "id": "ifriqiya",
+              "entityId": "andalus-b-ifriqiya",
+              "lon": 10.1,
+              "lat": 35.68,
+              "icon": "palm",
+              "tone": "place",
+              "areaRadiusKm": 260,
+              "labelSide": "bottom",
+              "name": "Ifriqiya",
+              "kind": "Land",
+              "text": "Musa ibn Nusayr was the Umayyad governor of Ifriqiya. In 712, he joined Tariq ibn Ziyad.",
+              "teacherNote": "Chapter 2. Ifriqiya is now Tunisia, eastern Algeria and western Libya.",
+              "question": "When did Musa join Tariq?"
+            },
+            {
+              "id": "cordoba",
+              "entityId": "andalus-b-cordoba",
+              "lon": -4.78,
+              "lat": 37.88,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "top",
+              "name": "Córdoba",
+              "kind": "City",
+              "text": "Córdoba, the capital, was the biggest city in Western Europe. It amazed the world with its Great Mosque, baths and busy markets.",
+              "teacherNote": "Chapters 3, 10 and 13. Christian kingdoms captured Córdoba by 1236.",
+              "question": "How many people lived in Córdoba?"
+            },
+            {
+              "id": "seville",
+              "entityId": "andalus-b-seville",
+              "lon": -5.98,
+              "lat": 37.39,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Seville",
+              "kind": "City",
+              "text": "Seville had 500 bathhouses and 1,000 mosques. In 1248, a Christian king captured Seville.",
+              "teacherNote": "Chapters 3, 7 and 13. The Alcazar of Seville is a royal palace here.",
+              "question": "What amazed the Christian soldiers in Seville?"
+            },
+            {
+              "id": "granada",
+              "entityId": "andalus-b-granada",
+              "lon": -3.6,
+              "lat": 37.18,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "bottom",
+              "name": "Granada",
+              "kind": "City",
+              "text": "The Sultanate of Granada (1231–1492) was the last Muslim kingdom. In 1492, it fell, and Islamic rule in the area ended.",
+              "teacherNote": "Chapters 6–9. The Alhambra Palace is in Granada.",
+              "question": "What happened in 1492?"
+            },
+            {
+              "id": "valencia",
+              "entityId": "andalus-b-valencia",
+              "lon": -0.38,
+              "lat": 39.47,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Valencia",
+              "kind": "City",
+              "text": "When the famous traveler Ibn Jubayr was born in Valencia in 1145, Muslim Spain was enjoying a cultural golden age.",
+              "teacherNote": "Chapter 3."
+            },
+            {
+              "id": "constantinople",
+              "entityId": "andalus-b-constantinople",
+              "lon": 28.98,
+              "lat": 41.01,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "top",
+              "name": "Constantinople (Istanbul)",
+              "kind": "City",
+              "text": "The conquest of Constantinople in 1453 brought great joy to the Sultanate of Granada. Later, many Andalusians found a safe new home in Istanbul.",
+              "teacherNote": "Chapter 9. Bayezid II sent a fleet under Kemal Reis.",
+              "question": "Who did Bayezid II send to help?"
+            }
+          ],
+          "towns": [],
+          "seas": [
+            {
+              "id": "mediterranean",
+              "lon": 5,
+              "lat": 38,
+              "name": "Mediterranean Sea"
+            },
+            {
+              "id": "atlantic",
+              "lon": -10.5,
+              "lat": 38.5,
+              "name": "Atlantic Ocean"
+            }
+          ],
+          "timeline": [
+            {
+              "year": 1,
+              "chapter": 2,
+              "placeId": "toledo",
+              "camera": {
+                "lon": -3.5,
+                "lat": 38.5,
+                "zoom": 2.4
+              },
+              "scene": {
+                "kind": "dawn",
+                "placeId": "toledo"
+              },
+              "label": "Toledo, 711"
+            },
+            {
+              "year": 2,
+              "chapter": 2,
+              "placeId": "ifriqiya",
+              "camera": {
+                "lon": 2,
+                "lat": 36.5,
+                "zoom": 1.4
+              },
+              "label": "Musa joins, 712"
+            },
+            {
+              "year": 3,
+              "chapter": 5,
+              "placeId": "cordoba",
+              "camera": {
+                "lon": -4.6,
+                "lat": 37.9,
+                "zoom": 2.6
+              },
+              "scene": {
+                "kind": "radiate",
+                "placeId": "cordoba",
+                "reach": [
+                  "seville",
+                  "toledo",
+                  "granada",
+                  "valencia"
+                ]
+              },
+              "label": "Córdoba, the capital"
+            },
+            {
+              "year": 4,
+              "chapter": 3,
+              "placeId": "valencia",
+              "camera": {
+                "lon": -0.8,
+                "lat": 39.3,
+                "zoom": 2.6
+              },
+              "label": "Ibn Jubayr, 1145"
+            },
+            {
+              "year": 5,
+              "chapter": 7,
+              "placeId": "seville",
+              "camera": {
+                "lon": -5.6,
+                "lat": 37.4,
+                "zoom": 2.8
+              },
+              "label": "Seville, 1248"
+            },
+            {
+              "year": 6,
+              "chapter": 7,
+              "placeId": "granada",
+              "camera": {
+                "lon": -3.6,
+                "lat": 37.3,
+                "zoom": 2.8
+              },
+              "label": "Granada, 1492"
+            },
+            {
+              "year": 7,
+              "chapter": 9,
+              "placeId": "constantinople",
+              "camera": {
+                "lon": 14,
+                "lat": 38.5,
+                "zoom": 1.1
+              },
+              "scene": {
+                "kind": "journey",
+                "fromId": "constantinople",
+                "toIds": [
+                  "granada"
+                ]
+              },
+              "label": "Help from Istanbul"
+            }
+          ],
+          "challenge": [
+            {
+              "id": "toledo",
+              "lon": -4.02,
+              "lat": 39.86,
+              "radiusKm": 90,
+              "prompt": "Find Toledo, the capital of the Visigoths."
+            },
+            {
+              "id": "cordoba",
+              "lon": -4.78,
+              "lat": 37.88,
+              "radiusKm": 90,
+              "prompt": "Find Córdoba, the capital of Al-Andalus."
+            },
+            {
+              "id": "seville",
+              "lon": -5.98,
+              "lat": 37.39,
+              "radiusKm": 90,
+              "prompt": "Find Seville."
+            },
+            {
+              "id": "granada",
+              "lon": -3.6,
+              "lat": 37.18,
+              "radiusKm": 90,
+              "prompt": "Find Granada, the last Muslim kingdom."
+            },
+            {
+              "id": "constantinople",
+              "lon": 28.98,
+              "lat": 41.01,
+              "radiusKm": 140,
+              "prompt": "Find Constantinople."
+            }
+          ]
+        }
+      },
+      {
         "id": 14,
         "type": "quiz",
         "title": "Knowledge Check",

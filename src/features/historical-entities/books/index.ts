@@ -5,6 +5,11 @@ import { MOSES_SET } from './moses';
 import { YUNUS_EMRE_SET } from './yunus';
 import { MECCA_SET } from './mecca';
 import { GEVHER_NESIBE_SET } from './gevherNesibe';
+import { AHILIK_SET } from './ahilik';
+import { NUH_SET } from './nuh';
+import { KASGARLI_SET } from './kasgarli';
+import { YESEVI_SET } from './yesevi';
+import { IBN_JUBAYR_B_SET } from './ibnJubayrB';
 
 // The words of the cards are edited in src/content/entityCards.json (the panel's Places & People
 // page); the words written here are only the first version, copied there by
@@ -23,4 +28,9 @@ export const BOOK_SETS: EntityBookSet[] = [
   MOSES_SET,
   YUNUS_EMRE_SET,
   GEVHER_NESIBE_SET,
+  AHILIK_SET,
+  NUH_SET,
+  KASGARLI_SET,
+  YESEVI_SET,
+  IBN_JUBAYR_B_SET,
 ];

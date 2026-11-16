@@ -2596,6 +2596,281 @@
         }
       },
       {
+        "id": 101,
+        "type": "map",
+        "title": "The Flood and Mount Judi",
+        "subtitle": "Map · Chapters 1–13",
+        "content": "",
+        "map": {
+          "baseMap": "nearEast",
+          "home": {
+            "west": 27,
+            "east": 51,
+            "south": 19.5,
+            "north": 39.5
+          },
+          "overlays": [],
+          "features": {
+            "timeSlider": true,
+            "tour": true,
+            "challenge": true,
+            "classroom": true
+          },
+          "time": {
+            "start": 1,
+            "lastYear": 7,
+            "birth": 1,
+            "mode": "stages"
+          },
+          "legend": {},
+          "routes": [],
+          "places": [
+            {
+              "id": "judi",
+              "entityId": "nuh-mount-judi",
+              "lon": 42.35,
+              "lat": 37.37,
+              "icon": "mountain",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Mount Judi",
+              "kind": "Mountain",
+              "text": "“And the waters receded … and the ark settled on Judi.”",
+              "teacherNote": "Chapter 11. They left the ark on the tenth day of Muharram (Ashura).",
+              "question": "What does the verse say about the waters?"
+            },
+            {
+              "id": "sumer",
+              "entityId": "nuh-sumer",
+              "lon": 46,
+              "lat": 31.3,
+              "icon": "city",
+              "tone": "place",
+              "areaRadiusKm": 170,
+              "labelSide": "right",
+              "name": "Sumer",
+              "kind": "Ancient land",
+              "text": "The earliest written records of the flood date back to the Sumerians. In the Sumerian version, King Ziusudra built an ark.",
+              "teacherNote": "Chapter 2. Research suggests that floods hit Sumer and Akkad.",
+              "question": "Who survived the flood in the Sumerian version?"
+            },
+            {
+              "id": "akkad",
+              "entityId": "nuh-akkad",
+              "lon": 44,
+              "lat": 33.3,
+              "icon": "city",
+              "tone": "place",
+              "areaRadiusKm": 120,
+              "labelSide": "left",
+              "name": "Akkad",
+              "kind": "Ancient land",
+              "text": "In Sumer and Akkad, the flood is remembered as one of the greatest catastrophes in human history.",
+              "teacherNote": "Chapter 2."
+            },
+            {
+              "id": "babylon",
+              "entityId": "nuh-babylon",
+              "lon": 44.42,
+              "lat": 32.54,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "bottom",
+              "name": "Babylon",
+              "kind": "Ancient city",
+              "text": "A fragment in Old Babylonian also describes the flood. The most complete Babylonian account is in the Epic of Gilgamesh.",
+              "teacherNote": "Chapter 2."
+            },
+            {
+              "id": "uruk",
+              "entityId": "nuh-uruk",
+              "lon": 45.64,
+              "lat": 31.32,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "bottom",
+              "name": "Uruk",
+              "kind": "Ancient city",
+              "text": "In the epic, Gilgamesh, King of Uruk, seeks Uta-napishtim to learn the secret of immortality.",
+              "teacherNote": "Chapter 2.",
+              "question": "What does Gilgamesh hope to learn?"
+            },
+            {
+              "id": "egypt",
+              "entityId": "nuh-egypt",
+              "lon": 31.2,
+              "lat": 29.5,
+              "icon": "palm",
+              "tone": "place",
+              "areaRadiusKm": 220,
+              "labelSide": "left",
+              "name": "Egypt",
+              "kind": "Land",
+              "text": "The word ‘Tûfan’ appears in two places in the Qur’an: once for Pharaoh and the people of Egypt, and once for Noah’s people.",
+              "teacherNote": "Chapter 3 (Surah Al-A‘râf, 133; Surah Al-Ankabut, 14)."
+            },
+            {
+              "id": "medina",
+              "entityId": "nuh-medina",
+              "lon": 39.61,
+              "lat": 24.47,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Medina",
+              "kind": "City",
+              "text": "When Prophet Muhammad (pbuh) migrated to Medina, he continued the Ashura fast.",
+              "teacherNote": "Chapter 12. After the fast of Ramadan was made obligatory, Ashura fasting became a free choice."
+            }
+          ],
+          "towns": [],
+          "seas": [
+            {
+              "id": "redSea",
+              "lon": 38,
+              "lat": 21,
+              "name": "Red Sea"
+            },
+            {
+              "id": "gulf",
+              "lon": 50.5,
+              "lat": 27.3,
+              "name": "Persian Gulf"
+            },
+            {
+              "id": "mediterranean",
+              "lon": 31,
+              "lat": 33.5,
+              "name": "Mediterranean Sea"
+            }
+          ],
+          "timeline": [
+            {
+              "year": 1,
+              "chapter": 2,
+              "placeId": "sumer",
+              "camera": {
+                "lon": 45.6,
+                "lat": 31.5,
+                "zoom": 2
+              },
+              "label": "Sumer"
+            },
+            {
+              "year": 2,
+              "chapter": 2,
+              "placeId": "akkad",
+              "camera": {
+                "lon": 44.2,
+                "lat": 33,
+                "zoom": 2.2
+              },
+              "label": "Akkad"
+            },
+            {
+              "year": 3,
+              "chapter": 2,
+              "placeId": "babylon",
+              "camera": {
+                "lon": 44.6,
+                "lat": 32.5,
+                "zoom": 2.2
+              },
+              "label": "Babylon"
+            },
+            {
+              "year": 4,
+              "chapter": 2,
+              "placeId": "uruk",
+              "camera": {
+                "lon": 45.6,
+                "lat": 31.3,
+                "zoom": 2.4
+              },
+              "label": "Uruk"
+            },
+            {
+              "year": 5,
+              "chapter": 3,
+              "placeId": "egypt",
+              "camera": {
+                "lon": 31.5,
+                "lat": 28.5,
+                "zoom": 1.6
+              },
+              "label": "Egypt"
+            },
+            {
+              "year": 6,
+              "chapter": 11,
+              "placeId": "judi",
+              "camera": {
+                "lon": 42.35,
+                "lat": 37.3,
+                "zoom": 2.2
+              },
+              "scene": {
+                "kind": "dawn",
+                "placeId": "judi"
+              },
+              "label": "Mount Judi"
+            },
+            {
+              "year": 7,
+              "chapter": 12,
+              "placeId": "medina",
+              "camera": {
+                "lon": 39.6,
+                "lat": 24.3,
+                "zoom": 2
+              },
+              "scene": {
+                "kind": "radiate",
+                "placeId": "medina"
+              },
+              "label": "Medina"
+            }
+          ],
+          "challenge": [
+            {
+              "id": "judi",
+              "lon": 42.35,
+              "lat": 37.37,
+              "radiusKm": 130,
+              "prompt": "Find Mount Judi, where the ark settled."
+            },
+            {
+              "id": "sumer",
+              "lon": 46,
+              "lat": 31.3,
+              "radiusKm": 200,
+              "prompt": "Find Sumer, home of the earliest written flood records."
+            },
+            {
+              "id": "babylon",
+              "lon": 44.42,
+              "lat": 32.54,
+              "radiusKm": 110,
+              "prompt": "Find Babylon."
+            },
+            {
+              "id": "uruk",
+              "lon": 45.64,
+              "lat": 31.32,
+              "radiusKm": 110,
+              "prompt": "Find Uruk, the city of Gilgamesh."
+            },
+            {
+              "id": "medina",
+              "lon": 39.61,
+              "lat": 24.47,
+              "radiusKm": 130,
+              "prompt": "Find Medina."
+            }
+          ]
+        }
+      },
+      {
         "id": 14,
         "type": "quiz",
         "title": "Knowledge Check",

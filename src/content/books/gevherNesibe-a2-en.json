@@ -1778,6 +1778,198 @@
         }
       },
       {
+        "id": 101,
+        "type": "map",
+        "title": "The Hospital in Kayseri",
+        "subtitle": "Map · Chapters 1–11",
+        "content": "",
+        "map": {
+          "baseMap": "anatolia",
+          "home": {
+            "west": 26,
+            "east": 41.5,
+            "south": 35.5,
+            "north": 42.5
+          },
+          "overlays": [],
+          "features": {
+            "timeSlider": true,
+            "tour": true,
+            "challenge": true,
+            "classroom": true
+          },
+          "time": {
+            "start": 1,
+            "lastYear": 4,
+            "birth": 1,
+            "mode": "stages"
+          },
+          "legend": {},
+          "routes": [],
+          "places": [
+            {
+              "id": "anatolia",
+              "entityId": "gevher-anatolia",
+              "lon": 33.5,
+              "lat": 39.2,
+              "icon": "mountain",
+              "tone": "place",
+              "areaRadiusKm": 430,
+              "labelSide": "bottom",
+              "name": "Anatolia",
+              "kind": "Land",
+              "text": "In the 13th century, medical education in Anatolia had two parts: classroom education and practical training.",
+              "teacherNote": "Chapter 1.",
+              "question": "What were the two parts of medical education?"
+            },
+            {
+              "id": "kayseri",
+              "entityId": "gevher-complex",
+              "lon": 35.49,
+              "lat": 38.72,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Kayseri",
+              "kind": "City",
+              "text": "The Gevher Nesibe Hospital and Medical School is in Kayseri. People accepted Kayseri as the second capital.",
+              "teacherNote": "Chapters 1, 2 and 4. Today, the building is the Museum of the Seljuk Civilization.",
+              "question": "Who built the medical center, and for whom?"
+            },
+            {
+              "id": "konya",
+              "entityId": "gevher-konya",
+              "lon": 32.49,
+              "lat": 37.87,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Konya",
+              "kind": "City",
+              "text": "When the hospital opened, Konya was the capital city of the Anatolian Seljuk State.",
+              "teacherNote": "Chapter 1.",
+              "question": "Which city was the capital?"
+            },
+            {
+              "id": "sivas",
+              "entityId": "gevher-keykavus-hospital",
+              "lon": 37.02,
+              "lat": 39.75,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Sivas",
+              "kind": "City",
+              "text": "The Keykâvus Hospital is in Sivas. Its team was very similar to the team in Kayseri.",
+              "teacherNote": "Chapter 5.",
+              "question": "Who worked in the team of the hospital?"
+            },
+            {
+              "id": "istanbul",
+              "entityId": "gevher-imperial-medical-school",
+              "lon": 28.98,
+              "lat": 41.01,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "top",
+              "name": "Imperial Medical School",
+              "kind": "Ottoman school",
+              "text": "The Ottoman Sultan Mahmud II built the Imperial Medical School. It opened more than 600 years after the medical school in Kayseri.",
+              "teacherNote": "Chapter 1. The school was in Istanbul.",
+              "question": "How many years later did it open?"
+            }
+          ],
+          "towns": [],
+          "seas": [
+            {
+              "id": "blackSea",
+              "lon": 34.5,
+              "lat": 42.6,
+              "name": "Black Sea"
+            },
+            {
+              "id": "mediterranean",
+              "lon": 31.5,
+              "lat": 35.3,
+              "name": "Mediterranean Sea"
+            }
+          ],
+          "timeline": [
+            {
+              "year": 1,
+              "chapter": 1,
+              "placeId": "konya",
+              "camera": {
+                "lon": 33.2,
+                "lat": 38.2,
+                "zoom": 2
+              },
+              "label": "The capital"
+            },
+            {
+              "year": 2,
+              "chapter": 4,
+              "placeId": "kayseri",
+              "camera": {
+                "lon": 35.3,
+                "lat": 38.8,
+                "zoom": 2.2
+              },
+              "scene": {
+                "kind": "dawn",
+                "placeId": "kayseri"
+              },
+              "label": "The hospital in Kayseri"
+            },
+            {
+              "year": 3,
+              "chapter": 5,
+              "placeId": "sivas",
+              "camera": {
+                "lon": 36.3,
+                "lat": 39.2,
+                "zoom": 2
+              },
+              "label": "A similar team"
+            },
+            {
+              "year": 4,
+              "chapter": 1,
+              "placeId": "istanbul",
+              "camera": {
+                "lon": 30.5,
+                "lat": 40.3,
+                "zoom": 1.8
+              },
+              "label": "600 years later"
+            }
+          ],
+          "challenge": [
+            {
+              "id": "kayseri",
+              "lon": 35.49,
+              "lat": 38.72,
+              "radiusKm": 90,
+              "prompt": "Find Kayseri. The hospital and school are here."
+            },
+            {
+              "id": "konya",
+              "lon": 32.49,
+              "lat": 37.87,
+              "radiusKm": 90,
+              "prompt": "Find Konya. It was the capital city."
+            },
+            {
+              "id": "sivas",
+              "lon": 37.02,
+              "lat": 39.75,
+              "radiusKm": 90,
+              "prompt": "Find Sivas. The Keykâvus Hospital is here."
+            }
+          ]
+        }
+      },
+      {
         "id": 12,
         "type": "quiz",
         "title": "Knowledge Check",

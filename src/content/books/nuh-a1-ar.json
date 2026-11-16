@@ -1437,6 +1437,111 @@
     }
    },
    {
+    "id": 101,
+    "type": "map",
+    "title": "The Flood and Mount Judi",
+    "subtitle": "Map · Chapters 1–8",
+    "content": "",
+    "map": {
+     "baseMap": "nearEast",
+     "home": {
+      "west": 33,
+      "east": 52,
+      "south": 30,
+      "north": 41.5
+     },
+     "overlays": [],
+     "features": {
+      "timeSlider": true,
+      "tour": true,
+      "challenge": true,
+      "classroom": true
+     },
+     "time": {
+      "start": 1,
+      "lastYear": 2,
+      "birth": 1,
+      "mode": "stages"
+     },
+     "legend": {},
+     "routes": [],
+     "places": [
+      {
+       "id": "judi",
+       "entityId": "nuh-mount-judi",
+       "lon": 42.35,
+       "lat": 37.37,
+       "icon": "mountain",
+       "tone": "place",
+       "labelSide": "right",
+       "name": "Mount Judi",
+       "kind": "Mountain",
+       "text": "The water went down, and the ark stopped on Mount Judi.",
+       "teacherNote": "Chapter 8 (Surah Hûd, 44).",
+       "question": "Where did the ark stop?"
+      }
+     ],
+     "towns": [],
+     "seas": [
+      {
+       "id": "redSea",
+       "lon": 38,
+       "lat": 21,
+       "name": "Red Sea"
+      },
+      {
+       "id": "gulf",
+       "lon": 50.5,
+       "lat": 27.3,
+       "name": "Persian Gulf"
+      },
+      {
+       "id": "mediterranean",
+       "lon": 31,
+       "lat": 33.5,
+       "name": "Mediterranean Sea"
+      }
+     ],
+     "timeline": [
+      {
+       "year": 1,
+       "chapter": 7,
+       "placeId": "judi",
+       "camera": {
+        "lon": 42.5,
+        "lat": 36.5,
+        "zoom": 1.3
+       },
+       "label": "The flood"
+      },
+      {
+       "year": 2,
+       "chapter": 8,
+       "placeId": "judi",
+       "camera": {
+        "lon": 42.35,
+        "lat": 37.3,
+        "zoom": 2.4
+       },
+       "scene": {
+        "kind": "dawn",
+        "placeId": "judi"
+       },
+       "label": "Mount Judi"
+      }
+     ],
+     "challenge": [
+      {
+       "id": "judi",
+       "lon": 42.35,
+       "lat": 37.37,
+       "radiusKm": 150,
+       "prompt": "Find Mount Judi. The ark stopped here."
+      }
+     ]
+    }
+   },
+   {
     "id": 11,
     "type": "quiz",
     "title": "Knowledge Check",

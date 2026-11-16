@@ -2090,6 +2090,223 @@
         }
       },
       {
+        "id": 101,
+        "type": "map",
+        "title": "The Hospital in Kayseri",
+        "subtitle": "Map · Chapters 1–11",
+        "content": "",
+        "map": {
+          "baseMap": "anatolia",
+          "home": {
+            "west": 26,
+            "east": 41.5,
+            "south": 35.5,
+            "north": 42.5
+          },
+          "overlays": [],
+          "features": {
+            "timeSlider": true,
+            "tour": true,
+            "challenge": true,
+            "classroom": true
+          },
+          "time": {
+            "start": 1,
+            "lastYear": 5,
+            "birth": 1,
+            "mode": "stages"
+          },
+          "legend": {},
+          "routes": [],
+          "places": [
+            {
+              "id": "anatolia",
+              "entityId": "gevher-b-anatolia",
+              "lon": 33.5,
+              "lat": 39.2,
+              "icon": "mountain",
+              "tone": "place",
+              "areaRadiusKm": 430,
+              "labelSide": "bottom",
+              "name": "Anatolia",
+              "kind": "Land",
+              "text": "Systematic medical training was established in Anatolia in the 13th century. It combined theoretical education with clinical training at the bedside.",
+              "teacherNote": "Chapter 1. This did not appear in Europe until the 16th and 17th centuries.",
+              "question": "What did systematic medical training combine?"
+            },
+            {
+              "id": "kayseri",
+              "entityId": "gevher-b-complex",
+              "lon": 35.49,
+              "lat": 38.72,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Kayseri",
+              "kind": "City",
+              "text": "The Gevher Nesibe Complex is in Kayseri, a second capital known as ‘Makarr-ı Ulemâ’ (the center of scholars).",
+              "teacherNote": "Chapters 1, 2 and 4. Today the complex functions as the Museum of the Seljuk Civilization.",
+              "question": "Why was Kayseri called ‘Makarr-ı Ulemâ’?"
+            },
+            {
+              "id": "konya",
+              "entityId": "gevher-b-konya",
+              "lon": 32.49,
+              "lat": 37.87,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Konya",
+              "kind": "City",
+              "text": "When the complex was established, Konya served as the capital of the Seljuk Sultanate.",
+              "teacherNote": "Chapter 1.",
+              "question": "Which city was regarded as a second capital?"
+            },
+            {
+              "id": "sivas",
+              "entityId": "gevher-b-keykavus-hospital",
+              "lon": 37.02,
+              "lat": 39.75,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Sivas",
+              "kind": "City",
+              "text": "The Keykâvus Dârüşşifâ is in Sivas. Its staff was similar to that of Kayseri.",
+              "teacherNote": "Chapter 5.",
+              "question": "How was the staff of the hospital organized?"
+            },
+            {
+              "id": "istanbul",
+              "entityId": "gevher-b-imperial-medical-school",
+              "lon": 28.98,
+              "lat": 41.01,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "top",
+              "name": "Imperial Medical School",
+              "kind": "Ottoman school",
+              "text": "The Imperial Medical School, established by Sultan Mahmud II, opened more than 600 years after the Kayseri Medical School.",
+              "teacherNote": "Chapter 1. The school was in Istanbul."
+            }
+          ],
+          "towns": [],
+          "seas": [
+            {
+              "id": "blackSea",
+              "lon": 34.5,
+              "lat": 42.6,
+              "name": "Black Sea"
+            },
+            {
+              "id": "mediterranean",
+              "lon": 31.5,
+              "lat": 35.3,
+              "name": "Mediterranean Sea"
+            }
+          ],
+          "timeline": [
+            {
+              "year": 1,
+              "chapter": 1,
+              "placeId": "konya",
+              "camera": {
+                "lon": 33.2,
+                "lat": 38.2,
+                "zoom": 2
+              },
+              "label": "The capital"
+            },
+            {
+              "year": 2,
+              "chapter": 4,
+              "placeId": "kayseri",
+              "camera": {
+                "lon": 35.3,
+                "lat": 38.8,
+                "zoom": 2.2
+              },
+              "scene": {
+                "kind": "dawn",
+                "placeId": "kayseri"
+              },
+              "label": "The complex in Kayseri"
+            },
+            {
+              "year": 3,
+              "chapter": 5,
+              "placeId": "sivas",
+              "camera": {
+                "lon": 36.3,
+                "lat": 39.2,
+                "zoom": 2
+              },
+              "label": "A similar staff"
+            },
+            {
+              "year": 4,
+              "chapter": 6,
+              "placeId": "anatolia",
+              "camera": {
+                "lon": 33.5,
+                "lat": 39.2,
+                "zoom": 1.3
+              },
+              "scene": {
+                "kind": "radiate",
+                "placeId": "kayseri",
+                "reach": [
+                  "konya",
+                  "sivas"
+                ]
+              },
+              "label": "Theory and practice"
+            },
+            {
+              "year": 5,
+              "chapter": 1,
+              "placeId": "istanbul",
+              "camera": {
+                "lon": 30.5,
+                "lat": 40.3,
+                "zoom": 1.8
+              },
+              "label": "600 years later"
+            }
+          ],
+          "challenge": [
+            {
+              "id": "kayseri",
+              "lon": 35.49,
+              "lat": 38.72,
+              "radiusKm": 90,
+              "prompt": "Find Kayseri, the center of scholars."
+            },
+            {
+              "id": "konya",
+              "lon": 32.49,
+              "lat": 37.87,
+              "radiusKm": 90,
+              "prompt": "Find Konya, the capital of the Seljuk Sultanate."
+            },
+            {
+              "id": "sivas",
+              "lon": 37.02,
+              "lat": 39.75,
+              "radiusKm": 90,
+              "prompt": "Find Sivas and the Keykâvus Dârüşşifâ."
+            },
+            {
+              "id": "istanbul",
+              "lon": 28.98,
+              "lat": 41.01,
+              "radiusKm": 110,
+              "prompt": "Find the Imperial Medical School."
+            }
+          ]
+        }
+      },
+      {
         "id": 12,
         "type": "quiz",
         "title": "Knowledge Check",

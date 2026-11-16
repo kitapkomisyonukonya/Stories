@@ -2725,6 +2725,258 @@
         }
       },
       {
+        "id": 101,
+        "type": "map",
+        "title": "Ahmed Yesevî’s Turkestan",
+        "subtitle": "Map · Chapters 1–13",
+        "content": "",
+        "map": {
+          "baseMap": "centralAsia",
+          "home": {
+            "west": 58,
+            "east": 76,
+            "south": 37.5,
+            "north": 46.5
+          },
+          "overlays": [],
+          "features": {
+            "timeSlider": true,
+            "tour": true,
+            "challenge": true,
+            "classroom": true
+          },
+          "time": {
+            "start": 1,
+            "lastYear": 6,
+            "birth": 1,
+            "mode": "stages"
+          },
+          "legend": {},
+          "routes": [],
+          "places": [
+            {
+              "id": "sayram",
+              "entityId": "yesevi-sayram",
+              "lon": 69.77,
+              "lat": 42.3,
+              "icon": "tent",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Sayram",
+              "kind": "Town",
+              "text": "Ahmed Yesevî is believed to have been born in the town of Sayram in the second half of the 11th century.",
+              "teacherNote": "Chapter 2. Sayram is near today’s Shymkent."
+            },
+            {
+              "id": "yesi",
+              "entityId": "yesevi-mausoleum",
+              "lon": 68.27,
+              "lat": 43.3,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Yesi",
+              "kind": "City",
+              "text": "Ahmed Yesevî moved to Yesi at a young age. Timur later visited his tomb and ordered a mausoleum, one of the architectural masterpieces of the era.",
+              "teacherNote": "Chapters 2, 3 and 5. The building was left unfinished when Timur died in 1405.",
+              "question": "What did the complex include besides the mausoleum?"
+            },
+            {
+              "id": "bukhara",
+              "entityId": "yesevi-bukhara",
+              "lon": 64.42,
+              "lat": 39.77,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Bukhara",
+              "kind": "City",
+              "text": "In Bukhara, one of the major Islamic centers of the time, Ahmed Yesevî came under the guidance of Sheikh Yûsuf el-Hemedânî.",
+              "teacherNote": "Chapter 3."
+            },
+            {
+              "id": "tashkent",
+              "entityId": "yesevi-tashkent",
+              "lon": 69.24,
+              "lat": 41.3,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Tashkent",
+              "kind": "City",
+              "text": "Ahmed Yesevî became widely known among the nomadic Turkic communities living near Tashkent and along the Syr Darya River.",
+              "teacherNote": "Chapter 4."
+            },
+            {
+              "id": "syrDarya",
+              "entityId": "yesevi-syr-darya",
+              "lon": 65.3,
+              "lat": 44.8,
+              "icon": "waves",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "The Syr Darya River",
+              "kind": "River",
+              "text": "Nomadic Turkic communities along the Syr Darya River knew Ahmed Yesevî well.",
+              "teacherNote": "Chapter 4."
+            },
+            {
+              "id": "anatolia",
+              "entityId": "yesevi-anatolia",
+              "lon": 33.5,
+              "lat": 39.2,
+              "icon": "mountain",
+              "tone": "place",
+              "areaRadiusKm": 400,
+              "labelSide": "bottom",
+              "name": "Anatolia",
+              "kind": "Land",
+              "text": "The Yesevî Order spread as far as Anatolia and the Balkans. The sages of Khorasan and Anatolia carried the banner of the Yesevî path.",
+              "teacherNote": "Chapters 5 and 12."
+            }
+          ],
+          "towns": [],
+          "seas": [
+            {
+              "id": "aral",
+              "lon": 60,
+              "lat": 45.2,
+              "name": "Aral Sea"
+            },
+            {
+              "id": "caspian",
+              "lon": 51,
+              "lat": 41.5,
+              "name": "Caspian Sea"
+            }
+          ],
+          "timeline": [
+            {
+              "year": 1,
+              "chapter": 2,
+              "placeId": "sayram",
+              "camera": {
+                "lon": 69.6,
+                "lat": 42.4,
+                "zoom": 2.6
+              },
+              "scene": {
+                "kind": "dawn",
+                "placeId": "sayram"
+              },
+              "label": "Born in Sayram"
+            },
+            {
+              "year": 2,
+              "chapter": 2,
+              "placeId": "yesi",
+              "camera": {
+                "lon": 68.5,
+                "lat": 43,
+                "zoom": 2.4
+              },
+              "label": "Yesi and Arslan Baba"
+            },
+            {
+              "year": 3,
+              "chapter": 3,
+              "placeId": "bukhara",
+              "camera": {
+                "lon": 65,
+                "lat": 40.3,
+                "zoom": 2.4
+              },
+              "label": "Bukhara"
+            },
+            {
+              "year": 4,
+              "chapter": 4,
+              "placeId": "tashkent",
+              "camera": {
+                "lon": 68,
+                "lat": 42.4,
+                "zoom": 2.2
+              },
+              "scene": {
+                "kind": "radiate",
+                "placeId": "yesi",
+                "reach": [
+                  "tashkent",
+                  "syrDarya"
+                ]
+              },
+              "label": "Tashkent and the Syr Darya"
+            },
+            {
+              "year": 5,
+              "chapter": 5,
+              "placeId": "yesi",
+              "camera": {
+                "lon": 68.3,
+                "lat": 43.3,
+                "zoom": 2.8
+              },
+              "label": "Timur’s mausoleum"
+            },
+            {
+              "year": 6,
+              "chapter": 12,
+              "placeId": "anatolia",
+              "camera": {
+                "lon": 45,
+                "lat": 40,
+                "zoom": 1
+              },
+              "scene": {
+                "kind": "journey",
+                "fromId": "yesi",
+                "toIds": [
+                  "anatolia"
+                ]
+              },
+              "label": "As far as Anatolia"
+            }
+          ],
+          "challenge": [
+            {
+              "id": "sayram",
+              "lon": 69.77,
+              "lat": 42.3,
+              "radiusKm": 110,
+              "prompt": "Find Sayram."
+            },
+            {
+              "id": "yesi",
+              "lon": 68.27,
+              "lat": 43.3,
+              "radiusKm": 110,
+              "prompt": "Find Yesi and the mausoleum."
+            },
+            {
+              "id": "bukhara",
+              "lon": 64.42,
+              "lat": 39.77,
+              "radiusKm": 120,
+              "prompt": "Find Bukhara."
+            },
+            {
+              "id": "tashkent",
+              "lon": 69.24,
+              "lat": 41.3,
+              "radiusKm": 110,
+              "prompt": "Find Tashkent."
+            },
+            {
+              "id": "anatolia",
+              "lon": 33.5,
+              "lat": 39.2,
+              "radiusKm": 350,
+              "prompt": "Find Anatolia."
+            }
+          ]
+        }
+      },
+      {
         "id": 14,
         "type": "quiz",
         "title": "Knowledge Check",

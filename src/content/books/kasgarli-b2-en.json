@@ -2690,6 +2690,319 @@
         }
       },
       {
+        "id": 101,
+        "type": "map",
+        "title": "Mahmud Kashgari’s World",
+        "subtitle": "Map · Chapters 1–14",
+        "content": "",
+        "map": {
+          "baseMap": "centralAsia",
+          "home": {
+            "west": 26,
+            "east": 92,
+            "south": 28,
+            "north": 52
+          },
+          "overlays": [],
+          "features": {
+            "timeSlider": true,
+            "tour": true,
+            "challenge": true,
+            "classroom": true
+          },
+          "time": {
+            "start": 1,
+            "lastYear": 7,
+            "birth": 1,
+            "mode": "stages"
+          },
+          "legend": {
+            "route:travels": "From one Turkic tribe to another, until Baghdad"
+          },
+          "routes": [
+            {
+              "id": "travels",
+              "points": [
+                [75.99, 39.47],
+                [71, 40.5],
+                [66, 39.8],
+                [60, 38],
+                [54, 36.2],
+                [48, 34.5],
+                [44.36, 33.31]
+              ],
+              "start": 3,
+              "end": 4,
+              "tone": "journey"
+            }
+          ],
+          "places": [
+            {
+              "id": "barsgan",
+              "entityId": "kasgarli-barsgan",
+              "lon": 77.6,
+              "lat": 42.15,
+              "icon": "tent",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Barsgan",
+              "kind": "Town",
+              "text": "Mahmud Kashgari is generally believed to have been born in Barsgan, in present-day Kyrgyzstan.",
+              "teacherNote": "Chapter 3."
+            },
+            {
+              "id": "kashgar",
+              "entityId": "kasgarli-kashgar",
+              "lon": 75.99,
+              "lat": 39.47,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "bottom",
+              "name": "Kashgar",
+              "kind": "City",
+              "text": "Mahmud Kashgari died in Kashgar, a city in the historical Turkic homeland known as East Turkestan.",
+              "teacherNote": "Chapter 3."
+            },
+            {
+              "id": "balasagun",
+              "entityId": "kasgarli-balasagun",
+              "lon": 75.25,
+              "lat": 42.75,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Balasagun",
+              "kind": "City",
+              "text": "On the map, Balasagun lies at the heart of Turkestan. It was on a very busy part of the Silk Road.",
+              "teacherNote": "Chapter 8."
+            },
+            {
+              "id": "ili",
+              "entityId": "kasgarli-ili-valley",
+              "lon": 81.3,
+              "lat": 43.9,
+              "icon": "waves",
+              "tone": "place",
+              "areaRadiusKm": 120,
+              "labelSide": "top",
+              "name": "The Ili Valley",
+              "kind": "Valley",
+              "text": "The khan ordered his people to drive the wild animals toward a large river in the Ili Valley.",
+              "teacherNote": "Chapter 9."
+            },
+            {
+              "id": "bukhara",
+              "entityId": "kasgarli-bukhara",
+              "lon": 64.42,
+              "lat": 39.77,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Bukhara",
+              "kind": "City",
+              "text": "Kashgari’s ancestor Nasr Ilig Khan, the famous Karakhanid ruler, conquered Transoxiana and Bukhara.",
+              "teacherNote": "Chapter 3."
+            },
+            {
+              "id": "baghdad",
+              "entityId": "kasgarli-baghdad",
+              "lon": 44.36,
+              "lat": 33.31,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "bottom",
+              "name": "Baghdad",
+              "kind": "City",
+              "text": "In 1077, Kashgari presented his work to the Abbasid Caliph Muktedî-Biemrillâh in Baghdad.",
+              "teacherNote": "Chapters 2, 5 and 6."
+            },
+            {
+              "id": "volga",
+              "entityId": "kasgarli-volga",
+              "lon": 47.8,
+              "lat": 46.6,
+              "icon": "waves",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "The Idil (Volga) River",
+              "kind": "River",
+              "text": "Kashgari’s world map reaches as far west as the Russian border and the Idil (Volga) River.",
+              "teacherNote": "Chapter 8."
+            },
+            {
+              "id": "istanbul",
+              "entityId": "kasgarli-millet-library",
+              "lon": 28.98,
+              "lat": 41.01,
+              "icon": "quill",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Istanbul",
+              "kind": "City",
+              "text": "The only surviving copy of Dîvânu Lugâti’t-Türk is in the Millet Library in Istanbul.",
+              "teacherNote": "Chapter 14."
+            }
+          ],
+          "towns": [],
+          "seas": [
+            {
+              "id": "caspian",
+              "lon": 51,
+              "lat": 41.5,
+              "name": "Caspian Sea"
+            },
+            {
+              "id": "blackSea",
+              "lon": 34.5,
+              "lat": 43.2,
+              "name": "Black Sea"
+            },
+            {
+              "id": "aral",
+              "lon": 60,
+              "lat": 45.2,
+              "name": "Aral Sea"
+            }
+          ],
+          "timeline": [
+            {
+              "year": 1,
+              "chapter": 3,
+              "placeId": "barsgan",
+              "camera": {
+                "lon": 77,
+                "lat": 42,
+                "zoom": 2.4
+              },
+              "scene": {
+                "kind": "dawn",
+                "placeId": "barsgan"
+              },
+              "label": "Born in Barsgan"
+            },
+            {
+              "year": 2,
+              "chapter": 3,
+              "placeId": "bukhara",
+              "camera": {
+                "lon": 66,
+                "lat": 40,
+                "zoom": 2
+              },
+              "label": "A noble family"
+            },
+            {
+              "year": 3,
+              "chapter": 5,
+              "placeId": "kashgar",
+              "camera": {
+                "lon": 70,
+                "lat": 39,
+                "zoom": 1.4
+              },
+              "label": "Leaving home, 1057"
+            },
+            {
+              "year": 4,
+              "chapter": 2,
+              "placeId": "baghdad",
+              "camera": {
+                "lon": 45,
+                "lat": 33.5,
+                "zoom": 2.2
+              },
+              "label": "Baghdad, 1077"
+            },
+            {
+              "year": 5,
+              "chapter": 8,
+              "placeId": "balasagun",
+              "camera": {
+                "lon": 62,
+                "lat": 40,
+                "zoom": 1.1
+              },
+              "scene": {
+                "kind": "radiate",
+                "placeId": "balasagun",
+                "reach": [
+                  "volga",
+                  "baghdad",
+                  "kashgar"
+                ]
+              },
+              "label": "The world map"
+            },
+            {
+              "year": 6,
+              "chapter": 9,
+              "placeId": "ili",
+              "camera": {
+                "lon": 80,
+                "lat": 43.5,
+                "zoom": 2.4
+              },
+              "label": "The animal calendar"
+            },
+            {
+              "year": 7,
+              "chapter": 14,
+              "placeId": "istanbul",
+              "camera": {
+                "lon": 30,
+                "lat": 41,
+                "zoom": 2.2
+              },
+              "label": "The only copy"
+            }
+          ],
+          "challenge": [
+            {
+              "id": "barsgan",
+              "lon": 77.6,
+              "lat": 42.15,
+              "radiusKm": 120,
+              "prompt": "Find Barsgan."
+            },
+            {
+              "id": "kashgar",
+              "lon": 75.99,
+              "lat": 39.47,
+              "radiusKm": 120,
+              "prompt": "Find Kashgar."
+            },
+            {
+              "id": "bukhara",
+              "lon": 64.42,
+              "lat": 39.77,
+              "radiusKm": 130,
+              "prompt": "Find Bukhara."
+            },
+            {
+              "id": "baghdad",
+              "lon": 44.36,
+              "lat": 33.31,
+              "radiusKm": 150,
+              "prompt": "Find Baghdad."
+            },
+            {
+              "id": "balasagun",
+              "lon": 75.25,
+              "lat": 42.75,
+              "radiusKm": 120,
+              "prompt": "Find Balasagun, on the Silk Road."
+            },
+            {
+              "id": "istanbul",
+              "lon": 28.98,
+              "lat": 41.01,
+              "radiusKm": 150,
+              "prompt": "Find Istanbul."
+            }
+          ]
+        }
+      },
+      {
         "id": 15,
         "type": "quiz",
         "title": "Knowledge Check",

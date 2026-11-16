@@ -1250,6 +1250,143 @@
     ]
    },
    {
+    "id": 101,
+    "type": "map",
+    "title": "Ahî Anatolia",
+    "subtitle": "Map · Chapters 1–7",
+    "content": "",
+    "map": {
+     "baseMap": "anatolia",
+     "home": {
+      "west": 25.5,
+      "east": 43.5,
+      "south": 35,
+      "north": 43
+     },
+     "overlays": [],
+     "features": {
+      "timeSlider": true,
+      "tour": true,
+      "challenge": true,
+      "classroom": true
+     },
+     "time": {
+      "start": 1,
+      "lastYear": 3,
+      "birth": 1,
+      "mode": "stages"
+     },
+     "legend": {},
+     "routes": [],
+     "places": [
+      {
+       "id": "anatolia",
+       "entityId": "ahilik-a1-anatolia",
+       "lon": 31.2,
+       "lat": 38.9,
+       "icon": "mountain",
+       "tone": "place",
+       "areaRadiusKm": 430,
+       "labelSide": "bottom",
+       "name": "Anatolia",
+       "kind": "Land",
+       "text": "Seven hundred years ago, there was a special group in Anatolia. Its name was the Ahî Organization.",
+       "teacherNote": "Chapter 1. Anatolia is a part of Türkiye today.",
+       "question": "What was the name of the special group?"
+      },
+      {
+       "id": "ottomans",
+       "entityId": "ahilik-a1-ottomans",
+       "lon": 29.8,
+       "lat": 40.2,
+       "icon": "palace",
+       "tone": "place",
+       "areaRadiusKm": 160,
+       "labelSide": "left",
+       "name": "The Ottomans",
+       "kind": "State",
+       "text": "The Ahî Organization was very important in the early years of the Ottomans, too.",
+       "teacherNote": "Chapter 1. The early Ottoman lands were in north-west Anatolia.",
+       "question": "When was the organization important for the Ottomans?"
+      }
+     ],
+     "towns": [],
+     "seas": [
+      {
+       "id": "blackSea",
+       "lon": 34.5,
+       "lat": 42.6,
+       "name": "Black Sea"
+      },
+      {
+       "id": "mediterranean",
+       "lon": 31.5,
+       "lat": 35.3,
+       "name": "Mediterranean Sea"
+      }
+     ],
+     "timeline": [
+      {
+       "year": 1,
+       "chapter": 1,
+       "placeId": "anatolia",
+       "camera": {
+        "lon": 33.5,
+        "lat": 39.2,
+        "zoom": 1.4
+       },
+       "scene": {
+        "kind": "dawn",
+        "placeId": "anatolia"
+       },
+       "label": "The Ahî Organization"
+      },
+      {
+       "year": 2,
+       "chapter": 1,
+       "placeId": "ottomans",
+       "camera": {
+        "lon": 31.5,
+        "lat": 39.8,
+        "zoom": 1.7
+       },
+       "label": "The early Ottomans"
+      },
+      {
+       "year": 3,
+       "chapter": 6,
+       "placeId": "anatolia",
+       "camera": {
+        "lon": 33.5,
+        "lat": 39.2,
+        "zoom": 1.4
+       },
+       "scene": {
+        "kind": "radiate",
+        "placeId": "anatolia"
+       },
+       "label": "Young Ahîs learn"
+      }
+     ],
+     "challenge": [
+      {
+       "id": "anatolia",
+       "lon": 31.2,
+       "lat": 38.9,
+       "radiusKm": 350,
+       "prompt": "Find Anatolia. The Ahî Organization started here."
+      },
+      {
+       "id": "ottomans",
+       "lon": 29.8,
+       "lat": 40.2,
+       "radiusKm": 220,
+       "prompt": "Find the early Ottoman lands."
+      }
+     ]
+    }
+   },
+   {
     "id": 10,
     "type": "quiz",
     "title": "Knowledge Check",

@@ -4,7 +4,7 @@ import type React from 'react';
 export type StoryMapIcon = 'quill' | 'dome' | 'swords' | 'route' | 'kaaba' | 'well' | 'mountain' | 'waves' | 'palm' | 'tent' | 'city' | 'palace';
 
 /** Which generated base map a story map is drawn on. */
-export type StoryMapBaseMapId = 'anatolia' | 'nearEast' | 'mediterranean';
+export type StoryMapBaseMapId = 'anatolia' | 'nearEast' | 'mediterranean' | 'centralAsia';
 
 /** Historical overlays drawn as soft, approximate shapes over the base map. */
 export type StoryMapOverlay = 'seljuk-1243' | 'mongol-1243' | 'ilkhanate-1308';

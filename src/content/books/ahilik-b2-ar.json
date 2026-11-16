@@ -1758,6 +1758,328 @@
         }
       },
       {
+        "id": 101,
+        "type": "map",
+        "title": "Ahî Anatolia",
+        "subtitle": "Map · Chapters 1–8",
+        "content": "",
+        "map": {
+          "baseMap": "anatolia",
+          "home": {
+            "west": 26.5,
+            "east": 41.5,
+            "south": 35.8,
+            "north": 42.2
+          },
+          "overlays": [],
+          "features": {
+            "timeSlider": true,
+            "tour": true,
+            "challenge": true,
+            "classroom": true
+          },
+          "time": {
+            "start": 1,
+            "lastYear": 8,
+            "birth": 1,
+            "mode": "stages"
+          },
+          "legend": {},
+          "routes": [],
+          "places": [
+            {
+              "id": "anatolia",
+              "entityId": "ahilik-anatolia",
+              "lon": 31.2,
+              "lat": 38.9,
+              "icon": "mountain",
+              "tone": "place",
+              "areaRadiusKm": 430,
+              "labelSide": "bottom",
+              "name": "Anatolia",
+              "kind": "Land",
+              "text": "The Ahî organization emerged in 13th-century Anatolia. Its members spread rapidly throughout the land.",
+              "teacherNote": "Chapters 1, 4 and 6. Ahî zaviyes served as schools and cultural centers.",
+              "question": "How did the concept of fütüvvet reach Anatolia?"
+            },
+            {
+              "id": "ottomans",
+              "entityId": "ahilik-ottomans",
+              "lon": 29.8,
+              "lat": 40.2,
+              "icon": "palace",
+              "tone": "place",
+              "areaRadiusKm": 160,
+              "labelSide": "left",
+              "name": "The Ottoman Empire",
+              "kind": "State",
+              "text": "The Ahî movement played a major role in the founding of the Ottoman Empire. Murad I joined it, and it served as a military force.",
+              "teacherNote": "Chapter 7. From the reign of Mehmed II, the institution lost its political power.",
+              "question": "Which Ottoman ruler joined the organization?"
+            },
+            {
+              "id": "konya",
+              "entityId": "ahilik-konya",
+              "lon": 32.49,
+              "lat": 37.87,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Konya",
+              "kind": "City",
+              "text": "Upon his arrival in Konya, Sühreverdî was received with great ceremony and dressed the sultan in the Caliph’s robe.",
+              "teacherNote": "Chapters 3 and 4. With this act, the Caliph recognized Keykubad’s political authority.",
+              "question": "Why was the robe important?"
+            },
+            {
+              "id": "denizli",
+              "entityId": "ahilik-denizli",
+              "lon": 29.09,
+              "lat": 37.78,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "bottom",
+              "name": "Denizli",
+              "kind": "City",
+              "text": "Ahî Evran, who traveled to Anatolia from Central Asia, stayed in Denizli for a time.",
+              "teacherNote": "Chapter 4.",
+              "question": "Name three cities where Ahî Evran stayed."
+            },
+            {
+              "id": "kayseri",
+              "entityId": "ahilik-kayseri",
+              "lon": 35.49,
+              "lat": 38.72,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Kayseri",
+              "kind": "City",
+              "text": "Ahî Evran stayed in Kayseri for a time. Later, the Ahîs took part in the defense of Kayseri against the Mongols, although the city eventually fell.",
+              "teacherNote": "Chapter 4.",
+              "question": "What happened to Kayseri in the end?"
+            },
+            {
+              "id": "kirsehir",
+              "entityId": "ahilik-kirsehir",
+              "lon": 34.16,
+              "lat": 39.15,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "top",
+              "name": "Kırşehir",
+              "kind": "City",
+              "text": "Ahî Evran finally settled in Kırşehir. His zaviye became the socio-religious and professional center for artisans all across Anatolia.",
+              "teacherNote": "Chapter 4. He was known as the spiritual leader of tanners and other craftsmen.",
+              "question": "Why was the zaviye in Kırşehir important?"
+            },
+            {
+              "id": "kosedag",
+              "entityId": "ahilik-kosedag",
+              "lon": 37.92,
+              "lat": 40.03,
+              "icon": "swords",
+              "tone": "event",
+              "labelSide": "right",
+              "name": "Kösedağ",
+              "kind": "Battle, 1243",
+              "text": "At Kösedağ, the Mongols defeated Gıyâseddin II.",
+              "teacherNote": "Chapter 4. The Ahîs suspected him of the assassination of Alaeddin Keykubad I.",
+              "question": "Why did the Ahîs resist Gıyâseddin II?"
+            },
+            {
+              "id": "tokat",
+              "entityId": "ahilik-tokat",
+              "lon": 36.55,
+              "lat": 40.31,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "top",
+              "name": "Tokat",
+              "kind": "City",
+              "text": "The Mongols seized Tokat before they came to Kayseri.",
+              "teacherNote": "Chapter 4.",
+              "question": "Which two cities did the Mongols seize first?"
+            },
+            {
+              "id": "sivas",
+              "entityId": "ahilik-sivas",
+              "lon": 37.02,
+              "lat": 39.75,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "bottom",
+              "name": "Sivas",
+              "kind": "City",
+              "text": "The Mongols also seized Sivas before they came to Kayseri.",
+              "teacherNote": "Chapter 4."
+            }
+          ],
+          "towns": [],
+          "seas": [
+            {
+              "id": "blackSea",
+              "lon": 34.5,
+              "lat": 42.6,
+              "name": "Black Sea"
+            },
+            {
+              "id": "mediterranean",
+              "lon": 31.5,
+              "lat": 35.3,
+              "name": "Mediterranean Sea"
+            }
+          ],
+          "timeline": [
+            {
+              "year": 1,
+              "chapter": 1,
+              "placeId": "anatolia",
+              "camera": {
+                "lon": 33.5,
+                "lat": 39.2,
+                "zoom": 1.3
+              },
+              "scene": {
+                "kind": "dawn",
+                "placeId": "anatolia"
+              },
+              "label": "In Anatolia"
+            },
+            {
+              "year": 2,
+              "chapter": 3,
+              "placeId": "konya",
+              "camera": {
+                "lon": 32.8,
+                "lat": 38.1,
+                "zoom": 2.2
+              },
+              "label": "The robe in Konya"
+            },
+            {
+              "year": 3,
+              "chapter": 4,
+              "placeId": "denizli",
+              "camera": {
+                "lon": 31,
+                "lat": 38.2,
+                "zoom": 1.8
+              },
+              "label": "Ahî Evran arrives"
+            },
+            {
+              "year": 4,
+              "chapter": 4,
+              "placeId": "kirsehir",
+              "camera": {
+                "lon": 34.2,
+                "lat": 39,
+                "zoom": 2.1
+              },
+              "scene": {
+                "kind": "radiate",
+                "placeId": "kirsehir",
+                "reach": [
+                  "konya",
+                  "kayseri",
+                  "denizli"
+                ]
+              },
+              "label": "Kırşehir"
+            },
+            {
+              "year": 5,
+              "chapter": 4,
+              "placeId": "kosedag",
+              "camera": {
+                "lon": 37.3,
+                "lat": 39.8,
+                "zoom": 2
+              },
+              "label": "Kösedağ"
+            },
+            {
+              "year": 6,
+              "chapter": 4,
+              "placeId": "sivas",
+              "camera": {
+                "lon": 36.8,
+                "lat": 40,
+                "zoom": 2.2
+              },
+              "label": "Tokat and Sivas"
+            },
+            {
+              "year": 7,
+              "chapter": 4,
+              "placeId": "kayseri",
+              "camera": {
+                "lon": 36,
+                "lat": 39,
+                "zoom": 2.1
+              },
+              "label": "Defending Kayseri"
+            },
+            {
+              "year": 8,
+              "chapter": 7,
+              "placeId": "ottomans",
+              "camera": {
+                "lon": 31,
+                "lat": 39.8,
+                "zoom": 1.6
+              },
+              "label": "The Ottomans"
+            }
+          ],
+          "challenge": [
+            {
+              "id": "konya",
+              "lon": 32.49,
+              "lat": 37.87,
+              "radiusKm": 90,
+              "prompt": "Find Konya, where Sühreverdî was received with great ceremony."
+            },
+            {
+              "id": "kirsehir",
+              "lon": 34.16,
+              "lat": 39.15,
+              "radiusKm": 90,
+              "prompt": "Find Kırşehir, where Ahî Evran founded his zaviye."
+            },
+            {
+              "id": "denizli",
+              "lon": 29.09,
+              "lat": 37.78,
+              "radiusKm": 90,
+              "prompt": "Find Denizli, one of the cities where Ahî Evran stayed."
+            },
+            {
+              "id": "kosedag",
+              "lon": 37.92,
+              "lat": 40.03,
+              "radiusKm": 110,
+              "prompt": "Find Kösedağ, where Gıyâseddin II was defeated."
+            },
+            {
+              "id": "sivas",
+              "lon": 37.02,
+              "lat": 39.75,
+              "radiusKm": 90,
+              "prompt": "Find Sivas, seized by the Mongols."
+            },
+            {
+              "id": "kayseri",
+              "lon": 35.49,
+              "lat": 38.72,
+              "radiusKm": 90,
+              "prompt": "Find Kayseri, defended by the Ahîs."
+            }
+          ]
+        }
+      },
+      {
         "id": 9,
         "type": "quiz",
         "title": "Knowledge Check",

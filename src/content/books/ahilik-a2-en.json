@@ -1120,6 +1120,174 @@
         }
       },
       {
+        "id": 101,
+        "type": "map",
+        "title": "Ahî Anatolia",
+        "subtitle": "Map · Chapters 1–7",
+        "content": "",
+        "map": {
+          "baseMap": "anatolia",
+          "home": {
+            "west": 25.5,
+            "east": 43.5,
+            "south": 35,
+            "north": 43
+          },
+          "overlays": [],
+          "features": {
+            "timeSlider": true,
+            "tour": true,
+            "challenge": true,
+            "classroom": true
+          },
+          "time": {
+            "start": 1,
+            "lastYear": 4,
+            "birth": 1,
+            "mode": "stages"
+          },
+          "legend": {},
+          "routes": [],
+          "places": [
+            {
+              "id": "anatolia",
+              "entityId": "ahilik-a1-anatolia",
+              "lon": 31.2,
+              "lat": 38.9,
+              "icon": "mountain",
+              "tone": "place",
+              "areaRadiusKm": 430,
+              "labelSide": "bottom",
+              "name": "Anatolia",
+              "kind": "Land",
+              "text": "The Ahî Organization started in Anatolia in the 13th century. Ahî organizations worked as important schools for the people here.",
+              "teacherNote": "Chapters 1 and 3. Like madrasas and dervish schools, Ahî groups helped Anatolian Turkish culture grow.",
+              "question": "How did Ahî organizations help the people of Anatolia?"
+            },
+            {
+              "id": "centralTown",
+              "lon": 34.3,
+              "lat": 38.4,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "A town in Central Anatolia",
+              "kind": "Town",
+              "text": "In a town in Central Anatolia, a young apprentice wanted to open his own shop. He waited for his master’s permission.",
+              "teacherNote": "Chapter 6. The story does not name the town.",
+              "question": "Why did the apprentice wait?"
+            },
+            {
+              "id": "ottomans",
+              "entityId": "ahilik-a1-ottomans",
+              "lon": 29.8,
+              "lat": 40.2,
+              "icon": "palace",
+              "tone": "place",
+              "areaRadiusKm": 160,
+              "labelSide": "left",
+              "name": "The Ottoman Empire",
+              "kind": "State",
+              "text": "The Ahî Organization played a big role in the founding of the Ottoman Empire.",
+              "teacherNote": "Chapter 1. The early Ottoman lands were in north-west Anatolia.",
+              "question": "What role did the Ahî Organization play?"
+            }
+          ],
+          "towns": [],
+          "seas": [
+            {
+              "id": "blackSea",
+              "lon": 34.5,
+              "lat": 42.6,
+              "name": "Black Sea"
+            },
+            {
+              "id": "mediterranean",
+              "lon": 31.5,
+              "lat": 35.3,
+              "name": "Mediterranean Sea"
+            }
+          ],
+          "timeline": [
+            {
+              "year": 1,
+              "chapter": 1,
+              "placeId": "anatolia",
+              "camera": {
+                "lon": 33.5,
+                "lat": 39.2,
+                "zoom": 1.4
+              },
+              "scene": {
+                "kind": "dawn",
+                "placeId": "anatolia"
+              },
+              "label": "It starts in Anatolia"
+            },
+            {
+              "year": 2,
+              "chapter": 1,
+              "placeId": "ottomans",
+              "camera": {
+                "lon": 31.5,
+                "lat": 39.8,
+                "zoom": 1.7
+              },
+              "label": "The Ottoman Empire"
+            },
+            {
+              "year": 3,
+              "chapter": 3,
+              "placeId": "anatolia",
+              "camera": {
+                "lon": 33.5,
+                "lat": 39.2,
+                "zoom": 1.4
+              },
+              "scene": {
+                "kind": "radiate",
+                "placeId": "anatolia"
+              },
+              "label": "Schools for the people"
+            },
+            {
+              "year": 4,
+              "chapter": 6,
+              "placeId": "centralTown",
+              "camera": {
+                "lon": 34.3,
+                "lat": 38.6,
+                "zoom": 2.2
+              },
+              "label": "The apprentice"
+            }
+          ],
+          "challenge": [
+            {
+              "id": "anatolia",
+              "lon": 31.2,
+              "lat": 38.9,
+              "radiusKm": 350,
+              "prompt": "Find Anatolia. The Ahî Organization started here."
+            },
+            {
+              "id": "centralTown",
+              "lon": 34.3,
+              "lat": 38.4,
+              "radiusKm": 200,
+              "prompt": "Find Central Anatolia. The young apprentice lived in a town here."
+            },
+            {
+              "id": "ottomans",
+              "lon": 29.8,
+              "lat": 40.2,
+              "radiusKm": 220,
+              "prompt": "Find the early Ottoman lands."
+            }
+          ]
+        }
+      },
+      {
         "id": 8,
         "type": "quiz",
         "title": "Knowledge Check",

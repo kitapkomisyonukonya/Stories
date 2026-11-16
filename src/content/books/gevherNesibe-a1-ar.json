@@ -1419,6 +1419,131 @@
     }
    },
    {
+    "id": 101,
+    "type": "map",
+    "title": "The Hospital in Kayseri",
+    "subtitle": "Map · Chapters 1–8",
+    "content": "",
+    "map": {
+     "baseMap": "anatolia",
+     "home": {
+      "west": 26,
+      "east": 43,
+      "south": 35.3,
+      "north": 42.6
+     },
+     "overlays": [],
+     "features": {
+      "timeSlider": true,
+      "tour": true,
+      "challenge": true,
+      "classroom": true
+     },
+     "time": {
+      "start": 1,
+      "lastYear": 2,
+      "birth": 1,
+      "mode": "stages"
+     },
+     "legend": {},
+     "routes": [],
+     "places": [
+      {
+       "id": "anatolia",
+       "entityId": "gevher-a1-anatolia",
+       "lon": 33.5,
+       "lat": 39.2,
+       "icon": "mountain",
+       "tone": "place",
+       "areaRadiusKm": 430,
+       "labelSide": "bottom",
+       "name": "Anatolia",
+       "kind": "Land",
+       "text": "Kayseri is a city in Anatolia. The hospital in Kayseri is the oldest Seljuk hospital in Anatolia.",
+       "teacherNote": "Chapter 1.",
+       "question": "Which city is the hospital in?"
+      },
+      {
+       "id": "kayseri",
+       "entityId": "gevher-a1-complex",
+       "lon": 35.49,
+       "lat": 38.72,
+       "icon": "dome",
+       "tone": "place",
+       "labelSide": "right",
+       "name": "Kayseri",
+       "kind": "City",
+       "text": "The Gevher Nesibe Hospital and Medical School is in Kayseri. It was a hospital and a school.",
+       "teacherNote": "Chapters 1, 2 and 7. Today, the building is the Museum of the Seljuk Civilization.",
+       "question": "Why did Gevher Nesibe die young?"
+      }
+     ],
+     "towns": [],
+     "seas": [
+      {
+       "id": "blackSea",
+       "lon": 34.5,
+       "lat": 42.6,
+       "name": "Black Sea"
+      },
+      {
+       "id": "mediterranean",
+       "lon": 31.5,
+       "lat": 35.3,
+       "name": "Mediterranean Sea"
+      }
+     ],
+     "timeline": [
+      {
+       "year": 1,
+       "chapter": 1,
+       "placeId": "anatolia",
+       "camera": {
+        "lon": 33.5,
+        "lat": 39.2,
+        "zoom": 1.4
+       },
+       "scene": {
+        "kind": "dawn",
+        "placeId": "anatolia"
+       },
+       "label": "In Anatolia"
+      },
+      {
+       "year": 2,
+       "chapter": 4,
+       "placeId": "kayseri",
+       "camera": {
+        "lon": 35.3,
+        "lat": 38.8,
+        "zoom": 2.2
+       },
+       "scene": {
+        "kind": "radiate",
+        "placeId": "kayseri"
+       },
+       "label": "The hospital in Kayseri"
+      }
+     ],
+     "challenge": [
+      {
+       "id": "kayseri",
+       "lon": 35.49,
+       "lat": 38.72,
+       "radiusKm": 100,
+       "prompt": "Find Kayseri. The hospital is here."
+      },
+      {
+       "id": "anatolia",
+       "lon": 33.5,
+       "lat": 39.2,
+       "radiusKm": 350,
+       "prompt": "Find Anatolia."
+      }
+     ]
+    }
+   },
+   {
     "id": 11,
     "type": "quiz",
     "title": "Knowledge Check",

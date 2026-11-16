@@ -1269,6 +1269,200 @@
     }
    },
    {
+    "id": 101,
+    "type": "map",
+    "title": "Ahmed Yesevî’s Turkestan",
+    "subtitle": "Map · Chapters 1–7",
+    "content": "",
+    "map": {
+     "baseMap": "centralAsia",
+     "home": {
+      "west": 55,
+      "east": 90,
+      "south": 35,
+      "north": 48
+     },
+     "overlays": [],
+     "features": {
+      "timeSlider": true,
+      "tour": true,
+      "challenge": true,
+      "classroom": true
+     },
+     "time": {
+      "start": 1,
+      "lastYear": 5,
+      "birth": 1,
+      "mode": "stages"
+     },
+     "legend": {},
+     "routes": [],
+     "places": [
+      {
+       "id": "eastTurkestan",
+       "entityId": "yesevi-a-east-turkestan",
+       "lon": 81,
+       "lat": 40.5,
+       "icon": "tent",
+       "tone": "place",
+       "areaRadiusKm": 380,
+       "labelSide": "bottom",
+       "name": "East Turkestan",
+       "kind": "Land",
+       "text": "Ahmed was born in East Turkestan more than 900 years ago.",
+       "teacherNote": "Chapter 2.",
+       "question": "When was Ahmed born?"
+      },
+      {
+       "id": "yesi",
+       "entityId": "yesevi-a-yesi",
+       "lon": 68.27,
+       "lat": 43.3,
+       "icon": "dome",
+       "tone": "place",
+       "labelSide": "right",
+       "name": "Yesi",
+       "kind": "City",
+       "text": "When he was young, Ahmed went to the city of Yesi. He studied with a wise teacher, Arslan Baba. Today, Yesi is in Kazakhstan.",
+       "teacherNote": "Chapter 2. Today the city is called Turkestan.",
+       "question": "Who was Ahmed’s teacher?"
+      },
+      {
+       "id": "bukhara",
+       "entityId": "yesevi-a-bukhara",
+       "lon": 64.42,
+       "lat": 39.77,
+       "icon": "dome",
+       "tone": "place",
+       "labelSide": "left",
+       "name": "Bukhara",
+       "kind": "City",
+       "text": "Later, Ahmed went to Bukhara, a big city of Islam and science. Then he returned to Yesi.",
+       "teacherNote": "Chapter 2. Today, Bukhara is in Uzbekistan.",
+       "question": "What kind of city was Bukhara?"
+      },
+      {
+       "id": "khwarazm",
+       "entityId": "yesevi-a-khwarazm",
+       "lon": 60.5,
+       "lat": 41.5,
+       "icon": "palm",
+       "tone": "place",
+       "areaRadiusKm": 180,
+       "labelSide": "left",
+       "name": "Khwarazm",
+       "kind": "Land",
+       "text": "After many years, Hakîm Ata went to Khwarazm. Today, this place is in Uzbekistan and Turkmenistan.",
+       "teacherNote": "Chapter 6.",
+       "question": "Who went to Khwarazm?"
+      }
+     ],
+     "towns": [],
+     "seas": [
+      {
+       "id": "aral",
+       "lon": 60,
+       "lat": 45.2,
+       "name": "Aral Sea"
+      },
+      {
+       "id": "caspian",
+       "lon": 51,
+       "lat": 41.5,
+       "name": "Caspian Sea"
+      }
+     ],
+     "timeline": [
+      {
+       "year": 1,
+       "chapter": 2,
+       "placeId": "eastTurkestan",
+       "camera": {
+        "lon": 80,
+        "lat": 40.5,
+        "zoom": 1.8
+       },
+       "scene": {
+        "kind": "dawn",
+        "placeId": "eastTurkestan"
+       },
+       "label": "Born in East Turkestan"
+      },
+      {
+       "year": 2,
+       "chapter": 2,
+       "placeId": "yesi",
+       "camera": {
+        "lon": 68.5,
+        "lat": 43,
+        "zoom": 2.4
+       },
+       "label": "Yesi and Arslan Baba"
+      },
+      {
+       "year": 3,
+       "chapter": 2,
+       "placeId": "bukhara",
+       "camera": {
+        "lon": 65,
+        "lat": 40.3,
+        "zoom": 2.4
+       },
+       "label": "Bukhara"
+      },
+      {
+       "year": 4,
+       "chapter": 2,
+       "placeId": "yesi",
+       "camera": {
+        "lon": 68.5,
+        "lat": 43,
+        "zoom": 2.4
+       },
+       "scene": {
+        "kind": "radiate",
+        "placeId": "yesi"
+       },
+       "label": "Back in Yesi"
+      },
+      {
+       "year": 5,
+       "chapter": 6,
+       "placeId": "khwarazm",
+       "camera": {
+        "lon": 61,
+        "lat": 41.5,
+        "zoom": 2.2
+       },
+       "label": "Hakîm Ata"
+      }
+     ],
+     "challenge": [
+      {
+       "id": "yesi",
+       "lon": 68.27,
+       "lat": 43.3,
+       "radiusKm": 120,
+       "prompt": "Find Yesi. Ahmed studied here."
+      },
+      {
+       "id": "bukhara",
+       "lon": 64.42,
+       "lat": 39.77,
+       "radiusKm": 120,
+       "prompt": "Find Bukhara."
+      },
+      {
+       "id": "khwarazm",
+       "lon": 60.5,
+       "lat": 41.5,
+       "radiusKm": 220,
+       "prompt": "Find Khwarazm. Hakîm Ata went here."
+      }
+     ]
+    }
+   },
+   {
     "id": 10,
     "type": "quiz",
     "title": "Knowledge Check",

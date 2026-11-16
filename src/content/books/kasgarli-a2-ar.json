@@ -1220,6 +1220,294 @@
         }
       },
       {
+        "id": 101,
+        "type": "map",
+        "title": "Mahmud Kashgari’s World",
+        "subtitle": "Map · Chapters 1–8",
+        "content": "",
+        "map": {
+          "baseMap": "centralAsia",
+          "home": {
+            "west": 26,
+            "east": 92,
+            "south": 28,
+            "north": 52
+          },
+          "overlays": [],
+          "features": {
+            "timeSlider": true,
+            "tour": true,
+            "challenge": true,
+            "classroom": true
+          },
+          "time": {
+            "start": 1,
+            "lastYear": 6,
+            "birth": 1,
+            "mode": "stages"
+          },
+          "legend": {
+            "route:travels": "Mahmud’s travels to Baghdad (1057–1072)"
+          },
+          "routes": [
+            {
+              "id": "travels",
+              "points": [
+                [75.99, 39.47],
+                [71, 40.5],
+                [66, 39.8],
+                [60, 38],
+                [54, 36.2],
+                [48, 34.5],
+                [44.36, 33.31]
+              ],
+              "start": 2,
+              "end": 3,
+              "tone": "journey"
+            }
+          ],
+          "places": [
+            {
+              "id": "barsgan",
+              "entityId": "kasgarli-barsgan",
+              "lon": 77.6,
+              "lat": 42.15,
+              "icon": "tent",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Barsgan",
+              "kind": "Town",
+              "text": "Historians believe that Mahmud Kashgari was born in Barsgan, Kyrgyzstan, in 1008.",
+              "teacherNote": "Chapter 2.",
+              "question": "When was Mahmud Kashgari born?"
+            },
+            {
+              "id": "kashgar",
+              "entityId": "kasgarli-kashgar",
+              "lon": 75.99,
+              "lat": 39.47,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "bottom",
+              "name": "Kashgar",
+              "kind": "City",
+              "text": "Mahmud Kashgari died in Kashgar in 1105. Kashgar is a very old city in western China, also called East Turkestan.",
+              "teacherNote": "Chapter 2.",
+              "question": "What is another name for this region?"
+            },
+            {
+              "id": "balasagun",
+              "entityId": "kasgarli-balasagun",
+              "lon": 75.25,
+              "lat": 42.75,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Balasagun",
+              "kind": "City",
+              "text": "The city of Balasagun is right in the heart of the Turkic land on the map. It was on a very busy part of the Silk Road.",
+              "teacherNote": "Chapter 7.",
+              "question": "Why was Balasagun important?"
+            },
+            {
+              "id": "ili",
+              "entityId": "kasgarli-ili-valley",
+              "lon": 81.3,
+              "lat": 43.9,
+              "icon": "waves",
+              "tone": "place",
+              "areaRadiusKm": 120,
+              "labelSide": "top",
+              "name": "The Ili Valley",
+              "kind": "Valley",
+              "text": "The khan told the people to push the wild animals toward a big river in the Ili Valley.",
+              "teacherNote": "Chapter 4. Each new year got its name from an animal, in the order they crossed.",
+              "question": "Which animal crossed the river first?"
+            },
+            {
+              "id": "baghdad",
+              "entityId": "kasgarli-baghdad",
+              "lon": 44.36,
+              "lat": 33.31,
+              "icon": "palace",
+              "tone": "place",
+              "labelSide": "bottom",
+              "name": "Baghdad",
+              "kind": "City",
+              "text": "After ten to fifteen years of travel, Mahmud reached Baghdad. In 1077, he presented his work to the Abbasid Caliph.",
+              "teacherNote": "Chapters 1 and 3.",
+              "question": "How long did Mahmud travel?"
+            },
+            {
+              "id": "volga",
+              "entityId": "kasgarli-volga",
+              "lon": 47.8,
+              "lat": 46.6,
+              "icon": "waves",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "The Idil (Volga) River",
+              "kind": "River",
+              "text": "Mahmud of Kashgar’s world map goes as far west as Russia and the Idil (Volga) River.",
+              "teacherNote": "Chapter 7.",
+              "question": "How far east does the map go?"
+            },
+            {
+              "id": "istanbul",
+              "entityId": "kasgarli-millet-library",
+              "lon": 28.98,
+              "lat": 41.01,
+              "icon": "quill",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Istanbul",
+              "kind": "City",
+              "text": "Today, people can find the only copy of Dîvânu Lugâti’t-Türk in Istanbul, at the Millet Library.",
+              "teacherNote": "Chapter 1."
+            }
+          ],
+          "towns": [],
+          "seas": [
+            {
+              "id": "caspian",
+              "lon": 51,
+              "lat": 41.5,
+              "name": "Caspian Sea"
+            },
+            {
+              "id": "blackSea",
+              "lon": 34.5,
+              "lat": 43.2,
+              "name": "Black Sea"
+            },
+            {
+              "id": "aral",
+              "lon": 60,
+              "lat": 45.2,
+              "name": "Aral Sea"
+            }
+          ],
+          "timeline": [
+            {
+              "year": 1,
+              "chapter": 2,
+              "placeId": "barsgan",
+              "camera": {
+                "lon": 77,
+                "lat": 42,
+                "zoom": 2.4
+              },
+              "scene": {
+                "kind": "dawn",
+                "placeId": "barsgan"
+              },
+              "label": "Born in Barsgan"
+            },
+            {
+              "year": 2,
+              "chapter": 3,
+              "placeId": "kashgar",
+              "camera": {
+                "lon": 70,
+                "lat": 39,
+                "zoom": 1.4
+              },
+              "label": "The journey begins"
+            },
+            {
+              "year": 3,
+              "chapter": 3,
+              "placeId": "baghdad",
+              "camera": {
+                "lon": 45,
+                "lat": 33.5,
+                "zoom": 2.2
+              },
+              "label": "Baghdad, 1077"
+            },
+            {
+              "year": 4,
+              "chapter": 4,
+              "placeId": "ili",
+              "camera": {
+                "lon": 80,
+                "lat": 43.5,
+                "zoom": 2.4
+              },
+              "label": "The animal calendar"
+            },
+            {
+              "year": 5,
+              "chapter": 7,
+              "placeId": "balasagun",
+              "camera": {
+                "lon": 62,
+                "lat": 40,
+                "zoom": 1.1
+              },
+              "scene": {
+                "kind": "radiate",
+                "placeId": "balasagun",
+                "reach": [
+                  "volga",
+                  "baghdad",
+                  "kashgar"
+                ]
+              },
+              "label": "The world map"
+            },
+            {
+              "year": 6,
+              "chapter": 1,
+              "placeId": "istanbul",
+              "camera": {
+                "lon": 30,
+                "lat": 41,
+                "zoom": 2.2
+              },
+              "label": "The book today"
+            }
+          ],
+          "challenge": [
+            {
+              "id": "barsgan",
+              "lon": 77.6,
+              "lat": 42.15,
+              "radiusKm": 120,
+              "prompt": "Find Barsgan. Mahmud was born here."
+            },
+            {
+              "id": "kashgar",
+              "lon": 75.99,
+              "lat": 39.47,
+              "radiusKm": 120,
+              "prompt": "Find Kashgar."
+            },
+            {
+              "id": "baghdad",
+              "lon": 44.36,
+              "lat": 33.31,
+              "radiusKm": 150,
+              "prompt": "Find Baghdad."
+            },
+            {
+              "id": "balasagun",
+              "lon": 75.25,
+              "lat": 42.75,
+              "radiusKm": 120,
+              "prompt": "Find Balasagun, in the heart of the map."
+            },
+            {
+              "id": "istanbul",
+              "lon": 28.98,
+              "lat": 41.01,
+              "radiusKm": 150,
+              "prompt": "Find Istanbul and the Millet Library."
+            }
+          ]
+        }
+      },
+      {
         "id": 9,
         "type": "quiz",
         "title": "Knowledge Check",

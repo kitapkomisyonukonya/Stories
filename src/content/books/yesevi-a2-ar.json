@@ -1192,6 +1192,268 @@
         }
       },
       {
+        "id": 101,
+        "type": "map",
+        "title": "Ahmed Yesevî’s Turkestan",
+        "subtitle": "Map · Chapters 1–8",
+        "content": "",
+        "map": {
+          "baseMap": "centralAsia",
+          "home": {
+            "west": 52,
+            "east": 88,
+            "south": 35,
+            "north": 48
+          },
+          "overlays": [],
+          "features": {
+            "timeSlider": true,
+            "tour": true,
+            "challenge": true,
+            "classroom": true
+          },
+          "time": {
+            "start": 1,
+            "lastYear": 6,
+            "birth": 1,
+            "mode": "stages"
+          },
+          "legend": {},
+          "routes": [],
+          "places": [
+            {
+              "id": "eastTurkestan",
+              "entityId": "yesevi-a-east-turkestan",
+              "lon": 81,
+              "lat": 40.5,
+              "icon": "tent",
+              "tone": "place",
+              "areaRadiusKm": 380,
+              "labelSide": "bottom",
+              "name": "East Turkestan",
+              "kind": "Land",
+              "text": "Historians say that Ahmed Yesevî was born in East Turkestan in the second half of the 11th century.",
+              "teacherNote": "Chapter 2."
+            },
+            {
+              "id": "yesi",
+              "entityId": "yesevi-a-yesi",
+              "lon": 68.27,
+              "lat": 43.3,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "right",
+              "name": "Yesi",
+              "kind": "City",
+              "text": "Ahmed Yesevî moved to Yesi and studied with Arslan Baba. Later, he returned to Yesi and guided people there until he died in 1166.",
+              "teacherNote": "Chapter 2. Today the city is called Turkestan, in Kazakhstan.",
+              "question": "When did Ahmed Yesevî die?"
+            },
+            {
+              "id": "bukhara",
+              "entityId": "yesevi-a-bukhara",
+              "lon": 64.42,
+              "lat": 39.77,
+              "icon": "dome",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Bukhara",
+              "kind": "City",
+              "text": "Some time after Arslan Baba’s death, Ahmed Yesevî traveled to Bukhara.",
+              "teacherNote": "Chapter 2. Today, Bukhara is a famous city in Uzbekistan."
+            },
+            {
+              "id": "tashkent",
+              "entityId": "yesevi-a-tashkent",
+              "lon": 69.24,
+              "lat": 41.3,
+              "icon": "city",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "Tashkent",
+              "kind": "City",
+              "text": "Ahmed Yesevî became famous among the Turkic people near Tashkent and along the Syr Darya River.",
+              "teacherNote": "Chapter 3.",
+              "question": "Where did Ahmed Yesevî become famous?"
+            },
+            {
+              "id": "syrDarya",
+              "entityId": "yesevi-a-syr-darya",
+              "lon": 65.3,
+              "lat": 44.8,
+              "icon": "waves",
+              "tone": "place",
+              "labelSide": "left",
+              "name": "The Syr Darya River",
+              "kind": "River",
+              "text": "Turkic people along the Syr Darya River knew Ahmed Yesevî well.",
+              "teacherNote": "Chapter 3."
+            },
+            {
+              "id": "khwarazm",
+              "entityId": "yesevi-a-khwarazm",
+              "lon": 60.5,
+              "lat": 41.5,
+              "icon": "palm",
+              "tone": "place",
+              "areaRadiusKm": 180,
+              "labelSide": "left",
+              "name": "Khwarazm",
+              "kind": "Land",
+              "text": "After his Sufi education, Hakîm Ata left the Yesi region and moved to Khwarazm.",
+              "teacherNote": "Chapter 7. Like his master, he wrote poems in Turkish.",
+              "question": "What did Hakîm Ata write?"
+            },
+            {
+              "id": "anatolia",
+              "entityId": "yesevi-a-anatolia",
+              "lon": 33.5,
+              "lat": 39.2,
+              "icon": "mountain",
+              "tone": "place",
+              "areaRadiusKm": 400,
+              "labelSide": "bottom",
+              "name": "Anatolia",
+              "kind": "Land",
+              "text": "Turkic people in many places, from Anatolia to the Balkans, deeply love Ahmed Yesevî.",
+              "teacherNote": "Chapter 5."
+            }
+          ],
+          "towns": [],
+          "seas": [
+            {
+              "id": "aral",
+              "lon": 60,
+              "lat": 45.2,
+              "name": "Aral Sea"
+            },
+            {
+              "id": "caspian",
+              "lon": 51,
+              "lat": 41.5,
+              "name": "Caspian Sea"
+            }
+          ],
+          "timeline": [
+            {
+              "year": 1,
+              "chapter": 2,
+              "placeId": "eastTurkestan",
+              "camera": {
+                "lon": 80,
+                "lat": 40.5,
+                "zoom": 1.8
+              },
+              "scene": {
+                "kind": "dawn",
+                "placeId": "eastTurkestan"
+              },
+              "label": "Born in East Turkestan"
+            },
+            {
+              "year": 2,
+              "chapter": 2,
+              "placeId": "yesi",
+              "camera": {
+                "lon": 68.5,
+                "lat": 43,
+                "zoom": 2.4
+              },
+              "label": "Yesi and Arslan Baba"
+            },
+            {
+              "year": 3,
+              "chapter": 2,
+              "placeId": "bukhara",
+              "camera": {
+                "lon": 65,
+                "lat": 40.3,
+                "zoom": 2.4
+              },
+              "label": "Bukhara"
+            },
+            {
+              "year": 4,
+              "chapter": 3,
+              "placeId": "tashkent",
+              "camera": {
+                "lon": 68,
+                "lat": 42.4,
+                "zoom": 2.2
+              },
+              "scene": {
+                "kind": "radiate",
+                "placeId": "yesi",
+                "reach": [
+                  "tashkent",
+                  "syrDarya"
+                ]
+              },
+              "label": "Famous near Tashkent"
+            },
+            {
+              "year": 5,
+              "chapter": 5,
+              "placeId": "anatolia",
+              "camera": {
+                "lon": 45,
+                "lat": 40,
+                "zoom": 1
+              },
+              "scene": {
+                "kind": "journey",
+                "fromId": "yesi",
+                "toIds": [
+                  "anatolia"
+                ]
+              },
+              "label": "From Anatolia to the Balkans"
+            },
+            {
+              "year": 6,
+              "chapter": 7,
+              "placeId": "khwarazm",
+              "camera": {
+                "lon": 61,
+                "lat": 41.5,
+                "zoom": 2.2
+              },
+              "label": "Hakîm Ata"
+            }
+          ],
+          "challenge": [
+            {
+              "id": "yesi",
+              "lon": 68.27,
+              "lat": 43.3,
+              "radiusKm": 120,
+              "prompt": "Find Yesi."
+            },
+            {
+              "id": "bukhara",
+              "lon": 64.42,
+              "lat": 39.77,
+              "radiusKm": 120,
+              "prompt": "Find Bukhara."
+            },
+            {
+              "id": "tashkent",
+              "lon": 69.24,
+              "lat": 41.3,
+              "radiusKm": 110,
+              "prompt": "Find Tashkent."
+            },
+            {
+              "id": "khwarazm",
+              "lon": 60.5,
+              "lat": 41.5,
+              "radiusKm": 220,
+              "prompt": "Find Khwarazm."
+            }
+          ]
+        }
+      },
+      {
         "id": 9,
         "type": "quiz",
         "title": "Knowledge Check",
