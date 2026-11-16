@@ -23,15 +23,25 @@ import yunusEmreCover from '../../assets/images/yunus_emre_cover.webp';
 import yunusEmreCoverSmall from '../../assets/images/yunus_emre_cover_sm.webp';
 import ibnJubayrCover from '../../assets/images/ibn_jubayr_cover.webp';
 import ibnJubayrCoverSmall from '../../assets/images/ibn_jubayr_cover_sm.webp';
+import gevherNesibeCover from '../../assets/images/gevher_nesibe_cover.webp';
+import gevherNesibeCoverSmall from '../../assets/images/gevher_nesibe_cover_sm.webp';
+import ahilikCover from '../../assets/images/ahilik_cover.webp';
+import ahilikCoverSmall from '../../assets/images/ahilik_cover_sm.webp';
+import kasgarliCover from '../../assets/images/kasgarli_cover.webp';
+import kasgarliCoverSmall from '../../assets/images/kasgarli_cover_sm.webp';
+import yeseviCover from '../../assets/images/yesevi_cover.webp';
+import yeseviCoverSmall from '../../assets/images/yesevi_cover_sm.webp';
+import nuhCover from '../../assets/images/nuh_cover.webp';
+import nuhCoverSmall from '../../assets/images/nuh_cover_sm.webp';
+import greenDealCover from '../../assets/images/green_deal_cover.webp';
+import greenDealCoverSmall from '../../assets/images/green_deal_cover_sm.webp';
+import zeroWasteCover from '../../assets/images/zero_waste_cover.webp';
+import zeroWasteCoverSmall from '../../assets/images/zero_waste_cover_sm.webp';
 import prophetsIcon from '../../assets/images/prophets_icon.webp';
 import civilizationIcon from '../../assets/images/civilization_icon.webp';
 import scholarsIcon from '../../assets/images/scholars_icon.webp';
 // Temporary mark until the drawn Our World Today emblem arrives.
 import todayIcon from '../../assets/images/today_icon.webp';
-// Temporary Green Deal cover until the drawn one arrives.
-// Our World Today books share the collection emblem as a temporary cover until their own pictures are drawn.
-import todayCoverTemp from '../../assets/images/today_cover_temp.webp';
-import todayCoverTempSmall from '../../assets/images/today_cover_temp_sm.webp';
 
 export type StoryCollectionId = 'prophets' | 'history' | 'turkish' | 'today';
 
@@ -137,9 +147,13 @@ const covers: Record<string, { image: string; imageSmall?: string }> = {
   mecca: { image: meccaCover, imageSmall: meccaCoverSmall },
   ibnJubayr: { image: ibnJubayrCover, imageSmall: ibnJubayrCoverSmall },
   yunusEmre: { image: yunusEmreCover, imageSmall: yunusEmreCoverSmall },
-  gevherNesibe: { image: scholarsIcon },
-  greenDeal: { image: todayCoverTemp, imageSmall: todayCoverTempSmall },
-  zeroWaste: { image: todayCoverTemp, imageSmall: todayCoverTempSmall },
+  gevherNesibe: { image: gevherNesibeCover, imageSmall: gevherNesibeCoverSmall },
+  ahilik: { image: ahilikCover, imageSmall: ahilikCoverSmall },
+  kasgarli: { image: kasgarliCover, imageSmall: kasgarliCoverSmall },
+  yesevi: { image: yeseviCover, imageSmall: yeseviCoverSmall },
+  nuh: { image: nuhCover, imageSmall: nuhCoverSmall },
+  greenDeal: { image: greenDealCover, imageSmall: greenDealCoverSmall },
+  zeroWaste: { image: zeroWasteCover, imageSmall: zeroWasteCoverSmall },
 };
 
 /** A book's cover picture (the content panel shows it too); a book without one gets the collection picture. */

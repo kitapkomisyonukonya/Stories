@@ -2,7 +2,8 @@ import type { Level } from '../../types';
 import type { StoryId } from '../content/contracts';
 import type { BookAssetManifest } from './contracts';
 
-const manifestKey = (storyId: StoryId, level: Level) => `${storyId}:${level}` as const;
+// Green Deal and Zero Waste are outside StoryId; their pictures load from Storage the same way.
+const manifestKey = (storyId: StoryId | 'greenDeal' | 'zeroWaste', level: Level) => `${storyId}:${level}` as const;
 const media = (sharedImages: readonly string[], englishAudio: readonly string[], arabicAudio: readonly string[]): BookAssetManifest => ({
   sharedImages: { kind: 'image', paths: sharedImages },
   englishAudio: { kind: 'audio', paths: englishAudio },
@@ -141,6 +142,12 @@ export const storageManifests: Record<string, BookAssetManifest> = {
   [manifestKey('nuh', 'A2')]: media(['nuh/a2/images'], ['nuh/a2/audio'], []),
   [manifestKey('nuh', 'B1')]: media(['nuh/b1/images'], ['nuh/b1/audio'], []),
   [manifestKey('nuh', 'B2')]: media(['nuh/b2/images'], ['nuh/b2/audio'], []),
+  [manifestKey('greenDeal', 'A2')]: media(['greenDeal/a2/images'], ['greenDeal/a2/audio'], []),
+  [manifestKey('greenDeal', 'B1')]: media(['greenDeal/b1/images'], ['greenDeal/b1/audio'], []),
+  [manifestKey('greenDeal', 'B2')]: media(['greenDeal/b2/images'], ['greenDeal/b2/audio'], []),
+  [manifestKey('zeroWaste', 'A2')]: media(['zeroWaste/a2/images'], ['zeroWaste/a2/audio'], []),
+  [manifestKey('zeroWaste', 'B1')]: media(['zeroWaste/b1/images'], ['zeroWaste/b1/audio'], []),
+  [manifestKey('zeroWaste', 'B2')]: media(['zeroWaste/b2/images'], ['zeroWaste/b2/audio'], []),
 
   [manifestKey('yunusEmre', 'A2')]: media(
     [
