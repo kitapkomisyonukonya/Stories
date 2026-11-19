@@ -3,9 +3,9 @@ import { medFeature, medPoint } from '../mediterraneanMap';
 import type { EntityBookSet } from './index';
 import type { HistoricalEntity } from '../types';
 
-// Places & People cards for The Gevher Nesibe Hospital (A2). The book is
-// English only for now: the Arabic copy repeats the English until the Arabic
-// edition arrives, then it is written here. Copy never goes beyond the story.
+// Places & People cards for The Gevher Nesibe Hospital (A1–B2). The Arabic words
+// of the cards are in src/content/entityCards.json, with the names as the Arabic
+// editions write them. Copy never goes beyond the story.
 // Pictures: Storage places-people/Gevher_Nesibe/ (shared ones from Yunus/).
 
 const CITY_ZOOM = 1.8;

@@ -6,47 +6,39 @@
  "collection": "turkish",
  "book": {
   "id": "gevherNesibe-turkish-a1-ar",
-  "title": "The Gevher Nesibe Hospital: A Princess and Her Last Wish (A1)",
+  "title": "مُسْتَشْفَى كَوْهَر نَسِيبَة: أَمِيرَةٌ وَأُمْنِيَتُهَا الْأَخِيرَةُ (A1)",
   "level": "A1",
-  "baseFontSize": 13,
+  "baseFontSize": 14,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "A Very Old Hospital",
-    "content": "Kayseri is a city in Anatolia. There is a very old building there. It is the Gevher Nesibe Hospital and Medical School. It is the oldest Seljuk hospital in Anatolia. People built it in 1205–1206.\n\nThis building was both a hospital and a school. Medical students studied and practiced here. It was the first place in the world with both. In Europe, similar schools started more than 300 years later. Today, this old building is the Museum of the Seljuk Civilization. We can visit it.",
+    "title": "مُسْتَشْفًى قَدِيمٌ جِدًّا",
+    "content": "قَيْصَرِيَّة مَدِينَةٌ فِي الأَنَاضُول. يُوجَدُ فِيهَا مَبْنًى قَدِيمٌ جِدًّا. إِنَّهُ مُسْتَشْفَى كَوْهَر نَسِيبَة وَمَدْرَسَةُ الطِّبّ. وَهُوَ أَقْدَمُ مُسْتَشْفًى سَلْجُوقِيٍّ فِي الأَنَاضُول. بَنَى النَّاسُ هَذَا المَبْنَى بَيْنَ عَامَيْ ١٢٠٥ وَ١٢٠٦.\n\nكَانَ هَذَا المَبْنَى مُسْتَشْفًى وَمَدْرَسَةً مَعًا. كَانَ طُلَّابُ الطِّبِّ يَدْرُسُونَ وَيَتَدَرَّبُونَ هُنَا. وَكَانَ أَوَّلَ مَكَانٍ فِي العَالَمِ يَجْمَعُ بَيْنَ المُسْتَشْفَى وَالمَدْرَسَةِ. فِي أُورُوبَّا، بَدَأَتْ مَدَارِسُ مُشَابِهَةٌ بَعْدَ أَكْثَرَ مِنْ ٣٠٠ سَنَةٍ. وَاليَوْمَ، هَذَا المَبْنَى القَدِيمُ هُوَ مَتْحَفُ الحَضَارَةِ السَّلْجُوقِيَّةِ. نَسْتَطِيعُ أَنْ نَزُورَهُ.",
     "vocabulary": [
      {
-      "word": "Kayseri",
-      "definition": "__historical_entity__:gevher-a1-kayseri"
+      "word": "المَبْنَى",
+      "definition": "بَيْتٌ أَوْ مَدْرَسَةٌ أَوْ مُسْتَشْفًى."
      },
      {
-      "word": "Anatolia",
-      "definition": "__historical_entity__:gevher-a1-anatolia"
+      "word": "المُسْتَشْفَى",
+      "definition": "مَكَانٌ لِلْمَرْضَى وَالأَطِبَّاء."
      },
      {
-      "word": "building",
-      "definition": "A house, a school or a hospital."
+      "word": "بَنَى",
+      "definition": "صَنَعَ بَيْتًا أَوْ مَبْنًى."
      },
      {
-      "word": "hospital",
-      "definition": "A place for sick people and doctors."
+      "word": "مَعًا",
+      "definition": "الِاثْنَانِ فِي الوَقْتِ نَفْسِهِ."
      },
      {
-      "word": "build",
-      "definition": "Make a house or a building."
+      "word": "مُشَابِهَةٌ",
+      "definition": "تَقْرِيبًا مِثْلُ شَيْءٍ آخَرَ."
      },
      {
-      "word": "both",
-      "definition": "The two; this one and that one."
-     },
-     {
-      "word": "similar",
-      "definition": "Almost the same."
-     },
-     {
-      "word": "museum",
-      "definition": "A building with old and interesting things."
+      "word": "مَتْحَفُ",
+      "definition": "مَبْنًى فِيهِ أَشْيَاءُ قَدِيمَةٌ وَمُثِيرَةٌ لِلِاهْتِمَام."
      }
     ],
     "hotspots": [
@@ -54,194 +46,194 @@
       "id": "h1-1",
       "x": 35,
       "y": 46,
-      "title": "Kayseri",
-      "description": "Kayseri is a city in Anatolia. The old hospital is there."
+      "title": "قَيْصَرِيَّة",
+      "description": "قَيْصَرِيَّة مَدِينَةٌ فِي الْأَنَاضُولِ. فِيهَا مَبْنًى قَدِيمٌ جِدًّا."
      },
      {
       "id": "h1-2",
       "x": 68,
       "y": 50,
-      "title": "A Museum Today",
-      "description": "Today, this old building is the Museum of the Seljuk Civilization."
+      "title": "مَتْحَفٌ الْيَوْمَ",
+      "description": "الْيَوْمَ، هَذَا الْمَبْنَى الْقَدِيمُ هُوَ مَتْحَفُ الْحَضَارَةِ السَّلْجُوقِيَّةِ. نَسْتَطِيعُ أَنْ نَزُورَهُ."
      }
     ],
     "exercises": [
      {
-      "id": "gevhernesibe-a1-quick-1",
+      "id": "gevhernesibe-a1-ar-quick-1",
       "type": "drag-drop",
-      "title": "A Very Old Hospital",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 1?",
+      "title": "مَبْنًى قَدِيمٌ جِدًّا",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا يَقُولُ الْفَصْلُ الْأَوَّلُ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "People built it in 1205–1206.",
-         "Today, the building is a museum."
+         "كَانَ الْمَبْنَى مُسْتَشْفًى وَمَدْرَسَةً مَعًا.",
+         "الْمَبْنَى الْيَوْمَ مَتْحَفٌ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "In Europe, similar schools started before it."
+         "بَنَى النَّاسُ الْمَبْنَى سَنَةَ ١٩٠٠."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "People built it in 1205–1206.",
-        "Today, the building is a museum."
+       "صَحِيحٌ": [
+        "كَانَ الْمَبْنَى مُسْتَشْفًى وَمَدْرَسَةً مَعًا.",
+        "الْمَبْنَى الْيَوْمَ مَتْحَفٌ."
        ],
-       "False": [
-        "In Europe, similar schools started before it."
+       "خَطَأٌ": [
+        "بَنَى النَّاسُ الْمَبْنَى سَنَةَ ١٩٠٠."
        ]
       },
-      "explanation": "Chapter 1 says: “People built it in 1205–1206.” “In Europe, similar schools started more than 300 years later.” “Today, this old building is the Museum of the Seljuk Civilization.”",
+      "explanation": "الفصل الأول: «بَنَى النَّاسُ هَذَا الْمَبْنَى بَيْنَ عَامَيْ ١٢٠٥ وَ١٢٠٦».",
       "feedback": {
-       "correct": "Yes! Schools in Europe started 300 years later.",
-       "incorrect": "Read the second paragraph of Chapter 1 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "gevhernesibe-a1-language-1-both",
+      "id": "gevhernesibe-a1-ar-language-1-both",
       "type": "multiple-choice",
-      "title": "Look: Both … and …",
-      "instructions": "Choose the right answer.",
-      "question": "“This building was both a hospital and a school.” What does this mean?",
+      "title": "انْظُرْ: مُسْتَشْفًى وَمَدْرَسَةً مَعًا",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«كَانَ هَذَا الْمَبْنَى مُسْتَشْفًى وَمَدْرَسَةً مَعًا.» مَا مَعْنَى «مَعًا»؟",
       "options": [
-       "It was a hospital. It was a school, too.",
-       "It was only a hospital.",
-       "It was only a school."
+       "كَانَ مُسْتَشْفًى فَقَطْ.",
+       "كَانَ الِاثْنَيْنِ فِي وَقْتٍ وَاحِدٍ.",
+       "كَانَ مَدْرَسَةً فَقَطْ."
       ],
-      "correctAnswer": 0,
-      "explanation": "Both A and B = A and B, the two of them.",
+      "correctAnswer": 1,
+      "explanation": "«مَعًا» = الاثنان في وقت واحد ومكان واحد.",
       "feedback": {
-       "correct": "Yes. It was a hospital and a school.",
-       "incorrect": "Read the second paragraph of Chapter 1 again."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "هَلْ كَانَ شَيْئًا وَاحِدًا أَمْ شَيْئَيْنِ؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-1-practise",
+      "id": "gevhernesibe-a1-ar-language-1-kana",
       "type": "choose-form",
-      "title": "Practise: There Is, It Is",
-      "instructions": "Choose the right words.",
-      "question": "Which words go in the gap?",
+      "title": "تَدَرَّبْ: كَانَ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ صَحِيحَةٌ؟",
       "formChoices": [
        {
-        "sentence": "[choice] a very old building in Kayseri.",
+        "sentence": "[choice] الْمَبْنَى مُسْتَشْفًى.",
         "options": [
-         "There is",
-         "It is"
+         "كَانَ",
+         "كَانَتْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "[choice] the oldest Seljuk hospital in Anatolia.",
+        "sentence": "[choice] قَيْصَرِيَّة مَدِينَةً كَبِيرَةً.",
         "options": [
-         "It is",
-         "There is"
+         "كَانَتْ",
+         "كَانَ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] الطُّلَّابُ يَدْرُسُونَ هُنَا.",
+        "options": [
+         "كَانَ",
+         "كَانُوا"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "There is = a thing is in a place. It is = we talk about that thing again.",
+      "explanation": "«كَانَ» قبل المذكر، و«كَانَتْ» قبل المؤنث. وفي أول الجملة نقول «كَانَ الطُّلَّابُ».",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the first paragraph of Chapter 1."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مُذَكَّرٌ أَمْ مُؤَنَّثٌ؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-1-say-it",
+      "id": "gevhernesibe-a1-ar-language-1-say-it",
       "type": "reflection",
-      "title": "Say It: My City",
-      "instructions": "Tell your partner about your city.",
-      "question": "What is in your city?",
+      "title": "قُلْهَا: مَبْنًى قَدِيمٌ",
+      "instructions": "قُلْ ثَلَاثَ جُمَلٍ عَنْ مَبْنًى قَدِيمٍ.",
+      "question": "مَاذَا تَعْرِفُ عَنْ مَبْنًى قَدِيمٍ؟",
       "correctAnswer": null,
-      "explanation": "Use there is and it is.",
+      "explanation": "استعمل «كَانَ» للماضي و«الْيَوْمَ» للحاضر.",
       "feedback": {
-       "correct": "Say three sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“There is a … in my city.”",
-        "mode": "Pair",
-        "example": "There is a very old mosque in my city."
-       },
-       {
-        "question": "“It is …”",
-        "mode": "Pair",
-        "example": "It is very big."
-       },
-       {
-        "question": "“We can visit …”",
+        "question": "«فِي مَدِينَتِي مَبْنًى قَدِيمٌ: …»",
         "mode": "Individual",
-        "example": "We can visit the museum."
+        "example": "فِي مَدِينَتِي مَبْنًى قَدِيمٌ: مَسْجِدٌ."
+       },
+       {
+        "question": "«كَانَ … »",
+        "mode": "Individual",
+        "example": "كَانَ مَدْرَسَةً."
+       },
+       {
+        "question": "«الْيَوْمَ هُوَ …»",
+        "mode": "Pair",
+        "example": "الْيَوْمَ هُوَ مَتْحَفٌ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What was this old building?",
+     "question": "خَمِّنْ أَوَّلًا: مَا هَذَا الْمَبْنَى الْقَدِيمُ؟",
      "options": [
-      "a hospital and a school",
-      "a shop",
-      "a palace"
+      "قَصْرٌ",
+      "مُسْتَشْفًى وَمَدْرَسَةٌ",
+      "سُوقٌ"
      ],
-     "answer": 0,
-     "quote": "This building was both a hospital and a school."
+     "answer": 1,
+     "quote": "كَانَ هَذَا الْمَبْنَى مُسْتَشْفًى وَمَدْرَسَةً مَعًا."
     },
     "iCan": [
-     "I can tell about the old hospital in Kayseri.",
-     "I can understand both … and ….",
-     "I can use there is and it is."
+     "أَسْتَطِيعُ أَنْ أَقُولَ أَيْنَ الْمُسْتَشْفَى.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ كَانَ وَكَانَتْ.",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنْ مَبْنًى قَدِيمٍ."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "A Princess",
-    "content": "Gevher Nesibe was a Seljuk princess. Her father was Sultan Kılıçarslan II. Her brother was Sultan Gıyâseddin Keyhusrev I.\n\nPeople tell a famous story about her. When she was young, she loved a young commander and wanted to marry him. But her brother did not agree. He sent the young man to a war, far away. The commander died there. Gevher Nesibe was very sad. Soon, she became very sick. At that time, there was no good hospital in Kayseri.",
+    "title": "أَمِيرَة",
+    "content": "كَانَتْ كَوْهَر نَسِيبَة أَمِيرَةً سَلْجُوقِيَّةً. كَانَ وَالِدُهَا السُّلْطَانَ قِلِج أَرْسَلَان الثَّانِي. وَكَانَ أَخُوهَا السُّلْطَانَ غِيَاثَ الدِّينِ كَيْخُسْرُو الأَوَّل.\n\nيَحْكِي النَّاسُ قِصَّةً مَشْهُورَةً عَنْهَا. عِنْدَمَا كَانَتْ شَابَّةً، أَحَبَّتْ قَائِدًا شَابًّا وَأَرَادَتْ أَنْ تَتَزَوَّجَهُ. لَكِنَّ أَخَاهَا لَمْ يُوَافِقْ. أَرْسَلَ الشَّابَّ إِلَى حَرْبٍ بَعِيدَةٍ. وَمَاتَ القَائِدُ هُنَاكَ. حَزِنَتْ كَوْهَر نَسِيبَة كَثِيرًا. وَبَعْدَ قَلِيلٍ، مَرِضَتْ مَرَضًا شَدِيدًا. فِي ذَلِكَ الوَقْتِ، لَمْ يَكُنْ فِي قَيْصَرِيَّة مُسْتَشْفًى جَيِّدٌ.",
     "vocabulary": [
      {
-      "word": "Kılıçarslan II",
-      "definition": "__historical_entity__:gevher-a1-kilicarslan-ii"
+      "word": "أَمِيرَةً",
+      "definition": "ابْنَةُ المَلِكِ أَوِ السُّلْطَان."
      },
      {
-      "word": "Gıyâseddin Keyhusrev I",
-      "definition": "__historical_entity__:gevher-a1-giyaseddin-keyhusrev-i"
+      "word": "قَائِدًا",
+      "definition": "قَائِدُ الجُنُود."
      },
      {
-      "word": "princess",
-      "definition": "The daughter of a king or sultan."
+      "word": "تَتَزَوَّجَهُ",
+      "definition": "يَصِيرُ زَوْجًا وَزَوْجَةً."
      },
      {
-      "word": "commander",
-      "definition": "A leader of soldiers."
+      "word": "يُوَافِقْ",
+      "definition": "يَقُولُ: «نَعَمْ»."
      },
      {
-      "word": "marry",
-      "definition": "Be husband and wife."
+      "word": "حَرْبٍ",
+      "definition": "قِتَالٌ كَبِيرٌ بَيْنَ بَلَدَيْن."
      },
      {
-      "word": "agree",
-      "definition": "Say yes; think the same."
+      "word": "بَعِيدَةٍ",
+      "definition": "لَيْسَتْ قَرِيبَةً."
      },
      {
-      "word": "war",
-      "definition": "A big fight between two countries."
-     },
-     {
-      "word": "far away",
-      "definition": "In a place a long way from here."
-     },
-     {
-      "word": "sick",
-      "definition": "Not well; with an illness."
+      "word": "مَرِضَتْ",
+      "definition": "لَمْ تَكُنْ بِصِحَّةٍ جَيِّدَةٍ؛ صَارَ عِنْدَهَا مَرَض."
      }
     ],
     "hotspots": [
@@ -249,40 +241,40 @@
       "id": "h2-1",
       "x": 35,
       "y": 46,
-      "title": "A Seljuk Family",
-      "description": "Her father was Sultan Kılıçarslan II. Her brother was Sultan Gıyâseddin Keyhusrev I."
+      "title": "عَائِلَةٌ سَلْجُوقِيَّةٌ",
+      "description": "كَانَ وَالِدُهَا السُّلْطَانَ قِلِج أَرْسَلَان الثَّانِي. وَكَانَ أَخُوهَا السُّلْطَانَ غِيَاثَ الدِّينِ كَيْخُسْرُو الْأَوَّلَ."
      },
      {
       "id": "h2-2",
       "x": 68,
       "y": 50,
-      "title": "A Sad Story",
-      "description": "The young commander died in a war, far away. Gevher Nesibe was very sad."
+      "title": "قِصَّةٌ حَزِينَةٌ",
+      "description": "يَحْكِي النَّاسُ قِصَّةً مَشْهُورَةً عَنْهَا. مَاتَ الْقَائِدُ فِي الْحَرْبِ، وَحَزِنَتْ كَوْهَر نَسِيبَة كَثِيرًا."
      }
     ],
     "exercises": [
      {
-      "id": "gevhernesibe-a1-quick-2",
+      "id": "gevhernesibe-a1-ar-quick-2",
       "type": "sequencing",
-      "title": "A Princess",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "قِصَّةٌ حَزِينَةٌ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Gevher Nesibe loved a young commander."
+        "text": "أَحَبَّتْ قَائِدًا شَابًّا."
        },
        {
         "id": "2",
-        "text": "Gevher Nesibe’s brother sent the young man to a war."
+        "text": "أَرْسَلَ أَخُوهَا الشَّابَّ إِلَى حَرْبٍ بَعِيدَةٍ."
        },
        {
         "id": "3",
-        "text": "The commander died in the war."
+        "text": "مَاتَ الْقَائِدُ هُنَاكَ."
        },
        {
         "id": "4",
-        "text": "Gevher Nesibe became very sick."
+        "text": "مَرِضَتْ كَوْهَر نَسِيبَة مَرَضًا شَدِيدًا."
        }
       ],
       "correctAnswer": [
@@ -291,148 +283,153 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 2: She loved a commander → her brother sent him to a war → he died → she became sick.",
+      "explanation": "الترتيب في الفقرة الثانية من الفصل.",
       "feedback": {
-       "correct": "Great! You put the story in order.",
-       "incorrect": "Read the second paragraph of Chapter 2 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "gevhernesibe-a1-language-2-family",
+      "id": "gevhernesibe-a1-ar-language-2-family",
       "type": "matching",
-      "title": "Look: Her Family",
-      "instructions": "Match the two parts.",
-      "question": "Who was who?",
+      "title": "انْظُرْ: الْعَائِلَةُ",
+      "instructions": "صِلِ الْجُمْلَةَ بِالشَّخْصِ.",
+      "question": "مَنْ هُوَ؟",
       "matchingHeadings": {
-       "left": "Person",
-       "right": "Who?"
+       "left": "الْجُمْلَةُ",
+       "right": "الشَّخْصُ"
       },
       "matchingPairs": [
        {
-        "left": "Kılıçarslan II",
-        "right": "her father"
+        "left": "كَانَ وَالِدُهَا…",
+        "right": "قِلِج أَرْسَلَان الثَّانِي"
        },
        {
-        "left": "Gıyâseddin Keyhusrev I",
-        "right": "her brother"
+        "left": "كَانَ أَخُوهَا…",
+        "right": "غِيَاثُ الدِّينِ كَيْخُسْرُو الْأَوَّلُ"
        },
        {
-        "left": "Gevher Nesibe",
-        "right": "a Seljuk princess"
+        "left": "أَحَبَّتْ…",
+        "right": "قَائِدًا شَابًّا"
        }
       ],
       "correctAnswer": {
-       "Kılıçarslan II": "her father",
-       "Gıyâseddin Keyhusrev I": "her brother",
-       "Gevher Nesibe": "a Seljuk princess"
+       "كَانَ وَالِدُهَا…": "قِلِج أَرْسَلَان الثَّانِي",
+       "كَانَ أَخُوهَا…": "غِيَاثُ الدِّينِ كَيْخُسْرُو الْأَوَّلُ",
+       "أَحَبَّتْ…": "قَائِدًا شَابًّا"
       },
-      "explanation": "“Her father was Sultan Kılıçarslan II. Her brother was Sultan Gıyâseddin Keyhusrev I.”",
+      "explanation": "«وَالِدُهَا» = أبوها، و«أَخُوهَا» = ابن أبيها وأمّها.",
       "feedback": {
-       "correct": "Good. You know her family.",
-       "incorrect": "Read the first paragraph of Chapter 2."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى."
       }
      },
      {
-      "id": "gevhernesibe-a1-language-2-practise",
+      "id": "gevhernesibe-a1-ar-language-2-she",
       "type": "choose-form",
-      "title": "Practise: Sent, Died, Became",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: هِيَ فِي الْمَاضِي",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ صَحِيحَةٌ؟",
       "formChoices": [
        {
-        "sentence": "He [choice] the young man to a war.",
+        "sentence": "[choice] كَوْهَر نَسِيبَة كَثِيرًا.",
         "options": [
-         "sent",
-         "sends"
+         "حَزِنَتْ",
+         "حَزِنَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The commander [choice] there.",
+        "sentence": "[choice] الْقَائِدُ هُنَاكَ.",
         "options": [
-         "died",
-         "dies"
+         "مَاتَ",
+         "مَاتَتْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Soon, she [choice] very sick.",
+        "sentence": "وَبَعْدَ قَلِيلٍ، [choice] مَرَضًا شَدِيدًا.",
         "options": [
-         "became",
-         "becomes"
+         "مَرِضَتْ",
+         "مَرِضَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Send → sent, become → became: they change. Die → died: it adds -d.",
+      "explanation": "مع «هِيَ» نزيد «ـتْ» في آخر الفعل الماضي: حَزِنَتْ، مَرِضَتْ. ومع «هُوَ» لا نزيد: مَاتَ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 2 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "هِيَ أَمْ هُوَ؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-2-write-it",
+      "id": "gevhernesibe-a1-ar-language-2-say-it",
       "type": "reflection",
-      "title": "Write It: My Family",
-      "instructions": "Write about your family.",
-      "question": "Who is in your family?",
+      "title": "قُلْهَا: عَائِلَتِي",
+      "instructions": "قُلْ ثَلَاثَ جُمَلٍ عَنْ عَائِلَتِكَ.",
+      "question": "مَنْ فِي عَائِلَتِكَ؟",
       "correctAnswer": null,
-      "explanation": "Use my father, my brother, my sister.",
+      "explanation": "استعمل «وَالِدِي، أَخِي، أُخْتِي».",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“My father is …”",
+        "question": "«وَالِدِي …»",
         "mode": "Individual",
-        "example": "My father is a teacher."
+        "example": "وَالِدِي مُعَلِّمٌ."
        },
        {
-        "question": "“My brother / sister is …”",
+        "question": "«أَخِي / أُخْتِي …»",
         "mode": "Individual",
-        "example": "My sister is ten years old."
+        "example": "أُخْتِي طَالِبَةٌ."
+       },
+       {
+        "question": "«أُحِبُّ …»",
+        "mode": "Pair",
+        "example": "أُحِبُّ عَائِلَتِي."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Who was Gevher Nesibe?",
+     "question": "خَمِّنْ أَوَّلًا: مَنْ كَانَتْ كَوْهَر نَسِيبَة؟",
      "options": [
-      "a Seljuk princess",
-      "a doctor",
-      "a teacher"
+      "طَبِيبَةً",
+      "أَمِيرَةً سَلْجُوقِيَّةً",
+      "مُعَلِّمَةً"
      ],
-     "answer": 0,
-     "quote": "Gevher Nesibe was a Seljuk princess."
+     "answer": 1,
+     "quote": "كَانَتْ كَوْهَر نَسِيبَة أَمِيرَةً سَلْجُوقِيَّةً."
     },
     "iCan": [
-     "I can tell about Gevher Nesibe and her family.",
-     "I can use sent, died and became.",
-     "I can write about my family."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَنْ كَانَتْ كَوْهَر نَسِيبَة.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ الْمَاضِيَ مَعَ «هِيَ».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنْ عَائِلَتِي."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "Her Last Wish",
-    "content": "The doctors could not help Gevher Nesibe. Her brother was very sad. He said, “Please tell me your last wish.”\n\nShe said, “Please use my money to build a hospital. Sick people can get help there, and good doctors can teach students. Please do not take money from anyone. Make it free for everyone.”\n\nGevher Nesibe died at a young age. But her wish did not die with her.",
+    "title": "أُمْنِيَتُهَا الأَخِيرَة",
+    "content": "لَمْ يَسْتَطِعِ الأَطِبَّاءُ مُسَاعَدَةَ كَوْهَر نَسِيبَة. كَانَ أَخُوهَا حَزِينًا جِدًّا. قَالَ: «مِنْ فَضْلِكِ، أَخْبِرِينِي بِأُمْنِيَتِكِ الأَخِيرَةِ».\n\nقَالَتْ: «مِنْ فَضْلِكَ، اسْتَخْدِمْ مَالِي لِبِنَاءِ مُسْتَشْفًى. يَسْتَطِيعُ المَرْضَى الحُصُولَ عَلَى المُسَاعَدَةِ هُنَاكَ، وَيَسْتَطِيعُ الأَطِبَّاءُ الجَيِّدُونَ تَعْلِيمَ الطُّلَّابِ. مِنْ فَضْلِكَ، لَا تَأْخُذْ مَالًا مِنْ أَحَدٍ. اجْعَلْهُ مَجَّانِيًّا لِلْجَمِيعِ».\n\nمَاتَتْ كَوْهَر نَسِيبَة وَهِيَ صَغِيرَةُ السِّنِّ. لَكِنَّ أُمْنِيَتَهَا لَمْ تَمُتْ مَعَهَا.",
     "vocabulary": [
      {
-      "word": "wish",
-      "definition": "A thing you really want."
+      "word": "أُمْنِيَتَهَا",
+      "definition": "شَيْءٌ تُرِيدُهُ كَثِيرًا."
      },
      {
-      "word": "get help",
-      "definition": "Find a person who helps you."
+      "word": "الحُصُولَ عَلَى المُسَاعَدَةِ",
+      "definition": "أَنْ يَجِدَ شَخْصًا يُسَاعِدُهُ."
      },
      {
-      "word": "free",
-      "definition": "You do not pay money for it."
+      "word": "مَجَّانِيًّا",
+      "definition": "لَا تَدْفَعُ مَالًا لِأَجْلِهِ."
      }
     ],
     "hotspots": [
@@ -440,145 +437,150 @@
       "id": "h3-1",
       "x": 35,
       "y": 46,
-      "title": "Her Last Wish",
-      "description": "Gevher Nesibe said, “Please use my money to build a hospital.”"
+      "title": "أُمْنِيَتُهَا الْأَخِيرَةُ",
+      "description": "قَالَتْ: «اسْتَخْدِمْ مَالِي لِبِنَاءِ مُسْتَشْفًى»."
      },
      {
       "id": "h3-2",
       "x": 68,
       "y": 50,
-      "title": "Free for Everyone",
-      "description": "“Please do not take money from anyone. Make it free for everyone.”"
+      "title": "مَجَّانِيٌّ لِلْجَمِيعِ",
+      "description": "قَالَتْ: «لَا تَأْخُذْ مَالًا مِنْ أَحَدٍ. اجْعَلْهُ مَجَّانِيًّا لِلْجَمِيعِ»."
      }
     ],
     "exercises": [
      {
-      "id": "gevhernesibe-a1-quick-3",
+      "id": "gevhernesibe-a1-ar-quick-3",
       "type": "multiple-choice",
-      "title": "Her Last Wish",
-      "instructions": "Choose the best answer.",
-      "question": "Who can pay money at the hospital?",
+      "title": "الْأُمْنِيَةُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "مَا أُمْنِيَةُ كَوْهَر نَسِيبَة الْأَخِيرَةُ؟",
       "options": [
-       "nobody; it is free",
-       "only rich people",
-       "only doctors"
+       "قَصْرٌ جَمِيلٌ",
+       "مُسْتَشْفًى مَجَّانِيٌّ لِلْجَمِيعِ",
+       "مَالٌ لِأَخِيهَا"
       ],
-      "correctAnswer": 0,
-      "explanation": "Chapter 3: “Please do not take money from anyone. Make it free for everyone.”",
+      "correctAnswer": 1,
+      "explanation": "الفصل الثالث: «اسْتَخْدِمْ مَالِي لِبِنَاءِ مُسْتَشْفًى… اجْعَلْهُ مَجَّانِيًّا لِلْجَمِيعِ».",
       "feedback": {
-       "correct": "Yes! The hospital is free for everyone.",
-       "incorrect": "Read the second paragraph of Chapter 3 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأْ كَلَامَهَا مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "gevhernesibe-a1-language-3-please",
+      "id": "gevhernesibe-a1-ar-language-3-please",
       "type": "multiple-choice",
-      "title": "Look: Please + Verb",
-      "instructions": "Choose the right answer.",
-      "question": "“Please use my money to build a hospital.” What is this sentence?",
+      "title": "انْظُرْ: مِنْ فَضْلِكَ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«مِنْ فَضْلِكَ، اسْتَخْدِمْ مَالِي.» لِمَاذَا قَالَتْ «مِنْ فَضْلِكَ»؟",
       "options": [
-       "a polite request",
-       "a question",
-       "a story about the past"
+       "لِتَطْلُبَ بِأَدَبٍ",
+       "لِتَقُولَ «شُكْرًا»",
+       "لِتَسْأَلَ عَنِ الْوَقْتِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Please + verb asks for something in a polite way: Please use … Please tell me …",
+      "explanation": "«مِنْ فَضْلِكَ» نقولها حين نطلب شيئًا بأدب. وبعدها فعل أمر: اسْتَخْدِمْ، اجْعَلْ.",
       "feedback": {
-       "correct": "Yes. It is a polite request.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "مَاذَا تَقُولُ حِينَ تَطْلُبُ شَيْئًا؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-3-practise",
+      "id": "gevhernesibe-a1-ar-language-3-practise",
       "type": "word-bank",
-      "title": "Practise: Her Words",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What did she say?",
-      "fillBlanksText": "Please [blank] my money to build a hospital. Sick people [blank] get help there. Please do [blank] take money from anyone.",
+      "title": "تَدَرَّبْ: افْعَلْ وَلَا تَفْعَلْ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "أَيُّ كَلِمَةٍ تُنَاسِبُ؟",
+      "fillBlanksText": "مِنْ فَضْلِكَ، [blank] مَالِي لِبِنَاءِ مُسْتَشْفًى. [blank] تَأْخُذْ مَالًا مِنْ أَحَدٍ. [blank]هُ مَجَّانِيًّا لِلْجَمِيعِ.",
       "wordBank": [
-       "use",
-       "can",
-       "not",
-       "uses",
-       "no"
+       "اسْتَخْدِمْ",
+       "لَا",
+       "اجْعَلْ",
+       "اسْتَخْدَمَ",
+       "لَمْ"
       ],
       "correctAnswer": [
-       "use",
-       "can",
-       "not"
+       "اسْتَخْدِمْ",
+       "لَا",
+       "اجْعَلْ"
       ],
-      "explanation": "Please + verb: Please use. Can + verb: can get help. Do not + verb: do not take.",
+      "explanation": "الأمر: اسْتَخْدِمْ، اجْعَلْ. والنهي: لَا + تَأْخُذْ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأْ كَلَامَهَا فِي الْفَصْلِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-language-3-say-it",
+      "id": "gevhernesibe-a1-ar-language-3-say-it",
       "type": "reflection",
-      "title": "Say It: My Wish",
-      "instructions": "Tell your partner your wish.",
-      "question": "What is your wish?",
+      "title": "قُلْهَا: مِنْ فَضْلِكَ",
+      "instructions": "اطْلُبْ ثَلَاثَةَ أَشْيَاءَ بِأَدَبٍ.",
+      "question": "كَيْفَ تَطْلُبُ بِأَدَبٍ؟",
       "correctAnswer": null,
-      "explanation": "Use my wish is and please.",
+      "explanation": "ابدأ بـ«مِنْ فَضْلِكَ» ثم فعل الأمر أو «لَا».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“My wish is …”",
-        "mode": "Pair",
-        "example": "My wish is a big library in my town."
+        "question": "«مِنْ فَضْلِكَ، أَعْطِنِي …»",
+        "mode": "Individual",
+        "example": "مِنْ فَضْلِكَ، أَعْطِنِي الْكِتَابَ."
        },
        {
-        "question": "“Please …”",
+        "question": "«مِنْ فَضْلِكَ، افْتَحْ …»",
+        "mode": "Individual",
+        "example": "مِنْ فَضْلِكَ، افْتَحِ الْبَابَ."
+       },
+       {
+        "question": "«مِنْ فَضْلِكَ، لَا …»",
         "mode": "Pair",
-        "example": "Please help me."
+        "example": "مِنْ فَضْلِكَ، لَا تَتَكَلَّمِ الْآنَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What was her last wish?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا أَرَادَتْ كَوْهَر نَسِيبَة؟",
      "options": [
-      "a hospital",
-      "a palace",
-      "a big garden"
+      "مُسْتَشْفًى",
+      "حَدِيقَةً",
+      "قَصْرًا"
      ],
      "answer": 0,
-     "quote": "She said, “Please use my money to build a hospital.”"
+     "quote": "اسْتَخْدِمْ مَالِي لِبِنَاءِ مُسْتَشْفًى."
     },
     "iCan": [
-     "I can tell about Gevher Nesibe’s last wish.",
-     "I can use please + verb.",
-     "I can say my wish."
+     "أَسْتَطِيعُ أَنْ أَقُولَ أُمْنِيَتَهَا الْأَخِيرَةَ.",
+     "أَسْتَطِيعُ أَنْ أَطْلُبَ بِـ«مِنْ فَضْلِكَ».",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «لَا تَفْعَلْ»."
     ]
    },
    {
     "id": 4,
     "type": "story",
-    "title": "Two Buildings",
-    "content": "Her brother, the Sultan, kept his promise. He built two buildings next to each other. One of them was a school for doctors, the Gıyâsiye Madrasa. The other one was the hospital, the Şifâiye. People also called it “the house of healing”.\n\nThe two buildings look almost the same, so people call them the “Twin Madrasas”. Gevher Nesibe’s grave is inside the school building.",
+    "title": "مَبْنَيَانِ",
+    "content": "وَفَى أَخُوهَا السُّلْطَانُ بِوَعْدِهِ. بَنَى مَبْنَيَيْنِ بِجَانِبِ بَعْضِهِمَا. كَانَ أَحَدُهُمَا مَدْرَسَةً لِلأَطِبَّاءِ، وَهِيَ المَدْرَسَةُ الغِيَاثِيَّةُ. وَالآخَرُ كَانَ المُسْتَشْفَى، وَهُوَ الشِّفَائِيَّةُ. وَسَمَّاهُ النَّاسُ أَيْضًا «بَيْتَ الشِّفَاءِ».\n\nالمَبْنَيَانِ يَبْدُوَانِ مُتَشَابِهَيْنِ تَقْرِيبًا، لِذَلِكَ يُسَمِّيهِمَا النَّاسُ «المَدْرَسَتَيْنِ التَّوْأَمَيْنِ». قَبْرُ كَوْهَر نَسِيبَة دَاخِلَ مَبْنَى المَدْرَسَةِ.",
     "vocabulary": [
      {
-      "word": "keep a promise",
-      "definition": "Do the thing you said."
+      "word": "وَفَى",
+      "definition": "فَعَلَ مَا قَالَهُ."
      },
      {
-      "word": "healing",
-      "definition": "Making a sick person well again."
+      "word": "الشِّفَاءِ",
+      "definition": "جَعْلُ المَرِيضِ سَلِيمًا مَرَّةً أُخْرَى."
      },
      {
-      "word": "twin",
-      "definition": "One of two things that look the same."
+      "word": "التَّوْأَمَيْنِ",
+      "definition": "وَاحِدٌ مِنْ شَيْئَيْنِ مُتَشَابِهَيْنِ."
      },
      {
-      "word": "grave",
-      "definition": "The place in the ground for a dead person."
+      "word": "قَبْرُ",
+      "definition": "المَكَانُ فِي الأَرْضِ لِلْمَيِّت."
      }
     ],
     "hotspots": [
@@ -586,172 +588,180 @@
       "id": "h4-1",
       "x": 35,
       "y": 46,
-      "title": "Two Buildings",
-      "description": "One was a school for doctors, the Gıyâsiye Madrasa. The other one was the hospital, the Şifâiye."
+      "title": "مَبْنَيَانِ",
+      "description": "بَنَى السُّلْطَانُ مَبْنَيَيْنِ بِجَانِبِ بَعْضِهِمَا: مَدْرَسَةً لِلْأَطِبَّاءِ وَمُسْتَشْفًى."
      },
      {
       "id": "h4-2",
       "x": 68,
       "y": 50,
-      "title": "The Twin Madrasas",
-      "description": "The two buildings look almost the same, so people call them the “Twin Madrasas”."
+      "title": "الْمَدْرَسَتَانِ التَّوْأَمَانِ",
+      "description": "الْمَبْنَيَانِ يَبْدُوَانِ مُتَشَابِهَيْنِ، لِذَلِكَ يُسَمِّيهِمَا النَّاسُ «الْمَدْرَسَتَيْنِ التَّوْأَمَيْنِ»."
      }
     ],
     "exercises": [
      {
-      "id": "gevhernesibe-a1-quick-4",
+      "id": "gevhernesibe-a1-ar-quick-4",
       "type": "matching",
-      "title": "Two Buildings",
-      "instructions": "Match the building with the sentence.",
-      "question": "Which building is it?",
+      "title": "الْمَبْنَيَانِ",
+      "instructions": "صِلِ الِاسْمَ بِالْمَبْنَى.",
+      "question": "مَا كُلُّ مَبْنًى؟",
       "matchingHeadings": {
-       "left": "Building",
-       "right": "What was it?"
+       "left": "الِاسْمُ",
+       "right": "الْمَبْنَى"
       },
       "matchingPairs": [
        {
-        "left": "the Gıyâsiye Madrasa",
-        "right": "a school for doctors"
+        "left": "الْمَدْرَسَةُ الْغِيَاثِيَّةُ",
+        "right": "مَدْرَسَةٌ لِلْأَطِبَّاءِ"
        },
        {
-        "left": "the Şifâiye",
-        "right": "the hospital, “the house of healing”"
+        "left": "الشِّفَائِيَّةُ",
+        "right": "الْمُسْتَشْفَى"
        }
       ],
       "correctAnswer": {
-       "the Gıyâsiye Madrasa": "a school for doctors",
-       "the Şifâiye": "the hospital, “the house of healing”"
+       "الْمَدْرَسَةُ الْغِيَاثِيَّةُ": "مَدْرَسَةٌ لِلْأَطِبَّاءِ",
+       "الشِّفَائِيَّةُ": "الْمُسْتَشْفَى"
       },
-      "explanation": "Chapter 4: “One of them was a school for doctors, the Gıyâsiye Madrasa. The other one was the hospital, the Şifâiye.”",
+      "explanation": "الفصل الرابع: «كَانَ أَحَدُهُمَا مَدْرَسَةً لِلْأَطِبَّاءِ، وَهِيَ الْمَدْرَسَةُ الْغِيَاثِيَّةُ. وَالْآخَرُ كَانَ الْمُسْتَشْفَى، وَهُوَ الشِّفَائِيَّةُ».",
       "feedback": {
-       "correct": "Yes! You matched the two buildings.",
-       "incorrect": "Read the first paragraph of Chapter 4 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "gevhernesibe-a1-language-4-next",
+      "id": "gevhernesibe-a1-ar-language-4-two",
       "type": "multiple-choice",
-      "title": "Look: Next to",
-      "instructions": "Choose the right answer.",
-      "question": "“He built two buildings next to each other.” Where are the buildings?",
+      "title": "انْظُرْ: مَبْنَيَانِ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«مَبْنَيَانِ» وَ«مَبْنَيَيْنِ»: كَمْ مَبْنًى؟",
       "options": [
-       "very near; side by side",
-       "far away",
-       "one on the other"
+       "وَاحِدٌ",
+       "اثْنَانِ",
+       "كَثِيرٌ"
       ],
-      "correctAnswer": 0,
-      "explanation": "Next to = very near, at the side of.",
+      "correctAnswer": 1,
+      "explanation": "نزيد «ـَانِ» أو «ـَيْنِ» للاثنين: مَبْنًى ← مَبْنَيَانِ / مَبْنَيَيْنِ.",
       "feedback": {
-       "correct": "Yes. They are side by side.",
-       "incorrect": "Read the first paragraph of Chapter 4 again."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "انْظُرْ إِلَى آخِرِ الْكَلِمَةِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-language-4-practise",
+      "id": "gevhernesibe-a1-ar-language-4-dual",
       "type": "choose-form",
-      "title": "Practise: One, The Other One",
-      "instructions": "Choose the right words.",
-      "question": "Which words go in the gap?",
+      "title": "تَدَرَّبْ: وَاحِدٌ أَمِ اثْنَانِ؟",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ صَحِيحَةٌ؟",
       "formChoices": [
        {
-        "sentence": "[choice] of them was a school for doctors.",
+        "sentence": "بَنَى السُّلْطَانُ [choice] بِجَانِبِ بَعْضِهِمَا.",
         "options": [
-         "One",
-         "Other"
+         "مَبْنَيَيْنِ",
+         "مَبْنًى"
         ],
         "answer": 0
        },
        {
-        "sentence": "[choice] was the hospital.",
+        "sentence": "قَبْرُ كَوْهَر نَسِيبَة دَاخِلَ [choice] الْمَدْرَسَةِ.",
         "options": [
-         "The other one",
-         "One other"
+         "مَبْنَى",
+         "مَبْنَيَيْ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "يُسَمِّيهِمَا النَّاسُ «الْمَدْرَسَتَيْنِ [choice]».",
+        "options": [
+         "التَّوْأَمَيْنِ",
+         "التَّوْأَمِ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Two things: one … the other one.",
+      "explanation": "للاثنين: مَبْنَيَيْنِ، التَّوْأَمَيْنِ. وللواحد: مَبْنَى الْمَدْرَسَةِ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the first paragraph of Chapter 4."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "وَاحِدٌ أَمِ اثْنَانِ؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-4-say-it",
+      "id": "gevhernesibe-a1-ar-language-4-say-it",
       "type": "reflection",
-      "title": "Say It: Two Things",
-      "instructions": "Talk about two things with your partner.",
-      "question": "What are the two things?",
+      "title": "قُلْهَا: شَيْئَانِ",
+      "instructions": "قُلْ ثَلَاثَ جُمَلٍ عَنْ شَيْئَيْنِ.",
+      "question": "مَاذَا عِنْدَكَ اثْنَانِ؟",
       "correctAnswer": null,
-      "explanation": "Use one of them and the other one.",
+      "explanation": "زِد «ـَانِ» للاثنين.",
       "feedback": {
-       "correct": "Say three sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“One of them is …”",
-        "mode": "Pair",
-        "example": "One of them is my pen."
+        "question": "«عِنْدِي … »",
+        "mode": "Individual",
+        "example": "عِنْدِي كِتَابَانِ."
        },
        {
-        "question": "“The other one is …”",
-        "mode": "Pair",
-        "example": "The other one is my pencil."
+        "question": "«فِي صَفِّي …»",
+        "mode": "Individual",
+        "example": "فِي صَفِّي بَابَانِ."
        },
        {
-        "question": "“They look almost the same.”",
+        "question": "«فِي بَيْتِي …»",
         "mode": "Pair",
-        "example": "My two bags look almost the same."
+        "example": "فِي بَيْتِي غُرْفَتَانِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "picture",
-     "question": "Look at the two buildings. What are they like?",
+     "question": "انْظُرْ إِلَى الصُّورَةِ: كَمْ مَبْنًى تَرَى؟",
      "options": [
-      "almost the same",
-      "very different",
-      "very small"
+      "مَبْنًى وَاحِدًا",
+      "مَبْنَيَيْنِ",
+      "خَمْسَةَ مَبَانٍ"
      ],
-     "answer": 0,
-     "quote": "The two buildings look almost the same, so people call them the “Twin Madrasas”."
+     "answer": 1,
+     "quote": "بَنَى مَبْنَيَيْنِ بِجَانِبِ بَعْضِهِمَا."
     },
     "iCan": [
-     "I can tell about the two buildings.",
-     "I can use next to.",
-     "I can use one … the other one."
+     "أَسْتَطِيعُ أَنْ أُسَمِّيَ الْمَبْنَيَيْنِ.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ «اثْنَانِ» بِـ«ـَانِ».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ لِمَاذَا هُمَا «تَوْأَمَانِ»."
     ]
    },
    {
     "id": 5,
     "type": "story",
-    "title": "Learning Next to the Patients",
-    "content": "Students had lessons in the school. Then they went to the hospital. There, they worked with real patients. They watched the doctors carefully and learned from them.\n\nIn summer, the students had lessons in the big gardens. In winter, the buildings were warm, because hot water went under the floor. The hospital had two doctors, two surgeons and a man for medicines. There were also rooms for eye operations.",
+    "title": "التَّعَلُّمُ بِجَانِبِ المَرْضَى",
+    "content": "كَانَ الطُّلَّابُ يَحْضُرُونَ الدُّرُوسَ فِي المَدْرَسَةِ. ثُمَّ يَذْهَبُونَ إِلَى المُسْتَشْفَى. هُنَاكَ كَانُوا يَعْمَلُونَ مَعَ مَرْضَى حَقِيقِيِّينَ. كَانُوا يُرَاقِبُونَ الأَطِبَّاءَ بِانْتِبَاهٍ وَيَتَعَلَّمُونَ مِنْهُمْ.\n\nفِي الصَّيْفِ، كَانَ الطُّلَّابُ يَحْضُرُونَ الدُّرُوسَ فِي الحَدَائِقِ الكَبِيرَةِ. وَفِي الشِّتَاءِ، كَانَتِ المَبَانِي دَافِئَةً، لِأَنَّ المَاءَ السَّاخِنَ كَانَ يَمُرُّ تَحْتَ الأَرْضِيَّةِ. كَانَ فِي المُسْتَشْفَى طَبِيبَانِ وَجَرَّاحَانِ وَرَجُلٌ لِلأَدْوِيَةِ. وَكَانَتْ هُنَاكَ أَيْضًا غُرَفٌ لِعَمَلِيَّاتِ العُيُونِ.",
     "vocabulary": [
      {
-      "word": "patient",
-      "definition": "A sick person with a doctor."
+      "word": "مَرْضَى",
+      "definition": "أَشْخَاصٌ مَرْضَى عِنْدَ الطَّبِيبِ."
      },
      {
-      "word": "carefully",
-      "definition": "Slowly and well, with all your mind."
+      "word": "بِانْتِبَاهٍ",
+      "definition": "بِتَرْكِيزٍ وَحَذَرٍ."
      },
      {
-      "word": "surgeon",
-      "definition": "A doctor who opens the body to help."
+      "word": "جَرَّاحَانِ",
+      "definition": "طَبِيبٌ يَفْتَحُ الجِسْمَ لِيُسَاعِدَ."
      },
      {
-      "word": "medicine",
-      "definition": "A thing you take when you are sick."
+      "word": "لِلأَدْوِيَةِ",
+      "definition": "شَيْءٌ تَتَنَاوَلُهُ عِنْدَمَا تَكُونُ مَرِيضًا."
      },
      {
-      "word": "operation",
-      "definition": "A doctor's work inside the body."
+      "word": "لِعَمَلِيَّاتِ",
+      "definition": "عَمَلُ الطَّبِيبِ دَاخِلَ الجِسْمِ."
      }
     ],
     "hotspots": [
@@ -759,201 +769,213 @@
       "id": "h5-1",
       "x": 35,
       "y": 46,
-      "title": "Real Patients",
-      "description": "The students worked with real patients. They watched the doctors carefully."
+      "title": "مَرْضَى حَقِيقِيُّونَ",
+      "description": "كَانَ الطُّلَّابُ يَعْمَلُونَ مَعَ مَرْضَى حَقِيقِيِّينَ، وَيُرَاقِبُونَ الْأَطِبَّاءَ بِانْتِبَاهٍ."
      },
      {
       "id": "h5-2",
       "x": 68,
       "y": 50,
-      "title": "Warm in Winter",
-      "description": "In winter, the buildings were warm, because hot water went under the floor."
+      "title": "دَافِئٌ فِي الشِّتَاءِ",
+      "description": "فِي الشِّتَاءِ، كَانَ الْمَاءُ السَّاخِنُ يَمُرُّ تَحْتَ الْأَرْضِيَّةِ، فَكَانَتِ الْمَبَانِي دَافِئَةً."
      }
     ],
     "exercises": [
      {
-      "id": "gevhernesibe-a1-quick-5",
+      "id": "gevhernesibe-a1-ar-quick-5",
       "type": "drag-drop",
-      "title": "Learning Next to the Patients",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 5?",
+      "title": "التَّعَلُّمُ بِجَانِبِ الْمَرْضَى",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا يَقُولُ الْفَصْلُ الْخَامِسُ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "In summer, the students had lessons in the gardens.",
-         "There were rooms for eye operations."
+         "كَانَ الطُّلَّابُ يَعْمَلُونَ مَعَ مَرْضَى حَقِيقِيِّينَ.",
+         "فِي الصَّيْفِ، كَانَتِ الدُّرُوسُ فِي الْحَدَائِقِ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "The hospital had ten surgeons."
+         "فِي الشِّتَاءِ، كَانَتِ الْمَبَانِي بَارِدَةً جِدًّا."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "In summer, the students had lessons in the gardens.",
-        "There were rooms for eye operations."
+       "صَحِيحٌ": [
+        "كَانَ الطُّلَّابُ يَعْمَلُونَ مَعَ مَرْضَى حَقِيقِيِّينَ.",
+        "فِي الصَّيْفِ، كَانَتِ الدُّرُوسُ فِي الْحَدَائِقِ."
        ],
-       "False": [
-        "The hospital had ten surgeons."
+       "خَطَأٌ": [
+        "فِي الشِّتَاءِ، كَانَتِ الْمَبَانِي بَارِدَةً جِدًّا."
        ]
       },
-      "explanation": "Chapter 5 says: “In summer, the students had lessons in the big gardens.” “The hospital had two doctors, two surgeons and a man for medicines.” “There were also rooms for eye operations.”",
+      "explanation": "الفصل الخامس: «وَفِي الشِّتَاءِ، كَانَتِ الْمَبَانِي دَافِئَةً».",
       "feedback": {
-       "correct": "Yes! The hospital had two surgeons.",
-       "incorrect": "Read the second paragraph of Chapter 5 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "gevhernesibe-a1-language-5-seasons",
+      "id": "gevhernesibe-a1-ar-language-5-season",
       "type": "drag-drop",
-      "title": "Look: In Summer, In Winter",
-      "instructions": "Put each sentence in the right group.",
-      "question": "When was it?",
+      "title": "انْظُرْ: فِي الصَّيْفِ وَفِي الشِّتَاءِ",
+      "instructions": "ضَعْ كُلَّ جُمْلَةٍ فِي مَجْمُوعَتِهَا.",
+      "question": "مَتَى؟",
       "dragDropGroups": [
        {
-        "group": "In summer",
+        "group": "فِي الصَّيْفِ",
         "items": [
-         "The students had lessons in the big gardens."
+         "كَانَتِ الدُّرُوسُ فِي الْحَدَائِقِ الْكَبِيرَةِ."
         ]
        },
        {
-        "group": "In winter",
+        "group": "فِي الشِّتَاءِ",
         "items": [
-         "The buildings were warm.",
-         "Hot water went under the floor."
+         "كَانَتِ الْمَبَانِي دَافِئَةً.",
+         "كَانَ الْمَاءُ السَّاخِنُ يَمُرُّ تَحْتَ الْأَرْضِيَّةِ."
         ]
        }
       ],
       "correctAnswer": {
-       "In summer": [
-        "The students had lessons in the big gardens."
+       "فِي الصَّيْفِ": [
+        "كَانَتِ الدُّرُوسُ فِي الْحَدَائِقِ الْكَبِيرَةِ."
        ],
-       "In winter": [
-        "The buildings were warm.",
-        "Hot water went under the floor."
+       "فِي الشِّتَاءِ": [
+        "كَانَتِ الْمَبَانِي دَافِئَةً.",
+        "كَانَ الْمَاءُ السَّاخِنُ يَمُرُّ تَحْتَ الْأَرْضِيَّةِ."
        ]
       },
-      "explanation": "In + season: in summer, in winter.",
+      "explanation": "الفقرة الثانية من الفصل الخامس.",
       "feedback": {
-       "correct": "Good.",
-       "incorrect": "Read the second paragraph of Chapter 5."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "ابْحَثْ عَنْ «الصَّيْفِ» وَ«الشِّتَاءِ»."
       }
      },
      {
-      "id": "gevhernesibe-a1-language-5-practise",
+      "id": "gevhernesibe-a1-ar-language-5-used",
       "type": "choose-form",
-      "title": "Practise: Because",
-      "instructions": "Choose the right word.",
-      "question": "Which word goes in the gap?",
+      "title": "تَدَرَّبْ: كَانُوا يَفْعَلُونَ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ صَحِيحَةٌ؟",
       "formChoices": [
        {
-        "sentence": "The buildings were warm, [choice] hot water went under the floor.",
+        "sentence": "كَانَ الطُّلَّابُ [choice] الدُّرُوسَ فِي الْمَدْرَسَةِ.",
         "options": [
-         "because",
-         "but"
+         "يَحْضُرُونَ",
+         "يَحْضُرُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The students watched the doctors, [choice] they learned from them.",
+        "sentence": "كَانُوا [choice] الْأَطِبَّاءَ بِانْتِبَاهٍ.",
         "options": [
-         "and",
-         "because"
+         "يُرَاقِبُونَ",
+         "يُرَاقِبُ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "كَانَ الْمَاءُ السَّاخِنُ [choice] تَحْتَ الْأَرْضِيَّةِ.",
+        "options": [
+         "يَمُرُّ",
+         "يَمُرُّونَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Because tells why. And adds more.",
+      "explanation": "«كَانَ + فعل مضارع» لشيء كان يحدث كثيرًا في الماضي. مع الطلاب: يَحْضُرُونَ، يُرَاقِبُونَ. مع الماء: يَمُرُّ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 5 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "وَاحِدٌ أَمْ كَثِيرٌ؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-5-say-it",
+      "id": "gevhernesibe-a1-ar-language-5-say-it",
       "type": "reflection",
-      "title": "Say It: My School",
-      "instructions": "Tell your partner about your school.",
-      "question": "What do you do at school?",
+      "title": "قُلْهَا: مَدْرَسَتِي",
+      "instructions": "قُلْ ثَلَاثَ جُمَلٍ عَنْ مَدْرَسَتِكَ.",
+      "question": "مَاذَا تَفْعَلُ فِي الصَّيْفِ وَالشِّتَاءِ؟",
       "correctAnswer": null,
-      "explanation": "Use in summer and in winter.",
+      "explanation": "استعمل «فِي الصَّيْفِ» و«فِي الشِّتَاءِ».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“In summer, we …”",
-        "mode": "Pair",
-        "example": "In summer, we play in the garden."
+        "question": "«فِي الصَّيْفِ، …»",
+        "mode": "Individual",
+        "example": "فِي الصَّيْفِ، أَلْعَبُ فِي الْحَدِيقَةِ."
        },
        {
-        "question": "“In winter, our classroom is …”",
+        "question": "«فِي الشِّتَاءِ، …»",
+        "mode": "Individual",
+        "example": "فِي الشِّتَاءِ، صَفِّي دَافِئٌ."
+       },
+       {
+        "question": "«أَتَعَلَّمُ مِنْ …»",
         "mode": "Pair",
-        "example": "In winter, our classroom is warm."
+        "example": "أَتَعَلَّمُ مِنْ مُعَلِّمِي."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Where did the students work with patients?",
+     "question": "خَمِّنْ أَوَّلًا: أَيْنَ تَعَلَّمَ الطُّلَّابُ؟",
      "options": [
-      "in the hospital",
-      "in the market",
-      "at home"
+      "فِي الْمَدْرَسَةِ وَالْمُسْتَشْفَى",
+      "فِي الْبَيْتِ فَقَطْ",
+      "فِي السُّوقِ"
      ],
      "answer": 0,
-     "quote": "Then they went to the hospital. There, they worked with real patients."
+     "quote": "كَانَ الطُّلَّابُ يَحْضُرُونَ الدُّرُوسَ فِي الْمَدْرَسَةِ. ثُمَّ يَذْهَبُونَ إِلَى الْمُسْتَشْفَى."
     },
     "iCan": [
-     "I can tell how the students learned.",
-     "I can use in summer and in winter.",
-     "I can use because."
+     "أَسْتَطِيعُ أَنْ أَقُولَ كَيْفَ تَعَلَّمَ الطُّلَّابُ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «كَانُوا يَفْعَلُونَ».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنِ الصَّيْفِ وَالشِّتَاءِ."
     ],
     "groupTask": {
      "type": "project",
-     "title": "A Hospital School Poster",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "مُسْتَشْفَانَا",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group draws two parts: the school and the hospital.",
-      "In the school part, the group writes one thing the students did.",
-      "In the hospital part, the group writes one thing the students did.",
-      "The group shows the poster: “In the school, they … In the hospital, they …”"
+      "تَرْسُمُ الْمَجْمُوعَةُ الْمُسْتَشْفَى وَالْمَدْرَسَةَ عَلَى لَوْحَةٍ.",
+      "يَكْتُبُ كُلُّ طَالِبٍ جُمْلَةً: «كَانَ فِي الْمُسْتَشْفَى …».",
+      "تَضَعُ الْمَجْمُوعَةُ الْجُمَلَ عَلَى اللَّوْحَةِ."
      ],
-     "share": "One student reads the poster. Story: “Students had lessons in the school. Then they went to the hospital.”",
-     "solo": "Draw the two parts. Write one sentence for each part."
+     "share": "تَقْرَأُ كُلُّ مَجْمُوعَةٍ جُمَلَهَا لِلصَّفِّ.",
+     "solo": "ارْسُمِ الْمُسْتَشْفَى، وَاكْتُبْ تَحْتَهُ جُمْلَتَيْنِ."
     }
    },
    {
     "id": 6,
     "type": "story",
-    "title": "Great Teachers and Books",
-    "content": "Many famous teachers worked at this school. Students learned about the body, medicines, languages and Islam. They read the important books of the scientist İbn Sînâ. They also read the books of Hippocrates, a doctor from ancient Greece.\n\nAt the end of school, every student got a diploma. It had the names of his teachers on it. The hospital helped sick people for about 700 years, until the early 1900s.",
+    "title": "مُعَلِّمُونَ عُظَمَاءُ وَكُتُبٌ",
+    "content": "عَمِلَ مُعَلِّمُونَ مَشْهُورُونَ كَثِيرُونَ فِي هَذِهِ المَدْرَسَةِ. تَعَلَّمَ الطُّلَّابُ عَنِ الجِسْمِ وَالأَدْوِيَةِ وَاللُّغَاتِ وَالإِسْلَامِ. قَرَؤُوا الكُتُبَ المُهِمَّةَ لِلْعَالِمِ ابْنِ سِينَا. وَقَرَؤُوا أَيْضًا كُتُبَ أَبُقْرَاطَ، وَهُوَ طَبِيبٌ مِنَ اليُونَانِ القَدِيمَةِ.\n\nفِي نِهَايَةِ الدِّرَاسَةِ، كَانَ كُلُّ طَالِبٍ يَحْصُلُ عَلَى شَهَادَةٍ. كَانَتْ عَلَيْهَا أَسْمَاءُ مُعَلِّمِيهِ. وَسَاعَدَ المُسْتَشْفَى المَرْضَى نَحْوَ ٧٠٠ سَنَةٍ، حَتَّى أَوَائِلِ القَرْنِ العِشْرِينَ.",
     "vocabulary": [
      {
-      "word": "language",
-      "definition": "The words people speak, like English or Turkish."
+      "word": "اللُّغَاتِ",
+      "definition": "كَلِمَاتٌ يَتَكَلَّمُ بِهَا النَّاسُ فِي بَلَدٍ."
      },
      {
-      "word": "scientist",
-      "definition": "A person who studies and learns new things."
+      "word": "لِلْعَالِمِ",
+      "definition": "شَخْصٌ يَدْرُسُ وَيَتَعَلَّمُ أَشْيَاءَ جَدِيدَةً."
      },
      {
-      "word": "ancient",
-      "definition": "Very, very old."
+      "word": "القَدِيمَةِ",
+      "definition": "مِنْ زَمَنٍ بَعِيدٍ جِدًّا."
      },
      {
-      "word": "diploma",
-      "definition": "A paper you get at the end of school."
+      "word": "شَهَادَةٍ",
+      "definition": "وَرَقَةٌ تَحْصُلُ عَلَيْهَا فِي نِهَايَةِ الدِّرَاسَةِ."
      }
     ],
     "hotspots": [
@@ -961,171 +983,178 @@
       "id": "h6-1",
       "x": 35,
       "y": 46,
-      "title": "Great Books",
-      "description": "Students read the books of İbn Sînâ and Hippocrates."
+      "title": "كُتُبٌ عَظِيمَةٌ",
+      "description": "قَرَأَ الطُّلَّابُ كُتُبَ ابْنِ سِينَا، وَكُتُبَ أَبُقْرَاطَ، الطَّبِيبِ مِنَ الْيُونَانِ الْقَدِيمَةِ."
      },
      {
       "id": "h6-2",
       "x": 68,
       "y": 50,
-      "title": "A Diploma",
-      "description": "Every student got a diploma. It had the names of his teachers on it."
+      "title": "شَهَادَةٌ",
+      "description": "فِي نِهَايَةِ الدِّرَاسَةِ، كَانَ كُلُّ طَالِبٍ يَحْصُلُ عَلَى شَهَادَةٍ عَلَيْهَا أَسْمَاءُ مُعَلِّمِيهِ."
      }
     ],
     "exercises": [
      {
-      "id": "gevhernesibe-a1-quick-6",
+      "id": "gevhernesibe-a1-ar-quick-6",
       "type": "multiple-choice",
-      "title": "Great Teachers and Books",
-      "instructions": "Choose the best answer.",
-      "question": "How long did the hospital help sick people?",
+      "title": "مُعَلِّمُونَ وَكُتُبٌ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "مَاذَا كَانَ عَلَى الشَّهَادَةِ؟",
       "options": [
-       "for about 700 years",
-       "for about 70 years",
-       "for about 7 years"
+       "أَسْمَاءُ مُعَلِّمِيهِ",
+       "صُورَةُ السُّلْطَانِ",
+       "اسْمُ الْمَدِينَةِ فَقَطْ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 6: “The hospital helped sick people for about 700 years, until the early 1900s.”",
+      "explanation": "الفصل السادس: «كَانَتْ عَلَيْهَا أَسْمَاءُ مُعَلِّمِيهِ».",
       "feedback": {
-       "correct": "Yes! About 700 years.",
-       "incorrect": "Read the second paragraph of Chapter 6 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "gevhernesibe-a1-language-6-learned",
+      "id": "gevhernesibe-a1-ar-language-6-subjects",
       "type": "drag-drop",
-      "title": "Look: They Learned About …",
-      "instructions": "Put each word in the right group.",
-      "question": "What did they learn? Whose books did they read?",
+      "title": "انْظُرْ: مَاذَا تَعَلَّمُوا؟",
+      "instructions": "ضَعْ كُلَّ كَلِمَةٍ فِي مَجْمُوعَتِهَا.",
+      "question": "هَلْ تَعَلَّمَ الطُّلَّابُ هَذَا؟",
       "dragDropGroups": [
        {
-        "group": "They learned about …",
+        "group": "تَعَلَّمُوا",
         "items": [
-         "the body",
-         "medicines",
-         "languages"
+         "الْجِسْمَ",
+         "الْأَدْوِيَةَ",
+         "اللُّغَاتِ",
+         "الْإِسْلَامَ"
         ]
        },
        {
-        "group": "They read the books of …",
+        "group": "لَيْسَ فِي الْفَصْلِ",
         "items": [
-         "İbn Sînâ",
-         "Hippocrates"
+         "كُرَةَ الْقَدَمِ",
+         "الطَّبْخَ"
         ]
        }
       ],
       "correctAnswer": {
-       "They learned about …": [
-        "the body",
-        "medicines",
-        "languages"
+       "تَعَلَّمُوا": [
+        "الْجِسْمَ",
+        "الْأَدْوِيَةَ",
+        "اللُّغَاتِ",
+        "الْإِسْلَامَ"
        ],
-       "They read the books of …": [
-        "İbn Sînâ",
-        "Hippocrates"
+       "لَيْسَ فِي الْفَصْلِ": [
+        "كُرَةَ الْقَدَمِ",
+        "الطَّبْخَ"
        ]
       },
-      "explanation": "“Students learned about the body, medicines, languages and Islam.” “They read the important books of the scientist İbn Sînâ.”",
+      "explanation": "الفصل السادس: «تَعَلَّمَ الطُّلَّابُ عَنِ الْجِسْمِ وَالْأَدْوِيَةِ وَاللُّغَاتِ وَالْإِسْلَامِ».",
       "feedback": {
-       "correct": "Good.",
-       "incorrect": "Read the first paragraph of Chapter 6."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "اقْرَأِ الْجُمْلَةَ الثَّانِيَةَ."
       }
      },
      {
-      "id": "gevhernesibe-a1-language-6-practise",
+      "id": "gevhernesibe-a1-ar-language-6-practise",
       "type": "word-bank",
-      "title": "Practise: For, Until",
-      "instructions": "Fill the gaps with the words.",
-      "question": "How long?",
-      "fillBlanksText": "At the end of school, every student [blank] a diploma. The hospital helped sick people [blank] about 700 years, [blank] the early 1900s.",
+      "title": "تَدَرَّبْ: قَرَؤُوا وَتَعَلَّمُوا",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "أَيُّ فِعْلٍ يُنَاسِبُ؟",
+      "fillBlanksText": "[blank] الطُّلَّابُ عَنِ الْجِسْمِ. [blank] كُتُبَ ابْنِ سِينَا. وَ[blank] كُلُّ طَالِبٍ يَحْصُلُ عَلَى شَهَادَةٍ.",
       "wordBank": [
-       "got",
-       "for",
-       "until",
-       "gets",
-       "in"
+       "تَعَلَّمَ",
+       "قَرَؤُوا",
+       "كَانَ",
+       "يَتَعَلَّمُ",
+       "كَانُوا"
       ],
       "correctAnswer": [
-       "got",
-       "for",
-       "until"
+       "تَعَلَّمَ",
+       "قَرَؤُوا",
+       "كَانَ"
       ],
-      "explanation": "Get → got. For + time: for 700 years. Until = up to that time.",
+      "explanation": "في أول الجملة: «تَعَلَّمَ الطُّلَّابُ». وبعد ذكرهم: «قَرَؤُوا». ومع «كُلُّ طَالِبٍ»: «كَانَ».",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مَنْ فَعَلَ؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-6-write-it",
+      "id": "gevhernesibe-a1-ar-language-6-say-it",
       "type": "reflection",
-      "title": "Write It: My Lessons",
-      "instructions": "Write about your lessons.",
-      "question": "What do you learn at school?",
+      "title": "قُلْهَا: أَتَعَلَّمُ",
+      "instructions": "قُلْ ثَلَاثَ جُمَلٍ عَمَّا تَتَعَلَّمُ.",
+      "question": "مَاذَا تَتَعَلَّمُ فِي الْمَدْرَسَةِ؟",
       "correctAnswer": null,
-      "explanation": "Use learn about.",
+      "explanation": "استعمل «أَتَعَلَّمُ» و«أَقْرَأُ».",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“At school, I learn about …”",
+        "question": "«أَتَعَلَّمُ …»",
         "mode": "Individual",
-        "example": "At school, I learn about animals."
+        "example": "أَتَعَلَّمُ الْعَرَبِيَّةَ."
        },
        {
-        "question": "“My favorite lesson is …”",
+        "question": "«أَقْرَأُ كِتَابَ …»",
         "mode": "Individual",
-        "example": "My favorite lesson is English."
+        "example": "أَقْرَأُ كِتَابَ قِصَصٍ."
+       },
+       {
+        "question": "«مُعَلِّمِي …»",
+        "mode": "Pair",
+        "example": "مُعَلِّمِي لَطِيفٌ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did every student get at the end?",
+     "question": "خَمِّنْ أَوَّلًا: كُتُبَ أَيِّ عَالِمٍ قَرَأَ الطُّلَّابُ؟",
      "options": [
-      "a diploma",
-      "a horse",
-      "a house"
+      "ابْنِ سِينَا",
+      "ابْنِ بَطُّوطَةَ",
+      "يُونُسَ إِمْرَه"
      ],
      "answer": 0,
-     "quote": "At the end of school, every student got a diploma."
+     "quote": "قَرَؤُوا الْكُتُبَ الْمُهِمَّةَ لِلْعَالِمِ ابْنِ سِينَا."
     },
     "iCan": [
-     "I can tell what the students learned.",
-     "I can use for and until.",
-     "I can write about my lessons."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَاذَا تَعَلَّمَ الطُّلَّابُ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «قَرَؤُوا» وَ«تَعَلَّمُوا».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَاذَا أَتَعَلَّمُ."
     ]
    },
    {
     "id": 7,
     "type": "story",
-    "title": "Music for the Heart",
-    "content": "The hospital had a special part with 18 rooms. It was for people with an illness of the mind. The doctors helped these patients with music.\n\nİbn Sînâ wrote about this in his book. Kind words and music can help sick people. The scientist Fârâbî also studied music. He found that music can make people happy or calm. Some music is good for the morning, and some is good for the night. The doctors in Kayseri knew these ideas and used them.",
+    "title": "مُوسِيقَى لِلْقَلْب",
+    "content": "كَانَ فِي المُسْتَشْفَى قِسْمٌ خَاصٌّ فِيهِ ١٨ غُرْفَةً. كَانَ لِلنَّاسِ الَّذِينَ عِنْدَهُمْ مَرَضٌ فِي العَقْلِ. وَكَانَ الأَطِبَّاءُ يُسَاعِدُونَ هَؤُلَاءِ المَرْضَى بِالمُوسِيقَى.\n\nكَتَبَ ابْنُ سِينَا عَنْ هَذَا فِي كِتَابِهِ. الكَلِمَاتُ الطَّيِّبَةُ وَالمُوسِيقَى تُسَاعِدَانِ المَرْضَى. وَدَرَسَ العَالِمُ الفَارَابِيُّ المُوسِيقَى أَيْضًا. وَوَجَدَ أَنَّ المُوسِيقَى تَسْتَطِيعُ أَنْ تَجْعَلَ النَّاسَ سُعَدَاءَ أَوْ هَادِئِينَ. بَعْضُ المُوسِيقَى جَيِّدٌ لِلصَّبَاحِ، وَبَعْضُهَا جَيِّدٌ لِلَّيْلِ. وَكَانَ الأَطِبَّاءُ فِي قَيْصَرِيَّة يَعْرِفُونَ هَذِهِ الأَفْكَارَ وَيَسْتَخْدِمُونَهَا.",
     "vocabulary": [
      {
-      "word": "illness",
-      "definition": "A problem in the body or mind."
+      "word": "مَرَضٌ",
+      "definition": "مُشْكِلَةٌ فِي الجِسْمِ أَوِ العَقْلِ."
      },
      {
-      "word": "mind",
-      "definition": "The part of you that thinks and feels."
+      "word": "العَقْلِ",
+      "definition": "الجُزْءُ فِيكَ الَّذِي يُفَكِّرُ وَيَشْعُرُ."
      },
      {
-      "word": "kind words",
-      "definition": "Nice and friendly words."
+      "word": "الكَلِمَاتُ الطَّيِّبَةُ",
+      "definition": "كَلَامٌ جَمِيلٌ وَلَطِيفٌ."
      },
      {
-      "word": "found",
-      "definition": "Learned a new thing."
+      "word": "وَجَدَ",
+      "definition": "عَرَفَ شَيْئًا بَعْدَ أَنْ دَرَسَ."
      },
      {
-      "word": "calm",
-      "definition": "Quiet, not angry and not afraid."
+      "word": "هَادِئِينَ",
+      "definition": "سَاكِنٌ، لَيْسَ غَاضِبًا وَلَيْسَ خَائِفًا."
      }
     ],
     "hotspots": [
@@ -1133,296 +1162,312 @@
       "id": "h7-1",
       "x": 35,
       "y": 46,
-      "title": "A Special Part",
-      "description": "The hospital had a special part with 18 rooms."
+      "title": "قِسْمٌ خَاصٌّ",
+      "description": "كَانَ فِي الْمُسْتَشْفَى قِسْمٌ خَاصٌّ فِيهِ ١٨ غُرْفَةً لِلنَّاسِ الَّذِينَ عِنْدَهُمْ مَرَضٌ فِي الْعَقْلِ."
      },
      {
       "id": "h7-2",
       "x": 68,
       "y": 50,
-      "title": "Music",
-      "description": "Fârâbî found that music can make people happy or calm."
+      "title": "الْمُوسِيقَى",
+      "description": "كَانَ الْأَطِبَّاءُ يُسَاعِدُونَ الْمَرْضَى بِالْمُوسِيقَى. الْمُوسِيقَى تَجْعَلُ النَّاسَ سُعَدَاءَ أَوْ هَادِئِينَ."
      }
     ],
     "exercises": [
      {
-      "id": "gevhernesibe-a1-quick-7",
+      "id": "gevhernesibe-a1-ar-quick-7",
       "type": "drag-drop",
-      "title": "Music for the Heart",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 7?",
+      "title": "مُوسِيقَى لِلْقَلْبِ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا يَقُولُ الْفَصْلُ السَّابِعُ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "The special part had 18 rooms.",
-         "Fârâbî studied music."
+         "كَانَ فِي الْقِسْمِ الْخَاصِّ ١٨ غُرْفَةً.",
+         "الْكَلِمَاتُ الطَّيِّبَةُ تُسَاعِدُ الْمَرْضَى."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "All music is good for the night."
+         "كُلُّ الْمُوسِيقَى جَيِّدَةٌ لِلَّيْلِ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "The special part had 18 rooms.",
-        "Fârâbî studied music."
+       "صَحِيحٌ": [
+        "كَانَ فِي الْقِسْمِ الْخَاصِّ ١٨ غُرْفَةً.",
+        "الْكَلِمَاتُ الطَّيِّبَةُ تُسَاعِدُ الْمَرْضَى."
        ],
-       "False": [
-        "All music is good for the night."
+       "خَطَأٌ": [
+        "كُلُّ الْمُوسِيقَى جَيِّدَةٌ لِلَّيْلِ."
        ]
       },
-      "explanation": "Chapter 7 says: “The hospital had a special part with 18 rooms.” “The scientist Fârâbî also studied music.” “Some music is good for the morning, and some is good for the night.”",
+      "explanation": "الفصل السابع: «بَعْضُ الْمُوسِيقَى جَيِّدٌ لِلصَّبَاحِ، وَبَعْضُهَا جَيِّدٌ لِلَّيْلِ».",
       "feedback": {
-       "correct": "Yes! Some music is good for the morning.",
-       "incorrect": "Read the second paragraph of Chapter 7 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "gevhernesibe-a1-language-7-can",
+      "id": "gevhernesibe-a1-ar-language-7-some",
       "type": "multiple-choice",
-      "title": "Look: Can + Verb",
-      "instructions": "Choose the right answer.",
-      "question": "“Music can make people happy or calm.” What does “can” tell us?",
+      "title": "انْظُرْ: بَعْضُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«بَعْضُ الْمُوسِيقَى جَيِّدٌ لِلصَّبَاحِ.» مَا مَعْنَى «بَعْضُ»؟",
       "options": [
-       "It is possible.",
-       "It happened yesterday.",
-       "It is a question."
+       "كُلُّ",
+       "لَيْسَ كُلُّ؛ جُزْءٌ",
+       "لَا شَيْءَ"
       ],
-      "correctAnswer": 0,
-      "explanation": "Can + verb: music can help, music can make people happy.",
+      "correctAnswer": 1,
+      "explanation": "«بَعْضُ» = جزء، ليس الكلّ.",
       "feedback": {
-       "correct": "Yes. It is possible.",
-       "incorrect": "Read the second paragraph of Chapter 7."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "هَلْ هِيَ كُلُّ الْمُوسِيقَى؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-7-practise",
+      "id": "gevhernesibe-a1-ar-language-7-help",
       "type": "choose-form",
-      "title": "Practise: Some … Some …",
-      "instructions": "Choose the right word.",
-      "question": "Which word goes in the gap?",
+      "title": "تَدَرَّبْ: يُسَاعِدُ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ صَحِيحَةٌ؟",
       "formChoices": [
        {
-        "sentence": "Some music is good for the [choice].",
+        "sentence": "كَانَ الْأَطِبَّاءُ [choice] الْمَرْضَى بِالْمُوسِيقَى.",
         "options": [
-         "morning",
-         "mornings"
+         "يُسَاعِدُونَ",
+         "يُسَاعِدُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Kind words and music [choice] help sick people.",
+        "sentence": "الْمُوسِيقَى [choice] أَنْ تَجْعَلَ النَّاسَ سُعَدَاءَ.",
         "options": [
-         "can",
-         "cans"
+         "تَسْتَطِيعُ",
+         "يَسْتَطِيعُ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] الْعَالِمُ الْفَارَابِيُّ الْمُوسِيقَى.",
+        "options": [
+         "دَرَسَ",
+         "دَرَسَتْ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Can does not change: I can, music can. Good for the morning, good for the night.",
+      "explanation": "الأطباء كثيرون ← يُسَاعِدُونَ. الموسيقى مؤنثة ← تَسْتَطِيعُ. الفارابي مذكر ← دَرَسَ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مَنْ يَفْعَلُ؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-7-say-it",
+      "id": "gevhernesibe-a1-ar-language-7-say-it",
       "type": "reflection",
-      "title": "Say It: Music I Like",
-      "instructions": "Talk about music with your partner.",
-      "question": "What music do you like?",
+      "title": "قُلْهَا: الْمُوسِيقَى وَأَنَا",
+      "instructions": "قُلْ ثَلَاثَ جُمَلٍ عَنِ الْمُوسِيقَى وَالْكَلِمَاتِ الطَّيِّبَةِ.",
+      "question": "مَا الَّذِي يَجْعَلُكَ هَادِئًا؟",
       "correctAnswer": null,
-      "explanation": "Use can + verb.",
+      "explanation": "استعمل «عِنْدَمَا».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I like … music.”",
-        "mode": "Pair",
-        "example": "I like quiet music."
+        "question": "«أَنَا هَادِئٌ عِنْدَمَا …»",
+        "mode": "Individual",
+        "example": "أَنَا هَادِئٌ عِنْدَمَا أَقْرَأُ."
        },
        {
-        "question": "“Music can make me …”",
+        "question": "«أَنَا سَعِيدٌ عِنْدَمَا …»",
+        "mode": "Individual",
+        "example": "أَنَا سَعِيدٌ عِنْدَمَا أَسْمَعُ كَلِمَةً طَيِّبَةً."
+       },
+       {
+        "question": "«كَلِمَةٌ طَيِّبَةٌ: …»",
         "mode": "Pair",
-        "example": "Music can make me happy."
+        "example": "كَلِمَةٌ طَيِّبَةٌ: أَنْتَ صَدِيقٌ جَيِّدٌ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: How did the doctors help some patients?",
+     "question": "خَمِّنْ أَوَّلًا: كَيْفَ سَاعَدَ الْأَطِبَّاءُ بَعْضَ الْمَرْضَى؟",
      "options": [
-      "with music",
-      "with games",
-      "with money"
+      "بِالْمُوسِيقَى",
+      "بِالرِّيَاضَةِ",
+      "بِالْأَلْعَابِ"
      ],
      "answer": 0,
-     "quote": "The doctors helped these patients with music."
+     "quote": "وَكَانَ الْأَطِبَّاءُ يُسَاعِدُونَ هَؤُلَاءِ الْمَرْضَى بِالْمُوسِيقَى."
     },
     "iCan": [
-     "I can tell how music helped patients.",
-     "I can use can + verb.",
-     "I can talk about music I like."
+     "أَسْتَطِيعُ أَنْ أَقُولَ كَيْفَ سَاعَدَتِ الْمُوسِيقَى الْمَرْضَى.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «بَعْضُ».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَا يَجْعَلُنِي هَادِئًا."
     ]
    },
    {
     "id": 8,
     "type": "story",
-    "title": "We Remember Her",
-    "content": "There were many hospitals and many schools in history. But the Gevher Nesibe Hospital was the first hospital and school in one place.\n\nGevher Nesibe never married the young commander. She died, but the hospital with her name helped sick people for hundreds of years. People loved her very much. Today, we still remember her name.",
+    "title": "نَتَذَكَّرُهَا",
+    "content": "كَانَ فِي التَّارِيخِ مُسْتَشْفَيَاتٌ كَثِيرَةٌ وَمَدَارِسُ كَثِيرَةٌ. لَكِنَّ مُسْتَشْفَى كَوْهَر نَسِيبَة كَانَ أَوَّلَ مُسْتَشْفًى وَمَدْرَسَةٍ فِي مَكَانٍ وَاحِدٍ.\n\nلَمْ تَتَزَوَّجْ كَوْهَر نَسِيبَة القَائِدَ الشَّابَّ أَبَدًا. مَاتَتْ، لَكِنَّ المُسْتَشْفَى الَّذِي يَحْمِلُ اسْمَهَا سَاعَدَ المَرْضَى مِئَاتِ السِّنِينَ. أَحَبَّهَا النَّاسُ كَثِيرًا. وَاليَوْمَ، مَا زِلْنَا نَتَذَكَّرُ اسْمَهَا.",
     "vocabulary": [],
     "hotspots": [
      {
       "id": "h8-1",
       "x": 35,
       "y": 46,
-      "title": "The First",
-      "description": "The Gevher Nesibe Hospital was the first hospital and school in one place."
+      "title": "الْأَوَّلُ",
+      "description": "كَانَ مُسْتَشْفَى كَوْهَر نَسِيبَة أَوَّلَ مُسْتَشْفًى وَمَدْرَسَةٍ فِي مَكَانٍ وَاحِدٍ."
      },
      {
       "id": "h8-2",
       "x": 68,
       "y": 50,
-      "title": "Her Name",
-      "description": "The hospital with her name helped sick people for hundreds of years."
+      "title": "اسْمُهَا",
+      "description": "سَاعَدَ الْمُسْتَشْفَى الَّذِي يَحْمِلُ اسْمَهَا الْمَرْضَى مِئَاتِ السِّنِينَ. وَالْيَوْمَ، مَا زِلْنَا نَتَذَكَّرُ اسْمَهَا."
      }
     ],
     "exercises": [
      {
-      "id": "gevhernesibe-a1-quick-8",
+      "id": "gevhernesibe-a1-ar-quick-8",
       "type": "multiple-choice",
-      "title": "We Remember Her",
-      "instructions": "Choose the best answer.",
-      "question": "Why was the Gevher Nesibe Hospital special?",
+      "title": "نَتَذَكَّرُهَا",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "لِمَاذَا نَتَذَكَّرُ كَوْهَر نَسِيبَة الْيَوْمَ؟",
       "options": [
-       "It was the first hospital and school in one place.",
-       "It was the biggest building in the world.",
-       "It was very new."
+       "لِأَنَّهَا تَزَوَّجَتِ الْقَائِدَ",
+       "لِأَنَّ الْمُسْتَشْفَى الَّذِي يَحْمِلُ اسْمَهَا سَاعَدَ الْمَرْضَى مِئَاتِ السِّنِينَ",
+       "لِأَنَّهَا كَانَتْ طَبِيبَةً"
       ],
-      "correctAnswer": 0,
-      "explanation": "Chapter 8: “But the Gevher Nesibe Hospital was the first hospital and school in one place.”",
+      "correctAnswer": 1,
+      "explanation": "الفصل الثامن: «سَاعَدَ الْمَرْضَى مِئَاتِ السِّنِينَ… وَالْيَوْمَ، مَا زِلْنَا نَتَذَكَّرُ اسْمَهَا».",
       "feedback": {
-       "correct": "Yes! It was the first.",
-       "incorrect": "Read the first paragraph of Chapter 8 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "gevhernesibe-a1-language-8-never",
+      "id": "gevhernesibe-a1-ar-language-8-first",
       "type": "multiple-choice",
-      "title": "Look: Never, Still",
-      "instructions": "Choose the right answer.",
-      "question": "“Gevher Nesibe never married the young commander.” What does “never” mean?",
+      "title": "انْظُرْ: أَوَّلُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«كَانَ أَوَّلَ مُسْتَشْفًى وَمَدْرَسَةٍ فِي مَكَانٍ وَاحِدٍ.» مَا مَعْنَى «أَوَّلَ»؟",
       "options": [
-       "not one time",
-       "every day",
-       "two times"
+       "لَمْ يَكُنْ قَبْلَهُ مِثْلُهُ",
+       "كَانَ الْأَخِيرَ",
+       "كَانَ صَغِيرًا"
       ],
       "correctAnswer": 0,
-      "explanation": "Never = not at any time. Still = it did not stop; it is true today, too.",
+      "explanation": "«أَوَّلُ + اسم» = لم يكن قبله شيء مثله.",
       "feedback": {
-       "correct": "Yes. Not one time.",
-       "incorrect": "Read the second paragraph of Chapter 8."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "هَلْ كَانَ قَبْلَهُ مِثْلُهُ؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-8-practise",
+      "id": "gevhernesibe-a1-ar-language-8-practise",
       "type": "word-bank",
-      "title": "Practise: Her Story",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What happened?",
-      "fillBlanksText": "Gevher Nesibe [blank] married the young commander. She died, [blank] the hospital helped sick people for hundreds of years. Today, we [blank] remember her name.",
+      "title": "تَدَرَّبْ: لَمْ، لَكِنَّ، مَا زِلْنَا",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "أَيُّ كَلِمَةٍ تُنَاسِبُ؟",
+      "fillBlanksText": "[blank] تَتَزَوَّجْ كَوْهَر نَسِيبَة الْقَائِدَ الشَّابَّ أَبَدًا. مَاتَتْ، [blank] الْمُسْتَشْفَى سَاعَدَ الْمَرْضَى. وَالْيَوْمَ، [blank] نَتَذَكَّرُ اسْمَهَا.",
       "wordBank": [
-       "never",
-       "but",
-       "still",
-       "always",
-       "because"
+       "لَمْ",
+       "لَكِنَّ",
+       "مَا زِلْنَا",
+       "لَا",
+       "لِأَنَّ"
       ],
       "correctAnswer": [
-       "never",
-       "but",
-       "still"
+       "لَمْ",
+       "لَكِنَّ",
+       "مَا زِلْنَا"
       ],
-      "explanation": "Never = not at any time. But shows a different idea. Still = it is true today, too.",
+      "explanation": "«لَمْ» للنفي في الماضي، و«لَكِنَّ» لشيء مختلف، و«مَا زِلْنَا» لشيء مستمر حتى اليوم.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 8."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ."
       }
      },
      {
-      "id": "gevhernesibe-a1-language-8-write-it",
+      "id": "gevhernesibe-a1-ar-language-8-say-it",
       "type": "reflection",
-      "title": "Write It: A Good Person",
-      "instructions": "Write about a good person.",
-      "question": "Who do we remember?",
+      "title": "قُلْهَا: نَتَذَكَّرُ",
+      "instructions": "قُلْ ثَلَاثَ جُمَلٍ عَنْ كَوْهَر نَسِيبَة.",
+      "question": "مَاذَا تَتَذَكَّرُ مِنَ الْقِصَّةِ؟",
       "correctAnswer": null,
-      "explanation": "Use the past: helped, gave, built.",
+      "explanation": "استعمل معلومات من الكتاب كله.",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“We remember …”",
+        "question": "«كَانَتْ كَوْهَر نَسِيبَة …»",
         "mode": "Individual",
-        "example": "We remember Gevher Nesibe."
+        "example": "كَانَتْ كَوْهَر نَسِيبَة أَمِيرَةً."
        },
        {
-        "question": "“She / He helped …”",
+        "question": "«أَرَادَتْ …»",
         "mode": "Individual",
-        "example": "She helped sick people."
+        "example": "أَرَادَتْ مُسْتَشْفًى مَجَّانِيًّا."
+       },
+       {
+        "question": "«الْيَوْمَ، …»",
+        "mode": "Pair",
+        "example": "الْيَوْمَ، الْمَبْنَى مَتْحَفٌ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Do we remember Gevher Nesibe today?",
+     "question": "خَمِّنْ أَوَّلًا: هَلْ نَتَذَكَّرُ اسْمَهَا الْيَوْمَ؟",
      "options": [
-      "Yes, we still remember her name.",
-      "No, nobody knows her.",
-      "Only in Europe."
+      "نَعَمْ",
+      "لَا"
      ],
      "answer": 0,
-     "quote": "Today, we still remember her name."
+     "quote": "وَالْيَوْمَ، مَا زِلْنَا نَتَذَكَّرُ اسْمَهَا."
     },
     "iCan": [
-     "I can tell why we remember Gevher Nesibe.",
-     "I can understand never and still.",
-     "I can write about a good person."
+     "أَسْتَطِيعُ أَنْ أَقُولَ لِمَاذَا نَتَذَكَّرُ كَوْهَر نَسِيبَة.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «لَمْ» وَ«لَكِنَّ».",
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ الْقِصَّةَ فِي ثَلَاثِ جُمَلٍ."
     ],
     "groupTask": {
      "type": "project",
-     "title": "Thank You, Gevher Nesibe",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "بِطَاقَةُ شُكْرٍ",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group makes a big thank-you card.",
-      "Each student writes one sentence: “Thank you for …”.",
-      "The group adds one fact from the book.",
-      "The group reads the card to the class."
+      "تَكْتُبُ الْمَجْمُوعَةُ بِطَاقَةَ شُكْرٍ لِكَوْهَر نَسِيبَة.",
+      "يَكْتُبُ كُلُّ طَالِبٍ جُمْلَةً: «شُكْرًا، لِأَنَّ …».",
+      "تَرْسُمُ الْمَجْمُوعَةُ الْمُسْتَشْفَى عَلَى الْبِطَاقَةِ."
      ],
-     "share": "The group reads the card. Story: “Today, we still remember her name.”",
-     "solo": "Write a thank-you card with two sentences."
+     "share": "تَقْرَأُ كُلُّ مَجْمُوعَةٍ بِطَاقَتَهَا لِلصَّفِّ.",
+     "solo": "اكْتُبْ بِطَاقَةَ شُكْرٍ فِيهَا جُمْلَتَانِ."
     }
    },
    {
     "id": 101,
     "type": "map",
-    "title": "The Hospital in Kayseri",
-    "subtitle": "Map · Chapters 1–8",
+    "title": "الْمُسْتَشْفَى فِي قَيْصَرِيَّة",
+    "subtitle": "خَرِيطَةٌ · الْفُصُولُ ١–٨",
     "content": "",
     "map": {
      "baseMap": "anatolia",
@@ -1457,11 +1502,11 @@
        "tone": "place",
        "areaRadiusKm": 430,
        "labelSide": "bottom",
-       "name": "Anatolia",
-       "kind": "Land",
-       "text": "Kayseri is a city in Anatolia. The hospital in Kayseri is the oldest Seljuk hospital in Anatolia.",
-       "teacherNote": "Chapter 1.",
-       "question": "Which city is the hospital in?"
+       "name": "الْأَنَاضُول",
+       "kind": "أَرْضٌ",
+       "text": "قَيْصَرِيَّة مَدِينَةٌ فِي الْأَنَاضُولِ. الْمُسْتَشْفَى فِي قَيْصَرِيَّة أَقْدَمُ مُسْتَشْفًى سَلْجُوقِيٍّ فِي الْأَنَاضُولِ.",
+       "teacherNote": "الفصل ١.",
+       "question": "فِي أَيِّ مَدِينَةٍ الْمُسْتَشْفَى؟"
       },
       {
        "id": "kayseri",
@@ -1471,11 +1516,11 @@
        "icon": "dome",
        "tone": "place",
        "labelSide": "right",
-       "name": "Kayseri",
-       "kind": "City",
-       "text": "The Gevher Nesibe Hospital and Medical School is in Kayseri. It was a hospital and a school.",
-       "teacherNote": "Chapters 1, 2 and 7. Today, the building is the Museum of the Seljuk Civilization.",
-       "question": "Why did Gevher Nesibe die young?"
+       "name": "قَيْصَرِيَّة",
+       "kind": "مَدِينَةٌ",
+       "text": "فِي قَيْصَرِيَّة مُسْتَشْفَى كَوْهَر نَسِيبَة وَمَدْرَسَةُ الطِّبِّ. كَانَ مُسْتَشْفًى وَمَدْرَسَةً.",
+       "teacherNote": "الفصول ١ و٢ و٧. المبنى اليوم متحف الحضارة السلجوقية.",
+       "question": "لِمَاذَا مَاتَتْ كَوْهَر نَسِيبَة صَغِيرَةً؟"
       }
      ],
      "towns": [],
@@ -1484,13 +1529,13 @@
        "id": "blackSea",
        "lon": 34.5,
        "lat": 42.6,
-       "name": "Black Sea"
+       "name": "الْبَحْرُ الْأَسْوَد"
       },
       {
        "id": "mediterranean",
        "lon": 31.5,
        "lat": 35.3,
-       "name": "Mediterranean Sea"
+       "name": "الْبَحْرُ الْأَبْيَضُ الْمُتَوَسِّط"
       }
      ],
      "timeline": [
@@ -1507,7 +1552,7 @@
         "kind": "dawn",
         "placeId": "anatolia"
        },
-       "label": "In Anatolia"
+       "label": "فِي الْأَنَاضُولِ"
       },
       {
        "year": 2,
@@ -1522,7 +1567,7 @@
         "kind": "radiate",
         "placeId": "kayseri"
        },
-       "label": "The hospital in Kayseri"
+       "label": "الْمُسْتَشْفَى فِي قَيْصَرِيَّة"
       }
      ],
      "challenge": [
@@ -1531,14 +1576,14 @@
        "lon": 35.49,
        "lat": 38.72,
        "radiusKm": 100,
-       "prompt": "Find Kayseri. The hospital is here."
+       "prompt": "ابْحَثْ عَنْ قَيْصَرِيَّة. الْمُسْتَشْفَى هُنَا."
       },
       {
        "id": "anatolia",
        "lon": 33.5,
        "lat": 39.2,
        "radiusKm": 350,
-       "prompt": "Find Anatolia."
+       "prompt": "ابْحَثْ عَنِ الْأَنَاضُولِ."
       }
      ]
     }
@@ -1546,107 +1591,107 @@
    {
     "id": 11,
     "type": "quiz",
-    "title": "Knowledge Check",
+    "title": "اختبار المعرفة",
     "image": "https://picsum.photos/seed/quiz-gevhernesibe-a1/1200/800",
     "audioUrl": "",
-    "content": "Check your understanding of the complete story.",
+    "content": "اختبر فهمك للكتاب كله في مستوى A2.",
     "exercises": [
      {
-      "id": "gevhernesibe-a1-kc-1",
+      "id": "gevhernesibe-a1-ar-kc-1",
       "type": "multiple-choice",
-      "title": "Kayseri",
-      "instructions": "Choose the answer.",
-      "question": "Where is the Gevher Nesibe Hospital?",
+      "title": "أَيْنَ؟",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "أَيْنَ مُسْتَشْفَى كَوْهَر نَسِيبَة؟",
       "options": [
-       "in Kayseri",
-       "in Konya",
-       "in Europe"
+       "فِي قَيْصَرِيَّة",
+       "فِي قُونْيَة",
+       "فِي إِسْطَنْبُولَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 1: “Kayseri is a city in Anatolia. There is a very old building there. It is the Gevher Nesibe Hospital and Medical School.”",
+      "explanation": "الفصل الأول: «قَيْصَرِيَّة مَدِينَةٌ فِي الْأَنَاضُولِ… إِنَّهُ مُسْتَشْفَى كَوْهَر نَسِيبَة».",
       "feedback": {
-       "correct": "Yes. In Kayseri.",
-       "incorrect": "Read the first paragraph of Chapter 1."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-kc-2",
+      "id": "gevhernesibe-a1-ar-kc-2",
       "type": "true-false",
-      "title": "Her Family",
-      "instructions": "Is it true or false?",
-      "question": "Gevher Nesibe’s father was Sultan Kılıçarslan II.",
+      "title": "الْمَتْحَفُ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "الْمَبْنَى الْيَوْمَ مَتْحَفٌ.",
       "correctAnswer": true,
-      "explanation": "Chapter 2: “Her father was Sultan Kılıçarslan II.”",
+      "explanation": "الفصل الأول: «هَذَا الْمَبْنَى الْقَدِيمُ هُوَ مَتْحَفُ الْحَضَارَةِ السَّلْجُوقِيَّةِ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the first paragraph of Chapter 2."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-kc-3",
+      "id": "gevhernesibe-a1-ar-kc-3",
       "type": "multiple-choice",
-      "title": "Her Wish",
-      "instructions": "Choose the answer.",
-      "question": "What did Gevher Nesibe want?",
+      "title": "الْأَخُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "مَنْ كَانَ أَخُوهَا؟",
       "options": [
-       "a free hospital for everyone",
-       "a big palace",
-       "a new school for princes"
+       "غِيَاثُ الدِّينِ كَيْخُسْرُو الْأَوَّلُ",
+       "ابْنُ سِينَا",
+       "الْفَارَابِيُّ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 3: “Please use my money to build a hospital.” “Make it free for everyone.”",
+      "explanation": "الفصل الثاني: «وَكَانَ أَخُوهَا السُّلْطَانَ غِيَاثَ الدِّينِ كَيْخُسْرُو الْأَوَّلَ».",
       "feedback": {
-       "correct": "Yes. A free hospital.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "gevhernesibe-a1-kc-4",
+      "id": "gevhernesibe-a1-ar-kc-4",
       "type": "true-false",
-      "title": "Her Grave",
-      "instructions": "Is it true or false?",
-      "question": "Gevher Nesibe’s grave is inside the hospital building.",
+      "title": "الْمَالُ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "أَرَادَتْ أَنْ يَدْفَعَ الْمَرْضَى مَالًا كَثِيرًا.",
       "correctAnswer": false,
-      "explanation": "Chapter 4: “Gevher Nesibe’s grave is inside the school building.”",
+      "explanation": "الفصل الثالث: «لَا تَأْخُذْ مَالًا مِنْ أَحَدٍ. اجْعَلْهُ مَجَّانِيًّا لِلْجَمِيعِ».",
       "feedback": {
-       "correct": "Yes, it is false. It is in the school building.",
-       "incorrect": "Read the second paragraph of Chapter 4."
+       "correct": "صَحِيحٌ: الْجُمْلَةُ خَطَأٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-kc-5",
+      "id": "gevhernesibe-a1-ar-kc-5",
       "type": "multiple-choice",
-      "title": "The Diploma",
-      "instructions": "Choose the answer.",
-      "question": "What was on the diploma?",
+      "title": "الْقَبْرُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "أَيْنَ قَبْرُ كَوْهَر نَسِيبَة؟",
       "options": [
-       "the names of his teachers",
-       "a picture of the sultan",
-       "a map of Kayseri"
+       "دَاخِلَ مَبْنَى الْمَدْرَسَةِ",
+       "فِي قُونْيَة",
+       "فِي حَدِيقَةِ الْمُسْتَشْفَى"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 6: “It had the names of his teachers on it.”",
+      "explanation": "الفصل الرابع: «قَبْرُ كَوْهَر نَسِيبَة دَاخِلَ مَبْنَى الْمَدْرَسَةِ».",
       "feedback": {
-       "correct": "Yes. The names of his teachers.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-kc-6",
+      "id": "gevhernesibe-a1-ar-kc-6",
       "type": "multiple-choice",
-      "title": "Music",
-      "instructions": "Choose the answer.",
-      "question": "Who found that music can make people happy or calm?",
+      "title": "الْمُوسِيقَى",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "مَنْ دَرَسَ الْمُوسِيقَى أَيْضًا؟",
       "options": [
-       "Fârâbî",
-       "Hippocrates",
-       "the Sultan"
+       "الْفَارَابِيُّ",
+       "أَبُقْرَاطُ",
+       "السُّلْطَانُ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: “The scientist Fârâbî also studied music. He found that music can make people happy or calm.”",
+      "explanation": "الفصل السابع: «وَدَرَسَ الْعَالِمُ الْفَارَابِيُّ الْمُوسِيقَى أَيْضًا».",
       "feedback": {
-       "correct": "Yes. Fârâbî.",
-       "incorrect": "Read the second paragraph of Chapter 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ السَّابِعِ."
       }
      }
     ]
@@ -1654,647 +1699,564 @@
    {
     "id": 13,
     "type": "glossary",
-    "title": "Master Glossary",
-    "content": "Review all key vocabulary from the story in one place.",
+    "title": "المعجم الرئيسي",
+    "content": "راجع ملاحظات الكلمات في الكتاب كله في مكان واحد.",
     "image": "https://picsum.photos/seed/glossary-gevhernesibe-a1/1200/800",
     "vocabulary": [
      {
-      "word": "building",
-      "definition": "A house, a school or a hospital.",
-      "partOfSpeech": "noun",
+      "word": "المَبْنَى",
+      "definition": "بَيْتٌ أَوْ مَدْرَسَةٌ أَوْ مُسْتَشْفًى.",
       "level": "A1",
-      "pronunciation": "/ˈbɪldɪŋ/",
       "chapter": 1,
-      "chapterTitle": "A Very Old Hospital",
-      "storyExample": "There is a very old building there.",
-      "category": "Places"
+      "chapterTitle": "مُسْتَشْفًى قَدِيمٌ جِدًّا",
+      "storyExample": "بَنَى النَّاسُ هَذَا المَبْنَى بَيْنَ عَامَيْ ١٢٠٥ وَ١٢٠٦."
      },
      {
-      "word": "hospital",
-      "definition": "A place for sick people and doctors.",
-      "partOfSpeech": "noun",
+      "word": "المُسْتَشْفَى",
+      "definition": "مَكَانٌ لِلْمَرْضَى وَالأَطِبَّاء.",
       "level": "A1",
-      "pronunciation": "/ˈhɑːspɪtl/",
       "chapter": 1,
-      "chapterTitle": "A Very Old Hospital",
-      "storyExample": "It is the Gevher Nesibe Hospital and Medical School.",
-      "category": "Places"
+      "chapterTitle": "مُسْتَشْفًى قَدِيمٌ جِدًّا",
+      "storyExample": "وَكَانَ أَوَّلَ مَكَانٍ فِي العَالَمِ يَجْمَعُ بَيْنَ المُسْتَشْفَى وَالمَدْرَسَةِ."
      },
      {
-      "word": "build",
-      "definition": "Make a house or a building.",
-      "partOfSpeech": "verb",
+      "word": "بَنَى",
+      "definition": "صَنَعَ بَيْتًا أَوْ مَبْنًى.",
       "level": "A1",
-      "pronunciation": "/bɪld/",
       "chapter": 1,
-      "chapterTitle": "A Very Old Hospital",
-      "storyExample": "People built it in 1205–1206.",
-      "category": "Actions"
+      "chapterTitle": "مُسْتَشْفًى قَدِيمٌ جِدًّا",
+      "storyExample": "يُوجَدُ فِيهَا مَبْنًى قَدِيمٌ جِدًّا."
      },
      {
-      "word": "both",
-      "definition": "The two; this one and that one.",
-      "partOfSpeech": "determiner",
+      "word": "مَعًا",
+      "definition": "الِاثْنَانِ فِي الوَقْتِ نَفْسِهِ.",
       "level": "A1",
-      "pronunciation": "/boʊθ/",
       "chapter": 1,
-      "chapterTitle": "A Very Old Hospital",
-      "storyExample": "This building was both a hospital and a school.",
-      "category": "Describing"
+      "chapterTitle": "مُسْتَشْفًى قَدِيمٌ جِدًّا",
+      "storyExample": "كَانَ هَذَا المَبْنَى مُسْتَشْفًى وَمَدْرَسَةً مَعًا."
      },
      {
-      "word": "similar",
-      "definition": "Almost the same.",
-      "partOfSpeech": "adjective",
+      "word": "مُشَابِهَةٌ",
+      "definition": "تَقْرِيبًا مِثْلُ شَيْءٍ آخَرَ.",
       "level": "A1",
-      "pronunciation": "/ˈsɪmələr/",
       "chapter": 1,
-      "chapterTitle": "A Very Old Hospital",
-      "storyExample": "In Europe, similar schools started more than 300 years later.",
-      "category": "Describing"
+      "chapterTitle": "مُسْتَشْفًى قَدِيمٌ جِدًّا",
+      "storyExample": "فِي أُورُوبَّا، بَدَأَتْ مَدَارِسُ مُشَابِهَةٌ بَعْدَ أَكْثَرَ مِنْ ٣٠٠ سَنَةٍ."
      },
      {
-      "word": "museum",
-      "definition": "A building with old and interesting things.",
-      "partOfSpeech": "noun",
+      "word": "مَتْحَفُ",
+      "definition": "مَبْنًى فِيهِ أَشْيَاءُ قَدِيمَةٌ وَمُثِيرَةٌ لِلِاهْتِمَام.",
       "level": "A1",
-      "pronunciation": "/mjuˈziːəm/",
       "chapter": 1,
-      "chapterTitle": "A Very Old Hospital",
-      "storyExample": "Today, this old building is the Museum of the Seljuk Civilization.",
-      "category": "Places"
+      "chapterTitle": "مُسْتَشْفًى قَدِيمٌ جِدًّا",
+      "storyExample": "وَاليَوْمَ، هَذَا المَبْنَى القَدِيمُ هُوَ مَتْحَفُ الحَضَارَةِ السَّلْجُوقِيَّةِ."
      },
      {
-      "word": "princess",
-      "definition": "The daughter of a king or sultan.",
-      "partOfSpeech": "noun",
+      "word": "أَمِيرَةً",
+      "definition": "ابْنَةُ المَلِكِ أَوِ السُّلْطَان.",
       "level": "A1",
-      "pronunciation": "/ˈprɪnses/",
       "chapter": 2,
-      "chapterTitle": "A Princess",
-      "storyExample": "Gevher Nesibe was a Seljuk princess.",
-      "category": "People"
+      "chapterTitle": "أَمِيرَة",
+      "storyExample": "كَانَتْ كَوْهَر نَسِيبَة أَمِيرَةً سَلْجُوقِيَّةً."
      },
      {
-      "word": "commander",
-      "definition": "A leader of soldiers.",
-      "partOfSpeech": "noun",
+      "word": "قَائِدًا",
+      "definition": "قَائِدُ الجُنُود.",
       "level": "A1",
-      "pronunciation": "/kəˈmændər/",
       "chapter": 2,
-      "chapterTitle": "A Princess",
-      "storyExample": "When she was young, she loved a young commander and wanted to marry him.",
-      "category": "People"
+      "chapterTitle": "أَمِيرَة",
+      "storyExample": "عِنْدَمَا كَانَتْ شَابَّةً، أَحَبَّتْ قَائِدًا شَابًّا وَأَرَادَتْ أَنْ تَتَزَوَّجَهُ."
      },
      {
-      "word": "marry",
-      "definition": "Be husband and wife.",
-      "partOfSpeech": "verb",
+      "word": "تَتَزَوَّجَهُ",
+      "definition": "يَصِيرُ زَوْجًا وَزَوْجَةً.",
       "level": "A1",
-      "pronunciation": "/ˈmæri/",
       "chapter": 2,
-      "chapterTitle": "A Princess",
-      "storyExample": "When she was young, she loved a young commander and wanted to marry him.",
-      "category": "Life"
+      "chapterTitle": "أَمِيرَة",
+      "storyExample": "عِنْدَمَا كَانَتْ شَابَّةً، أَحَبَّتْ قَائِدًا شَابًّا وَأَرَادَتْ أَنْ تَتَزَوَّجَهُ."
      },
      {
-      "word": "agree",
-      "definition": "Say yes; think the same.",
-      "partOfSpeech": "verb",
+      "word": "يُوَافِقْ",
+      "definition": "يَقُولُ: «نَعَمْ».",
       "level": "A1",
-      "pronunciation": "/əˈɡriː/",
       "chapter": 2,
-      "chapterTitle": "A Princess",
-      "storyExample": "But her brother did not agree.",
-      "category": "Actions"
+      "chapterTitle": "أَمِيرَة",
+      "storyExample": "لَكِنَّ أَخَاهَا لَمْ يُوَافِقْ."
      },
      {
-      "word": "war",
-      "definition": "A big fight between two countries.",
-      "partOfSpeech": "noun",
+      "word": "حَرْبٍ",
+      "definition": "قِتَالٌ كَبِيرٌ بَيْنَ بَلَدَيْن.",
       "level": "A1",
-      "pronunciation": "/wɔːr/",
       "chapter": 2,
-      "chapterTitle": "A Princess",
-      "storyExample": "He sent the young man to a war, far away.",
-      "category": "History"
+      "chapterTitle": "أَمِيرَة",
+      "storyExample": "أَرْسَلَ الشَّابَّ إِلَى حَرْبٍ بَعِيدَةٍ."
      },
      {
-      "word": "far away",
-      "definition": "In a place a long way from here.",
-      "partOfSpeech": "phrase",
+      "word": "بَعِيدَةٍ",
+      "definition": "لَيْسَتْ قَرِيبَةً.",
       "level": "A1",
-      "pronunciation": "/fɑːr əˈweɪ/",
       "chapter": 2,
-      "chapterTitle": "A Princess",
-      "storyExample": "He sent the young man to a war, far away.",
-      "category": "Places"
+      "chapterTitle": "أَمِيرَة",
+      "storyExample": "أَرْسَلَ الشَّابَّ إِلَى حَرْبٍ بَعِيدَةٍ."
      },
      {
-      "word": "sick",
-      "definition": "Not well; with an illness.",
-      "partOfSpeech": "adjective",
+      "word": "مَرِضَتْ",
+      "definition": "لَمْ تَكُنْ بِصِحَّةٍ جَيِّدَةٍ؛ صَارَ عِنْدَهَا مَرَض.",
       "level": "A1",
-      "pronunciation": "/sɪk/",
       "chapter": 2,
-      "chapterTitle": "A Princess",
-      "storyExample": "Soon, she became very sick.",
-      "category": "Health"
+      "chapterTitle": "أَمِيرَة",
+      "storyExample": "وَبَعْدَ قَلِيلٍ، مَرِضَتْ مَرَضًا شَدِيدًا."
      },
      {
-      "word": "wish",
-      "definition": "A thing you really want.",
-      "partOfSpeech": "noun",
+      "word": "أُمْنِيَتَهَا",
+      "definition": "شَيْءٌ تُرِيدُهُ كَثِيرًا.",
       "level": "A1",
-      "pronunciation": "/wɪʃ/",
       "chapter": 3,
-      "chapterTitle": "Her Last Wish",
-      "storyExample": "He said, “Please tell me your last wish.”",
-      "category": "Life"
+      "chapterTitle": "أُمْنِيَتُهَا الأَخِيرَة",
+      "storyExample": "لَكِنَّ أُمْنِيَتَهَا لَمْ تَمُتْ مَعَهَا."
      },
      {
-      "word": "get help",
-      "definition": "Find a person who helps you.",
-      "partOfSpeech": "phrase",
+      "word": "الحُصُولَ عَلَى المُسَاعَدَةِ",
+      "definition": "أَنْ يَجِدَ شَخْصًا يُسَاعِدُهُ.",
       "level": "A1",
-      "pronunciation": "/ɡet help/",
       "chapter": 3,
-      "chapterTitle": "Her Last Wish",
-      "storyExample": "Sick people can get help there, and good doctors can teach students.",
-      "category": "Health"
+      "chapterTitle": "أُمْنِيَتُهَا الأَخِيرَة",
+      "storyExample": "يَسْتَطِيعُ المَرْضَى الحُصُولَ عَلَى المُسَاعَدَةِ هُنَاكَ، وَيَسْتَطِيعُ الأَطِبَّاءُ الجَيِّدُونَ تَعْلِيمَ الطُّلَّابِ."
      },
      {
-      "word": "free",
-      "definition": "You do not pay money for it.",
-      "partOfSpeech": "adjective",
+      "word": "مَجَّانِيًّا",
+      "definition": "لَا تَدْفَعُ مَالًا لِأَجْلِهِ.",
       "level": "A1",
-      "pronunciation": "/friː/",
       "chapter": 3,
-      "chapterTitle": "Her Last Wish",
-      "storyExample": "Make it free for everyone.",
-      "category": "Describing"
+      "chapterTitle": "أُمْنِيَتُهَا الأَخِيرَة",
+      "storyExample": "اجْعَلْهُ مَجَّانِيًّا لِلْجَمِيعِ»."
      },
      {
-      "word": "keep a promise",
-      "definition": "Do the thing you said.",
-      "partOfSpeech": "phrase",
+      "word": "وَفَى",
+      "definition": "فَعَلَ مَا قَالَهُ.",
       "level": "A1",
-      "pronunciation": "/kiːp ə ˈprɑːmɪs/",
       "chapter": 4,
-      "chapterTitle": "Two Buildings",
-      "storyExample": "Her brother, the Sultan, kept his promise.",
-      "category": "Values"
+      "chapterTitle": "مَبْنَيَانِ",
+      "storyExample": "وَفَى أَخُوهَا السُّلْطَانُ بِوَعْدِهِ."
      },
      {
-      "word": "healing",
-      "definition": "Making a sick person well again.",
-      "partOfSpeech": "noun",
+      "word": "الشِّفَاءِ",
+      "definition": "جَعْلُ المَرِيضِ سَلِيمًا مَرَّةً أُخْرَى.",
       "level": "A1",
-      "pronunciation": "/ˈhiːlɪŋ/",
       "chapter": 4,
-      "chapterTitle": "Two Buildings",
-      "storyExample": "People also called it “the house of healing”.",
-      "category": "Health"
+      "chapterTitle": "مَبْنَيَانِ",
+      "storyExample": "وَسَمَّاهُ النَّاسُ أَيْضًا «بَيْتَ الشِّفَاءِ»."
      },
      {
-      "word": "twin",
-      "definition": "One of two things that look the same.",
-      "partOfSpeech": "adjective",
+      "word": "التَّوْأَمَيْنِ",
+      "definition": "وَاحِدٌ مِنْ شَيْئَيْنِ مُتَشَابِهَيْنِ.",
       "level": "A1",
-      "pronunciation": "/twɪn/",
       "chapter": 4,
-      "chapterTitle": "Two Buildings",
-      "storyExample": "The two buildings look almost the same, so people call them the “Twin Madrasas”.",
-      "category": "Describing"
+      "chapterTitle": "مَبْنَيَانِ",
+      "storyExample": "المَبْنَيَانِ يَبْدُوَانِ مُتَشَابِهَيْنِ تَقْرِيبًا، لِذَلِكَ يُسَمِّيهِمَا النَّاسُ «المَدْرَسَتَيْنِ التَّوْأَمَيْنِ»."
      },
      {
-      "word": "grave",
-      "definition": "The place in the ground for a dead person.",
-      "partOfSpeech": "noun",
+      "word": "قَبْرُ",
+      "definition": "المَكَانُ فِي الأَرْضِ لِلْمَيِّت.",
       "level": "A1",
-      "pronunciation": "/ɡreɪv/",
       "chapter": 4,
-      "chapterTitle": "Two Buildings",
-      "storyExample": "Gevher Nesibe’s grave is inside the school building.",
-      "category": "Places"
+      "chapterTitle": "مَبْنَيَانِ",
+      "storyExample": "قَبْرُ كَوْهَر نَسِيبَة دَاخِلَ مَبْنَى المَدْرَسَةِ."
      },
      {
-      "word": "patient",
-      "definition": "A sick person with a doctor.",
-      "partOfSpeech": "noun",
+      "word": "مَرْضَى",
+      "definition": "أَشْخَاصٌ مَرْضَى عِنْدَ الطَّبِيبِ.",
       "level": "A1",
-      "pronunciation": "/ˈpeɪʃnt/",
       "chapter": 5,
-      "chapterTitle": "Learning Next to the Patients",
-      "storyExample": "There, they worked with real patients.",
-      "category": "Health"
+      "chapterTitle": "التَّعَلُّمُ بِجَانِبِ المَرْضَى",
+      "storyExample": "هُنَاكَ كَانُوا يَعْمَلُونَ مَعَ مَرْضَى حَقِيقِيِّينَ."
      },
      {
-      "word": "carefully",
-      "definition": "Slowly and well, with all your mind.",
-      "partOfSpeech": "adverb",
+      "word": "بِانْتِبَاهٍ",
+      "definition": "بِتَرْكِيزٍ وَحَذَرٍ.",
       "level": "A1",
-      "pronunciation": "/ˈkerfəli/",
       "chapter": 5,
-      "chapterTitle": "Learning Next to the Patients",
-      "storyExample": "They watched the doctors carefully and learned from them.",
-      "category": "Describing"
+      "chapterTitle": "التَّعَلُّمُ بِجَانِبِ المَرْضَى",
+      "storyExample": "كَانُوا يُرَاقِبُونَ الأَطِبَّاءَ بِانْتِبَاهٍ وَيَتَعَلَّمُونَ مِنْهُمْ."
      },
      {
-      "word": "surgeon",
-      "definition": "A doctor who opens the body to help.",
-      "partOfSpeech": "noun",
+      "word": "جَرَّاحَانِ",
+      "definition": "طَبِيبٌ يَفْتَحُ الجِسْمَ لِيُسَاعِدَ.",
       "level": "A1",
-      "pronunciation": "/ˈsɜːrdʒən/",
       "chapter": 5,
-      "chapterTitle": "Learning Next to the Patients",
-      "storyExample": "The hospital had two doctors, two surgeons and a man for medicines.",
-      "category": "Health"
+      "chapterTitle": "التَّعَلُّمُ بِجَانِبِ المَرْضَى",
+      "storyExample": "كَانَ فِي المُسْتَشْفَى طَبِيبَانِ وَجَرَّاحَانِ وَرَجُلٌ لِلأَدْوِيَةِ."
      },
      {
-      "word": "medicine",
-      "definition": "A thing you take when you are sick.",
-      "partOfSpeech": "noun",
+      "word": "لِلأَدْوِيَةِ",
+      "definition": "شَيْءٌ تَتَنَاوَلُهُ عِنْدَمَا تَكُونُ مَرِيضًا.",
       "level": "A1",
-      "pronunciation": "/ˈmedɪsn/",
       "chapter": 5,
-      "chapterTitle": "Learning Next to the Patients",
-      "storyExample": "The hospital had two doctors, two surgeons and a man for medicines.",
-      "category": "Health"
+      "chapterTitle": "التَّعَلُّمُ بِجَانِبِ المَرْضَى",
+      "storyExample": "كَانَ فِي المُسْتَشْفَى طَبِيبَانِ وَجَرَّاحَانِ وَرَجُلٌ لِلأَدْوِيَةِ."
      },
      {
-      "word": "operation",
-      "definition": "A doctor's work inside the body.",
-      "partOfSpeech": "noun",
+      "word": "لِعَمَلِيَّاتِ",
+      "definition": "عَمَلُ الطَّبِيبِ دَاخِلَ الجِسْمِ.",
       "level": "A1",
-      "pronunciation": "/ˌɑːpəˈreɪʃn/",
       "chapter": 5,
-      "chapterTitle": "Learning Next to the Patients",
-      "storyExample": "There were also rooms for eye operations.",
-      "category": "Health"
+      "chapterTitle": "التَّعَلُّمُ بِجَانِبِ المَرْضَى",
+      "storyExample": "وَكَانَتْ هُنَاكَ أَيْضًا غُرَفٌ لِعَمَلِيَّاتِ العُيُونِ."
      },
      {
-      "word": "language",
-      "definition": "The words people speak, like English or Turkish.",
-      "partOfSpeech": "noun",
+      "word": "اللُّغَاتِ",
+      "definition": "كَلِمَاتٌ يَتَكَلَّمُ بِهَا النَّاسُ فِي بَلَدٍ.",
       "level": "A1",
-      "pronunciation": "/ˈlæŋɡwɪdʒ/",
       "chapter": 6,
-      "chapterTitle": "Great Teachers and Books",
-      "storyExample": "Students learned about the body, medicines, languages and Islam.",
-      "category": "Learning"
+      "chapterTitle": "مُعَلِّمُونَ عُظَمَاءُ وَكُتُبٌ",
+      "storyExample": "تَعَلَّمَ الطُّلَّابُ عَنِ الجِسْمِ وَالأَدْوِيَةِ وَاللُّغَاتِ وَالإِسْلَامِ."
      },
      {
-      "word": "scientist",
-      "definition": "A person who studies and learns new things.",
-      "partOfSpeech": "noun",
+      "word": "لِلْعَالِمِ",
+      "definition": "شَخْصٌ يَدْرُسُ وَيَتَعَلَّمُ أَشْيَاءَ جَدِيدَةً.",
       "level": "A1",
-      "pronunciation": "/ˈsaɪəntɪst/",
       "chapter": 6,
-      "chapterTitle": "Great Teachers and Books",
-      "storyExample": "They read the important books of the scientist İbn Sînâ.",
-      "category": "Learning"
+      "chapterTitle": "مُعَلِّمُونَ عُظَمَاءُ وَكُتُبٌ",
+      "storyExample": "قَرَؤُوا الكُتُبَ المُهِمَّةَ لِلْعَالِمِ ابْنِ سِينَا."
      },
      {
-      "word": "ancient",
-      "definition": "Very, very old.",
-      "partOfSpeech": "adjective",
+      "word": "القَدِيمَةِ",
+      "definition": "مِنْ زَمَنٍ بَعِيدٍ جِدًّا.",
       "level": "A1",
-      "pronunciation": "/ˈeɪnʃənt/",
       "chapter": 6,
-      "chapterTitle": "Great Teachers and Books",
-      "storyExample": "They also read the books of Hippocrates, a doctor from ancient Greece.",
-      "category": "History"
+      "chapterTitle": "مُعَلِّمُونَ عُظَمَاءُ وَكُتُبٌ",
+      "storyExample": "وَقَرَؤُوا أَيْضًا كُتُبَ أَبُقْرَاطَ، وَهُوَ طَبِيبٌ مِنَ اليُونَانِ القَدِيمَةِ."
      },
      {
-      "word": "diploma",
-      "definition": "A paper you get at the end of school.",
-      "partOfSpeech": "noun",
+      "word": "شَهَادَةٍ",
+      "definition": "وَرَقَةٌ تَحْصُلُ عَلَيْهَا فِي نِهَايَةِ الدِّرَاسَةِ.",
       "level": "A1",
-      "pronunciation": "/dɪˈploʊmə/",
       "chapter": 6,
-      "chapterTitle": "Great Teachers and Books",
-      "storyExample": "At the end of school, every student got a diploma.",
-      "category": "Learning"
+      "chapterTitle": "مُعَلِّمُونَ عُظَمَاءُ وَكُتُبٌ",
+      "storyExample": "فِي نِهَايَةِ الدِّرَاسَةِ، كَانَ كُلُّ طَالِبٍ يَحْصُلُ عَلَى شَهَادَةٍ."
      },
      {
-      "word": "illness",
-      "definition": "A problem in the body or mind.",
-      "partOfSpeech": "noun",
+      "word": "مَرَضٌ",
+      "definition": "مُشْكِلَةٌ فِي الجِسْمِ أَوِ العَقْلِ.",
       "level": "A1",
-      "pronunciation": "/ˈɪlnəs/",
       "chapter": 7,
-      "chapterTitle": "Music for the Heart",
-      "storyExample": "It was for people with an illness of the mind.",
-      "category": "Health"
+      "chapterTitle": "مُوسِيقَى لِلْقَلْب",
+      "storyExample": "كَانَ لِلنَّاسِ الَّذِينَ عِنْدَهُمْ مَرَضٌ فِي العَقْلِ."
      },
      {
-      "word": "mind",
-      "definition": "The part of you that thinks and feels.",
-      "partOfSpeech": "noun",
+      "word": "العَقْلِ",
+      "definition": "الجُزْءُ فِيكَ الَّذِي يُفَكِّرُ وَيَشْعُرُ.",
       "level": "A1",
-      "pronunciation": "/maɪnd/",
       "chapter": 7,
-      "chapterTitle": "Music for the Heart",
-      "storyExample": "It was for people with an illness of the mind.",
-      "category": "Health"
+      "chapterTitle": "مُوسِيقَى لِلْقَلْب",
+      "storyExample": "كَانَ لِلنَّاسِ الَّذِينَ عِنْدَهُمْ مَرَضٌ فِي العَقْلِ."
      },
      {
-      "word": "kind words",
-      "definition": "Nice and friendly words.",
-      "partOfSpeech": "phrase",
+      "word": "الكَلِمَاتُ الطَّيِّبَةُ",
+      "definition": "كَلَامٌ جَمِيلٌ وَلَطِيفٌ.",
       "level": "A1",
-      "pronunciation": "/kaɪnd wɜːrdz/",
       "chapter": 7,
-      "chapterTitle": "Music for the Heart",
-      "storyExample": "Kind words and music can help sick people.",
-      "category": "Values"
+      "chapterTitle": "مُوسِيقَى لِلْقَلْب",
+      "storyExample": "الكَلِمَاتُ الطَّيِّبَةُ وَالمُوسِيقَى تُسَاعِدَانِ المَرْضَى."
      },
      {
-      "word": "found",
-      "definition": "Learned a new thing.",
-      "partOfSpeech": "verb",
+      "word": "وَجَدَ",
+      "definition": "عَرَفَ شَيْئًا بَعْدَ أَنْ دَرَسَ.",
       "level": "A1",
-      "pronunciation": "/faʊnd/",
       "chapter": 7,
-      "chapterTitle": "Music for the Heart",
-      "storyExample": "He found that music can make people happy or calm.",
-      "category": "Learning"
+      "chapterTitle": "مُوسِيقَى لِلْقَلْب",
+      "storyExample": "وَوَجَدَ أَنَّ المُوسِيقَى تَسْتَطِيعُ أَنْ تَجْعَلَ النَّاسَ سُعَدَاءَ أَوْ هَادِئِينَ."
      },
      {
-      "word": "calm",
-      "definition": "Quiet, not angry and not afraid.",
-      "partOfSpeech": "adjective",
+      "word": "هَادِئِينَ",
+      "definition": "سَاكِنٌ، لَيْسَ غَاضِبًا وَلَيْسَ خَائِفًا.",
       "level": "A1",
-      "pronunciation": "/kɑːm/",
       "chapter": 7,
-      "chapterTitle": "Music for the Heart",
-      "storyExample": "He found that music can make people happy or calm.",
-      "category": "Feelings"
+      "chapterTitle": "مُوسِيقَى لِلْقَلْب",
+      "storyExample": "وَوَجَدَ أَنَّ المُوسِيقَى تَسْتَطِيعُ أَنْ تَجْعَلَ النَّاسَ سُعَدَاءَ أَوْ هَادِئِينَ."
      }
     ]
    },
    {
     "id": 102,
     "type": "places",
-    "title": "Places & People",
-    "content": "Find every place and person from the story on the map.",
+    "title": "الأَمَاكِنُ وَالأَشْخَاصُ",
+    "content": "اِبْحَثْ عَلَى الخَرِيطَةِ عَنْ كُلِّ مَدِينَةٍ وَأَرْضٍ وَبَحْرٍ وَشَخْصٍ فِي القِصَّةِ.",
     "entityBookKey": "gevherNesibe-a1"
    },
    {
     "id": 12,
     "type": "vocabulary-match",
-    "title": "Vocabulary Challenge",
+    "title": "تحدي المفردات",
     "image": "https://picsum.photos/seed/vocab-match-gevhernesibe-a1/1200/800",
     "audioUrl": "",
-    "content": "Match six story words with their meanings.",
+    "content": "صِلْ سِتَّ كَلِمَاتٍ مِنَ الْقِصَّةِ بِمَعَانِيهَا.",
     "vocabularyPairs": [
      {
-      "word": "museum",
-      "meaning": "A building with old and interesting things.",
+      "word": "مَتْحَفُ",
+      "meaning": "مَبْنًى فِيهِ أَشْيَاءُ قَدِيمَةٌ وَمُثِيرَةٌ لِلِاهْتِمَام.",
       "partOfSpeech": "noun",
       "chapter": 1,
-      "context": "Today, this old building is the Museum of the Seljuk Civilization."
+      "context": "وَاليَوْمَ، هَذَا المَبْنَى القَدِيمُ هُوَ مَتْحَفُ الحَضَارَةِ السَّلْجُوقِيَّةِ."
      },
      {
-      "word": "princess",
-      "meaning": "The daughter of a king or sultan.",
+      "word": "قَائِدًا",
+      "meaning": "قَائِدُ الجُنُود.",
       "partOfSpeech": "noun",
       "chapter": 2,
-      "context": "Gevher Nesibe was a Seljuk princess."
+      "context": "عِنْدَمَا كَانَتْ شَابَّةً، أَحَبَّتْ قَائِدًا شَابًّا وَأَرَادَتْ أَنْ تَتَزَوَّجَهُ."
      },
      {
-      "word": "wish",
-      "meaning": "A thing you really want.",
+      "word": "مَجَّانِيًّا",
+      "meaning": "لَا تَدْفَعُ مَالًا لِأَجْلِهِ.",
       "partOfSpeech": "noun",
       "chapter": 3,
-      "context": "He said, “Please tell me your last wish.”"
+      "context": "اجْعَلْهُ مَجَّانِيًّا لِلْجَمِيعِ»."
      },
      {
-      "word": "twin",
-      "meaning": "One of two things that look the same.",
+      "word": "قَبْرُ",
+      "meaning": "المَكَانُ فِي الأَرْضِ لِلْمَيِّت.",
       "partOfSpeech": "adjective",
       "chapter": 4,
-      "context": "The two buildings look almost the same, so people call them the “Twin Madrasas”."
+      "context": "قَبْرُ كَوْهَر نَسِيبَة دَاخِلَ مَبْنَى المَدْرَسَةِ."
      },
      {
-      "word": "surgeon",
-      "meaning": "A doctor who opens the body to help.",
+      "word": "جَرَّاحَانِ",
+      "meaning": "طَبِيبٌ يَفْتَحُ الجِسْمَ لِيُسَاعِدَ.",
       "partOfSpeech": "noun",
       "chapter": 5,
-      "context": "The hospital had two doctors, two surgeons and a man for medicines."
+      "context": "كَانَ فِي المُسْتَشْفَى طَبِيبَانِ وَجَرَّاحَانِ وَرَجُلٌ لِلأَدْوِيَةِ."
      },
      {
-      "word": "calm",
-      "meaning": "Quiet, not angry and not afraid.",
+      "word": "هَادِئِينَ",
+      "meaning": "سَاكِنٌ، لَيْسَ غَاضِبًا وَلَيْسَ خَائِفًا.",
       "partOfSpeech": "adjective",
       "chapter": 7,
-      "context": "He found that music can make people happy or calm."
+      "context": "وَوَجَدَ أَنَّ المُوسِيقَى تَسْتَطِيعُ أَنْ تَجْعَلَ النَّاسَ سُعَدَاءَ أَوْ هَادِئِينَ."
      }
     ]
    },
    {
     "id": 14,
     "type": "exercises",
-    "title": "Language Review",
+    "title": "مراجعة اللغة",
     "image": "https://picsum.photos/seed/exercises-gevhernesibe-a1/1200/800",
-    "content": "Review the language from all chapters.",
+    "content": "رَاجِعْ لُغَةَ الْفُصُولِ كُلِّهَا.",
     "exercises": [
      {
-      "id": "gevhernesibe-a1-language-review-1",
+      "id": "gevhernesibe-a1-ar-language-review-1-he-she",
       "type": "drag-drop",
-      "title": "Look: Two Kinds of Past",
-      "instructions": "Put each verb in the right group.",
-      "question": "How does each verb show the past?",
+      "title": "انْظُرْ: هُوَ أَمْ هِيَ؟",
+      "instructions": "ضَعْ كُلَّ فِعْلٍ فِي مَجْمُوعَتِهِ.",
+      "question": "مَنْ فَعَلَ؟",
       "dragDropGroups": [
        {
-        "group": "Ends in -ed",
+        "group": "هُوَ",
         "items": [
-         "loved",
-         "wanted",
-         "worked",
-         "watched"
+         "بَنَى",
+         "وَفَى",
+         "مَاتَ الْقَائِدُ"
         ]
        },
        {
-        "group": "Changes",
+        "group": "هِيَ",
         "items": [
-         "built",
-         "sent",
-         "became",
-         "got"
+         "أَحَبَّتْ",
+         "حَزِنَتْ",
+         "مَرِضَتْ"
         ]
        }
       ],
       "correctAnswer": {
-       "Ends in -ed": [
-        "loved",
-        "wanted",
-        "worked",
-        "watched"
+       "هُوَ": [
+        "بَنَى",
+        "وَفَى",
+        "مَاتَ الْقَائِدُ"
        ],
-       "Changes": [
-        "built",
-        "sent",
-        "became",
-        "got"
+       "هِيَ": [
+        "أَحَبَّتْ",
+        "حَزِنَتْ",
+        "مَرِضَتْ"
        ]
       },
-      "explanation": "Many verbs add -ed: love → loved, work → worked. Some verbs change: build → built, send → sent, become → became, get → got.",
+      "explanation": "مع «هِيَ» نزيد «ـتْ»: أَحَبَّتْ، حَزِنَتْ، مَرِضَتْ.",
       "feedback": {
-       "correct": "Well done. You found the two kinds of past.",
-       "incorrect": "Say the verb today: love, build … Does it add -ed or change?"
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "انْظُرْ إِلَى آخِرِ الْفِعْلِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-language-review-2",
+      "id": "gevhernesibe-a1-ar-language-review-2-kana",
       "type": "choose-form",
-      "title": "Practise: In, For",
-      "instructions": "Choose the right word.",
-      "question": "When? How long?",
+      "title": "تَدَرَّبْ: كَانَ وَكَانَتْ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ صَحِيحَةٌ؟",
       "formChoices": [
        {
-        "sentence": "People built it [choice] 1205–1206.",
+        "sentence": "[choice] الْمَبْنَى مُسْتَشْفًى وَمَدْرَسَةً.",
         "options": [
-         "in",
-         "for"
+         "كَانَ",
+         "كَانَتْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The hospital helped sick people [choice] about 700 years.",
+        "sentence": "[choice] كَوْهَر نَسِيبَة أَمِيرَةً.",
         "options": [
-         "for",
-         "in"
+         "كَانَتْ",
+         "كَانَ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "فِي الشِّتَاءِ، [choice] الْمَبَانِي دَافِئَةً.",
+        "options": [
+         "كَانَتِ",
+         "كَانَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "In + year: in 1205. For + time: for 700 years.",
+      "explanation": "«كَانَ» للمذكر، و«كَانَتْ» للمؤنث ولجمع الأشياء (الْمَبَانِي).",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "In 1205. For 700 years."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مُذَكَّرٌ أَمْ مُؤَنَّثٌ؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-review-3",
+      "id": "gevhernesibe-a1-ar-language-review-3-dual",
       "type": "choose-form",
-      "title": "Practise: There Was, There Were",
-      "instructions": "Choose there was or there were.",
-      "question": "One or many?",
+      "title": "تَدَرَّبْ: وَاحِدٌ أَمِ اثْنَانِ؟",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ صَحِيحَةٌ؟",
       "formChoices": [
        {
-        "sentence": "At that time, [choice] no good hospital in Kayseri.",
+        "sentence": "كَانَ فِي الْمُسْتَشْفَى [choice] وَجَرَّاحَانِ.",
         "options": [
-         "there was",
-         "there were"
+         "طَبِيبَانِ",
+         "طَبِيبٌ"
         ],
         "answer": 0
        },
        {
-        "sentence": "[choice] also rooms for eye operations.",
+        "sentence": "بَنَى السُّلْطَانُ [choice].",
         "options": [
-         "There were",
-         "There was"
+         "مَبْنَيَيْنِ",
+         "مَبْنًى"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "الْكَلِمَاتُ الطَّيِّبَةُ وَالْمُوسِيقَى [choice] الْمَرْضَى.",
+        "options": [
+         "تُسَاعِدَانِ",
+         "تُسَاعِدُ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "One thing: there was. Two or more: there were.",
+      "explanation": "للاثنين نزيد «ـَانِ / ـَيْنِ»: طَبِيبَانِ، مَبْنَيَيْنِ، تُسَاعِدَانِ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "A hospital = one. Rooms = many."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "كَمْ؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-review-4",
+      "id": "gevhernesibe-a1-ar-language-review-4-story",
       "type": "word-bank",
-      "title": "Practise: Please and Can",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What did Gevher Nesibe say?",
-      "fillBlanksText": "[blank] use my money to build a hospital. Sick people [blank] get help there. Make it [blank] for everyone.",
+      "title": "تَدَرَّبْ: الْقِصَّةُ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "أَيُّ كَلِمَةٍ تُنَاسِبُ؟",
+      "fillBlanksText": "كَانَتْ كَوْهَر نَسِيبَة [blank] سَلْجُوقِيَّةً. أَرَادَتْ [blank] مَجَّانِيًّا لِلْجَمِيعِ. وَالْيَوْمَ، الْمَبْنَى [blank].",
       "wordBank": [
-       "Please",
-       "can",
-       "free",
-       "Plays",
-       "cans"
+       "أَمِيرَةً",
+       "مُسْتَشْفًى",
+       "مَتْحَفٌ",
+       "طَبِيبَةً",
+       "سُوقٌ"
       ],
       "correctAnswer": [
-       "Please",
-       "can",
-       "free"
+       "أَمِيرَةً",
+       "مُسْتَشْفًى",
+       "مَتْحَفٌ"
       ],
-      "explanation": "Please + verb asks politely. Can + verb: can get help.",
+      "explanation": "الفصول ١ و٢ و٣.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 3 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفُصُولِ ١–٣."
       }
      },
      {
-      "id": "gevhernesibe-a1-language-review-5",
+      "id": "gevhernesibe-a1-ar-language-review-5-fix",
       "type": "error-correction",
-      "title": "Practise: Fix One Word",
-      "instructions": "Find the wrong word. Choose the right word.",
-      "question": "Which word is wrong?",
+      "title": "تَدَرَّبْ: صَحِّحِ الْخَطَأَ",
+      "instructions": "فِي كُلِّ جُمْلَةٍ خَطَأٌ وَاحِدٌ. انْقُرِ الْخَطَأَ، ثُمَّ اخْتَرِ التَّصْحِيحَ.",
+      "question": "مَا الصِّيغَةُ الصَّحِيحَةُ؟",
       "errorItems": [
        {
-        "sentence": "The Sultan builded two buildings.",
-        "error": "builded",
+        "sentence": "حَزِنَ كَوْهَر نَسِيبَة كَثِيرًا.",
+        "error": "حَزِنَ",
         "options": [
-         "built",
-         "build",
-         "builds"
+         "حَزِنَتْ",
+         "يَحْزَنُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Every student getted a diploma.",
-        "error": "getted",
+        "sentence": "كَانَتِ الْمَبْنَى مُسْتَشْفًى.",
+        "error": "كَانَتِ",
         "options": [
-         "get",
-         "got",
-         "gets"
+         "كَانَ",
+         "كَانُوا"
         ],
-        "answer": 1
+        "answer": 0
+       },
+       {
+        "sentence": "كَانَ الطُّلَّابُ يَحْضُرُ الدُّرُوسَ.",
+        "error": "يَحْضُرُ",
+        "options": [
+         "يَحْضُرُونَ",
+         "حَضَرَ"
+        ],
+        "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Build” and “get” change in the past: built, got.",
+      "explanation": "كَوْهَر نَسِيبَة ← حَزِنَتْ. الْمَبْنَى مذكر ← كَانَ. الطُّلَّابُ ← يَحْضُرُونَ.",
       "feedback": {
-       "correct": "Well done.",
-       "incorrect": "Build → built. Get → got. They do not take -ed."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "مَنْ يَفْعَلُ؟"
       }
      },
      {
-      "id": "gevhernesibe-a1-language-review-6",
+      "id": "gevhernesibe-a1-ar-language-review-6-say-it",
       "type": "reflection",
-      "title": "Use: A Good Place",
-      "instructions": "Write three sentences about a good place.",
-      "question": "What is a good place in your town?",
+      "title": "قُلْهَا: مَكَانٌ لِلْجَمِيعِ",
+      "instructions": "قُلْ ثَلَاثَ جُمَلٍ عَنْ مَكَانٍ تُرِيدُ أَنْ تَبْنِيَهُ لِمَدِينَتِكَ.",
+      "question": "مَاذَا تُرِيدُ أَنْ تَبْنِيَ؟",
       "correctAnswer": null,
-      "explanation": "Use there is, can and free.",
+      "explanation": "استعمل «أُرِيدُ أَنْ» و«لِأَنَّ».",
       "feedback": {
-       "correct": "Write three short sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "One “There is …”: “There is a … in my town.”",
+        "question": "«أُرِيدُ أَنْ أَبْنِيَ …»",
         "mode": "Individual",
-        "example": "There is a big library in my town."
+        "example": "أُرِيدُ أَنْ أَبْنِيَ مَكْتَبَةً."
        },
        {
-        "question": "One “can”: “People can …”",
+        "question": "«هُوَ لِـ…»",
         "mode": "Individual",
-        "example": "People can read books there."
+        "example": "هِيَ لِلْأَطْفَالِ."
        },
        {
-        "question": "One “free”: “It is free for …”",
-        "mode": "Individual",
-        "example": "It is free for everyone."
+        "question": "«هُوَ مَجَّانِيٌّ، لِأَنَّ …»",
+        "mode": "Pair",
+        "example": "هِيَ مَجَّانِيَّةٌ، لِأَنَّ الْكُتُبَ لِلْجَمِيعِ."
        }
       ]
      }
@@ -2303,175 +2265,180 @@
    {
     "id": 15,
     "type": "final-challenge",
-    "title": "Final Challenge",
+    "title": "التحدي النهائي",
     "image": "https://picsum.photos/seed/challenge-gevhernesibe-a1/1200/800",
-    "content": "Bring the whole story together in the Final Challenge.",
+    "content": "اجمع الكتاب كله في التحدي النهائي.",
     "exercises": [
      {
-      "id": "gevhernesibe-a1-final-1",
+      "id": "gevhernesibe-a1-ar-final-1",
       "type": "fill-blanks",
-      "title": "A Very Old Hospital",
-      "instructions": "Write one word.",
-      "question": "What was the building?",
-      "fillBlanksText": "This building was both a hospital and a [blank].",
+      "title": "الْمَدِينَةُ",
+      "instructions": "اكْتُبِ الْكَلِمَةَ النَّاقِصَةَ.",
+      "question": "فِي أَيِّ مَدِينَةٍ الْمُسْتَشْفَى؟",
+      "fillBlanksText": "مُسْتَشْفَى كَوْهَر نَسِيبَة فِي [blank].",
       "correctAnswer": [
-       "school"
+       "قَيْصَرِيَّة"
       ],
-      "explanation": "Chapter 1: “This building was both a hospital and a school.”",
+      "explanation": "الفصل الأول: «قَيْصَرِيَّة مَدِينَةٌ فِي الْأَنَاضُولِ… إِنَّهُ مُسْتَشْفَى كَوْهَر نَسِيبَة».",
       "feedback": {
-       "correct": "Yes. A school.",
-       "incorrect": "Read the second paragraph of Chapter 1."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-final-2",
+      "id": "gevhernesibe-a1-ar-final-2",
       "type": "multiple-choice",
-      "title": "A Princess",
-      "instructions": "Choose the answer.",
-      "question": "Why was Gevher Nesibe very sad?",
+      "title": "الْقَائِدُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "لِمَاذَا مَاتَ الْقَائِدُ الشَّابُّ؟",
       "options": [
-       "The young commander died.",
-       "She lost her money.",
-       "Her school was closed."
+       "أَرْسَلَهُ أَخُوهَا إِلَى حَرْبٍ بَعِيدَةٍ، وَمَاتَ هُنَاكَ.",
+       "مَرِضَ فِي قَيْصَرِيَّة.",
+       "سَافَرَ إِلَى الْيُونَانِ."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: “The commander died there. Gevher Nesibe was very sad.”",
+      "explanation": "الفصل الثاني: «أَرْسَلَ الشَّابَّ إِلَى حَرْبٍ بَعِيدَةٍ. وَمَاتَ الْقَائِدُ هُنَاكَ».",
       "feedback": {
-       "correct": "Yes. The commander died.",
-       "incorrect": "Read the second paragraph of Chapter 2."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "gevhernesibe-a1-final-3",
+      "id": "gevhernesibe-a1-ar-final-3",
       "type": "true-false",
-      "title": "Her Wish",
-      "instructions": "Is it true or false?",
-      "question": "Gevher Nesibe’s wish died with her.",
+      "title": "الْأَطِبَّاءُ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "اسْتَطَاعَ الْأَطِبَّاءُ مُسَاعَدَةَ كَوْهَر نَسِيبَة.",
       "correctAnswer": false,
-      "explanation": "Chapter 3: “But her wish did not die with her.”",
+      "explanation": "الفصل الثالث: «لَمْ يَسْتَطِعِ الْأَطِبَّاءُ مُسَاعَدَةَ كَوْهَر نَسِيبَة».",
       "feedback": {
-       "correct": "Yes, it is false. Her brother built the hospital.",
-       "incorrect": "Read the last paragraph of Chapter 3."
+       "correct": "صَحِيحٌ: الْجُمْلَةُ خَطَأٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-final-4",
+      "id": "gevhernesibe-a1-ar-final-4",
       "type": "matching",
-      "title": "Who Is It?",
-      "instructions": "Match the person with the sentence.",
-      "question": "Who is it?",
+      "title": "الْأَسْمَاءُ",
+      "instructions": "صِلِ الِاسْمَ بِمَعْنَاهُ.",
+      "question": "مَا كُلُّ اسْمٍ؟",
       "matchingHeadings": {
-       "left": "Person",
-       "right": "Sentence"
+       "left": "الِاسْمُ",
+       "right": "الْمَعْنَى"
       },
       "matchingPairs": [
        {
-        "left": "the Sultan",
-        "right": "He kept his promise."
+        "left": "الشِّفَائِيَّةُ",
+        "right": "الْمُسْتَشْفَى"
        },
        {
-        "left": "İbn Sînâ",
-        "right": "Students read his important books."
+        "left": "الْغِيَاثِيَّةُ",
+        "right": "الْمَدْرَسَةُ"
        },
        {
-        "left": "Fârâbî",
-        "right": "He studied music."
+        "left": "بَيْتُ الشِّفَاءِ",
+        "right": "اسْمٌ آخَرُ لِلْمُسْتَشْفَى"
        }
       ],
       "correctAnswer": {
-       "the Sultan": "He kept his promise.",
-       "İbn Sînâ": "Students read his important books.",
-       "Fârâbî": "He studied music."
+       "الشِّفَائِيَّةُ": "الْمُسْتَشْفَى",
+       "الْغِيَاثِيَّةُ": "الْمَدْرَسَةُ",
+       "بَيْتُ الشِّفَاءِ": "اسْمٌ آخَرُ لِلْمُسْتَشْفَى"
       },
-      "explanation": "Chapter 4: the Sultan. Chapter 6: İbn Sînâ. Chapter 7: Fârâbî.",
+      "explanation": "الفصل الرابع.",
       "feedback": {
-       "correct": "Good. You matched all three.",
-       "incorrect": "Read Chapters 4, 6 and 7 again."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-final-5",
+      "id": "gevhernesibe-a1-ar-final-5",
       "type": "multiple-choice",
-      "title": "Warm Buildings",
-      "instructions": "Choose the answer.",
-      "question": "Why were the buildings warm in winter?",
+      "title": "الشِّتَاءُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "لِمَاذَا كَانَتِ الْمَبَانِي دَافِئَةً فِي الشِّتَاءِ؟",
       "options": [
-       "Hot water went under the floor.",
-       "The rooms were very small.",
-       "The sun was very hot."
+       "لِأَنَّ الْمَاءَ السَّاخِنَ كَانَ يَمُرُّ تَحْتَ الْأَرْضِيَّةِ",
+       "لِأَنَّ الشَّمْسَ كَانَتْ حَارَّةً",
+       "لِأَنَّ الْغُرَفَ كَانَتْ صَغِيرَةً"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “In winter, the buildings were warm, because hot water went under the floor.”",
+      "explanation": "الفصل الخامس: «لِأَنَّ الْمَاءَ السَّاخِنَ كَانَ يَمُرُّ تَحْتَ الْأَرْضِيَّةِ».",
       "feedback": {
-       "correct": "Yes. Hot water went under the floor.",
-       "incorrect": "Read the second paragraph of Chapter 5."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-final-6",
+      "id": "gevhernesibe-a1-ar-final-6",
       "type": "true-false",
-      "title": "Real Patients",
-      "instructions": "Is it true or false?",
-      "question": "The students worked with real patients in the hospital.",
+      "title": "٧٠٠ سَنَةٍ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "سَاعَدَ الْمُسْتَشْفَى الْمَرْضَى نَحْوَ ٧٠٠ سَنَةٍ.",
       "correctAnswer": true,
-      "explanation": "Chapter 5: “There, they worked with real patients.”",
+      "explanation": "الفصل السادس: «وَسَاعَدَ الْمُسْتَشْفَى الْمَرْضَى نَحْوَ ٧٠٠ سَنَةٍ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the first paragraph of Chapter 5."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ السَّادِسِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-final-7",
+      "id": "gevhernesibe-a1-ar-final-7",
       "type": "multiple-choice",
-      "title": "Music",
-      "instructions": "Choose the answer.",
-      "question": "How did the doctors help patients with an illness of the mind?",
+      "title": "ابْنُ سِينَا",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "مَاذَا كَتَبَ ابْنُ سِينَا؟",
       "options": [
-       "with music",
-       "with long walks",
-       "with new clothes"
+       "الْكَلِمَاتُ الطَّيِّبَةُ وَالْمُوسِيقَى تُسَاعِدَانِ الْمَرْضَى.",
+       "الْمُوسِيقَى سَيِّئَةٌ لِلْمَرْضَى.",
+       "الْمَرْضَى لَا يَحْتَاجُونَ إِلَى أَطِبَّاءَ."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: “The doctors helped these patients with music.”",
+      "explanation": "الفصل السابع: «كَتَبَ ابْنُ سِينَا عَنْ هَذَا فِي كِتَابِهِ. الْكَلِمَاتُ الطَّيِّبَةُ وَالْمُوسِيقَى تُسَاعِدَانِ الْمَرْضَى».",
       "feedback": {
-       "correct": "Yes. With music.",
-       "incorrect": "Read the first paragraph of Chapter 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ارْجِعْ إِلَى الْفَصْلِ السَّابِعِ."
       }
      },
      {
-      "id": "gevhernesibe-a1-final-8",
+      "id": "gevhernesibe-a1-ar-final-8",
       "type": "sequencing",
-      "title": "The Story of the Hospital",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "الْقِصَّةُ كُلُّهَا",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَا التَّرْتِيبُ الصَّحِيحُ؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Gevher Nesibe became very sick."
+        "text": "أَحَبَّتْ كَوْهَر نَسِيبَة قَائِدًا شَابًّا."
        },
        {
         "id": "2",
-        "text": "Gevher Nesibe told her brother her last wish."
+        "text": "مَرِضَتْ مَرَضًا شَدِيدًا."
        },
        {
         "id": "3",
-        "text": "The Sultan built two buildings next to each other."
+        "text": "قَالَتْ أُمْنِيَتَهَا الْأَخِيرَةَ."
        },
        {
         "id": "4",
-        "text": "The students got a diploma at the end of school."
+        "text": "بَنَى أَخُوهَا مَبْنَيَيْنِ."
+       },
+       {
+        "id": "5",
+        "text": "الْيَوْمَ، الْمَبْنَى مَتْحَفٌ."
        }
       ],
       "correctAnswer": [
        "1",
        "2",
        "3",
-       "4"
+       "4",
+       "5"
       ],
-      "explanation": "She became sick (Chapter 2) → her wish (Chapter 3) → two buildings (Chapter 4) → the diploma (Chapter 6).",
+      "explanation": "الحبّ (الفصل ٢) ← المرض (الفصل ٢) ← الأمنية (الفصل ٣) ← البناء (الفصل ٤) ← المتحف اليوم (الفصل ١).",
       "feedback": {
-       "correct": "Great! You know the story of the hospital.",
-       "incorrect": "Think about the order of the chapters."
+       "correct": "رَائِعٌ!",
+       "incorrect": "ابْدَأْ بِالْفَصْلِ الثَّانِي."
       }
      }
     ]

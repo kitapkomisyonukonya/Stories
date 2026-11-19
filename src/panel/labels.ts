@@ -243,6 +243,7 @@ export const FIELDS: Record<string, FieldLabel> = {
   collection: { label: 'Koleksiyon' },
   hidden: { label: 'Gizli', help: 'Gizli kitap ana sayfada görünmez; sadece önizleme bağlantısıyla açılır.' },
   englishOnly: { label: 'Sadece İngilizce' },
+  arabicHidden: { label: 'Arapçası gizli', help: 'Arapça baskılar hazır ama rafta görünmez; sadece önizleme bağlantısıyla açılır.' },
 };
 
 export const fieldLabel = (key: string): FieldLabel => FIELDS[key] ?? { label: humanize(key) };

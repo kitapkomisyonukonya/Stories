@@ -4,7 +4,7 @@ import type { EntityBookSet } from './index';
 
 // Places & People cards for Al-Andalus (Endülüs) B1 and B2. These two books tell the history of
 // Al-Andalus, not Ibn Jubayr’s journey, so they have their own cards. Pictures: Storage places-people/andalus/.
-// English only for now: the Arabic copy repeats the English until the Arabic edition arrives.
+// The Arabic words of the cards are in src/content/entityCards.json, with the names as the Arabic editions write them.
 // Copy never goes beyond the story. A card without a picture file shows a placeholder.
 
 type Text = { title: string; kindLabel: string; periodLabel: string; summary: string; more?: string };

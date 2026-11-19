@@ -2,13 +2,16 @@ import type { HistoricalEntity, HistoricalEntityCopy, HistoricalEntityKind, Hist
 import { GROUP_OF_KIND } from '../categories';
 import { MEDITERRANEAN_MAP_ASPECT, mediterraneanContextMap, medFeature, medPoint } from '../mediterraneanMap';
 
-// Places and historical names in Ibn Jubayr A2 (English only).
+// Places and historical names in Ibn Jubayr A2 and A1.
 // Copy is A2 English: short sentences and story words. The Turkish name sits in
 // `learnerNames.tr` and shows in brackets after the title, e.g. "Damascus (Şam)".
+// The Arabic words of the cards are in src/content/entityCards.json; the Arabic copy
+// built here only holds the Arabic map notes, and the file's words replace the rest.
 
 const POINT_NOTE = 'Location shown on a regional map';
 const AREA_NOTE = 'Area shown approximately';
 const GROUP_NOTE = 'Lands shown approximately';
+const AR_NOTES = { point: 'الْمَوْقِعُ عَلَى خَرِيطَةٍ إِقْلِيمِيَّةٍ', area: 'الْمِنْطَقَةُ تَقْرِيبِيَّةٌ', group: 'الْأَرَاضِي تَقْرِيبِيَّةٌ' };
 
 interface PlaceInput {
   id: string;
@@ -38,11 +41,20 @@ const place = ({ id, kind, aliases, title, kindLabel, periodLabel, summary, more
     mapAlt: !hasMap ? '' : isGroup ? `Map showing the lands of ${title}.` : `Map showing where ${title} is.`,
     ...(hasMap ? { approximateLabel: isGroup ? GROUP_NOTE : isArea ? AREA_NOTE : POINT_NOTE } : {}),
   };
+  // The title in the Arabic map note is replaced by the Arabic title from entityCards.json.
+  const arCopy: HistoricalEntityCopy = {
+    title,
+    kindLabel,
+    periodLabel,
+    summary,
+    mapAlt: !hasMap ? '' : isGroup ? `خَرِيطَةٌ تُبَيِّنُ أَرَاضِيَ ${title}.` : `خَرِيطَةٌ تُبَيِّنُ مَوْقِعَ ${title}.`,
+    ...(hasMap ? { approximateLabel: isGroup ? AR_NOTES.group : isArea ? AR_NOTES.area : AR_NOTES.point } : {}),
+  };
   return {
     id,
     kind,
-    aliases: { en: aliases },
-    copy: { en: copy },
+    aliases: { en: aliases, ar: [] },
+    copy: { en: copy, ar: arCopy },
     ...(focus ? { mapAsset: mediterraneanContextMap, mapAspect: MEDITERRANEAN_MAP_ASPECT, focus, showFocus: true } : {}),
     approximate: isArea,
     picture: { folder: 'andalus', name: id.replace(/^ibnjubayr-/, '') },

@@ -45,6 +45,7 @@ export interface StoryEntry {
   collection: string;
   hidden?: boolean;
   englishOnly?: boolean;
+  arabicHidden?: boolean;
 }
 
 export interface Draft {

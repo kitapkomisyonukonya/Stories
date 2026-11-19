@@ -9,6 +9,8 @@ interface StoryFile {
   englishOnly?: boolean;
   englishOnlyLevels?: string[];
   hidden?: boolean;
+  /** The book has Arabic editions that are not shown yet: readers see it as English only; a preview link (?gizli=…) opens the Arabic. */
+  arabicHidden?: boolean;
 }
 
 import adamCover from '../../assets/images/adam_cover.webp';
@@ -160,6 +162,11 @@ const covers: Record<string, { image: string; imageSmall?: string }> = {
 export const storyCover = (storyId: string): { image: string; imageSmall?: string; placeholder: boolean } =>
   covers[storyId] && covers[storyId].image !== scholarsIcon ? { ...covers[storyId], placeholder: false } : { image: scholarsIcon, placeholder: true };
 
+// A preview link (?gizli=…) also puts the hidden Our World Today books on the shelf, so the new
+// collection can be seen as readers will see it. Other hidden books stay off the shelf.
+// It also opens the Arabic of a book marked arabicHidden.
+const previewShelf = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('gizli');
+
 /**
  * The books themselves live in src/content/stories.json: name and description per language,
  * levels, collection. Only the cover pictures stay in code, because the bundler has to see them.
@@ -175,14 +182,11 @@ const toCatalogItem = (story: StoryFile): StoryCatalogItem => ({
   imageSmall: covers[story.id]?.imageSmall,
   availableLevels: story.availableLevels as Level[],
   collection: story.collection as StoryCollectionId,
-  englishOnly: story.englishOnly,
+  englishOnly: story.englishOnly || (story.arabicHidden && !previewShelf),
   englishOnlyLevels: story.englishOnlyLevels as Level[] | undefined,
   hidden: story.hidden,
 });
 
-// A preview link (?gizli=…) also puts the hidden Our World Today books on the shelf, so the new
-// collection can be seen as readers will see it. Other hidden books stay off the shelf.
-const previewShelf = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('gizli');
 export const storyCatalog: StoryCatalogItem[] = storyFile.stories
   .filter(story => !story.hidden || (previewShelf && story.collection === 'today'))
   .map(toCatalogItem);

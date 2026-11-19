@@ -12,9 +12,10 @@ const catalog = JSON.parse(readFileSync(`${root}/src/content/bookCatalog.json`, 
 };
 
 const stories = JSON.parse(readFileSync(`${root}/src/content/stories.json`, 'utf8')) as {
-  stories: { id: string; collection?: string; englishOnly?: boolean; englishOnlyLevels?: string[]; hidden?: boolean; availableLevels?: string[]; text: { en: { name: string } } }[];
+  stories: { id: string; collection?: string; englishOnly?: boolean; arabicHidden?: boolean; englishOnlyLevels?: string[]; hidden?: boolean; availableLevels?: string[]; text: { en: { name: string } } }[];
 };
-const englishOnly = new Set(stories.stories.filter(story => story.englishOnly).map(story => story.id));
+// A book whose Arabic is hidden (arabicHidden) is English only on the shelf, so it counts as English only here too.
+const englishOnly = new Set(stories.stories.filter(story => story.englishOnly || story.arabicHidden).map(story => story.id));
 // Single levels without Arabic yet (e.g. a new A1 edition): "storyId:level".
 const englishOnlyEditions = new Set(stories.stories.flatMap(story => (story.englishOnlyLevels ?? []).map(level => `${story.id}:${level}`)));
 const isEnglishOnly = (storyId: string, level: string) => englishOnly.has(storyId) || englishOnlyEditions.has(`${storyId}:${level}`);
