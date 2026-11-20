@@ -111,23 +111,31 @@ export const storageManifests: Record<string, BookAssetManifest> = {
   ),
 
   [manifestKey('ibnJubayr', 'A2')]: media(['andulus/a2/images', 'Andulus/a2/images'], ['andulus/a2/audio', 'Andulus/a2/audio'], []),
-  [manifestKey('ibnJubayr', 'B1')]: media(['andulus/b1/images', 'Andulus/b1/images'], ['andulus/b1/audio', 'Andulus/b1/audio'], []),
-  [manifestKey('ibnJubayr', 'B2')]: media(['andulus/b2/images', 'Andulus/b2/images'], ['andulus/b2/audio', 'Andulus/b2/audio'], []),
+  [manifestKey('ibnJubayr', 'B1')]: media(
+    ['andulus/b1/images', 'Andulus/b1/images'],
+    ['andulus/b1/audio', 'Andulus/b1/audio'],
+    ['andulus/b1/audio/arabic_audio'],
+  ),
+  [manifestKey('ibnJubayr', 'B2')]: media(
+    ['andulus/b2/images', 'Andulus/b2/images'],
+    ['andulus/b2/audio', 'Andulus/b2/audio'],
+    ['andulus/b2/audio/arabic_audio'],
+  ),
 
   [manifestKey('gevherNesibe', 'A2')]: media(
     ['gevher_nesibe/gevher_nesibe_a2/images', 'gevherNesibe/a2/images', 'GevherNesibe/a2/images'],
     ['gevher_nesibe/gevher_nesibe_a2/audio', 'gevherNesibe/a2/audio', 'GevherNesibe/a2/audio'],
-    [],
+    ['gevher_nesibe/gevher_nesibe_a2/audio/arabic_audio'],
   ),
   [manifestKey('gevherNesibe', 'B1')]: media(
     ['gevher_nesibe/gevher_nesibe_b1/images', 'gevherNesibe/b1/images'],
     ['gevher_nesibe/gevher_nesibe_b1/audio', 'gevherNesibe/b1/audio'],
-    [],
+    ['gevher_nesibe/gevher_nesibe_b1/audio/arabic_audio'],
   ),
   [manifestKey('gevherNesibe', 'B2')]: media(
     ['gevher_nesibe/gevher_nesibe_b2/images', 'gevherNesibe/b2/images'],
     ['gevher_nesibe/gevher_nesibe_b2/audio', 'gevherNesibe/b2/audio'],
-    [],
+    ['gevher_nesibe/gevher_nesibe_b2/audio/arabic_audio'],
   ),
 
   [manifestKey('ahilik', 'A2')]: media(['ahilik/a2/images'], ['ahilik/a2/audio'], []),
@@ -197,6 +205,7 @@ export const storageManifests: Record<string, BookAssetManifest> = {
   [manifestKey('mecca', 'A1')]: media([], ['mecca/a1/audio'], ['mecca/a1/audio/arabic_audio']),
   [manifestKey('ibnJubayr', 'A1')]: media([], ['ibnJubayr/a1/audio'], ['ibnJubayr/a1/audio/arabic_audio']),
   [manifestKey('yunusEmre', 'A1')]: media([], ['yunusEmre/a1/audio'], ['yunusEmre/a1/audio/arabic_audio']),
+  [manifestKey('gevherNesibe', 'A1')]: media([], ['gevherNesibe/a1/audio'], ['gevherNesibe/a1/audio/arabic_audio']),
 };
 
 export const getStorageManifest = (storyId: StoryId, level: Level): BookAssetManifest =>
