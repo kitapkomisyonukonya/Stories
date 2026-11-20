@@ -118,8 +118,10 @@ def validate_request(item: dict[str, Any]) -> tuple[str, str, str]:
     return request_id, narration_text, storage_path
 
 
-def elevenlabs_synthesize(api_key: str, narration_text: str, stability: float | None = None) -> bytes:
-    cleaned = narration_for_audio(narration_text)
+def elevenlabs_synthesize(
+    api_key: str, narration_text: str, stability: float | None = None, already_spoken: bool = False
+) -> bytes:
+    cleaned = narration_text.strip() if already_spoken else narration_for_audio(narration_text)
     if not cleaned:
         raise TtsError("Narration became empty after cleanup.")
     if len(cleaned) > MAX_TEXT_CHARS:
@@ -185,6 +187,40 @@ def load_requests() -> list[dict[str, Any]]:
     return list(latest_by_path.values())
 
 
+def patch_item(
+    api_key: str, access_token: str, item: dict[str, Any], existing_custom: dict[str, Any], stability: float | None
+) -> bytes:
+    """Voices only the sentences that differ from the recording's own text (see patch_audio.py)."""
+    from align_audio import download, forced_alignment  # lazy: align_audio imports this module
+    from patch_audio import PatchError, patch_recording
+
+    request_id, narration_text, storage_path = validate_request(item)
+    patch = item["patch"]
+    base_id = patch.get("baseRequestId") if isinstance(patch, dict) else None
+    base_text = patch.get("baseNarrationText") if isinstance(patch, dict) else None
+    if not isinstance(base_id, str) or not isinstance(base_text, str) or not base_text.strip():
+        raise TtsError(f"{request_id}: patch needs baseRequestId and baseNarrationText.")
+    current_id = existing_custom.get("storiesTtsRequestId")
+    if current_id != base_id:
+        raise TtsError(f"{request_id}: recording is {current_id!r}, patch expects {base_id!r}; not patching.")
+    old_spoken = narration_for_audio(base_text)
+    new_spoken = narration_for_audio(narration_text)
+    log(f"{request_id}: patching changed sentences -> {storage_path}")
+    try:
+        audio, voiced = patch_recording(
+            download(access_token, storage_path),
+            old_spoken,
+            new_spoken,
+            lambda mp3, text: forced_alignment(api_key, mp3, text),
+            lambda text: elevenlabs_synthesize(api_key, text, stability, already_spoken=True),
+            log,
+        )
+    except PatchError as exc:
+        raise TtsError(f"{request_id}: {exc}") from exc
+    log(f"{request_id}: voiced {voiced} of {len(new_spoken)} characters.")
+    return audio
+
+
 def process_item(api_key: str, access_token: str, item: dict[str, Any]) -> str:
     """Returns "processed" or "skipped"; raises TtsError on failure."""
     request_id, narration_text, storage_path = validate_request(item)
@@ -197,11 +233,14 @@ def process_item(api_key: str, access_token: str, item: dict[str, Any]) -> str:
     if existing is not None and item.get("allowOverwrite") is not True:
         raise TtsError(f"{request_id}: target already exists. Set allowOverwrite=true after approval.")
 
-    log(f"{request_id}: generating Arabic narration -> {storage_path}")
     stability = item.get("stability")
     if stability is not None and not (isinstance(stability, (int, float)) and 0 <= stability <= 1):
         raise TtsError(f"{request_id}: stability must be a number between 0 and 1.")
-    audio = elevenlabs_synthesize(api_key, narration_text, stability)
+    if item.get("patch") is not None:
+        audio = patch_item(api_key, access_token, item, existing_custom, stability)
+    else:
+        log(f"{request_id}: generating Arabic narration -> {storage_path}")
+        audio = elevenlabs_synthesize(api_key, narration_text, stability)
     uploaded, firebase_url = multipart_upload(
         access_token, storage_path, audio, existing, request_id, voice_id=VOICE_ID
     )
