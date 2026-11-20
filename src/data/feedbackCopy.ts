@@ -41,7 +41,7 @@ export const FEEDBACK_COPY: Record<FeedbackLang, FeedbackCopy> = {
     intro: 'Uygulamayı kullandıktan sonra düşüncelerinizi proje ekibiyle paylaşın. Bütün sorular isteğe bağlıdır. Yalnızca istediğiniz soruları cevaplayabilirsiniz.',
     privacy: 'Ad, okul, e-posta ya da telefon bilgisi istenmez. Lütfen cevaplarınıza da bu tür bilgiler yazmayın. Görüşleri yalnızca proje ekibi okur.',
     formLanguage: 'Form dili',
-    role: 'Uygulamayı kim olarak kullandınız?',
+    role: 'Uygulamayı hangi rolde kullandınız?',
     roles: { student: 'Öğrenci', teacher: 'Öğretmen', parent: 'Veli', other: 'Diğer' },
     book: 'Hangi kitap hakkında yazıyorsunuz?',
     general: 'Genel olarak uygulama',
