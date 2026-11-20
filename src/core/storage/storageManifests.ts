@@ -189,6 +189,14 @@ export const storageManifests: Record<string, BookAssetManifest> = {
     ['yunus/b2/audio', 'Yunus/b2/audio', 'Yunus/yunus_b2/audio', 'YunusEmre/b2/audio', 'yunusEmre/b2/audio'],
     ['yunus/b2/audio/arabic_audio', 'Yunus/b2/audio/arabic_audio', 'Yunus/yunus_b2/audio/arabic_audio', 'YunusEmre/b2/audio/arabic_audio'],
   ),
+
+  // A1 editions show the A2 pictures named in their own JSON, so only their narration folders are listed.
+  [manifestKey('adam', 'A1')]: media([], ['adam/a1/audio'], ['adam/a1/audio/arabic_audio']),
+  [manifestKey('ibrahim', 'A1')]: media([], ['ibrahim/a1/audio'], ['ibrahim/a1/audio/arabic_audio']),
+  [manifestKey('musa', 'A1')]: media([], ['musa/a1/audio'], ['musa/a1/audio/arabic_audio']),
+  [manifestKey('mecca', 'A1')]: media([], ['mecca/a1/audio'], ['mecca/a1/audio/arabic_audio']),
+  [manifestKey('ibnJubayr', 'A1')]: media([], ['ibnJubayr/a1/audio'], ['ibnJubayr/a1/audio/arabic_audio']),
+  [manifestKey('yunusEmre', 'A1')]: media([], ['yunusEmre/a1/audio'], ['yunusEmre/a1/audio/arabic_audio']),
 };
 
 export const getStorageManifest = (storyId: StoryId, level: Level): BookAssetManifest =>
