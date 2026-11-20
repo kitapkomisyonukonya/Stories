@@ -24,7 +24,7 @@ const COPY = {
     between: '4 and 2 lie between the bands; 0 means no answer.',
     copyLine: 'Copy the pilot line', copied: 'Copied',
     pilotNote: 'The pilot line has no name. Paste it into the pilot results sheet, one line per student.',
-    provisional: 'Pass marks are provisional until the pilot results are analysed.',
+    provisional: 'Pass marks are provisional until the pilot results are analyzed.',
   },
   ar: {
     title: 'تَصْحِيحُ اخْتِبَارِ نِهَايَةِ المُسْتَوَى', close: 'إغلاق', check: 'تَحَقَّقْ',

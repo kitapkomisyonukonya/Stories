@@ -138,7 +138,7 @@ export const fallbackDefinitions: Record<string, string> = {
   'journey': 'A long trip from one place to another.',
   'secret': 'Something hidden from others.',
   'night': 'The time of darkness between sunset and sunrise.',
-  'caravan': 'A group of people travelling together.',
+  'caravan': 'A group of people traveling together.',
   'safely': 'Without danger or harm.',
   'midway': 'In the middle of a way or journey.',
   'lessons': 'Things we learn from a story or event.',

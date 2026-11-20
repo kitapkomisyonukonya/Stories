@@ -997,7 +997,7 @@ entries.set(key, { word, definition });
             { title: 'صون الكرامة الإنسانية:', description: 'حماية حقوق وحريات جميع أفراد المجتمع، وبالأخص الفئات التي كانت مهمشة تاريخياً.' }
           ] : [
             { title: 'Universal Human Brotherhood:', description: 'Emphasizing shared human ancestry (from Adam and Eve) and transcending tribal pride, origin, or racism.' },
-            { title: 'Social Justice and Fair Trade:', description: 'Constructing robust social security nets, banning usurious or corrupt economic exploitation, and giving key priority to helping widows, orphans, and travellers.' },
+            { title: 'Social Justice and Fair Trade:', description: 'Constructing robust social security nets, banning usurious or corrupt economic exploitation, and giving key priority to helping widows, orphans, and travelers.' },
             { title: 'Dignity of All Persons:', description: 'Protecting and valuing the absolute fundamental rights of all citizens, especially those historically marginalized.' }
           ]
         ) : isYunus ? (
@@ -1186,7 +1186,7 @@ entries.set(key, { word, definition });
           ] : [
             { label: 'Tawhid (Absolute Oneness)', value: 'Serving only the single Creator, which establishes absolute human liberty and class equality.' },
             { label: 'Trustworthiness (Al-Amin)', value: 'Building solid integrity and truthfulness in daily speech, actions, and fair commercial trade.' },
-            { label: 'Social Justice & Charity', value: 'Sharing resources with the poor, widows, orphans, and travellers to eradicate hoarding and greed.' },
+            { label: 'Social Justice & Charity', value: 'Sharing resources with the poor, widows, orphans, and travelers to eradicate hoarding and greed.' },
             { label: 'Resilience (Sabr)', value: 'Patiently and non-violently enduring boycotted isolation, verbal abuse, and physical hardships.' },
             { label: 'Unity & Equality', value: 'Recognizing individuals strictly by their moral character (taqwa) rather than status, race, or tribal wealth.' }
           ]

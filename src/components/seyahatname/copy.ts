@@ -47,7 +47,7 @@ export const JOURNAL_COPY = {
     treasuryFull: 'Every chest is full.',
     learned: (n: string) => `${n} learned`,
     openMyWords: 'Open My words',
-    badges: 'Traveller badges',
+    badges: 'Traveler badges',
     badgesOf: (n: string, total: string) => `${n} of ${total}`,
     certificates: 'Seyahatname Certificate',
     certificateLevel: (level: string) => `Seyahatname Certificate · ${level}`,

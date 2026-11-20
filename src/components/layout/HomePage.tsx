@@ -161,7 +161,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           onlyAt: 'Available now at',
           featEyebrow: 'Inside every book',
           featTitle: 'More than a story.',
-          featLead: 'Each book is a full lesson: read, listen, follow the journey on the map and practise what you learned.',
+          featLead: 'Each book is a full lesson: read, listen, follow the journey on the map and practice what you learned.',
           afterStory: 'After the story, every book ends with',
         };
 

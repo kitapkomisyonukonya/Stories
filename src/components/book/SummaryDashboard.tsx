@@ -243,7 +243,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
         read: 'Read & followed',
         listen: 'Listened',
         explore: 'Explored vocabulary',
-        practise: 'Practised',
+        practise: 'Practiced',
         reflect: 'Reviewed & reflected',
         finalChallenge: 'Final Challenge',
         firstTry: 'First try',
@@ -320,7 +320,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
           'تجمع أفكاراً من فصول مختلفة وتراجع استجابتك في ضوء التغذية الراجعة.',
         ]
       : [
-          'Analyse evidence, causality and source stance across the whole book without overstating certainty.',
+          'Analyze evidence, causality and source stance across the whole book without overstating certainty.',
           'Use precise vocabulary and discourse relationships to build connected B2 interpretation.',
           'Synthesize ideas across chapters and improve a response after targeted feedback.',
         ];

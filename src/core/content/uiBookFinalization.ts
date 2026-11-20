@@ -234,7 +234,7 @@ const finalizePreparedLanguage = (
           ? `تدرّب على ${vocabularyPairs.length} ${vocabularyPairs.length <= 10 ? 'كلمات' : 'كلمة'} مستهدفة عبر المطابقة والسياق والاسترجاع.`
           : book.level === 'A1'
           ? `Learn ${vocabularyPairs.length} words from the story. Match them and use them.`
-          : `Practise ${vocabularyPairs.length} target words through matching, context and recall.`,
+          : `Practice ${vocabularyPairs.length} target words through matching, context and recall.`,
         vocabularyPairs,
       };
     }
@@ -249,7 +249,7 @@ const finalizePreparedLanguage = (
         : book.level === 'A1'
         ? 'Look at words from the story. Practice them. Then use them.'
         : book.level === 'A2'
-        ? 'Review the story language in simple steps: look, practise, then use it.'
+        ? 'Review the story language in simple steps: look, practice, then use it.'
         : book.level === 'B1'
         ? 'Review grammar patterns, meaning relationships and useful language from across the book, then use them in new contexts.'
         : 'Review grammar, stance, cohesion and discourse language from across the book, then use them precisely in new contexts.';

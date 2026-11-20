@@ -318,7 +318,7 @@ export const ExercisePage = ({
                             {level === 'A2'
                               ? (isArabic
                                   ? 'انظر إلى لغة القصة، تدرّب عليها، ثم استخدمها بنفسك.'
-                                  : 'Look at language from the story, practise it, then use it yourself.')
+                                  : 'Look at language from the story, practice it, then use it yourself.')
                               : page.content}
                           </p>
                         </div>

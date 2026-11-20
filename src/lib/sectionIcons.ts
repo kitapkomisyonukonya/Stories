@@ -60,7 +60,7 @@ export const SECTION_ICONS = {
     icon: BookOpen,
     en: 'Read',
     ar: 'اقْرَأْ',
-    hint: { en: 'Read the story. Tap a coloured word to see its meaning.', ar: 'اقْرَأِ القِصَّةَ. اضْغَطْ عَلَى كَلِمَةٍ مُلَوَّنَةٍ لِتَرَى مَعْنَاهَا.' },
+    hint: { en: 'Read the story. Tap a colored word to see its meaning.', ar: 'اقْرَأِ القِصَّةَ. اضْغَطْ عَلَى كَلِمَةٍ مُلَوَّنَةٍ لِتَرَى مَعْنَاهَا.' },
   },
   quickChallenge: {
     icon: Rocket,
@@ -120,7 +120,7 @@ export const SECTION_ICONS = {
     icon: PencilSimple,
     en: 'Language Review',
     ar: 'مُرَاجَعَةُ اللُّغَةِ',
-    hint: { en: 'Practise the language of the whole book.', ar: 'تَدَرَّبْ عَلَى لُغَةِ الكِتَابِ كُلِّهِ.' },
+    hint: { en: 'Practice the language of the whole book.', ar: 'تَدَرَّبْ عَلَى لُغَةِ الكِتَابِ كُلِّهِ.' },
   },
   finalChallenge: {
     icon: Trophy,

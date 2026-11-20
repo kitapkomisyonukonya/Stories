@@ -91,7 +91,7 @@ const entities = [
     id: "abraham-syria-ancient", kind: "region", tr: "Suriye",
     aliases: { en: ["Syria"], ar: ["الشام","سوريا"] },
     copy: {
-      en: { title: "Syria (al-Sham)", kindLabel: "Historical region", periodLabel: "The Levant", summary: "Syria, or al-Sham, is an old land west of Mesopotamia, near the Mediterranean Sea. In the story, Abraham (pbuh) travelled from Babylon to Syria and Palestine.", more: "Damascus and Aleppo are two of its old cities." },
+      en: { title: "Syria (al-Sham)", kindLabel: "Historical region", periodLabel: "The Levant", summary: "Syria, or al-Sham, is an old land west of Mesopotamia, near the Mediterranean Sea. In the story, Abraham (pbuh) traveled from Babylon to Syria and Palestine.", more: "Damascus and Aleppo are two of its old cities." },
       ar: { title: "بِلَادُ الشَّامِ (سُورِيَا)", kindLabel: "مِنْطَقَةٌ تَارِيخِيَّةٌ", periodLabel: "بِلَادُ الشَّامِ", summary: "بِلَادُ الشَّامِ أَرْضٌ قَدِيمَةٌ تَقَعُ غَرْبَ بِلَادِ مَا بَيْنَ النَّهْرَيْنِ، قُرْبَ الْبَحْرِ الْمُتَوَسِّطِ. وَفِي الْقِصَّةِ سَافَرَ إِبْرَاهِيمُ عَلَيْهِ السَّلَامُ مِنْ بَابِلَ إِلَى بِلَادِ الشَّامِ وَفِلَسْطِينَ.", more: "وَمِنْ مُدُنِهَا الْقَدِيمَةِ دِمَشْقُ وَحَلَبُ." },
     },
     focus: medFeature('syria', 35, 38, 1),
@@ -102,7 +102,7 @@ const entities = [
     id: "abraham-palestine-ancient", kind: "region", tr: "Filistin",
     aliases: { en: ["Palestine"], ar: ["فلسطين"] },
     copy: {
-      en: { title: "Palestine", kindLabel: "Historical region", periodLabel: "Eastern Mediterranean", summary: "Palestine is an old land on the eastern coast of the Mediterranean Sea. In the story, Abraham (pbuh) travelled to Palestine and called people to Allah.", more: "The city of Jerusalem (al-Quds) is in Palestine." },
+      en: { title: "Palestine", kindLabel: "Historical region", periodLabel: "Eastern Mediterranean", summary: "Palestine is an old land on the eastern coast of the Mediterranean Sea. In the story, Abraham (pbuh) traveled to Palestine and called people to Allah.", more: "The city of Jerusalem (al-Quds) is in Palestine." },
       ar: { title: "فِلَسْطِينُ", kindLabel: "مِنْطَقَةٌ تَارِيخِيَّةٌ", periodLabel: "شَرْقُ الْبَحْرِ الْمُتَوَسِّطِ", summary: "فِلَسْطِينُ أَرْضٌ قَدِيمَةٌ عَلَى السَّاحِلِ الشَّرْقِيِّ لِلْبَحْرِ الْمُتَوَسِّطِ. وَفِي الْقِصَّةِ سَافَرَ إِبْرَاهِيمُ عَلَيْهِ السَّلَامُ إِلَيْهَا، وَدَعَا النَّاسَ إِلَى اللهِ.", more: "وَفِيهَا مَدِينَةُ الْقُدْسِ." },
     },
     focus: medFeature('palestine', 31.6, 35, 1),
@@ -113,7 +113,7 @@ const entities = [
     id: "abraham-egypt-ancient", kind: "country", tr: "Mısır",
     aliases: { en: ["Egypt"], ar: ["مصر"] },
     copy: {
-      en: { title: "Egypt", kindLabel: "Ancient land", periodLabel: "North-east Africa · the Nile", summary: "Egypt is an old land in north-east Africa, along the River Nile. In the story, Abraham (pbuh) travelled to Egypt with Sarah and Lot (pbuh), and Hagar was from Egypt.", more: "The great pyramids of Giza are in Egypt." },
+      en: { title: "Egypt", kindLabel: "Ancient land", periodLabel: "North-east Africa · the Nile", summary: "Egypt is an old land in north-east Africa, along the River Nile. In the story, Abraham (pbuh) traveled to Egypt with Sarah and Lot (pbuh), and Hagar was from Egypt.", more: "The great pyramids of Giza are in Egypt." },
       ar: { title: "مِصْرُ", kindLabel: "أَرْضٌ قَدِيمَةٌ", periodLabel: "شَمَالُ شَرْقِ أَفْرِيقِيَا · وَادِي النِّيلِ", summary: "مِصْرُ أَرْضٌ قَدِيمَةٌ فِي شَمَالِ شَرْقِ أَفْرِيقِيَا، عَلَى ضِفَافِ نَهْرِ النِّيلِ. وَفِي الْقِصَّةِ سَافَرَ إِبْرَاهِيمُ عَلَيْهِ السَّلَامُ إِلَيْهَا مَعَ سَارَةَ وَلُوطٍ عَلَيْهِ السَّلَامُ، وَكَانَتْ هَاجَرُ مِصْرِيَّةً.", more: "وَفِي مِصْرَ أَهْرَامُ الْجِيزَةِ الْعَظِيمَةُ." },
     },
     focus: medFeature('egypt', 27, 30.5, 1),

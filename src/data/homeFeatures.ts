@@ -68,7 +68,7 @@ export const HOME_FEATURES: Record<HomeFeatureId, HomeFeature> = {
   },
   practice: {
     image: { en: practiceEn, ar: practiceAr },
-    verb: { en: 'Practise', ar: 'تدرّب' },
+    verb: { en: 'Practice', ar: 'تدرّب' },
     title: { en: 'Practice on every page', ar: 'تمرين في كل صفحة' },
     body: {
       en: 'A Quick Challenge checks each page right after you read it. Language Focus helps you notice the language and use it yourself.',

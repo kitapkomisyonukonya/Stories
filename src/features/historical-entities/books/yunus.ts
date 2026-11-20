@@ -69,7 +69,7 @@ const entities = [
     id: "yunus-anatolia", kind: "region", tr: "Anadolu",
     aliases: { en: ["Anatolia"], ar: ["الأناضول"] },
     copy: {
-      en: { title: "Anatolia", kindLabel: "Land", periodLabel: "The Asian part of Türkiye", summary: "Anatolia is a large land between the Black Sea and the Mediterranean Sea. Yunus Emre was born and lived here, and he travelled to many of its cities.", more: "Today, most of Türkiye is in Anatolia." },
+      en: { title: "Anatolia", kindLabel: "Land", periodLabel: "The Asian part of Türkiye", summary: "Anatolia is a large land between the Black Sea and the Mediterranean Sea. Yunus Emre was born and lived here, and he traveled to many of its cities.", more: "Today, most of Türkiye is in Anatolia." },
       ar: { title: "الْأَنَاضُول", kindLabel: "أَرْضٌ", periodLabel: "الْجُزْءُ الْآسْيَوِيُّ مِنْ تُرْكِيَا", summary: "الْأَنَاضُولُ أَرْضٌ وَاسِعَةٌ بَيْنَ الْبَحْرِ الْأَسْوَدِ وَالْبَحْرِ الْأَبْيَضِ الْمُتَوَسِّطِ. وُلِدَ فِيهَا يُونُسُ إِمْرَه وَعَاشَ، وَسَافَرَ إِلَى كَثِيرٍ مِنْ مُدُنِهَا.", more: "وَمُعْظَمُ أَرَاضِي تُرْكِيَا الْيَوْمَ فِي الْأَنَاضُولِ." },
     },
     focus: medFeature('anatolia', 39, 33.5, 1),
@@ -80,7 +80,7 @@ const entities = [
     id: "yunus-syria", kind: "region", tr: "Suriye",
     aliases: { en: ["Syria"], ar: ["سوريا"] },
     copy: {
-      en: { title: "Syria", kindLabel: "Region", periodLabel: "South of Anatolia", summary: "Syria is a land south of Anatolia, near the Mediterranean Sea. Yunus Emre travelled there.", more: "Damascus and Aleppo were its great cities." },
+      en: { title: "Syria", kindLabel: "Region", periodLabel: "South of Anatolia", summary: "Syria is a land south of Anatolia, near the Mediterranean Sea. Yunus Emre traveled there.", more: "Damascus and Aleppo were its great cities." },
       ar: { title: "سُورِيَا", kindLabel: "مِنْطَقَةٌ", periodLabel: "جَنُوبَ الْأَنَاضُولِ", summary: "سُورِيَا أَرْضٌ تَقَعُ جَنُوبَ الْأَنَاضُولِ، قُرْبَ الْبَحْرِ الْأَبْيَضِ الْمُتَوَسِّطِ. وَقَدْ سَافَرَ إِلَيْهَا يُونُسُ إِمْرَه.", more: "وَمِنْ أَشْهَرِ مُدُنِهَا دِمَشْقُ وَحَلَبُ." },
     },
     focus: medFeature('syria', 34.6, 38, 1),
@@ -91,7 +91,7 @@ const entities = [
     id: "yunus-azerbaijan", kind: "region", tr: "Azerbaycan",
     aliases: { en: ["Azerbaijan"], ar: ["أذربيجان"] },
     copy: {
-      en: { title: "Azerbaijan", kindLabel: "Region", periodLabel: "East of Anatolia", summary: "Azerbaijan is a land east of Anatolia, near the Caspian Sea. Yunus Emre travelled there, and from there the Mongols attacked the Anatolian Seljuks.", more: "Today, this old land is part of Iran and of the country of Azerbaijan." },
+      en: { title: "Azerbaijan", kindLabel: "Region", periodLabel: "East of Anatolia", summary: "Azerbaijan is a land east of Anatolia, near the Caspian Sea. Yunus Emre traveled there, and from there the Mongols attacked the Anatolian Seljuks.", more: "Today, this old land is part of Iran and of the country of Azerbaijan." },
       ar: { title: "أَذْرَبِيجَان", kindLabel: "مِنْطَقَةٌ", periodLabel: "شَرْقَ الْأَنَاضُولِ", summary: "أَذْرَبِيجَانُ أَرْضٌ تَقَعُ شَرْقَ الْأَنَاضُولِ، قُرْبَ بَحْرِ قَزْوِينَ. سَافَرَ إِلَيْهَا يُونُسُ إِمْرَه، وَمِنْهَا هَاجَمَ الْمُغُولُ سَلَاجِقَةَ الْأَنَاضُولِ.", more: "وَهَذِهِ الْأَرْضُ الْقَدِيمَةُ الْيَوْمَ جُزْءٌ مِنْ إِيرَانَ وَمِنْ دَوْلَةِ أَذْرَبِيجَانَ." },
     },
     focus: medFeature('azerbaijan-historic', 38.8, 47, 1),
@@ -146,7 +146,7 @@ const entities = [
     id: "yunus-iran", kind: "country", tr: "İran",
     aliases: { en: ["Iran"], ar: ["إيران"] },
     copy: {
-      en: { title: "Iran", kindLabel: "Country", periodLabel: "East of Anatolia", summary: "Iran is a large country east of Anatolia. The Ilkhanate, a Mongol state, had its centre in Iran.", more: "The main language of Iran is Persian." },
+      en: { title: "Iran", kindLabel: "Country", periodLabel: "East of Anatolia", summary: "Iran is a large country east of Anatolia. The Ilkhanate, a Mongol state, had its center in Iran.", more: "The main language of Iran is Persian." },
       ar: { title: "إِيرَان", kindLabel: "بَلَدٌ", periodLabel: "شَرْقَ الْأَنَاضُولِ", summary: "إِيرَانُ بَلَدٌ كَبِيرٌ يَقَعُ شَرْقَ الْأَنَاضُولِ. وَكَانَ مَرْكَزُ الدَّوْلَةِ الْإِيلْخَانِيَّةِ الْمُغُولِيَّةِ فِي إِيرَانَ.", more: "وَاللُّغَةُ الرَّئِيسِيَّةُ فِي إِيرَانَ هِيَ الْفَارِسِيَّةُ." },
     },
     focus: medFeature('iran', 32.5, 54, 1, { view: { north: 52, west: 22, widthDegrees: 62 } }),
@@ -212,7 +212,7 @@ const entities = [
     id: "yunus-tekke", kind: "landmark", tr: "Tekke",
     aliases: { en: ["dervish house","tekke"], ar: ["بيوت الدراويش","دار الدراويش","تكية","تكايا"] },
     copy: {
-      en: { title: "Tekke (dervish house)", kindLabel: "Building", periodLabel: "Sufi life", summary: "A tekke was a house where dervishes lived and learned under a sheikh. Yunus Emre trained at the tekke of his teacher, Taptuk Emre.", more: "Tekkes also helped poor people and travellers and gave them food." },
+      en: { title: "Tekke (dervish house)", kindLabel: "Building", periodLabel: "Sufi life", summary: "A tekke was a house where dervishes lived and learned under a sheikh. Yunus Emre trained at the tekke of his teacher, Taptuk Emre.", more: "Tekkes also helped poor people and travelers and gave them food." },
       ar: { title: "التَّكِيَّةُ (دَارُ الدَّرَاوِيشِ)", kindLabel: "مَبْنًى", periodLabel: "حَيَاةُ الصُّوفِيَّةِ", summary: "التَّكِيَّةُ دَارٌ كَانَ الدَّرَاوِيشُ يَعِيشُونَ فِيهَا وَيَتَعَلَّمُونَ تَحْتَ إِرْشَادِ شَيْخٍ. وَقَدْ تَعَلَّمَ يُونُسُ إِمْرَه فِي تَكِيَّةِ مُعَلِّمِهِ تَابْتُوك إِمْرَه.", more: "وَكَانَتِ التَّكَايَا تُسَاعِدُ الْفُقَرَاءَ وَالْمُسَافِرِينَ، وَتُقَدِّمُ لَهُمُ الطَّعَامَ." },
     },
     picture: { folder: "yunus", name: "tekke" },
@@ -276,7 +276,7 @@ const entities = [
     id: "yunus-saru-saltuk", kind: "person", tr: "Sarı Saltuk",
     aliases: { en: ["Saru Saltuk"], ar: ["سارو سالتوك"] },
     copy: {
-      en: { title: "Saru Saltuk", kindLabel: "Dervish", periodLabel: "13th century", summary: "Saru Saltuk was a Turkish dervish. He lived at the same time as Yunus Emre.", more: "Stories say that he travelled west to the Balkans with groups of Turkmen." },
+      en: { title: "Saru Saltuk", kindLabel: "Dervish", periodLabel: "13th century", summary: "Saru Saltuk was a Turkish dervish. He lived at the same time as Yunus Emre.", more: "Stories say that he traveled west to the Balkans with groups of Turkmen." },
       ar: { title: "سَارُو سَالْتُوك", kindLabel: "دَرْوِيشٌ", periodLabel: "الْقَرْنُ الثَّالِثَ عَشَرَ", summary: "كَانَ سَارُو سَالْتُوك دَرْوِيشًا تُرْكِيًّا، وَعَاشَ فِي زَمَنِ يُونُسَ إِمْرَه.", more: "وَتَرْوِي الْحِكَايَاتُ أَنَّهُ سَافَرَ غَرْبًا إِلَى الْبَلْقَانِ مَعَ جَمَاعَاتٍ مِنَ التُّرْكُمَانِ." },
     },
     focus: medFeature('anatolia', 41, 36, 1.4, { arrows: [{ from: [39.6, 31.5], to: [44.3, 28.3] }] }),
@@ -287,7 +287,7 @@ const entities = [
     id: "yunus-alaeddin-keykubad-i", kind: "person", tr: "I. Alâeddin Keykubad",
     aliases: { en: ["Ala al-Din Kayqubad I"], ar: ["علاء الدين الأول"] },
     copy: {
-      en: { title: "Sultan Ala al-Din Kayqubad I", kindLabel: "Sultan of the Anatolian Seljuks", periodLabel: "Ruled 1220–1237", summary: "Ala al-Din Kayqubad I was a sultan of the Anatolian Seljuks. His rule was their strongest time, and he built a navy in the Mediterranean and Black Seas.", more: "Many stone caravanserais, inns for travellers on the trade roads, were built in his time." },
+      en: { title: "Sultan Ala al-Din Kayqubad I", kindLabel: "Sultan of the Anatolian Seljuks", periodLabel: "Ruled 1220–1237", summary: "Ala al-Din Kayqubad I was a sultan of the Anatolian Seljuks. His rule was their strongest time, and he built a navy in the Mediterranean and Black Seas.", more: "Many stone caravanserais, inns for travelers on the trade roads, were built in his time." },
       ar: { title: "السُّلْطَانُ عَلَاءُ الدِّينِ الْأَوَّلُ", kindLabel: "سُلْطَانُ سَلَاجِقَةِ الْأَنَاضُولِ", periodLabel: "حَكَمَ 1220–1237", summary: "كَانَ عَلَاءُ الدِّينِ الْأَوَّلُ سُلْطَانًا مِنْ سَلَاجِقَةِ الْأَنَاضُولِ. وَكَانَ عَهْدُهُ أَقْوَى فَتَرَاتِهِمْ، وَقَدْ أَنْشَأَ أُسْطُولًا بَحْرِيًّا فِي الْبَحْرِ الْأَبْيَضِ الْمُتَوَسِّطِ وَالْبَحْرِ الْأَسْوَدِ.", more: "وَبُنِيَتْ فِي عَهْدِهِ خَانَاتٌ حَجَرِيَّةٌ كَثِيرَةٌ لِلْمُسَافِرِينَ عَلَى طُرُقِ التِّجَارَةِ." },
     },
     focus: medFeature('anatolian-seljuk-lands', 38.8, 34.5, 1, { pins: [{ at: [37.87, 32.49], label: 'Konya', labelAr: 'قُونْيَة' }] }),
@@ -364,7 +364,7 @@ const entities = [
     id: "yunus-ilkhanate", kind: "empire", tr: "İlhanlılar",
     aliases: { en: ["Ilkhanate"], ar: ["إيلخان"] },
     copy: {
-      en: { title: "The Ilkhanate", kindLabel: "Mongol state", periodLabel: "13th–14th century", summary: "The Ilkhanate was a Mongol state with its centre in Iran. In 1308, the lands of Anatolia were joined directly to it.", more: "It was founded by Hülegü, a grandson of Genghis Khan." },
+      en: { title: "The Ilkhanate", kindLabel: "Mongol state", periodLabel: "13th–14th century", summary: "The Ilkhanate was a Mongol state with its center in Iran. In 1308, the lands of Anatolia were joined directly to it.", more: "It was founded by Hülegü, a grandson of Genghis Khan." },
       ar: { title: "الدَّوْلَةُ الْإِيلْخَانِيَّةُ", kindLabel: "دَوْلَةٌ مُغُولِيَّةٌ", periodLabel: "الْقَرْنَانِ الثَّالِثَ عَشَرَ وَالرَّابِعَ عَشَرَ", summary: "كَانَتِ الدَّوْلَةُ الْإِيلْخَانِيَّةُ دَوْلَةً مُغُولِيَّةً مَرْكَزُهَا إِيرَانُ. وَفِي عَامِ أَلْفٍ وَثَلَاثِمِئَةٍ وَثَمَانِيَةٍ، أُلْحِقَتْ بِهَا أَرَاضِي الْأَنَاضُولِ مُبَاشَرَةً.", more: "وَقَدْ أَسَّسَهَا هُولَاكُو، حَفِيدُ جِنْكِيزْ خَانْ." },
     },
     focus: medFeature('ilkhanate', 34.5, 51, 1, { view: { north: 52, west: 22, widthDegrees: 62 } }),

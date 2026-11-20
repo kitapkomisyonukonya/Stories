@@ -312,7 +312,7 @@ export const mediaKit = {
       title: { tr: 'Marka Rehberi', en: 'Brand Guide', ar: 'دليل الهوية' },
       text: {
         tr: 'Projenin adı, tanıtım metinleri, logo ve kullanım kuralları, renk kodları ve yazı tipleri.',
-        en: 'The project’s name, introduction texts, logo and its rules of use, colour codes and typefaces.',
+        en: 'The project’s name, introduction texts, logo and its rules of use, color codes and typefaces.',
         ar: 'اسم المشروع ونصوصه التعريفية والشعار وقواعد استخدامه ورموز الألوان والخطوط.',
       },
       href: appFileUrl('/pdfs/media-kit/lisandan-kulture-marka-rehberi.pdf'),
@@ -356,7 +356,7 @@ export const mediaKit = {
   } as Tri,
   colorsText: {
     tr: 'Lisandan Kültüre’nin ana renkleri gece laciverti ve altındır. Zümrüt yeşili yardımcı renk olarak kullanılır. CMYK değerleri yaklaşıktır, baskı öncesinde prova ile kontrol edilmelidir.',
-    en: 'The main colours of Lisandan Kültüre are night navy and gold. Emerald green is used as a supporting colour. CMYK values are approximate and should be checked with a proof before printing.',
+    en: 'The main colors of Lisandan Kültüre are night navy and gold. Emerald green is used as a supporting color. CMYK values are approximate and should be checked with a proof before printing.',
     ar: 'اللونان الرئيسيان لـ«من اللسان إلى الثقافة» هما الكحلي الليلي والذهبي، ويُستخدم الأخضر الزمرّدي لونًا مساعدًا. قيم CMYK تقريبية، وينبغي التحقّق منها بنسخة تجريبية قبل الطباعة.',
   } as Tri,
   fontsText: {
@@ -381,14 +381,14 @@ export const brandColors: BrandColor[] = [
   { name: { tr: 'Koyu Altın', en: 'Dark Gold', ar: 'الذهبي الداكن' }, hex: '#C99A3E', rgb: '201 · 154 · 62', cmyk: '0 · 23 · 69 · 21', use: { tr: 'Açık zeminde altın yazı ve çizgiler', en: 'Gold text and lines on light backgrounds', ar: 'النصوص والخطوط الذهبية على الخلفيات الفاتحة' } },
   { name: { tr: 'Zümrüt', en: 'Emerald', ar: 'الزمرّدي' }, hex: '#1E8C6B', rgb: '30 · 140 · 107', cmyk: '79 · 0 · 24 · 45', use: { tr: 'Bölüm etiketleri, simgeler, onay işaretleri', en: 'Section labels, icons, check marks', ar: 'تسميات الأقسام والأيقونات وعلامات التأكيد' } },
   { name: { tr: 'Kâğıt', en: 'Paper', ar: 'الورقي' }, hex: '#FBF8F1', rgb: '251 · 248 · 241', cmyk: '0 · 1 · 4 · 2', use: { tr: 'İç sayfa zemini', en: 'Inner page background', ar: 'خلفية الصفحات الداخلية' } },
-  { name: { tr: 'Mürekkep', en: 'Ink', ar: 'الحبري' }, hex: '#18202E', rgb: '24 · 32 · 46', cmyk: '48 · 30 · 0 · 82', use: { tr: 'Metin rengi', en: 'Text colour', ar: 'لون النص' } },
+  { name: { tr: 'Mürekkep', en: 'Ink', ar: 'الحبري' }, hex: '#18202E', rgb: '24 · 32 · 46', cmyk: '48 · 30 · 0 · 82', use: { tr: 'Metin rengi', en: 'Text color', ar: 'لون النص' } },
   { name: { tr: 'Gri', en: 'Grey', ar: 'الرمادي' }, hex: '#5D6779', rgb: '93 · 103 · 121', cmyk: '23 · 15 · 0 · 53', use: { tr: 'Açıklama ve dipnot metinleri', en: 'Captions and footnotes', ar: 'نصوص الشروح والحواشي' } },
 ];
 
 export const collectionColors: BrandColor[] = [
-  { name: { tr: 'Peygamberler', en: 'Stories of the Prophets', ar: 'قصص الأنبياء' }, hex: '#D8B35C', rgb: '216 · 179 · 92', use: { tr: 'Koleksiyon rengi', en: 'Collection colour', ar: 'لون المجموعة' } },
-  { name: { tr: 'İslam Tarihi ve Medeniyeti', en: 'Islamic History & Civilization', ar: 'التاريخ الإسلامي والحضارة' }, hex: '#55C997', rgb: '85 · 201 · 151', use: { tr: 'Koleksiyon rengi', en: 'Collection colour', ar: 'لون المجموعة' } },
-  { name: { tr: 'Türk-İslâm Mirası', en: 'Turkish-Islamic Heritage', ar: 'التراث التركي الإسلامي' }, hex: '#58CBE0', rgb: '88 · 203 · 224', use: { tr: 'Koleksiyon rengi', en: 'Collection colour', ar: 'لون المجموعة' } },
+  { name: { tr: 'Peygamberler', en: 'Stories of the Prophets', ar: 'قصص الأنبياء' }, hex: '#D8B35C', rgb: '216 · 179 · 92', use: { tr: 'Koleksiyon rengi', en: 'Collection color', ar: 'لون المجموعة' } },
+  { name: { tr: 'İslam Tarihi ve Medeniyeti', en: 'Islamic History & Civilization', ar: 'التاريخ الإسلامي والحضارة' }, hex: '#55C997', rgb: '85 · 201 · 151', use: { tr: 'Koleksiyon rengi', en: 'Collection color', ar: 'لون المجموعة' } },
+  { name: { tr: 'Türk-İslâm Mirası', en: 'Turkish-Islamic Heritage', ar: 'التراث التركي الإسلامي' }, hex: '#58CBE0', rgb: '88 · 203 · 224', use: { tr: 'Koleksiyon rengi', en: 'Collection color', ar: 'لون المجموعة' } },
 ];
 
 const quranLabel: Localized = { en: 'Qur’an', ar: 'القرآن الكريم' };

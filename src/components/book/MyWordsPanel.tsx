@@ -103,7 +103,7 @@ export const MyWordsPanel: React.FC<MyWordsPanelProps> = ({ isOpen, onClose, sta
       }
     : {
         close: 'Close',
-        intro: 'Tap a coloured word in the story, then “Save to My words”. Your words stay on this device.',
+        intro: 'Tap a colored word in the story, then “Save to My words”. Your words stay on this device.',
         empty: 'You have not saved any words yet.',
         review: 'Review my words',
         list: 'List',

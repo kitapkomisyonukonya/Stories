@@ -152,7 +152,7 @@ export const MasterGlossary: React.FC<MasterGlossaryProps> = ({
     return isA2
       ? {
           eyebrow: 'Story words',
-          subtitle: 'Learn the words from the story and choose the words you want to practise again.',
+          subtitle: 'Learn the words from the story and choose the words you want to practice again.',
           progressTitle: 'My Progress',
           progressHint: 'This shows the words you know now.',
           total: 'All Words',

@@ -215,7 +215,7 @@ export const StoryPage = ({
       if (index === 1) {
         const exercise = bestLanguageActivity(item, focus, ar);
         if (exercise) return {
-          text: ar ? 'تَدَرَّبْ عَلَى هٰذَا فِي نَشَاطِ التَّرْكِيزِ اللُّغَوِيِّ:' : 'Practise it in this Language Focus activity:',
+          text: ar ? 'تَدَرَّبْ عَلَى هٰذَا فِي نَشَاطِ التَّرْكِيزِ اللُّغَوِيِّ:' : 'Practice it in this Language Focus activity:',
           actionLabel: exercise.title,
           action: openExercise(exercise),
         };
