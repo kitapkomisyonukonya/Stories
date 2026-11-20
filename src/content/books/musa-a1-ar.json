@@ -5,41 +5,41 @@
  "language": "ar",
  "collection": "prophets",
  "book": {
-  "id": "moses-a1-ar",
-  "title": "Prophet Moses (pbuh): The Cruel King and the Sea (A1)",
+  "id": "musa-a1-ar",
+  "title": "النبي موسى عليه السلام: الملك القاسي والبحر (A1)",
   "level": "A1",
-  "baseFontSize": 13,
+  "baseFontSize": 14,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "The Cruel King",
+    "title": "المَلِكُ القَاسِي",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter1.png?alt=media",
-    "content": "Moses (pbuh) was a great Messenger of Allah. He lived in Egypt more than 3,000 years ago. The king of Egypt was Pharaoh. He was a cruel king. He did not believe in Allah. He said, “I am your god.”\n\nA big group of people lived in Egypt. They were the Children of Israel. They believed in Allah. They were a very big group, so the king was afraid of them. He made them work very hard for no money.\n\nOne night, the king had a bad dream. He told his wise men the dream, and they were afraid. His wise men told him, “A boy from the Children of Israel will take your country from you.” The king was angry. He said, “Take all the baby boys of the Children of Israel away.”",
+    "content": "كَانَ مُوسَى عَلَيْهِ السَّلَامُ رَسُولًا عَظِيمًا مِنْ رُسُلِ اللهِ. عَاشَ فِي مِصْرَ مُنْذُ أَكْثَرَ مِنْ ثَلَاثَةِ آلَافِ سَنَةٍ. كَانَ مَلِكُ مِصْرَ فِرْعَوْنَ. كَانَ مَلِكًا قَاسِيًا. لَمْ يُؤْمِنْ بِاللهِ. قَالَ: «أَنَا إِلَهُكُمْ».\n\nعَاشَتْ فِي مِصْرَ جَمَاعَةٌ كَبِيرَةٌ مِنَ النَّاسِ. كَانُوا بَنِي إِسْرَائِيلَ. كَانُوا يُؤْمِنُونَ بِاللهِ. كَانُوا جَمَاعَةً كَبِيرَةً جِدًّا، فَخَافَ المَلِكُ مِنْهُمْ. جَعَلَهُمْ يَعْمَلُونَ كَثِيرًا بِلَا مَالٍ.\n\nفِي لَيْلَةٍ رَأَى المَلِكُ حُلْمًا سَيِّئًا. حَكَى الحُلْمَ لِحُكَمَائِهِ، فَخَافُوا. قَالَ لَهُ حُكَمَاؤُهُ: «وَلَدٌ مِنْ بَنِي إِسْرَائِيلَ سَيَأْخُذُ بَلَدَكَ مِنْكَ». غَضِبَ المَلِكُ. قَالَ: «خُذُوا كُلَّ الأَطْفَالِ الذُّكُورِ مِنْ بَنِي إِسْرَائِيلَ بَعِيدًا».",
     "vocabulary": [
      {
-      "word": "Egypt",
+      "word": "مِصْرَ",
       "definition": "__historical_entity__:moses-a1-egypt-ancient"
      },
      {
-      "word": "king",
-      "definition": "The man who rules a country."
+      "word": "المَلِكُ",
+      "definition": "الرَّجُلُ الَّذِي يَحْكُمُ بَلَدًا."
      },
      {
-      "word": "cruel",
-      "definition": "Very bad and unkind to others."
+      "word": "قَاسِيًا",
+      "definition": "سَيِّئٌ جِدًّا وَغَيْرُ لَطِيفٍ مَعَ الآخَرِينَ."
      },
      {
-      "word": "believe",
-      "definition": "Think that something is true."
+      "word": "يُؤْمِنُونَ",
+      "definition": "يَعْتَقِدُونَ أَنَّ الشَّيْءَ حَقٌّ."
      },
      {
-      "word": "afraid",
-      "definition": "Feeling that something bad will happen."
+      "word": "خَافَ",
+      "definition": "شَعَرَ أَنَّ شَيْئًا سَيِّئًا سَيَحْدُثُ."
      },
      {
-      "word": "dream",
-      "definition": "Pictures in your head when you sleep."
+      "word": "حُلْمًا",
+      "definition": "صُوَرٌ فِي رَأْسِكَ عِنْدَمَا تَنَامُ."
      }
     ],
     "hotspots": [
@@ -47,169 +47,171 @@
       "id": "h1-1",
       "x": 35,
       "y": 46,
-      "title": "The Cruel King",
-      "description": "Pharaoh was the king of Egypt. He did not believe in Allah."
+      "title": "الْمَلِكُ الْقَاسِي",
+      "description": "كَانَ فِرْعَوْنُ مَلِكَ مِصْرَ. كَانَ مَلِكًا قَاسِيًا. لَمْ يُؤْمِنْ بِاللهِ."
      },
      {
       "id": "h1-2",
       "x": 68,
       "y": 50,
-      "title": "A Bad Dream",
-      "description": "One night, the king had a bad dream. He was angry."
+      "title": "حُلْمٌ سَيِّئٌ",
+      "description": "فِي لَيْلَةٍ رَأَى الْمَلِكُ حُلْمًا سَيِّئًا. قَالَ لَهُ حُكَمَاؤُهُ: «وَلَدٌ مِنْ بَنِي إِسْرَائِيلَ سَيَأْخُذُ بَلَدَكَ مِنْكَ»."
      }
     ],
     "exercises": [
      {
-      "id": "moses-a1-quick-1",
+      "id": "musa-a1-ar-quick-1",
       "type": "drag-drop",
-      "title": "The King of Egypt",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 1?",
+      "title": "مَلِكُ مِصْرَ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الْأَوَّلِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "The Children of Israel believed in Allah.",
-         "The king had a bad dream."
+         "كَانَ بَنُو إِسْرَائِيلَ يُؤْمِنُونَ بِاللهِ.",
+         "رَأَى الْمَلِكُ حُلْمًا سَيِّئًا."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "The king gave the Children of Israel a lot of money."
+         "كَانَ فِرْعَوْنُ مَلِكًا طَيِّبًا.",
+         "أَعْطَى الْمَلِكُ بَنِي إِسْرَائِيلَ مَالًا كَثِيرًا."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "The Children of Israel believed in Allah.",
-        "The king had a bad dream."
+       "صَحِيحٌ": [
+        "كَانَ بَنُو إِسْرَائِيلَ يُؤْمِنُونَ بِاللهِ.",
+        "رَأَى الْمَلِكُ حُلْمًا سَيِّئًا."
        ],
-       "False": [
-        "The king gave the Children of Israel a lot of money."
+       "خَطَأٌ": [
+        "كَانَ فِرْعَوْنُ مَلِكًا طَيِّبًا.",
+        "أَعْطَى الْمَلِكُ بَنِي إِسْرَائِيلَ مَالًا كَثِيرًا."
        ]
       },
-      "explanation": "Chapter 1 says: “They believed in Allah.” “He made them work very hard for no money.” “One night, the king had a bad dream.”",
+      "explanation": "الفصل الأول: «كَانُوا يُؤْمِنُونَ بِاللهِ»، و«رَأَى الْمَلِكُ حُلْمًا سَيِّئًا». وكان فرعون «مَلِكًا قَاسِيًا»، وجعلهم «يَعْمَلُونَ كَثِيرًا بِلَا مَالٍ».",
       "feedback": {
-       "correct": "Yes! They worked for no money.",
-       "incorrect": "Read the second paragraph of Chapter 1 again."
+       "correct": "أَحْسَنْتَ! كَانَ فِرْعَوْنُ قَاسِيًا.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الْأَوَّلَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "moses-a1-language-1-did-not",
+      "id": "musa-a1-ar-language-1-lam",
       "type": "multiple-choice",
-      "title": "Look: Did Not",
-      "instructions": "Choose the right answer.",
-      "question": "“He did not believe in Allah.” What does this tell us?",
+      "title": "انْظُرْ: لَمْ يُؤْمِنْ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«لَمْ يُؤْمِنْ بِاللهِ.» مَا مَعْنَى هَذَا؟",
       "options": [
-       "The king did not think Allah was true.",
-       "The king loved Allah.",
-       "The king was a Messenger."
+       "فِي الْمَاضِي، فِرْعَوْنُ مَا آمَنَ بِاللهِ.",
+       "فِرْعَوْنُ آمَنَ بِاللهِ.",
+       "فِرْعَوْنُ سَيُؤْمِنُ غَدًا."
       ],
       "correctAnswer": 0,
-      "explanation": "“Did not” + verb tells us “no” in the past: He did not believe.",
+      "explanation": "«لَمْ» + المضارع تنفي الماضي: لَمْ يُؤْمِنْ = ما آمن. وفي آخر الفعل سكون: يُؤْمِنُ ← لَمْ يُؤْمِنْ.",
       "feedback": {
-       "correct": "Yes. He did not believe in Allah.",
-       "incorrect": "Read the first paragraph of Chapter 1 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى."
       }
      },
      {
-      "id": "moses-a1-language-1-practise",
+      "id": "musa-a1-ar-language-1-practise",
       "type": "word-bank",
-      "title": "Practise: The King",
-      "instructions": "Fill the gaps with the words.",
-      "question": "Which words tell the past?",
-      "fillBlanksText": "The king of Egypt [blank] Pharaoh. He [blank] a bad dream. He [blank] very angry.",
+      "title": "تَدَرَّبْ: الْمَلِكُ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "كَيْفَ كَانَ الْمَلِكُ؟",
+      "fillBlanksText": "كَانَ فِرْعَوْنُ مَلِكًا [blank]. [blank] بِاللهِ. رَأَى [blank] سَيِّئًا.",
       "wordBank": [
-       "was",
-       "had",
-       "was",
-       "is",
-       "has"
+       "قَاسِيًا",
+       "لَمْ يُؤْمِنْ",
+       "حُلْمًا",
+       "طَيِّبًا",
+       "آمَنَ"
       ],
       "correctAnswer": [
-       "was",
-       "had",
-       "was"
+       "قَاسِيًا",
+       "لَمْ يُؤْمِنْ",
+       "حُلْمًا"
       ],
-      "explanation": "Is → was, has → had in the past.",
+      "explanation": "في الفصل: «كَانَ مَلِكًا قَاسِيًا. لَمْ يُؤْمِنْ بِاللهِ»، و«رَأَى الْمَلِكُ حُلْمًا سَيِّئًا». بعد «كَانَ» نقول: قَاسِيًا.",
       "feedback": {
-       "correct": "Correct. All three words tell the past.",
-       "incorrect": "Look at Chapter 1 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الْأَوَّلَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "moses-a1-language-1-say-it",
+      "id": "musa-a1-ar-language-1-say-it",
       "type": "reflection",
-      "title": "Say It: A Good King",
-      "instructions": "Say what a good king does.",
-      "question": "What does a good king do?",
+      "title": "قُلْهَا: مَلِكٌ طَيِّبٌ",
+      "instructions": "قُلْ كَيْفَ يَكُونُ الْمَلِكُ الطَّيِّبُ.",
+      "question": "مَاذَا يَفْعَلُ الْمَلِكُ الطَّيِّبُ؟",
       "correctAnswer": null,
-      "explanation": "Use the present: helps, hurts.",
+      "explanation": "استعمل المضارع، و«لَا» للآن، و«لَمْ» للماضي.",
       "feedback": {
-       "correct": "Say three sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“A good king …”",
+        "question": "«الْمَلِكُ الطَّيِّبُ …»",
         "mode": "Individual",
-        "example": "A good king helps people."
+        "example": "الْمَلِكُ الطَّيِّبُ يُسَاعِدُ النَّاسَ."
        },
        {
-        "question": "“A cruel king …”",
+        "question": "«الْمَلِكُ الطَّيِّبُ لَا …»",
         "mode": "Individual",
-        "example": "A cruel king hurts people."
+        "example": "الْمَلِكُ الطَّيِّبُ لَا يُؤْذِي النَّاسَ."
        },
        {
-        "question": "“I like / do not like …”",
+        "question": "«فِرْعَوْنُ لَمْ …»",
         "mode": "Pair",
-        "example": "I do not like cruel people."
+        "example": "فِرْعَوْنُ لَمْ يُسَاعِدْ بَنِي إِسْرَائِيلَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What kind of king was Pharaoh?",
+     "question": "خَمِّنْ أَوَّلًا: كَيْفَ كَانَ فِرْعَوْنُ؟",
      "options": [
-      "a cruel king",
-      "a kind king",
-      "a young king"
+      "مَلِكًا قَاسِيًا",
+      "مَلِكًا طَيِّبًا",
+      "رَجُلًا فَقِيرًا"
      ],
      "answer": 0,
-     "quote": "He was a cruel king."
+     "quote": "كَانَ مَلِكًا قَاسِيًا."
     },
     "iCan": [
-     "I can say who Pharaoh was.",
-     "I can use did not.",
-     "I can say what a good king does."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَنْ كَانَ مَلِكَ مِصْرَ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «لَمْ» + الْمُضَارِعِ.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ كَيْفَ يَكُونُ الْمَلِكُ الطَّيِّبُ."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "A Baby on the River",
+    "title": "طِفْلٌ عَلَى النَّهْرِ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter3.png?alt=media",
-    "content": "That year, baby Moses was born. His mother was very afraid. She asked Allah for help. Allah told her to put the baby in a basket. Allah said, “Do not be afraid. Put the basket in the river. We will protect him.” She put the basket on the River Nile. The water took it away. Moses’s mother was very worried. She said to her daughter, “Go after the basket and watch it.”\n\nThe basket came near the king’s palace. The king’s family found the baby. The queen, Asiya, loved the baby. She was a good woman. She said, “Do not hurt him. He can be our son.”",
+    "content": "فِي تِلْكَ السَّنَةِ وُلِدَ الطِّفْلُ مُوسَى. خَافَتْ أُمُّهُ كَثِيرًا. طَلَبَتِ المُسَاعَدَةَ مِنَ اللهِ. قَالَ اللهُ لَهَا أَنْ تَضَعَ الطِّفْلَ فِي سَلَّةٍ. قَالَ اللهُ: «لَا تَخَافِي. ضَعِي السَّلَّةَ فِي النَّهْرِ. نَحْنُ سَنَحْمِيهِ». وَضَعَتِ السَّلَّةَ عَلَى نَهْرِ النِّيلِ. أَخَذَهَا المَاءُ بَعِيدًا. كَانَتْ أُمُّ مُوسَى قَلِقَةً جِدًّا. قَالَتْ لِبِنْتِهَا: «اِذْهَبِي خَلْفَ السَّلَّةِ وَرَاقِبِيهَا».\n\nاِقْتَرَبَتِ السَّلَّةُ مِنْ قَصْرِ المَلِكِ. وَجَدَتْ أُسْرَةُ المَلِكِ الطِّفْلَ. أَحَبَّتِ المَلِكَةُ آسِيَةُ الطِّفْلَ. كَانَتِ امْرَأَةً طَيِّبَةً. قَالَتْ: «لَا تُؤْذُوهُ. يُمْكِنُ أَنْ يَكُونَ ابْنَنَا».",
     "vocabulary": [
      {
-      "word": "basket",
-      "definition": "A box made of thin wood or grass."
+      "word": "سَلَّةٍ",
+      "definition": "صُنْدُوقٌ مِنَ الخَشَبِ الرَّفِيعِ أَوِ العُشْبِ."
      },
      {
-      "word": "worried",
-      "definition": "Thinking about bad things that can happen."
+      "word": "قَلِقَةً",
+      "definition": "تُفَكِّرُ فِي أَشْيَاءَ سَيِّئَةٍ يُمْكِنُ أَنْ تَحْدُثَ."
      },
      {
-      "word": "palace",
-      "definition": "A very big house of a king."
+      "word": "قَصْرِ",
+      "definition": "بَيْتٌ كَبِيرٌ جِدًّا لِلْمَلِكِ."
      },
      {
-      "word": "queen",
-      "definition": "The wife of a king."
+      "word": "المَلِكَةُ",
+      "definition": "زَوْجَةُ المَلِكِ."
      }
     ],
     "hotspots": [
@@ -217,40 +219,40 @@
       "id": "h2-1",
       "x": 35,
       "y": 46,
-      "title": "The Basket",
-      "description": "Moses’s mother put the baby in a basket on the River Nile."
+      "title": "السَّلَّةُ",
+      "description": "وَضَعَتْ أُمُّ مُوسَى الطِّفْلَ فِي سَلَّةٍ، وَوَضَعَتِ السَّلَّةَ عَلَى نَهْرِ النِّيلِ. أَخَذَهَا الْمَاءُ بَعِيدًا."
      },
      {
       "id": "h2-2",
       "x": 68,
       "y": 50,
-      "title": "The Queen",
-      "description": "The queen, Asiya, loved the baby. She was a good woman."
+      "title": "الْمَلِكَةُ",
+      "description": "أَحَبَّتِ الْمَلِكَةُ آسِيَةُ الطِّفْلَ. كَانَتِ امْرَأَةً طَيِّبَةً. قَالَتْ: «لَا تُؤْذُوهُ»."
      }
     ],
     "exercises": [
      {
-      "id": "moses-a1-quick-2",
+      "id": "musa-a1-ar-quick-2",
       "type": "sequencing",
-      "title": "A Baby on the River",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "طِفْلٌ عَلَى النَّهْرِ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Baby Moses was born."
+        "text": "وُلِدَ الطِّفْلُ مُوسَى."
        },
        {
         "id": "2",
-        "text": "Moses’s mother put the basket on the River Nile."
+        "text": "وَضَعَتْ أُمُّهُ السَّلَّةَ عَلَى نَهْرِ النِّيلِ."
        },
        {
         "id": "3",
-        "text": "The king’s family found the baby."
+        "text": "اقْتَرَبَتِ السَّلَّةُ مِنْ قَصْرِ الْمَلِكِ."
        },
        {
         "id": "4",
-        "text": "The queen said, “He can be our son.”"
+        "text": "أَحَبَّتِ الْمَلِكَةُ آسِيَةُ الطِّفْلَ."
        }
       ],
       "correctAnswer": [
@@ -259,154 +261,159 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 2: Moses was born. His mother put the basket on the river. The king’s family found him. The queen loved him.",
+      "explanation": "الفصل الثاني: وُلد موسى، ووضعته أمه في سلة على النيل. اقتربت السلة من القصر، وأحبت الملكة الطفل.",
       "feedback": {
-       "correct": "Great! You put the chapter in order.",
-       "incorrect": "Read Chapter 2 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفَصْلَ الثَّانِيَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "moses-a1-language-2-feel",
+      "id": "musa-a1-ar-language-2-she",
       "type": "matching",
-      "title": "Look: How Did They Feel?",
-      "instructions": "Match the person and the word.",
-      "question": "How did they feel?",
+      "title": "انْظُرْ: خَافَتْ، وَضَعَتْ، أَحَبَّتْ",
+      "instructions": "صِلِ الْفِعْلَ بِصِيغَةِ «هِيَ».",
+      "question": "مَاذَا فَعَلَتْ؟",
       "matchingHeadings": {
-       "left": "Person",
-       "right": "Feeling"
+       "left": "هُوَ",
+       "right": "هِيَ"
       },
       "matchingPairs": [
        {
-        "left": "Moses’s mother (before)",
-        "right": "afraid"
+        "left": "خَافَ",
+        "right": "خَافَتْ"
        },
        {
-        "left": "Moses’s mother (with the basket)",
-        "right": "worried"
+        "left": "طَلَبَ",
+        "right": "طَلَبَتْ"
        },
        {
-        "left": "The queen",
-        "right": "loved the baby"
+        "left": "وَضَعَ",
+        "right": "وَضَعَتْ"
+       },
+       {
+        "left": "أَحَبَّ",
+        "right": "أَحَبَّتْ"
        }
       ],
       "correctAnswer": {
-       "Moses’s mother (before)": "afraid",
-       "Moses’s mother (with the basket)": "worried",
-       "The queen": "loved the baby"
+       "خَافَ": "خَافَتْ",
+       "طَلَبَ": "طَلَبَتْ",
+       "وَضَعَ": "وَضَعَتْ",
+       "أَحَبَّ": "أَحَبَّتْ"
       },
-      "explanation": "Afraid and worried tell us how she felt. We use was: She was afraid.",
+      "explanation": "الماضي لـ«هِيَ» تزيد «ـتْ»: خَافَ ← خَافَتْ. في الفصل: «خَافَتْ أُمُّهُ»، «طَلَبَتِ الْمُسَاعَدَةَ»، «وَضَعَتِ السَّلَّةَ»، «أَحَبَّتِ الْمَلِكَةُ».",
       "feedback": {
-       "correct": "Good. You found the words.",
-       "incorrect": "Find afraid, worried and loved in Chapter 2."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "ابْحَثْ عَنْ هَذِهِ الْأَفْعَالِ فِي الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "moses-a1-language-2-practise",
+      "id": "musa-a1-ar-language-2-practise",
       "type": "choose-form",
-      "title": "Practise: Put, Took, Found",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: اذْهَبِي، ضَعِي",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "مَاذَا قِيلَ لَهَا؟",
       "formChoices": [
        {
-        "sentence": "She [choice] the basket on the River Nile.",
+        "sentence": "قَالَ اللهُ: «لَا [choice].»",
         "options": [
-         "put",
-         "puts"
+         "تَخَافِي",
+         "تَخَافُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The water [choice] it away.",
+        "sentence": "«[choice] السَّلَّةَ فِي النَّهْرِ.»",
         "options": [
-         "took",
-         "takes"
+         "ضَعِي",
+         "ضَعْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The king’s family [choice] the baby.",
+        "sentence": "قَالَتْ لِبِنْتِهَا: «[choice] خَلْفَ السَّلَّةِ.»",
         "options": [
-         "found",
-         "finds"
+         "اِذْهَبِي",
+         "اِذْهَبْ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Put → put, take → took, find → found in the past.",
+      "explanation": "نكلّم امرأة أو بنتًا فنزيد «ـي»: ضَعِي، اِذْهَبِي، لَا تَخَافِي. ونكلّم رجلًا: ضَعْ، اِذْهَبْ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the first paragraph of Chapter 2."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "نَحْنُ نَتَكَلَّمُ مَعَ امْرَأَةٍ أَوْ بِنْتٍ."
       }
      },
      {
-      "id": "moses-a1-language-2-say-it",
+      "id": "musa-a1-ar-language-2-say-it",
       "type": "reflection",
-      "title": "Say It: Go and Watch",
-      "instructions": "Tell your partner what to do.",
-      "question": "What can you tell your partner?",
+      "title": "قُلْهَا: اِذْهَبْ وَرَاقِبْ",
+      "instructions": "قُلْ لِزَمِيلِكَ أَنْ يَفْعَلَ شَيْئًا.",
+      "question": "مَاذَا تَقُولُ لِزَمِيلِكَ أَوْ زَمِيلَتِكَ؟",
       "correctAnswer": null,
-      "explanation": "Start with the verb: Go, Watch, Do not …",
+      "explanation": "للولد: اِذْهَبْ، لَا تَخَفْ. للبنت: اِذْهَبِي، لَا تَخَافِي.",
       "feedback": {
-       "correct": "Say three short sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Go to … and …”",
+        "question": "لِوَلَدٍ: «اِذْهَبْ إِلَى …»",
         "mode": "Pair",
-        "example": "Go to the door and open it."
+        "example": "اِذْهَبْ إِلَى الْبَابِ."
        },
        {
-        "question": "“Please, watch …”",
+        "question": "لِبِنْتٍ: «اِذْهَبِي إِلَى …»",
         "mode": "Pair",
-        "example": "Please, watch my bag."
+        "example": "اِذْهَبِي إِلَى النَّافِذَةِ."
        },
        {
-        "question": "“Do not …”",
+        "question": "«لَا تَخَفْ / لَا تَخَافِي»",
         "mode": "Pair",
-        "example": "Do not run."
+        "example": "لَا تَخَافِي، أَنَا مَعَكِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "picture",
-     "question": "Look at the picture. Where is the baby?",
+     "question": "انْظُرْ إِلَى الصُّورَةِ. أَيْنَ الطِّفْلُ؟",
      "options": [
-      "in a basket",
-      "in a bed",
-      "on a horse"
+      "فِي سَلَّةٍ عَلَى النَّهْرِ",
+      "فِي بَيْتٍ كَبِيرٍ",
+      "عَلَى جَبَلٍ"
      ],
      "answer": 0,
-     "quote": "Allah told her to put the baby in a basket."
+     "quote": "وَضَعَتِ السَّلَّةَ عَلَى نَهْرِ النِّيلِ."
     },
     "iCan": [
-     "I can tell what happened to the basket.",
-     "I can use put, took and found.",
-     "I can tell a partner what to do."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنِ السَّلَّةِ عَلَى النَّهْرِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ الْمَاضِيَ لِـ«هِيَ».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ: اِذْهَبْ، اِذْهَبِي."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "Back to His Mother",
+    "title": "العَوْدَةُ إِلَى الأُمِّ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter5.png?alt=media",
-    "content": "The baby was hungry. He did not drink milk from any woman. Moses’s sister came to the palace. She said, “I know a good woman. She can give milk to the baby.” Then she brought her own mother!\n\nAllah gave baby Moses back to his mother. His mother was very happy. Allah’s promise was true. Moses grew up in the palace. He became a strong young man. He always helped weak people.",
+    "content": "كَانَ الطِّفْلُ جَائِعًا. لَمْ يَشْرَبْ حَلِيبًا مِنْ أَيِّ امْرَأَةٍ. جَاءَتْ أُخْتُ مُوسَى إِلَى القَصْرِ. قَالَتْ: «أَعْرِفُ امْرَأَةً طَيِّبَةً. يُمْكِنُهَا أَنْ تُعْطِيَ الطِّفْلَ الحَلِيبَ». ثُمَّ أَحْضَرَتْ أُمَّهَا نَفْسَهَا!\n\nأَعَادَ اللهُ الطِّفْلَ مُوسَى إِلَى أُمِّهِ. فَرِحَتْ أُمُّهُ كَثِيرًا. كَانَ وَعْدُ اللهِ حَقًّا. كَبِرَ مُوسَى فِي القَصْرِ. صَارَ شَابًّا قَوِيًّا. كَانَ يُسَاعِدُ الضُّعَفَاءَ دَائِمًا.",
     "vocabulary": [
      {
-      "word": "promise",
-      "definition": "Words that say \"I will do it\"."
+      "word": "وَعْدُ",
+      "definition": "كَلِمَاتٌ تَقُولُ: «سَأَفْعَلُ هَذَا»."
      },
      {
-      "word": "weak",
-      "definition": "Not strong."
+      "word": "الضُّعَفَاءَ",
+      "definition": "نَاسٌ لَيْسُوا أَقْوِيَاءَ."
      },
      {
-      "word": "strong",
-      "definition": "With a lot of power in your body."
+      "word": "قَوِيًّا",
+      "definition": "عِنْدَهُ قُوَّةٌ كَثِيرَةٌ فِي جِسْمِهِ."
      }
     ],
     "hotspots": [
@@ -414,183 +421,201 @@
       "id": "h3-1",
       "x": 35,
       "y": 46,
-      "title": "Back to His Mother",
-      "description": "Allah gave baby Moses back to his mother. She was very happy."
+      "title": "الْعَوْدَةُ إِلَى الْأُمِّ",
+      "description": "أَحْضَرَتْ أُخْتُ مُوسَى أُمَّهَا إِلَى الْقَصْرِ. أَعَادَ اللهُ الطِّفْلَ مُوسَى إِلَى أُمِّهِ."
      },
      {
       "id": "h3-2",
       "x": 68,
       "y": 50,
-      "title": "A Strong Young Man",
-      "description": "Moses grew up in the palace. He always helped weak people."
+      "title": "شَابٌّ قَوِيٌّ",
+      "description": "كَبِرَ مُوسَى فِي الْقَصْرِ. صَارَ شَابًّا قَوِيًّا. كَانَ يُسَاعِدُ الضُّعَفَاءَ دَائِمًا."
      }
     ],
     "exercises": [
      {
-      "id": "moses-a1-quick-3",
+      "id": "musa-a1-ar-quick-3",
       "type": "multiple-choice",
-      "title": "Allah’s Promise",
-      "instructions": "Choose the best answer.",
-      "question": "How did Moses go back to his mother?",
+      "title": "وَعْدُ اللهِ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "مَنْ أَعْطَى الطِّفْلَ مُوسَى الْحَلِيبَ؟",
       "options": [
-       "His sister brought their mother to the palace.",
-       "The king took him to her.",
-       "He walked to her house."
+       "أُمُّهُ نَفْسُهَا",
+       "الْمَلِكَةُ",
+       "امْرَأَةٌ مِنَ الْقَصْرِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 3: Moses’s sister said, “I know a good woman.” Then she brought her own mother!",
+      "explanation": "الفصل الثالث: قالت أخت موسى: «أَعْرِفُ امْرَأَةً طَيِّبَةً»، «ثُمَّ أَحْضَرَتْ أُمَّهَا نَفْسَهَا!». و«كَانَ وَعْدُ اللهِ حَقًّا».",
       "feedback": {
-       "correct": "Yes! His sister helped.",
-       "incorrect": "Read the first paragraph of Chapter 3 again."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الثَّالِثِ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "moses-a1-language-3-opposites",
+      "id": "musa-a1-ar-language-3-opposites",
       "type": "matching",
-      "title": "Look: Opposites",
-      "instructions": "Match the opposites.",
-      "question": "What is the opposite?",
+      "title": "انْظُرْ: قَوِيٌّ وَضَعِيفٌ",
+      "instructions": "صِلِ الْكَلِمَةَ بِعَكْسِهَا.",
+      "question": "مَا الْعَكْسُ؟",
       "matchingHeadings": {
-       "left": "Word",
-       "right": "Opposite"
+       "left": "الْكَلِمَةُ",
+       "right": "الْعَكْسُ"
       },
       "matchingPairs": [
        {
-        "left": "strong",
-        "right": "weak"
+        "left": "قَوِيٌّ",
+        "right": "ضَعِيفٌ"
        },
        {
-        "left": "happy",
-        "right": "sad"
+        "left": "جَائِعٌ",
+        "right": "شَبْعَانُ"
        },
        {
-        "left": "hungry",
-        "right": "full"
+        "left": "حَزِينٌ",
+        "right": "فَرِحٌ"
+       },
+       {
+        "left": "كَبِيرٌ",
+        "right": "صَغِيرٌ"
        }
       ],
       "correctAnswer": {
-       "strong": "weak",
-       "happy": "sad",
-       "hungry": "full"
+       "قَوِيٌّ": "ضَعِيفٌ",
+       "جَائِعٌ": "شَبْعَانُ",
+       "حَزِينٌ": "فَرِحٌ",
+       "كَبِيرٌ": "صَغِيرٌ"
       },
-      "explanation": "Strong is the opposite of weak. Moses was strong, and he helped weak people.",
+      "explanation": "في الفصل: «كَانَ الطِّفْلُ جَائِعًا»، و«فَرِحَتْ أُمُّهُ»، و«صَارَ شَابًّا قَوِيًّا»، و«يُسَاعِدُ الضُّعَفَاءَ».",
       "feedback": {
-       "correct": "Good. You found the opposites.",
-       "incorrect": "Find strong and weak in Chapter 3."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "فَكِّرْ: مَا عَكْسُ كُلِّ كَلِمَةٍ؟"
       }
      },
      {
-      "id": "moses-a1-language-3-practise",
+      "id": "musa-a1-ar-language-3-practise",
       "type": "choose-form",
-      "title": "Practise: Always",
-      "instructions": "Choose the right words.",
-      "question": "Where does always go?",
+      "title": "تَدَرَّبْ: دَائِمًا",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "كَيْفَ كَانَ مُوسَى؟",
       "formChoices": [
        {
-        "sentence": "He [choice] weak people.",
+        "sentence": "صَارَ مُوسَى شَابًّا [choice].",
         "options": [
-         "always helped",
-         "helped always"
+         "قَوِيًّا",
+         "ضَعِيفًا"
         ],
         "answer": 0
        },
        {
-        "sentence": "Moses [choice] a strong young man.",
+        "sentence": "كَانَ يُسَاعِدُ [choice] دَائِمًا.",
         "options": [
-         "was",
-         "were"
+         "الضُّعَفَاءَ",
+         "الْأَقْوِيَاءَ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "كَانَ يُسَاعِدُهُمْ [choice].",
+        "options": [
+         "دَائِمًا",
+         "أَبَدًا"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Always” comes before the verb: He always helped. One person: was.",
+      "explanation": "كان موسى قويًّا، وكان يساعد الضعفاء. «دَائِمًا» = كل مرة. «كَانَ يُسَاعِدُ» = يفعل ذلك مرات كثيرة في الماضي.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the last sentence of Chapter 3."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأْ آخِرَ الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "moses-a1-language-3-say-it",
+      "id": "musa-a1-ar-language-3-say-it",
       "type": "reflection",
-      "title": "Say It: I Help",
-      "instructions": "Say how you help people.",
-      "question": "Who do you help?",
+      "title": "قُلْهَا: أُسَاعِدُ",
+      "instructions": "قُلْ مَنْ تُسَاعِدُ.",
+      "question": "مَنْ تُسَاعِدُ فِي الْبَيْتِ أَوْ فِي الْمَدْرَسَةِ؟",
       "correctAnswer": null,
-      "explanation": "Use always + verb.",
+      "explanation": "استعمل «أُسَاعِدُ» و«دَائِمًا».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I always help …”",
+        "question": "«أُسَاعِدُ … دَائِمًا.»",
         "mode": "Individual",
-        "example": "I always help my little brother."
+        "example": "أُسَاعِدُ جَدَّتِي دَائِمًا."
        },
        {
-        "question": "“I help … with …”",
+        "question": "«أَحْمِلُ …»",
+        "mode": "Individual",
+        "example": "أَحْمِلُ حَقِيبَتَهَا."
+       },
+       {
+        "question": "«أَنَا قَوِيٌّ، لِذَلِكَ …»",
         "mode": "Pair",
-        "example": "I help my mother with dinner."
+        "example": "أَنَا قَوِيٌّ، لِذَلِكَ أُسَاعِدُ أَخِي الصَّغِيرَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Who gave milk to baby Moses?",
+     "question": "خَمِّنْ أَوَّلًا: مَنْ أَعْطَى الطِّفْلَ مُوسَى الْحَلِيبَ؟",
      "options": [
-      "his own mother",
-      "the queen",
-      "the king"
+      "أُمُّهُ",
+      "الْمَلِكُ",
+      "الْجُنُودُ"
      ],
      "answer": 0,
-     "quote": "Then she brought her own mother!"
+     "quote": "ثُمَّ أَحْضَرَتْ أُمَّهَا نَفْسَهَا!"
     },
     "iCan": [
-     "I can tell how Moses went back to his mother.",
-     "I can use opposites: strong and weak.",
-     "I can say how I help people."
+     "أَسْتَطِيعُ أَنْ أَقُولَ كَيْفَ رَجَعَ مُوسَى إِلَى أُمِّهِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ قَوِيٌّ وَضَعِيفٌ.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَنْ أُسَاعِدُ."
     ],
     "groupTask": {
      "type": "project",
-     "title": "Helping Poster",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "لَوْحَةُ الْمُسَاعَدَةِ",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group talks about weak people: babies, old people …",
-      "Each student writes one sentence: “I can help … ”.",
-      "The group draws one picture for each sentence.",
-      "One student reads the poster to the class."
+      "تَتَكَلَّمُ الْمَجْمُوعَةُ عَنِ الضُّعَفَاءِ: الْأَطْفَالِ الصِّغَارِ، الْكِبَارِ فِي السِّنِّ …",
+      "يَكْتُبُ كُلُّ طَالِبٍ جُمْلَةً: «أَسْتَطِيعُ أَنْ أُسَاعِدَ …».",
+      "تَرْسُمُ الْمَجْمُوعَةُ صُورَةً لِكُلِّ جُمْلَةٍ.",
+      "يَقْرَأُ طَالِبٌ وَاحِدٌ اللَّوْحَةَ لِلصَّفِّ."
      ],
-     "share": "One student reads the poster. Story: “He always helped weak people.”",
-     "solo": "Write two “I can help …” sentences. Draw one picture."
+     "share": "يَقْرَأُ طَالِبٌ وَاحِدٌ اللَّوْحَةَ. مِنَ الْقِصَّةِ: «كَانَ يُسَاعِدُ الضُّعَفَاءَ دَائِمًا.»",
+     "solo": "اكْتُبْ جُمْلَتَيْنِ: «أَسْتَطِيعُ أَنْ أُسَاعِدَ …»، وَارْسُمْ صُورَةً لِكُلِّ جُمْلَةٍ."
     }
    },
    {
     "id": 4,
     "type": "story",
-    "title": "A Mistake in the Market",
+    "title": "خَطَأٌ فِي السُّوقِ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter6.png?alt=media",
-    "content": "One day, Moses saw two men in the market. They were fighting. One man was from Egypt. The other man was from the Children of Israel. “Help me!” the man shouted. Moses hit the man from Egypt one time. The man fell and died.\n\nMoses did not want this. He was very sad. He said, “Allah, please forgive me.” Allah forgave him. Then a man came and said, “The king’s soldiers are looking for you. Go away from here!”",
+    "content": "فِي يَوْمٍ مِنَ الأَيَّامِ رَأَى مُوسَى رَجُلَيْنِ فِي السُّوقِ. كَانَا يَتَقَاتَلَانِ. كَانَ أَحَدُهُمَا مِنْ مِصْرَ. وَكَانَ الآخَرُ مِنْ بَنِي إِسْرَائِيلَ. «سَاعِدْنِي!» صَاحَ الرَّجُلُ. ضَرَبَ مُوسَى الرَّجُلَ المِصْرِيَّ ضَرْبَةً وَاحِدَةً. سَقَطَ الرَّجُلُ وَمَاتَ.\n\nلَمْ يُرِدْ مُوسَى هَذَا. كَانَ حَزِينًا جِدًّا. قَالَ: «يَا رَبِّ، اِغْفِرْ لِي مِنْ فَضْلِكَ». غَفَرَ اللهُ لَهُ. ثُمَّ جَاءَ رَجُلٌ وَقَالَ: «جُنُودُ المَلِكِ يَبْحَثُونَ عَنْكَ. اِذْهَبْ مِنْ هُنَا!»",
     "vocabulary": [
      {
-      "word": "market",
-      "definition": "A place where people buy and sell things."
+      "word": "السُّوقِ",
+      "definition": "مَكَانٌ يَشْتَرِي فِيهِ النَّاسُ الأَشْيَاءَ وَيَبِيعُونَهَا."
      },
      {
-      "word": "fight",
-      "definition": "Hit and hurt each other."
+      "word": "يَتَقَاتَلَانِ",
+      "definition": "يَضْرِبُ كُلُّ وَاحِدٍ الآخَرَ وَيُؤْذِيهِ."
      },
      {
-      "word": "forgive",
-      "definition": "Stop being angry with someone."
+      "word": "غَفَرَ",
+      "definition": "تَرَكَ الغَضَبَ وَسَامَحَ."
      },
      {
-      "word": "soldier",
-      "definition": "A man in the army."
+      "word": "جُنُودُ",
+      "definition": "رِجَالٌ فِي الجَيْشِ."
      }
     ],
     "hotspots": [
@@ -598,171 +623,181 @@
       "id": "h4-1",
       "x": 35,
       "y": 46,
-      "title": "The Market",
-      "description": "Two men were fighting in the market. One man shouted, “Help me!”"
+      "title": "السُّوقُ",
+      "description": "رَأَى مُوسَى رَجُلَيْنِ فِي السُّوقِ. كَانَا يَتَقَاتَلَانِ. صَاحَ أَحَدُهُمَا: «سَاعِدْنِي!»"
      },
      {
       "id": "h4-2",
       "x": 68,
       "y": 50,
-      "title": "A Mistake",
-      "description": "Moses did not want this. He said, “Allah, please forgive me.”"
+      "title": "خَطَأٌ",
+      "description": "ضَرَبَ مُوسَى الرَّجُلَ ضَرْبَةً وَاحِدَةً، فَمَاتَ. لَمْ يُرِدْ مُوسَى هَذَا. طَلَبَ الْمَغْفِرَةَ، فَغَفَرَ اللهُ لَهُ."
      }
     ],
     "exercises": [
      {
-      "id": "moses-a1-quick-4",
+      "id": "musa-a1-ar-quick-4",
       "type": "drag-drop",
-      "title": "A Mistake",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 4?",
+      "title": "خَطَأٌ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الرَّابِعِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "Moses hit the man one time.",
-         "Allah forgave Moses."
+         "رَأَى مُوسَى رَجُلَيْنِ يَتَقَاتَلَانِ.",
+         "غَفَرَ اللهُ لِمُوسَى."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "Moses wanted the man to die."
+         "أَرَادَ مُوسَى أَنْ يَمُوتَ الرَّجُلُ.",
+         "كَانَ مُوسَى سَعِيدًا بَعْدَ ذَلِكَ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "Moses hit the man one time.",
-        "Allah forgave Moses."
+       "صَحِيحٌ": [
+        "رَأَى مُوسَى رَجُلَيْنِ يَتَقَاتَلَانِ.",
+        "غَفَرَ اللهُ لِمُوسَى."
        ],
-       "False": [
-        "Moses wanted the man to die."
+       "خَطَأٌ": [
+        "أَرَادَ مُوسَى أَنْ يَمُوتَ الرَّجُلُ.",
+        "كَانَ مُوسَى سَعِيدًا بَعْدَ ذَلِكَ."
        ]
       },
-      "explanation": "Chapter 4 says: “Moses hit the man from Egypt one time.” “Moses did not want this.” “Allah forgave him.”",
+      "explanation": "الفصل الرابع: «لَمْ يُرِدْ مُوسَى هَذَا. كَانَ حَزِينًا جِدًّا». ثم طلب المغفرة، و«غَفَرَ اللهُ لَهُ».",
       "feedback": {
-       "correct": "Yes! Moses did not want this.",
-       "incorrect": "Read the second paragraph of Chapter 4 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "moses-a1-language-4-please",
+      "id": "musa-a1-ar-language-4-please",
       "type": "multiple-choice",
-      "title": "Look: Please",
-      "instructions": "Choose the right answer.",
-      "question": "“Allah, please forgive me.” What is Moses doing?",
+      "title": "انْظُرْ: مِنْ فَضْلِكَ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "قَالَ مُوسَى: «يَا رَبِّ، اِغْفِرْ لِي مِنْ فَضْلِكَ». لِمَاذَا قَالَ «مِنْ فَضْلِكَ»؟",
       "options": [
-       "He is asking for something.",
-       "He is saying thank you.",
-       "He is saying goodbye."
+       "لِيَطْلُبَ بِأَدَبٍ",
+       "لِيَقُولَ شُكْرًا",
+       "لِيَقُولَ: مَعَ السَّلَامَةِ"
       ],
       "correctAnswer": 0,
-      "explanation": "We use please to ask for something in a nice way: Please forgive me. Please help me.",
+      "explanation": "نطلب بالأمر ونزيد «مِنْ فَضْلِكَ» لنطلب بأدب: اِغْفِرْ لِي مِنْ فَضْلِكَ، سَاعِدْنِي مِنْ فَضْلِكَ.",
       "feedback": {
-       "correct": "Yes. He is asking Allah to forgive him.",
-       "incorrect": "Read Moses’s words in Chapter 4."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأْ كَلَامَ مُوسَى فِي الْفِقْرَةِ الثَّانِيَةِ."
       }
      },
      {
-      "id": "moses-a1-language-4-practise",
+      "id": "musa-a1-ar-language-4-practise",
       "type": "choose-form",
-      "title": "Practise: Were Fighting",
-      "instructions": "Choose the right words.",
-      "question": "What was happening?",
+      "title": "تَدَرَّبْ: كَانَا يَتَقَاتَلَانِ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "مَاذَا كَانَا يَفْعَلَانِ؟",
       "formChoices": [
        {
-        "sentence": "Two men [choice] fighting.",
+        "sentence": "كَانَ الرَّجُلَانِ [choice].",
         "options": [
-         "were",
-         "was"
+         "يَتَقَاتَلَانِ",
+         "يَتَقَاتَلُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The soldiers [choice] looking for Moses.",
+        "sentence": "[choice] الرَّجُلَيْنِ فِي السُّوقِ.",
         "options": [
-         "are",
-         "is"
+         "رَأَى مُوسَى",
+         "رَأَوْا مُوسَى"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "«جُنُودُ الْمَلِكِ [choice] عَنْكَ.»",
+        "options": [
+         "يَبْحَثُونَ",
+         "يَبْحَثُ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Two or more people: were / are. “Are looking” tells us what is happening now.",
+      "explanation": "لاثنين نقول: يَتَقَاتَلَانِ (ـانِ). ولجماعة الجنود: يَبْحَثُونَ (ـونَ). و«كَانَا يَتَقَاتَلَانِ» = فعل مستمر في الماضي.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 4 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "كَمْ شَخْصًا فِي الْجُمْلَةِ؟"
       }
      },
      {
-      "id": "moses-a1-language-4-say-it",
+      "id": "musa-a1-ar-language-4-say-it",
       "type": "reflection",
-      "title": "Say It: Sorry",
-      "instructions": "Say sorry for a small mistake.",
-      "question": "What do you say after a mistake?",
+      "title": "قُلْهَا: أَنَا آسِفٌ",
+      "instructions": "قُلْ مَاذَا تَقُولُ بَعْدَ الْخَطَأِ.",
+      "question": "مَاذَا تَقُولُ بَعْدَ الْخَطَأِ؟",
       "correctAnswer": null,
-      "explanation": "Use I am sorry and please.",
+      "explanation": "بعد الخطأ نقول «آسِفٌ»، ونطلب بأدب بـ«مِنْ فَضْلِكَ».",
       "feedback": {
-       "correct": "Say sorry and answer your partner.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I am sorry. I …”",
-        "mode": "Pair",
-        "example": "I am sorry. I broke your pencil."
+        "question": "«أَنَا آسِفٌ / آسِفَةٌ.»",
+        "mode": "Individual",
+        "example": "أَنَا آسِفٌ، لَمْ أُرِدْ هَذَا."
        },
        {
-        "question": "“That is OK.”",
+        "question": "«سَامِحْنِي مِنْ فَضْلِكَ.»",
         "mode": "Pair",
-        "example": "That is OK."
+        "example": "سَامِحْنِي مِنْ فَضْلِكَ."
        },
        {
-        "question": "“Please, …”",
-        "mode": "Pair",
-        "example": "Please, forgive me."
+        "question": "«يَا رَبِّ، اِغْفِرْ لِي.»",
+        "mode": "Individual",
+        "example": "يَا رَبِّ، اِغْفِرْ لِي."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Where did Moses see two men?",
+     "question": "خَمِّنْ أَوَّلًا: أَيْنَ رَأَى مُوسَى الرَّجُلَيْنِ؟",
      "options": [
-      "in the market",
-      "in the palace",
-      "on a boat"
+      "فِي السُّوقِ",
+      "فِي الْقَصْرِ",
+      "عَلَى النَّهْرِ"
      ],
      "answer": 0,
-     "quote": "One day, Moses saw two men in the market."
+     "quote": "رَأَى مُوسَى رَجُلَيْنِ فِي السُّوقِ."
     },
     "iCan": [
-     "I can tell what happened in the market.",
-     "I can ask with please.",
-     "I can say sorry for a mistake."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ مَاذَا حَدَثَ فِي السُّوقِ.",
+     "أَسْتَطِيعُ أَنْ أَطْلُبَ بِـ«مِنْ فَضْلِكَ».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ: أَنَا آسِفٌ."
     ]
    },
    {
     "id": 5,
     "type": "story",
-    "title": "The Two Sisters",
+    "title": "الأُخْتَانِ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter8.png?alt=media",
-    "content": "Moses left Egypt. He walked for many days. He came to Midian. He was tired and thirsty. He found a well. Many shepherds were there with their sheep.\n\nTwo girls stood far from the well. Moses asked, “Why are you waiting?” They said, “Our father is very old. We wait for the shepherds to go.” Moses helped them. He gave water to their sheep.\n\nThe girls came home early. Their old father was surprised, so he asked, “Why are you here early?” The girls told their father about Moses. Their father asked Moses to come to his house. He gave Moses a job. Later, Moses married one of the sisters. They lived in Midian for ten years.",
+    "content": "تَرَكَ مُوسَى مِصْرَ. مَشَى أَيَّامًا كَثِيرَةً. وَصَلَ إِلَى مَدْيَنَ. كَانَ مُتْعَبًا وَعَطْشَانَ. وَجَدَ بِئْرًا. كَانَ هُنَاكَ رُعَاةٌ كَثِيرُونَ مَعَ غَنَمِهِمْ.\n\nوَقَفَتْ فَتَاتَانِ بَعِيدًا عَنِ البِئْرِ. سَأَلَ مُوسَى: «لِمَاذَا تَنْتَظِرَانِ؟» قَالَتَا: «أَبُونَا كَبِيرٌ فِي السِّنِّ جِدًّا. نَنْتَظِرُ حَتَّى يَذْهَبَ الرُّعَاةُ». سَاعَدَهُمَا مُوسَى. سَقَى غَنَمَهُمَا.\n\nرَجَعَتِ الفَتَاتَانِ إِلَى البَيْتِ مُبَكِّرًا. تَعَجَّبَ أَبُوهُمَا الكَبِيرُ فَسَأَلَ: «لِمَاذَا أَنْتُمَا هُنَا مُبَكِّرًا؟» أَخْبَرَتِ الفَتَاتَانِ أَبَاهُمَا عَنْ مُوسَى. طَلَبَ أَبُوهُمَا مِنْ مُوسَى أَنْ يَأْتِيَ إِلَى بَيْتِهِ. أَعْطَى عَمَلًا لِمُوسَى. بَعْدَ ذَلِكَ تَزَوَّجَ مُوسَى إِحْدَى الأُخْتَيْنِ. عَاشُوا فِي مَدْيَنَ عَشْرَ سَنَوَاتٍ.",
     "vocabulary": [
      {
-      "word": "thirsty",
-      "definition": "Wanting to drink water."
+      "word": "عَطْشَانَ",
+      "definition": "يُرِيدُ أَنْ يَشْرَبَ المَاءَ."
      },
      {
-      "word": "well",
-      "definition": "A deep hole with water in it."
+      "word": "بِئْرًا",
+      "definition": "حُفْرَةٌ عَمِيقَةٌ فِيهَا مَاءٌ."
      },
      {
-      "word": "shepherd",
-      "definition": "A person who looks after sheep."
+      "word": "رُعَاةٌ",
+      "definition": "نَاسٌ يَهْتَمُّونَ بِالغَنَمِ."
      }
     ],
     "hotspots": [
@@ -770,167 +805,172 @@
       "id": "h5-1",
       "x": 35,
       "y": 46,
-      "title": "The Well",
-      "description": "Moses found a well. Many shepherds were there with their sheep."
+      "title": "الْبِئْرُ",
+      "description": "وَصَلَ مُوسَى إِلَى مَدْيَنَ. وَجَدَ بِئْرًا. كَانَ هُنَاكَ رُعَاةٌ كَثِيرُونَ مَعَ غَنَمِهِمْ."
      },
      {
       "id": "h5-2",
       "x": 68,
       "y": 50,
-      "title": "Two Girls",
-      "description": "Two girls stood far from the well. Their father was very old."
+      "title": "فَتَاتَانِ",
+      "description": "وَقَفَتْ فَتَاتَانِ بَعِيدًا عَنِ الْبِئْرِ. سَاعَدَهُمَا مُوسَى، وَسَقَى غَنَمَهُمَا."
      }
     ],
     "exercises": [
      {
-      "id": "moses-a1-quick-5",
+      "id": "musa-a1-ar-quick-5",
       "type": "multiple-choice",
-      "title": "A Kind Man",
-      "instructions": "Choose the best answer.",
-      "question": "Why did the two girls wait?",
+      "title": "رَجُلٌ طَيِّبٌ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "مَاذَا فَعَلَ مُوسَى لِلْفَتَاتَيْنِ؟",
       "options": [
-       "They waited for the shepherds to go.",
-       "They were tired.",
-       "They had no sheep."
+       "سَقَى غَنَمَهُمَا.",
+       "اشْتَرَى غَنَمَهُمَا.",
+       "ذَهَبَ إِلَى بَيْتِهِمَا."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “We wait for the shepherds to go.”",
+      "explanation": "الفصل الخامس: «سَاعَدَهُمَا مُوسَى. سَقَى غَنَمَهُمَا».",
       "feedback": {
-       "correct": "Yes! They waited for the shepherds to go.",
-       "incorrect": "Read the second paragraph of Chapter 5 again."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الْخَامِسِ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "moses-a1-language-5-why",
+      "id": "musa-a1-ar-language-5-why",
       "type": "matching",
-      "title": "Look: Why?",
-      "instructions": "Match the question and the answer.",
-      "question": "Which answer goes with the question?",
+      "title": "انْظُرْ: لِمَاذَا؟",
+      "instructions": "صِلِ السُّؤَالَ بِالْجَوَابِ.",
+      "question": "مَا الْجَوَابُ؟",
       "matchingHeadings": {
-       "left": "Question",
-       "right": "Answer"
+       "left": "السُّؤَالُ",
+       "right": "الْجَوَابُ"
       },
       "matchingPairs": [
        {
-        "left": "“Why are you waiting?”",
-        "right": "“Our father is very old.”"
+        "left": "لِمَاذَا تَنْتَظِرُ الْفَتَاتَانِ؟",
+        "right": "أَبُوهُمَا كَبِيرٌ فِي السِّنِّ جِدًّا."
        },
        {
-        "left": "Where did Moses find water?",
-        "right": "at a well"
+        "left": "لِمَاذَا رَجَعَتَا مُبَكِّرًا؟",
+        "right": "سَاعَدَهُمَا مُوسَى."
        },
        {
-        "left": "How long did they live in Midian?",
-        "right": "for ten years"
+        "left": "لِمَاذَا تَعَجَّبَ أَبُوهُمَا؟",
+        "right": "رَجَعَتِ الْفَتَاتَانِ مُبَكِّرًا."
        }
       ],
       "correctAnswer": {
-       "“Why are you waiting?”": "“Our father is very old.”",
-       "Where did Moses find water?": "at a well",
-       "How long did they live in Midian?": "for ten years"
+       "لِمَاذَا تَنْتَظِرُ الْفَتَاتَانِ؟": "أَبُوهُمَا كَبِيرٌ فِي السِّنِّ جِدًّا.",
+       "لِمَاذَا رَجَعَتَا مُبَكِّرًا؟": "سَاعَدَهُمَا مُوسَى.",
+       "لِمَاذَا تَعَجَّبَ أَبُوهُمَا؟": "رَجَعَتِ الْفَتَاتَانِ مُبَكِّرًا."
       },
-      "explanation": "Why asks for a reason. Where asks about a place. How long asks about time.",
+      "explanation": "نسأل عن السبب بـ«لِمَاذَا؟». في الفصل: «لِمَاذَا تَنْتَظِرَانِ؟» و«لِمَاذَا أَنْتُمَا هُنَا مُبَكِّرًا؟».",
       "feedback": {
-       "correct": "Good. You matched the questions and answers.",
-       "incorrect": "Read Chapter 5 again."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الْخَامِسَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "moses-a1-language-5-practise",
+      "id": "musa-a1-ar-language-5-practise",
       "type": "word-bank",
-      "title": "Practise: In Midian",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What happened in Midian?",
-      "fillBlanksText": "Moses was tired and [blank]. He [blank] a well. He gave water to their [blank].",
+      "title": "تَدَرَّبْ: فِي مَدْيَنَ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "مَاذَا وَجَدَ مُوسَى؟",
+      "fillBlanksText": "كَانَ مُوسَى مُتْعَبًا وَ[blank]. وَجَدَ [blank]. كَانَ هُنَاكَ [blank] كَثِيرُونَ مَعَ غَنَمِهِمْ.",
       "wordBank": [
-       "thirsty",
-       "found",
-       "sheep",
-       "happy",
-       "finds"
+       "عَطْشَانَ",
+       "بِئْرًا",
+       "رُعَاةٌ",
+       "نَهْرًا",
+       "جُنُودٌ"
       ],
       "correctAnswer": [
-       "thirsty",
-       "found",
-       "sheep"
+       "عَطْشَانَ",
+       "بِئْرًا",
+       "رُعَاةٌ"
       ],
-      "explanation": "Chapter 5: “He was tired and thirsty. He found a well.” “He gave water to their sheep.”",
+      "explanation": "في الفصل: «كَانَ مُتْعَبًا وَعَطْشَانَ. وَجَدَ بِئْرًا. كَانَ هُنَاكَ رُعَاةٌ كَثِيرُونَ».",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the first two paragraphs of Chapter 5."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "moses-a1-language-5-write-it",
+      "id": "musa-a1-ar-language-5-write-it",
       "type": "reflection",
-      "title": "Write It: Helping",
-      "instructions": "Write about a time you helped someone.",
-      "question": "Who did you help?",
+      "title": "اكْتُبْهَا: سَاعَدْتُ",
+      "instructions": "اكْتُبْ عَنْ يَوْمٍ سَاعَدْتَ فِيهِ أَحَدًا.",
+      "question": "مَنْ سَاعَدْتَ؟ وَلِمَاذَا؟",
       "correctAnswer": null,
-      "explanation": "Use past verbs: helped, gave, carried.",
+      "explanation": "عن نفسك في الماضي تزيد «ـتُ»: سَاعَدْتُ، حَمَلْتُ، سَقَيْتُ.",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“One day, I helped …”",
+        "question": "«سَاعَدْتُ …»",
         "mode": "Individual",
-        "example": "One day, I helped an old man."
+        "example": "سَاعَدْتُ جَارَنَا الْكَبِيرَ فِي السِّنِّ."
        },
        {
-        "question": "“I gave … / I carried …”",
+        "question": "«لِأَنَّ …»",
         "mode": "Individual",
-        "example": "I carried his bag."
+        "example": "لِأَنَّهُ كَانَ مُتْعَبًا."
+       },
+       {
+        "question": "«حَمَلْتُ / سَقَيْتُ …»",
+        "mode": "Individual",
+        "example": "حَمَلْتُ حَقِيبَتَهُ إِلَى الْبَيْتِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Moses do for the two girls?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا فَعَلَ مُوسَى لِلْفَتَاتَيْنِ؟",
      "options": [
-      "He gave water to their sheep.",
-      "He gave them money.",
-      "He made a house."
+      "سَاعَدَهُمَا",
+      "تَرَكَهُمَا",
+      "أَخَذَ غَنَمَهُمَا"
      ],
      "answer": 0,
-     "quote": "Moses helped them. He gave water to their sheep."
+     "quote": "سَاعَدَهُمَا مُوسَى. سَقَى غَنَمَهُمَا."
     },
     "iCan": [
-     "I can tell how Moses helped the girls.",
-     "I can understand why, where and how long.",
-     "I can write about a time I helped someone."
+     "أَسْتَطِيعُ أَنْ أَقُولَ كَيْفَ سَاعَدَ مُوسَى الْفَتَاتَيْنِ.",
+     "أَسْتَطِيعُ أَنْ أَسْأَلَ بِـ«لِمَاذَا؟».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنْ مُسَاعَدَةٍ."
     ]
    },
    {
     "id": 6,
     "type": "story",
-    "title": "The Voice on the Mountain",
+    "title": "الصَّوْتُ عَلَى الجَبَلِ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter10.png?alt=media",
-    "content": "Moses and his family decided to go back to Egypt. It was winter. It was dark and cold. Then Moses saw a fire on a mountain. He said to his family, “Wait here! I will bring fire.” He went up the mountain.\n\nThere, Moses heard a voice: “O Moses, I am Allah.” Allah chose Moses as His Messenger. Allah told Moses to put his stick down. The stick turned into a big snake! Then Allah told Moses to go to Pharaoh. Pharaoh was a cruel king. So, Allah told Moses to talk to him and show him the right way. His brother Aaron went with him.",
+    "content": "قَرَّرَ مُوسَى وَأُسْرَتُهُ أَنْ يَرْجِعُوا إِلَى مِصْرَ. كَانَ الوَقْتُ شِتَاءً. كَانَ الجَوُّ مُظْلِمًا وَبَارِدًا. ثُمَّ رَأَى مُوسَى نَارًا عَلَى جَبَلٍ. قَالَ لِأُسْرَتِهِ: «اِنْتَظِرُوا هُنَا! سَآتِي بِنَارٍ». صَعِدَ الجَبَلَ.\n\nهُنَاكَ سَمِعَ مُوسَى صَوْتًا: «يَا مُوسَى، أَنَا اللهُ». اِخْتَارَ اللهُ مُوسَى رَسُولًا لَهُ. قَالَ اللهُ لِمُوسَى أَنْ يَضَعَ عَصَاهُ عَلَى الأَرْضِ. صَارَتِ العَصَا ثُعْبَانًا كَبِيرًا! ثُمَّ قَالَ اللهُ لِمُوسَى أَنْ يَذْهَبَ إِلَى فِرْعَوْنَ. كَانَ فِرْعَوْنُ مَلِكًا قَاسِيًا. لِذَلِكَ قَالَ اللهُ لِمُوسَى أَنْ يَتَكَلَّمَ مَعَهُ وَيُرِيَهُ الطَّرِيقَ الصَّحِيحَ. ذَهَبَ مَعَهُ أَخُوهُ هَارُونُ.",
     "vocabulary": [
      {
-      "word": "fire",
-      "definition": "Something very hot, red and yellow."
+      "word": "نَارًا",
+      "definition": "شَيْءٌ حَارٌّ جِدًّا، أَحْمَرُ وَأَصْفَرُ."
      },
      {
-      "word": "mountain",
-      "definition": "A very big, high hill."
+      "word": "جَبَلٍ",
+      "definition": "تَلٌّ كَبِيرٌ وَعَالٍ جِدًّا."
      },
      {
-      "word": "voice",
-      "definition": "The sound of someone speaking."
+      "word": "صَوْتًا",
+      "definition": "صَوْتُ شَخْصٍ يَتَكَلَّمُ."
      },
      {
-      "word": "stick",
-      "definition": "A long, thin piece of wood."
+      "word": "عَصَاهُ",
+      "definition": "العَصَا: قِطْعَةٌ طَوِيلَةٌ وَرَفِيعَةٌ مِنَ الخَشَبِ."
      },
      {
-      "word": "snake",
-      "definition": "A long animal with no legs."
+      "word": "ثُعْبَانًا",
+      "definition": "حَيَوَانٌ طَوِيلٌ بِلَا أَرْجُلٍ."
      }
     ],
     "hotspots": [
@@ -938,40 +978,40 @@
       "id": "h6-1",
       "x": 35,
       "y": 46,
-      "title": "The Fire",
-      "description": "It was dark and cold. Moses saw a fire on a mountain."
+      "title": "النَّارُ",
+      "description": "كَانَ الْجَوُّ مُظْلِمًا وَبَارِدًا. رَأَى مُوسَى نَارًا عَلَى جَبَلٍ، فَصَعِدَ الْجَبَلَ."
      },
      {
       "id": "h6-2",
       "x": 68,
       "y": 50,
-      "title": "The Stick",
-      "description": "Allah told Moses to put his stick down. It turned into a big snake!"
+      "title": "الْعَصَا",
+      "description": "قَالَ اللهُ لِمُوسَى أَنْ يَضَعَ عَصَاهُ عَلَى الْأَرْضِ. صَارَتِ الْعَصَا ثُعْبَانًا كَبِيرًا!"
      }
     ],
     "exercises": [
      {
-      "id": "moses-a1-quick-6",
+      "id": "musa-a1-ar-quick-6",
       "type": "sequencing",
-      "title": "The Voice on the Mountain",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "الصَّوْتُ عَلَى الْجَبَلِ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Moses saw a fire on a mountain."
+        "text": "رَأَى مُوسَى نَارًا عَلَى جَبَلٍ."
        },
        {
         "id": "2",
-        "text": "Moses heard a voice."
+        "text": "صَعِدَ الْجَبَلَ."
        },
        {
         "id": "3",
-        "text": "The stick turned into a big snake."
+        "text": "سَمِعَ صَوْتًا: «يَا مُوسَى، أَنَا اللهُ»."
        },
        {
         "id": "4",
-        "text": "Allah told Moses to go to Pharaoh."
+        "text": "صَارَتِ الْعَصَا ثُعْبَانًا كَبِيرًا."
        }
       ],
       "correctAnswer": [
@@ -980,132 +1020,145 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 6: the fire, the voice, the stick, and then Allah told Moses to go to Pharaoh.",
+      "explanation": "الفصل السادس: رأى موسى النار، فصعد الجبل. هناك سمع صوتًا، ثم صارت العصا ثعبانًا.",
       "feedback": {
-       "correct": "Great! You put the chapter in order.",
-       "incorrect": "Read Chapter 6 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفَصْلَ السَّادِسَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "moses-a1-language-6-wait",
+      "id": "musa-a1-ar-language-6-wait",
       "type": "multiple-choice",
-      "title": "Look: Wait Here",
-      "instructions": "Choose the right answer.",
-      "question": "Moses said to his family, “Wait here!” What does he want?",
+      "title": "انْظُرْ: اِنْتَظِرُوا هُنَا",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "قَالَ مُوسَى لِأُسْرَتِهِ: «اِنْتَظِرُوا هُنَا!» لِمَنْ يَتَكَلَّمُ؟",
       "options": [
-       "He wants them to stay.",
-       "He wants them to go.",
-       "He wants them to sleep."
+       "لِنَاسٍ كَثِيرِينَ",
+       "لِرَجُلٍ وَاحِدٍ",
+       "لِنَفْسِهِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Start with the verb to tell someone what to do: Wait here. Go away. Watch it.",
+      "explanation": "للجماعة نقول الأمر بـ«ـوا»: اِنْتَظِرُوا. ولواحد: اِنْتَظِرْ. ولامرأة: اِنْتَظِرِي.",
       "feedback": {
-       "correct": "Yes. He wants them to stay.",
-       "incorrect": "Read the first paragraph of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مَعَ مَنْ كَانَ مُوسَى؟ مَعَ أُسْرَتِهِ."
       }
      },
      {
-      "id": "moses-a1-language-6-practise",
+      "id": "musa-a1-ar-language-6-practise",
       "type": "choose-form",
-      "title": "Practise: It Was …",
-      "instructions": "Choose the right word.",
-      "question": "How was the night?",
+      "title": "تَدَرَّبْ: كَانَ الْجَوُّ …",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "كَيْفَ كَانَ الْجَوُّ؟",
       "formChoices": [
        {
-        "sentence": "It was winter. It was dark and [choice].",
+        "sentence": "كَانَ الْوَقْتُ [choice].",
         "options": [
-         "cold",
-         "hot"
+         "شِتَاءً",
+         "صَيْفًا"
         ],
         "answer": 0
        },
        {
-        "sentence": "The stick turned into a big [choice].",
+        "sentence": "كَانَ الْجَوُّ مُظْلِمًا وَ[choice].",
         "options": [
-         "snake",
-         "stone"
+         "بَارِدًا",
+         "حَارًّا"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "رَأَى مُوسَى [choice] عَلَى جَبَلٍ.",
+        "options": [
+         "نَارًا",
+         "نَهْرًا"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Winter is cold. A stick is long and thin, like a snake.",
+      "explanation": "في الفصل: «كَانَ الْوَقْتُ شِتَاءً. كَانَ الْجَوُّ مُظْلِمًا وَبَارِدًا». وبعد «كَانَ» نقول بالفتحة: شِتَاءً، بَارِدًا.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 6 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ السَّادِسِ."
       }
      },
      {
-      "id": "moses-a1-language-6-write-it",
+      "id": "musa-a1-ar-language-6-write-it",
       "type": "reflection",
-      "title": "Write It: The Weather",
-      "instructions": "Write about the weather today.",
-      "question": "How is the weather today?",
+      "title": "اكْتُبْهَا: الْجَوُّ",
+      "instructions": "اكْتُبْ عَنِ الْجَوِّ الْيَوْمَ وَأَمْسِ.",
+      "question": "كَيْفَ الْجَوُّ؟",
       "correctAnswer": null,
-      "explanation": "Use it is for today and it was for yesterday.",
+      "explanation": "اليوم: جملة اسمية (الْجَوُّ بَارِدٌ). أمس: «كَانَ الْجَوُّ بَارِدًا».",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Today, it is …”",
+        "question": "«الْيَوْمَ الْجَوُّ …»",
         "mode": "Individual",
-        "example": "Today, it is sunny and warm."
+        "example": "الْيَوْمَ الْجَوُّ مُشْمِسٌ وَحَارٌّ."
        },
        {
-        "question": "“Yesterday, it was …”",
+        "question": "«أَمْسِ كَانَ الْجَوُّ …»",
         "mode": "Individual",
-        "example": "Yesterday, it was cold."
+        "example": "أَمْسِ كَانَ الْجَوُّ بَارِدًا."
+       },
+       {
+        "question": "«فِي الشِّتَاءِ …»",
+        "mode": "Individual",
+        "example": "فِي الشِّتَاءِ يَكُونُ الْجَوُّ بَارِدًا."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Moses see on the mountain?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا رَأَى مُوسَى عَلَى الْجَبَلِ؟",
      "options": [
-      "a fire",
-      "a city",
-      "a boat"
+      "نَارًا",
+      "قَصْرًا",
+      "بَحْرًا"
      ],
      "answer": 0,
-     "quote": "Then Moses saw a fire on a mountain."
+     "quote": "ثُمَّ رَأَى مُوسَى نَارًا عَلَى جَبَلٍ."
     },
     "iCan": [
-     "I can tell what happened on the mountain.",
-     "I can understand “Wait here!”",
-     "I can write about the weather."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ مَاذَا حَدَثَ عَلَى الْجَبَلِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «اِنْتَظِرُوا».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنِ الْجَوِّ."
     ]
    },
    {
     "id": 7,
     "type": "story",
-    "title": "The Magicians",
+    "title": "السَّحَرَةُ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter12.png?alt=media",
-    "content": "Moses and Aaron went to the palace. Moses said to Pharaoh, “I am a Messenger of Allah.” Pharaoh did not believe him. He wanted a sign. So, Moses decided to show Allah’s power. He threw his stick down. It turned into a snake. Pharaoh said, “This is only magic.” He called all his magicians. They threw sticks and ropes on the floor. They looked like snakes.\n\nThen Moses threw his stick. It turned into a very big snake. It ate all the magicians’ snakes! The magicians understood. They said, “We believe in the Lord of the worlds, the Lord of Moses and Aaron.” But Pharaoh did not believe.",
+    "content": "ذَهَبَ مُوسَى وَهَارُونُ إِلَى القَصْرِ. قَالَ مُوسَى لِفِرْعَوْنَ: «أَنَا رَسُولٌ مِنَ اللهِ». لَمْ يُصَدِّقْهُ فِرْعَوْنُ. أَرَادَ عَلَامَةً. فَقَرَّرَ مُوسَى أَنْ يُظْهِرَ قُوَّةَ اللهِ. أَلْقَى عَصَاهُ عَلَى الأَرْضِ. صَارَتْ ثُعْبَانًا. قَالَ فِرْعَوْنُ: «هَذَا سِحْرٌ فَقَطْ». نَادَى كُلَّ سَحَرَتِهِ. أَلْقَوْا عِصِيًّا وَحِبَالًا عَلَى الأَرْضِ. بَدَتْ كَأَنَّهَا ثَعَابِينُ.\n\nثُمَّ أَلْقَى مُوسَى عَصَاهُ. صَارَتْ ثُعْبَانًا كَبِيرًا جِدًّا. أَكَلَتْ كُلَّ ثَعَابِينِ السَّحَرَةِ! فَهِمَ السَّحَرَةُ. قَالُوا: ﴿آمَنَّا بِرَبِّ العَالَمِينَ رَبِّ مُوسَى وَهَارُونَ﴾. لَكِنَّ فِرْعَوْنَ لَمْ يُؤْمِنْ.",
     "vocabulary": [
      {
-      "word": "magic",
-      "definition": "Tricks; things that look strange or not real."
+      "word": "سِحْرٌ",
+      "definition": "حِيَلٌ؛ أَشْيَاءُ تَبْدُو غَرِيبَةً أَوْ غَيْرَ حَقِيقِيَّةٍ."
      },
      {
-      "word": "magician",
-      "definition": "A person who does magic."
+      "word": "سَحَرَتِهِ",
+      "definition": "السَّحَرَةُ: نَاسٌ يَعْمَلُونَ السِّحْرَ."
      },
      {
-      "word": "rope",
-      "definition": "A long, thick string."
+      "word": "حِبَالًا",
+      "definition": "خُيُوطٌ طَوِيلَةٌ وَسَمِيكَةٌ."
      },
      {
-      "word": "throw",
-      "definition": "Send something through the air with your hand."
+      "word": "أَلْقَى",
+      "definition": "أَرْسَلَ شَيْئًا فِي الهَوَاءِ بِاليَدِ."
      },
      {
-      "word": "turn into",
-      "definition": "Change and be something new."
+      "word": "صَارَتْ",
+      "definition": "تَغَيَّرَتْ وَأَصْبَحَتْ شَيْئًا جَدِيدًا."
      }
     ],
     "hotspots": [
@@ -1113,172 +1166,172 @@
       "id": "h7-1",
       "x": 35,
       "y": 46,
-      "title": "The Ropes",
-      "description": "The magicians threw sticks and ropes on the floor. They looked like snakes."
+      "title": "الْحِبَالُ",
+      "description": "أَلْقَى السَّحَرَةُ عِصِيًّا وَحِبَالًا عَلَى الْأَرْضِ. بَدَتْ كَأَنَّهَا ثَعَابِينُ."
      },
      {
       "id": "h7-2",
       "x": 68,
       "y": 50,
-      "title": "Moses’s Stick",
-      "description": "Moses threw his stick. It ate all the magicians’ snakes!"
+      "title": "عَصَا مُوسَى",
+      "description": "أَلْقَى مُوسَى عَصَاهُ، فَصَارَتْ ثُعْبَانًا كَبِيرًا جِدًّا. أَكَلَتْ كُلَّ ثَعَابِينِ السَّحَرَةِ!"
      }
     ],
     "exercises": [
      {
-      "id": "moses-a1-quick-7",
+      "id": "musa-a1-ar-quick-7",
       "type": "multiple-choice",
-      "title": "The Magicians",
-      "instructions": "Choose the best answer.",
-      "question": "What did the magicians do at the end?",
+      "title": "السَّحَرَةُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "مَاذَا قَالَ السَّحَرَةُ فِي النِّهَايَةِ؟",
       "options": [
-       "They believed in Allah.",
-       "They ran away.",
-       "They laughed at Moses."
+       "آمَنُوا بِرَبِّ مُوسَى وَهَارُونَ.",
+       "قَالُوا: هَذَا سِحْرٌ فَقَطْ.",
+       "قَالُوا: فِرْعَوْنُ إِلَهُنَا."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: They said, “We believe in the Lord of the worlds, the Lord of Moses and Aaron.”",
+      "explanation": "الفصل السابع: «فَهِمَ السَّحَرَةُ. قَالُوا: ﴿آمَنَّا بِرَبِّ الْعَالَمِينَ رَبِّ مُوسَى وَهَارُونَ﴾».",
       "feedback": {
-       "correct": "Yes! They believed.",
-       "incorrect": "Read the end of Chapter 7 again."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأْ آخِرَ الْفَصْلِ السَّابِعِ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "moses-a1-language-7-past",
+      "id": "musa-a1-ar-language-7-saara",
       "type": "drag-drop",
-      "title": "Look: Two Kinds of Past",
-      "instructions": "Put each verb in the right group.",
-      "question": "How does each verb show the past?",
+      "title": "انْظُرْ: صَارَ وَصَارَتْ",
+      "instructions": "ضَعْ كُلَّ جُمْلَةٍ فِي مَجْمُوعَتِهَا.",
+      "question": "مُذَكَّرٌ أَمْ مُؤَنَّثٌ؟",
       "dragDropGroups": [
        {
-        "group": "Ends in -ed",
+        "group": "صَارَ",
         "items": [
-         "called",
-         "looked",
-         "turned",
-         "believed"
+         "___ مُوسَى شَابًّا قَوِيًّا.",
+         "___ فِرْعَوْنُ أَشَدَّ قَسْوَةً."
         ]
        },
        {
-        "group": "Changes",
+        "group": "صَارَتْ",
         "items": [
-         "went",
-         "threw",
-         "ate",
-         "said"
+         "___ الْعَصَا ثُعْبَانًا.",
+         "___ عَصَا مُوسَى ثُعْبَانًا كَبِيرًا جِدًّا."
         ]
        }
       ],
       "correctAnswer": {
-       "Ends in -ed": [
-        "called",
-        "looked",
-        "turned",
-        "believed"
+       "صَارَ": [
+        "___ مُوسَى شَابًّا قَوِيًّا.",
+        "___ فِرْعَوْنُ أَشَدَّ قَسْوَةً."
        ],
-       "Changes": [
-        "went",
-        "threw",
-        "ate",
-        "said"
+       "صَارَتْ": [
+        "___ الْعَصَا ثُعْبَانًا.",
+        "___ عَصَا مُوسَى ثُعْبَانًا كَبِيرًا جِدًّا."
        ]
       },
-      "explanation": "Many verbs add -ed: call → called. Some verbs change: go → went, throw → threw, eat → ate.",
+      "explanation": "مع المذكر «صَارَ»، ومع المؤنث «صَارَتْ»: صَارَتِ الْعَصَا ثُعْبَانًا. وبعدهما الكلمة بالفتحة: ثُعْبَانًا، شَابًّا.",
       "feedback": {
-       "correct": "Good. You found the two kinds of past.",
-       "incorrect": "Say the verb today: call, throw … Does it add -ed or change?"
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "الْعَصَا مُؤَنَّثٌ. مُوسَى وَفِرْعَوْنُ مُذَكَّرٌ."
       }
      },
      {
-      "id": "moses-a1-language-7-practise",
+      "id": "musa-a1-ar-language-7-practise",
       "type": "choose-form",
-      "title": "Practise: Looked Like",
-      "instructions": "Choose the right words.",
-      "question": "What did they look like?",
+      "title": "تَدَرَّبْ: كَأَنَّهَا",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "كَيْفَ بَدَتِ الْحِبَالُ؟",
       "formChoices": [
        {
-        "sentence": "The ropes [choice] snakes.",
+        "sentence": "أَلْقَى السَّحَرَةُ [choice] عَلَى الْأَرْضِ.",
         "options": [
-         "looked like",
-         "looked"
+         "حِبَالًا",
+         "طَعَامًا"
         ],
         "answer": 0
        },
        {
-        "sentence": "Moses [choice] his stick.",
+        "sentence": "بَدَتِ الْحِبَالُ [choice] ثَعَابِينُ.",
         "options": [
-         "threw",
-         "throwed"
+         "كَأَنَّهَا",
+         "لِأَنَّهَا"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "قَالَ فِرْعَوْنُ: «هَذَا [choice] فَقَطْ.»",
+        "options": [
+         "سِحْرٌ",
+         "صَوْتٌ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Look like” + a thing: They looked like snakes. Throw → threw.",
+      "explanation": "«كَأَنَّهَا» = تشبه، لكنها ليست الشيء الحقيقي: بَدَتْ كَأَنَّهَا ثَعَابِينُ، لكنها حبال.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the first paragraph of Chapter 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ السَّابِعِ."
       }
      },
      {
-      "id": "moses-a1-language-7-say-it",
+      "id": "musa-a1-ar-language-7-say-it",
       "type": "reflection",
-      "title": "Say It: It Looks Like …",
-      "instructions": "Look around. Say what things look like.",
-      "question": "What does it look like?",
+      "title": "قُلْهَا: كَأَنَّهُ …",
+      "instructions": "انْظُرْ إِلَى شَيْءٍ، وَقُلْ: كَأَنَّهُ …",
+      "question": "مَاذَا يُشْبِهُ هَذَا الشَّيْءُ؟",
       "correctAnswer": null,
-      "explanation": "Use looks like + a thing.",
+      "explanation": "للمذكر: كَأَنَّهُ. للمؤنث: كَأَنَّهَا.",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“This … looks like a …”",
+        "question": "«هَذَا الْحَبْلُ كَأَنَّهُ …»",
         "mode": "Pair",
-        "example": "This cloud looks like a cat."
+        "example": "هَذَا الْحَبْلُ كَأَنَّهُ ثُعْبَانٌ."
        },
        {
-        "question": "“It does not look like a …”",
+        "question": "«هَذِهِ الْغَيْمَةُ كَأَنَّهَا …»",
         "mode": "Pair",
-        "example": "It does not look like a dog."
+        "example": "هَذِهِ الْغَيْمَةُ كَأَنَّهَا قِطَّةٌ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Who did Pharaoh call?",
+     "question": "خَمِّنْ أَوَّلًا: مَنْ نَادَى فِرْعَوْنُ؟",
      "options": [
-      "his magicians",
-      "his doctors",
-      "his teachers"
+      "سَحَرَتَهُ",
+      "جُنُودَهُ",
+      "أُسْرَتَهُ"
      ],
      "answer": 0,
-     "quote": "He called all his magicians."
+     "quote": "نَادَى كُلَّ سَحَرَتِهِ."
     },
     "iCan": [
-     "I can tell what happened with the magicians.",
-     "I can use threw, ate and said.",
-     "I can say what something looks like."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ قِصَّةَ الْعَصَا وَالسَّحَرَةِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ صَارَ وَصَارَتْ.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ: كَأَنَّهُ / كَأَنَّهَا."
     ]
    },
    {
     "id": 8,
     "type": "story",
-    "title": "The Night Journey",
+    "title": "رِحْلَةُ اللَّيْلِ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter14.png?alt=media",
-    "content": "After that day, Pharaoh was more cruel to Moses’s people. He made their lives harder. Allah told Moses to leave Egypt at night. Moses said to his people, “Get ready. We are going tonight.”\n\nThey left at night. There were many old people and children. They walked slowly. In the morning, they came to the sea. They looked back. Pharaoh and his big army were behind them! The people were very afraid. They said, “They are going to catch us!”\n\nBut Moses said, “No! My Lord is with me. He will show me the way.”",
+    "content": "بَعْدَ ذَلِكَ اليَوْمِ، صَارَ فِرْعَوْنُ أَشَدَّ قَسْوَةً عَلَى قَوْمِ مُوسَى. جَعَلَ حَيَاتَهُمْ أَصْعَبَ. قَالَ اللهُ لِمُوسَى أَنْ يَخْرُجَ مِنْ مِصْرَ فِي اللَّيْلِ. قَالَ مُوسَى لِقَوْمِهِ: «اِسْتَعِدُّوا. سَنَذْهَبُ اللَّيْلَةَ».\n\nخَرَجُوا فِي اللَّيْلِ. كَانَ هُنَاكَ كَثِيرٌ مِنَ الكِبَارِ فِي السِّنِّ وَالأَطْفَالِ. مَشَوْا بِبُطْءٍ. فِي الصَّبَاحِ وَصَلُوا إِلَى البَحْرِ. نَظَرُوا إِلَى الخَلْفِ. كَانَ فِرْعَوْنُ وَجَيْشُهُ الكَبِيرُ خَلْفَهُمْ! خَافَ النَّاسُ جِدًّا. قَالُوا: «سَيُمْسِكُونَ بِنَا!»\n\nلَكِنَّ مُوسَى قَالَ: «كَلَّا! رَبِّي مَعَنَا. سَيَدُلُّنَا عَلَى الطَّرِيقِ».",
     "vocabulary": [
      {
-      "word": "sea",
-      "definition": "A very big area of salt water."
+      "word": "البَحْرِ",
+      "definition": "مِسَاحَةٌ كَبِيرَةٌ جِدًّا مِنَ المَاءِ المَالِحِ."
      },
      {
-      "word": "army",
-      "definition": "A very big group of soldiers."
+      "word": "جَيْشُهُ",
+      "definition": "الجَيْشُ: مَجْمُوعَةٌ كَبِيرَةٌ جِدًّا مِنَ الجُنُودِ."
      }
     ],
     "hotspots": [
@@ -1286,166 +1339,181 @@
       "id": "h8-1",
       "x": 35,
       "y": 46,
-      "title": "The Sea",
-      "description": "In the morning, they came to the sea."
+      "title": "الْبَحْرُ",
+      "description": "خَرَجَ مُوسَى وَقَوْمُهُ فِي اللَّيْلِ. فِي الصَّبَاحِ وَصَلُوا إِلَى الْبَحْرِ."
      },
      {
       "id": "h8-2",
       "x": 68,
       "y": 50,
-      "title": "The Army",
-      "description": "Pharaoh and his big army were behind them!"
+      "title": "الْجَيْشُ",
+      "description": "نَظَرُوا إِلَى الْخَلْفِ. كَانَ فِرْعَوْنُ وَجَيْشُهُ الْكَبِيرُ خَلْفَهُمْ! خَافَ النَّاسُ جِدًّا."
      }
     ],
     "exercises": [
      {
-      "id": "moses-a1-quick-8",
+      "id": "musa-a1-ar-quick-8",
       "type": "drag-drop",
-      "title": "The Night Journey",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 8?",
+      "title": "رِحْلَةُ اللَّيْلِ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الثَّامِنِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "They left at night.",
-         "Pharaoh and his army were behind them."
+         "خَرَجَ مُوسَى وَقَوْمُهُ فِي اللَّيْلِ.",
+         "مَشَوْا بِبُطْءٍ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "The people walked very fast."
+         "وَصَلُوا إِلَى الْبَحْرِ فِي اللَّيْلِ.",
+         "خَافَ مُوسَى مِنَ الْجَيْشِ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "They left at night.",
-        "Pharaoh and his army were behind them."
+       "صَحِيحٌ": [
+        "خَرَجَ مُوسَى وَقَوْمُهُ فِي اللَّيْلِ.",
+        "مَشَوْا بِبُطْءٍ."
        ],
-       "False": [
-        "The people walked very fast."
+       "خَطَأٌ": [
+        "وَصَلُوا إِلَى الْبَحْرِ فِي اللَّيْلِ.",
+        "خَافَ مُوسَى مِنَ الْجَيْشِ."
        ]
       },
-      "explanation": "Chapter 8 says: “They left at night.” “They walked slowly.” “Pharaoh and his big army were behind them!”",
+      "explanation": "الفصل الثامن: «خَرَجُوا فِي اللَّيْلِ»، «مَشَوْا بِبُطْءٍ»، و«فِي الصَّبَاحِ وَصَلُوا إِلَى الْبَحْرِ». خاف الناس، لكن موسى قال: «كَلَّا! رَبِّي مَعَنَا».",
       "feedback": {
-       "correct": "Yes! They walked slowly.",
-       "incorrect": "Read the second paragraph of Chapter 8 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفَصْلَ الثَّامِنَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "moses-a1-language-8-going",
+      "id": "musa-a1-ar-language-8-future",
       "type": "multiple-choice",
-      "title": "Look: We Are Going",
-      "instructions": "Choose the right answer.",
-      "question": "“We are going tonight.” When will they go?",
+      "title": "انْظُرْ: سَنَذْهَبُ اللَّيْلَةَ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "قَالَ مُوسَى: «سَنَذْهَبُ اللَّيْلَةَ». مَتَى؟",
       "options": [
-       "tonight",
-       "yesterday",
-       "last year"
+       "بَعْدَ قَلِيلٍ، فِي هَذِهِ اللَّيْلَةِ",
+       "أَمْسِ",
+       "قَبْلَ سَنَةٍ"
       ],
       "correctAnswer": 0,
-      "explanation": "“Are going” + a time word can talk about a plan: We are going tonight.",
+      "explanation": "«سَـ» + المضارع للمستقبل، و«نَـ» = نَحْنُ: سَنَذْهَبُ = نحن نذهب بعد قليل.",
       "feedback": {
-       "correct": "Yes. Tonight.",
-       "incorrect": "Read Moses’s words in Chapter 8."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأْ كَلَامَ مُوسَى فِي الْفِقْرَةِ الْأُولَى."
       }
      },
      {
-      "id": "moses-a1-language-8-practise",
+      "id": "musa-a1-ar-language-8-practise",
       "type": "choose-form",
-      "title": "Practise: Slowly",
-      "instructions": "Choose the right word.",
-      "question": "How did they walk?",
+      "title": "تَدَرَّبْ: بِبُطْءٍ",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "كَيْفَ؟ وَمَتَى؟",
       "formChoices": [
        {
-        "sentence": "There were many old people and children. They walked [choice].",
+        "sentence": "مَشَوْا [choice]، لِأَنَّ مَعَهُمْ أَطْفَالًا وَكِبَارًا فِي السِّنِّ.",
         "options": [
-         "slowly",
-         "slow"
+         "بِبُطْءٍ",
+         "بِسُرْعَةٍ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The people were very [choice].",
+        "sentence": "خَرَجُوا [choice].",
         "options": [
-         "afraid",
-         "afraidly"
+         "فِي اللَّيْلِ",
+         "فِي الصَّبَاحِ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] وَصَلُوا إِلَى الْبَحْرِ.",
+        "options": [
+         "فِي الصَّبَاحِ",
+         "فِي اللَّيْلِ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Slowly tells us how they walked. Afraid tells us how the people felt.",
+      "explanation": "«بِبُطْءٍ» تقول كيف مشوا. خرجوا في الليل، ووصلوا إلى البحر في الصباح.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 8."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّامِنِ."
       }
      },
      {
-      "id": "moses-a1-language-8-say-it",
+      "id": "musa-a1-ar-language-8-say-it",
       "type": "reflection",
-      "title": "Say It: My Plans",
-      "instructions": "Say your plans for this week.",
-      "question": "What are you doing this week?",
+      "title": "قُلْهَا: خُطَطِي",
+      "instructions": "قُلْ مَاذَا سَتَفْعَلُ أَنْتَ وَأُسْرَتُكَ.",
+      "question": "مَاذَا سَتَفْعَلُونَ؟",
       "correctAnswer": null,
-      "explanation": "Use I am + verb-ing + a time word.",
+      "explanation": "لنا جميعًا في المستقبل: «سَنَـ» + الفعل: سَنَذْهَبُ، سَنَأْكُلُ.",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ ثَلَاثَ جُمَلٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Tonight, I am …”",
+        "question": "«اللَّيْلَةَ سَنَـ…»",
         "mode": "Individual",
-        "example": "Tonight, I am reading a book."
+        "example": "اللَّيْلَةَ سَنَأْكُلُ عِنْدَ جَدَّتِي."
        },
        {
-        "question": "“On Saturday, I am …”",
+        "question": "«غَدًا سَنَذْهَبُ إِلَى …»",
+        "mode": "Individual",
+        "example": "غَدًا سَنَذْهَبُ إِلَى الْحَدِيقَةِ."
+       },
+       {
+        "question": "«سَنَمْشِي …»",
         "mode": "Pair",
-        "example": "On Saturday, I am visiting my friend."
+        "example": "سَنَمْشِي بِبُطْءٍ مَعَ جَدِّي."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: When did Moses and his people leave Egypt?",
+     "question": "خَمِّنْ أَوَّلًا: مَتَى خَرَجَ مُوسَى وَقَوْمُهُ مِنْ مِصْرَ؟",
      "options": [
-      "at night",
-      "in the afternoon",
-      "in the summer"
+      "فِي اللَّيْلِ",
+      "فِي الصَّبَاحِ",
+      "فِي الظُّهْرِ"
      ],
      "answer": 0,
-     "quote": "Allah told Moses to leave Egypt at night."
+     "quote": "خَرَجُوا فِي اللَّيْلِ."
     },
     "iCan": [
-     "I can tell about the night journey.",
-     "I can understand plans: “We are going tonight.”",
-     "I can say my plans for the week."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنْ رِحْلَةِ اللَّيْلِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «سَنَـ» لِلْمُسْتَقْبَلِ.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ: بِبُطْءٍ، فِي اللَّيْلِ، فِي الصَّبَاحِ."
     ]
    },
    {
     "id": 9,
     "type": "story",
-    "title": "The Sea Opens",
+    "title": "البَحْرُ يَنْفَتِحُ",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter15.png?alt=media",
-    "content": "Allah told Moses to hit the sea with his stick. Moses hit the sea, and the sea opened! The water stood up like two big walls. There was a road between them, with no water on it. Moses and his people walked to the other side safely.\n\nPharaoh and his soldiers went after them into the sea. Then the water closed over them. Pharaoh and his soldiers died in the sea.\n\nThe story of Moses teaches us lessons. Bad people can be very strong, but Allah is stronger. Only Allah has all the power.",
+    "content": "قَالَ اللهُ لِمُوسَى أَنْ يَضْرِبَ البَحْرَ بِعَصَاهُ. ضَرَبَ مُوسَى البَحْرَ، فَانْفَتَحَ البَحْرُ! وَقَفَ المَاءُ مِثْلَ جِدَارَيْنِ كَبِيرَيْنِ. كَانَ بَيْنَهُمَا طَرِيقٌ لَيْسَ عَلَيْهِ مَاءٌ. مَشَى مُوسَى وَقَوْمُهُ إِلَى الجَانِبِ الآخَرِ بِسَلَامٍ.\n\nدَخَلَ فِرْعَوْنُ وَجُنُودُهُ البَحْرَ خَلْفَهُمْ. ثُمَّ أَغْلَقَ المَاءُ عَلَيْهِمْ. مَاتَ فِرْعَوْنُ وَجُنُودُهُ فِي البَحْرِ.\n\nقِصَّةُ مُوسَى تُعَلِّمُنَا دُرُوسًا. يُمْكِنُ أَنْ يَكُونَ النَّاسُ السَّيِّئُونَ أَقْوِيَاءَ جِدًّا، لَكِنَّ اللهَ أَقْوَى. اللهُ وَحْدَهُ لَهُ كُلُّ القُوَّةِ.",
     "vocabulary": [
      {
-      "word": "wall",
-      "definition": "The side of a room or building."
+      "word": "جِدَارَيْنِ",
+      "definition": "الجِدَارُ: جَانِبُ غُرْفَةٍ أَوْ مَبْنًى."
      },
      {
-      "word": "safely",
-      "definition": "With no danger or harm."
+      "word": "بِسَلَامٍ",
+      "definition": "بِلَا خَطَرٍ وَلَا أَذًى."
      },
      {
-      "word": "power",
-      "definition": "Being strong; you can do things."
+      "word": "القُوَّةِ",
+      "definition": "أَنْ تَكُونَ قَوِيًّا؛ تَسْتَطِيعُ أَنْ تَفْعَلَ أَشْيَاءَ."
      }
     ],
     "hotspots": [
@@ -1453,149 +1521,159 @@
       "id": "h9-1",
       "x": 35,
       "y": 46,
-      "title": "The Sea Opens",
-      "description": "The water stood up like two big walls. There was a road between them."
+      "title": "الْبَحْرُ يَنْفَتِحُ",
+      "description": "ضَرَبَ مُوسَى الْبَحْرَ بِعَصَاهُ، فَانْفَتَحَ الْبَحْرُ! وَقَفَ الْمَاءُ مِثْلَ جِدَارَيْنِ كَبِيرَيْنِ."
      },
      {
       "id": "h9-2",
       "x": 68,
       "y": 50,
-      "title": "The Other Side",
-      "description": "Moses and his people walked to the other side safely."
+      "title": "الْجَانِبُ الْآخَرُ",
+      "description": "مَشَى مُوسَى وَقَوْمُهُ إِلَى الْجَانِبِ الْآخَرِ بِسَلَامٍ."
      }
     ],
     "exercises": [
      {
-      "id": "moses-a1-quick-9",
+      "id": "musa-a1-ar-quick-9",
       "type": "multiple-choice",
-      "title": "The Lesson",
-      "instructions": "Choose the best answer.",
-      "question": "What does the story of Moses teach us?",
+      "title": "الدَّرْسُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "مَا الدَّرْسُ فِي آخِرِ الْقِصَّةِ؟",
       "options": [
-       "Only Allah has all the power.",
-       "The king is always right.",
-       "The sea is very cold."
+       "اللهُ أَقْوَى مِنْ كُلِّ النَّاسِ.",
+       "فِرْعَوْنُ أَقْوَى مِنَ الْبَحْرِ.",
+       "الْبَحْرُ خَطِرٌ دَائِمًا."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 9: “Bad people can be very strong, but Allah is stronger. Only Allah has all the power.”",
+      "explanation": "الفصل التاسع: «يُمْكِنُ أَنْ يَكُونَ النَّاسُ السَّيِّئُونَ أَقْوِيَاءَ جِدًّا، لَكِنَّ اللهَ أَقْوَى».",
       "feedback": {
-       "correct": "Yes! Only Allah has all the power.",
-       "incorrect": "Read the last paragraph of Chapter 9 again."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأْ آخِرَ الْفَصْلِ التَّاسِعِ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "moses-a1-language-9-compare",
+      "id": "musa-a1-ar-language-9-afal",
       "type": "matching",
-      "title": "Look: Strong, Stronger",
-      "instructions": "Match the two parts.",
-      "question": "Which one is stronger?",
+      "title": "انْظُرْ: قَوِيٌّ، أَقْوَى",
+      "instructions": "صِلِ الْكَلِمَةَ بِـ«أَفْعَلَ».",
+      "question": "مَا صِيغَةُ الْمُقَارَنَةِ؟",
       "matchingHeadings": {
-       "left": "Start",
-       "right": "End"
+       "left": "الْكَلِمَةُ",
+       "right": "الْمُقَارَنَةُ"
       },
       "matchingPairs": [
        {
-        "left": "Bad people can be very strong,",
-        "right": "but Allah is stronger."
+        "left": "قَوِيٌّ",
+        "right": "أَقْوَى"
        },
        {
-        "left": "The snakes of the magicians were small,",
-        "right": "but Moses’s snake was bigger."
+        "left": "صَعْبٌ",
+        "right": "أَصْعَبُ"
+       },
+       {
+        "left": "كَبِيرٌ",
+        "right": "أَكْبَرُ"
+       },
+       {
+        "left": "شَدِيدٌ",
+        "right": "أَشَدُّ"
        }
       ],
       "correctAnswer": {
-       "Bad people can be very strong,": "but Allah is stronger.",
-       "The snakes of the magicians were small,": "but Moses’s snake was bigger."
+       "قَوِيٌّ": "أَقْوَى",
+       "صَعْبٌ": "أَصْعَبُ",
+       "كَبِيرٌ": "أَكْبَرُ",
+       "شَدِيدٌ": "أَشَدُّ"
       },
-      "explanation": "Add -er for two things: strong → stronger, big → bigger.",
+      "explanation": "للمقارنة نقول «أَفْعَلُ»: لَكِنَّ اللهَ أَقْوَى. وفي الفصل الثامن: «أَشَدَّ قَسْوَةً»، «أَصْعَبَ».",
       "feedback": {
-       "correct": "Good. You found the -er words.",
-       "incorrect": "Read the last paragraph of Chapter 9."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "انْظُرِ الْأَلِفَ فِي أَوَّلِ الْكَلِمَةِ."
       }
      },
      {
-      "id": "moses-a1-language-9-make",
+      "id": "musa-a1-ar-language-9-practise",
       "type": "sentence-building",
-      "title": "Practise: Make the Sentence",
-      "instructions": "Make the sentence.",
-      "question": "What did they do?",
+      "title": "تَدَرَّبْ: كَوِّنِ الْجُمْلَةَ",
+      "instructions": "رَتِّبِ الْكَلِمَاتِ لِتَكُونَ جُمْلَةً.",
+      "question": "مَاذَا فَعَلَ مُوسَى؟",
       "sentenceChunks": [
-       "Moses and his people",
-       "walked",
-       "to the other side",
-       "safely."
+       "ضَرَبَ",
+       "مُوسَى",
+       "الْبَحْرَ",
+       "بِعَصَاهُ"
       ],
       "correctAnswer": null,
-      "explanation": "Who + did what + where + how.",
+      "explanation": "الجملة من الفصل: «ضَرَبَ مُوسَى الْبَحْرَ بِعَصَاهُ». الفعل أولًا، ثم من فعل، ثم ماذا، ثم بأي شيء.",
       "feedback": {
-       "correct": "Correct. Moses and his people walked to the other side safely.",
-       "incorrect": "Start with “Moses and his people”."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "ابْدَأْ بِالْفِعْلِ «ضَرَبَ»."
       }
      },
      {
-      "id": "moses-a1-language-9-write-it",
+      "id": "musa-a1-ar-language-9-write-it",
       "type": "reflection",
-      "title": "Write It: Bigger, Older",
-      "instructions": "Write about two things.",
-      "question": "Which one is bigger?",
+      "title": "اكْتُبْهَا: أَكْبَرُ، أَقْوَى",
+      "instructions": "قَارِنْ بَيْنَ شَخْصَيْنِ أَوْ شَيْئَيْنِ.",
+      "question": "مَنْ أَكْبَرُ؟ مَا أَقْوَى؟",
       "correctAnswer": null,
-      "explanation": "Use -er + than.",
+      "explanation": "استعمل «أَفْعَلُ مِنْ»: أَكْبَرُ مِنْ، أَقْوَى مِنْ.",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“A … is bigger than a …”",
+        "question": "«أَخِي أَكْبَرُ مِنْ …»",
         "mode": "Individual",
-        "example": "A horse is bigger than a cat."
+        "example": "أَخِي أَكْبَرُ مِنِّي."
        },
        {
-        "question": "“My … is older than my …”",
+        "question": "«الْ… أَقْوَى مِنَ الْ…»",
         "mode": "Individual",
-        "example": "My brother is older than my sister."
+        "example": "الْفِيلُ أَقْوَى مِنَ الْقِطَّةِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What happened to the sea?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا حَدَثَ لِلْبَحْرِ؟",
      "options": [
-      "It opened.",
-      "It was very hot.",
-      "It went away."
+      "انْفَتَحَ",
+      "صَارَ نَارًا",
+      "صَارَ صَغِيرًا جِدًّا"
      ],
      "answer": 0,
-     "quote": "Moses hit the sea, and the sea opened!"
+     "quote": "ضَرَبَ مُوسَى البَحْرَ، فَانْفَتَحَ البَحْرُ!"
     },
     "iCan": [
-     "I can tell how the sea opened.",
-     "I can use -er words.",
-     "I can write two sentences with than."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ مَاذَا حَدَثَ عِنْدَ الْبَحْرِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ أَقْوَى وَأَكْبَرَ.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ دَرْسَ الْقِصَّةِ."
     ],
     "groupTask": {
      "type": "project",
-     "title": "A Story Map",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "خَرِيطَةُ الْقِصَّةِ",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group draws a big map: Egypt, the River Nile, Midian, the mountain and the sea.",
-      "For each place, the group writes one sentence from the story.",
-      "The group draws a line for Moses’s journey.",
-      "One student tells the story with the map."
+      "تَرْسُمُ الْمَجْمُوعَةُ خَرِيطَةً كَبِيرَةً: مِصْرَ، نَهْرَ النِّيلِ، مَدْيَنَ، الْجَبَلَ، الْبَحْرَ.",
+      "لِكُلِّ مَكَانٍ تَكْتُبُ الْمَجْمُوعَةُ جُمْلَةً مِنَ الْقِصَّةِ.",
+      "تَرْسُمُ الْمَجْمُوعَةُ خَطًّا لِرِحْلَةِ مُوسَى.",
+      "يَحْكِي طَالِبٌ وَاحِدٌ الْقِصَّةَ بِالْخَرِيطَةِ."
      ],
-     "share": "One student tells the story with the map. Story: “Moses and his people walked to the other side safely.”",
-     "solo": "Draw the map. Write one sentence for two places."
+     "share": "يَحْكِي طَالِبٌ وَاحِدٌ الْقِصَّةَ بِالْخَرِيطَةِ. مِنَ الْقِصَّةِ: «مَشَى مُوسَى وَقَوْمُهُ إِلَى الْجَانِبِ الْآخَرِ بِسَلَامٍ.»",
+     "solo": "ارْسُمْ خَرِيطَةً صَغِيرَةً بِخَمْسَةِ أَمَاكِنَ، وَاكْتُبْ جُمْلَةً لِكُلِّ مَكَانٍ."
     }
    },
    {
     "id": 101,
     "type": "map",
-    "title": "Moses’s Journey",
-    "subtitle": "Map · Chapters 1–9",
+    "title": "رِحْلَةُ مُوسَى",
+    "subtitle": "خَرِيطَةٌ · الْفُصُولُ مِنْ 1 إِلَى 9",
     "content": "",
     "map": {
      "baseMap": "nearEast",
@@ -1619,9 +1697,9 @@
       "mode": "stages"
      },
      "legend": {
-      "route:flight": "Moses goes to Midian",
-      "route:return": "The family goes back toward Egypt",
-      "route:exodus": "The night journey to the sea"
+      "route:flight": "مُوسَى يَذْهَبُ إِلَى مَدْيَنَ",
+      "route:return": "الْأُسْرَةُ تَرْجِعُ نَحْوَ مِصْرَ",
+      "route:exodus": "رِحْلَةُ اللَّيْلِ إِلَى الْبَحْرِ"
      },
      "routes": [
       {
@@ -1716,11 +1794,11 @@
        "areaRadiusKm": 170,
        "showArea": true,
        "labelSide": "left",
-       "name": "Egypt",
-       "kind": "Land",
-       "text": "Moses (pbuh) lived in Egypt more than 3,000 years ago. Pharaoh was the king of Egypt. He was a cruel king.",
-       "teacherNote": "The A1 text does not name a city or say where the palace was.",
-       "question": "Who was the king of Egypt?"
+       "name": "مِصْرُ",
+       "kind": "أَرْضٌ",
+       "text": "عَاشَ مُوسَى عَلَيْهِ السَّلَامُ فِي مِصْرَ مُنْذُ أَكْثَرَ مِنْ ثَلَاثَةِ آلَافِ سَنَةٍ. كَانَ فِرْعَوْنُ مَلِكَ مِصْرَ. كَانَ مَلِكًا قَاسِيًا.",
+       "teacherNote": "لا يذكر نص A1 مدينة، ولا يقول أين كان القصر.",
+       "question": "مَنْ كَانَ مَلِكَ مِصْرَ؟"
       },
       {
        "id": "nile",
@@ -1732,11 +1810,11 @@
        "areaRadiusKm": 190,
        "showArea": true,
        "labelSide": "left",
-       "name": "The River Nile",
-       "kind": "River",
-       "text": "Moses’s mother put her baby in a basket. She put the basket on the River Nile. The water took it away.",
-       "teacherNote": "The text does not say where on the Nile this happened.",
-       "question": "What did Moses’s mother put on the river?"
+       "name": "نَهْرُ النِّيلِ",
+       "kind": "نَهْرٌ",
+       "text": "وَضَعَتْ أُمُّ مُوسَى طِفْلَهَا فِي سَلَّةٍ. وَضَعَتِ السَّلَّةَ عَلَى نَهْرِ النِّيلِ. أَخَذَهَا الْمَاءُ بَعِيدًا.",
+       "teacherNote": "لا يقول النص أين حدث هذا على النيل.",
+       "question": "مَاذَا وَضَعَتْ أُمُّ مُوسَى عَلَى النَّهْرِ؟"
       },
       {
        "id": "midian",
@@ -1748,11 +1826,11 @@
        "areaRadiusKm": 130,
        "showArea": true,
        "labelSide": "right",
-       "name": "Midian",
-       "kind": "Land",
-       "text": "Moses left Egypt. He walked for many days. He came to Midian. He lived there for ten years.",
-       "teacherNote": "The A1 text does not say where Midian was. Many sources place it east of the Gulf of Aqaba.",
-       "question": "How long did Moses live in Midian?"
+       "name": "مَدْيَنُ",
+       "kind": "أَرْضٌ",
+       "text": "تَرَكَ مُوسَى مِصْرَ. مَشَى أَيَّامًا كَثِيرَةً. وَصَلَ إِلَى مَدْيَنَ. عَاشَ هُنَاكَ عَشْرَ سَنَوَاتٍ.",
+       "teacherNote": "لا يقول نص A1 أين كانت مدين. كثير من المصادر يضعها شرق خليج العقبة.",
+       "question": "كَمْ سَنَةً عَاشَ مُوسَى فِي مَدْيَنَ؟"
       },
       {
        "id": "mountain",
@@ -1764,11 +1842,11 @@
        "areaRadiusKm": 80,
        "showArea": true,
        "labelSide": "bottom",
-       "name": "The Mountain",
-       "kind": "Mountain",
-       "text": "Moses and his family decided to go back to Egypt. It was dark and cold. Moses saw a fire on a mountain. There, he heard a voice.",
-       "teacherNote": "The A1 text does not name this mountain. The B2 book calls it Mount Sinai (Mount Tur).",
-       "question": "What did Moses see on the mountain?"
+       "name": "الْجَبَلُ",
+       "kind": "جَبَلٌ",
+       "text": "قَرَّرَ مُوسَى وَأُسْرَتُهُ أَنْ يَرْجِعُوا إِلَى مِصْرَ. كَانَ الْجَوُّ مُظْلِمًا وَبَارِدًا. رَأَى مُوسَى نَارًا عَلَى جَبَلٍ. هُنَاكَ سَمِعَ صَوْتًا.",
+       "teacherNote": "لا يسمي نص A1 هذا الجبل. كتاب B2 يسميه جبل الطور (سيناء).",
+       "question": "مَاذَا رَأَى مُوسَى عَلَى الْجَبَلِ؟"
       },
       {
        "id": "sea",
@@ -1780,11 +1858,11 @@
        "areaRadiusKm": 90,
        "showArea": true,
        "labelSide": "right",
-       "name": "The Sea",
-       "kind": "Sea",
-       "text": "Moses and his people left Egypt at night. In the morning, they came to the sea. The sea opened, and they walked to the other side.",
-       "teacherNote": "The A1 text does not name the sea. The B1 and B2 books call it the Red Sea.",
-       "question": "When did they come to the sea?"
+       "name": "الْبَحْرُ",
+       "kind": "بَحْرٌ",
+       "text": "خَرَجَ مُوسَى وَقَوْمُهُ مِنْ مِصْرَ فِي اللَّيْلِ. فِي الصَّبَاحِ وَصَلُوا إِلَى الْبَحْرِ. انْفَتَحَ الْبَحْرُ، وَمَشَوْا إِلَى الْجَانِبِ الْآخَرِ.",
+       "teacherNote": "لا يسمي نص A1 البحر. كتابا B1 وB2 يسميانه البحر الأحمر.",
+       "question": "مَتَى وَصَلُوا إِلَى الْبَحْرِ؟"
       }
      ],
      "towns": [],
@@ -1793,7 +1871,7 @@
        "id": "mediterranean",
        "lon": 29.8,
        "lat": 31.85,
-       "name": "Mediterranean Sea"
+       "name": "الْبَحْرُ الْأَبْيَضُ الْمُتَوَسِّطُ"
       }
      ],
      "timeline": [
@@ -1805,7 +1883,7 @@
         "lat": 29.4,
         "zoom": 1.6
        },
-       "label": "Moses in Egypt"
+       "label": "مُوسَى فِي مِصْرَ"
       },
       {
        "year": 2,
@@ -1819,7 +1897,7 @@
         "kind": "dawn",
         "placeId": "nile"
        },
-       "label": "A baby on the Nile"
+       "label": "طِفْلٌ عَلَى النِّيلِ"
       },
       {
        "year": 3,
@@ -1829,7 +1907,7 @@
         "lat": 29.2,
         "zoom": 1.35
        },
-       "label": "Moses goes to Midian"
+       "label": "مُوسَى يَذْهَبُ إِلَى مَدْيَنَ"
       },
       {
        "year": 4,
@@ -1846,7 +1924,7 @@
          "egypt"
         ]
        },
-       "label": "The voice on the mountain"
+       "label": "الصَّوْتُ عَلَى الْجَبَلِ"
       },
       {
        "year": 5,
@@ -1856,7 +1934,7 @@
         "lat": 29.7,
         "zoom": 1.9
        },
-       "label": "The night journey"
+       "label": "رِحْلَةُ اللَّيْلِ"
       },
       {
        "year": 6,
@@ -1875,7 +1953,7 @@
          "sea"
         ]
        },
-       "label": "The sea opens"
+       "label": "الْبَحْرُ يَنْفَتِحُ"
       }
      ],
      "challenge": [
@@ -1884,35 +1962,35 @@
        "lon": 30.9,
        "lat": 30,
        "radiusKm": 250,
-       "prompt": "Find Egypt. Pharaoh was the king here."
+       "prompt": "ابْحَثْ عَنْ مِصْرَ. كَانَ فِرْعَوْنُ الْمَلِكَ هُنَا."
       },
       {
        "id": "nile",
        "lon": 31.15,
        "lat": 27.2,
        "radiusKm": 220,
-       "prompt": "Find the River Nile. The basket was on it."
+       "prompt": "ابْحَثْ عَنْ نَهْرِ النِّيلِ. كَانَتِ السَّلَّةُ عَلَيْهِ."
       },
       {
        "id": "midian",
        "lon": 35.4,
        "lat": 28.3,
        "radiusKm": 180,
-       "prompt": "Find Midian. Moses lived there for ten years."
+       "prompt": "ابْحَثْ عَنْ مَدْيَنَ. عَاشَ مُوسَى هُنَاكَ عَشْرَ سَنَوَاتٍ."
       },
       {
        "id": "mountain",
        "lon": 33.95,
        "lat": 28.55,
        "radiusKm": 150,
-       "prompt": "Find the mountain. Moses saw a fire there."
+       "prompt": "ابْحَثْ عَنِ الْجَبَلِ. رَأَى مُوسَى نَارًا هُنَاكَ."
       },
       {
        "id": "sea",
        "lon": 32.6,
        "lat": 29.6,
        "radiusKm": 150,
-       "prompt": "Find the sea. It opened for Moses and his people."
+       "prompt": "ابْحَثْ عَنِ الْبَحْرِ. انْفَتَحَ لِمُوسَى وَقَوْمِهِ."
       }
      ]
     }
@@ -1920,107 +1998,107 @@
    {
     "id": 12,
     "type": "quiz",
-    "title": "Knowledge Check",
+    "title": "اختبار المعرفة",
     "image": "https://picsum.photos/seed/quiz-moses-a1/1200/800",
     "audioUrl": "",
-    "content": "Check your understanding of the complete story.",
+    "content": "اختبر فهمك لقصة النبي موسى عليه السلام.",
     "exercises": [
      {
-      "id": "moses-a1-kc-1",
+      "id": "musa-a1-ar-kc-1",
       "type": "multiple-choice",
-      "title": "Egypt",
-      "instructions": "Choose the answer.",
-      "question": "Who was the king of Egypt?",
+      "title": "مِصْرُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "أَيْنَ عَاشَ مُوسَى؟",
       "options": [
-       "Pharaoh",
-       "Moses",
-       "Aaron"
+       "فِي مِصْرَ",
+       "فِي بَابِلَ",
+       "فِي مَكَّةَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 1: “The king of Egypt was Pharaoh.”",
+      "explanation": "الفصل الأول: «عَاشَ فِي مِصْرَ مُنْذُ أَكْثَرَ مِنْ ثَلَاثَةِ آلَافِ سَنَةٍ».",
       "feedback": {
-       "correct": "Yes. Pharaoh.",
-       "incorrect": "Read the first paragraph of Chapter 1."
+       "correct": "نَعَمْ. فِي مِصْرَ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "moses-a1-kc-2",
+      "id": "musa-a1-ar-kc-2",
       "type": "true-false",
-      "title": "The Queen",
-      "instructions": "Is it true or false?",
-      "question": "The queen, Asiya, loved baby Moses.",
+      "title": "الْمَلِكَةُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "أَحَبَّتِ الْمَلِكَةُ آسِيَةُ الطِّفْلَ.",
       "correctAnswer": true,
-      "explanation": "Chapter 2: “The queen, Asiya, loved the baby.”",
+      "explanation": "الفصل الثاني: «أَحَبَّتِ الْمَلِكَةُ آسِيَةُ الطِّفْلَ. كَانَتِ امْرَأَةً طَيِّبَةً».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the second paragraph of Chapter 2."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "moses-a1-kc-3",
+      "id": "musa-a1-ar-kc-3",
       "type": "multiple-choice",
-      "title": "The Sister",
-      "instructions": "Choose the answer.",
-      "question": "Who did Moses’s sister bring to the palace?",
+      "title": "الْأُخْتُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَنْ أَحْضَرَتْ أُخْتُ مُوسَى إِلَى الْقَصْرِ؟",
       "options": [
-       "her own mother",
-       "her friend",
-       "a doctor"
+       "أُمَّهَا",
+       "جَدَّتَهَا",
+       "الْمَلِكَةَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 3: “Then she brought her own mother!”",
+      "explanation": "الفصل الثالث: «ثُمَّ أَحْضَرَتْ أُمَّهَا نَفْسَهَا!».",
       "feedback": {
-       "correct": "Yes. Her own mother.",
-       "incorrect": "Read the first paragraph of Chapter 3."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "moses-a1-kc-4",
+      "id": "musa-a1-ar-kc-4",
       "type": "true-false",
-      "title": "Midian",
-      "instructions": "Is it true or false?",
-      "question": "Moses lived in Midian for two years.",
+      "title": "مَدْيَنُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "عَاشَ مُوسَى فِي مَدْيَنَ سَنَةً وَاحِدَةً.",
       "correctAnswer": false,
-      "explanation": "Chapter 5: “They lived in Midian for ten years.”",
+      "explanation": "الفصل الخامس: «عَاشُوا فِي مَدْيَنَ عَشْرَ سَنَوَاتٍ».",
       "feedback": {
-       "correct": "Yes, it is false. It was ten years.",
-       "incorrect": "Read the end of Chapter 5."
+       "correct": "نَعَمْ، هَذَا خَطَأٌ. عَشْرَ سَنَوَاتٍ.",
+       "incorrect": "اقْرَأْ آخِرَ الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "moses-a1-kc-5",
+      "id": "musa-a1-ar-kc-5",
       "type": "multiple-choice",
-      "title": "Aaron",
-      "instructions": "Choose the answer.",
-      "question": "Who went with Moses to Pharaoh?",
+      "title": "هَارُونُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَنْ ذَهَبَ مَعَ مُوسَى إِلَى فِرْعَوْنَ؟",
       "options": [
-       "his brother Aaron",
-       "his sister",
-       "the queen"
+       "أَخُوهُ هَارُونُ",
+       "أُخْتُهُ",
+       "الرُّعَاةُ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 6: “His brother Aaron went with him.”",
+      "explanation": "الفصل السادس: «ذَهَبَ مَعَهُ أَخُوهُ هَارُونُ».",
       "feedback": {
-       "correct": "Yes. His brother Aaron.",
-       "incorrect": "Read the end of Chapter 6."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأْ آخِرَ الْفَصْلِ السَّادِسِ."
       }
      },
      {
-      "id": "moses-a1-kc-6",
+      "id": "musa-a1-ar-kc-6",
       "type": "multiple-choice",
-      "title": "The Sea",
-      "instructions": "Choose the answer.",
-      "question": "What did Moses hit the sea with?",
+      "title": "الْبَحْرُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا حَدَثَ لِلْبَحْرِ عِنْدَمَا ضَرَبَهُ مُوسَى؟",
       "options": [
-       "his stick",
-       "a stone",
-       "his hand"
+       "انْفَتَحَ",
+       "صَارَ نَارًا",
+       "غَابَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 9: “Allah told Moses to hit the sea with his stick.”",
+      "explanation": "الفصل التاسع: «ضَرَبَ مُوسَى الْبَحْرَ، فَانْفَتَحَ الْبَحْرُ!».",
       "feedback": {
-       "correct": "Yes. His stick.",
-       "incorrect": "Read the first paragraph of Chapter 9."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ التَّاسِعِ."
       }
      }
     ]
@@ -2028,647 +2106,572 @@
    {
     "id": 14,
     "type": "glossary",
-    "title": "Master Glossary",
-    "content": "Review all key vocabulary from the story in one place.",
+    "title": "المعجم الرئيسي",
+    "content": "راجع جميع مفردات القصة المهمة في مكان واحد.",
     "image": "https://picsum.photos/seed/glossary-moses-a1/1200/800",
     "vocabulary": [
      {
-      "word": "king",
-      "definition": "The man who rules a country.",
-      "partOfSpeech": "noun",
+      "word": "المَلِكُ",
+      "definition": "الرَّجُلُ الَّذِي يَحْكُمُ بَلَدًا.",
       "level": "A1",
-      "pronunciation": "/kɪŋ/",
       "chapter": 1,
-      "chapterTitle": "The Cruel King",
-      "storyExample": "The king of Egypt was Pharaoh.",
-      "category": "People"
+      "chapterTitle": "المَلِكُ القَاسِي",
+      "storyExample": "كَانُوا جَمَاعَةً كَبِيرَةً جِدًّا، فَخَافَ المَلِكُ مِنْهُمْ."
      },
      {
-      "word": "cruel",
-      "definition": "Very bad and unkind to others.",
-      "partOfSpeech": "adjective",
+      "word": "قَاسِيًا",
+      "definition": "سَيِّئٌ جِدًّا وَغَيْرُ لَطِيفٍ مَعَ الآخَرِينَ.",
       "level": "A1",
-      "pronunciation": "/ˈkruːəl/",
       "chapter": 1,
-      "chapterTitle": "The Cruel King",
-      "storyExample": "He was a cruel king.",
-      "category": "Describing"
+      "chapterTitle": "المَلِكُ القَاسِي",
+      "storyExample": "كَانَ مَلِكًا قَاسِيًا."
      },
      {
-      "word": "believe",
-      "definition": "Think that something is true.",
-      "partOfSpeech": "verb",
+      "word": "يُؤْمِنُونَ",
+      "definition": "يَعْتَقِدُونَ أَنَّ الشَّيْءَ حَقٌّ.",
       "level": "A1",
-      "pronunciation": "/bɪˈliːv/",
       "chapter": 1,
-      "chapterTitle": "The Cruel King",
-      "storyExample": "He did not believe in Allah.",
-      "category": "Faith"
+      "chapterTitle": "المَلِكُ القَاسِي",
+      "storyExample": "كَانُوا يُؤْمِنُونَ بِاللهِ."
      },
      {
-      "word": "afraid",
-      "definition": "Feeling that something bad will happen.",
-      "partOfSpeech": "adjective",
+      "word": "خَافَ",
+      "definition": "شَعَرَ أَنَّ شَيْئًا سَيِّئًا سَيَحْدُثُ.",
       "level": "A1",
-      "pronunciation": "/əˈfreɪd/",
       "chapter": 1,
-      "chapterTitle": "The Cruel King",
-      "storyExample": "They were a very big group, so the king was afraid of them.",
-      "category": "Feelings"
+      "chapterTitle": "المَلِكُ القَاسِي",
+      "storyExample": "كَانُوا جَمَاعَةً كَبِيرَةً جِدًّا، فَخَافَ المَلِكُ مِنْهُمْ."
      },
      {
-      "word": "dream",
-      "definition": "Pictures in your head when you sleep.",
-      "partOfSpeech": "noun",
+      "word": "حُلْمًا",
+      "definition": "صُوَرٌ فِي رَأْسِكَ عِنْدَمَا تَنَامُ.",
       "level": "A1",
-      "pronunciation": "/driːm/",
       "chapter": 1,
-      "chapterTitle": "The Cruel King",
-      "storyExample": "One night, the king had a bad dream.",
-      "category": "Life"
+      "chapterTitle": "المَلِكُ القَاسِي",
+      "storyExample": "فِي لَيْلَةٍ رَأَى المَلِكُ حُلْمًا سَيِّئًا."
      },
      {
-      "word": "basket",
-      "definition": "A box made of thin wood or grass.",
-      "partOfSpeech": "noun",
+      "word": "سَلَّةٍ",
+      "definition": "صُنْدُوقٌ مِنَ الخَشَبِ الرَّفِيعِ أَوِ العُشْبِ.",
       "level": "A1",
-      "pronunciation": "/ˈbæskɪt/",
       "chapter": 2,
-      "chapterTitle": "A Baby on the River",
-      "storyExample": "Allah told her to put the baby in a basket.",
-      "category": "Things"
+      "chapterTitle": "طِفْلٌ عَلَى النَّهْرِ",
+      "storyExample": "قَالَ اللهُ لَهَا أَنْ تَضَعَ الطِّفْلَ فِي سَلَّةٍ."
      },
      {
-      "word": "worried",
-      "definition": "Thinking about bad things that can happen.",
-      "partOfSpeech": "adjective",
+      "word": "قَلِقَةً",
+      "definition": "تُفَكِّرُ فِي أَشْيَاءَ سَيِّئَةٍ يُمْكِنُ أَنْ تَحْدُثَ.",
       "level": "A1",
-      "pronunciation": "/ˈwɜːrid/",
       "chapter": 2,
-      "chapterTitle": "A Baby on the River",
-      "storyExample": "Moses’s mother was very worried.",
-      "category": "Feelings"
+      "chapterTitle": "طِفْلٌ عَلَى النَّهْرِ",
+      "storyExample": "كَانَتْ أُمُّ مُوسَى قَلِقَةً جِدًّا."
      },
      {
-      "word": "palace",
-      "definition": "A very big house of a king.",
-      "partOfSpeech": "noun",
+      "word": "قَصْرِ",
+      "definition": "بَيْتٌ كَبِيرٌ جِدًّا لِلْمَلِكِ.",
       "level": "A1",
-      "pronunciation": "/ˈpæləs/",
       "chapter": 2,
-      "chapterTitle": "A Baby on the River",
-      "storyExample": "The basket came near the king’s palace.",
-      "category": "Places"
+      "chapterTitle": "طِفْلٌ عَلَى النَّهْرِ",
+      "storyExample": "اِقْتَرَبَتِ السَّلَّةُ مِنْ قَصْرِ المَلِكِ."
      },
      {
-      "word": "queen",
-      "definition": "The wife of a king.",
-      "partOfSpeech": "noun",
+      "word": "المَلِكَةُ",
+      "definition": "زَوْجَةُ المَلِكِ.",
       "level": "A1",
-      "pronunciation": "/kwiːn/",
       "chapter": 2,
-      "chapterTitle": "A Baby on the River",
-      "storyExample": "The queen, Asiya, loved the baby.",
-      "category": "People"
+      "chapterTitle": "طِفْلٌ عَلَى النَّهْرِ",
+      "storyExample": "أَحَبَّتِ المَلِكَةُ آسِيَةُ الطِّفْلَ."
      },
      {
-      "word": "promise",
-      "definition": "Words that say \"I will do it\".",
-      "partOfSpeech": "noun",
+      "word": "وَعْدُ",
+      "definition": "كَلِمَاتٌ تَقُولُ: «سَأَفْعَلُ هَذَا».",
       "level": "A1",
-      "pronunciation": "/ˈprɑːmɪs/",
       "chapter": 3,
-      "chapterTitle": "Back to His Mother",
-      "storyExample": "Allah’s promise was true.",
-      "category": "Faith"
+      "chapterTitle": "العَوْدَةُ إِلَى الأُمِّ",
+      "storyExample": "كَانَ وَعْدُ اللهِ حَقًّا."
      },
      {
-      "word": "weak",
-      "definition": "Not strong.",
-      "partOfSpeech": "adjective",
+      "word": "الضُّعَفَاءَ",
+      "definition": "نَاسٌ لَيْسُوا أَقْوِيَاءَ.",
       "level": "A1",
-      "pronunciation": "/wiːk/",
       "chapter": 3,
-      "chapterTitle": "Back to His Mother",
-      "storyExample": "He always helped weak people.",
-      "category": "Describing"
+      "chapterTitle": "العَوْدَةُ إِلَى الأُمِّ",
+      "storyExample": "كَانَ يُسَاعِدُ الضُّعَفَاءَ دَائِمًا."
      },
      {
-      "word": "strong",
-      "definition": "With a lot of power in your body.",
-      "partOfSpeech": "adjective",
+      "word": "قَوِيًّا",
+      "definition": "عِنْدَهُ قُوَّةٌ كَثِيرَةٌ فِي جِسْمِهِ.",
       "level": "A1",
-      "pronunciation": "/strɔːŋ/",
       "chapter": 3,
-      "chapterTitle": "Back to His Mother",
-      "storyExample": "He became a strong young man.",
-      "category": "Describing"
+      "chapterTitle": "العَوْدَةُ إِلَى الأُمِّ",
+      "storyExample": "صَارَ شَابًّا قَوِيًّا."
      },
      {
-      "word": "market",
-      "definition": "A place where people buy and sell things.",
-      "partOfSpeech": "noun",
+      "word": "السُّوقِ",
+      "definition": "مَكَانٌ يَشْتَرِي فِيهِ النَّاسُ الأَشْيَاءَ وَيَبِيعُونَهَا.",
       "level": "A1",
-      "pronunciation": "/ˈmɑːrkɪt/",
       "chapter": 4,
-      "chapterTitle": "A Mistake in the Market",
-      "storyExample": "One day, Moses saw two men in the market.",
-      "category": "Places"
+      "chapterTitle": "خَطَأٌ فِي السُّوقِ",
+      "storyExample": "فِي يَوْمٍ مِنَ الأَيَّامِ رَأَى مُوسَى رَجُلَيْنِ فِي السُّوقِ."
      },
      {
-      "word": "fight",
-      "definition": "Hit and hurt each other.",
-      "partOfSpeech": "verb",
+      "word": "يَتَقَاتَلَانِ",
+      "definition": "يَضْرِبُ كُلُّ وَاحِدٍ الآخَرَ وَيُؤْذِيهِ.",
       "level": "A1",
-      "pronunciation": "/faɪt/",
       "chapter": 4,
-      "chapterTitle": "A Mistake in the Market",
-      "storyExample": "They were fighting.",
-      "category": "Actions"
+      "chapterTitle": "خَطَأٌ فِي السُّوقِ",
+      "storyExample": "كَانَا يَتَقَاتَلَانِ."
      },
      {
-      "word": "forgive",
-      "definition": "Stop being angry with someone.",
-      "partOfSpeech": "verb",
+      "word": "غَفَرَ",
+      "definition": "تَرَكَ الغَضَبَ وَسَامَحَ.",
       "level": "A1",
-      "pronunciation": "/fərˈɡɪv/",
       "chapter": 4,
-      "chapterTitle": "A Mistake in the Market",
-      "storyExample": "He said, “Allah, please forgive me.”",
-      "category": "Faith"
+      "chapterTitle": "خَطَأٌ فِي السُّوقِ",
+      "storyExample": "قَالَ: «يَا رَبِّ، اِغْفِرْ لِي مِنْ فَضْلِكَ»."
      },
      {
-      "word": "soldier",
-      "definition": "A man in the army.",
-      "partOfSpeech": "noun",
+      "word": "جُنُودُ",
+      "definition": "رِجَالٌ فِي الجَيْشِ.",
       "level": "A1",
-      "pronunciation": "/ˈsoʊldʒər/",
       "chapter": 4,
-      "chapterTitle": "A Mistake in the Market",
-      "storyExample": "Then a man came and said, “The king’s soldiers are looking for you. Go away from here!”",
-      "category": "People"
+      "chapterTitle": "خَطَأٌ فِي السُّوقِ",
+      "storyExample": "ثُمَّ جَاءَ رَجُلٌ وَقَالَ: «جُنُودُ المَلِكِ يَبْحَثُونَ عَنْكَ."
      },
      {
-      "word": "thirsty",
-      "definition": "Wanting to drink water.",
-      "partOfSpeech": "adjective",
+      "word": "عَطْشَانَ",
+      "definition": "يُرِيدُ أَنْ يَشْرَبَ المَاءَ.",
       "level": "A1",
-      "pronunciation": "/ˈθɜːrsti/",
       "chapter": 5,
-      "chapterTitle": "The Two Sisters",
-      "storyExample": "He was tired and thirsty.",
-      "category": "Feelings"
+      "chapterTitle": "الأُخْتَانِ",
+      "storyExample": "كَانَ مُتْعَبًا وَعَطْشَانَ."
      },
      {
-      "word": "well",
-      "definition": "A deep hole with water in it.",
-      "partOfSpeech": "noun",
+      "word": "بِئْرًا",
+      "definition": "حُفْرَةٌ عَمِيقَةٌ فِيهَا مَاءٌ.",
       "level": "A1",
-      "pronunciation": "/wel/",
       "chapter": 5,
-      "chapterTitle": "The Two Sisters",
-      "storyExample": "He found a well.",
-      "category": "Places"
+      "chapterTitle": "الأُخْتَانِ",
+      "storyExample": "وَجَدَ بِئْرًا."
      },
      {
-      "word": "shepherd",
-      "definition": "A person who looks after sheep.",
-      "partOfSpeech": "noun",
+      "word": "رُعَاةٌ",
+      "definition": "نَاسٌ يَهْتَمُّونَ بِالغَنَمِ.",
       "level": "A1",
-      "pronunciation": "/ˈʃepərd/",
       "chapter": 5,
-      "chapterTitle": "The Two Sisters",
-      "storyExample": "Many shepherds were there with their sheep.",
-      "category": "People"
+      "chapterTitle": "الأُخْتَانِ",
+      "storyExample": "كَانَ هُنَاكَ رُعَاةٌ كَثِيرُونَ مَعَ غَنَمِهِمْ."
      },
      {
-      "word": "fire",
-      "definition": "Something very hot, red and yellow.",
-      "partOfSpeech": "noun",
+      "word": "نَارًا",
+      "definition": "شَيْءٌ حَارٌّ جِدًّا، أَحْمَرُ وَأَصْفَرُ.",
       "level": "A1",
-      "pronunciation": "/ˈfaɪər/",
       "chapter": 6,
-      "chapterTitle": "The Voice on the Mountain",
-      "storyExample": "Then Moses saw a fire on a mountain.",
-      "category": "Nature"
+      "chapterTitle": "الصَّوْتُ عَلَى الجَبَلِ",
+      "storyExample": "ثُمَّ رَأَى مُوسَى نَارًا عَلَى جَبَلٍ."
      },
      {
-      "word": "mountain",
-      "definition": "A very big, high hill.",
-      "partOfSpeech": "noun",
+      "word": "جَبَلٍ",
+      "definition": "تَلٌّ كَبِيرٌ وَعَالٍ جِدًّا.",
       "level": "A1",
-      "pronunciation": "/ˈmaʊntn/",
       "chapter": 6,
-      "chapterTitle": "The Voice on the Mountain",
-      "storyExample": "Then Moses saw a fire on a mountain.",
-      "category": "Nature"
+      "chapterTitle": "الصَّوْتُ عَلَى الجَبَلِ",
+      "storyExample": "ثُمَّ رَأَى مُوسَى نَارًا عَلَى جَبَلٍ."
      },
      {
-      "word": "voice",
-      "definition": "The sound of someone speaking.",
-      "partOfSpeech": "noun",
+      "word": "صَوْتًا",
+      "definition": "صَوْتُ شَخْصٍ يَتَكَلَّمُ.",
       "level": "A1",
-      "pronunciation": "/vɔɪs/",
       "chapter": 6,
-      "chapterTitle": "The Voice on the Mountain",
-      "storyExample": "There, Moses heard a voice: “O Moses, I am Allah.”",
-      "category": "Life"
+      "chapterTitle": "الصَّوْتُ عَلَى الجَبَلِ",
+      "storyExample": "هُنَاكَ سَمِعَ مُوسَى صَوْتًا: «يَا مُوسَى، أَنَا اللهُ»."
      },
      {
-      "word": "stick",
-      "definition": "A long, thin piece of wood.",
-      "partOfSpeech": "noun",
+      "word": "عَصَاهُ",
+      "definition": "العَصَا: قِطْعَةٌ طَوِيلَةٌ وَرَفِيعَةٌ مِنَ الخَشَبِ.",
       "level": "A1",
-      "pronunciation": "/stɪk/",
       "chapter": 6,
-      "chapterTitle": "The Voice on the Mountain",
-      "storyExample": "Allah told Moses to put his stick down.",
-      "category": "Things"
+      "chapterTitle": "الصَّوْتُ عَلَى الجَبَلِ",
+      "storyExample": "قَالَ اللهُ لِمُوسَى أَنْ يَضَعَ عَصَاهُ عَلَى الأَرْضِ."
      },
      {
-      "word": "snake",
-      "definition": "A long animal with no legs.",
-      "partOfSpeech": "noun",
+      "word": "ثُعْبَانًا",
+      "definition": "حَيَوَانٌ طَوِيلٌ بِلَا أَرْجُلٍ.",
       "level": "A1",
-      "pronunciation": "/sneɪk/",
       "chapter": 6,
-      "chapterTitle": "The Voice on the Mountain",
-      "storyExample": "The stick turned into a big snake!",
-      "category": "Nature"
+      "chapterTitle": "الصَّوْتُ عَلَى الجَبَلِ",
+      "storyExample": "صَارَتِ العَصَا ثُعْبَانًا كَبِيرًا!"
      },
      {
-      "word": "magic",
-      "definition": "Tricks; things that look strange or not real.",
-      "partOfSpeech": "noun",
+      "word": "سِحْرٌ",
+      "definition": "حِيَلٌ؛ أَشْيَاءُ تَبْدُو غَرِيبَةً أَوْ غَيْرَ حَقِيقِيَّةٍ.",
       "level": "A1",
-      "pronunciation": "/ˈmædʒɪk/",
       "chapter": 7,
-      "chapterTitle": "The Magicians",
-      "storyExample": "Pharaoh said, “This is only magic.”",
-      "category": "Things"
+      "chapterTitle": "السَّحَرَةُ",
+      "storyExample": "قَالَ فِرْعَوْنُ: «هَذَا سِحْرٌ فَقَطْ»."
      },
      {
-      "word": "magician",
-      "definition": "A person who does magic.",
-      "partOfSpeech": "noun",
+      "word": "سَحَرَتِهِ",
+      "definition": "السَّحَرَةُ: نَاسٌ يَعْمَلُونَ السِّحْرَ.",
       "level": "A1",
-      "pronunciation": "/məˈdʒɪʃn/",
       "chapter": 7,
-      "chapterTitle": "The Magicians",
-      "storyExample": "He called all his magicians.",
-      "category": "People"
+      "chapterTitle": "السَّحَرَةُ",
+      "storyExample": "نَادَى كُلَّ سَحَرَتِهِ."
      },
      {
-      "word": "rope",
-      "definition": "A long, thick string.",
-      "partOfSpeech": "noun",
+      "word": "حِبَالًا",
+      "definition": "خُيُوطٌ طَوِيلَةٌ وَسَمِيكَةٌ.",
       "level": "A1",
-      "pronunciation": "/roʊp/",
       "chapter": 7,
-      "chapterTitle": "The Magicians",
-      "storyExample": "They threw sticks and ropes on the floor.",
-      "category": "Things"
+      "chapterTitle": "السَّحَرَةُ",
+      "storyExample": "أَلْقَوْا عِصِيًّا وَحِبَالًا عَلَى الأَرْضِ."
      },
      {
-      "word": "throw",
-      "definition": "Send something through the air with your hand.",
-      "partOfSpeech": "verb",
+      "word": "أَلْقَى",
+      "definition": "أَرْسَلَ شَيْئًا فِي الهَوَاءِ بِاليَدِ.",
       "level": "A1",
-      "pronunciation": "/θroʊ/",
       "chapter": 7,
-      "chapterTitle": "The Magicians",
-      "storyExample": "He threw his stick down.",
-      "category": "Actions"
+      "chapterTitle": "السَّحَرَةُ",
+      "storyExample": "أَلْقَى عَصَاهُ عَلَى الأَرْضِ."
      },
      {
-      "word": "turn into",
-      "definition": "Change and be something new.",
-      "partOfSpeech": "verb",
+      "word": "صَارَتْ",
+      "definition": "تَغَيَّرَتْ وَأَصْبَحَتْ شَيْئًا جَدِيدًا.",
       "level": "A1",
-      "pronunciation": "/tɜːrn ˈɪntuː/",
       "chapter": 7,
-      "chapterTitle": "The Magicians",
-      "storyExample": "It turned into a snake.",
-      "category": "Actions"
+      "chapterTitle": "السَّحَرَةُ",
+      "storyExample": "صَارَتْ ثُعْبَانًا."
      },
      {
-      "word": "sea",
-      "definition": "A very big area of salt water.",
-      "partOfSpeech": "noun",
+      "word": "البَحْرِ",
+      "definition": "مِسَاحَةٌ كَبِيرَةٌ جِدًّا مِنَ المَاءِ المَالِحِ.",
       "level": "A1",
-      "pronunciation": "/siː/",
       "chapter": 8,
-      "chapterTitle": "The Night Journey",
-      "storyExample": "In the morning, they came to the sea.",
-      "category": "Nature"
+      "chapterTitle": "رِحْلَةُ اللَّيْلِ",
+      "storyExample": "فِي الصَّبَاحِ وَصَلُوا إِلَى البَحْرِ."
      },
      {
-      "word": "army",
-      "definition": "A very big group of soldiers.",
-      "partOfSpeech": "noun",
+      "word": "جَيْشُهُ",
+      "definition": "الجَيْشُ: مَجْمُوعَةٌ كَبِيرَةٌ جِدًّا مِنَ الجُنُودِ.",
       "level": "A1",
-      "pronunciation": "/ˈɑːrmi/",
       "chapter": 8,
-      "chapterTitle": "The Night Journey",
-      "storyExample": "Pharaoh and his big army were behind them!",
-      "category": "People"
+      "chapterTitle": "رِحْلَةُ اللَّيْلِ",
+      "storyExample": "كَانَ فِرْعَوْنُ وَجَيْشُهُ الكَبِيرُ خَلْفَهُمْ!"
      },
      {
-      "word": "wall",
-      "definition": "The side of a room or building.",
-      "partOfSpeech": "noun",
+      "word": "جِدَارَيْنِ",
+      "definition": "الجِدَارُ: جَانِبُ غُرْفَةٍ أَوْ مَبْنًى.",
       "level": "A1",
-      "pronunciation": "/wɔːl/",
       "chapter": 9,
-      "chapterTitle": "The Sea Opens",
-      "storyExample": "The water stood up like two big walls.",
-      "category": "Things"
+      "chapterTitle": "البَحْرُ يَنْفَتِحُ",
+      "storyExample": "وَقَفَ المَاءُ مِثْلَ جِدَارَيْنِ كَبِيرَيْنِ."
      },
      {
-      "word": "safely",
-      "definition": "With no danger or harm.",
-      "partOfSpeech": "adverb",
+      "word": "بِسَلَامٍ",
+      "definition": "بِلَا خَطَرٍ وَلَا أَذًى.",
       "level": "A1",
-      "pronunciation": "/ˈseɪfli/",
       "chapter": 9,
-      "chapterTitle": "The Sea Opens",
-      "storyExample": "Moses and his people walked to the other side safely.",
-      "category": "Describing"
+      "chapterTitle": "البَحْرُ يَنْفَتِحُ",
+      "storyExample": "مَشَى مُوسَى وَقَوْمُهُ إِلَى الجَانِبِ الآخَرِ بِسَلَامٍ."
      },
      {
-      "word": "power",
-      "definition": "Being strong; you can do things.",
-      "partOfSpeech": "noun",
+      "word": "القُوَّةِ",
+      "definition": "أَنْ تَكُونَ قَوِيًّا؛ تَسْتَطِيعُ أَنْ تَفْعَلَ أَشْيَاءَ.",
       "level": "A1",
-      "pronunciation": "/ˈpaʊər/",
       "chapter": 9,
-      "chapterTitle": "The Sea Opens",
-      "storyExample": "Only Allah has all the power.",
-      "category": "Faith"
+      "chapterTitle": "البَحْرُ يَنْفَتِحُ",
+      "storyExample": "اللهُ وَحْدَهُ لَهُ كُلُّ القُوَّةِ."
      }
     ]
    },
    {
     "id": 102,
     "type": "places",
-    "title": "Places & People",
-    "content": "Find every place and person from the story on the map.",
+    "title": "الأَمَاكِنُ وَالأَشْخَاصُ",
+    "content": "اِبْحَثْ عَلَى الخَرِيطَةِ عَنْ كُلِّ مَدِينَةٍ وَأَرْضٍ وَبَحْرٍ وَشَخْصٍ فِي القِصَّةِ.",
     "entityBookKey": "moses-a1"
    },
    {
     "id": 13,
     "type": "vocabulary-match",
-    "title": "Vocabulary Challenge",
+    "title": "تحدي المفردات",
     "image": "https://picsum.photos/seed/vocab-match-moses-a1/1200/800",
     "audioUrl": "",
-    "content": "Match six story words with their meanings.",
+    "content": "صِلْ سِتَّ كَلِمَاتٍ مِنَ الْقِصَّةِ بِمَعَانِيهَا.",
     "vocabularyPairs": [
      {
-      "word": "cruel",
-      "meaning": "Very bad to other people.",
+      "word": "قَاسِيًا",
+      "meaning": "سَيِّئٌ جِدًّا وَغَيْرُ لَطِيفٍ مَعَ الآخَرِينَ.",
       "partOfSpeech": "adjective",
       "chapter": 1,
-      "context": "He was a cruel king."
+      "context": "كَانَ مَلِكًا قَاسِيًا."
      },
      {
-      "word": "basket",
-      "meaning": "A box made of thin wood or grass.",
+      "word": "سَلَّةٍ",
+      "meaning": "صُنْدُوقٌ مِنَ الخَشَبِ الرَّفِيعِ أَوِ العُشْبِ.",
       "partOfSpeech": "noun",
       "chapter": 2,
-      "context": "Allah told her to put the baby in a basket."
+      "context": "قَالَ اللهُ لَهَا أَنْ تَضَعَ الطِّفْلَ فِي سَلَّةٍ."
      },
      {
-      "word": "weak",
-      "meaning": "Not strong.",
+      "word": "الضُّعَفَاءَ",
+      "meaning": "نَاسٌ لَيْسُوا أَقْوِيَاءَ.",
       "partOfSpeech": "adjective",
       "chapter": 3,
-      "context": "He always helped weak people."
+      "context": "كَانَ يُسَاعِدُ الضُّعَفَاءَ دَائِمًا."
      },
      {
-      "word": "market",
-      "meaning": "A place where people buy and sell things.",
+      "word": "السُّوقِ",
+      "meaning": "مَكَانٌ يَشْتَرِي فِيهِ النَّاسُ الأَشْيَاءَ وَيَبِيعُونَهَا.",
       "partOfSpeech": "noun",
       "chapter": 4,
-      "context": "One day, Moses saw two men in the market."
+      "context": "فِي يَوْمٍ مِنَ الأَيَّامِ رَأَى مُوسَى رَجُلَيْنِ فِي السُّوقِ."
      },
      {
-      "word": "shepherd",
-      "meaning": "A person who looks after sheep.",
+      "word": "رُعَاةٌ",
+      "meaning": "نَاسٌ يَهْتَمُّونَ بِالغَنَمِ.",
       "partOfSpeech": "noun",
       "chapter": 5,
-      "context": "Many shepherds were there with their sheep."
+      "context": "كَانَ هُنَاكَ رُعَاةٌ كَثِيرُونَ مَعَ غَنَمِهِمْ."
      },
      {
-      "word": "army",
-      "meaning": "A very big group of soldiers.",
+      "word": "جَيْشُهُ",
+      "meaning": "الجَيْشُ: مَجْمُوعَةٌ كَبِيرَةٌ جِدًّا مِنَ الجُنُودِ.",
       "partOfSpeech": "noun",
       "chapter": 8,
-      "context": "Pharaoh and his big army were behind them!"
+      "context": "كَانَ فِرْعَوْنُ وَجَيْشُهُ الكَبِيرُ خَلْفَهُمْ!"
      }
     ]
    },
    {
     "id": 15,
     "type": "exercises",
-    "title": "Language Review",
+    "title": "مراجعة اللغة",
     "image": "https://picsum.photos/seed/exercises-moses-a1/1200/800",
-    "content": "Review the language from all chapters.",
+    "content": "رَاجِعْ لُغَةَ الْفُصُولِ كُلِّهَا.",
     "exercises": [
      {
-      "id": "moses-a1-language-review-1",
+      "id": "musa-a1-ar-language-review-1",
       "type": "drag-drop",
-      "title": "Look: Two Kinds of Past",
-      "instructions": "Put each verb in the right group.",
-      "question": "How does each verb show the past?",
+      "title": "انْظُرْ: هُوَ، هِيَ، هُمْ",
+      "instructions": "ضَعْ كُلَّ فِعْلٍ فِي مَجْمُوعَتِهِ.",
+      "question": "مَنْ فَعَلَ؟",
       "dragDropGroups": [
        {
-        "group": "Ends in -ed",
+        "group": "هُوَ",
         "items": [
-         "lived",
-         "helped",
-         "shouted",
-         "walked"
+         "صَعِدَ",
+         "أَلْقَى",
+         "ضَرَبَ"
         ]
        },
        {
-        "group": "Changes",
+        "group": "هِيَ",
         "items": [
-         "took",
-         "found",
-         "saw",
-         "threw"
+         "خَافَتْ",
+         "وَضَعَتْ",
+         "أَحَبَّتْ"
+        ]
+       },
+       {
+        "group": "هُمْ",
+        "items": [
+         "خَرَجُوا",
+         "وَصَلُوا",
+         "مَشَوْا"
         ]
        }
       ],
       "correctAnswer": {
-       "Ends in -ed": [
-        "lived",
-        "helped",
-        "shouted",
-        "walked"
+       "هُوَ": [
+        "صَعِدَ",
+        "أَلْقَى",
+        "ضَرَبَ"
        ],
-       "Changes": [
-        "took",
-        "found",
-        "saw",
-        "threw"
+       "هِيَ": [
+        "خَافَتْ",
+        "وَضَعَتْ",
+        "أَحَبَّتْ"
+       ],
+       "هُمْ": [
+        "خَرَجُوا",
+        "وَصَلُوا",
+        "مَشَوْا"
        ]
       },
-      "explanation": "Many verbs add -ed: live → lived, help → helped. Some verbs change: take → took, find → found, see → saw, throw → threw.",
+      "explanation": "الماضي لـ«هُوَ»: صَعِدَ. لـ«هِيَ» نزيد «ـتْ»: خَافَتْ. لـ«هُمْ» نزيد «ـوا»: خَرَجُوا، وفي «مَشَى» نقول: مَشَوْا.",
       "feedback": {
-       "correct": "Well done. You found the two kinds of past.",
-       "incorrect": "Say the verb today: live, take … Does it add -ed or change?"
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "انْظُرْ إِلَى آخِرِ الْفِعْلِ."
       }
      },
      {
-      "id": "moses-a1-language-review-2",
+      "id": "musa-a1-ar-language-review-2",
       "type": "choose-form",
-      "title": "Practise: Was or Were",
-      "instructions": "Choose was or were.",
-      "question": "One or many?",
+      "title": "تَدَرَّبْ: كَانَ، كَانَتْ، كَانُوا",
+      "instructions": "اخْتَرِ الْفِعْلَ الصَّحِيحَ.",
+      "question": "مَنْ فِي الْجُمْلَةِ؟",
       "formChoices": [
        {
-        "sentence": "Moses’s mother [choice] very worried.",
+        "sentence": "[choice] فِرْعَوْنُ مَلِكًا قَاسِيًا.",
         "options": [
-         "was",
-         "were"
+         "كَانَ",
+         "كَانَتْ",
+         "كَانُوا"
         ],
         "answer": 0
        },
        {
-        "sentence": "Many shepherds [choice] there with their sheep.",
+        "sentence": "[choice] أُمُّ مُوسَى قَلِقَةً جِدًّا.",
         "options": [
-         "was",
-         "were"
+         "كَانَ",
+         "كَانَتْ",
+         "كَانُوا"
         ],
         "answer": 1
+       },
+       {
+        "sentence": "بَنُو إِسْرَائِيلَ [choice] يُؤْمِنُونَ بِاللهِ.",
+        "options": [
+         "كَانَ",
+         "كَانَتْ",
+         "كَانُوا"
+        ],
+        "answer": 2
        }
       ],
       "correctAnswer": null,
-      "explanation": "One person: was. Two or more: were.",
+      "explanation": "للمذكر: كَانَ. للمؤنث: كَانَتْ. ولجماعة الناس قبل الفعل: كَانُوا.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Mother = one. Shepherds = many."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مَنْ فِي الْجُمْلَةِ؟"
       }
      },
      {
-      "id": "moses-a1-language-review-3",
+      "id": "musa-a1-ar-language-review-3",
       "type": "choose-form",
-      "title": "Practise: Did Not",
-      "instructions": "Choose the right words.",
-      "question": "Which form is right?",
+      "title": "تَدَرَّبْ: لَمْ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "مَاذَا لَمْ يَفْعَلْ؟",
       "formChoices": [
        {
-        "sentence": "Pharaoh [choice] in Allah.",
+        "sentence": "فِرْعَوْنُ لَمْ [choice] بِاللهِ.",
         "options": [
-         "did not believe",
-         "did not believed"
+         "يُؤْمِنْ",
+         "آمَنَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The baby [choice] milk from any woman.",
+        "sentence": "مُوسَى لَمْ [choice] هَذَا.",
         "options": [
-         "did not drink",
-         "did not drank"
+         "يُرِدْ",
+         "أَرَادَ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "فِرْعَوْنُ لَمْ [choice] مُوسَى.",
+        "options": [
+         "يُصَدِّقْ",
+         "صَدَّقَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "After did not, use the verb with no change: did not believe, did not drink.",
+      "explanation": "بعد «لَمْ» يأتي المضارع بالسكون، لا الماضي: لَمْ يُؤْمِنْ، لَمْ يُرِدْ، لَمْ يُصَدِّقْ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Did not + believe, drink."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "بَعْدَ «لَمْ» يَأْتِي الْمُضَارِعُ."
       }
      },
      {
-      "id": "moses-a1-language-review-4",
+      "id": "musa-a1-ar-language-review-4",
       "type": "word-bank",
-      "title": "Practise: Do This!",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What did they say?",
-      "fillBlanksText": "The king said, “[blank] all the baby boys away.” The mother said, “[blank] after the basket.” Moses said, “[blank] here.”",
+      "title": "تَدَرَّبْ: افْعَلْ!",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "مَاذَا قَالُوا؟",
+      "fillBlanksText": "قَالَ الرَّجُلُ: «[blank]!» قَالَ مُوسَى لِأُسْرَتِهِ: «[blank] هُنَا!» قَالَتْ أُمُّ مُوسَى لِبِنْتِهَا: «[blank] خَلْفَ السَّلَّةِ.»",
       "wordBank": [
-       "Take",
-       "Go",
-       "Wait",
-       "Took",
-       "Went"
+       "سَاعِدْنِي",
+       "اِنْتَظِرُوا",
+       "اِذْهَبِي",
+       "سَاعَدَنِي"
       ],
       "correctAnswer": [
-       "Take",
-       "Go",
-       "Wait"
+       "سَاعِدْنِي",
+       "اِنْتَظِرُوا",
+       "اِذْهَبِي"
       ],
-      "explanation": "Start with the verb: Take, Go, Wait.",
+      "explanation": "الأمر لواحد: سَاعِدْنِي. لجماعة: اِنْتَظِرُوا. لبنت: اِذْهَبِي. و«سَاعَدَنِي» فعل ماضٍ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Find these words in Chapters 1, 2 and 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفُصُولَ ٢ وَ٤ وَ٦."
       }
      },
      {
-      "id": "moses-a1-language-review-5",
+      "id": "musa-a1-ar-language-review-5",
       "type": "error-correction",
-      "title": "Practise: Fix One Word",
-      "instructions": "Find the wrong word. Write the right word.",
-      "question": "Which word is wrong?",
+      "title": "تَدَرَّبْ: صَحِّحْ كَلِمَةً وَاحِدَةً",
+      "instructions": "ابْحَثْ عَنِ الْكَلِمَةِ الْخَطَأِ وَصَحِّحْهَا.",
+      "question": "أَيُّ كَلِمَةٍ خَطَأٌ؟",
       "errorItems": [
        {
-        "sentence": "Moses throwed his stick down.",
-        "error": "throwed",
+        "sentence": "صَارَ الْعَصَا ثُعْبَانًا كَبِيرًا.",
+        "error": "صَارَ",
         "options": [
-         "threw",
-         "throw",
-         "throws"
+         "صَارَتِ",
+         "صَارُوا",
+         "يَصِيرُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The water taked the basket away.",
-        "error": "taked",
+        "sentence": "الْمَلِكَةُ أَحَبَّ الطِّفْلَ.",
+        "error": "أَحَبَّ",
         "options": [
-         "take",
-         "took",
-         "takes"
+         "أَحَبُّوا",
+         "أَحَبَّتِ",
+         "يُحِبُّ"
         ],
         "answer": 1
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Throw” and “take” change in the past: threw, took.",
+      "explanation": "العصا مؤنث، فنقول: صَارَتِ الْعَصَا. والملكة امرأة، فنقول: أَحَبَّتْ.",
       "feedback": {
-       "correct": "Well done.",
-       "incorrect": "Throw → threw. Take → took. They do not take -ed."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "انْظُرْ: مُذَكَّرٌ أَمْ مُؤَنَّثٌ؟"
       }
      },
      {
-      "id": "moses-a1-language-review-6",
+      "id": "musa-a1-ar-language-review-6",
       "type": "reflection",
-      "title": "Use: Me and My Family",
-      "instructions": "Write three sentences about your family.",
-      "question": "Who is in your family?",
+      "title": "اسْتَعْمِلْ: أَنَا وَأُسْرَتِي",
+      "instructions": "اكْتُبْ ثَلَاثَ جُمَلٍ عَنْكَ وَعَنْ أُسْرَتِكَ.",
+      "question": "مَاذَا تَفْعَلُ أُسْرَتُكَ؟",
       "correctAnswer": null,
-      "explanation": "Use was / were, one past verb and one -er word.",
+      "explanation": "استعمل «كَانَ / كَانَتْ»، و«لَمْ» + المضارع، و«سَنَـ».",
       "feedback": {
-       "correct": "Write three short sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "One “was / were”: “My grandfather was …”",
+        "question": "«كَانَتْ أُمِّي …»",
         "mode": "Individual",
-        "example": "My grandfather was a teacher."
+        "example": "كَانَتْ أُمِّي سَعِيدَةً أَمْسِ."
        },
        {
-        "question": "One past verb: “Last year, we …”",
+        "question": "«لَمْ …»",
         "mode": "Individual",
-        "example": "Last year, we visited Konya."
+        "example": "لَمْ أَذْهَبْ إِلَى السُّوقِ."
        },
        {
-        "question": "One “-er than”: “My … is …er than …”",
+        "question": "«سَنَـ…»",
         "mode": "Individual",
-        "example": "My father is taller than my mother."
+        "example": "غَدًا سَنَزُورُ جَدِّي."
        }
       ]
      }
@@ -2677,163 +2680,163 @@
    {
     "id": 16,
     "type": "final-challenge",
-    "title": "Final Challenge",
+    "title": "التحدي النهائي",
     "image": "https://picsum.photos/seed/challenge-moses-a1/1200/800",
-    "content": "Bring the whole story together in the Final Challenge.",
+    "content": "اختبر معلوماتك عن قصة النبي موسى عليه السلام بأكملها.",
     "exercises": [
      {
-      "id": "moses-a1-final-1",
+      "id": "musa-a1-ar-final-1",
       "type": "fill-blanks",
-      "title": "The Bad Dream",
-      "instructions": "Write one word.",
-      "question": "Who had a bad dream?",
-      "fillBlanksText": "One night, the [blank] had a bad dream.",
+      "title": "الْحُلْمُ السَّيِّئُ",
+      "instructions": "اكْتُبِ الْكَلِمَةَ النَّاقِصَةَ.",
+      "question": "مَاذَا رَأَى الْمَلِكُ فِي لَيْلَةٍ؟",
+      "fillBlanksText": "فِي لَيْلَةٍ رَأَى الْمَلِكُ [blank] سَيِّئًا.",
       "correctAnswer": [
-       "king"
+       "حُلْمًا"
       ],
-      "explanation": "Chapter 1: “One night, the king had a bad dream.”",
+      "explanation": "الفصل الأول: «فِي لَيْلَةٍ رَأَى الْمَلِكُ حُلْمًا سَيِّئًا».",
       "feedback": {
-       "correct": "Yes. The king.",
-       "incorrect": "Read the last paragraph of Chapter 1."
+       "correct": "نَعَمْ. حُلْمًا.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأَخِيرَةَ مِنَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "moses-a1-final-2",
+      "id": "musa-a1-ar-final-2",
       "type": "multiple-choice",
-      "title": "The River",
-      "instructions": "Choose the answer.",
-      "question": "Where did Moses’s mother put the basket?",
+      "title": "النَّهْرُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "عَلَى أَيِّ نَهْرٍ وَضَعَتْ أُمُّ مُوسَى السَّلَّةَ؟",
       "options": [
-       "on the River Nile",
-       "in the palace",
-       "in the market"
+       "نَهْرِ النِّيلِ",
+       "نَهْرِ الْفُرَاتِ",
+       "نَهْرِ مَدْيَنَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: “She put the basket on the River Nile.”",
+      "explanation": "الفصل الثاني: «وَضَعَتِ السَّلَّةَ عَلَى نَهْرِ النِّيلِ».",
       "feedback": {
-       "correct": "Yes. On the River Nile.",
-       "incorrect": "Read the first paragraph of Chapter 2."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "moses-a1-final-3",
+      "id": "musa-a1-ar-final-3",
       "type": "true-false",
-      "title": "The Market",
-      "instructions": "Is it true or false?",
-      "question": "Moses saw two men fighting in the market.",
+      "title": "السُّوقُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "فِي السُّوقِ كَانَ الرَّجُلَانِ يَتَقَاتَلَانِ.",
       "correctAnswer": true,
-      "explanation": "Chapter 4: “One day, Moses saw two men in the market. They were fighting.”",
+      "explanation": "الفصل الرابع: «رَأَى مُوسَى رَجُلَيْنِ فِي السُّوقِ. كَانَا يَتَقَاتَلَانِ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the first paragraph of Chapter 4."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "moses-a1-final-4",
+      "id": "musa-a1-ar-final-4",
       "type": "multiple-choice",
-      "title": "The Job",
-      "instructions": "Choose the answer.",
-      "question": "Who gave Moses a job?",
+      "title": "الْعَمَلُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَنْ أَعْطَى مُوسَى عَمَلًا فِي مَدْيَنَ؟",
       "options": [
-       "the girls’ father",
-       "Pharaoh",
-       "a shepherd"
+       "أَبُو الْفَتَاتَيْنِ",
+       "فِرْعَوْنُ",
+       "الرُّعَاةُ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “Their father asked Moses to come to his house. He gave Moses a job.”",
+      "explanation": "الفصل الخامس: «طَلَبَ أَبُوهُمَا مِنْ مُوسَى أَنْ يَأْتِيَ إِلَى بَيْتِهِ. أَعْطَى عَمَلًا لِمُوسَى».",
       "feedback": {
-       "correct": "Yes. The girls’ father.",
-       "incorrect": "Read the last paragraph of Chapter 5."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأَخِيرَةَ مِنَ الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "moses-a1-final-5",
+      "id": "musa-a1-ar-final-5",
       "type": "matching",
-      "title": "Who Is It?",
-      "instructions": "Match the name with the sentence.",
-      "question": "Who is it?",
+      "title": "مَنْ هُوَ؟",
+      "instructions": "صِلِ الِاسْمَ بِالْجُمْلَةِ.",
+      "question": "مَنْ هُوَ؟",
       "matchingHeadings": {
-       "left": "Name",
-       "right": "Sentence"
+       "left": "الِاسْمُ",
+       "right": "الْجُمْلَةُ"
       },
       "matchingPairs": [
        {
-        "left": "Asiya",
-        "right": "She was the queen."
+        "left": "آسِيَةُ",
+        "right": "مَلِكَةٌ طَيِّبَةٌ أَحَبَّتِ الطِّفْلَ."
        },
        {
-        "left": "Aaron",
-        "right": "He was the brother of Moses."
+        "left": "هَارُونُ",
+        "right": "أَخُو مُوسَى"
        },
        {
-        "left": "Pharaoh",
-        "right": "He said, “I am your god.”"
+        "left": "فِرْعَوْنُ",
+        "right": "مَلِكُ مِصْرَ الْقَاسِي"
        }
       ],
       "correctAnswer": {
-       "Asiya": "She was the queen.",
-       "Aaron": "He was the brother of Moses.",
-       "Pharaoh": "He said, “I am your god.”"
+       "آسِيَةُ": "مَلِكَةٌ طَيِّبَةٌ أَحَبَّتِ الطِّفْلَ.",
+       "هَارُونُ": "أَخُو مُوسَى",
+       "فِرْعَوْنُ": "مَلِكُ مِصْرَ الْقَاسِي"
       },
-      "explanation": "Chapter 2: the queen, Asiya. Chapter 6: “His brother Aaron went with him.” Chapter 1: Pharaoh said, “I am your god.”",
+      "explanation": "الفصل الثاني: آسية الملكة الطيبة. الفصل السادس: هارون أخو موسى. الفصل الأول: فرعون ملك مصر، وكان قاسيًا.",
       "feedback": {
-       "correct": "Good. You matched all three.",
-       "incorrect": "Read Chapters 1, 2 and 6 again."
+       "correct": "أَحْسَنْتَ. وَصَلْتَ الثَّلَاثَةَ.",
+       "incorrect": "اقْرَأِ الْفُصُولَ ١ وَ٢ وَ٦."
       }
      },
      {
-      "id": "moses-a1-final-6",
+      "id": "musa-a1-ar-final-6",
       "type": "true-false",
-      "title": "The Stick",
-      "instructions": "Is it true or false?",
-      "question": "The stick turned into a big snake.",
+      "title": "الْعَصَا",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "صَارَتْ عَصَا مُوسَى ثُعْبَانًا.",
       "correctAnswer": true,
-      "explanation": "Chapter 6: “The stick turned into a big snake!”",
+      "explanation": "الفصل السادس: «صَارَتِ الْعَصَا ثُعْبَانًا كَبِيرًا!» والفصل السابع: «صَارَتْ ثُعْبَانًا».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَيْنِ السَّادِسَ وَالسَّابِعَ."
       }
      },
      {
-      "id": "moses-a1-final-7",
+      "id": "musa-a1-ar-final-7",
       "type": "multiple-choice",
-      "title": "The Walls",
-      "instructions": "Choose the answer.",
-      "question": "What did the water look like?",
+      "title": "الْجِدَارَانِ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مِثْلَ أَيِّ شَيْءٍ وَقَفَ الْمَاءُ؟",
       "options": [
-       "two big walls",
-       "a big river",
-       "a small lake"
+       "مِثْلَ جِدَارَيْنِ كَبِيرَيْنِ",
+       "مِثْلَ جَبَلٍ صَغِيرٍ",
+       "مِثْلَ نَهْرٍ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 9: “The water stood up like two big walls.”",
+      "explanation": "الفصل التاسع: «وَقَفَ الْمَاءُ مِثْلَ جِدَارَيْنِ كَبِيرَيْنِ».",
       "feedback": {
-       "correct": "Yes. Two big walls.",
-       "incorrect": "Read the first paragraph of Chapter 9."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأْ أَوَّلَ الْفَصْلِ التَّاسِعِ."
       }
      },
      {
-      "id": "moses-a1-final-8",
+      "id": "musa-a1-ar-final-8",
       "type": "sequencing",
-      "title": "The Story of Moses",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "قِصَّةُ مُوسَى",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "The baby was on the River Nile."
+        "text": "وَضَعَتْ أُمُّ مُوسَى السَّلَّةَ عَلَى النَّهْرِ."
        },
        {
         "id": "2",
-        "text": "Moses helped two girls in Midian."
+        "text": "سَاعَدَ مُوسَى الْفَتَاتَيْنِ فِي مَدْيَنَ."
        },
        {
         "id": "3",
-        "text": "The magicians believed in Allah."
+        "text": "سَمِعَ مُوسَى صَوْتًا عَلَى الْجَبَلِ."
        },
        {
         "id": "4",
-        "text": "The sea opened."
+        "text": "انْفَتَحَ الْبَحْرُ."
        }
       ],
       "correctAnswer": [
@@ -2842,10 +2845,10 @@
        "3",
        "4"
       ],
-      "explanation": "The River Nile (Chapter 2) → Midian (Chapter 5) → the magicians (Chapter 7) → the sea (Chapter 9).",
+      "explanation": "النهر (الفصل ٢) ← مدين (الفصل ٥) ← الجبل (الفصل ٦) ← البحر (الفصل ٩).",
       "feedback": {
-       "correct": "Great! You know the story of Moses.",
-       "incorrect": "Think about the order of the chapters."
+       "correct": "رَائِعٌ! أَنْتَ تَعْرِفُ قِصَّةَ مُوسَى.",
+       "incorrect": "فَكِّرْ فِي تَرْتِيبِ الْفُصُولِ."
       }
      }
     ]

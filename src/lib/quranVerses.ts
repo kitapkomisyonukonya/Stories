@@ -46,6 +46,8 @@ const EXTRA: Record<string, Record<number, [string, string][]>> = {
 
 // Arabic passages with no reference after them, matching an English verse that has one.
 const EXTRA_AR: Record<string, Record<number, [string, string][]>> = {
+  'ibrahim-A1': { 4: [['«يَا نَارُ،', 'عَلَى إِبْرَاهِيمَ»']] },
+  'musa-A1': { 6: [['«يَا مُوسَى،', 'أَنَا اللهُ»']], 8: [['«كَلَّا!', 'عَلَى الطَّرِيقِ»']] },
   'musa-B1': { 5: [['«اِغْفِرْ لي!', 'من عمل الشيطان»']] },
   'musa-B2': {
     10: [['﴿وَدَخَلَ الْمَدِينَةَ', 'مِنَ الْمُصْلِحِينَ»']],
