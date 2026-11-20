@@ -98,8 +98,9 @@ steps:
         # ElevenLabs quota) the hash is not saved, so the queue is retried by the next build.
         # The slim image no longer ships python3 (builds since late October failed here silently).
         command -v python3 >/dev/null || { apt-get update -qq >/dev/null && apt-get install -y -qq --no-install-recommends python3 >/dev/null; } || echo "[Stories TTS] Could not install python3."
-        # Four chapters at a time, so a large batch (such as the 52 A1 chapters) needs fewer builds.
-        export STORIES_TTS_WORKERS=4
+        # The English and Arabic steps run side by side on one ElevenLabs account, which allows
+        # 5 requests at once: English 2 + Arabic 3. More gives "concurrent_limit_exceeded" (429).
+        export STORIES_TTS_WORKERS=2
         if python3 scripts/tts/expand_source_batch.py && python3 scripts/tts/process_requests.py; then
           python3 scripts/tts/cleanup_duplicates.py || echo "[Stories TTS] Duplicate cleanup failed; the deploy continues."
           printf '%s' "$$hash" | gcloud storage cp - "$$state" || echo "[Stories TTS] Could not save the queue hash; the next build checks the queue again."
