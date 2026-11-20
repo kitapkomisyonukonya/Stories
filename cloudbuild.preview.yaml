@@ -43,8 +43,16 @@ steps:
           vite.config.ts vite.panel.config.ts tsconfig.json Dockerfile .dockerignore cloudbuild.preview.yaml \
           -type f -print0 2>/dev/null | LC_ALL=C sort -z | xargs -0 sha256sum | sha256sum | cut -c1-40)"
         echo "$$hash" > /workspace/.app-hash
-        deployed="$$(gcloud run services describe ${_SERVICE} --region=${_REGION} \
-          --format='value(metadata.labels.app-hash)' 2>/dev/null || true)"
+        # Compared with the revision that actually serves (the last one that started), not with the
+        # service's own label: a deploy whose container fails to start still writes that label, and
+        # every later build would then skip although the new app never went live.
+        ready="$$(gcloud run services describe ${_SERVICE} --region=${_REGION} \
+          --format='value(status.latestReadyRevisionName)' 2>/dev/null || true)"
+        deployed=""
+        if [ -n "$$ready" ]; then
+          deployed="$$(gcloud run revisions describe "$$ready" --region=${_REGION} \
+            --format='value(metadata.labels.app-hash)' 2>/dev/null || true)"
+        fi
         if [ -n "$$deployed" ] && [ "$$deployed" = "$$hash" ]; then
           echo "[Stories] App inputs unchanged ($$hash); skipping build and deploy."
           touch /workspace/.skip-deploy
