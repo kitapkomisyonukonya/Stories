@@ -96,6 +96,8 @@ steps:
         export ELEVENLABS_API_KEY="$$(gcloud secrets versions access latest --secret=ELEVENLABS_API_KEY --project=$PROJECT_ID)"
         # Narration never blocks the app deploy: on a failure (for example an exhausted
         # ElevenLabs quota) the hash is not saved, so the queue is retried by the next build.
+        # The slim image no longer ships python3 (builds since late October failed here silently).
+        command -v python3 >/dev/null || { apt-get update -qq >/dev/null && apt-get install -y -qq --no-install-recommends python3 >/dev/null; } || echo "[Stories TTS] Could not install python3."
         if python3 scripts/tts/expand_source_batch.py && python3 scripts/tts/process_requests.py; then
           python3 scripts/tts/cleanup_duplicates.py || echo "[Stories TTS] Duplicate cleanup failed; the deploy continues."
           printf '%s' "$$hash" | gcloud storage cp - "$$state" || echo "[Stories TTS] Could not save the queue hash; the next build checks the queue again."
@@ -134,6 +136,8 @@ steps:
           exit 0
         fi
         export ELEVENLABS_ARABIC_API_KEY
+        # The slim image no longer ships python3 (builds since late October failed here silently).
+        command -v python3 >/dev/null || { apt-get update -qq >/dev/null && apt-get install -y -qq --no-install-recommends python3 ffmpeg >/dev/null; } || echo "[Stories TTS Arabic] Could not install python3."
         if python3 scripts/tts/process_arabic_requests.py; then
           printf '%s' "$$hash" | gcloud storage cp - "$$state" || echo "[Stories TTS Arabic] Could not save the queue hash; the next build checks the queue again."
         else
@@ -165,6 +169,8 @@ steps:
           echo "[Stories Images] Picture queue unchanged since the last complete run ($$hash); skipping."
           exit 0
         fi
+        # The slim image no longer ships python3 (builds since late October failed here silently).
+        command -v python3 >/dev/null || { apt-get update -qq >/dev/null && apt-get install -y -qq --no-install-recommends python3 >/dev/null; } || echo "[Stories Pictures] Could not install python3."
         if python3 scripts/media/process_image_requests.py; then
           printf '%s' "$$hash" | gcloud storage cp - "$$state" || echo "[Stories Images] Could not save the queue hash; the next build checks again."
         else
@@ -200,6 +206,8 @@ steps:
           exit 0
         fi
         export ELEVENLABS_ALIGN_API_KEY
+        # The slim image no longer ships python3 (builds since late October failed here silently).
+        command -v python3 >/dev/null || { apt-get update -qq >/dev/null && apt-get install -y -qq --no-install-recommends python3 >/dev/null; } || echo "[Stories Align] Could not install python3."
         if python3 scripts/tts/align_audio.py; then
           printf '%s' "$$hash" | gcloud storage cp - "$$state" || echo "[Stories Align] Could not save the queue hash; the next build checks again."
         else
@@ -227,6 +235,8 @@ steps:
           echo "[Stories Tests] Nothing to deploy for this commit; not waiting for the tests."
           exit 0
         fi
+        # The slim image no longer ships python3 (builds since late October failed here silently).
+        command -v python3 >/dev/null || { apt-get update -qq >/dev/null && apt-get install -y -qq --no-install-recommends python3 >/dev/null; } || echo "[Stories Tests] Could not install python3."
         api="https://api.github.com/repos/kitapkomisyonukonya/Stories/commits/$COMMIT_SHA/check-runs"
         for attempt in $$(seq 1 80); do
           body="$$(curl -fsS -H 'Accept: application/vnd.github+json' "$$api" 2>/dev/null || true)"
