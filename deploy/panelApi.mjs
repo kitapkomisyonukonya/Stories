@@ -2,6 +2,7 @@ import { createHash, createVerify } from 'node:crypto';
 import { createGithubRepo } from './panel/github.mjs';
 import { createCloudStorage } from './panel/storage.mjs';
 import { createFakeRepo, createFakeStorage } from './panel/fakes.mjs';
+import { createFeedback } from './feedback.mjs';
 
 /**
  * The server side of the content panel.
@@ -291,6 +292,8 @@ export const createPanelApi = (env = process.env, deps = {}) => {
   const storage = deps.storage ?? (demo ? createFakeStorage() : env.K_SERVICE ? createCloudStorage(bucket) : null);
 
   const enabled = Boolean(owners);
+  // The app's feedback form writes here even where the panel itself is switched off (the live site).
+  const feedback = deps.feedback ?? createFeedback({ storage });
 
   // --- team ---------------------------------------------------------------------------------
 
@@ -609,6 +612,23 @@ export const createPanelApi = (env = process.env, deps = {}) => {
   };
 
   const routes = [
+    [
+      'GET',
+      /^feedback$/,
+      async () => {
+        if (!storage) throw problem(503, 'Depolama bağlı değil.');
+        return { entries: await feedback.list() };
+      },
+    ],
+    [
+      'POST',
+      /^feedback\/remove$/,
+      async ({ member, body }) => {
+        requireAdmin(member);
+        await feedback.remove(body.path);
+        return { entries: await feedback.list() };
+      },
+    ],
     [
       'POST',
       /^media\/folders$/,
@@ -1042,5 +1062,5 @@ export const createPanelApi = (env = process.env, deps = {}) => {
     return true;
   };
 
-  return { enabled, handle, memberFor, demo };
+  return { enabled, handle, memberFor, demo, feedback };
 };

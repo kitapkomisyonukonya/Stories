@@ -23,6 +23,10 @@ import { useMyWords } from '../../lib/myWords';
 import { firstOpenBookAt } from '../../lib/nextBook';
 import { InstallAppButton } from '../ui/InstallAppButton';
 import { AboutPage } from './AboutPage';
+import { FeedbackPage } from './FeedbackPage';
+import { isFeedbackHash } from '../../lib/feedback';
+import { FEEDBACK_LINK_COPY } from '../../data/feedbackCopy';
+import { SCORM } from '../../scorm/config';
 import { UsageGuide } from './UsageGuide';
 import { BrandTitle } from './BrandedEntry';
 import { USAGE_GUIDES } from '../../data/usageGuides';
@@ -85,6 +89,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
   const [activeCollection, setActiveCollection] = useState<CollectionId>('all');
   const [isAboutOpen, setIsAboutOpen] = useState(false);
   const [isUsageGuideOpen, setIsUsageGuideOpen] = useState(false);
+  // #/feedback opens the feedback form straight away (the link handed to testers).
+  const [isFeedbackOpen, setIsFeedbackOpen] = useState(() => !SCORM && typeof window !== 'undefined' && isFeedbackHash(window.location.hash));
   const [lastActive, setLastActive] = useState<{ prophetId: string; level: Level; position: ReaderPosition | null } | null>(null);
 
   const { language, t, isRTL, formatNumber } = useLanguage();
@@ -402,6 +408,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
       <LevelExamDialog level={examLevel} onClose={() => setExamLevel(null)} />
       <ScoreExamDialog isOpen={isScoreExamOpen} onClose={() => setIsScoreExamOpen(false)} />
       <AboutPage isOpen={isAboutOpen} onClose={() => setIsAboutOpen(false)} />
+      {!SCORM && <FeedbackPage isOpen={isFeedbackOpen} onClose={() => setIsFeedbackOpen(false)} />}
       <UsageGuide isOpen={isUsageGuideOpen} onClose={() => setIsUsageGuideOpen(false)} />
     </>
   );
@@ -423,6 +430,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           usageGuideTitle={USAGE_GUIDES[role ?? 'student'][lang].title}
           onOpenMyWords={() => setIsMyWordsOpen(true)}
           onOpenAbout={() => setIsAboutOpen(true)}
+          onOpenFeedback={SCORM ? undefined : () => setIsFeedbackOpen(true)}
           onOpenUsageGuide={() => setIsUsageGuideOpen(true)}
           onOpenLevelTest={() => setIsLevelTestOpen(true)}
           onOpenCheckCode={() => setIsCheckCodeOpen(true)}
@@ -1036,9 +1044,20 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
         >
           {t('nav.aboutSources')}
         </button>
+        {!SCORM && (
+          <button
+            type="button"
+            onClick={() => setIsFeedbackOpen(true)}
+            className="min-h-10 rounded-full px-4 text-[13px] font-semibold text-[#F6F0E2]/55 underline decoration-white/20 underline-offset-4 transition-colors hover:text-[#F6F0E2] hover:decoration-[#D8B35C]/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50"
+            data-feedback-link
+          >
+            {FEEDBACK_LINK_COPY[lang].link}
+          </button>
+        )}
       </footer>
 
       <AboutPage isOpen={isAboutOpen} onClose={() => setIsAboutOpen(false)} />
+      {!SCORM && <FeedbackPage isOpen={isFeedbackOpen} onClose={() => setIsFeedbackOpen(false)} />}
       <UsageGuide isOpen={isUsageGuideOpen} onClose={() => setIsUsageGuideOpen(false)} />
     </div>
   );

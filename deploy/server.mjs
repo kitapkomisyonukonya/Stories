@@ -370,6 +370,11 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
+  if (urlPath === '/feedback-api/send' && req.method === 'POST') {
+    await panelApi.feedback.handleSend(req, res);
+    return;
+  }
+
   if (urlPath === '/__event' && req.method === 'POST') {
     readEvent(req, res);
     return;

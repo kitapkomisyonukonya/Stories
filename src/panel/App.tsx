@@ -5,6 +5,7 @@ import {
   IconBooks,
   IconCard,
   IconClock,
+  IconSend,
   IconHelp,
   IconHome,
   IconImage,
@@ -23,6 +24,7 @@ import { ConfirmHost, Toast } from './ui';
 import { Baskets } from './views/Baskets';
 import { BookDetail, Books } from './views/Books';
 import { Cards } from './views/Cards';
+import { Feedback } from './views/Feedback';
 import { Help } from './views/Help';
 import { History } from './views/History';
 import { Home } from './views/Home';
@@ -207,6 +209,7 @@ const Shell = () => {
     { to: '/yeni-kitap', label: 'Yeni kitap', icon: <IconSparkDoc size={18} />, show: member?.role !== 'viewer' },
     { to: '/onay', label: admin ? 'Onay bekleyenler' : 'Sepetim', icon: <IconInbox size={18} />, count: admin ? waiting + (mine ? 1 : 0) : mine },
     { to: '/gecmis', label: 'Geçmiş', icon: <IconClock size={18} /> },
+    { to: '/geri-bildirim', label: 'Geri bildirimler', icon: <IconSend size={18} /> },
     { to: '/ekip', label: 'Ekip', icon: <IconUsers size={18} /> },
     { to: '/ayarlar', label: 'Yayın ve ayarlar', icon: <IconRocket size={18} />, show: admin },
     { to: '/yardim', label: 'Yardım', icon: <IconHelp size={18} /> },
@@ -254,6 +257,9 @@ const Shell = () => {
       break;
     case 'ekip':
       page = <Team />;
+      break;
+    case 'geri-bildirim':
+      page = <Feedback />;
       break;
     case 'gecmis':
       page = <History />;

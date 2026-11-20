@@ -3,6 +3,8 @@ import { SCORM } from '../../scorm/config';
 import { suggestNextBook, type NextBookReason } from '../../lib/nextBook';
 import { useMyWords } from '../../lib/myWords';
 import { MyWordsPanel } from './MyWordsPanel';
+import { FeedbackPage } from '../layout/FeedbackPage';
+import { FEEDBACK_LINK_COPY } from '../../data/feedbackCopy';
 import { BookSeal } from '../seyahatname/art';
 import { JOURNAL_COPY as journalCopy } from '../seyahatname/copy';
 import { sealBook } from '../../lib/seyahatname/store';
@@ -18,6 +20,7 @@ import {
   ChevronRight,
   Headphones,
   Library,
+  MessageSquare,
   RotateCcw,
   Pencil,
   Type,
@@ -77,6 +80,8 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
   const isArabic = language === 'ar';
   const { isTeacher } = useUserRole();
   const [isResultOpen, setIsResultOpen] = useState(false);
+  const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
+  const feedbackCopy = FEEDBACK_LINK_COPY[isArabic ? 'ar' : 'en'];
 
   const currentStoryId = useMemo(() => getCurrentStoryId(bookData.id), [bookData.id]);
   const story = useMemo(() => getStoryMeta(currentStoryId) ?? storyCatalog[0], [currentStoryId]);
@@ -713,6 +718,27 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
               startInReview
               book={{ storyId: currentStoryId, level: bookData.level }}
             />
+          </section>
+        )}
+
+        {!SCORM && (
+          <section className="mt-6 flex flex-col gap-4 rounded-[30px] border border-white/8 bg-white/[0.035] p-6 sm:flex-row sm:items-center sm:p-8" data-summary-feedback>
+            <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full" style={{ background: visual.accentSoft, color: visual.accentBright }}>
+              <MessageSquare size={22} />
+            </span>
+            <div className="min-w-0 flex-1">
+              <h3 className="font-display text-xl font-semibold">{feedbackCopy.summaryTitle}</h3>
+              <p className="mt-1 text-sm leading-6 text-white/62">{feedbackCopy.summaryText}</p>
+            </div>
+            <button
+              type="button"
+              onClick={() => setIsFeedbackOpen(true)}
+              className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-xl px-5 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5"
+              style={{ background: visual.summaryButton }}
+            >
+              {feedbackCopy.link}
+            </button>
+            <FeedbackPage isOpen={isFeedbackOpen} onClose={() => setIsFeedbackOpen(false)} book={{ storyId: currentStoryId, level: bookData.level }} />
           </section>
         )}
 

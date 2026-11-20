@@ -15,7 +15,7 @@ import {
   Layers,
   MapPin,
   Menu,
-  X, HelpCircle, FileText, Scroll } from './components/ui/icons';
+  X, HelpCircle, FileText, Scroll, MessageSquare } from './components/ui/icons';
 
 import { Level, PageData } from './types';
 import { useBookBundle } from './hooks/useBookBundle';
@@ -53,6 +53,8 @@ const SummaryDashboard = lazy(() => import('./components/book/SummaryDashboard')
 import { SelfStudyGuide } from './components/layout/SelfStudyGuide';
 import { HomePage } from './components/layout/HomePage';
 import { AboutPage } from './components/layout/AboutPage';
+import { FeedbackPage } from './components/layout/FeedbackPage';
+import { FEEDBACK_LINK_COPY } from './data/feedbackCopy';
 import { HowToUse } from './components/layout/HowToUse';
 import { UsageGuide } from './components/layout/UsageGuide';
 import { USAGE_GUIDES } from './data/usageGuides';
@@ -95,6 +97,7 @@ const AppContent = () => {
   const [currentPageIndex, setCurrentPageIndex] = useState(initialRoute?.pageIndex ?? 0);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
+  const [isFeedbackOpen, setIsFeedbackOpen] = useState(false);
   const [isHowToUseOpen, setIsHowToUseOpen] = useState(false);
   const [isUsageGuideOpen, setIsUsageGuideOpen] = useState(false);
   const [isMyWordsOpen, setIsMyWordsOpen] = useState(false);
@@ -631,7 +634,7 @@ const AppContent = () => {
 
       // Only navigate if a story is active, no overlays are open, and summary is not shown
       if (!selectedProphetId || showSummary || isFinalChallengePage) return;
-      if (isMenuOpen || isAboutOpen || isHowToUseOpen || isUsageGuideOpen || isMyWordsOpen || isJournalOpen || isTeacherGuideOpen || isSelfStudyOpen || isQuickTOCOpen || isReaderSettingsOpen) return;
+      if (isMenuOpen || isAboutOpen || isFeedbackOpen || isHowToUseOpen || isUsageGuideOpen || isMyWordsOpen || isJournalOpen || isTeacherGuideOpen || isSelfStudyOpen || isQuickTOCOpen || isReaderSettingsOpen) return;
 
       if (e.key === 'ArrowRight') {
         if (language === 'ar') {
@@ -657,6 +660,7 @@ const AppContent = () => {
     showSummary,
     isMenuOpen,
     isAboutOpen,
+    isFeedbackOpen,
     isHowToUseOpen,
     isUsageGuideOpen,
     isMyWordsOpen,
@@ -688,7 +692,7 @@ const AppContent = () => {
       Boolean(target?.closest('input, textarea, select, [role="slider"], [draggable="true"], [data-no-swipe]')) ||
       startsInSideScroller(target) ||
       showSummary || isFinalChallengePage ||
-      isMenuOpen || isAboutOpen || isHowToUseOpen || isUsageGuideOpen || isMyWordsOpen || isJournalOpen || isTeacherGuideOpen || isSelfStudyOpen || isQuickTOCOpen || isReaderSettingsOpen;
+      isMenuOpen || isAboutOpen || isFeedbackOpen || isHowToUseOpen || isUsageGuideOpen || isMyWordsOpen || isJournalOpen || isTeacherGuideOpen || isSelfStudyOpen || isQuickTOCOpen || isReaderSettingsOpen;
     swipeStartRef.current = touch ? { x: touch.clientX, y: touch.clientY, ignore } : null;
   };
   const handleSwipeEnd = (e: React.TouchEvent) => {
@@ -1503,6 +1507,20 @@ const AppContent = () => {
                   <Info size={21} className={themeClasses.menuAccentText} />
                   <span className="font-display text-[14px] sm:text-[15px] font-semibold">{t('nav.aboutSources')}</span>
                 </button>
+                {!SCORM && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setIsMenuOpen(false);
+                      setIsFeedbackOpen(true);
+                    }}
+                    className={cn("touch-target flex w-full items-center gap-4 rounded-xl px-4 text-parchment/80 transition-colors", themeClasses.menuHoverBg)}
+                    data-feedback-link
+                  >
+                    <MessageSquare size={21} className={themeClasses.menuAccentText} />
+                    <span className="font-display text-[14px] sm:text-[15px] font-semibold">{FEEDBACK_LINK_COPY[language === 'ar' ? 'ar' : 'en'].link}</span>
+                  </button>
+                )}
               </div>
 
             </motion.aside>
@@ -1511,6 +1529,13 @@ const AppContent = () => {
       </AnimatePresence>
 
       <AboutPage isOpen={isAboutOpen} onClose={() => setIsAboutOpen(false)} />
+      {!SCORM && (
+        <FeedbackPage
+          isOpen={isFeedbackOpen}
+          onClose={() => setIsFeedbackOpen(false)}
+          book={selectedProphetId && currentLevel ? { storyId: selectedProphetId, level: currentLevel } : undefined}
+        />
+      )}
       <HowToUse isOpen={isHowToUseOpen} onClose={() => setIsHowToUseOpen(false)} isTeacher={isTeacher} />
       <UsageGuide isOpen={isUsageGuideOpen} onClose={() => setIsUsageGuideOpen(false)} />
       <MyWordsPanel isOpen={isMyWordsOpen} onClose={() => setIsMyWordsOpen(false)} />

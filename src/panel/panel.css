@@ -2158,3 +2158,62 @@ small.bad {
   outline: 2px solid var(--gold);
   outline-offset: 2px;
 }
+
+/* Geri bildirimler (the app's feedback form) */
+.feedback-stats {
+  margin-bottom: 14px;
+}
+
+.feedback-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 14px;
+}
+
+.feedback-filters label {
+  display: grid;
+  gap: 4px;
+}
+
+.feedback-filters .feedback-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 38px;
+}
+
+.feedback-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.feedback-head .grow {
+  flex: 1;
+}
+
+.feedback-scores {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.feedback-text {
+  margin-top: 12px;
+}
+
+.feedback-text p {
+  margin: 2px 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.55;
+}
+
+@media (max-width: 720px) {
+  .feedback-stats.grid.three {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

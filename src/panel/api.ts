@@ -172,6 +172,23 @@ const request = async <T>(path: string, init: { method?: string; body?: unknown 
   return data as T;
 };
 
+/** One entry of the app's feedback form, as the server keeps it. */
+export interface FeedbackItem {
+  id: string;
+  path: string;
+  at: string;
+  formLang: 'tr' | 'en' | 'ar';
+  appLang: 'en' | 'ar';
+  role: 'student' | 'teacher' | 'parent' | 'other' | null;
+  storyId: string | null;
+  level: string | null;
+  ratings: Partial<Record<'overall' | 'ease' | 'level' | 'exercises' | 'media', number>>;
+  liked: string;
+  problems: string;
+  ideas: string;
+  device: 'phone' | 'tablet' | 'computer' | null;
+}
+
 export const api = {
   config: async (): Promise<PanelConfig | null> => {
     const response = await fetch('/panel-api/config').catch(() => null);
@@ -222,6 +239,8 @@ export const api = {
   newBookRuns: () => request<{ runs: { id: number; branch: string; status: string; conclusion: string | null; createdAt: string; url: string }[] }>('/panel-api/new-book'),
   askNewBook: (number: number, text: string, choice: { model: WriterModel; effort: WriterEffort }) =>
     request<{ asked: boolean }>(`/panel-api/new-book/${number}/ask`, { method: 'POST', body: { text, ...choice } }),
+  feedback: () => request<{ entries: FeedbackItem[] }>('/panel-api/feedback'),
+  removeFeedback: (path: string) => request<{ entries: FeedbackItem[] }>('/panel-api/feedback/remove', { method: 'POST', body: { path } }),
   release: () => request<{ enabled: boolean; branch?: string; exists?: boolean; waiting?: { sha: string; message: string; date?: string }[]; aheadBy?: number | null }>('/panel-api/release'),
   goLive: () => request<{ released: string }>('/panel-api/release', { method: 'POST', body: {} }),
 };
