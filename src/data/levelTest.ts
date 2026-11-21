@@ -42,9 +42,9 @@ export const levelTestEn: LevelTestItem[] = [
   {
     band: 'B1',
     source: { storyId: 'ibrahim', level: 'B1', chapter: 2 },
-    passage: 'One day, his father saw Abraham riding the statue of Mardukh (the Chief God of Babylon), and he got angry with him. He told his son not to play with it again.',
+    passage: 'One day, his father saw Abraham riding the statue of Marduk (the Chief God of Babylon), and he got angry with him. He told his son not to play with it again.',
     question: 'Why did Abraham’s father get angry?',
-    options: ['Abraham broke a statue.', 'Abraham was riding the statue of Mardukh.', 'Abraham did not go to the house of worship.'],
+    options: ['Abraham broke a statue.', 'Abraham was riding the statue of Marduk.', 'Abraham did not go to the house of worship.'],
     answer: 1,
   },
   {

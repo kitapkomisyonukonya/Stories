@@ -135,7 +135,7 @@ const entities: HistoricalEntity[] = [
   place({
     id: 'ibnjubayr-mecca', kind: 'city', aliases: ['Mecca'],
     title: 'Mecca', kindLabel: 'Holy city', periodLabel: 'Western Arabia',
-    summary: 'Mecca is the holy city of Islam, in western Arabia. The Ka’bah is here. Muslims come to Mecca for Hajj.',
+    summary: 'Mecca is the holy city of Islam, in western Arabia. The Ka’ba is here. Muslims come to Mecca for Hajj.',
     more: 'Ibn Jubayr stayed in Mecca for more than eight months.',
     tr: 'Mekke', focus: medPoint(21.42, 39.83, CITY_ZOOM),
     sources: ['TDV İslâm Ansiklopedisi: Mekke'],

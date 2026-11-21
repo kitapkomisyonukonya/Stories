@@ -199,9 +199,9 @@ const entities = [
   }),
   defineEntity({
     id: "mecca-safa-and-marwa", kind: "region", tr: "Safa ve Merve",
-    aliases: { en: ["Safa and Marwa","Safa and Marwah"], ar: ["الصفا والمروة"] },
+    aliases: { en: ["Safa and Marwah","Safa and Marwah"], ar: ["الصفا والمروة"] },
     copy: {
-      en: { title: "Safa and Marwa", kindLabel: "Two hills", periodLabel: "Mecca", summary: "Safa and Marwa are two small hills in Mecca, near the Ka’ba. Even before Islam, pilgrims went back and forth between them.", more: "This walk, called sa’y, remembers Hagar’s search for water for her son Ishmael (pbuh)." },
+      en: { title: "Safa and Marwah", kindLabel: "Two hills", periodLabel: "Mecca", summary: "Safa and Marwah are two small hills in Mecca, near the Ka’ba. Even before Islam, pilgrims went back and forth between them.", more: "This walk, called sa’y, remembers Hagar’s search for water for her son Ishmael (pbuh)." },
       ar: { title: "الصَّفَا وَالْمَرْوَةُ", kindLabel: "تَلَّانِ", periodLabel: "مَكَّةُ", summary: "الصَّفَا وَالْمَرْوَةُ تَلَّانِ صَغِيرَانِ فِي مَكَّةَ، قُرْبَ الْكَعْبَةِ. وَحَتَّى قَبْلَ الْإِسْلَامِ، كَانَ الْحُجَّاجُ يَسْعَوْنَ بَيْنَهُمَا.", more: "يُسَمَّى هَذَا الْمَشْيُ السَّعْيَ، وَهُوَ يُذَكِّرُ بِسَعْيِ هَاجَرَ بَحْثًا عَنِ الْمَاءِ لِابْنِهَا إِسْمَاعِيلَ عَلَيْهِ السَّلَامُ." },
     },
     focus: medPoint(21.42, 39.83, CITY_ZOOM),

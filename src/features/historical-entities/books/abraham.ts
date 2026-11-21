@@ -155,9 +155,9 @@ const entities = [
   }),
   defineEntity({
     id: "abraham-safa-and-marwa-ancient", kind: "region", tr: "Safa ve Merve",
-    aliases: { en: ["Safa and Marwah","Safa and Marwa","Safa","Marwa"], ar: ["الصفا","المروة"] },
+    aliases: { en: ["Safa and Marwah","Safa and Marwah","Safa","Marwah"], ar: ["الصفا","المروة"] },
     copy: {
-      en: { title: "Safa and Marwa", kindLabel: "Two hills", periodLabel: "Mecca · Western Arabia", summary: "Safa and Marwa are two small hills in Mecca, near the Ka’ba. In the story, Hagar ran between them to look for water.", more: "During Hajj and Umrah, Muslims walk between these two hills seven times; this is called sa'y." },
+      en: { title: "Safa and Marwah", kindLabel: "Two hills", periodLabel: "Mecca · Western Arabia", summary: "Safa and Marwah are two small hills in Mecca, near the Ka’ba. In the story, Hagar ran between them to look for water.", more: "During Hajj and Umrah, Muslims walk between these two hills seven times; this is called sa'y." },
       ar: { title: "الصَّفَا وَالْمَرْوَةُ", kindLabel: "تَلَّانِ", periodLabel: "مَكَّةُ · غَرْبُ الْجَزِيرَةِ الْعَرَبِيَّةِ", summary: "الصَّفَا وَالْمَرْوَةُ تَلَّانِ صَغِيرَانِ فِي مَكَّةَ، قُرْبَ الْكَعْبَةِ. وَفِي الْقِصَّةِ سَعَتْ هَاجَرُ بَيْنَهُمَا تَبْحَثُ عَنِ الْمَاءِ.", more: "وَفِي الْحَجِّ وَالْعُمْرَةِ يَسْعَى الْمُسْلِمُونَ بَيْنَهُمَا سَبْعَةَ أَشْوَاطٍ، وَيُسَمَّى ذَلِكَ السَّعْيَ." },
     },
     focus: medPoint(21.42, 39.83, CITY_ZOOM),
