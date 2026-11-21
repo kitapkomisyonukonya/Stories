@@ -324,8 +324,8 @@ export const StoryPage = ({
       />
   );
   const renderHeading = () => (
-    <div className={cn("flex flex-col min-w-0", isRTL && "text-right")}>
-      <h2 className="font-display text-[1.3rem] sm:text-3xl lg:text-4xl text-wood font-semibold tracking-[-0.03em] leading-tight lg:truncate clip-room">{page.title}</h2>
+    <div className={cn("flex flex-col min-w-0 flex-1", isRTL && "text-right")}>
+      <h2 className="font-display text-[1.3rem] sm:text-3xl lg:text-4xl text-wood font-semibold tracking-[-0.03em] leading-tight lg:line-clamp-2 clip-room">{page.title}</h2>
       <p className={cn(
         "font-serif text-xs sm:text-base lg:text-lg sm:mt-0.5",
         language !== 'ar' && "italic",
