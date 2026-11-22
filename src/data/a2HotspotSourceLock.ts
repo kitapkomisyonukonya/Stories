@@ -75,7 +75,7 @@ const approvedEnglishHotspots: HotspotOverrides = {
     'h2-3': { title: 'Baby Boys', description: 'When they found baby boys, they killed them.' },
     'h3-1': { title: 'The Basket', description: 'Moses’s mother put the baby Moses in a basket and took it to the river.' },
     'h3-2': { title: 'The Water', description: 'The water carried it away.' },
-    'h4-1': { title: 'Queen Asiye', description: 'Queen Asiye saw the baby, and Allah placed a lot of love for him in her heart.' },
+    'h4-1': { title: 'Queen Asiya', description: 'Queen Asiya saw the baby, and Allah placed a lot of love for him in her heart.' },
     'h4-2': { title: 'King’s Palace', description: 'It was near the king’s palace.' },
     'h5-1': { title: 'Mother’s Arms', description: 'Baby Moses was in his mother’s arms again.' },
     'h5-2': { title: 'Two Men', description: 'He saw two men. They were fighting.' },
