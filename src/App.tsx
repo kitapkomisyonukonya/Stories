@@ -492,7 +492,8 @@ const AppContent = () => {
     const key = `prophet.${currentDefinition.storyId}`;
     const translated = t(key);
     if (translated && translated !== key) return translated;
-    return getStoryMeta(currentDefinition.storyId)?.name ?? currentBook?.title ?? '';
+    const meta = getStoryMeta(currentDefinition.storyId);
+    return (language === 'ar' && meta?.nameAr ? meta.nameAr : meta?.name) ?? currentBook?.title ?? '';
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentBook, currentDefinition, language]);
 

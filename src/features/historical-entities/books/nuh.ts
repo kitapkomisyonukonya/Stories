@@ -4,7 +4,7 @@ import type { EntityBookSet } from './index';
 
 // Places & People cards for Prophet Noah (pbuh) (A1–B2). Prophets and their companions get no card or picture.
 // A1 and A2 name one place, Mount Judi. Pictures: Storage places-people/nuh/ (shared ones from abraham/ and andalus/).
-// English only for now: the Arabic copy repeats the English until the Arabic edition arrives.
+// English only for A2–B2: their Arabic copy repeats the English. Mount Judi (A1) has its Arabic words in src/content/entityCards.json.
 // Copy never goes beyond the story. A card without a picture file shows a placeholder.
 
 type Text = { title: string; kindLabel: string; periodLabel: string; summary: string; more?: string };

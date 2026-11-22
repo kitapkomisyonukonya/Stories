@@ -6,31 +6,32 @@
  "collection": "prophets",
  "book": {
   "id": "nuh-a1-ar",
-  "title": "Prophet Noah (pbuh): The Ark and the Flood (A1)",
+  "title": "النبي نوح عليه السلام: الفلك والطوفان (A1)",
   "level": "A1",
-  "baseFontSize": 12,
+  "baseFontSize": 14,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "Five Great Prophets",
-    "content": "Allah sent prophets to people. Five of them were very great prophets. They were very patient and strong in their hearts. They had a very important duty. They showed people the right way to Allah.\n\nThese five prophets are Noah (pbuh), Abraham (pbuh), Moses (pbuh), Jesus (pbuh) and Muhammad (pbuh). This is the story of Prophet Noah (pbuh).",
+    "title": "خَمْسَةُ أَنْبِيَاءَ عِظَامٍ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/nuh%2Fa2%2Fimages%2Fnuh_a2_ch1.jpeg?alt=media&token=f1e95805-3128-4c6d-8ba1-de8ea75eff0f",
+    "content": "أَرْسَلَ اللهُ أَنْبِيَاءَ إِلَى النَّاسِ. كَانَ خَمْسَةٌ مِنْهُمْ أَنْبِيَاءَ عِظَامًا جِدًّا. كَانُوا صَابِرِينَ جِدًّا، وَأَقْوِيَاءَ فِي قُلُوبِهِمْ. كَانَ لَهُمْ وَاجِبٌ مُهِمٌّ جِدًّا. دَلُّوا النَّاسَ عَلَى الطَّرِيقِ الصَّحِيحِ إِلَى اللهِ.\n\nهَؤُلَاءِ الْأَنْبِيَاءُ الْخَمْسَةُ هُمْ: نُوحٌ عَلَيْهِ السَّلَامُ، وَإِبْرَاهِيمُ عَلَيْهِ السَّلَامُ، وَمُوسَى عَلَيْهِ السَّلَامُ، وَعِيسَى عَلَيْهِ السَّلَامُ، وَمُحَمَّدٌ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ. هَذِهِ قِصَّةُ النَّبِيِّ نُوحٍ عَلَيْهِ السَّلَامُ.",
     "vocabulary": [
      {
-      "word": "send",
-      "definition": "Make someone go to a place."
+      "word": "أَرْسَلَ",
+      "definition": "جَعَلَ شَخْصًا يَذْهَبُ إِلَى مَكَانٍ."
      },
      {
-      "word": "prophet",
-      "definition": "A person who brings Allah's words to people."
+      "word": "أَنْبِيَاءَ",
+      "definition": "نَاسٌ يَأْتُونَ النَّاسَ بِكَلَامِ اللهِ."
      },
      {
-      "word": "patient",
-      "definition": "Can wait a long time and not get angry."
+      "word": "صَابِرِينَ",
+      "definition": "يَنْتَظِرُونَ وَقْتًا طَوِيلًا، وَلَا يَغْضَبُونَ."
      },
      {
-      "word": "duty",
-      "definition": "A thing you must do."
+      "word": "وَاجِبٌ",
+      "definition": "شَيْءٌ يَجِبُ أَنْ تَفْعَلَهُ."
      }
     ],
     "hotspots": [
@@ -38,177 +39,186 @@
       "id": "h1-1",
       "x": 35,
       "y": 46,
-      "title": "Prophets",
-      "description": "Allah sent prophets to people. They showed people the right way to Allah."
+      "title": "الْأَنْبِيَاءُ",
+      "description": "أَرْسَلَ اللهُ أَنْبِيَاءَ إِلَى النَّاسِ. دَلُّوا النَّاسَ عَلَى الطَّرِيقِ الصَّحِيحِ إِلَى اللهِ."
      },
      {
       "id": "h1-2",
       "x": 68,
       "y": 50,
-      "title": "Five Great Prophets",
-      "description": "These five prophets are Noah (pbuh), Abraham (pbuh), Moses (pbuh), Jesus (pbuh) and Muhammad (pbuh)."
+      "title": "خَمْسَةُ أَنْبِيَاءَ عِظَامٍ",
+      "description": "هَؤُلَاءِ الْأَنْبِيَاءُ الْخَمْسَةُ هُمْ: نُوحٌ، وَإِبْرَاهِيمُ، وَمُوسَى، وَعِيسَى عَلَيْهِمُ السَّلَامُ، وَمُحَمَّدٌ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ."
      }
     ],
     "exercises": [
      {
-      "id": "nuh-a1-quick-1",
+      "id": "nuh-a1-ar-quick-1",
       "type": "drag-drop",
-      "title": "Five Great Prophets",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 1?",
+      "title": "خَمْسَةُ أَنْبِيَاءَ عِظَامٍ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الْأَوَّلِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "The five prophets were very patient.",
-         "They showed people the right way to Allah."
+         "كَانَ الْأَنْبِيَاءُ الْخَمْسَةُ صَابِرِينَ جِدًّا.",
+         "دَلُّوا النَّاسَ عَلَى الطَّرِيقِ الصَّحِيحِ إِلَى اللهِ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "Noah (pbuh) is not one of the five great prophets."
+         "نُوحٌ عَلَيْهِ السَّلَامُ لَيْسَ مِنَ الْأَنْبِيَاءِ الْخَمْسَةِ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "The five prophets were very patient.",
-        "They showed people the right way to Allah."
+       "صَحِيحٌ": [
+        "كَانَ الْأَنْبِيَاءُ الْخَمْسَةُ صَابِرِينَ جِدًّا.",
+        "دَلُّوا النَّاسَ عَلَى الطَّرِيقِ الصَّحِيحِ إِلَى اللهِ."
        ],
-       "False": [
-        "Noah (pbuh) is not one of the five great prophets."
+       "خَطَأٌ": [
+        "نُوحٌ عَلَيْهِ السَّلَامُ لَيْسَ مِنَ الْأَنْبِيَاءِ الْخَمْسَةِ."
        ]
       },
-      "explanation": "Chapter 1 says: “They were very patient and strong in their hearts.” “They showed people the right way to Allah.” “These five prophets are Noah (pbuh), Abraham (pbuh), Moses (pbuh), Jesus (pbuh) and Muhammad (pbuh).”",
+      "explanation": "يقول الفصل الأول: «كَانُوا صَابِرِينَ جِدًّا»، و«دَلُّوا النَّاسَ عَلَى الطَّرِيقِ الصَّحِيحِ إِلَى اللهِ». ونوح عليه السلام أول الأنبياء الخمسة في القائمة.",
       "feedback": {
-       "correct": "Yes! Noah (pbuh) is one of the five.",
-       "incorrect": "Read the second paragraph of Chapter 1 again."
+       "correct": "أَحْسَنْتَ! نُوحٌ عَلَيْهِ السَّلَامُ مِنَ الْأَنْبِيَاءِ الْخَمْسَةِ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "nuh-a1-language-1-patient",
+      "id": "nuh-a1-ar-language-1-patient",
       "type": "multiple-choice",
-      "title": "Look: Patient",
-      "instructions": "Choose the right answer.",
-      "question": "“They were very patient.” What does a patient person do?",
+      "title": "انْظُرْ: صَابِرٌ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«كَانُوا صَابِرِينَ جِدًّا.» مَاذَا يَفْعَلُ الشَّخْصُ الصَّابِرُ؟",
       "options": [
-       "waits a long time and does not get angry",
-       "gets angry very fast",
-       "runs very fast"
+       "يَنْتَظِرُ وَقْتًا طَوِيلًا، وَلَا يَغْضَبُ.",
+       "يَغْضَبُ بِسُرْعَةٍ.",
+       "يَرْكُضُ بِسُرْعَةٍ."
       ],
       "correctAnswer": 0,
-      "explanation": "Patient = can wait a long time and not get angry.",
+      "explanation": "صَابِرٌ = يَنْتَظِرُ وَقْتًا طَوِيلًا وَلَا يَغْضَبُ. والجمع: صَابِرُونَ / صَابِرِينَ. وفي الفصل الثالث كلمة قريبة: صَبُورٌ.",
       "feedback": {
-       "correct": "Yes. A patient person waits and is calm.",
-       "incorrect": "Read the first paragraph of Chapter 1 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "nuh-a1-language-1-practise",
+      "id": "nuh-a1-ar-language-1-practise",
       "type": "choose-form",
-      "title": "Practise: Was, Were",
-      "instructions": "Choose the right word.",
-      "question": "One or many?",
+      "title": "تَدَرَّبْ: كَانَ أَمْ كَانُوا؟",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "وَاحِدٌ أَمْ أَكْثَرُ؟",
       "formChoices": [
        {
-        "sentence": "They [choice] very patient.",
+        "sentence": "الْأَنْبِيَاءُ [choice] صَابِرِينَ جِدًّا.",
         "options": [
-         "were",
-         "was"
+         "كَانُوا",
+         "كَانَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "This [choice] a very important duty.",
+        "sentence": "[choice] لَهُمْ وَاجِبٌ مُهِمٌّ جِدًّا.",
         "options": [
-         "was",
-         "were"
+         "كَانَ",
+         "كَانُوا"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "نُوحٌ [choice] صَبُورًا.",
+        "options": [
+         "كَانَ",
+         "كَانُوا"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "They (many) → were. This (one) → was.",
+      "explanation": "إذا جاء الجمع قبل الفعل نقول «كَانُوا»: الْأَنْبِيَاءُ كَانُوا صَابِرِينَ. ومع الواحد، أو إذا جاء الفعل أولًا، نقول «كَانَ»: كَانَ لَهُمْ وَاجِبٌ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "They = many. This = one."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مَنْ قَبْلَ الْفِعْلِ؟ وَاحِدٌ أَمْ أَكْثَرُ؟"
       }
      },
      {
-      "id": "nuh-a1-language-1-say-it",
+      "id": "nuh-a1-ar-language-1-say-it",
       "type": "reflection",
-      "title": "Say It: Patient People",
-      "instructions": "Talk about patience with your partner.",
-      "question": "Who is patient?",
+      "title": "قُلْهَا: نَاسٌ صَابِرُونَ",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنِ الصَّبْرِ.",
+      "question": "مَنْ هُوَ صَبُورٌ؟",
       "correctAnswer": null,
-      "explanation": "Use is patient.",
+      "explanation": "استعمل «صَبُورٌ» للولد و«صَبُورَةٌ» للبنت.",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“My … is very patient.”",
+        "question": "«… صَبُورٌ جِدًّا.»",
         "mode": "Pair",
-        "example": "My grandmother is very patient."
+        "example": "جَدَّتِي صَبُورَةٌ جِدًّا."
        },
        {
-        "question": "“I am patient when …”",
+        "question": "«أَنَا صَبُورٌ عِنْدَمَا …»",
         "mode": "Pair",
-        "example": "I am patient when I wait for the bus."
+        "example": "أَنَا صَبُورٌ عِنْدَمَا أَنْتَظِرُ الْحَافِلَةَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: How many very great prophets are there?",
+     "question": "خَمِّنْ أَوَّلًا: كَمْ نَبِيًّا عَظِيمًا جِدًّا فِي الْفَصْلِ؟",
      "options": [
-      "five",
-      "two",
-      "ten"
+      "خَمْسَةٌ",
+      "اثْنَانِ",
+      "عَشَرَةٌ"
      ],
      "answer": 0,
-     "quote": "Five of them were very great prophets."
+     "quote": "كَانَ خَمْسَةٌ مِنْهُمْ أَنْبِيَاءَ عِظَامًا جِدًّا."
     },
     "iCan": [
-     "I can tell about the five great prophets.",
-     "I can understand patient.",
-     "I can talk about patient people."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنِ الْأَنْبِيَاءِ الْخَمْسَةِ الْعِظَامِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ كَلِمَةَ «صَابِرٌ».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنْ نَاسٍ صَابِرِينَ."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "Good Men and Stone Statues",
-    "content": "After Prophet Adam (pbuh), many people lived on the earth. At first, they worshipped only Allah. They remembered the prophets’ words and prayed only to Allah. Later, people forgot Allah’s words. But there were five good men. They still prayed to Allah day and night. People loved them very much. Their names were Wadd, Suwa', Yaghuth, Ya’uq and Nasr.\n\nWhen these good men died, the people missed them. First, they made their pictures. Later, they made statues of them. After many years, people forgot Allah and started to pray to statues of these five men. This was very wrong.",
+    "title": "رِجَالٌ طَيِّبُونَ وَتَمَاثِيلُ حَجَرِيَّةٌ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/nuh%2Fa2%2Fimages%2Fnuh_a2_ch2.jpeg?alt=media&token=11d9c194-4e92-4803-b80d-195fa82da0eb",
+    "content": "بَعْدَ النَّبِيِّ آدَمَ عَلَيْهِ السَّلَامُ، عَاشَ نَاسٌ كَثِيرُونَ فِي الدُّنْيَا. فِي الْبِدَايَةِ، عَبَدُوا اللهَ فَقَطْ. تَذَكَّرُوا كَلَامَ الْأَنْبِيَاءِ، وَدَعَوُا اللهَ فَقَطْ. بَعْدَ ذَلِكَ، نَسِيَ النَّاسُ كَلَامَ اللهِ. لَكِنْ كَانَ هُنَاكَ خَمْسَةُ رِجَالٍ طَيِّبِينَ. مَا زَالُوا يَدْعُونَ اللهَ نَهَارًا وَلَيْلًا. أَحَبَّهُمُ النَّاسُ كَثِيرًا. كَانَتْ أَسْمَاؤُهُمْ: وَدٌّ، وَسُوَاعٌ، وَيَغُوثُ، وَيَعُوقُ، وَنَسْرٌ.\n\nعِنْدَمَا مَاتَ هَؤُلَاءِ الرِّجَالُ الطَّيِّبُونَ، اشْتَاقَ النَّاسُ إِلَيْهِمْ. أَوَّلًا، صَنَعُوا صُوَرَهُمْ. بَعْدَ ذَلِكَ، صَنَعُوا لَهُمْ تَمَاثِيلَ. بَعْدَ سَنَوَاتٍ كَثِيرَةٍ، نَسِيَ النَّاسُ اللهَ، وَبَدَؤُوا يَدْعُونَ تَمَاثِيلَ هَؤُلَاءِ الرِّجَالِ الْخَمْسَةِ. كَانَ هَذَا خَاطِئًا جِدًّا.",
     "vocabulary": [
      {
-      "word": "earth",
-      "definition": "The world we live in."
+      "word": "الدُّنْيَا",
+      "definition": "الْعَالَمُ الَّذِي نَعِيشُ فِيهِ."
      },
      {
-      "word": "worship",
-      "definition": "Pray to and love God."
+      "word": "عَبَدُوا",
+      "definition": "دَعَوُا اللهَ، وَأَحَبُّوهُ."
      },
      {
-      "word": "still",
-      "definition": "Then, too, like before."
+      "word": "مَا زَالُوا",
+      "definition": "كَانُوا كَمَا كَانُوا قَبْلَ ذَلِكَ."
      },
      {
-      "word": "pray",
-      "definition": "Talk to Allah."
+      "word": "يَدْعُونَ",
+      "definition": "يَتَكَلَّمُونَ مَعَ اللهِ."
      },
      {
-      "word": "miss",
-      "definition": "Feel sad because a person is not with you."
+      "word": "اشْتَاقَ",
+      "definition": "حَزِنَ، لِأَنَّ شَخْصًا يُحِبُّهُ لَيْسَ مَعَهُ."
      },
      {
-      "word": "statue",
-      "definition": "A big figure of a person, made of stone."
+      "word": "تَمَاثِيلَ",
+      "definition": "شَكْلٌ كَبِيرٌ لِإِنْسَانٍ، مَصْنُوعٌ مِنَ الْحَجَرِ."
      }
     ],
     "hotspots": [
@@ -216,40 +226,40 @@
       "id": "h2-1",
       "x": 35,
       "y": 46,
-      "title": "Five Good Men",
-      "description": "Five good men still prayed to Allah day and night. People loved them very much."
+      "title": "خَمْسَةُ رِجَالٍ طَيِّبِينَ",
+      "description": "مَا زَالَ خَمْسَةُ رِجَالٍ طَيِّبِينَ يَدْعُونَ اللهَ نَهَارًا وَلَيْلًا. أَحَبَّهُمُ النَّاسُ كَثِيرًا."
      },
      {
       "id": "h2-2",
       "x": 68,
       "y": 50,
-      "title": "Statues",
-      "description": "After many years, people forgot Allah and started to pray to statues of these five men."
+      "title": "التَّمَاثِيلُ",
+      "description": "بَعْدَ سَنَوَاتٍ كَثِيرَةٍ، نَسِيَ النَّاسُ اللهَ، وَبَدَؤُوا يَدْعُونَ تَمَاثِيلَ هَؤُلَاءِ الرِّجَالِ الْخَمْسَةِ."
      }
     ],
     "exercises": [
      {
-      "id": "nuh-a1-quick-2",
+      "id": "nuh-a1-ar-quick-2",
       "type": "sequencing",
-      "title": "Good Men and Stone Statues",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "رِجَالٌ طَيِّبُونَ وَتَمَاثِيلُ حَجَرِيَّةٌ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "The five good men died."
+        "text": "مَاتَ الرِّجَالُ الطَّيِّبُونَ."
        },
        {
         "id": "2",
-        "text": "The people made pictures of them."
+        "text": "صَنَعَ النَّاسُ صُوَرَهُمْ."
        },
        {
         "id": "3",
-        "text": "The people made statues of them."
+        "text": "صَنَعَ النَّاسُ لَهُمْ تَمَاثِيلَ."
        },
        {
         "id": "4",
-        "text": "The people started to pray to the statues."
+        "text": "بَدَأَ النَّاسُ يَدْعُونَ التَّمَاثِيلَ."
        }
       ],
       "correctAnswer": [
@@ -258,168 +268,169 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 2: the men died → pictures → statues → people prayed to the statues.",
+      "explanation": "الفصل الثاني: مات الرجال ← الصور ← التماثيل ← دعا الناس التماثيل.",
       "feedback": {
-       "correct": "Great! You put the chapter in order.",
-       "incorrect": "Read the second paragraph of Chapter 2 again."
+       "correct": "أَحْسَنْتَ! رَتَّبْتَ الْفَصْلَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "nuh-a1-language-2-order",
+      "id": "nuh-a1-ar-language-2-order",
       "type": "drag-drop",
-      "title": "Look: First, Later",
-      "instructions": "Put each sentence in the right group.",
-      "question": "When was it?",
+      "title": "انْظُرْ: أَوَّلًا، بَعْدَ ذَلِكَ",
+      "instructions": "ضَعْ كُلَّ جُمْلَةٍ فِي مَجْمُوعَتِهَا.",
+      "question": "مَتَى كَانَ؟",
       "dragDropGroups": [
        {
-        "group": "First",
+        "group": "أَوَّلًا",
         "items": [
-         "They made their pictures."
+         "صَنَعُوا صُوَرَهُمْ."
         ]
        },
        {
-        "group": "Later",
+        "group": "بَعْدَ ذَلِكَ",
         "items": [
-         "They made statues of them."
+         "صَنَعُوا لَهُمْ تَمَاثِيلَ."
         ]
        },
        {
-        "group": "After many years",
+        "group": "بَعْدَ سَنَوَاتٍ كَثِيرَةٍ",
         "items": [
-         "People forgot Allah."
+         "نَسِيَ النَّاسُ اللهَ."
         ]
        }
       ],
       "correctAnswer": {
-       "First": [
-        "They made their pictures."
+       "أَوَّلًا": [
+        "صَنَعُوا صُوَرَهُمْ."
        ],
-       "Later": [
-        "They made statues of them."
+       "بَعْدَ ذَلِكَ": [
+        "صَنَعُوا لَهُمْ تَمَاثِيلَ."
        ],
-       "After many years": [
-        "People forgot Allah."
+       "بَعْدَ سَنَوَاتٍ كَثِيرَةٍ": [
+        "نَسِيَ النَّاسُ اللهَ."
        ]
       },
-      "explanation": "First → later → after many years: these words tell the order.",
+      "explanation": "«أَوَّلًا» ← «بَعْدَ ذَلِكَ» ← «بَعْدَ سَنَوَاتٍ كَثِيرَةٍ»: هذه الكلمات تقول الترتيب.",
       "feedback": {
-       "correct": "Good.",
-       "incorrect": "Read the second paragraph of Chapter 2."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "nuh-a1-language-2-practise",
+      "id": "nuh-a1-ar-language-2-practise",
       "type": "choose-form",
-      "title": "Practise: Missed, Forgot, Made",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: اشْتَاقَ، نَسِيَ، صَنَعُوا",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ لِلْمَاضِي؟",
       "formChoices": [
        {
-        "sentence": "When these good men died, the people [choice] them.",
+        "sentence": "عِنْدَمَا مَاتَ هَؤُلَاءِ الرِّجَالُ، [choice] النَّاسُ إِلَيْهِمْ.",
         "options": [
-         "missed",
-         "miss"
+         "اشْتَاقَ",
+         "يَشْتَاقُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Later, people [choice] Allah’s words.",
+        "sentence": "بَعْدَ ذَلِكَ، [choice] النَّاسُ كَلَامَ اللهِ.",
         "options": [
-         "forgot",
-         "forget"
+         "نَسِيَ",
+         "يَنْسَى"
         ],
         "answer": 0
        },
        {
-        "sentence": "First, they [choice] their pictures.",
+        "sentence": "أَوَّلًا، [choice] صُوَرَهُمْ.",
         "options": [
-         "made",
-         "make"
+         "صَنَعُوا",
+         "يَصْنَعُونَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Miss → missed: it adds -ed. Forget → forgot, make → made: they change.",
+      "explanation": "القصة تحكي عن الماضي: اشْتَاقَ، نَسِيَ، صَنَعُوا. و«يَشْتَاقُ، يَنْسَى، يَصْنَعُونَ» للآن.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 2 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الثَّانِيَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "nuh-a1-language-2-write-it",
+      "id": "nuh-a1-ar-language-2-write-it",
       "type": "reflection",
-      "title": "Write It: I Miss …",
-      "instructions": "Write about a person you miss.",
-      "question": "Who do you miss?",
+      "title": "اكْتُبْهَا: أَشْتَاقُ إِلَى …",
+      "instructions": "اكْتُبْ عَنْ شَخْصٍ تَشْتَاقُ إِلَيْهِ.",
+      "question": "إِلَى مَنْ تَشْتَاقُ؟",
       "correctAnswer": null,
-      "explanation": "Use I miss.",
+      "explanation": "استعمل «أَشْتَاقُ إِلَى» + الشخص.",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I miss my …”",
+        "question": "«أَشْتَاقُ إِلَى …»",
         "mode": "Individual",
-        "example": "I miss my grandfather."
+        "example": "أَشْتَاقُ إِلَى جَدِّي."
        },
        {
-        "question": "“He / She lives in …”",
+        "question": "«هُوَ / هِيَ يَسْكُنُ / تَسْكُنُ فِي …»",
         "mode": "Individual",
-        "example": "He lives in Erzurum."
+        "example": "هُوَ يَسْكُنُ فِي أَرْضُرُومَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did the people make?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا صَنَعَ النَّاسُ؟",
      "options": [
-      "statues of five good men",
-      "a big ship",
-      "a school"
+      "تَمَاثِيلَ لِخَمْسَةِ رِجَالٍ طَيِّبِينَ",
+      "سَفِينَةً كَبِيرَةً",
+      "مَدْرَسَةً"
      ],
      "answer": 0,
-     "quote": "Later, they made statues of them."
+     "quote": "بَعْدَ ذَلِكَ، صَنَعُوا لَهُمْ تَمَاثِيلَ."
     },
     "iCan": [
-     "I can tell how people started to pray to statues.",
-     "I can use first and later.",
-     "I can write about a person I miss."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ كَيْفَ بَدَأَ النَّاسُ يَدْعُونَ التَّمَاثِيلَ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «أَوَّلًا» وَ«بَعْدَ ذَلِكَ».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنْ شَخْصٍ أَشْتَاقُ إِلَيْهِ."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "Noah’s Message",
-    "content": "Then Allah sent Noah (pbuh) to these people. Noah was kind, honest and patient. He always said true words. He said to his people, “O my people, worship Allah. You have no god but Him.” (Surah al-A‘râf, 59) He also told them, “I am a Messenger of Allah. Do not pray to statues.”\n\nSome people listened to him and believed him. Most of them were poor and weak. For Allah, poor people and rich people are the same.",
+    "title": "رِسَالَةُ نُوحٍ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/nuh%2Fa2%2Fimages%2Fnuh_a2_ch3.jpeg?alt=media&token=6588a9f8-5098-4e40-9439-d5f229a1f846",
+    "content": "ثُمَّ أَرْسَلَ اللهُ نُوحًا عَلَيْهِ السَّلَامُ إِلَى هَؤُلَاءِ النَّاسِ. كَانَ نُوحٌ لَطِيفًا، وَصَادِقًا، وَصَبُورًا. كَانَ يَقُولُ دَائِمًا كَلَامًا صَحِيحًا. قَالَ لِقَوْمِهِ: ﴿يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَٰهٍ غَيْرُهُ﴾ (سُورَةُ الْأَعْرَافِ: ٥٩). وَقَالَ لَهُمْ أَيْضًا: «أَنَا رَسُولٌ مِنَ اللهِ. لَا تَدْعُوا التَّمَاثِيلَ.»\n\nاسْتَمَعَ إِلَيْهِ بَعْضُ النَّاسِ، وَصَدَّقُوهُ. كَانَ أَكْثَرُهُمْ فُقَرَاءَ وَضُعَفَاءَ. عِنْدَ اللهِ، الْفُقَرَاءُ وَالْأَغْنِيَاءُ سَوَاءٌ.",
     "vocabulary": [
      {
-      "word": "honest",
-      "definition": "Always says true things."
+      "word": "صَادِقًا",
+      "definition": "يَقُولُ الْحَقَّ دَائِمًا."
      },
      {
-      "word": "true",
-      "definition": "Right, not a lie."
+      "word": "صَحِيحًا",
+      "definition": "حَقٌّ، لَيْسَ كَذِبًا."
      },
      {
-      "word": "messenger",
-      "definition": "A person who brings words from Allah."
+      "word": "رَسُولٌ",
+      "definition": "شَخْصٌ يَأْتِي بِكَلَامٍ مِنَ اللهِ."
      },
      {
-      "word": "believe",
-      "definition": "Think that something is true."
+      "word": "صَدَّقُوهُ",
+      "definition": "ظَنُّوا أَنَّ كَلَامَهُ صَحِيحٌ."
      },
      {
-      "word": "weak",
-      "definition": "Not strong."
+      "word": "ضُعَفَاءَ",
+      "definition": "لَيْسُوا أَقْوِيَاءَ."
      },
      {
-      "word": "rich",
-      "definition": "With a lot of money."
+      "word": "الْأَغْنِيَاءُ",
+      "definition": "عِنْدَهُمْ مَالٌ كَثِيرٌ."
      }
     ],
     "hotspots": [
@@ -427,172 +438,173 @@
       "id": "h3-1",
       "x": 35,
       "y": 46,
-      "title": "A Messenger",
-      "description": "Noah said, “I am a Messenger of Allah. Do not pray to statues.”"
+      "title": "رَسُولٌ",
+      "description": "قَالَ نُوحٌ: «أَنَا رَسُولٌ مِنَ اللهِ. لَا تَدْعُوا التَّمَاثِيلَ.»"
      },
      {
       "id": "h3-2",
       "x": 68,
       "y": 50,
-      "title": "The Believers",
-      "description": "Some people listened to him and believed him. Most of them were poor and weak."
+      "title": "الْمُؤْمِنُونَ",
+      "description": "اسْتَمَعَ إِلَيْهِ بَعْضُ النَّاسِ، وَصَدَّقُوهُ. كَانَ أَكْثَرُهُمْ فُقَرَاءَ وَضُعَفَاءَ."
      }
     ],
     "exercises": [
      {
-      "id": "nuh-a1-quick-3",
+      "id": "nuh-a1-ar-quick-3",
       "type": "multiple-choice",
-      "title": "Noah’s Message",
-      "instructions": "Choose the best answer.",
-      "question": "Who believed Noah (pbuh) first?",
+      "title": "رِسَالَةُ نُوحٍ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "مَنْ صَدَّقَ نُوحًا عَلَيْهِ السَّلَامُ؟",
       "options": [
-       "some people, most of them poor and weak",
-       "all the rich men",
-       "nobody"
+       "بَعْضُ النَّاسِ، أَكْثَرُهُمْ فُقَرَاءُ وَضُعَفَاءُ",
+       "كُلُّ الرِّجَالِ الْأَغْنِيَاءِ",
+       "لَا أَحَدَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 3: “Some people listened to him and believed him. Most of them were poor and weak.”",
+      "explanation": "الفصل الثالث: «اسْتَمَعَ إِلَيْهِ بَعْضُ النَّاسِ، وَصَدَّقُوهُ. كَانَ أَكْثَرُهُمْ فُقَرَاءَ وَضُعَفَاءَ».",
       "feedback": {
-       "correct": "Yes! Most of them were poor and weak.",
-       "incorrect": "Read the second paragraph of Chapter 3 again."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "nuh-a1-language-3-opposites",
+      "id": "nuh-a1-ar-language-3-opposites",
       "type": "matching",
-      "title": "Look: Opposites",
-      "instructions": "Match the word with its opposite.",
-      "question": "What is the opposite?",
+      "title": "انْظُرْ: الْأَضْدَادُ",
+      "instructions": "صِلِ الْكَلِمَةَ بِضِدِّهَا.",
+      "question": "مَا الضِّدُّ؟",
       "matchingHeadings": {
-       "left": "Word",
-       "right": "Opposite"
+       "left": "الْكَلِمَةُ",
+       "right": "الضِّدُّ"
       },
       "matchingPairs": [
        {
-        "left": "rich",
-        "right": "poor"
+        "left": "الْأَغْنِيَاءُ",
+        "right": "الْفُقَرَاءُ"
        },
        {
-        "left": "weak",
-        "right": "strong"
+        "left": "ضُعَفَاءُ",
+        "right": "أَقْوِيَاءُ"
        },
        {
-        "left": "true",
-        "right": "not true"
+        "left": "صَحِيحٌ",
+        "right": "خَطَأٌ"
        }
       ],
       "correctAnswer": {
-       "rich": "poor",
-       "weak": "strong",
-       "true": "not true"
+       "الْأَغْنِيَاءُ": "الْفُقَرَاءُ",
+       "ضُعَفَاءُ": "أَقْوِيَاءُ",
+       "صَحِيحٌ": "خَطَأٌ"
       },
-      "explanation": "“For Allah, poor people and rich people are the same.” Weak = not strong.",
+      "explanation": "في الفصل: «عِنْدَ اللهِ، الْفُقَرَاءُ وَالْأَغْنِيَاءُ سَوَاءٌ». وضُعَفَاءُ = لَيْسُوا أَقْوِيَاءَ.",
       "feedback": {
-       "correct": "Good. You know the opposites.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "nuh-a1-language-3-practise",
+      "id": "nuh-a1-ar-language-3-practise",
       "type": "choose-form",
-      "title": "Practise: Said, Told, Believed",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: لَا تَدْعُوا",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ؟",
       "formChoices": [
        {
-        "sentence": "He always [choice] true words.",
+        "sentence": "كَانَ يَقُولُ دَائِمًا كَلَامًا [choice].",
         "options": [
-         "said",
-         "says"
+         "صَحِيحًا",
+         "خَاطِئًا"
         ],
         "answer": 0
        },
        {
-        "sentence": "He also [choice] them, “I am a Messenger of Allah.”",
+        "sentence": "قَالَ نُوحٌ: «لَا [choice] التَّمَاثِيلَ.»",
         "options": [
-         "told",
-         "tells"
+         "تَدْعُوا",
+         "دَعَوْا"
         ],
         "answer": 0
        },
        {
-        "sentence": "Some people [choice] him.",
+        "sentence": "اسْتَمَعَ إِلَيْهِ بَعْضُ النَّاسِ، وَ[choice].",
         "options": [
-         "believed",
-         "believe"
+         "صَدَّقُوهُ",
+         "صَدَّقَهُ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Say → said, tell → told: they change. Believe → believed: it adds -d.",
+      "explanation": "نقول للناس: «لَا تَدْعُوا» (لا + المضارع). و«بَعْضُ النَّاسِ» أكثر من واحد، فنقول: صَدَّقُوهُ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 3 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الثَّالِثَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "nuh-a1-language-3-say-it",
+      "id": "nuh-a1-ar-language-3-say-it",
       "type": "reflection",
-      "title": "Say It: A Good Friend",
-      "instructions": "Tell your partner about a good friend.",
-      "question": "What is your friend like?",
+      "title": "قُلْهَا: صَدِيقٌ طَيِّبٌ",
+      "instructions": "كَلِّمْ زَمِيلَكَ عَنْ صَدِيقٍ طَيِّبٍ.",
+      "question": "كَيْفَ صَدِيقُكَ؟",
       "correctAnswer": null,
-      "explanation": "Use is + kind / honest / patient and always.",
+      "explanation": "استعمل: لَطِيفٌ، صَادِقٌ، صَبُورٌ، و«دَائِمًا».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“My friend is kind and …”",
+        "question": "«صَدِيقِي لَطِيفٌ وَ…»",
         "mode": "Pair",
-        "example": "My friend is kind and honest."
+        "example": "صَدِيقِي لَطِيفٌ وَصَادِقٌ."
        },
        {
-        "question": "“He / She always …”",
+        "question": "«هُوَ يَقُولُ دَائِمًا …»",
         "mode": "Pair",
-        "example": "She always says true words."
+        "example": "هُوَ يَقُولُ دَائِمًا كَلَامًا صَحِيحًا."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What was Noah (pbuh) like?",
+     "question": "خَمِّنْ أَوَّلًا: كَيْفَ كَانَ نُوحٌ عَلَيْهِ السَّلَامُ؟",
      "options": [
-      "kind, honest and patient",
-      "proud and cruel",
-      "rich and angry"
+      "لَطِيفًا وَصَادِقًا وَصَبُورًا",
+      "مُتَكَبِّرًا وَقَاسِيًا",
+      "غَنِيًّا وَغَاضِبًا"
      ],
      "answer": 0,
-     "quote": "Noah was kind, honest and patient."
+     "quote": "كَانَ نُوحٌ لَطِيفًا، وَصَادِقًا، وَصَبُورًا."
     },
     "iCan": [
-     "I can tell about Noah’s message.",
-     "I can use opposites: rich – poor, weak – strong.",
-     "I can talk about a good friend."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنْ رِسَالَةِ نُوحٍ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ الْأَضْدَادَ: غَنِيٌّ وَفَقِيرٌ، ضَعِيفٌ وَقَوِيٌّ.",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنْ صَدِيقٍ طَيِّبٍ."
     ]
    },
    {
     "id": 4,
     "type": "story",
-    "title": "The Rich Men Say No",
-    "content": "The rich and important men did not listen to Noah. They were proud. They said: “You are only a man like us.” (Surah Hûd, 27)\n\nNoah answered, “Yes, I am a man, and I am a Messenger of Allah.” Then the rich men said, “Tell the poor people to go. Then we can come to you.” But Noah said that the believers would stay with him.",
+    "title": "الرِّجَالُ الْأَغْنِيَاءُ يَقُولُونَ: لَا",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/nuh%2Fa2%2Fimages%2Fnuh_a2_ch4.jpeg?alt=media&token=70a3dea5-b7a5-4736-b436-87f05327f7ca",
+    "content": "مَا اسْتَمَعَ الرِّجَالُ الْأَغْنِيَاءُ وَالْمُهِمُّونَ إِلَى نُوحٍ. كَانُوا مُتَكَبِّرِينَ. قَالُوا: ﴿مَا نَرَاكَ إِلَّا بَشَرًا مِثْلَنَا﴾ (سُورَةُ هُودٍ: ٢٧).\n\nأَجَابَ نُوحٌ: «نَعَمْ، أَنَا إِنْسَانٌ، وَأَنَا رَسُولٌ مِنَ اللهِ.» ثُمَّ قَالَ الرِّجَالُ الْأَغْنِيَاءُ: «قُلْ لِلْفُقَرَاءِ أَنْ يَذْهَبُوا. ثُمَّ نَسْتَطِيعُ أَنْ نَأْتِيَ إِلَيْكَ.» لَكِنَّ نُوحًا قَالَ إِنَّ الْمُؤْمِنِينَ سَيَبْقَوْنَ مَعَهُ.",
     "vocabulary": [
      {
-      "word": "important",
-      "definition": "Big and strong in a group; people listen to them."
+      "word": "الْمُهِمُّونَ",
+      "definition": "كِبَارُ الْقَوْمِ؛ يَسْمَعُ لَهُمُ النَّاسُ."
      },
      {
-      "word": "proud",
-      "definition": "Thinking that you are better than others."
+      "word": "مُتَكَبِّرِينَ",
+      "definition": "يَظُنُّونَ أَنَّهُمْ أَحْسَنُ مِنَ الْآخَرِينَ."
      },
      {
-      "word": "believer",
-      "definition": "A person who believes in Allah."
+      "word": "الْمُؤْمِنِينَ",
+      "definition": "شَخْصٌ يُؤْمِنُ بِاللهِ."
      }
     ],
     "hotspots": [
@@ -600,169 +612,170 @@
       "id": "h4-1",
       "x": 35,
       "y": 46,
-      "title": "Proud Men",
-      "description": "The rich and important men did not listen to Noah. They were proud."
+      "title": "رِجَالٌ مُتَكَبِّرُونَ",
+      "description": "مَا اسْتَمَعَ الرِّجَالُ الْأَغْنِيَاءُ وَالْمُهِمُّونَ إِلَى نُوحٍ. كَانُوا مُتَكَبِّرِينَ."
      },
      {
       "id": "h4-2",
       "x": 68,
       "y": 50,
-      "title": "The Believers Stay",
-      "description": "Noah said that the believers would stay with him."
+      "title": "الْمُؤْمِنُونَ يَبْقَوْنَ",
+      "description": "قَالَ نُوحٌ إِنَّ الْمُؤْمِنِينَ سَيَبْقَوْنَ مَعَهُ."
      }
     ],
     "exercises": [
      {
-      "id": "nuh-a1-quick-4",
+      "id": "nuh-a1-ar-quick-4",
       "type": "drag-drop",
-      "title": "The Rich Men Say No",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 4?",
+      "title": "الرِّجَالُ الْأَغْنِيَاءُ يَقُولُونَ: لَا",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الرَّابِعِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "The rich men were proud.",
-         "The rich men said, “Tell the poor people to go.”"
+         "كَانَ الرِّجَالُ الْأَغْنِيَاءُ مُتَكَبِّرِينَ.",
+         "قَالَ الرِّجَالُ الْأَغْنِيَاءُ: «قُلْ لِلْفُقَرَاءِ أَنْ يَذْهَبُوا.»"
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "Noah (pbuh) sent the believers away."
+         "أَرْسَلَ نُوحٌ الْمُؤْمِنِينَ بَعِيدًا."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "The rich men were proud.",
-        "The rich men said, “Tell the poor people to go.”"
+       "صَحِيحٌ": [
+        "كَانَ الرِّجَالُ الْأَغْنِيَاءُ مُتَكَبِّرِينَ.",
+        "قَالَ الرِّجَالُ الْأَغْنِيَاءُ: «قُلْ لِلْفُقَرَاءِ أَنْ يَذْهَبُوا.»"
        ],
-       "False": [
-        "Noah (pbuh) sent the believers away."
+       "خَطَأٌ": [
+        "أَرْسَلَ نُوحٌ الْمُؤْمِنِينَ بَعِيدًا."
        ]
       },
-      "explanation": "Chapter 4 says: “They were proud.” “Then the rich men said, ‘Tell the poor people to go.’” “But Noah said that the believers would stay with him.”",
+      "explanation": "يقول الفصل الرابع: «كَانُوا مُتَكَبِّرِينَ»، و«قُلْ لِلْفُقَرَاءِ أَنْ يَذْهَبُوا». و«قَالَ إِنَّ الْمُؤْمِنِينَ سَيَبْقَوْنَ مَعَهُ».",
       "feedback": {
-       "correct": "Yes! The believers stayed with him.",
-       "incorrect": "Read the second paragraph of Chapter 4 again."
+       "correct": "أَحْسَنْتَ! بَقِيَ الْمُؤْمِنُونَ مَعَهُ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "nuh-a1-language-4-like",
+      "id": "nuh-a1-ar-language-4-like",
       "type": "multiple-choice",
-      "title": "Look: Like Us",
-      "instructions": "Choose the right answer.",
-      "question": "“You are only a man like us.” What did the rich men mean?",
+      "title": "انْظُرْ: مِثْلَنَا",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "قَالَ الرِّجَالُ الْأَغْنِيَاءُ لِنُوحٍ: إِنَّهُ إِنْسَانٌ مِثْلُهُمْ. مَا مَعْنَى «مِثْلَنَا»؟",
       "options": [
-       "“You are the same as us.”",
-       "“You are very rich.”",
-       "“You are an animal.”"
+       "أَنْتَ مِثْلُنَا تَمَامًا.",
+       "أَنْتَ غَنِيٌّ جِدًّا.",
+       "أَنْتَ حَيَوَانٌ."
       ],
       "correctAnswer": 0,
-      "explanation": "Like us = the same as us.",
+      "explanation": "«مِثْلَنَا» = مِثْلُ + نَا: مثلنا تمامًا، لا فرق. وفي الآية: ﴿مَا نَرَاكَ إِلَّا بَشَرًا مِثْلَنَا﴾.",
       "feedback": {
-       "correct": "Yes. They said he was the same as them.",
-       "incorrect": "Read the first paragraph of Chapter 4."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "nuh-a1-language-4-practise",
+      "id": "nuh-a1-ar-language-4-practise",
       "type": "choose-form",
-      "title": "Practise: Did Not",
-      "instructions": "Choose the right words.",
-      "question": "Which words go in the gap?",
+      "title": "تَدَرَّبْ: مَا + الْمَاضِي",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةٍ فِي الْفَرَاغِ؟",
       "formChoices": [
        {
-        "sentence": "The rich men [choice] listen to Noah.",
+        "sentence": "[choice] اسْتَمَعَ الرِّجَالُ الْأَغْنِيَاءُ إِلَى نُوحٍ.",
         "options": [
-         "did not",
-         "not"
+         "مَا",
+         "لَا"
         ],
         "answer": 0
        },
        {
-        "sentence": "Noah [choice] send the believers away.",
+        "sentence": "قَالَ نُوحٌ إِنَّ الْمُؤْمِنِينَ [choice] مَعَهُ.",
         "options": [
-         "did not",
-         "does not"
+         "سَيَبْقَوْنَ",
+         "سَيَذْهَبُونَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Past negative: did not + verb. The rich men did not listen.",
+      "explanation": "للنفي في الماضي نقول «مَا» + الماضي: مَا اسْتَمَعَ. و«لَا» + المضارع للآن.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 4 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الرَّابِعَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "nuh-a1-language-4-say-it",
+      "id": "nuh-a1-ar-language-4-say-it",
       "type": "reflection",
-      "title": "Say It: Like Me",
-      "instructions": "Tell your partner who is like you.",
-      "question": "Who is like you?",
+      "title": "قُلْهَا: مِثْلِي",
+      "instructions": "قُلْ لِزَمِيلِكَ: مَنْ مِثْلُكَ؟",
+      "question": "مَنْ مِثْلُكَ؟",
       "correctAnswer": null,
-      "explanation": "Use like + person.",
+      "explanation": "استعمل «مِثْلِي» و«سَوَاءٌ».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“My brother is like me. We …”",
+        "question": "«أَخِي مِثْلِي. نَحْنُ …»",
         "mode": "Pair",
-        "example": "My brother is like me. We love football."
+        "example": "أَخِي مِثْلِي. نَحْنُ نُحِبُّ كُرَةَ الْقَدَمِ."
        },
        {
-        "question": "“For Allah, all people are …”",
+        "question": "«عِنْدَ اللهِ، كُلُّ النَّاسِ …»",
         "mode": "Pair",
-        "example": "For Allah, all people are the same."
+        "example": "عِنْدَ اللهِ، كُلُّ النَّاسِ سَوَاءٌ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Did the rich men listen to Noah (pbuh)?",
+     "question": "خَمِّنْ أَوَّلًا: هَلِ اسْتَمَعَ الرِّجَالُ الْأَغْنِيَاءُ إِلَى نُوحٍ عَلَيْهِ السَّلَامُ؟",
      "options": [
-      "No, they did not.",
-      "Yes, they did.",
-      "Only one man listened."
+      "لَا، مَا اسْتَمَعُوا.",
+      "نَعَمْ، اسْتَمَعُوا.",
+      "اسْتَمَعَ رَجُلٌ وَاحِدٌ فَقَطْ."
      ],
      "answer": 0,
-     "quote": "The rich and important men did not listen to Noah."
+     "quote": "مَا اسْتَمَعَ الرِّجَالُ الْأَغْنِيَاءُ وَالْمُهِمُّونَ إِلَى نُوحٍ."
     },
     "iCan": [
-     "I can tell what the rich men said.",
-     "I can understand like us.",
-     "I can use did not."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَاذَا قَالَ الرِّجَالُ الْأَغْنِيَاءُ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «مِثْلَنَا».",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «مَا» + الْمَاضِي."
     ]
    },
    {
     "id": 5,
     "type": "story",
-    "title": "Nine Hundred and Fifty Years",
-    "content": "Noah talked to his people day and night for 950 years. He did not want money from them. He only wanted to show the right way.\n\nBut the people did not change. When Noah talked, they put their fingers in their ears and laughed at him. Later, they became cruel and hurt him. But Noah stayed patient. In the end, Allah told Noah, “Nobody from your people will believe.” (Surah Hûd, 36) Noah prayed to Allah, “My Lord, do not leave any bad people on the earth. They lead good people to the wrong way.” (Surah Nûh, 26–27) Allah accepted his prayer.",
+    "title": "تِسْعُمِائَةٍ وَخَمْسُونَ سَنَةً",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/nuh%2Fa2%2Fimages%2Fnuh_a2_ch4.jpeg?alt=media&token=70a3dea5-b7a5-4736-b436-87f05327f7ca",
+    "content": "تَكَلَّمَ نُوحٌ مَعَ قَوْمِهِ نَهَارًا وَلَيْلًا لِمُدَّةِ ٩٥٠ سَنَةً. مَا أَرَادَ مِنْهُمْ مَالًا. أَرَادَ فَقَطْ أَنْ يَدُلَّ عَلَى الطَّرِيقِ الصَّحِيحِ.\n\nلَكِنَّ النَّاسَ مَا تَغَيَّرُوا. عِنْدَمَا تَكَلَّمَ نُوحٌ، وَضَعُوا أَصَابِعَهُمْ فِي آذَانِهِمْ، وَضَحِكُوا مِنْهُ. بَعْدَ ذَلِكَ، صَارُوا قُسَاةً، وَآذَوْهُ. لَكِنَّ نُوحًا بَقِيَ صَبُورًا. فِي النِّهَايَةِ، قَالَ اللهُ لِنُوحٍ: ﴿لَنْ يُؤْمِنَ مِنْ قَوْمِكَ إِلَّا مَنْ قَدْ آمَنَ﴾ (سُورَةُ هُودٍ: ٣٦). دَعَا نُوحٌ اللهَ: ﴿رَبِّ لَا تَذَرْ عَلَى الْأَرْضِ مِنَ الْكَافِرِينَ دَيَّارًا﴾ ﴿إِنَّكَ إِنْ تَذَرْهُمْ يُضِلُّوا عِبَادَكَ﴾ (سُورَةُ نُوحٍ: ٢٦-٢٧). قَبِلَ اللهُ دُعَاءَهُ.",
     "vocabulary": [
      {
-      "word": "laugh",
-      "definition": "Make a happy sound \"ha ha\"."
+      "word": "ضَحِكُوا",
+      "definition": "أَخْرَجُوا صَوْتًا سَعِيدًا: «هَا هَا»."
      },
      {
-      "word": "cruel",
-      "definition": "Very bad and unkind to others."
+      "word": "قُسَاةً",
+      "definition": "سَيِّئُونَ جِدًّا، وَغَيْرُ لُطَفَاءَ مَعَ الْآخَرِينَ."
      },
      {
-      "word": "lead",
-      "definition": "Take someone to a place."
+      "word": "يُضِلُّوا",
+      "definition": "يَأْخُذُوا النَّاسَ إِلَى الطَّرِيقِ الْخَطَأِ."
      },
      {
-      "word": "accept",
-      "definition": "Say yes to something."
+      "word": "قَبِلَ",
+      "definition": "قَالَ «نَعَمْ» لِشَيْءٍ."
      }
     ],
     "hotspots": [
@@ -770,40 +783,40 @@
       "id": "h5-1",
       "x": 35,
       "y": 46,
-      "title": "Day and Night",
-      "description": "Noah talked to his people day and night for 950 years. He did not want money from them."
+      "title": "نَهَارًا وَلَيْلًا",
+      "description": "تَكَلَّمَ نُوحٌ مَعَ قَوْمِهِ نَهَارًا وَلَيْلًا لِمُدَّةِ ٩٥٠ سَنَةً. مَا أَرَادَ مِنْهُمْ مَالًا."
      },
      {
       "id": "h5-2",
       "x": 68,
       "y": 50,
-      "title": "Patient",
-      "description": "The people laughed at him and hurt him. But Noah stayed patient."
+      "title": "صَبُورٌ",
+      "description": "ضَحِكَ النَّاسُ مِنْهُ، وَآذَوْهُ. لَكِنَّ نُوحًا بَقِيَ صَبُورًا."
      }
     ],
     "exercises": [
      {
-      "id": "nuh-a1-quick-5",
+      "id": "nuh-a1-ar-quick-5",
       "type": "sequencing",
-      "title": "Nine Hundred and Fifty Years",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "تِسْعُمِائَةٍ وَخَمْسُونَ سَنَةً",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Noah talked to his people for 950 years."
+        "text": "تَكَلَّمَ نُوحٌ مَعَ قَوْمِهِ ٩٥٠ سَنَةً."
        },
        {
         "id": "2",
-        "text": "The people laughed at Noah."
+        "text": "ضَحِكَ النَّاسُ مِنْ نُوحٍ."
        },
        {
         "id": "3",
-        "text": "The people became cruel and hurt him."
+        "text": "صَارَ النَّاسُ قُسَاةً، وَآذَوْهُ."
        },
        {
         "id": "4",
-        "text": "Allah accepted Noah’s prayer."
+        "text": "قَبِلَ اللهُ دُعَاءَ نُوحٍ."
        }
       ],
       "correctAnswer": [
@@ -812,129 +825,130 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 5: 950 years → they laughed → they became cruel → Allah accepted his prayer.",
+      "explanation": "الفصل الخامس: ٩٥٠ سنة ← ضحكوا ← صاروا قساة ← قبل الله دعاءه.",
       "feedback": {
-       "correct": "Great! You put the chapter in order.",
-       "incorrect": "Read Chapter 5 again."
+       "correct": "أَحْسَنْتَ! رَتَّبْتَ الْفَصْلَ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الْخَامِسَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "nuh-a1-language-5-for",
+      "id": "nuh-a1-ar-language-5-for",
       "type": "multiple-choice",
-      "title": "Look: For + Time",
-      "instructions": "Choose the right answer.",
-      "question": "“Noah talked to his people day and night for 950 years.” What does “for 950 years” tell us?",
+      "title": "انْظُرْ: لِمُدَّةِ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«تَكَلَّمَ نُوحٌ مَعَ قَوْمِهِ نَهَارًا وَلَيْلًا لِمُدَّةِ ٩٥٠ سَنَةً.» مَاذَا تَقُولُ «لِمُدَّةِ ٩٥٠ سَنَةً»؟",
       "options": [
-       "how long",
-       "where",
-       "why"
+       "كَمْ مِنَ الْوَقْتِ",
+       "أَيْنَ",
+       "لِمَاذَا"
       ],
       "correctAnswer": 0,
-      "explanation": "For + time tells how long: for 950 years, for two hours.",
+      "explanation": "«لِمُدَّةِ» + الوقت تقول كم من الوقت: لِمُدَّةِ ٩٥٠ سَنَةً، لِمُدَّةِ سَاعَتَيْنِ.",
       "feedback": {
-       "correct": "Yes. It tells how long.",
-       "incorrect": "Read the first paragraph of Chapter 5."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "nuh-a1-language-5-practise",
+      "id": "nuh-a1-ar-language-5-practise",
       "type": "word-bank",
-      "title": "Practise: Noah Stayed Patient",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What happened?",
-      "fillBlanksText": "He did [blank] want money from them. The people [blank] at him. [blank] Noah stayed patient.",
+      "title": "تَدَرَّبْ: بَقِيَ نُوحٌ صَبُورًا",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "مَاذَا حَدَثَ؟",
+      "fillBlanksText": "مَا أَرَادَ نُوحٌ مِنْهُمْ [blank]. النَّاسُ [blank] مِنْهُ. [blank] نُوحًا بَقِيَ صَبُورًا.",
       "wordBank": [
-       "not",
-       "laughed",
-       "But",
-       "no",
-       "So"
+       "مَالًا",
+       "ضَحِكُوا",
+       "لَكِنَّ",
+       "لِأَنَّ",
+       "يَضْحَكُ"
       ],
       "correctAnswer": [
-       "not",
-       "laughed",
-       "But"
+       "مَالًا",
+       "ضَحِكُوا",
+       "لَكِنَّ"
       ],
-      "explanation": "Did not + verb. Laugh → laughed. But shows a different idea.",
+      "explanation": "مَا + الماضي للنفي: مَا أَرَادَ. والناس جمع: ضَحِكُوا. و«لَكِنَّ» تقول فكرة مختلفة.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 5 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الْخَامِسَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "nuh-a1-language-5-write-it",
+      "id": "nuh-a1-ar-language-5-write-it",
       "type": "reflection",
-      "title": "Write It: Be Patient",
-      "instructions": "Write about being patient.",
-      "question": "When are you patient?",
+      "title": "اكْتُبْهَا: كُنْ صَبُورًا",
+      "instructions": "اكْتُبْ عَنِ الصَّبْرِ.",
+      "question": "مَتَى تَكُونُ صَبُورًا؟",
       "correctAnswer": null,
-      "explanation": "Use for + time and because.",
+      "explanation": "استعمل «لِمُدَّةِ» + الوقت، و«لِأَنَّ».",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I wait for … for … minutes.”",
+        "question": "«أَنْتَظِرُ … لِمُدَّةِ … دَقَائِقَ.»",
         "mode": "Individual",
-        "example": "I wait for the bus for ten minutes."
+        "example": "أَنْتَظِرُ الْحَافِلَةَ لِمُدَّةِ عَشْرِ دَقَائِقَ."
        },
        {
-        "question": "“I am patient because …”",
+        "question": "«أَنَا صَبُورٌ لِأَنَّ …»",
         "mode": "Individual",
-        "example": "I am patient because it is good."
+        "example": "أَنَا صَبُورٌ لِأَنَّ الصَّبْرَ جَمِيلٌ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: How long did Noah (pbuh) talk to his people?",
+     "question": "خَمِّنْ أَوَّلًا: كَمْ سَنَةً تَكَلَّمَ نُوحٌ عَلَيْهِ السَّلَامُ مَعَ قَوْمِهِ؟",
      "options": [
-      "for 950 years",
-      "for 50 years",
-      "for 9 years"
+      "٩٥٠ سَنَةً",
+      "٥٠ سَنَةً",
+      "٩ سَنَوَاتٍ"
      ],
      "answer": 0,
-     "quote": "Noah talked to his people day and night for 950 years."
+     "quote": "تَكَلَّمَ نُوحٌ مَعَ قَوْمِهِ نَهَارًا وَلَيْلًا لِمُدَّةِ ٩٥٠ سَنَةً."
     },
     "iCan": [
-     "I can tell how Noah (pbuh) stayed patient.",
-     "I can use for + time.",
-     "I can write about being patient."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ كَيْفَ بَقِيَ نُوحٌ صَبُورًا.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «لِمُدَّةِ» + الْوَقْتِ.",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنِ الصَّبْرِ."
     ]
    },
    {
     "id": 6,
     "type": "story",
-    "title": "A Ship on the Land",
-    "content": "Allah told Noah to build an ark. So Noah and the believers started to build a very big ship. They used wood and nails, and they built it far from the sea.\n\nPeople walked past and laughed at Noah. “Look! A ship, but there is no sea here!” they said. But Noah kept working, because he trusted Allah. Then the ark was ready.",
+    "title": "سَفِينَةٌ عَلَى الْيَابِسَةِ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/nuh%2Fa2%2Fimages%2Fnuh_a2_ch5.jpeg?alt=media&token=f417d545-792c-4a4c-bb0d-9f84a96acd2e",
+    "content": "قَالَ اللهُ لِنُوحٍ أَنْ يَبْنِيَ فُلْكًا. فَبَدَأَ نُوحٌ وَالْمُؤْمِنُونَ يَبْنُونَ سَفِينَةً كَبِيرَةً جِدًّا. اسْتَعْمَلُوا الْخَشَبَ وَالْمَسَامِيرَ، وَبَنَوْهَا بَعِيدًا عَنِ الْبَحْرِ.\n\nمَرَّ النَّاسُ بِجَانِبِهَا، وَضَحِكُوا مِنْ نُوحٍ. «انْظُرُوا! سَفِينَةٌ، لَكِنْ لَا بَحْرَ هُنَا!» قَالُوا. لَكِنَّ نُوحًا ظَلَّ يَعْمَلُ، لِأَنَّهُ كَانَ يَثِقُ بِاللهِ. ثُمَّ صَارَ الْفُلْكُ جَاهِزًا.",
     "vocabulary": [
      {
-      "word": "ark",
-      "definition": "A very big ship."
+      "word": "فُلْكًا",
+      "definition": "سَفِينَةٌ كَبِيرَةٌ جِدًّا."
      },
      {
-      "word": "build",
-      "definition": "Make a house, a ship or a building."
+      "word": "يَبْنُونَ",
+      "definition": "يَصْنَعُونَ بَيْتًا، أَوْ سَفِينَةً، أَوْ عِمَارَةً."
      },
      {
-      "word": "ship",
-      "definition": "A very big boat."
+      "word": "سَفِينَةً",
+      "definition": "قَارِبٌ كَبِيرٌ جِدًّا."
      },
      {
-      "word": "nail",
-      "definition": "A small, thin piece of metal for wood."
+      "word": "الْمَسَامِيرَ",
+      "definition": "قِطْعَةٌ صَغِيرَةٌ رَفِيعَةٌ مِنَ الْمَعْدِنِ لِلْخَشَبِ."
      },
      {
-      "word": "trust",
-      "definition": "Believe that someone is good and true."
+      "word": "يَثِقُ",
+      "definition": "يُصَدِّقُ أَنَّ شَخْصًا طَيِّبٌ وَصَادِقٌ."
      },
      {
-      "word": "ready",
-      "definition": "Finished; you can use it now."
+      "word": "جَاهِزًا",
+      "definition": "انْتَهَى الْعَمَلُ فِيهِ؛ تَسْتَطِيعُ أَنْ تَسْتَعْمِلَهُ الْآنَ."
      }
     ],
     "hotspots": [
@@ -942,195 +956,196 @@
       "id": "h6-1",
       "x": 35,
       "y": 46,
-      "title": "Wood and Nails",
-      "description": "They used wood and nails, and they built it far from the sea."
+      "title": "الْخَشَبُ وَالْمَسَامِيرُ",
+      "description": "اسْتَعْمَلُوا الْخَشَبَ وَالْمَسَامِيرَ، وَبَنَوْهَا بَعِيدًا عَنِ الْبَحْرِ."
      },
      {
       "id": "h6-2",
       "x": 68,
       "y": 50,
-      "title": "People Laughed",
-      "description": "“Look! A ship, but there is no sea here!” they said."
+      "title": "ضَحِكَ النَّاسُ",
+      "description": "«انْظُرُوا! سَفِينَةٌ، لَكِنْ لَا بَحْرَ هُنَا!» قَالُوا."
      }
     ],
     "exercises": [
      {
-      "id": "nuh-a1-quick-6",
+      "id": "nuh-a1-ar-quick-6",
       "type": "drag-drop",
-      "title": "A Ship on the Land",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 6?",
+      "title": "سَفِينَةٌ عَلَى الْيَابِسَةِ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ السَّادِسِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "They built the ark far from the sea.",
-         "Noah (pbuh) kept working."
+         "بَنَوُا الْفُلْكَ بَعِيدًا عَنِ الْبَحْرِ.",
+         "ظَلَّ نُوحٌ يَعْمَلُ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "They built the ark with stones."
+         "بَنَوُا الْفُلْكَ مِنَ الْحِجَارَةِ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "They built the ark far from the sea.",
-        "Noah (pbuh) kept working."
+       "صَحِيحٌ": [
+        "بَنَوُا الْفُلْكَ بَعِيدًا عَنِ الْبَحْرِ.",
+        "ظَلَّ نُوحٌ يَعْمَلُ."
        ],
-       "False": [
-        "They built the ark with stones."
+       "خَطَأٌ": [
+        "بَنَوُا الْفُلْكَ مِنَ الْحِجَارَةِ."
        ]
       },
-      "explanation": "Chapter 6 says: “They used wood and nails, and they built it far from the sea.” “But Noah kept working, because he trusted Allah.”",
+      "explanation": "يقول الفصل السادس: «اسْتَعْمَلُوا الْخَشَبَ وَالْمَسَامِيرَ، وَبَنَوْهَا بَعِيدًا عَنِ الْبَحْرِ»، و«لَكِنَّ نُوحًا ظَلَّ يَعْمَلُ، لِأَنَّهُ كَانَ يَثِقُ بِاللهِ».",
       "feedback": {
-       "correct": "Yes! They used wood and nails.",
-       "incorrect": "Read the first paragraph of Chapter 6 again."
+       "correct": "أَحْسَنْتَ! اسْتَعْمَلُوا الْخَشَبَ وَالْمَسَامِيرَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "nuh-a1-language-6-because",
+      "id": "nuh-a1-ar-language-6-because",
       "type": "multiple-choice",
-      "title": "Look: Because",
-      "instructions": "Choose the right answer.",
-      "question": "“But Noah kept working, because he trusted Allah.” Why did Noah (pbuh) keep working?",
+      "title": "انْظُرْ: لِأَنَّهُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«لَكِنَّ نُوحًا ظَلَّ يَعْمَلُ، لِأَنَّهُ كَانَ يَثِقُ بِاللهِ.» لِمَاذَا ظَلَّ نُوحٌ يَعْمَلُ؟",
       "options": [
-       "He trusted Allah.",
-       "He wanted money.",
-       "He was afraid of the people."
+       "لِأَنَّهُ كَانَ يَثِقُ بِاللهِ",
+       "لِأَنَّهُ أَرَادَ مَالًا",
+       "لِأَنَّهُ خَافَ مِنَ النَّاسِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Because tells why: because he trusted Allah.",
+      "explanation": "«لِأَنَّ» تقول السبب وتجيب عن «لِمَاذَا؟». لِأَنَّهُ = لِأَنَّ + هُوَ.",
       "feedback": {
-       "correct": "Yes. He trusted Allah.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ السَّادِسِ."
       }
      },
      {
-      "id": "nuh-a1-language-6-practise",
+      "id": "nuh-a1-ar-language-6-practise",
       "type": "choose-form",
-      "title": "Practise: There Is, There Is No",
-      "instructions": "Choose the right words.",
-      "question": "Which words go in the gap?",
+      "title": "تَدَرَّبْ: لَا بَحْرَ هُنَا",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةٍ فِي الْفَرَاغِ؟",
       "formChoices": [
        {
-        "sentence": "“Look! A ship, but [choice] sea here!”",
+        "sentence": "«انْظُرُوا! سَفِينَةٌ، لَكِنْ [choice] بَحْرَ هُنَا!»",
         "options": [
-         "there is no",
-         "there is a"
+         "لَا",
+         "هَذَا"
         ],
         "answer": 0
        },
        {
-        "sentence": "[choice] a very big ship on the land.",
+        "sentence": "[choice] الْخَشَبَ وَالْمَسَامِيرَ.",
         "options": [
-         "There is",
-         "There are"
+         "اسْتَعْمَلُوا",
+         "اسْتَعْمَلَتْ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "There is a … = one thing is here. There is no … = it is not here.",
+      "explanation": "«لَا بَحْرَ هُنَا» = البحر ليس هنا. و«اسْتَعْمَلُوا» لنوح والمؤمنين، لأنهم أكثر من واحد.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ السَّادِسَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "nuh-a1-language-6-say-it",
+      "id": "nuh-a1-ar-language-6-say-it",
       "type": "reflection",
-      "title": "Say It: I Made It",
-      "instructions": "Tell your partner about a thing you made.",
-      "question": "What did you make?",
+      "title": "قُلْهَا: صَنَعْتُهُ",
+      "instructions": "قُلْ لِزَمِيلِكَ عَنْ شَيْءٍ صَنَعْتَهُ.",
+      "question": "مَاذَا صَنَعْتَ؟",
       "correctAnswer": null,
-      "explanation": "Use made and used.",
+      "explanation": "استعمل «صَنَعْتُ» و«اسْتَعْمَلْتُ».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I made a …”",
+        "question": "«صَنَعْتُ …»",
         "mode": "Pair",
-        "example": "I made a paper boat."
+        "example": "صَنَعْتُ قَارِبًا مِنَ الْوَرَقِ."
        },
        {
-        "question": "“I used …”",
+        "question": "«اسْتَعْمَلْتُ …»",
         "mode": "Pair",
-        "example": "I used paper and glue."
+        "example": "اسْتَعْمَلْتُ الْوَرَقَ وَالْغِرَاءَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "picture",
-     "question": "Guess first: What did Noah (pbuh) and the believers build?",
+     "question": "انْظُرْ إِلَى الصُّورَةِ. مَاذَا بَنَى نُوحٌ عَلَيْهِ السَّلَامُ وَالْمُؤْمِنُونَ؟",
      "options": [
-      "a very big ship",
-      "a house",
-      "a mosque"
+      "سَفِينَةً كَبِيرَةً جِدًّا",
+      "بَيْتًا",
+      "مَسْجِدًا"
      ],
      "answer": 0,
-     "quote": "So Noah and the believers started to build a very big ship."
+     "quote": "فَبَدَأَ نُوحٌ وَالْمُؤْمِنُونَ يَبْنُونَ سَفِينَةً كَبِيرَةً جِدًّا."
     },
     "iCan": [
-     "I can tell about the ark.",
-     "I can use because.",
-     "I can say there is no …."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنِ الْفُلْكِ.",
+     "أَسْتَطِيعُ أَنْ أَسْتَعْمِلَ «لِأَنَّ».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ: «لَا … هُنَا»."
     ],
     "groupTask": {
      "type": "project",
-     "title": "Building the Ark",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "بِنَاءُ الْفُلْكِ",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group draws the ark on the land, far from the sea.",
-      "The group writes the things they used: wood and nails.",
-      "One student writes what the people said. One student writes why Noah kept working.",
-      "The group shows the poster to the class."
+      "تَرْسُمُ الْمَجْمُوعَةُ الْفُلْكَ عَلَى الْيَابِسَةِ، بَعِيدًا عَنِ الْبَحْرِ.",
+      "تَكْتُبُ الْمَجْمُوعَةُ مَا اسْتَعْمَلُوهُ: الْخَشَبَ وَالْمَسَامِيرَ.",
+      "يَكْتُبُ طَالِبٌ مَا قَالَهُ النَّاسُ. وَيَكْتُبُ طَالِبٌ آخَرُ لِمَاذَا ظَلَّ نُوحٌ يَعْمَلُ.",
+      "تَعْرِضُ الْمَجْمُوعَةُ اللَّوْحَةَ عَلَى الصَّفِّ."
      ],
-     "share": "One student reads the poster. Story: “But Noah kept working, because he trusted Allah.”",
-     "solo": "Draw the ark. Write two sentences from the chapter."
+     "share": "يَقْرَأُ طَالِبٌ وَاحِدٌ اللَّوْحَةَ. مِنَ الْقِصَّةِ: «لَكِنَّ نُوحًا ظَلَّ يَعْمَلُ، لِأَنَّهُ كَانَ يَثِقُ بِاللهِ.»",
+     "solo": "ارْسُمِ الْفُلْكَ، وَاكْتُبْ جُمْلَتَيْنِ مِنَ الْفَصْلِ."
     }
    },
    {
     "id": 7,
     "type": "story",
-    "title": "The Great Flood",
-    "content": "Then heavy rain came down from the sky. Water came up from the ground, too. This was the flood. Allah told Noah to go into the ark. The believers and two of every animal went in with him.\n\nNoah’s wife and one of his sons did not believe. Noah saw his son near the ship and called, “My son, come with us!” His son said, “I will go up a mountain. It will keep me safe from the water.” Noah said, “Today, nobody is safe from Allah’s order. Only the people with His mercy are safe.” (Surah Hûd, 42–43) Then a big wave came between them, and the son drowned.",
+    "title": "الطُّوفَانُ الْعَظِيمُ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/nuh%2Fa2%2Fimages%2Fnuh_a2_ch5.jpeg?alt=media&token=f417d545-792c-4a4c-bb0d-9f84a96acd2e",
+    "content": "ثُمَّ نَزَلَ مَطَرٌ شَدِيدٌ مِنَ السَّمَاءِ. وَخَرَجَ الْمَاءُ مِنَ الْأَرْضِ أَيْضًا. كَانَ هَذَا الطُّوفَانَ. قَالَ اللهُ لِنُوحٍ أَنْ يَدْخُلَ الْفُلْكَ. دَخَلَ مَعَهُ الْمُؤْمِنُونَ، وَاثْنَانِ مِنْ كُلِّ حَيَوَانٍ.\n\nزَوْجَةُ نُوحٍ وَوَاحِدٌ مِنْ أَبْنَائِهِ مَا آمَنَا. رَأَى نُوحٌ ابْنَهُ قُرْبَ السَّفِينَةِ، وَنَادَى: ﴿يَا بُنَيَّ ارْكَبْ مَعَنَا﴾. قَالَ ابْنُهُ: ﴿سَآوِي إِلَىٰ جَبَلٍ يَعْصِمُنِي مِنَ الْمَاءِ﴾. قَالَ نُوحٌ: ﴿لَا عَاصِمَ الْيَوْمَ مِنْ أَمْرِ اللَّهِ إِلَّا مَنْ رَحِمَ﴾ (سُورَةُ هُودٍ: ٤٢-٤٣). ثُمَّ جَاءَتْ مَوْجَةٌ كَبِيرَةٌ بَيْنَهُمَا، وَغَرِقَ الِابْنُ.",
     "vocabulary": [
      {
-      "word": "ground",
-      "definition": "The earth under your feet."
+      "word": "الْأَرْضِ",
+      "definition": "الْمَكَانُ الَّذِي تَحْتَ قَدَمَيْكَ."
      },
      {
-      "word": "flood",
-      "definition": "A lot of water everywhere."
+      "word": "الطُّوفَانَ",
+      "definition": "مَاءٌ كَثِيرٌ فِي كُلِّ مَكَانٍ."
      },
      {
-      "word": "keep safe",
-      "definition": "Stop bad things from happening to someone."
+      "word": "يَعْصِمُنِي",
+      "definition": "يَحْمِينِي، فَلَا يَحْدُثُ لِي شَيْءٌ سَيِّئٌ."
      },
      {
-      "word": "order",
-      "definition": "Words that say \"Do this!\"."
+      "word": "أَمْرِ",
+      "definition": "كَلَامٌ يَقُولُ: «افْعَلْ هَذَا!»."
      },
      {
-      "word": "mercy",
-      "definition": "Love and kindness from Allah."
+      "word": "رَحِمَ",
+      "definition": "أَعْطَى الْحُبَّ وَاللُّطْفَ."
      },
      {
-      "word": "wave",
-      "definition": "A big moving line of water in the sea."
+      "word": "مَوْجَةٌ",
+      "definition": "خَطٌّ كَبِيرٌ مِنَ الْمَاءِ يَتَحَرَّكُ فِي الْبَحْرِ."
      },
      {
-      "word": "drown",
-      "definition": "Die in water."
+      "word": "غَرِقَ",
+      "definition": "مَاتَ فِي الْمَاءِ."
      }
     ],
     "hotspots": [
@@ -1138,147 +1153,148 @@
       "id": "h7-1",
       "x": 35,
       "y": 46,
-      "title": "The Flood",
-      "description": "Heavy rain came down from the sky. Water came up from the ground, too."
+      "title": "الطُّوفَانُ",
+      "description": "نَزَلَ مَطَرٌ شَدِيدٌ مِنَ السَّمَاءِ. وَخَرَجَ الْمَاءُ مِنَ الْأَرْضِ أَيْضًا."
      },
      {
       "id": "h7-2",
       "x": 68,
       "y": 50,
-      "title": "Two of Every Animal",
-      "description": "The believers and two of every animal went into the ark with Noah."
+      "title": "اثْنَانِ مِنْ كُلِّ حَيَوَانٍ",
+      "description": "دَخَلَ الْفُلْكَ مَعَ نُوحٍ الْمُؤْمِنُونَ، وَاثْنَانِ مِنْ كُلِّ حَيَوَانٍ."
      }
     ],
     "exercises": [
      {
-      "id": "nuh-a1-quick-7",
+      "id": "nuh-a1-ar-quick-7",
       "type": "multiple-choice",
-      "title": "The Great Flood",
-      "instructions": "Choose the best answer.",
-      "question": "What did Noah’s son say?",
+      "title": "الطُّوفَانُ الْعَظِيمُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الْأَفْضَلَ.",
+      "question": "إِلَى أَيْنَ أَرَادَ ابْنُ نُوحٍ أَنْ يَذْهَبَ؟",
       "options": [
-       "“I will go up a mountain.”",
-       "“I will go into the ark.”",
-       "“I will build a ship.”"
+       "إِلَى جَبَلٍ",
+       "إِلَى الْفُلْكِ",
+       "إِلَى الْبَحْرِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: His son said, “I will go up a mountain. It will keep me safe from the water.”",
+      "explanation": "الفصل السابع: قال ابنه: ﴿سَآوِي إِلَىٰ جَبَلٍ يَعْصِمُنِي مِنَ الْمَاءِ﴾.",
       "feedback": {
-       "correct": "Yes. He wanted to go up a mountain.",
-       "incorrect": "Read the second paragraph of Chapter 7 again."
+       "correct": "نَعَمْ. أَرَادَ أَنْ يَذْهَبَ إِلَى جَبَلٍ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "nuh-a1-language-7-will",
+      "id": "nuh-a1-ar-language-7-future",
       "type": "multiple-choice",
-      "title": "Look: Will",
-      "instructions": "Choose the right answer.",
-      "question": "“I will go up a mountain.” When is this?",
+      "title": "انْظُرْ: سَـ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "قَالَ ابْنُ نُوحٍ: ﴿سَآوِي إِلَىٰ جَبَلٍ﴾. مَتَى؟",
       "options": [
-       "in the future, after now",
-       "in the past",
-       "every day"
+       "بَعْدَ الْآنَ",
+       "فِي الْمَاضِي",
+       "كُلَّ يَوْمٍ"
       ],
       "correctAnswer": 0,
-      "explanation": "Will + verb = the future: I will go.",
+      "explanation": "«سَـ» + المضارع للمستقبل: سَآوِي = سأذهب بعد الآن. وفي الفصل الرابع: سَيَبْقَوْنَ.",
       "feedback": {
-       "correct": "Yes. It is the future.",
-       "incorrect": "Read the second paragraph of Chapter 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ السَّابِعِ."
       }
      },
      {
-      "id": "nuh-a1-language-7-practise",
+      "id": "nuh-a1-ar-language-7-practise",
       "type": "choose-form",
-      "title": "Practise: Came, Went, Saw",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: نَزَلَ، دَخَلَ، رَأَى",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ لِلْمَاضِي؟",
       "formChoices": [
        {
-        "sentence": "Then heavy rain [choice] down from the sky.",
+        "sentence": "ثُمَّ [choice] مَطَرٌ شَدِيدٌ مِنَ السَّمَاءِ.",
         "options": [
-         "came",
-         "comes"
+         "نَزَلَ",
+         "يَنْزِلُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The believers [choice] in with him.",
+        "sentence": "[choice] مَعَهُ الْمُؤْمِنُونَ.",
         "options": [
-         "went",
-         "go"
+         "دَخَلَ",
+         "يَدْخُلُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Noah [choice] his son near the ship.",
+        "sentence": "[choice] نُوحٌ ابْنَهُ قُرْبَ السَّفِينَةِ.",
         "options": [
-         "saw",
-         "sees"
+         "رَأَى",
+         "يَرَى"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Come → came, go → went, see → saw in the past.",
+      "explanation": "في الماضي: نَزَلَ، دَخَلَ، رَأَى. و«يَنْزِلُ، يَدْخُلُ، يَرَى» للآن.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 7 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ السَّابِعَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "nuh-a1-language-7-say-it",
+      "id": "nuh-a1-ar-language-7-say-it",
       "type": "reflection",
-      "title": "Say It: Two of Every Animal",
-      "instructions": "Say animals in pairs with your partner.",
-      "question": "Which animals went into the ark?",
+      "title": "قُلْهَا: اثْنَانِ مِنْ كُلِّ حَيَوَانٍ",
+      "instructions": "قُلْ مَعَ زَمِيلِكَ أَسْمَاءَ حَيَوَانَاتٍ، اثْنَيْنِ اثْنَيْنِ.",
+      "question": "أَيُّ حَيَوَانَاتٍ دَخَلَتِ الْفُلْكَ؟",
       "correctAnswer": null,
-      "explanation": "Use two + animals and will.",
+      "explanation": "للاثنين نزيد «ـَانِ»: قِطَّةٌ ← قِطَّتَانِ، حِصَانٌ ← حِصَانَانِ. وللمستقبل: «سَـ» + المضارع.",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Two …”",
+        "question": "«قِطَّتَانِ، …»",
         "mode": "Pair",
-        "example": "Two cats, two horses."
+        "example": "قِطَّتَانِ، وَحِصَانَانِ، وَجَمَلَانِ."
        },
        {
-        "question": "“I will …”",
+        "question": "«غَدًا سَـ…»",
         "mode": "Individual",
-        "example": "I will read my book after school."
+        "example": "غَدًا سَأَقْرَأُ كِتَابِي بَعْدَ الْمَدْرَسَةِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Who went into the ark?",
+     "question": "خَمِّنْ أَوَّلًا: مَنْ دَخَلَ الْفُلْكَ؟",
      "options": [
-      "the believers and two of every animal",
-      "only Noah (pbuh)",
-      "all the people"
+      "الْمُؤْمِنُونَ، وَاثْنَانِ مِنْ كُلِّ حَيَوَانٍ",
+      "نُوحٌ عَلَيْهِ السَّلَامُ وَحْدَهُ",
+      "كُلُّ النَّاسِ"
      ],
      "answer": 0,
-     "quote": "The believers and two of every animal went in with him."
+     "quote": "دَخَلَ مَعَهُ الْمُؤْمِنُونَ، وَاثْنَانِ مِنْ كُلِّ حَيَوَانٍ."
     },
     "iCan": [
-     "I can tell about the great flood.",
-     "I can understand will.",
-     "I can name animals in pairs."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنِ الطُّوفَانِ الْعَظِيمِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «سَـ» لِلْمُسْتَقْبَلِ.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ أَسْمَاءَ حَيَوَانَاتٍ اثْنَيْنِ اثْنَيْنِ."
     ]
    },
    {
     "id": 8,
     "type": "story",
-    "title": "A New Start",
-    "content": "Then Allah said: “O earth, take back your water! O sky, stop!” (Surah Hûd, 44) The water went down, and the ark stopped on Mount Judi.\n\nNoah opened the door. The animals and birds went out and lived all over the earth. Noah and the believers came out, too. Noah put his head on the ground and thanked Allah.\n\nMany years later, Noah was very old. He gave advice to his children. He told them to believe only in Allah and never to be proud.",
+    "title": "بِدَايَةٌ جَدِيدَةٌ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/nuh%2Fa2%2Fimages%2Fnuh_a2_ch6.jpeg?alt=media&token=3655c718-d7a5-4477-82fb-f727415c89c8",
+    "content": "ثُمَّ قَالَ اللهُ: ﴿يَا أَرْضُ ابْلَعِي مَاءَكِ وَيَا سَمَاءُ أَقْلِعِي﴾ (سُورَةُ هُودٍ: ٤٤). انْخَفَضَ الْمَاءُ، وَوَقَفَ الْفُلْكُ عَلَى جَبَلِ الْجُودِيِّ.\n\nفَتَحَ نُوحٌ الْبَابَ. خَرَجَتِ الْحَيَوَانَاتُ وَالطُّيُورُ، وَعَاشَتْ فِي كُلِّ مَكَانٍ فِي الْأَرْضِ. وَخَرَجَ نُوحٌ وَالْمُؤْمِنُونَ أَيْضًا. وَضَعَ نُوحٌ رَأْسَهُ عَلَى الْأَرْضِ، وَشَكَرَ اللهَ.\n\nبَعْدَ سَنَوَاتٍ كَثِيرَةٍ، كَانَ نُوحٌ كَبِيرًا جِدًّا فِي السِّنِّ. أَعْطَى أَوْلَادَهُ نَصِيحَةً. قَالَ لَهُمْ أَنْ يُؤْمِنُوا بِاللهِ فَقَطْ، وَأَلَّا يَكُونُوا مُتَكَبِّرِينَ أَبَدًا.",
     "vocabulary": [
      {
-      "word": "advice",
-      "definition": "Words that help someone do the right thing."
+      "word": "نَصِيحَةً",
+      "definition": "كَلَامٌ يُسَاعِدُ شَخْصًا عَلَى فِعْلِ الشَّيْءِ الصَّحِيحِ."
      }
     ],
     "hotspots": [
@@ -1286,161 +1302,161 @@
       "id": "h8-1",
       "x": 35,
       "y": 46,
-      "title": "A New Start",
-      "description": "The animals and birds went out and lived all over the earth."
+      "title": "بِدَايَةٌ جَدِيدَةٌ",
+      "description": "خَرَجَتِ الْحَيَوَانَاتُ وَالطُّيُورُ، وَعَاشَتْ فِي كُلِّ مَكَانٍ فِي الْأَرْضِ."
      },
      {
       "id": "h8-2",
       "x": 68,
       "y": 50,
-      "title": "Advice",
-      "description": "Noah gave advice to his children. He told them to believe only in Allah and never to be proud."
+      "title": "النَّصِيحَةُ",
+      "description": "أَعْطَى نُوحٌ أَوْلَادَهُ نَصِيحَةً. قَالَ لَهُمْ أَنْ يُؤْمِنُوا بِاللهِ فَقَطْ، وَأَلَّا يَكُونُوا مُتَكَبِّرِينَ أَبَدًا."
      }
     ],
     "exercises": [
      {
-      "id": "nuh-a1-quick-8",
+      "id": "nuh-a1-ar-quick-8",
       "type": "drag-drop",
-      "title": "A New Start",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 8?",
+      "title": "بِدَايَةٌ جَدِيدَةٌ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الثَّامِنِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "Noah (pbuh) thanked Allah.",
-         "The animals lived all over the earth."
+         "شَكَرَ نُوحٌ اللهَ.",
+         "عَاشَتِ الْحَيَوَانَاتُ فِي كُلِّ مَكَانٍ فِي الْأَرْضِ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "Noah (pbuh) told his children to be proud."
+         "قَالَ نُوحٌ لِأَوْلَادِهِ أَنْ يَكُونُوا مُتَكَبِّرِينَ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "Noah (pbuh) thanked Allah.",
-        "The animals lived all over the earth."
+       "صَحِيحٌ": [
+        "شَكَرَ نُوحٌ اللهَ.",
+        "عَاشَتِ الْحَيَوَانَاتُ فِي كُلِّ مَكَانٍ فِي الْأَرْضِ."
        ],
-       "False": [
-        "Noah (pbuh) told his children to be proud."
+       "خَطَأٌ": [
+        "قَالَ نُوحٌ لِأَوْلَادِهِ أَنْ يَكُونُوا مُتَكَبِّرِينَ."
        ]
       },
-      "explanation": "Chapter 8 says: “Noah put his head on the ground and thanked Allah.” “He told them to believe only in Allah and never to be proud.”",
+      "explanation": "يقول الفصل الثامن: «وَضَعَ نُوحٌ رَأْسَهُ عَلَى الْأَرْضِ، وَشَكَرَ اللهَ»، و«قَالَ لَهُمْ أَنْ يُؤْمِنُوا بِاللهِ فَقَطْ، وَأَلَّا يَكُونُوا مُتَكَبِّرِينَ أَبَدًا».",
       "feedback": {
-       "correct": "Yes! He told them never to be proud.",
-       "incorrect": "Read the last paragraph of Chapter 8 again."
+       "correct": "أَحْسَنْتَ! قَالَ لَهُمْ أَلَّا يَكُونُوا مُتَكَبِّرِينَ أَبَدًا.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأَخِيرَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "nuh-a1-language-8-told",
+      "id": "nuh-a1-ar-language-8-told",
       "type": "multiple-choice",
-      "title": "Look: Told Them to …",
-      "instructions": "Choose the right answer.",
-      "question": "“He told them to believe only in Allah and never to be proud.” What did Noah (pbuh) say?",
+      "title": "انْظُرْ: قَالَ لَهُمْ أَنْ …",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«قَالَ لَهُمْ أَنْ يُؤْمِنُوا بِاللهِ فَقَطْ، وَأَلَّا يَكُونُوا مُتَكَبِّرِينَ أَبَدًا.» مَاذَا قَالَ نُوحٌ؟",
       "options": [
-       "“Believe only in Allah. Never be proud.”",
-       "“Be proud.”",
-       "“Build a ship.”"
+       "«آمِنُوا بِاللهِ فَقَطْ، وَلَا تَكُونُوا مُتَكَبِّرِينَ أَبَدًا.»",
+       "«كُونُوا مُتَكَبِّرِينَ.»",
+       "«ابْنُوا سَفِينَةً.»"
       ],
       "correctAnswer": 0,
-      "explanation": "Told + person + to + verb: He told them to believe. Never to be = do not be.",
+      "explanation": "«قَالَ لَهُمْ أَنْ يُؤْمِنُوا» = قال لهم: «آمِنُوا». و«أَلَّا» = أَنْ + لَا: قال لهم: «لَا تَكُونُوا».",
       "feedback": {
-       "correct": "Yes. That was his advice.",
-       "incorrect": "Read the last paragraph of Chapter 8."
+       "correct": "صَحِيحٌ. هَذِهِ نَصِيحَتُهُ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأَخِيرَةَ مِنَ الْفَصْلِ الثَّامِنِ."
       }
      },
      {
-      "id": "nuh-a1-language-8-practise",
+      "id": "nuh-a1-ar-language-8-practise",
       "type": "word-bank",
-      "title": "Practise: A New Start",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What happened?",
-      "fillBlanksText": "The water went [blank], and the ark stopped on Mount Judi. Noah [blank] the door. He put his head on the ground and [blank] Allah.",
+      "title": "تَدَرَّبْ: بِدَايَةٌ جَدِيدَةٌ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "مَاذَا حَدَثَ؟",
+      "fillBlanksText": "انْخَفَضَ [blank]، وَوَقَفَ الْفُلْكُ عَلَى جَبَلِ الْجُودِيِّ. [blank] نُوحٌ الْبَابَ. وَضَعَ رَأْسَهُ عَلَى الْأَرْضِ، وَ[blank] اللهَ.",
       "wordBank": [
-       "down",
-       "opened",
-       "thanked",
-       "up",
-       "opens"
+       "الْمَاءُ",
+       "فَتَحَ",
+       "شَكَرَ",
+       "الْجَبَلُ",
+       "يَفْتَحُ"
       ],
       "correctAnswer": [
-       "down",
-       "opened",
-       "thanked"
+       "الْمَاءُ",
+       "فَتَحَ",
+       "شَكَرَ"
       ],
-      "explanation": "Went down ≠ went up. Open → opened, thank → thanked.",
+      "explanation": "انْخَفَضَ الماء، أي نزل. وفي الماضي: فَتَحَ، شَكَرَ. و«يَفْتَحُ» للآن.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the first two paragraphs of Chapter 8."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَتَيْنِ الْأُولَيَيْنِ مِنَ الْفَصْلِ الثَّامِنِ."
       }
      },
      {
-      "id": "nuh-a1-language-8-write-it",
+      "id": "nuh-a1-ar-language-8-write-it",
       "type": "reflection",
-      "title": "Write It: Good Advice",
-      "instructions": "Write advice for a friend.",
-      "question": "What is good advice?",
+      "title": "اكْتُبْهَا: نَصِيحَةٌ طَيِّبَةٌ",
+      "instructions": "اكْتُبْ نَصِيحَةً لِصَدِيقِكَ.",
+      "question": "مَا النَّصِيحَةُ الطَّيِّبَةُ؟",
       "correctAnswer": null,
-      "explanation": "Use always and never + verb.",
+      "explanation": "استعمل «دَائِمًا»، و«لَا تَكُنْ … أَبَدًا».",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Always …”",
+        "question": "«قُلْ دَائِمًا …»",
         "mode": "Individual",
-        "example": "Always say true words."
+        "example": "قُلْ دَائِمًا كَلَامًا صَحِيحًا."
        },
        {
-        "question": "“Never …”",
+        "question": "«لَا تَكُنْ … أَبَدًا.»",
         "mode": "Individual",
-        "example": "Never be proud."
+        "example": "لَا تَكُنْ مُتَكَبِّرًا أَبَدًا."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Where did the ark stop?",
+     "question": "خَمِّنْ أَوَّلًا: أَيْنَ وَقَفَ الْفُلْكُ؟",
      "options": [
-      "on Mount Judi",
-      "in the sea",
-      "in a city"
+      "عَلَى جَبَلِ الْجُودِيِّ",
+      "فِي الْبَحْرِ",
+      "فِي مَدِينَةٍ"
      ],
      "answer": 0,
-     "quote": "The water went down, and the ark stopped on Mount Judi."
+     "quote": "انْخَفَضَ الْمَاءُ، وَوَقَفَ الْفُلْكُ عَلَى جَبَلِ الْجُودِيِّ."
     },
     "iCan": [
-     "I can tell about the new start.",
-     "I can understand told them to ….",
-     "I can write good advice."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ عَنِ الْبِدَايَةِ الْجَدِيدَةِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «قَالَ لَهُمْ أَنْ …».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ نَصِيحَةً طَيِّبَةً."
     ],
     "groupTask": {
      "type": "project",
-     "title": "Noah’s Advice Poster",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "لَوْحَةُ نَصِيحَةِ نُوحٍ",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group writes Noah’s advice in the middle of the poster.",
-      "Each student writes one more piece of good advice: “Always …” or “Never …”.",
-      "The group draws the ark on Mount Judi.",
-      "The group reads the advice to the class."
+      "تَكْتُبُ الْمَجْمُوعَةُ نَصِيحَةَ نُوحٍ فِي وَسَطِ اللَّوْحَةِ.",
+      "يَكْتُبُ كُلُّ طَالِبٍ نَصِيحَةً طَيِّبَةً أُخْرَى: «… دَائِمًا» أَوْ «لَا … أَبَدًا».",
+      "تَرْسُمُ الْمَجْمُوعَةُ الْفُلْكَ عَلَى جَبَلِ الْجُودِيِّ.",
+      "تَقْرَأُ الْمَجْمُوعَةُ النَّصَائِحَ لِلصَّفِّ."
      ],
-     "share": "The group reads the poster. Story: “He gave advice to his children.”",
-     "solo": "Write Noah’s advice and two more pieces of advice."
+     "share": "تَقْرَأُ الْمَجْمُوعَةُ اللَّوْحَةَ. مِنَ الْقِصَّةِ: «أَعْطَى أَوْلَادَهُ نَصِيحَةً.»",
+     "solo": "اكْتُبْ نَصِيحَةَ نُوحٍ، وَنَصِيحَتَيْنِ أُخْرَيَيْنِ."
     }
    },
    {
     "id": 101,
     "type": "map",
-    "title": "The Flood and Mount Judi",
-    "subtitle": "Map · Chapters 1–8",
+    "title": "الطُّوفَانُ وَجَبَلُ الْجُودِيِّ",
+    "subtitle": "خَرِيطَةٌ · الْفُصُولُ مِنْ 1 إِلَى 8",
     "content": "",
     "map": {
      "baseMap": "nearEast",
@@ -1474,11 +1490,11 @@
        "icon": "mountain",
        "tone": "place",
        "labelSide": "right",
-       "name": "Mount Judi",
-       "kind": "Mountain",
-       "text": "The water went down, and the ark stopped on Mount Judi.",
-       "teacherNote": "Chapter 8 (Surah Hûd, 44).",
-       "question": "Where did the ark stop?"
+       "name": "جَبَلُ الْجُودِيِّ",
+       "kind": "جَبَلٌ",
+       "text": "انْخَفَضَ الْمَاءُ، وَوَقَفَ الْفُلْكُ عَلَى جَبَلِ الْجُودِيِّ.",
+       "teacherNote": "الفصل الثامن (سورة هود: ٤٤).",
+       "question": "أَيْنَ وَقَفَ الْفُلْكُ؟"
       }
      ],
      "towns": [],
@@ -1487,19 +1503,19 @@
        "id": "redSea",
        "lon": 38,
        "lat": 21,
-       "name": "Red Sea"
+       "name": "الْبَحْرُ الْأَحْمَرُ"
       },
       {
        "id": "gulf",
        "lon": 50.5,
        "lat": 27.3,
-       "name": "Persian Gulf"
+       "name": "الْخَلِيجُ الْعَرَبِيُّ"
       },
       {
        "id": "mediterranean",
        "lon": 31,
        "lat": 33.5,
-       "name": "Mediterranean Sea"
+       "name": "الْبَحْرُ الْأَبْيَضُ الْمُتَوَسِّطُ"
       }
      ],
      "timeline": [
@@ -1512,7 +1528,7 @@
         "lat": 36.5,
         "zoom": 1.3
        },
-       "label": "The flood"
+       "label": "الطُّوفَانُ"
       },
       {
        "year": 2,
@@ -1527,7 +1543,7 @@
         "kind": "dawn",
         "placeId": "judi"
        },
-       "label": "Mount Judi"
+       "label": "جَبَلُ الْجُودِيِّ"
       }
      ],
      "challenge": [
@@ -1536,7 +1552,7 @@
        "lon": 42.35,
        "lat": 37.37,
        "radiusKm": 150,
-       "prompt": "Find Mount Judi. The ark stopped here."
+       "prompt": "ابْحَثْ عَنْ جَبَلِ الْجُودِيِّ. وَقَفَ الْفُلْكُ هُنَا."
       }
      ]
     }
@@ -1544,107 +1560,107 @@
    {
     "id": 11,
     "type": "quiz",
-    "title": "Knowledge Check",
+    "title": "اختبار المعرفة",
     "image": "https://picsum.photos/seed/quiz-nuh-a1/1200/800",
     "audioUrl": "",
-    "content": "Check your understanding of the complete story.",
+    "content": "اخْتَبِرْ فَهْمَكَ لِلْأَحْدَاثِ الرَّئِيسِيَّةِ فِي قِصَّةِ النَّبِيِّ نُوحٍ عَلَيْهِ السَّلَامُ.",
     "exercises": [
      {
-      "id": "nuh-a1-kc-1",
+      "id": "nuh-a1-ar-kc-1",
       "type": "multiple-choice",
-      "title": "Five Great Prophets",
-      "instructions": "Choose the answer.",
-      "question": "Who is one of the five great prophets?",
+      "title": "خَمْسَةُ أَنْبِيَاءَ عِظَامٍ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَنْ مِنَ الْأَنْبِيَاءِ الْخَمْسَةِ الْعِظَامِ؟",
       "options": [
-       "Noah (pbuh)",
-       "Wadd",
-       "Nasr"
+       "نُوحٌ عَلَيْهِ السَّلَامُ",
+       "وَدٌّ",
+       "نَسْرٌ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 1: “These five prophets are Noah (pbuh), Abraham (pbuh), Moses (pbuh), Jesus (pbuh) and Muhammad (pbuh).”",
+      "explanation": "الفصل الأول: «هَؤُلَاءِ الْأَنْبِيَاءُ الْخَمْسَةُ هُمْ: نُوحٌ عَلَيْهِ السَّلَامُ، وَإِبْرَاهِيمُ عَلَيْهِ السَّلَامُ …». ووَدٌّ ونَسْرٌ من الرجال الخمسة في الفصل الثاني.",
       "feedback": {
-       "correct": "Yes. Noah (pbuh).",
-       "incorrect": "Read the second paragraph of Chapter 1."
+       "correct": "نَعَمْ. نُوحٌ عَلَيْهِ السَّلَامُ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "nuh-a1-kc-2",
+      "id": "nuh-a1-ar-kc-2",
       "type": "true-false",
-      "title": "Statues",
-      "instructions": "Is it true or false?",
-      "question": "People started to pray to statues of five good men.",
+      "title": "التَّمَاثِيلُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "بَدَأَ النَّاسُ يَدْعُونَ تَمَاثِيلَ الرِّجَالِ الْخَمْسَةِ.",
       "correctAnswer": true,
-      "explanation": "Chapter 2: “After many years, people forgot Allah and started to pray to statues of these five men.”",
+      "explanation": "الفصل الثاني: «نَسِيَ النَّاسُ اللهَ، وَبَدَؤُوا يَدْعُونَ تَمَاثِيلَ هَؤُلَاءِ الرِّجَالِ الْخَمْسَةِ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the second paragraph of Chapter 2."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "nuh-a1-kc-3",
+      "id": "nuh-a1-ar-kc-3",
       "type": "multiple-choice",
-      "title": "Noah’s Message",
-      "instructions": "Choose the answer.",
-      "question": "What did Noah (pbuh) say?",
+      "title": "رِسَالَةُ نُوحٍ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا قَالَ نُوحٌ عَلَيْهِ السَّلَامُ؟",
       "options": [
-       "“Do not pray to statues.”",
-       "“Make more statues.”",
-       "“Go away.”"
+       "«لَا تَدْعُوا التَّمَاثِيلَ.»",
+       "«اصْنَعُوا تَمَاثِيلَ أُخْرَى.»",
+       "«اذْهَبُوا.»"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 3: He also told them, “I am a Messenger of Allah. Do not pray to statues.”",
+      "explanation": "الفصل الثالث: «أَنَا رَسُولٌ مِنَ اللهِ. لَا تَدْعُوا التَّمَاثِيلَ».",
       "feedback": {
-       "correct": "Yes.",
-       "incorrect": "Read the first paragraph of Chapter 3."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "nuh-a1-kc-4",
+      "id": "nuh-a1-ar-kc-4",
       "type": "true-false",
-      "title": "Money",
-      "instructions": "Is it true or false?",
-      "question": "Noah (pbuh) wanted money from his people.",
+      "title": "الْمَالُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "أَرَادَ نُوحٌ عَلَيْهِ السَّلَامُ مِنْ قَوْمِهِ مَالًا.",
       "correctAnswer": false,
-      "explanation": "Chapter 5: “He did not want money from them.”",
+      "explanation": "الفصل الخامس: «مَا أَرَادَ مِنْهُمْ مَالًا».",
       "feedback": {
-       "correct": "Yes, it is false. He did not want money.",
-       "incorrect": "Read the first paragraph of Chapter 5."
+       "correct": "نَعَمْ، هَذَا خَطَأٌ. مَا أَرَادَ مَالًا.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "nuh-a1-kc-5",
+      "id": "nuh-a1-ar-kc-5",
       "type": "multiple-choice",
-      "title": "The Ark",
-      "instructions": "Choose the answer.",
-      "question": "What did they use for the ark?",
+      "title": "الْفُلْكُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا اسْتَعْمَلُوا لِلْفُلْكِ؟",
       "options": [
-       "wood and nails",
-       "stone and gold",
-       "paper"
+       "الْخَشَبَ وَالْمَسَامِيرَ",
+       "الْحَجَرَ وَالذَّهَبَ",
+       "الْوَرَقَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 6: “They used wood and nails.”",
+      "explanation": "الفصل السادس: «اسْتَعْمَلُوا الْخَشَبَ وَالْمَسَامِيرَ».",
       "feedback": {
-       "correct": "Yes. Wood and nails.",
-       "incorrect": "Read the first paragraph of Chapter 6."
+       "correct": "نَعَمْ. الْخَشَبَ وَالْمَسَامِيرَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ السَّادِسِ."
       }
      },
      {
-      "id": "nuh-a1-kc-6",
+      "id": "nuh-a1-ar-kc-6",
       "type": "multiple-choice",
-      "title": "Mount Judi",
-      "instructions": "Choose the answer.",
-      "question": "What did Noah (pbuh) do after the ark stopped?",
+      "title": "جَبَلُ الْجُودِيِّ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا فَعَلَ نُوحٌ عَلَيْهِ السَّلَامُ بَعْدَ أَنْ وَقَفَ الْفُلْكُ؟",
       "options": [
-       "He thanked Allah.",
-       "He built a house.",
-       "He went to sleep."
+       "شَكَرَ اللهَ.",
+       "بَنَى بَيْتًا.",
+       "نَامَ."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 8: “Noah put his head on the ground and thanked Allah.”",
+      "explanation": "الفصل الثامن: «وَضَعَ نُوحٌ رَأْسَهُ عَلَى الْأَرْضِ، وَشَكَرَ اللهَ».",
       "feedback": {
-       "correct": "Yes. He thanked Allah.",
-       "incorrect": "Read the second paragraph of Chapter 8."
+       "correct": "نَعَمْ. شَكَرَ اللهَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّامِنِ."
       }
      }
     ]
@@ -1652,673 +1668,582 @@
    {
     "id": 13,
     "type": "glossary",
-    "title": "Master Glossary",
-    "content": "Review all key vocabulary from the story in one place.",
+    "title": "المعجم الرئيسي",
+    "content": "رَاجِعْ جَمِيعَ مُفْرَدَاتِ الْقِصَّةِ الْمُهِمَّةِ فِي مَكَانٍ وَاحِدٍ.",
     "image": "https://picsum.photos/seed/glossary-nuh-a1/1200/800",
     "vocabulary": [
      {
-      "word": "send",
-      "definition": "Make someone go to a place.",
-      "partOfSpeech": "verb",
+      "word": "أَرْسَلَ",
+      "definition": "جَعَلَ شَخْصًا يَذْهَبُ إِلَى مَكَانٍ.",
       "level": "A1",
-      "pronunciation": "/send/",
       "chapter": 1,
-      "chapterTitle": "Five Great Prophets",
-      "storyExample": "Allah sent prophets to people.",
-      "category": "Actions"
+      "chapterTitle": "خَمْسَةُ أَنْبِيَاءَ عِظَامٍ",
+      "storyExample": "أَرْسَلَ اللهُ أَنْبِيَاءَ إِلَى النَّاسِ."
      },
      {
-      "word": "prophet",
-      "definition": "A person who brings Allah's words to people.",
-      "partOfSpeech": "noun",
+      "word": "أَنْبِيَاءَ",
+      "definition": "نَاسٌ يَأْتُونَ النَّاسَ بِكَلَامِ اللهِ.",
       "level": "A1",
-      "pronunciation": "/ˈprɑːfɪt/",
       "chapter": 1,
-      "chapterTitle": "Five Great Prophets",
-      "storyExample": "Allah sent prophets to people.",
-      "category": "Faith"
+      "chapterTitle": "خَمْسَةُ أَنْبِيَاءَ عِظَامٍ",
+      "storyExample": "أَرْسَلَ اللهُ أَنْبِيَاءَ إِلَى النَّاسِ."
      },
      {
-      "word": "patient",
-      "definition": "Can wait a long time and not get angry.",
-      "partOfSpeech": "adjective",
+      "word": "صَابِرِينَ",
+      "definition": "يَنْتَظِرُونَ وَقْتًا طَوِيلًا، وَلَا يَغْضَبُونَ.",
       "level": "A1",
-      "pronunciation": "/ˈpeɪʃnt/",
       "chapter": 1,
-      "chapterTitle": "Five Great Prophets",
-      "storyExample": "They were very patient and strong in their hearts.",
-      "category": "Values"
+      "chapterTitle": "خَمْسَةُ أَنْبِيَاءَ عِظَامٍ",
+      "storyExample": "كَانُوا صَابِرِينَ جِدًّا، وَأَقْوِيَاءَ فِي قُلُوبِهِمْ."
      },
      {
-      "word": "duty",
-      "definition": "A thing you must do.",
-      "partOfSpeech": "noun",
+      "word": "وَاجِبٌ",
+      "definition": "شَيْءٌ يَجِبُ أَنْ تَفْعَلَهُ.",
       "level": "A1",
-      "pronunciation": "/ˈduːti/",
       "chapter": 1,
-      "chapterTitle": "Five Great Prophets",
-      "storyExample": "They had a very important duty.",
-      "category": "Values"
+      "chapterTitle": "خَمْسَةُ أَنْبِيَاءَ عِظَامٍ",
+      "storyExample": "كَانَ لَهُمْ وَاجِبٌ مُهِمٌّ جِدًّا."
      },
      {
-      "word": "earth",
-      "definition": "The world we live in.",
-      "partOfSpeech": "noun",
+      "word": "الدُّنْيَا",
+      "definition": "الْعَالَمُ الَّذِي نَعِيشُ فِيهِ.",
       "level": "A1",
-      "pronunciation": "/ɜːrθ/",
       "chapter": 2,
-      "chapterTitle": "Good Men and Stone Statues",
-      "storyExample": "After Prophet Adam (pbuh), many people lived on the earth.",
-      "category": "Nature"
+      "chapterTitle": "رِجَالٌ طَيِّبُونَ وَتَمَاثِيلُ حَجَرِيَّةٌ",
+      "storyExample": "بَعْدَ النَّبِيِّ آدَمَ عَلَيْهِ السَّلَامُ، عَاشَ نَاسٌ كَثِيرُونَ فِي الدُّنْيَا."
      },
      {
-      "word": "worship",
-      "definition": "Pray to and love God.",
-      "partOfSpeech": "verb",
+      "word": "عَبَدُوا",
+      "definition": "دَعَوُا اللهَ، وَأَحَبُّوهُ.",
       "level": "A1",
-      "pronunciation": "/ˈwɜːrʃɪp/",
       "chapter": 2,
-      "chapterTitle": "Good Men and Stone Statues",
-      "storyExample": "At first, they worshipped only Allah.",
-      "category": "Faith"
+      "chapterTitle": "رِجَالٌ طَيِّبُونَ وَتَمَاثِيلُ حَجَرِيَّةٌ",
+      "storyExample": "فِي الْبِدَايَةِ، عَبَدُوا اللهَ فَقَطْ."
      },
      {
-      "word": "still",
-      "definition": "Then, too, like before.",
-      "partOfSpeech": "adverb",
+      "word": "مَا زَالُوا",
+      "definition": "كَانُوا كَمَا كَانُوا قَبْلَ ذَلِكَ.",
       "level": "A1",
-      "pronunciation": "/stɪl/",
       "chapter": 2,
-      "chapterTitle": "Good Men and Stone Statues",
-      "storyExample": "They still prayed to Allah day and night.",
-      "category": "Describing"
+      "chapterTitle": "رِجَالٌ طَيِّبُونَ وَتَمَاثِيلُ حَجَرِيَّةٌ",
+      "storyExample": "مَا زَالُوا يَدْعُونَ اللهَ نَهَارًا وَلَيْلًا."
      },
      {
-      "word": "pray",
-      "definition": "Talk to Allah.",
-      "partOfSpeech": "verb",
+      "word": "يَدْعُونَ",
+      "definition": "يَتَكَلَّمُونَ مَعَ اللهِ.",
       "level": "A1",
-      "pronunciation": "/preɪ/",
       "chapter": 2,
-      "chapterTitle": "Good Men and Stone Statues",
-      "storyExample": "They still prayed to Allah day and night.",
-      "category": "Faith"
+      "chapterTitle": "رِجَالٌ طَيِّبُونَ وَتَمَاثِيلُ حَجَرِيَّةٌ",
+      "storyExample": "مَا زَالُوا يَدْعُونَ اللهَ نَهَارًا وَلَيْلًا."
      },
      {
-      "word": "miss",
-      "definition": "Feel sad because a person is not with you.",
-      "partOfSpeech": "verb",
+      "word": "اشْتَاقَ",
+      "definition": "حَزِنَ، لِأَنَّ شَخْصًا يُحِبُّهُ لَيْسَ مَعَهُ.",
       "level": "A1",
-      "pronunciation": "/mɪs/",
       "chapter": 2,
-      "chapterTitle": "Good Men and Stone Statues",
-      "storyExample": "When these good men died, the people missed them.",
-      "category": "Feelings"
+      "chapterTitle": "رِجَالٌ طَيِّبُونَ وَتَمَاثِيلُ حَجَرِيَّةٌ",
+      "storyExample": "عِنْدَمَا مَاتَ هَؤُلَاءِ الرِّجَالُ الطَّيِّبُونَ، اشْتَاقَ النَّاسُ إِلَيْهِمْ."
      },
      {
-      "word": "statue",
-      "definition": "A big figure of a person, made of stone.",
-      "partOfSpeech": "noun",
+      "word": "تَمَاثِيلَ",
+      "definition": "شَكْلٌ كَبِيرٌ لِإِنْسَانٍ، مَصْنُوعٌ مِنَ الْحَجَرِ.",
       "level": "A1",
-      "pronunciation": "/ˈstætʃuː/",
       "chapter": 2,
-      "chapterTitle": "Good Men and Stone Statues",
-      "storyExample": "Later, they made statues of them.",
-      "category": "Things"
+      "chapterTitle": "رِجَالٌ طَيِّبُونَ وَتَمَاثِيلُ حَجَرِيَّةٌ",
+      "storyExample": "بَعْدَ ذَلِكَ، صَنَعُوا لَهُمْ تَمَاثِيلَ."
      },
      {
-      "word": "honest",
-      "definition": "Always says true things.",
-      "partOfSpeech": "adjective",
+      "word": "صَادِقًا",
+      "definition": "يَقُولُ الْحَقَّ دَائِمًا.",
       "level": "A1",
-      "pronunciation": "/ˈɑːnɪst/",
       "chapter": 3,
-      "chapterTitle": "Noah’s Message",
-      "storyExample": "Noah was kind, honest and patient.",
-      "category": "Values"
+      "chapterTitle": "رِسَالَةُ نُوحٍ",
+      "storyExample": "كَانَ نُوحٌ لَطِيفًا، وَصَادِقًا، وَصَبُورًا."
      },
      {
-      "word": "true",
-      "definition": "Right, not a lie.",
-      "partOfSpeech": "adjective",
+      "word": "صَحِيحًا",
+      "definition": "حَقٌّ، لَيْسَ كَذِبًا.",
       "level": "A1",
-      "pronunciation": "/truː/",
       "chapter": 3,
-      "chapterTitle": "Noah’s Message",
-      "storyExample": "He always said true words.",
-      "category": "Values"
+      "chapterTitle": "رِسَالَةُ نُوحٍ",
+      "storyExample": "كَانَ يَقُولُ دَائِمًا كَلَامًا صَحِيحًا."
      },
      {
-      "word": "messenger",
-      "definition": "A person who brings words from Allah.",
-      "partOfSpeech": "noun",
+      "word": "رَسُولٌ",
+      "definition": "شَخْصٌ يَأْتِي بِكَلَامٍ مِنَ اللهِ.",
       "level": "A1",
-      "pronunciation": "/ˈmesɪndʒər/",
       "chapter": 3,
-      "chapterTitle": "Noah’s Message",
-      "storyExample": "He also told them, “I am a Messenger of Allah. Do not pray to statues.”",
-      "category": "Faith"
+      "chapterTitle": "رِسَالَةُ نُوحٍ",
+      "storyExample": "وَقَالَ لَهُمْ أَيْضًا: «أَنَا رَسُولٌ مِنَ اللهِ."
      },
      {
-      "word": "believe",
-      "definition": "Think that something is true.",
-      "partOfSpeech": "verb",
+      "word": "صَدَّقُوهُ",
+      "definition": "ظَنُّوا أَنَّ كَلَامَهُ صَحِيحٌ.",
       "level": "A1",
-      "pronunciation": "/bɪˈliːv/",
       "chapter": 3,
-      "chapterTitle": "Noah’s Message",
-      "storyExample": "Some people listened to him and believed him.",
-      "category": "Faith"
+      "chapterTitle": "رِسَالَةُ نُوحٍ",
+      "storyExample": "اسْتَمَعَ إِلَيْهِ بَعْضُ النَّاسِ، وَصَدَّقُوهُ."
      },
      {
-      "word": "weak",
-      "definition": "Not strong.",
-      "partOfSpeech": "adjective",
+      "word": "ضُعَفَاءَ",
+      "definition": "لَيْسُوا أَقْوِيَاءَ.",
       "level": "A1",
-      "pronunciation": "/wiːk/",
       "chapter": 3,
-      "chapterTitle": "Noah’s Message",
-      "storyExample": "Most of them were poor and weak.",
-      "category": "Describing"
+      "chapterTitle": "رِسَالَةُ نُوحٍ",
+      "storyExample": "كَانَ أَكْثَرُهُمْ فُقَرَاءَ وَضُعَفَاءَ."
      },
      {
-      "word": "rich",
-      "definition": "With a lot of money.",
-      "partOfSpeech": "adjective",
+      "word": "الْأَغْنِيَاءُ",
+      "definition": "عِنْدَهُمْ مَالٌ كَثِيرٌ.",
       "level": "A1",
-      "pronunciation": "/rɪtʃ/",
       "chapter": 3,
-      "chapterTitle": "Noah’s Message",
-      "storyExample": "For Allah, poor people and rich people are the same.",
-      "category": "Describing"
+      "chapterTitle": "رِسَالَةُ نُوحٍ",
+      "storyExample": "عِنْدَ اللهِ، الْفُقَرَاءُ وَالْأَغْنِيَاءُ سَوَاءٌ."
      },
      {
-      "word": "important",
-      "definition": "Big and strong in a group; people listen to them.",
-      "partOfSpeech": "adjective",
+      "word": "الْمُهِمُّونَ",
+      "definition": "كِبَارُ الْقَوْمِ؛ يَسْمَعُ لَهُمُ النَّاسُ.",
       "level": "A1",
-      "pronunciation": "/ɪmˈpɔːrtnt/",
       "chapter": 4,
-      "chapterTitle": "The Rich Men Say No",
-      "storyExample": "The rich and important men did not listen to Noah.",
-      "category": "Describing"
+      "chapterTitle": "الرِّجَالُ الْأَغْنِيَاءُ يَقُولُونَ: لَا",
+      "storyExample": "مَا اسْتَمَعَ الرِّجَالُ الْأَغْنِيَاءُ وَالْمُهِمُّونَ إِلَى نُوحٍ."
      },
      {
-      "word": "proud",
-      "definition": "Thinking that you are better than others.",
-      "partOfSpeech": "adjective",
+      "word": "مُتَكَبِّرِينَ",
+      "definition": "يَظُنُّونَ أَنَّهُمْ أَحْسَنُ مِنَ الْآخَرِينَ.",
       "level": "A1",
-      "pronunciation": "/praʊd/",
       "chapter": 4,
-      "chapterTitle": "The Rich Men Say No",
-      "storyExample": "They were proud.",
-      "category": "Values"
+      "chapterTitle": "الرِّجَالُ الْأَغْنِيَاءُ يَقُولُونَ: لَا",
+      "storyExample": "كَانُوا مُتَكَبِّرِينَ."
      },
      {
-      "word": "believer",
-      "definition": "A person who believes in Allah.",
-      "partOfSpeech": "noun",
+      "word": "الْمُؤْمِنِينَ",
+      "definition": "شَخْصٌ يُؤْمِنُ بِاللهِ.",
       "level": "A1",
-      "pronunciation": "/bɪˈliːvər/",
       "chapter": 4,
-      "chapterTitle": "The Rich Men Say No",
-      "storyExample": "But Noah said that the believers would stay with him.",
-      "category": "Faith"
+      "chapterTitle": "الرِّجَالُ الْأَغْنِيَاءُ يَقُولُونَ: لَا",
+      "storyExample": "لَكِنَّ نُوحًا قَالَ إِنَّ الْمُؤْمِنِينَ سَيَبْقَوْنَ مَعَهُ."
      },
      {
-      "word": "laugh",
-      "definition": "Make a happy sound \"ha ha\".",
-      "partOfSpeech": "verb",
+      "word": "ضَحِكُوا",
+      "definition": "أَخْرَجُوا صَوْتًا سَعِيدًا: «هَا هَا».",
       "level": "A1",
-      "pronunciation": "/læf/",
       "chapter": 5,
-      "chapterTitle": "Nine Hundred and Fifty Years",
-      "storyExample": "When Noah talked, they put their fingers in their ears and laughed at him.",
-      "category": "Actions"
+      "chapterTitle": "تِسْعُمِائَةٍ وَخَمْسُونَ سَنَةً",
+      "storyExample": "عِنْدَمَا تَكَلَّمَ نُوحٌ، وَضَعُوا أَصَابِعَهُمْ فِي آذَانِهِمْ، وَضَحِكُوا مِنْهُ."
      },
      {
-      "word": "cruel",
-      "definition": "Very bad and unkind to others.",
-      "partOfSpeech": "adjective",
+      "word": "قُسَاةً",
+      "definition": "سَيِّئُونَ جِدًّا، وَغَيْرُ لُطَفَاءَ مَعَ الْآخَرِينَ.",
       "level": "A1",
-      "pronunciation": "/ˈkruːəl/",
       "chapter": 5,
-      "chapterTitle": "Nine Hundred and Fifty Years",
-      "storyExample": "Later, they became cruel and hurt him.",
-      "category": "Values"
+      "chapterTitle": "تِسْعُمِائَةٍ وَخَمْسُونَ سَنَةً",
+      "storyExample": "بَعْدَ ذَلِكَ، صَارُوا قُسَاةً، وَآذَوْهُ."
      },
      {
-      "word": "lead",
-      "definition": "Take someone to a place.",
-      "partOfSpeech": "verb",
+      "word": "يُضِلُّوا",
+      "definition": "يَأْخُذُوا النَّاسَ إِلَى الطَّرِيقِ الْخَطَأِ.",
       "level": "A1",
-      "pronunciation": "/liːd/",
       "chapter": 5,
-      "chapterTitle": "Nine Hundred and Fifty Years",
-      "storyExample": "They lead good people to the wrong way.",
-      "category": "Actions"
+      "chapterTitle": "تِسْعُمِائَةٍ وَخَمْسُونَ سَنَةً",
+      "storyExample": "دَعَا نُوحٌ اللهَ: ﴿رَبِّ لَا تَذَرْ عَلَى الْأَرْضِ مِنَ الْكَافِرِينَ دَيَّارًا﴾ ﴿إِنَّكَ إِنْ تَذَرْهُمْ يُضِلُّوا عِبَادَكَ﴾ (سُورَةُ نُوحٍ: ٢٦-٢٧)."
      },
      {
-      "word": "accept",
-      "definition": "Say yes to something.",
-      "partOfSpeech": "verb",
+      "word": "قَبِلَ",
+      "definition": "قَالَ «نَعَمْ» لِشَيْءٍ.",
       "level": "A1",
-      "pronunciation": "/əkˈsept/",
       "chapter": 5,
-      "chapterTitle": "Nine Hundred and Fifty Years",
-      "storyExample": "Allah accepted his prayer.",
-      "category": "Actions"
+      "chapterTitle": "تِسْعُمِائَةٍ وَخَمْسُونَ سَنَةً",
+      "storyExample": "قَبِلَ اللهُ دُعَاءَهُ."
      },
      {
-      "word": "ark",
-      "definition": "A very big ship.",
-      "partOfSpeech": "noun",
+      "word": "فُلْكًا",
+      "definition": "سَفِينَةٌ كَبِيرَةٌ جِدًّا.",
       "level": "A1",
-      "pronunciation": "/ɑːrk/",
       "chapter": 6,
-      "chapterTitle": "A Ship on the Land",
-      "storyExample": "Allah told Noah to build an ark.",
-      "category": "Things"
+      "chapterTitle": "سَفِينَةٌ عَلَى الْيَابِسَةِ",
+      "storyExample": "قَالَ اللهُ لِنُوحٍ أَنْ يَبْنِيَ فُلْكًا."
      },
      {
-      "word": "build",
-      "definition": "Make a house, a ship or a building.",
-      "partOfSpeech": "verb",
+      "word": "يَبْنُونَ",
+      "definition": "يَصْنَعُونَ بَيْتًا، أَوْ سَفِينَةً، أَوْ عِمَارَةً.",
       "level": "A1",
-      "pronunciation": "/bɪld/",
       "chapter": 6,
-      "chapterTitle": "A Ship on the Land",
-      "storyExample": "So Noah and the believers started to build a very big ship.",
-      "category": "Actions"
+      "chapterTitle": "سَفِينَةٌ عَلَى الْيَابِسَةِ",
+      "storyExample": "فَبَدَأَ نُوحٌ وَالْمُؤْمِنُونَ يَبْنُونَ سَفِينَةً كَبِيرَةً جِدًّا."
      },
      {
-      "word": "ship",
-      "definition": "A very big boat.",
-      "partOfSpeech": "noun",
+      "word": "سَفِينَةً",
+      "definition": "قَارِبٌ كَبِيرٌ جِدًّا.",
       "level": "A1",
-      "pronunciation": "/ʃɪp/",
       "chapter": 6,
-      "chapterTitle": "A Ship on the Land",
-      "storyExample": "So Noah and the believers started to build a very big ship.",
-      "category": "Things"
+      "chapterTitle": "سَفِينَةٌ عَلَى الْيَابِسَةِ",
+      "storyExample": "فَبَدَأَ نُوحٌ وَالْمُؤْمِنُونَ يَبْنُونَ سَفِينَةً كَبِيرَةً جِدًّا."
      },
      {
-      "word": "nail",
-      "definition": "A small, thin piece of metal for wood.",
-      "partOfSpeech": "noun",
+      "word": "الْمَسَامِيرَ",
+      "definition": "قِطْعَةٌ صَغِيرَةٌ رَفِيعَةٌ مِنَ الْمَعْدِنِ لِلْخَشَبِ.",
       "level": "A1",
-      "pronunciation": "/neɪl/",
       "chapter": 6,
-      "chapterTitle": "A Ship on the Land",
-      "storyExample": "They used wood and nails, and they built it far from the sea.",
-      "category": "Things"
+      "chapterTitle": "سَفِينَةٌ عَلَى الْيَابِسَةِ",
+      "storyExample": "اسْتَعْمَلُوا الْخَشَبَ وَالْمَسَامِيرَ، وَبَنَوْهَا بَعِيدًا عَنِ الْبَحْرِ."
      },
      {
-      "word": "trust",
-      "definition": "Believe that someone is good and true.",
-      "partOfSpeech": "verb",
+      "word": "يَثِقُ",
+      "definition": "يُصَدِّقُ أَنَّ شَخْصًا طَيِّبٌ وَصَادِقٌ.",
       "level": "A1",
-      "pronunciation": "/trʌst/",
       "chapter": 6,
-      "chapterTitle": "A Ship on the Land",
-      "storyExample": "But Noah kept working, because he trusted Allah.",
-      "category": "Faith"
+      "chapterTitle": "سَفِينَةٌ عَلَى الْيَابِسَةِ",
+      "storyExample": "لَكِنَّ نُوحًا ظَلَّ يَعْمَلُ، لِأَنَّهُ كَانَ يَثِقُ بِاللهِ."
      },
      {
-      "word": "ready",
-      "definition": "Finished; you can use it now.",
-      "partOfSpeech": "adjective",
+      "word": "جَاهِزًا",
+      "definition": "انْتَهَى الْعَمَلُ فِيهِ؛ تَسْتَطِيعُ أَنْ تَسْتَعْمِلَهُ الْآنَ.",
       "level": "A1",
-      "pronunciation": "/ˈredi/",
       "chapter": 6,
-      "chapterTitle": "A Ship on the Land",
-      "storyExample": "Then the ark was ready.",
-      "category": "Describing"
+      "chapterTitle": "سَفِينَةٌ عَلَى الْيَابِسَةِ",
+      "storyExample": "ثُمَّ صَارَ الْفُلْكُ جَاهِزًا."
      },
      {
-      "word": "ground",
-      "definition": "The earth under your feet.",
-      "partOfSpeech": "noun",
+      "word": "الْأَرْضِ",
+      "definition": "الْمَكَانُ الَّذِي تَحْتَ قَدَمَيْكَ.",
       "level": "A1",
-      "pronunciation": "/ɡraʊnd/",
       "chapter": 7,
-      "chapterTitle": "The Great Flood",
-      "storyExample": "Water came up from the ground, too.",
-      "category": "Nature"
+      "chapterTitle": "الطُّوفَانُ الْعَظِيمُ",
+      "storyExample": "وَخَرَجَ الْمَاءُ مِنَ الْأَرْضِ أَيْضًا."
      },
      {
-      "word": "flood",
-      "definition": "A lot of water everywhere.",
-      "partOfSpeech": "noun",
+      "word": "الطُّوفَانَ",
+      "definition": "مَاءٌ كَثِيرٌ فِي كُلِّ مَكَانٍ.",
       "level": "A1",
-      "pronunciation": "/flʌd/",
       "chapter": 7,
-      "chapterTitle": "The Great Flood",
-      "storyExample": "This was the flood.",
-      "category": "Nature"
+      "chapterTitle": "الطُّوفَانُ الْعَظِيمُ",
+      "storyExample": "كَانَ هَذَا الطُّوفَانَ."
      },
      {
-      "word": "keep safe",
-      "definition": "Stop bad things from happening to someone.",
-      "partOfSpeech": "phrase",
+      "word": "يَعْصِمُنِي",
+      "definition": "يَحْمِينِي، فَلَا يَحْدُثُ لِي شَيْءٌ سَيِّئٌ.",
       "level": "A1",
-      "pronunciation": "/kiːp seɪf/",
       "chapter": 7,
-      "chapterTitle": "The Great Flood",
-      "storyExample": "It will keep me safe from the water.",
-      "category": "Actions"
+      "chapterTitle": "الطُّوفَانُ الْعَظِيمُ",
+      "storyExample": "قَالَ ابْنُهُ: ﴿سَآوِي إِلَىٰ جَبَلٍ يَعْصِمُنِي مِنَ الْمَاءِ﴾."
      },
      {
-      "word": "order",
-      "definition": "Words that say \"Do this!\".",
-      "partOfSpeech": "noun",
+      "word": "أَمْرِ",
+      "definition": "كَلَامٌ يَقُولُ: «افْعَلْ هَذَا!».",
       "level": "A1",
-      "pronunciation": "/ˈɔːrdər/",
       "chapter": 7,
-      "chapterTitle": "The Great Flood",
-      "storyExample": "Today, nobody is safe from Allah’s order.",
-      "category": "Faith"
+      "chapterTitle": "الطُّوفَانُ الْعَظِيمُ",
+      "storyExample": "قَالَ نُوحٌ: ﴿لَا عَاصِمَ الْيَوْمَ مِنْ أَمْرِ اللَّهِ إِلَّا مَنْ رَحِمَ﴾ (سُورَةُ هُودٍ: ٤٢-٤٣)."
      },
      {
-      "word": "mercy",
-      "definition": "Love and kindness from Allah.",
-      "partOfSpeech": "noun",
+      "word": "رَحِمَ",
+      "definition": "أَعْطَى الْحُبَّ وَاللُّطْفَ.",
       "level": "A1",
-      "pronunciation": "/ˈmɜːrsi/",
       "chapter": 7,
-      "chapterTitle": "The Great Flood",
-      "storyExample": "Only the people with His mercy are safe.",
-      "category": "Faith"
+      "chapterTitle": "الطُّوفَانُ الْعَظِيمُ",
+      "storyExample": "قَالَ نُوحٌ: ﴿لَا عَاصِمَ الْيَوْمَ مِنْ أَمْرِ اللَّهِ إِلَّا مَنْ رَحِمَ﴾ (سُورَةُ هُودٍ: ٤٢-٤٣)."
      },
      {
-      "word": "wave",
-      "definition": "A big moving line of water in the sea.",
-      "partOfSpeech": "noun",
+      "word": "مَوْجَةٌ",
+      "definition": "خَطٌّ كَبِيرٌ مِنَ الْمَاءِ يَتَحَرَّكُ فِي الْبَحْرِ.",
       "level": "A1",
-      "pronunciation": "/weɪv/",
       "chapter": 7,
-      "chapterTitle": "The Great Flood",
-      "storyExample": "Then a big wave came between them, and the son drowned.",
-      "category": "Nature"
+      "chapterTitle": "الطُّوفَانُ الْعَظِيمُ",
+      "storyExample": "ثُمَّ جَاءَتْ مَوْجَةٌ كَبِيرَةٌ بَيْنَهُمَا، وَغَرِقَ الِابْنُ."
      },
      {
-      "word": "drown",
-      "definition": "Die in water.",
-      "partOfSpeech": "verb",
+      "word": "غَرِقَ",
+      "definition": "مَاتَ فِي الْمَاءِ.",
       "level": "A1",
-      "pronunciation": "/draʊn/",
       "chapter": 7,
-      "chapterTitle": "The Great Flood",
-      "storyExample": "Then a big wave came between them, and the son drowned.",
-      "category": "Actions"
+      "chapterTitle": "الطُّوفَانُ الْعَظِيمُ",
+      "storyExample": "ثُمَّ جَاءَتْ مَوْجَةٌ كَبِيرَةٌ بَيْنَهُمَا، وَغَرِقَ الِابْنُ."
      },
      {
-      "word": "advice",
-      "definition": "Words that help someone do the right thing.",
-      "partOfSpeech": "noun",
+      "word": "نَصِيحَةً",
+      "definition": "كَلَامٌ يُسَاعِدُ شَخْصًا عَلَى فِعْلِ الشَّيْءِ الصَّحِيحِ.",
       "level": "A1",
-      "pronunciation": "/ədˈvaɪs/",
       "chapter": 8,
-      "chapterTitle": "A New Start",
-      "storyExample": "He gave advice to his children.",
-      "category": "Values"
+      "chapterTitle": "بِدَايَةٌ جَدِيدَةٌ",
+      "storyExample": "أَعْطَى أَوْلَادَهُ نَصِيحَةً."
      }
     ]
    },
    {
     "id": 12,
     "type": "vocabulary-match",
-    "title": "Vocabulary Challenge",
+    "title": "تحدي المفردات",
     "image": "https://picsum.photos/seed/vocab-match-nuh-a1/1200/800",
     "audioUrl": "",
-    "content": "Match six story words with their meanings.",
+    "content": "صِلْ سِتَّ كَلِمَاتٍ مِنَ الْقِصَّةِ بِمَعَانِيهَا.",
     "vocabularyPairs": [
      {
-      "word": "patient",
-      "meaning": "Can wait a long time and not get angry.",
+      "word": "صَابِرِينَ",
+      "meaning": "يَنْتَظِرُونَ وَقْتًا طَوِيلًا، وَلَا يَغْضَبُونَ.",
       "partOfSpeech": "adjective",
       "chapter": 1,
-      "context": "They were very patient and strong in their hearts."
+      "context": "كَانُوا صَابِرِينَ جِدًّا، وَأَقْوِيَاءَ فِي قُلُوبِهِمْ."
      },
      {
-      "word": "statue",
-      "meaning": "A big figure of a person, made of stone.",
+      "word": "تَمَاثِيلَ",
+      "meaning": "شَكْلٌ كَبِيرٌ لِإِنْسَانٍ، مَصْنُوعٌ مِنَ الْحَجَرِ.",
       "partOfSpeech": "noun",
       "chapter": 2,
-      "context": "Later, they made statues of them."
+      "context": "بَعْدَ ذَلِكَ، صَنَعُوا لَهُمْ تَمَاثِيلَ."
      },
      {
-      "word": "proud",
-      "meaning": "Thinking that you are better than others.",
+      "word": "مُتَكَبِّرِينَ",
+      "meaning": "يَظُنُّونَ أَنَّهُمْ أَحْسَنُ مِنَ الْآخَرِينَ.",
       "partOfSpeech": "adjective",
       "chapter": 4,
-      "context": "They were proud."
+      "context": "كَانُوا مُتَكَبِّرِينَ."
      },
      {
-      "word": "cruel",
-      "meaning": "Very bad and unkind to others.",
+      "word": "قُسَاةً",
+      "meaning": "سَيِّئُونَ جِدًّا، وَغَيْرُ لُطَفَاءَ مَعَ الْآخَرِينَ.",
       "partOfSpeech": "adjective",
       "chapter": 5,
-      "context": "Later, they became cruel and hurt him."
+      "context": "بَعْدَ ذَلِكَ، صَارُوا قُسَاةً، وَآذَوْهُ."
      },
      {
-      "word": "nail",
-      "meaning": "A small, thin piece of metal for wood.",
+      "word": "الْمَسَامِيرَ",
+      "meaning": "قِطْعَةٌ صَغِيرَةٌ رَفِيعَةٌ مِنَ الْمَعْدِنِ لِلْخَشَبِ.",
       "partOfSpeech": "noun",
       "chapter": 6,
-      "context": "They used wood and nails, and they built it far from the sea."
+      "context": "اسْتَعْمَلُوا الْخَشَبَ وَالْمَسَامِيرَ، وَبَنَوْهَا بَعِيدًا عَنِ الْبَحْرِ."
      },
      {
-      "word": "flood",
-      "meaning": "A lot of water everywhere.",
+      "word": "الطُّوفَانَ",
+      "meaning": "مَاءٌ كَثِيرٌ فِي كُلِّ مَكَانٍ.",
       "partOfSpeech": "noun",
       "chapter": 7,
-      "context": "This was the flood."
+      "context": "كَانَ هَذَا الطُّوفَانَ."
      }
     ]
    },
    {
     "id": 14,
     "type": "exercises",
-    "title": "Language Review",
+    "title": "مراجعة اللغة",
     "image": "https://picsum.photos/seed/exercises-nuh-a1/1200/800",
-    "content": "Review the language from all chapters.",
+    "content": "رَاجِعْ لُغَةَ الْفُصُولِ كُلِّهَا.",
     "exercises": [
      {
-      "id": "nuh-a1-language-review-1",
+      "id": "nuh-a1-ar-language-review-1",
       "type": "drag-drop",
-      "title": "Look: Two Kinds of Past",
-      "instructions": "Put each verb in the right group.",
-      "question": "How does each verb show the past?",
+      "title": "انْظُرْ: هُوَ، هِيَ، هُمْ",
+      "instructions": "ضَعْ كُلَّ فِعْلٍ فِي مَجْمُوعَتِهِ.",
+      "question": "مَنْ فَعَلَ؟",
       "dragDropGroups": [
        {
-        "group": "Ends in -ed",
+        "group": "هُوَ",
         "items": [
-         "prayed",
-         "missed",
-         "laughed",
-         "trusted"
+         "أَرْسَلَ",
+         "قَالَ",
+         "شَكَرَ"
         ]
        },
        {
-        "group": "Changes",
+        "group": "هِيَ",
         "items": [
-         "sent",
-         "forgot",
-         "built",
-         "came"
+         "جَاءَتْ",
+         "خَرَجَتْ",
+         "عَاشَتْ"
+        ]
+       },
+       {
+        "group": "هُمْ",
+        "items": [
+         "عَبَدُوا",
+         "صَنَعُوا",
+         "ضَحِكُوا"
         ]
        }
       ],
       "correctAnswer": {
-       "Ends in -ed": [
-        "prayed",
-        "missed",
-        "laughed",
-        "trusted"
+       "هُوَ": [
+        "أَرْسَلَ",
+        "قَالَ",
+        "شَكَرَ"
        ],
-       "Changes": [
-        "sent",
-        "forgot",
-        "built",
-        "came"
+       "هِيَ": [
+        "جَاءَتْ",
+        "خَرَجَتْ",
+        "عَاشَتْ"
+       ],
+       "هُمْ": [
+        "عَبَدُوا",
+        "صَنَعُوا",
+        "ضَحِكُوا"
        ]
       },
-      "explanation": "Many verbs add -ed: pray → prayed, miss → missed. Some verbs change: send → sent, forget → forgot, build → built, come → came.",
+      "explanation": "الماضي لـ«هُوَ»: أَرْسَلَ. لـ«هِيَ» نزيد «ـتْ»: جَاءَتْ (مَوْجَةٌ)، خَرَجَتْ وعَاشَتْ (الْحَيَوَانَاتُ). لـ«هُمْ» نزيد «ـوا»: صَنَعُوا.",
       "feedback": {
-       "correct": "Well done. You found the two kinds of past.",
-       "incorrect": "Say the verb today: pray, send … Does it add -ed or change?"
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "انْظُرْ إِلَى آخِرِ الْفِعْلِ."
       }
      },
      {
-      "id": "nuh-a1-language-review-2",
+      "id": "nuh-a1-ar-language-review-2",
       "type": "choose-form",
-      "title": "Practise: Because, But",
-      "instructions": "Choose the right word.",
-      "question": "Because or but?",
+      "title": "تَدَرَّبْ: لِأَنَّ أَمْ لَكِنَّ؟",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "لِأَنَّ أَمْ لَكِنَّ؟",
       "formChoices": [
        {
-        "sentence": "Noah kept working, [choice] he trusted Allah.",
+        "sentence": "ظَلَّ نُوحٌ يَعْمَلُ، [choice] كَانَ يَثِقُ بِاللهِ.",
         "options": [
-         "because",
-         "but"
+         "لِأَنَّهُ",
+         "لَكِنَّهُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The people laughed at him, [choice] Noah stayed patient.",
+        "sentence": "ضَحِكَ النَّاسُ مِنْهُ، [choice] نُوحًا بَقِيَ صَبُورًا.",
         "options": [
-         "but",
-         "because"
+         "لَكِنَّ",
+         "لِأَنَّ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Because tells why. But shows a different idea.",
+      "explanation": "«لِأَنَّ» تقول السبب. و«لَكِنَّ» تقول فكرة مختلفة.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Why did he work? Because …"
+       "correct": "صَحِيحٌ.",
+       "incorrect": "لِمَاذَا ظَلَّ يَعْمَلُ؟ لِأَنَّ …"
       }
      },
      {
-      "id": "nuh-a1-language-review-3",
+      "id": "nuh-a1-ar-language-review-3",
       "type": "choose-form",
-      "title": "Practise: Was, Were",
-      "instructions": "Choose was or were.",
-      "question": "One or many?",
+      "title": "تَدَرَّبْ: كَانَ، كَانَتْ، كَانُوا",
+      "instructions": "اخْتَرِ الْفِعْلَ الصَّحِيحَ.",
+      "question": "مَنْ فِي الْجُمْلَةِ؟",
       "formChoices": [
        {
-        "sentence": "Most of them [choice] poor and weak.",
+        "sentence": "[choice] نُوحٌ لَطِيفًا وَصَادِقًا.",
         "options": [
-         "were",
-         "was"
+         "كَانَ",
+         "كَانَتْ",
+         "كَانُوا"
         ],
         "answer": 0
        },
        {
-        "sentence": "Then the ark [choice] ready.",
+        "sentence": "[choice] أَسْمَاؤُهُمْ: وَدٌّ، وَسُوَاعٌ، وَيَغُوثُ، وَيَعُوقُ، وَنَسْرٌ.",
         "options": [
-         "was",
-         "were"
+         "كَانَ",
+         "كَانَتْ",
+         "كَانُوا"
         ],
-        "answer": 0
+        "answer": 1
+       },
+       {
+        "sentence": "الْأَنْبِيَاءُ الْخَمْسَةُ [choice] صَابِرِينَ جِدًّا.",
+        "options": [
+         "كَانَ",
+         "كَانَتْ",
+         "كَانُوا"
+        ],
+        "answer": 2
        }
       ],
       "correctAnswer": null,
-      "explanation": "One thing: was. Two or more: were.",
+      "explanation": "للمذكر: كَانَ. وللمؤنث ولجمع الأشياء: كَانَتْ (كَانَتْ أَسْمَاؤُهُمْ). ولجماعة الناس قبل الفعل: كَانُوا.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Most of them = many. The ark = one."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مَنْ فِي الْجُمْلَةِ؟ وَاحِدٌ، أَمْ أَشْيَاءُ، أَمْ نَاسٌ؟"
       }
      },
      {
-      "id": "nuh-a1-language-review-4",
+      "id": "nuh-a1-ar-language-review-4",
       "type": "word-bank",
-      "title": "Practise: For, Will",
-      "instructions": "Fill the gaps with the words.",
-      "question": "How long? What next?",
-      "fillBlanksText": "Noah talked to his people [blank] 950 years. His son said, “I [blank] go up a mountain.” Noah told his children [blank] be proud.",
+      "title": "تَدَرَّبْ: لِمُدَّةِ، رَسُولٌ، أَلَّا",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "كَمْ مِنَ الْوَقْتِ؟ مَنْ؟ مَاذَا قَالَ؟",
+      "fillBlanksText": "تَكَلَّمَ نُوحٌ مَعَ قَوْمِهِ [blank] ٩٥٠ سَنَةً. قَالَ: «أَنَا [blank] مِنَ اللهِ.» قَالَ لِأَوْلَادِهِ [blank] يَكُونُوا مُتَكَبِّرِينَ أَبَدًا.",
       "wordBank": [
-       "for",
-       "will",
-       "never to",
-       "in",
-       "not"
+       "لِمُدَّةِ",
+       "رَسُولٌ",
+       "أَلَّا",
+       "فِي",
+       "تِمْثَالٌ"
       ],
       "correctAnswer": [
-       "for",
-       "will",
-       "never to"
+       "لِمُدَّةِ",
+       "رَسُولٌ",
+       "أَلَّا"
       ],
-      "explanation": "For + time: for 950 years. Will + verb: the future. Never to + verb.",
+      "explanation": "«لِمُدَّةِ» + الوقت: كم من الوقت. «رَسُولٌ مِنَ اللهِ». و«أَلَّا» = أَنْ + لَا.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Find these words in Chapters 5, 7 and 8."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ابْحَثْ عَنْ هَذِهِ الْكَلِمَاتِ فِي الْفُصُولِ ٣ وَ٥ وَ٨."
       }
      },
      {
-      "id": "nuh-a1-language-review-5",
+      "id": "nuh-a1-ar-language-review-5",
       "type": "error-correction",
-      "title": "Practise: Fix One Word",
-      "instructions": "Find the wrong word. Choose the right word.",
-      "question": "Which word is wrong?",
+      "title": "تَدَرَّبْ: صَحِّحْ كَلِمَةً وَاحِدَةً",
+      "instructions": "ابْحَثْ عَنِ الْكَلِمَةِ الْخَطَأِ وَصَحِّحْهَا.",
+      "question": "أَيُّ كَلِمَةٍ خَطَأٌ؟",
       "errorItems": [
        {
-        "sentence": "Noah and the believers builded a ship.",
-        "error": "builded",
+        "sentence": "نُوحٌ وَالْمُؤْمِنُونَ بَنَى سَفِينَةً.",
+        "error": "بَنَى",
         "options": [
-         "built",
-         "build",
-         "builds"
+         "بَنَوْا",
+         "يَبْنِي",
+         "بَنَتْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "People forgetted Allah’s words.",
-        "error": "forgetted",
+        "sentence": "ثُمَّ جَاءَ مَوْجَةٌ كَبِيرَةٌ.",
+        "error": "جَاءَ",
         "options": [
-         "forget",
-         "forgot",
-         "forgets"
+         "جَاءُوا",
+         "جَاءَتْ",
+         "يَجِيءُ"
         ],
         "answer": 1
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Build” and “forget” change in the past: built, forgot.",
+      "explanation": "نوح والمؤمنون أكثر من واحد، فنقول: بَنَوْا. والموجة مؤنث، فنقول: جَاءَتْ مَوْجَةٌ.",
       "feedback": {
-       "correct": "Well done.",
-       "incorrect": "Build → built. Forget → forgot. They do not take -ed."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "انْظُرْ: وَاحِدٌ أَمْ أَكْثَرُ؟ مُذَكَّرٌ أَمْ مُؤَنَّثٌ؟"
       }
      },
      {
-      "id": "nuh-a1-language-review-6",
+      "id": "nuh-a1-ar-language-review-6",
       "type": "reflection",
-      "title": "Use: Patience",
-      "instructions": "Write three sentences about patience.",
-      "question": "When are you patient?",
+      "title": "اسْتَعْمِلْ: الصَّبْرُ",
+      "instructions": "اكْتُبْ ثَلَاثَ جُمَلٍ عَنِ الصَّبْرِ.",
+      "question": "مَتَى تَكُونُ صَبُورًا؟",
       "correctAnswer": null,
-      "explanation": "Use patient, because and never.",
+      "explanation": "استعمل «صَبُورٌ»، و«لِأَنَّ»، و«أَبَدًا».",
       "feedback": {
-       "correct": "Write three short sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "One “patient”: “I am patient when …”",
+        "question": "«صَبُورٌ»: «أَنَا صَبُورٌ عِنْدَمَا …»",
         "mode": "Individual",
-        "example": "I am patient when I help my brother."
+        "example": "أَنَا صَبُورٌ عِنْدَمَا أُسَاعِدُ أَخِي."
        },
        {
-        "question": "One “because”: “… because …”",
+        "question": "«لِأَنَّ»: «… لِأَنَّ …»",
         "mode": "Individual",
-        "example": "I wait because my friend is late."
+        "example": "أَنْتَظِرُ لِأَنَّ صَدِيقِي تَأَخَّرَ."
        },
        {
-        "question": "One “never”: “Never …”",
+        "question": "«أَبَدًا»: «لَا … أَبَدًا.»",
         "mode": "Individual",
-        "example": "Never get angry fast."
+        "example": "لَا تَغْضَبْ بِسُرْعَةٍ أَبَدًا."
        }
       ]
      }
@@ -2327,163 +2252,163 @@
    {
     "id": 15,
     "type": "final-challenge",
-    "title": "Final Challenge",
+    "title": "التحدي النهائي",
     "image": "https://picsum.photos/seed/challenge-nuh-a1/1200/800",
-    "content": "Bring the whole story together in the Final Challenge.",
+    "content": "اخْتَبِرْ مَعْرِفَتَكَ بِقِصَّةِ النَّبِيِّ نُوحٍ عَلَيْهِ السَّلَامُ كَامِلَةً.",
     "exercises": [
      {
-      "id": "nuh-a1-final-1",
+      "id": "nuh-a1-ar-final-1",
       "type": "fill-blanks",
-      "title": "Five Great Prophets",
-      "instructions": "Write one word.",
-      "question": "What were the five prophets like?",
-      "fillBlanksText": "They were very [blank] and strong in their hearts.",
+      "title": "خَمْسَةُ أَنْبِيَاءَ عِظَامٍ",
+      "instructions": "اكْتُبِ الْكَلِمَةَ النَّاقِصَةَ.",
+      "question": "كَيْفَ كَانَ الْأَنْبِيَاءُ الْخَمْسَةُ؟",
+      "fillBlanksText": "كَانُوا [blank] جِدًّا، وَأَقْوِيَاءَ فِي قُلُوبِهِمْ.",
       "correctAnswer": [
-       "patient"
+       "صَابِرِينَ"
       ],
-      "explanation": "Chapter 1: “They were very patient and strong in their hearts.”",
+      "explanation": "الفصل الأول: «كَانُوا صَابِرِينَ جِدًّا، وَأَقْوِيَاءَ فِي قُلُوبِهِمْ».",
       "feedback": {
-       "correct": "Yes. Patient.",
-       "incorrect": "Read the first paragraph of Chapter 1."
+       "correct": "نَعَمْ. صَابِرِينَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "nuh-a1-final-2",
+      "id": "nuh-a1-ar-final-2",
       "type": "multiple-choice",
-      "title": "Five Good Men",
-      "instructions": "Choose the answer.",
-      "question": "What did people do after the five good men died?",
+      "title": "خَمْسَةُ رِجَالٍ طَيِّبِينَ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا فَعَلَ النَّاسُ بَعْدَ مَوْتِ الرِّجَالِ الْخَمْسَةِ؟",
       "options": [
-       "They made their pictures and then statues.",
-       "They built a ship.",
-       "They went to a mountain."
+       "صَنَعُوا صُوَرَهُمْ، ثُمَّ تَمَاثِيلَ.",
+       "بَنَوْا سَفِينَةً.",
+       "ذَهَبُوا إِلَى جَبَلٍ."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: “First, they made their pictures. Later, they made statues of them.”",
+      "explanation": "الفصل الثاني: «أَوَّلًا، صَنَعُوا صُوَرَهُمْ. بَعْدَ ذَلِكَ، صَنَعُوا لَهُمْ تَمَاثِيلَ».",
       "feedback": {
-       "correct": "Yes.",
-       "incorrect": "Read the second paragraph of Chapter 2."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "nuh-a1-final-3",
+      "id": "nuh-a1-ar-final-3",
       "type": "true-false",
-      "title": "Poor and Rich",
-      "instructions": "Is it true or false?",
-      "question": "For Allah, poor people and rich people are the same.",
+      "title": "الْفُقَرَاءُ وَالْأَغْنِيَاءُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "عِنْدَ اللهِ، الْفُقَرَاءُ وَالْأَغْنِيَاءُ سَوَاءٌ.",
       "correctAnswer": true,
-      "explanation": "Chapter 3: “For Allah, poor people and rich people are the same.”",
+      "explanation": "الفصل الثالث: «عِنْدَ اللهِ، الْفُقَرَاءُ وَالْأَغْنِيَاءُ سَوَاءٌ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "nuh-a1-final-4",
+      "id": "nuh-a1-ar-final-4",
       "type": "matching",
-      "title": "Who Said It?",
-      "instructions": "Match the people with their words.",
-      "question": "Who said it?",
+      "title": "مَنْ قَالَ؟",
+      "instructions": "صِلِ الْأَشْخَاصَ بِكَلَامِهِمْ.",
+      "question": "مَنْ قَالَ؟",
       "matchingHeadings": {
-       "left": "Who?",
-       "right": "Words"
+       "left": "مَنْ؟",
+       "right": "الْكَلَامُ"
       },
       "matchingPairs": [
        {
-        "left": "the rich men",
-        "right": "“Tell the poor people to go.”"
+        "left": "الرِّجَالُ الْأَغْنِيَاءُ",
+        "right": "«قُلْ لِلْفُقَرَاءِ أَنْ يَذْهَبُوا.»"
        },
        {
-        "left": "the people",
-        "right": "“Look! A ship, but there is no sea here!”"
+        "left": "النَّاسُ",
+        "right": "«انْظُرُوا! سَفِينَةٌ، لَكِنْ لَا بَحْرَ هُنَا!»"
        },
        {
-        "left": "Noah’s son",
-        "right": "“I will go up a mountain.”"
+        "left": "نُوحٌ",
+        "right": "«أَنَا رَسُولٌ مِنَ اللهِ.»"
        }
       ],
       "correctAnswer": {
-       "the rich men": "“Tell the poor people to go.”",
-       "the people": "“Look! A ship, but there is no sea here!”",
-       "Noah’s son": "“I will go up a mountain.”"
+       "الرِّجَالُ الْأَغْنِيَاءُ": "«قُلْ لِلْفُقَرَاءِ أَنْ يَذْهَبُوا.»",
+       "النَّاسُ": "«انْظُرُوا! سَفِينَةٌ، لَكِنْ لَا بَحْرَ هُنَا!»",
+       "نُوحٌ": "«أَنَا رَسُولٌ مِنَ اللهِ.»"
       },
-      "explanation": "Chapter 4: the rich men. Chapter 6: the people. Chapter 7: Noah’s son.",
+      "explanation": "الفصل الرابع: الرجال الأغنياء. الفصل السادس: الناس. الفصلان الثالث والرابع: نوح عليه السلام.",
       "feedback": {
-       "correct": "Good. You matched all three.",
-       "incorrect": "Read Chapters 4, 6 and 7 again."
+       "correct": "أَحْسَنْتَ. وَصَلْتَ الثَّلَاثَةَ.",
+       "incorrect": "اقْرَأِ الْفُصُولَ ٣ وَ٤ وَ٦."
       }
      },
      {
-      "id": "nuh-a1-final-5",
+      "id": "nuh-a1-ar-final-5",
       "type": "multiple-choice",
-      "title": "The People",
-      "instructions": "Choose the answer.",
-      "question": "What did the people do when Noah (pbuh) talked?",
+      "title": "النَّاسُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا فَعَلَ النَّاسُ عِنْدَمَا تَكَلَّمَ نُوحٌ عَلَيْهِ السَّلَامُ؟",
       "options": [
-       "They put their fingers in their ears.",
-       "They listened carefully.",
-       "They wrote his words."
+       "وَضَعُوا أَصَابِعَهُمْ فِي آذَانِهِمْ.",
+       "اسْتَمَعُوا جَيِّدًا.",
+       "كَتَبُوا كَلَامَهُ."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “When Noah talked, they put their fingers in their ears and laughed at him.”",
+      "explanation": "الفصل الخامس: «عِنْدَمَا تَكَلَّمَ نُوحٌ، وَضَعُوا أَصَابِعَهُمْ فِي آذَانِهِمْ، وَضَحِكُوا مِنْهُ».",
       "feedback": {
-       "correct": "Yes.",
-       "incorrect": "Read the second paragraph of Chapter 5."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "nuh-a1-final-6",
+      "id": "nuh-a1-ar-final-6",
       "type": "true-false",
-      "title": "The Ark",
-      "instructions": "Is it true or false?",
-      "question": "They built the ark near the sea.",
+      "title": "الْفُلْكُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "بَنَوُا الْفُلْكَ قُرْبَ الْبَحْرِ.",
       "correctAnswer": false,
-      "explanation": "Chapter 6: “They used wood and nails, and they built it far from the sea.”",
+      "explanation": "الفصل السادس: «وَبَنَوْهَا بَعِيدًا عَنِ الْبَحْرِ».",
       "feedback": {
-       "correct": "Yes, it is false. It was far from the sea.",
-       "incorrect": "Read the first paragraph of Chapter 6."
+       "correct": "نَعَمْ، هَذَا خَطَأٌ. كَانَ بَعِيدًا عَنِ الْبَحْرِ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ السَّادِسِ."
       }
      },
      {
-      "id": "nuh-a1-final-7",
+      "id": "nuh-a1-ar-final-7",
       "type": "multiple-choice",
-      "title": "The Flood",
-      "instructions": "Choose the answer.",
-      "question": "Where did the water come from?",
+      "title": "الطُّوفَانُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مِنْ أَيْنَ جَاءَ الْمَاءُ؟",
       "options": [
-       "from the sky and from the ground",
-       "only from the sea",
-       "from a river"
+       "مِنَ السَّمَاءِ وَمِنَ الْأَرْضِ",
+       "مِنَ الْبَحْرِ فَقَطْ",
+       "مِنْ نَهْرٍ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: “Then heavy rain came down from the sky. Water came up from the ground, too.”",
+      "explanation": "الفصل السابع: «نَزَلَ مَطَرٌ شَدِيدٌ مِنَ السَّمَاءِ. وَخَرَجَ الْمَاءُ مِنَ الْأَرْضِ أَيْضًا».",
       "feedback": {
-       "correct": "Yes.",
-       "incorrect": "Read the first paragraph of Chapter 7."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ السَّابِعِ."
       }
      },
      {
-      "id": "nuh-a1-final-8",
+      "id": "nuh-a1-ar-final-8",
       "type": "sequencing",
-      "title": "The Story of Noah (pbuh)",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "قِصَّةُ نُوحٍ عَلَيْهِ السَّلَامُ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Allah sent Noah (pbuh) to the people."
+        "text": "أَرْسَلَ اللهُ نُوحًا إِلَى النَّاسِ."
        },
        {
         "id": "2",
-        "text": "Noah (pbuh) and the believers built the ark."
+        "text": "بَنَى نُوحٌ وَالْمُؤْمِنُونَ الْفُلْكَ."
        },
        {
         "id": "3",
-        "text": "The flood came."
+        "text": "جَاءَ الطُّوفَانُ."
        },
        {
         "id": "4",
-        "text": "The ark stopped on Mount Judi."
+        "text": "وَقَفَ الْفُلْكُ عَلَى جَبَلِ الْجُودِيِّ."
        }
       ],
       "correctAnswer": [
@@ -2492,10 +2417,10 @@
        "3",
        "4"
       ],
-      "explanation": "Noah’s message (Chapter 3) → the ark (Chapter 6) → the flood (Chapter 7) → Mount Judi (Chapter 8).",
+      "explanation": "رسالة نوح (الفصل ٣) ← الفلك (الفصل ٦) ← الطوفان (الفصل ٧) ← جبل الجودي (الفصل ٨).",
       "feedback": {
-       "correct": "Great! You know the story of Noah (pbuh).",
-       "incorrect": "Think about the order of the chapters."
+       "correct": "رَائِعٌ! أَنْتَ تَعْرِفُ قِصَّةَ نُوحٍ عَلَيْهِ السَّلَامُ.",
+       "incorrect": "فَكِّرْ فِي تَرْتِيبِ الْفُصُولِ."
       }
      }
     ]
