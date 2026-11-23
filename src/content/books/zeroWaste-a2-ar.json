@@ -16,7 +16,7 @@
         "title": "What Is Waste?",
         "image": "",
         "audioUrl": "",
-        "content": "Every day, we use many things. We eat food, drink from plastic or glass bottles, and have a lot of paper boxes and plastic packages. After that, we often throw them away. This is waste. Waste is anything that we don’t want or need anymore.\n\nToday, the world makes a lot of waste. In 2023, people in cities made more than 2 billion tons of waste. By 2050, this number may be nearly 4 billion tons. That is a very big problem.\n\nMost of the waste in cities is food. Paper, boxes and plastic come next. Plastic waste is growing very fast, and a lot of it goes into rivers and seas.\n\nBut waste is not only a problem. Many things in our trash are still useful. We can collect them and use them again. Different kinds of waste need different ways of collecting and recycling.",
+        "content": "Every day, we use many different things. We eat food, drink from plastic or glass bottles, and buy items in paper boxes and plastic packaging. Then, we often throw away leftover food, empty bottles, and old boxes. We call this waste. It is anything that we do not want or need anymore.\n\nToday, people around the world create a huge amount of waste. In 2023, people in cities created more than 2 billion tons of waste. By 2050, this number could reach nearly 4 billion tons. That is a big problem.\n\nMost city waste is food. Paper, cardboard, and plastic come next. Plastic waste is growing very fast, and a lot of it ends up in rivers and seas.\n\nHowever, waste is not just a problem. We can also see it as a useful resource. Many of the things we throw away are still good. So, we can collect and reuse them. Different types of waste need different ways of collecting and recycling.",
         "vocabulary": [
           {
             "word": "waste",
@@ -27,12 +27,28 @@
             "definition": "To put something in the trash."
           },
           {
+            "word": "create",
+            "definition": "To make something new."
+          },
+          {
+            "word": "packaging",
+            "definition": "Boxes, bags and bottles around the things we buy."
+          },
+          {
+            "word": "leftover",
+            "definition": "Left after a meal; not eaten."
+          },
+          {
             "word": "tons",
             "definition": "A unit for weighing very heavy things."
           },
           {
-            "word": "trash",
-            "definition": "Things that you throw away."
+            "word": "cardboard",
+            "definition": "Thick, strong paper. We make boxes from it."
+          },
+          {
+            "word": "resource",
+            "definition": "Something useful that people can use, like water or wood."
           },
           {
             "word": "collect",
@@ -49,14 +65,14 @@
             "x": 30,
             "y": 40,
             "title": "2 Billion Tons",
-            "description": "In 2023, people in cities made more than 2 billion tons of waste."
+            "description": "In 2023, people in cities created more than 2 billion tons of waste."
           },
           {
             "id": "zeroWaste-a2-en-h1b",
             "x": 70,
             "y": 45,
             "title": "Still Useful",
-            "description": "Many things in our trash are still useful."
+            "description": "Many of the things we throw away are still good."
           }
         ],
         "exercises": [
@@ -66,9 +82,9 @@
             "title": "What Is Waste?",
             "instructions": "Choose the answer from Chapter 1.",
             "question": "What is waste?",
-            "options": ["anything that we don’t want or need anymore", "only food from the kitchen", "new things from a shop"],
+            "options": ["anything that we do not want or need anymore", "only food from the kitchen", "new things from a shop"],
             "correctAnswer": 0,
-            "explanation": "Chapter 1: “Waste is anything that we don’t want or need anymore.”",
+            "explanation": "Chapter 1: “It is anything that we do not want or need anymore.”",
             "feedback": {
               "correct": "Correct. Things we don’t want or need.",
               "incorrect": "Read the end of the first paragraph."
@@ -79,12 +95,12 @@
           {
             "id": "zeroWaste-a2-language-1-may",
             "type": "multiple-choice",
-            "title": "Look: May",
+            "title": "Look: Could",
             "instructions": "Read the sentence from Chapter 1. Then choose the answer.",
-            "question": "“By 2050, this number may be nearly 4 billion tons.” What does “may” mean here?",
+            "question": "“By 2050, this number could reach nearly 4 billion tons.” What does “could” mean here?",
             "options": ["It is possible, but not sure.", "It is sure.", "It happened in the past."],
             "correctAnswer": 0,
-            "explanation": "“May + base verb” says that something is possible in the future, but we are not sure.",
+            "explanation": "“Could + base verb” says that something is possible in the future, but we are not sure.",
             "feedback": {
               "correct": "Correct. Possible, not sure.",
               "incorrect": "Is the writer sure?"
@@ -96,9 +112,9 @@
             "title": "Practise: Big Numbers",
             "instructions": "Fill each gap from the word bank. Two words are not needed.",
             "question": "How much waste is there?",
-            "fillBlanksText": "In 2023, people in cities made more [blank] 2 billion tons of waste. By 2050, this number [blank] be nearly 4 billion tons. Plastic waste is growing very [blank].",
-            "wordBank": ["than", "may", "fast", "then", "slow"],
-            "correctAnswer": ["than", "may", "fast"],
+            "fillBlanksText": "In 2023, people in cities created more [blank] 2 billion tons of waste. By 2050, this number [blank] reach nearly 4 billion tons. Plastic waste is growing very [blank].",
+            "wordBank": ["than", "could", "fast", "then", "slow"],
+            "correctAnswer": ["than", "could", "fast"],
             "explanation": "These sentences come from Chapter 1.",
             "feedback": {
               "correct": "Well done. Than, may, fast.",
@@ -112,7 +128,7 @@
             "instructions": "Write three sentences about the waste you made today.",
             "question": "What did you throw away today?",
             "correctAnswer": null,
-            "explanation": "Example: “Today, I threw away a plastic bottle and a paper box. The box is still useful. Tomorrow, I may use it for my pencils.”",
+            "explanation": "Example: “Today, I threw away a plastic bottle and a paper box. The box is still useful. Tomorrow, I could use it for my pencils.”",
             "feedback": {
               "correct": "Check: threw away, still useful and may.",
               "incorrect": ""
@@ -129,9 +145,9 @@
                 "example": "My … is still useful."
               },
               {
-                "question": "Say what you may do tomorrow.",
+                "question": "Say what you could do tomorrow.",
                 "mode": "Pair",
-                "example": "Tomorrow, I may …"
+                "example": "Tomorrow, I could …"
               }
             ]
           }
@@ -141,9 +157,9 @@
           "question": "Guess first: What is most of the waste in cities?",
           "options": ["food", "glass", "metal"],
           "answer": 0,
-          "quote": "Most of the waste in cities is food."
+          "quote": "Most city waste is food."
         },
-        "iCan": ["I can say what waste is.", "I can say how much waste cities make.", "I can use may for the future."]
+        "iCan": ["I can say what waste is.", "I can say how much waste cities make.", "I can use could for the future."]
       },
       {
         "id": 2,
@@ -151,7 +167,7 @@
         "title": "Paper, Wood and Glass",
         "image": "",
         "audioUrl": "",
-        "content": "Paper comes from trees in forests. When we recycle paper, we need fewer new trees. Paper waste must stay dry, so people collect it in a separate bin. In recycling centers, old paper becomes new paper and new boxes.\n\nWood also comes from trees. We use it for furniture, boxes and houses. Recycling centers can change old wood into new boards. Then people can use it again and don’t have to throw it away.\n\nGlass is made from sand and some other natural materials. Old bottles and jars are glass waste. People put them in special glass bins. Workers sort the glass by color. Then they melt it and make new bottles and jars. This saves natural materials and keeps the air cleaner.",
+        "content": "Paper is made from forest trees, so recycling it helps us save more trees. Because used paper needs to stay dry, we should put it in a separate recycling bin. At recycling centers, this old paper is turned into new paper and cardboard boxes.\n\nWood also comes from trees, and we use it to make furniture, boxes, and even houses. Recycling centers can turn old wood into new wooden boards. That way, we can reuse it instead of throwing it away.\n\nGlass is made from sand and other natural materials. We collect used bottles and jars in special recycling bins. At the center, workers group the glass by color and melt it to make new ones. This helps us save natural materials and make less trash.",
         "vocabulary": [
           {
             "word": "separate",
@@ -174,12 +190,16 @@
             "definition": "A glass container for food, like honey or jam."
           },
           {
-            "word": "sort",
-            "definition": "To put things into groups."
-          },
-          {
             "word": "melt",
             "definition": "To make something hot until it becomes liquid."
+          },
+          {
+            "word": "materials",
+            "definition": "Things that we use to make other things, like wood, glass or metal."
+          },
+          {
+            "word": "trash",
+            "definition": "Things that you throw away."
           }
         ],
         "hotspots": [
@@ -188,14 +208,14 @@
             "x": 30,
             "y": 40,
             "title": "A Separate Bin",
-            "description": "Paper waste must stay dry, so people collect it in a separate bin."
+            "description": "Because used paper needs to stay dry, we should put it in a separate recycling bin."
           },
           {
             "id": "zeroWaste-a2-en-h2b",
             "x": 70,
             "y": 45,
-            "title": "Sorted by Color",
-            "description": "Workers sort the glass by color."
+            "title": "Grouped by Color",
+            "description": "At the center, workers group the glass by color and melt it to make new ones."
           }
         ],
         "exercises": [
@@ -205,9 +225,9 @@
             "title": "Why Recycle Paper?",
             "instructions": "Choose the answer from Chapter 2.",
             "question": "What happens when we recycle paper?",
-            "options": ["We need fewer new trees.", "We need more new trees.", "Paper gets wet."],
+            "options": ["It helps us save more trees.", "We cut more trees.", "Paper gets wet."],
             "correctAnswer": 0,
-            "explanation": "Chapter 2: “When we recycle paper, we need fewer new trees.”",
+            "explanation": "Chapter 2: “Paper is made from forest trees, so recycling it helps us save more trees.”",
             "feedback": {
               "correct": "Correct. Fewer new trees.",
               "incorrect": "Read the second sentence."
@@ -220,7 +240,7 @@
             "type": "multiple-choice",
             "title": "Look: Is Made From",
             "instructions": "Read the sentence from Chapter 2. Then choose the answer.",
-            "question": "“Glass is made from sand and some other natural materials.” What does “is made from” tell us?",
+            "question": "“Glass is made from sand and other natural materials.” What does “is made from” tell us?",
             "options": ["what we use to make glass", "who makes glass", "where we buy glass"],
             "correctAnswer": 0,
             "explanation": "“Is made from” tells us the material that we use to make something.",
@@ -238,18 +258,18 @@
             "dragDropGroups": [
               {
                 "group": "At home",
-                "items": ["People put old bottles in special glass bins."]
+                "items": ["We collect used bottles and jars in special recycling bins."]
               },
               {
                 "group": "At the recycling center",
-                "items": ["Workers sort the glass by color.", "They melt it.", "They make new bottles and jars."]
+                "items": ["Workers group the glass by color.", "They melt it.", "They make new bottles and jars."]
               }
             ],
             "correctAnswer": {
-              "At home": ["People put old bottles in special glass bins."],
-              "At the recycling center": ["Workers sort the glass by color.", "They melt it.", "They make new bottles and jars."]
+              "At home": ["We collect used bottles and jars in special recycling bins."],
+              "At the recycling center": ["Workers group the glass by color.", "They melt it.", "They make new bottles and jars."]
             },
-            "explanation": "Chapter 2: “People put them in special glass bins. Workers sort the glass by color. Then they melt it and make new bottles and jars.”",
+            "explanation": "Chapter 2: “We collect used bottles and jars in special recycling bins. At the center, workers group the glass by color and melt it to make new ones.”",
             "feedback": {
               "correct": "Well done. Home, then the center.",
               "incorrect": "Who does each step?"
@@ -289,9 +309,9 @@
         "beforeYouRead": {
           "kind": "guess",
           "question": "Guess first: What is glass made from?",
-          "options": ["sand and some other natural materials", "trees", "oil"],
+          "options": ["sand and other natural materials", "trees", "oil"],
           "answer": 0,
-          "quote": "Glass is made from sand and some other natural materials."
+          "quote": "Glass is made from sand and other natural materials."
         },
         "iCan": [
           "I can say how paper, wood and glass are recycled.",
@@ -305,15 +325,11 @@
         "title": "Plastic",
         "image": "",
         "audioUrl": "",
-        "content": "Plastic is everywhere. We find it in bags, bottles, toys, phones and many other things. But there are many kinds of plastic, so we can’t recycle all of them in the same way.\n\nBetween 2000 and 2019, the world made almost twice as much plastic. Plastic waste grew even faster. In 2019, the world had about 350 million tons of plastic waste.\n\nWhat happened to all this plastic waste? People recycled only 9 percent of it. They burned 19 percent in special places. Half of it went into landfills. Landfills are big places where people put trash under the ground. The other 22 percent stayed in open places or went into nature. A lot of it went into rivers and seas.\n\nThat is why plastic waste is a very big problem today.",
+        "content": "Plastic is everywhere. We find it in bags, bottles, toys, phones, and many other things. However, there are many different types of plastic, and we cannot recycle all of them in the same way.\n\nSo what happens to all this plastic waste? Let’s look at the numbers from 2019. Only 9 percent of it was recycled, and 19 percent was burned in special places. Half of it went under the ground into big trash areas. The other 22 percent stayed in open places or went into nature. A lot of it ended up in rivers and seas. That is why plastic waste is such a big problem today.",
         "vocabulary": [
           {
             "word": "plastic",
             "definition": "A light, strong material. We make bags and bottles from it."
-          },
-          {
-            "word": "twice as much",
-            "definition": "Two times more."
           },
           {
             "word": "percent",
@@ -324,12 +340,12 @@
             "definition": "To destroy something with fire."
           },
           {
-            "word": "landfill",
-            "definition": "A big place where trash goes under the ground."
-          },
-          {
             "word": "nature",
             "definition": "Trees, rivers, seas, animals and plants."
+          },
+          {
+            "word": "end up",
+            "definition": "To finally be in a place."
           }
         ],
         "hotspots": [
@@ -337,15 +353,15 @@
             "id": "zeroWaste-a2-en-h3a",
             "x": 30,
             "y": 40,
-            "title": "Twice as Much Plastic",
-            "description": "Between 2000 and 2019, the world made almost twice as much plastic."
+            "title": "Plastic Everywhere",
+            "description": "We find it in bags, bottles, toys, phones, and many other things."
           },
           {
             "id": "zeroWaste-a2-en-h3b",
             "x": 70,
             "y": 45,
-            "title": "Landfills",
-            "description": "Landfills are big places where people put trash under the ground."
+            "title": "Big Trash Areas",
+            "description": "Half of it went under the ground into big trash areas."
           }
         ],
         "exercises": [
@@ -355,11 +371,15 @@
             "title": "Why Is Plastic Hard?",
             "instructions": "Choose the answer from Chapter 3.",
             "question": "Why can’t we recycle all plastic in the same way?",
-            "options": ["because there are many kinds of plastic", "because plastic is very heavy", "because plastic comes from trees"],
+            "options": [
+              "because there are many different types of plastic",
+              "because plastic is very heavy",
+              "because plastic comes from trees"
+            ],
             "correctAnswer": 0,
-            "explanation": "Chapter 3: “But there are many kinds of plastic, so we can’t recycle all of them in the same way.”",
+            "explanation": "Chapter 3: “However, there are many different types of plastic, and we cannot recycle all of them in the same way.”",
             "feedback": {
-              "correct": "Correct. There are many kinds.",
+              "correct": "Correct. There are many different types.",
               "incorrect": "Read the first paragraph."
             }
           }
@@ -368,15 +388,15 @@
           {
             "id": "zeroWaste-a2-language-3-past",
             "type": "multiple-choice",
-            "title": "Look: The Past Simple",
+            "title": "Look: Was Recycled",
             "instructions": "Read the sentence from Chapter 3. Then choose the answer.",
-            "question": "“People recycled only 9 percent of it. They burned 19 percent in special places.” When did these actions happen?",
-            "options": ["in the past", "now", "in the future"],
+            "question": "“Only 9 percent of it was recycled, and 19 percent was burned in special places.” What does “was recycled” tell us?",
+            "options": ["what happened to the plastic in the past", "what the plastic does every day", "what will happen to the plastic"],
             "correctAnswer": 0,
-            "explanation": "Regular verbs take -ed in the past simple: recycled, burned, stayed.",
+            "explanation": "Was + past participle (was recycled, was burned) tells us what happened to something. We do not say who did it.",
             "feedback": {
-              "correct": "Correct. In the past.",
-              "incorrect": "Look at the -ed endings."
+              "correct": "Correct. It happened in the past.",
+              "incorrect": "Look at was + past participle."
             }
           },
           {
@@ -392,15 +412,15 @@
             "matchingPairs": [
               {
                 "left": "9 percent",
-                "right": "People recycled it."
+                "right": "It was recycled."
               },
               {
                 "left": "19 percent",
-                "right": "People burned it in special places."
+                "right": "It was burned in special places."
               },
               {
                 "left": "half",
-                "right": "It went into landfills."
+                "right": "It went under the ground into big trash areas."
               },
               {
                 "left": "22 percent",
@@ -408,15 +428,15 @@
               }
             ],
             "correctAnswer": {
-              "9 percent": "People recycled it.",
-              "19 percent": "People burned it in special places.",
-              "half": "It went into landfills.",
+              "9 percent": "It was recycled.",
+              "19 percent": "It was burned in special places.",
+              "half": "It went under the ground into big trash areas.",
               "22 percent": "It stayed in open places or went into nature."
             },
-            "explanation": "Chapter 3: “People recycled only 9 percent of it. They burned 19 percent in special places. Half of it went into landfills. … The other 22 percent stayed in open places or went into nature.”",
+            "explanation": "Chapter 3: “Only 9 percent of it was recycled, and 19 percent was burned in special places. Half of it went under the ground into big trash areas. The other 22 percent stayed in open places or went into nature.”",
             "feedback": {
               "correct": "Well done. Each number matches.",
-              "incorrect": "Read the third paragraph."
+              "incorrect": "Read the second paragraph."
             }
           },
           {
@@ -452,15 +472,15 @@
         ],
         "beforeYouRead": {
           "kind": "guess",
-          "question": "Guess first: How much of the plastic waste did people recycle?",
+          "question": "Guess first: How much of the plastic waste was recycled?",
           "options": ["only 9 percent", "about 50 percent", "90 percent"],
           "answer": 0,
-          "quote": "People recycled only 9 percent of it."
+          "quote": "Only 9 percent of it was recycled"
         },
         "iCan": [
           "I can say why plastic is hard to recycle.",
           "I can say what happened to plastic waste.",
-          "I can use the past simple and percent."
+          "I can use was + past participle and percent."
         ]
       },
       {
@@ -469,27 +489,27 @@
         "title": "Cartons and Metal",
         "image": "",
         "audioUrl": "",
-        "content": "Juice and milk cartons are made of paper and plastic together. Some also have a very thin layer of metal. This kind of packaging is very common, so it makes a lot of waste. People must collect it separately. Special centers separate the paper from the plastic. Then they use these materials to make new products.\n\nMetal comes from the ground. Drink cans, oil cans and tomato paste cans are metal waste. People collect metal separately, too. In recycling centers, workers melt the old metal and make new things from it.\n\nIs recycling metal a good idea? Yes, it is! It uses much less energy than taking new metal from the earth.",
+        "content": "Juice and milk cartons are made of paper and plastic, and some also have a thin layer of metal inside. Because we use these cartons every day, we create a lot of trash. We need to put them in a separate bin. At special centers, workers separate the paper and plastic, and then use them to make new things.\n\nWe dig metal out of the earth. Drink cans, oil cans, and tomato paste cans are all metal trash. We collect metal in a separate bin, too. At recycling centers, workers melt the metal and use it to make new products.\n\nIs recycling metal a good idea? Yes, it is! It takes much less energy than getting new metal from the earth.",
         "vocabulary": [
           {
             "word": "carton",
             "definition": "A box made of paper and plastic. Milk and juice come in it."
           },
           {
-            "word": "packaging",
-            "definition": "Boxes, bags and bottles around the things we buy."
+            "word": "layer",
+            "definition": "A thin part that covers something."
           },
           {
-            "word": "separately",
-            "definition": "Not together with other things."
-          },
-          {
-            "word": "product",
-            "definition": "Something that people make and sell."
+            "word": "dig",
+            "definition": "To make a hole in the ground and take things out."
           },
           {
             "word": "can",
             "definition": "A metal container for drinks or food."
+          },
+          {
+            "word": "product",
+            "definition": "Something that people make and sell."
           },
           {
             "word": "energy",
@@ -501,15 +521,15 @@
             "id": "zeroWaste-a2-en-h4a",
             "x": 30,
             "y": 40,
-            "title": "Paper and Plastic Together",
-            "description": "Juice and milk cartons are made of paper and plastic together."
+            "title": "Paper, Plastic and Metal",
+            "description": "Juice and milk cartons are made of paper and plastic, and some also have a thin layer of metal inside."
           },
           {
             "id": "zeroWaste-a2-en-h4b",
             "x": 70,
             "y": 45,
             "title": "Much Less Energy",
-            "description": "It uses much less energy than taking new metal from the earth."
+            "description": "It takes much less energy than getting new metal from the earth."
           }
         ],
         "exercises": [
@@ -520,14 +540,14 @@
             "instructions": "Choose the answer from Chapter 4.",
             "question": "Why is recycling metal a good idea?",
             "options": [
-              "It uses much less energy than taking new metal from the earth.",
+              "It takes much less energy than getting new metal from the earth.",
               "It makes metal heavier.",
               "It needs more workers."
             ],
             "correctAnswer": 0,
-            "explanation": "Chapter 4: “It uses much less energy than taking new metal from the earth.”",
+            "explanation": "Chapter 4: “It takes much less energy than getting new metal from the earth.”",
             "feedback": {
-              "correct": "Correct. It uses much less energy.",
+              "correct": "Correct. It takes much less energy.",
               "incorrect": "Read the last paragraph."
             }
           }
@@ -536,12 +556,12 @@
           {
             "id": "zeroWaste-a2-language-4-must",
             "type": "multiple-choice",
-            "title": "Look: Must",
+            "title": "Look: Need To",
             "instructions": "Read the sentence from Chapter 4. Then choose the answer.",
-            "question": "“People must collect it separately.” What does “must” mean here?",
+            "question": "“We need to put them in a separate bin.” What does “need to” mean here?",
             "options": ["It is necessary.", "It is not allowed.", "It is a small idea."],
             "correctAnswer": 0,
-            "explanation": "“Must + base verb” says that something is necessary.",
+            "explanation": "“Need to + base verb” says that something is necessary.",
             "feedback": {
               "correct": "Correct. It is necessary.",
               "incorrect": "Is it a choice or a rule?"
@@ -553,9 +573,9 @@
             "title": "Practise: Cartons and Cans",
             "instructions": "Fill each gap from the word bank. Two words are not needed.",
             "question": "How are cartons and metal recycled?",
-            "fillBlanksText": "Special centers separate the [blank] from the plastic. Drink cans, oil cans and tomato paste cans are [blank] waste. Workers melt the old metal and make new things [blank] it.",
-            "wordBank": ["paper", "metal", "from", "glass", "with"],
-            "correctAnswer": ["paper", "metal", "from"],
+            "fillBlanksText": "At special centers, workers separate the [blank] and plastic. Drink cans, oil cans, and tomato paste cans are all [blank] trash. At recycling centers, workers melt the metal and use it to make new [blank].",
+            "wordBank": ["paper", "metal", "products", "glass", "with"],
+            "correctAnswer": ["paper", "metal", "products"],
             "explanation": "These sentences come from Chapter 4.",
             "feedback": {
               "correct": "Well done. Paper, metal, from.",
@@ -569,7 +589,7 @@
             "instructions": "Write three sentences about cartons and cans in your kitchen.",
             "question": "What cartons and cans do you have at home?",
             "correctAnswer": null,
-            "explanation": "Example: “We have a milk carton in the fridge. We have a tomato paste can. We must put them in a separate bin.”",
+            "explanation": "Example: “We have a milk carton in the fridge. We have a tomato paste can. We need to put them in a separate bin.”",
             "feedback": {
               "correct": "Check: a carton, a can and must.",
               "incorrect": ""
@@ -586,9 +606,9 @@
                 "example": "We have a … can."
               },
               {
-                "question": "Give a rule with must.",
+                "question": "Give a rule with need to.",
                 "mode": "Pair",
-                "example": "We must …"
+                "example": "We need to …"
               }
             ]
           }
@@ -596,14 +616,14 @@
         "beforeYouRead": {
           "kind": "guess",
           "question": "Guess first: What are juice and milk cartons made of?",
-          "options": ["paper and plastic together", "only glass", "only metal"],
+          "options": ["paper and plastic", "only glass", "only metal"],
           "answer": 0,
-          "quote": "Juice and milk cartons are made of paper and plastic together."
+          "quote": "Juice and milk cartons are made of paper and plastic, and some also have a thin layer of metal inside."
         },
         "iCan": [
           "I can say what cartons are made of.",
           "I can say why recycling metal is a good idea.",
-          "I can use must and much less … than."
+          "I can use need to and much less … than."
         ]
       },
       {
@@ -612,8 +632,16 @@
         "title": "Cooking Oil and Food",
         "image": "",
         "audioUrl": "",
-        "content": "We make cooking oil from plants like olives, sunflowers and corn. After we fry food, we have used oil. Old oil is waste, too. It can make our water dirty, so we must collect it separately. Special centers change it into a clean fuel for cars and trucks. This fuel is called biodiesel.\n\nFood waste comes from fruit and vegetable pieces, old bread and other food. Farms also have plant waste, like wheat and barley straw.\n\nA lot of food never reaches our tables. About 13 percent of the world’s food is lost on the way from the farm to the shop. Then 17 percent more is wasted in homes, restaurants and shops. And most food waste, 61 percent, happens at home!",
+        "content": "We make cooking oil from plants like olives, sunflowers, and corn. After we fry food, this used oil becomes waste, too. Because it can make our water dirty, we need to collect it separately. Special centers turn it into a clean fuel for cars and trucks. This fuel is called biodiesel.\n\nFood waste comes from fruit and vegetable pieces, old bread, and other leftover food. Farms also have plant waste, like wheat and barley straw.\n\nSadly, a lot of food never reaches our tables. About 13 percent of the world’s food is lost on the way from the farm to the shop. 17 percent more is wasted in homes, restaurants, and shops. In fact, most of this wasted food—61 percent—comes from our homes!",
         "vocabulary": [
+          {
+            "word": "sunflower",
+            "definition": "A tall plant with a big yellow flower. We get oil from its seeds."
+          },
+          {
+            "word": "olive",
+            "definition": "A small green or black fruit. We make oil from it."
+          },
           {
             "word": "fry",
             "definition": "To cook food in hot oil."
@@ -645,14 +673,14 @@
             "x": 30,
             "y": 40,
             "title": "Biodiesel",
-            "description": "Special centers change it into a clean fuel for cars and trucks."
+            "description": "Special centers turn it into a clean fuel for cars and trucks."
           },
           {
             "id": "zeroWaste-a2-en-h5b",
             "x": 70,
             "y": 45,
             "title": "At Home",
-            "description": "And most food waste, 61 percent, happens at home!"
+            "description": "In fact, most of this wasted food—61 percent—comes from our homes!"
           }
         ],
         "exercises": [
@@ -661,10 +689,10 @@
             "type": "multiple-choice",
             "title": "Old Oil",
             "instructions": "Choose the answer from Chapter 5.",
-            "question": "Why must we collect old cooking oil separately?",
+            "question": "Why do we need to collect old cooking oil separately?",
             "options": ["because it can make our water dirty", "because it is very heavy", "because it smells nice"],
             "correctAnswer": 0,
-            "explanation": "Chapter 5: “It can make our water dirty, so we must collect it separately.”",
+            "explanation": "Chapter 5: “Because it can make our water dirty, we need to collect it separately.”",
             "feedback": {
               "correct": "Correct. It can make water dirty.",
               "incorrect": "Read the first paragraph."
@@ -692,9 +720,9 @@
             "title": "Practise: Lost and Wasted",
             "instructions": "Fill each gap from the word bank. Two words are not needed.",
             "question": "Where does food go?",
-            "fillBlanksText": "About 13 percent of the world’s food is [blank] on the way from the farm to the shop. Then 17 percent more is [blank] in homes, restaurants and shops. Most food waste happens at [blank].",
-            "wordBank": ["lost", "wasted", "home", "eaten", "school"],
-            "correctAnswer": ["lost", "wasted", "home"],
+            "fillBlanksText": "About 13 percent of the world’s food is [blank] on the way from the farm to the shop. 17 percent more is [blank] in homes, restaurants, and shops. Most of this wasted food comes from our [blank].",
+            "wordBank": ["lost", "wasted", "homes", "eaten", "schools"],
+            "correctAnswer": ["lost", "wasted", "homes"],
             "explanation": "“Is lost” and “is wasted” tell us what happens to the food. These sentences come from Chapter 5.",
             "feedback": {
               "correct": "Well done. Lost, wasted, home.",
@@ -737,7 +765,7 @@
           "question": "Guess first: Where does most food waste happen?",
           "options": ["at home", "on farms", "in factories"],
           "answer": 0,
-          "quote": "most food waste, 61 percent, happens at home!"
+          "quote": "most of this wasted food—61 percent—comes from our homes!"
         },
         "iCan": [
           "I can say what happens to old cooking oil.",
@@ -751,11 +779,15 @@
         "title": "Electronics and Batteries",
         "image": "",
         "audioUrl": "",
-        "content": "We use many electronic items at home, at school and at work. Fridges, washing machines, computers and mobile phones make our lives easier. When they are old or broken, they become electronic waste. Electronic waste has dangerous materials in it, so we must put it in special bins. Workers take the old machines apart. Then they can use the metal, plastic and other useful parts again.\n\nBatteries keep energy and give power to many things. When a battery is old or broken, it becomes battery waste. Never throw batteries in the normal trash! They have dangerous chemicals in them. These chemicals can get into the soil and water. We must put old batteries in battery bins. Then special centers take out useful metals like lithium, cobalt and nickel.\n\nRecycling saves many useful materials. But it also needs a lot of energy and hard work. So recycling alone can’t solve the problem. We need a better idea. This idea is Zero Waste.",
+        "content": "We use many electronic devices at home, at school, and at work. Fridges, washing machines, computers, and mobile phones make our lives easier. When they are no longer useful, they become electronic waste. Electronic waste has dangerous materials inside, so we must put it in special bins. Workers take these old devices apart, and then they can use the metal, plastic, and other useful parts again.\n\nBatteries store energy and give power to many things. When a battery is no longer useful, it becomes battery waste. Never throw batteries in the regular bin! They have dangerous chemicals inside that can get into the soil and water. We must put old batteries in special battery bins. Then, recycling centers take out useful metals like lithium, cobalt, and nickel.\n\nRecycling saves many useful materials, but it also needs a lot of energy and hard work. So, recycling alone cannot solve the problem. We need a better idea. This idea is Zero Waste.",
         "vocabulary": [
           {
             "word": "electronic",
             "definition": "Working with electricity, like a computer or a phone."
+          },
+          {
+            "word": "device",
+            "definition": "A machine or tool, like a phone or a computer."
           },
           {
             "word": "dangerous",
@@ -768,6 +800,10 @@
           {
             "word": "battery",
             "definition": "A small object that gives power to things like phones."
+          },
+          {
+            "word": "regular",
+            "definition": "Normal; usual."
           },
           {
             "word": "chemicals",
@@ -788,14 +824,14 @@
             "x": 30,
             "y": 40,
             "title": "Electronic Waste",
-            "description": "When they are old or broken, they become electronic waste."
+            "description": "When they are no longer useful, they become electronic waste."
           },
           {
             "id": "zeroWaste-a2-en-h6b",
             "x": 70,
             "y": 45,
             "title": "Battery Bins",
-            "description": "We must put old batteries in battery bins."
+            "description": "We must put old batteries in special battery bins."
           }
         ],
         "exercises": [
@@ -807,7 +843,7 @@
             "question": "Why can’t recycling alone solve the problem?",
             "options": ["It needs a lot of energy and hard work.", "It is too easy.", "It saves too many materials."],
             "correctAnswer": 0,
-            "explanation": "Chapter 6: “But it also needs a lot of energy and hard work. So recycling alone can’t solve the problem.”",
+            "explanation": "Chapter 6: “Recycling saves many useful materials, but it also needs a lot of energy and hard work. So, recycling alone cannot solve the problem.”",
             "feedback": {
               "correct": "Correct. It needs a lot of energy and work.",
               "incorrect": "Read the last paragraph."
@@ -820,7 +856,7 @@
             "type": "multiple-choice",
             "title": "Look: Never Throw …",
             "instructions": "Read the sentence from Chapter 6. Then choose the answer.",
-            "question": "“Never throw batteries in the normal trash!” What kind of sentence is this?",
+            "question": "“Never throw batteries in the regular bin!” What kind of sentence is this?",
             "options": ["a strong safety rule", "a question", "a story about the past"],
             "correctAnswer": 0,
             "explanation": "An imperative (base verb at the start) gives an instruction. “Never + base verb” is a strong “do not”.",
@@ -837,23 +873,23 @@
             "question": "Which word fits?",
             "formChoices": [
               {
-                "sentence": "[choice] throw batteries in the normal trash!",
+                "sentence": "[choice] throw batteries in the regular bin!",
                 "options": ["Never", "Always", "Often"],
                 "answer": 0
               },
               {
-                "sentence": "We [choice] put old batteries in battery bins.",
+                "sentence": "We [choice] put old batteries in special battery bins.",
                 "options": ["must", "must not", "never"],
                 "answer": 0
               },
               {
-                "sentence": "Electronic waste has dangerous materials in it, so we must put it in [choice] bins.",
-                "options": ["special", "normal", "any"],
+                "sentence": "Electronic waste has dangerous materials inside, so we must put it in [choice] bins.",
+                "options": ["special", "regular", "any"],
                 "answer": 0
               }
             ],
             "correctAnswer": null,
-            "explanation": "Chapter 6: “Never throw batteries in the normal trash!” “We must put old batteries in battery bins.” “… so we must put it in special bins.”",
+            "explanation": "Chapter 6: “Never throw batteries in the regular bin!” “We must put old batteries in special battery bins.” “… so we must put it in special bins.”",
             "feedback": {
               "correct": "Well done. Never, must, special.",
               "incorrect": "Is it something to do or not to do?"
@@ -866,7 +902,7 @@
             "instructions": "Write three rules for a battery safety poster.",
             "question": "What should people do with old batteries and phones?",
             "correctAnswer": null,
-            "explanation": "Example: “Never throw old batteries in the trash. We must put them in a battery bin. They have dangerous chemicals in them.”",
+            "explanation": "Example: “Never throw old batteries in the trash. We must put them in a battery bin. They have dangerous chemicals inside.”",
             "feedback": {
               "correct": "Check: never, must and a reason.",
               "incorrect": ""
@@ -893,9 +929,9 @@
         "beforeYouRead": {
           "kind": "guess",
           "question": "Guess first: Where must you NEVER throw batteries?",
-          "options": ["in the normal trash", "in battery bins", "in special centers"],
+          "options": ["in the regular bin", "in battery bins", "in special centers"],
           "answer": 0,
-          "quote": "Never throw batteries in the normal trash!"
+          "quote": "Never throw batteries in the regular bin!"
         },
         "iCan": [
           "I can say why electronic waste and batteries need special bins.",
@@ -909,11 +945,15 @@
         "title": "What Is Zero Waste?",
         "image": "",
         "audioUrl": "",
-        "content": "Does “zero waste” mean “no waste at all”? No, that isn’t possible. We all use things and make waste every day.\n\nZero Waste is a way of living. It means using things carefully and making less trash. We try not to make waste. We use things again and again, and we recycle. With Zero Waste, we think about the whole life of a product. Then we understand that old things can still be valuable.\n\nEvery year, people make more than 2 billion tons of waste. A lot of this waste is still useful. When we throw it away, we lose it. Waste also makes the air, water and soil dirty. It is bad for our health and for nature.",
+        "content": "Does “Zero Waste” mean “no waste at all”? No, that is not possible. We all use things and produce waste every day.\n\nZero Waste is a way of living. It means using things carefully and creating less waste. We should try not to throw things away, use them again and again, and recycle. With Zero Waste, we should think about the full life of what we buy. This helps us see that old items can still be useful.\n\nWhy is this so important? Every year, people around the world create more than 2 billion tons of waste. A lot of this waste is still valuable, so when we throw it away, we lose useful materials. Waste also pollutes the air, water, and soil. This is dangerous for both our health and nature.",
         "vocabulary": [
           {
             "word": "zero",
             "definition": "The number 0. Nothing."
+          },
+          {
+            "word": "items",
+            "definition": "Things, like boxes, bottles or clothes."
           },
           {
             "word": "carefully",
@@ -940,8 +980,8 @@
             "id": "zeroWaste-a2-en-h7b",
             "x": 70,
             "y": 45,
-            "title": "The Whole Life of a Product",
-            "description": "With Zero Waste, we think about the whole life of a product."
+            "title": "The Full Life of What We Buy",
+            "description": "With Zero Waste, we should think about the full life of what we buy."
           }
         ],
         "exercises": [
@@ -951,11 +991,11 @@
             "title": "What Is Zero Waste?",
             "instructions": "Choose the answer from Chapter 7.",
             "question": "What does Zero Waste mean?",
-            "options": ["using things carefully and making less trash", "making no trash at all", "throwing everything away"],
+            "options": ["using things carefully and creating less waste", "making no trash at all", "throwing everything away"],
             "correctAnswer": 0,
-            "explanation": "Chapter 7: “It means using things carefully and making less trash.”",
+            "explanation": "Chapter 7: “It means using things carefully and creating less waste.”",
             "feedback": {
-              "correct": "Correct. Using things carefully and making less trash.",
+              "correct": "Correct. Using things carefully and creating less waste.",
               "incorrect": "Read the second paragraph."
             }
           }
@@ -966,8 +1006,12 @@
             "type": "multiple-choice",
             "title": "Look: Try Not To",
             "instructions": "Read the sentence from Chapter 7. Then choose the answer.",
-            "question": "“We try not to make waste.” What does it mean?",
-            "options": ["We work hard so that we don’t make waste.", "We make a lot of waste.", "We never think about waste."],
+            "question": "“We should try not to throw things away, use them again and again, and recycle.” What does “try not to throw things away” mean?",
+            "options": [
+              "We work hard so that we don’t throw things away.",
+              "We throw a lot of things away.",
+              "We never think about waste."
+            ],
             "correctAnswer": 0,
             "explanation": "“Try not to + base verb” means you make an effort to stop doing something.",
             "feedback": {
@@ -981,9 +1025,9 @@
             "title": "Practise: A Way of Living",
             "instructions": "Fill each gap from the word bank. Two words are not needed.",
             "question": "What do we do with Zero Waste?",
-            "fillBlanksText": "We try not to [blank] waste. We use things again and [blank], and we recycle. Then we understand that old things can still be [blank].",
-            "wordBank": ["make", "again", "valuable", "buy", "broken"],
-            "correctAnswer": ["make", "again", "valuable"],
+            "fillBlanksText": "We should try not to [blank] things away, use them again and [blank], and recycle. This helps us see that old items can still be [blank].",
+            "wordBank": ["throw", "again", "useful", "buy", "broken"],
+            "correctAnswer": ["throw", "again", "useful"],
             "explanation": "These sentences come from Chapter 7.",
             "feedback": {
               "correct": "Well done. Make, again, valuable.",
@@ -1023,10 +1067,10 @@
         ],
         "beforeYouRead": {
           "kind": "guess",
-          "question": "Guess first: Does “zero waste” mean “no waste at all”?",
-          "options": ["No, that isn’t possible.", "Yes, always.", "Only in big cities."],
+          "question": "Guess first: Does “Zero Waste” mean “no waste at all”?",
+          "options": ["No, that is not possible.", "Yes, always.", "Only in big cities."],
           "answer": 0,
-          "quote": "No, that isn’t possible."
+          "quote": "No, that is not possible."
         },
         "iCan": [
           "I can explain what Zero Waste means.",
@@ -1040,11 +1084,15 @@
         "title": "The Circular Economy",
         "image": "",
         "audioUrl": "",
-        "content": "Zero Waste helps us build a circular economy. But first, let’s look at the old way.\n\nThe old way is like a line. It has three steps: take, make, throw away. First, we take materials from nature. Then we make things from them. Finally, we throw them away. This is called a linear economy.\n\nA circular economy is different. It works like a circle. In nature, nothing is wasted. Everything is used again and again. A circular economy works in the same way. We use products and materials for as long as possible. Then old things become new things. They go round and round in a circle, and they don’t go to landfills.\n\nThe main goal is simple. The economy can grow, but nature doesn’t have to pay for it.",
+        "content": "Zero Waste helps us build a circular economy. To understand the circular economy, first we should look at the old system.\n\nThe old system is like a line. It has three steps: take, make, and throw away. First, we take materials from nature, then we use them to make things, and finally, we throw them away. This is called a linear economy.\n\nA circular economy is different. It works like a circle. In nature, nothing is wasted, and everything is used again and again. A circular economy works in the same way.\n\nWe use things and materials for as long as possible. Then, old things are turned into new products. They go round and round in a circle, so they do not end up in waste areas.\n\nThe main goal is simple: the economy can grow, but nature does not have to pay the price.",
         "vocabulary": [
           {
             "word": "economy",
             "definition": "The money, work and business of a country."
+          },
+          {
+            "word": "system",
+            "definition": "A way of doing or organizing things."
           },
           {
             "word": "circular",
@@ -1073,7 +1121,7 @@
             "x": 30,
             "y": 40,
             "title": "Take, Make, Throw Away",
-            "description": "It has three steps: take, make, throw away."
+            "description": "It has three steps: take, make, and throw away."
           },
           {
             "id": "zeroWaste-a2-en-h8b",
@@ -1091,12 +1139,12 @@
             "instructions": "Choose the answer from Chapter 8.",
             "question": "What is the main goal of a circular economy?",
             "options": [
-              "The economy can grow, but nature doesn’t have to pay for it.",
+              "The economy can grow, but nature does not have to pay the price.",
               "The economy must stop growing.",
               "Nature must pay for the economy."
             ],
             "correctAnswer": 0,
-            "explanation": "Chapter 8: “The economy can grow, but nature doesn’t have to pay for it.”",
+            "explanation": "Chapter 8: “The main goal is simple: the economy can grow, but nature does not have to pay the price.”",
             "feedback": {
               "correct": "Correct. Growth without hurting nature.",
               "incorrect": "Read the last paragraph."
@@ -1109,7 +1157,7 @@
             "type": "multiple-choice",
             "title": "Look: First, Then, Finally",
             "instructions": "Read the sentences from Chapter 8. Then choose the answer.",
-            "question": "“First, we take materials from nature. Then we make things from them. Finally, we throw them away.” What do first, then and finally show?",
+            "question": "“First, we take materials from nature, then we use them to make things, and finally, we throw them away.” What do first, then and finally show?",
             "options": ["the order of the steps", "the reasons", "the places"],
             "correctAnswer": 0,
             "explanation": "“First”, “then” and “finally” show the order of steps.",
@@ -1131,7 +1179,7 @@
               },
               {
                 "id": "2",
-                "text": "We make things from them."
+                "text": "We use them to make things."
               },
               {
                 "id": "3",
@@ -1139,7 +1187,7 @@
               }
             ],
             "correctAnswer": ["1", "2", "3"],
-            "explanation": "Chapter 8: “First, we take materials from nature. Then we make things from them. Finally, we throw them away.”",
+            "explanation": "Chapter 8: “First, we take materials from nature, then we use them to make things, and finally, we throw them away.”",
             "feedback": {
               "correct": "Well done. Take, make, throw away.",
               "incorrect": "Find first, then and finally."
@@ -1191,7 +1239,7 @@
         "title": "The Three Rs",
         "image": "",
         "audioUrl": "",
-        "content": "Zero Waste has three main rules. We call them the three Rs.\n\nReduce: Use less. Buy only the things that you really need.\n\nReuse and Repair: Use things again and again. Don’t throw them away. Companies should make strong products, and these products should be easy to repair. When something breaks, fix it. Then it lasts longer, and you save money, too.\n\nRecycle and Upcycle: Recycling means making new materials from old ones. For example, old paper becomes new paper. This saves natural materials, and less trash goes to landfills. Upcycling means making something new and more valuable from waste.\n\nThe circular economy is good for us in three ways. First, there is less waste and pollution. Second, we use natural materials better. Third, the economy grows, and there are new jobs in recycling and repair.",
+        "content": "Zero Waste has three main rules. We call them the three Rs.\n\nReduce: Use less. Buy only the things you really need.\n\nReuse and Repair: Use things again and again instead of throwing them away. Companies should make good, strong products that are easy to repair. When something breaks, fix it. Then, it lasts longer, and you save money, too.\n\nRecycle and Upcycle: Recycling means making new materials from old ones. For example, old paper becomes new paper. This saves natural materials, and less waste goes to landfills. Upcycling means turning waste into something new and more useful.\n\nThe circular economy helps us in three ways. First, there is less waste and pollution. Second, we use natural materials more carefully. Third, the economy grows, and there are new jobs in recycling and repair.",
         "vocabulary": [
           {
             "word": "reduce",
@@ -1210,6 +1258,10 @@
             "definition": "To continue to work for a time."
           },
           {
+            "word": "landfill",
+            "definition": "A big place where trash goes under the ground."
+          },
+          {
             "word": "upcycle",
             "definition": "To make something better from old things."
           },
@@ -1224,14 +1276,14 @@
             "x": 30,
             "y": 40,
             "title": "Reduce",
-            "description": "Reduce: Use less. Buy only the things that you really need."
+            "description": "Reduce: Use less. Buy only the things you really need."
           },
           {
             "id": "zeroWaste-a2-en-h9b",
             "x": 70,
             "y": 45,
             "title": "Upcycling",
-            "description": "Upcycling means making something new and more valuable from waste."
+            "description": "Upcycling means turning waste into something new and more useful."
           }
         ],
         "exercises": [
@@ -1256,7 +1308,7 @@
             "type": "multiple-choice",
             "title": "Look: Use Less",
             "instructions": "Read the rule from Chapter 9. Then choose the answer.",
-            "question": "“Reduce: Use less. Buy only the things that you really need.” What kind of sentences are “Use less” and “Buy only …”?",
+            "question": "“Reduce: Use less. Buy only the things you really need.” What kind of sentences are “Use less” and “Buy only …”?",
             "options": ["instructions", "questions", "stories about the past"],
             "correctAnswer": 0,
             "explanation": "Imperatives start with the base verb. They give instructions: Use less. Buy only … Fix it.",
@@ -1274,7 +1326,7 @@
             "dragDropGroups": [
               {
                 "group": "Reduce",
-                "items": ["Buy only the things that you really need."]
+                "items": ["Buy only the things you really need."]
               },
               {
                 "group": "Reuse and Repair",
@@ -1282,13 +1334,13 @@
               },
               {
                 "group": "Recycle and Upcycle",
-                "items": ["Old paper becomes new paper.", "Make something new and more valuable from waste."]
+                "items": ["Old paper becomes new paper.", "Turn waste into something new and more useful."]
               }
             ],
             "correctAnswer": {
-              "Reduce": ["Buy only the things that you really need."],
+              "Reduce": ["Buy only the things you really need."],
               "Reuse and Repair": ["When something breaks, fix it.", "Use things again and again."],
-              "Recycle and Upcycle": ["Old paper becomes new paper.", "Make something new and more valuable from waste."]
+              "Recycle and Upcycle": ["Old paper becomes new paper.", "Turn waste into something new and more useful."]
             },
             "explanation": "These actions come from the three Rs in Chapter 9.",
             "feedback": {
@@ -1346,11 +1398,15 @@
         "title": "Waste and Our Climate",
         "image": "",
         "audioUrl": "",
-        "content": "Waste and climate change are connected. Food and other natural waste go bad in landfills. Then they give off a gas called methane. Methane is a greenhouse gas. Greenhouse gases make the Earth warmer.\n\nGreenhouse gases in the world are more than twice as much as 50 years ago. Zero Waste can help. When we keep waste out of landfills, we make fewer of these bad gases.\n\nBetter waste management can cut these gases by 15 to 20 percent. But there is a big problem. Many poorer countries make very little of these gases. But they often suffer the most from climate change. They have terrible disasters, and the sea is rising there.",
+        "content": "Waste and climate change are closely connected. When food and other natural waste go bad under a lot of trash in big waste areas, they form a gas called methane. Methane is a greenhouse gas, and greenhouse gases make the Earth warmer. Because of this, ice melts fast, and extreme weather becomes more common.\n\nToday, greenhouse gas levels are more than twice as high as they were 50 years ago. Zero Waste can help with this, too. When there is less trash in waste areas, waste creates fewer of these dangerous gases.\n\nBetter waste management can cut these gases by 15 to 20 percent. We need to act fast because we face a big problem and a very unfair situation. Many poorer countries create very little of these gases, yet they often suffer the most from climate change. They face terrible natural disasters, and sea levels are rising there.",
         "vocabulary": [
           {
             "word": "climate change",
             "definition": "Changes in the weather of the Earth over a long time."
+          },
+          {
+            "word": "extreme",
+            "definition": "Very strong; much more than usual."
           },
           {
             "word": "go bad",
@@ -1361,8 +1417,16 @@
             "definition": "A gas in the air. It makes the Earth warmer."
           },
           {
+            "word": "methane",
+            "definition": "A gas from old food and plants. It makes the Earth warmer."
+          },
+          {
             "word": "waste management",
             "definition": "Collecting, recycling and getting rid of waste."
+          },
+          {
+            "word": "unfair",
+            "definition": "Not right; not the same for everyone."
           },
           {
             "word": "suffer",
@@ -1379,14 +1443,14 @@
             "x": 30,
             "y": 40,
             "title": "Methane",
-            "description": "Then they give off a gas called methane."
+            "description": "When food and other natural waste go bad under a lot of trash in big waste areas, they form a gas called methane."
           },
           {
             "id": "zeroWaste-a2-en-h10b",
             "x": 70,
             "y": 45,
             "title": "Who Suffers Most",
-            "description": "But they often suffer the most from climate change."
+            "description": "Many poorer countries create very little of these gases, yet they often suffer the most from climate change."
           }
         ],
         "exercises": [
@@ -1411,13 +1475,13 @@
             "type": "multiple-choice",
             "title": "Look: When",
             "instructions": "Read the sentence from Chapter 10. Then choose the answer.",
-            "question": "“When we keep waste out of landfills, we make fewer of these bad gases.” What does the sentence show?",
+            "question": "“When there is less trash in waste areas, waste creates fewer of these dangerous gases.” What does the sentence show?",
             "options": ["an action and its result", "a question", "a past story"],
             "correctAnswer": 0,
             "explanation": "“When + action, result” shows what happens every time we do something.",
             "feedback": {
               "correct": "Correct. An action and its result.",
-              "incorrect": "What happens when we keep waste out?"
+              "incorrect": "What happens when there is less trash?"
             }
           },
           {
@@ -1426,7 +1490,7 @@
             "title": "Practise: From Waste to Gas",
             "instructions": "Fill each gap from the word bank. Two words are not needed.",
             "question": "How does waste make the Earth warmer?",
-            "fillBlanksText": "Food and other natural waste go [blank] in landfills. Then they give off a gas called [blank]. Greenhouse gases make the Earth [blank].",
+            "fillBlanksText": "When food and other natural waste go [blank] under a lot of trash, they form a gas called [blank]. Greenhouse gases make the Earth [blank].",
             "wordBank": ["bad", "methane", "warmer", "good", "colder"],
             "correctAnswer": ["bad", "methane", "warmer"],
             "explanation": "These sentences come from Chapter 10.",
@@ -1468,10 +1532,10 @@
         ],
         "beforeYouRead": {
           "kind": "guess",
-          "question": "Guess first: Which gas comes from food waste in landfills?",
+          "question": "Guess first: Which gas comes from food waste under a lot of trash?",
           "options": ["methane", "oxygen", "water"],
           "answer": 0,
-          "quote": "Then they give off a gas called methane."
+          "quote": "When food and other natural waste go bad under a lot of trash in big waste areas, they form a gas called methane."
         },
         "iCan": [
           "I can explain how waste and climate change are connected.",
@@ -1485,23 +1549,31 @@
         "title": "What Can We Do?",
         "image": "",
         "audioUrl": "",
-        "content": "The best waste is the waste that we never make. So we must act before there is any waste.\n\nWe can buy only the food that we need. We can shop at local markets and in shops without packaging. We can say “no” to things that we use only once. Paper coffee cups, plastic water bottles and plastic straws are good examples. There are better choices, like our own cups and bottles.\n\nCities can help, too. They can have places where people refill their drink bottles. They can have second-hand shops for clothes, furniture and electronics. They can also help people repair things. Some cities have tool libraries. People can borrow tools there, so they don’t need to buy them.\n\nChildren and their families can learn about Zero Waste together. This is the best way to change our habits. And the best time to start is now!\n\nZero Waste is not a place where we arrive and stop. It is a way of thinking, and the journey never ends.",
+        "content": "The best waste is the waste we never create. So, we need to be careful with what we buy and use.\n\nWe can start by buying only the food we need. We can shop at local markets and in stores that do not use plastic packaging. We can also say “no” to things we use only once, like paper coffee cups, plastic water bottles, and plastic straws. Making better choices is easy—for example, we can bring our own cups and bottles.\n\nCities can help, too. They can set up free water stations where people can fill up their bottles. They can support second-hand shops for clothes, furniture, and electronics. They can also help people repair broken things. Some cities even have tool libraries where people can borrow tools instead of buying them.\n\nChildren and their families can learn about Zero Waste together. This is the best way to change our daily habits, and the best time to start is now!\n\nZero Waste is not a finish line where we arrive and stop. It is a way of thinking, and the journey never ends.",
         "vocabulary": [
           {
             "word": "local",
             "definition": "Near your home or in your town."
           },
           {
+            "word": "choice",
+            "definition": "Something that you choose."
+          },
+          {
             "word": "straw",
             "definition": "A thin tube. You drink through it."
           },
           {
-            "word": "refill",
-            "definition": "To fill something again."
+            "word": "support",
+            "definition": "To help someone or something."
           },
           {
             "word": "second-hand",
             "definition": "Old. Someone used it before you."
+          },
+          {
+            "word": "tool",
+            "definition": "A thing that you hold in your hand to do a job, like a hammer."
           },
           {
             "word": "borrow",
@@ -1522,7 +1594,7 @@
             "x": 30,
             "y": 40,
             "title": "Tool Libraries",
-            "description": "Some cities have tool libraries."
+            "description": "Some cities even have tool libraries where people can borrow tools instead of buying them."
           },
           {
             "id": "zeroWaste-a2-en-h11b",
@@ -1541,7 +1613,7 @@
             "question": "What can people do at a tool library?",
             "options": ["borrow tools", "buy new tools", "throw away tools"],
             "correctAnswer": 0,
-            "explanation": "Chapter 11: “People can borrow tools there, so they don’t need to buy them.”",
+            "explanation": "Chapter 11: “Some cities even have tool libraries where people can borrow tools instead of buying them.”",
             "feedback": {
               "correct": "Correct. Borrow tools.",
               "incorrect": "Read the third paragraph."
@@ -1554,7 +1626,7 @@
             "type": "multiple-choice",
             "title": "Look: Can for Ideas",
             "instructions": "Read the sentence from Chapter 11. Then choose the answer.",
-            "question": "“We can shop at local markets and in shops without packaging.” What does “can” give here?",
+            "question": "“We can shop at local markets and in stores that do not use plastic packaging.” What does “can” give here?",
             "options": ["an idea or a possible action", "a strong rule", "a past action"],
             "correctAnswer": 0,
             "explanation": "“Can + base verb” can give ideas and possible actions.",
@@ -1572,16 +1644,16 @@
             "dragDropGroups": [
               {
                 "group": "We can …",
-                "items": ["buy only the food that we need", "say “no” to things that we use only once", "shop at local markets"]
+                "items": ["buy only the food we need", "say “no” to things we use only once", "shop at local markets"]
               },
               {
                 "group": "Cities can …",
-                "items": ["have places where people refill their drink bottles", "have second-hand shops", "help people repair things"]
+                "items": ["set up free water stations", "support second-hand shops", "help people repair broken things"]
               }
             ],
             "correctAnswer": {
-              "We can …": ["buy only the food that we need", "say “no” to things that we use only once", "shop at local markets"],
-              "Cities can …": ["have places where people refill their drink bottles", "have second-hand shops", "help people repair things"]
+              "We can …": ["buy only the food we need", "say “no” to things we use only once", "shop at local markets"],
+              "Cities can …": ["set up free water stations", "support second-hand shops", "help people repair broken things"]
             },
             "explanation": "These ideas come from Chapter 11.",
             "feedback": {
@@ -1623,9 +1695,9 @@
         "beforeYouRead": {
           "kind": "guess",
           "question": "Guess first: What is the best waste?",
-          "options": ["the waste that we never make", "the waste that we burn", "the waste in landfills"],
+          "options": ["the waste we never create", "the waste that we burn", "the waste in landfills"],
           "answer": 0,
-          "quote": "The best waste is the waste that we never make."
+          "quote": "The best waste is the waste we never create."
         },
         "iCan": [
           "I can say what people can do for Zero Waste.",
@@ -1657,57 +1729,57 @@
             "chapter": 1,
             "label": "2023",
             "value": "2 billion tons",
-            "title": "People in cities make more than 2 billion tons of waste.",
-            "text": "By 2050, this number may be nearly 4 billion tons."
+            "title": "People in cities created more than 2 billion tons of waste.",
+            "text": "By 2050, this number could reach nearly 4 billion tons."
           },
           {
             "chapter": 2,
             "label": "Glass",
             "value": "By color",
-            "title": "Workers sort the glass by color.",
-            "text": "Then they melt it and make new bottles and jars."
+            "title": "Workers group the glass by color.",
+            "text": "They melt it to make new bottles and jars."
           },
           {
             "chapter": 3,
             "label": "2019",
             "value": "9%",
-            "title": "People recycled only 9 percent of plastic waste.",
-            "text": "Half of it went into landfills."
+            "title": "Only 9 percent of plastic waste was recycled.",
+            "text": "Half of it went under the ground into big trash areas."
           },
           {
             "chapter": 4,
             "label": "Metal",
             "value": "Less energy",
-            "title": "Recycling metal uses much less energy.",
-            "text": "Taking new metal from the earth uses more."
+            "title": "Recycling metal takes much less energy.",
+            "text": "Getting new metal from the earth takes more."
           },
           {
             "chapter": 5,
             "label": "Food waste",
             "value": "61%",
-            "title": "Most food waste happens at home.",
+            "title": "Most food waste comes from our homes.",
             "text": "Old cooking oil can become a clean fuel called biodiesel."
           },
           {
             "chapter": 6,
             "label": "Batteries",
             "value": "Special bins",
-            "title": "Never throw batteries in the normal trash.",
-            "text": "They have dangerous chemicals in them."
+            "title": "Never throw batteries in the regular bin.",
+            "text": "They have dangerous chemicals inside."
           },
           {
             "chapter": 7,
             "label": "Zero Waste",
             "value": "A way of living",
-            "title": "Zero Waste means using things carefully and making less trash.",
-            "text": "Every year, people make more than 2 billion tons of waste."
+            "title": "Zero Waste means using things carefully and creating less waste.",
+            "text": "Every year, people around the world create more than 2 billion tons of waste."
           },
           {
             "chapter": 8,
             "label": "Economy",
             "value": "A circle",
             "title": "A circular economy works like a circle.",
-            "text": "The old way is a line: take, make, throw away."
+            "text": "The old system is a line: take, make, and throw away."
           },
           {
             "chapter": 9,
@@ -1721,14 +1793,14 @@
             "label": "Climate",
             "value": "15–20%",
             "title": "Better waste management can cut greenhouse gases by 15 to 20 percent.",
-            "text": "Food waste in landfills gives off methane."
+            "text": "Food waste under a lot of trash forms methane."
           },
           {
             "chapter": 11,
             "label": "Start",
             "value": "Now",
-            "title": "The best waste is the waste that we never make.",
-            "text": "Some cities have tool libraries."
+            "title": "The best waste is the waste we never create.",
+            "text": "Some cities even have tool libraries where people can borrow tools instead of buying them."
           }
         ]
       },
@@ -1748,7 +1820,7 @@
             "question": "What is most of the waste in cities?",
             "options": ["food", "glass", "batteries"],
             "correctAnswer": 0,
-            "explanation": "Chapter 1: “Most of the waste in cities is food.”",
+            "explanation": "Chapter 1: “Most city waste is food.”",
             "feedback": {
               "correct": "Correct. Food.",
               "incorrect": "Read the third paragraph of Chapter 1."
@@ -1759,11 +1831,11 @@
             "type": "true-false",
             "title": "Glass",
             "instructions": "Is the sentence true or false?",
-            "question": "Workers sort the glass by color.",
+            "question": "Workers group the glass by color.",
             "correctAnswer": true,
-            "explanation": "Chapter 2: “Workers sort the glass by color.”",
+            "explanation": "Chapter 2: “At the center, workers group the glass by color and melt it to make new ones.”",
             "feedback": {
-              "correct": "Correct. They sort it by color.",
+              "correct": "Correct. They group it by color.",
               "incorrect": "Read the glass paragraph in Chapter 2."
             }
           },
@@ -1773,12 +1845,12 @@
             "title": "Plastic Waste",
             "instructions": "Choose the answer from the book.",
             "question": "Where did half of the plastic waste go?",
-            "options": ["into landfills", "into recycling centers", "into new bottles"],
+            "options": ["under the ground into big trash areas", "into recycling centers", "into new bottles"],
             "correctAnswer": 0,
-            "explanation": "Chapter 3: “Half of it went into landfills.”",
+            "explanation": "Chapter 3: “Half of it went under the ground into big trash areas.”",
             "feedback": {
-              "correct": "Correct. Into landfills.",
-              "incorrect": "Read the third paragraph of Chapter 3."
+              "correct": "Correct. Under the ground into big trash areas.",
+              "incorrect": "Read the second paragraph of Chapter 3."
             }
           },
           {
@@ -1788,9 +1860,9 @@
             "instructions": "Is the sentence true or false?",
             "question": "Juice and milk cartons are made only of paper.",
             "correctAnswer": false,
-            "explanation": "Chapter 4: “Juice and milk cartons are made of paper and plastic together.”",
+            "explanation": "Chapter 4: “Juice and milk cartons are made of paper and plastic, and some also have a thin layer of metal inside.”",
             "feedback": {
-              "correct": "Correct. They are paper and plastic together.",
+              "correct": "Correct. They are made of paper and plastic.",
               "incorrect": "Read the beginning of Chapter 4."
             }
           },
@@ -1802,7 +1874,7 @@
             "question": "What can old cooking oil become?",
             "options": ["a clean fuel for cars and trucks", "new glass", "paper boxes"],
             "correctAnswer": 0,
-            "explanation": "Chapter 5: “Special centers change it into a clean fuel for cars and trucks.”",
+            "explanation": "Chapter 5: “Special centers turn it into a clean fuel for cars and trucks.”",
             "feedback": {
               "correct": "Correct. A clean fuel.",
               "incorrect": "Read the first paragraph of Chapter 5."
@@ -1815,9 +1887,9 @@
             "instructions": "Is the sentence true or false?",
             "question": "Zero Waste means no waste at all.",
             "correctAnswer": false,
-            "explanation": "Chapter 7: “Does “zero waste” mean “no waste at all”? No, that isn’t possible.”",
+            "explanation": "Chapter 7: “Does “Zero Waste” mean “no waste at all”? No, that is not possible.”",
             "feedback": {
-              "correct": "Correct. It isn’t possible.",
+              "correct": "Correct. It is not possible.",
               "incorrect": "Read the beginning of Chapter 7."
             }
           },
@@ -1829,7 +1901,7 @@
             "question": "What are the three steps of the old way?",
             "options": ["take, make, throw away", "reduce, reuse, recycle", "collect, sort, melt"],
             "correctAnswer": 0,
-            "explanation": "Chapter 8: “It has three steps: take, make, throw away.”",
+            "explanation": "Chapter 8: “It has three steps: take, make, and throw away.”",
             "feedback": {
               "correct": "Correct. Take, make, throw away.",
               "incorrect": "Read the second paragraph of Chapter 8."
@@ -1840,10 +1912,10 @@
             "type": "multiple-choice",
             "title": "Methane",
             "instructions": "Choose the answer from the book.",
-            "question": "What gives off methane in landfills?",
+            "question": "What forms methane in big waste areas?",
             "options": ["food and other natural waste", "glass bottles", "metal cans"],
             "correctAnswer": 0,
-            "explanation": "Chapter 10: “Food and other natural waste go bad in landfills. Then they give off a gas called methane.”",
+            "explanation": "Chapter 10: “When food and other natural waste go bad under a lot of trash in big waste areas, they form a gas called methane.”",
             "feedback": {
               "correct": "Correct. Food and other natural waste.",
               "incorrect": "Read the beginning of Chapter 10."
@@ -1867,7 +1939,7 @@
             "level": "A2",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "This is waste."
+            "storyExample": "We call this waste."
           },
           {
             "word": "throw away",
@@ -1878,7 +1950,40 @@
             "level": "A2",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "After that, we often throw them away."
+            "storyExample": "Then, we often throw away leftover food, empty bottles, and old boxes."
+          },
+          {
+            "partOfSpeech": "verb",
+            "level": "B1",
+            "pronunciation": "/kriˈeɪt/",
+            "category": "Actions & Behavior",
+            "word": "create",
+            "definition": "To make something new.",
+            "chapter": 1,
+            "chapterTitle": "What Is Waste?",
+            "storyExample": "Today, people around the world create a huge amount of waste."
+          },
+          {
+            "word": "packaging",
+            "definition": "Boxes, bags and bottles around the things we buy.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈpækɪdʒɪŋ/",
+            "category": "Objects & Materials",
+            "level": "A2",
+            "chapter": 1,
+            "chapterTitle": "What Is Waste?",
+            "storyExample": "We eat food, drink from plastic or glass bottles, and buy items in paper boxes and plastic packaging."
+          },
+          {
+            "partOfSpeech": "adjective",
+            "level": "B2",
+            "pronunciation": "/ˈleftˌoʊvər/",
+            "category": "Food & Farming",
+            "word": "leftover",
+            "definition": "Left after a meal; not eaten.",
+            "chapter": 1,
+            "chapterTitle": "What Is Waste?",
+            "storyExample": "Then, we often throw away leftover food, empty bottles, and old boxes."
           },
           {
             "word": "tons",
@@ -1889,18 +1994,29 @@
             "level": "A2",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "In 2023, people in cities made more than 2 billion tons of waste."
+            "storyExample": "In 2023, people in cities created more than 2 billion tons of waste."
           },
           {
-            "word": "trash",
-            "definition": "Things that you throw away.",
             "partOfSpeech": "noun",
-            "pronunciation": "/træʃ/",
-            "category": "Objects & Materials",
-            "level": "A2",
+            "level": "B1",
+            "pronunciation": "/ˈkɑːrdbɔːrd/",
+            "category": "Materials",
+            "word": "cardboard",
+            "definition": "Thick, strong paper. We make boxes from it.",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "Many things in our trash are still useful."
+            "storyExample": "Paper, cardboard, and plastic come next."
+          },
+          {
+            "partOfSpeech": "noun",
+            "level": "B2",
+            "pronunciation": "/ˈriːsɔːrs/",
+            "category": "Nature & Environment",
+            "word": "resource",
+            "definition": "Something useful that people can use, like water or wood.",
+            "chapter": 1,
+            "chapterTitle": "What Is Waste?",
+            "storyExample": "We can also see it as a useful resource."
           },
           {
             "word": "collect",
@@ -1911,7 +2027,7 @@
             "level": "A2",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "We can collect them and use them again."
+            "storyExample": "So, we can collect and reuse them."
           },
           {
             "word": "recycling",
@@ -1922,7 +2038,7 @@
             "level": "A2",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "Different kinds of waste need different ways of collecting and recycling."
+            "storyExample": "Different types of waste need different ways of collecting and recycling."
           },
           {
             "word": "separate",
@@ -1933,7 +2049,7 @@
             "level": "A2",
             "chapter": 2,
             "chapterTitle": "Paper, Wood and Glass",
-            "storyExample": "Paper waste must stay dry, so people collect it in a separate bin."
+            "storyExample": "Because used paper needs to stay dry, we should put it in a separate recycling bin."
           },
           {
             "word": "bin",
@@ -1944,7 +2060,7 @@
             "level": "A2",
             "chapter": 2,
             "chapterTitle": "Paper, Wood and Glass",
-            "storyExample": "Paper waste must stay dry, so people collect it in a separate bin."
+            "storyExample": "Because used paper needs to stay dry, we should put it in a separate recycling bin."
           },
           {
             "word": "recycling center",
@@ -1955,7 +2071,7 @@
             "level": "A2",
             "chapter": 2,
             "chapterTitle": "Paper, Wood and Glass",
-            "storyExample": "In recycling centers, old paper becomes new paper and new boxes."
+            "storyExample": "At recycling centers, this old paper is turned into new paper and cardboard boxes."
           },
           {
             "word": "board",
@@ -1966,7 +2082,7 @@
             "level": "A2",
             "chapter": 2,
             "chapterTitle": "Paper, Wood and Glass",
-            "storyExample": "Recycling centers can change old wood into new boards."
+            "storyExample": "Recycling centers can turn old wood into new wooden boards."
           },
           {
             "word": "jar",
@@ -1977,18 +2093,7 @@
             "level": "A2",
             "chapter": 2,
             "chapterTitle": "Paper, Wood and Glass",
-            "storyExample": "Old bottles and jars are glass waste."
-          },
-          {
-            "word": "sort",
-            "definition": "To put things into groups.",
-            "partOfSpeech": "verb",
-            "pronunciation": "/sɔːrt/",
-            "category": "Actions & Behavior",
-            "level": "A2",
-            "chapter": 2,
-            "chapterTitle": "Paper, Wood and Glass",
-            "storyExample": "Workers sort the glass by color."
+            "storyExample": "We collect used bottles and jars in special recycling bins."
           },
           {
             "word": "melt",
@@ -1999,7 +2104,29 @@
             "level": "A2",
             "chapter": 2,
             "chapterTitle": "Paper, Wood and Glass",
-            "storyExample": "Then they melt it and make new bottles and jars."
+            "storyExample": "At the center, workers group the glass by color and melt it to make new ones."
+          },
+          {
+            "word": "materials",
+            "definition": "Things that we use to make other things, like wood, glass or metal.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/məˈtɪriəlz/",
+            "category": "Materials",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "Paper, Wood and Glass",
+            "storyExample": "Glass is made from sand and other natural materials."
+          },
+          {
+            "word": "trash",
+            "definition": "Things that you throw away.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/træʃ/",
+            "category": "Objects & Materials",
+            "level": "A2",
+            "chapter": 2,
+            "chapterTitle": "Paper, Wood and Glass",
+            "storyExample": "This helps us save natural materials and make less trash."
           },
           {
             "word": "plastic",
@@ -2013,17 +2140,6 @@
             "storyExample": "Plastic is everywhere."
           },
           {
-            "word": "twice as much",
-            "definition": "Two times more.",
-            "partOfSpeech": "phrase",
-            "pronunciation": "/ˌtwaɪs əz ˈmʌtʃ/",
-            "category": "Numbers & Measures",
-            "level": "A2",
-            "chapter": 3,
-            "chapterTitle": "Plastic",
-            "storyExample": "Between 2000 and 2019, the world made almost twice as much plastic."
-          },
-          {
             "word": "percent",
             "definition": "A part of 100. 50 percent is half.",
             "partOfSpeech": "noun",
@@ -2032,7 +2148,7 @@
             "level": "A2",
             "chapter": 3,
             "chapterTitle": "Plastic",
-            "storyExample": "People recycled only 9 percent of it."
+            "storyExample": "Only 9 percent of it was recycled, and 19 percent was burned in special places."
           },
           {
             "word": "burn",
@@ -2043,18 +2159,7 @@
             "level": "A2",
             "chapter": 3,
             "chapterTitle": "Plastic",
-            "storyExample": "They burned 19 percent in special places."
-          },
-          {
-            "word": "landfill",
-            "definition": "A big place where trash goes under the ground.",
-            "partOfSpeech": "noun",
-            "pronunciation": "/ˈlændfɪl/",
-            "category": "Places",
-            "level": "A2",
-            "chapter": 3,
-            "chapterTitle": "Plastic",
-            "storyExample": "Half of it went into landfills."
+            "storyExample": "Only 9 percent of it was recycled, and 19 percent was burned in special places."
           },
           {
             "word": "nature",
@@ -2068,6 +2173,17 @@
             "storyExample": "The other 22 percent stayed in open places or went into nature."
           },
           {
+            "partOfSpeech": "phrasal verb",
+            "level": "B1",
+            "pronunciation": "/ˌend ˈʌp/",
+            "category": "Actions & Behavior",
+            "word": "end up",
+            "definition": "To finally be in a place.",
+            "chapter": 3,
+            "chapterTitle": "Plastic",
+            "storyExample": "A lot of it ended up in rivers and seas."
+          },
+          {
             "word": "carton",
             "definition": "A box made of paper and plastic. Milk and juice come in it.",
             "partOfSpeech": "noun",
@@ -2076,40 +2192,29 @@
             "level": "A2",
             "chapter": 4,
             "chapterTitle": "Cartons and Metal",
-            "storyExample": "Juice and milk cartons are made of paper and plastic together."
+            "storyExample": "Juice and milk cartons are made of paper and plastic, and some also have a thin layer of metal inside."
           },
           {
-            "word": "packaging",
-            "definition": "Boxes, bags and bottles around the things we buy.",
             "partOfSpeech": "noun",
-            "pronunciation": "/ˈpækɪdʒɪŋ/",
-            "category": "Objects & Materials",
-            "level": "A2",
+            "level": "B2",
+            "pronunciation": "/ˈleɪər/",
+            "category": "Materials",
+            "word": "layer",
+            "definition": "A thin part that covers something.",
             "chapter": 4,
             "chapterTitle": "Cartons and Metal",
-            "storyExample": "This kind of packaging is very common, so it makes a lot of waste."
+            "storyExample": "Juice and milk cartons are made of paper and plastic, and some also have a thin layer of metal inside."
           },
           {
-            "word": "separately",
-            "definition": "Not together with other things.",
-            "partOfSpeech": "adverb",
-            "pronunciation": "/ˈsepərətli/",
-            "category": "Describing Things",
-            "level": "A2",
+            "partOfSpeech": "verb",
+            "level": "B1",
+            "pronunciation": "/dɪɡ/",
+            "category": "Actions & Behavior",
+            "word": "dig",
+            "definition": "To make a hole in the ground and take things out.",
             "chapter": 4,
             "chapterTitle": "Cartons and Metal",
-            "storyExample": "People must collect it separately."
-          },
-          {
-            "word": "product",
-            "definition": "Something that people make and sell.",
-            "partOfSpeech": "noun",
-            "pronunciation": "/ˈprɑːdʌkt/",
-            "category": "Work & Economy",
-            "level": "A2",
-            "chapter": 4,
-            "chapterTitle": "Cartons and Metal",
-            "storyExample": "Then they use these materials to make new products."
+            "storyExample": "We dig metal out of the earth."
           },
           {
             "word": "can",
@@ -2120,7 +2225,18 @@
             "level": "A2",
             "chapter": 4,
             "chapterTitle": "Cartons and Metal",
-            "storyExample": "Drink cans, oil cans and tomato paste cans are metal waste."
+            "storyExample": "Drink cans, oil cans, and tomato paste cans are all metal trash."
+          },
+          {
+            "word": "product",
+            "definition": "Something that people make and sell.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈprɑːdʌkt/",
+            "category": "Work & Economy",
+            "level": "A2",
+            "chapter": 4,
+            "chapterTitle": "Cartons and Metal",
+            "storyExample": "At recycling centers, workers melt the metal and use it to make new products."
           },
           {
             "word": "energy",
@@ -2131,7 +2247,29 @@
             "level": "A2",
             "chapter": 4,
             "chapterTitle": "Cartons and Metal",
-            "storyExample": "It uses much less energy than taking new metal from the earth."
+            "storyExample": "It takes much less energy than getting new metal from the earth."
+          },
+          {
+            "partOfSpeech": "noun",
+            "level": "B1",
+            "pronunciation": "/ˈsʌnˌflaʊər/",
+            "category": "Food & Farming",
+            "word": "sunflower",
+            "definition": "A tall plant with a big yellow flower. We get oil from its seeds.",
+            "chapter": 5,
+            "chapterTitle": "Cooking Oil and Food",
+            "storyExample": "We make cooking oil from plants like olives, sunflowers, and corn."
+          },
+          {
+            "partOfSpeech": "noun",
+            "level": "B1",
+            "pronunciation": "/ˈɑːlɪv/",
+            "category": "Food & Farming",
+            "word": "olive",
+            "definition": "A small green or black fruit. We make oil from it.",
+            "chapter": 5,
+            "chapterTitle": "Cooking Oil and Food",
+            "storyExample": "We make cooking oil from plants like olives, sunflowers, and corn."
           },
           {
             "word": "fry",
@@ -2142,7 +2280,7 @@
             "level": "A2",
             "chapter": 5,
             "chapterTitle": "Cooking Oil and Food",
-            "storyExample": "After we fry food, we have used oil."
+            "storyExample": "After we fry food, this used oil becomes waste, too."
           },
           {
             "word": "fuel",
@@ -2153,7 +2291,7 @@
             "level": "A2",
             "chapter": 5,
             "chapterTitle": "Cooking Oil and Food",
-            "storyExample": "Special centers change it into a clean fuel for cars and trucks."
+            "storyExample": "Special centers turn it into a clean fuel for cars and trucks."
           },
           {
             "word": "biodiesel",
@@ -2197,7 +2335,7 @@
             "level": "A2",
             "chapter": 5,
             "chapterTitle": "Cooking Oil and Food",
-            "storyExample": "Then 17 percent more is wasted in homes, restaurants and shops."
+            "storyExample": "17 percent more is wasted in homes, restaurants, and shops."
           },
           {
             "word": "electronic",
@@ -2208,7 +2346,18 @@
             "level": "A2",
             "chapter": 6,
             "chapterTitle": "Electronics and Batteries",
-            "storyExample": "We use many electronic items at home, at school and at work."
+            "storyExample": "We use many electronic devices at home, at school, and at work."
+          },
+          {
+            "partOfSpeech": "noun",
+            "level": "B2",
+            "pronunciation": "/dɪˈvaɪs/",
+            "category": "Technology",
+            "word": "device",
+            "definition": "A machine or tool, like a phone or a computer.",
+            "chapter": 6,
+            "chapterTitle": "Electronics and Batteries",
+            "storyExample": "We use many electronic devices at home, at school, and at work."
           },
           {
             "word": "dangerous",
@@ -2219,7 +2368,7 @@
             "level": "A2",
             "chapter": 6,
             "chapterTitle": "Electronics and Batteries",
-            "storyExample": "Electronic waste has dangerous materials in it, so we must put it in special bins."
+            "storyExample": "Electronic waste has dangerous materials inside, so we must put it in special bins."
           },
           {
             "word": "take apart",
@@ -2230,7 +2379,7 @@
             "level": "A2",
             "chapter": 6,
             "chapterTitle": "Electronics and Batteries",
-            "storyExample": "Workers take the old machines apart."
+            "storyExample": "Workers take these old devices apart, and then they can use the metal, plastic, and other useful parts again."
           },
           {
             "word": "battery",
@@ -2241,7 +2390,18 @@
             "level": "A2",
             "chapter": 6,
             "chapterTitle": "Electronics and Batteries",
-            "storyExample": "When a battery is old or broken, it becomes battery waste."
+            "storyExample": "When a battery is no longer useful, it becomes battery waste."
+          },
+          {
+            "partOfSpeech": "adjective",
+            "level": "B1",
+            "pronunciation": "/ˈreɡjələr/",
+            "category": "Description",
+            "word": "regular",
+            "definition": "Normal; usual.",
+            "chapter": 6,
+            "chapterTitle": "Electronics and Batteries",
+            "storyExample": "Never throw batteries in the regular bin!"
           },
           {
             "word": "chemicals",
@@ -2252,7 +2412,7 @@
             "level": "A2",
             "chapter": 6,
             "chapterTitle": "Electronics and Batteries",
-            "storyExample": "They have dangerous chemicals in them."
+            "storyExample": "They have dangerous chemicals inside that can get into the soil and water."
           },
           {
             "word": "soil",
@@ -2263,7 +2423,7 @@
             "level": "A2",
             "chapter": 6,
             "chapterTitle": "Electronics and Batteries",
-            "storyExample": "These chemicals can get into the soil and water."
+            "storyExample": "They have dangerous chemicals inside that can get into the soil and water."
           },
           {
             "word": "solve",
@@ -2274,7 +2434,7 @@
             "level": "A2",
             "chapter": 6,
             "chapterTitle": "Electronics and Batteries",
-            "storyExample": "So recycling alone can’t solve the problem."
+            "storyExample": "So, recycling alone cannot solve the problem."
           },
           {
             "word": "zero",
@@ -2285,7 +2445,18 @@
             "level": "A2",
             "chapter": 7,
             "chapterTitle": "What Is Zero Waste?",
-            "storyExample": "Does “zero waste” mean “no waste at all”?"
+            "storyExample": "Does “Zero Waste” mean “no waste at all”?"
+          },
+          {
+            "word": "items",
+            "definition": "Things, like boxes, bottles or clothes.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈaɪtəmz/",
+            "category": "Things",
+            "level": "B1",
+            "chapter": 7,
+            "chapterTitle": "What Is Zero Waste?",
+            "storyExample": "This helps us see that old items can still be useful."
           },
           {
             "word": "carefully",
@@ -2296,7 +2467,7 @@
             "level": "A2",
             "chapter": 7,
             "chapterTitle": "What Is Zero Waste?",
-            "storyExample": "It means using things carefully and making less trash."
+            "storyExample": "It means using things carefully and creating less waste."
           },
           {
             "word": "valuable",
@@ -2307,7 +2478,7 @@
             "level": "A2",
             "chapter": 7,
             "chapterTitle": "What Is Zero Waste?",
-            "storyExample": "Then we understand that old things can still be valuable."
+            "storyExample": "A lot of this waste is still valuable, so when we throw it away, we lose useful materials."
           },
           {
             "word": "health",
@@ -2318,7 +2489,7 @@
             "level": "A2",
             "chapter": 7,
             "chapterTitle": "What Is Zero Waste?",
-            "storyExample": "It is bad for our health and for nature."
+            "storyExample": "This is dangerous for both our health and nature."
           },
           {
             "word": "economy",
@@ -2330,6 +2501,17 @@
             "chapter": 8,
             "chapterTitle": "The Circular Economy",
             "storyExample": "Zero Waste helps us build a circular economy."
+          },
+          {
+            "word": "system",
+            "definition": "A way of doing or organizing things.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈsɪstəm/",
+            "category": "Ideas",
+            "level": "B1",
+            "chapter": 8,
+            "chapterTitle": "The Circular Economy",
+            "storyExample": "To understand the circular economy, first we should look at the old system."
           },
           {
             "word": "circular",
@@ -2362,7 +2544,7 @@
             "level": "A2",
             "chapter": 8,
             "chapterTitle": "The Circular Economy",
-            "storyExample": "It has three steps: take, make, throw away."
+            "storyExample": "It has three steps: take, make, and throw away."
           },
           {
             "word": "goal",
@@ -2373,7 +2555,7 @@
             "level": "A2",
             "chapter": 8,
             "chapterTitle": "The Circular Economy",
-            "storyExample": "The main goal is simple."
+            "storyExample": "The main goal is simple: the economy can grow, but nature does not have to pay the price."
           },
           {
             "word": "grow",
@@ -2384,7 +2566,7 @@
             "level": "A2",
             "chapter": 8,
             "chapterTitle": "The Circular Economy",
-            "storyExample": "The economy can grow, but nature doesn’t have to pay for it."
+            "storyExample": "The main goal is simple: the economy can grow, but nature does not have to pay the price."
           },
           {
             "word": "reduce",
@@ -2406,7 +2588,7 @@
             "level": "A2",
             "chapter": 9,
             "chapterTitle": "The Three Rs",
-            "storyExample": "Reuse and Repair: Use things again and again."
+            "storyExample": "Reuse and Repair: Use things again and again instead of throwing them away."
           },
           {
             "word": "repair",
@@ -2417,7 +2599,7 @@
             "level": "A2",
             "chapter": 9,
             "chapterTitle": "The Three Rs",
-            "storyExample": "Reuse and Repair: Use things again and again."
+            "storyExample": "Reuse and Repair: Use things again and again instead of throwing them away."
           },
           {
             "word": "last",
@@ -2428,7 +2610,18 @@
             "level": "A2",
             "chapter": 9,
             "chapterTitle": "The Three Rs",
-            "storyExample": "Then it lasts longer, and you save money, too."
+            "storyExample": "Then, it lasts longer, and you save money, too."
+          },
+          {
+            "word": "landfill",
+            "definition": "A big place where trash goes under the ground.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈlændfɪl/",
+            "category": "Places",
+            "level": "A2",
+            "chapter": 9,
+            "chapterTitle": "The Three Rs",
+            "storyExample": "This saves natural materials, and less waste goes to landfills."
           },
           {
             "word": "upcycle",
@@ -2461,7 +2654,18 @@
             "level": "A2",
             "chapter": 10,
             "chapterTitle": "Waste and Our Climate",
-            "storyExample": "Waste and climate change are connected."
+            "storyExample": "Waste and climate change are closely connected."
+          },
+          {
+            "partOfSpeech": "adjective",
+            "level": "B2",
+            "pronunciation": "/ɪkˈstriːm/",
+            "category": "Nature & Environment",
+            "word": "extreme",
+            "definition": "Very strong; much more than usual.",
+            "chapter": 10,
+            "chapterTitle": "Waste and Our Climate",
+            "storyExample": "Because of this, ice melts fast, and extreme weather becomes more common."
           },
           {
             "word": "go bad",
@@ -2472,7 +2676,7 @@
             "level": "A2",
             "chapter": 10,
             "chapterTitle": "Waste and Our Climate",
-            "storyExample": "Food and other natural waste go bad in landfills."
+            "storyExample": "When food and other natural waste go bad under a lot of trash in big waste areas, they form a gas called methane."
           },
           {
             "word": "greenhouse gas",
@@ -2483,7 +2687,18 @@
             "level": "A2",
             "chapter": 10,
             "chapterTitle": "Waste and Our Climate",
-            "storyExample": "Methane is a greenhouse gas."
+            "storyExample": "Methane is a greenhouse gas, and greenhouse gases make the Earth warmer."
+          },
+          {
+            "partOfSpeech": "noun",
+            "level": "C1",
+            "pronunciation": "/ˈmeθeɪn/",
+            "category": "Science",
+            "word": "methane",
+            "definition": "A gas from old food and plants. It makes the Earth warmer.",
+            "chapter": 10,
+            "chapterTitle": "Waste and Our Climate",
+            "storyExample": "When food and other natural waste go bad under a lot of trash in big waste areas, they form a gas called methane."
           },
           {
             "word": "waste management",
@@ -2497,6 +2712,17 @@
             "storyExample": "Better waste management can cut these gases by 15 to 20 percent."
           },
           {
+            "partOfSpeech": "adjective",
+            "level": "B1",
+            "pronunciation": "/ʌnˈfer/",
+            "category": "Description",
+            "word": "unfair",
+            "definition": "Not right; not the same for everyone.",
+            "chapter": 10,
+            "chapterTitle": "Waste and Our Climate",
+            "storyExample": "We need to act fast because we face a big problem and a very unfair situation."
+          },
+          {
             "word": "suffer",
             "definition": "To have pain or problems.",
             "partOfSpeech": "verb",
@@ -2505,7 +2731,7 @@
             "level": "A2",
             "chapter": 10,
             "chapterTitle": "Waste and Our Climate",
-            "storyExample": "But they often suffer the most from climate change."
+            "storyExample": "Many poorer countries create very little of these gases, yet they often suffer the most from climate change."
           },
           {
             "word": "disaster",
@@ -2516,7 +2742,7 @@
             "level": "A2",
             "chapter": 10,
             "chapterTitle": "Waste and Our Climate",
-            "storyExample": "They have terrible disasters, and the sea is rising there."
+            "storyExample": "They face terrible natural disasters, and sea levels are rising there."
           },
           {
             "word": "local",
@@ -2527,7 +2753,18 @@
             "level": "A2",
             "chapter": 11,
             "chapterTitle": "What Can We Do?",
-            "storyExample": "We can shop at local markets and in shops without packaging."
+            "storyExample": "We can shop at local markets and in stores that do not use plastic packaging."
+          },
+          {
+            "partOfSpeech": "noun",
+            "level": "B1",
+            "pronunciation": "/tʃɔɪs/",
+            "category": "Actions & Behavior",
+            "word": "choice",
+            "definition": "Something that you choose.",
+            "chapter": 11,
+            "chapterTitle": "What Can We Do?",
+            "storyExample": "Making better choices is easy—for example, we can bring our own cups and bottles."
           },
           {
             "word": "straw",
@@ -2538,18 +2775,18 @@
             "level": "A2",
             "chapter": 11,
             "chapterTitle": "What Can We Do?",
-            "storyExample": "Paper coffee cups, plastic water bottles and plastic straws are good examples."
+            "storyExample": "We can also say “no” to things we use only once, like paper coffee cups, plastic water bottles, and plastic straws."
           },
           {
-            "word": "refill",
-            "definition": "To fill something again.",
             "partOfSpeech": "verb",
-            "pronunciation": "/ˌriːˈfɪl/",
+            "level": "B1",
+            "pronunciation": "/səˈpɔːrt/",
             "category": "Actions & Behavior",
-            "level": "A2",
+            "word": "support",
+            "definition": "To help someone or something.",
             "chapter": 11,
             "chapterTitle": "What Can We Do?",
-            "storyExample": "They can have places where people refill their drink bottles."
+            "storyExample": "They can support second-hand shops for clothes, furniture, and electronics."
           },
           {
             "word": "second-hand",
@@ -2560,7 +2797,18 @@
             "level": "A2",
             "chapter": 11,
             "chapterTitle": "What Can We Do?",
-            "storyExample": "They can have second-hand shops for clothes, furniture and electronics."
+            "storyExample": "They can support second-hand shops for clothes, furniture, and electronics."
+          },
+          {
+            "partOfSpeech": "noun",
+            "level": "B1",
+            "pronunciation": "/tuːl/",
+            "category": "Things",
+            "word": "tool",
+            "definition": "A thing that you hold in your hand to do a job, like a hammer.",
+            "chapter": 11,
+            "chapterTitle": "What Can We Do?",
+            "storyExample": "Some cities even have tool libraries where people can borrow tools instead of buying them."
           },
           {
             "word": "borrow",
@@ -2571,7 +2819,7 @@
             "level": "A2",
             "chapter": 11,
             "chapterTitle": "What Can We Do?",
-            "storyExample": "People can borrow tools there, so they don’t need to buy them."
+            "storyExample": "Some cities even have tool libraries where people can borrow tools instead of buying them."
           },
           {
             "word": "habit",
@@ -2582,7 +2830,7 @@
             "level": "A2",
             "chapter": 11,
             "chapterTitle": "What Can We Do?",
-            "storyExample": "This is the best way to change our habits."
+            "storyExample": "This is the best way to change our daily habits, and the best time to start is now!"
           },
           {
             "word": "journey",
@@ -2607,7 +2855,7 @@
             "kind": "Idea",
             "term": "Zero Waste",
             "chapter": 7,
-            "definition": "A way of living: using things carefully and making less trash.",
+            "definition": "A way of living: using things carefully and creating less waste.",
             "termAr": "صِفْرُ نُفَايَاتٍ",
             "definitionAr": "أُسْلُوبُ حَيَاةٍ: اسْتِخْدَامُ الْأَشْيَاءِ بِعِنَايَةٍ وَإِنْتَاجُ قُمَامَةٍ أَقَلَّ."
           },
@@ -2623,7 +2871,7 @@
             "kind": "Idea",
             "term": "linear economy",
             "chapter": 8,
-            "definition": "The old way: take, make, throw away.",
+            "definition": "The old system: take, make, and throw away.",
             "termAr": "الِاقْتِصَادُ الْخَطِّيُّ",
             "definitionAr": "الطَّرِيقَةُ الْقَدِيمَةُ: خُذْ، اصْنَعْ، ارْمِ."
           },
@@ -2639,7 +2887,7 @@
             "kind": "Action",
             "term": "upcycling",
             "chapter": 9,
-            "definition": "Making something new and more valuable from waste.",
+            "definition": "Turning waste into something new and more useful.",
             "termAr": "إِعَادَةُ التَّدْوِيرِ الْإِبْدَاعِيِّ",
             "definitionAr": "صُنْعُ شَيْءٍ جَدِيدٍ أَعْلَى قِيمَةً مِنَ النُّفَايَاتِ."
           },
@@ -2647,7 +2895,7 @@
             "kind": "Science",
             "term": "methane",
             "chapter": 10,
-            "definition": "A greenhouse gas that comes from food waste in landfills.",
+            "definition": "A greenhouse gas that comes from food waste under a lot of trash.",
             "termAr": "الْمِيثَانُ",
             "definitionAr": "غَازُ دَفِيئَةٍ يَأْتِي مِنْ بَقَايَا الطَّعَامِ فِي مَكَبَّاتِ النُّفَايَاتِ."
           }
@@ -2666,42 +2914,42 @@
             "meaning": "Bring things together in one place.",
             "partOfSpeech": "verb",
             "chapter": 1,
-            "context": "We can collect them and use them again."
+            "context": "So, we can collect and reuse them."
           },
           {
-            "word": "sort",
-            "meaning": "Put things into groups.",
+            "word": "melt",
+            "meaning": "Make something hot until it becomes liquid.",
             "partOfSpeech": "verb",
             "chapter": 2,
-            "context": "Workers sort the glass by color."
+            "context": "At recycling centers, workers melt the metal and use it to make new products."
           },
           {
             "word": "landfill",
             "meaning": "A big place where trash goes under the ground.",
             "partOfSpeech": "noun",
             "chapter": 3,
-            "context": "Half of it went into landfills."
+            "context": "This saves natural materials, and less waste goes to landfills."
           },
           {
             "word": "dangerous",
             "meaning": "It can hurt people or nature.",
             "partOfSpeech": "adjective",
             "chapter": 6,
-            "context": "Electronic waste has dangerous materials in it"
+            "context": "Electronic waste has dangerous materials inside"
           },
           {
             "word": "repair",
             "meaning": "Fix something that is broken.",
             "partOfSpeech": "verb",
             "chapter": 9,
-            "context": "these products should be easy to repair"
+            "context": "Companies should make good, strong products that are easy to repair."
           },
           {
             "word": "borrow",
             "meaning": "Take something and give it back later.",
             "partOfSpeech": "verb",
             "chapter": 11,
-            "context": "People can borrow tools there"
+            "context": "Some cities even have tool libraries where people can borrow tools instead of buying them."
           }
         ]
       },
@@ -2715,35 +2963,35 @@
           {
             "id": "zeroWaste-a2-language-review-1-must-never",
             "type": "drag-drop",
-            "title": "Look: Do It or Never Do It?",
+            "title": "Look: Do It or Don’t Do It?",
             "instructions": "Sort the sentences into two groups.",
-            "question": "Is it something to do, or something never to do?",
+            "question": "Is it something to do, or something not to do?",
             "dragDropGroups": [
               {
                 "group": "Do it",
                 "items": [
-                  "People must collect it separately.",
-                  "We must put old batteries in battery bins.",
+                  "We need to put them in a separate bin.",
+                  "We must put old batteries in special battery bins.",
                   "When something breaks, fix it."
                 ]
               },
               {
-                "group": "Never do it",
-                "items": ["Never throw batteries in the normal trash!", "Don’t throw them away."]
+                "group": "Don’t do it",
+                "items": ["Never throw batteries in the regular bin!", "Try not to throw things away."]
               }
             ],
             "correctAnswer": {
               "Do it": [
-                "People must collect it separately.",
-                "We must put old batteries in battery bins.",
+                "We need to put them in a separate bin.",
+                "We must put old batteries in special battery bins.",
                 "When something breaks, fix it."
               ],
-              "Never do it": ["Never throw batteries in the normal trash!", "Don’t throw them away."]
+              "Don’t do it": ["Never throw batteries in the regular bin!", "Try not to throw things away."]
             },
-            "explanation": "“Must” and imperatives say what to do. “Never” and “Don’t” say what not to do.",
+            "explanation": "“Must”, “need to” and imperatives say what to do. “Never” and “try not to” say what not to do.",
             "feedback": {
               "correct": "Good. You sorted the rules.",
-              "incorrect": "Look for never and don’t."
+              "incorrect": "Look for never and try not to."
             }
           },
           {
@@ -2763,11 +3011,11 @@
           {
             "id": "zeroWaste-a2-language-review-3-may",
             "type": "true-false",
-            "title": "Look: May",
+            "title": "Look: Could",
             "instructions": "Is the sentence true or false?",
-            "question": "In “By 2050, this number may be nearly 4 billion tons”, the writer is completely sure.",
+            "question": "In “By 2050, this number could reach nearly 4 billion tons”, the writer is completely sure.",
             "correctAnswer": false,
-            "explanation": "“May” shows that something is possible, but not sure.",
+            "explanation": "“Could” shows that something is possible, but not sure.",
             "feedback": {
               "correct": "Correct. The writer is not sure.",
               "incorrect": "Think about “may”."
@@ -2779,7 +3027,7 @@
             "title": "Practise: Linking Words",
             "instructions": "Fill each gap from the word bank. Two words are not needed.",
             "question": "Which word fits?",
-            "fillBlanksText": "There are many kinds of plastic, [blank] we can’t recycle all of them in the same way. [blank], we take materials from nature. [blank] we keep waste out of landfills, we make fewer bad gases.",
+            "fillBlanksText": "There are many kinds of plastic, [blank] we can’t recycle all of them in the same way. [blank], we take materials from nature. [blank] there is less trash in waste areas, waste creates fewer dangerous gases.",
             "wordBank": ["so", "First", "When", "but", "Because of"],
             "correctAnswer": ["so", "First", "When"],
             "explanation": "“So” gives a result. “First” starts the steps. “When” shows an action and its result.",
@@ -2796,8 +3044,8 @@
             "question": "Which form fits?",
             "formChoices": [
               {
-                "sentence": "People [choice] only 9 percent of plastic waste in 2019.",
-                "options": ["recycled", "recycle", "recycles"],
+                "sentence": "Only 9 percent of the plastic waste [choice] recycled in 2019.",
+                "options": ["was", "is", "were"],
                 "answer": 0
               },
               {
@@ -2812,9 +3060,9 @@
               }
             ],
             "correctAnswer": null,
-            "explanation": "The past simple for 2019, “try not to + verb” and “is called”.",
+            "explanation": "“Was recycled” for 2019, “try not to + verb” and “is called”.",
             "feedback": {
-              "correct": "Correct. Recycled, to make, called.",
+              "correct": "Correct. Was, to make, called.",
               "incorrect": "Check the time and the pattern."
             }
           },
@@ -2832,13 +3080,13 @@
                 "answer": 0
               },
               {
-                "sentence": "Half of the plastic goed into landfills.",
+                "sentence": "Half of the plastic goed under the ground.",
                 "error": "goed",
                 "options": ["went", "gone", "goes"],
                 "answer": 0
               },
               {
-                "sentence": "Recycling metal uses much less energy that new metal.",
+                "sentence": "Recycling metal takes much less energy that new metal.",
                 "error": "that",
                 "options": ["than", "then", "as"],
                 "answer": 0
@@ -2857,10 +3105,10 @@
             "title": "Use: A New Context",
             "instructions": "Read about a school fair. Fill each gap from the word bank.",
             "question": "Can you use the book’s words in a new text?",
-            "fillBlanksText": "Our class made a Zero Waste fair. First, we [blank] old toys and books from our families. Then we [blank] them into groups. Some toys were broken, so we [blank] them. Visitors could [blank] books and bring them back later.",
-            "wordBank": ["collected", "sorted", "repaired", "borrow", "landfill", "dangerous"],
-            "correctAnswer": ["collected", "sorted", "repaired", "borrow"],
-            "explanation": "Collect, sort, repair and borrow come from the book. Here they describe a school fair.",
+            "fillBlanksText": "Our class made a Zero Waste fair. First, we [blank] old toys and books from our families. Then we [blank] them by size. Some toys were broken, so we [blank] them. Visitors could [blank] books and bring them back later.",
+            "wordBank": ["collected", "grouped", "repaired", "borrow", "landfill", "dangerous"],
+            "correctAnswer": ["collected", "grouped", "repaired", "borrow"],
+            "explanation": "Collect, group, repair and borrow come from the book. Here they describe a school fair.",
             "feedback": {
               "correct": "Well done. You used the book’s words in a new text.",
               "incorrect": "Read the words around each gap."
@@ -2906,7 +3154,7 @@
             "instructions": "Write four to five sentences about your Zero Waste week.",
             "question": "What will you do, and why?",
             "correctAnswer": null,
-            "explanation": "Example: “This week, I will use less plastic. I will take my own bottle to school every day. I will repair my old jacket. I will put paper in the recycling bin. This is important because the best waste is the waste that we never make.”",
+            "explanation": "Example: “This week, I will use less plastic. I will take my own bottle to school every day. I will repair my old jacket. I will put paper in the recycling bin. This is important because the best waste is the waste we never create.”",
             "feedback": {
               "correct": "Check: reduce, reuse or repair, and because.",
               "incorrect": ""
@@ -2943,12 +3191,12 @@
             "type": "multiple-choice",
             "title": "Useful Waste",
             "instructions": "Choose the answer from the book.",
-            "question": "What does the book say about many things in our trash?",
-            "options": ["They are still useful.", "They are always dangerous.", "They are all food."],
+            "question": "What does the book say about many of the things we throw away?",
+            "options": ["They are still good.", "They are always dangerous.", "They are all food."],
             "correctAnswer": 0,
-            "explanation": "Chapter 1: “Many things in our trash are still useful.”",
+            "explanation": "Chapter 1: “Many of the things we throw away are still good.”",
             "feedback": {
-              "correct": "Correct. They are still useful.",
+              "correct": "Correct. They are still good.",
               "incorrect": "Read the end of Chapter 1."
             }
           },
@@ -2965,11 +3213,11 @@
             "matchingPairs": [
               {
                 "left": "paper",
-                "right": "becomes new paper and new boxes"
+                "right": "becomes new paper and cardboard boxes"
               },
               {
                 "left": "glass",
-                "right": "is sorted by color and melted"
+                "right": "is grouped by color and melted"
               },
               {
                 "left": "old cooking oil",
@@ -2981,8 +3229,8 @@
               }
             ],
             "correctAnswer": {
-              "paper": "becomes new paper and new boxes",
-              "glass": "is sorted by color and melted",
+              "paper": "becomes new paper and cardboard boxes",
+              "glass": "is grouped by color and melted",
               "old cooking oil": "becomes biodiesel",
               "batteries": "go in battery bins"
             },
@@ -2997,13 +3245,13 @@
             "type": "fill-blanks",
             "title": "Plastic",
             "instructions": "Complete the sentence from Chapter 3 with one number.",
-            "question": "How much plastic waste did people recycle?",
-            "fillBlanksText": "People recycled only [blank] percent of it.",
+            "question": "How much plastic waste was recycled?",
+            "fillBlanksText": "Only [blank] percent of it was recycled.",
             "correctAnswer": ["9"],
-            "explanation": "Chapter 3: “People recycled only 9 percent of it.”",
+            "explanation": "Chapter 3: “Only 9 percent of it was recycled, and 19 percent was burned in special places.”",
             "feedback": {
               "correct": "Correct. 9.",
-              "incorrect": "Read the third paragraph of Chapter 3."
+              "incorrect": "Read the second paragraph of Chapter 3."
             }
           },
           {
@@ -3012,9 +3260,9 @@
             "title": "Electronic Waste",
             "instructions": "Choose the answer from the book.",
             "question": "Why must we put electronic waste in special bins?",
-            "options": ["because it has dangerous materials in it", "because it is very light", "because it is made of paper"],
+            "options": ["because it has dangerous materials inside", "because it is very light", "because it is made of paper"],
             "correctAnswer": 0,
-            "explanation": "Chapter 6: “Electronic waste has dangerous materials in it, so we must put it in special bins.”",
+            "explanation": "Chapter 6: “Electronic waste has dangerous materials inside, so we must put it in special bins.”",
             "feedback": {
               "correct": "Correct. It has dangerous materials.",
               "incorrect": "Read the first paragraph of Chapter 6."
@@ -3045,14 +3293,14 @@
               },
               {
                 "left": "Upcycle",
-                "right": "Make something more valuable from waste."
+                "right": "Turn waste into something more useful."
               }
             ],
             "correctAnswer": {
               "Reduce": "Use less.",
               "Reuse": "Use things again and again.",
               "Repair": "Fix something that is broken.",
-              "Upcycle": "Make something more valuable from waste."
+              "Upcycle": "Turn waste into something more useful."
             },
             "explanation": "These come from Chapter 9.",
             "feedback": {
@@ -3078,11 +3326,11 @@
             "type": "true-false",
             "title": "Poorer Countries",
             "instructions": "Is the sentence true or false?",
-            "question": "The book says poorer countries make the most greenhouse gases.",
+            "question": "The book says poorer countries create the most greenhouse gases.",
             "correctAnswer": false,
-            "explanation": "Chapter 10: “Many poorer countries make very little of these gases.”",
+            "explanation": "Chapter 10: “Many poorer countries create very little of these gases, yet they often suffer the most from climate change.”",
             "feedback": {
-              "correct": "Correct. They make very little of these gases.",
+              "correct": "Correct. They create very little of these gases.",
               "incorrect": "Read the end of Chapter 10."
             }
           },
@@ -3092,9 +3340,9 @@
             "title": "The Best Waste",
             "instructions": "Complete the sentence from Chapter 11 with one word.",
             "question": "What is the best waste?",
-            "fillBlanksText": "The best waste is the waste that we [blank] make.",
+            "fillBlanksText": "The best waste is the waste we [blank] create.",
             "correctAnswer": ["never"],
-            "explanation": "Chapter 11: “The best waste is the waste that we never make.”",
+            "explanation": "Chapter 11: “The best waste is the waste we never create.”",
             "feedback": {
               "correct": "Correct. Never.",
               "incorrect": "Read the beginning of Chapter 11."
@@ -3108,7 +3356,7 @@
             "question": "Why do we need a better idea than recycling alone?",
             "options": ["Recycling needs a lot of energy and hard work.", "Recycling is not possible.", "Recycling makes more trash."],
             "correctAnswer": 0,
-            "explanation": "Chapter 6: “But it also needs a lot of energy and hard work. So recycling alone can’t solve the problem.”",
+            "explanation": "Chapter 6: “Recycling saves many useful materials, but it also needs a lot of energy and hard work. So, recycling alone cannot solve the problem.”",
             "feedback": {
               "correct": "Correct. It needs a lot of energy and work.",
               "incorrect": "Read the end of Chapter 6."
@@ -3123,11 +3371,11 @@
             "sequencingItems": [
               {
                 "id": "1",
-                "text": "People put old bottles in special glass bins."
+                "text": "We collect used bottles and jars in special recycling bins."
               },
               {
                 "id": "2",
-                "text": "Workers sort the glass by color."
+                "text": "Workers group the glass by color."
               },
               {
                 "id": "3",
@@ -3135,13 +3383,13 @@
               },
               {
                 "id": "4",
-                "text": "Factories make new bottles and jars."
+                "text": "Workers make new bottles and jars."
               }
             ],
             "correctAnswer": ["1", "2", "3", "4"],
-            "explanation": "Chapter 2: “People put them in special glass bins. Workers sort the glass by color. Then they melt it and make new bottles and jars.”",
+            "explanation": "Chapter 2: “We collect used bottles and jars in special recycling bins. At the center, workers group the glass by color and melt it to make new ones.”",
             "feedback": {
-              "correct": "Correct. Bin, sort, melt, make.",
+              "correct": "Correct. Bin, group, melt, make.",
               "incorrect": "Read the glass paragraph in Chapter 2."
             }
           }
