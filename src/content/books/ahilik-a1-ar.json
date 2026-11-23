@@ -6,43 +6,44 @@
  "collection": "turkish",
  "book": {
   "id": "ahilik-a1-ar",
-  "title": "The Ahî Organization: Good Work and Good People (A1)",
+  "title": "تنظيم الأخية: عمل جيد وناس طيبون (A1)",
   "level": "A1",
-  "baseFontSize": 12,
+  "baseFontSize": 14,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "A Group for Workers",
-    "content": "Seven hundred years ago, there was a special group in Anatolia. Its name was the Ahî Organization. It was a group for workers and masters. The group helped workers in both work and daily life. This group taught people to be good and kind. At work, older workers taught new learners, and everyone worked well together.\n\nIt visited the shops and checked their work. It also checked things, chose good prices, and helped with work problems. When people had a problem, the Ahîs helped them. The organization was very important in the early years of the Ottomans, too.",
+    "title": "جَمَاعَةٌ لِلْعُمَّالِ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/ahilik%2Fa2%2Fimages%2Fahilik_a2_ch1.jpeg?alt=media&token=ed59d0a4-d16a-458a-9305-25b65f884c82",
+    "content": "قَبْلَ سَبْعِمِائَةِ سَنَةٍ، كَانَتْ فِي الْأَنَاضُولِ جَمَاعَةٌ خَاصَّةٌ. كَانَ اسْمُهَا تَنْظِيمَ الْأَخِيَّةِ. كَانَتْ جَمَاعَةً لِلْعُمَّالِ وَالْمُعَلِّمِينَ. سَاعَدَتِ الْجَمَاعَةُ الْعُمَّالَ فِي كُلٍّ مِنَ الْعَمَلِ وَالْحَيَاةِ الْيَوْمِيَّةِ. عَلَّمَتْ هَذِهِ الْجَمَاعَةُ النَّاسَ أَنْ يَكُونُوا طَيِّبِينَ وَلُطَفَاءَ. فِي الْعَمَلِ، عَلَّمَ الْعُمَّالُ الْكِبَارُ الْمُتَعَلِّمِينَ الْجُدُدَ، وَعَمِلَ الْجَمِيعُ مَعًا عَمَلًا جَيِّدًا.\n\nزَارَتِ الدَّكَاكِينَ، وَفَحَصَتْ عَمَلَ الدَّكَاكِينِ. وَفَحَصَتْ أَيْضًا الْأَشْيَاءَ، وَاخْتَارَتْ أَسْعَارًا جَيِّدَةً، وَسَاعَدَتْ فِي مَشَاكِلِ الْعَمَلِ. عِنْدَمَا كَانَتْ عِنْدَ النَّاسِ مُشْكِلَةٌ، سَاعَدَهُمُ الْأَخِيُّونَ. وَكَانَ التَّنْظِيمُ مُهِمًّا جِدًّا فِي السَّنَوَاتِ الْأُولَى لِلْعُثْمَانِيِّينَ أَيْضًا.",
     "vocabulary": [
      {
-      "word": "organization",
-      "definition": "A big group of people with one job."
+      "word": "تَنْظِيمَ",
+      "definition": "جَمَاعَةٌ كَبِيرَةٌ مِنَ النَّاسِ لَهَا عَمَلٌ وَاحِدٌ."
      },
      {
-      "word": "worker",
-      "definition": "A person who does a job."
+      "word": "لِلْعُمَّالِ",
+      "definition": "نَاسٌ يَشْتَغِلُونَ فِي مِهْنَةٍ."
      },
      {
-      "word": "master",
-      "definition": "A person who is very good at a job."
+      "word": "الْمُعَلِّمِينَ",
+      "definition": "نَاسٌ يَعْرِفُونَ مِهْنَتَهُمْ جَيِّدًا جِدًّا."
      },
      {
-      "word": "check",
-      "definition": "Look at something carefully."
+      "word": "الْحَيَاةِ الْيَوْمِيَّةِ",
+      "definition": "مَا نَفْعَلُهُ كُلَّ يَوْمٍ."
      },
      {
-      "word": "price",
-      "definition": "How much money something is."
+      "word": "الْمُتَعَلِّمِينَ",
+      "definition": "نَاسٌ يَتَعَلَّمُونَ شَيْئًا جَدِيدًا."
      },
      {
-      "word": "learners",
-      "definition": "People who are learning something."
+      "word": "فَحَصَتْ",
+      "definition": "نَظَرَتْ إِلَى شَيْءٍ بِعِنَايَةٍ."
      },
      {
-      "word": "daily",
-      "definition": "Every day."
+      "word": "أَسْعَارًا",
+      "definition": "كَمْ مِنَ الْمَالِ نَدْفَعُ لِلشَّيْءِ."
      }
     ],
     "hotspots": [
@@ -50,181 +51,182 @@
       "id": "h1-1",
       "x": 35,
       "y": 46,
-      "title": "A Special Group",
-      "description": "Seven hundred years ago, there was a special group in Anatolia: the Ahî Organization."
+      "title": "جَمَاعَةٌ خَاصَّةٌ",
+      "description": "قَبْلَ سَبْعِمِائَةِ سَنَةٍ، كَانَتْ فِي الْأَنَاضُولِ جَمَاعَةٌ خَاصَّةٌ اسْمُهَا تَنْظِيمُ الْأَخِيَّةِ."
      },
      {
       "id": "h1-2",
       "x": 68,
       "y": 50,
-      "title": "Checking the Shops",
-      "description": "It visited the shops and checked their work."
+      "title": "فَحْصُ الدَّكَاكِينِ",
+      "description": "زَارَتِ الْجَمَاعَةُ الدَّكَاكِينَ، وَفَحَصَتْ عَمَلَهَا، وَاخْتَارَتْ أَسْعَارًا جَيِّدَةً."
      }
     ],
     "exercises": [
      {
-      "id": "ahilik-a1-quick-1",
+      "id": "ahilik-a1-ar-quick-1",
       "type": "drag-drop",
-      "title": "A Group for Workers",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 1?",
+      "title": "جَمَاعَةٌ لِلْعُمَّالِ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا فَعَلَتِ الْجَمَاعَةُ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "The group visited the shops.",
-         "Older workers taught new learners."
+         "زَارَتِ الدَّكَاكِينَ.",
+         "اخْتَارَتْ أَسْعَارًا جَيِّدَةً."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "The group was only for rich people."
+         "أَغْلَقَتِ الدَّكَاكِينَ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "The group visited the shops.",
-        "Older workers taught new learners."
+       "صَحِيحٌ": [
+        "زَارَتِ الدَّكَاكِينَ.",
+        "اخْتَارَتْ أَسْعَارًا جَيِّدَةً."
        ],
-       "False": [
-        "The group was only for rich people."
+       "خَطَأٌ": [
+        "أَغْلَقَتِ الدَّكَاكِينَ."
        ]
       },
-      "explanation": "Chapter 1 says: “It was a group for workers and masters.” “At work, older workers taught new learners.” “It visited the shops and checked their work.”",
+      "explanation": "الفصل الأول: «زَارَتِ الدَّكَاكِينَ، وَفَحَصَتْ عَمَلَ الدَّكَاكِينِ»، و«اخْتَارَتْ أَسْعَارًا جَيِّدَةً». ما أغلقت الدكاكين.",
       "feedback": {
-       "correct": "Yes! It was a group for workers and masters.",
-       "incorrect": "Read the first paragraph of Chapter 1 again."
+       "correct": "أَحْسَنْتَ! سَاعَدَتِ الْجَمَاعَةُ الدَّكَاكِينَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ahilik-a1-language-1-ago",
+      "id": "ahilik-a1-ar-language-1-she",
       "type": "multiple-choice",
-      "title": "Look: … Years Ago",
-      "instructions": "Choose the right answer.",
-      "question": "“Seven hundred years ago, there was a special group in Anatolia.” When was it?",
+      "title": "انْظُرْ: زَارَتْ، فَحَصَتْ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«زَارَتِ الدَّكَاكِينَ، وَفَحَصَتْ عَمَلَ الدَّكَاكِينِ.» مَنْ زَارَ؟",
       "options": [
-       "700 years before today",
-       "700 years after today",
-       "today"
+       "الْجَمَاعَةُ",
+       "الْعُمَّالُ",
+       "الْمُعَلِّمُ"
       ],
       "correctAnswer": 0,
-      "explanation": "Ago = before now. Seven hundred years ago = 700 years before today.",
+      "explanation": "الجماعة مؤنث، فنزيد «ـتْ» في آخر الفعل: زَارَتْ، فَحَصَتْ، سَاعَدَتْ.",
       "feedback": {
-       "correct": "Yes. 700 years before today.",
-       "incorrect": "Read the first sentence of Chapter 1 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "انْظُرْ إِلَى آخِرِ الْفِعْلِ: «ـتْ»."
       }
      },
      {
-      "id": "ahilik-a1-language-1-practise",
+      "id": "ahilik-a1-ar-language-1-practise",
       "type": "choose-form",
-      "title": "Practise: Visited, Checked, Helped",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: زَارَ أَمْ زَارَتْ؟",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "وَلَدٌ أَمْ بِنْتٌ؟ هُوَ أَمْ هِيَ؟",
       "formChoices": [
        {
-        "sentence": "It [choice] the shops.",
+        "sentence": "الْجَمَاعَةُ [choice] الدَّكَاكِينَ.",
         "options": [
-         "visited",
-         "visits"
+         "زَارَتِ",
+         "زَارَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "It [choice] their work.",
+        "sentence": "الْمُعَلِّمُ [choice] الْعُمَّالَ.",
         "options": [
-         "checked",
-         "checks"
+         "سَاعَدَ",
+         "سَاعَدَتْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "When people had a problem, the Ahîs [choice] them.",
+        "sentence": "الْجَمَاعَةُ [choice] الْأَشْيَاءَ.",
         "options": [
-         "helped",
-         "help"
+         "فَحَصَتِ",
+         "فَحَصَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Many verbs add -ed in the past: visit → visited, check → checked, help → helped.",
+      "explanation": "مع المؤنث (الجماعة) نزيد «ـتْ»: زَارَتْ. ومع المذكر (المعلم) بلا «ـتْ»: سَاعَدَ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 1."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "هُوَ أَمْ هِيَ؟"
       }
      },
      {
-      "id": "ahilik-a1-language-1-say-it",
+      "id": "ahilik-a1-ar-language-1-say-it",
       "type": "reflection",
-      "title": "Say It: Jobs",
-      "instructions": "Tell your partner about jobs.",
-      "question": "What jobs do you know?",
+      "title": "قُلْهَا: مَدْرَسَتِي",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنْ مَدْرَسَتِكَ.",
+      "question": "مَاذَا فَعَلَتْ مَدْرَسَتُكَ؟",
       "correctAnswer": null,
-      "explanation": "Use is a + job.",
+      "explanation": "استعمل «ـتْ» مع المؤنث.",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“My … is a …”",
+        "question": "«سَاعَدَتْ مَدْرَسَتِي …»",
         "mode": "Pair",
-        "example": "My father is a driver."
+        "example": "سَاعَدَتْ مَدْرَسَتِي الطُّلَّابَ الْجُدُدَ."
        },
        {
-        "question": "“A good worker is …”",
+        "question": "«زَارَتْ مُعَلِّمَتِي …»",
         "mode": "Pair",
-        "example": "A good worker is kind."
+        "example": "زَارَتْ مُعَلِّمَتِي الْمَكْتَبَةَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Who was the Ahî Organization for?",
+     "question": "خَمِّنْ أَوَّلًا: لِمَنْ كَانَتْ هَذِهِ الْجَمَاعَةُ؟",
      "options": [
-      "workers and masters",
-      "kings",
-      "children"
+      "لِلْعُمَّالِ وَالْمُعَلِّمِينَ",
+      "لِلْأَطْفَالِ فَقَطْ",
+      "لِلْجُنُودِ"
      ],
      "answer": 0,
-     "quote": "It was a group for workers and masters."
+     "quote": "كَانَتْ جَمَاعَةً لِلْعُمَّالِ وَالْمُعَلِّمِينَ."
     },
     "iCan": [
-     "I can tell about the Ahî Organization.",
-     "I can understand … years ago.",
-     "I can talk about jobs."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَا كَانَ تَنْظِيمُ الْأَخِيَّةِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «زَارَتْ» وَ«فَحَصَتْ».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنْ مَدْرَسَتِي."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "Good People",
-    "content": "For the Ahîs, a good worker was also a good person. They were honest and never told lies. They were generous, so they helped poor people and visited sick neighbors. They did not do things that Allah does not want.\n\nYoung Ahîs learned good manners from their teachers, too. They learned to be nice to people everywhere, even in the street. For them, good work and a good heart always went together.",
+    "title": "نَاسٌ طَيِّبُونَ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/ahilik%2Fa2%2Fimages%2Fahilik_a2_ch2.jpeg?alt=media&token=ed687684-0b9f-4669-896a-867b97f44cb3",
+    "content": "عِنْدَ الْأَخِيِّينَ، كَانَ الْعَامِلُ الْجَيِّدُ إِنْسَانًا طَيِّبًا أَيْضًا. كَانُوا صَادِقِينَ، وَمَا قَالُوا الْكَذِبَ قَطُّ. وَكَانُوا كُرَمَاءَ، فَسَاعَدُوا الْفُقَرَاءَ، وَزَارُوا الْجِيرَانَ الْمَرْضَى. وَمَا فَعَلُوا أَشْيَاءَ لَا يُرِيدُهَا اللهُ.\n\nوَتَعَلَّمَ الْأَخِيُّونَ الشَّبَابُ الْآدَابَ الْحَسَنَةَ مِنْ أَسَاتِذَتِهِمْ أَيْضًا. تَعَلَّمُوا أَنْ يَكُونُوا لُطَفَاءَ مَعَ النَّاسِ فِي كُلِّ مَكَانٍ، حَتَّى فِي الشَّارِعِ. عِنْدَهُمْ، كَانَ الْعَمَلُ الْجَيِّدُ وَالْقَلْبُ الطَّيِّبُ يَسِيرَانِ مَعًا دَائِمًا.",
     "vocabulary": [
      {
-      "word": "honest",
-      "definition": "Always says true things."
+      "word": "صَادِقِينَ",
+      "definition": "يَقُولُونَ الْحَقَّ دَائِمًا."
      },
      {
-      "word": "lie",
-      "definition": "Words that are not true."
+      "word": "الْكَذِبَ",
+      "definition": "كَلَامٌ غَيْرُ صَحِيحٍ."
      },
      {
-      "word": "generous",
-      "definition": "Happy to give things to other people."
+      "word": "كُرَمَاءَ",
+      "definition": "يَفْرَحُونَ بِإِعْطَاءِ الْأَشْيَاءِ لِلنَّاسِ الْآخَرِينَ."
      },
      {
-      "word": "manners",
-      "definition": "The polite way to do things."
+      "word": "الْآدَابَ",
+      "definition": "الطَّرِيقَةُ الْمُهَذَّبَةُ لِفِعْلِ الْأَشْيَاءِ."
      },
      {
-      "word": "neighbors",
-      "definition": "People who live next to you."
+      "word": "لُطَفَاءَ",
+      "definition": "طَيِّبُونَ فِي كَلَامِهِمْ وَعَمَلِهِمْ مَعَ النَّاسِ."
      }
     ],
     "hotspots": [
@@ -232,186 +234,178 @@
       "id": "h2-1",
       "x": 35,
       "y": 46,
-      "title": "Honest",
-      "description": "The Ahîs were honest and never told lies."
+      "title": "صَادِقُونَ",
+      "description": "كَانَ الْأَخِيُّونَ صَادِقِينَ، وَمَا قَالُوا الْكَذِبَ قَطُّ."
      },
      {
       "id": "h2-2",
       "x": 68,
       "y": 50,
-      "title": "Generous",
-      "description": "They were generous, so they helped poor people and visited sick neighbors."
+      "title": "كُرَمَاءُ",
+      "description": "كَانُوا كُرَمَاءَ، فَسَاعَدُوا الْفُقَرَاءَ، وَزَارُوا الْجِيرَانَ الْمَرْضَى."
      }
     ],
     "exercises": [
      {
-      "id": "ahilik-a1-quick-2",
+      "id": "ahilik-a1-ar-quick-2",
       "type": "drag-drop",
-      "title": "Good People",
-      "instructions": "Put each action in the right group.",
-      "question": "What did the Ahîs do?",
+      "title": "نَاسٌ طَيِّبُونَ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "كَيْفَ كَانَ الْأَخِيُّونَ؟",
       "dragDropGroups": [
        {
-        "group": "They did",
+        "group": "صَحِيحٌ",
         "items": [
-         "helped poor people",
-         "visited sick neighbors"
+         "سَاعَدُوا الْفُقَرَاءَ.",
+         "زَارُوا الْجِيرَانَ الْمَرْضَى."
         ]
        },
        {
-        "group": "They did not do",
+        "group": "خَطَأٌ",
         "items": [
-         "told lies"
+         "قَالُوا الْكَذِبَ."
         ]
        }
       ],
       "correctAnswer": {
-       "They did": [
-        "helped poor people",
-        "visited sick neighbors"
+       "صَحِيحٌ": [
+        "سَاعَدُوا الْفُقَرَاءَ.",
+        "زَارُوا الْجِيرَانَ الْمَرْضَى."
        ],
-       "They did not do": [
-        "told lies"
+       "خَطَأٌ": [
+        "قَالُوا الْكَذِبَ."
        ]
       },
-      "explanation": "Chapter 2: “They were honest and never told lies. They were generous, so they helped poor people and visited sick neighbors.”",
+      "explanation": "الفصل الثاني: «كَانُوا صَادِقِينَ، وَمَا قَالُوا الْكَذِبَ قَطُّ».",
       "feedback": {
-       "correct": "Yes! The Ahîs never told lies.",
-       "incorrect": "Read the first paragraph of Chapter 2 again."
+       "correct": "أَحْسَنْتَ! كَانُوا صَادِقِينَ وَكُرَمَاءَ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ahilik-a1-language-2-words",
-      "type": "matching",
-      "title": "Look: Good People",
-      "instructions": "Match the word with the meaning.",
-      "question": "What do the words mean?",
-      "matchingHeadings": {
-       "left": "Word",
-       "right": "Meaning"
-      },
-      "matchingPairs": [
-       {
-        "left": "honest",
-        "right": "always says true things"
-       },
-       {
-        "left": "generous",
-        "right": "happy to give things"
-       },
-       {
-        "left": "nice",
-        "right": "kind and friendly"
-       }
+      "id": "ahilik-a1-ar-language-2-not",
+      "type": "multiple-choice",
+      "title": "انْظُرْ: مَا قَالُوا",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«وَمَا قَالُوا الْكَذِبَ قَطُّ.» مَاذَا تَعْنِي «مَا» هُنَا؟",
+      "options": [
+       "لَا: مَا كَذَبُوا",
+       "مَاذَا؟",
+       "شَيْءٌ"
       ],
-      "correctAnswer": {
-       "honest": "always says true things",
-       "generous": "happy to give things",
-       "nice": "kind and friendly"
-      },
-      "explanation": "They were honest. They were generous. They learned to be nice to people.",
+      "correctAnswer": 0,
+      "explanation": "«مَا» + فعل ماضٍ = لم يفعل: مَا قَالُوا = لم يقولوا. و«قَطُّ» = أبدًا في الماضي.",
       "feedback": {
-       "correct": "Good. You know the words.",
-       "incorrect": "Read Chapter 2 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "هَلْ قَالُوا الْكَذِبَ؟"
       }
      },
      {
-      "id": "ahilik-a1-language-2-practise",
+      "id": "ahilik-a1-ar-language-2-practise",
       "type": "choose-form",
-      "title": "Practise: So",
-      "instructions": "Choose the right word.",
-      "question": "Which word goes in the gap?",
+      "title": "تَدَرَّبْ: كَانُوا، سَاعَدُوا",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "هُمْ: أَيُّ صِيغَةٍ؟",
       "formChoices": [
        {
-        "sentence": "They were generous, [choice] they helped poor people.",
+        "sentence": "الْأَخِيُّونَ [choice] صَادِقِينَ.",
         "options": [
-         "so",
-         "but"
+         "كَانُوا",
+         "كَانَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "They were honest, [choice] they never told lies.",
+        "sentence": "[choice] الْفُقَرَاءَ.",
         "options": [
-         "so",
-         "or"
+         "سَاعَدُوا",
+         "سَاعَدَ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] الْجِيرَانَ الْمَرْضَى.",
+        "options": [
+         "زَارُوا",
+         "زَارَتْ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "So tells what happened next: They were generous, so they helped poor people.",
+      "explanation": "مع «هُمْ» نزيد «ـوا»: كَانُوا، سَاعَدُوا، زَارُوا.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the first paragraph of Chapter 2."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "وَاحِدٌ أَمْ أَكْثَرُ؟"
       }
      },
      {
-      "id": "ahilik-a1-language-2-write-it",
+      "id": "ahilik-a1-ar-language-2-write",
       "type": "reflection",
-      "title": "Write It: A Good Person",
-      "instructions": "Write about a good person.",
-      "question": "What is a good person like?",
+      "title": "اكْتُبْهَا: شَخْصٌ طَيِّبٌ",
+      "instructions": "اكْتُبْ جُمْلَتَيْنِ عَنْ شَخْصٍ طَيِّبٍ تَعْرِفُهُ.",
+      "question": "مَاذَا يَفْعَلُ؟ وَمَاذَا لَا يَفْعَلُ؟",
       "correctAnswer": null,
-      "explanation": "Use is + honest / kind / generous and never.",
+      "explanation": "استعمل «كَرِيمٌ» أو «صَادِقٌ»، و«مَا … قَطُّ».",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“A good person is …”",
+        "question": "«… كَرِيمٌ.»",
         "mode": "Individual",
-        "example": "A good person is honest."
+        "example": "جَدِّي كَرِيمٌ."
        },
        {
-        "question": "“A good person never …”",
+        "question": "«مَا … قَطُّ.»",
         "mode": "Individual",
-        "example": "A good person never tells lies."
+        "example": "مَا قَالَ الْكَذِبَ قَطُّ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: For the Ahîs, what was a good worker?",
+     "question": "خَمِّنْ أَوَّلًا: كَيْفَ كَانَ الْعَامِلُ الْجَيِّدُ عِنْدَ الْأَخِيِّينَ؟",
      "options": [
-      "also a good person",
-      "a rich person",
-      "a fast person"
+      "إِنْسَانًا طَيِّبًا أَيْضًا",
+      "غَنِيًّا جِدًّا",
+      "سَرِيعًا جِدًّا"
      ],
      "answer": 0,
-     "quote": "For the Ahîs, a good worker was also a good person."
+     "quote": "كَانَ الْعَامِلُ الْجَيِّدُ إِنْسَانًا طَيِّبًا أَيْضًا."
     },
     "iCan": [
-     "I can tell about good Ahî people.",
-     "I can use so.",
-     "I can write about a good person."
+     "أَسْتَطِيعُ أَنْ أَقُولَ كَيْفَ كَانَ الْأَخِيُّونَ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «مَا قَالُوا».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنْ شَخْصٍ طَيِّبٍ."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "Learning a Job",
-    "content": "A young person started work as an apprentice. He worked in a shop next to a master. The master taught him the job day after day. After many years, the apprentice became a good worker. Later, he became a master, too.\n\nFor the Ahîs, bad work was a shame. So an apprentice could not open his own shop too early. First, his master had to say, “Now you are ready.” The Ahî shops were like schools. People learned a job there, and they also learned to be good people.",
+    "title": "تَعَلُّمُ مِهْنَةٍ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/ahilik%2Fa2%2Fimages%2Fahilik_a2_ch3.jpeg?alt=media&token=d4368dbf-f33e-47d8-bd3f-94d79e5de82a",
+    "content": "بَدَأَ شَابٌّ الْعَمَلَ صَبِيًّا. عَمِلَ فِي دُكَّانٍ بِجَانِبِ مُعَلِّمٍ. عَلَّمَهُ الْمُعَلِّمُ الْمِهْنَةَ يَوْمًا بَعْدَ يَوْمٍ. وَبَعْدَ سَنَوَاتٍ كَثِيرَةٍ، صَارَ الصَّبِيُّ عَامِلًا جَيِّدًا. وَبَعْدَ ذَلِكَ، صَارَ مُعَلِّمًا أَيْضًا.\n\nعِنْدَ الْأَخِيِّينَ، كَانَ الْعَمَلُ السَّيِّئُ عَارًا. لِذَلِكَ مَا كَانَ الصَّبِيُّ يَسْتَطِيعُ أَنْ يَفْتَحَ دُكَّانَهُ الْخَاصَّ مُبَكِّرًا جِدًّا. فِي الْبِدَايَةِ، كَانَ عَلَى مُعَلِّمِهِ أَنْ يَقُولَ: «الْآنَ أَنْتَ مُسْتَعِدٌّ». كَانَتْ دَكَاكِينُ الْأَخِيَّةِ مِثْلَ الْمَدَارِسِ. تَعَلَّمَ النَّاسُ هُنَاكَ مِهْنَةً، وَتَعَلَّمُوا أَيْضًا أَنْ يَكُونُوا نَاسًا طَيِّبِينَ.",
     "vocabulary": [
      {
-      "word": "apprentice",
-      "definition": "A young person who learns a job from a master."
+      "word": "صَبِيًّا",
+      "definition": "شَابٌّ يَتَعَلَّمُ مِهْنَةً مِنْ مُعَلِّمٍ."
      },
      {
-      "word": "shame",
-      "definition": "A bad feeling after a wrong thing."
+      "word": "صَارَ",
+      "definition": "كَانَ شَيْئًا، ثُمَّ كَانَ شَيْئًا آخَرَ."
      },
      {
-      "word": "own",
-      "definition": "Of you, not of other people."
+      "word": "عَارًا",
+      "definition": "شُعُورٌ سَيِّئٌ بَعْدَ عَمَلٍ خَاطِئٍ."
      },
      {
-      "word": "became",
-      "definition": "Started to be."
+      "word": "الْخَاصَّ",
+      "definition": "لَكَ أَنْتَ، لَا لِلنَّاسِ الْآخَرِينَ."
      }
     ],
     "hotspots": [
@@ -419,185 +413,187 @@
       "id": "h3-1",
       "x": 35,
       "y": 46,
-      "title": "An Apprentice",
-      "description": "A young person started work as an apprentice. He worked in a shop next to a master."
+      "title": "صَبِيٌّ",
+      "description": "بَدَأَ شَابٌّ الْعَمَلَ صَبِيًّا، وَعَمِلَ فِي دُكَّانٍ بِجَانِبِ مُعَلِّمٍ."
      },
      {
       "id": "h3-2",
       "x": 68,
       "y": 50,
-      "title": "Shops like Schools",
-      "description": "People learned a job there, and they also learned to be good people."
+      "title": "دَكَاكِينُ مِثْلُ الْمَدَارِسِ",
+      "description": "كَانَتْ دَكَاكِينُ الْأَخِيَّةِ مِثْلَ الْمَدَارِسِ. تَعَلَّمَ النَّاسُ هُنَاكَ مِهْنَةً."
      }
     ],
     "exercises": [
      {
-      "id": "ahilik-a1-quick-3",
+      "id": "ahilik-a1-ar-quick-3",
       "type": "sequencing",
-      "title": "Learning a Job",
-      "instructions": "Put the steps in order.",
-      "question": "What came first?",
+      "title": "مِنْ صَبِيٍّ إِلَى مُعَلِّمٍ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "A young person started work as an apprentice."
+        "text": "بَدَأَ الشَّابُّ الْعَمَلَ صَبِيًّا."
        },
        {
         "id": "2",
-        "text": "The master taught the apprentice the job day after day."
+        "text": "صَارَ الصَّبِيُّ عَامِلًا جَيِّدًا."
        },
        {
         "id": "3",
-        "text": "After many years, the apprentice became a good worker."
-       },
-       {
-        "id": "4",
-        "text": "Later, the worker became a master, too."
+        "text": "صَارَ مُعَلِّمًا أَيْضًا."
        }
       ],
       "correctAnswer": [
        "1",
        "2",
-       "3",
-       "4"
+       "3"
       ],
-      "explanation": "Chapter 3: apprentice → good worker → master.",
+      "explanation": "الفصل الثالث: صبيّ ← عامل جيد ← معلّم.",
       "feedback": {
-       "correct": "Great! You know the steps.",
-       "incorrect": "Read the first paragraph of Chapter 3 again."
+       "correct": "أَحْسَنْتَ! رَتَّبْتَ الْخُطُوَاتِ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ahilik-a1-language-3-had-to",
+      "id": "ahilik-a1-ar-language-3-became",
       "type": "multiple-choice",
-      "title": "Look: Had to",
-      "instructions": "Choose the right answer.",
-      "question": "“First, his master had to say, ‘Now you are ready.’” What does “had to” mean?",
+      "title": "انْظُرْ: صَارَ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«صَارَ الصَّبِيُّ عَامِلًا جَيِّدًا.» مَاذَا تَعْنِي «صَارَ»؟",
       "options": [
-       "It was necessary.",
-       "It was a game.",
-       "It was a question."
+       "كَانَ شَيْئًا، ثُمَّ كَانَ شَيْئًا آخَرَ",
+       "ذَهَبَ",
+       "نَامَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Have to → had to in the past. Had to = it was necessary.",
+      "explanation": "«صَارَ» = تغيّر: كان صبيًّا، ثم صار عاملًا. وبعدها كلمة بالتنوين «ـًا»: عَامِلًا، مُعَلِّمًا.",
       "feedback": {
-       "correct": "Yes. It was necessary.",
-       "incorrect": "Read the second paragraph of Chapter 3 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "كَانَ صَبِيًّا. ثُمَّ؟"
       }
      },
      {
-      "id": "ahilik-a1-language-3-practise",
-      "type": "word-bank",
-      "title": "Practise: Became",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What happened?",
-      "fillBlanksText": "After many years, the apprentice [blank] a good worker. Later, he became a master, [blank]. An apprentice [blank] not open his own shop too early.",
-      "wordBank": [
-       "became",
-       "too",
-       "could",
-       "becomes",
-       "can"
+      "id": "ahilik-a1-ar-language-3-practise",
+      "type": "choose-form",
+      "title": "تَدَرَّبْ: عَامِلًا، مُعَلِّمًا",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةٍ بَعْدَ «صَارَ»؟",
+      "formChoices": [
+       {
+        "sentence": "صَارَ الصَّبِيُّ [choice] جَيِّدًا.",
+        "options": [
+         "عَامِلًا",
+         "عَامِلٌ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "وَبَعْدَ ذَلِكَ، صَارَ [choice] أَيْضًا.",
+        "options": [
+         "مُعَلِّمًا",
+         "مُعَلِّمٌ"
+        ],
+        "answer": 0
+       }
       ],
-      "correctAnswer": [
-       "became",
-       "too",
-       "could"
-      ],
-      "explanation": "Become → became. Too = also. Can → could in the past.",
-      "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 3 again."
-      }
-     },
-     {
-      "id": "ahilik-a1-language-3-say-it",
-      "type": "reflection",
-      "title": "Say It: My Job",
-      "instructions": "Tell your partner about a job.",
-      "question": "What job do you want?",
       "correctAnswer": null,
-      "explanation": "Use want to be.",
+      "explanation": "بعد «صَارَ» نقول: عَامِلًا، مُعَلِّمًا (بـ«ـًا»).",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "صَحِيحٌ.",
+       "incorrect": "انْظُرْ إِلَى آخِرِ الْكَلِمَةِ."
+      }
+     },
+     {
+      "id": "ahilik-a1-ar-language-3-say-it",
+      "type": "reflection",
+      "title": "قُلْهَا: عِنْدَمَا أَكْبَرُ",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنِ الْمِهْنَةِ الَّتِي تُحِبُّهَا.",
+      "question": "مَاذَا تُرِيدُ أَنْ تَصِيرَ؟",
+      "correctAnswer": null,
+      "explanation": "استعمل «أَصِيرَ» + كلمة بـ«ـًا».",
+      "feedback": {
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I want to be a …”",
+        "question": "«أُرِيدُ أَنْ أَصِيرَ …»",
         "mode": "Pair",
-        "example": "I want to be a doctor."
+        "example": "أُرِيدُ أَنْ أَصِيرَ طَبِيبًا."
        },
        {
-        "question": "“I can learn it from …”",
+        "question": "«أَتَعَلَّمُ مِنْ …»",
         "mode": "Pair",
-        "example": "I can learn it from my teacher."
+        "example": "أَتَعَلَّمُ مِنْ مُعَلِّمَتِي."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Who taught the apprentice?",
+     "question": "خَمِّنْ أَوَّلًا: كَيْفَ بَدَأَ الشَّابُّ الْعَمَلَ؟",
      "options": [
-      "the master",
-      "his mother",
-      "the sultan"
+      "صَبِيًّا",
+      "مُعَلِّمًا",
+      "رَئِيسًا"
      ],
      "answer": 0,
-     "quote": "The master taught him the job day after day."
+     "quote": "بَدَأَ شَابٌّ الْعَمَلَ صَبِيًّا."
     },
     "iCan": [
-     "I can tell how a young person learned a job.",
-     "I can understand had to.",
-     "I can say the job I want."
+     "أَسْتَطِيعُ أَنْ أَقُولَ كَيْفَ تَعَلَّمَ الصَّبِيُّ الْمِهْنَةَ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «صَارَ».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنِ الْمِهْنَةِ الَّتِي أُحِبُّهَا."
     ],
     "groupTask": {
      "type": "project",
-     "title": "From Apprentice to Master",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "مِنْ صَبِيٍّ إِلَى مُعَلِّمٍ",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group draws three steps: apprentice, worker, master.",
-      "For each step, the group writes one sentence from the chapter.",
-      "The group chooses one job, like shoemaker, and adds it to the steps.",
-      "The group shows the steps to the class."
+      "تَرْسُمُ الْمَجْمُوعَةُ ثَلَاثَ دَرَجَاتٍ: صَبِيٌّ، عَامِلٌ، مُعَلِّمٌ.",
+      "تَكْتُبُ الْمَجْمُوعَةُ جُمْلَةً مِنَ الْفَصْلِ لِكُلِّ دَرَجَةٍ.",
+      "تَخْتَارُ الْمَجْمُوعَةُ مِهْنَةً وَاحِدَةً، مِثْلَ الْإِسْكَافِ، وَتُضِيفُهَا إِلَى الدَّرَجَاتِ.",
+      "تَعْرِضُ الْمَجْمُوعَةُ الدَّرَجَاتِ عَلَى الصَّفِّ."
      ],
-     "share": "One student tells the steps. Story: “Later, he became a master, too.”",
-     "solo": "Draw the three steps. Write one sentence for each step."
+     "share": "يَحْكِي طَالِبٌ الدَّرَجَاتِ. مِنَ الْقِصَّةِ: «وَبَعْدَ ذَلِكَ، صَارَ مُعَلِّمًا أَيْضًا».",
+     "solo": "ارْسُمِ الدَّرَجَاتِ الثَّلَاثَ، وَاكْتُبْ جُمْلَةً لِكُلِّ دَرَجَةٍ."
     }
    },
    {
     "id": 4,
     "type": "story",
-    "title": "Bad Shoes",
-    "content": "There was a shoemaker in a small town. He wanted to earn more money. So he used cheap leather for his shoes. The shoes looked nice, but they were not strong.\n\nPeople bought them. After only two or three weeks, the shoes were already broken. The customers were very angry. They went to the Ahî leader. “Look at these shoes!” they said. “They are new, but they are broken.”",
+    "title": "أَحْذِيَةٌ سَيِّئَةٌ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/ahilik%2Fa2%2Fimages%2Fahilik_a2_ch4.jpeg?alt=media&token=15b74a53-f8cf-4abe-a452-d9d4bca5bf52",
+    "content": "كَانَ فِي بَلْدَةٍ صَغِيرَةٍ إِسْكَافٌ. أَرَادَ أَنْ يَكْسِبَ مَالًا أَكْثَرَ. فَاسْتَعْمَلَ جِلْدًا رَخِيصًا لِأَحْذِيَتِهِ. بَدَتِ الْأَحْذِيَةُ جَمِيلَةً، لَكِنَّهَا مَا كَانَتْ قَوِيَّةً.\n\nاشْتَرَاهَا النَّاسُ. وَبَعْدَ أُسْبُوعَيْنِ أَوْ ثَلَاثَةِ أَسَابِيعَ فَقَطْ، كَانَتِ الْأَحْذِيَةُ قَدْ تَلِفَتْ. كَانَ الزَّبَائِنُ غَاضِبِينَ جِدًّا. ذَهَبُوا إِلَى رَئِيسِ الْأَخِيَّةِ. «انْظُرْ إِلَى هَذِهِ الْأَحْذِيَةِ!»، قَالُوا. «هِيَ جَدِيدَةٌ، لَكِنَّهَا تَالِفَةٌ».",
     "vocabulary": [
      {
-      "word": "shoemaker",
-      "definition": "A person who makes shoes."
+      "word": "إِسْكَافٌ",
+      "definition": "شَخْصٌ يَصْنَعُ الْأَحْذِيَةَ."
      },
      {
-      "word": "leather",
-      "definition": "The skin of an animal, for shoes and bags."
+      "word": "يَكْسِبَ",
+      "definition": "يَأْخُذَ مَالًا مِنْ عَمَلِهِ."
      },
      {
-      "word": "customer",
-      "definition": "A person who buys things in a shop."
+      "word": "جِلْدًا",
+      "definition": "غِطَاءُ جِسْمِ الْحَيَوَانِ، نَصْنَعُ مِنْهُ الْأَحْذِيَةَ وَالْحَقَائِبَ."
      },
      {
-      "word": "leader",
-      "definition": "The most important person in a group."
+      "word": "الزَّبَائِنُ",
+      "definition": "النَّاسُ الَّذِينَ يَشْتَرُونَ مِنَ الدُّكَّانِ."
      },
      {
-      "word": "earn",
-      "definition": "Get money for your work."
+      "word": "غَاضِبِينَ",
+      "definition": "شُعُورُهُمْ سَيِّئٌ جِدًّا بِسَبَبِ شَيْءٍ خَطَأٍ."
      },
      {
-      "word": "angry",
-      "definition": "Not happy; you want to shout."
+      "word": "رَئِيسِ",
+      "definition": "أَهَمُّ شَخْصٍ فِي الْجَمَاعَةِ."
      }
     ],
     "hotspots": [
@@ -605,163 +601,174 @@
       "id": "h4-1",
       "x": 35,
       "y": 46,
-      "title": "Cheap Leather",
-      "description": "The shoemaker wanted to earn more money. So he used cheap leather for his shoes."
+      "title": "جِلْدٌ رَخِيصٌ",
+      "description": "أَرَادَ الْإِسْكَافُ أَنْ يَكْسِبَ مَالًا أَكْثَرَ، فَاسْتَعْمَلَ جِلْدًا رَخِيصًا لِأَحْذِيَتِهِ."
      },
      {
       "id": "h4-2",
       "x": 68,
       "y": 50,
-      "title": "Angry Customers",
-      "description": "The customers were very angry. They went to the Ahî leader."
+      "title": "زَبَائِنُ غَاضِبُونَ",
+      "description": "كَانَ الزَّبَائِنُ غَاضِبِينَ جِدًّا، فَذَهَبُوا إِلَى رَئِيسِ الْأَخِيَّةِ."
      }
     ],
     "exercises": [
      {
-      "id": "ahilik-a1-quick-4",
-      "type": "multiple-choice",
-      "title": "Bad Shoes",
-      "instructions": "Choose the best answer.",
-      "question": "When were the shoes broken?",
-      "options": [
-       "after only two or three weeks",
-       "after two or three years",
-       "on the first day"
+      "id": "ahilik-a1-ar-quick-4",
+      "type": "drag-drop",
+      "title": "أَحْذِيَةٌ سَيِّئَةٌ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ الرَّابِعِ؟",
+      "dragDropGroups": [
+       {
+        "group": "صَحِيحٌ",
+        "items": [
+         "اسْتَعْمَلَ الْإِسْكَافُ جِلْدًا رَخِيصًا.",
+         "ذَهَبَ الزَّبَائِنُ إِلَى رَئِيسِ الْأَخِيَّةِ."
+        ]
+       },
+       {
+        "group": "خَطَأٌ",
+        "items": [
+         "كَانَتِ الْأَحْذِيَةُ قَوِيَّةً جِدًّا."
+        ]
+       }
       ],
-      "correctAnswer": 0,
-      "explanation": "Chapter 4: “After only two or three weeks, the shoes were already broken.”",
+      "correctAnswer": {
+       "صَحِيحٌ": [
+        "اسْتَعْمَلَ الْإِسْكَافُ جِلْدًا رَخِيصًا.",
+        "ذَهَبَ الزَّبَائِنُ إِلَى رَئِيسِ الْأَخِيَّةِ."
+       ],
+       "خَطَأٌ": [
+        "كَانَتِ الْأَحْذِيَةُ قَوِيَّةً جِدًّا."
+       ]
+      },
+      "explanation": "الفصل الرابع: «بَدَتِ الْأَحْذِيَةُ جَمِيلَةً، لَكِنَّهَا مَا كَانَتْ قَوِيَّةً».",
       "feedback": {
-       "correct": "Yes! After only two or three weeks.",
-       "incorrect": "Read the second paragraph of Chapter 4 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ahilik-a1-language-4-but",
+      "id": "ahilik-a1-ar-language-4-but",
       "type": "multiple-choice",
-      "title": "Look: But",
-      "instructions": "Choose the right answer.",
-      "question": "“The shoes looked nice, but they were not strong.” What does “but” do?",
+      "title": "انْظُرْ: لَكِنَّهَا",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«بَدَتِ الْأَحْذِيَةُ جَمِيلَةً، لَكِنَّهَا مَا كَانَتْ قَوِيَّةً.» مَاذَا تَقُولُ «لَكِنَّ»؟",
       "options": [
-       "It shows a different idea.",
-       "It tells the time.",
-       "It tells the place."
+       "فِكْرَةً مُخْتَلِفَةً: جَمِيلَةٌ، لَكِنْ غَيْرُ قَوِيَّةٍ",
+       "السَّبَبَ",
+       "الْوَقْتَ"
       ],
       "correctAnswer": 0,
-      "explanation": "But shows a different idea: They looked nice. They were not strong.",
+      "explanation": "«لَكِنَّ» تقول فكرة مختلفة. لَكِنَّهَا = لَكِنَّ + هِيَ (الأحذية).",
       "feedback": {
-       "correct": "Yes. But shows a different idea.",
-       "incorrect": "Read the first paragraph of Chapter 4 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "جَمِيلَةٌ … وَ؟"
       }
      },
      {
-      "id": "ahilik-a1-language-4-practise",
+      "id": "ahilik-a1-ar-language-4-practise",
       "type": "choose-form",
-      "title": "Practise: Looked, Were",
-      "instructions": "Choose the right word.",
-      "question": "Which word goes in the gap?",
+      "title": "تَدَرَّبْ: أَرَادَ أَنْ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ بَعْدَ «أَنْ»؟",
       "formChoices": [
        {
-        "sentence": "The shoes [choice] nice.",
+        "sentence": "أَرَادَ أَنْ [choice] مَالًا أَكْثَرَ.",
         "options": [
-         "looked",
-         "looks"
+         "يَكْسِبَ",
+         "كَسَبَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "The customers [choice] very angry.",
+        "sentence": "هِيَ جَدِيدَةٌ، [choice] تَالِفَةٌ.",
         "options": [
-         "were",
-         "was"
-        ],
-        "answer": 0
-       },
-       {
-        "sentence": "“They are new, [choice] they are broken.”",
-        "options": [
-         "but",
-         "so"
+         "لَكِنَّهَا",
+         "لِأَنَّهَا"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Look + adjective: looked nice. Many people: were.",
+      "explanation": "«أَرَادَ أَنْ» + فعل مثل: يَكْسِبَ. و«لَكِنَّهَا» لفكرة مختلفة.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 4 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْجُمْلَةَ كُلَّهَا."
       }
      },
      {
-      "id": "ahilik-a1-language-4-say-it",
+      "id": "ahilik-a1-ar-language-4-write",
       "type": "reflection",
-      "title": "Say It: In a Shop",
-      "instructions": "Act in a shop with your partner.",
-      "question": "What is wrong?",
+      "title": "اكْتُبْهَا: جَمِيلٌ لَكِنْ",
+      "instructions": "اكْتُبْ جُمْلَتَيْنِ بِـ«لَكِنَّ».",
+      "question": "مَا الْجَمِيلُ؟ وَمَا الْمُشْكِلَةُ؟",
       "correctAnswer": null,
-      "explanation": "Use but.",
+      "explanation": "استعمل «لَكِنَّهُ / لَكِنَّهَا» و«أُرِيدُ أَنْ».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Look at this …!”",
-        "mode": "Pair",
-        "example": "Look at this bag!"
+        "question": "«… جَمِيلٌ، لَكِنَّهُ …»",
+        "mode": "Individual",
+        "example": "الْقَمِيصُ جَمِيلٌ، لَكِنَّهُ غَالٍ."
        },
        {
-        "question": "“It is new, but it is broken.”",
-        "mode": "Pair",
-        "example": "It is new, but it is broken."
+        "question": "«أُرِيدُ أَنْ …»",
+        "mode": "Individual",
+        "example": "أُرِيدُ أَنْ أَشْتَرِيَ حِذَاءً قَوِيًّا."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Why were the shoes bad?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا أَرَادَ الْإِسْكَافُ؟",
      "options": [
-      "cheap leather",
-      "a bad color",
-      "very small"
+      "أَنْ يَكْسِبَ مَالًا أَكْثَرَ",
+      "أَنْ يُسَاعِدَ الْفُقَرَاءَ",
+      "أَنْ يَتْرُكَ الْبَلْدَةَ"
      ],
      "answer": 0,
-     "quote": "So he used cheap leather for his shoes."
+     "quote": "أَرَادَ أَنْ يَكْسِبَ مَالًا أَكْثَرَ."
     },
     "iCan": [
-     "I can tell about the bad shoes.",
-     "I can use but.",
-     "I can say what is wrong in a shop."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ قِصَّةَ الْإِسْكَافِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «لَكِنَّ» وَ«أَرَادَ أَنْ».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ جُمْلَةً بِـ«لَكِنَّ»."
     ]
    },
    {
     "id": 5,
     "type": "story",
-    "title": "Shoes on the Roof",
-    "content": "The Ahî leader went to the shop and looked at the shoes carefully. They really were bad. Then he took the shoes and threw them up on the roof of the shop!\n\nEverybody in the town saw the shoes up there. Now they knew about the bad work. This was a warning for the shoemaker: “Make good shoes, or you cannot sell shoes in this town again.” In Turkish, people still say “pabucu dama atılmak”. It means “his shoes are on the roof”.",
+    "title": "أَحْذِيَةٌ عَلَى السَّطْحِ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/ahilik%2Fa2%2Fimages%2Fahilik_a2_ch5.jpeg?alt=media&token=8eeed381-817b-4d1f-8bcd-101398236a8a",
+    "content": "ذَهَبَ رَئِيسُ الْأَخِيَّةِ إِلَى الدُّكَّانِ، وَنَظَرَ إِلَى الْأَحْذِيَةِ بِعِنَايَةٍ. كَانَتْ سَيِّئَةً حَقًّا. ثُمَّ أَخَذَ الْأَحْذِيَةَ، وَرَمَاهَا فَوْقَ سَطْحِ الدُّكَّانِ!\n\nرَأَى كُلُّ مَنْ فِي الْبَلْدَةِ الْأَحْذِيَةَ هُنَاكَ فِي الْأَعْلَى. وَالْآنَ عَرَفُوا عَنِ الْعَمَلِ السَّيِّئِ. كَانَ هَذَا تَحْذِيرًا لِلْإِسْكَافِ: «اصْنَعْ أَحْذِيَةً جَيِّدَةً، أَوْ لَا تَسْتَطِيعُ أَنْ تَبِيعَ الْأَحْذِيَةَ فِي هَذِهِ الْبَلْدَةِ مَرَّةً أُخْرَى». وَفِي اللُّغَةِ التُّرْكِيَّةِ، مَا زَالَ النَّاسُ يَقُولُونَ: «pabucu dama atılmak». وَمَعْنَاهُ: «أَحْذِيَتُهُ عَلَى السَّطْحِ».",
     "vocabulary": [
      {
-      "word": "throw",
-      "definition": "Send something through the air with your hand."
+      "word": "بِعِنَايَةٍ",
+      "definition": "بِبُطْءٍ وَانْتِبَاهٍ."
      },
      {
-      "word": "roof",
-      "definition": "The top part of a house."
+      "word": "رَمَاهَا",
+      "definition": "أَرْسَلَ شَيْئًا عَبْرَ الْهَوَاءِ بِيَدِهِ."
      },
      {
-      "word": "warning",
-      "definition": "Words about a bad thing that can happen."
+      "word": "سَطْحِ",
+      "definition": "الْجُزْءُ الْأَعْلَى مِنَ الْبَيْتِ."
      },
      {
-      "word": "carefully",
-      "definition": "Slowly and well, so nothing goes wrong."
+      "word": "تَحْذِيرًا",
+      "definition": "كَلَامٌ عَنْ شَيْءٍ سَيِّئٍ يُمْكِنُ أَنْ يَحْدُثَ."
      },
      {
-      "word": "sell",
-      "definition": "Give a thing to someone for money."
+      "word": "تَبِيعَ",
+      "definition": "تُعْطِيَ شَيْئًا لِشَخْصٍ، وَتَأْخُذَ مِنْهُ مَالًا."
      }
     ],
     "hotspots": [
@@ -769,187 +776,162 @@
       "id": "h5-1",
       "x": 35,
       "y": 46,
-      "title": "On the Roof",
-      "description": "The Ahî leader threw the shoes up on the roof of the shop."
+      "title": "عَلَى السَّطْحِ",
+      "description": "أَخَذَ رَئِيسُ الْأَخِيَّةِ الْأَحْذِيَةَ، وَرَمَاهَا فَوْقَ سَطْحِ الدُّكَّانِ."
      },
      {
       "id": "h5-2",
       "x": 68,
       "y": 50,
-      "title": "A Warning",
-      "description": "“Make good shoes, or you cannot sell shoes in this town again.”"
+      "title": "تَحْذِيرٌ",
+      "description": "كَانَ هَذَا تَحْذِيرًا لِلْإِسْكَافِ: «اصْنَعْ أَحْذِيَةً جَيِّدَةً»."
      }
     ],
     "exercises": [
      {
-      "id": "ahilik-a1-quick-5",
-      "type": "drag-drop",
-      "title": "Shoes on the Roof",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 5?",
-      "dragDropGroups": [
-       {
-        "group": "True",
-        "items": [
-         "Everybody in the town saw the shoes.",
-         "The leader looked at the shoes carefully."
-        ]
-       },
-       {
-        "group": "False",
-        "items": [
-         "The leader said, “These are very good shoes.”"
-        ]
-       }
+      "id": "ahilik-a1-ar-quick-5",
+      "type": "multiple-choice",
+      "title": "أَحْذِيَةٌ عَلَى السَّطْحِ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "أَيْنَ رَمَى رَئِيسُ الْأَخِيَّةِ الْأَحْذِيَةَ؟",
+      "options": [
+       "فَوْقَ سَطْحِ الدُّكَّانِ",
+       "فِي الشَّارِعِ",
+       "فِي النَّهْرِ"
       ],
-      "correctAnswer": {
-       "True": [
-        "Everybody in the town saw the shoes.",
-        "The leader looked at the shoes carefully."
-       ],
-       "False": [
-        "The leader said, “These are very good shoes.”"
-       ]
-      },
-      "explanation": "Chapter 5 says: “The Ahî leader went to the shop and looked at the shoes carefully. They really were bad.” “Everybody in the town saw the shoes up there.”",
+      "correctAnswer": 0,
+      "explanation": "الفصل الخامس: «ثُمَّ أَخَذَ الْأَحْذِيَةَ، وَرَمَاهَا فَوْقَ سَطْحِ الدُّكَّانِ!»",
       "feedback": {
-       "correct": "Yes! The shoes were bad.",
-       "incorrect": "Read the first paragraph of Chapter 5 again."
+       "correct": "نَعَمْ. فَوْقَ السَّطْحِ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ahilik-a1-language-5-or",
+      "id": "ahilik-a1-ar-language-5-make",
       "type": "multiple-choice",
-      "title": "Look: … or …",
-      "instructions": "Choose the right answer.",
-      "question": "“Make good shoes, or you cannot sell shoes in this town again.” What does this mean?",
+      "title": "انْظُرْ: اصْنَعْ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«اصْنَعْ أَحْذِيَةً جَيِّدَةً.» مَاذَا يَفْعَلُ رَئِيسُ الْأَخِيَّةِ؟",
       "options": [
-       "If the shoes are bad, he cannot sell shoes.",
-       "He can sell bad shoes.",
-       "He must make bags."
+       "يَقُولُ لِلْإِسْكَافِ: افْعَلْ هَذَا",
+       "يَسْأَلُ سُؤَالًا",
+       "يَحْكِي قِصَّةً"
       ],
       "correctAnswer": 0,
-      "explanation": "Do this, or …: if you do not do this, a bad thing can happen.",
+      "explanation": "«اصْنَعْ» كلمة أمر: افعلْ هذا الآن. ومثلها: «انْظُرْ!» في الفصل الرابع.",
       "feedback": {
-       "correct": "Yes. It is a warning.",
-       "incorrect": "Read the second paragraph of Chapter 5."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "هَلْ هَذَا أَمْرٌ؟"
       }
      },
      {
-      "id": "ahilik-a1-language-5-practise",
+      "id": "ahilik-a1-ar-language-5-practise",
       "type": "choose-form",
-      "title": "Practise: Threw, Saw, Knew",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: اصْنَعْ، انْظُرْ",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةِ أَمْرٍ؟",
       "formChoices": [
        {
-        "sentence": "He [choice] them up on the roof.",
+        "sentence": "[choice] أَحْذِيَةً جَيِّدَةً!",
         "options": [
-         "threw",
-         "throws"
+         "اصْنَعْ",
+         "صَنَعَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Everybody in the town [choice] the shoes.",
+        "sentence": "[choice] إِلَى هَذِهِ الْأَحْذِيَةِ!",
         "options": [
-         "saw",
-         "sees"
-        ],
-        "answer": 0
-       },
-       {
-        "sentence": "Now they [choice] about the bad work.",
-        "options": [
-         "knew",
-         "know"
+         "انْظُرْ",
+         "نَظَرَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Throw → threw, see → saw, know → knew in the past.",
+      "explanation": "للأمر نقول: اصْنَعْ، انْظُرْ. وللماضي: صَنَعَ، نَظَرَ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 5 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "أَمْرٌ أَمْ مَاضٍ؟"
       }
      },
      {
-      "id": "ahilik-a1-language-5-say-it",
+      "id": "ahilik-a1-ar-language-5-say-it",
       "type": "reflection",
-      "title": "Say It: Class Rules",
-      "instructions": "Say class rules with your partner.",
-      "question": "What are our rules?",
+      "title": "قُلْهَا: نَصِيحَةٌ لِلصَّفِّ",
+      "instructions": "قُلْ لِزَمِيلِكَ نَصِيحَتَيْنِ لِلصَّفِّ.",
+      "question": "مَاذَا نَفْعَلُ فِي الصَّفِّ؟",
       "correctAnswer": null,
-      "explanation": "Use verb …, or ….",
+      "explanation": "استعمل كلمة أمر.",
       "feedback": {
-       "correct": "Say two rules.",
+       "correct": "قُلْ نَصِيحَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Do your homework, or …”",
+        "question": "«اعْمَلْ …»",
         "mode": "Pair",
-        "example": "Do your homework, or you cannot learn."
+        "example": "اعْمَلْ عَمَلًا جَيِّدًا."
        },
        {
-        "question": "“Be on time, or …”",
+        "question": "«اكْتُبْ …»",
         "mode": "Pair",
-        "example": "Be on time, or you miss the lesson."
+        "example": "اكْتُبْ بِعِنَايَةٍ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Where did the Ahî leader throw the shoes?",
+     "question": "خَمِّنْ أَوَّلًا: كَيْفَ نَظَرَ رَئِيسُ الْأَخِيَّةِ إِلَى الْأَحْذِيَةِ؟",
      "options": [
-      "on the roof",
-      "in the river",
-      "in a box"
+      "بِعِنَايَةٍ",
+      "بِسُرْعَةٍ",
+      "مَا نَظَرَ إِلَيْهَا"
      ],
      "answer": 0,
-     "quote": "Then he took the shoes and threw them up on the roof of the shop!"
+     "quote": "وَنَظَرَ إِلَى الْأَحْذِيَةِ بِعِنَايَةٍ."
     },
     "iCan": [
-     "I can tell what the Ahî leader did.",
-     "I can understand a warning with or.",
-     "I can say class rules."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ قِصَّةَ الْأَحْذِيَةِ عَلَى السَّطْحِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «اصْنَعْ» وَ«انْظُرْ».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ نَصِيحَةً."
     ],
     "groupTask": {
      "type": "project",
-     "title": "Act the Story",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "مَثِّلُوا الْقِصَّةَ",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group chooses roles: the shoemaker, two customers and the Ahî leader.",
-      "The customers say: “Look at these shoes! They are new, but they are broken.”",
-      "The leader throws the shoes on the “roof” and says the warning.",
-      "The group acts the story for the class."
+      "تَخْتَارُ الْمَجْمُوعَةُ الْأَدْوَارَ: الْإِسْكَافُ، وَزَبُونَانِ، وَرَئِيسُ الْأَخِيَّةِ.",
+      "يَقُولُ الزَّبُونَانِ: «انْظُرْ إِلَى هَذِهِ الْأَحْذِيَةِ! هِيَ جَدِيدَةٌ، لَكِنَّهَا تَالِفَةٌ».",
+      "يَرْمِي الرَّئِيسُ الْأَحْذِيَةَ عَلَى «السَّطْحِ»، وَيَقُولُ التَّحْذِيرَ.",
+      "تُمَثِّلُ الْمَجْمُوعَةُ الْقِصَّةَ أَمَامَ الصَّفِّ."
      ],
-     "share": "The group acts the story. Story: “This was a warning for the shoemaker.”",
-     "solo": "Write the warning and two customer sentences."
+     "share": "تُمَثِّلُ الْمَجْمُوعَةُ الْقِصَّةَ. مِنَ الْقِصَّةِ: «كَانَ هَذَا تَحْذِيرًا لِلْإِسْكَافِ».",
+     "solo": "اكْتُبِ التَّحْذِيرَ، وَجُمْلَتَيْنِ لِلزَّبَائِنِ."
     }
    },
    {
     "id": 6,
     "type": "story",
-    "title": "Not Ready Yet",
-    "content": "In a town in Anatolia, a young Ahî learner made nice things from glass with his master. One day, he said, “My master, I think I am ready to open my own shop.” But his master answered, “You are not ready yet.”\n\nThe young learner did not listen. He moved to a different city and opened a shop there. He made glass cups. But after a short time, all the cups broke. Nobody wanted his cups, and he lost all his money. He went back to his master and said, “I am sorry.” His kind master forgave him.",
+    "title": "غَيْرُ مُسْتَعِدٍّ بَعْدُ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/ahilik%2Fa2%2Fimages%2Fahilik_a2_ch6.jpeg?alt=media&token=c328421a-adca-444e-bc88-a179ebbeba99",
+    "content": "فِي بَلْدَةٍ فِي الْأَنَاضُولِ، صَنَعَ مُتَعَلِّمٌ أَخِيٌّ شَابٌّ أَشْيَاءَ جَمِيلَةً مِنَ الزُّجَاجِ مَعَ مُعَلِّمِهِ. ذَاتَ يَوْمٍ، قَالَ: «يَا مُعَلِّمِي، أَظُنُّ أَنِّي مُسْتَعِدٌّ لِأَفْتَحَ دُكَّانِي الْخَاصَّ». لَكِنَّ مُعَلِّمَهُ أَجَابَ: «أَنْتَ لَسْتَ مُسْتَعِدًّا بَعْدُ».\n\nمَا اسْتَمَعَ الْمُتَعَلِّمُ الشَّابُّ. انْتَقَلَ إِلَى مَدِينَةٍ أُخْرَى، وَفَتَحَ دُكَّانًا هُنَاكَ. صَنَعَ أَكْوَابًا مِنَ الزُّجَاجِ. لَكِنْ بَعْدَ وَقْتٍ قَصِيرٍ، انْكَسَرَتْ كُلُّ الْأَكْوَابِ. مَا أَرَادَ أَحَدٌ أَكْوَابَهُ، وَخَسِرَ كُلَّ مَالِهِ. رَجَعَ إِلَى مُعَلِّمِهِ، وَقَالَ: «أَنَا آسِفٌ». سَامَحَهُ مُعَلِّمُهُ الطَّيِّبُ.",
     "vocabulary": [
      {
-      "word": "glass",
-      "definition": "A hard thing you can see through, like a window."
+      "word": "الزُّجَاجِ",
+      "definition": "شَيْءٌ صُلْبٌ نَرَى مِنْ خِلَالِهِ، مِثْلُ النَّافِذَةِ."
      },
      {
-      "word": "break",
-      "definition": "Go into pieces."
+      "word": "انْكَسَرَتْ",
+      "definition": "صَارَتْ قِطَعًا."
      },
      {
-      "word": "forgive",
-      "definition": "Stop being angry with someone."
+      "word": "سَامَحَهُ",
+      "definition": "تَوَقَّفَ عَنِ الْغَضَبِ مِنْ شَخْصٍ."
      }
     ],
     "hotspots": [
@@ -957,40 +939,40 @@
       "id": "h6-1",
       "x": 35,
       "y": 46,
-      "title": "Not Ready Yet",
-      "description": "The young learner wanted his own shop. But his master said, “You are not ready yet.”"
+      "title": "غَيْرُ مُسْتَعِدٍّ بَعْدُ",
+      "description": "قَالَ الْمُعَلِّمُ لِلشَّابِّ: «أَنْتَ لَسْتَ مُسْتَعِدًّا بَعْدُ»."
      },
      {
       "id": "h6-2",
       "x": 68,
       "y": 50,
-      "title": "Broken Cups",
-      "description": "After a short time, all the cups broke. Nobody wanted his cups."
+      "title": "أَكْوَابٌ مَكْسُورَةٌ",
+      "description": "صَنَعَ الشَّابُّ أَكْوَابًا مِنَ الزُّجَاجِ، لَكِنْ بَعْدَ وَقْتٍ قَصِيرٍ انْكَسَرَتْ كُلُّ الْأَكْوَابِ."
      }
     ],
     "exercises": [
      {
-      "id": "ahilik-a1-quick-6",
+      "id": "ahilik-a1-ar-quick-6",
       "type": "sequencing",
-      "title": "Not Ready Yet",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "غَيْرُ مُسْتَعِدٍّ بَعْدُ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "The young learner said, “I am ready to open my own shop.”"
+        "text": "قَالَ الْمُعَلِّمُ: «أَنْتَ لَسْتَ مُسْتَعِدًّا بَعْدُ»."
        },
        {
         "id": "2",
-        "text": "The young learner opened a shop in a different city."
+        "text": "فَتَحَ الشَّابُّ دُكَّانًا فِي مَدِينَةٍ أُخْرَى."
        },
        {
         "id": "3",
-        "text": "All the glass cups broke."
+        "text": "انْكَسَرَتْ كُلُّ الْأَكْوَابِ."
        },
        {
         "id": "4",
-        "text": "The young learner went back to his master."
+        "text": "رَجَعَ إِلَى مُعَلِّمِهِ، وَقَالَ: «أَنَا آسِفٌ»."
        }
       ],
       "correctAnswer": [
@@ -999,131 +981,132 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 6: “I am ready” → a new shop → the cups broke → back to the master.",
+      "explanation": "الفصل السادس: المعلم قال «لستَ مستعدًّا» ← دكان في مدينة أخرى ← الأكواب انكسرت ← «أنا آسف».",
       "feedback": {
-       "correct": "Great! You put the story in order.",
-       "incorrect": "Read Chapter 6 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ahilik-a1-language-6-yet",
+      "id": "ahilik-a1-ar-language-6-not",
       "type": "multiple-choice",
-      "title": "Look: Not … Yet",
-      "instructions": "Choose the right answer.",
-      "question": "“You are not ready yet.” What does this mean?",
+      "title": "انْظُرْ: لَسْتَ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«أَنْتَ لَسْتَ مُسْتَعِدًّا بَعْدُ.» مَاذَا يَقُولُ الْمُعَلِّمُ؟",
       "options": [
-       "He is not ready now. He can be ready later.",
-       "He is never ready.",
-       "He was ready last year."
+       "أَنْتَ لَا تَسْتَطِيعُ الْآنَ، انْتَظِرْ",
+       "أَنْتَ مُسْتَعِدٌّ",
+       "اذْهَبِ الْآنَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Not … yet = not now, but later maybe.",
+      "explanation": "«لَسْتَ» = لا (للحال الآن). أَنَا لَسْتُ، أَنْتَ لَسْتَ، هُوَ لَيْسَ. و«بَعْدُ» = حتى الآن.",
       "feedback": {
-       "correct": "Yes. Not now, but later.",
-       "incorrect": "Read the first paragraph of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "هَلْ هُوَ مُسْتَعِدٌّ؟"
       }
      },
      {
-      "id": "ahilik-a1-language-6-practise",
+      "id": "ahilik-a1-ar-language-6-practise",
       "type": "choose-form",
-      "title": "Practise: Did Not",
-      "instructions": "Choose the right words.",
-      "question": "Which words go in the gap?",
+      "title": "تَدَرَّبْ: لَسْتُ، لَسْتَ",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "أَنَا أَمْ أَنْتَ؟",
       "formChoices": [
        {
-        "sentence": "The young learner [choice] listen.",
+        "sentence": "أَنْتَ [choice] مُسْتَعِدًّا بَعْدُ.",
         "options": [
-         "did not",
-         "not"
+         "لَسْتَ",
+         "لَسْتُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Nobody [choice] his cups.",
+        "sentence": "أَنَا [choice] مُسْتَعِدًّا.",
         "options": [
-         "wanted",
-         "want"
+         "لَسْتُ",
+         "لَسْتَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Past negative: did not + verb (did not listen). Nobody + past verb: nobody wanted.",
+      "explanation": "مع «أَنَا»: لَسْتُ. ومع «أَنْتَ»: لَسْتَ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مَنْ يَتَكَلَّمُ؟"
       }
      },
      {
-      "id": "ahilik-a1-language-6-say-it",
+      "id": "ahilik-a1-ar-language-6-say-it",
       "type": "reflection",
-      "title": "Say It: I Am Sorry",
-      "instructions": "Say sorry with your partner.",
-      "question": "How do we say sorry?",
+      "title": "قُلْهَا: أَنَا آسِفٌ",
+      "instructions": "مَثِّلْ مَعَ زَمِيلِكَ: وَاحِدٌ يَعْتَذِرُ، وَوَاحِدٌ يُسَامِحُ.",
+      "question": "مَاذَا تَقُولُ؟",
       "correctAnswer": null,
-      "explanation": "Use I am sorry and did not.",
+      "explanation": "استعمل «آسِفٌ» للولد و«آسِفَةٌ» للبنت.",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I am sorry. I …”",
+        "question": "«أَنَا آسِفٌ / آسِفَةٌ.»",
         "mode": "Pair",
-        "example": "I am sorry. I did not listen."
+        "example": "أَنَا آسِفٌ. كَسَرْتُ قَلَمَكَ."
        },
        {
-        "question": "“That is OK.”",
+        "question": "«لَا بَأْسَ.»",
         "mode": "Pair",
-        "example": "That is OK."
+        "example": "لَا بَأْسَ يَا صَدِيقِي."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Was the young learner ready?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا صَنَعَ الشَّابُّ مَعَ مُعَلِّمِهِ؟",
      "options": [
-      "No, not yet.",
-      "Yes, he was ready.",
-      "He did not want a shop."
+      "أَشْيَاءَ جَمِيلَةً مِنَ الزُّجَاجِ",
+      "أَحْذِيَةً",
+      "كُتُبًا"
      ],
      "answer": 0,
-     "quote": "But his master answered, “You are not ready yet.”"
+     "quote": "صَنَعَ مُتَعَلِّمٌ أَخِيٌّ شَابٌّ أَشْيَاءَ جَمِيلَةً مِنَ الزُّجَاجِ مَعَ مُعَلِّمِهِ."
     },
     "iCan": [
-     "I can tell about the young learner.",
-     "I can understand not … yet.",
-     "I can say sorry."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ قِصَّةَ الْأَكْوَابِ الْمَكْسُورَةِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «لَسْتَ».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ «أَنَا آسِفٌ»."
     ]
    },
    {
     "id": 7,
     "type": "story",
-    "title": "The Secret of the Glass",
-    "content": "They worked together again for a long time. One day, the master said, “Now you are ready. Come with me.” They went into a dark room. A little light came in through a small hole in the ceiling.\n\nThe master held a hot glass cup in the light. Inside it, there was a very small air bubble. The master blew on it, “Püf!”, and the bubble was gone.\n\nNow the apprentice understood. “My cups broke because of the bubbles!” he said. He thanked his master and opened a very good shop. In Turkish, people call the secret of a job “püf noktası”.",
+    "title": "سِرُّ الزُّجَاجِ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/ahilik%2Fa2%2Fimages%2Fahilik_a2_ch7.jpeg?alt=media&token=b45033ba-25d7-4329-8b85-c753143b1c3f",
+    "content": "عَمِلَا مَعًا مَرَّةً أُخْرَى وَقْتًا طَوِيلًا. ذَاتَ يَوْمٍ، قَالَ الْمُعَلِّمُ: «الْآنَ أَنْتَ مُسْتَعِدٌّ. تَعَالَ مَعِي». دَخَلَا غُرْفَةً مُظْلِمَةً. دَخَلَ قَلِيلٌ مِنَ الضَّوْءِ مِنْ ثُقْبٍ صَغِيرٍ فِي السَّقْفِ.\n\nأَمْسَكَ الْمُعَلِّمُ كُوبًا زُجَاجِيًّا سَاخِنًا فِي الضَّوْءِ. كَانَتْ فِيهِ فُقَّاعَةُ هَوَاءٍ صَغِيرَةٌ جِدًّا. نَفَخَ الْمُعَلِّمُ عَلَيْهِ: «بُفْ!»، فَذَهَبَتِ الْفُقَّاعَةُ.\n\nالْآنَ فَهِمَ الصَّبِيُّ. «انْكَسَرَتْ أَكْوَابِي بِسَبَبِ الْفُقَّاعَاتِ!»، قَالَ. شَكَرَ مُعَلِّمَهُ، وَفَتَحَ دُكَّانًا جَيِّدًا جِدًّا. وَفِي اللُّغَةِ التُّرْكِيَّةِ، يُسَمِّي النَّاسُ سِرَّ الْعَمَلِ «püf noktası».",
     "vocabulary": [
      {
-      "word": "hole",
-      "definition": "An open place in something."
+      "word": "ثُقْبٍ",
+      "definition": "مَكَانٌ مَفْتُوحٌ فِي شَيْءٍ."
      },
      {
-      "word": "ceiling",
-      "definition": "The top part of a room, over your head."
+      "word": "السَّقْفِ",
+      "definition": "الْجُزْءُ الْأَعْلَى مِنَ الْغُرْفَةِ، فَوْقَ رَأْسِكَ."
      },
      {
-      "word": "bubble",
-      "definition": "A very small ball of air."
+      "word": "فُقَّاعَةُ",
+      "definition": "كُرَةٌ صَغِيرَةٌ جِدًّا مِنَ الْهَوَاءِ."
      },
      {
-      "word": "blow",
-      "definition": "Push air out of your mouth."
+      "word": "نَفَخَ",
+      "definition": "دَفَعَ الْهَوَاءَ إِلَى خَارِجِ فَمِهِ."
      },
      {
-      "word": "secret",
-      "definition": "A thing only a few people know."
+      "word": "سِرَّ",
+      "definition": "شَيْءٌ يَعْرِفُهُ قَلِيلٌ مِنَ النَّاسِ فَقَطْ."
      }
     ],
     "hotspots": [
@@ -1131,129 +1114,161 @@
       "id": "h7-1",
       "x": 35,
       "y": 46,
-      "title": "A Dark Room",
-      "description": "A little light came in through a small hole in the ceiling."
+      "title": "غُرْفَةٌ مُظْلِمَةٌ",
+      "description": "دَخَلَ الْمُعَلِّمُ وَالشَّابُّ غُرْفَةً مُظْلِمَةً. دَخَلَ قَلِيلٌ مِنَ الضَّوْءِ مِنْ ثُقْبٍ صَغِيرٍ فِي السَّقْفِ."
      },
      {
       "id": "h7-2",
       "x": 68,
       "y": 50,
-      "title": "The Bubble",
-      "description": "Inside the cup, there was a very small air bubble. The master blew on it, “Püf!”"
+      "title": "الْفُقَّاعَةُ",
+      "description": "كَانَتْ فِي الْكُوبِ فُقَّاعَةُ هَوَاءٍ صَغِيرَةٌ جِدًّا. نَفَخَ الْمُعَلِّمُ عَلَيْهِ، فَذَهَبَتِ الْفُقَّاعَةُ."
      }
     ],
     "exercises": [
      {
-      "id": "ahilik-a1-quick-7",
-      "type": "multiple-choice",
-      "title": "The Secret of the Glass",
-      "instructions": "Choose the best answer.",
-      "question": "What did the master do to the bubble?",
-      "options": [
-       "He blew on it.",
-       "He threw it on the roof.",
-       "He sold it."
+      "id": "ahilik-a1-ar-quick-7",
+      "type": "drag-drop",
+      "title": "سِرُّ الزُّجَاجِ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الْفَصْلِ السَّابِعِ؟",
+      "dragDropGroups": [
+       {
+        "group": "صَحِيحٌ",
+        "items": [
+         "دَخَلَا غُرْفَةً مُظْلِمَةً.",
+         "نَفَخَ الْمُعَلِّمُ عَلَى الْكُوبِ."
+        ]
+       },
+       {
+        "group": "خَطَأٌ",
+        "items": [
+         "كَانَتِ الْغُرْفَةُ كَبِيرَةً وَفِيهَا ضَوْءٌ كَثِيرٌ."
+        ]
+       }
       ],
-      "correctAnswer": 0,
-      "explanation": "Chapter 7: “The master blew on it, ‘Püf!’, and the bubble was gone.”",
+      "correctAnswer": {
+       "صَحِيحٌ": [
+        "دَخَلَا غُرْفَةً مُظْلِمَةً.",
+        "نَفَخَ الْمُعَلِّمُ عَلَى الْكُوبِ."
+       ],
+       "خَطَأٌ": [
+        "كَانَتِ الْغُرْفَةُ كَبِيرَةً وَفِيهَا ضَوْءٌ كَثِيرٌ."
+       ]
+      },
+      "explanation": "الفصل السابع: «دَخَلَا غُرْفَةً مُظْلِمَةً. دَخَلَ قَلِيلٌ مِنَ الضَّوْءِ مِنْ ثُقْبٍ صَغِيرٍ».",
       "feedback": {
-       "correct": "Yes! He blew on it.",
-       "incorrect": "Read the second paragraph of Chapter 7 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "ahilik-a1-language-7-because-of",
+      "id": "ahilik-a1-ar-language-7-because",
       "type": "multiple-choice",
-      "title": "Look: Because of",
-      "instructions": "Choose the right answer.",
-      "question": "“My cups broke because of the bubbles!” What does “because of” tell us?",
+      "title": "انْظُرْ: بِسَبَبِ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«انْكَسَرَتْ أَكْوَابِي بِسَبَبِ الْفُقَّاعَاتِ!» لِمَاذَا انْكَسَرَتِ الْأَكْوَابُ؟",
       "options": [
-       "why the cups broke",
-       "when the cups broke",
-       "where the cups were"
+       "لِأَنَّ فِيهَا فُقَّاعَاتٍ",
+       "لِأَنَّهَا سَقَطَتْ",
+       "لِأَنَّ الْمَاءَ سَاخِنٌ"
       ],
       "correctAnswer": 0,
-      "explanation": "Because of + thing tells why: because of the bubbles.",
+      "explanation": "«بِسَبَبِ» + اسم تقول السبب: بِسَبَبِ الْفُقَّاعَاتِ.",
       "feedback": {
-       "correct": "Yes. It tells why.",
-       "incorrect": "Read the last paragraph of Chapter 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ابْحَثْ عَنْ «بِسَبَبِ»."
       }
      },
      {
-      "id": "ahilik-a1-language-7-practise",
-      "type": "word-bank",
-      "title": "Practise: The Dark Room",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What happened in the room?",
-      "fillBlanksText": "A little light came in [blank] a small hole in the ceiling. The master [blank] a hot glass cup in the light. Then he [blank] on the bubble.",
-      "wordBank": [
-       "through",
-       "held",
-       "blew",
-       "on",
-       "holds"
+      "id": "ahilik-a1-ar-language-7-practise",
+      "type": "choose-form",
+      "title": "تَدَرَّبْ: دَخَلَ، دَخَلَا",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "وَاحِدٌ أَمِ اثْنَانِ؟",
+      "formChoices": [
+       {
+        "sentence": "الْمُعَلِّمُ وَالشَّابُّ [choice] غُرْفَةً مُظْلِمَةً.",
+        "options": [
+         "دَخَلَا",
+         "دَخَلَ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] قَلِيلٌ مِنَ الضَّوْءِ.",
+        "options": [
+         "دَخَلَ",
+         "دَخَلَا"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] مَعًا مَرَّةً أُخْرَى.",
+        "options": [
+         "عَمِلَا",
+         "عَمِلَ"
+        ],
+        "answer": 0
+       }
       ],
-      "correctAnswer": [
-       "through",
-       "held",
-       "blew"
-      ],
-      "explanation": "Through = in one side and out the other. Hold → held, blow → blew in the past.",
-      "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the first two paragraphs of Chapter 7."
-      }
-     },
-     {
-      "id": "ahilik-a1-language-7-write-it",
-      "type": "reflection",
-      "title": "Write It: The Secret of a Job",
-      "instructions": "Write the secret of a job.",
-      "question": "What is the secret?",
       "correctAnswer": null,
-      "explanation": "Use the secret of … is ….",
+      "explanation": "لاثنين نزيد «ـَا»: دَخَلَا، عَمِلَا. ولواحد: دَخَلَ.",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "صَحِيحٌ.",
+       "incorrect": "كَمْ شَخْصًا؟"
+      }
+     },
+     {
+      "id": "ahilik-a1-ar-language-7-write",
+      "type": "reflection",
+      "title": "اكْتُبْهَا: سِرِّي",
+      "instructions": "اكْتُبْ جُمْلَتَيْنِ عَنْ سِرِّ شَيْءٍ تُحْسِنُهُ.",
+      "question": "مَا سِرُّكَ؟",
+      "correctAnswer": null,
+      "explanation": "استعمل «سِرُّ» و«بِسَبَبِ».",
+      "feedback": {
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“The secret of good bread is …”",
+        "question": "«سِرُّ … هُوَ …»",
         "mode": "Individual",
-        "example": "The secret of good bread is patience."
+        "example": "سِرُّ الْخُبْزِ الْجَيِّدِ هُوَ الصَّبْرُ."
        },
        {
-        "question": "“The secret of a good teacher is …”",
+        "question": "«… بِسَبَبِ …»",
         "mode": "Individual",
-        "example": "The secret of a good teacher is love."
+        "example": "نَجَحْتُ بِسَبَبِ التَّدْرِيبِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Why did the cups break?",
+     "question": "خَمِّنْ أَوَّلًا: مِنْ أَيْنَ دَخَلَ الضَّوْءُ؟",
      "options": [
-      "because of air bubbles",
-      "because of the cold",
-      "because of the color"
+      "مِنْ ثُقْبٍ صَغِيرٍ فِي السَّقْفِ",
+      "مِنْ بَابٍ كَبِيرٍ",
+      "مِنْ نَافِذَةٍ"
      ],
      "answer": 0,
-     "quote": "“My cups broke because of the bubbles!” he said."
+     "quote": "دَخَلَ قَلِيلٌ مِنَ الضَّوْءِ مِنْ ثُقْبٍ صَغِيرٍ فِي السَّقْفِ."
     },
     "iCan": [
-     "I can tell the secret of the glass.",
-     "I can understand because of.",
-     "I can write the secret of a job."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ سِرَّ الزُّجَاجِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «بِسَبَبِ» وَ«دَخَلَا».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنْ سِرِّي."
     ]
    },
    {
     "id": 101,
     "type": "map",
-    "title": "Ahî Anatolia",
-    "subtitle": "Map · Chapters 1–7",
+    "title": "أَنَاضُولُ الْأَخِيَّةِ",
+    "subtitle": "خَرِيطَةٌ · الْفُصُولُ مِنْ 1 إِلَى 7",
     "content": "",
     "map": {
      "baseMap": "anatolia",
@@ -1288,11 +1303,11 @@
        "tone": "place",
        "areaRadiusKm": 430,
        "labelSide": "bottom",
-       "name": "Anatolia",
-       "kind": "Land",
-       "text": "Seven hundred years ago, there was a special group in Anatolia. Its name was the Ahî Organization.",
-       "teacherNote": "Chapter 1. Anatolia is a part of Türkiye today.",
-       "question": "What was the name of the special group?"
+       "name": "الْأَنَاضُولُ",
+       "kind": "أَرْضٌ",
+       "text": "قَبْلَ سَبْعِمِائَةِ سَنَةٍ، كَانَتْ فِي الْأَنَاضُولِ جَمَاعَةٌ خَاصَّةٌ: تَنْظِيمُ الْأَخِيَّةِ.",
+       "teacherNote": "الفصل الأول.",
+       "question": "مَاذَا كَانَ فِي الْأَنَاضُولِ؟"
       },
       {
        "id": "ottomans",
@@ -1303,11 +1318,11 @@
        "tone": "place",
        "areaRadiusKm": 160,
        "labelSide": "left",
-       "name": "The Ottomans",
-       "kind": "State",
-       "text": "The Ahî Organization was very important in the early years of the Ottomans, too.",
-       "teacherNote": "Chapter 1. The early Ottoman lands were in north-west Anatolia.",
-       "question": "When was the organization important for the Ottomans?"
+       "name": "الْعُثْمَانِيُّونَ",
+       "kind": "دَوْلَةٌ",
+       "text": "كَانَ تَنْظِيمُ الْأَخِيَّةِ مُهِمًّا جِدًّا فِي السَّنَوَاتِ الْأُولَى لِلْعُثْمَانِيِّينَ.",
+       "teacherNote": "الفصل الأول.",
+       "question": "مَتَى كَانَ التَّنْظِيمُ مُهِمًّا جِدًّا؟"
       }
      ],
      "towns": [],
@@ -1316,13 +1331,13 @@
        "id": "blackSea",
        "lon": 34.5,
        "lat": 42.6,
-       "name": "Black Sea"
+       "name": "الْبَحْرُ الْأَسْوَدُ"
       },
       {
        "id": "mediterranean",
        "lon": 31.5,
        "lat": 35.3,
-       "name": "Mediterranean Sea"
+       "name": "الْبَحْرُ الْأَبْيَضُ الْمُتَوَسِّطُ"
       }
      ],
      "timeline": [
@@ -1339,7 +1354,7 @@
         "kind": "dawn",
         "placeId": "anatolia"
        },
-       "label": "The Ahî Organization"
+       "label": "تَنْظِيمُ الْأَخِيَّةِ"
       },
       {
        "year": 2,
@@ -1350,7 +1365,7 @@
         "lat": 39.8,
         "zoom": 1.7
        },
-       "label": "The early Ottomans"
+       "label": "الْعُثْمَانِيُّونَ الْأَوَائِلُ"
       },
       {
        "year": 3,
@@ -1365,7 +1380,7 @@
         "kind": "radiate",
         "placeId": "anatolia"
        },
-       "label": "Young Ahîs learn"
+       "label": "الْأَخِيُّونَ الشَّبَابُ يَتَعَلَّمُونَ"
       }
      ],
      "challenge": [
@@ -1374,14 +1389,14 @@
        "lon": 31.2,
        "lat": 38.9,
        "radiusKm": 350,
-       "prompt": "Find Anatolia. The Ahî Organization started here."
+       "prompt": "ابْحَثْ عَنِ الْأَنَاضُولِ. كَانَ تَنْظِيمُ الْأَخِيَّةِ هُنَا."
       },
       {
        "id": "ottomans",
        "lon": 29.8,
        "lat": 40.2,
        "radiusKm": 220,
-       "prompt": "Find the early Ottoman lands."
+       "prompt": "ابْحَثْ عَنِ الْعُثْمَانِيِّينَ. كَانَ التَّنْظِيمُ مُهِمًّا لَهُمْ."
       }
      ]
     }
@@ -1389,107 +1404,107 @@
    {
     "id": 10,
     "type": "quiz",
-    "title": "Knowledge Check",
+    "title": "اختبار المعرفة",
     "image": "https://picsum.photos/seed/quiz-ahilik-a1/1200/800",
     "audioUrl": "",
-    "content": "Check your understanding of the complete story.",
+    "content": "اخْتَبِرْ فَهْمَكَ لِلْأَحْدَاثِ الرَّئِيسِيَّةِ فِي قِصَّةِ تَنْظِيمِ الْأَخِيَّةِ.",
     "exercises": [
      {
-      "id": "ahilik-a1-kc-1",
+      "id": "ahilik-a1-ar-kc-1",
       "type": "multiple-choice",
-      "title": "The Group",
-      "instructions": "Choose the answer.",
-      "question": "Where was the Ahî Organization?",
+      "title": "جَمَاعَةٌ لِلْعُمَّالِ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "أَيْنَ كَانَ تَنْظِيمُ الْأَخِيَّةِ؟",
       "options": [
-       "in Anatolia",
-       "in Europe",
-       "in Egypt"
+       "فِي الْأَنَاضُولِ",
+       "فِي مِصْرَ",
+       "فِي مَكَّةَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 1: “Seven hundred years ago, there was a special group in Anatolia.”",
+      "explanation": "الفصل الأول: «كَانَتْ فِي الْأَنَاضُولِ جَمَاعَةٌ خَاصَّةٌ».",
       "feedback": {
-       "correct": "Yes. In Anatolia.",
-       "incorrect": "Read the first paragraph of Chapter 1."
+       "correct": "نَعَمْ. فِي الْأَنَاضُولِ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "ahilik-a1-kc-2",
+      "id": "ahilik-a1-ar-kc-2",
       "type": "true-false",
-      "title": "Good People",
-      "instructions": "Is it true or false?",
-      "question": "The Ahîs never told lies.",
+      "title": "نَاسٌ طَيِّبُونَ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "سَاعَدَ الْأَخِيُّونَ الْفُقَرَاءَ.",
       "correctAnswer": true,
-      "explanation": "Chapter 2: “They were honest and never told lies.”",
+      "explanation": "الفصل الثاني: «فَسَاعَدُوا الْفُقَرَاءَ، وَزَارُوا الْجِيرَانَ الْمَرْضَى».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the first paragraph of Chapter 2."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "ahilik-a1-kc-3",
+      "id": "ahilik-a1-ar-kc-3",
       "type": "multiple-choice",
-      "title": "An Apprentice",
-      "instructions": "Choose the answer.",
-      "question": "Where did an apprentice work?",
+      "title": "تَعَلُّمُ مِهْنَةٍ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَتَى فَتَحَ الصَّبِيُّ دُكَّانَهُ الْخَاصَّ؟",
       "options": [
-       "in a shop next to a master",
-       "in a palace",
-       "at home"
+       "عِنْدَمَا قَالَ مُعَلِّمُهُ: «الْآنَ أَنْتَ مُسْتَعِدٌّ».",
+       "فِي الْيَوْمِ الْأَوَّلِ.",
+       "عِنْدَمَا أَرَادَ."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 3: “He worked in a shop next to a master.”",
+      "explanation": "الفصل الثالث: في البداية، كان على معلّمه أن يقول: «الْآنَ أَنْتَ مُسْتَعِدٌّ».",
       "feedback": {
-       "correct": "Yes. In a shop.",
-       "incorrect": "Read the first paragraph of Chapter 3."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "ahilik-a1-kc-4",
+      "id": "ahilik-a1-ar-kc-4",
       "type": "true-false",
-      "title": "The Shoes",
-      "instructions": "Is it true or false?",
-      "question": "The shoemaker used very good leather.",
+      "title": "الْأَحْذِيَةُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "اسْتَعْمَلَ الْإِسْكَافُ جِلْدًا غَالِيًا.",
       "correctAnswer": false,
-      "explanation": "Chapter 4: “So he used cheap leather for his shoes.”",
+      "explanation": "الفصل الرابع: «فَاسْتَعْمَلَ جِلْدًا رَخِيصًا لِأَحْذِيَتِهِ».",
       "feedback": {
-       "correct": "Yes, it is false. The leather was cheap.",
-       "incorrect": "Read the first paragraph of Chapter 4."
+       "correct": "نَعَمْ، هَذَا خَطَأٌ. كَانَ الْجِلْدُ رَخِيصًا.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "ahilik-a1-kc-5",
+      "id": "ahilik-a1-ar-kc-5",
       "type": "multiple-choice",
-      "title": "The Cups",
-      "instructions": "Choose the answer.",
-      "question": "What did the young learner make?",
+      "title": "الْأَكْوَابُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا حَدَثَ لِأَكْوَابِ الشَّابِّ؟",
       "options": [
-       "glass cups",
-       "shoes",
-       "bread"
+       "انْكَسَرَتْ كُلُّهَا.",
+       "بَاعَهَا كُلَّهَا.",
+       "أَعْطَاهَا لِمُعَلِّمِهِ."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 6: “He made glass cups.”",
+      "explanation": "الفصل السادس: «لَكِنْ بَعْدَ وَقْتٍ قَصِيرٍ، انْكَسَرَتْ كُلُّ الْأَكْوَابِ».",
       "feedback": {
-       "correct": "Yes. Glass cups.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ السَّادِسِ."
       }
      },
      {
-      "id": "ahilik-a1-kc-6",
+      "id": "ahilik-a1-ar-kc-6",
       "type": "multiple-choice",
-      "title": "Püf Noktası",
-      "instructions": "Choose the answer.",
-      "question": "What do Turkish people call “püf noktası”?",
+      "title": "سِرُّ الزُّجَاجِ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "لِمَاذَا انْكَسَرَتِ الْأَكْوَابُ؟",
       "options": [
-       "the secret of a job",
-       "a glass cup",
-       "a dark room"
+       "بِسَبَبِ الْفُقَّاعَاتِ",
+       "بِسَبَبِ الْمَاءِ",
+       "بِسَبَبِ الشَّمْسِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: “In Turkish, people call the secret of a job ‘püf noktası’.”",
+      "explanation": "الفصل السابع: «انْكَسَرَتْ أَكْوَابِي بِسَبَبِ الْفُقَّاعَاتِ!»",
       "feedback": {
-       "correct": "Yes. The secret of a job.",
-       "incorrect": "Read the last paragraph of Chapter 7."
+       "correct": "نَعَمْ. بِسَبَبِ الْفُقَّاعَاتِ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّالِثَةَ مِنَ الْفَصْلِ السَّابِعِ."
       }
      }
     ]
@@ -1497,651 +1512,566 @@
    {
     "id": 12,
     "type": "glossary",
-    "title": "Master Glossary",
-    "content": "Review all key vocabulary from the story in one place.",
+    "title": "المعجم الرئيسي",
+    "content": "راجع ملاحظات الكلمات في الكتاب كله في مكان واحد.",
     "image": "https://picsum.photos/seed/glossary-ahilik-a1/1200/800",
     "vocabulary": [
      {
-      "word": "organization",
-      "definition": "A big group of people with one job.",
-      "partOfSpeech": "noun",
+      "word": "تَنْظِيمَ",
+      "definition": "جَمَاعَةٌ كَبِيرَةٌ مِنَ النَّاسِ لَهَا عَمَلٌ وَاحِدٌ.",
       "level": "A1",
-      "pronunciation": "/ˌɔːrɡənəˈzeɪʃn/",
       "chapter": 1,
-      "chapterTitle": "A Group for Workers",
-      "storyExample": "Its name was the Ahî Organization.",
-      "category": "People"
+      "chapterTitle": "جَمَاعَةٌ لِلْعُمَّالِ",
+      "storyExample": "كَانَ اسْمُهَا تَنْظِيمَ الْأَخِيَّةِ."
      },
      {
-      "word": "worker",
-      "definition": "A person who does a job.",
-      "partOfSpeech": "noun",
+      "word": "لِلْعُمَّالِ",
+      "definition": "نَاسٌ يَشْتَغِلُونَ فِي مِهْنَةٍ.",
       "level": "A1",
-      "pronunciation": "/ˈwɜːrkər/",
       "chapter": 1,
-      "chapterTitle": "A Group for Workers",
-      "storyExample": "It was a group for workers and masters.",
-      "category": "Work"
+      "chapterTitle": "جَمَاعَةٌ لِلْعُمَّالِ",
+      "storyExample": "كَانَتْ جَمَاعَةً لِلْعُمَّالِ وَالْمُعَلِّمِينَ."
      },
      {
-      "word": "master",
-      "definition": "A person who is very good at a job.",
-      "partOfSpeech": "noun",
+      "word": "الْمُعَلِّمِينَ",
+      "definition": "نَاسٌ يَعْرِفُونَ مِهْنَتَهُمْ جَيِّدًا جِدًّا.",
       "level": "A1",
-      "pronunciation": "/ˈmæstər/",
       "chapter": 1,
-      "chapterTitle": "A Group for Workers",
-      "storyExample": "It was a group for workers and masters.",
-      "category": "Work"
+      "chapterTitle": "جَمَاعَةٌ لِلْعُمَّالِ",
+      "storyExample": "كَانَتْ جَمَاعَةً لِلْعُمَّالِ وَالْمُعَلِّمِينَ."
      },
      {
-      "word": "check",
-      "definition": "Look at something carefully.",
-      "partOfSpeech": "verb",
+      "word": "الْحَيَاةِ الْيَوْمِيَّةِ",
+      "definition": "مَا نَفْعَلُهُ كُلَّ يَوْمٍ.",
       "level": "A1",
-      "pronunciation": "/tʃek/",
       "chapter": 1,
-      "chapterTitle": "A Group for Workers",
-      "storyExample": "It visited the shops and checked their work.",
-      "category": "Actions"
+      "chapterTitle": "جَمَاعَةٌ لِلْعُمَّالِ",
+      "storyExample": "سَاعَدَتِ الْجَمَاعَةُ الْعُمَّالَ فِي كُلٍّ مِنَ الْعَمَلِ وَالْحَيَاةِ الْيَوْمِيَّةِ."
      },
      {
-      "word": "price",
-      "definition": "How much money something is.",
-      "partOfSpeech": "noun",
+      "word": "الْمُتَعَلِّمِينَ",
+      "definition": "نَاسٌ يَتَعَلَّمُونَ شَيْئًا جَدِيدًا.",
       "level": "A1",
-      "pronunciation": "/praɪs/",
       "chapter": 1,
-      "chapterTitle": "A Group for Workers",
-      "storyExample": "It also checked things, chose good prices, and helped with work problems.",
-      "category": "Money"
+      "chapterTitle": "جَمَاعَةٌ لِلْعُمَّالِ",
+      "storyExample": "فِي الْعَمَلِ، عَلَّمَ الْعُمَّالُ الْكِبَارُ الْمُتَعَلِّمِينَ الْجُدُدَ، وَعَمِلَ الْجَمِيعُ مَعًا عَمَلًا جَيِّدًا."
      },
      {
-      "word": "learners",
-      "definition": "People who are learning something.",
-      "partOfSpeech": "noun",
+      "word": "فَحَصَتْ",
+      "definition": "نَظَرَتْ إِلَى شَيْءٍ بِعِنَايَةٍ.",
       "level": "A1",
-      "pronunciation": "/ˈlɜːrnər/",
       "chapter": 1,
-      "chapterTitle": "A Group for Workers",
-      "storyExample": "At work, older workers taught new learners, and everyone worked well together.",
-      "category": "People"
+      "chapterTitle": "جَمَاعَةٌ لِلْعُمَّالِ",
+      "storyExample": "زَارَتِ الدَّكَاكِينَ، وَفَحَصَتْ عَمَلَ الدَّكَاكِينِ."
      },
      {
-      "word": "daily",
-      "definition": "Every day.",
-      "partOfSpeech": "adjective",
+      "word": "أَسْعَارًا",
+      "definition": "كَمْ مِنَ الْمَالِ نَدْفَعُ لِلشَّيْءِ.",
       "level": "A1",
-      "pronunciation": "/ˈdeɪli/",
       "chapter": 1,
-      "chapterTitle": "A Group for Workers",
-      "storyExample": "The group helped workers in both work and daily life.",
-      "category": "Life"
+      "chapterTitle": "جَمَاعَةٌ لِلْعُمَّالِ",
+      "storyExample": "وَفَحَصَتْ أَيْضًا الْأَشْيَاءَ، وَاخْتَارَتْ أَسْعَارًا جَيِّدَةً، وَسَاعَدَتْ فِي مَشَاكِلِ الْعَمَلِ."
      },
      {
-      "word": "honest",
-      "definition": "Always says true things.",
-      "partOfSpeech": "adjective",
+      "word": "صَادِقِينَ",
+      "definition": "يَقُولُونَ الْحَقَّ دَائِمًا.",
       "level": "A1",
-      "pronunciation": "/ˈɑːnɪst/",
       "chapter": 2,
-      "chapterTitle": "Good People",
-      "storyExample": "They were honest and never told lies.",
-      "category": "Values"
+      "chapterTitle": "نَاسٌ طَيِّبُونَ",
+      "storyExample": "كَانُوا صَادِقِينَ، وَمَا قَالُوا الْكَذِبَ قَطُّ."
      },
      {
-      "word": "lie",
-      "definition": "Words that are not true.",
-      "partOfSpeech": "noun",
+      "word": "الْكَذِبَ",
+      "definition": "كَلَامٌ غَيْرُ صَحِيحٍ.",
       "level": "A1",
-      "pronunciation": "/laɪ/",
       "chapter": 2,
-      "chapterTitle": "Good People",
-      "storyExample": "They were honest and never told lies.",
-      "category": "Values"
+      "chapterTitle": "نَاسٌ طَيِّبُونَ",
+      "storyExample": "كَانُوا صَادِقِينَ، وَمَا قَالُوا الْكَذِبَ قَطُّ."
      },
      {
-      "word": "generous",
-      "definition": "Happy to give things to other people.",
-      "partOfSpeech": "adjective",
+      "word": "كُرَمَاءَ",
+      "definition": "يَفْرَحُونَ بِإِعْطَاءِ الْأَشْيَاءِ لِلنَّاسِ الْآخَرِينَ.",
       "level": "A1",
-      "pronunciation": "/ˈdʒenərəs/",
       "chapter": 2,
-      "chapterTitle": "Good People",
-      "storyExample": "They were generous, so they helped poor people and visited sick neighbors.",
-      "category": "Values"
+      "chapterTitle": "نَاسٌ طَيِّبُونَ",
+      "storyExample": "وَكَانُوا كُرَمَاءَ، فَسَاعَدُوا الْفُقَرَاءَ، وَزَارُوا الْجِيرَانَ الْمَرْضَى."
      },
      {
-      "word": "manners",
-      "definition": "The polite way to do things.",
-      "partOfSpeech": "noun",
+      "word": "الْآدَابَ",
+      "definition": "الطَّرِيقَةُ الْمُهَذَّبَةُ لِفِعْلِ الْأَشْيَاءِ.",
       "level": "A1",
-      "pronunciation": "/ˈmænərz/",
       "chapter": 2,
-      "chapterTitle": "Good People",
-      "storyExample": "Young Ahîs learned good manners from their teachers, too.",
-      "category": "Values"
+      "chapterTitle": "نَاسٌ طَيِّبُونَ",
+      "storyExample": "وَتَعَلَّمَ الْأَخِيُّونَ الشَّبَابُ الْآدَابَ الْحَسَنَةَ مِنْ أَسَاتِذَتِهِمْ أَيْضًا."
      },
      {
-      "word": "neighbors",
-      "definition": "People who live next to you.",
-      "partOfSpeech": "noun",
+      "word": "لُطَفَاءَ",
+      "definition": "طَيِّبُونَ فِي كَلَامِهِمْ وَعَمَلِهِمْ مَعَ النَّاسِ.",
       "level": "A1",
-      "pronunciation": "/ˈneɪbərz/",
       "chapter": 2,
-      "chapterTitle": "Good People",
-      "storyExample": "They were generous, so they helped poor people and visited sick neighbors.",
-      "category": "People"
+      "chapterTitle": "نَاسٌ طَيِّبُونَ",
+      "storyExample": "تَعَلَّمُوا أَنْ يَكُونُوا لُطَفَاءَ مَعَ النَّاسِ فِي كُلِّ مَكَانٍ، حَتَّى فِي الشَّارِعِ."
      },
      {
-      "word": "apprentice",
-      "definition": "A young person who learns a job from a master.",
-      "partOfSpeech": "noun",
+      "word": "صَبِيًّا",
+      "definition": "شَابٌّ يَتَعَلَّمُ مِهْنَةً مِنْ مُعَلِّمٍ.",
       "level": "A1",
-      "pronunciation": "/əˈprentɪs/",
       "chapter": 3,
-      "chapterTitle": "Learning a Job",
-      "storyExample": "A young person started work as an apprentice.",
-      "category": "Work"
+      "chapterTitle": "تَعَلُّمُ مِهْنَةٍ",
+      "storyExample": "بَدَأَ شَابٌّ الْعَمَلَ صَبِيًّا."
      },
      {
-      "word": "shame",
-      "definition": "A bad feeling after a wrong thing.",
-      "partOfSpeech": "noun",
+      "word": "صَارَ",
+      "definition": "كَانَ شَيْئًا، ثُمَّ كَانَ شَيْئًا آخَرَ.",
       "level": "A1",
-      "pronunciation": "/ʃeɪm/",
       "chapter": 3,
-      "chapterTitle": "Learning a Job",
-      "storyExample": "For the Ahîs, bad work was a shame.",
-      "category": "Feelings"
+      "chapterTitle": "تَعَلُّمُ مِهْنَةٍ",
+      "storyExample": "وَبَعْدَ سَنَوَاتٍ كَثِيرَةٍ، صَارَ الصَّبِيُّ عَامِلًا جَيِّدًا."
      },
      {
-      "word": "own",
-      "definition": "Of you, not of other people.",
-      "partOfSpeech": "adjective",
+      "word": "عَارًا",
+      "definition": "شُعُورٌ سَيِّئٌ بَعْدَ عَمَلٍ خَاطِئٍ.",
       "level": "A1",
-      "pronunciation": "/oʊn/",
       "chapter": 3,
-      "chapterTitle": "Learning a Job",
-      "storyExample": "So an apprentice could not open his own shop too early.",
-      "category": "Describing"
+      "chapterTitle": "تَعَلُّمُ مِهْنَةٍ",
+      "storyExample": "عِنْدَ الْأَخِيِّينَ، كَانَ الْعَمَلُ السَّيِّئُ عَارًا."
      },
      {
-      "word": "became",
-      "definition": "Started to be.",
-      "partOfSpeech": "verb",
+      "word": "الْخَاصَّ",
+      "definition": "لَكَ أَنْتَ، لَا لِلنَّاسِ الْآخَرِينَ.",
       "level": "A1",
-      "pronunciation": "/bɪˈkeɪm/",
       "chapter": 3,
-      "chapterTitle": "Learning a Job",
-      "storyExample": "After many years, the apprentice became a good worker.",
-      "category": "Life"
+      "chapterTitle": "تَعَلُّمُ مِهْنَةٍ",
+      "storyExample": "لِذَلِكَ مَا كَانَ الصَّبِيُّ يَسْتَطِيعُ أَنْ يَفْتَحَ دُكَّانَهُ الْخَاصَّ مُبَكِّرًا جِدًّا."
      },
      {
-      "word": "shoemaker",
-      "definition": "A person who makes shoes.",
-      "partOfSpeech": "noun",
+      "word": "إِسْكَافٌ",
+      "definition": "شَخْصٌ يَصْنَعُ الْأَحْذِيَةَ.",
       "level": "A1",
-      "pronunciation": "/ˈʃuːmeɪkər/",
       "chapter": 4,
-      "chapterTitle": "Bad Shoes",
-      "storyExample": "There was a shoemaker in a small town.",
-      "category": "Work"
+      "chapterTitle": "أَحْذِيَةٌ سَيِّئَةٌ",
+      "storyExample": "كَانَ فِي بَلْدَةٍ صَغِيرَةٍ إِسْكَافٌ."
      },
      {
-      "word": "leather",
-      "definition": "The skin of an animal, for shoes and bags.",
-      "partOfSpeech": "noun",
+      "word": "يَكْسِبَ",
+      "definition": "يَأْخُذَ مَالًا مِنْ عَمَلِهِ.",
       "level": "A1",
-      "pronunciation": "/ˈleðər/",
       "chapter": 4,
-      "chapterTitle": "Bad Shoes",
-      "storyExample": "So he used cheap leather for his shoes.",
-      "category": "Things"
+      "chapterTitle": "أَحْذِيَةٌ سَيِّئَةٌ",
+      "storyExample": "أَرَادَ أَنْ يَكْسِبَ مَالًا أَكْثَرَ."
      },
      {
-      "word": "customer",
-      "definition": "A person who buys things in a shop.",
-      "partOfSpeech": "noun",
+      "word": "جِلْدًا",
+      "definition": "غِطَاءُ جِسْمِ الْحَيَوَانِ، نَصْنَعُ مِنْهُ الْأَحْذِيَةَ وَالْحَقَائِبَ.",
       "level": "A1",
-      "pronunciation": "/ˈkʌstəmər/",
       "chapter": 4,
-      "chapterTitle": "Bad Shoes",
-      "storyExample": "The customers were very angry.",
-      "category": "People"
+      "chapterTitle": "أَحْذِيَةٌ سَيِّئَةٌ",
+      "storyExample": "فَاسْتَعْمَلَ جِلْدًا رَخِيصًا لِأَحْذِيَتِهِ."
      },
      {
-      "word": "leader",
-      "definition": "The most important person in a group.",
-      "partOfSpeech": "noun",
+      "word": "الزَّبَائِنُ",
+      "definition": "النَّاسُ الَّذِينَ يَشْتَرُونَ مِنَ الدُّكَّانِ.",
       "level": "A1",
-      "pronunciation": "/ˈliːdər/",
       "chapter": 4,
-      "chapterTitle": "Bad Shoes",
-      "storyExample": "They went to the Ahî leader.",
-      "category": "People"
+      "chapterTitle": "أَحْذِيَةٌ سَيِّئَةٌ",
+      "storyExample": "كَانَ الزَّبَائِنُ غَاضِبِينَ جِدًّا."
      },
      {
-      "word": "earn",
-      "definition": "Get money for your work.",
-      "partOfSpeech": "verb",
+      "word": "غَاضِبِينَ",
+      "definition": "شُعُورُهُمْ سَيِّئٌ جِدًّا بِسَبَبِ شَيْءٍ خَطَأٍ.",
       "level": "A1",
-      "pronunciation": "/ɜːrn/",
       "chapter": 4,
-      "chapterTitle": "Bad Shoes",
-      "storyExample": "He wanted to earn more money.",
-      "category": "Money"
+      "chapterTitle": "أَحْذِيَةٌ سَيِّئَةٌ",
+      "storyExample": "كَانَ الزَّبَائِنُ غَاضِبِينَ جِدًّا."
      },
      {
-      "word": "angry",
-      "definition": "Not happy; you want to shout.",
-      "partOfSpeech": "adjective",
+      "word": "رَئِيسِ",
+      "definition": "أَهَمُّ شَخْصٍ فِي الْجَمَاعَةِ.",
       "level": "A1",
-      "pronunciation": "/ˈæŋɡri/",
       "chapter": 4,
-      "chapterTitle": "Bad Shoes",
-      "storyExample": "The customers were very angry.",
-      "category": "Feelings"
+      "chapterTitle": "أَحْذِيَةٌ سَيِّئَةٌ",
+      "storyExample": "ذَهَبُوا إِلَى رَئِيسِ الْأَخِيَّةِ."
      },
      {
-      "word": "throw",
-      "definition": "Send something through the air with your hand.",
-      "partOfSpeech": "verb",
+      "word": "بِعِنَايَةٍ",
+      "definition": "بِبُطْءٍ وَانْتِبَاهٍ.",
       "level": "A1",
-      "pronunciation": "/θroʊ/",
       "chapter": 5,
-      "chapterTitle": "Shoes on the Roof",
-      "storyExample": "Then he took the shoes and threw them up on the roof of the shop!",
-      "category": "Actions"
+      "chapterTitle": "أَحْذِيَةٌ عَلَى السَّطْحِ",
+      "storyExample": "ذَهَبَ رَئِيسُ الْأَخِيَّةِ إِلَى الدُّكَّانِ، وَنَظَرَ إِلَى الْأَحْذِيَةِ بِعِنَايَةٍ."
      },
      {
-      "word": "roof",
-      "definition": "The top part of a house.",
-      "partOfSpeech": "noun",
+      "word": "رَمَاهَا",
+      "definition": "أَرْسَلَ شَيْئًا عَبْرَ الْهَوَاءِ بِيَدِهِ.",
       "level": "A1",
-      "pronunciation": "/ruːf/",
       "chapter": 5,
-      "chapterTitle": "Shoes on the Roof",
-      "storyExample": "Then he took the shoes and threw them up on the roof of the shop!",
-      "category": "Places"
+      "chapterTitle": "أَحْذِيَةٌ عَلَى السَّطْحِ",
+      "storyExample": "ثُمَّ أَخَذَ الْأَحْذِيَةَ، وَرَمَاهَا فَوْقَ سَطْحِ الدُّكَّانِ!"
      },
      {
-      "word": "warning",
-      "definition": "Words about a bad thing that can happen.",
-      "partOfSpeech": "noun",
+      "word": "سَطْحِ",
+      "definition": "الْجُزْءُ الْأَعْلَى مِنَ الْبَيْتِ.",
       "level": "A1",
-      "pronunciation": "/ˈwɔːrnɪŋ/",
       "chapter": 5,
-      "chapterTitle": "Shoes on the Roof",
-      "storyExample": "This was a warning for the shoemaker: “Make good shoes, or you cannot sell shoes in this town again.”",
-      "category": "Life"
+      "chapterTitle": "أَحْذِيَةٌ عَلَى السَّطْحِ",
+      "storyExample": "ثُمَّ أَخَذَ الْأَحْذِيَةَ، وَرَمَاهَا فَوْقَ سَطْحِ الدُّكَّانِ!"
      },
      {
-      "word": "carefully",
-      "definition": "Slowly and well, so nothing goes wrong.",
-      "partOfSpeech": "adverb",
+      "word": "تَحْذِيرًا",
+      "definition": "كَلَامٌ عَنْ شَيْءٍ سَيِّئٍ يُمْكِنُ أَنْ يَحْدُثَ.",
       "level": "A1",
-      "pronunciation": "/ˈkerfəli/",
       "chapter": 5,
-      "chapterTitle": "Shoes on the Roof",
-      "storyExample": "The Ahî leader went to the shop and looked at the shoes carefully.",
-      "category": "Describing"
+      "chapterTitle": "أَحْذِيَةٌ عَلَى السَّطْحِ",
+      "storyExample": "كَانَ هَذَا تَحْذِيرًا لِلْإِسْكَافِ: «اصْنَعْ أَحْذِيَةً جَيِّدَةً، أَوْ لَا تَسْتَطِيعُ أَنْ تَبِيعَ الْأَحْذِيَةَ فِي هَذِهِ الْبَلْدَةِ مَرَّةً أُخْرَى»."
      },
      {
-      "word": "sell",
-      "definition": "Give a thing to someone for money.",
-      "partOfSpeech": "verb",
+      "word": "تَبِيعَ",
+      "definition": "تُعْطِيَ شَيْئًا لِشَخْصٍ، وَتَأْخُذَ مِنْهُ مَالًا.",
       "level": "A1",
-      "pronunciation": "/sel/",
       "chapter": 5,
-      "chapterTitle": "Shoes on the Roof",
-      "storyExample": "This was a warning for the shoemaker: “Make good shoes, or you cannot sell shoes in this town again.”",
-      "category": "Work"
+      "chapterTitle": "أَحْذِيَةٌ عَلَى السَّطْحِ",
+      "storyExample": "كَانَ هَذَا تَحْذِيرًا لِلْإِسْكَافِ: «اصْنَعْ أَحْذِيَةً جَيِّدَةً، أَوْ لَا تَسْتَطِيعُ أَنْ تَبِيعَ الْأَحْذِيَةَ فِي هَذِهِ الْبَلْدَةِ مَرَّةً أُخْرَى»."
      },
      {
-      "word": "glass",
-      "definition": "A hard thing you can see through, like a window.",
-      "partOfSpeech": "noun",
+      "word": "الزُّجَاجِ",
+      "definition": "شَيْءٌ صُلْبٌ نَرَى مِنْ خِلَالِهِ، مِثْلُ النَّافِذَةِ.",
       "level": "A1",
-      "pronunciation": "/ɡlæs/",
       "chapter": 6,
-      "chapterTitle": "Not Ready Yet",
-      "storyExample": "In a town in Anatolia, a young Ahî learner made nice things from glass with his master.",
-      "category": "Things"
+      "chapterTitle": "غَيْرُ مُسْتَعِدٍّ بَعْدُ",
+      "storyExample": "فِي بَلْدَةٍ فِي الْأَنَاضُولِ، صَنَعَ مُتَعَلِّمٌ أَخِيٌّ شَابٌّ أَشْيَاءَ جَمِيلَةً مِنَ الزُّجَاجِ مَعَ مُعَلِّمِهِ."
      },
      {
-      "word": "break",
-      "definition": "Go into pieces.",
-      "partOfSpeech": "verb",
+      "word": "انْكَسَرَتْ",
+      "definition": "صَارَتْ قِطَعًا.",
       "level": "A1",
-      "pronunciation": "/breɪk/",
       "chapter": 6,
-      "chapterTitle": "Not Ready Yet",
-      "storyExample": "But after a short time, all the cups broke.",
-      "category": "Actions"
+      "chapterTitle": "غَيْرُ مُسْتَعِدٍّ بَعْدُ",
+      "storyExample": "لَكِنْ بَعْدَ وَقْتٍ قَصِيرٍ، انْكَسَرَتْ كُلُّ الْأَكْوَابِ."
      },
      {
-      "word": "forgive",
-      "definition": "Stop being angry with someone.",
-      "partOfSpeech": "verb",
+      "word": "سَامَحَهُ",
+      "definition": "تَوَقَّفَ عَنِ الْغَضَبِ مِنْ شَخْصٍ.",
       "level": "A1",
-      "pronunciation": "/fərˈɡɪv/",
       "chapter": 6,
-      "chapterTitle": "Not Ready Yet",
-      "storyExample": "His kind master forgave him.",
-      "category": "Values"
+      "chapterTitle": "غَيْرُ مُسْتَعِدٍّ بَعْدُ",
+      "storyExample": "سَامَحَهُ مُعَلِّمُهُ الطَّيِّبُ."
      },
      {
-      "word": "hole",
-      "definition": "An open place in something.",
-      "partOfSpeech": "noun",
+      "word": "ثُقْبٍ",
+      "definition": "مَكَانٌ مَفْتُوحٌ فِي شَيْءٍ.",
       "level": "A1",
-      "pronunciation": "/hoʊl/",
       "chapter": 7,
-      "chapterTitle": "The Secret of the Glass",
-      "storyExample": "A little light came in through a small hole in the ceiling.",
-      "category": "Things"
+      "chapterTitle": "سِرُّ الزُّجَاجِ",
+      "storyExample": "دَخَلَ قَلِيلٌ مِنَ الضَّوْءِ مِنْ ثُقْبٍ صَغِيرٍ فِي السَّقْفِ."
      },
      {
-      "word": "ceiling",
-      "definition": "The top part of a room, over your head.",
-      "partOfSpeech": "noun",
+      "word": "السَّقْفِ",
+      "definition": "الْجُزْءُ الْأَعْلَى مِنَ الْغُرْفَةِ، فَوْقَ رَأْسِكَ.",
       "level": "A1",
-      "pronunciation": "/ˈsiːlɪŋ/",
       "chapter": 7,
-      "chapterTitle": "The Secret of the Glass",
-      "storyExample": "A little light came in through a small hole in the ceiling.",
-      "category": "Places"
+      "chapterTitle": "سِرُّ الزُّجَاجِ",
+      "storyExample": "دَخَلَ قَلِيلٌ مِنَ الضَّوْءِ مِنْ ثُقْبٍ صَغِيرٍ فِي السَّقْفِ."
      },
      {
-      "word": "bubble",
-      "definition": "A very small ball of air.",
-      "partOfSpeech": "noun",
+      "word": "فُقَّاعَةُ",
+      "definition": "كُرَةٌ صَغِيرَةٌ جِدًّا مِنَ الْهَوَاءِ.",
       "level": "A1",
-      "pronunciation": "/ˈbʌbl/",
       "chapter": 7,
-      "chapterTitle": "The Secret of the Glass",
-      "storyExample": "Inside it, there was a very small air bubble.",
-      "category": "Things"
+      "chapterTitle": "سِرُّ الزُّجَاجِ",
+      "storyExample": "كَانَتْ فِيهِ فُقَّاعَةُ هَوَاءٍ صَغِيرَةٌ جِدًّا."
      },
      {
-      "word": "blow",
-      "definition": "Push air out of your mouth.",
-      "partOfSpeech": "verb",
+      "word": "نَفَخَ",
+      "definition": "دَفَعَ الْهَوَاءَ إِلَى خَارِجِ فَمِهِ.",
       "level": "A1",
-      "pronunciation": "/bloʊ/",
       "chapter": 7,
-      "chapterTitle": "The Secret of the Glass",
-      "storyExample": "The master blew on it, “Püf!”, and the bubble was gone.",
-      "category": "Actions"
+      "chapterTitle": "سِرُّ الزُّجَاجِ",
+      "storyExample": "نَفَخَ الْمُعَلِّمُ عَلَيْهِ: «بُفْ!»، فَذَهَبَتِ الْفُقَّاعَةُ."
      },
      {
-      "word": "secret",
-      "definition": "A thing only a few people know.",
-      "partOfSpeech": "noun",
+      "word": "سِرَّ",
+      "definition": "شَيْءٌ يَعْرِفُهُ قَلِيلٌ مِنَ النَّاسِ فَقَطْ.",
       "level": "A1",
-      "pronunciation": "/ˈsiːkrət/",
       "chapter": 7,
-      "chapterTitle": "The Secret of the Glass",
-      "storyExample": "In Turkish, people call the secret of a job “püf noktası”.",
-      "category": "Work"
+      "chapterTitle": "سِرُّ الزُّجَاجِ",
+      "storyExample": "«انْكَسَرَتْ أَكْوَابِي بِسَبَبِ الْفُقَّاعَاتِ!»، قَالَ."
      }
     ]
    },
    {
     "id": 11,
     "type": "vocabulary-match",
-    "title": "Vocabulary Challenge",
+    "title": "تحدي المفردات",
     "image": "https://picsum.photos/seed/vocab-match-ahilik-a1/1200/800",
     "audioUrl": "",
-    "content": "Match six story words with their meanings.",
+    "content": "صِلْ سِتَّ كَلِمَاتٍ مِنَ الْقِصَّةِ بِمَعَانِيهَا.",
     "vocabularyPairs": [
      {
-      "word": "worker",
-      "meaning": "A person who does a job.",
+      "word": "لِلْعُمَّالِ",
+      "meaning": "نَاسٌ يَشْتَغِلُونَ فِي مِهْنَةٍ.",
       "partOfSpeech": "noun",
       "chapter": 1,
-      "context": "It was a group for workers and masters."
+      "context": "كَانَتْ جَمَاعَةً لِلْعُمَّالِ وَالْمُعَلِّمِينَ."
      },
      {
-      "word": "honest",
-      "meaning": "Always says true things.",
+      "word": "صَادِقِينَ",
+      "meaning": "يَقُولُونَ الْحَقَّ دَائِمًا.",
       "partOfSpeech": "adjective",
       "chapter": 2,
-      "context": "They were honest and never told lies."
+      "context": "كَانُوا صَادِقِينَ، وَمَا قَالُوا الْكَذِبَ قَطُّ."
      },
      {
-      "word": "apprentice",
-      "meaning": "A young person who learns a job from a master.",
+      "word": "صَبِيًّا",
+      "meaning": "شَابٌّ يَتَعَلَّمُ مِهْنَةً مِنْ مُعَلِّمٍ.",
       "partOfSpeech": "noun",
       "chapter": 3,
-      "context": "A young person started work as an apprentice."
+      "context": "بَدَأَ شَابٌّ الْعَمَلَ صَبِيًّا."
      },
      {
-      "word": "customer",
-      "meaning": "A person who buys things in a shop.",
+      "word": "الزَّبَائِنُ",
+      "meaning": "النَّاسُ الَّذِينَ يَشْتَرُونَ مِنَ الدُّكَّانِ.",
       "partOfSpeech": "noun",
       "chapter": 4,
-      "context": "The customers were very angry."
+      "context": "كَانَ الزَّبَائِنُ غَاضِبِينَ جِدًّا."
      },
      {
-      "word": "roof",
-      "meaning": "The top part of a house.",
+      "word": "سَطْحِ",
+      "meaning": "الْجُزْءُ الْأَعْلَى مِنَ الْبَيْتِ.",
       "partOfSpeech": "noun",
       "chapter": 5,
-      "context": "Then he took the shoes and threw them up on the roof of the shop!"
+      "context": "ثُمَّ أَخَذَ الْأَحْذِيَةَ، وَرَمَاهَا فَوْقَ سَطْحِ الدُّكَّانِ!"
      },
      {
-      "word": "bubble",
-      "meaning": "A very small ball of air.",
+      "word": "فُقَّاعَةُ",
+      "meaning": "كُرَةٌ صَغِيرَةٌ جِدًّا مِنَ الْهَوَاءِ.",
       "partOfSpeech": "noun",
       "chapter": 7,
-      "context": "Inside it, there was a very small air bubble."
+      "context": "كَانَتْ فِيهِ فُقَّاعَةُ هَوَاءٍ صَغِيرَةٌ جِدًّا."
      }
     ]
    },
    {
     "id": 13,
     "type": "exercises",
-    "title": "Language Review",
+    "title": "مراجعة اللغة",
     "image": "https://picsum.photos/seed/exercises-ahilik-a1/1200/800",
-    "content": "Review the language from all chapters.",
+    "content": "رَاجِعْ لُغَةَ الْفُصُولِ كُلِّهَا.",
     "exercises": [
      {
-      "id": "ahilik-a1-language-review-1",
+      "id": "ahilik-a1-ar-language-review-1",
       "type": "drag-drop",
-      "title": "Look: Two Kinds of Past",
-      "instructions": "Put each verb in the right group.",
-      "question": "How does each verb show the past?",
+      "title": "انْظُرْ: هُوَ، هِيَ، هُمْ",
+      "instructions": "ضَعْ كُلَّ فِعْلٍ فِي مَجْمُوعَتِهِ.",
+      "question": "مَنْ فَعَلَ؟",
       "dragDropGroups": [
        {
-        "group": "Ends in -ed",
+        "group": "هُوَ",
         "items": [
-         "visited",
-         "checked",
-         "helped",
-         "opened"
+         "ذَهَبَ",
+         "رَمَى",
+         "نَفَخَ"
         ]
        },
        {
-        "group": "Changes",
+        "group": "هِيَ",
         "items": [
-         "taught",
-         "threw",
-         "broke",
-         "forgave"
+         "زَارَتْ",
+         "فَحَصَتْ",
+         "سَاعَدَتْ"
+        ]
+       },
+       {
+        "group": "هُمْ",
+        "items": [
+         "كَانُوا",
+         "سَاعَدُوا",
+         "ذَهَبُوا"
         ]
        }
       ],
       "correctAnswer": {
-       "Ends in -ed": [
-        "visited",
-        "checked",
-        "helped",
-        "opened"
+       "هُوَ": [
+        "ذَهَبَ",
+        "رَمَى",
+        "نَفَخَ"
        ],
-       "Changes": [
-        "taught",
-        "threw",
-        "broke",
-        "forgave"
+       "هِيَ": [
+        "زَارَتْ",
+        "فَحَصَتْ",
+        "سَاعَدَتْ"
+       ],
+       "هُمْ": [
+        "كَانُوا",
+        "سَاعَدُوا",
+        "ذَهَبُوا"
        ]
       },
-      "explanation": "Many verbs add -ed: visit → visited, check → checked. Some verbs change: teach → taught, throw → threw, break → broke, forgive → forgave.",
+      "explanation": "لـ«هُوَ»: ذَهَبَ (الرئيس). لـ«هِيَ» نزيد «ـتْ»: زَارَتْ (الجماعة). لـ«هُمْ» نزيد «ـوا»: سَاعَدُوا (الأخيّون).",
       "feedback": {
-       "correct": "Well done. You found the two kinds of past.",
-       "incorrect": "Say the verb today: visit, teach … Does it add -ed or change?"
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "انْظُرْ إِلَى آخِرِ الْفِعْلِ."
       }
      },
      {
-      "id": "ahilik-a1-language-review-2",
+      "id": "ahilik-a1-ar-language-review-2",
       "type": "choose-form",
-      "title": "Practise: So, But",
-      "instructions": "Choose the right word.",
-      "question": "So or but?",
+      "title": "تَدَرَّبْ: لَكِنَّ أَمْ لِأَنَّ؟",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "لَكِنَّ أَمْ لِأَنَّ؟",
       "formChoices": [
        {
-        "sentence": "They were generous, [choice] they helped poor people.",
+        "sentence": "بَدَتِ الْأَحْذِيَةُ جَمِيلَةً، [choice] مَا كَانَتْ قَوِيَّةً.",
         "options": [
-         "so",
-         "but"
+         "لَكِنَّهَا",
+         "لِأَنَّهَا"
         ],
         "answer": 0
        },
        {
-        "sentence": "The shoes looked nice, [choice] they were not strong.",
+        "sentence": "انْكَسَرَتِ الْأَكْوَابُ [choice] فِيهَا فُقَّاعَاتٍ.",
         "options": [
-         "but",
-         "so"
+         "لِأَنَّ",
+         "لَكِنَّ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "So tells what happened next. But shows a different idea.",
+      "explanation": "«لَكِنَّ» تقول فكرة مختلفة. و«لِأَنَّ» تقول السبب.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Generous → helped: so. Nice ≠ not strong: but."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "فِكْرَةٌ مُخْتَلِفَةٌ أَمْ سَبَبٌ؟"
       }
      },
      {
-      "id": "ahilik-a1-language-review-3",
+      "id": "ahilik-a1-ar-language-review-3",
       "type": "choose-form",
-      "title": "Practise: Was, Were",
-      "instructions": "Choose was or were.",
-      "question": "One or many?",
+      "title": "تَدَرَّبْ: صَارَ، لَسْتَ، اصْنَعْ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ؟",
       "formChoices": [
        {
-        "sentence": "The customers [choice] very angry.",
+        "sentence": "صَارَ الصَّبِيُّ [choice] جَيِّدًا.",
         "options": [
-         "were",
-         "was"
+         "عَامِلًا",
+         "عَامِلٌ",
+         "عَامِلٍ"
         ],
         "answer": 0
        },
        {
-        "sentence": "This [choice] a warning for the shoemaker.",
+        "sentence": "أَنْتَ [choice] مُسْتَعِدًّا بَعْدُ.",
         "options": [
-         "was",
-         "were"
+         "لَسْتَ",
+         "لَسْتُ",
+         "لَيْسَ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] أَحْذِيَةً جَيِّدَةً!",
+        "options": [
+         "اصْنَعْ",
+         "صَنَعَ",
+         "يَصْنَعُ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "One thing: was. Two or more: were.",
+      "explanation": "بعد «صَارَ»: عَامِلًا. مع «أَنْتَ»: لَسْتَ. للأمر: اصْنَعْ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Customers = many. This = one."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "رَاجِعِ الْفُصُولَ ٣ وَ٥ وَ٦."
       }
      },
      {
-      "id": "ahilik-a1-language-review-4",
+      "id": "ahilik-a1-ar-language-review-4",
       "type": "word-bank",
-      "title": "Practise: Ready",
-      "instructions": "Fill the gaps with the words.",
-      "question": "Was he ready?",
-      "fillBlanksText": "“You are not ready [blank].” The young learner did [blank] listen. Later, the master said, “[blank] you are ready.”",
+      "title": "تَدَرَّبْ: مَا، أَنْ، بِسَبَبِ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "أَيُّ كَلِمَةٍ؟",
+      "fillBlanksText": "[blank] قَالُوا الْكَذِبَ قَطُّ. أَرَادَ الْإِسْكَافُ [blank] يَكْسِبَ مَالًا أَكْثَرَ. انْكَسَرَتِ الْأَكْوَابُ [blank] الْفُقَّاعَاتِ.",
       "wordBank": [
-       "yet",
-       "not",
-       "Now",
-       "no",
-       "Never"
+       "مَا",
+       "أَنْ",
+       "بِسَبَبِ",
+       "فِي",
+       "لَسْتَ"
       ],
       "correctAnswer": [
-       "yet",
-       "not",
-       "Now"
+       "مَا",
+       "أَنْ",
+       "بِسَبَبِ"
       ],
-      "explanation": "Not … yet = not now. Did not + verb. Now = at this time.",
+      "explanation": "«مَا» + ماضٍ = لم يفعل. «أَرَادَ أَنْ» + فعل. «بِسَبَبِ» + اسم للسبب.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Find these words in Chapters 6 and 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ابْحَثْ فِي الْفُصُولِ ٢ وَ٤ وَ٧."
       }
      },
      {
-      "id": "ahilik-a1-language-review-5",
+      "id": "ahilik-a1-ar-language-review-5",
       "type": "error-correction",
-      "title": "Practise: Fix One Word",
-      "instructions": "Find the wrong word. Choose the right word.",
-      "question": "Which word is wrong?",
+      "title": "تَدَرَّبْ: صَحِّحْ كَلِمَةً وَاحِدَةً",
+      "instructions": "ابْحَثْ عَنِ الْكَلِمَةِ الْخَطَأِ وَصَحِّحْهَا.",
+      "question": "أَيُّ كَلِمَةٍ خَطَأٌ؟",
       "errorItems": [
        {
-        "sentence": "The master teached him the job.",
-        "error": "teached",
+        "sentence": "الْجَمَاعَةُ زَارَ الدَّكَاكِينَ.",
+        "error": "زَارَ",
         "options": [
-         "taught",
-         "teach",
-         "teaches"
+         "زَارَتِ",
+         "زَارُوا",
+         "يَزُورُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "All the cups breaked.",
-        "error": "breaked",
+        "sentence": "الْأَخِيُّونَ كَانَ صَادِقِينَ.",
+        "error": "كَانَ",
         "options": [
-         "break",
-         "broke",
-         "breaks"
+         "كَانُوا",
+         "كَانَتْ",
+         "يَكُونُ"
         ],
-        "answer": 1
+        "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Teach” and “break” change in the past: taught, broke.",
+      "explanation": "الجماعة مؤنث: زَارَتْ. والأخيّون جماعة ناس: كَانُوا.",
       "feedback": {
-       "correct": "Well done.",
-       "incorrect": "Teach → taught. Break → broke. They do not take -ed."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "هُوَ؟ هِيَ؟ هُمْ؟"
       }
      },
      {
-      "id": "ahilik-a1-language-review-6",
+      "id": "ahilik-a1-ar-language-review-6",
       "type": "reflection",
-      "title": "Use: A Good Worker",
-      "instructions": "Write three sentences about a good worker.",
-      "question": "What is a good worker like?",
+      "title": "اسْتَعْمِلْ: عَمَلٌ جَيِّدٌ",
+      "instructions": "اكْتُبْ ثَلَاثَ جُمَلٍ عَنْ عَمَلٍ جَيِّدٍ.",
+      "question": "كَيْفَ نَعْمَلُ عَمَلًا جَيِّدًا؟",
       "correctAnswer": null,
-      "explanation": "Use is + adjective, never and so.",
+      "explanation": "استعمل «أَصِيرَ»، و«لَكِنَّ»، وكلمة أمر.",
       "feedback": {
-       "correct": "Write three short sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "One adjective: “A good worker is …”",
+        "question": "«صَارَ / أُرِيدُ أَنْ أَصِيرَ …»",
         "mode": "Individual",
-        "example": "A good worker is honest."
+        "example": "أُرِيدُ أَنْ أَصِيرَ نَجَّارًا جَيِّدًا."
        },
        {
-        "question": "One “never”: “A good worker never …”",
+        "question": "«… لَكِنَّ …»",
         "mode": "Individual",
-        "example": "A good worker never tells lies."
+        "example": "الْعَمَلُ صَعْبٌ، لَكِنَّهُ جَمِيلٌ."
        },
        {
-        "question": "One “so”: “He is kind, so …”",
+        "question": "«اعْمَلْ … بِعِنَايَةٍ.»",
         "mode": "Individual",
-        "example": "He is kind, so people love him."
+        "example": "اعْمَلْ بِعِنَايَةٍ."
        }
       ]
      }
@@ -2150,163 +2080,163 @@
    {
     "id": 14,
     "type": "final-challenge",
-    "title": "Final Challenge",
+    "title": "التحدي النهائي",
     "image": "https://picsum.photos/seed/challenge-ahilik-a1/1200/800",
-    "content": "Bring the whole story together in the Final Challenge.",
+    "content": "اخْتَبِرْ مَعْرِفَتَكَ بِقِصَّةِ تَنْظِيمِ الْأَخِيَّةِ كَامِلَةً.",
     "exercises": [
      {
-      "id": "ahilik-a1-final-1",
+      "id": "ahilik-a1-ar-final-1",
       "type": "fill-blanks",
-      "title": "A Group for Workers",
-      "instructions": "Write one word.",
-      "question": "What did the group visit?",
-      "fillBlanksText": "It visited the [blank] and checked their work.",
+      "title": "جَمَاعَةٌ لِلْعُمَّالِ",
+      "instructions": "اكْتُبِ الْكَلِمَةَ النَّاقِصَةَ.",
+      "question": "لِمَنْ كَانَتِ الْجَمَاعَةُ؟",
+      "fillBlanksText": "كَانَتْ جَمَاعَةً [blank] وَالْمُعَلِّمِينَ.",
       "correctAnswer": [
-       "shops"
+       "لِلْعُمَّالِ"
       ],
-      "explanation": "Chapter 1: “It visited the shops and checked their work.”",
+      "explanation": "الفصل الأول: «كَانَتْ جَمَاعَةً لِلْعُمَّالِ وَالْمُعَلِّمِينَ».",
       "feedback": {
-       "correct": "Yes. The shops.",
-       "incorrect": "Read the second paragraph of Chapter 1."
+       "correct": "نَعَمْ. لِلْعُمَّالِ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "ahilik-a1-final-2",
+      "id": "ahilik-a1-ar-final-2",
       "type": "multiple-choice",
-      "title": "Good People",
-      "instructions": "Choose the answer.",
-      "question": "For the Ahîs, what went together?",
+      "title": "نَاسٌ طَيِّبُونَ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مِمَّنْ تَعَلَّمَ الْأَخِيُّونَ الشَّبَابُ الْآدَابَ الْحَسَنَةَ؟",
       "options": [
-       "good work and a good heart",
-       "money and gold",
-       "shoes and bags"
+       "مِنْ أَسَاتِذَتِهِمْ",
+       "مِنَ الزَّبَائِنِ",
+       "مِنَ الْجِيرَانِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: “For them, good work and a good heart always went together.”",
+      "explanation": "الفصل الثاني: «وَتَعَلَّمَ الْأَخِيُّونَ الشَّبَابُ الْآدَابَ الْحَسَنَةَ مِنْ أَسَاتِذَتِهِمْ أَيْضًا».",
       "feedback": {
-       "correct": "Yes. Good work and a good heart.",
-       "incorrect": "Read the second paragraph of Chapter 2."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "ahilik-a1-final-3",
+      "id": "ahilik-a1-ar-final-3",
       "type": "true-false",
-      "title": "Bad Work",
-      "instructions": "Is it true or false?",
-      "question": "For the Ahîs, bad work was a shame.",
+      "title": "الْعَمَلُ السَّيِّئُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "عِنْدَ الْأَخِيِّينَ، كَانَ الْعَمَلُ السَّيِّئُ عَارًا.",
       "correctAnswer": true,
-      "explanation": "Chapter 3: “For the Ahîs, bad work was a shame.”",
+      "explanation": "الفصل الثالث: «عِنْدَ الْأَخِيِّينَ، كَانَ الْعَمَلُ السَّيِّئُ عَارًا».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "ahilik-a1-final-4",
+      "id": "ahilik-a1-ar-final-4",
       "type": "matching",
-      "title": "Who Is It?",
-      "instructions": "Match the person with the sentence.",
-      "question": "Who is it?",
+      "title": "مَنْ قَالَ؟",
+      "instructions": "صِلِ الْأَشْخَاصَ بِكَلَامِهِمْ.",
+      "question": "مَنْ قَالَ؟",
       "matchingHeadings": {
-       "left": "Person",
-       "right": "Sentence"
+       "left": "مَنْ؟",
+       "right": "الْكَلَامُ"
       },
       "matchingPairs": [
        {
-        "left": "the shoemaker",
-        "right": "He used cheap leather."
+        "left": "الزَّبَائِنُ",
+        "right": "«انْظُرْ إِلَى هَذِهِ الْأَحْذِيَةِ!»"
        },
        {
-        "left": "the Ahî leader",
-        "right": "He threw the shoes on the roof."
+        "left": "الْمُعَلِّمُ",
+        "right": "«أَنْتَ لَسْتَ مُسْتَعِدًّا بَعْدُ.»"
        },
        {
-        "left": "the kind master",
-        "right": "He forgave the young learner."
+        "left": "الشَّابُّ",
+        "right": "«أَنَا آسِفٌ.»"
        }
       ],
       "correctAnswer": {
-       "the shoemaker": "He used cheap leather.",
-       "the Ahî leader": "He threw the shoes on the roof.",
-       "the kind master": "He forgave the young learner."
+       "الزَّبَائِنُ": "«انْظُرْ إِلَى هَذِهِ الْأَحْذِيَةِ!»",
+       "الْمُعَلِّمُ": "«أَنْتَ لَسْتَ مُسْتَعِدًّا بَعْدُ.»",
+       "الشَّابُّ": "«أَنَا آسِفٌ.»"
       },
-      "explanation": "Chapter 4: the shoemaker. Chapter 5: the Ahî leader. Chapter 6: the kind master.",
+      "explanation": "الفصل الرابع: الزبائن. الفصل السادس: المعلم والشاب.",
       "feedback": {
-       "correct": "Good. You matched all three.",
-       "incorrect": "Read Chapters 4, 5 and 6 again."
+       "correct": "أَحْسَنْتَ. وَصَلْتَ الثَّلَاثَةَ.",
+       "incorrect": "اقْرَأِ الْفَصْلَيْنِ ٤ وَ٦."
       }
      },
      {
-      "id": "ahilik-a1-final-5",
+      "id": "ahilik-a1-ar-final-5",
       "type": "multiple-choice",
-      "title": "Pabucu Dama Atılmak",
-      "instructions": "Choose the answer.",
-      "question": "What does “pabucu dama atılmak” mean?",
+      "title": "التَّحْذِيرُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "لِمَاذَا رَمَى رَئِيسُ الْأَخِيَّةِ الْأَحْذِيَةَ عَلَى السَّطْحِ؟",
       "options": [
-       "“His shoes are on the roof.”",
-       "“His shoes are new.”",
-       "“His shop is open.”"
+       "تَحْذِيرًا لِلْإِسْكَافِ",
+       "لِأَنَّهُ كَانَ يَلْعَبُ",
+       "لِأَنَّ الْأَحْذِيَةَ جَيِّدَةٌ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “In Turkish, people still say ‘pabucu dama atılmak’. It means ‘his shoes are on the roof’.”",
+      "explanation": "الفصل الخامس: «كَانَ هَذَا تَحْذِيرًا لِلْإِسْكَافِ».",
       "feedback": {
-       "correct": "Yes.",
-       "incorrect": "Read the last part of Chapter 5."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الْخَامِسِ."
       }
      },
      {
-      "id": "ahilik-a1-final-6",
+      "id": "ahilik-a1-ar-final-6",
       "type": "true-false",
-      "title": "The Young Learner",
-      "instructions": "Is it true or false?",
-      "question": "The young learner lost all his money.",
-      "correctAnswer": true,
-      "explanation": "Chapter 6: “Nobody wanted his cups, and he lost all his money.”",
+      "title": "الْمُعَلِّمُ الطَّيِّبُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "غَضِبَ الْمُعَلِّمُ، وَمَا سَامَحَ الشَّابَّ.",
+      "correctAnswer": false,
+      "explanation": "الفصل السادس: «سَامَحَهُ مُعَلِّمُهُ الطَّيِّبُ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "نَعَمْ، هَذَا خَطَأٌ. سَامَحَهُ.",
+       "incorrect": "اقْرَأْ آخِرَ الْفَصْلِ السَّادِسِ."
       }
      },
      {
-      "id": "ahilik-a1-final-7",
+      "id": "ahilik-a1-ar-final-7",
       "type": "multiple-choice",
-      "title": "The Dark Room",
-      "instructions": "Choose the answer.",
-      "question": "How did light come into the dark room?",
+      "title": "سِرُّ الْعَمَلِ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا فَعَلَ الْمُعَلِّمُ بِالْفُقَّاعَةِ؟",
       "options": [
-       "through a small hole in the ceiling",
-       "through a big door",
-       "through a window"
+       "نَفَخَ عَلَيْهَا، فَذَهَبَتْ.",
+       "كَسَرَ الْكُوبَ.",
+       "أَعْطَاهَا لِلشَّابِّ."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: “A little light came in through a small hole in the ceiling.”",
+      "explanation": "الفصل السابع: نفخ المعلم على الكوب: «بُفْ!»، فذهبت الفقّاعة.",
       "feedback": {
-       "correct": "Yes. Through a small hole.",
-       "incorrect": "Read the first paragraph of Chapter 7."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ السَّابِعِ."
       }
      },
      {
-      "id": "ahilik-a1-final-8",
+      "id": "ahilik-a1-ar-final-8",
       "type": "sequencing",
-      "title": "The Glass Cups",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "قِصَّةُ الْأَخِيَّةِ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "The young learner opened a shop in a different city."
+        "text": "بَدَأَ شَابٌّ الْعَمَلَ صَبِيًّا."
        },
        {
         "id": "2",
-        "text": "The young learner went back and said, “I am sorry.”"
+        "text": "رَمَى رَئِيسُ الْأَخِيَّةِ الْأَحْذِيَةَ عَلَى السَّطْحِ."
        },
        {
         "id": "3",
-        "text": "The master showed the young learner the air bubble."
+        "text": "انْكَسَرَتْ أَكْوَابُ الشَّابِّ."
        },
        {
         "id": "4",
-        "text": "The young learner opened a very good shop."
+        "text": "فَهِمَ الشَّابُّ سِرَّ الزُّجَاجِ."
        }
       ],
       "correctAnswer": [
@@ -2315,10 +2245,10 @@
        "3",
        "4"
       ],
-      "explanation": "A shop in a different city (Chapter 6) → “I am sorry” (Chapter 6) → the bubble (Chapter 7) → a very good shop (Chapter 7).",
+      "explanation": "الصبيّ (الفصل ٣) ← الأحذية على السطح (الفصل ٥) ← الأكواب المكسورة (الفصل ٦) ← سرّ الزجاج (الفصل ٧).",
       "feedback": {
-       "correct": "Great! You know the story of the glass cups.",
-       "incorrect": "Think about the order of Chapters 6 and 7."
+       "correct": "رَائِعٌ! أَنْتَ تَعْرِفُ قِصَصَ الْأَخِيَّةِ.",
+       "incorrect": "فَكِّرْ فِي تَرْتِيبِ الْفُصُولِ."
       }
      }
     ]

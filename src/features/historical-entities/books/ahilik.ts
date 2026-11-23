@@ -4,7 +4,7 @@ import type { EntityBookSet } from './index';
 
 // Places & People cards for The Ahî Organization (A1–B2). A1 and A2 share the simple cards;
 // B1 and B2 share the full set. Pictures: Storage places-people/ahilik/ (shared ones from yunus/ and andalus/).
-// English only for now: the Arabic copy repeats the English until the Arabic edition arrives.
+// The Arabic copy and aliases live in src/content/entityCards.json (Arabic edition 2026-11-23, hidden with arabicHidden).
 // Copy never goes beyond the story. A card without a picture file shows a placeholder.
 
 type Text = { title: string; kindLabel: string; periodLabel: string; summary: string; more?: string };
