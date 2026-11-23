@@ -16,11 +16,27 @@
         "title": "What Is Waste?",
         "image": "",
         "audioUrl": "",
-        "content": "Waste is any material that people do not want anymore. Usually, it is what is left after we have used the useful parts of something. However, the idea of zero waste looks at waste in a different way. From this point of view, waste is not just something left over. It is the result of poor product planning and the way we consume things. The basic idea of zero waste is to stop making rubbish as much as we can.\n\nSome numbers show how serious the problem is. In 2023, the world produced 2.3 billion tons of city waste. Experts expect this number to reach 3.8 billion tons by 2050. At the same time, only 62 percent of city waste is treated in proper waste facilities.\n\nFood and other organic materials make up the largest part of city waste. Paper, cardboard and plastic follow closely. As countries become richer, their waste also changes. The fast rise in plastic waste is especially worrying because huge amounts of it end up in oceans and rivers. City waste also contains many other materials, and each one needs its own way of collection and recycling.",
+        "content": "Waste is any material that people no longer want or use. Usually, it is what is left when a product can no longer be used. However, the concept of zero waste looks at waste differently. From this point of view, waste is not just something left over. It is the result of poor product design and the way we consume things. The core idea of zero waste is to prevent waste as much as possible.\n\nSeveral figures show how serious the problem is. In 2023, the world generated 2.3 billion tons of municipal waste, and experts expect this figure to reach 3.8 billion tons by 2050. At the same time, only 62 percent of this waste is managed in proper waste facilities.\n\nFood and other organic materials make up the largest share of municipal waste, followed closely by paper, cardboard, and plastic. As countries become wealthier, the type of waste they produce also changes. The rapid growth of plastic waste is particularly concerning, because huge amounts of it end up in rivers and oceans. Municipal waste also contains many other materials, and each type requires its own method of collection and recycling.",
         "vocabulary": [
+          {
+            "word": "concept",
+            "definition": "An idea or a way of thinking about something."
+          },
           {
             "word": "consume",
             "definition": "To use things such as food, energy or products."
+          },
+          {
+            "word": "core",
+            "definition": "The most important or central part of something."
+          },
+          {
+            "word": "generate",
+            "definition": "To make or produce something."
+          },
+          {
+            "word": "municipal",
+            "definition": "Belonging to a town or city and its local government."
           },
           {
             "word": "expect",
@@ -35,8 +51,8 @@
             "definition": "Coming from living things, such as plants or animals."
           },
           {
-            "word": "worrying",
-            "definition": "Making people feel that something bad may happen."
+            "word": "concerning",
+            "definition": "Making people worried."
           },
           {
             "word": "end up",
@@ -49,14 +65,14 @@
             "x": 30,
             "y": 40,
             "title": "A Different Way",
-            "description": "However, the idea of zero waste looks at waste in a different way."
+            "description": "However, the concept of zero waste looks at waste differently."
           },
           {
             "id": "zeroWaste-b1-en-h1b",
             "x": 70,
             "y": 45,
             "title": "62 Percent",
-            "description": "At the same time, only 62 percent of city waste is treated in proper waste facilities."
+            "description": "At the same time, only 62 percent of this waste is managed in proper waste facilities."
           }
         ],
         "exercises": [
@@ -66,11 +82,11 @@
             "title": "Another Point of View",
             "instructions": "Choose the answer that the chapter supports.",
             "question": "According to the zero waste idea, what is waste the result of?",
-            "options": ["poor product planning and the way we consume things", "too many recycling bins", "cold weather"],
+            "options": ["poor product design and the way we consume things", "too many recycling bins", "cold weather"],
             "correctAnswer": 0,
-            "explanation": "Chapter 1: “It is the result of poor product planning and the way we consume things.”",
+            "explanation": "Chapter 1: “It is the result of poor product design and the way we consume things.”",
             "feedback": {
-              "correct": "Correct. Poor planning and the way we consume.",
+              "correct": "Correct. Poor design and the way we consume.",
               "incorrect": "Read the first paragraph."
             }
           }
@@ -81,7 +97,7 @@
             "type": "multiple-choice",
             "title": "Notice: Expect … To",
             "instructions": "Read the sentence. Then choose what it shows.",
-            "question": "“Experts expect this number to reach 3.8 billion tons by 2050.” What does this sentence show?",
+            "question": "“… experts expect this figure to reach 3.8 billion tons by 2050.” What does this part show?",
             "options": ["what experts think will probably happen", "what happened in 2023", "what experts want to stop now"],
             "correctAnswer": 0,
             "explanation": "“Expect + object + to + verb” shows what people think will probably happen.",
@@ -98,12 +114,12 @@
             "question": "Which form fits?",
             "formChoices": [
               {
-                "sentence": "Experts expect this number [choice] 3.8 billion tons by 2050.",
+                "sentence": "Experts expect this figure [choice] 3.8 billion tons by 2050.",
                 "options": ["to reach", "reaching", "reach"],
                 "answer": 0
               },
               {
-                "sentence": "Only 62 percent of city waste [choice] treated in proper waste facilities.",
+                "sentence": "Only 62 percent of municipal waste [choice] managed in proper waste facilities.",
                 "options": ["is", "are", "be"],
                 "answer": 0
               },
@@ -128,18 +144,18 @@
             "question": "How else can we say it?",
             "transformItems": [
               {
-                "source": "Experts expect this number to reach 3.8 billion tons by 2050.",
-                "frame": "This number will [blank] reach 3.8 billion tons by 2050.",
+                "source": "Experts expect this figure to reach 3.8 billion tons by 2050.",
+                "frame": "This figure will [blank] reach 3.8 billion tons by 2050.",
                 "answers": ["probably"]
               },
               {
-                "source": "Only 62 percent of city waste is treated in proper waste facilities.",
-                "frame": "Proper waste facilities [blank] only 62 percent of city waste.",
-                "answers": ["treat"]
+                "source": "Only 62 percent of municipal waste is managed in proper waste facilities.",
+                "frame": "Proper waste facilities [blank] only 62 percent of municipal waste.",
+                "answers": ["manage"]
               },
               {
-                "source": "Food and other organic materials make up the largest part of city waste.",
-                "frame": "The largest part of city waste [blank] of food and other organic materials.",
+                "source": "Food and other organic materials make up the largest share of municipal waste.",
+                "frame": "The largest share of municipal waste [blank] of food and other organic materials.",
                 "answers": ["consists"]
               }
             ],
@@ -183,15 +199,15 @@
         ],
         "beforeYouRead": {
           "kind": "find",
-          "question": "Find it fast: How much city waste did the world produce in 2023?",
+          "question": "Find it fast: How much municipal waste did the world generate in 2023?",
           "options": ["2.3 billion tons", "3.8 billion tons", "62 million tons"],
           "answer": 0,
-          "quote": "In 2023, the world produced 2.3 billion tons of city waste."
+          "quote": "In 2023, the world generated 2.3 billion tons of municipal waste"
         },
         "iCan": [
           "I can explain how zero waste looks at waste.",
-          "I can explain the numbers about city waste.",
-          "I can use expect + object + to and the passive is treated."
+          "I can explain the numbers about municipal waste.",
+          "I can use expect + object + to and the passive is managed."
         ]
       },
       {
@@ -200,7 +216,7 @@
         "title": "Paper and Wood",
         "image": "",
         "audioUrl": "",
-        "content": "Paper comes from forests. Recycling paper is important because it saves a great amount of raw materials. It is also valuable for the economy.\n\nPaper waste is collected separately from other waste so that it does not get wet. Then it is pressed into blocks, which makes it easier to transport. In recycling facilities, the old paper is processed and turned into new paper and cardboard products.\n\nWood comes from trees, and we use it every day in furniture, packaging and buildings. It is also an important material for carrying and protecting many kinds of products. Recycling centers turn wood waste into useful timber and boards. In this way, the wood can be used again instead of being thrown away.",
+        "content": "Paper comes from forests, and recycling it is important because it saves a large amount of raw materials. It is also valuable for the economy.\n\nPaper waste is collected separately from other waste so that it stays dry. Then, it is pressed into large bales, which makes it easier to transport. In recycling facilities, the used paper is processed and turned into new paper and cardboard products.\n\nWood comes from trees, and we use it every day in furniture, packaging, and construction. It is also an important material for shipping and protecting many kinds of goods, such as wooden pallets and crates. Recycling facilities turn wood waste into useful timber and boards. In this way, the wood can be reused instead of being thrown away.",
         "vocabulary": [
           {
             "word": "raw materials",
@@ -209,6 +225,10 @@
           {
             "word": "press",
             "definition": "To push hard on something to make it smaller or flat."
+          },
+          {
+            "word": "bales",
+            "definition": "A large amount of paper, hay or other material pressed tightly together."
           },
           {
             "word": "transport",
@@ -223,6 +243,18 @@
             "definition": "Thick, strong paper used for boxes."
           },
           {
+            "word": "construction",
+            "definition": "The work of building houses, roads and other structures."
+          },
+          {
+            "word": "pallets",
+            "definition": "A flat wooden frame for carrying and storing goods."
+          },
+          {
+            "word": "crates",
+            "definition": "A large box, usually made of wood, for carrying goods."
+          },
+          {
             "word": "timber",
             "definition": "Wood that is ready for building or making things."
           }
@@ -232,15 +264,15 @@
             "id": "zeroWaste-b1-en-h2a",
             "x": 30,
             "y": 40,
-            "title": "Pressed into Blocks",
-            "description": "Then it is pressed into blocks, which makes it easier to transport."
+            "title": "Pressed into Bales",
+            "description": "Then, it is pressed into large bales, which makes it easier to transport."
           },
           {
             "id": "zeroWaste-b1-en-h2b",
             "x": 70,
             "y": 45,
             "title": "Timber and Boards",
-            "description": "Recycling centers turn wood waste into useful timber and boards."
+            "description": "Recycling facilities turn wood waste into useful timber and boards."
           }
         ],
         "exercises": [
@@ -250,9 +282,9 @@
             "title": "Why Recycle Paper?",
             "instructions": "Choose the answer that the chapter supports.",
             "question": "Why is recycling paper important?",
-            "options": ["It saves a great amount of raw materials.", "It makes paper wet.", "It needs more forests."],
+            "options": ["It saves a large amount of raw materials.", "It makes paper wet.", "It needs more forests."],
             "correctAnswer": 0,
-            "explanation": "Chapter 2: “Recycling paper is important because it saves a great amount of raw materials.”",
+            "explanation": "Chapter 2: “Paper comes from forests, and recycling it is important because it saves a large amount of raw materials.”",
             "feedback": {
               "correct": "Correct. It saves raw materials.",
               "incorrect": "Read the first paragraph."
@@ -265,7 +297,7 @@
             "type": "multiple-choice",
             "title": "Notice: Is Collected, Is Pressed",
             "instructions": "Read the sentences. Then choose why the writer uses the passive.",
-            "question": "“Paper waste is collected separately … Then it is pressed into blocks …” Why does the writer use the passive?",
+            "question": "“Paper waste is collected separately … Then, it is pressed into large bales …” Why does the writer use the passive?",
             "options": [
               "The process is more important than the people who do it.",
               "The writer does not know what paper is.",
@@ -291,7 +323,7 @@
               },
               {
                 "id": "2",
-                "text": "It is pressed into blocks."
+                "text": "It is pressed into large bales."
               },
               {
                 "id": "3",
@@ -303,7 +335,7 @@
               }
             ],
             "correctAnswer": ["1", "2", "3", "4"],
-            "explanation": "Chapter 2 describes the process: collected separately, pressed into blocks to make it easier to transport, then processed in recycling facilities.",
+            "explanation": "Chapter 2 describes the process: collected separately, pressed into bales to make it easier to transport, then processed in recycling facilities.",
             "feedback": {
               "correct": "Well done. Collected, pressed, transported, processed.",
               "incorrect": "Read the second paragraph."
@@ -317,23 +349,23 @@
             "question": "How else can we say it?",
             "transformItems": [
               {
-                "source": "Paper waste is collected separately so that it does not get wet.",
+                "source": "Paper waste is collected separately so that it stays dry.",
                 "frame": "Paper waste is collected separately to [blank] it dry.",
                 "answers": ["keep"]
               },
               {
-                "source": "It is pressed into blocks, which makes it easier to transport.",
-                "frame": "It is pressed into blocks, so it is [blank] to transport.",
+                "source": "It is pressed into large bales, which makes it easier to transport.",
+                "frame": "It is pressed into large bales, so it is [blank] to transport.",
                 "answers": ["easier"]
               },
               {
-                "source": "Recycling centers turn wood waste into useful timber.",
-                "frame": "Wood waste is [blank] into useful timber by recycling centers.",
+                "source": "Recycling facilities turn wood waste into useful timber.",
+                "frame": "Wood waste is [blank] into useful timber by recycling facilities.",
                 "answers": ["turned"]
               }
             ],
             "correctAnswer": null,
-            "explanation": "“So that it does not get wet” means “to keep it dry”. “Which makes it easier” gives a result. The active becomes the passive.",
+            "explanation": "“So that it stays dry” is close to “to keep it dry”. “Which makes it easier” gives a result. The active becomes the passive.",
             "feedback": {
               "correct": "Correct. Same meaning, new structure.",
               "incorrect": "Use keep, easier and turned."
@@ -373,9 +405,9 @@
         "beforeYouRead": {
           "kind": "guess",
           "question": "Guess first: Why is paper waste collected separately?",
-          "options": ["so that it does not get wet", "so that it gets heavier", "so that it can be burned"],
+          "options": ["so that it stays dry", "so that it gets heavier", "so that it can be burned"],
           "answer": 0,
-          "quote": "so that it does not get wet"
+          "quote": "so that it stays dry"
         },
         "iCan": [
           "I can explain how paper and wood are recycled.",
@@ -389,7 +421,7 @@
         "title": "Plastic",
         "image": "",
         "audioUrl": "",
-        "content": "Plastic is a basic material in many of the products we buy, and a lot of manufactured goods contain it. However, there are different types of plastic, so they cannot all be recycled in the same way.\n\nBetween 2000 and 2019, global plastic production almost doubled. It rose from 234 to 460 million tons, an increase of 97 percent. During the same period, plastic waste grew even faster. It rose from 156 to 353 million tons, an increase of 126 percent.\n\nSo what happened to all this plastic waste at the end of its life? Only 9 percent was recycled, and 19 percent was burned in waste facilities. Half of it, 50 percent, went into landfills. The other 22 percent was left in open dumps, burned in the open air or escaped into nature. Most of this plastic ended up in rivers, lakes and seas.",
+        "content": "Plastic is a basic material in many of the products we buy, and a lot of manufactured goods contain it. However, there are different types of plastic, so they cannot all be recycled in the same way.\n\nBetween 2000 and 2019, global plastic production almost doubled. It rose from 234 to 460 million tons, an increase of 97 percent. During the same period, plastic waste grew even faster. It rose from 156 to 353 million tons, an increase of 126 percent. So what happens to all this plastic waste at the end of its life?\n\nLet’s look at the figures from the year 2019. Only 9 percent was recycled, and 19 percent was burned in waste facilities. Half of it, 50 percent, went into landfills. The other 22 percent was left in open dumps, burned in the open air or escaped into nature. Most of this plastic ended up in rivers, lakes and seas.",
         "vocabulary": [
           {
             "word": "manufactured goods",
@@ -2622,15 +2654,15 @@
             "chapter": 1,
             "label": "2023",
             "value": "2.3 billion tons",
-            "title": "The world produced 2.3 billion tons of city waste.",
-            "text": "Experts expect this number to reach 3.8 billion tons by 2050."
+            "title": "The world produced 2.3 billion tons of municipal waste.",
+            "text": "Experts expect this figure to reach 3.8 billion tons by 2050."
           },
           {
             "chapter": 2,
             "label": "Paper",
             "value": "Raw materials",
-            "title": "Recycling paper saves a great amount of raw materials.",
-            "text": "Paper waste is collected separately so that it does not get wet."
+            "title": "Recycling paper saves a large amount of raw materials.",
+            "text": "Paper waste is collected separately so that it stays dry."
           },
           {
             "chapter": 3,
@@ -2731,12 +2763,12 @@
             "type": "multiple-choice",
             "title": "A Different View",
             "instructions": "Choose the answer that the book supports.",
-            "question": "What is the basic idea of zero waste?",
-            "options": ["to stop making rubbish as much as we can", "to burn all rubbish", "to build more landfills"],
+            "question": "What is the core idea of zero waste?",
+            "options": ["to prevent waste as much as possible", "to burn all rubbish", "to build more landfills"],
             "correctAnswer": 0,
-            "explanation": "Chapter 1: “The basic idea of zero waste is to stop making rubbish as much as we can.”",
+            "explanation": "Chapter 1: “The core idea of zero waste is to prevent waste as much as possible.”",
             "feedback": {
-              "correct": "Correct. Stop making rubbish.",
+              "correct": "Correct. Prevent waste.",
               "incorrect": "Read the end of the first paragraph of Chapter 1."
             }
           },
@@ -2845,6 +2877,17 @@
         "image": "",
         "vocabulary": [
           {
+            "word": "concept",
+            "definition": "An idea or a way of thinking about something.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈkɑːnsept/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "What Is Waste?",
+            "storyExample": "However, the concept of zero waste looks at waste differently."
+          },
+          {
             "word": "consume",
             "definition": "To use things such as food, energy or products.",
             "partOfSpeech": "verb",
@@ -2853,7 +2896,40 @@
             "level": "B1",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "It is the result of poor product planning and the way we consume things."
+            "storyExample": "It is the result of poor product design and the way we consume things."
+          },
+          {
+            "word": "core",
+            "definition": "The most important or central part of something.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/kɔːr/",
+            "category": "Thinking & Learning",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "What Is Waste?",
+            "storyExample": "The core idea of zero waste is to prevent waste as much as possible."
+          },
+          {
+            "word": "generate",
+            "definition": "To make or produce something.",
+            "partOfSpeech": "verb",
+            "pronunciation": "/ˈdʒenəreɪt/",
+            "category": "Work & Economy",
+            "level": "B2",
+            "chapter": 1,
+            "chapterTitle": "What Is Waste?",
+            "storyExample": "In 2023, the world generated 2.3 billion tons of municipal waste, and experts expect this figure to reach 3.8 billion tons by 2050."
+          },
+          {
+            "word": "municipal",
+            "definition": "Belonging to a town or city and its local government.",
+            "partOfSpeech": "adjective",
+            "pronunciation": "/mjuːˈnɪsɪpl/",
+            "category": "Places",
+            "level": "C1",
+            "chapter": 1,
+            "chapterTitle": "What Is Waste?",
+            "storyExample": "In 2023, the world generated 2.3 billion tons of municipal waste, and experts expect this figure to reach 3.8 billion tons by 2050."
           },
           {
             "word": "expect",
@@ -2864,7 +2940,7 @@
             "level": "B1",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "Experts expect this number to reach 3.8 billion tons by 2050."
+            "storyExample": "In 2023, the world generated 2.3 billion tons of municipal waste, and experts expect this figure to reach 3.8 billion tons by 2050."
           },
           {
             "word": "facility",
@@ -2875,7 +2951,7 @@
             "level": "B1",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "At the same time, only 62 percent of city waste is treated in proper waste facilities."
+            "storyExample": "At the same time, only 62 percent of this waste is managed in proper waste facilities."
           },
           {
             "word": "organic",
@@ -2886,18 +2962,18 @@
             "level": "B1",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "Food and other organic materials make up the largest part of city waste."
+            "storyExample": "Food and other organic materials make up the largest share of municipal waste, followed closely by paper, cardboard, and plastic."
           },
           {
-            "word": "worrying",
-            "definition": "Making people feel that something bad may happen.",
+            "word": "concerning",
+            "definition": "Making people worried.",
             "partOfSpeech": "adjective",
-            "pronunciation": "/ˈwɜːriɪŋ/",
+            "pronunciation": "/kənˈsɜːrnɪŋ/",
             "category": "Feelings & Character",
-            "level": "B1",
+            "level": "B2",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "The fast rise in plastic waste is especially worrying because huge amounts of it end up in oceans and rivers."
+            "storyExample": "The rapid growth of plastic waste is particularly concerning, because huge amounts of it end up in rivers and oceans."
           },
           {
             "word": "end up",
@@ -2908,7 +2984,7 @@
             "level": "B1",
             "chapter": 1,
             "chapterTitle": "What Is Waste?",
-            "storyExample": "The fast rise in plastic waste is especially worrying because huge amounts of it end up in oceans and rivers."
+            "storyExample": "The rapid growth of plastic waste is particularly concerning, because huge amounts of it end up in rivers and oceans."
           },
           {
             "word": "raw materials",
@@ -2919,7 +2995,7 @@
             "level": "B1",
             "chapter": 2,
             "chapterTitle": "Paper and Wood",
-            "storyExample": "Recycling paper is important because it saves a great amount of raw materials."
+            "storyExample": "Paper comes from forests, and recycling it is important because it saves a large amount of raw materials."
           },
           {
             "word": "press",
@@ -2930,7 +3006,18 @@
             "level": "B1",
             "chapter": 2,
             "chapterTitle": "Paper and Wood",
-            "storyExample": "Then it is pressed into blocks, which makes it easier to transport."
+            "storyExample": "Then, it is pressed into large bales, which makes it easier to transport."
+          },
+          {
+            "word": "bales",
+            "definition": "A large amount of paper, hay or other material pressed tightly together.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/beɪlz/",
+            "category": "Objects & Materials",
+            "level": "C1",
+            "chapter": 2,
+            "chapterTitle": "Paper and Wood",
+            "storyExample": "Then, it is pressed into large bales, which makes it easier to transport."
           },
           {
             "word": "transport",
@@ -2941,7 +3028,7 @@
             "level": "B1",
             "chapter": 2,
             "chapterTitle": "Paper and Wood",
-            "storyExample": "Then it is pressed into blocks, which makes it easier to transport."
+            "storyExample": "Then, it is pressed into large bales, which makes it easier to transport."
           },
           {
             "word": "process",
@@ -2952,7 +3039,7 @@
             "level": "B1",
             "chapter": 2,
             "chapterTitle": "Paper and Wood",
-            "storyExample": "In recycling facilities, the old paper is processed and turned into new paper and cardboard products."
+            "storyExample": "In recycling facilities, the used paper is processed and turned into new paper and cardboard products."
           },
           {
             "word": "cardboard",
@@ -2963,7 +3050,40 @@
             "level": "B1",
             "chapter": 2,
             "chapterTitle": "Paper and Wood",
-            "storyExample": "In recycling facilities, the old paper is processed and turned into new paper and cardboard products."
+            "storyExample": "In recycling facilities, the used paper is processed and turned into new paper and cardboard products."
+          },
+          {
+            "word": "construction",
+            "definition": "The work of building houses, roads and other structures.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/kənˈstrʌkʃn/",
+            "category": "Work & Economy",
+            "level": "B1",
+            "chapter": 2,
+            "chapterTitle": "Paper and Wood",
+            "storyExample": "Wood comes from trees, and we use it every day in furniture, packaging, and construction."
+          },
+          {
+            "word": "pallets",
+            "definition": "A flat wooden frame for carrying and storing goods.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/ˈpæləts/",
+            "category": "Objects & Materials",
+            "level": "C1",
+            "chapter": 2,
+            "chapterTitle": "Paper and Wood",
+            "storyExample": "It is also an important material for shipping and protecting many kinds of goods, such as wooden pallets and crates."
+          },
+          {
+            "word": "crates",
+            "definition": "A large box, usually made of wood, for carrying goods.",
+            "partOfSpeech": "noun",
+            "pronunciation": "/kreɪts/",
+            "category": "Objects & Materials",
+            "level": "B2",
+            "chapter": 2,
+            "chapterTitle": "Paper and Wood",
+            "storyExample": "It is also an important material for shipping and protecting many kinds of goods, such as wooden pallets and crates."
           },
           {
             "word": "timber",
@@ -2974,7 +3094,7 @@
             "level": "B1",
             "chapter": 2,
             "chapterTitle": "Paper and Wood",
-            "storyExample": "Recycling centers turn wood waste into useful timber and boards."
+            "storyExample": "Recycling facilities turn wood waste into useful timber and boards."
           },
           {
             "word": "manufactured goods",
@@ -3975,12 +4095,12 @@
               },
               {
                 "group": "Active",
-                "items": ["Recycling centers turn wood waste into useful timber.", "Special facilities turn it into biodiesel."]
+                "items": ["Recycling facilities turn wood waste into useful timber.", "Special facilities turn it into biodiesel."]
               }
             ],
             "correctAnswer": {
               "Passive": ["Paper waste is collected separately.", "Glass waste is sorted by color.", "Only 9 percent was recycled."],
-              "Active": ["Recycling centers turn wood waste into useful timber.", "Special facilities turn it into biodiesel."]
+              "Active": ["Recycling facilities turn wood waste into useful timber.", "Special facilities turn it into biodiesel."]
             },
             "explanation": "Passive sentences use be + past participle. Active sentences show who does the action as the subject.",
             "feedback": {
@@ -4078,9 +4198,9 @@
                 "answer": 0
               },
               {
-                "sentence": "Experts expect this number reaching 3.8 billion tons.",
-                "error": "expect this number reaching",
-                "options": ["expect this number to reach", "expect this number reach", "expect to this number reach"],
+                "sentence": "Experts expect this figure reaching 3.8 billion tons.",
+                "error": "expect this figure reaching",
+                "options": ["expect this figure to reach", "expect this figure reach", "expect to this figure reach"],
                 "answer": 0
               },
               {
@@ -4093,7 +4213,7 @@
             "correctAnswer": null,
             "explanation": "“Made by + -ing”, “expect + object + to” and “be based on”.",
             "feedback": {
-              "correct": "Correct. Made by combining, expect this number to reach, based on.",
+              "correct": "Correct. Made by combining, expect this figure to reach, based on.",
               "incorrect": "Check the pattern after each verb."
             }
           },
@@ -4105,7 +4225,7 @@
             "question": "How else can we say it?",
             "transformItems": [
               {
-                "source": "Recycling centers turn wood waste into useful timber.",
+                "source": "Recycling facilities turn wood waste into useful timber.",
                 "frame": "Wood waste is [blank] into useful timber.",
                 "answers": ["turned"]
               },
@@ -4217,12 +4337,12 @@
           {
             "id": "zeroWaste-b1-final-1",
             "type": "multiple-choice",
-            "title": "City Waste",
+            "title": "Municipal Waste",
             "instructions": "Choose the answer that the book supports.",
-            "question": "What makes up the largest part of city waste?",
+            "question": "What makes up the largest share of municipal waste?",
             "options": ["food and other organic materials", "glass and metal", "electronic waste"],
             "correctAnswer": 0,
-            "explanation": "Chapter 1: “Food and other organic materials make up the largest part of city waste.”",
+            "explanation": "Chapter 1: “Food and other organic materials make up the largest share of municipal waste, followed closely by paper, cardboard, and plastic.”",
             "feedback": {
               "correct": "Correct. Food and organic materials.",
               "incorrect": "Read the third paragraph of Chapter 1."
@@ -4241,7 +4361,7 @@
             "matchingPairs": [
               {
                 "left": "paper",
-                "right": "is pressed into blocks"
+                "right": "is pressed into bales"
               },
               {
                 "left": "glass",
@@ -4257,7 +4377,7 @@
               }
             ],
             "correctAnswer": {
-              "paper": "is pressed into blocks",
+              "paper": "is pressed into bales",
               "glass": "is sorted by color",
               "vegetable waste oil": "is turned into biodiesel",
               "electronic waste": "is taken apart into smaller pieces"
@@ -4403,7 +4523,7 @@
               },
               {
                 "id": "2",
-                "text": "It is pressed into blocks."
+                "text": "It is pressed into large bales."
               },
               {
                 "id": "3",
@@ -4415,7 +4535,7 @@
               }
             ],
             "correctAnswer": ["1", "2", "3", "4"],
-            "explanation": "Chapter 2: “Paper waste is collected separately … Then it is pressed into blocks … In recycling facilities, the old paper is processed and turned into new paper and cardboard products.”",
+            "explanation": "Chapter 2: “Paper waste is collected separately … Then, it is pressed into large bales … In recycling facilities, the used paper is processed and turned into new paper and cardboard products.”",
             "feedback": {
               "correct": "Correct. Collected, pressed, processed, turned into new products.",
               "incorrect": "Read the second paragraph of Chapter 2."

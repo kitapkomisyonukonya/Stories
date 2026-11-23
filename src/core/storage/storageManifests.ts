@@ -206,6 +206,7 @@ export const storageManifests: Record<string, BookAssetManifest> = {
   [manifestKey('ibnJubayr', 'A1')]: media([], ['ibnJubayr/a1/audio'], ['ibnJubayr/a1/audio/arabic_audio']),
   [manifestKey('yunusEmre', 'A1')]: media([], ['yunusEmre/a1/audio'], ['yunusEmre/a1/audio/arabic_audio']),
   [manifestKey('gevherNesibe', 'A1')]: media([], ['gevherNesibe/a1/audio'], ['gevherNesibe/a1/audio/arabic_audio']),
+  [manifestKey('zeroWaste', 'A1')]: media([], ['zeroWaste/a1/audio'], []),
 };
 
 export const getStorageManifest = (storyId: StoryId, level: Level): BookAssetManifest =>

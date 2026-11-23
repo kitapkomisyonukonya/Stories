@@ -1229,12 +1229,8 @@
         "title": "What Is Zero Waste?",
         "image": "",
         "audioUrl": "",
-        "content": "When you hear the phrase ‘zero waste’, you might think it means producing absolutely no refuse. But that’s just not possible! We all use products and create waste every single day. So, what does ‘zero waste’ actually mean?\n\nZero Waste is a sustainable approach focused on using resources smartly and minimizing waste. This approach is based on the core principle of sustainability, which means meeting our current needs without damaging the resources that future generations will need. The Zero Waste approach encourages people to make and use things responsibly by avoiding waste, reusing items, and recycling. This mindset supports eco-friendly habits and invites us to look at the entire product lifecycle. In the end, this ensures nothing goes to waste, helping society see leftover materials as something valuable.\n\nEvery year, people generate between 2.1 and 2.3 billion tons of municipal waste. This means we are discarding valuable resources that could easily return to the economy and reduce the demand for new, raw materials. This ongoing pollution threatens our well-being, damages economies, and accelerates both climate change and biodiversity loss. In response to this global crisis, zero waste is recognized as an essential bridge to the circular economy.",
+        "content": "When you hear the phrase ‘zero waste’, you might think it means producing no waste at all. But that’s just not possible! We all use products and create waste every single day. So, what does ‘zero waste’ actually mean?\n\nZero Waste is a sustainable approach focused on using resources smartly and minimizing waste. This approach is based on the core principle of sustainability, which means meeting our current needs without damaging the resources that future generations will need. The Zero Waste approach encourages people to make and use things responsibly by avoiding waste, reusing items, and recycling. This mindset supports eco-friendly habits and invites us to look at the entire product lifecycle. In the end, this ensures nothing goes to waste, helping society see leftover materials as something valuable.\n\nEvery year, people generate between 2.1 and 2.3 billion tons of municipal waste. This means we are discarding valuable resources that could easily return to the economy and reduce the demand for new, raw materials. This ongoing pollution threatens our well-being, damages economies, and accelerates both climate change and biodiversity loss. In response to this global crisis, zero waste is recognized as an essential bridge to the circular economy.",
         "vocabulary": [
-          {
-            "word": "refuse",
-            "definition": "Waste material; rubbish."
-          },
           {
             "word": "mindset",
             "definition": "A way of thinking."
@@ -1362,7 +1358,7 @@
             "instructions": "Write a paragraph of six to seven sentences explaining the Zero Waste mindset to a skeptical friend.",
             "question": "What does it really mean, and why does it matter?",
             "correctAnswer": null,
-            "explanation": "Example: “You might think zero waste means producing absolutely no refuse, but that is not possible. In fact, it is an approach focused on using resources smartly. It is based on sustainability, which means meeting our needs without damaging resources for future generations. For example, I can repair my bike instead of buying a new one. This mindset helps us see leftover materials as valuable. This matters because pollution accelerates climate change and biodiversity loss.”",
+            "explanation": "Example: “You might think zero waste means producing no waste at all, but that is not possible. In fact, it is an approach focused on using resources smartly. It is based on sustainability, which means meeting our needs without damaging resources for future generations. For example, I can repair my bike instead of buying a new one. This mindset helps us see leftover materials as valuable. This matters because pollution accelerates climate change and biodiversity loss.”",
             "feedback": {
               "correct": "Check: a correction, which means and a reason.",
               "incorrect": ""
@@ -1388,7 +1384,7 @@
         ],
         "beforeYouRead": {
           "kind": "guess",
-          "question": "Guess first: Does zero waste mean producing absolutely no refuse?",
+          "question": "Guess first: Does zero waste mean producing no waste at all?",
           "options": ["No, that’s just not possible.", "Yes, absolutely.", "Only in factories."],
           "answer": 0,
           "quote": "But that’s just not possible!"
@@ -1957,12 +1953,8 @@
         "title": "Waste and Climate",
         "image": "",
         "audioUrl": "",
-        "content": "The way we manage our waste is directly linked to the global climate crisis, making ‘Zero Waste’ practices a powerful tool in reducing greenhouse gas emissions. Greenhouse gases from waste significantly contribute to this crisis, especially because organic materials release potent methane when they rot in landfills. Due to unsustainable production and consumption habits, global greenhouse gas emissions have more than doubled over the last 50 years. To stop this dangerous trend, adopting a Zero Waste approach is essential, as it keeps resources out of landfills and prevents these harmful emissions at the source.\n\nImproving how we manage waste across the entire product lifecycle could cut global greenhouse gas emissions by 15 to 20 percent. However, a major injustice exists: many developing countries have very low emission levels, yet they often suffer the most from climate impacts like severe disasters and rising sea levels.\n\nMinimizing greenhouse gas emissions across the entire product lifecycle is vital to reducing the effects of climate change. Furthermore, sustainable waste management reduces short-lived air pollutants like methane and black carbon, which come from open dumping and burning. In the end, these efforts are crucial to protecting our atmosphere.",
+        "content": "The way we manage our waste is directly linked to the global climate crisis, making ‘Zero Waste’ practices a powerful tool in reducing greenhouse gas emissions. Greenhouse gases from waste significantly contribute to this crisis, especially because organic materials release methane when they rot in landfills. Due to unsustainable production and consumption habits, global greenhouse gas emissions have more than doubled over the last 50 years. To stop this dangerous trend, adopting a Zero Waste approach is essential, as it keeps resources out of landfills and prevents these harmful emissions at the source.\n\nImproving how we manage waste across the entire product lifecycle could cut global greenhouse gas emissions by 15 to 20 percent. However, a major injustice exists: many developing countries have very low emission levels, yet they often suffer the most from climate impacts like severe disasters and rising sea levels.\n\nMinimizing greenhouse gas emissions across the entire product lifecycle is vital to reducing the effects of climate change. Furthermore, sustainable waste management reduces short-lived air pollutants like methane and black carbon, which come from open dumping and burning. In the end, these efforts are crucial to protecting our atmosphere.",
         "vocabulary": [
-          {
-            "word": "potent",
-            "definition": "Very strong and effective."
-          },
           {
             "word": "trend",
             "definition": "A general direction in which something is changing."
@@ -1981,8 +1973,8 @@
             "id": "zeroWaste-b2-en-h12a",
             "x": 30,
             "y": 40,
-            "title": "Potent Methane",
-            "description": "Greenhouse gases from waste significantly contribute to this crisis, especially because organic materials release potent methane when they rot in landfills."
+            "title": "Methane from Landfills",
+            "description": "Greenhouse gases from waste significantly contribute to this crisis, especially because organic materials release methane when they rot in landfills."
           },
           {
             "id": "zeroWaste-b2-en-h12b",
@@ -2075,7 +2067,7 @@
             "instructions": "Write an argument of six to seven sentences: Who should take responsibility for waste emissions?",
             "question": "Who causes them, who suffers, and what is fair?",
             "correctAnswer": null,
-            "explanation": "Example: “Due to unsustainable consumption, global emissions have more than doubled over the last 50 years. Waste in landfills releases potent methane. Many developing countries produce very little of these emissions, yet they suffer the most from disasters and rising sea levels. This is a major injustice. Furthermore, these countries often have fewer resources to protect themselves. Therefore, countries with high emissions should take the greatest responsibility. They should cut their own waste and support others.”",
+            "explanation": "Example: “Due to unsustainable consumption, global emissions have more than doubled over the last 50 years. Waste in landfills releases methane. Many developing countries produce very little of these emissions, yet they suffer the most from disasters and rising sea levels. This is a major injustice. Furthermore, these countries often have fewer resources to protect themselves. Therefore, countries with high emissions should take the greatest responsibility. They should cut their own waste and support others.”",
             "feedback": {
               "correct": "Check: due to, yet, furthermore and a conclusion.",
               "incorrect": ""
@@ -2683,13 +2675,13 @@
           {
             "id": "zeroWaste-b2-kc-5-refuse",
             "type": "multiple-choice",
-            "title": "Absolutely No Refuse?",
+            "title": "No Waste at All?",
             "instructions": "Choose the answer that the book supports.",
-            "question": "Why does zero waste not mean producing absolutely no refuse?",
+            "question": "Why does zero waste not mean producing no waste at all?",
             "options": [
               "because we all use products and create waste every single day",
               "because recycling is illegal",
-              "because refuse is valuable"
+              "because waste is valuable"
             ],
             "correctAnswer": 0,
             "explanation": "Chapter 8: “But that’s just not possible! We all use products and create waste every single day.”",
@@ -2995,17 +2987,6 @@
             "storyExample": "Waste batteries must be collected in dedicated bins to prevent hazardous chemicals from leaking into the soil and water."
           },
           {
-            "word": "refuse",
-            "definition": "Waste material; rubbish.",
-            "partOfSpeech": "noun",
-            "pronunciation": "/ˈrefjuːs/",
-            "category": "Objects & Materials",
-            "level": "B2",
-            "chapter": 8,
-            "chapterTitle": "What Is Zero Waste?",
-            "storyExample": "When you hear the phrase ‘zero waste’, you might think it means producing absolutely no refuse."
-          },
-          {
             "word": "mindset",
             "definition": "A way of thinking.",
             "partOfSpeech": "noun",
@@ -3158,17 +3139,6 @@
             "chapter": 11,
             "chapterTitle": "Why Is the Circular Economy Important?",
             "storyExample": "Supporting sustainable economic growth: This approach supports sustainable economic growth."
-          },
-          {
-            "word": "potent",
-            "definition": "Very strong and effective.",
-            "partOfSpeech": "adjective",
-            "pronunciation": "/ˈpoʊtənt/",
-            "category": "Science & Nature",
-            "level": "B2",
-            "chapter": 12,
-            "chapterTitle": "Waste and Climate",
-            "storyExample": "Greenhouse gases from waste significantly contribute to this crisis, especially because organic materials release potent methane when they rot in landfills."
           },
           {
             "word": "trend",
@@ -3348,7 +3318,7 @@
             "kind": "Science",
             "term": "methane",
             "chapter": 12,
-            "definition": "A potent greenhouse gas that organic materials release when they rot in landfills.",
+            "definition": "A strong greenhouse gas that organic materials release when they rot in landfills.",
             "termAr": "الْمِيثَانُ",
             "definitionAr": "غَازُ دَفِيئَةٍ قَوِيُّ التَّأْثِيرِ تُطْلِقُهُ الْمَوَادُّ الْعُضْوِيَّةُ حِينَ تَتَعَفَّنُ فِي الْمَكَبَّاتِ."
           },
@@ -3427,11 +3397,11 @@
             "context": "designing products for longevity"
           },
           {
-            "word": "potent",
-            "meaning": "Very strong and effective.",
-            "partOfSpeech": "adjective",
+            "word": "injustice",
+            "meaning": "A situation that is not fair.",
+            "partOfSpeech": "noun",
             "chapter": 12,
-            "context": "release potent methane"
+            "context": "a major injustice exists"
           },
           {
             "word": "disposable",
@@ -3637,7 +3607,7 @@
             "instructions": "Read about a fashion company. Fill each gap from the word bank.",
             "question": "Can you use the book’s words in a new text?",
             "fillBlanksText": "A fashion company has changed its [blank]. It now designs jackets for [blank], so they last for many years. It has decided to [blank] plastic bags from its shops. It also studies the full [blank] of each jacket, from the farm to the second-hand shop.",
-            "wordBank": ["mindset", "longevity", "eliminate", "lifecycle", "potent", "adhesive"],
+            "wordBank": ["mindset", "longevity", "eliminate", "lifecycle", "injustice", "adhesive"],
             "correctAnswer": ["mindset", "longevity", "eliminate", "lifecycle"],
             "explanation": "Mindset, longevity, eliminate and lifecycle come from the book. Here they describe a fashion company.",
             "feedback": {
