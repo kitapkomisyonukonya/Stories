@@ -6,27 +6,28 @@
  "collection": "turkish",
  "book": {
   "id": "kasgarli-a1-ar",
-  "title": "Mahmud Kashgari: The Oldest Turkish Dictionary (A1)",
+  "title": "محمود الكاشغري: أقدم قاموس للتركية (A1)",
   "level": "A1",
-  "baseFontSize": 12,
+  "baseFontSize": 14,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "A Very Old Dictionary",
-    "content": "Mahmud Kashgari wrote a very old book. It is called Dîvânu Lugâti’t-Türk. It is the oldest dictionary of the Turkish language. He started to write it in 1072 and finished it in 1074. In 1077, he gave it to the Caliph in Baghdad.\n\nMahmud wrote the book in Arabic. He wanted to teach Turkish to Arab people. He also wanted to show everybody something: Turkish is a rich and beautiful language. Today, there is only one copy of the book. It is in Istanbul, in the Millet Library.",
+    "title": "قَامُوسٌ قَدِيمٌ جِدًّا",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/kasgarli%2Fa2%2Fimages%2Fkasgarli_a2_ch1.jpeg?alt=media&token=806d693c-a346-4ffc-aa71-7047e8efa81a",
+    "content": "كَتَبَ مَحْمُود الكَاشْغَرِيُّ كِتَابًا قَدِيمًا جِدًّا. اسْمُهُ «دِيوَانُ لُغَاتِ التُّرْكِ». إِنَّهُ أَقْدَمُ قَامُوسٍ لِلُّغَةِ التُّرْكِيَّةِ. بَدَأَ كِتَابَتَهُ فِي عَامِ ١٠٧٢ وَأَنْهَاهُ فِي عَامِ ١٠٧٤. وَفِي عَامِ ١٠٧٧، قَدَّمَهُ إِلَى الخَلِيفَةِ فِي بَغْدَادَ.\n\nكَتَبَ مَحْمُود الكِتَابَ بِاللُّغَةِ العَرَبِيَّةِ. أَرَادَ أَنْ يُعَلِّمَ التُّرْكِيَّةَ لِلْعَرَبِ. وَأَرَادَ أَيْضًا أَنْ يُرِيَ الجَمِيعَ أَنَّ اللُّغَةَ التُّرْكِيَّةَ لُغَةٌ غَنِيَّةٌ وَجَمِيلَةٌ. اليَوْمَ، هُنَاكَ نُسْخَةٌ وَاحِدَةٌ فَقَطْ مِنَ الكِتَابِ. وَهِيَ فِي إِسْطَنْبُولَ، فِي مَكْتَبَةِ مِلَّتْ.",
     "vocabulary": [
      {
-      "word": "dictionary",
-      "definition": "A book with words and their meanings."
+      "word": "قَامُوسٍ",
+      "definition": "كِتَابٌ فِيهِ كَلِمَاتٌ وَمَعَانِيهَا."
      },
      {
-      "word": "caliph",
-      "definition": "The leader of the Muslims."
+      "word": "الخَلِيفَةِ",
+      "definition": "قَائِدُ المُسْلِمِينَ."
      },
      {
-      "word": "copy",
-      "definition": "One book of many same books."
+      "word": "نُسْخَةٌ",
+      "definition": "كِتَابٌ وَاحِدٌ مِنْ كُتُبٍ كَثِيرَةٍ مُتَشَابِهَةٍ."
      }
     ],
     "hotspots": [
@@ -34,174 +35,175 @@
       "id": "h1-1",
       "x": 35,
       "y": 46,
-      "title": "The Oldest Dictionary",
-      "description": "Dîvânu Lugâti’t-Türk is the oldest dictionary of the Turkish language."
+      "title": "أَقْدَمُ قَامُوسٍ",
+      "description": "كَتَبَ مَحْمُود الكَاشْغَرِيُّ «دِيوَانَ لُغَاتِ التُّرْكِ». إِنَّهُ أَقْدَمُ قَامُوسٍ لِلُّغَةِ التُّرْكِيَّةِ."
      },
      {
       "id": "h1-2",
       "x": 68,
       "y": 50,
-      "title": "Only One Copy",
-      "description": "Today, there is only one copy of the book. It is in Istanbul, in the Millet Library."
+      "title": "نُسْخَةٌ وَاحِدَةٌ",
+      "description": "اليَوْمَ، هُنَاكَ نُسْخَةٌ وَاحِدَةٌ فَقَطْ مِنَ الكِتَابِ، وَهِيَ فِي مَكْتَبَةِ مِلَّتْ فِي إِسْطَنْبُولَ."
      }
     ],
     "exercises": [
      {
-      "id": "kasgarli-a1-quick-1",
+      "id": "kasgarli-a1-ar-quick-1",
       "type": "drag-drop",
-      "title": "A Very Old Dictionary",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 1?",
+      "title": "قَامُوسٌ قَدِيمٌ جِدًّا",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا حَدَثَ فِي الفَصْلِ الأَوَّلِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "Mahmud wrote the book in Arabic.",
-         "There is only one copy of the book today."
+         "كَتَبَ مَحْمُود الكِتَابَ بِاللُّغَةِ العَرَبِيَّةِ.",
+         "هُنَاكَ نُسْخَةٌ وَاحِدَةٌ فَقَطْ مِنَ الكِتَابِ اليَوْمَ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "The book is in Baghdad today."
+         "الكِتَابُ فِي بَغْدَادَ اليَوْمَ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "Mahmud wrote the book in Arabic.",
-        "There is only one copy of the book today."
+       "صَحِيحٌ": [
+        "كَتَبَ مَحْمُود الكِتَابَ بِاللُّغَةِ العَرَبِيَّةِ.",
+        "هُنَاكَ نُسْخَةٌ وَاحِدَةٌ فَقَطْ مِنَ الكِتَابِ اليَوْمَ."
        ],
-       "False": [
-        "The book is in Baghdad today."
+       "خَطَأٌ": [
+        "الكِتَابُ فِي بَغْدَادَ اليَوْمَ."
        ]
       },
-      "explanation": "Chapter 1 says: “Mahmud wrote the book in Arabic.” “Today, there is only one copy of the book. It is in Istanbul, in the Millet Library.”",
+      "explanation": "الفصل الأول: «كَتَبَ مَحْمُود الكِتَابَ بِاللُّغَةِ العَرَبِيَّةِ»، والنسخة الوحيدة اليوم «فِي إِسْطَنْبُولَ، فِي مَكْتَبَةِ مِلَّتْ».",
       "feedback": {
-       "correct": "Yes! The book is in Istanbul today.",
-       "incorrect": "Read the second paragraph of Chapter 1 again."
+       "correct": "أَحْسَنْتَ! الكِتَابُ فِي إِسْطَنْبُولَ اليَوْمَ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "kasgarli-a1-language-1-years",
+      "id": "kasgarli-a1-ar-language-1-did",
       "type": "matching",
-      "title": "Look: Started, Finished, Gave",
-      "instructions": "Match the year with the sentence.",
-      "question": "What happened in each year?",
+      "title": "انْظُرْ: بَدَأَ، أَنْهَى، قَدَّمَ",
+      "instructions": "صِلْ كُلَّ فِعْلٍ بِسَنَتِهِ.",
+      "question": "مَاذَا فَعَلَ مَحْمُود؟ وَمَتَى؟",
       "matchingHeadings": {
-       "left": "Year",
-       "right": "What happened?"
+       "left": "الفِعْلُ",
+       "right": "السَّنَةُ"
       },
       "matchingPairs": [
        {
-        "left": "In 1072,",
-        "right": "he started to write it."
+        "left": "بَدَأَ كِتَابَتَهُ",
+        "right": "١٠٧٢"
        },
        {
-        "left": "In 1074,",
-        "right": "he finished it."
+        "left": "أَنْهَاهُ",
+        "right": "١٠٧٤"
        },
        {
-        "left": "In 1077,",
-        "right": "he gave it to the Caliph."
+        "left": "قَدَّمَهُ إِلَى الخَلِيفَةِ",
+        "right": "١٠٧٧"
        }
       ],
       "correctAnswer": {
-       "In 1072,": "he started to write it.",
-       "In 1074,": "he finished it.",
-       "In 1077,": "he gave it to the Caliph."
+       "بَدَأَ كِتَابَتَهُ": "١٠٧٢",
+       "أَنْهَاهُ": "١٠٧٤",
+       "قَدَّمَهُ إِلَى الخَلِيفَةِ": "١٠٧٧"
       },
-      "explanation": "“He started to write it in 1072 and finished it in 1074. In 1077, he gave it to the Caliph in Baghdad.”",
+      "explanation": "هذه أفعال في الماضي: بَدَأَ، أَنْهَى، قَدَّمَ. والهاء في «أَنْهَاهُ» و«قَدَّمَهُ» = الكتاب.",
       "feedback": {
-       "correct": "Good. You found the years.",
-       "incorrect": "Read the first paragraph of Chapter 1."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأُولَى."
       }
      },
      {
-      "id": "kasgarli-a1-language-1-practise",
+      "id": "kasgarli-a1-ar-language-1-wanted",
       "type": "choose-form",
-      "title": "Practise: Wanted to",
-      "instructions": "Choose the right words.",
-      "question": "What did Mahmud want?",
+      "title": "تَدَرَّبْ: أَرَادَ أَنْ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ صِيغَةٍ بَعْدَ «أَنْ»؟",
       "formChoices": [
        {
-        "sentence": "He [choice] teach Turkish to Arab people.",
+        "sentence": "أَرَادَ أَنْ [choice] التُّرْكِيَّةَ لِلْعَرَبِ.",
         "options": [
-         "wanted to",
-         "wanted"
+         "يُعَلِّمَ",
+         "عَلَّمَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "He also [choice] show everybody something.",
+        "sentence": "وَأَرَادَ أَيْضًا أَنْ [choice] الجَمِيعَ.",
         "options": [
-         "wanted to",
-         "want"
+         "يُرِيَ",
+         "أَرَى"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Wanted to + verb: he wanted to teach, he wanted to show.",
+      "explanation": "«أَرَادَ أَنْ» + فعل مثل: يُعَلِّمَ، يُرِيَ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 1."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "انْظُرْ إِلَى الكَلِمَةِ بَعْدَ «أَنْ»."
       }
      },
      {
-      "id": "kasgarli-a1-language-1-say-it",
+      "id": "kasgarli-a1-ar-language-1-book",
       "type": "reflection",
-      "title": "Say It: My Book",
-      "instructions": "Tell your partner about a book.",
-      "question": "What is your favorite book?",
+      "title": "قُلْهَا: كِتَابِي",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنْ كِتَابٍ تُحِبُّهُ.",
+      "question": "مَا اسْمُهُ؟ وَمَاذَا تُرِيدُ أَنْ تَفْعَلَ؟",
       "correctAnswer": null,
-      "explanation": "Use is called.",
+      "explanation": "استعمل «اسْمُ …» و«أُرِيدُ أَنْ».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“My favorite book is called …”",
+        "question": "«اسْمُ كِتَابِي …»",
         "mode": "Pair",
-        "example": "My favorite book is called “The Little Prince”."
+        "example": "اسْمُ كِتَابِي «قِصَصُ الأَنْبِيَاءِ»."
        },
        {
-        "question": "“It is in my …”",
+        "question": "«أُرِيدُ أَنْ …»",
         "mode": "Pair",
-        "example": "It is in my school bag."
+        "example": "أُرِيدُ أَنْ أَقْرَأَهُ مَرَّةً أُخْرَى."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What kind of book did Mahmud Kashgari write?",
+     "question": "خَمِّنْ أَوَّلًا: أَيَّ كِتَابٍ كَتَبَ مَحْمُود الكَاشْغَرِيُّ؟",
      "options": [
-      "a dictionary",
-      "a cookbook",
-      "a travel diary"
+      "قَامُوسًا",
+      "كِتَابَ طَبْخٍ",
+      "دَفْتَرَ رِحْلَةٍ"
      ],
      "answer": 0,
-     "quote": "It is the oldest dictionary of the Turkish language."
+     "quote": "إِنَّهُ أَقْدَمُ قَامُوسٍ لِلُّغَةِ التُّرْكِيَّةِ."
     },
     "iCan": [
-     "I can tell about the oldest Turkish dictionary.",
-     "I can use started, finished and wanted to.",
-     "I can talk about a book."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَا هُوَ «دِيوَانُ لُغَاتِ التُّرْكِ».",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «بَدَأَ» وَ«أَنْهَى» وَ«أَرَادَ أَنْ».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنْ كِتَابٍ أُحِبُّهُ."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "Who Was Mahmud?",
-    "content": "Mahmud was born in 1008 in Barsgan. Today, Barsgan is in Kyrgyzstan. His family was from the Karakhanids. It was an important family.\n\nHe lived in Kashgar for many years and died there in 1105. Kashgar is a very old city in East Turkestan. That is why people call him Kashgari, “the man from Kashgar”. In his book, Mahmud also writes about himself. He speaks Turkish very well. He is also very good at throwing a spear.",
+    "title": "مَنْ كَانَ مَحْمُود؟",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/kasgarli%2Fa2%2Fimages%2Fkasgarli_a2_ch2.jpeg?alt=media&token=643a1930-a6e3-48c7-8e99-fb955aec47ff",
+    "content": "وُلِدَ مَحْمُود فِي عَامِ ١٠٠٨ فِي بَرْسْغَان. اليَوْمَ، تَقَعُ بَرْسْغَان فِي قِيرْغِيزِسْتَان. كَانَتْ عَائِلَتُهُ مِنَ القَرَاخَانِيِّينَ. وَكَانَتْ عَائِلَةً مُهِمَّةً.\n\nعَاشَ فِي كَاشْغَر سَنَوَاتٍ طَوِيلَةً وَمَاتَ هُنَاكَ فِي عَامِ ١١٠٥. كَاشْغَر مَدِينَةٌ قَدِيمَةٌ جِدًّا فِي تُرْكِسْتَان الشَّرْقِيَّةِ. لِهَذَا يُسَمِّيهِ النَّاسُ الكَاشْغَرِيَّ، أَيْ «الرَّجُلَ مِنْ كَاشْغَر». فِي كِتَابِهِ، يَكْتُبُ مَحْمُود أَيْضًا عَنْ نَفْسِهِ. فَهُوَ يَتَكَلَّمُ التُّرْكِيَّةَ جَيِّدًا جِدًّا. وَهُوَ أَيْضًا مَاهِرٌ جِدًّا فِي رَمْيِ الرُّمْحِ.",
     "vocabulary": [
      {
-      "word": "spear",
-      "definition": "A long stick with a sharp end."
+      "word": "الرُّمْحِ",
+      "definition": "عَصًا طَوِيلَةٌ لَهَا طَرَفٌ حَادٌّ."
      }
     ],
     "hotspots": [
@@ -209,163 +211,164 @@
       "id": "h2-1",
       "x": 35,
       "y": 46,
-      "title": "Barsgan",
-      "description": "Mahmud was born in 1008 in Barsgan. Today, Barsgan is in Kyrgyzstan."
+      "title": "بَرْسْغَان",
+      "description": "وُلِدَ مَحْمُود فِي عَامِ ١٠٠٨ فِي بَرْسْغَان. اليَوْمَ، تَقَعُ بَرْسْغَان فِي قِيرْغِيزِسْتَان."
      },
      {
       "id": "h2-2",
       "x": 68,
       "y": 50,
-      "title": "Kashgar",
-      "description": "He lived in Kashgar for many years and died there in 1105."
+      "title": "كَاشْغَر",
+      "description": "عَاشَ مَحْمُود فِي كَاشْغَر سَنَوَاتٍ طَوِيلَةً، وَمَاتَ هُنَاكَ فِي عَامِ ١١٠٥."
      }
     ],
     "exercises": [
      {
-      "id": "kasgarli-a1-quick-2",
+      "id": "kasgarli-a1-ar-quick-2",
       "type": "multiple-choice",
-      "title": "Who Was Mahmud?",
-      "instructions": "Choose the best answer.",
-      "question": "What is Mahmud very good at?",
+      "title": "مَنْ كَانَ مَحْمُود؟",
+      "instructions": "اخْتَرِ الجَوَابَ الصَّحِيحَ.",
+      "question": "فِي أَيِّ شَيْءٍ مَحْمُود مَاهِرٌ جِدًّا؟",
       "options": [
-       "throwing a spear",
-       "swimming",
-       "cooking"
+       "فِي رَمْيِ الرُّمْحِ",
+       "فِي السِّبَاحَةِ",
+       "فِي الطَّبْخِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: “He is also very good at throwing a spear.”",
+      "explanation": "الفصل الثاني: «وَهُوَ أَيْضًا مَاهِرٌ جِدًّا فِي رَمْيِ الرُّمْحِ».",
       "feedback": {
-       "correct": "Yes! He is very good at throwing a spear.",
-       "incorrect": "Read the second paragraph of Chapter 2 again."
+       "correct": "نَعَمْ. فِي رَمْيِ الرُّمْحِ.",
+       "incorrect": "اقْرَأْ آخِرَ الفَصْلِ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "kasgarli-a1-language-2-why",
+      "id": "kasgarli-a1-ar-language-2-why",
       "type": "multiple-choice",
-      "title": "Look: That Is Why",
-      "instructions": "Choose the right answer.",
-      "question": "“He lived in Kashgar for many years. That is why people call him Kashgari.” What does “that is why” tell us?",
+      "title": "انْظُرْ: لِهَذَا",
+      "instructions": "اخْتَرِ الجَوَابَ الصَّحِيحَ.",
+      "question": "«عَاشَ فِي كَاشْغَر … لِهَذَا يُسَمِّيهِ النَّاسُ الكَاشْغَرِيَّ.» مَاذَا تَقُولُ «لِهَذَا»؟",
       "options": [
-       "the reason for his name",
-       "the year he died",
-       "the name of his family"
+       "النَّتِيجَةَ: عَاشَ فِي كَاشْغَر، فَيُسَمِّيهِ النَّاسُ الكَاشْغَرِيَّ",
+       "الوَقْتَ",
+       "المَكَانَ"
       ],
       "correctAnswer": 0,
-      "explanation": "That is why = for this reason. He lived in Kashgar → so people call him Kashgari.",
+      "explanation": "«لِهَذَا» = لهذا السبب. قبلها السبب، وبعدها النتيجة.",
       "feedback": {
-       "correct": "Yes. It tells the reason.",
-       "incorrect": "Read the second paragraph of Chapter 2."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "لِمَاذَا يُسَمِّيهِ النَّاسُ الكَاشْغَرِيَّ؟"
       }
      },
      {
-      "id": "kasgarli-a1-language-2-practise",
+      "id": "kasgarli-a1-ar-language-2-born",
       "type": "choose-form",
-      "title": "Practise: Was Born, Lived, Died",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: وُلِدَ، عَاشَ، مَاتَ",
+      "instructions": "اخْتَرِ الكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ فِعْلٍ؟",
       "formChoices": [
        {
-        "sentence": "Mahmud [choice] born in 1008 in Barsgan.",
+        "sentence": "[choice] مَحْمُود فِي عَامِ ١٠٠٨.",
         "options": [
-         "was",
-         "is"
+         "وُلِدَ",
+         "مَاتَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "He [choice] in Kashgar for many years.",
+        "sentence": "[choice] فِي كَاشْغَر سَنَوَاتٍ طَوِيلَةً.",
         "options": [
-         "lived",
-         "lives"
+         "عَاشَ",
+         "وُلِدَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "He [choice] there in 1105.",
+        "sentence": "وَ[choice] هُنَاكَ فِي عَامِ ١١٠٥.",
         "options": [
-         "died",
-         "dies"
+         "مَاتَ",
+         "عَاشَ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Was born: the past of be born. Live → lived, die → died.",
+      "explanation": "وُلِدَ (١٠٠٨) ← عَاشَ (سنوات طويلة) ← مَاتَ (١١٠٥).",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 2 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "انْظُرْ إِلَى السَّنَةِ."
       }
      },
      {
-      "id": "kasgarli-a1-language-2-say-it",
+      "id": "kasgarli-a1-ar-language-2-good-at",
       "type": "reflection",
-      "title": "Say It: I Am Good At …",
-      "instructions": "Tell your partner what you are good at.",
-      "question": "What are you good at?",
+      "title": "قُلْهَا: أَنَا مَاهِرٌ فِي …",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنْ شَيْءٍ تَفْعَلُهُ جَيِّدًا.",
+      "question": "فِي أَيِّ شَيْءٍ أَنْتَ مَاهِرٌ؟",
       "correctAnswer": null,
-      "explanation": "Use good at + -ing.",
+      "explanation": "استعمل «مَاهِرٌ» للولد و«مَاهِرَةٌ» للبنت.",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I am good at …”",
+        "question": "«أَنَا مَاهِرٌ / مَاهِرَةٌ فِي …»",
         "mode": "Pair",
-        "example": "I am good at drawing."
+        "example": "أَنَا مَاهِرٌ فِي كُرَةِ القَدَمِ."
        },
        {
-        "question": "“I am very good at …”",
+        "question": "«وُلِدْتُ فِي …»",
         "mode": "Pair",
-        "example": "I am very good at swimming."
+        "example": "وُلِدْتُ فِي قُونِيَةَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Why do people call him Kashgari?",
+     "question": "خَمِّنْ أَوَّلًا: لِمَاذَا يُسَمِّيهِ النَّاسُ الكَاشْغَرِيَّ؟",
      "options": [
-      "He lived in Kashgar.",
-      "He was a king.",
-      "He loved horses."
+      "لِأَنَّهُ عَاشَ فِي كَاشْغَر",
+      "لِأَنَّهُ كَانَ مَلِكًا",
+      "لِأَنَّهُ أَحَبَّ الخَيْلَ"
      ],
      "answer": 0,
-     "quote": "That is why people call him Kashgari, “the man from Kashgar”."
+     "quote": "لِهَذَا يُسَمِّيهِ النَّاسُ الكَاشْغَرِيَّ"
     },
     "iCan": [
-     "I can tell who Mahmud was.",
-     "I can understand that is why.",
-     "I can say what I am good at."
+     "أَسْتَطِيعُ أَنْ أَقُولَ أَيْنَ وُلِدَ مَحْمُود وَأَيْنَ عَاشَ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «لِهَذَا».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ: «أَنَا مَاهِرٌ فِي …»."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "A Long Journey",
-    "content": "In Mahmud’s time, Arabic was the language of schools and books. But Mahmud loved his own language. “Turkish is great, too,” he thought.\n\nIn 1057, he started a long journey. For ten to fifteen years, he traveled from one Turkish tribe to another. He listened to the people and collected their words. He also wrote down their stories, songs and sayings. After that, he went to Baghdad and wrote his big book there.",
+    "title": "رِحْلَةٌ طَوِيلَةٌ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/kasgarli%2Fa2%2Fimages%2Fkasgarli_a2_ch3.jpeg?alt=media&token=107c33e5-ba7a-4c49-ab61-2423cb075d12",
+    "content": "فِي زَمَنِ مَحْمُود، كَانَتِ اللُّغَةُ العَرَبِيَّةُ لُغَةَ المَدَارِسِ وَالكُتُبِ. لَكِنَّ مَحْمُودًا أَحَبَّ لُغَتَهُ. فَكَّرَ: «التُّرْكِيَّةُ عَظِيمَةٌ أَيْضًا».\n\nفِي عَامِ ١٠٥٧، بَدَأَ رِحْلَةً طَوِيلَةً. لِمُدَّةِ عَشْرِ سَنَوَاتٍ إِلَى خَمْسَ عَشْرَةَ سَنَةً، سَافَرَ مِنْ قَبِيلَةٍ تُرْكِيَّةٍ إِلَى قَبِيلَةٍ أُخْرَى. اسْتَمَعَ إِلَى النَّاسِ وَجَمَعَ كَلِمَاتِهِمْ. وَكَتَبَ أَيْضًا قِصَصَهُمْ وَأَغَانِيَهُمْ وَأَمْثَالَهُمْ. بَعْدَ ذَلِكَ، ذَهَبَ إِلَى بَغْدَادَ وَكَتَبَ كِتَابَهُ الكَبِيرَ هُنَاكَ.",
     "vocabulary": [
      {
-      "word": "journey",
-      "definition": "A long trip from one place to another."
+      "word": "رِحْلَةً",
+      "definition": "سَفَرٌ طَوِيلٌ مِنْ مَكَانٍ إِلَى مَكَانٍ آخَرَ."
      },
      {
-      "word": "tribe",
-      "definition": "A big group of families with one leader."
+      "word": "قَبِيلَةٍ",
+      "definition": "مَجْمُوعَةٌ كَبِيرَةٌ مِنَ العَائِلَاتِ لَهَا قَائِدٌ وَاحِدٌ."
      },
      {
-      "word": "story",
-      "definition": "Words about things that happened."
+      "word": "قِصَصَهُمْ",
+      "definition": "كَلِمَاتٌ عَنْ أَشْيَاءَ حَدَثَتْ."
      },
      {
-      "word": "saying",
-      "definition": "A short, old sentence with a lesson."
+      "word": "وَأَمْثَالَهُمْ",
+      "definition": "جُمْلَةٌ قَصِيرَةٌ قَدِيمَةٌ فِيهَا عِبْرَةٌ."
      },
      {
-      "word": "collected",
-      "definition": "Brought many things together."
+      "word": "وَجَمَعَ",
+      "definition": "أَحْضَرَ أَشْيَاءَ كَثِيرَةً مَعًا."
      }
     ],
     "hotspots": [
@@ -373,40 +376,40 @@
       "id": "h3-1",
       "x": 35,
       "y": 46,
-      "title": "His Own Language",
-      "description": "In Mahmud’s time, Arabic was the language of schools and books. But Mahmud loved his own language."
+      "title": "لُغَتُهُ",
+      "description": "كَانَتِ العَرَبِيَّةُ لُغَةَ المَدَارِسِ وَالكُتُبِ، لَكِنَّ مَحْمُودًا أَحَبَّ لُغَتَهُ."
      },
      {
       "id": "h3-2",
       "x": 68,
       "y": 50,
-      "title": "From Tribe to Tribe",
-      "description": "For ten to fifteen years, he traveled from one Turkish tribe to another."
+      "title": "مِنْ قَبِيلَةٍ إِلَى قَبِيلَةٍ",
+      "description": "سَافَرَ مَحْمُود مِنْ قَبِيلَةٍ تُرْكِيَّةٍ إِلَى قَبِيلَةٍ أُخْرَى، وَجَمَعَ كَلِمَاتِ النَّاسِ."
      }
     ],
     "exercises": [
      {
-      "id": "kasgarli-a1-quick-3",
+      "id": "kasgarli-a1-ar-quick-3",
       "type": "sequencing",
-      "title": "A Long Journey",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "رِحْلَةٌ طَوِيلَةٌ",
+      "instructions": "رَتِّبِ الجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Mahmud started a long journey in 1057."
+        "text": "بَدَأَ مَحْمُود رِحْلَةً طَوِيلَةً فِي عَامِ ١٠٥٧."
        },
        {
         "id": "2",
-        "text": "Mahmud traveled from one Turkish tribe to another."
+        "text": "سَافَرَ مِنْ قَبِيلَةٍ تُرْكِيَّةٍ إِلَى قَبِيلَةٍ أُخْرَى."
        },
        {
         "id": "3",
-        "text": "Mahmud collected words, stories, songs and sayings."
+        "text": "جَمَعَ الكَلِمَاتِ وَالقِصَصَ وَالأَغَانِيَ وَالأَمْثَالَ."
        },
        {
         "id": "4",
-        "text": "Mahmud went to Baghdad and wrote his big book."
+        "text": "ذَهَبَ إِلَى بَغْدَادَ وَكَتَبَ كِتَابَهُ الكَبِيرَ."
        }
       ],
       "correctAnswer": [
@@ -415,113 +418,113 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 3: the journey → from tribe to tribe → he collected words → Baghdad.",
+      "explanation": "الفصل الثالث: الرحلة ← القبائل ← الجمع ← بغداد.",
       "feedback": {
-       "correct": "Great! You put the journey in order.",
-       "incorrect": "Read the second paragraph of Chapter 3 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "kasgarli-a1-language-3-another",
+      "id": "kasgarli-a1-ar-language-3-from",
       "type": "multiple-choice",
-      "title": "Look: From One … to Another",
-      "instructions": "Choose the right answer.",
-      "question": "“He traveled from one Turkish tribe to another.” What does this mean?",
+      "title": "انْظُرْ: مِنْ … إِلَى … أُخْرَى",
+      "instructions": "اخْتَرِ الجَوَابَ الصَّحِيحَ.",
+      "question": "«سَافَرَ مِنْ قَبِيلَةٍ تُرْكِيَّةٍ إِلَى قَبِيلَةٍ أُخْرَى.» مَاذَا يَعْنِي هَذَا؟",
       "options": [
-       "He went to many tribes, one after the other.",
-       "He stayed with one tribe.",
-       "He did not travel."
+       "زَارَ قَبَائِلَ كَثِيرَةً، وَاحِدَةً بَعْدَ وَاحِدَةٍ",
+       "بَقِيَ فِي قَبِيلَةٍ وَاحِدَةٍ",
+       "رَجَعَ إِلَى بَيْتِهِ"
       ],
       "correctAnswer": 0,
-      "explanation": "From one … to another = from this one to the next one, again and again.",
+      "explanation": "«مِنْ … إِلَى … أُخْرَى» = من مكان إلى مكان آخر، مرّات كثيرة.",
       "feedback": {
-       "correct": "Yes. He went to many tribes.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "كَمْ قَبِيلَةً زَارَ؟"
       }
      },
      {
-      "id": "kasgarli-a1-language-3-practise",
+      "id": "kasgarli-a1-ar-language-3-did",
       "type": "word-bank",
-      "title": "Practise: Listened, Collected, Wrote",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What did Mahmud do?",
-      "fillBlanksText": "He [blank] to the people and [blank] their words. He also [blank] down their stories, songs and sayings.",
+      "title": "تَدَرَّبْ: اسْتَمَعَ، جَمَعَ، كَتَبَ",
+      "instructions": "ضَعِ الكَلِمَةَ المُنَاسِبَةَ فِي الفَرَاغِ.",
+      "question": "مَاذَا فَعَلَ مَحْمُود؟",
+      "fillBlanksText": "[blank] إِلَى النَّاسِ وَ[blank] كَلِمَاتِهِمْ. وَ[blank] أَيْضًا قِصَصَهُمْ.",
       "wordBank": [
-       "listened",
-       "collected",
-       "wrote",
-       "writes",
-       "listen"
+       "اسْتَمَعَ",
+       "جَمَعَ",
+       "كَتَبَ",
+       "نَامَ"
       ],
       "correctAnswer": [
-       "listened",
-       "collected",
-       "wrote"
+       "اسْتَمَعَ",
+       "جَمَعَ",
+       "كَتَبَ"
       ],
-      "explanation": "Listen → listened, collect → collected: they add -ed. Write → wrote: it changes.",
+      "explanation": "الفصل الثالث: «اسْتَمَعَ إِلَى النَّاسِ وَجَمَعَ كَلِمَاتِهِمْ. وَكَتَبَ أَيْضًا قِصَصَهُمْ».",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الثَّانِيَةَ."
       }
      },
      {
-      "id": "kasgarli-a1-language-3-write-it",
+      "id": "kasgarli-a1-ar-language-3-collect",
       "type": "reflection",
-      "title": "Write It: I Collect …",
-      "instructions": "Write about things you collect.",
-      "question": "What do you collect?",
+      "title": "اكْتُبْهَا: أَجْمَعُ …",
+      "instructions": "اكْتُبْ جُمْلَتَيْنِ عَنْ شَيْءٍ تَجْمَعُهُ.",
+      "question": "مَاذَا تَجْمَعُ؟",
       "correctAnswer": null,
-      "explanation": "Use I collect and I write down.",
+      "explanation": "استعمل «أَجْمَعُ» و«أَسْتَمِعُ إِلَى».",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“I collect …”",
+        "question": "«أَجْمَعُ …»",
         "mode": "Individual",
-        "example": "I collect stamps."
+        "example": "أَجْمَعُ الطَّوَابِعَ."
        },
        {
-        "question": "“I write down …”",
+        "question": "«أَسْتَمِعُ إِلَى …»",
         "mode": "Individual",
-        "example": "I write down new English words."
+        "example": "أَسْتَمِعُ إِلَى قِصَصِ جَدَّتِي."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did Mahmud collect on his journey?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا جَمَعَ مَحْمُود فِي رِحْلَتِهِ؟",
      "options": [
-      "words, stories, songs and sayings",
-      "gold and money",
-      "horses"
+      "الكَلِمَاتِ وَالقِصَصَ وَالأَغَانِيَ وَالأَمْثَالَ",
+      "الذَّهَبَ وَالمَالَ",
+      "الخَيْلَ"
      ],
      "answer": 0,
-     "quote": "He listened to the people and collected their words."
+     "quote": "اسْتَمَعَ إِلَى النَّاسِ وَجَمَعَ كَلِمَاتِهِمْ."
     },
     "iCan": [
-     "I can tell about Mahmud’s long journey.",
-     "I can understand from one … to another.",
-     "I can write about things I collect."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ رِحْلَةَ مَحْمُود.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «مِنْ … إِلَى … أُخْرَى».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنْ شَيْءٍ أَجْمَعُهُ."
     ]
    },
    {
     "id": 4,
     "type": "story",
-    "title": "What Is in the Book?",
-    "content": "The dictionary has about 9,000 Turkish words. It also has very old Turkish poems and sayings. You can find the names of many places and people in it, too. It even tells old stories from the Turkish world.\n\nFrom this book, we can learn about the daily life of the Turks. What did they eat? What did they wear? What games did they play? The book is like a big window to Turkish culture.",
+    "title": "مَاذَا فِي الكِتَابِ؟",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/kasgarli%2Fa2%2Fimages%2Fkasgarli_a2_ch8.jpeg?alt=media&token=668c7bcc-0bac-4900-9fe1-4f581e2ca38c",
+    "content": "فِي القَامُوسِ نَحْوُ ٩٠٠٠ كَلِمَةٍ تُرْكِيَّةٍ. وَفِيهِ أَيْضًا أَشْعَارٌ وَأَمْثَالٌ تُرْكِيَّةٌ قَدِيمَةٌ جِدًّا. وَتَجِدُ فِيهِ أَيْضًا أَسْمَاءَ أَمَاكِنَ وَأَشْخَاصٍ كَثِيرَةً. وَيَحْكِي حَتَّى قِصَصًا قَدِيمَةً مِنَ العَالَمِ التُّرْكِيِّ.\n\nمِنْ هَذَا الكِتَابِ، نَسْتَطِيعُ أَنْ نَتَعَلَّمَ عَنِ الحَيَاةِ اليَوْمِيَّةِ لِلْأَتْرَاكِ. مَاذَا كَانُوا يَأْكُلُونَ؟ مَاذَا كَانُوا يَلْبَسُونَ؟ أَيَّ أَلْعَابٍ كَانُوا يَلْعَبُونَ؟ الكِتَابُ مِثْلُ نَافِذَةٍ كَبِيرَةٍ عَلَى الثَّقَافَةِ التُّرْكِيَّةِ.",
     "vocabulary": [
      {
-      "word": "poem",
-      "definition": "A short text with lines, like a song."
+      "word": "أَشْعَارٌ",
+      "definition": "نُصُوصٌ قَصِيرَةٌ مِنْ أَسْطُرٍ، مِثْلُ الأَغَانِي."
      },
      {
-      "word": "culture",
-      "definition": "The way of life of a group of people."
+      "word": "الثَّقَافَةِ",
+      "definition": "طَرِيقَةُ حَيَاةِ مَجْمُوعَةٍ مِنَ النَّاسِ."
      }
     ],
     "hotspots": [
@@ -529,195 +532,196 @@
       "id": "h4-1",
       "x": 35,
       "y": 46,
-      "title": "Words and Poems",
-      "description": "The dictionary has about 9,000 Turkish words. It also has very old Turkish poems and sayings."
+      "title": "كَلِمَاتٌ وَأَشْعَارٌ",
+      "description": "فِي القَامُوسِ نَحْوُ ٩٠٠٠ كَلِمَةٍ تُرْكِيَّةٍ، وَفِيهِ أَيْضًا أَشْعَارٌ وَأَمْثَالٌ قَدِيمَةٌ جِدًّا."
      },
      {
       "id": "h4-2",
       "x": 68,
       "y": 50,
-      "title": "A Big Window",
-      "description": "The book is like a big window to Turkish culture."
+      "title": "نَافِذَةٌ كَبِيرَةٌ",
+      "description": "الكِتَابُ مِثْلُ نَافِذَةٍ كَبِيرَةٍ عَلَى الثَّقَافَةِ التُّرْكِيَّةِ."
      }
     ],
     "exercises": [
      {
-      "id": "kasgarli-a1-quick-4",
+      "id": "kasgarli-a1-ar-quick-4",
       "type": "drag-drop",
-      "title": "What Is in the Book?",
-      "instructions": "Read. Is it true or false?",
-      "question": "What happened in Chapter 4?",
+      "title": "مَاذَا فِي الكِتَابِ؟",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "مَاذَا فِي الفَصْلِ الرَّابِعِ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "The book has names of many places and people.",
-         "We can learn about the daily life of the Turks from it."
+         "فِي الكِتَابِ أَسْمَاءُ أَمَاكِنَ وَأَشْخَاصٍ كَثِيرَةٌ.",
+         "نَتَعَلَّمُ مِنْهُ عَنِ الحَيَاةِ اليَوْمِيَّةِ لِلْأَتْرَاكِ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "The book has only Arabic poems."
+         "فِي الكِتَابِ أَشْعَارٌ عَرَبِيَّةٌ فَقَطْ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "The book has names of many places and people.",
-        "We can learn about the daily life of the Turks from it."
+       "صَحِيحٌ": [
+        "فِي الكِتَابِ أَسْمَاءُ أَمَاكِنَ وَأَشْخَاصٍ كَثِيرَةٌ.",
+        "نَتَعَلَّمُ مِنْهُ عَنِ الحَيَاةِ اليَوْمِيَّةِ لِلْأَتْرَاكِ."
        ],
-       "False": [
-        "The book has only Arabic poems."
+       "خَطَأٌ": [
+        "فِي الكِتَابِ أَشْعَارٌ عَرَبِيَّةٌ فَقَطْ."
        ]
       },
-      "explanation": "Chapter 4 says: “It also has very old Turkish poems and sayings.” “You can find the names of many places and people in it, too.” “From this book, we can learn about the daily life of the Turks.”",
+      "explanation": "الفصل الرابع: في الكتاب «أَشْعَارٌ وَأَمْثَالٌ تُرْكِيَّةٌ قَدِيمَةٌ جِدًّا».",
       "feedback": {
-       "correct": "Yes! It has very old Turkish poems.",
-       "incorrect": "Read the first paragraph of Chapter 4 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأُولَى مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "kasgarli-a1-language-4-what",
+      "id": "kasgarli-a1-ar-language-4-in",
       "type": "drag-drop",
-      "title": "Look: What Is in the Book?",
-      "instructions": "Put each word in the right group.",
-      "question": "What can you find in it? What can you learn?",
+      "title": "انْظُرْ: مَاذَا فِي الكِتَابِ؟",
+      "instructions": "ضَعْ كُلَّ شَيْءٍ فِي مَجْمُوعَتِهِ.",
+      "question": "هَلْ هُوَ فِي الكِتَابِ؟",
       "dragDropGroups": [
        {
-        "group": "It has …",
+        "group": "فِي الكِتَابِ",
         "items": [
-         "Turkish words",
-         "poems",
-         "sayings"
+         "كَلِمَاتٌ تُرْكِيَّةٌ",
+         "أَشْعَارٌ",
+         "أَمْثَالٌ"
         ]
        },
        {
-        "group": "We can learn …",
+        "group": "لَيْسَ فِي الكِتَابِ",
         "items": [
-         "what they ate",
-         "what they wore"
+         "صُوَرُ سَيَّارَاتٍ",
+         "أَرْقَامُ هَوَاتِفَ"
         ]
        }
       ],
       "correctAnswer": {
-       "It has …": [
-        "Turkish words",
-        "poems",
-        "sayings"
+       "فِي الكِتَابِ": [
+        "كَلِمَاتٌ تُرْكِيَّةٌ",
+        "أَشْعَارٌ",
+        "أَمْثَالٌ"
        ],
-       "We can learn …": [
-        "what they ate",
-        "what they wore"
+       "لَيْسَ فِي الكِتَابِ": [
+        "صُوَرُ سَيَّارَاتٍ",
+        "أَرْقَامُ هَوَاتِفَ"
        ]
       },
-      "explanation": "“The dictionary has about 9,000 Turkish words. It also has very old Turkish poems and sayings.” “What did they eat? What did they wear?”",
+      "explanation": "«فِيهِ» = في الكتاب: «وَفِيهِ أَيْضًا أَشْعَارٌ وَأَمْثَالٌ».",
       "feedback": {
-       "correct": "Good.",
-       "incorrect": "Read Chapter 4 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأُولَى."
       }
      },
      {
-      "id": "kasgarli-a1-language-4-practise",
+      "id": "kasgarli-a1-ar-language-4-used-to",
       "type": "choose-form",
-      "title": "Practise: What Did They …?",
-      "instructions": "Choose the right word.",
-      "question": "Which word goes in the gap?",
+      "title": "تَدَرَّبْ: كَانُوا يَأْكُلُونَ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "هُمْ: أَيُّ صِيغَةٍ؟",
       "formChoices": [
        {
-        "sentence": "What did they [choice]?",
+        "sentence": "مَاذَا [choice] يَأْكُلُونَ؟",
         "options": [
-         "eat",
-         "ate"
+         "كَانُوا",
+         "كَانَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "What games did they [choice]?",
+        "sentence": "مَاذَا كَانُوا [choice]؟",
         "options": [
-         "play",
-         "played"
+         "يَلْبَسُونَ",
+         "يَلْبَسُ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Did + verb (no -ed): What did they eat? What did they play?",
+      "explanation": "«كَانُوا + يَفْعَلُونَ» = شيء فعلوه كثيرًا في الماضي.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 4."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "وَاحِدٌ أَمْ أَكْثَرُ؟"
       }
      },
      {
-      "id": "kasgarli-a1-language-4-say-it",
+      "id": "kasgarli-a1-ar-language-4-yesterday",
       "type": "reflection",
-      "title": "Say It: Yesterday",
-      "instructions": "Ask your partner two questions.",
-      "question": "What did you do yesterday?",
+      "title": "قُلْهَا: أَمْسِ",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنْ أَمْسِ.",
+      "question": "مَاذَا أَكَلْتَ؟ مَاذَا لَعِبْتَ؟",
       "correctAnswer": null,
-      "explanation": "Ask with what did you …?",
+      "explanation": "استعمل الماضي مع «أَنَا»: أَكَلْتُ، لَعِبْتُ.",
       "feedback": {
-       "correct": "Ask two questions.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“What did you eat yesterday?”",
+        "question": "«أَكَلْتُ أَمْسِ …»",
         "mode": "Pair",
-        "example": "I ate rice and soup."
+        "example": "أَكَلْتُ أَمْسِ خُبْزًا وَجُبْنًا."
        },
        {
-        "question": "“What games did you play?”",
+        "question": "«لَعِبْتُ …»",
         "mode": "Pair",
-        "example": "I played football."
+        "example": "لَعِبْتُ كُرَةَ القَدَمِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: How many Turkish words are in the dictionary?",
+     "question": "خَمِّنْ أَوَّلًا: كَمْ كَلِمَةً تُرْكِيَّةً فِي القَامُوسِ؟",
      "options": [
-      "about 9,000",
-      "about 90",
-      "about 900,000"
+      "نَحْوُ ٩٠٠٠",
+      "نَحْوُ ٩٠",
+      "نَحْوُ ٩٠٠٠٠٠"
      ],
      "answer": 0,
-     "quote": "The dictionary has about 9,000 Turkish words."
+     "quote": "فِي القَامُوسِ نَحْوُ ٩٠٠٠ كَلِمَةٍ تُرْكِيَّةٍ."
     },
     "iCan": [
-     "I can tell what is in the book.",
-     "I can ask “What did they …?”.",
-     "I can ask a partner about yesterday."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَاذَا فِي الكِتَابِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «كَانُوا يَأْكُلُونَ».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنْ أَمْسِ."
     ]
    },
    {
     "id": 5,
     "type": "story",
-    "title": "A Problem with a Date",
-    "content": "There is an old story about a calendar in the book.\n\nA long time ago, there was a Turkish khan. He wanted to know the date of an old war. But nobody knew the right year. So the khan called all his people to a big meeting. This kind of meeting was a kurultay.\n\nAt the meeting, the khan said, “We can make a calendar. We can give a name to every year. Then we can find old dates.”",
+    "title": "مُشْكِلَةٌ مَعَ تَارِيخٍ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/kasgarli%2Fa2%2Fimages%2Fkasgarli_a2_ch4.jpeg?alt=media&token=c02e1c4f-6f5f-4a18-9c43-f4f0222dbd9d",
+    "content": "فِي الكِتَابِ قِصَّةٌ قَدِيمَةٌ عَنْ تَقْوِيمٍ.\n\nمُنْذُ زَمَنٍ بَعِيدٍ، كَانَ هُنَاكَ خَاقَانٌ تُرْكِيٌّ. أَرَادَ أَنْ يَعْرِفَ تَارِيخَ حَرْبٍ قَدِيمَةٍ. لَكِنْ مَا عَرَفَ أَحَدٌ السَّنَةَ الصَّحِيحَةَ. فَدَعَا الخَاقَانُ كُلَّ شَعْبِهِ إِلَى اجْتِمَاعٍ كَبِيرٍ. كَانَ هَذَا النَّوْعُ مِنَ الِاجْتِمَاعِ «قُورُولْتَاي».\n\nفِي الِاجْتِمَاعِ، قَالَ الخَاقَانُ: «نَسْتَطِيعُ أَنْ نَصْنَعَ تَقْوِيمًا. نَسْتَطِيعُ أَنْ نُعْطِيَ اسْمًا لِكُلِّ سَنَةٍ. بَعْدَ ذَلِكَ نَسْتَطِيعُ أَنْ نَجِدَ التَّوَارِيخَ القَدِيمَةَ».",
     "vocabulary": [
      {
-      "word": "calendar",
-      "definition": "A list of the days and months of a year."
+      "word": "تَقْوِيمٍ",
+      "definition": "قَائِمَةٌ بِأَيَّامِ وَشُهُورِ السَّنَةِ."
      },
      {
-      "word": "khan",
-      "definition": "An old Turkish king."
+      "word": "خَاقَانٌ",
+      "definition": "مَلِكٌ تُرْكِيٌّ قَدِيمٌ."
      },
      {
-      "word": "war",
-      "definition": "A big fight between two countries."
+      "word": "حَرْبٍ",
+      "definition": "قِتَالٌ كَبِيرٌ بَيْنَ بَلَدَيْنِ."
      },
      {
-      "word": "meeting",
-      "definition": "A time when people come together and talk."
+      "word": "اجْتِمَاعٍ",
+      "definition": "وَقْتٌ يَجْتَمِعُ فِيهِ النَّاسُ وَيَتَكَلَّمُونَ."
      },
      {
-      "word": "kurultay",
-      "definition": "A big meeting of the Turkish people."
+      "word": "قُورُولْتَاي",
+      "definition": "اجْتِمَاعٌ كَبِيرٌ لِلشَّعْبِ التُّرْكِيِّ."
      }
     ],
     "hotspots": [
@@ -725,153 +729,151 @@
       "id": "h5-1",
       "x": 35,
       "y": 46,
-      "title": "A Problem",
-      "description": "The khan wanted to know the date of an old war. But nobody knew the right year."
+      "title": "مُشْكِلَةٌ",
+      "description": "أَرَادَ خَاقَانٌ تُرْكِيٌّ أَنْ يَعْرِفَ تَارِيخَ حَرْبٍ قَدِيمَةٍ، لَكِنْ مَا عَرَفَ أَحَدٌ السَّنَةَ الصَّحِيحَةَ."
      },
      {
       "id": "h5-2",
       "x": 68,
       "y": 50,
-      "title": "A Kurultay",
-      "description": "The khan called all his people to a big meeting. This kind of meeting was a kurultay."
+      "title": "قُورُولْتَاي",
+      "description": "دَعَا الخَاقَانُ كُلَّ شَعْبِهِ إِلَى اجْتِمَاعٍ كَبِيرٍ. كَانَ هَذَا النَّوْعُ مِنَ الِاجْتِمَاعِ «قُورُولْتَاي»."
      }
     ],
     "exercises": [
      {
-      "id": "kasgarli-a1-quick-5",
+      "id": "kasgarli-a1-ar-quick-5",
       "type": "multiple-choice",
-      "title": "A Problem with a Date",
-      "instructions": "Choose the best answer.",
-      "question": "What was the khan’s idea?",
+      "title": "مُشْكِلَةٌ مَعَ تَارِيخٍ",
+      "instructions": "اخْتَرِ الجَوَابَ الصَّحِيحَ.",
+      "question": "مَا فِكْرَةُ الخَاقَانِ؟",
       "options": [
-       "to make a calendar and give a name to every year",
-       "to build a big city",
-       "to start a new war"
+       "أَنْ يَصْنَعُوا تَقْوِيمًا وَيُعْطُوا اسْمًا لِكُلِّ سَنَةٍ",
+       "أَنْ يَبْنُوا مَدِينَةً كَبِيرَةً",
+       "أَنْ يَبْدَؤُوا حَرْبًا جَدِيدَةً"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “We can make a calendar. We can give a name to every year. Then we can find old dates.”",
+      "explanation": "الفصل الخامس: «نَسْتَطِيعُ أَنْ نَصْنَعَ تَقْوِيمًا. نَسْتَطِيعُ أَنْ نُعْطِيَ اسْمًا لِكُلِّ سَنَةٍ».",
       "feedback": {
-       "correct": "Yes! A calendar with a name for every year.",
-       "incorrect": "Read the last paragraph of Chapter 5 again."
+       "correct": "نَعَمْ. تَقْوِيمٌ.",
+       "incorrect": "اقْرَأْ كَلَامَ الخَاقَانِ."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "kasgarli-a1-language-5-nobody",
+      "id": "kasgarli-a1-ar-language-5-nobody",
       "type": "multiple-choice",
-      "title": "Look: Nobody",
-      "instructions": "Choose the right answer.",
-      "question": "“But nobody knew the right year.” What does this mean?",
+      "title": "انْظُرْ: مَا عَرَفَ أَحَدٌ",
+      "instructions": "اخْتَرِ الجَوَابَ الصَّحِيحَ.",
+      "question": "«لَكِنْ مَا عَرَفَ أَحَدٌ السَّنَةَ الصَّحِيحَةَ.» مَنْ عَرَفَ السَّنَةَ؟",
       "options": [
-       "No person knew the year.",
-       "Every person knew the year.",
-       "One person knew the year."
+       "لَا أَحَدَ",
+       "كُلُّ النَّاسِ",
+       "الخَاقَانُ"
       ],
       "correctAnswer": 0,
-      "explanation": "Nobody = no person.",
+      "explanation": "«مَا عَرَفَ أَحَدٌ» = لا أحد عرف. «مَا» + ماضٍ للنفي.",
       "feedback": {
-       "correct": "Yes. No person knew it.",
-       "incorrect": "Read the second paragraph of Chapter 5."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "هَلْ عَرَفَ أَحَدٌ؟"
       }
      },
      {
-      "id": "kasgarli-a1-language-5-practise",
+      "id": "kasgarli-a1-ar-language-5-can",
       "type": "word-bank",
-      "title": "Practise: We Can …",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What did the khan say?",
-      "fillBlanksText": "“We [blank] make a calendar. We can give a [blank] to every year. Then we can [blank] old dates.”",
+      "title": "تَدَرَّبْ: نَسْتَطِيعُ أَنْ …",
+      "instructions": "ضَعِ الكَلِمَةَ المُنَاسِبَةَ فِي الفَرَاغِ.",
+      "question": "مَاذَا نَسْتَطِيعُ أَنْ نَفْعَلَ؟",
+      "fillBlanksText": "نَسْتَطِيعُ أَنْ [blank] تَقْوِيمًا. نَسْتَطِيعُ أَنْ [blank] اسْمًا لِكُلِّ سَنَةٍ.",
       "wordBank": [
-       "can",
-       "name",
-       "find",
-       "cans",
-       "found"
+       "نَصْنَعَ",
+       "نُعْطِيَ",
+       "نَنَامَ"
       ],
       "correctAnswer": [
-       "can",
-       "name",
-       "find"
+       "نَصْنَعَ",
+       "نُعْطِيَ"
       ],
-      "explanation": "Can + verb (no -s, no to): we can make, we can find.",
+      "explanation": "«نَسْتَطِيعُ أَنْ» + فعل مثل: نَصْنَعَ، نُعْطِيَ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the last paragraph of Chapter 5."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأْ كَلَامَ الخَاقَانِ."
       }
      },
      {
-      "id": "kasgarli-a1-language-5-say-it",
+      "id": "kasgarli-a1-ar-language-5-dates",
       "type": "reflection",
-      "title": "Say It: Dates",
-      "instructions": "Ask and answer about dates.",
-      "question": "When is your birthday?",
+      "title": "قُلْهَا: تَوَارِيخُ",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنْ تَارِيخَيْنِ مُهِمَّيْنِ لَكَ.",
+      "question": "مَتَى؟",
       "correctAnswer": null,
-      "explanation": "Use on + date.",
+      "explanation": "استعمل «فِي عَامِ …».",
       "feedback": {
-       "correct": "Ask and answer two questions.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“When is your birthday?”",
+        "question": "«وُلِدْتُ فِي عَامِ …»",
         "mode": "Pair",
-        "example": "My birthday is on May 5."
+        "example": "وُلِدْتُ فِي عَامِ ٢٠١٦."
        },
        {
-        "question": "“What year is it now?”",
+        "question": "«بَدَأْتُ المَدْرَسَةَ فِي عَامِ …»",
         "mode": "Pair",
-        "example": "It is 2026."
+        "example": "بَدَأْتُ المَدْرَسَةَ فِي عَامِ ٢٠٢٢."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What did the khan want to know?",
+     "question": "خَمِّنْ أَوَّلًا: مَاذَا أَرَادَ الخَاقَانُ أَنْ يَعْرِفَ؟",
      "options": [
-      "the date of an old war",
-      "the name of a river",
-      "the price of a horse"
+      "تَارِيخَ حَرْبٍ قَدِيمَةٍ",
+      "اسْمَ نَهْرٍ",
+      "ثَمَنَ حِصَانٍ"
      ],
      "answer": 0,
-     "quote": "He wanted to know the date of an old war."
+     "quote": "أَرَادَ أَنْ يَعْرِفَ تَارِيخَ حَرْبٍ قَدِيمَةٍ."
     },
     "iCan": [
-     "I can tell about the khan’s problem.",
-     "I can understand nobody.",
-     "I can say a date."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ مُشْكِلَةَ الخَاقَانِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «مَا عَرَفَ أَحَدٌ» وَ«نَسْتَطِيعُ أَنْ».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ تَوَارِيخَ مُهِمَّةً."
     ]
    },
    {
     "id": 6,
     "type": "story",
-    "title": "Twelve Animals and a River",
-    "content": "The people loved the khan’s idea, too, and they named the years in this way:\n\nOne day, the khan went hunting with his people. They pushed many wild animals to a big river in the Ili Valley. The water was fast and dangerous. Only twelve animals got to the other side.\n\nThe rat arrived first. So the first year is the Year of the Rat. Then come the Ox, the Leopard, the Rabbit and the Crocodile. After them come the Snake, the Horse, the Sheep and the Monkey. The last three are the Rooster, the Dog and the Pig. After the twelfth year, the Year of the Rat comes again.",
+    "title": "اثْنَا عَشَرَ حَيَوَانًا وَنَهْرٌ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/kasgarli%2Fa2%2Fimages%2Fkasgarli_a2_ch5.jpeg?alt=media&token=0fdfc4d5-7b21-491a-9e8d-c4a2146f6c31",
+    "content": "أَحَبَّ النَّاسُ فِكْرَةَ الخَاقَانِ أَيْضًا، وَسَمَّوُا السَّنَوَاتِ بِهَذِهِ الطَّرِيقَةِ:\n\nذَاتَ يَوْمٍ، ذَهَبَ الخَاقَانُ لِلصَّيْدِ مَعَ شَعْبِهِ. دَفَعُوا حَيَوَانَاتٍ بَرِّيَّةً كَثِيرَةً إِلَى نَهْرٍ كَبِيرٍ فِي وَادِي إِيلِي. كَانَ المَاءُ سَرِيعًا وَخَطِيرًا. وَصَلَ اثْنَا عَشَرَ حَيَوَانًا فَقَطْ إِلَى الجَانِبِ الآخَرِ.\n\nوَصَلَ الجُرَذُ أَوَّلًا. لِذَلِكَ السَّنَةُ الأُولَى هِيَ سَنَةُ الجُرَذِ. ثُمَّ يَأْتِي الثَّوْرُ وَالفَهْدُ وَالأَرْنَبُ وَالتِّمْسَاحُ. وَبَعْدَهُمْ يَأْتِي الثُّعْبَانُ وَالحِصَانُ وَالخَرُوفُ وَالقِرْدُ. وَالثَّلَاثَةُ الأَخِيرَةُ هِيَ الدِّيكُ وَالكَلْبُ وَالخِنْزِيرُ. بَعْدَ السَّنَةِ الثَّانِيَةَ عَشْرَةَ، تَعُودُ سَنَةُ الجُرَذِ مَرَّةً أُخْرَى.",
     "vocabulary": [
      {
-      "word": "dangerous",
-      "definition": "Can hurt you."
+      "word": "وَخَطِيرًا",
+      "definition": "يَسْتَطِيعُ أَنْ يُؤْذِيَكَ."
      },
      {
-      "word": "rat",
-      "definition": "A small gray animal, like a big mouse."
+      "word": "الجُرَذُ",
+      "definition": "حَيَوَانٌ صَغِيرٌ رَمَادِيٌّ، مِثْلُ فَأْرٍ كَبِيرٍ."
      },
      {
-      "word": "leopard",
-      "definition": "A big wild cat with black spots."
+      "word": "وَالفَهْدُ",
+      "definition": "قِطٌّ بَرِّيٌّ كَبِيرٌ لَهُ بُقَعٌ سَوْدَاءُ."
      },
      {
-      "word": "crocodile",
-      "definition": "A big animal with a long mouth, in rivers."
+      "word": "وَالتِّمْسَاحُ",
+      "definition": "حَيَوَانٌ كَبِيرٌ لَهُ فَمٌ طَوِيلٌ، يَعِيشُ فِي الأَنْهَارِ."
      },
      {
-      "word": "rooster",
-      "definition": "A male chicken."
+      "word": "الدِّيكُ",
+      "definition": "دَجَاجٌ ذَكَرٌ."
      },
      {
-      "word": "hunting",
-      "definition": "Catching and killing wild animals."
+      "word": "لِلصَّيْدِ",
+      "definition": "إِمْسَاكُ الحَيَوَانَاتِ البَرِّيَّةِ وَقَتْلُهَا."
      }
     ],
     "hotspots": [
@@ -879,40 +881,40 @@
       "id": "h6-1",
       "x": 35,
       "y": 46,
-      "title": "A Dangerous River",
-      "description": "The water was fast and dangerous. Only twelve animals got to the other side."
+      "title": "نَهْرٌ خَطِيرٌ",
+      "description": "دَفَعَ الخَاقَانُ وَشَعْبُهُ حَيَوَانَاتٍ بَرِّيَّةً كَثِيرَةً إِلَى نَهْرٍ كَبِيرٍ. كَانَ المَاءُ سَرِيعًا وَخَطِيرًا."
      },
      {
       "id": "h6-2",
       "x": 68,
       "y": 50,
-      "title": "Twelve Years",
-      "description": "The rat arrived first. So the first year is the Year of the Rat."
+      "title": "اثْنَتَا عَشْرَةَ سَنَةً",
+      "description": "وَصَلَ اثْنَا عَشَرَ حَيَوَانًا فَقَطْ إِلَى الجَانِبِ الآخَرِ، وَسُمِّيَتِ السَّنَوَاتُ بِأَسْمَائِهَا."
      }
     ],
     "exercises": [
      {
-      "id": "kasgarli-a1-quick-6",
+      "id": "kasgarli-a1-ar-quick-6",
       "type": "sequencing",
-      "title": "Twelve Animals and a River",
-      "instructions": "Put the animals in order.",
-      "question": "Which year comes first?",
+      "title": "اثْنَا عَشَرَ حَيَوَانًا وَنَهْرٌ",
+      "instructions": "رَتِّبِ الجُمَلَ.",
+      "question": "أَيُّ سَنَةٍ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "the Year of the Rat"
+        "text": "سَنَةُ الجُرَذِ"
        },
        {
         "id": "2",
-        "text": "the Year of the Ox"
+        "text": "سَنَةُ الثَّوْرِ"
        },
        {
         "id": "3",
-        "text": "the Year of the Leopard"
+        "text": "سَنَةُ الفَهْدِ"
        },
        {
         "id": "4",
-        "text": "the Year of the Rabbit"
+        "text": "سَنَةُ الأَرْنَبِ"
        }
       ],
       "correctAnswer": [
@@ -921,149 +923,150 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 6: “The rat arrived first. … Then come the Ox, the Leopard, the Rabbit and the Crocodile.”",
+      "explanation": "الفصل السادس: «وَصَلَ الجُرَذُ أَوَّلًا … ثُمَّ يَأْتِي الثَّوْرُ وَالفَهْدُ وَالأَرْنَبُ».",
       "feedback": {
-       "correct": "Great! You know the first four years.",
-       "incorrect": "Read the last paragraph of Chapter 6 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأَخِيرَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "kasgarli-a1-language-6-first",
+      "id": "kasgarli-a1-ar-language-6-first",
       "type": "multiple-choice",
-      "title": "Look: First, Twelfth",
-      "instructions": "Choose the right answer.",
-      "question": "“After the twelfth year, the Year of the Rat comes again.” Which year is the twelfth?",
+      "title": "انْظُرْ: الأُولَى، الثَّانِيَةَ عَشْرَةَ",
+      "instructions": "اخْتَرِ الجَوَابَ الصَّحِيحَ.",
+      "question": "«السَّنَةُ الأُولَى هِيَ سَنَةُ الجُرَذِ.» مَاذَا تَعْنِي «الأُولَى»؟",
       "options": [
-       "the Year of the Pig",
-       "the Year of the Rat",
-       "the Year of the Horse"
+       "رَقْمَ ١ فِي التَّرْتِيبِ",
+       "سَنَةً جَمِيلَةً",
+       "سَنَةً طَوِيلَةً"
       ],
       "correctAnswer": 0,
-      "explanation": "First = number 1. Twelfth = number 12. The last of the twelve is the Pig.",
+      "explanation": "«الأُولَى» = رقم ١ في الترتيب (مع المؤنث: السنة). و«الثَّانِيَةَ عَشْرَةَ» = رقم ١٢.",
       "feedback": {
-       "correct": "Yes. The Pig is the twelfth.",
-       "incorrect": "Read the last paragraph of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "أَيُّ سَنَةٍ قَبْلَ كُلِّ السَّنَوَاتِ؟"
       }
      },
      {
-      "id": "kasgarli-a1-language-6-practise",
+      "id": "kasgarli-a1-ar-language-6-went",
       "type": "choose-form",
-      "title": "Practise: Went, Pushed, Got",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: ذَهَبَ، دَفَعُوا، وَصَلَ",
+      "instructions": "اخْتَرِ الكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "هُوَ أَمْ هُمْ؟",
       "formChoices": [
        {
-        "sentence": "One day, the khan [choice] hunting with his people.",
+        "sentence": "[choice] الخَاقَانُ لِلصَّيْدِ مَعَ شَعْبِهِ.",
         "options": [
-         "went",
-         "goes"
+         "ذَهَبَ",
+         "ذَهَبُوا"
         ],
         "answer": 0
        },
        {
-        "sentence": "They [choice] many wild animals to a big river.",
+        "sentence": "[choice] حَيَوَانَاتٍ بَرِّيَّةً كَثِيرَةً إِلَى نَهْرٍ كَبِيرٍ.",
         "options": [
-         "pushed",
-         "push"
+         "دَفَعُوا",
+         "دَفَعَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Only twelve animals [choice] to the other side.",
+        "sentence": "[choice] الجُرَذُ أَوَّلًا.",
         "options": [
-         "got",
-         "get"
+         "وَصَلَ",
+         "وَصَلُوا"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Go → went, get → got: they change. Push → pushed: it adds -ed.",
+      "explanation": "مع «هُوَ»: ذَهَبَ، وَصَلَ. ومع «هُمْ» نزيد «ـوا»: دَفَعُوا.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "وَاحِدٌ أَمْ أَكْثَرُ؟"
       }
      },
      {
-      "id": "kasgarli-a1-language-6-say-it",
+      "id": "kasgarli-a1-ar-language-6-animals",
       "type": "reflection",
-      "title": "Say It: The Animals",
-      "instructions": "Say the animals in order with your partner.",
-      "question": "Which animal comes next?",
+      "title": "قُلْهَا: الحَيَوَانَاتُ",
+      "instructions": "قُلْ لِزَمِيلِكَ أَسْمَاءَ ثَلَاثَةِ حَيَوَانَاتٍ مِنَ القِصَّةِ بِالتَّرْتِيبِ.",
+      "question": "أَيُّ حَيَوَانٍ أَوَّلًا؟",
       "correctAnswer": null,
-      "explanation": "Use first and after … comes ….",
+      "explanation": "استعمل «أَوَّلًا» و«ثُمَّ».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“The first animal is …”",
+        "question": "«أَوَّلًا …، ثُمَّ …»",
         "mode": "Pair",
-        "example": "The first animal is the rat."
+        "example": "أَوَّلًا الجُرَذُ، ثُمَّ الثَّوْرُ، ثُمَّ الفَهْدُ."
        },
        {
-        "question": "“After the … comes the …”",
+        "question": "«أُحِبُّ سَنَةَ …»",
         "mode": "Pair",
-        "example": "After the snake comes the horse."
+        "example": "أُحِبُّ سَنَةَ الحِصَانِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Which animal arrived first?",
+     "question": "خَمِّنْ أَوَّلًا: أَيُّ حَيَوَانٍ وَصَلَ أَوَّلًا؟",
      "options": [
-      "the rat",
-      "the horse",
-      "the pig"
+      "الجُرَذُ",
+      "الحِصَانُ",
+      "الخِنْزِيرُ"
      ],
      "answer": 0,
-     "quote": "The rat arrived first."
+     "quote": "وَصَلَ الجُرَذُ أَوَّلًا."
     },
     "iCan": [
-     "I can tell about the twelve animals.",
-     "I can understand first and twelfth.",
-     "I can say the animals in order."
+     "أَسْتَطِيعُ أَنْ أَحْكِيَ قِصَّةَ الحَيَوَانَاتِ وَالنَّهْرِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «الأُولَى» وَ«الثَّانِيَةَ عَشْرَةَ».",
+     "أَسْتَطِيعُ أَنْ أَقُولَ أَسْمَاءَ الحَيَوَانَاتِ بِالتَّرْتِيبِ."
     ],
     "groupTask": {
      "type": "project",
-     "title": "Our Animal Calendar",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "تَقْوِيمُ حَيَوَانَاتِنَا",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group draws a big circle with twelve parts.",
-      "Each student draws two or three animals in order.",
-      "The group writes “the Year of the …” for each animal.",
-      "The group shows the calendar and says the twelve years."
+      "تَرْسُمُ المَجْمُوعَةُ دَائِرَةً كَبِيرَةً فِيهَا اثْنَا عَشَرَ جُزْءًا.",
+      "يَرْسُمُ كُلُّ طَالِبٍ حَيَوَانَيْنِ أَوْ ثَلَاثَةً بِالتَّرْتِيبِ.",
+      "تَكْتُبُ المَجْمُوعَةُ «سَنَةُ …» لِكُلِّ حَيَوَانٍ.",
+      "تَعْرِضُ المَجْمُوعَةُ التَّقْوِيمَ، وَتَقُولُ السَّنَوَاتِ الاثْنَتَيْ عَشْرَةَ."
      ],
-     "share": "The group says the twelve years. Story: “After the twelfth year, the Year of the Rat comes again.”",
-     "solo": "Draw the circle. Write the names of six animals."
+     "share": "تَقُولُ المَجْمُوعَةُ السَّنَوَاتِ الاثْنَتَيْ عَشْرَةَ. مِنَ القِصَّةِ: «بَعْدَ السَّنَةِ الثَّانِيَةَ عَشْرَةَ، تَعُودُ سَنَةُ الجُرَذِ مَرَّةً أُخْرَى».",
+     "solo": "ارْسُمِ الدَّائِرَةَ، وَاكْتُبْ أَسْمَاءَ سِتَّةِ حَيَوَانَاتٍ."
     }
    },
    {
     "id": 7,
     "type": "story",
-    "title": "A New Day",
-    "content": "The old Turks thought about the animal of every year. The ox likes to fight with its horns. So they said, “There will be wars in the Year of the Ox.” Snakes and crocodiles live near water. So they said, “There will be a lot of rain in the Year of the Snake.”\n\nFor the old Turks, the new year started on March 21st. They had a big celebration on this day. Its name was Nowruz, and it means “new day”. Many people still celebrate Nowruz today.",
+    "title": "يَوْمٌ جَدِيد",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/kasgarli%2Fa2%2Fimages%2Fkasgarli_a2_ch6.jpeg?alt=media&token=bc1c2531-8e42-46be-a07e-7289e89a4de3",
+    "content": "أَعْطَى التُّرْكُ القُدَمَاءُ مَعْنًى خَاصًّا لِحَيَوَانِ كُلِّ سَنَةٍ. الثَّوْرُ يُحِبُّ أَنْ يَتَقَاتَلَ بِقَرْنَيْهِ. لِذَلِكَ قَالُوا: «سَتَكُونُ هُنَاكَ حُرُوبٌ فِي سَنَةِ الثَّوْرِ». الثَّعَابِينُ وَالتَّمَاسِيحُ تَعِيشُ قُرْبَ المَاءِ. لِذَلِكَ قَالُوا: «سَتَكُونُ هُنَاكَ أَمْطَارٌ كَثِيرَةٌ فِي سَنَةِ الثُّعْبَانِ».\n\nعِنْدَ التُّرْكِ القُدَمَاءِ، كَانَتِ السَّنَةُ الجَدِيدَةُ تَبْدَأُ فِي ٢١ مَارِس. وَكَانَ لَهُمُ احْتِفَالٌ كَبِيرٌ فِي هَذَا اليَوْمِ. اسْمُهُ «نَوْرُوز»، وَمَعْنَاهُ «يَوْمٌ جَدِيدٌ». وَمَا زَالَ كَثِيرٌ مِنَ النَّاسِ يَحْتَفِلُونَ بِنَوْرُوز حَتَّى اليَوْمَ.",
     "vocabulary": [
      {
-      "word": "ox",
-      "definition": "A big, strong male cow."
+      "word": "الثَّوْرُ",
+      "definition": "بَقَرَةٌ ذَكَرٌ كَبِيرَةٌ وَقَوِيَّةٌ."
      },
      {
-      "word": "fight",
-      "definition": "Hit and hurt another person or animal."
+      "word": "يَتَقَاتَلَ",
+      "definition": "يَضْرِبُ وَيُؤْذِي شَخْصًا آخَرَ أَوْ حَيَوَانًا آخَرَ."
      },
      {
-      "word": "horn",
-      "definition": "A hard, pointed thing on an animal's head."
+      "word": "بِقَرْنَيْهِ",
+      "definition": "شَيْءٌ صُلْبٌ وَمُدَبَّبٌ عَلَى رَأْسِ الحَيَوَانِ."
      },
      {
-      "word": "celebration",
-      "definition": "A happy day with friends, food and music."
+      "word": "احْتِفَالٌ",
+      "definition": "يَوْمٌ سَعِيدٌ مَعَ الأَصْدِقَاءِ وَالطَّعَامِ وَالمُوسِيقَى."
      }
     ],
     "hotspots": [
@@ -1071,167 +1074,176 @@
       "id": "h7-1",
       "x": 35,
       "y": 46,
-      "title": "The Ox",
-      "description": "The ox likes to fight with its horns. So they said, “There will be wars in the Year of the Ox.”"
+      "title": "الثَّوْرُ",
+      "description": "الثَّوْرُ يُحِبُّ أَنْ يَتَقَاتَلَ بِقَرْنَيْهِ، لِذَلِكَ قَالُوا: «سَتَكُونُ هُنَاكَ حُرُوبٌ فِي سَنَةِ الثَّوْرِ»."
      },
      {
       "id": "h7-2",
       "x": 68,
       "y": 50,
-      "title": "Nowruz",
-      "description": "They had a big celebration on March 21st. Its name was Nowruz, and it means “new day”."
+      "title": "نَوْرُوز",
+      "description": "كَانَتِ السَّنَةُ الجَدِيدَةُ تَبْدَأُ فِي ٢١ مَارِس، وَكَانَ لَهُمُ احْتِفَالٌ كَبِيرٌ اسْمُهُ «نَوْرُوز»."
      }
     ],
     "exercises": [
      {
-      "id": "kasgarli-a1-quick-7",
+      "id": "kasgarli-a1-ar-quick-7",
       "type": "matching",
-      "title": "A New Day",
-      "instructions": "Match the year with the words.",
-      "question": "What did the old Turks say?",
+      "title": "يَوْمٌ جَدِيدٌ",
+      "instructions": "صِلْ كُلَّ سَنَةٍ بِمَا قَالَهُ التُّرْكُ القُدَمَاءُ.",
+      "question": "مَاذَا قَالَ التُّرْكُ القُدَمَاءُ؟",
       "matchingHeadings": {
-       "left": "Year",
-       "right": "They said …"
+       "left": "السَّنَةُ",
+       "right": "قَالُوا …"
       },
       "matchingPairs": [
        {
-        "left": "the Year of the Ox",
-        "right": "“There will be wars.”"
+        "left": "سَنَةُ الثَّوْرِ",
+        "right": "«سَتَكُونُ هُنَاكَ حُرُوبٌ.»"
        },
        {
-        "left": "the Year of the Snake",
-        "right": "“There will be a lot of rain.”"
+        "left": "سَنَةُ الثُّعْبَانِ",
+        "right": "«سَتَكُونُ هُنَاكَ أَمْطَارٌ كَثِيرَةٌ.»"
        }
       ],
       "correctAnswer": {
-       "the Year of the Ox": "“There will be wars.”",
-       "the Year of the Snake": "“There will be a lot of rain.”"
+       "سَنَةُ الثَّوْرِ": "«سَتَكُونُ هُنَاكَ حُرُوبٌ.»",
+       "سَنَةُ الثُّعْبَانِ": "«سَتَكُونُ هُنَاكَ أَمْطَارٌ كَثِيرَةٌ.»"
       },
-      "explanation": "Chapter 7: “There will be wars in the Year of the Ox.” “There will be a lot of rain in the Year of the Snake.”",
+      "explanation": "الفصل السابع: الثور يحب أن يتقاتل، والثعابين تعيش قرب الماء.",
       "feedback": {
-       "correct": "Yes! You matched the two years.",
-       "incorrect": "Read the first paragraph of Chapter 7 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأُولَى مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "kasgarli-a1-language-7-will",
+      "id": "kasgarli-a1-ar-language-7-will",
       "type": "multiple-choice",
-      "title": "Look: There Will Be",
-      "instructions": "Choose the right answer.",
-      "question": "“There will be a lot of rain.” When is this?",
+      "title": "انْظُرْ: سَتَكُونُ هُنَاكَ",
+      "instructions": "اخْتَرِ الجَوَابَ الصَّحِيحَ.",
+      "question": "«سَتَكُونُ هُنَاكَ حُرُوبٌ فِي سَنَةِ الثَّوْرِ.» مَتَى؟",
       "options": [
-       "in the future",
-       "in the past",
-       "now"
+       "فِي المُسْتَقْبَلِ",
+       "فِي المَاضِي",
+       "الآنَ"
       ],
       "correctAnswer": 0,
-      "explanation": "There will be = it is going to happen in the future.",
+      "explanation": "«سَـ» + فعل = في المستقبل: سَتَكُونُ.",
       "feedback": {
-       "correct": "Yes. In the future.",
-       "incorrect": "Read the first paragraph of Chapter 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "انْظُرْ إِلَى «سَـ»."
       }
      },
      {
-      "id": "kasgarli-a1-language-7-practise",
+      "id": "kasgarli-a1-ar-language-7-in",
       "type": "choose-form",
-      "title": "Practise: On, In",
-      "instructions": "Choose the right word.",
-      "question": "Which word goes with the time?",
+      "title": "تَدَرَّبْ: فِي، بِـ",
+      "instructions": "اخْتَرِ الكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةٍ؟",
       "formChoices": [
        {
-        "sentence": "The new year started [choice] March 21st.",
+        "sentence": "كَانَتِ السَّنَةُ الجَدِيدَةُ تَبْدَأُ [choice] ٢١ مَارِس.",
         "options": [
-         "on",
-         "in"
+         "فِي",
+         "بِـ"
         ],
         "answer": 0
        },
        {
-        "sentence": "They had a big celebration [choice] this day.",
+        "sentence": "وَكَانَ لَهُمُ احْتِفَالٌ كَبِيرٌ [choice] هَذَا اليَوْمِ.",
         "options": [
-         "on",
-         "in"
+         "فِي",
+         "إِلَى"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "يَحْتَفِلُ النَّاسُ [choice]نَوْرُوز.",
+        "options": [
+         "بِـ",
+         "فِي"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "On + date and on + day: on March 21st, on this day.",
+      "explanation": "للوقت: فِي ٢١ مَارِس، فِي هَذَا اليَوْمِ. ومع «يَحْتَفِلُ» نقول: بِـ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "وَقْتٌ أَمْ «يَحْتَفِلُ»؟"
       }
      },
      {
-      "id": "kasgarli-a1-language-7-say-it",
+      "id": "kasgarli-a1-ar-language-7-celebrate",
       "type": "reflection",
-      "title": "Say It: Our Celebrations",
-      "instructions": "Talk about a celebration with your partner.",
-      "question": "When do you celebrate?",
+      "title": "قُلْهَا: احْتِفَالَاتُنَا",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنِ احْتِفَالٍ فِي بَيْتِكَ.",
+      "question": "مَا الاحْتِفَالُ؟ وَمَتَى؟",
       "correctAnswer": null,
-      "explanation": "Use celebrate and there will be.",
+      "explanation": "استعمل «نَحْتَفِلُ بِـ» و«فِي».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“We celebrate … on …”",
+        "question": "«نَحْتَفِلُ بِـ…»",
         "mode": "Pair",
-        "example": "We celebrate Ramadan Bayram with our family."
+        "example": "نَحْتَفِلُ بِالعِيدِ."
        },
        {
-        "question": "“There will be … tomorrow.”",
+        "question": "«فِي هَذَا اليَوْمِ …»",
         "mode": "Pair",
-        "example": "There will be rain tomorrow."
+        "example": "فِي هَذَا اليَوْمِ نَزُورُ جَدَّتِي."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: When did the new year start for the old Turks?",
+     "question": "خَمِّنْ أَوَّلًا: مَتَى كَانَتِ السَّنَةُ الجَدِيدَةُ تَبْدَأُ عِنْدَ التُّرْكِ القُدَمَاءِ؟",
      "options": [
-      "on March 21st",
-      "on January 1st",
-      "on June 21st"
+      "فِي ٢١ مَارِس",
+      "فِي أَوَّلِ يَنَايِر",
+      "فِي ٢١ يُونْيُو"
      ],
      "answer": 0,
-     "quote": "For the old Turks, the new year started on March 21st."
+     "quote": "كَانَتِ السَّنَةُ الجَدِيدَةُ تَبْدَأُ فِي ٢١ مَارِس."
     },
     "iCan": [
-     "I can tell about Nowruz.",
-     "I can understand there will be.",
-     "I can talk about a celebration."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَعْنَى بَعْضِ السَّنَوَاتِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «سَتَكُونُ هُنَاكَ».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنِ احْتِفَالٍ."
     ]
    },
    {
     "id": 8,
     "type": "story",
-    "title": "The First Map with Japan",
-    "content": "There is a map with many colors in Mahmud’s book. On it, the mountains are red, the seas are green, the rivers are blue, and the deserts are yellow. Balasagun, a city of the Turks, is in the middle of the map.\n\nThe map also shows Japan. It is the first world map with Japan on it! The next map with Japan came 400 years later. In 2024, UNESCO celebrated this great book. It is a real treasure of the Turkish language.",
+    "title": "أَوَّلُ خَرِيطَةٍ فِيهَا اليَابَان",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/kasgarli%2Fa2%2Fimages%2Fkasgarli_a2_ch7.jpeg?alt=media&token=e1e48600-97aa-4c5b-b98c-c0fea41aa791",
+    "content": "فِي كِتَابِ مَحْمُود خَرِيطَةٌ مُلَوَّنَةٌ لِلْعَالَمِ. فِيهَا الجِبَالُ حَمْرَاءُ، وَالبِحَارُ خَضْرَاءُ، وَالأَنْهَارُ زَرْقَاءُ، وَالصَّحَارِي صَفْرَاءُ. وَبَلَاسَاغُون، وَهِيَ مَدِينَةٌ لِلتُّرْكِ، فِي وَسَطِ الخَرِيطَةِ.\n\nوَتُظْهِرُ الخَرِيطَةُ اليَابَانَ أَيْضًا. إِنَّهَا أَوَّلُ خَرِيطَةٍ لِلْعَالَمِ فِيهَا اليَابَان! وَجَاءَتِ الخَرِيطَةُ التَّالِيَةُ الَّتِي فِيهَا اليَابَانُ بَعْدَ ٤٠٠ سَنَةٍ. وَفِي عَامِ ٢٠٢٤، احْتَفَلَتِ اليُونِسْكُو بِهَذَا الكِتَابِ العَظِيمِ. إِنَّهُ كَنْزٌ حَقِيقِيٌّ لِلُّغَةِ التُّرْكِيَّةِ.",
     "vocabulary": [
      {
-      "word": "map",
-      "definition": "A picture of a country or the world."
+      "word": "خَرِيطَةٌ",
+      "definition": "صُورَةٌ لِبَلَدٍ أَوْ لِلْعَالَمِ."
      },
      {
-      "word": "desert",
-      "definition": "A big, dry place with a lot of sand."
+      "word": "وَالصَّحَارِي",
+      "definition": "أَمَاكِنُ كَبِيرَةٌ وَجَافَّةٌ فِيهَا رَمْلٌ كَثِيرٌ."
      },
      {
-      "word": "celebrate",
-      "definition": "Do something special on a happy day."
+      "word": "احْتَفَلَتِ",
+      "definition": "فَعَلَتْ شَيْئًا خَاصًّا فِي يَوْمٍ سَعِيدٍ."
      },
      {
-      "word": "treasure",
-      "definition": "A very important and beautiful thing."
+      "word": "كَنْزٌ",
+      "definition": "شَيْءٌ مُهِمٌّ جِدًّا وَجَمِيلٌ."
      },
      {
-      "word": "middle",
-      "definition": "The center of something."
+      "word": "وَسَطِ",
+      "definition": "مَرْكَزُ شَيْءٍ مَا."
      }
     ],
     "hotspots": [
@@ -1239,177 +1251,176 @@
       "id": "h8-1",
       "x": 35,
       "y": 46,
-      "title": "A Colorful Map",
-      "description": "On the map, the mountains are red, the seas are green, the rivers are blue, and the deserts are yellow."
+      "title": "خَرِيطَةٌ مُلَوَّنَةٌ",
+      "description": "فِي كِتَابِ مَحْمُود خَرِيطَةٌ مُلَوَّنَةٌ لِلْعَالَمِ. وَبَلَاسَاغُون فِي وَسَطِ الخَرِيطَةِ."
      },
      {
       "id": "h8-2",
       "x": 68,
       "y": 50,
-      "title": "Japan",
-      "description": "It is the first world map with Japan on it!"
+      "title": "اليَابَان",
+      "description": "إِنَّهَا أَوَّلُ خَرِيطَةٍ لِلْعَالَمِ فِيهَا اليَابَان!"
      }
     ],
     "exercises": [
      {
-      "id": "kasgarli-a1-quick-8",
+      "id": "kasgarli-a1-ar-quick-8",
       "type": "multiple-choice",
-      "title": "The First Map with Japan",
-      "instructions": "Choose the best answer.",
-      "question": "Which city is in the middle of the map?",
+      "title": "أَوَّلُ خَرِيطَةٍ فِيهَا اليَابَان",
+      "instructions": "اخْتَرِ الجَوَابَ الصَّحِيحَ.",
+      "question": "أَيُّ مَدِينَةٍ فِي وَسَطِ الخَرِيطَةِ؟",
       "options": [
-       "Balasagun",
-       "Baghdad",
-       "Istanbul"
+       "بَلَاسَاغُون",
+       "بَغْدَادُ",
+       "إِسْطَنْبُولُ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 8: “Balasagun, a city of the Turks, is in the middle of the map.”",
+      "explanation": "الفصل الثامن: «وَبَلَاسَاغُون، وَهِيَ مَدِينَةٌ لِلتُّرْكِ، فِي وَسَطِ الخَرِيطَةِ».",
       "feedback": {
-       "correct": "Yes! Balasagun.",
-       "incorrect": "Read the first paragraph of Chapter 8 again."
+       "correct": "نَعَمْ. بَلَاسَاغُون.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأُولَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "kasgarli-a1-language-8-colors",
+      "id": "kasgarli-a1-ar-language-8-colors",
       "type": "drag-drop",
-      "title": "Look: Colors on the Map",
-      "instructions": "Put each word in the right group.",
-      "question": "What color is it on the map?",
+      "title": "انْظُرْ: الأَلْوَانُ عَلَى الخَرِيطَةِ",
+      "instructions": "ضَعْ كُلَّ شَيْءٍ تَحْتَ لَوْنِهِ.",
+      "question": "مَا لَوْنُهُ عَلَى الخَرِيطَةِ؟",
       "dragDropGroups": [
        {
-        "group": "red",
+        "group": "حَمْرَاءُ",
         "items": [
-         "the mountains"
+         "الجِبَالُ"
         ]
        },
        {
-        "group": "green",
+        "group": "خَضْرَاءُ",
         "items": [
-         "the seas"
+         "البِحَارُ"
         ]
        },
        {
-        "group": "blue",
+        "group": "زَرْقَاءُ",
         "items": [
-         "the rivers"
+         "الأَنْهَارُ"
         ]
        },
        {
-        "group": "yellow",
+        "group": "صَفْرَاءُ",
         "items": [
-         "the deserts"
+         "الصَّحَارِي"
         ]
        }
       ],
       "correctAnswer": {
-       "red": [
-        "the mountains"
+       "حَمْرَاءُ": [
+        "الجِبَالُ"
        ],
-       "green": [
-        "the seas"
+       "خَضْرَاءُ": [
+        "البِحَارُ"
        ],
-       "blue": [
-        "the rivers"
+       "زَرْقَاءُ": [
+        "الأَنْهَارُ"
        ],
-       "yellow": [
-        "the deserts"
+       "صَفْرَاءُ": [
+        "الصَّحَارِي"
        ]
       },
-      "explanation": "“On it, the mountains are red, the seas are green, the rivers are blue, and the deserts are yellow.”",
+      "explanation": "الفصل الثامن: «فِيهَا الجِبَالُ حَمْرَاءُ، وَالبِحَارُ خَضْرَاءُ، وَالأَنْهَارُ زَرْقَاءُ، وَالصَّحَارِي صَفْرَاءُ».",
       "feedback": {
-       "correct": "Good. You know the colors.",
-       "incorrect": "Read the first paragraph of Chapter 8."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأُولَى."
       }
      },
      {
-      "id": "kasgarli-a1-language-8-practise",
+      "id": "kasgarli-a1-ar-language-8-map",
       "type": "word-bank",
-      "title": "Practise: The Map",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What is on the map?",
-      "fillBlanksText": "Balasagun is in the [blank] of the map. The map also [blank] Japan. The next map with Japan came 400 years [blank].",
+      "title": "تَدَرَّبْ: الخَرِيطَةُ",
+      "instructions": "ضَعِ الكَلِمَةَ المُنَاسِبَةَ فِي الفَرَاغِ.",
+      "question": "مَاذَا عَلَى الخَرِيطَةِ؟",
+      "fillBlanksText": "الجِبَالُ [blank]، وَالأَنْهَارُ [blank]. وَبَلَاسَاغُون فِي [blank] الخَرِيطَةِ.",
       "wordBank": [
-       "middle",
-       "shows",
-       "later",
-       "show",
-       "late"
+       "حَمْرَاءُ",
+       "زَرْقَاءُ",
+       "وَسَطِ",
+       "سَوْدَاءُ"
       ],
       "correctAnswer": [
-       "middle",
-       "shows",
-       "later"
+       "حَمْرَاءُ",
+       "زَرْقَاءُ",
+       "وَسَطِ"
       ],
-      "explanation": "In the middle of = at the center. The map shows (one map: shows). Later = after.",
+      "explanation": "الجبال حمراء، والأنهار زرقاء، وبلاساغون في وسط الخريطة.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 8 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأُولَى."
       }
      },
      {
-      "id": "kasgarli-a1-language-8-write-it",
+      "id": "kasgarli-a1-ar-language-8-my-map",
       "type": "reflection",
-      "title": "Write It: My Map",
-      "instructions": "Write about a map of your town.",
-      "question": "What is on your map?",
+      "title": "اكْتُبْهَا: خَرِيطَتِي",
+      "instructions": "ارْسُمْ خَرِيطَةً صَغِيرَةً، وَاكْتُبْ جُمْلَتَيْنِ بِالأَلْوَانِ.",
+      "question": "مَا فِي وَسَطِ خَرِيطَتِكَ؟",
       "correctAnswer": null,
-      "explanation": "Use colors and in the middle of.",
+      "explanation": "استعمل «فِي وَسَطِ» والألوان.",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“On my map, the … is …”",
+        "question": "«… فِي وَسَطِ خَرِيطَتِي.»",
         "mode": "Individual",
-        "example": "On my map, the park is green."
+        "example": "بَيْتِي فِي وَسَطِ خَرِيطَتِي."
        },
        {
-        "question": "“… is in the middle of my map.”",
+        "question": "«… خَضْرَاءُ / زَرْقَاءُ.»",
         "mode": "Individual",
-        "example": "My school is in the middle of my map."
+        "example": "الحَدَائِقُ خَضْرَاءُ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Which country is on Mahmud’s map?",
+     "question": "خَمِّنْ أَوَّلًا: أَيُّ بَلَدٍ عَلَى خَرِيطَةِ مَحْمُود؟",
      "options": [
-      "Japan",
-      "Brazil",
-      "Canada"
+      "اليَابَانُ",
+      "البَرَازِيلُ",
+      "كَنَدَا"
      ],
      "answer": 0,
-     "quote": "The map also shows Japan."
+     "quote": "وَتُظْهِرُ الخَرِيطَةُ اليَابَانَ أَيْضًا."
     },
     "iCan": [
-     "I can tell about Mahmud’s map.",
-     "I can use in the middle of.",
-     "I can write about a map."
+     "أَسْتَطِيعُ أَنْ أَصِفَ خَرِيطَةَ مَحْمُود.",
+     "أَسْتَطِيعُ أَنْ أَقُولَ الأَلْوَانَ: حَمْرَاءُ، خَضْرَاءُ، زَرْقَاءُ، صَفْرَاءُ.",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنْ خَرِيطَتِي."
     ],
     "groupTask": {
      "type": "project",
-     "title": "Our Color Map",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "خَرِيطَتُنَا المُلَوَّنَةُ",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group draws a map of the school or the town.",
-      "The group chooses a color for each kind of place.",
-      "The group writes one sentence for each color: “The … are …”.",
-      "The group puts one place in the middle and shows the map."
+      "تَرْسُمُ المَجْمُوعَةُ خَرِيطَةً لِلْمَدْرَسَةِ أَوْ لِلْمَدِينَةِ.",
+      "تَخْتَارُ المَجْمُوعَةُ لَوْنًا لِكُلِّ نَوْعٍ مِنَ الأَمَاكِنِ.",
+      "تَكْتُبُ المَجْمُوعَةُ جُمْلَةً لِكُلِّ لَوْنٍ: «… حَمْرَاءُ».",
+      "تَضَعُ المَجْمُوعَةُ مَكَانًا وَاحِدًا فِي الوَسَطِ، وَتَعْرِضُ الخَرِيطَةَ."
      ],
-     "share": "The group shows the map. Story: “Balasagun, a city of the Turks, is in the middle of the map.”",
-     "solo": "Draw a small map. Write two sentences with colors."
+     "share": "تَعْرِضُ المَجْمُوعَةُ الخَرِيطَةَ. مِنَ القِصَّةِ: «وَبَلَاسَاغُون، وَهِيَ مَدِينَةٌ لِلتُّرْكِ، فِي وَسَطِ الخَرِيطَةِ».",
+     "solo": "ارْسُمْ خَرِيطَةً صَغِيرَةً، وَاكْتُبْ جُمْلَتَيْنِ بِالأَلْوَانِ."
     }
    },
    {
     "id": 101,
     "type": "map",
-    "title": "Mahmud Kashgari’s World",
-    "subtitle": "Map · Chapters 1–8",
+    "title": "عَالَمُ مَحْمُود الكَاشْغَرِيِّ",
+    "subtitle": "خَرِيطَةٌ · الفُصُولُ مِنْ 1 إِلَى 8",
     "content": "",
     "map": {
      "baseMap": "centralAsia",
@@ -1443,11 +1454,11 @@
        "icon": "tent",
        "tone": "place",
        "labelSide": "right",
-       "name": "Barsgan",
-       "kind": "Town",
-       "text": "Mahmud was born in 1008 in Barsgan. Today, Barsgan is in Kyrgyzstan.",
-       "teacherNote": "Chapter 2.",
-       "question": "Where was Mahmud born?"
+       "name": "بَرْسْغَان",
+       "kind": "بَلْدَةٌ",
+       "text": "وُلِدَ مَحْمُود فِي عَامِ ١٠٠٨ فِي بَرْسْغَان. اليَوْمَ، تَقَعُ بَرْسْغَان فِي قِيرْغِيزِسْتَان.",
+       "teacherNote": "الفصل الثاني.",
+       "question": "أَيْنَ وُلِدَ مَحْمُود؟"
       },
       {
        "id": "kashgar",
@@ -1457,11 +1468,11 @@
        "icon": "city",
        "tone": "place",
        "labelSide": "bottom",
-       "name": "Kashgar",
-       "kind": "City",
-       "text": "Mahmud lived in Kashgar for many years and died there in 1105. Kashgar is a very old city in East Turkestan.",
-       "teacherNote": "Chapter 2. “Kashgari” means “the man from Kashgar”.",
-       "question": "Why do people call him Kashgari?"
+       "name": "كَاشْغَر",
+       "kind": "مَدِينَةٌ",
+       "text": "عَاشَ مَحْمُود فِي كَاشْغَر سَنَوَاتٍ طَوِيلَةً وَمَاتَ هُنَاكَ فِي عَامِ ١١٠٥. كَاشْغَر مَدِينَةٌ قَدِيمَةٌ جِدًّا فِي تُرْكِسْتَان الشَّرْقِيَّةِ.",
+       "teacherNote": "الفصل الثاني. «الكاشغري» معناه «الرجل من كاشغر».",
+       "question": "لِمَاذَا يُسَمِّيهِ النَّاسُ الكَاشْغَرِيَّ؟"
       },
       {
        "id": "balasagun",
@@ -1471,11 +1482,11 @@
        "icon": "palace",
        "tone": "place",
        "labelSide": "left",
-       "name": "Balasagun",
-       "kind": "City",
-       "text": "Balasagun, a city of the Turks, is in the middle of Mahmud’s map.",
-       "teacherNote": "Chapter 8.",
-       "question": "What is in the middle of the map?"
+       "name": "بَلَاسَاغُون",
+       "kind": "مَدِينَةٌ",
+       "text": "بَلَاسَاغُون، وَهِيَ مَدِينَةٌ لِلتُّرْكِ، فِي وَسَطِ خَرِيطَةِ مَحْمُود.",
+       "teacherNote": "الفصل الثامن.",
+       "question": "مَاذَا فِي وَسَطِ الخَرِيطَةِ؟"
       },
       {
        "id": "ili",
@@ -1486,11 +1497,11 @@
        "tone": "place",
        "areaRadiusKm": 120,
        "labelSide": "top",
-       "name": "The Ili Valley",
-       "kind": "Valley",
-       "text": "People pushed many wild animals to a big river in the Ili Valley. Only twelve animals got to the other side.",
-       "teacherNote": "Chapter 6. This is the story of the twelve-animal calendar.",
-       "question": "How many animals got to the other side?"
+       "name": "وَادِي إِيلِي",
+       "kind": "وَادٍ",
+       "text": "دَفَعَ النَّاسُ حَيَوَانَاتٍ بَرِّيَّةً كَثِيرَةً إِلَى نَهْرٍ كَبِيرٍ فِي وَادِي إِيلِي. وَصَلَ اثْنَا عَشَرَ حَيَوَانًا فَقَطْ إِلَى الجَانِبِ الآخَرِ.",
+       "teacherNote": "الفصل السادس. هذه قصة التقويم ذي الحيوانات الاثني عشر.",
+       "question": "كَمْ حَيَوَانًا وَصَلَ إِلَى الجَانِبِ الآخَرِ؟"
       },
       {
        "id": "baghdad",
@@ -1500,11 +1511,11 @@
        "icon": "palace",
        "tone": "place",
        "labelSide": "bottom",
-       "name": "Baghdad",
-       "kind": "City",
-       "text": "Mahmud went to Baghdad and wrote his big book there. In 1077, he gave it to the Caliph.",
-       "teacherNote": "Chapters 1 and 3.",
-       "question": "Who did Mahmud give his book to?"
+       "name": "بَغْدَادُ",
+       "kind": "مَدِينَةٌ",
+       "text": "ذَهَبَ مَحْمُود إِلَى بَغْدَادَ وَكَتَبَ كِتَابَهُ الكَبِيرَ هُنَاكَ. وَفِي عَامِ ١٠٧٧، قَدَّمَهُ إِلَى الخَلِيفَةِ.",
+       "teacherNote": "الفصلان الأول والثالث.",
+       "question": "إِلَى مَنْ قَدَّمَ مَحْمُود كِتَابَهُ؟"
       },
       {
        "id": "istanbul",
@@ -1514,11 +1525,11 @@
        "icon": "quill",
        "tone": "place",
        "labelSide": "left",
-       "name": "Istanbul",
-       "kind": "City",
-       "text": "Mahmud’s old book is in Istanbul today, in the Millet Library.",
-       "teacherNote": "Chapter 1.",
-       "question": "Where is the book today?"
+       "name": "إِسْطَنْبُولُ",
+       "kind": "مَدِينَةٌ",
+       "text": "كِتَابُ مَحْمُود القَدِيمُ فِي إِسْطَنْبُولَ اليَوْمَ، فِي مَكْتَبَةِ مِلَّتْ.",
+       "teacherNote": "الفصل الأول.",
+       "question": "أَيْنَ الكِتَابُ اليَوْمَ؟"
       }
      ],
      "towns": [],
@@ -1527,19 +1538,19 @@
        "id": "caspian",
        "lon": 51,
        "lat": 41.5,
-       "name": "Caspian Sea"
+       "name": "بَحْرُ قَزْوِينَ"
       },
       {
        "id": "blackSea",
        "lon": 34.5,
        "lat": 43.2,
-       "name": "Black Sea"
+       "name": "البَحْرُ الأَسْوَدُ"
       },
       {
        "id": "aral",
        "lon": 60,
        "lat": 45.2,
-       "name": "Aral Sea"
+       "name": "بَحْرُ آرَال"
       }
      ],
      "timeline": [
@@ -1556,7 +1567,7 @@
         "kind": "dawn",
         "placeId": "barsgan"
        },
-       "label": "Born in Barsgan"
+       "label": "الوِلَادَةُ فِي بَرْسْغَان"
       },
       {
        "year": 2,
@@ -1567,7 +1578,7 @@
         "lat": 39.6,
         "zoom": 2.4
        },
-       "label": "Kashgar"
+       "label": "كَاشْغَر"
       },
       {
        "year": 3,
@@ -1578,7 +1589,7 @@
         "lat": 33.5,
         "zoom": 2.2
        },
-       "label": "The book in Baghdad"
+       "label": "الكِتَابُ فِي بَغْدَادَ"
       },
       {
        "year": 4,
@@ -1589,7 +1600,7 @@
         "lat": 43.5,
         "zoom": 2.4
        },
-       "label": "The animal calendar"
+       "label": "تَقْوِيمُ الحَيَوَانَاتِ"
       },
       {
        "year": 5,
@@ -1604,7 +1615,7 @@
         "kind": "radiate",
         "placeId": "balasagun"
        },
-       "label": "The world map"
+       "label": "خَرِيطَةُ العَالَمِ"
       },
       {
        "year": 6,
@@ -1615,7 +1626,7 @@
         "lat": 41,
         "zoom": 2.2
        },
-       "label": "The book today"
+       "label": "الكِتَابُ اليَوْمَ"
       }
      ],
      "challenge": [
@@ -1624,28 +1635,28 @@
        "lon": 77.6,
        "lat": 42.15,
        "radiusKm": 120,
-       "prompt": "Find Barsgan. Mahmud was born here."
+       "prompt": "ابْحَثْ عَنْ بَرْسْغَان. وُلِدَ مَحْمُود هُنَا."
       },
       {
        "id": "kashgar",
        "lon": 75.99,
        "lat": 39.47,
        "radiusKm": 120,
-       "prompt": "Find Kashgar."
+       "prompt": "ابْحَثْ عَنْ كَاشْغَر."
       },
       {
        "id": "baghdad",
        "lon": 44.36,
        "lat": 33.31,
        "radiusKm": 150,
-       "prompt": "Find Baghdad. Mahmud wrote his book here."
+       "prompt": "ابْحَثْ عَنْ بَغْدَادَ. كَتَبَ مَحْمُود كِتَابَهُ هُنَا."
       },
       {
        "id": "istanbul",
        "lon": 28.98,
        "lat": 41.01,
        "radiusKm": 150,
-       "prompt": "Find Istanbul. The book is here today."
+       "prompt": "ابْحَثْ عَنْ إِسْطَنْبُولَ. الكِتَابُ هُنَا اليَوْمَ."
       }
      ]
     }
@@ -1653,107 +1664,107 @@
    {
     "id": 11,
     "type": "quiz",
-    "title": "Knowledge Check",
+    "title": "اختبار المعرفة",
     "image": "https://picsum.photos/seed/quiz-kasgarli-a1/1200/800",
     "audioUrl": "",
-    "content": "Check your understanding of the complete story.",
+    "content": "اخْتَبِرْ فَهْمَكَ لِلْأَحْدَاثِ الرَّئِيسِيَّةِ فِي قِصَّةِ مَحْمُود الكَاشْغَرِيِّ.",
     "exercises": [
      {
-      "id": "kasgarli-a1-kc-1",
+      "id": "kasgarli-a1-ar-kc-1",
       "type": "multiple-choice",
-      "title": "The Dictionary",
-      "instructions": "Choose the answer.",
-      "question": "Where is the only copy of the book today?",
+      "title": "القَامُوسُ",
+      "instructions": "اخْتَرِ الجَوَابَ.",
+      "question": "أَيْنَ النُّسْخَةُ الوَحِيدَةُ مِنَ الكِتَابِ اليَوْمَ؟",
       "options": [
-       "in Istanbul",
-       "in Baghdad",
-       "in Kashgar"
+       "فِي إِسْطَنْبُولَ",
+       "فِي بَغْدَادَ",
+       "فِي كَاشْغَر"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 1: “It is in Istanbul, in the Millet Library.”",
+      "explanation": "الفصل الأول: «وَهِيَ فِي إِسْطَنْبُولَ، فِي مَكْتَبَةِ مِلَّتْ».",
       "feedback": {
-       "correct": "Yes. In Istanbul.",
-       "incorrect": "Read the second paragraph of Chapter 1."
+       "correct": "نَعَمْ. فِي إِسْطَنْبُولَ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الثَّانِيَةَ مِنَ الفَصْلِ الأَوَّلِ."
       }
      },
      {
-      "id": "kasgarli-a1-kc-2",
+      "id": "kasgarli-a1-ar-kc-2",
       "type": "true-false",
-      "title": "Barsgan",
-      "instructions": "Is it true or false?",
-      "question": "Mahmud was born in Barsgan.",
+      "title": "بَرْسْغَان",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "وُلِدَ مَحْمُود فِي بَرْسْغَان.",
       "correctAnswer": true,
-      "explanation": "Chapter 2: “Mahmud was born in 1008 in Barsgan.”",
+      "explanation": "الفصل الثاني: «وُلِدَ مَحْمُود فِي عَامِ ١٠٠٨ فِي بَرْسْغَان».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the first paragraph of Chapter 2."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأُولَى مِنَ الفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "kasgarli-a1-kc-3",
+      "id": "kasgarli-a1-ar-kc-3",
       "type": "multiple-choice",
-      "title": "The Journey",
-      "instructions": "Choose the answer.",
-      "question": "How long did Mahmud travel?",
+      "title": "الرِّحْلَةُ",
+      "instructions": "اخْتَرِ الجَوَابَ.",
+      "question": "كَمْ سَنَةً سَافَرَ مَحْمُود؟",
       "options": [
-       "ten to fifteen years",
-       "two weeks",
-       "one year"
+       "مِنْ عَشْرِ سَنَوَاتٍ إِلَى خَمْسَ عَشْرَةَ سَنَةً",
+       "أُسْبُوعَيْنِ",
+       "سَنَةً وَاحِدَةً"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 3: “For ten to fifteen years, he traveled from one Turkish tribe to another.”",
+      "explanation": "الفصل الثالث: «لِمُدَّةِ عَشْرِ سَنَوَاتٍ إِلَى خَمْسَ عَشْرَةَ سَنَةً، سَافَرَ مِنْ قَبِيلَةٍ تُرْكِيَّةٍ إِلَى قَبِيلَةٍ أُخْرَى».",
       "feedback": {
-       "correct": "Yes. Ten to fifteen years.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الثَّانِيَةَ مِنَ الفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "kasgarli-a1-kc-4",
+      "id": "kasgarli-a1-ar-kc-4",
       "type": "true-false",
-      "title": "Words",
-      "instructions": "Is it true or false?",
-      "question": "The dictionary has about 900 Turkish words.",
+      "title": "الكَلِمَاتُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "فِي القَامُوسِ نَحْوُ ٩٠٠ كَلِمَةٍ تُرْكِيَّةٍ.",
       "correctAnswer": false,
-      "explanation": "Chapter 4: “The dictionary has about 9,000 Turkish words.”",
+      "explanation": "الفصل الرابع: «فِي القَامُوسِ نَحْوُ ٩٠٠٠ كَلِمَةٍ تُرْكِيَّةٍ».",
       "feedback": {
-       "correct": "Yes, it is false. It has about 9,000.",
-       "incorrect": "Read the first paragraph of Chapter 4."
+       "correct": "نَعَمْ، هَذَا خَطَأٌ. فِيهِ نَحْوُ ٩٠٠٠ كَلِمَةٍ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأُولَى مِنَ الفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "kasgarli-a1-kc-5",
+      "id": "kasgarli-a1-ar-kc-5",
       "type": "multiple-choice",
-      "title": "The Kurultay",
-      "instructions": "Choose the answer.",
-      "question": "What is a kurultay?",
+      "title": "القُورُولْتَاي",
+      "instructions": "اخْتَرِ الجَوَابَ.",
+      "question": "مَا القُورُولْتَاي؟",
       "options": [
-       "a big meeting",
-       "a big river",
-       "a big map"
+       "اجْتِمَاعٌ كَبِيرٌ",
+       "نَهْرٌ كَبِيرٌ",
+       "خَرِيطَةٌ كَبِيرَةٌ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “So the khan called all his people to a big meeting. This kind of meeting was a kurultay.”",
+      "explanation": "الفصل الخامس: «فَدَعَا الخَاقَانُ كُلَّ شَعْبِهِ إِلَى اجْتِمَاعٍ كَبِيرٍ. كَانَ هَذَا النَّوْعُ مِنَ الِاجْتِمَاعِ «قُورُولْتَاي»».",
       "feedback": {
-       "correct": "Yes. A big meeting.",
-       "incorrect": "Read the second paragraph of Chapter 5."
+       "correct": "نَعَمْ. اجْتِمَاعٌ كَبِيرٌ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الثَّانِيَةَ مِنَ الفَصْلِ الخَامِسِ."
       }
      },
      {
-      "id": "kasgarli-a1-kc-6",
+      "id": "kasgarli-a1-ar-kc-6",
       "type": "multiple-choice",
-      "title": "Nowruz",
-      "instructions": "Choose the answer.",
-      "question": "What does “Nowruz” mean?",
+      "title": "نَوْرُوز",
+      "instructions": "اخْتَرِ الجَوَابَ.",
+      "question": "مَا مَعْنَى «نَوْرُوز»؟",
       "options": [
-       "“new day”",
-       "“new year”",
-       "“big river”"
+       "«يَوْمٌ جَدِيدٌ»",
+       "«سَنَةٌ جَدِيدَةٌ»",
+       "«نَهْرٌ كَبِيرٌ»"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: “Its name was Nowruz, and it means ‘new day’.”",
+      "explanation": "الفصل السابع: «اسْمُهُ «نَوْرُوز»، وَمَعْنَاهُ «يَوْمٌ جَدِيدٌ»».",
       "feedback": {
-       "correct": "Yes. New day.",
-       "incorrect": "Read the second paragraph of Chapter 7."
+       "correct": "نَعَمْ. يَوْمٌ جَدِيدٌ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الثَّانِيَةَ مِنَ الفَصْلِ السَّابِعِ."
       }
      }
     ]
@@ -1761,607 +1772,528 @@
    {
     "id": 13,
     "type": "glossary",
-    "title": "Master Glossary",
-    "content": "Review all key vocabulary from the story in one place.",
+    "title": "المعجم الرئيسي",
+    "content": "راجع ملاحظات الكلمات في الكتاب كله في مكان واحد.",
     "image": "https://picsum.photos/seed/glossary-kasgarli-a1/1200/800",
     "vocabulary": [
      {
-      "word": "dictionary",
-      "definition": "A book with words and their meanings.",
-      "partOfSpeech": "noun",
+      "word": "قَامُوسٍ",
+      "definition": "كِتَابٌ فِيهِ كَلِمَاتٌ وَمَعَانِيهَا.",
       "level": "A1",
-      "pronunciation": "/ˈdɪkʃəneri/",
       "chapter": 1,
-      "chapterTitle": "A Very Old Dictionary",
-      "storyExample": "It is the oldest dictionary of the Turkish language.",
-      "category": "Learning"
+      "chapterTitle": "قَامُوسٌ قَدِيمٌ جِدًّا",
+      "storyExample": "إِنَّهُ أَقْدَمُ قَامُوسٍ لِلُّغَةِ التُّرْكِيَّةِ."
      },
      {
-      "word": "caliph",
-      "definition": "The leader of the Muslims.",
-      "partOfSpeech": "noun",
+      "word": "الخَلِيفَةِ",
+      "definition": "قَائِدُ المُسْلِمِينَ.",
       "level": "A1",
-      "pronunciation": "/ˈkeɪlɪf/",
       "chapter": 1,
-      "chapterTitle": "A Very Old Dictionary",
-      "storyExample": "In 1077, he gave it to the Caliph in Baghdad.",
-      "category": "People"
+      "chapterTitle": "قَامُوسٌ قَدِيمٌ جِدًّا",
+      "storyExample": "وَفِي عَامِ ١٠٧٧، قَدَّمَهُ إِلَى الخَلِيفَةِ فِي بَغْدَادَ."
      },
      {
-      "word": "copy",
-      "definition": "One book of many same books.",
-      "partOfSpeech": "noun",
+      "word": "نُسْخَةٌ",
+      "definition": "كِتَابٌ وَاحِدٌ مِنْ كُتُبٍ كَثِيرَةٍ مُتَشَابِهَةٍ.",
       "level": "A1",
-      "pronunciation": "/ˈkɑːpi/",
       "chapter": 1,
-      "chapterTitle": "A Very Old Dictionary",
-      "storyExample": "Today, there is only one copy of the book.",
-      "category": "Things"
+      "chapterTitle": "قَامُوسٌ قَدِيمٌ جِدًّا",
+      "storyExample": "اليَوْمَ، هُنَاكَ نُسْخَةٌ وَاحِدَةٌ فَقَطْ مِنَ الكِتَابِ."
      },
      {
-      "word": "spear",
-      "definition": "A long stick with a sharp end.",
-      "partOfSpeech": "noun",
+      "word": "الرُّمْحِ",
+      "definition": "عَصًا طَوِيلَةٌ لَهَا طَرَفٌ حَادٌّ.",
       "level": "A1",
-      "pronunciation": "/spɪr/",
       "chapter": 2,
-      "chapterTitle": "Who Was Mahmud?",
-      "storyExample": "He is also very good at throwing a spear.",
-      "category": "Things"
+      "chapterTitle": "مَنْ كَانَ مَحْمُود؟",
+      "storyExample": "وَهُوَ أَيْضًا مَاهِرٌ جِدًّا فِي رَمْيِ الرُّمْحِ."
      },
      {
-      "word": "journey",
-      "definition": "A long trip from one place to another.",
-      "partOfSpeech": "noun",
+      "word": "رِحْلَةً",
+      "definition": "سَفَرٌ طَوِيلٌ مِنْ مَكَانٍ إِلَى مَكَانٍ آخَرَ.",
       "level": "A1",
-      "pronunciation": "/ˈdʒɜːrni/",
       "chapter": 3,
-      "chapterTitle": "A Long Journey",
-      "storyExample": "In 1057, he started a long journey.",
-      "category": "Travel"
+      "chapterTitle": "رِحْلَةٌ طَوِيلَةٌ",
+      "storyExample": "فِي عَامِ ١٠٥٧، بَدَأَ رِحْلَةً طَوِيلَةً."
      },
      {
-      "word": "tribe",
-      "definition": "A big group of families with one leader.",
-      "partOfSpeech": "noun",
+      "word": "قَبِيلَةٍ",
+      "definition": "مَجْمُوعَةٌ كَبِيرَةٌ مِنَ العَائِلَاتِ لَهَا قَائِدٌ وَاحِدٌ.",
       "level": "A1",
-      "pronunciation": "/traɪb/",
       "chapter": 3,
-      "chapterTitle": "A Long Journey",
-      "storyExample": "For ten to fifteen years, he traveled from one Turkish tribe to another.",
-      "category": "People"
+      "chapterTitle": "رِحْلَةٌ طَوِيلَةٌ",
+      "storyExample": "لِمُدَّةِ عَشْرِ سَنَوَاتٍ إِلَى خَمْسَ عَشْرَةَ سَنَةً، سَافَرَ مِنْ قَبِيلَةٍ تُرْكِيَّةٍ إِلَى قَبِيلَةٍ أُخْرَى."
      },
      {
-      "word": "story",
-      "definition": "Words about things that happened.",
-      "partOfSpeech": "noun",
+      "word": "قِصَصَهُمْ",
+      "definition": "كَلِمَاتٌ عَنْ أَشْيَاءَ حَدَثَتْ.",
       "level": "A1",
-      "pronunciation": "/ˈstɔːri/",
       "chapter": 3,
-      "chapterTitle": "A Long Journey",
-      "storyExample": "He also wrote down their stories, songs and sayings.",
-      "category": "Learning"
+      "chapterTitle": "رِحْلَةٌ طَوِيلَةٌ",
+      "storyExample": "وَكَتَبَ أَيْضًا قِصَصَهُمْ وَأَغَانِيَهُمْ وَأَمْثَالَهُمْ."
      },
      {
-      "word": "saying",
-      "definition": "A short, old sentence with a lesson.",
-      "partOfSpeech": "noun",
+      "word": "وَأَمْثَالَهُمْ",
+      "definition": "جُمْلَةٌ قَصِيرَةٌ قَدِيمَةٌ فِيهَا عِبْرَةٌ.",
       "level": "A1",
-      "pronunciation": "/ˈseɪɪŋ/",
       "chapter": 3,
-      "chapterTitle": "A Long Journey",
-      "storyExample": "He also wrote down their stories, songs and sayings.",
-      "category": "Learning"
+      "chapterTitle": "رِحْلَةٌ طَوِيلَةٌ",
+      "storyExample": "وَكَتَبَ أَيْضًا قِصَصَهُمْ وَأَغَانِيَهُمْ وَأَمْثَالَهُمْ."
      },
      {
-      "word": "collected",
-      "definition": "Brought many things together.",
-      "partOfSpeech": "verb",
+      "word": "وَجَمَعَ",
+      "definition": "أَحْضَرَ أَشْيَاءَ كَثِيرَةً مَعًا.",
       "level": "A1",
-      "pronunciation": "/kəˈlektɪd/",
       "chapter": 3,
-      "chapterTitle": "A Long Journey",
-      "storyExample": "He listened to the people and collected their words.",
-      "category": "Actions"
+      "chapterTitle": "رِحْلَةٌ طَوِيلَةٌ",
+      "storyExample": "اسْتَمَعَ إِلَى النَّاسِ وَجَمَعَ كَلِمَاتِهِمْ."
      },
      {
-      "word": "poem",
-      "definition": "A short text with lines, like a song.",
-      "partOfSpeech": "noun",
+      "word": "أَشْعَارٌ",
+      "definition": "نُصُوصٌ قَصِيرَةٌ مِنْ أَسْطُرٍ، مِثْلُ الأَغَانِي.",
       "level": "A1",
-      "pronunciation": "/ˈpoʊəm/",
       "chapter": 4,
-      "chapterTitle": "What Is in the Book?",
-      "storyExample": "It also has very old Turkish poems and sayings.",
-      "category": "Learning"
+      "chapterTitle": "مَاذَا فِي الكِتَابِ؟",
+      "storyExample": "وَفِيهِ أَيْضًا أَشْعَارٌ وَأَمْثَالٌ تُرْكِيَّةٌ قَدِيمَةٌ جِدًّا."
      },
      {
-      "word": "culture",
-      "definition": "The way of life of a group of people.",
-      "partOfSpeech": "noun",
+      "word": "الثَّقَافَةِ",
+      "definition": "طَرِيقَةُ حَيَاةِ مَجْمُوعَةٍ مِنَ النَّاسِ.",
       "level": "A1",
-      "pronunciation": "/ˈkʌltʃər/",
       "chapter": 4,
-      "chapterTitle": "What Is in the Book?",
-      "storyExample": "The book is like a big window to Turkish culture.",
-      "category": "Life"
+      "chapterTitle": "مَاذَا فِي الكِتَابِ؟",
+      "storyExample": "الكِتَابُ مِثْلُ نَافِذَةٍ كَبِيرَةٍ عَلَى الثَّقَافَةِ التُّرْكِيَّةِ."
      },
      {
-      "word": "calendar",
-      "definition": "A list of the days and months of a year.",
-      "partOfSpeech": "noun",
+      "word": "تَقْوِيمٍ",
+      "definition": "قَائِمَةٌ بِأَيَّامِ وَشُهُورِ السَّنَةِ.",
       "level": "A1",
-      "pronunciation": "/ˈkælɪndər/",
       "chapter": 5,
-      "chapterTitle": "A Problem with a Date",
-      "storyExample": "There is an old story about a calendar in the book.",
-      "category": "Time"
+      "chapterTitle": "مُشْكِلَةٌ مَعَ تَارِيخٍ",
+      "storyExample": "فِي الكِتَابِ قِصَّةٌ قَدِيمَةٌ عَنْ تَقْوِيمٍ."
      },
      {
-      "word": "khan",
-      "definition": "An old Turkish king.",
-      "partOfSpeech": "noun",
+      "word": "خَاقَانٌ",
+      "definition": "مَلِكٌ تُرْكِيٌّ قَدِيمٌ.",
       "level": "A1",
-      "pronunciation": "/kɑːn/",
       "chapter": 5,
-      "chapterTitle": "A Problem with a Date",
-      "storyExample": "A long time ago, there was a Turkish khan.",
-      "category": "People"
+      "chapterTitle": "مُشْكِلَةٌ مَعَ تَارِيخٍ",
+      "storyExample": "مُنْذُ زَمَنٍ بَعِيدٍ، كَانَ هُنَاكَ خَاقَانٌ تُرْكِيٌّ."
      },
      {
-      "word": "war",
-      "definition": "A big fight between two countries.",
-      "partOfSpeech": "noun",
+      "word": "حَرْبٍ",
+      "definition": "قِتَالٌ كَبِيرٌ بَيْنَ بَلَدَيْنِ.",
       "level": "A1",
-      "pronunciation": "/wɔːr/",
       "chapter": 5,
-      "chapterTitle": "A Problem with a Date",
-      "storyExample": "He wanted to know the date of an old war.",
-      "category": "History"
+      "chapterTitle": "مُشْكِلَةٌ مَعَ تَارِيخٍ",
+      "storyExample": "أَرَادَ أَنْ يَعْرِفَ تَارِيخَ حَرْبٍ قَدِيمَةٍ."
      },
      {
-      "word": "meeting",
-      "definition": "A time when people come together and talk.",
-      "partOfSpeech": "noun",
+      "word": "اجْتِمَاعٍ",
+      "definition": "وَقْتٌ يَجْتَمِعُ فِيهِ النَّاسُ وَيَتَكَلَّمُونَ.",
       "level": "A1",
-      "pronunciation": "/ˈmiːtɪŋ/",
       "chapter": 5,
-      "chapterTitle": "A Problem with a Date",
-      "storyExample": "So the khan called all his people to a big meeting.",
-      "category": "Life"
+      "chapterTitle": "مُشْكِلَةٌ مَعَ تَارِيخٍ",
+      "storyExample": "فَدَعَا الخَاقَانُ كُلَّ شَعْبِهِ إِلَى اجْتِمَاعٍ كَبِيرٍ."
      },
      {
-      "word": "kurultay",
-      "definition": "A big meeting of the Turkish people.",
-      "partOfSpeech": "noun",
+      "word": "قُورُولْتَاي",
+      "definition": "اجْتِمَاعٌ كَبِيرٌ لِلشَّعْبِ التُّرْكِيِّ.",
       "level": "A1",
-      "pronunciation": "/ˈkʊrʊltaɪ/",
       "chapter": 5,
-      "chapterTitle": "A Problem with a Date",
-      "storyExample": "This kind of meeting was a kurultay.",
-      "category": "History"
+      "chapterTitle": "مُشْكِلَةٌ مَعَ تَارِيخٍ",
+      "storyExample": "كَانَ هَذَا النَّوْعُ مِنَ الِاجْتِمَاعِ «قُورُولْتَاي»."
      },
      {
-      "word": "dangerous",
-      "definition": "Can hurt you.",
-      "partOfSpeech": "adjective",
+      "word": "وَخَطِيرًا",
+      "definition": "يَسْتَطِيعُ أَنْ يُؤْذِيَكَ.",
       "level": "A1",
-      "pronunciation": "/ˈdeɪndʒərəs/",
       "chapter": 6,
-      "chapterTitle": "Twelve Animals and a River",
-      "storyExample": "The water was fast and dangerous.",
-      "category": "Describing"
+      "chapterTitle": "اثْنَا عَشَرَ حَيَوَانًا وَنَهْرٌ",
+      "storyExample": "كَانَ المَاءُ سَرِيعًا وَخَطِيرًا."
      },
      {
-      "word": "rat",
-      "definition": "A small gray animal, like a big mouse.",
-      "partOfSpeech": "noun",
+      "word": "الجُرَذُ",
+      "definition": "حَيَوَانٌ صَغِيرٌ رَمَادِيٌّ، مِثْلُ فَأْرٍ كَبِيرٍ.",
       "level": "A1",
-      "pronunciation": "/ræt/",
       "chapter": 6,
-      "chapterTitle": "Twelve Animals and a River",
-      "storyExample": "The rat arrived first.",
-      "category": "Animals"
+      "chapterTitle": "اثْنَا عَشَرَ حَيَوَانًا وَنَهْرٌ",
+      "storyExample": "وَصَلَ الجُرَذُ أَوَّلًا."
      },
      {
-      "word": "leopard",
-      "definition": "A big wild cat with black spots.",
-      "partOfSpeech": "noun",
+      "word": "وَالفَهْدُ",
+      "definition": "قِطٌّ بَرِّيٌّ كَبِيرٌ لَهُ بُقَعٌ سَوْدَاءُ.",
       "level": "A1",
-      "pronunciation": "/ˈlepərd/",
       "chapter": 6,
-      "chapterTitle": "Twelve Animals and a River",
-      "storyExample": "Then come the Ox, the Leopard, the Rabbit and the Crocodile.",
-      "category": "Animals"
+      "chapterTitle": "اثْنَا عَشَرَ حَيَوَانًا وَنَهْرٌ",
+      "storyExample": "ثُمَّ يَأْتِي الثَّوْرُ وَالفَهْدُ وَالأَرْنَبُ وَالتِّمْسَاحُ."
      },
      {
-      "word": "crocodile",
-      "definition": "A big animal with a long mouth, in rivers.",
-      "partOfSpeech": "noun",
+      "word": "وَالتِّمْسَاحُ",
+      "definition": "حَيَوَانٌ كَبِيرٌ لَهُ فَمٌ طَوِيلٌ، يَعِيشُ فِي الأَنْهَارِ.",
       "level": "A1",
-      "pronunciation": "/ˈkrɑːkədaɪl/",
       "chapter": 6,
-      "chapterTitle": "Twelve Animals and a River",
-      "storyExample": "Then come the Ox, the Leopard, the Rabbit and the Crocodile.",
-      "category": "Animals"
+      "chapterTitle": "اثْنَا عَشَرَ حَيَوَانًا وَنَهْرٌ",
+      "storyExample": "ثُمَّ يَأْتِي الثَّوْرُ وَالفَهْدُ وَالأَرْنَبُ وَالتِّمْسَاحُ."
      },
      {
-      "word": "rooster",
-      "definition": "A male chicken.",
-      "partOfSpeech": "noun",
+      "word": "الدِّيكُ",
+      "definition": "دَجَاجٌ ذَكَرٌ.",
       "level": "A1",
-      "pronunciation": "/ˈruːstər/",
       "chapter": 6,
-      "chapterTitle": "Twelve Animals and a River",
-      "storyExample": "The last three are the Rooster, the Dog and the Pig.",
-      "category": "Animals"
+      "chapterTitle": "اثْنَا عَشَرَ حَيَوَانًا وَنَهْرٌ",
+      "storyExample": "وَالثَّلَاثَةُ الأَخِيرَةُ هِيَ الدِّيكُ وَالكَلْبُ وَالخِنْزِيرُ."
      },
      {
-      "word": "hunting",
-      "definition": "Catching and killing wild animals.",
-      "partOfSpeech": "noun",
+      "word": "لِلصَّيْدِ",
+      "definition": "إِمْسَاكُ الحَيَوَانَاتِ البَرِّيَّةِ وَقَتْلُهَا.",
       "level": "A1",
-      "pronunciation": "/ˈhʌntɪŋ/",
       "chapter": 6,
-      "chapterTitle": "Twelve Animals and a River",
-      "storyExample": "The people loved the khan’s idea, too, and they named the years in this way:\n\nOne day, the khan went hunting with his people.",
-      "category": "Animals"
+      "chapterTitle": "اثْنَا عَشَرَ حَيَوَانًا وَنَهْرٌ",
+      "storyExample": "أَحَبَّ النَّاسُ فِكْرَةَ الخَاقَانِ أَيْضًا، وَسَمَّوُا السَّنَوَاتِ بِهَذِهِ الطَّرِيقَةِ: ذَاتَ يَوْمٍ، ذَهَبَ الخَاقَانُ لِلصَّيْدِ مَعَ شَعْبِهِ."
      },
      {
-      "word": "ox",
-      "definition": "A big, strong male cow.",
-      "partOfSpeech": "noun",
+      "word": "الثَّوْرُ",
+      "definition": "بَقَرَةٌ ذَكَرٌ كَبِيرَةٌ وَقَوِيَّةٌ.",
       "level": "A1",
-      "pronunciation": "/ɑːks/",
       "chapter": 7,
-      "chapterTitle": "A New Day",
-      "storyExample": "The ox likes to fight with its horns.",
-      "category": "Animals"
+      "chapterTitle": "يَوْمٌ جَدِيد",
+      "storyExample": "الثَّوْرُ يُحِبُّ أَنْ يَتَقَاتَلَ بِقَرْنَيْهِ."
      },
      {
-      "word": "fight",
-      "definition": "Hit and hurt another person or animal.",
-      "partOfSpeech": "verb",
+      "word": "يَتَقَاتَلَ",
+      "definition": "يَضْرِبُ وَيُؤْذِي شَخْصًا آخَرَ أَوْ حَيَوَانًا آخَرَ.",
       "level": "A1",
-      "pronunciation": "/faɪt/",
       "chapter": 7,
-      "chapterTitle": "A New Day",
-      "storyExample": "The ox likes to fight with its horns.",
-      "category": "Actions"
+      "chapterTitle": "يَوْمٌ جَدِيد",
+      "storyExample": "الثَّوْرُ يُحِبُّ أَنْ يَتَقَاتَلَ بِقَرْنَيْهِ."
      },
      {
-      "word": "horn",
-      "definition": "A hard, pointed thing on an animal's head.",
-      "partOfSpeech": "noun",
+      "word": "بِقَرْنَيْهِ",
+      "definition": "شَيْءٌ صُلْبٌ وَمُدَبَّبٌ عَلَى رَأْسِ الحَيَوَانِ.",
       "level": "A1",
-      "pronunciation": "/hɔːrn/",
       "chapter": 7,
-      "chapterTitle": "A New Day",
-      "storyExample": "The ox likes to fight with its horns.",
-      "category": "Animals"
+      "chapterTitle": "يَوْمٌ جَدِيد",
+      "storyExample": "الثَّوْرُ يُحِبُّ أَنْ يَتَقَاتَلَ بِقَرْنَيْهِ."
      },
      {
-      "word": "celebration",
-      "definition": "A happy day with friends, food and music.",
-      "partOfSpeech": "noun",
+      "word": "احْتِفَالٌ",
+      "definition": "يَوْمٌ سَعِيدٌ مَعَ الأَصْدِقَاءِ وَالطَّعَامِ وَالمُوسِيقَى.",
       "level": "A1",
-      "pronunciation": "/ˌselɪˈbreɪʃn/",
       "chapter": 7,
-      "chapterTitle": "A New Day",
-      "storyExample": "They had a big celebration on this day.",
-      "category": "Life"
+      "chapterTitle": "يَوْمٌ جَدِيد",
+      "storyExample": "وَكَانَ لَهُمُ احْتِفَالٌ كَبِيرٌ فِي هَذَا اليَوْمِ."
      },
      {
-      "word": "map",
-      "definition": "A picture of a country or the world.",
-      "partOfSpeech": "noun",
+      "word": "خَرِيطَةٌ",
+      "definition": "صُورَةٌ لِبَلَدٍ أَوْ لِلْعَالَمِ.",
       "level": "A1",
-      "pronunciation": "/mæp/",
       "chapter": 8,
-      "chapterTitle": "The First Map with Japan",
-      "storyExample": "There is a map with many colors in Mahmud’s book.",
-      "category": "Places"
+      "chapterTitle": "أَوَّلُ خَرِيطَةٍ فِيهَا اليَابَان",
+      "storyExample": "فِي كِتَابِ مَحْمُود خَرِيطَةٌ مُلَوَّنَةٌ لِلْعَالَمِ."
      },
      {
-      "word": "desert",
-      "definition": "A big, dry place with a lot of sand.",
-      "partOfSpeech": "noun",
+      "word": "وَالصَّحَارِي",
+      "definition": "أَمَاكِنُ كَبِيرَةٌ وَجَافَّةٌ فِيهَا رَمْلٌ كَثِيرٌ.",
       "level": "A1",
-      "pronunciation": "/ˈdezərt/",
       "chapter": 8,
-      "chapterTitle": "The First Map with Japan",
-      "storyExample": "On it, the mountains are red, the seas are green, the rivers are blue, and the deserts are yellow.",
-      "category": "Nature"
+      "chapterTitle": "أَوَّلُ خَرِيطَةٍ فِيهَا اليَابَان",
+      "storyExample": "فِيهَا الجِبَالُ حَمْرَاءُ، وَالبِحَارُ خَضْرَاءُ، وَالأَنْهَارُ زَرْقَاءُ، وَالصَّحَارِي صَفْرَاءُ."
      },
      {
-      "word": "celebrate",
-      "definition": "Do something special on a happy day.",
-      "partOfSpeech": "verb",
+      "word": "احْتَفَلَتِ",
+      "definition": "فَعَلَتْ شَيْئًا خَاصًّا فِي يَوْمٍ سَعِيدٍ.",
       "level": "A1",
-      "pronunciation": "/ˈselɪbreɪt/",
       "chapter": 8,
-      "chapterTitle": "The First Map with Japan",
-      "storyExample": "In 2024, UNESCO celebrated this great book.",
-      "category": "Life"
+      "chapterTitle": "أَوَّلُ خَرِيطَةٍ فِيهَا اليَابَان",
+      "storyExample": "وَفِي عَامِ ٢٠٢٤، احْتَفَلَتِ اليُونِسْكُو بِهَذَا الكِتَابِ العَظِيمِ."
      },
      {
-      "word": "treasure",
-      "definition": "A very important and beautiful thing.",
-      "partOfSpeech": "noun",
+      "word": "كَنْزٌ",
+      "definition": "شَيْءٌ مُهِمٌّ جِدًّا وَجَمِيلٌ.",
       "level": "A1",
-      "pronunciation": "/ˈtreʒər/",
       "chapter": 8,
-      "chapterTitle": "The First Map with Japan",
-      "storyExample": "It is a real treasure of the Turkish language.",
-      "category": "Things"
+      "chapterTitle": "أَوَّلُ خَرِيطَةٍ فِيهَا اليَابَان",
+      "storyExample": "إِنَّهُ كَنْزٌ حَقِيقِيٌّ لِلُّغَةِ التُّرْكِيَّةِ."
      },
      {
-      "word": "middle",
-      "definition": "The center of something.",
-      "partOfSpeech": "noun",
+      "word": "وَسَطِ",
+      "definition": "مَرْكَزُ شَيْءٍ مَا.",
       "level": "A1",
-      "pronunciation": "/ˈmɪdl/",
       "chapter": 8,
-      "chapterTitle": "The First Map with Japan",
-      "storyExample": "Balasagun, a city of the Turks, is in the middle of the map.",
-      "category": "Places"
+      "chapterTitle": "أَوَّلُ خَرِيطَةٍ فِيهَا اليَابَان",
+      "storyExample": "وَبَلَاسَاغُون، وَهِيَ مَدِينَةٌ لِلتُّرْكِ، فِي وَسَطِ الخَرِيطَةِ."
      }
     ]
    },
    {
     "id": 12,
     "type": "vocabulary-match",
-    "title": "Vocabulary Challenge",
+    "title": "تحدي المفردات",
     "image": "https://picsum.photos/seed/vocab-match-kasgarli-a1/1200/800",
     "audioUrl": "",
-    "content": "Match six story words with their meanings.",
+    "content": "صِلْ سِتَّ كَلِمَاتٍ مِنَ الْقِصَّةِ بِمَعَانِيهَا.",
     "vocabularyPairs": [
      {
-      "word": "dictionary",
-      "meaning": "A book with words and their meanings.",
+      "word": "قَامُوسٍ",
+      "meaning": "كِتَابٌ فِيهِ كَلِمَاتٌ وَمَعَانِيهَا.",
       "partOfSpeech": "noun",
       "chapter": 1,
-      "context": "It is the oldest dictionary of the Turkish language."
+      "context": "إِنَّهُ أَقْدَمُ قَامُوسٍ لِلُّغَةِ التُّرْكِيَّةِ."
      },
      {
-      "word": "tribe",
-      "meaning": "A big group of families with one leader.",
+      "word": "قَبِيلَةٍ",
+      "meaning": "مَجْمُوعَةٌ كَبِيرَةٌ مِنَ العَائِلَاتِ لَهَا قَائِدٌ وَاحِدٌ.",
       "partOfSpeech": "noun",
       "chapter": 3,
-      "context": "For ten to fifteen years, he traveled from one Turkish tribe to another."
+      "context": "لِمُدَّةِ عَشْرِ سَنَوَاتٍ إِلَى خَمْسَ عَشْرَةَ سَنَةً، سَافَرَ مِنْ قَبِيلَةٍ تُرْكِيَّةٍ إِلَى قَبِيلَةٍ أُخْرَى."
      },
      {
-      "word": "calendar",
-      "meaning": "A list of the days and months of a year.",
+      "word": "تَقْوِيمٍ",
+      "meaning": "قَائِمَةٌ بِأَيَّامِ وَشُهُورِ السَّنَةِ.",
       "partOfSpeech": "noun",
       "chapter": 5,
-      "context": "There is an old story about a calendar in the book."
+      "context": "فِي الكِتَابِ قِصَّةٌ قَدِيمَةٌ عَنْ تَقْوِيمٍ."
      },
      {
-      "word": "dangerous",
-      "meaning": "Can hurt you.",
+      "word": "وَخَطِيرًا",
+      "meaning": "يَسْتَطِيعُ أَنْ يُؤْذِيَكَ.",
       "partOfSpeech": "adjective",
       "chapter": 6,
-      "context": "The water was fast and dangerous."
+      "context": "كَانَ المَاءُ سَرِيعًا وَخَطِيرًا."
      },
      {
-      "word": "celebration",
-      "meaning": "A happy day with friends, food and music.",
+      "word": "احْتِفَالٌ",
+      "meaning": "يَوْمٌ سَعِيدٌ مَعَ الأَصْدِقَاءِ وَالطَّعَامِ وَالمُوسِيقَى.",
       "partOfSpeech": "noun",
       "chapter": 7,
-      "context": "They had a big celebration on this day."
+      "context": "وَكَانَ لَهُمُ احْتِفَالٌ كَبِيرٌ فِي هَذَا اليَوْمِ."
      },
      {
-      "word": "treasure",
-      "meaning": "A very important and beautiful thing.",
+      "word": "كَنْزٌ",
+      "meaning": "شَيْءٌ مُهِمٌّ جِدًّا وَجَمِيلٌ.",
       "partOfSpeech": "noun",
       "chapter": 8,
-      "context": "It is a real treasure of the Turkish language."
+      "context": "إِنَّهُ كَنْزٌ حَقِيقِيٌّ لِلُّغَةِ التُّرْكِيَّةِ."
      }
     ]
    },
    {
     "id": 14,
     "type": "exercises",
-    "title": "Language Review",
+    "title": "مراجعة اللغة",
     "image": "https://picsum.photos/seed/exercises-kasgarli-a1/1200/800",
-    "content": "Review the language from all chapters.",
+    "content": "رَاجِعْ لُغَةَ الْفُصُولِ كُلِّهَا.",
     "exercises": [
      {
-      "id": "kasgarli-a1-language-review-1",
+      "id": "kasgarli-a1-ar-language-review-1",
       "type": "drag-drop",
-      "title": "Look: Two Kinds of Past",
-      "instructions": "Put each verb in the right group.",
-      "question": "How does each verb show the past?",
+      "title": "انْظُرْ: هُوَ، هِيَ، هُمْ",
+      "instructions": "ضَعْ كُلَّ فِعْلٍ فِي مَجْمُوعَتِهِ.",
+      "question": "مَنْ فَعَلَ؟",
       "dragDropGroups": [
        {
-        "group": "Ends in -ed",
+        "group": "هُوَ",
         "items": [
-         "started",
-         "finished",
-         "traveled",
-         "collected"
+         "كَتَبَ",
+         "سَافَرَ",
+         "وَصَلَ"
         ]
        },
        {
-        "group": "Changes",
+        "group": "هِيَ",
         "items": [
-         "wrote",
-         "gave",
-         "went",
-         "got"
+         "كَانَتْ",
+         "تَقَعُ",
+         "احْتَفَلَتْ"
+        ]
+       },
+       {
+        "group": "هُمْ",
+        "items": [
+         "دَفَعُوا",
+         "قَالُوا",
+         "سَمَّوْا"
         ]
        }
       ],
       "correctAnswer": {
-       "Ends in -ed": [
-        "started",
-        "finished",
-        "traveled",
-        "collected"
+       "هُوَ": [
+        "كَتَبَ",
+        "سَافَرَ",
+        "وَصَلَ"
        ],
-       "Changes": [
-        "wrote",
-        "gave",
-        "went",
-        "got"
+       "هِيَ": [
+        "كَانَتْ",
+        "تَقَعُ",
+        "احْتَفَلَتْ"
+       ],
+       "هُمْ": [
+        "دَفَعُوا",
+        "قَالُوا",
+        "سَمَّوْا"
        ]
       },
-      "explanation": "Many verbs add -ed: start → started, travel → traveled. Some verbs change: write → wrote, give → gave, go → went, get → got.",
+      "explanation": "لـ«هُوَ»: كَتَبَ (محمود). لـ«هِيَ»: كَانَتْ، احْتَفَلَتْ (العائلة، اليونسكو). لـ«هُمْ» نزيد «ـوا»: دَفَعُوا، قَالُوا.",
       "feedback": {
-       "correct": "Well done. You found the two kinds of past.",
-       "incorrect": "Say the verb today: start, write … Does it add -ed or change?"
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "انْظُرْ إِلَى آخِرِ الفِعْلِ."
       }
      },
      {
-      "id": "kasgarli-a1-language-review-2",
+      "id": "kasgarli-a1-ar-language-review-2",
       "type": "choose-form",
-      "title": "Practise: In, On",
-      "instructions": "Choose the right word.",
-      "question": "Which word goes with the time?",
+      "title": "تَدَرَّبْ: فِي عَامِ، فِي",
+      "instructions": "اخْتَرِ الكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةٍ؟",
       "formChoices": [
        {
-        "sentence": "He started a long journey [choice] 1057.",
+        "sentence": "وُلِدَ مَحْمُود [choice] عَامِ ١٠٠٨.",
         "options": [
-         "in",
-         "on"
+         "فِي",
+         "إِلَى"
         ],
         "answer": 0
        },
        {
-        "sentence": "The new year started [choice] March 21st.",
+        "sentence": "ذَهَبَ [choice] بَغْدَادَ.",
         "options": [
-         "on",
-         "in"
+         "إِلَى",
+         "فِي"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "In + year: in 1057. On + date: on March 21st.",
+      "explanation": "للسنة: فِي عَامِ ١٠٠٨. وللذهاب إلى مكان: إِلَى بَغْدَادَ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "In 1057. On March 21st."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "وَقْتٌ أَمْ ذَهَابٌ؟"
       }
      },
      {
-      "id": "kasgarli-a1-language-review-3",
+      "id": "kasgarli-a1-ar-language-review-3",
       "type": "choose-form",
-      "title": "Practise: Is, Are",
-      "instructions": "Choose is or are.",
-      "question": "One or many?",
+      "title": "تَدَرَّبْ: هُوَ، هِيَ، هُمَا",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةٍ؟",
       "formChoices": [
        {
-        "sentence": "On the map, the mountains [choice] red.",
+        "sentence": "بَرْسْغَان [choice] فِي قِيرْغِيزِسْتَان.",
         "options": [
-         "are",
-         "is"
+         "تَقَعُ",
+         "يَقَعُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Balasagun [choice] in the middle of the map.",
+        "sentence": "الجِبَالُ [choice].",
         "options": [
-         "is",
-         "are"
+         "حَمْرَاءُ",
+         "أَحْمَرُ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "كَاشْغَر مَدِينَةٌ [choice] جِدًّا.",
+        "options": [
+         "قَدِيمَةٌ",
+         "قَدِيمٌ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "One thing: is. Two or more: are.",
+      "explanation": "المدن مؤنثة: تَقَعُ، قَدِيمَةٌ. والجبال جمع لا يعقل: حَمْرَاءُ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Mountains = many. Balasagun = one city."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مُذَكَّرٌ أَمْ مُؤَنَّثٌ؟"
       }
      },
      {
-      "id": "kasgarli-a1-language-review-4",
+      "id": "kasgarli-a1-ar-language-review-4",
       "type": "word-bank",
-      "title": "Practise: Can and Will",
-      "instructions": "Fill the gaps with the words.",
-      "question": "Now or in the future?",
-      "fillBlanksText": "“We [blank] make a calendar.” “There [blank] be wars in the Year of the Ox.” Many people [blank] celebrate Nowruz today.",
+      "title": "تَدَرَّبْ: نَسْتَطِيعُ، سَـ",
+      "instructions": "ضَعِ الكَلِمَةَ المُنَاسِبَةَ فِي الفَرَاغِ.",
+      "question": "أَيُّ كَلِمَةٍ؟",
+      "fillBlanksText": "[blank] أَنْ نَصْنَعَ تَقْوِيمًا. [blank] هُنَاكَ حُرُوبٌ فِي سَنَةِ الثَّوْرِ.",
       "wordBank": [
-       "can",
-       "will",
-       "still",
-       "cans",
-       "was"
+       "نَسْتَطِيعُ",
+       "سَتَكُونُ",
+       "كَانَتْ"
       ],
       "correctAnswer": [
-       "can",
-       "will",
-       "still"
+       "نَسْتَطِيعُ",
+       "سَتَكُونُ"
       ],
-      "explanation": "Can + verb: it is possible. There will be: the future. Still = it did not stop.",
+      "explanation": "«نَسْتَطِيعُ أَنْ» + فعل (الفصل ٥). «سَتَكُونُ» للمستقبل (الفصل ٧).",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Find these words in Chapters 5 and 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ابْحَثْ فِي الفَصْلَيْنِ ٥ وَ٧."
       }
      },
      {
-      "id": "kasgarli-a1-language-review-5",
+      "id": "kasgarli-a1-ar-language-review-5",
       "type": "error-correction",
-      "title": "Practise: Fix One Word",
-      "instructions": "Find the wrong word. Choose the right word.",
-      "question": "Which word is wrong?",
+      "title": "تَدَرَّبْ: صَحِّحْ كَلِمَةً وَاحِدَةً",
+      "instructions": "ابْحَثْ عَنِ الكَلِمَةِ الخَطَأِ وَصَحِّحْهَا.",
+      "question": "أَيُّ كَلِمَةٍ خَطَأٌ؟",
       "errorItems": [
        {
-        "sentence": "Mahmud writed his book in Baghdad.",
-        "error": "writed",
+        "sentence": "دَفَعَ النَّاسُ حَيَوَانَاتٍ كَثِيرَةً، وَوَصَلَ الجُرَذُ أَوَّلُوا.",
+        "error": "أَوَّلُوا",
         "options": [
-         "wrote",
-         "write",
-         "writes"
+         "أَوَّلًا",
+         "الأَوَّلُ",
+         "أَوَّلُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "He gived the book to the Caliph.",
-        "error": "gived",
+        "sentence": "أَرَادَ أَنْ يُعَلِّمُ التُّرْكِيَّةَ لِلْعَرَبِ.",
+        "error": "يُعَلِّمُ",
         "options": [
-         "give",
-         "gave",
-         "gives"
+         "يُعَلِّمَ",
+         "عَلَّمَ",
+         "تُعَلِّمُ"
         ],
-        "answer": 1
+        "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Write” and “give” change in the past: wrote, gave.",
+      "explanation": "نقول: وَصَلَ أَوَّلًا. وبعد «أَنْ» نقول: يُعَلِّمَ.",
       "feedback": {
-       "correct": "Well done.",
-       "incorrect": "Write → wrote. Give → gave. They do not take -ed."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "رَاجِعِ الفَصْلَيْنِ ١ وَ٦."
       }
      },
      {
-      "id": "kasgarli-a1-language-review-6",
+      "id": "kasgarli-a1-ar-language-review-6",
       "type": "reflection",
-      "title": "Use: My Language",
-      "instructions": "Write three sentences about your language.",
-      "question": "What is your language like?",
+      "title": "اسْتَعْمِلْ: لُغَتِي",
+      "instructions": "اكْتُبْ ثَلَاثَ جُمَلٍ عَنْ لُغَتِكَ.",
+      "question": "لِمَاذَا تُحِبُّ لُغَتَكَ؟",
       "correctAnswer": null,
-      "explanation": "Use is, like and means.",
+      "explanation": "استعمل «أُرِيدُ أَنْ» و«أَجْمَعُ».",
       "feedback": {
-       "correct": "Write three short sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "One “My language is …”",
+        "question": "«لُغَتِي … جَمِيلَةٌ.»",
         "mode": "Individual",
-        "example": "My language is Turkish."
+        "example": "لُغَتِي التُّرْكِيَّةُ جَمِيلَةٌ."
        },
        {
-        "question": "One “I like the word …”",
+        "question": "«أُرِيدُ أَنْ …»",
         "mode": "Individual",
-        "example": "I like the word “gönül”."
+        "example": "أُرِيدُ أَنْ أَتَعَلَّمَ كَلِمَاتٍ قَدِيمَةً."
        },
        {
-        "question": "One “It means …”",
+        "question": "«أَجْمَعُ …»",
         "mode": "Individual",
-        "example": "It means “heart”."
+        "example": "أَجْمَعُ أَمْثَالَ جَدَّتِي."
        }
       ]
      }
@@ -2370,163 +2302,163 @@
    {
     "id": 15,
     "type": "final-challenge",
-    "title": "Final Challenge",
+    "title": "التحدي النهائي",
     "image": "https://picsum.photos/seed/challenge-kasgarli-a1/1200/800",
-    "content": "Bring the whole story together in the Final Challenge.",
+    "content": "اخْتَبِرْ مَعْرِفَتَكَ بِقِصَّةِ مَحْمُود الكَاشْغَرِيِّ كَامِلَةً.",
     "exercises": [
      {
-      "id": "kasgarli-a1-final-1",
+      "id": "kasgarli-a1-ar-final-1",
       "type": "fill-blanks",
-      "title": "The Dictionary",
-      "instructions": "Write one word.",
-      "question": "Which language did Mahmud use for his book?",
-      "fillBlanksText": "Mahmud wrote the book in [blank].",
+      "title": "القَامُوسُ",
+      "instructions": "اكْتُبِ الكَلِمَةَ النَّاقِصَةَ.",
+      "question": "بِأَيِّ لُغَةٍ كَتَبَ مَحْمُود كِتَابَهُ؟",
+      "fillBlanksText": "كَتَبَ مَحْمُود الكِتَابَ بِاللُّغَةِ [blank].",
       "correctAnswer": [
-       "Arabic"
+       "العَرَبِيَّةِ"
       ],
-      "explanation": "Chapter 1: “Mahmud wrote the book in Arabic.”",
+      "explanation": "الفصل الأول: «كَتَبَ مَحْمُود الكِتَابَ بِاللُّغَةِ العَرَبِيَّةِ».",
       "feedback": {
-       "correct": "Yes. Arabic.",
-       "incorrect": "Read the second paragraph of Chapter 1."
+       "correct": "نَعَمْ. بِالعَرَبِيَّةِ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الثَّانِيَةَ مِنَ الفَصْلِ الأَوَّلِ."
       }
      },
      {
-      "id": "kasgarli-a1-final-2",
+      "id": "kasgarli-a1-ar-final-2",
       "type": "multiple-choice",
-      "title": "Kashgar",
-      "instructions": "Choose the answer.",
-      "question": "Where is Kashgar?",
+      "title": "كَاشْغَر",
+      "instructions": "اخْتَرِ الجَوَابَ.",
+      "question": "أَيْنَ كَاشْغَر؟",
       "options": [
-       "in East Turkestan",
-       "in Anatolia",
-       "in Japan"
+       "فِي تُرْكِسْتَان الشَّرْقِيَّةِ",
+       "فِي الأَنَاضُولِ",
+       "فِي اليَابَانِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: “Kashgar is a very old city in East Turkestan.”",
+      "explanation": "الفصل الثاني: «كَاشْغَر مَدِينَةٌ قَدِيمَةٌ جِدًّا فِي تُرْكِسْتَان الشَّرْقِيَّةِ».",
       "feedback": {
-       "correct": "Yes. In East Turkestan.",
-       "incorrect": "Read the second paragraph of Chapter 2."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الثَّانِيَةَ مِنَ الفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "kasgarli-a1-final-3",
+      "id": "kasgarli-a1-ar-final-3",
       "type": "true-false",
-      "title": "His Own Language",
-      "instructions": "Is it true or false?",
-      "question": "Mahmud loved his own language.",
+      "title": "لُغَتُهُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "أَحَبَّ مَحْمُود لُغَتَهُ.",
       "correctAnswer": true,
-      "explanation": "Chapter 3: “But Mahmud loved his own language.”",
+      "explanation": "الفصل الثالث: «لَكِنَّ مَحْمُودًا أَحَبَّ لُغَتَهُ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the first paragraph of Chapter 3."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأُولَى مِنَ الفَصْلِ الثَّالِثِ."
       }
      },
      {
-      "id": "kasgarli-a1-final-4",
+      "id": "kasgarli-a1-ar-final-4",
       "type": "matching",
-      "title": "Which Animal?",
-      "instructions": "Match the animal with the sentence.",
-      "question": "Which animal is it?",
+      "title": "أَيُّ حَيَوَانٍ؟",
+      "instructions": "صِلْ كُلَّ حَيَوَانٍ بِجُمْلَتِهِ.",
+      "question": "أَيُّ حَيَوَانٍ هُوَ؟",
       "matchingHeadings": {
-       "left": "Animal",
-       "right": "Sentence"
+       "left": "الحَيَوَانُ",
+       "right": "الجُمْلَةُ"
       },
       "matchingPairs": [
        {
-        "left": "the rat",
-        "right": "It arrived first."
+        "left": "الجُرَذُ",
+        "right": "وَصَلَ أَوَّلًا."
        },
        {
-        "left": "the ox",
-        "right": "It likes to fight with its horns."
+        "left": "الثَّوْرُ",
+        "right": "يُحِبُّ أَنْ يَتَقَاتَلَ بِقَرْنَيْهِ."
        },
        {
-        "left": "the snake",
-        "right": "It lives near water."
+        "left": "الثُّعْبَانُ",
+        "right": "يَعِيشُ قُرْبَ المَاءِ."
        }
       ],
       "correctAnswer": {
-       "the rat": "It arrived first.",
-       "the ox": "It likes to fight with its horns.",
-       "the snake": "It lives near water."
+       "الجُرَذُ": "وَصَلَ أَوَّلًا.",
+       "الثَّوْرُ": "يُحِبُّ أَنْ يَتَقَاتَلَ بِقَرْنَيْهِ.",
+       "الثُّعْبَانُ": "يَعِيشُ قُرْبَ المَاءِ."
       },
-      "explanation": "Chapter 6: the rat. Chapter 7: the ox and the snake.",
+      "explanation": "الفصلان السادس والسابع.",
       "feedback": {
-       "correct": "Good. You matched all three.",
-       "incorrect": "Read Chapters 6 and 7 again."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "اقْرَأِ الفَصْلَيْنِ السَّادِسَ وَالسَّابِعَ."
       }
      },
      {
-      "id": "kasgarli-a1-final-5",
+      "id": "kasgarli-a1-ar-final-5",
       "type": "multiple-choice",
-      "title": "The Calendar",
-      "instructions": "Choose the answer.",
-      "question": "Why did the khan want a calendar?",
+      "title": "التَّقْوِيمُ",
+      "instructions": "اخْتَرِ الجَوَابَ.",
+      "question": "لِمَاذَا أَرَادَ الخَاقَانُ تَقْوِيمًا؟",
       "options": [
-       "to find old dates",
-       "to count his horses",
-       "to name his children"
+       "لِيَجِدُوا التَّوَارِيخَ القَدِيمَةَ",
+       "لِيَعُدَّ خَيْلَهُ",
+       "لِيُسَمِّيَ أَوْلَادَهُ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “We can give a name to every year. Then we can find old dates.”",
+      "explanation": "الفصل الخامس: «بَعْدَ ذَلِكَ نَسْتَطِيعُ أَنْ نَجِدَ التَّوَارِيخَ القَدِيمَةَ».",
       "feedback": {
-       "correct": "Yes. To find old dates.",
-       "incorrect": "Read the last paragraph of Chapter 5."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأْ كَلَامَ الخَاقَانِ."
       }
      },
      {
-      "id": "kasgarli-a1-final-6",
+      "id": "kasgarli-a1-ar-final-6",
       "type": "true-false",
-      "title": "The River",
-      "instructions": "Is it true or false?",
-      "question": "All the animals got to the other side of the river.",
+      "title": "النَّهْرُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "وَصَلَتْ كُلُّ الحَيَوَانَاتِ إِلَى الجَانِبِ الآخَرِ مِنَ النَّهْرِ.",
       "correctAnswer": false,
-      "explanation": "Chapter 6: “Only twelve animals got to the other side.”",
+      "explanation": "الفصل السادس: «وَصَلَ اثْنَا عَشَرَ حَيَوَانًا فَقَطْ إِلَى الجَانِبِ الآخَرِ».",
       "feedback": {
-       "correct": "Yes, it is false. Only twelve animals got there.",
-       "incorrect": "Read the second paragraph of Chapter 6."
+       "correct": "نَعَمْ، هَذَا خَطَأٌ. وَصَلَ اثْنَا عَشَرَ فَقَطْ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الأُولَى مِنَ الفَصْلِ السَّادِسِ."
       }
      },
      {
-      "id": "kasgarli-a1-final-7",
+      "id": "kasgarli-a1-ar-final-7",
       "type": "multiple-choice",
-      "title": "UNESCO",
-      "instructions": "Choose the answer.",
-      "question": "When did UNESCO celebrate this great book?",
+      "title": "اليُونِسْكُو",
+      "instructions": "اخْتَرِ الجَوَابَ.",
+      "question": "مَتَى احْتَفَلَتِ اليُونِسْكُو بِهَذَا الكِتَابِ العَظِيمِ؟",
       "options": [
-       "in 2024",
-       "in 1074",
-       "in 1105"
+       "فِي عَامِ ٢٠٢٤",
+       "فِي عَامِ ١٠٧٤",
+       "فِي عَامِ ١١٠٥"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 8: “In 2024, UNESCO celebrated this great book.”",
+      "explanation": "الفصل الثامن: «وَفِي عَامِ ٢٠٢٤، احْتَفَلَتِ اليُونِسْكُو بِهَذَا الكِتَابِ العَظِيمِ».",
       "feedback": {
-       "correct": "Yes. In 2024.",
-       "incorrect": "Read the second paragraph of Chapter 8."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الفِقْرَةَ الثَّانِيَةَ مِنَ الفَصْلِ الثَّامِنِ."
       }
      },
      {
-      "id": "kasgarli-a1-final-8",
+      "id": "kasgarli-a1-ar-final-8",
       "type": "sequencing",
-      "title": "Mahmud’s Life and Book",
-      "instructions": "Put the sentences in order.",
-      "question": "What happened first?",
+      "title": "حَيَاةُ مَحْمُود وَكِتَابُهُ",
+      "instructions": "رَتِّبِ الجُمَلَ.",
+      "question": "مَاذَا حَدَثَ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "Mahmud was born in Barsgan."
+        "text": "وُلِدَ مَحْمُود فِي بَرْسْغَان."
        },
        {
         "id": "2",
-        "text": "Mahmud started a long journey."
+        "text": "بَدَأَ مَحْمُود رِحْلَةً طَوِيلَةً."
        },
        {
         "id": "3",
-        "text": "Mahmud finished his dictionary."
+        "text": "أَنْهَى مَحْمُود قَامُوسَهُ."
        },
        {
         "id": "4",
-        "text": "Mahmud gave his book to the Caliph."
+        "text": "قَدَّمَ مَحْمُود كِتَابَهُ إِلَى الخَلِيفَةِ."
        }
       ],
       "correctAnswer": [
@@ -2535,10 +2467,10 @@
        "3",
        "4"
       ],
-      "explanation": "Born in 1008 (Chapter 2) → the journey in 1057 (Chapter 3) → finished in 1074 → gave it to the Caliph in 1077 (Chapter 1).",
+      "explanation": "١٠٠٨ (الفصل ٢) ← ١٠٥٧ (الفصل ٣) ← ١٠٧٤ ← ١٠٧٧ (الفصل ١).",
       "feedback": {
-       "correct": "Great! You know Mahmud’s life and book.",
-       "incorrect": "Look at the years: 1008, 1057, 1074, 1077."
+       "correct": "رَائِعٌ! أَنْتَ تَعْرِفُ قِصَّةَ مَحْمُود.",
+       "incorrect": "فَكِّرْ فِي السَّنَوَاتِ."
       }
      }
     ]

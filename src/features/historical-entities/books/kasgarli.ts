@@ -4,7 +4,7 @@ import type { EntityBookSet } from './index';
 
 // Places & People cards for Mahmud Kashgari (A1–B2). A1 has its own simple cards; A2, B1 and B2
 // share the full set. Japan has no map: it lies east of the widest map. Pictures: Storage places-people/kasgarli/.
-// English only for now: the Arabic copy repeats the English until the Arabic edition arrives.
+// The Arabic copy and aliases live in src/content/entityCards.json (Arabic edition 2026-11-23, hidden with arabicHidden).
 // Copy never goes beyond the story. A card without a picture file shows a placeholder.
 
 type Text = { title: string; kindLabel: string; periodLabel: string; summary: string; more?: string };
