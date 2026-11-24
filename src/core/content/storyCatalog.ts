@@ -1,5 +1,6 @@
 import type { Level, ProphetStory } from '../../types';
 import storyFile from '../../content/stories.json';
+import { ARABIC_ONLY_LEVELS, isArabicOnlyLevel } from '../../content/arabicOnlyLevels';
 
 interface StoryFile {
   id: string;
@@ -167,6 +168,18 @@ export const storyCover = (storyId: string): { image: string; imageSmall?: strin
 // It also opens the Arabic of a book marked arabicHidden.
 const previewShelf = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('gizli');
 
+// A book whose Arabic is not shown yet stays English only, except for its Arabic-only (Pre-A1)
+// editions: the Arabic side then offers just those, and its other levels open in English.
+const arabicSide = (story: StoryFile): { englishOnly?: boolean; englishOnlyLevels?: Level[] } => {
+  const levels = story.availableLevels as Level[];
+  const ownEnglishOnlyLevels = story.englishOnlyLevels as Level[] | undefined;
+  if (story.englishOnly || !story.arabicHidden || previewShelf) {
+    return { englishOnly: story.englishOnly, englishOnlyLevels: ownEnglishOnlyLevels };
+  }
+  if (!levels.some(isArabicOnlyLevel)) return { englishOnly: true, englishOnlyLevels: ownEnglishOnlyLevels };
+  return { englishOnly: false, englishOnlyLevels: levels.filter(level => !isArabicOnlyLevel(level)) };
+};
+
 /**
  * The books themselves live in src/content/stories.json: name and description per language,
  * levels, collection. Only the cover pictures stay in code, because the bundler has to see them.
@@ -182,8 +195,7 @@ const toCatalogItem = (story: StoryFile): StoryCatalogItem => ({
   imageSmall: covers[story.id]?.imageSmall,
   availableLevels: story.availableLevels as Level[],
   collection: story.collection as StoryCollectionId,
-  englishOnly: story.englishOnly || (story.arabicHidden && !previewShelf),
-  englishOnlyLevels: story.englishOnlyLevels as Level[] | undefined,
+  ...arabicSide(story),
   hidden: story.hidden,
 });
 
@@ -339,7 +351,7 @@ export const isEnglishOnlyEdition = (storyId: string, level: Level): boolean => 
   return Boolean(meta && (meta.englishOnly || meta.englishOnlyLevels?.includes(level)));
 };
 
-export { ARABIC_ONLY_LEVELS, isArabicOnlyLevel } from '../../content/arabicOnlyLevels';
+export { ARABIC_ONLY_LEVELS, isArabicOnlyLevel };
 
 export const getNextLevel = (level: Level): Level | null => {
   const levels: Level[] = ['Pre-A1', 'A1', 'A2', 'B1', 'B2'];

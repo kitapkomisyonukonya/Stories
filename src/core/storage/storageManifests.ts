@@ -207,6 +207,15 @@ export const storageManifests: Record<string, BookAssetManifest> = {
   [manifestKey('yunusEmre', 'A1')]: media([], ['yunusEmre/a1/audio'], ['yunusEmre/a1/audio/arabic_audio']),
   [manifestKey('gevherNesibe', 'A1')]: media([], ['gevherNesibe/a1/audio'], ['gevherNesibe/a1/audio/arabic_audio']),
   [manifestKey('zeroWaste', 'A1')]: media([], ['zeroWaste/a1/audio'], []),
+
+  // Pre-A1 is Arabic only: both sides read the Arabic narration.
+  [manifestKey('adam', 'Pre-A1')]: media([], ['adam/pre-a1/audio/arabic_audio'], ['adam/pre-a1/audio/arabic_audio']),
+  [manifestKey('ibrahim', 'Pre-A1')]: media([], ['ibrahim/pre-a1/audio/arabic_audio'], ['ibrahim/pre-a1/audio/arabic_audio']),
+  [manifestKey('musa', 'Pre-A1')]: media([], ['musa/pre-a1/audio/arabic_audio'], ['musa/pre-a1/audio/arabic_audio']),
+  [manifestKey('mecca', 'Pre-A1')]: media([], ['mecca/pre-a1/audio/arabic_audio'], ['mecca/pre-a1/audio/arabic_audio']),
+  [manifestKey('ibnJubayr', 'Pre-A1')]: media([], ['ibnJubayr/pre-a1/audio/arabic_audio'], ['ibnJubayr/pre-a1/audio/arabic_audio']),
+  [manifestKey('yunusEmre', 'Pre-A1')]: media([], ['yunusEmre/pre-a1/audio/arabic_audio'], ['yunusEmre/pre-a1/audio/arabic_audio']),
+  [manifestKey('zeroWaste', 'Pre-A1')]: media([], ['zeroWaste/pre-a1/audio/arabic_audio'], ['zeroWaste/pre-a1/audio/arabic_audio']),
 };
 
 export const getStorageManifest = (storyId: StoryId, level: Level): BookAssetManifest =>
