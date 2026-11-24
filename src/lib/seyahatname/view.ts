@@ -12,9 +12,9 @@ export const LEVELS: Level[] = ['A2', 'B1', 'B2'];
 export const levelBooks = (level: Level) =>
   storyCatalog.filter(story => story.availableLevels.includes(level) && EDITIONS[editionKey(story.id, level)]);
 
-/** The books a level's certificate in one language asks for: books in English only are not asked for in Arabic. */
+/** The books a level's certificate in one language asks for: editions in English only are not asked for in Arabic. */
 export const certificateBooks = (level: Level, lang: SealLanguage) =>
-  levelBooks(level).filter(story => lang === 'en' || !story.englishOnly);
+  levelBooks(level).filter(story => lang === 'en' || !(story.englishOnly || story.englishOnlyLevels?.includes(level)));
 
 /** How far a level's certificate in one language is: the books finished in that language. */
 export const certificateProgress = (state: JournalState, level: Level, lang: SealLanguage) => {

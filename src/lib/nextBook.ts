@@ -9,12 +9,16 @@ export const isBookCompleted = (storyId: string, level: Level) => {
   }
 };
 
-/** Books the reader can open in this language: English-only books are left out of Arabic suggestions. */
-const readable = (language: 'en' | 'ar') => storyCatalog.filter(story => !story.isComingSoon && (language === 'en' || !story.englishOnly));
+/** In Arabic, an edition without Arabic text (englishOnly / englishOnlyLevels) is not suggested. */
+const readableAt = (story: StoryCatalogItem, level: Level, language: 'en' | 'ar') =>
+  language === 'en' || !(story.englishOnly || story.englishOnlyLevels?.includes(level));
+
+/** Books the reader can open in this language at this level. */
+const readable = (language: 'en' | 'ar', level: Level) => storyCatalog.filter(story => !story.isComingSoon && readableAt(story, level, language));
 
 /** The first unfinished book at a level, starting with the given collection. */
 export const firstOpenBookAt = (level: Level, language: 'en' | 'ar', options: { exclude?: string; preferCollection?: string } = {}) => {
-  const candidates = readable(language).filter(story => story.id !== options.exclude && story.availableLevels.includes(level));
+  const candidates = readable(language, level).filter(story => story.id !== options.exclude && story.availableLevels.includes(level));
   const ordered = options.preferCollection
     ? [...candidates.filter(story => story.collection === options.preferCollection), ...candidates.filter(story => story.collection !== options.preferCollection)]
     : candidates;
@@ -37,7 +41,7 @@ export const suggestNextBook = (
   const nextLevel = getNextLevel(level);
   const ready = finalScore === null || finalScore >= 70;
 
-  if (ready && story && nextLevel && story.availableLevels.includes(nextLevel) && !isBookCompleted(storyId, nextLevel)) {
+  if (ready && story && nextLevel && story.availableLevels.includes(nextLevel) && readableAt(story, nextLevel, language) && !isBookCompleted(storyId, nextLevel)) {
     return { story, level: nextLevel, reason: 'nextLevel' };
   }
   const sameLevel = firstOpenBookAt(level, language, { exclude: storyId, preferCollection: story?.collection });
