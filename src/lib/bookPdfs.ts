@@ -20,7 +20,7 @@ const ENGLISH_ONLY = new Set(['ibnJubayr']);
 const A1_PDF_BOOKS = new Set(['adam', 'ibrahim', 'musa', 'mecca', 'yunusEmre', 'ibnJubayr']);
 
 /** Hidden books have no printable PDFs yet. */
-export const hasBookPdfs = (storyId: string, level: string) => !isHiddenStory(storyId) && (level !== 'A1' || A1_PDF_BOOKS.has(storyId));
+export const hasBookPdfs = (storyId: string, level: string) => !isHiddenStory(storyId) && level !== 'Pre-A1' && (level !== 'A1' || A1_PDF_BOOKS.has(storyId));
 
 export const bookPdfUrl = (storyId: string, level: string, language: string, kind: BookPdfKind) => {
   // An edition that is English only (stories.json englishOnly / englishOnlyLevels) has English PDFs only.

@@ -49,7 +49,8 @@ export const encodeResult = (data: ResultCodeData): string => {
   const story = Math.max(0, storyCatalog.findIndex(item => item.id === data.storyId));
   const fields: [number, number][] = [
     [story, 3],
-    [LEVELS.indexOf(data.level), 2],
+    // Pre-A1 (Arabic only) has no slot of its own in the 2-bit field: it reads as A1.
+    [LEVELS.indexOf(data.level === 'Pre-A1' ? 'A1' : data.level), 2],
     [toStep(data.chapters), 5],
     [toStep(data.knowledgeCheck), 5],
     [data.vocabulary ? 1 : 0, 1],

@@ -29,7 +29,7 @@ import { cn } from './lib/utils';
 import { clearReaderPosition, readReaderPosition, saveReaderPosition } from './lib/readerPosition';
 import { formatHashRoute, isHomeHash, parseHashRoute, type HashRoute } from './lib/hashRoute';
 import { mergeBookProgress, readBookProgress, type BookProgress } from './lib/bookProgress';
-import { collectionVisuals, getStoryMeta, isEnglishOnlyEdition, readerTokenVariables } from './core/content/storyCatalog';
+import { collectionVisuals, getStoryMeta, isArabicOnlyLevel, isEnglishOnlyEdition, readerTokenVariables } from './core/content/storyCatalog';
 import { useLanguage } from './contexts/LanguageContext';
 import { LanguageToggle } from './components/ui/LanguageToggle';
 import { FullscreenToggle } from './components/ui/FullscreenButton';
@@ -167,6 +167,11 @@ const AppContent = () => {
   useEffect(() => {
     if (isEnglishOnlyBook && language === 'ar') setLanguage('en');
   }, [isEnglishOnlyBook, language, setLanguage]);
+  // Pre-A1 books are Arabic only: they always open in Arabic.
+  const isArabicOnlyBook = Boolean(selectedProphetId && currentLevel && isArabicOnlyLevel(currentLevel));
+  useEffect(() => {
+    if (isArabicOnlyBook && language === 'en') setLanguage('ar');
+  }, [isArabicOnlyBook, language, setLanguage]);
 
   // --- Data ---
   const currentBook = useMemo(() => {
@@ -456,7 +461,7 @@ const AppContent = () => {
     progressTrack: "bg-accent/10",
     progressBar: "bg-accent",
     percentageText: "text-accent/80",
-    mainBg: !showSummary && (currentLevel === 'A1' || currentLevel === 'A2' || currentLevel === 'B1' ? "bg-page/95" : "bg-page-deep/95"),
+    mainBg: !showSummary && (currentLevel === 'Pre-A1' || currentLevel === 'A1' || currentLevel === 'A2' || currentLevel === 'B1' ? "bg-page/95" : "bg-page-deep/95"),
     cardBorder: "border-accent/20",
     navButton: "bg-accent-strong border-accent text-white hover:brightness-110 hover:scale-110",
     goldText: "text-accent",

@@ -9,6 +9,7 @@ import { withPlacesLayer } from '../../features/historical-entities';
 import type { HistoricalEntityBookKey, HistoricalEntityLocale } from '../../features/historical-entities';
 import { bookCatalog, type BookCatalogEntry } from '../../content/bookCatalog';
 import { editionName } from '../../content/editionName';
+import { fileLanguage } from '../../content/arabicOnlyLevels';
 import { isPanelPreview, onPanelPreviewChange } from '../../content/panelPreview';
 
 export { editionName };
@@ -36,7 +37,7 @@ interface BookFile {
 const definitionKey = (storyId: StoryId, level: Level): string => `${storyId}:${level}`;
 
 const loadEdition = async (storyId: StoryId, level: Level, language: 'en' | 'ar'): Promise<BookData> => {
-  const file = await readContent<BookFile>('books', editionName(storyId, level, language));
+  const file = await readContent<BookFile>('books', editionName(storyId, level, fileLanguage(level, language)));
   if (!file?.book?.pages?.length) {
     throw new Error(`[Book Registry] ${storyId} ${level} ${language} has no pages.`);
   }

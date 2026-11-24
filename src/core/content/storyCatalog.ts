@@ -339,8 +339,10 @@ export const isEnglishOnlyEdition = (storyId: string, level: Level): boolean => 
   return Boolean(meta && (meta.englishOnly || meta.englishOnlyLevels?.includes(level)));
 };
 
+export { ARABIC_ONLY_LEVELS, isArabicOnlyLevel } from '../../content/arabicOnlyLevels';
+
 export const getNextLevel = (level: Level): Level | null => {
-  const levels: Level[] = ['A1', 'A2', 'B1', 'B2'];
+  const levels: Level[] = ['Pre-A1', 'A1', 'A2', 'B1', 'B2'];
   const index = levels.indexOf(level);
   return index >= 0 && index < levels.length - 1 ? levels[index + 1] : null;
 };

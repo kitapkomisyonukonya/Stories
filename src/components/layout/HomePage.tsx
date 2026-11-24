@@ -45,6 +45,7 @@ import {
   collectionStoryIds,
   collectionVisuals,
   getStoryCollection,
+  isArabicOnlyLevel,
   storyCatalog,
   type StoryCollectionId,
 } from '../../core/content/storyCatalog';
@@ -57,8 +58,9 @@ interface HomePageProps {
 }
 
 type CollectionId = 'all' | StoryCollectionId;
-const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2'];
+const LEVELS: Level[] = ['Pre-A1', 'A1', 'A2', 'B1', 'B2'];
 const levelDescriptions: Record<Level, { en: string; ar: string }> = {
+  'Pre-A1': { en: 'Starter', ar: 'الْمُسْتَوَى التَّمْهِيدِيُّ' },
   A1: { en: 'Beginner', ar: 'المستوى المبتدئ' },
   A2: { en: 'Elementary', ar: 'المستوى الأساسي' },
   B1: { en: 'Intermediate', ar: 'المستوى المتوسط' },
@@ -188,7 +190,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
   const stories = useMemo(
     () =>
       language === 'en'
-        ? storyCatalog
+        ? storyCatalog.map(story => ({ ...story, availableLevels: story.availableLevels.filter(option => !isArabicOnlyLevel(option)) }))
         : storyCatalog
             .filter(story => !story.englishOnly)
             .map(story => (story.englishOnlyLevels?.length ? { ...story, availableLevels: story.availableLevels.filter(option => !story.englishOnlyLevels?.includes(option)) } : story)),
@@ -742,7 +744,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                     <p className={cn('text-[11px] font-semibold uppercase text-[#E4C779]/76', !isRTL && 'tracking-[0.18em]')}>{SECTION_ICONS.levelExam[lang]}</p>
                     <p className="mt-1 text-sm font-semibold text-[#FFF9EC]">{SECTION_ICONS.levelExam.hint[lang]}</p>
                     <div className="mt-2 flex flex-wrap gap-2" dir="ltr">
-                      {LEVELS.filter(option => option !== 'A1').map(option => (
+                      {LEVELS.filter(option => option !== 'A1' && option !== 'Pre-A1').map(option => (
                         <button
                           key={option}
                           type="button"

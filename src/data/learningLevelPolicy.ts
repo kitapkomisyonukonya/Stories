@@ -29,6 +29,31 @@ export interface LearningLevelPolicy {
 }
 
 export const LEARNING_LEVEL_POLICIES: Record<Level, LearningLevelPolicy> = {
+  'Pre-A1': {
+    level: 'Pre-A1',
+    knowledgeCount: 0,
+    vocabularyCount: 0,
+    vocabularyContextCount: 0,
+    vocabularyRecallCount: 0,
+    vocabularyRecallMode: 'choice',
+    reviewCount: 0,
+    finalCount: 6,
+    quickPattern: ['matching', 'true-false', 'multiple-choice'],
+    vocabularyPattern: ['matching', 'true-false', 'multiple-choice'],
+    hotspotPattern: ['tap-reveal', 'matching'],
+    teacherTiming: '20 minutes',
+    selfStudyTiming: '10 minutes',
+    evidenceCount: 1,
+    summaryLength: 'one short sentence',
+    writingTarget: 'copy one short sentence',
+    questionMode: 'direct',
+    analysisFocusEn: 'names, pictures and single facts',
+    analysisFocusAr: 'الأسماء والصور والمعلومة الواحدة',
+    grammarEn: 'Say one chapter sentence again as a whole chunk.',
+    grammarAr: 'قل جملة واحدة من الفصل مرة أخرى كما هي.',
+    fastEn: 'Copy one chapter sentence and draw it.',
+    fastAr: 'انسخ جملة واحدة من الفصل وارسمها.',
+  },
   A1: {
     level: 'A1',
     knowledgeCount: 6,

@@ -271,7 +271,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
       };
 
   const canDoItems = useMemo(() => {
-    if (bookData.level === 'A1') {
+    if (bookData.level === 'A1' || bookData.level === 'Pre-A1') {
       return isArabic
         ? [
             'تَفْهَمُ قِصَّةً قَصِيرَةً وَسَهْلَةً فِي فُصُولٍ قَصِيرَةٍ.',

@@ -3,6 +3,7 @@ import '../lib/nodeContent';
 import { readFileSync, readdirSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fileLanguage } from '../../src/content/arabicOnlyLevels';
 import type { Level, PageData, PageType } from '../../src/types';
 import { bookCatalog } from '../../src/content/bookCatalog';
 import { editionName } from '../../src/core/content/bookRegistry';
@@ -16,7 +17,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const booksDir = `${root}/src/content/books`;
 const guidesDir = `${root}/src/content/guides`;
 
-const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2'];
+const LEVELS: Level[] = ['Pre-A1', 'A1', 'A2', 'B1', 'B2'];
 const PAGE_TYPES: PageType[] = ['story', 'quiz', 'vocabulary-match', 'exercises', 'glossary', 'final-challenge', 'map', 'places', 'key-facts', 'key-terms'];
 const LANGUAGES = ['en', 'ar'] as const;
 
@@ -59,7 +60,7 @@ const checkPage = (page: PageData, where: string) => {
 const expected = new Set<string>();
 for (const entry of bookCatalog) {
   if (!LEVELS.includes(entry.level)) fail('bookCatalog.json', `unknown level "${entry.level}"`);
-  for (const language of LANGUAGES) expected.add(`${editionName(entry.storyId, entry.level, language)}.json`);
+  for (const language of LANGUAGES) expected.add(`${editionName(entry.storyId, entry.level, fileLanguage(entry.level, language))}.json`);
 }
 
 for (const file of readdirSync(booksDir)) {

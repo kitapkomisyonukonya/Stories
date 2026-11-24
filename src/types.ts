@@ -22,7 +22,7 @@ export interface KeyTerm {
   image?: string;
 }
 
-export type Level = 'A1' | 'A2' | 'B1' | 'B2';
+export type Level = 'Pre-A1' | 'A1' | 'A2' | 'B1' | 'B2';
 
 export type ExerciseType = 
   | 'true-false' 

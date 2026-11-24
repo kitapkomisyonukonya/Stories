@@ -32,7 +32,7 @@ import { useDialogFocus } from '../../hooks/useDialogFocus';
 type CatalogStory = (typeof storyCatalog)[number];
 type Tab = 'library' | 'journal' | 'words' | 'settings';
 
-const LEVELS: Level[] = ['A1', 'A2', 'B1', 'B2'];
+const LEVELS: Level[] = ['Pre-A1', 'A1', 'A2', 'B1', 'B2'];
 const COLLECTIONS: StoryCollectionId[] = ['prophets', 'history', 'turkish', 'today'];
 
 interface PhoneLibraryProps {
@@ -357,7 +357,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                   suggestedLevel ? <span className="text-[13px] font-semibold text-[#E9C46A]">{copy.suggested}: {suggestedLevel}</span> : undefined,
                 )}
                 {isTeacher && settingsRow(copy.checkCode, <SECTION_ICONS.checkCode.icon size={18} />, onOpenCheckCode)}
-                {LEVELS.filter(option => option !== 'A1').map(option => (
+                {LEVELS.filter(option => option !== 'A1' && option !== 'Pre-A1').map(option => (
                   <React.Fragment key={option}>
                     {settingsRow(`${SECTION_ICONS.levelExam[lang]} · ${option}`, <SECTION_ICONS.levelExam.icon size={18} />, () => onOpenExam(option))}
                   </React.Fragment>

@@ -238,7 +238,7 @@ const assessmentProfile = (() => {
 
   const table = isArabicGuide ? ar : en;
   // A1 uses the A2 formative profile (short, low-pressure evidence) under its own title.
-  if (assessmentLevel === 'A1') return { ...table.A2, rubricTitle: table.A2.rubricTitle.replace('A2', 'A1') };
+  if (assessmentLevel === 'A1' || assessmentLevel === 'Pre-A1') return { ...table.A2, rubricTitle: table.A2.rubricTitle.replace('A2', assessmentLevel) };
   return table[assessmentLevel];
 })();
 
