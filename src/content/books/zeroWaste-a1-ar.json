@@ -6,39 +6,40 @@
  "collection": "today",
  "book": {
   "id": "zeroWaste-a1-ar",
-  "title": "Zero Waste",
+  "title": "صِفْرُ النُّفَايَاتِ",
   "level": "A1",
-  "baseFontSize": 12,
+  "baseFontSize": 14,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "What Is Waste?",
-    "content": "Every day, we buy food in boxes. We drink water from plastic or glass bottles. Sometimes we do not finish our food, so we throw it away. Boxes, bottles, and food are not the only waste. Everything we throw away becomes waste. The world is big, and we need many things. But these things have an end. So, we should not waste them.\n\nThere is a lot of waste in the world. In 2023, people in cities created more than 2 billion tons of waste. In 2050, there will be about 4 billion tons!\n\nThere is a lot of waste, but it is not all trash. We can use it again.",
+    "title": "مَا النُّفَايَاتُ؟",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch1.jpeg?alt=media&token=e52d6569-c9bc-4be2-af52-25aa4ab214e8",
+    "content": "كُلَّ يَوْمٍ، نَشْتَرِي الطَّعَامَ فِي عُلَبٍ. نَشْرَبُ الْمَاءَ مِنْ زُجَاجَاتٍ بِلَاسْتِيكِيَّةٍ أَوْ زُجَاجِيَّةٍ. أَحْيَانًا لَا نُنْهِي طَعَامَنَا، فَنَرْمِيهِ. الْعُلَبُ وَالزُّجَاجَاتُ وَالطَّعَامُ لَيْسَتْ هِيَ النُّفَايَاتِ الْوَحِيدَةَ. كُلُّ شَيْءٍ نَرْمِيهِ يُصْبِحُ نُفَايَاتٍ. الْعَالَمُ كَبِيرٌ، وَنَحْتَاجُ إِلَى أَشْيَاءَ كَثِيرَةٍ. لَكِنَّ هَذِهِ الْأَشْيَاءَ لَهَا نِهَايَةٌ. لِذَلِكَ، يَجِبُ أَلَّا نُضَيِّعَهَا.\n\nفِي الْعَالَمِ نُفَايَاتٌ كَثِيرَةٌ. فِي عَامِ ٢٠٢٣، أَنْتَجَ النَّاسُ فِي الْمُدُنِ أَكْثَرَ مِنْ مِلْيَارَيْ طُنٍّ مِنَ النُّفَايَاتِ. وَفِي عَامِ ٢٠٥٠، سَيَكُونُ هُنَاكَ نَحْوُ ٤ مِلْيَارَاتِ طُنٍّ!\n\nهُنَاكَ نُفَايَاتٌ كَثِيرَةٌ، لَكِنَّهَا لَيْسَتْ كُلُّهَا قُمَامَةً. نَسْتَطِيعُ أَنْ نَسْتَخْدِمَهَا مَرَّةً أُخْرَى.",
     "vocabulary": [
      {
-      "word": "throw away",
-      "definition": "Put something in the bin."
+      "word": "نَرْمِيهِ",
+      "definition": "نَضَعُهُ فِي سَلَّةِ الْقُمَامَةِ."
      },
      {
-      "word": "waste",
-      "definition": "Things we do not want or need."
+      "word": "نُفَايَاتٍ",
+      "definition": "أَشْيَاءُ لَا نُرِيدُهَا وَلَا نَحْتَاجُ إِلَيْهَا."
      },
      {
-      "word": "create",
-      "definition": "Make something."
+      "word": "أَنْتَجَ",
+      "definition": "صَنَعَ شَيْئًا، أَوْ جَعَلَهُ يَكُونُ."
      },
      {
-      "word": "billion",
-      "definition": "1,000,000,000."
+      "word": "مِلْيَارَيْ",
+      "definition": "مِلْيَارَانِ. الْمِلْيَارُ الْوَاحِدُ هُوَ ١٬٠٠٠٬٠٠٠٬٠٠٠."
      },
      {
-      "word": "tons",
-      "definition": "1 ton is 1,000 kilograms."
+      "word": "طُنٍّ",
+      "definition": "الطُّنُّ الْوَاحِدُ هُوَ ١٠٠٠ كِيلُوغْرَامٍ."
      },
      {
-      "word": "trash",
-      "definition": "Things with no use; we cannot use them again."
+      "word": "قُمَامَةً",
+      "definition": "أَشْيَاءُ بِلَا فَائِدَةٍ؛ لَا نَسْتَطِيعُ أَنْ نَسْتَخْدِمَهَا مَرَّةً أُخْرَى."
      }
     ],
     "hotspots": [
@@ -46,177 +47,186 @@
       "id": "h1-1",
       "x": 35,
       "y": 46,
-      "title": "Boxes and Bottles",
-      "description": "Every day, we buy food in boxes. We drink water from plastic or glass bottles."
+      "title": "عُلَبٌ وَزُجَاجَاتٌ",
+      "description": "كُلَّ يَوْمٍ، نَشْتَرِي الطَّعَامَ فِي عُلَبٍ، وَنَشْرَبُ الْمَاءَ مِنْ زُجَاجَاتٍ."
      },
      {
       "id": "h1-2",
       "x": 68,
       "y": 50,
-      "title": "A Lot of Waste",
-      "description": "In 2023, people in cities created more than 2 billion tons of waste."
+      "title": "نُفَايَاتٌ كَثِيرَةٌ",
+      "description": "فِي عَامِ ٢٠٢٣، أَنْتَجَ النَّاسُ فِي الْمُدُنِ أَكْثَرَ مِنْ مِلْيَارَيْ طُنٍّ مِنَ النُّفَايَاتِ."
      }
     ],
     "exercises": [
      {
-      "id": "zeroWaste-a1-quick-1",
+      "id": "zeroWaste-a1-ar-quick-1",
       "type": "drag-drop",
-      "title": "What Is Waste?",
-      "instructions": "Read. Is it true or false?",
-      "question": "What does Chapter 1 say?",
+      "title": "مَا النُّفَايَاتُ؟",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "صَحِيحٌ أَمْ خَطَأٌ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "Everything we throw away becomes waste.",
-         "We can use some waste again."
+         "كُلُّ شَيْءٍ نَرْمِيهِ يُصْبِحُ نُفَايَاتٍ.",
+         "نَسْتَطِيعُ أَنْ نَسْتَخْدِمَ النُّفَايَاتِ مَرَّةً أُخْرَى."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "There is very little waste in the world."
+         "كُلُّ النُّفَايَاتِ قُمَامَةٌ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "Everything we throw away becomes waste.",
-        "We can use some waste again."
+       "صَحِيحٌ": [
+        "كُلُّ شَيْءٍ نَرْمِيهِ يُصْبِحُ نُفَايَاتٍ.",
+        "نَسْتَطِيعُ أَنْ نَسْتَخْدِمَ النُّفَايَاتِ مَرَّةً أُخْرَى."
        ],
-       "False": [
-        "There is very little waste in the world."
+       "خَطَأٌ": [
+        "كُلُّ النُّفَايَاتِ قُمَامَةٌ."
        ]
       },
-      "explanation": "Chapter 1 says: “Everything we throw away becomes waste.” “There is a lot of waste in the world.” “We can use it again.”",
+      "explanation": "الفصل الأول: «كُلُّ شَيْءٍ نَرْمِيهِ يُصْبِحُ نُفَايَاتٍ» و«لَيْسَتْ كُلُّهَا قُمَامَةً. نَسْتَطِيعُ أَنْ نَسْتَخْدِمَهَا مَرَّةً أُخْرَى».",
       "feedback": {
-       "correct": "Yes! There is a lot of waste.",
-       "incorrect": "Read Chapter 1 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأَخِيرَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "zeroWaste-a1-language-1-should-not",
+      "id": "zeroWaste-a1-ar-language-1-should-not",
       "type": "multiple-choice",
-      "title": "Look: Should Not",
-      "instructions": "Choose the right answer.",
-      "question": "“So, we should not waste them.” What does this mean?",
+      "title": "انْظُرْ: يَجِبُ أَلَّا",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«يَجِبُ أَلَّا نُضَيِّعَهَا.» مَاذَا تَعْنِي الْجُمْلَةُ؟",
       "options": [
-       "It is not good to waste things.",
-       "It is good to waste things.",
-       "We need no things."
+       "لَا نُضَيِّعُ الْأَشْيَاءَ",
+       "نُضَيِّعُ الْأَشْيَاءَ",
+       "نَشْتَرِي أَشْيَاءَ كَثِيرَةً"
       ],
       "correctAnswer": 0,
-      "explanation": "Should not + verb = it is not good to do it.",
+      "explanation": "«يَجِبُ أَنْ» = هذا مهم، افعل. «يَجِبُ أَلَّا» = لا تفعل.",
       "feedback": {
-       "correct": "Yes. It is not good to waste things.",
-       "incorrect": "Read the first paragraph of Chapter 1 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "انْظُرْ: أَلَّا = أَنْ + لَا."
       }
      },
      {
-      "id": "zeroWaste-a1-language-1-practise",
+      "id": "zeroWaste-a1-ar-language-1-practise",
       "type": "choose-form",
-      "title": "Practise: Numbers",
-      "instructions": "Choose the right number.",
-      "question": "How much waste?",
+      "title": "تَدَرَّبْ: أَنْ أَمْ أَلَّا؟",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "افْعَلْ أَمْ لَا تَفْعَلْ؟",
       "formChoices": [
        {
-        "sentence": "In 2023, people in cities created more than [choice] billion tons of waste.",
+        "sentence": "يَجِبُ [choice] نَرْمِيَ الطَّعَامَ.",
         "options": [
-         "2",
-         "4"
+         "أَلَّا",
+         "أَنْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "In 2050, there will be about [choice] billion tons!",
+        "sentence": "يَجِبُ [choice] نَسْتَخْدِمَ الْأَشْيَاءَ مَرَّةً أُخْرَى.",
         "options": [
-         "4",
-         "2"
+         "أَنْ",
+         "أَلَّا"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "يَجِبُ [choice] نُضَيِّعَ الْمَاءَ.",
+        "options": [
+         "أَلَّا",
+         "أَنْ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "2023: more than 2 billion tons. 2050: about 4 billion tons. There will be = in the future.",
+      "explanation": "شيء جيد: «يَجِبُ أَنْ». شيء سيئ: «يَجِبُ أَلَّا».",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 1."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "جَيِّدٌ أَمْ سَيِّئٌ؟"
       }
      },
      {
-      "id": "zeroWaste-a1-language-1-say-it",
+      "id": "zeroWaste-a1-ar-language-1-say-it",
       "type": "reflection",
-      "title": "Say It: My Waste",
-      "instructions": "Tell your partner about your waste.",
-      "question": "What do you throw away?",
+      "title": "قُلْهَا: نُفَايَاتِي",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنْ نُفَايَاتِكَ.",
+      "question": "مَاذَا تَرْمِي؟",
       "correctAnswer": null,
-      "explanation": "Use throw away and should not.",
+      "explanation": "استعمل «أَرْمِي» و«يَجِبُ أَلَّا».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“Every day, I throw away …”",
+        "question": "«أَرْمِي …»",
         "mode": "Pair",
-        "example": "Every day, I throw away a juice box."
+        "example": "أَرْمِي الْعُلَبَ."
        },
        {
-        "question": "“I should not waste …”",
+        "question": "«يَجِبُ أَلَّا …»",
         "mode": "Pair",
-        "example": "I should not waste bread."
+        "example": "يَجِبُ أَلَّا نَرْمِيَ الْخُبْزَ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What is waste?",
+     "question": "خَمِّنْ أَوَّلًا: مَا النُّفَايَاتُ؟",
      "options": [
-      "everything we throw away",
-      "only food",
-      "only plastic"
+      "كُلُّ شَيْءٍ نَرْمِيهِ",
+      "الطَّعَامُ فَقَطْ",
+      "الْبِلَاسْتِيكُ فَقَطْ"
      ],
      "answer": 0,
-     "quote": "Everything we throw away becomes waste."
+     "quote": "كُلُّ شَيْءٍ نَرْمِيهِ يُصْبِحُ نُفَايَاتٍ."
     },
     "iCan": [
-     "I can say what waste is.",
-     "I can understand should not.",
-     "I can talk about my waste."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَا النُّفَايَاتُ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «يَجِبُ أَلَّا».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنْ نُفَايَاتِي."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "Paper, Wood and Glass",
-    "content": "Paper and wood come from trees. We can recycle old paper. Then we can make new paper and new boxes. This is good for the world.\n\nWe can also make new things from old wood. For example, old tables and chairs go to recycling centers. There, workers make new things for our homes from them.\n\nWe should put old glass bottles and jars in a recycling bin. Recycling workers take them. They put green, brown and white glass in different groups. Then, they make new bottles and jars.",
+    "title": "الْوَرَقُ وَالْخَشَبُ وَالزُّجَاجُ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch2.jpeg?alt=media&token=b9bef184-e997-4ea1-9e65-06ad47c00164",
+    "content": "يَأْتِي الْوَرَقُ وَالْخَشَبُ مِنَ الْأَشْجَارِ. نَسْتَطِيعُ أَنْ نُعِيدَ تَدْوِيرَ الْوَرَقِ الْقَدِيمِ. ثُمَّ نَصْنَعُ وَرَقًا جَدِيدًا وَعُلَبًا جَدِيدَةً. هَذَا جَيِّدٌ لِلْعَالَمِ.\n\nنَسْتَطِيعُ أَيْضًا أَنْ نَصْنَعَ أَشْيَاءَ جَدِيدَةً مِنَ الْخَشَبِ الْقَدِيمِ. مَثَلًا، تَذْهَبُ الطَّاوِلَاتُ وَالْكَرَاسِيُّ الْقَدِيمَةُ إِلَى مَرَاكِزِ إِعَادَةِ التَّدْوِيرِ. هُنَاكَ، يَصْنَعُ الْعُمَّالُ مِنْهَا أَشْيَاءَ جَدِيدَةً لِبُيُوتِنَا.\n\nيَجِبُ أَنْ نَضَعَ الزُّجَاجَاتِ وَالْمَرْطَبَانَاتِ الزُّجَاجِيَّةَ الْقَدِيمَةَ فِي حَاوِيَةِ إِعَادَةِ التَّدْوِيرِ. يَأْخُذُهَا عُمَّالُ إِعَادَةِ التَّدْوِيرِ. يَضَعُونَ الزُّجَاجَ الْأَخْضَرَ وَالْبُنِّيَّ وَالْأَبْيَضَ فِي مَجْمُوعَاتٍ مُخْتَلِفَةٍ. ثُمَّ يَصْنَعُونَ زُجَاجَاتٍ وَمَرْطَبَانَاتٍ جَدِيدَةً.",
     "vocabulary": [
      {
-      "word": "wood",
-      "definition": "The hard part of a tree."
+      "word": "الْخَشَبُ",
+      "definition": "الْجُزْءُ الصُّلْبُ مِنَ الشَّجَرَةِ."
      },
      {
-      "word": "recycle",
-      "definition": "Make new things from old things."
+      "word": "نُعِيدَ تَدْوِيرَ",
+      "definition": "نَصْنَعَ أَشْيَاءَ جَدِيدَةً مِنْ أَشْيَاءَ قَدِيمَةٍ."
      },
      {
-      "word": "recycling centers",
-      "definition": "Places where workers recycle old things."
+      "word": "مَرَاكِزِ إِعَادَةِ التَّدْوِيرِ",
+      "definition": "أَمَاكِنُ يَصْنَعُ فِيهَا الْعُمَّالُ أَشْيَاءَ جَدِيدَةً مِنْ أَشْيَاءَ قَدِيمَةٍ."
      },
      {
-      "word": "bin",
-      "definition": "A box for waste."
+      "word": "الْعُمَّالُ",
+      "definition": "أَشْخَاصٌ يَعْمَلُونَ."
      },
      {
-      "word": "jars",
-      "definition": "Glass boxes for food, like honey."
+      "word": "حَاوِيَةِ",
+      "definition": "صُنْدُوقٌ لِلنُّفَايَاتِ."
      },
      {
-      "word": "workers",
-      "definition": "People at work."
+      "word": "الْمَرْطَبَانَاتِ",
+      "definition": "عُلَبٌ زُجَاجِيَّةٌ لِلطَّعَامِ، مِثْلُ الْعَسَلِ."
      }
     ],
     "hotspots": [
@@ -224,40 +234,40 @@
       "id": "h2-1",
       "x": 35,
       "y": 46,
-      "title": "Recycle Paper",
-      "description": "We can recycle old paper. Then we can make new paper and new boxes."
+      "title": "أَعِدْ تَدْوِيرَ الْوَرَقِ",
+      "description": "نَسْتَطِيعُ أَنْ نُعِيدَ تَدْوِيرَ الْوَرَقِ الْقَدِيمِ، ثُمَّ نَصْنَعُ وَرَقًا جَدِيدًا وَعُلَبًا جَدِيدَةً."
      },
      {
       "id": "h2-2",
       "x": 68,
       "y": 50,
-      "title": "Glass",
-      "description": "Recycling workers put green, brown and white glass in different groups."
+      "title": "الزُّجَاجُ",
+      "description": "يَضَعُ الْعُمَّالُ الزُّجَاجَ الْأَخْضَرَ وَالْبُنِّيَّ وَالْأَبْيَضَ فِي مَجْمُوعَاتٍ مُخْتَلِفَةٍ."
      }
     ],
     "exercises": [
      {
-      "id": "zeroWaste-a1-quick-2",
+      "id": "zeroWaste-a1-ar-quick-2",
       "type": "sequencing",
-      "title": "Paper, Wood and Glass",
-      "instructions": "Put the steps in order.",
-      "question": "Where does old glass go?",
+      "title": "الزُّجَاجُ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا يَحْدُثُ أَوَّلًا؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "We put old glass bottles in a recycling bin."
+        "text": "نَضَعُ الزُّجَاجَاتِ الْقَدِيمَةَ فِي الْحَاوِيَةِ."
        },
        {
         "id": "2",
-        "text": "Recycling workers take the bottles."
+        "text": "يَأْخُذُهَا الْعُمَّالُ."
        },
        {
         "id": "3",
-        "text": "The workers put green, brown and white glass in different groups."
+        "text": "يَضَعُونَ الزُّجَاجَ فِي مَجْمُوعَاتٍ."
        },
        {
         "id": "4",
-        "text": "The workers make new bottles and jars."
+        "text": "يَصْنَعُونَ زُجَاجَاتٍ جَدِيدَةً."
        }
       ],
       "correctAnswer": [
@@ -266,125 +276,125 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 2: the recycling bin → the workers → three groups → new bottles and jars.",
+      "explanation": "الفصل الثاني: الحاوية ← العمال ← المجموعات ← زجاجات جديدة.",
       "feedback": {
-       "correct": "Great! You know the steps.",
-       "incorrect": "Read the last paragraph of Chapter 2 again."
+       "correct": "أَحْسَنْتَ! رَتَّبْتَ الْخُطُوَاتِ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأَخِيرَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "zeroWaste-a1-language-2-come-from",
+      "id": "zeroWaste-a1-ar-language-2-come-from",
       "type": "multiple-choice",
-      "title": "Look: Come From",
-      "instructions": "Choose the right answer.",
-      "question": "“Paper and wood come from trees.” What does “come from” tell us?",
+      "title": "انْظُرْ: يَأْتِي مِنْ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«يَأْتِي الْوَرَقُ وَالْخَشَبُ مِنَ الْأَشْجَارِ.» مِنْ أَيْنَ يَأْتِي الْوَرَقُ؟",
       "options": [
-       "where they start",
-       "when they start",
-       "how much they are"
+       "مِنَ الْأَشْجَارِ",
+       "مِنَ الزُّجَاجِ",
+       "مِنَ الْبَحْرِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Come from + place = where a thing starts.",
+      "explanation": "«يَأْتِي … مِنْ …» تقول من أين الشيء: مِنَ الْأَشْجَارِ.",
       "feedback": {
-       "correct": "Yes. They start in trees.",
-       "incorrect": "Read the first sentence of Chapter 2."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "انْظُرْ بَعْدَ «مِنْ»."
       }
      },
      {
-      "id": "zeroWaste-a1-language-2-practise",
+      "id": "zeroWaste-a1-ar-language-2-practise",
       "type": "word-bank",
-      "title": "Practise: Old Things, New Things",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What can we make?",
-      "fillBlanksText": "We can recycle old [blank]. Old tables and [blank] go to recycling centers. We should put old glass bottles and jars in a recycling [blank].",
+      "title": "تَدَرَّبْ: مِنْ أَيْنَ؟",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "مِنْ أَيْنَ تَأْتِي الْأَشْيَاءُ؟",
+      "fillBlanksText": "يَأْتِي الْوَرَقُ مِنَ [blank]. نَصْنَعُ أَشْيَاءَ جَدِيدَةً مِنَ [blank] الْقَدِيمِ. نَصْنَعُ زُجَاجَاتٍ جَدِيدَةً مِنَ [blank] الْقَدِيمِ.",
       "wordBank": [
-       "paper",
-       "chairs",
-       "bin",
-       "trees",
-       "sea"
+       "الْأَشْجَارِ",
+       "الْخَشَبِ",
+       "الزُّجَاجِ",
+       "الْمَاءِ"
       ],
       "correctAnswer": [
-       "paper",
-       "chairs",
-       "bin"
+       "الْأَشْجَارِ",
+       "الْخَشَبِ",
+       "الزُّجَاجِ"
       ],
-      "explanation": "Recycle old paper. Tables and chairs go to recycling centers. Glass goes in a recycling bin.",
+      "explanation": "الورق من الأشجار. ونصنع أشياء جديدة من الخشب القديم، وزجاجات جديدة من الزجاج القديم.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 2 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "zeroWaste-a1-language-2-say-it",
+      "id": "zeroWaste-a1-ar-language-2-say-it",
       "type": "reflection",
-      "title": "Say It: Where Does It Go?",
-      "instructions": "Tell your partner where things go.",
-      "question": "Where should we put old things?",
+      "title": "قُلْهَا: فِي صَفِّي",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنْ أَشْيَاءَ فِي صَفِّكَ.",
+      "question": "مِنْ أَيْنَ يَأْتِي؟",
       "correctAnswer": null,
-      "explanation": "Use should put … in and come from.",
+      "explanation": "استعمل «يَأْتِي … مِنْ».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“We should put old paper in …”",
+        "question": "«يَأْتِي … مِنَ الْأَشْجَارِ.»",
         "mode": "Pair",
-        "example": "We should put old paper in a recycling bin."
+        "example": "يَأْتِي دَفْتَرِي مِنَ الْأَشْجَارِ."
        },
        {
-        "question": "“… come from trees.”",
+        "question": "«نَسْتَطِيعُ أَنْ نُعِيدَ تَدْوِيرَ …»",
         "mode": "Pair",
-        "example": "Books come from trees."
+        "example": "نَسْتَطِيعُ أَنْ نُعِيدَ تَدْوِيرَ الْوَرَقِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Where do paper and wood come from?",
+     "question": "خَمِّنْ أَوَّلًا: مِنْ أَيْنَ يَأْتِي الْوَرَقُ؟",
      "options": [
-      "trees",
-      "the sea",
-      "factories"
+      "مِنَ الْأَشْجَارِ",
+      "مِنَ الْبَحْرِ",
+      "مِنَ الزُّجَاجِ"
      ],
      "answer": 0,
-     "quote": "Paper and wood come from trees."
+     "quote": "يَأْتِي الْوَرَقُ وَالْخَشَبُ مِنَ الْأَشْجَارِ."
     },
     "iCan": [
-     "I can tell how we recycle paper, wood and glass.",
-     "I can understand come from.",
-     "I can say where old things go."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَا نَصْنَعُ مِنَ الْوَرَقِ وَالزُّجَاجِ الْقَدِيمِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «يَأْتِي … مِنْ».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنْ أَشْيَاءَ فِي صَفِّي."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "Plastic and the Sea",
-    "content": "Plastic is in many things. Bags, bottles, pens, and phones all have plastic in them.\n\nIn 2019, there were about 350 million tons of plastic waste in the world. People recycled only 9 percent of it, and they put half of it under the ground. They also threw a lot of it into rivers and the sea. Plastic in water is a big problem. Fish and birds eat it, and they get sick. Plastic also makes the water dirty. We should put plastic in the bin. We should not throw it on the ground or into rivers and the sea.",
+    "title": "الْبِلَاسْتِيكُ وَالْبَحْرُ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch3.jpeg?alt=media&token=117d3bca-7bb7-44b8-90cc-caa71b90da17",
+    "content": "الْبِلَاسْتِيكُ فِي أَشْيَاءَ كَثِيرَةٍ. الْأَكْيَاسُ وَالزُّجَاجَاتُ وَالْأَقْلَامُ وَالْهَوَاتِفُ كُلُّهَا فِيهَا بِلَاسْتِيكٌ.\n\nفِي عَامِ ٢٠١٩، كَانَ فِي الْعَالَمِ نَحْوُ ٣٥٠ مِلْيُونَ طُنٍّ مِنَ النُّفَايَاتِ الْبِلَاسْتِيكِيَّةِ. أَعَادَ النَّاسُ تَدْوِيرَ ٩ فِي الْمِائَةِ فَقَطْ مِنْهَا، وَوَضَعُوا نِصْفَهَا تَحْتَ الْأَرْضِ. وَرَمَوْا أَيْضًا كَثِيرًا مِنْهَا فِي الْأَنْهَارِ وَالْبَحْرِ. الْبِلَاسْتِيكُ فِي الْمَاءِ مُشْكِلَةٌ كَبِيرَةٌ. تَأْكُلُهُ الْأَسْمَاكُ وَالطُّيُورُ، فَتَمْرَضُ. وَالْبِلَاسْتِيكُ يَجْعَلُ الْمَاءَ قَذِرًا أَيْضًا. يَجِبُ أَنْ نَضَعَ الْبِلَاسْتِيكَ فِي الْحَاوِيَةِ. وَيَجِبُ أَلَّا نَرْمِيَهُ عَلَى الْأَرْضِ أَوْ فِي الْأَنْهَارِ وَالْبَحْرِ.",
     "vocabulary": [
      {
-      "word": "plastic",
-      "definition": "A light, strong material for bags and bottles."
+      "word": "الْبِلَاسْتِيكُ",
+      "definition": "مَادَّةٌ خَفِيفَةٌ وَقَوِيَّةٌ لِلْأَكْيَاسِ وَالزُّجَاجَاتِ."
      },
      {
-      "word": "million",
-      "definition": "1,000,000."
+      "word": "مِلْيُونَ",
+      "definition": "١٬٠٠٠٬٠٠٠."
      },
      {
-      "word": "percent",
-      "definition": "A part of 100; 50 percent is half."
+      "word": "فِي الْمِائَةِ",
+      "definition": "جُزْءٌ مِنْ ١٠٠. خَمْسُونَ فِي الْمِائَةِ هِيَ النِّصْفُ."
      },
      {
-      "word": "ground",
-      "definition": "The earth under our feet."
+      "word": "الْأَرْضِ",
+      "definition": "التُّرَابُ تَحْتَ أَقْدَامِنَا."
      },
      {
-      "word": "sick",
-      "definition": "Not well; ill."
+      "word": "فَتَمْرَضُ",
+      "definition": "تَصِيرُ مَرِيضَةً."
      }
     ],
     "hotspots": [
@@ -392,201 +402,200 @@
       "id": "h3-1",
       "x": 35,
       "y": 46,
-      "title": "Plastic Everywhere",
-      "description": "Bags, bottles, pens, and phones all have plastic in them."
+      "title": "الْبِلَاسْتِيكُ فِي كُلِّ مَكَانٍ",
+      "description": "الْأَكْيَاسُ وَالزُّجَاجَاتُ وَالْأَقْلَامُ وَالْهَوَاتِفُ كُلُّهَا فِيهَا بِلَاسْتِيكٌ."
      },
      {
       "id": "h3-2",
       "x": 68,
       "y": 50,
-      "title": "Rivers and the Sea",
-      "description": "Fish and birds eat plastic, and they get sick. Plastic also makes the water dirty."
+      "title": "الْأَنْهَارُ وَالْبَحْرُ",
+      "description": "تَأْكُلُ الْأَسْمَاكُ وَالطُّيُورُ الْبِلَاسْتِيكَ، فَتَمْرَضُ."
      }
     ],
     "exercises": [
      {
-      "id": "zeroWaste-a1-quick-3",
+      "id": "zeroWaste-a1-ar-quick-3",
       "type": "drag-drop",
-      "title": "Plastic and the Sea",
-      "instructions": "Put each sentence in the right group.",
-      "question": "Where did the plastic go?",
+      "title": "الْبِلَاسْتِيكُ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "صَحِيحٌ أَمْ خَطَأٌ؟",
       "dragDropGroups": [
        {
-        "group": "People did this",
+        "group": "صَحِيحٌ",
         "items": [
-         "They recycled 9 percent of it.",
-         "They put half of it under the ground.",
-         "They threw a lot of it into rivers and the sea."
+         "أَعَادَ النَّاسُ تَدْوِيرَ ٩ فِي الْمِائَةِ فَقَطْ.",
+         "تَأْكُلُ الْأَسْمَاكُ الْبِلَاسْتِيكَ، فَتَمْرَضُ."
         ]
        },
        {
-        "group": "Plastic does this",
+        "group": "خَطَأٌ",
         "items": [
-         "It makes the water dirty."
+         "الْبِلَاسْتِيكُ يَجْعَلُ الْمَاءَ نَظِيفًا."
         ]
        }
       ],
       "correctAnswer": {
-       "People did this": [
-        "They recycled 9 percent of it.",
-        "They put half of it under the ground.",
-        "They threw a lot of it into rivers and the sea."
+       "صَحِيحٌ": [
+        "أَعَادَ النَّاسُ تَدْوِيرَ ٩ فِي الْمِائَةِ فَقَطْ.",
+        "تَأْكُلُ الْأَسْمَاكُ الْبِلَاسْتِيكَ، فَتَمْرَضُ."
        ],
-       "Plastic does this": [
-        "It makes the water dirty."
+       "خَطَأٌ": [
+        "الْبِلَاسْتِيكُ يَجْعَلُ الْمَاءَ نَظِيفًا."
        ]
       },
-      "explanation": "Chapter 3: “People recycled only 9 percent of it, and they put half of it under the ground. They also threw a lot of it into rivers and the sea.” “Plastic also makes the water dirty.”",
+      "explanation": "الفصل الثالث: «أَعَادَ النَّاسُ تَدْوِيرَ ٩ فِي الْمِائَةِ فَقَطْ مِنْهَا»، و«الْبِلَاسْتِيكُ يَجْعَلُ الْمَاءَ قَذِرًا».",
       "feedback": {
-       "correct": "Yes! You know where the plastic went.",
-       "incorrect": "Read the second paragraph of Chapter 3 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "zeroWaste-a1-language-3-half",
+      "id": "zeroWaste-a1-ar-language-3-half",
       "type": "multiple-choice",
-      "title": "Look: Percent and Half",
-      "instructions": "Choose the right answer.",
-      "question": "“People recycled only 9 percent of it, and they put half of it under the ground.” How much is half?",
+      "title": "انْظُرْ: وَضَعُوا نِصْفَهَا",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«وَوَضَعُوا نِصْفَهَا تَحْتَ الْأَرْضِ.» كَمْ وَضَعُوا تَحْتَ الْأَرْضِ؟",
       "options": [
-       "50 percent",
-       "9 percent",
-       "100 percent"
+       "٥٠ فِي الْمِائَةِ",
+       "٩ فِي الْمِائَةِ",
+       "كُلَّهَا"
       ],
       "correctAnswer": 0,
-      "explanation": "Half = 50 percent. All = 100 percent.",
+      "explanation": "«نِصْف» = ٥٠ في المائة. و«وَضَعُوا»: فعل في الماضي، لـ«هُمْ» (الناس) نزيد «ـوا».",
       "feedback": {
-       "correct": "Yes. Half is 50 percent.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "نِصْفٌ = ٥٠ مِنْ ١٠٠."
       }
      },
      {
-      "id": "zeroWaste-a1-language-3-practise",
+      "id": "zeroWaste-a1-ar-language-3-practise",
       "type": "choose-form",
-      "title": "Practise: Recycled, Put, Threw",
-      "instructions": "Choose the right form.",
-      "question": "Which form tells the past?",
+      "title": "تَدَرَّبْ: هُوَ أَمْ هُمْ؟",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "وَاحِدٌ أَمْ أَكْثَرُ؟",
       "formChoices": [
        {
-        "sentence": "In 2019, people [choice] only 9 percent of it.",
+        "sentence": "النَّاسُ [choice] نِصْفَهَا تَحْتَ الْأَرْضِ.",
         "options": [
-         "recycled",
-         "recycle"
+         "وَضَعُوا",
+         "وَضَعَ"
         ],
         "answer": 0
        },
        {
-        "sentence": "People [choice] a lot of it into rivers and the sea.",
+        "sentence": "وَ[choice] كَثِيرًا مِنْهَا فِي الْأَنْهَارِ.",
         "options": [
-         "threw",
-         "throw"
+         "رَمَوْا",
+         "رَمَى"
         ],
         "answer": 0
        },
        {
-        "sentence": "In 2019, there [choice] about 350 million tons of plastic waste.",
+        "sentence": "النَّاسُ [choice] تَدْوِيرَ ٩ فِي الْمِائَةِ.",
         "options": [
-         "were",
-         "are"
+         "أَعَادَ",
+         "أَعَادُوا"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Recycle → recycled. Throw → threw. There are → there were in the past.",
+      "explanation": "إذا جاء الفعل قبل «النَّاسُ» يبقى مفردًا: أَعَادَ النَّاسُ. وبعد «النَّاسُ» نزيد «ـوا»: النَّاسُ وَضَعُوا.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "أَيْنَ «النَّاسُ»: قَبْلَ الْفِعْلِ أَمْ بَعْدَهُ؟"
       }
      },
      {
-      "id": "zeroWaste-a1-language-3-write-it",
+      "id": "zeroWaste-a1-ar-language-3-write-it",
       "type": "reflection",
-      "title": "Write It: Clean Water",
-      "instructions": "Write two sentences about clean water.",
-      "question": "What shouldn’t we do?",
+      "title": "اكْتُبْهَا: الْبَحْرُ",
+      "instructions": "اكْتُبْ جُمْلَتَيْنِ عَنِ الْبِلَاسْتِيكِ وَالْبَحْرِ.",
+      "question": "مَاذَا نَفْعَلُ؟",
       "correctAnswer": null,
-      "explanation": "Use shouldn’t + verb.",
+      "explanation": "استعمل «يَجِبُ أَنْ» و«يَجِبُ أَلَّا».",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“We shouldn’t throw …”",
+        "question": "«يَجِبُ أَنْ نَضَعَ …»",
         "mode": "Individual",
-        "example": "We shouldn’t throw plastic into rivers."
+        "example": "يَجِبُ أَنْ نَضَعَ الْبِلَاسْتِيكَ فِي الْحَاوِيَةِ."
        },
        {
-        "question": "“Fish and birds need …”",
+        "question": "«يَجِبُ أَلَّا نَرْمِيَ …»",
         "mode": "Individual",
-        "example": "Fish and birds need clean water."
+        "example": "يَجِبُ أَلَّا نَرْمِيَ الْأَكْيَاسَ فِي الْبَحْرِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: How much plastic did people recycle?",
+     "question": "خَمِّنْ أَوَّلًا: كَمْ أَعَادَ النَّاسُ تَدْوِيرَهُ مِنَ الْبِلَاسْتِيكِ؟",
      "options": [
-      "only 9 percent",
-      "all of it",
-      "half of it"
+      "٩ فِي الْمِائَةِ فَقَطْ",
+      "نِصْفَهُ",
+      "كُلَّهُ"
      ],
      "answer": 0,
-     "quote": "People recycled only 9 percent of it, and they put half of it under the ground."
+     "quote": "أَعَادَ النَّاسُ تَدْوِيرَ ٩ فِي الْمِائَةِ فَقَطْ مِنْهَا"
     },
     "iCan": [
-     "I can tell why plastic is a big problem.",
-     "I can understand percent and half.",
-     "I can write about clean water."
+     "أَسْتَطِيعُ أَنْ أَقُولَ لِمَاذَا الْبِلَاسْتِيكُ فِي الْمَاءِ مُشْكِلَةٌ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «وَضَعُوا نِصْفَهَا».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنِ الْبَحْرِ."
     ],
     "groupTask": {
      "type": "project",
-     "title": "Plastic in My Bag",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "الْبِلَاسْتِيكُ فِي حَقِيبَتِي",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "Each student looks in their school bag. The group makes a list of plastic things.",
-      "The group puts the list in two columns: “I can use it again” and “I throw it away”.",
-      "The group writes one sentence: “We shouldn’t throw … into rivers and the sea.”",
-      "The group shows the list to the class."
+      "يَنْظُرُ كُلُّ طَالِبٍ فِي حَقِيبَتِهِ. تَكْتُبُ الْمَجْمُوعَةُ قَائِمَةً بِأَشْيَاءِ الْبِلَاسْتِيكِ.",
+      "تَضَعُ الْمَجْمُوعَةُ الْقَائِمَةَ فِي عَمُودَيْنِ: «أَسْتَخْدِمُهُ مَرَّةً أُخْرَى» وَ«أَرْمِيهِ».",
+      "تَكْتُبُ الْمَجْمُوعَةُ جُمْلَةً وَاحِدَةً: «يَجِبُ أَلَّا نَرْمِيَ … فِي الْأَنْهَارِ وَالْبَحْرِ».",
+      "تُظْهِرُ الْمَجْمُوعَةُ الْقَائِمَةَ لِلصَّفِّ."
      ],
-     "share": "One student reads the sentence. Story: “Plastic in water is a big problem.”",
-     "solo": "Make a list of three plastic things. Write one shouldn’t sentence."
+     "share": "يَقْرَأُ طَالِبٌ الْجُمْلَةَ. مِنَ الْفَصْلِ: «الْبِلَاسْتِيكُ فِي الْمَاءِ مُشْكِلَةٌ كَبِيرَةٌ».",
+     "solo": "اكْتُبْ ثَلَاثَةَ أَشْيَاءَ مِنَ الْبِلَاسْتِيكِ، وَجُمْلَةً بِـ«يَجِبُ أَلَّا»."
     }
    },
    {
     "id": 4,
     "type": "story",
-    "title": "Cartons, Cans and Oil",
-    "content": "Juice and milk boxes have paper and plastic in them. Workers at recycling centers take the paper and plastic apart. Then, they make new things.\n\nDrink cans are metal. They are not waste, either. Workers melt old metal and make new things from it.\n\nAnother problem is cooking oil. After we cook food, we have old oil. It is waste, too. We must not put it into the sink because it makes the water dirty.",
+    "title": "الْعُلَبُ الْكَرْتُونِيَّةُ وَالْعُلَبُ الْمَعْدِنِيَّةُ وَالزَّيْتُ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch4.jpeg?alt=media&token=52918cdf-7d16-465c-81a2-923b1802aa2f",
+    "content": "فِي عُلَبِ الْعَصِيرِ وَالْحَلِيبِ وَرَقٌ وَبِلَاسْتِيكٌ. يَفْصِلُ الْعُمَّالُ فِي مَرَاكِزِ إِعَادَةِ التَّدْوِيرِ الْوَرَقَ عَنِ الْبِلَاسْتِيكِ. ثُمَّ يَصْنَعُونَ أَشْيَاءَ جَدِيدَةً.\n\nعُلَبُ الْمَشْرُوبَاتِ مِنَ الْمَعْدِنِ. وَهِيَ لَيْسَتْ نُفَايَاتٍ أَيْضًا. يُذِيبُ الْعُمَّالُ الْمَعْدِنَ الْقَدِيمَ وَيَصْنَعُونَ مِنْهُ أَشْيَاءَ جَدِيدَةً.\n\nوَمُشْكِلَةٌ أُخْرَى هِيَ زَيْتُ الطَّبْخِ. بَعْدَ أَنْ نَطْبُخَ الطَّعَامَ، يَبْقَى عِنْدَنَا زَيْتٌ قَدِيمٌ. وَهُوَ نُفَايَاتٌ أَيْضًا. يَجِبُ أَلَّا نَصُبَّهُ فِي الْمَغْسَلَةِ لِأَنَّهُ يَجْعَلُ الْمَاءَ قَذِرًا.",
     "vocabulary": [
      {
-      "word": "take apart",
-      "definition": "Put the parts of a thing in different groups."
+      "word": "يَفْصِلُ",
+      "definition": "يَجْعَلُ الْأَشْيَاءَ لَيْسَتْ مَعًا."
      },
      {
-      "word": "cans",
-      "definition": "Metal boxes for drinks or food."
+      "word": "عُلَبُ الْمَشْرُوبَاتِ",
+      "definition": "عُلَبٌ مِنَ الْمَعْدِنِ لِلْمَشْرُوبَاتِ."
      },
      {
-      "word": "metal",
-      "definition": "A hard material, like iron."
+      "word": "الْمَعْدِنِ",
+      "definition": "مَادَّةٌ صُلْبَةٌ، مِثْلُ الْحَدِيدِ."
      },
      {
-      "word": "melt",
-      "definition": "Make something very hot until it becomes soft."
+      "word": "يُذِيبُ",
+      "definition": "يَجْعَلُ شَيْئًا سَاخِنًا جِدًّا حَتَّى يَصِيرَ لَيِّنًا."
      },
      {
-      "word": "oil",
-      "definition": "A liquid from plants for cooking."
+      "word": "زَيْتُ الطَّبْخِ",
+      "definition": "سَائِلٌ مِنَ النَّبَاتَاتِ لِلطَّبْخِ."
      },
      {
-      "word": "sink",
-      "definition": "The place in the kitchen where we wash things."
+      "word": "الْمَغْسَلَةِ",
+      "definition": "مَكَانٌ فِي الْمَطْبَخِ نَغْسِلُ فِيهِ الْأَشْيَاءَ."
      }
     ],
     "hotspots": [
@@ -594,151 +603,150 @@
       "id": "h4-1",
       "x": 35,
       "y": 46,
-      "title": "Juice and Milk Boxes",
-      "description": "Juice and milk boxes have paper and plastic in them. Workers take the paper and plastic apart."
+      "title": "عُلَبُ الْعَصِيرِ وَالْحَلِيبِ",
+      "description": "فِي عُلَبِ الْعَصِيرِ وَالْحَلِيبِ وَرَقٌ وَبِلَاسْتِيكٌ. يَفْصِلُ الْعُمَّالُ الْوَرَقَ عَنِ الْبِلَاسْتِيكِ."
      },
      {
       "id": "h4-2",
       "x": 68,
       "y": 50,
-      "title": "Cooking Oil",
-      "description": "After we cook food, we have old oil. We must not put it into the sink."
+      "title": "زَيْتُ الطَّبْخِ",
+      "description": "يَجِبُ أَلَّا نَصُبَّ الزَّيْتَ الْقَدِيمَ فِي الْمَغْسَلَةِ، لِأَنَّهُ يَجْعَلُ الْمَاءَ قَذِرًا."
      }
     ],
     "exercises": [
      {
-      "id": "zeroWaste-a1-quick-4",
+      "id": "zeroWaste-a1-ar-quick-4",
       "type": "drag-drop",
-      "title": "Cartons, Cans and Oil",
-      "instructions": "Put each thing in the right group.",
-      "question": "What is in it?",
+      "title": "الْعُلَبُ وَالزَّيْتُ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "صَحِيحٌ أَمْ خَطَأٌ؟",
       "dragDropGroups": [
        {
-        "group": "Paper and plastic",
+        "group": "صَحِيحٌ",
         "items": [
-         "a milk box",
-         "a juice box"
+         "عُلَبُ الْمَشْرُوبَاتِ مِنَ الْمَعْدِنِ.",
+         "يُذِيبُ الْعُمَّالُ الْمَعْدِنَ الْقَدِيمَ."
         ]
        },
        {
-        "group": "Metal",
+        "group": "خَطَأٌ",
         "items": [
-         "a drink can"
+         "نَصُبُّ الزَّيْتَ الْقَدِيمَ فِي الْمَغْسَلَةِ."
         ]
        }
       ],
       "correctAnswer": {
-       "Paper and plastic": [
-        "a milk box",
-        "a juice box"
+       "صَحِيحٌ": [
+        "عُلَبُ الْمَشْرُوبَاتِ مِنَ الْمَعْدِنِ.",
+        "يُذِيبُ الْعُمَّالُ الْمَعْدِنَ الْقَدِيمَ."
        ],
-       "Metal": [
-        "a drink can"
+       "خَطَأٌ": [
+        "نَصُبُّ الزَّيْتَ الْقَدِيمَ فِي الْمَغْسَلَةِ."
        ]
       },
-      "explanation": "Chapter 4: “Juice and milk boxes have paper and plastic in them.” “Drink cans are metal.”",
+      "explanation": "الفصل الرابع: «عُلَبُ الْمَشْرُوبَاتِ مِنَ الْمَعْدِنِ»، و«يَجِبُ أَلَّا نَصُبَّهُ فِي الْمَغْسَلَةِ».",
       "feedback": {
-       "correct": "Yes! Cans are metal.",
-       "incorrect": "Read the first two paragraphs of Chapter 4."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأَخِيرَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "zeroWaste-a1-language-4-mustnt",
+      "id": "zeroWaste-a1-ar-language-4-mustnt",
       "type": "multiple-choice",
-      "title": "Look: Must Not",
-      "instructions": "Choose the right answer.",
-      "question": "“We must not put it into the sink because it makes the water dirty.” What does “must not” mean?",
+      "title": "انْظُرْ: لِأَنَّهُ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«يَجِبُ أَلَّا نَصُبَّهُ فِي الْمَغْسَلَةِ لِأَنَّهُ يَجْعَلُ الْمَاءَ قَذِرًا.» لِمَاذَا؟",
       "options": [
-       "Do not do it. It is a rule.",
-       "It is good to do it.",
-       "You can do it."
+       "لِأَنَّ الزَّيْتَ يَجْعَلُ الْمَاءَ قَذِرًا",
+       "لِأَنَّ الْمَغْسَلَةَ صَغِيرَةٌ",
+       "لِأَنَّ الزَّيْتَ جَدِيدٌ"
       ],
       "correctAnswer": 0,
-      "explanation": "Must not + verb = do not do it. It is very important.",
+      "explanation": "«لِأَنَّ» تقول السبب. «لِأَنَّهُ» = لأنّ + هو (الزيت).",
       "feedback": {
-       "correct": "Yes. Do not do it.",
-       "incorrect": "Read the last paragraph of Chapter 4."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "انْظُرْ بَعْدَ «لِأَنَّهُ»."
       }
      },
      {
-      "id": "zeroWaste-a1-language-4-practise",
+      "id": "zeroWaste-a1-ar-language-4-practise",
       "type": "word-bank",
-      "title": "Practise: At the Recycling Center",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What do the workers do?",
-      "fillBlanksText": "Workers at recycling centers take the paper and plastic [blank]. Then, they make new [blank]. Workers [blank] old metal.",
+      "title": "تَدَرَّبْ: يَجِبُ أَلَّا … لِأَنَّ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "أَيُّ كَلِمَةٍ؟",
+      "fillBlanksText": "يَجِبُ [blank] نَصُبَّ الزَّيْتَ فِي الْمَغْسَلَةِ [blank] يَجْعَلُ الْمَاءَ قَذِرًا.",
       "wordBank": [
-       "apart",
-       "things",
-       "melt",
-       "sink",
-       "drink"
+       "أَلَّا",
+       "لِأَنَّهُ",
+       "أَنْ",
+       "ثُمَّ"
       ],
       "correctAnswer": [
-       "apart",
-       "things",
-       "melt"
+       "أَلَّا",
+       "لِأَنَّهُ"
       ],
-      "explanation": "Take apart = put the parts in different groups. Melt = make very hot until soft.",
+      "explanation": "«يَجِبُ أَلَّا» = لا تفعل. «لِأَنَّهُ» = السبب.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the first two paragraphs of Chapter 4."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأَخِيرَةَ."
       }
      },
      {
-      "id": "zeroWaste-a1-language-4-say-it",
+      "id": "zeroWaste-a1-ar-language-4-say-it",
       "type": "reflection",
-      "title": "Say It: Kitchen Rules",
-      "instructions": "Say kitchen rules with your partner.",
-      "question": "What must not we do in the kitchen?",
+      "title": "قُلْهَا: فِي الْمَطْبَخِ",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنِ الْمَطْبَخِ.",
+      "question": "مَاذَا لَا نَفْعَلُ؟ لِمَاذَا؟",
       "correctAnswer": null,
-      "explanation": "Use must not + verb.",
+      "explanation": "استعمل «يَجِبُ أَلَّا» و«لِأَنَّ».",
       "feedback": {
-       "correct": "Say two rules.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“We must not put … into the sink.”",
+        "question": "«يَجِبُ أَلَّا …»",
         "mode": "Pair",
-        "example": "We must not put oil into the sink."
+        "example": "يَجِبُ أَلَّا نَصُبَّ الزَّيْتَ فِي الْمَغْسَلَةِ."
        },
        {
-        "question": "“Cans are not waste. We can …”",
+        "question": "«… لِأَنَّهُ …»",
         "mode": "Pair",
-        "example": "Cans are not waste. We can recycle them."
+        "example": "لِأَنَّهُ يَجْعَلُ الْمَاءَ قَذِرًا."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What are drink cans?",
+     "question": "خَمِّنْ أَوَّلًا: مِمَّ عُلَبُ الْمَشْرُوبَاتِ؟",
      "options": [
-      "metal",
-      "paper",
-      "glass"
+      "مِنَ الْمَعْدِنِ",
+      "مِنَ الْخَشَبِ",
+      "مِنَ الزُّجَاجِ"
      ],
      "answer": 0,
-     "quote": "Drink cans are metal."
+     "quote": "عُلَبُ الْمَشْرُوبَاتِ مِنَ الْمَعْدِنِ."
     },
     "iCan": [
-     "I can tell about cartons, cans and oil.",
-     "I can understand must not.",
-     "I can say kitchen rules."
+     "أَسْتَطِيعُ أَنْ أَقُولَ مَاذَا يَفْعَلُ الْعُمَّالُ بِالْعُلَبِ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «يَجِبُ أَلَّا … لِأَنَّ».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنِ الْمَطْبَخِ."
     ]
    },
    {
     "id": 5,
     "type": "story",
-    "title": "Food Waste",
-    "content": "A lot of food goes to waste. We throw away food at home, in restaurants, and in shops. Where is the biggest problem? It is at home! About 60 percent of all food waste comes from our homes. We buy too much food, and then we cannot finish it.\n\nWe should only buy the food we need. Also, we should eat yesterday’s bread first.",
+    "title": "نُفَايَاتُ الطَّعَامِ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch5.jpeg?alt=media&token=90699982-cbc6-4da8-bc4b-530dcf2b49c0",
+    "content": "كَثِيرٌ مِنَ الطَّعَامِ يَضِيعُ. نَرْمِي الطَّعَامَ فِي الْبَيْتِ وَفِي الْمَطَاعِمِ وَفِي الْمَتَاجِرِ. أَيْنَ الْمُشْكِلَةُ الْكُبْرَى؟ إِنَّهَا فِي الْبَيْتِ! نَحْوُ ٦٠ فِي الْمِائَةِ مِنْ كُلِّ نُفَايَاتِ الطَّعَامِ تَأْتِي مِنْ بُيُوتِنَا. نَشْتَرِي طَعَامًا كَثِيرًا جِدًّا، ثُمَّ لَا نَسْتَطِيعُ أَنْ نُنْهِيَهُ.\n\nيَجِبُ أَنْ نَشْتَرِيَ الطَّعَامَ الَّذِي نَحْتَاجُ إِلَيْهِ فَقَطْ. وَيَجِبُ أَيْضًا أَنْ نَأْكُلَ خُبْزَ الْأَمْسِ أَوَّلًا.",
     "vocabulary": [
      {
-      "word": "goes to waste",
-      "definition": "Is not used; goes into the bin."
+      "word": "يَضِيعُ",
+      "definition": "لَا نَسْتَخْدِمُهُ؛ يَذْهَبُ إِلَى الْحَاوِيَةِ."
      }
     ],
     "hotspots": [
@@ -746,163 +754,164 @@
       "id": "h5-1",
       "x": 35,
       "y": 46,
-      "title": "At Home",
-      "description": "About 60 percent of all food waste comes from our homes."
+      "title": "فِي الْبَيْتِ",
+      "description": "نَحْوُ ٦٠ فِي الْمِائَةِ مِنْ كُلِّ نُفَايَاتِ الطَّعَامِ تَأْتِي مِنْ بُيُوتِنَا."
      },
      {
       "id": "h5-2",
       "x": 68,
       "y": 50,
-      "title": "Buy What We Need",
-      "description": "We should only buy the food we need."
+      "title": "نَشْتَرِي مَا نَحْتَاجُ إِلَيْهِ",
+      "description": "يَجِبُ أَنْ نَشْتَرِيَ الطَّعَامَ الَّذِي نَحْتَاجُ إِلَيْهِ فَقَطْ."
      }
     ],
     "exercises": [
      {
-      "id": "zeroWaste-a1-quick-5",
+      "id": "zeroWaste-a1-ar-quick-5",
       "type": "multiple-choice",
-      "title": "Food Waste",
-      "instructions": "Choose the best answer.",
-      "question": "Why do we waste food at home?",
+      "title": "أَيْنَ الْمُشْكِلَةُ؟",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "أَيْنَ الْمُشْكِلَةُ الْكُبْرَى؟",
       "options": [
-       "We buy too much food.",
-       "We buy too little food.",
-       "We cook in restaurants."
+       "فِي الْبَيْتِ",
+       "فِي الْمَطَاعِمِ",
+       "فِي الْمَتَاجِرِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “We buy too much food, and then we cannot finish it.”",
+      "explanation": "الفصل الخامس: «أَيْنَ الْمُشْكِلَةُ الْكُبْرَى؟ إِنَّهَا فِي الْبَيْتِ!»",
       "feedback": {
-       "correct": "Yes! We buy too much.",
-       "incorrect": "Read the first paragraph of Chapter 5 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "zeroWaste-a1-language-5-biggest",
+      "id": "zeroWaste-a1-ar-language-5-biggest",
       "type": "multiple-choice",
-      "title": "Look: The Biggest",
-      "instructions": "Choose the right answer.",
-      "question": "“Where is the biggest problem?” What does “the biggest” mean?",
+      "title": "انْظُرْ: الْكُبْرَى",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«أَيْنَ الْمُشْكِلَةُ الْكُبْرَى؟» مَا مَعْنَى «الْكُبْرَى»؟",
       "options": [
-       "bigger than all the others",
-       "very small",
-       "not a problem"
+       "أَكْبَرُ مِنْ كُلِّ الْمَشَاكِلِ",
+       "صَغِيرَةٌ جِدًّا",
+       "جَدِيدَةٌ"
       ],
       "correctAnswer": 0,
-      "explanation": "Big → bigger → the biggest. The biggest = number one in size.",
+      "explanation": "«الْكُبْرَى» = الأكبر (للمؤنث: الْمُشْكِلَةُ). و«كَثِيرًا جِدًّا» = أكثر مما نحتاج.",
       "feedback": {
-       "correct": "Yes. Bigger than all the others.",
-       "incorrect": "Read the first paragraph of Chapter 5."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "أَكْبَرُ أَمْ أَصْغَرُ؟"
       }
      },
      {
-      "id": "zeroWaste-a1-language-5-practise",
+      "id": "zeroWaste-a1-ar-language-5-practise",
       "type": "choose-form",
-      "title": "Practise: Should, Too Much",
-      "instructions": "Choose the right words.",
-      "question": "Which words go in the gap?",
+      "title": "تَدَرَّبْ: كَثِيرٌ، جِدًّا، فَقَطْ",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةٍ؟",
       "formChoices": [
        {
-        "sentence": "We buy [choice] food, and then we cannot finish it.",
+        "sentence": "نَشْتَرِي طَعَامًا كَثِيرًا [choice].",
         "options": [
-         "too much",
-         "too many"
+         "جِدًّا",
+         "فَقَطْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "We [choice] only buy the food we need.",
+        "sentence": "يَجِبُ أَنْ نَشْتَرِيَ مَا نَحْتَاجُ إِلَيْهِ [choice].",
         "options": [
-         "should",
-         "shouldn’t"
+         "فَقَطْ",
+         "جِدًّا"
         ],
         "answer": 0
        },
        {
-        "sentence": "Also, we should eat [choice]’s bread first.",
+        "sentence": "[choice] مِنَ الطَّعَامِ يَضِيعُ.",
         "options": [
-         "yesterday",
-         "tomorrow"
+         "كَثِيرٌ",
+         "قَلِيلٌ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Too much + food, water, money. Should = it is good to do it.",
+      "explanation": "«كَثِيرًا جِدًّا» = أكثر من اللازم. «فَقَطْ» = لا أكثر.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 5 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
       }
      },
      {
-      "id": "zeroWaste-a1-language-5-write-it",
+      "id": "zeroWaste-a1-ar-language-5-write-it",
       "type": "reflection",
-      "title": "Write It: My Shopping List",
-      "instructions": "Write a short, smart shopping list.",
-      "question": "What do you need?",
+      "title": "اكْتُبْهَا: طَعَامُنَا",
+      "instructions": "اكْتُبْ جُمْلَتَيْنِ عَنِ الطَّعَامِ فِي بَيْتِكَ.",
+      "question": "كَيْفَ لَا نُضَيِّعُ الطَّعَامَ؟",
       "correctAnswer": null,
-      "explanation": "Use need and should.",
+      "explanation": "استعمل «فَقَطْ» و«أَوَّلًا».",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“We need …”",
+        "question": "«نَشْتَرِي … فَقَطْ.»",
         "mode": "Individual",
-        "example": "We need bread, milk and apples."
+        "example": "نَشْتَرِي الْخُبْزَ الَّذِي نَحْتَاجُ إِلَيْهِ فَقَطْ."
        },
        {
-        "question": "“We should eat … first.”",
+        "question": "«نَأْكُلُ … أَوَّلًا.»",
         "mode": "Individual",
-        "example": "We should eat the old apples first."
+        "example": "نَأْكُلُ الْفَوَاكِهَ الْقَدِيمَةَ أَوَّلًا."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Where is the biggest food waste problem?",
+     "question": "خَمِّنْ أَوَّلًا: مِنْ أَيْنَ يَأْتِي أَكْثَرُ نُفَايَاتِ الطَّعَامِ؟",
      "options": [
-      "at home",
-      "in shops",
-      "in restaurants"
+      "مِنْ بُيُوتِنَا",
+      "مِنَ الْمَطَاعِمِ",
+      "مِنَ الْمَتَاجِرِ"
      ],
      "answer": 0,
-     "quote": "It is at home!"
+     "quote": "تَأْتِي مِنْ بُيُوتِنَا"
     },
     "iCan": [
-     "I can tell about food waste.",
-     "I can understand the biggest.",
-     "I can write a smart shopping list."
+     "أَسْتَطِيعُ أَنْ أَقُولَ أَيْنَ يَضِيعُ الطَّعَامُ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «الْكُبْرَى» وَ«فَقَطْ».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ عَنْ طَعَامِ بَيْتِي."
     ]
    },
    {
     "id": 6,
     "type": "story",
-    "title": "Old Phones and Batteries",
-    "content": "We have a lot of electronic things at home and at school. We use phones, computers, and TVs every day. Sometimes they get old or break, so we throw them away. But we should not.\n\nWe should put old electronics in a special recycling bin. Workers take them from these bins and bring them to recycling centers. There, they take the metal and plastic parts apart to use them again.\n\nBatteries make games, phones, and clocks work. Old batteries are dangerous. We must not throw them in the kitchen bin. We should put old batteries in a battery bin.",
+    "title": "الْهَوَاتِفُ الْقَدِيمَةُ وَالْبَطَّارِيَّاتُ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch6.jpeg?alt=media&token=7d8bd405-f258-4d14-a34c-5d32daddc59e",
+    "content": "عِنْدَنَا أَشْيَاءُ إِلِكْتُرُونِيَّةٌ كَثِيرَةٌ فِي الْبَيْتِ وَفِي الْمَدْرَسَةِ. نَسْتَخْدِمُ الْهَوَاتِفَ وَالْحَوَاسِيبَ وَالتِّلْفَازَاتِ كُلَّ يَوْمٍ. أَحْيَانًا تُصْبِحُ قَدِيمَةً أَوْ تَنْكَسِرُ، فَنَرْمِيهَا. لَكِنْ يَجِبُ أَلَّا نَفْعَلَ ذَلِكَ.\n\nيَجِبُ أَنْ نَضَعَ الْأَجْهِزَةَ الْإِلِكْتُرُونِيَّةَ الْقَدِيمَةَ فِي حَاوِيَةِ إِعَادَةِ تَدْوِيرٍ خَاصَّةٍ. يَأْخُذُهَا الْعُمَّالُ مِنْ هَذِهِ الْحَاوِيَاتِ وَيَأْتُونَ بِهَا إِلَى مَرَاكِزِ إِعَادَةِ التَّدْوِيرِ. هُنَاكَ، يُفَكِّكُونَ الْأَجْزَاءَ الْمَعْدِنِيَّةَ وَالْبِلَاسْتِيكِيَّةَ لِيَسْتَخْدِمُوهَا مَرَّةً أُخْرَى.\n\nالْبَطَّارِيَّاتُ تَجْعَلُ الْأَلْعَابَ وَالْهَوَاتِفَ وَالسَّاعَاتِ تَعْمَلُ. الْبَطَّارِيَّاتُ الْقَدِيمَةُ خَطِيرَةٌ. يَجِبُ أَلَّا نَرْمِيَهَا فِي حَاوِيَةِ الْمَطْبَخِ. يَجِبُ أَنْ نَضَعَ الْبَطَّارِيَّاتِ الْقَدِيمَةَ فِي حَاوِيَةِ الْبَطَّارِيَّاتِ.",
     "vocabulary": [
      {
-      "word": "electronic",
-      "definition": "Working with electricity, like phones, computers and TVs."
+      "word": "إِلِكْتُرُونِيَّةٌ",
+      "definition": "تَعْمَلُ بِالْكَهْرَبَاءِ، مِثْلُ الْهَاتِفِ وَالْحَاسُوبِ."
      },
      {
-      "word": "special",
-      "definition": "Only for one thing."
+      "word": "خَاصَّةٍ",
+      "definition": "لِشَيْءٍ وَاحِدٍ فَقَطْ."
      },
      {
-      "word": "break",
-      "definition": "Stop working."
+      "word": "تَنْكَسِرُ",
+      "definition": "تَتَوَقَّفُ عَنِ الْعَمَلِ."
      },
      {
-      "word": "batteries",
-      "definition": "Small things that make phones and clocks work."
+      "word": "الْبَطَّارِيَّاتُ",
+      "definition": "أَشْيَاءُ صَغِيرَةٌ تَجْعَلُ الْهَوَاتِفَ وَالسَّاعَاتِ تَعْمَلُ."
      },
      {
-      "word": "dangerous",
-      "definition": "Bad for people and nature."
+      "word": "خَطِيرَةٌ",
+      "definition": "سَيِّئَةٌ لِلنَّاسِ وَلِلطَّبِيعَةِ."
      }
     ],
     "hotspots": [
@@ -910,198 +919,203 @@
       "id": "h6-1",
       "x": 35,
       "y": 46,
-      "title": "Old Electronics",
-      "description": "We should put old electronics in a special recycling bin. Workers take them from these bins."
+      "title": "الْأَجْهِزَةُ الْقَدِيمَةُ",
+      "description": "يَجِبُ أَنْ نَضَعَ الْأَجْهِزَةَ الْإِلِكْتُرُونِيَّةَ الْقَدِيمَةَ فِي حَاوِيَةِ إِعَادَةِ تَدْوِيرٍ خَاصَّةٍ."
      },
      {
       "id": "h6-2",
       "x": 68,
       "y": 50,
-      "title": "A Battery Bin",
-      "description": "Old batteries are dangerous. We should put old batteries in a battery bin."
+      "title": "حَاوِيَةُ الْبَطَّارِيَّاتِ",
+      "description": "يَجِبُ أَنْ نَضَعَ الْبَطَّارِيَّاتِ الْقَدِيمَةَ فِي حَاوِيَةِ الْبَطَّارِيَّاتِ."
      }
     ],
     "exercises": [
      {
-      "id": "zeroWaste-a1-quick-6",
+      "id": "zeroWaste-a1-ar-quick-6",
       "type": "drag-drop",
-      "title": "Old Phones and Batteries",
-      "instructions": "Put each sentence in the right group.",
-      "question": "Is it good?",
+      "title": "الْهَوَاتِفُ وَالْبَطَّارِيَّاتُ",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "صَحِيحٌ أَمْ خَطَأٌ؟",
       "dragDropGroups": [
        {
-        "group": "Good",
+        "group": "صَحِيحٌ",
         "items": [
-         "Put old electronics in a special recycling bin.",
-         "Put old batteries in a battery bin."
+         "الْبَطَّارِيَّاتُ الْقَدِيمَةُ خَطِيرَةٌ.",
+         "يُفَكِّكُ الْعُمَّالُ الْأَجْزَاءَ الْمَعْدِنِيَّةَ وَالْبِلَاسْتِيكِيَّةَ."
         ]
        },
        {
-        "group": "Not good",
+        "group": "خَطَأٌ",
         "items": [
-         "Throw old batteries in the kitchen bin."
+         "نَرْمِي الْبَطَّارِيَّاتِ فِي حَاوِيَةِ الْمَطْبَخِ."
         ]
        }
       ],
       "correctAnswer": {
-       "Good": [
-        "Put old electronics in a special recycling bin.",
-        "Put old batteries in a battery bin."
+       "صَحِيحٌ": [
+        "الْبَطَّارِيَّاتُ الْقَدِيمَةُ خَطِيرَةٌ.",
+        "يُفَكِّكُ الْعُمَّالُ الْأَجْزَاءَ الْمَعْدِنِيَّةَ وَالْبِلَاسْتِيكِيَّةَ."
        ],
-       "Not good": [
-        "Throw old batteries in the kitchen bin."
+       "خَطَأٌ": [
+        "نَرْمِي الْبَطَّارِيَّاتِ فِي حَاوِيَةِ الْمَطْبَخِ."
        ]
       },
-      "explanation": "Chapter 6: “We must not throw them in the kitchen bin. We should put old batteries in a battery bin.”",
+      "explanation": "الفصل السادس: «الْبَطَّارِيَّاتُ الْقَدِيمَةُ خَطِيرَةٌ. يَجِبُ أَلَّا نَرْمِيَهَا فِي حَاوِيَةِ الْمَطْبَخِ».",
       "feedback": {
-       "correct": "Yes! Batteries go in a battery bin.",
-       "incorrect": "Read the last paragraph of Chapter 6 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأَخِيرَةَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "zeroWaste-a1-language-6-or",
+      "id": "zeroWaste-a1-ar-language-6-or",
       "type": "multiple-choice",
-      "title": "Look: Or and So",
-      "instructions": "Choose the right answer.",
-      "question": "“Sometimes they get old or break, so we throw them away.” What does “so” tell us?",
+      "title": "انْظُرْ: أَوْ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«أَحْيَانًا تُصْبِحُ قَدِيمَةً أَوْ تَنْكَسِرُ.» مَا مَعْنَى «أَوْ»؟",
       "options": [
-       "what comes next",
-       "when it is",
-       "where it is"
+       "وَاحِدٌ مِنْ شَيْئَيْنِ",
+       "الشَّيْئَانِ مَعًا دَائِمًا",
+       "لَا شَيْءَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Or = one of two things (old or broken). So = what comes next.",
+      "explanation": "«أَوْ» = هذا أو ذاك: قديمة، أو مكسورة.",
       "feedback": {
-       "correct": "Yes. So tells what comes next.",
-       "incorrect": "Read the first paragraph of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "شَيْءٌ وَاحِدٌ أَمْ شَيْئَانِ؟"
       }
      },
      {
-      "id": "zeroWaste-a1-language-6-practise",
+      "id": "zeroWaste-a1-ar-language-6-practise",
       "type": "drag-drop",
-      "title": "Practise: Should or Must Not?",
-      "instructions": "Put each sentence in the right group.",
-      "question": "Should or must not?",
+      "title": "تَدَرَّبْ: أَيُّ حَاوِيَةٍ؟",
+      "instructions": "ضَعْ كُلَّ شَيْءٍ فِي حَاوِيَتِهِ.",
+      "question": "أَيْنَ نَضَعُهُ؟",
       "dragDropGroups": [
        {
-        "group": "Good to do (should)",
+        "group": "حَاوِيَةُ الْبَطَّارِيَّاتِ",
         "items": [
-         "We should put old electronics in a special recycling bin."
+         "بَطَّارِيَّةُ السَّاعَةِ",
+         "بَطَّارِيَّةُ اللُّعْبَةِ"
         ]
        },
        {
-        "group": "Do not do it (must not)",
+        "group": "حَاوِيَةُ الْأَجْهِزَةِ",
         "items": [
-         "We must not throw batteries in the kitchen bin."
+         "هَاتِفٌ قَدِيمٌ",
+         "حَاسُوبٌ مَكْسُورٌ"
         ]
        }
       ],
       "correctAnswer": {
-       "Good to do (should)": [
-        "We should put old electronics in a special recycling bin."
+       "حَاوِيَةُ الْبَطَّارِيَّاتِ": [
+        "بَطَّارِيَّةُ السَّاعَةِ",
+        "بَطَّارِيَّةُ اللُّعْبَةِ"
        ],
-       "Do not do it (must not)": [
-        "We must not throw batteries in the kitchen bin."
+       "حَاوِيَةُ الْأَجْهِزَةِ": [
+        "هَاتِفٌ قَدِيمٌ",
+        "حَاسُوبٌ مَكْسُورٌ"
        ]
       },
-      "explanation": "Should = it is good to do it. Must not = do not do it.",
+      "explanation": "البطاريات في حاوية البطاريات. والأجهزة الإلكترونية في حاوية خاصة.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read the last two paragraphs of Chapter 6."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفِقْرَتَيْنِ الثَّانِيَةَ وَالثَّالِثَةَ."
       }
      },
      {
-      "id": "zeroWaste-a1-language-6-say-it",
+      "id": "zeroWaste-a1-ar-language-6-say-it",
       "type": "reflection",
-      "title": "Say It: My Old Things",
-      "instructions": "Tell your partner about old electronics.",
-      "question": "What do you do with old electronics?",
+      "title": "قُلْهَا: أَجْهِزَتِي",
+      "instructions": "تَكَلَّمْ مَعَ زَمِيلِكَ عَنْ أَجْهِزَتِكَ.",
+      "question": "مَاذَا تَفْعَلُ بِهَا؟",
       "correctAnswer": null,
-      "explanation": "Use so and must not.",
+      "explanation": "استعمل «أَوْ» و«يَجِبُ أَنْ».",
       "feedback": {
-       "correct": "Say two sentences.",
+       "correct": "قُلْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“My old … is broken, so …”",
+        "question": "«عِنْدِي … أَوْ …»",
         "mode": "Pair",
-        "example": "My old phone is broken, so I put it in a recycling bin."
+        "example": "عِنْدِي هَاتِفٌ أَوْ حَاسُوبٌ."
        },
        {
-        "question": "“We must not throw batteries …”",
+        "question": "«يَجِبُ أَنْ نَضَعَ … فِي …»",
         "mode": "Pair",
-        "example": "We must not throw batteries in the kitchen bin."
+        "example": "يَجِبُ أَنْ نَضَعَ الْبَطَّارِيَّاتِ فِي حَاوِيَةِ الْبَطَّارِيَّاتِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Are old batteries safe?",
+     "question": "خَمِّنْ أَوَّلًا: أَيْنَ نَضَعُ الْبَطَّارِيَّاتِ الْقَدِيمَةَ؟",
      "options": [
-      "No, they are dangerous.",
-      "Yes, they are safe.",
-      "They are food."
+      "فِي حَاوِيَةِ الْبَطَّارِيَّاتِ",
+      "فِي حَاوِيَةِ الْمَطْبَخِ",
+      "فِي الْمَغْسَلَةِ"
      ],
      "answer": 0,
-     "quote": "Old batteries are dangerous."
+     "quote": "يَجِبُ أَنْ نَضَعَ الْبَطَّارِيَّاتِ الْقَدِيمَةَ فِي حَاوِيَةِ الْبَطَّارِيَّاتِ."
     },
     "iCan": [
-     "I can tell about old phones and batteries.",
-     "I can understand or and so.",
-     "I can say what to do with old electronics."
+     "أَسْتَطِيعُ أَنْ أَقُولَ أَيْنَ نَضَعُ الْهَوَاتِفَ وَالْبَطَّارِيَّاتِ الْقَدِيمَةَ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «أَوْ».",
+     "أَسْتَطِيعُ أَنْ أَتَكَلَّمَ عَنْ أَجْهِزَتِي."
     ],
     "groupTask": {
      "type": "project",
-     "title": "Our Class Bins",
-     "time": "10 min",
-     "groupSize": "3–4",
+     "title": "حَاوِيَاتُ صَفِّنَا",
+     "time": "١٠ دَقَائِقَ",
+     "groupSize": "٣–٤",
      "steps": [
-      "The group draws three bins: “Paper”, “Glass” and “Batteries”.",
-      "The group writes or draws two things for each bin.",
-      "The group writes one rule: “We must not …”",
-      "The group shows the bins to the class."
+      "تَرْسُمُ الْمَجْمُوعَةُ ثَلَاثَ حَاوِيَاتٍ: «الْوَرَقُ» وَ«الزُّجَاجُ» وَ«الْبَطَّارِيَّاتُ».",
+      "تَكْتُبُ الْمَجْمُوعَةُ أَوْ تَرْسُمُ شَيْئَيْنِ لِكُلِّ حَاوِيَةٍ.",
+      "تَكْتُبُ الْمَجْمُوعَةُ قَاعِدَةً وَاحِدَةً: «يَجِبُ أَلَّا …».",
+      "تُظْهِرُ الْمَجْمُوعَةُ الْحَاوِيَاتِ لِلصَّفِّ."
      ],
-     "share": "One student reads the rule. Story: “We should put old batteries in a battery bin.”",
-     "solo": "Draw three bins. Write two things for each bin."
+     "share": "يَقْرَأُ طَالِبٌ الْقَاعِدَةَ. مِنَ الْفَصْلِ: «يَجِبُ أَنْ نَضَعَ الْبَطَّارِيَّاتِ الْقَدِيمَةَ فِي حَاوِيَةِ الْبَطَّارِيَّاتِ».",
+     "solo": "ارْسُمْ ثَلَاثَ حَاوِيَاتٍ، وَاكْتُبْ شَيْئَيْنِ لِكُلِّ حَاوِيَةٍ."
     }
    },
    {
     "id": 7,
     "type": "story",
-    "title": "Zero Waste and the Three Rs",
-    "content": "What is Zero Waste? It does not mean “no waste.” Everyone makes some trash every day. Zero Waste means having less waste. We can use our things again and again.\n\nHere are the three Rs of Zero Waste:\n\nReduce: Use less. Buy only the things you need.\n\nReuse and Repair: Use things again. When something is broken, fix it.\n\nRecycle: Make new things from old things.\n\nOld things can become new things again!",
+    "title": "صِفْرُ النُّفَايَاتِ وَالْقَوَاعِدُ الثَّلَاثُ",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch9.jpeg?alt=media&token=bf375533-669e-4e30-853c-8bcde6ba48d9",
+    "content": "مَا صِفْرُ النُّفَايَاتِ؟ لَا يَعْنِي «لَا نُفَايَاتِ». كُلُّ شَخْصٍ يُنْتِجُ بَعْضَ الْقُمَامَةِ كُلَّ يَوْمٍ. صِفْرُ النُّفَايَاتِ يَعْنِي أَنْ تَكُونَ النُّفَايَاتُ أَقَلَّ. نَسْتَطِيعُ أَنْ نَسْتَخْدِمَ أَشْيَاءَنَا مَرَّةً بَعْدَ مَرَّةٍ.\n\nهَذِهِ هِيَ الْقَوَاعِدُ الثَّلَاثُ لِصِفْرِ النُّفَايَاتِ:\n\nقَلِّلْ: اسْتَخْدِمْ أَقَلَّ. اشْتَرِ الْأَشْيَاءَ الَّتِي تَحْتَاجُ إِلَيْهَا فَقَطْ.\n\nأَعِدِ الِاسْتِخْدَامَ وَأَصْلِحْ: اسْتَخْدِمِ الْأَشْيَاءَ مَرَّةً أُخْرَى. عِنْدَمَا يَنْكَسِرُ شَيْءٌ، أَصْلِحْهُ.\n\nأَعِدِ التَّدْوِيرَ: اصْنَعْ أَشْيَاءَ جَدِيدَةً مِنْ أَشْيَاءَ قَدِيمَةٍ.\n\nالْأَشْيَاءُ الْقَدِيمَةُ تَسْتَطِيعُ أَنْ تَصِيرَ أَشْيَاءَ جَدِيدَةً مِنْ جَدِيدٍ!",
     "vocabulary": [
      {
-      "word": "Zero Waste",
-      "definition": "A way of life with less waste."
+      "word": "صِفْرُ النُّفَايَاتِ",
+      "definition": "طَرِيقَةُ حَيَاةٍ فِيهَا نُفَايَاتٌ أَقَلُّ."
      },
      {
-      "word": "less",
-      "definition": "Not as much."
+      "word": "أَقَلَّ",
+      "definition": "لَيْسَ بِالْكَثْرَةِ نَفْسِهَا."
      },
      {
-      "word": "reduce",
-      "definition": "Use less."
+      "word": "قَلِّلْ",
+      "definition": "اسْتَخْدِمْ أَقَلَّ."
      },
      {
-      "word": "reuse",
-      "definition": "Use again."
+      "word": "أَعِدِ الِاسْتِخْدَامَ",
+      "definition": "اسْتَخْدِمْ مَرَّةً أُخْرَى."
      },
      {
-      "word": "repair",
-      "definition": "Make a broken thing good again."
+      "word": "أَصْلِحْ",
+      "definition": "اجْعَلِ الشَّيْءَ الْمَكْسُورَ جَيِّدًا مَرَّةً أُخْرَى."
      },
      {
-      "word": "fix",
-      "definition": "Make a broken thing work again."
+      "word": "أَعِدِ التَّدْوِيرَ",
+      "definition": "اصْنَعْ أَشْيَاءَ جَدِيدَةً مِنْ أَشْيَاءَ قَدِيمَةٍ."
      },
      {
-      "word": "everyone",
-      "definition": "All people."
+      "word": "كُلُّ شَخْصٍ",
+      "definition": "كُلُّ النَّاسِ، وَاحِدًا وَاحِدًا."
      }
     ],
     "hotspots": [
@@ -1109,185 +1123,181 @@
       "id": "h7-1",
       "x": 35,
       "y": 46,
-      "title": "Less Waste",
-      "description": "Everyone makes some trash every day. Zero Waste means having less waste."
+      "title": "نُفَايَاتٌ أَقَلُّ",
+      "description": "صِفْرُ النُّفَايَاتِ يَعْنِي أَنْ تَكُونَ النُّفَايَاتُ أَقَلَّ."
      },
      {
       "id": "h7-2",
       "x": 68,
       "y": 50,
-      "title": "The Three Rs",
-      "description": "Reduce. Reuse and Repair. Recycle."
+      "title": "الْقَوَاعِدُ الثَّلَاثُ",
+      "description": "قَلِّلْ، وَأَعِدِ الِاسْتِخْدَامَ وَأَصْلِحْ، وَأَعِدِ التَّدْوِيرَ."
      }
     ],
     "exercises": [
      {
-      "id": "zeroWaste-a1-quick-7",
+      "id": "zeroWaste-a1-ar-quick-7",
       "type": "matching",
-      "title": "The Three Rs",
-      "instructions": "Match the word with the meaning.",
-      "question": "What does each R mean?",
+      "title": "الْقَوَاعِدُ الثَّلَاثُ",
+      "instructions": "صِلْ كُلَّ قَاعِدَةٍ بِمَعْنَاهَا.",
+      "question": "مَاذَا تَعْنِي كُلُّ قَاعِدَةٍ؟",
       "matchingHeadings": {
-       "left": "Word",
-       "right": "Meaning"
+       "left": "الْقَاعِدَةُ",
+       "right": "الْمَعْنَى"
       },
       "matchingPairs": [
        {
-        "left": "Reduce",
-        "right": "Use less."
+        "left": "قَلِّلْ",
+        "right": "اسْتَخْدِمْ أَقَلَّ."
        },
        {
-        "left": "Reuse",
-        "right": "Use things again."
+        "left": "أَعِدِ الِاسْتِخْدَامَ وَأَصْلِحْ",
+        "right": "اسْتَخْدِمِ الْأَشْيَاءَ مَرَّةً أُخْرَى."
        },
        {
-        "left": "Recycle",
-        "right": "Make new things from old things."
+        "left": "أَعِدِ التَّدْوِيرَ",
+        "right": "اصْنَعْ أَشْيَاءَ جَدِيدَةً مِنْ أَشْيَاءَ قَدِيمَةٍ."
        }
       ],
       "correctAnswer": {
-       "Reduce": "Use less.",
-       "Reuse": "Use things again.",
-       "Recycle": "Make new things from old things."
+       "قَلِّلْ": "اسْتَخْدِمْ أَقَلَّ.",
+       "أَعِدِ الِاسْتِخْدَامَ وَأَصْلِحْ": "اسْتَخْدِمِ الْأَشْيَاءَ مَرَّةً أُخْرَى.",
+       "أَعِدِ التَّدْوِيرَ": "اصْنَعْ أَشْيَاءَ جَدِيدَةً مِنْ أَشْيَاءَ قَدِيمَةٍ."
       },
-      "explanation": "Chapter 7: “Reduce: Use less.” “Reuse and Repair: Use things again.” “Recycle: Make new things from old things.”",
+      "explanation": "الفصل السابع: القواعد الثلاث لصفر النفايات.",
       "feedback": {
-       "correct": "Great! You know the three Rs.",
-       "incorrect": "Read the list in Chapter 7 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْقَوَاعِدَ الثَّلَاثَ مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "zeroWaste-a1-language-7-imperative",
+      "id": "zeroWaste-a1-ar-language-7-imperative",
       "type": "multiple-choice",
-      "title": "Look: Use Less!",
-      "instructions": "Choose the right answer.",
-      "question": "“Use less. Buy only the things you need.” What are these sentences?",
+      "title": "انْظُرْ: قَلِّلْ، اشْتَرِ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«قَلِّلْ: اسْتَخْدِمْ أَقَلَّ.» مَا هَذِهِ الْكَلِمَاتُ؟",
       "options": [
-       "“Do this!” sentences",
-       "questions",
-       "past sentences"
+       "كَلِمَاتٌ تَقُولُ: افْعَلْ!",
+       "كَلِمَاتٌ عَنِ الْأَمْسِ",
+       "أَسْئِلَةٌ"
       ],
       "correctAnswer": 0,
-      "explanation": "Verb at the start = “Do this!”: Use less. Buy only … Fix it.",
+      "explanation": "فعل الأمر يقول: افعل! قَلِّلْ، اسْتَخْدِمْ، اشْتَرِ، أَصْلِحْ.",
       "feedback": {
-       "correct": "Yes. They are “Do this!” sentences.",
-       "incorrect": "Read the list in Chapter 7."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "هَلْ تَقُولُ الْكَلِمَةُ: افْعَلْ؟"
       }
      },
      {
-      "id": "zeroWaste-a1-language-7-practise",
+      "id": "zeroWaste-a1-ar-language-7-practise",
       "type": "choose-form",
-      "title": "Practise: When Something Is Broken",
-      "instructions": "Choose the right word.",
-      "question": "Which word goes in the gap?",
+      "title": "تَدَرَّبْ: افْعَلْ!",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةٍ تَقُولُ: افْعَلْ؟",
       "formChoices": [
        {
-        "sentence": "When something is broken, [choice] it.",
+        "sentence": "[choice] أَقَلَّ.",
         "options": [
-         "fix",
-         "throw"
+         "اسْتَخْدِمْ",
+         "نَسْتَخْدِمُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "[choice] only the things you need.",
+        "sentence": "عِنْدَمَا يَنْكَسِرُ شَيْءٌ، [choice]هُ.",
         "options": [
-         "Buy",
-         "Bought"
+         "أَصْلِحْ",
+         "يُصْلِحُ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Everyone [choice] some trash every day.",
+        "sentence": "[choice] الْأَشْيَاءَ الَّتِي تَحْتَاجُ إِلَيْهَا فَقَطْ.",
         "options": [
-         "makes",
-         "make"
+         "اشْتَرِ",
+         "نَشْتَرِي"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "“Do this!” sentences: verb at the start (fix, buy). Everyone + verb + -s: makes.",
+      "explanation": "للأمر: اسْتَخْدِمْ، أَصْلِحْ، اشْتَرِ.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 7 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "انْظُرْ إِلَى الْقَوَاعِدِ الثَّلَاثِ."
       }
      },
      {
-      "id": "zeroWaste-a1-language-7-write-it",
+      "id": "zeroWaste-a1-ar-language-7-write-it",
       "type": "reflection",
-      "title": "Write It: Three Rs at Home",
-      "instructions": "Write one sentence for each R.",
-      "question": "What can you do at home?",
+      "title": "اكْتُبْهَا: قَاعِدَتِي",
+      "instructions": "اكْتُبْ جُمْلَتَيْنِ لِبَيْتِكَ بِفِعْلِ أَمْرٍ.",
+      "question": "مَاذَا نَفْعَلُ فِي الْبَيْتِ؟",
       "correctAnswer": null,
-      "explanation": "Use I can + verb.",
+      "explanation": "استعمل فعل الأمر.",
       "feedback": {
-       "correct": "Write three sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "Reduce: “I can use less …”",
+        "question": "«قَلِّلْ: …»",
         "mode": "Individual",
-        "example": "I can use less paper."
+        "example": "قَلِّلْ: اشْتَرِ خُبْزًا قَلِيلًا."
        },
        {
-        "question": "Reuse: “I can use my … again.”",
+        "question": "«أَصْلِحْ: …»",
         "mode": "Individual",
-        "example": "I can use my old jar again."
-       },
-       {
-        "question": "Recycle: “I can put … in a recycling bin.”",
-        "mode": "Individual",
-        "example": "I can put old bottles in a recycling bin."
+        "example": "أَصْلِحْ: أَصْلِحِ الْكُرْسِيَّ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: Is Zero Waste “no waste”?",
+     "question": "خَمِّنْ أَوَّلًا: هَلْ يَعْنِي صِفْرُ النُّفَايَاتِ «لَا نُفَايَاتِ»؟",
      "options": [
-      "No, it is less waste.",
-      "Yes, it is no waste.",
-      "It is more waste."
+      "لَا",
+      "نَعَمْ",
+      "فِي الْمَدْرَسَةِ فَقَطْ"
      ],
      "answer": 0,
-     "quote": "Zero Waste means having less waste."
+     "quote": "لَا يَعْنِي «لَا نُفَايَاتِ»."
     },
     "iCan": [
-     "I can say what Zero Waste is.",
-     "I can understand “Use less.” and “Buy only …”.",
-     "I can write about the three Rs at home."
+     "أَسْتَطِيعُ أَنْ أَقُولَ الْقَوَاعِدَ الثَّلَاثَ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ فِعْلَ الْأَمْرِ.",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ قَاعِدَةً لِبَيْتِي."
     ]
    },
    {
     "id": 8,
     "type": "story",
-    "title": "What Can We Do?",
-    "content": "The best waste is no waste! We can all help the world. For example, we can bring our own bags to the shop. At school, we can use our own bottles and cups. We should also say “no” to plastic straws.\n\nCities can help, too. Some cities have tool libraries. People can borrow tools from there, so they do not need to buy them.\n\nFamilies can learn about Zero Waste together. The best time to start is now!",
+    "title": "مَاذَا نَسْتَطِيعُ أَنْ نَفْعَلَ؟",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch11.jpeg?alt=media&token=7acd45b2-9719-4695-ab28-83ab10270217",
+    "content": "أَفْضَلُ نُفَايَةٍ هِيَ أَلَّا تَكُونَ هُنَاكَ نُفَايَةٌ! نَسْتَطِيعُ كُلُّنَا أَنْ نُسَاعِدَ الْعَالَمَ. مَثَلًا، نَسْتَطِيعُ أَنْ نُحْضِرَ أَكْيَاسَنَا الْخَاصَّةَ إِلَى الْمَتْجَرِ. وَفِي الْمَدْرَسَةِ، نَسْتَطِيعُ أَنْ نَسْتَخْدِمَ زُجَاجَاتِنَا وَأَكْوَابَنَا الْخَاصَّةَ. وَيَجِبُ أَيْضًا أَنْ نَقُولَ «لَا» لِلْمَصَّاصَاتِ الْبِلَاسْتِيكِيَّةِ.\n\nوَالْمُدُنُ تَسْتَطِيعُ أَنْ تُسَاعِدَ أَيْضًا. فِي بَعْضِ الْمُدُنِ مَكْتَبَاتٌ لِلْأَدَوَاتِ. يَسْتَطِيعُ النَّاسُ أَنْ يَسْتَعِيرُوا الْأَدَوَاتِ مِنْهَا، فَلَا يَحْتَاجُونَ إِلَى شِرَائِهَا.\n\nتَسْتَطِيعُ الْعَائِلَاتُ أَنْ تَتَعَلَّمَ عَنْ صِفْرِ النُّفَايَاتِ مَعًا. أَفْضَلُ وَقْتٍ لِلْبَدْءِ هُوَ الْآنَ!",
     "vocabulary": [
      {
-      "word": "bottle",
-      "definition": "A glass or plastic thing for water."
+      "word": "زُجَاجَاتِنَا",
+      "definition": "الزُّجَاجَةُ: شَيْءٌ مِنَ الزُّجَاجِ أَوِ الْبِلَاسْتِيكِ لِلْمَاءِ."
      },
      {
-      "word": "straws",
-      "definition": "Thin plastic tubes for drinks."
+      "word": "لِلْمَصَّاصَاتِ",
+      "definition": "أَنَابِيبُ بِلَاسْتِيكِيَّةٌ رَفِيعَةٌ لِلْمَشْرُوبَاتِ."
      },
      {
-      "word": "tool libraries",
-      "definition": "Places where you can take tools and bring them back."
+      "word": "مَكْتَبَاتٌ لِلْأَدَوَاتِ",
+      "definition": "أَمَاكِنُ تَأْخُذُ مِنْهَا الْأَدَوَاتِ، ثُمَّ تُعِيدُهَا."
      },
      {
-      "word": "own",
-      "definition": "It is yours."
+      "word": "الْخَاصَّةَ",
+      "definition": "لَنَا نَحْنُ، لَيْسَتْ لِغَيْرِنَا."
      },
      {
-      "word": "borrow",
-      "definition": "Take a thing and give it back later."
+      "word": "يَسْتَعِيرُوا",
+      "definition": "يَأْخُذُوا شَيْئًا، ثُمَّ يُعِيدُوهُ."
      }
     ],
     "hotspots": [
@@ -1295,310 +1305,309 @@
       "id": "h8-1",
       "x": 35,
       "y": 46,
-      "title": "At School",
-      "description": "At school, we can use our own bottles and cups. We should also say “no” to plastic straws."
+      "title": "فِي الْمَدْرَسَةِ",
+      "description": "فِي الْمَدْرَسَةِ، نَسْتَطِيعُ أَنْ نَسْتَخْدِمَ زُجَاجَاتِنَا وَأَكْوَابَنَا الْخَاصَّةَ."
      },
      {
       "id": "h8-2",
       "x": 68,
       "y": 50,
-      "title": "Tool Libraries",
-      "description": "Some cities have tool libraries. People can borrow tools from there."
+      "title": "مَكْتَبَاتُ الْأَدَوَاتِ",
+      "description": "يَسْتَطِيعُ النَّاسُ أَنْ يَسْتَعِيرُوا الْأَدَوَاتِ مِنْ مَكْتَبَاتِ الْأَدَوَاتِ."
      }
     ],
     "exercises": [
      {
-      "id": "zeroWaste-a1-quick-8",
+      "id": "zeroWaste-a1-ar-quick-8",
       "type": "drag-drop",
-      "title": "What Can We Do?",
-      "instructions": "Read. Is it true or false?",
-      "question": "What does Chapter 8 say?",
+      "title": "مَاذَا نَسْتَطِيعُ أَنْ نَفْعَلَ؟",
+      "instructions": "اقْرَأْ. صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "صَحِيحٌ أَمْ خَطَأٌ؟",
       "dragDropGroups": [
        {
-        "group": "True",
+        "group": "صَحِيحٌ",
         "items": [
-         "We can bring our own bags to the shop.",
-         "Some cities have tool libraries."
+         "نَسْتَطِيعُ أَنْ نُحْضِرَ أَكْيَاسَنَا إِلَى الْمَتْجَرِ.",
+         "يَسْتَعِيرُ النَّاسُ الْأَدَوَاتِ مِنْ مَكْتَبَاتِ الْأَدَوَاتِ."
         ]
        },
        {
-        "group": "False",
+        "group": "خَطَأٌ",
         "items": [
-         "We should use more plastic straws."
+         "يَجِبُ أَنْ نَسْتَخْدِمَ الْمَصَّاصَاتِ الْبِلَاسْتِيكِيَّةَ."
         ]
        }
       ],
       "correctAnswer": {
-       "True": [
-        "We can bring our own bags to the shop.",
-        "Some cities have tool libraries."
+       "صَحِيحٌ": [
+        "نَسْتَطِيعُ أَنْ نُحْضِرَ أَكْيَاسَنَا إِلَى الْمَتْجَرِ.",
+        "يَسْتَعِيرُ النَّاسُ الْأَدَوَاتِ مِنْ مَكْتَبَاتِ الْأَدَوَاتِ."
        ],
-       "False": [
-        "We should use more plastic straws."
+       "خَطَأٌ": [
+        "يَجِبُ أَنْ نَسْتَخْدِمَ الْمَصَّاصَاتِ الْبِلَاسْتِيكِيَّةَ."
        ]
       },
-      "explanation": "Chapter 8 says: “We can bring our own bags to the shop.” “We should also say ‘no’ to plastic straws.” “Some cities have tool libraries.”",
+      "explanation": "الفصل الثامن: «وَيَجِبُ أَيْضًا أَنْ نَقُولَ «لَا» لِلْمَصَّاصَاتِ الْبِلَاسْتِيكِيَّةِ».",
       "feedback": {
-       "correct": "Yes! We should say “no” to plastic straws.",
-       "incorrect": "Read Chapter 8 again."
+       "correct": "أَحْسَنْتَ!",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مَرَّةً أُخْرَى."
       }
      }
     ],
     "languageFocusExercises": [
      {
-      "id": "zeroWaste-a1-language-8-can",
+      "id": "zeroWaste-a1-ar-language-8-can",
       "type": "multiple-choice",
-      "title": "Look: We Can …",
-      "instructions": "Choose the right answer.",
-      "question": "“We can bring our own bags to the shop.” What is this?",
+      "title": "انْظُرْ: نَسْتَطِيعُ أَنْ",
+      "instructions": "اخْتَرِ الْجَوَابَ الصَّحِيحَ.",
+      "question": "«نَسْتَطِيعُ أَنْ نُحْضِرَ أَكْيَاسَنَا الْخَاصَّةَ.» مَا مَعْنَى «نَسْتَطِيعُ»؟",
       "options": [
-       "one thing we can do",
-       "a thing we must do",
-       "a past sentence"
+       "هَذَا مُمْكِنٌ لَنَا",
+       "هَذَا مَمْنُوعٌ",
+       "فَعَلْنَا هَذَا أَمْسِ"
       ],
       "correctAnswer": 0,
-      "explanation": "We can + verb = one thing we can do. We should + verb = it is good to do it.",
+      "explanation": "«نَسْتَطِيعُ أَنْ» = هذا ممكن لنا. و«تَسْتَطِيعُ الْمُدُنُ أَنْ» للمدن.",
       "feedback": {
-       "correct": "Yes. It is one thing we can do.",
-       "incorrect": "Read the first paragraph of Chapter 8."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مُمْكِنٌ أَمْ مَمْنُوعٌ؟"
       }
      },
      {
-      "id": "zeroWaste-a1-language-8-practise",
+      "id": "zeroWaste-a1-ar-language-8-practise",
       "type": "word-bank",
-      "title": "Practise: What Can We Do?",
-      "instructions": "Fill the gaps with the words.",
-      "question": "What can we do?",
-      "fillBlanksText": "At school, we can use our [blank] bottles and cups. We should also say “no” to plastic [blank]. The best time to start is [blank]!",
+      "title": "تَدَرَّبْ: مَنْ يَسْتَطِيعُ؟",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "أَيُّ كَلِمَةٍ؟",
+      "fillBlanksText": "[blank] أَنْ نُحْضِرَ أَكْيَاسَنَا. وَالْمُدُنُ [blank] أَنْ تُسَاعِدَ أَيْضًا. [blank] النَّاسُ أَنْ يَسْتَعِيرُوا الْأَدَوَاتِ.",
       "wordBank": [
-       "own",
-       "straws",
-       "now",
-       "tools",
-       "never"
+       "نَسْتَطِيعُ",
+       "تَسْتَطِيعُ",
+       "يَسْتَطِيعُ",
+       "أَسْتَطِيعُ"
       ],
       "correctAnswer": [
-       "own",
-       "straws",
-       "now"
+       "نَسْتَطِيعُ",
+       "تَسْتَطِيعُ",
+       "يَسْتَطِيعُ"
       ],
-      "explanation": "Our own = it is ours. The best time to start is now.",
+      "explanation": "نحن: نَسْتَطِيعُ. المدن: تَسْتَطِيعُ. الناس: يَسْتَطِيعُ (قبلهم).",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 8 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "مَنْ يَفْعَلُ؟"
       }
      },
      {
-      "id": "zeroWaste-a1-language-8-write-it",
+      "id": "zeroWaste-a1-ar-language-8-write-it",
       "type": "reflection",
-      "title": "Write It: My Zero Waste Plan",
-      "instructions": "Write your Zero Waste plan.",
-      "question": "What can you do?",
+      "title": "اكْتُبْهَا: أَنَا أَسْتَطِيعُ",
+      "instructions": "اكْتُبْ جُمْلَتَيْنِ: مَاذَا تَسْتَطِيعُ أَنْ تَفْعَلَ؟",
+      "question": "كَيْفَ تُسَاعِدُ؟",
       "correctAnswer": null,
-      "explanation": "Use can + verb.",
+      "explanation": "استعمل «أَسْتَطِيعُ أَنْ» و«نَسْتَطِيعُ أَنْ».",
       "feedback": {
-       "correct": "Write two sentences.",
+       "correct": "اكْتُبْ جُمْلَتَيْنِ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "“At school, I can …”",
+        "question": "«أَسْتَطِيعُ أَنْ …»",
         "mode": "Individual",
-        "example": "At school, I can use my own cup."
+        "example": "أَسْتَطِيعُ أَنْ أُحْضِرَ زُجَاجَتِي إِلَى الْمَدْرَسَةِ."
        },
        {
-        "question": "“At home, my family can …”",
+        "question": "«نَسْتَطِيعُ أَنْ …»",
         "mode": "Individual",
-        "example": "At home, my family can only buy the food we need."
+        "example": "نَسْتَطِيعُ أَنْ نَقُولَ «لَا» لِلْأَكْيَاسِ."
        }
       ]
      }
     ],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "Guess first: What is the best waste?",
+     "question": "خَمِّنْ أَوَّلًا: مَتَى أَفْضَلُ وَقْتٍ لِلْبَدْءِ؟",
      "options": [
-      "no waste",
-      "plastic waste",
-      "food waste"
+      "الْآنَ",
+      "غَدًا",
+      "بَعْدَ سَنَةٍ"
      ],
      "answer": 0,
-     "quote": "The best waste is no waste!"
+     "quote": "أَفْضَلُ وَقْتٍ لِلْبَدْءِ هُوَ الْآنَ!"
     },
     "iCan": [
-     "I can tell what we can do for Zero Waste.",
-     "I can understand we can.",
-     "I can write my Zero Waste plan."
+     "أَسْتَطِيعُ أَنْ أَقُولَ كَيْفَ نُسَاعِدُ.",
+     "أَسْتَطِيعُ أَنْ أَفْهَمَ «نَسْتَطِيعُ أَنْ».",
+     "أَسْتَطِيعُ أَنْ أَكْتُبَ مَا أَسْتَطِيعُ أَنْ أَفْعَلَهُ."
     ]
    },
    {
     "id": 101,
     "type": "key-facts",
-    "title": "Key Facts",
-    "content": "One fact from every chapter. Each chapter stamp colors its stop.",
+    "title": "الْحَقَائِقُ الرَّئِيسِيَّةُ",
+    "content": "حَقِيقَةٌ وَاحِدَةٌ مِنْ كُلِّ فَصْلٍ. خَتْمُ كُلِّ فَصْلٍ يُلَوِّنُ مَحَطَّتَهُ.",
     "facts": [
      {
       "chapter": 1,
-      "label": "2023",
-      "value": "2 billion tons",
-      "title": "People in cities created more than 2 billion tons of waste.",
-      "text": "In 2050, there will be about 4 billion tons."
+      "label": "٢٠٢٣",
+      "value": "مِلْيَارَا طُنٍّ",
+      "title": "أَنْتَجَ النَّاسُ فِي الْمُدُنِ أَكْثَرَ مِنْ مِلْيَارَيْ طُنٍّ مِنَ النُّفَايَاتِ.",
+      "text": "وَفِي عَامِ ٢٠٥٠، سَيَكُونُ هُنَاكَ نَحْوُ ٤ مِلْيَارَاتِ طُنٍّ."
      },
      {
       "chapter": 2,
-      "label": "Paper",
-      "value": "Recycle",
-      "title": "We can make new paper from old paper.",
-      "text": "Workers make new bottles and jars from old glass."
+      "label": "الْوَرَقُ",
+      "value": "إِعَادَةُ التَّدْوِيرِ",
+      "title": "نَصْنَعُ وَرَقًا جَدِيدًا مِنَ الْوَرَقِ الْقَدِيمِ.",
+      "text": "يَصْنَعُ الْعُمَّالُ زُجَاجَاتٍ وَمَرْطَبَانَاتٍ جَدِيدَةً مِنَ الزُّجَاجِ الْقَدِيمِ."
      },
      {
       "chapter": 3,
-      "label": "2019",
-      "value": "9 percent",
-      "title": "People recycled only 9 percent of plastic waste.",
-      "text": "Fish and birds eat plastic, and they get sick."
+      "label": "٢٠١٩",
+      "value": "٩ فِي الْمِائَةِ",
+      "title": "أَعَادَ النَّاسُ تَدْوِيرَ ٩ فِي الْمِائَةِ فَقَطْ مِنَ الْبِلَاسْتِيكِ.",
+      "text": "وَوَضَعُوا نِصْفَهُ تَحْتَ الْأَرْضِ."
      },
      {
       "chapter": 4,
-      "label": "Cans",
-      "value": "Metal",
-      "title": "Workers melt old metal.",
-      "text": "We must not put old oil into the sink."
+      "label": "الْعُلَبُ",
+      "value": "الْمَعْدِنُ",
+      "title": "عُلَبُ الْمَشْرُوبَاتِ مِنَ الْمَعْدِنِ.",
+      "text": "يُذِيبُ الْعُمَّالُ الْمَعْدِنَ الْقَدِيمَ وَيَصْنَعُونَ مِنْهُ أَشْيَاءَ جَدِيدَةً."
      },
      {
       "chapter": 5,
-      "label": "Food",
-      "value": "About 60 percent",
-      "title": "About 60 percent of all food waste comes from our homes.",
-      "text": "We should only buy the food we need."
+      "label": "الطَّعَامُ",
+      "value": "نَحْوُ ٦٠ فِي الْمِائَةِ",
+      "title": "نَحْوُ ٦٠ فِي الْمِائَةِ مِنْ نُفَايَاتِ الطَّعَامِ تَأْتِي مِنْ بُيُوتِنَا.",
+      "text": "يَجِبُ أَنْ نَشْتَرِيَ الطَّعَامَ الَّذِي نَحْتَاجُ إِلَيْهِ فَقَطْ."
      },
      {
       "chapter": 6,
-      "label": "Batteries",
-      "value": "Battery bin",
-      "title": "Old batteries are dangerous.",
-      "text": "We should put old batteries in a battery bin."
+      "label": "الْبَطَّارِيَّاتُ",
+      "value": "حَاوِيَةُ الْبَطَّارِيَّاتِ",
+      "title": "الْبَطَّارِيَّاتُ الْقَدِيمَةُ خَطِيرَةٌ.",
+      "text": "يَجِبُ أَنْ نَضَعَهَا فِي حَاوِيَةِ الْبَطَّارِيَّاتِ."
      },
      {
       "chapter": 7,
-      "label": "Zero Waste",
-      "value": "3 Rs",
-      "title": "Reduce, Reuse and Repair, Recycle.",
-      "text": "Zero Waste means having less waste."
+      "label": "صِفْرُ النُّفَايَاتِ",
+      "value": "ثَلَاثُ قَوَاعِدَ",
+      "title": "قَلِّلْ، وَأَعِدِ الِاسْتِخْدَامَ وَأَصْلِحْ، وَأَعِدِ التَّدْوِيرَ.",
+      "text": "صِفْرُ النُّفَايَاتِ يَعْنِي أَنْ تَكُونَ النُّفَايَاتُ أَقَلَّ."
      },
      {
       "chapter": 8,
-      "label": "Start",
-      "value": "Now",
-      "title": "The best waste is no waste!",
-      "text": "Some cities have tool libraries."
+      "label": "الْبِدَايَةُ",
+      "value": "الْآنَ",
+      "title": "أَفْضَلُ نُفَايَةٍ هِيَ أَلَّا تَكُونَ هُنَاكَ نُفَايَةٌ!",
+      "text": "أَفْضَلُ وَقْتٍ لِلْبَدْءِ هُوَ الْآنَ!"
      }
     ]
    },
    {
     "id": 11,
     "type": "quiz",
-    "title": "Knowledge Check",
+    "title": "اختبار المعرفة",
     "image": "",
     "audioUrl": "",
-    "content": "Check your understanding of the complete book.",
+    "content": "اخْتَبِرْ فَهْمَكَ لِكِتَابِ صِفْرِ النُّفَايَاتِ.",
     "exercises": [
      {
-      "id": "zeroWaste-a1-kc-1",
+      "id": "zeroWaste-a1-ar-kc-1",
       "type": "multiple-choice",
-      "title": "Waste in the World",
-      "instructions": "Choose the answer.",
-      "question": "How much waste did people in cities make in 2023?",
+      "title": "مَا النُّفَايَاتُ؟",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَتَى يُصْبِحُ الشَّيْءُ نُفَايَاتٍ؟",
       "options": [
-       "more than 2 billion tons",
-       "about 9 tons",
-       "only 61 tons"
+       "عِنْدَمَا نَرْمِيهِ",
+       "عِنْدَمَا نَشْتَرِيهِ",
+       "عِنْدَمَا نَغْسِلُهُ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 1: “In 2023, people in cities created more than 2 billion tons of waste.”",
+      "explanation": "الفصل الأول: «كُلُّ شَيْءٍ نَرْمِيهِ يُصْبِحُ نُفَايَاتٍ».",
       "feedback": {
-       "correct": "Yes. More than 2 billion tons.",
-       "incorrect": "Read the second paragraph of Chapter 1."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الْأُولَى مِنَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "zeroWaste-a1-kc-2",
+      "id": "zeroWaste-a1-ar-kc-2",
       "type": "true-false",
-      "title": "Glass",
-      "instructions": "Is it true or false?",
-      "question": "Workers put green, brown and white glass in different groups.",
+      "title": "الْوَرَقُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "يَأْتِي الْوَرَقُ وَالْخَشَبُ مِنَ الْأَشْجَارِ.",
       "correctAnswer": true,
-      "explanation": "Chapter 2: “They put green, brown and white glass in different groups.”",
+      "explanation": "الفصل الثاني: «يَأْتِي الْوَرَقُ وَالْخَشَبُ مِنَ الْأَشْجَارِ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the last paragraph of Chapter 2."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الثَّانِيَ."
       }
      },
      {
-      "id": "zeroWaste-a1-kc-3",
+      "id": "zeroWaste-a1-ar-kc-3",
       "type": "multiple-choice",
-      "title": "Plastic",
-      "instructions": "Choose the answer.",
-      "question": "Fish and birds eat plastic. Then what?",
+      "title": "الْبِلَاسْتِيكُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا يَحْدُثُ لِلْأَسْمَاكِ وَالطُّيُورِ؟",
       "options": [
-       "They get sick.",
-       "They get big.",
-       "They get happy."
+       "تَأْكُلُ الْبِلَاسْتِيكَ، فَتَمْرَضُ.",
+       "تَصْنَعُ أَكْيَاسًا.",
+       "تَشْرَبُ مَاءً نَظِيفًا."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 3: “Fish and birds eat it, and they get sick.”",
+      "explanation": "الفصل الثالث: «تَأْكُلُهُ الْأَسْمَاكُ وَالطُّيُورُ، فَتَمْرَضُ».",
       "feedback": {
-       "correct": "Yes. They get sick.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الثَّالِثَ."
       }
      },
      {
-      "id": "zeroWaste-a1-kc-4",
+      "id": "zeroWaste-a1-ar-kc-4",
       "type": "true-false",
-      "title": "Old Oil",
-      "instructions": "Is it true or false?",
-      "question": "We should put old oil into the sink.",
+      "title": "الزَّيْتُ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "نَسْتَطِيعُ أَنْ نَصُبَّ الزَّيْتَ الْقَدِيمَ فِي الْمَغْسَلَةِ.",
       "correctAnswer": false,
-      "explanation": "Chapter 4: “We must not put it into the sink because it makes the water dirty.”",
+      "explanation": "الفصل الرابع: «يَجِبُ أَلَّا نَصُبَّهُ فِي الْمَغْسَلَةِ».",
       "feedback": {
-       "correct": "Yes, it is false. We must not.",
-       "incorrect": "Read the last paragraph of Chapter 4."
+       "correct": "نَعَمْ، هَذَا خَطَأٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الرَّابِعَ."
       }
      },
      {
-      "id": "zeroWaste-a1-kc-5",
+      "id": "zeroWaste-a1-ar-kc-5",
       "type": "multiple-choice",
-      "title": "Food Waste",
-      "instructions": "Choose the answer.",
-      "question": "How much food waste comes from our homes?",
+      "title": "الطَّعَامُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "كَمْ مِنْ نُفَايَاتِ الطَّعَامِ يَأْتِي مِنْ بُيُوتِنَا؟",
       "options": [
-       "about 60 percent",
-       "9 percent",
-       "100 percent"
+       "نَحْوُ ٦٠ فِي الْمِائَةِ",
+       "٩ فِي الْمِائَةِ",
+       "لَا شَيْءَ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “About 60 percent of all food waste comes from our homes.”",
+      "explanation": "الفصل الخامس: «نَحْوُ ٦٠ فِي الْمِائَةِ مِنْ كُلِّ نُفَايَاتِ الطَّعَامِ تَأْتِي مِنْ بُيُوتِنَا».",
       "feedback": {
-       "correct": "Yes. About 60 percent.",
-       "incorrect": "Read the first paragraph of Chapter 5."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الْخَامِسَ."
       }
      },
      {
-      "id": "zeroWaste-a1-kc-6",
+      "id": "zeroWaste-a1-ar-kc-6",
       "type": "multiple-choice",
-      "title": "Zero Waste",
-      "instructions": "Choose the answer.",
-      "question": "What is Zero Waste?",
+      "title": "صِفْرُ النُّفَايَاتِ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَا مَعْنَى صِفْرِ النُّفَايَاتِ؟",
       "options": [
-       "less waste",
-       "no waste at all",
-       "more recycling centers"
+       "أَنْ تَكُونَ النُّفَايَاتُ أَقَلَّ",
+       "لَا نُفَايَاتِ أَبَدًا",
+       "نُفَايَاتٌ كَثِيرَةٌ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 7: “It does not mean ‘no waste.’” “Zero Waste means having less waste.”",
+      "explanation": "الفصل السابع: «صِفْرُ النُّفَايَاتِ يَعْنِي أَنْ تَكُونَ النُّفَايَاتُ أَقَلَّ».",
       "feedback": {
-       "correct": "Yes. Less waste.",
-       "incorrect": "Read the first paragraph of Chapter 7."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ السَّابِعَ."
       }
      }
     ]
@@ -1606,476 +1615,353 @@
    {
     "id": 13,
     "type": "glossary",
-    "title": "Master Glossary",
-    "content": "Review all key vocabulary from the book in one place.",
+    "title": "المعجم الرئيسي",
+    "content": "راجع ملاحظات الكلمات في الكتاب كله في مكان واحد.",
     "image": "",
     "vocabulary": [
      {
-      "word": "throw away",
-      "definition": "Put something in the bin.",
-      "partOfSpeech": "phrasal verb",
+      "word": "نَرْمِيهِ",
+      "definition": "نَضَعُهُ فِي سَلَّةِ الْقُمَامَةِ.",
       "level": "A1",
-      "pronunciation": "/ˌθroʊ əˈweɪ/",
       "chapter": 1,
-      "chapterTitle": "What Is Waste?",
-      "storyExample": "Sometimes we do not finish our food, so we throw it away.",
-      "category": "Actions"
+      "chapterTitle": "مَا النُّفَايَاتُ؟",
+      "storyExample": "أَحْيَانًا لَا نُنْهِي طَعَامَنَا، فَنَرْمِيهِ."
      },
      {
-      "word": "waste",
-      "definition": "Things we do not want or need.",
-      "partOfSpeech": "verb, noun",
+      "word": "نُفَايَاتٍ",
+      "definition": "أَشْيَاءُ لَا نُرِيدُهَا وَلَا نَحْتَاجُ إِلَيْهَا.",
       "level": "A1",
-      "pronunciation": "/weɪst/",
       "chapter": 1,
-      "chapterTitle": "What Is Waste?",
-      "storyExample": "Boxes, bottles, and food are not the only waste.",
-      "category": "Waste"
+      "chapterTitle": "مَا النُّفَايَاتُ؟",
+      "storyExample": "الْعُلَبُ وَالزُّجَاجَاتُ وَالطَّعَامُ لَيْسَتْ هِيَ النُّفَايَاتِ الْوَحِيدَةَ."
      },
      {
-      "partOfSpeech": "verb",
-      "level": "B1",
-      "pronunciation": "/kriˈeɪt/",
-      "category": "Actions",
-      "word": "create",
-      "definition": "Make something.",
+      "word": "أَنْتَجَ",
+      "definition": "صَنَعَ شَيْئًا، أَوْ جَعَلَهُ يَكُونُ.",
+      "level": "A1",
       "chapter": 1,
-      "chapterTitle": "What Is Waste?",
-      "storyExample": "In 2023, people in cities created more than 2 billion tons of waste."
+      "chapterTitle": "مَا النُّفَايَاتُ؟",
+      "storyExample": "فِي عَامِ ٢٠٢٣، أَنْتَجَ النَّاسُ فِي الْمُدُنِ أَكْثَرَ مِنْ مِلْيَارَيْ طُنٍّ مِنَ النُّفَايَاتِ."
      },
      {
-      "word": "billion",
-      "definition": "1,000,000,000.",
-      "partOfSpeech": "number",
+      "word": "مِلْيَارَيْ",
+      "definition": "مِلْيَارَانِ. الْمِلْيَارُ الْوَاحِدُ هُوَ ١٬٠٠٠٬٠٠٠٬٠٠٠.",
       "level": "A1",
-      "pronunciation": "/ˈbɪljən/",
       "chapter": 1,
-      "chapterTitle": "What Is Waste?",
-      "storyExample": "In 2023, people in cities created more than 2 billion tons of waste.",
-      "category": "Numbers"
+      "chapterTitle": "مَا النُّفَايَاتُ؟",
+      "storyExample": "فِي عَامِ ٢٠٢٣، أَنْتَجَ النَّاسُ فِي الْمُدُنِ أَكْثَرَ مِنْ مِلْيَارَيْ طُنٍّ مِنَ النُّفَايَاتِ."
      },
      {
-      "word": "tons",
-      "definition": "1 ton is 1,000 kilograms.",
-      "partOfSpeech": "noun",
+      "word": "طُنٍّ",
+      "definition": "الطُّنُّ الْوَاحِدُ هُوَ ١٠٠٠ كِيلُوغْرَامٍ.",
       "level": "A1",
-      "pronunciation": "/tʌnz/",
       "chapter": 1,
-      "chapterTitle": "What Is Waste?",
-      "storyExample": "In 2023, people in cities created more than 2 billion tons of waste.",
-      "category": "Numbers"
+      "chapterTitle": "مَا النُّفَايَاتُ؟",
+      "storyExample": "فِي عَامِ ٢٠٢٣، أَنْتَجَ النَّاسُ فِي الْمُدُنِ أَكْثَرَ مِنْ مِلْيَارَيْ طُنٍّ مِنَ النُّفَايَاتِ."
      },
      {
-      "word": "trash",
-      "definition": "Things with no use; we cannot use them again.",
-      "partOfSpeech": "noun",
+      "word": "قُمَامَةً",
+      "definition": "أَشْيَاءُ بِلَا فَائِدَةٍ؛ لَا نَسْتَطِيعُ أَنْ نَسْتَخْدِمَهَا مَرَّةً أُخْرَى.",
       "level": "A1",
-      "pronunciation": "/træʃ/",
       "chapter": 1,
-      "chapterTitle": "What Is Waste?",
-      "storyExample": "There is a lot of waste, but it is not all trash.",
-      "category": "Waste"
+      "chapterTitle": "مَا النُّفَايَاتُ؟",
+      "storyExample": "هُنَاكَ نُفَايَاتٌ كَثِيرَةٌ، لَكِنَّهَا لَيْسَتْ كُلُّهَا قُمَامَةً."
      },
      {
-      "word": "wood",
-      "definition": "The hard part of a tree.",
-      "partOfSpeech": "noun",
+      "word": "الْخَشَبُ",
+      "definition": "الْجُزْءُ الصُّلْبُ مِنَ الشَّجَرَةِ.",
       "level": "A1",
-      "pronunciation": "/wʊd/",
       "chapter": 2,
-      "chapterTitle": "Paper, Wood and Glass",
-      "storyExample": "Paper and wood come from trees.",
-      "category": "Materials"
+      "chapterTitle": "الْوَرَقُ وَالْخَشَبُ وَالزُّجَاجُ",
+      "storyExample": "يَأْتِي الْوَرَقُ وَالْخَشَبُ مِنَ الْأَشْجَارِ."
      },
      {
-      "word": "recycle",
-      "definition": "Make new things from old things.",
-      "partOfSpeech": "verb",
+      "word": "نُعِيدَ تَدْوِيرَ",
+      "definition": "نَصْنَعَ أَشْيَاءَ جَدِيدَةً مِنْ أَشْيَاءَ قَدِيمَةٍ.",
       "level": "A1",
-      "pronunciation": "/ˌriːˈsaɪkl/",
       "chapter": 2,
-      "chapterTitle": "Paper, Wood and Glass",
-      "storyExample": "We can recycle old paper.",
-      "category": "Actions"
+      "chapterTitle": "الْوَرَقُ وَالْخَشَبُ وَالزُّجَاجُ",
+      "storyExample": "نَسْتَطِيعُ أَنْ نُعِيدَ تَدْوِيرَ الْوَرَقِ الْقَدِيمِ."
      },
      {
-      "partOfSpeech": "noun",
-      "level": "A2",
-      "pronunciation": "/riːˈsaɪklɪŋ ˌsentərz/",
-      "category": "Places",
-      "word": "recycling centers",
-      "definition": "Places where workers recycle old things.",
-      "chapter": 2,
-      "chapterTitle": "Paper, Wood and Glass",
-      "storyExample": "For example, old tables and chairs go to recycling centers."
-     },
-     {
-      "word": "bin",
-      "definition": "A box for waste.",
-      "partOfSpeech": "noun",
+      "word": "مَرَاكِزِ إِعَادَةِ التَّدْوِيرِ",
+      "definition": "أَمَاكِنُ يَصْنَعُ فِيهَا الْعُمَّالُ أَشْيَاءَ جَدِيدَةً مِنْ أَشْيَاءَ قَدِيمَةٍ.",
       "level": "A1",
-      "pronunciation": "/bɪn/",
       "chapter": 2,
-      "chapterTitle": "Paper, Wood and Glass",
-      "storyExample": "We should put old glass bottles and jars in a recycling bin.",
-      "category": "Waste"
+      "chapterTitle": "الْوَرَقُ وَالْخَشَبُ وَالزُّجَاجُ",
+      "storyExample": "مَثَلًا، تَذْهَبُ الطَّاوِلَاتُ وَالْكَرَاسِيُّ الْقَدِيمَةُ إِلَى مَرَاكِزِ إِعَادَةِ التَّدْوِيرِ."
      },
      {
-      "word": "jars",
-      "definition": "Glass boxes for food, like honey.",
-      "partOfSpeech": "noun",
+      "word": "الْعُمَّالُ",
+      "definition": "أَشْخَاصٌ يَعْمَلُونَ.",
       "level": "A1",
-      "pronunciation": "/dʒɑːrz/",
       "chapter": 2,
-      "chapterTitle": "Paper, Wood and Glass",
-      "storyExample": "We should put old glass bottles and jars in a recycling bin.",
-      "category": "Things"
+      "chapterTitle": "الْوَرَقُ وَالْخَشَبُ وَالزُّجَاجُ",
+      "storyExample": "هُنَاكَ، يَصْنَعُ الْعُمَّالُ مِنْهَا أَشْيَاءَ جَدِيدَةً لِبُيُوتِنَا."
      },
      {
-      "word": "workers",
-      "definition": "People at work.",
-      "partOfSpeech": "noun",
+      "word": "حَاوِيَةِ",
+      "definition": "صُنْدُوقٌ لِلنُّفَايَاتِ.",
       "level": "A1",
-      "pronunciation": "/ˈwɜːrkərz/",
       "chapter": 2,
-      "chapterTitle": "Paper, Wood and Glass",
-      "storyExample": "There, workers make new things for our homes from them.",
-      "category": "People"
+      "chapterTitle": "الْوَرَقُ وَالْخَشَبُ وَالزُّجَاجُ",
+      "storyExample": "يَجِبُ أَنْ نَضَعَ الزُّجَاجَاتِ وَالْمَرْطَبَانَاتِ الزُّجَاجِيَّةَ الْقَدِيمَةَ فِي حَاوِيَةِ إِعَادَةِ التَّدْوِيرِ."
      },
      {
-      "word": "plastic",
-      "definition": "A light, strong material for bags and bottles.",
-      "partOfSpeech": "noun",
+      "word": "الْمَرْطَبَانَاتِ",
+      "definition": "عُلَبٌ زُجَاجِيَّةٌ لِلطَّعَامِ، مِثْلُ الْعَسَلِ.",
       "level": "A1",
-      "pronunciation": "/ˈplæstɪk/",
+      "chapter": 2,
+      "chapterTitle": "الْوَرَقُ وَالْخَشَبُ وَالزُّجَاجُ",
+      "storyExample": "يَجِبُ أَنْ نَضَعَ الزُّجَاجَاتِ وَالْمَرْطَبَانَاتِ الزُّجَاجِيَّةَ الْقَدِيمَةَ فِي حَاوِيَةِ إِعَادَةِ التَّدْوِيرِ."
+     },
+     {
+      "word": "الْبِلَاسْتِيكُ",
+      "definition": "مَادَّةٌ خَفِيفَةٌ وَقَوِيَّةٌ لِلْأَكْيَاسِ وَالزُّجَاجَاتِ.",
+      "level": "A1",
       "chapter": 3,
-      "chapterTitle": "Plastic and the Sea",
-      "storyExample": "Plastic is in many things.",
-      "category": "Materials"
+      "chapterTitle": "الْبِلَاسْتِيكُ وَالْبَحْرُ",
+      "storyExample": "الْبِلَاسْتِيكُ فِي أَشْيَاءَ كَثِيرَةٍ."
      },
      {
-      "word": "million",
-      "definition": "1,000,000.",
-      "partOfSpeech": "number",
+      "word": "مِلْيُونَ",
+      "definition": "١٬٠٠٠٬٠٠٠.",
       "level": "A1",
-      "pronunciation": "/ˈmɪljən/",
       "chapter": 3,
-      "chapterTitle": "Plastic and the Sea",
-      "storyExample": "In 2019, there were about 350 million tons of plastic waste in the world.",
-      "category": "Numbers"
+      "chapterTitle": "الْبِلَاسْتِيكُ وَالْبَحْرُ",
+      "storyExample": "فِي عَامِ ٢٠١٩، كَانَ فِي الْعَالَمِ نَحْوُ ٣٥٠ مِلْيُونَ طُنٍّ مِنَ النُّفَايَاتِ الْبِلَاسْتِيكِيَّةِ."
      },
      {
-      "word": "percent",
-      "definition": "A part of 100; 50 percent is half.",
-      "partOfSpeech": "noun",
+      "word": "فِي الْمِائَةِ",
+      "definition": "جُزْءٌ مِنْ ١٠٠. خَمْسُونَ فِي الْمِائَةِ هِيَ النِّصْفُ.",
       "level": "A1",
-      "pronunciation": "/pərˈsent/",
       "chapter": 3,
-      "chapterTitle": "Plastic and the Sea",
-      "storyExample": "People recycled only 9 percent of it, and they put half of it under the ground.",
-      "category": "Numbers"
+      "chapterTitle": "الْبِلَاسْتِيكُ وَالْبَحْرُ",
+      "storyExample": "أَعَادَ النَّاسُ تَدْوِيرَ ٩ فِي الْمِائَةِ فَقَطْ مِنْهَا، وَوَضَعُوا نِصْفَهَا تَحْتَ الْأَرْضِ."
      },
      {
-      "word": "ground",
-      "definition": "The earth under our feet.",
-      "partOfSpeech": "noun",
+      "word": "الْأَرْضِ",
+      "definition": "التُّرَابُ تَحْتَ أَقْدَامِنَا.",
       "level": "A1",
-      "pronunciation": "/ɡraʊnd/",
       "chapter": 3,
-      "chapterTitle": "Plastic and the Sea",
-      "storyExample": "People recycled only 9 percent of it, and they put half of it under the ground.",
-      "category": "Nature"
+      "chapterTitle": "الْبِلَاسْتِيكُ وَالْبَحْرُ",
+      "storyExample": "أَعَادَ النَّاسُ تَدْوِيرَ ٩ فِي الْمِائَةِ فَقَطْ مِنْهَا، وَوَضَعُوا نِصْفَهَا تَحْتَ الْأَرْضِ."
      },
      {
-      "partOfSpeech": "adjective",
-      "level": "A2",
-      "pronunciation": "/sɪk/",
-      "category": "Nature",
-      "word": "sick",
-      "definition": "Not well; ill.",
+      "word": "فَتَمْرَضُ",
+      "definition": "تَصِيرُ مَرِيضَةً.",
+      "level": "A1",
       "chapter": 3,
-      "chapterTitle": "Plastic and the Sea",
-      "storyExample": "Fish and birds eat it, and they get sick."
+      "chapterTitle": "الْبِلَاسْتِيكُ وَالْبَحْرُ",
+      "storyExample": "تَأْكُلُهُ الْأَسْمَاكُ وَالطُّيُورُ، فَتَمْرَضُ."
      },
      {
-      "partOfSpeech": "phrasal verb",
-      "level": "B1",
-      "pronunciation": "/ˌteɪk əˈpɑːrt/",
-      "category": "Actions",
-      "word": "take apart",
-      "definition": "Put the parts of a thing in different groups.",
-      "chapter": 4,
-      "chapterTitle": "Cartons, Cans and Oil",
-      "storyExample": "Workers at recycling centers take the paper and plastic apart."
-     },
-     {
-      "word": "cans",
-      "definition": "Metal boxes for drinks or food.",
-      "partOfSpeech": "noun",
+      "word": "يَفْصِلُ",
+      "definition": "يَجْعَلُ الْأَشْيَاءَ لَيْسَتْ مَعًا.",
       "level": "A1",
-      "pronunciation": "/kænz/",
       "chapter": 4,
-      "chapterTitle": "Cartons, Cans and Oil",
-      "storyExample": "Drink cans are metal.",
-      "category": "Things"
+      "chapterTitle": "الْعُلَبُ الْكَرْتُونِيَّةُ وَالْعُلَبُ الْمَعْدِنِيَّةُ وَالزَّيْتُ",
+      "storyExample": "يَفْصِلُ الْعُمَّالُ فِي مَرَاكِزِ إِعَادَةِ التَّدْوِيرِ الْوَرَقَ عَنِ الْبِلَاسْتِيكِ."
      },
      {
-      "word": "metal",
-      "definition": "A hard material, like iron.",
-      "partOfSpeech": "noun",
+      "word": "عُلَبُ الْمَشْرُوبَاتِ",
+      "definition": "عُلَبٌ مِنَ الْمَعْدِنِ لِلْمَشْرُوبَاتِ.",
       "level": "A1",
-      "pronunciation": "/ˈmetl/",
       "chapter": 4,
-      "chapterTitle": "Cartons, Cans and Oil",
-      "storyExample": "Drink cans are metal.",
-      "category": "Materials"
+      "chapterTitle": "الْعُلَبُ الْكَرْتُونِيَّةُ وَالْعُلَبُ الْمَعْدِنِيَّةُ وَالزَّيْتُ",
+      "storyExample": "عُلَبُ الْمَشْرُوبَاتِ مِنَ الْمَعْدِنِ."
      },
      {
-      "word": "melt",
-      "definition": "Make something very hot until it becomes soft.",
-      "partOfSpeech": "verb",
+      "word": "الْمَعْدِنِ",
+      "definition": "مَادَّةٌ صُلْبَةٌ، مِثْلُ الْحَدِيدِ.",
       "level": "A1",
-      "pronunciation": "/melt/",
       "chapter": 4,
-      "chapterTitle": "Cartons, Cans and Oil",
-      "storyExample": "Workers melt old metal and make new things from it.",
-      "category": "Actions"
+      "chapterTitle": "الْعُلَبُ الْكَرْتُونِيَّةُ وَالْعُلَبُ الْمَعْدِنِيَّةُ وَالزَّيْتُ",
+      "storyExample": "عُلَبُ الْمَشْرُوبَاتِ مِنَ الْمَعْدِنِ."
      },
      {
-      "word": "oil",
-      "definition": "A liquid from plants for cooking.",
-      "partOfSpeech": "noun",
+      "word": "يُذِيبُ",
+      "definition": "يَجْعَلُ شَيْئًا سَاخِنًا جِدًّا حَتَّى يَصِيرَ لَيِّنًا.",
       "level": "A1",
-      "pronunciation": "/ɔɪl/",
       "chapter": 4,
-      "chapterTitle": "Cartons, Cans and Oil",
-      "storyExample": "Another problem is cooking oil.",
-      "category": "Kitchen"
+      "chapterTitle": "الْعُلَبُ الْكَرْتُونِيَّةُ وَالْعُلَبُ الْمَعْدِنِيَّةُ وَالزَّيْتُ",
+      "storyExample": "يُذِيبُ الْعُمَّالُ الْمَعْدِنَ الْقَدِيمَ وَيَصْنَعُونَ مِنْهُ أَشْيَاءَ جَدِيدَةً."
      },
      {
-      "word": "sink",
-      "definition": "The place in the kitchen where we wash things.",
-      "partOfSpeech": "noun",
+      "word": "زَيْتُ الطَّبْخِ",
+      "definition": "سَائِلٌ مِنَ النَّبَاتَاتِ لِلطَّبْخِ.",
       "level": "A1",
-      "pronunciation": "/sɪŋk/",
       "chapter": 4,
-      "chapterTitle": "Cartons, Cans and Oil",
-      "storyExample": "We must not put it into the sink because it makes the water dirty.",
-      "category": "Kitchen"
+      "chapterTitle": "الْعُلَبُ الْكَرْتُونِيَّةُ وَالْعُلَبُ الْمَعْدِنِيَّةُ وَالزَّيْتُ",
+      "storyExample": "وَمُشْكِلَةٌ أُخْرَى هِيَ زَيْتُ الطَّبْخِ."
      },
      {
-      "word": "goes to waste",
-      "definition": "Is not used; goes into the bin.",
-      "partOfSpeech": "phrase",
+      "word": "الْمَغْسَلَةِ",
+      "definition": "مَكَانٌ فِي الْمَطْبَخِ نَغْسِلُ فِيهِ الْأَشْيَاءَ.",
       "level": "A1",
-      "pronunciation": "/ɡoʊz tə ˈweɪst/",
+      "chapter": 4,
+      "chapterTitle": "الْعُلَبُ الْكَرْتُونِيَّةُ وَالْعُلَبُ الْمَعْدِنِيَّةُ وَالزَّيْتُ",
+      "storyExample": "يَجِبُ أَلَّا نَصُبَّهُ فِي الْمَغْسَلَةِ لِأَنَّهُ يَجْعَلُ الْمَاءَ قَذِرًا."
+     },
+     {
+      "word": "يَضِيعُ",
+      "definition": "لَا نَسْتَخْدِمُهُ؛ يَذْهَبُ إِلَى الْحَاوِيَةِ.",
+      "level": "A1",
       "chapter": 5,
-      "chapterTitle": "Food Waste",
-      "storyExample": "A lot of food goes to waste.",
-      "category": "Waste"
+      "chapterTitle": "نُفَايَاتُ الطَّعَامِ",
+      "storyExample": "كَثِيرٌ مِنَ الطَّعَامِ يَضِيعُ."
      },
      {
-      "partOfSpeech": "adjective",
-      "level": "B1",
-      "pronunciation": "/ɪˌlekˈtrɑːnɪk/",
-      "category": "Things",
-      "word": "electronic",
-      "definition": "Working with electricity, like phones, computers and TVs.",
+      "word": "إِلِكْتُرُونِيَّةٌ",
+      "definition": "تَعْمَلُ بِالْكَهْرَبَاءِ، مِثْلُ الْهَاتِفِ وَالْحَاسُوبِ.",
+      "level": "A1",
       "chapter": 6,
-      "chapterTitle": "Old Phones and Batteries",
-      "storyExample": "We have a lot of electronic things at home and at school."
+      "chapterTitle": "الْهَوَاتِفُ الْقَدِيمَةُ وَالْبَطَّارِيَّاتُ",
+      "storyExample": "عِنْدَنَا أَشْيَاءُ إِلِكْتُرُونِيَّةٌ كَثِيرَةٌ فِي الْبَيْتِ وَفِي الْمَدْرَسَةِ."
      },
      {
-      "partOfSpeech": "adjective",
-      "level": "A2",
-      "pronunciation": "/ˈspeʃəl/",
-      "category": "Things",
-      "word": "special",
-      "definition": "Only for one thing.",
+      "word": "خَاصَّةٍ",
+      "definition": "لِشَيْءٍ وَاحِدٍ فَقَطْ.",
+      "level": "A1",
       "chapter": 6,
-      "chapterTitle": "Old Phones and Batteries",
-      "storyExample": "We should put old electronics in a special recycling bin."
+      "chapterTitle": "الْهَوَاتِفُ الْقَدِيمَةُ وَالْبَطَّارِيَّاتُ",
+      "storyExample": "يَجِبُ أَنْ نَضَعَ الْأَجْهِزَةَ الْإِلِكْتُرُونِيَّةَ الْقَدِيمَةَ فِي حَاوِيَةِ إِعَادَةِ تَدْوِيرٍ خَاصَّةٍ."
      },
      {
-      "word": "break",
-      "definition": "Stop working.",
-      "partOfSpeech": "verb",
+      "word": "تَنْكَسِرُ",
+      "definition": "تَتَوَقَّفُ عَنِ الْعَمَلِ.",
       "level": "A1",
-      "pronunciation": "/breɪk/",
       "chapter": 6,
-      "chapterTitle": "Old Phones and Batteries",
-      "storyExample": "Sometimes they get old or break, so we throw them away.",
-      "category": "Actions"
+      "chapterTitle": "الْهَوَاتِفُ الْقَدِيمَةُ وَالْبَطَّارِيَّاتُ",
+      "storyExample": "أَحْيَانًا تُصْبِحُ قَدِيمَةً أَوْ تَنْكَسِرُ، فَنَرْمِيهَا."
      },
      {
-      "word": "batteries",
-      "definition": "Small things that make phones and clocks work.",
-      "partOfSpeech": "noun",
+      "word": "الْبَطَّارِيَّاتُ",
+      "definition": "أَشْيَاءُ صَغِيرَةٌ تَجْعَلُ الْهَوَاتِفَ وَالسَّاعَاتِ تَعْمَلُ.",
       "level": "A1",
-      "pronunciation": "/ˈbætəriz/",
       "chapter": 6,
-      "chapterTitle": "Old Phones and Batteries",
-      "storyExample": "Batteries make games, phones, and clocks work.",
-      "category": "Things"
+      "chapterTitle": "الْهَوَاتِفُ الْقَدِيمَةُ وَالْبَطَّارِيَّاتُ",
+      "storyExample": "الْبَطَّارِيَّاتُ تَجْعَلُ الْأَلْعَابَ وَالْهَوَاتِفَ وَالسَّاعَاتِ تَعْمَلُ."
      },
      {
-      "word": "dangerous",
-      "definition": "Bad for people and nature.",
-      "partOfSpeech": "adjective",
+      "word": "خَطِيرَةٌ",
+      "definition": "سَيِّئَةٌ لِلنَّاسِ وَلِلطَّبِيعَةِ.",
       "level": "A1",
-      "pronunciation": "/ˈdeɪndʒərəs/",
       "chapter": 6,
-      "chapterTitle": "Old Phones and Batteries",
-      "storyExample": "Old batteries are dangerous.",
-      "category": "Describing"
+      "chapterTitle": "الْهَوَاتِفُ الْقَدِيمَةُ وَالْبَطَّارِيَّاتُ",
+      "storyExample": "الْبَطَّارِيَّاتُ الْقَدِيمَةُ خَطِيرَةٌ."
      },
      {
-      "word": "Zero Waste",
-      "definition": "A way of life with less waste.",
-      "partOfSpeech": "noun",
+      "word": "صِفْرُ النُّفَايَاتِ",
+      "definition": "طَرِيقَةُ حَيَاةٍ فِيهَا نُفَايَاتٌ أَقَلُّ.",
       "level": "A1",
-      "pronunciation": "/ˌzɪroʊ ˈweɪst/",
       "chapter": 7,
-      "chapterTitle": "Zero Waste and the Three Rs",
-      "storyExample": "What is Zero Waste?",
-      "category": "Ideas"
+      "chapterTitle": "صِفْرُ النُّفَايَاتِ وَالْقَوَاعِدُ الثَّلَاثُ",
+      "storyExample": "مَا صِفْرُ النُّفَايَاتِ؟"
      },
      {
-      "word": "less",
-      "definition": "Not as much.",
-      "partOfSpeech": "determiner",
+      "word": "أَقَلَّ",
+      "definition": "لَيْسَ بِالْكَثْرَةِ نَفْسِهَا.",
       "level": "A1",
-      "pronunciation": "/les/",
       "chapter": 7,
-      "chapterTitle": "Zero Waste and the Three Rs",
-      "storyExample": "Zero Waste means having less waste.",
-      "category": "Ideas"
+      "chapterTitle": "صِفْرُ النُّفَايَاتِ وَالْقَوَاعِدُ الثَّلَاثُ",
+      "storyExample": "صِفْرُ النُّفَايَاتِ يَعْنِي أَنْ تَكُونَ النُّفَايَاتُ أَقَلَّ."
      },
      {
-      "word": "reduce",
-      "definition": "Use less.",
-      "partOfSpeech": "verb",
+      "word": "قَلِّلْ",
+      "definition": "اسْتَخْدِمْ أَقَلَّ.",
       "level": "A1",
-      "pronunciation": "/rɪˈduːs/",
       "chapter": 7,
-      "chapterTitle": "Zero Waste and the Three Rs",
-      "storyExample": "Reduce: Use less.",
-      "category": "Actions"
+      "chapterTitle": "صِفْرُ النُّفَايَاتِ وَالْقَوَاعِدُ الثَّلَاثُ",
+      "storyExample": "هَذِهِ هِيَ الْقَوَاعِدُ الثَّلَاثُ لِصِفْرِ النُّفَايَاتِ: قَلِّلْ: اسْتَخْدِمْ أَقَلَّ."
      },
      {
-      "word": "reuse",
-      "definition": "Use again.",
-      "partOfSpeech": "verb",
+      "word": "أَعِدِ الِاسْتِخْدَامَ",
+      "definition": "اسْتَخْدِمْ مَرَّةً أُخْرَى.",
       "level": "A1",
-      "pronunciation": "/ˌriːˈjuːz/",
       "chapter": 7,
-      "chapterTitle": "Zero Waste and the Three Rs",
-      "storyExample": "Reuse and Repair: Use things again.",
-      "category": "Actions"
+      "chapterTitle": "صِفْرُ النُّفَايَاتِ وَالْقَوَاعِدُ الثَّلَاثُ",
+      "storyExample": "أَعِدِ الِاسْتِخْدَامَ وَأَصْلِحْ: اسْتَخْدِمِ الْأَشْيَاءَ مَرَّةً أُخْرَى."
      },
      {
-      "word": "repair",
-      "definition": "Make a broken thing good again.",
-      "partOfSpeech": "verb",
+      "word": "أَصْلِحْ",
+      "definition": "اجْعَلِ الشَّيْءَ الْمَكْسُورَ جَيِّدًا مَرَّةً أُخْرَى.",
       "level": "A1",
-      "pronunciation": "/rɪˈper/",
       "chapter": 7,
-      "chapterTitle": "Zero Waste and the Three Rs",
-      "storyExample": "Reuse and Repair: Use things again.",
-      "category": "Actions"
+      "chapterTitle": "صِفْرُ النُّفَايَاتِ وَالْقَوَاعِدُ الثَّلَاثُ",
+      "storyExample": "أَعِدِ الِاسْتِخْدَامَ وَأَصْلِحْ: اسْتَخْدِمِ الْأَشْيَاءَ مَرَّةً أُخْرَى."
      },
      {
-      "partOfSpeech": "verb",
-      "level": "A2",
-      "pronunciation": "/fɪks/",
-      "category": "Actions",
-      "word": "fix",
-      "definition": "Make a broken thing work again.",
-      "chapter": 7,
-      "chapterTitle": "Zero Waste and the Three Rs",
-      "storyExample": "When something is broken, fix it."
-     },
-     {
-      "partOfSpeech": "pronoun",
-      "level": "A2",
-      "pronunciation": "/ˈevriwʌn/",
-      "category": "People",
-      "word": "everyone",
-      "definition": "All people.",
-      "chapter": 7,
-      "chapterTitle": "Zero Waste and the Three Rs",
-      "storyExample": "It does not mean “no waste.” Everyone makes some trash every day."
-     },
-     {
-      "word": "bottle",
-      "definition": "A glass or plastic thing for water.",
-      "partOfSpeech": "noun",
+      "word": "أَعِدِ التَّدْوِيرَ",
+      "definition": "اصْنَعْ أَشْيَاءَ جَدِيدَةً مِنْ أَشْيَاءَ قَدِيمَةٍ.",
       "level": "A1",
-      "pronunciation": "/ˈbɑːtl/",
+      "chapter": 7,
+      "chapterTitle": "صِفْرُ النُّفَايَاتِ وَالْقَوَاعِدُ الثَّلَاثُ",
+      "storyExample": "أَعِدِ التَّدْوِيرَ: اصْنَعْ أَشْيَاءَ جَدِيدَةً مِنْ أَشْيَاءَ قَدِيمَةٍ."
+     },
+     {
+      "word": "كُلُّ شَخْصٍ",
+      "definition": "كُلُّ النَّاسِ، وَاحِدًا وَاحِدًا.",
+      "level": "A1",
+      "chapter": 7,
+      "chapterTitle": "صِفْرُ النُّفَايَاتِ وَالْقَوَاعِدُ الثَّلَاثُ",
+      "storyExample": "كُلُّ شَخْصٍ يُنْتِجُ بَعْضَ الْقُمَامَةِ كُلَّ يَوْمٍ."
+     },
+     {
+      "word": "زُجَاجَاتِنَا",
+      "definition": "الزُّجَاجَةُ: شَيْءٌ مِنَ الزُّجَاجِ أَوِ الْبِلَاسْتِيكِ لِلْمَاءِ.",
+      "level": "A1",
       "chapter": 8,
-      "chapterTitle": "What Can We Do?",
-      "storyExample": "At school, we can use our own bottles and cups.",
-      "category": "Things"
+      "chapterTitle": "مَاذَا نَسْتَطِيعُ أَنْ نَفْعَلَ؟",
+      "storyExample": "وَفِي الْمَدْرَسَةِ، نَسْتَطِيعُ أَنْ نَسْتَخْدِمَ زُجَاجَاتِنَا وَأَكْوَابَنَا الْخَاصَّةَ."
      },
      {
-      "word": "straws",
-      "definition": "Thin plastic tubes for drinks.",
-      "partOfSpeech": "noun",
+      "word": "لِلْمَصَّاصَاتِ",
+      "definition": "أَنَابِيبُ بِلَاسْتِيكِيَّةٌ رَفِيعَةٌ لِلْمَشْرُوبَاتِ.",
       "level": "A1",
-      "pronunciation": "/strɔːz/",
       "chapter": 8,
-      "chapterTitle": "What Can We Do?",
-      "storyExample": "We should also say “no” to plastic straws.",
-      "category": "Things"
+      "chapterTitle": "مَاذَا نَسْتَطِيعُ أَنْ نَفْعَلَ؟",
+      "storyExample": "لِلْمَصَّاصَاتِ الْبِلَاسْتِيكِيَّةِ."
      },
      {
-      "word": "tool libraries",
-      "definition": "Places where you can take tools and bring them back.",
-      "partOfSpeech": "noun",
+      "word": "مَكْتَبَاتٌ لِلْأَدَوَاتِ",
+      "definition": "أَمَاكِنُ تَأْخُذُ مِنْهَا الْأَدَوَاتِ، ثُمَّ تُعِيدُهَا.",
       "level": "A1",
-      "pronunciation": "/ˈtuːl ˌlaɪbreriz/",
       "chapter": 8,
-      "chapterTitle": "What Can We Do?",
-      "storyExample": "Some cities have tool libraries.",
-      "category": "Places"
+      "chapterTitle": "مَاذَا نَسْتَطِيعُ أَنْ نَفْعَلَ؟",
+      "storyExample": "فِي بَعْضِ الْمُدُنِ مَكْتَبَاتٌ لِلْأَدَوَاتِ."
      },
      {
-      "partOfSpeech": "adjective",
-      "level": "A2",
-      "pronunciation": "/oʊn/",
-      "category": "Things",
-      "word": "own",
-      "definition": "It is yours.",
+      "word": "الْخَاصَّةَ",
+      "definition": "لَنَا نَحْنُ، لَيْسَتْ لِغَيْرِنَا.",
+      "level": "A1",
       "chapter": 8,
-      "chapterTitle": "What Can We Do?",
-      "storyExample": "For example, we can bring our own bags to the shop."
+      "chapterTitle": "مَاذَا نَسْتَطِيعُ أَنْ نَفْعَلَ؟",
+      "storyExample": "مَثَلًا، نَسْتَطِيعُ أَنْ نُحْضِرَ أَكْيَاسَنَا الْخَاصَّةَ إِلَى الْمَتْجَرِ."
      },
      {
-      "partOfSpeech": "verb",
-      "level": "A2",
-      "pronunciation": "/ˈbɑːroʊ/",
-      "category": "Actions",
-      "word": "borrow",
-      "definition": "Take a thing and give it back later.",
+      "word": "يَسْتَعِيرُوا",
+      "definition": "يَأْخُذُوا شَيْئًا، ثُمَّ يُعِيدُوهُ.",
+      "level": "A1",
       "chapter": 8,
-      "chapterTitle": "What Can We Do?",
-      "storyExample": "People can borrow tools from there, so they do not need to buy them."
+      "chapterTitle": "مَاذَا نَسْتَطِيعُ أَنْ نَفْعَلَ؟",
+      "storyExample": "يَسْتَطِيعُ النَّاسُ أَنْ يَسْتَعِيرُوا الْأَدَوَاتِ مِنْهَا، فَلَا يَحْتَاجُونَ إِلَى شِرَائِهَا."
      }
     ]
    },
    {
     "id": 102,
     "type": "key-terms",
-    "title": "Key Terms",
-    "content": "6 big ideas from the text. Turn a card to see it in Arabic.",
+    "title": "الْمُصْطَلَحَاتُ الرَّئِيسِيَّةُ",
+    "content": "أَفْكَارٌ كَبِيرَةٌ مِنَ الْكِتَابِ. اقْلِبِ الْبِطَاقَةَ لِتَرَاهَا بِالْإِنْجِلِيزِيَّةِ.",
     "terms": [
      {
       "kind": "Idea",
       "term": "Zero Waste",
       "chapter": 7,
       "definition": "A way of life with less waste.",
-      "termAr": "صِفْرُ نُفَايَاتٍ",
-      "definitionAr": "أُسْلُوبُ حَيَاةٍ بِنُفَايَاتٍ أَقَلَّ."
+      "termAr": "صِفْرُ النُّفَايَاتِ",
+      "definitionAr": "طَرِيقَةُ حَيَاةٍ فِيهَا نُفَايَاتٌ أَقَلُّ."
      },
      {
       "kind": "Action",
@@ -2091,7 +1977,7 @@
       "chapter": 7,
       "definition": "Use less. Buy only the things you need.",
       "termAr": "التَّقْلِيلُ",
-      "definitionAr": "أَنْ نَسْتَخْدِمَ أَقَلَّ، وَأَلَّا نَشْتَرِيَ إِلَّا مَا نَحْتَاجُ إِلَيْهِ."
+      "definitionAr": "أَنْ نَسْتَخْدِمَ أَقَلَّ."
      },
      {
       "kind": "Action",
@@ -2099,7 +1985,7 @@
       "chapter": 7,
       "definition": "Use a thing again.",
       "termAr": "إِعَادَةُ الِاسْتِخْدَامِ",
-      "definitionAr": "اسْتِخْدَامُ الشَّيْءِ مَرَّةً أُخْرَى."
+      "definitionAr": "أَنْ نَسْتَخْدِمَ الْأَشْيَاءَ مَرَّةً أُخْرَى."
      },
      {
       "kind": "Place",
@@ -2107,7 +1993,7 @@
       "chapter": 2,
       "definition": "A box for things that we can recycle.",
       "termAr": "حَاوِيَةُ إِعَادَةِ التَّدْوِيرِ",
-      "definitionAr": "صُنْدُوقٌ لِلْأَشْيَاءِ الَّتِي يُمْكِنُ إِعَادَةُ تَدْوِيرِهَا."
+      "definitionAr": "صُنْدُوقٌ نَضَعُ فِيهِ الْوَرَقَ أَوِ الزُّجَاجَ الْقَدِيمَ."
      },
      {
       "kind": "Place",
@@ -2115,272 +2001,267 @@
       "chapter": 8,
       "definition": "A place where people borrow tools and bring them back.",
       "termAr": "مَكْتَبَةُ الْأَدَوَاتِ",
-      "definitionAr": "مَكَانٌ يَأْخُذُ مِنْهُ النَّاسُ الْأَدَوَاتِ ثُمَّ يُعِيدُونَهَا."
+      "definitionAr": "مَكَانٌ نَأْخُذُ مِنْهُ الْأَدَوَاتِ، ثُمَّ نُعِيدُهَا."
      }
     ]
    },
    {
     "id": 12,
     "type": "vocabulary-match",
-    "title": "Vocabulary Challenge",
+    "title": "تحدي المفردات",
     "image": "",
     "audioUrl": "",
-    "content": "Match six words from the book with their meanings.",
+    "content": "صِلْ سِتَّ كَلِمَاتٍ مِنَ الْقِصَّةِ بِمَعَانِيهَا.",
     "vocabularyPairs": [
      {
-      "word": "trash",
-      "meaning": "Things with no use; we cannot use them again.",
+      "word": "قُمَامَةً",
+      "meaning": "أَشْيَاءُ بِلَا فَائِدَةٍ؛ لَا نَسْتَطِيعُ أَنْ نَسْتَخْدِمَهَا مَرَّةً أُخْرَى.",
       "partOfSpeech": "noun",
       "chapter": 1,
-      "context": "There is a lot of waste, but it is not all trash."
+      "context": "هُنَاكَ نُفَايَاتٌ كَثِيرَةٌ، لَكِنَّهَا لَيْسَتْ كُلُّهَا قُمَامَةً."
      },
      {
-      "word": "recycle",
-      "meaning": "Make new things from old things.",
+      "word": "نُعِيدَ تَدْوِيرَ",
+      "meaning": "نَصْنَعَ أَشْيَاءَ جَدِيدَةً مِنْ أَشْيَاءَ قَدِيمَةٍ.",
       "partOfSpeech": "verb",
       "chapter": 2,
-      "context": "We can recycle old paper."
+      "context": "نَسْتَطِيعُ أَنْ نُعِيدَ تَدْوِيرَ الْوَرَقِ الْقَدِيمِ."
      },
      {
-      "word": "ground",
-      "meaning": "The earth under our feet.",
+      "word": "الْأَرْضِ",
+      "meaning": "التُّرَابُ تَحْتَ أَقْدَامِنَا.",
       "partOfSpeech": "noun",
       "chapter": 3,
-      "context": "People recycled only 9 percent of it, and they put half of it under the ground."
+      "context": "أَعَادَ النَّاسُ تَدْوِيرَ ٩ فِي الْمِائَةِ فَقَطْ مِنْهَا، وَوَضَعُوا نِصْفَهَا تَحْتَ الْأَرْضِ."
      },
      {
-      "word": "metal",
-      "meaning": "A hard material, like iron.",
+      "word": "الْمَعْدِنِ",
+      "meaning": "مَادَّةٌ صُلْبَةٌ، مِثْلُ الْحَدِيدِ.",
       "partOfSpeech": "noun",
       "chapter": 4,
-      "context": "Drink cans are metal."
+      "context": "عُلَبُ الْمَشْرُوبَاتِ مِنَ الْمَعْدِنِ."
      },
      {
-      "word": "dangerous",
-      "meaning": "Bad for people and nature.",
+      "word": "خَطِيرَةٌ",
+      "meaning": "سَيِّئَةٌ لِلنَّاسِ وَلِلطَّبِيعَةِ.",
       "partOfSpeech": "adjective",
       "chapter": 6,
-      "context": "Old batteries are dangerous."
+      "context": "الْبَطَّارِيَّاتُ الْقَدِيمَةُ خَطِيرَةٌ."
      },
      {
-      "word": "reduce",
-      "meaning": "Use less.",
+      "word": "قَلِّلْ",
+      "meaning": "اسْتَخْدِمْ أَقَلَّ.",
       "partOfSpeech": "verb",
       "chapter": 7,
-      "context": "Reduce: Use less."
+      "context": "هَذِهِ هِيَ الْقَوَاعِدُ الثَّلَاثُ لِصِفْرِ النُّفَايَاتِ: قَلِّلْ: اسْتَخْدِمْ أَقَلَّ."
      }
     ]
    },
    {
     "id": 14,
     "type": "exercises",
-    "title": "Language Review",
+    "title": "مراجعة اللغة",
     "image": "",
-    "content": "Review the language from all chapters.",
+    "content": "رَاجِعْ لُغَةَ الْفُصُولِ كُلِّهَا.",
     "exercises": [
      {
-      "id": "zeroWaste-a1-language-review-1",
-      "type": "choose-form",
-      "title": "Look: Should, Shouldn’t, Must Not",
-      "instructions": "Choose the right word.",
-      "question": "Which word goes in the gap?",
-      "formChoices": [
-       {
-        "sentence": "We [choice] only buy the food we need.",
-        "options": [
-         "should",
-         "must not"
-        ],
-        "answer": 0
-       },
-       {
-        "sentence": "We [choice] throw plastic into rivers and the sea.",
-        "options": [
-         "shouldn’t",
-         "should"
-        ],
-        "answer": 0
-       },
-       {
-        "sentence": "We [choice] put old oil into the sink.",
-        "options": [
-         "must not",
-         "should"
-        ],
-        "answer": 0
-       }
-      ],
-      "correctAnswer": null,
-      "explanation": "Should = it is good to do it. Shouldn’t = it is not good to do it. Must not = do not do it.",
-      "feedback": {
-       "correct": "Well done.",
-       "incorrect": "Find these sentences in Chapters 3, 4 and 5."
-      }
-     },
-     {
-      "id": "zeroWaste-a1-language-review-2",
+      "id": "zeroWaste-a1-ar-language-review-1",
       "type": "drag-drop",
-      "title": "Practise: Which Bin?",
-      "instructions": "Put each thing in the right group.",
-      "question": "Where does it go?",
+      "title": "انْظُرْ: افْعَلْ وَلَا تَفْعَلْ",
+      "instructions": "ضَعْ كُلَّ جُمْلَةٍ فِي مَجْمُوعَتِهَا.",
+      "question": "جَيِّدٌ أَمْ سَيِّئٌ؟",
       "dragDropGroups": [
        {
-        "group": "Recycling bin",
+        "group": "يَجِبُ أَنْ",
         "items": [
-         "old glass jars",
-         "old paper",
-         "old phones"
+         "نَضَعَ الْبَطَّارِيَّاتِ فِي حَاوِيَتِهَا.",
+         "نَشْتَرِيَ مَا نَحْتَاجُ إِلَيْهِ فَقَطْ."
         ]
        },
        {
-        "group": "Battery bin",
+        "group": "يَجِبُ أَلَّا",
         "items": [
-         "old batteries"
+         "نَصُبَّ الزَّيْتَ فِي الْمَغْسَلَةِ.",
+         "نَرْمِيَ الْبِلَاسْتِيكَ فِي الْبَحْرِ."
         ]
        }
       ],
       "correctAnswer": {
-       "Recycling bin": [
-        "old glass jars",
-        "old paper",
-        "old phones"
+       "يَجِبُ أَنْ": [
+        "نَضَعَ الْبَطَّارِيَّاتِ فِي حَاوِيَتِهَا.",
+        "نَشْتَرِيَ مَا نَحْتَاجُ إِلَيْهِ فَقَطْ."
        ],
-       "Battery bin": [
-        "old batteries"
+       "يَجِبُ أَلَّا": [
+        "نَصُبَّ الزَّيْتَ فِي الْمَغْسَلَةِ.",
+        "نَرْمِيَ الْبِلَاسْتِيكَ فِي الْبَحْرِ."
        ]
       },
-      "explanation": "Chapter 2: glass and paper. Chapter 6: old electronics go in a special recycling bin, old batteries go in a battery bin.",
+      "explanation": "شيء جيد: «يَجِبُ أَنْ». شيء سيئ: «يَجِبُ أَلَّا».",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapters 2 and 6 again."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "جَيِّدٌ أَمْ سَيِّئٌ؟"
       }
      },
      {
-      "id": "zeroWaste-a1-language-review-3",
+      "id": "zeroWaste-a1-ar-language-review-2",
       "type": "choose-form",
-      "title": "Practise: Then and Now",
-      "instructions": "Choose the right form.",
-      "question": "Past or now?",
+      "title": "تَدَرَّبْ: لِأَنَّ أَمْ أَوْ؟",
+      "instructions": "اخْتَرِ الْكَلِمَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةٍ؟",
       "formChoices": [
        {
-        "sentence": "In 2019, there [choice] about 350 million tons of plastic waste.",
+        "sentence": "يَجِبُ أَلَّا نَصُبَّ الزَّيْتَ فِي الْمَغْسَلَةِ [choice] يَجْعَلُ الْمَاءَ قَذِرًا.",
         "options": [
-         "were",
-         "are"
+         "لِأَنَّهُ",
+         "أَوْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "People [choice] only 9 percent of it.",
+        "sentence": "تُصْبِحُ الْهَوَاتِفُ قَدِيمَةً [choice] تَنْكَسِرُ.",
         "options": [
-         "recycled",
-         "recycle"
-        ],
-        "answer": 0
-       },
-       {
-        "sentence": "Today, plastic [choice] in many things.",
-        "options": [
-         "is",
-         "was"
+         "أَوْ",
+         "لِأَنَّهُ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "In 2019 = the past: were, recycled. Today = now: is.",
+      "explanation": "«لِأَنَّ» تقول السبب. «أَوْ» = هذا أو ذاك.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Read Chapter 3 again."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "سَبَبٌ أَمْ وَاحِدٌ مِنْ شَيْئَيْنِ؟"
       }
      },
      {
-      "id": "zeroWaste-a1-language-review-4",
+      "id": "zeroWaste-a1-ar-language-review-3",
+      "type": "choose-form",
+      "title": "تَدَرَّبْ: الْأَمْرُ",
+      "instructions": "اخْتَرِ الصِّيغَةَ الصَّحِيحَةَ.",
+      "question": "أَيُّ كَلِمَةٍ تَقُولُ: افْعَلْ؟",
+      "formChoices": [
+       {
+        "sentence": "[choice] أَقَلَّ.",
+        "options": [
+         "اسْتَخْدِمْ",
+         "يَسْتَخْدِمُ",
+         "اسْتَخْدَمَ"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] مَا تَحْتَاجُ إِلَيْهِ فَقَطْ.",
+        "options": [
+         "اشْتَرِ",
+         "يَشْتَرِي",
+         "اشْتَرَى"
+        ],
+        "answer": 0
+       },
+       {
+        "sentence": "[choice] الشَّيْءَ الْمَكْسُورَ.",
+        "options": [
+         "أَصْلِحِ",
+         "يُصْلِحُ",
+         "أَصْلَحَ"
+        ],
+        "answer": 0
+       }
+      ],
+      "correctAnswer": null,
+      "explanation": "للأمر: اسْتَخْدِمْ، اشْتَرِ، أَصْلِحْ.",
+      "feedback": {
+       "correct": "صَحِيحٌ.",
+       "incorrect": "رَاجِعِ الْفَصْلَ السَّابِعَ."
+      }
+     },
+     {
+      "id": "zeroWaste-a1-ar-language-review-4",
       "type": "word-bank",
-      "title": "Practise: The Best, The Biggest",
-      "instructions": "Fill the gaps with the words.",
-      "question": "Which word goes in the gap?",
-      "fillBlanksText": "Where is the [blank] problem? It is at home! The [blank] waste is no waste! The best time to start is [blank]!",
+      "title": "تَدَرَّبْ: مِنْ، نِصْفَ، نَسْتَطِيعُ",
+      "instructions": "ضَعِ الْكَلِمَةَ الْمُنَاسِبَةَ فِي الْفَرَاغِ.",
+      "question": "أَيُّ كَلِمَةٍ؟",
+      "fillBlanksText": "يَأْتِي الْوَرَقُ [blank] الْأَشْجَارِ. وَضَعَ النَّاسُ [blank] الْبِلَاسْتِيكِ تَحْتَ الْأَرْضِ. [blank] أَنْ نُحْضِرَ أَكْيَاسَنَا.",
       "wordBank": [
-       "biggest",
-       "best",
-       "now",
-       "big",
-       "good"
+       "مِنَ",
+       "نِصْفَ",
+       "نَسْتَطِيعُ",
+       "فِي",
+       "أَوْ"
       ],
       "correctAnswer": [
-       "biggest",
-       "best",
-       "now"
+       "مِنَ",
+       "نِصْفَ",
+       "نَسْتَطِيعُ"
       ],
-      "explanation": "Big → the biggest. Good → the best.",
+      "explanation": "«يَأْتِي مِنْ»، «نِصْف» = ٥٠ في المائة، «نَسْتَطِيعُ أَنْ» = ممكن.",
       "feedback": {
-       "correct": "Correct.",
-       "incorrect": "Find these sentences in Chapters 5 and 8."
+       "correct": "صَحِيحٌ.",
+       "incorrect": "ابْحَثْ فِي الْفُصُولِ ٢ وَ٣ وَ٨."
       }
      },
      {
-      "id": "zeroWaste-a1-language-review-5",
+      "id": "zeroWaste-a1-ar-language-review-5",
       "type": "error-correction",
-      "title": "Practise: Fix One Word",
-      "instructions": "Find the wrong word. Choose the right word.",
-      "question": "Which word is wrong?",
+      "title": "تَدَرَّبْ: صَحِّحْ كَلِمَةً وَاحِدَةً",
+      "instructions": "ابْحَثْ عَنِ الْكَلِمَةِ الْخَطَأِ وَصَحِّحْهَا.",
+      "question": "أَيُّ كَلِمَةٍ خَطَأٌ؟",
       "errorItems": [
        {
-        "sentence": "People throwed a lot of it into rivers.",
-        "error": "throwed",
+        "sentence": "يَجِبُ أَنْ نَرْمِيَ الْبَطَّارِيَّاتِ فِي حَاوِيَةِ الْمَطْبَخِ.",
+        "error": "أَنْ",
         "options": [
-         "threw",
-         "throw",
-         "throws"
+         "أَلَّا",
+         "لِأَنَّ",
+         "أَوْ"
         ],
         "answer": 0
        },
        {
-        "sentence": "Everyone make some trash every day.",
-        "error": "make",
+        "sentence": "يَأْتِي الْوَرَقُ مِنَ الْبَحْرِ.",
+        "error": "الْبَحْرِ",
         "options": [
-         "makes",
-         "making",
-         "maked"
+         "الْأَشْجَارِ",
+         "الزُّجَاجِ",
+         "الْمَعْدِنِ"
         ],
         "answer": 0
        }
       ],
       "correctAnswer": null,
-      "explanation": "Throw changes in the past: threw. Everyone + verb + -s: makes.",
+      "explanation": "البطاريات: «يَجِبُ أَلَّا نَرْمِيَهَا». والورق من الأشجار.",
       "feedback": {
-       "correct": "Well done.",
-       "incorrect": "Throw → threw. Everyone + verb + -s."
+       "correct": "أَحْسَنْتَ.",
+       "incorrect": "رَاجِعِ الْفَصْلَيْنِ ٢ وَ٦."
       }
      },
      {
-      "id": "zeroWaste-a1-language-review-6",
+      "id": "zeroWaste-a1-ar-language-review-6",
       "type": "reflection",
-      "title": "Use: Our Zero Waste Class",
-      "instructions": "Write three sentences: a Zero Waste class.",
-      "question": "What can our class do?",
+      "title": "اسْتَعْمِلْ: نُفَايَاتٌ أَقَلُّ",
+      "instructions": "اكْتُبْ ثَلَاثَ جُمَلٍ عَنْ صِفْرِ النُّفَايَاتِ فِي بَيْتِكَ.",
+      "question": "مَاذَا تَفْعَلُ؟",
       "correctAnswer": null,
-      "explanation": "Use should, must not and a “Do this!” sentence.",
+      "explanation": "استعمل «يَجِبُ أَلَّا» و«أَسْتَطِيعُ أَنْ» وفعل أمر.",
       "feedback": {
-       "correct": "Write three short sentences.",
+       "correct": "اكْتُبْ ثَلَاثَ جُمَلٍ قَصِيرَةٍ.",
        "incorrect": ""
       },
       "discussionPrompts": [
        {
-        "question": "One “should”: “We should …”",
+        "question": "«يَجِبُ أَلَّا …»",
         "mode": "Individual",
-        "example": "We should use our own bottles."
+        "example": "يَجِبُ أَلَّا نَرْمِيَ الْخُبْزَ."
        },
        {
-        "question": "One “must not”: “We must not …”",
+        "question": "«أَسْتَطِيعُ أَنْ …»",
         "mode": "Individual",
-        "example": "We must not throw batteries in the bin."
+        "example": "أَسْتَطِيعُ أَنْ أُصْلِحَ لُعْبَتِي."
        },
        {
-        "question": "One “Do this!” sentence: “Use … / Buy … / Repair …”",
-        "mode": "Individual",
-        "example": "Repair old books."
+        "question": "«قَلِّلْ / أَصْلِحْ …»",
+        "mode": "Pair",
+        "example": "قَلِّلْ: اسْتَخْدِمْ أَكْيَاسًا أَقَلَّ."
        }
       ]
      }
@@ -2389,163 +2270,163 @@
    {
     "id": 15,
     "type": "final-challenge",
-    "title": "Final Challenge",
+    "title": "التحدي النهائي",
     "image": "",
-    "content": "Bring the whole book together in the Final Challenge.",
+    "content": "اخْتَبِرْ مَعْرِفَتَكَ بِكِتَابِ صِفْرِ النُّفَايَاتِ كُلِّهِ.",
     "exercises": [
      {
-      "id": "zeroWaste-a1-final-1",
+      "id": "zeroWaste-a1-ar-final-1",
       "type": "fill-blanks",
-      "title": "Paper and Wood",
-      "instructions": "Write one word.",
-      "question": "Where do paper and wood come from?",
-      "fillBlanksText": "Paper and wood come from [blank].",
+      "title": "النُّفَايَاتُ فِي الْعَالَمِ",
+      "instructions": "اكْتُبِ الْكَلِمَةَ النَّاقِصَةَ.",
+      "question": "كَمْ نُفَايَاتٍ أَنْتَجَ النَّاسُ فِي الْمُدُنِ؟",
+      "fillBlanksText": "أَنْتَجَ النَّاسُ فِي الْمُدُنِ أَكْثَرَ مِنْ [blank] طُنٍّ.",
       "correctAnswer": [
-       "trees"
+       "مِلْيَارَيْ"
       ],
-      "explanation": "Chapter 2: “Paper and wood come from trees.”",
+      "explanation": "الفصل الأول: «أَنْتَجَ النَّاسُ فِي الْمُدُنِ أَكْثَرَ مِنْ مِلْيَارَيْ طُنٍّ مِنَ النُّفَايَاتِ».",
       "feedback": {
-       "correct": "Yes. Trees.",
-       "incorrect": "Read the first sentence of Chapter 2."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الْأَوَّلِ."
       }
      },
      {
-      "id": "zeroWaste-a1-final-2",
+      "id": "zeroWaste-a1-ar-final-2",
       "type": "multiple-choice",
-      "title": "Old Tables and Chairs",
-      "instructions": "Choose the answer.",
-      "question": "What do workers make from old tables and chairs?",
+      "title": "الْخَشَبُ الْقَدِيمُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "أَيْنَ تَذْهَبُ الطَّاوِلَاتُ وَالْكَرَاسِيُّ الْقَدِيمَةُ؟",
       "options": [
-       "new things for our homes",
-       "new bottles",
-       "new phones"
+       "إِلَى مَرَاكِزِ إِعَادَةِ التَّدْوِيرِ",
+       "إِلَى الْبَحْرِ",
+       "إِلَى الْمَطْبَخِ"
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 2: “There, workers make new things for our homes from them.”",
+      "explanation": "الفصل الثاني: «تَذْهَبُ الطَّاوِلَاتُ وَالْكَرَاسِيُّ الْقَدِيمَةُ إِلَى مَرَاكِزِ إِعَادَةِ التَّدْوِيرِ».",
       "feedback": {
-       "correct": "Yes. New things for our homes.",
-       "incorrect": "Read the second paragraph of Chapter 2."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّانِي."
       }
      },
      {
-      "id": "zeroWaste-a1-final-3",
+      "id": "zeroWaste-a1-ar-final-3",
       "type": "true-false",
-      "title": "Plastic",
-      "instructions": "Is it true or false?",
-      "question": "People put half of the plastic waste under the ground.",
+      "title": "الْبِلَاسْتِيكُ فِي الْمَاءِ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "الْبِلَاسْتِيكُ فِي الْمَاءِ مُشْكِلَةٌ كَبِيرَةٌ.",
       "correctAnswer": true,
-      "explanation": "Chapter 3: “People recycled only 9 percent of it, and they put half of it under the ground.”",
+      "explanation": "الفصل الثالث: «الْبِلَاسْتِيكُ فِي الْمَاءِ مُشْكِلَةٌ كَبِيرَةٌ».",
       "feedback": {
-       "correct": "Yes, it is true.",
-       "incorrect": "Read the second paragraph of Chapter 3."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الثَّالِثَ."
       }
      },
      {
-      "id": "zeroWaste-a1-final-4",
+      "id": "zeroWaste-a1-ar-final-4",
       "type": "matching",
-      "title": "What Is It?",
-      "instructions": "Match the thing with the sentence.",
-      "question": "What is it?",
+      "title": "أَيْنَ نَضَعُهُ؟",
+      "instructions": "صِلْ كُلَّ شَيْءٍ بِمَكَانِهِ.",
+      "question": "أَيْنَ نَضَعُ كُلَّ شَيْءٍ؟",
       "matchingHeadings": {
-       "left": "Thing",
-       "right": "Sentence"
+       "left": "الشَّيْءُ",
+       "right": "الْمَكَانُ"
       },
       "matchingPairs": [
        {
-        "left": "a milk box",
-        "right": "It has paper and plastic in it."
+        "left": "الزُّجَاجَاتُ الْقَدِيمَةُ",
+        "right": "حَاوِيَةُ إِعَادَةِ التَّدْوِيرِ"
        },
        {
-        "left": "a drink can",
-        "right": "It is metal."
+        "left": "الْهَوَاتِفُ الْقَدِيمَةُ",
+        "right": "حَاوِيَةُ إِعَادَةِ تَدْوِيرٍ خَاصَّةٌ"
        },
        {
-        "left": "an old battery",
-        "right": "It is dangerous."
+        "left": "الْبَطَّارِيَّاتُ الْقَدِيمَةُ",
+        "right": "حَاوِيَةُ الْبَطَّارِيَّاتِ"
        }
       ],
       "correctAnswer": {
-       "a drink can": "It is metal.",
-       "an old battery": "It is dangerous.",
-       "a milk box": "It has paper and plastic in it."
+       "الزُّجَاجَاتُ الْقَدِيمَةُ": "حَاوِيَةُ إِعَادَةِ التَّدْوِيرِ",
+       "الْهَوَاتِفُ الْقَدِيمَةُ": "حَاوِيَةُ إِعَادَةِ تَدْوِيرٍ خَاصَّةٌ",
+       "الْبَطَّارِيَّاتُ الْقَدِيمَةُ": "حَاوِيَةُ الْبَطَّارِيَّاتِ"
       },
-      "explanation": "Chapter 4: milk boxes and cans. Chapter 6: old batteries.",
+      "explanation": "الفصلان الثاني والسادس.",
       "feedback": {
-       "correct": "Good. You matched all three.",
-       "incorrect": "Read Chapters 4 and 6 again."
+       "correct": "أَحْسَنْتَ. وَصَلْتَ الثَّلَاثَةَ.",
+       "incorrect": "اقْرَأِ الْفَصْلَيْنِ ٢ وَ٦."
       }
      },
      {
-      "id": "zeroWaste-a1-final-5",
+      "id": "zeroWaste-a1-ar-final-5",
       "type": "multiple-choice",
-      "title": "Food",
-      "instructions": "Choose the answer.",
-      "question": "What should we eat first?",
+      "title": "الْمَعْدِنُ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا يَفْعَلُ الْعُمَّالُ بِالْمَعْدِنِ الْقَدِيمِ؟",
       "options": [
-       "yesterday’s bread",
-       "new food from the shop",
-       "food from a restaurant"
+       "يُذِيبُونَهُ وَيَصْنَعُونَ مِنْهُ أَشْيَاءَ جَدِيدَةً.",
+       "يَرْمُونَهُ فِي الْبَحْرِ.",
+       "يَأْكُلُونَهُ."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 5: “Also, we should eat yesterday’s bread first.”",
+      "explanation": "الفصل الرابع: «يُذِيبُ الْعُمَّالُ الْمَعْدِنَ الْقَدِيمَ وَيَصْنَعُونَ مِنْهُ أَشْيَاءَ جَدِيدَةً».",
       "feedback": {
-       "correct": "Yes. The bread from yesterday.",
-       "incorrect": "Read the last paragraph of Chapter 5."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الرَّابِعِ."
       }
      },
      {
-      "id": "zeroWaste-a1-final-6",
+      "id": "zeroWaste-a1-ar-final-6",
       "type": "true-false",
-      "title": "Batteries",
-      "instructions": "Is it true or false?",
-      "question": "We can throw old batteries in the kitchen bin.",
-      "correctAnswer": false,
-      "explanation": "Chapter 6: “We must not throw them in the kitchen bin.”",
+      "title": "خُبْزُ الْأَمْسِ",
+      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
+      "question": "يَجِبُ أَنْ نَأْكُلَ خُبْزَ الْأَمْسِ أَوَّلًا.",
+      "correctAnswer": true,
+      "explanation": "الفصل الخامس: «وَيَجِبُ أَيْضًا أَنْ نَأْكُلَ خُبْزَ الْأَمْسِ أَوَّلًا».",
       "feedback": {
-       "correct": "Yes, it is false. They go in a battery bin.",
-       "incorrect": "Read the last paragraph of Chapter 6."
+       "correct": "نَعَمْ، هَذَا صَحِيحٌ.",
+       "incorrect": "اقْرَأِ الْفَصْلَ الْخَامِسَ."
       }
      },
      {
-      "id": "zeroWaste-a1-final-7",
+      "id": "zeroWaste-a1-ar-final-7",
       "type": "multiple-choice",
-      "title": "Tool Libraries",
-      "instructions": "Choose the answer.",
-      "question": "Why are tool libraries good?",
+      "title": "مَكْتَبَاتُ الْأَدَوَاتِ",
+      "instructions": "اخْتَرِ الْجَوَابَ.",
+      "question": "مَاذَا يَفْعَلُ النَّاسُ فِي مَكْتَبَاتِ الْأَدَوَاتِ؟",
       "options": [
-       "People do not need to buy tools.",
-       "People can buy more tools.",
-       "People can throw tools away."
+       "يَسْتَعِيرُونَ الْأَدَوَاتِ.",
+       "يَشْتَرُونَ الْكُتُبَ.",
+       "يَرْمُونَ الْأَدَوَاتِ."
       ],
       "correctAnswer": 0,
-      "explanation": "Chapter 8: “People can borrow tools from there, so they do not need to buy them.”",
+      "explanation": "الفصل الثامن: «يَسْتَطِيعُ النَّاسُ أَنْ يَسْتَعِيرُوا الْأَدَوَاتِ مِنْهَا».",
       "feedback": {
-       "correct": "Yes. People do not need to buy tools.",
-       "incorrect": "Read the second paragraph of Chapter 8."
+       "correct": "نَعَمْ.",
+       "incorrect": "اقْرَأِ الْفِقْرَةَ الثَّانِيَةَ مِنَ الْفَصْلِ الثَّامِنِ."
       }
      },
      {
-      "id": "zeroWaste-a1-final-8",
+      "id": "zeroWaste-a1-ar-final-8",
       "type": "sequencing",
-      "title": "The Life of a Can",
-      "instructions": "Put the steps in order.",
-      "question": "What comes first?",
+      "title": "رِحْلَةُ الْكِتَابِ",
+      "instructions": "رَتِّبِ الْجُمَلَ.",
+      "question": "مَاذَا يَأْتِي أَوَّلًا فِي الْكِتَابِ؟",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "We drink juice from a can."
+        "text": "كُلُّ شَيْءٍ نَرْمِيهِ يُصْبِحُ نُفَايَاتٍ."
        },
        {
         "id": "2",
-        "text": "We put the can in a recycling bin."
+        "text": "الْبِلَاسْتِيكُ فِي الْمَاءِ مُشْكِلَةٌ كَبِيرَةٌ."
        },
        {
         "id": "3",
-        "text": "Recycling workers melt the metal."
+        "text": "الْبَطَّارِيَّاتُ الْقَدِيمَةُ خَطِيرَةٌ."
        },
        {
         "id": "4",
-        "text": "The workers make new things from the metal."
+        "text": "أَفْضَلُ وَقْتٍ لِلْبَدْءِ هُوَ الْآنَ!"
        }
       ],
       "correctAnswer": [
@@ -2554,10 +2435,10 @@
        "3",
        "4"
       ],
-      "explanation": "Chapter 4: “Workers melt old metal and make new things from it.”",
+      "explanation": "الفصل ١ ← الفصل ٣ ← الفصل ٦ ← الفصل ٨.",
       "feedback": {
-       "correct": "Great! A can is not trash.",
-       "incorrect": "Read the second paragraph of Chapter 4."
+       "correct": "رَائِعٌ!",
+       "incorrect": "فَكِّرْ فِي تَرْتِيبِ الْفُصُولِ."
       }
      }
     ]
