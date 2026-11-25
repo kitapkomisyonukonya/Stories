@@ -42,7 +42,12 @@ test.describe('entry and home', () => {
   test('changing the level changes the start buttons', async ({ page }) => {
     await enterLibrary(page);
     await page.goto('/');
-    await page.getByRole('group', { name: 'Your level' }).getByRole('button', { name: /^B1/ }).click();
+    if (isPhone(page)) {
+      await page.getByRole('group', { name: 'Your level' }).getByRole('button', { name: /^B1/ }).click();
+    } else {
+      await page.getByRole('button', { name: /^Your level:/ }).click();
+      await page.getByRole('listbox', { name: 'Your level' }).getByRole('option', { name: /^B1/ }).click();
+    }
     const mecca = isPhone(page)
       ? page.getByRole('dialog', { name: 'Mecca Before Islam' })
       : page.locator('article', { has: page.getByRole('heading', { name: 'Mecca Before Islam' }) });
