@@ -122,7 +122,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
   const copy =
     language === 'ar'
       ? {
-          lead: 'مكتبة تنمو باستمرار، فيها قصص تُقرأ وتُسمع وتُعاش. قصص الأنبياء والتاريخ والتراث التركي الإسلامي، من A2 إلى B2.',
+          lead: 'مكتبة تنمو باستمرار، فيها قصص تُقرأ وتُسمع وتُعاش. قصص الأنبياء والتاريخ والتراث التركي الإسلامي، من أ2 إلى ب2.',
           explore: 'استكشف المكتبة',
           film: 'شاهد الفيلم',
           cue: 'مرّر للاستكشاف',
@@ -911,7 +911,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                               onPointerEnter={() => warmBook(story.id, option)}
                               className="rounded-lg px-2 py-1 font-semibold text-[#EDE5D4]/70 transition-colors hover:bg-white/[0.08] hover:text-[#FFF9EC]"
                             >
-                              {option}
+                              {levelLabel(option, lang)}
                             </button>
                           ))}
                         </span>
@@ -930,7 +930,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                             onClick={() => onOpenTeacherGuide(story.id, option)}
                             className="min-h-8 rounded-full border border-white/14 bg-white/[0.04] px-3 text-[12px] font-semibold text-[#FFF9EC] transition-colors hover:bg-white/[0.12] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50"
                           >
-                            {option}
+                            {levelLabel(option, lang)}
                           </button>
                         ))}
                       </div>

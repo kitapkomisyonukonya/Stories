@@ -150,7 +150,7 @@ export const SECTION_ICONS = {
     icon: ClipboardList,
     en: 'End-of-level test',
     ar: 'اخْتِبَارُ نِهَايَةِ المُسْتَوَى',
-    hint: { en: 'Reading, language, writing and speaking at A2, B1 or B2.', ar: 'القِرَاءَةُ وَاللُّغَةُ وَالكِتَابَةُ وَالمُحَادَثَةُ فِي A2 أَوْ B1 أَوْ B2.' },
+    hint: { en: 'Reading, language, writing and speaking at A2, B1 or B2.', ar: 'القِرَاءَةُ وَاللُّغَةُ وَالكِتَابَةُ وَالمُحَادَثَةُ فِي أ2 أَوْ ب1 أَوْ ب2.' },
   },
   scoreExam: {
     icon: Medal,

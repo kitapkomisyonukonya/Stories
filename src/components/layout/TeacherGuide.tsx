@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { motion, AnimatePresence } from 'motion/react';
 import { 
   GraduationCap, 
@@ -185,7 +186,7 @@ const assessmentProfile = (() => {
         'ملاحظة المعلم للمشاركة وإنجاز المهمة باستخدام قائمة تحقق بسيطة.',
         'تذكرة خروج مع تقييم ذاتي بسيط: أستطيع / أحتاج إلى مزيد من التدريب.'
       ],
-      rubricTitle: 'مقياس التقييم التكويني للمستوى A2',
+      rubricTitle: 'مقياس التقييم التكويني للمستوى أ2',
       rubricRows: [
         { criterion: 'الفهم الأساسي', excellent: 'يفهم الفكرة الرئيسة ويرتب الأحداث ويجيب عن معظم الأسئلة القصيرة بصورة مستقلة.', good: 'يفهم الفكرة الرئيسة ويجيب عن الأسئلة الأساسية مع دعم محدود.', developing: 'يحتاج إلى صور أو إعادة قراءة أو أسئلة موجهة لفهم الأحداث الأساسية.' },
         { criterion: 'المفردات', excellent: 'يستخدم عدة كلمات مستهدفة بصورة صحيحة في جمل بسيطة.', good: 'يستخدم بعض الكلمات المستهدفة بصورة مفهومة مع أخطاء بسيطة.', developing: 'يتعرف على بعض الكلمات لكنه يحتاج إلى بنك كلمات أو نموذج لاستخدامها.' },
@@ -205,7 +206,7 @@ const assessmentProfile = (() => {
         'ملاحظة مشاركة المتعلم وتعاونه باستخدام قائمة تحقق.',
         'تذكرة خروج مع تقييم ذاتي أو تقييم أقران يحدد نقطة قوة وخطوة تالية.'
       ],
-      rubricTitle: 'مقياس التقييم التكويني للمستوى B1',
+      rubricTitle: 'مقياس التقييم التكويني للمستوى ب1',
       rubricRows: [
         { criterion: 'الفهم واستخدام الدليل', excellent: 'يفسر الفكرة الرئيسة والعلاقات المهمة ويستند إلى تفاصيل مناسبة من النص.', good: 'يفهم الفكرة الرئيسة ومعظم التفاصيل ويقدم مثالاً داعماً بسيطاً.', developing: 'يفهم أجزاء من النص لكنه يحتاج دعماً لربط التفاصيل أو استخدامها كدليل.' },
         { criterion: 'المفردات والتراكيب', excellent: 'يستخدم مفردات القصة والتراكيب المستهدفة بدقة في جمل مترابطة.', good: 'يستخدم مفردات مناسبة وتراكيب مفهومة مع بعض الأخطاء.', developing: 'يعتمد على مفردات محدودة أو يحتاج إلى قوالب لغوية لإكمال المهمة.' },
@@ -225,7 +226,7 @@ const assessmentProfile = (() => {
         'ملاحظة المعلم باستخدام قائمة تحقق أو مقياس تقدير أثناء العمل التعاوني.',
         'تقييم ذاتي وتقييم أقران يتبعه تعديل واضح في المنتج أو الأداء.'
       ],
-      rubricTitle: 'مقياس التقييم التكويني للمستوى B2',
+      rubricTitle: 'مقياس التقييم التكويني للمستوى ب2',
       rubricRows: [
         { criterion: 'الفهم النقدي والاستدلال بالنص', excellent: 'يفسر الأفكار والعلاقات بعمق ويستند إلى شواهد دقيقة وملائمة من النص.', good: 'يفهم الأفكار الرئيسة ويستخدم شواهد مناسبة مع تفسير مقبول.', developing: 'يعيد المعلومات غالباً أو يحتاج دعماً لاختيار الشواهد وتفسيرها.' },
         { criterion: 'الدقة والثراء اللغوي', excellent: 'يستخدم مفردات وتراكيب متنوعة ودقيقة بمرونة مع أخطاء قليلة لا تعيق المعنى.', good: 'يستخدم نطاقاً مناسباً من اللغة مع بعض الأخطاء التي لا تمنع الفهم.', developing: 'يعتمد على لغة محدودة أو متكررة وتؤثر الأخطاء أحياناً في الوضوح.' },
@@ -238,7 +239,7 @@ const assessmentProfile = (() => {
 
   const table = isArabicGuide ? ar : en;
   // A1 uses the A2 formative profile (short, low-pressure evidence) under its own title.
-  if (assessmentLevel === 'A1' || assessmentLevel === 'Pre-A1') return { ...table.A2, rubricTitle: table.A2.rubricTitle.replace('A2', assessmentLevel) };
+  if (assessmentLevel === 'A1' || assessmentLevel === 'Pre-A1') return { ...table.A2, rubricTitle: table.A2.rubricTitle.replace(levelLabel('A2', language), levelLabel(assessmentLevel, language)) };
   return table[assessmentLevel];
 })();
 
@@ -1748,7 +1749,7 @@ entries.set(key, { word, definition });
               <div className="relative p-2.5 sm:p-3.5 bg-gold text-white rounded-2xl shrink-0 shadow-lg shadow-black/15">
                 <GraduationCap className="w-6 h-6 sm:w-8 sm:h-8" />
                 <span className="absolute -bottom-1 -end-1 hidden sm:flex min-w-6 h-6 px-1.5 rounded-full bg-black/55 border border-gold/30 items-center justify-center font-display text-[10px] font-black text-gold">
-                  {assessmentLevel}
+                  {levelLabel(assessmentLevel, language)}
                 </span>
               </div>
               <div className="min-w-0">
@@ -1757,7 +1758,7 @@ entries.set(key, { word, definition });
                     {language === 'ar' ? 'مساحة عمل المعلم' : 'TEACHER WORKSPACE'}
                   </span>
                   <span className="sm:hidden rounded-full border border-gold/30 bg-black/30 px-1.5 py-px font-display text-[10px] font-black leading-none text-gold">
-                    {assessmentLevel}
+                    {levelLabel(assessmentLevel, language)}
                   </span>
                   <span className="hidden sm:inline h-1 w-1 rounded-full bg-gold/35" />
                   <span className="hidden sm:inline font-display text-[10px] sm:text-[11px] font-bold uppercase tracking-[0.12em] text-parchment/35">
@@ -1960,7 +1961,7 @@ entries.set(key, { word, definition });
 
                   <div className="hidden sm:flex items-center gap-2">
                     <span className="px-3 py-1.5 rounded-full border border-gold/15 bg-gold/[0.06] font-display text-[11px] font-bold text-gold">
-                      {assessmentLevel}
+                      {levelLabel(assessmentLevel, language)}
                     </span>
                     <span className="px-3 py-1.5 rounded-full border border-white/[0.06] bg-white/[0.03] font-display text-[11px] font-bold text-parchment/55">
                       {formatNumber(activeTabIndex + 1)} / {formatNumber(tabs.length)}

@@ -1,4 +1,5 @@
 import type { Level } from '../../types';
+import { levelLabel } from '../../content/levelLabels';
 import { storyCatalog, getStoryMeta } from '../../core/content/storyCatalog';
 import { readBookProgress } from '../bookProgress';
 import type { MyWord } from '../myWords';
@@ -83,13 +84,13 @@ export const chapterStamp = (
     chapter,
     top: place ?? shortName,
     bottom: arabic ? shortName : `${shortName} · ${level}`,
-    number: arabic ? `${formatNumber(chapter)} · ${level}` : String(chapter),
+    number: arabic ? `${formatNumber(chapter)} · ${levelLabel(level, 'ar')}` : String(chapter),
     icon: info?.icon ?? 'book',
     color: style.ink,
     arabic,
     earned: at !== undefined,
     at,
-    label: `${place ? `${place} · ` : ''}${bookName(storyId, lang)} ${level} · ${chapterWord} ${formatNumber(chapter)}`,
+    label: `${place ? `${place} · ` : ''}${bookName(storyId, lang)} ${levelLabel(level, lang)} · ${chapterWord} ${formatNumber(chapter)}`,
   };
 };
 

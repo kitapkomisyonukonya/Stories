@@ -124,7 +124,7 @@ export const aboutFeatures = {
     ar: 'تجمع «من اللسان إلى الثقافة» العناصر الآتية في بنية واحدة حول محتوى الثقافة والحضارة.',
   } as Tri,
   items: [
-    { tr: 'Seviyeli hikâyeler · A2 · B1 · B2', en: 'Levelled stories · A2 · B1 · B2', ar: 'قصص متدرّجة · A2 · B1 · B2' },
+    { tr: 'Seviyeli hikâyeler · A2 · B1 · B2', en: 'Levelled stories · A2 · B1 · B2', ar: 'قصص متدرّجة · أ2 · ب1 · ب2' },
     { tr: 'Aynı hikâye İngilizce ve Arapça', en: 'The same story in English and Arabic', ar: 'القصة نفسها بالإنجليزية والعربية' },
     { tr: 'Her bölüm için seslendirme', en: 'Narration for every chapter', ar: 'تسجيل صوتي لكل فصل' },
     { tr: 'Bölüme özel alıştırmalar', en: 'Exercises written for each chapter', ar: 'تمارين خاصة بكل فصل' },

@@ -269,7 +269,7 @@ export const SeyahatnamePanel: React.FC<SeyahatnamePanelProps> = ({ isOpen, onCl
                 const sealed = journal.seals[editionKey(story.id, level)] !== undefined;
                 return (
                   <li key={story.id} className="flex flex-col items-center text-center" data-book-seal={`${story.id}:${level}`} data-sealed={sealed || undefined}>
-                    <BookSeal storyId={story.id} level={level} arabic={lang === 'ar' && !(story.englishOnly || story.englishOnlyLevels?.includes(level))} size={78} faded={!sealed} title={`${bookName(story.id, lang)} · ${level} · ${sealed ? copy.sealed : copy.notSealed}`} className={sealed ? '' : 'text-[#EDE5D4]'} />
+                    <BookSeal storyId={story.id} level={level} arabic={lang === 'ar' && !(story.englishOnly || story.englishOnlyLevels?.includes(level))} size={78} faded={!sealed} title={`${bookName(story.id, lang)} · ${levelLabel(level, lang)} · ${sealed ? copy.sealed : copy.notSealed}`} className={sealed ? '' : 'text-[#EDE5D4]'} />
                     <span className={cn('mt-0.5 text-[11px] leading-tight', sealed ? 'text-[#F6F0E2]' : 'text-[#EDE5D4]/45')}>{bookName(story.id, lang)}</span>
                   </li>
                 );
