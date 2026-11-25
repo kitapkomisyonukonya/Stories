@@ -20,11 +20,11 @@ const ENGLISH_ONLY = new Set(['ibnJubayr']);
 /** A1 PDFs are built for these books (2026-11-09); other A1 editions have none yet. */
 const A1_PDF_BOOKS = new Set(['adam', 'ibrahim', 'musa', 'mecca', 'yunusEmre', 'ibnJubayr', 'zeroWaste']);
 
-/** Books whose PDFs exist for some levels only (Zero Waste: A1 and A2, 2026-11-25). */
-const PDF_LEVELS: Record<string, readonly string[]> = { zeroWaste: ['A1', 'A2'] };
+/** Books whose PDFs exist for some levels only (Zero Waste: Pre-A1, A1 and A2, 2026-11-25). */
+const PDF_LEVELS: Record<string, readonly string[]> = { zeroWaste: ['Pre-A1', 'A1', 'A2'] };
 
 /** Pre-A1 (Arabic only) PDFs are built for these books (2026-11-25). */
-const PRE_A1_PDF_BOOKS = new Set(['adam', 'ibrahim', 'musa', 'mecca', 'yunusEmre', 'ibnJubayr']);
+const PRE_A1_PDF_BOOKS = new Set(['adam', 'ibrahim', 'musa', 'mecca', 'yunusEmre', 'ibnJubayr', 'zeroWaste']);
 
 /** Hidden books have no printable PDFs yet. */
 export const hasBookPdfs = (storyId: string, level: string) => !isHiddenStory(storyId)
