@@ -41,6 +41,7 @@ async function seedJournal(page: Page, { allA2 = false, fresh = true } = {}) {
             ['musa', 16],
             ['yunusEmre', 8],
             ['ibnJubayr', 13],
+            ['zeroWaste', 11],
           ] as const) {
             for (let n = 1; n <= chapters; n += 1) stamps[`${storyId}:A2:${n}`] = 0;
             seals[`${storyId}:A2`] = 0;
