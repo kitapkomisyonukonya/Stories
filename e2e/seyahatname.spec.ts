@@ -149,3 +149,27 @@ test('each language has its own certificate, and its code checks', async ({ page
   await expect(page.locator('[data-certificate-check]')).toBeVisible();
   await expect(page.locator('[data-certificate-check][data-valid]')).toHaveCount(0);
 });
+
+test('the light journal (preview link): chapter pictures, the chapter card and a note', async ({ page }) => {
+  await enterLibrary(page);
+  await seedJournal(page, { fresh: false });
+  await page.goto('/?gizli=e2e-preview-key');
+  if (isPhone(page)) {
+    await page.getByRole('navigation').getByRole('button', { name: 'My Journal' }).click();
+  } else {
+    await page.locator('[data-journal-open]').click();
+  }
+  await expect(page.locator('[data-my-journal]')).toBeVisible();
+  const book = page.locator('[data-journal="ibnJubayr:A2"]');
+  await expect(book.locator('[data-journal-road]')).toBeVisible();
+  await expect(book.locator('[data-stamp][data-earned]')).toHaveCount(2);
+  await book.locator('[data-stamp][data-earned]').first().click();
+  const card = page.locator('[data-chapter-card="ibnJubayr:A2:1"]');
+  await expect(card).toBeVisible();
+  await card.locator('[data-journal-note-input]').fill('Today I learned that he was from Valencia.');
+  await card.locator('[data-journal-note-save]').click();
+  await expect(card.locator('[data-journal-note-saved]')).toBeVisible();
+  const notes = await page.evaluate(() => localStorage.getItem('v2:journal-notes'));
+  expect(notes).toContain('Valencia');
+  await noSideScroll(page);
+});

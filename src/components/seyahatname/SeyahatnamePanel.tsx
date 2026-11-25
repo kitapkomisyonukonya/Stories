@@ -18,6 +18,7 @@ import { JOURNAL_COPY } from './copy';
 import { CertificateDialog, type CertificateChoice } from './CertificateDialog';
 import { TransferDialog } from './TransferDialog';
 import { CaravanPanel } from './CaravanPanel';
+import { MyJournalPanel } from './MyJournalPanel';
 import { ChevronLeft, Scroll } from '../ui/icons';
 
 export interface OpenBookTarget {
@@ -57,7 +58,13 @@ const GoalRing: React.FC<{ done: number; goal: number; label: string }> = ({ don
 };
 
 /** "Seyahatname", the reader's travel journal: stamps, seals, words, badges, goal and certificates on one page. */
-export const SeyahatnamePanel: React.FC<SeyahatnamePanelProps> = ({ isOpen, onClose, embedded = false, onOpenBook, onOpenMyWords, focusBook }) => {
+// The light picture-book journal is shown on preview links (?gizli=…) until it is approved.
+const LIGHT_JOURNAL = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('gizli');
+
+export const SeyahatnamePanel: React.FC<SeyahatnamePanelProps> = props =>
+  LIGHT_JOURNAL ? <MyJournalPanel {...props} /> : <ClassicJournalPanel {...props} />;
+
+const ClassicJournalPanel: React.FC<SeyahatnamePanelProps> = ({ isOpen, onClose, embedded = false, onOpenBook, onOpenMyWords, focusBook }) => {
   const dialogRef = useDialogFocus(isOpen && !embedded, onClose);
   const closeRef = useRef<HTMLButtonElement>(null);
   const { language, isRTL, formatNumber } = useLanguage();
