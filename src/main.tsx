@@ -23,6 +23,7 @@ import { preloadDeferredChunks } from './lib/preloadDeferred';
 import { PageErrorBoundary } from './components/ui/PageErrorBoundary';
 import { SCORM } from './scorm/config';
 import { startScorm } from './scorm/runtime';
+import { reloadFresh } from './lib/freshReload';
 
 // Arabic readers: start loading both Arakom faces now, before the first Arabic text asks for them.
 try {
@@ -40,20 +41,33 @@ window.addEventListener('vite:preloadError', (event) => {
   event.preventDefault();
 
   const now = Date.now();
-  const lastReload = Number(sessionStorage.getItem(CHUNK_RELOAD_KEY) || 0);
+  let lastReload = 0;
+  try {
+    lastReload = Number(sessionStorage.getItem(CHUNK_RELOAD_KEY) || 0);
+  } catch {
+    /* storage blocked */
+  }
 
   // A Cloud Run deploy replaces hashed Vite chunks. If an already-open tab
   // requests a chunk from the previous revision, reload once to pick up the
   // fresh index.html and its current asset hashes. The guard prevents loops if
   // the failure is caused by a real network outage instead of a stale bundle.
   if (!Number.isFinite(lastReload) || now - lastReload > 15_000) {
-    sessionStorage.setItem(CHUNK_RELOAD_KEY, String(now));
-    window.location.reload();
+    try {
+      sessionStorage.setItem(CHUNK_RELOAD_KEY, String(now));
+    } catch {
+      /* storage blocked */
+    }
+    reloadFresh();
   }
 });
 
 window.setTimeout(() => {
-  sessionStorage.removeItem(CHUNK_RELOAD_KEY);
+  try {
+    sessionStorage.removeItem(CHUNK_RELOAD_KEY);
+  } catch {
+    /* storage blocked */
+  }
 }, 30_000);
 
 // The SCORM edition runs inside an LMS: no service worker and no reports to our server.

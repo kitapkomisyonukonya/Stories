@@ -82,6 +82,7 @@ import { saveBookOffline } from './lib/pwa';
 import { OFFLINE_BOOK_SIZE_MB } from './data/offlineBookSizes';
 import { SCORM, isScormBook } from './scorm/config';
 import { reportPage, reportResult, reportProgress, scormResumePage } from './scorm/runtime';
+import { reloadFresh } from './lib/freshReload';
 
 const AppContent = () => {
   // --- State ---
@@ -742,9 +743,14 @@ const AppContent = () => {
         <div className="max-w-lg rounded-2xl border border-red-400/30 bg-black/30 p-8 text-parchment shadow-2xl">
           <h2 className="font-display text-xl text-red-300">Book could not be loaded</h2>
           <p className="mt-3 font-serif text-sm text-parchment/70">{bookLoadError.message}</p>
-          <button onClick={handleReturnToLibrary} className="mt-6 rounded-xl border border-gold/40 px-5 py-2 font-display text-sm text-gold">
-            {t('nav.returnToLibrary')}
-          </button>
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <button onClick={reloadFresh} className="rounded-xl bg-gold px-5 py-2 font-display text-sm text-black">
+              {t('nav.tryAgain')}
+            </button>
+            <button onClick={handleReturnToLibrary} className="rounded-xl border border-gold/40 px-5 py-2 font-display text-sm text-gold">
+              {t('nav.returnToLibrary')}
+            </button>
+          </div>
         </div>
       </div>
     );

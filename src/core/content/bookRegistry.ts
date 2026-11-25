@@ -37,8 +37,16 @@ interface BookFile {
 const definitionKey = (storyId: StoryId, level: Level): string => `${storyId}:${level}`;
 
 const loadEdition = async (storyId: StoryId, level: Level, language: 'en' | 'ar'): Promise<BookData> => {
-  const file = await readContent<BookFile>('books', editionName(storyId, level, fileLanguage(level, language)));
-  if (!file?.book?.pages?.length) {
+  // A failed download of the book file (an old page after a new deploy, or a dropped connection)
+  // fails here; the reader then offers Try Again, which reloads the newest build.
+  const downloadFailed = (detail: string) =>
+    new Error(`The book file could not be downloaded. Please check the connection and press Try Again. (${detail})`);
+  const file = await readContent<BookFile>('books', editionName(storyId, level, fileLanguage(level, language)))
+    .catch((reason: unknown) => {
+      throw downloadFailed(reason instanceof Error ? reason.message : String(reason));
+    });
+  if (!file) throw downloadFailed('empty file');
+  if (!file.book?.pages?.length) {
     throw new Error(`[Book Registry] ${storyId} ${level} ${language} has no pages.`);
   }
   // Places & People cards come from the shared entity catalogue, not from the book file, so a
