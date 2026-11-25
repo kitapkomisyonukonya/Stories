@@ -78,9 +78,7 @@ const readStoredLevel = (): Level | null => {
   }
 };
 
-// Hidden trial (?gizli=1): the shelf filter as one quiet row, a level menu plus category tabs with their emblems.
-const NEW_FILTER_BAR = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('gizli');
-
+// The shelf filter as one quiet row: a level menu plus category tabs with their emblems.
 function LevelMenu({ level, options, lang, isRTL, label, onChoose }: {
   level: Level;
   options: Level[];
@@ -832,7 +830,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
               </div>
             </div>
 
-          {NEW_FILTER_BAR ? (
           <div className="mt-6 flex flex-wrap items-center gap-x-7 gap-y-2 border-b border-white/[0.08]" data-home-filter-bar>
             <LevelMenu level={level} options={levelOptions} lang={lang} isRTL={isRTL} label={copy.yourLevel} onChoose={chooseLevel} />
             <div className="-mx-1 flex min-w-0 flex-1 gap-6 overflow-x-auto px-1 [scrollbar-width:none] lg:gap-8" role="group">
@@ -867,50 +864,6 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
               })}
             </div>
           </div>
-          ) : (
-          <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 rounded-[22px] bg-white/[0.045] p-3">
-            <span className={cn('ps-2 text-[11px] font-semibold uppercase text-[#EDE5D4]/66', isRTL ? 'text-[14px]' : 'tracking-[0.18em]')}>{copy.yourLevel}</span>
-            <div className="flex w-full gap-1 rounded-2xl bg-black/30 p-1 sm:w-auto" role="group" aria-label={copy.yourLevel}>
-              {levelOptions.map(option => (
-                <button
-                  key={option}
-                  type="button"
-                  aria-pressed={option === level}
-                  onClick={() => chooseLevel(option)}
-                  className={cn(
-                    'flex min-w-0 flex-1 flex-col items-center justify-center rounded-xl px-1.5 py-2 text-center transition-colors sm:min-w-[120px] sm:flex-none sm:items-start sm:justify-start sm:px-4 sm:text-start',
-                    option === level ? 'bg-[linear-gradient(135deg,#ECCD7E,#B98A36)] text-[#16130c]' : 'text-[#FFF9EC] hover:bg-white/[0.06]',
-                  )}
-                  data-home-level={option}
-                >
-                  <span className="text-[19px] font-semibold leading-tight">{levelLabel(option, lang)}</span>
-                  <span className={cn('leading-tight', isRTL ? 'text-[13px] sm:text-[13.5px]' : 'text-[10.5px] sm:text-[11.5px]', option === level ? 'text-[#16130c]/80' : 'text-[#EDE5D4]/66')}>
-                    {levelDescriptions[option][lang]}
-                  </span>
-                </button>
-              ))}
-            </div>
-            {/* Phones: one row that scrolls sideways instead of four ragged lines */}
-            <div className="-mx-1 flex w-full gap-1.5 overflow-x-auto px-1 pb-0.5 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0 lg:ms-auto lg:w-auto" role="group">
-              {(['all', 'prophets', 'history', 'turkish', 'today'] as CollectionId[]).map(collection => (
-                <button
-                  key={collection}
-                  type="button"
-                  aria-pressed={activeCollection === collection}
-                  onClick={() => setActiveCollection(collection)}
-                  className={cn(
-                    'inline-flex shrink-0 items-center gap-2 whitespace-nowrap rounded-full border px-3.5 py-2 font-semibold transition-colors',
-                    isRTL ? 'text-[15px]' : 'text-[13px]',
-                    activeCollection === collection ? 'border-white/10 bg-white/[0.08] text-[#FFF9EC]' : 'border-white/[0.06] text-[#EDE5D4]/66 hover:text-[#FFF9EC] sm:border-transparent',
-                  )}
-                >
-                  {collection !== 'all' && <img src={collectionVisuals[collection].icon} alt="" className="h-5 w-5 object-contain" />}
-                  {collection === 'all' ? copy.all : collectionLabels[collection]}
-                </button>
-              ))}
-            </div>
-          </div>
-          )}
 
           <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {/* A collection whose books are still being made (Our World Today) shows its mark and a short line instead of an empty shelf. */}
