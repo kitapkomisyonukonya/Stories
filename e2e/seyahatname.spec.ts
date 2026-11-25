@@ -150,10 +150,10 @@ test('each language has its own certificate, and its code checks', async ({ page
   await expect(page.locator('[data-certificate-check][data-valid]')).toHaveCount(0);
 });
 
-test('the light journal (preview link): chapter pictures, the chapter card and a note', async ({ page }) => {
+test('the journal: chapter pictures, the chapter card and a note', async ({ page }) => {
   await enterLibrary(page);
   await seedJournal(page, { fresh: false });
-  await page.goto('/?gizli=e2e-preview-key');
+  await page.goto('/');
   if (isPhone(page)) {
     await page.getByRole('navigation').getByRole('button', { name: 'My Journal' }).click();
   } else {

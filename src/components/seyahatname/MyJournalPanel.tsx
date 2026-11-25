@@ -28,7 +28,7 @@ import { BookOpen, Check, ChevronLeft, MapPin, Pause, Pencil, Play } from '../ui
 import type { OpenBookTarget } from './SeyahatnamePanel';
 
 /**
- * My Journal, the light picture-book version (shown on preview links, ?gizli=…, until it is approved).
+ * My Journal, the light picture-book version (approved 2026-11-25).
  * Same journal data as before: stamps, seals, words, badges, goal and certificates. New: each chapter
  * is its own picture with its stamp pressed on it, a road that fills as stamps are pressed, a chapter
  * card (picture, a line from the chapter, its words, listen again) and a short "What I learned" note.
