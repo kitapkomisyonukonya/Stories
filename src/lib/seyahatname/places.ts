@@ -7,7 +7,8 @@
 /** Line drawings in the middle of a stamp. */
 export type StampIcon =
   | 'minaret' | 'walls' | 'arches' | 'ship' | 'lighthouse' | 'cube' | 'dome' | 'palm'
-  | 'mountain' | 'tent' | 'well' | 'quill' | 'waves' | 'route' | 'book' | 'flame';
+  | 'mountain' | 'tent' | 'well' | 'quill' | 'waves' | 'route' | 'book' | 'flame'
+  | 'leaf' | 'globe' | 'anvil' | 'worldMap' | 'ark';
 
 export interface EditionPlace {
   id: string;

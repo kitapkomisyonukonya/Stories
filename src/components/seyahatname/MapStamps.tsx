@@ -14,7 +14,7 @@ const COPY = {
     chapters: 'Chapter',
     stamped: 'Stamped',
     open: 'Not yet',
-    journal: 'Open my Seyahatname',
+    journal: 'Open My Journal',
   },
   ar: {
     chip: (n: string, total: string) => `الْأَمَاكِنُ الْمَخْتُومَةُ: ${n} / ${total}`,
@@ -23,7 +23,7 @@ const COPY = {
     chapters: 'الْفَصْلُ',
     stamped: 'مَخْتُومٌ',
     open: 'لَيْسَ بَعْدُ',
-    journal: 'افْتَحْ دَفْتَرَ رِحْلَتِي',
+    journal: 'افْتَحْ دَفْتَرِي',
   },
 };
 

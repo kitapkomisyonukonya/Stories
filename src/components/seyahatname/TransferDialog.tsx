@@ -8,7 +8,7 @@ import { QrCode } from './QrCode';
 const COPY = {
   en: {
     show: 'Your journal code',
-    showText: 'On the other device, open Lisandan Kültüre and scan this code, or open Seyahatname, choose “I have a code” and paste it.',
+    showText: 'On the other device, open Lisandan Kültüre and scan this code, or open My Journal, choose “I have a code” and paste it.',
     long: 'Your journal is too long for a picture code. Copy the text and send it to yourself.',
     copy: 'Copy the code',
     copied: 'Copied',
@@ -21,7 +21,7 @@ const COPY = {
   },
   ar: {
     show: 'رَمْزُ دَفْتَرِكَ',
-    showText: 'عَلَى الْجِهَازِ الْآخَرِ افْتَحْ «Lisandan Kültüre» وَامْسَحْ هٰذَا الرَّمْزَ، أَوِ افْتَحِ «الرِّحْلَةَ» وَاخْتَرْ «عِنْدِي رَمْزٌ» وَأَلْصِقْهُ.',
+    showText: 'عَلَى الْجِهَازِ الْآخَرِ افْتَحْ «Lisandan Kültüre» وَامْسَحْ هٰذَا الرَّمْزَ، أَوِ افْتَحْ «دَفْتَرِي» وَاخْتَرْ «عِنْدِي رَمْزٌ» وَأَلْصِقْهُ.',
     long: 'دَفْتَرُكَ أَطْوَلُ مِنْ أَنْ يُوضَعَ فِي صُورَةٍ. انْسَخِ النَّصَّ وَأَرْسِلْهُ إِلَى نَفْسِكَ.',
     copy: 'انْسَخِ الرَّمْزَ',
     copied: 'نُسِخَ',

@@ -11,7 +11,7 @@ import { useDialogFocus } from '../../hooks/useDialogFocus';
 import { MY_WORDS_LEARNED, useMyWords } from '../../lib/myWords';
 import { EDITIONS, editionKey, setWeeklyGoal, stampsThisWeek, useJournal, weeksOnTarget } from '../../lib/seyahatname/store';
 import {
-  BADGE_COPY, BADGE_ORDER, LEVELS, bookName, certificateProgress, chapterStamp, earnedBadges, levelBooks, nextChest, totalSeals, totalStamps, visibleEditions,
+  BADGE_COPY, BADGE_ORDER, CERTIFICATE_LEVELS, LEVELS, bookName, certificateProgress, chapterStamp, earnedBadges, levelBooks, nextChest, totalSeals, totalStamps, visibleEditions,
 } from '../../lib/seyahatname/view';
 import { BadgeMark, BookSeal, Stamp, tiltFor } from './art';
 import { JOURNAL_COPY } from './copy';
@@ -261,9 +261,9 @@ export const SeyahatnamePanel: React.FC<SeyahatnamePanelProps> = ({ isOpen, onCl
       {sectionTitle(copy.seals, `${fmt(totalSeals(journal))} / ${fmt(visibleEditions().length)}`)}
       <p className="px-1 text-[12.5px] text-[#EDE5D4]/60">{copy.sealsNote}</p>
       <div className="mt-2 space-y-3">
-        {LEVELS.map(level => (
+        {LEVELS.filter(level => levelBooks(level).length > 0).map(level => (
           <div key={level} className="flex items-start gap-2">
-            <span className="mt-6 w-7 shrink-0 text-[12px] font-semibold text-[#E4C779]">{levelLabel(level, lang)}</span>
+            <span className="mt-6 w-11 shrink-0 text-[12px] font-semibold leading-tight text-[#E4C779]">{levelLabel(level, lang)}</span>
             <ul className="grid flex-1 grid-cols-3 gap-2 sm:grid-cols-6">
               {levelBooks(level).map(story => {
                 const sealed = journal.seals[editionKey(story.id, level)] !== undefined;
@@ -332,7 +332,7 @@ export const SeyahatnamePanel: React.FC<SeyahatnamePanelProps> = ({ isOpen, onCl
       {sectionTitle(copy.certificates)}
       <p className="px-1 text-[12.5px] text-[#EDE5D4]/60">{copy.certificatesNote}</p>
       <div className="space-y-2">
-        {LEVELS.map(level => (
+        {CERTIFICATE_LEVELS.map(level => (
           <div key={level} className={card} data-certificate={level}>
             <b className="block text-[14.5px] font-semibold text-[#FFF9EC]">{copy.certificateLevel(level)}</b>
             <div className="mt-2 space-y-3">

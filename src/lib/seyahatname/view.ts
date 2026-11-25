@@ -7,7 +7,10 @@ import { EDITIONS, editionKey, sealLanguages, stampKey, stampsThisWeek, type Jou
 import { storyStyle } from '../../components/seyahatname/art';
 import type { StampIcon } from './places';
 
-export const LEVELS: Level[] = ['A2', 'B1', 'B2'];
+/** Every level has its stamps and book seals in the journal, Pre-A1 and A1 too. */
+export const LEVELS: Level[] = ['Pre-A1', 'A1', 'A2', 'B1', 'B2'];
+/** Levels with a certificate (its check code carries one of these three). */
+export const CERTIFICATE_LEVELS: Level[] = ['A2', 'B1', 'B2'];
 
 /** The books a level's certificate asks for: every listed book that has that level. */
 export const levelBooks = (level: Level) =>

@@ -11,20 +11,20 @@ import { X } from '../ui/icons';
 const COPY = {
   en: {
     eyebrow: (n: string) => `Chapter ${n} complete`,
-    title: 'A new stamp in your Seyahatname',
+    title: 'A new stamp in your journal',
     of: (n: string, total: string) => `${n} of ${total} stamps`,
     week: (n: string, goal: string) => `${n}/${goal} this week`,
     next: (n: string) => `Next: Chapter ${n}`,
-    open: 'Open my Seyahatname',
+    open: 'Open My Journal',
     close: 'Close',
   },
   ar: {
     eyebrow: (n: string) => `أَكْمَلْتَ الْفَصْلَ ${n}`,
-    title: 'خَتْمٌ جَدِيدٌ فِي دَفْتَرِ رِحْلَتِكَ',
+    title: 'خَتْمٌ جَدِيدٌ فِي دَفْتَرِكَ',
     of: (n: string, total: string) => `الْأَخْتَامُ: ${n} / ${total}`,
     week: (n: string, goal: string) => `هٰذَا الْأُسْبُوعَ: ${n} / ${goal}`,
     next: (n: string) => `التَّالِي: الْفَصْلُ ${n}`,
-    open: 'افْتَحْ دَفْتَرَ رِحْلَتِي',
+    open: 'افْتَحْ دَفْتَرِي',
     close: 'إِغْلَاقٌ',
   },
 };

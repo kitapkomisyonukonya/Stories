@@ -470,7 +470,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
                       className="mt-1 text-start text-[13px] font-semibold text-white/80 underline-offset-4 hover:text-white hover:underline"
                       data-summary-journal
                     >
-                      {isArabic ? 'خُتِمَ الْكِتَابُ فِي دَفْتَرِ رِحْلَتِكَ' : 'Book sealed in your Seyahatname'}
+                      {isArabic ? 'خُتِمَ الْكِتَابُ فِي دَفْتَرِكَ' : 'Book sealed in My Journal'}
                     </button>
                   )}
                 </div>

@@ -10,7 +10,7 @@ const root = mkdtempSync(join(tmpdir(), 'ob-'));
 mkdirSync(join(root, 'ob'));
 writeFileSync(
   join(root, 'ob', 'achievements.json'),
-  JSON.stringify({ achievements: { 'level-A2': { type: 'Certificate', name: 'Seyahatname Certificate · A2', description: 'd', criteria: 'c', level: 'A2' } } }),
+  JSON.stringify({ achievements: { 'level-A2': { type: 'Certificate', name: 'Level Certificate · A2', description: 'd', criteria: 'c', level: 'A2' } } }),
 );
 const { privateKey } = generateKeyPairSync('ed25519');
 const pem = privateKey.export({ type: 'pkcs8', format: 'pem' });

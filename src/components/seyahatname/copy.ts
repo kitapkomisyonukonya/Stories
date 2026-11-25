@@ -14,11 +14,11 @@ const AR_CHAPTERS = { one: 'فَصْلٌ وَاحِدٌ', two: 'فَصْلَان
 const AR_WEEKS = { one: 'أُسْبُوعٍ وَاحِدٍ', two: 'أُسْبُوعَيْنِ', few: 'أَسَابِيعَ', many: 'أُسْبُوعًا' };
 const AR_WORDS = { one: 'كَلِمَةٌ وَاحِدَةٌ', two: 'كَلِمَتَانِ', few: 'كَلِمَاتٍ', many: 'كَلِمَةً' };
 
-/** Interface words of the Seyahatname, in English and fully vowelled Arabic. */
+/** Interface words of My Journal, in English and fully vowelled Arabic. */
 export const JOURNAL_COPY = {
   en: {
-    name: 'Seyahatname',
-    subtitle: 'My travel journal',
+    name: 'My Journal',
+    subtitle: 'Stamps, book seals and words',
     stamps: 'stamps',
     books: 'books sealed',
     words: 'words saved',
@@ -50,8 +50,8 @@ export const JOURNAL_COPY = {
     openMyWords: 'Open My words',
     badges: 'Traveler badges',
     badgesOf: (n: string, total: string) => `${n} of ${total}`,
-    certificates: 'Seyahatname Certificate',
-    certificateLevel: (level: string) => `Seyahatname Certificate · ${level}`,
+    certificates: 'Level Certificate',
+    certificateLevel: (level: string) => `Level Certificate · ${level}`,
     certificatesNote: 'One certificate for each language: English for the books you finish in English, Arabic for those you finish in Arabic.',
     certificateIn: { en: 'In English', ar: 'In Arabic' },
     certificateNeeds: (done: string, total: string) => `Books finished: ${done} / ${total}`,
@@ -69,8 +69,8 @@ export const JOURNAL_COPY = {
     badgeOpen: 'Open Badge',
   },
   ar: {
-    name: 'الرِّحْلَةُ',
-    subtitle: 'دَفْتَرُ رِحْلَتِي',
+    name: 'دَفْتَرِي',
+    subtitle: 'الْأَخْتَامُ وَأَخْتَامُ الْكُتُبِ وَالْكَلِمَاتُ',
     stamps: 'الْأَخْتَامُ',
     books: 'الْكُتُبُ الْمَخْتُومَةُ',
     words: 'الْكَلِمَاتُ الْمَحْفُوظَةُ',
@@ -101,14 +101,14 @@ export const JOURNAL_COPY = {
     openMyWords: 'افْتَحْ «كَلِمَاتِي»',
     badges: 'أَوْسِمَةُ الْمُسَافِرِ',
     badgesOf: (n: string, total: string) => `${n} مِنْ ${total}`,
-    certificates: 'شَهَادَةُ الرِّحْلَةِ',
-    certificateLevel: (level: string) => `شَهَادَةُ الرِّحْلَةِ · ${levelLabel(level, 'ar')}`,
+    certificates: 'شَهَادَةُ الْمُسْتَوَى',
+    certificateLevel: (level: string) => `شَهَادَةُ الْمُسْتَوَى · ${levelLabel(level, 'ar')}`,
     certificatesNote: 'لِكُلِّ لُغَةٍ شَهَادَتُهَا: الْإِنْجِلِيزِيَّةُ لِلْكُتُبِ الَّتِي تُتِمُّهَا بِالْإِنْجِلِيزِيَّةِ، وَالْعَرَبِيَّةُ لِلَّتِي تُتِمُّهَا بِالْعَرَبِيَّةِ.',
     certificateIn: { en: 'بِالْإِنْجِلِيزِيَّةِ', ar: 'بِالْعَرَبِيَّةِ' },
     certificateNeeds: (done: string, total: string) => `الْكُتُبُ الْمُكْتَمِلَةُ: ${done} / ${total}`,
     certificateReady: 'جَاهِزَةٌ',
     certificateOpen: { en: 'افْتَحْ شَهَادَتِي الْإِنْجِلِيزِيَّةَ', ar: 'افْتَحْ شَهَادَتِي الْعَرَبِيَّةَ' },
-    move: 'انْقُلْ رِحْلَتَكَ إِلَى جِهَازٍ آخَرَ',
+    move: 'انْقُلْ دَفْتَرَكَ إِلَى جِهَازٍ آخَرَ',
     moveText: 'يَبْقَى دَفْتَرُكَ عَلَى هٰذَا الْجِهَازِ، وَيُمْكِنُكَ أَنْ تَنْقُلَهُ بِرَمْزٍ.',
     showCode: 'اعْرِضْ رَمْزِي',
     enterCode: 'عِنْدِي رَمْزٌ',

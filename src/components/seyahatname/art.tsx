@@ -1,6 +1,7 @@
 import React, { useId } from 'react';
 import { levelLabel } from '../../content/levelLabels';
 import type { StampIcon } from '../../lib/seyahatname/places';
+import { getStoryMeta } from '../../core/content/storyCatalog';
 
 /** Line drawings for stamps, in a 200 × 200 box around (100, 104). */
 export const STAMP_ICONS: Record<StampIcon, string> = {
@@ -20,6 +21,11 @@ export const STAMP_ICONS: Record<StampIcon, string> = {
   route: 'M64 136c10-2 14-12 22-16s18 0 26-8 8-18 14-22M118 84a10 10 0 1 1 20 0c0 9-10 18-10 18s-10-9-10-18zM128 84h0M60 136h10',
   book: 'M64 124c12-7 24-7 36 0 12-7 24-7 36 0V82c-12-7-24-7-36 0-12-7-24-7-36 0zM100 82v42M72 92c8-3 14-3 20 0M72 104c8-3 14-3 20 0M108 92c8-3 14-3 20 0M108 104c8-3 14-3 20 0',
   flame: 'M100 138c-17 0-28-11-26-27 2-14 14-20 14-34 10 8 12 18 10 26 6-4 8-10 8-16 10 10 18 22 16 34-2 11-9 17-22 17zM100 138c-7 0-11-5-10-12 1-6 6-9 7-15 6 5 9 10 9 16 0 7-2 11-6 11z',
+  leaf: 'M70 136c0-40 24-64 64-66 2 40-22 64-62 66zM70 136c14-18 30-34 50-48M98 112l-2-14M110 100l12 2',
+  globe: 'M100 70a34 34 0 1 0 .1 0zM66 104h68M100 70c-15 10-15 58 0 68M100 70c15 10 15 58 0 68M72 86h56M72 122h56',
+  anvil: 'M60 92h70c0 10 6 16 16 16h-20c-6 4-10 10-10 16h8v12H76v-12h8c0-6-4-12-10-16H60zM100 92V70M88 70h24',
+  worldMap: 'M100 72a32 32 0 1 0 .1 0zM78 94c8 4 14 0 20 4s8 12 16 10M78 118c10-4 18 2 26-2M108 82c-2 6 2 10 8 10',
+  ark: 'M62 116h76l-12 20H74zM78 116V98h44v18M72 98l28-14 28 14M92 116v-10h16v10M60 146c7 4 13 4 20 0s13-4 20 0 13 4 20 0 13-4 20 0',
 };
 
 /** Each book presses in its own ink, and its wax seal carries its own emblem. */
@@ -31,11 +37,23 @@ export const STORY_STYLE: Record<string, { ink: string; wax: string; waxDark: st
   musa: { ink: '#24406b', wax: '#2a4b7c', waxDark: '#0e1d36', emblem: 'mountain', en: 'Prophet Moses', ar: 'النَّبِيُّ مُوسَى' },
   yunusEmre: { ink: '#5b3a6b', wax: '#6a3f7c', waxDark: '#2a1433', emblem: 'quill', en: 'Yunus Emre', ar: 'يُونُسُ إِمْرَه' },
   gevherNesibe: { ink: '#1f5d74', wax: '#226680', waxDark: '#0b2a36', emblem: 'dome', en: 'Gevher Nesibe', ar: 'جَوْهَر نَسِيبَة' },
+  ahilik: { ink: '#4b5560', wax: '#56616d', waxDark: '#1e252c', emblem: 'anvil', en: 'Ahi Brotherhood', ar: 'الْأَخِيَّةُ' },
+  kasgarli: { ink: '#7a2f4f', wax: '#8a3558', waxDark: '#3a1022', emblem: 'worldMap', en: 'Kashgari', ar: 'الْكَاشْغَرِيُّ' },
+  yesevi: { ink: '#3b3f7a', wax: '#444a8c', waxDark: '#171a3a', emblem: 'tent', en: 'Ahmed Yesevi', ar: 'أَحْمَدُ الْيَسَوِيُّ' },
+  nuh: { ink: '#5e5233', wax: '#6b5d3a', waxDark: '#2b2414', emblem: 'ark', en: 'Prophet Noah', ar: 'النَّبِيُّ نُوحٌ' },
+  greenDeal: { ink: '#3b6e8c', wax: '#3f7696', waxDark: '#142c3b', emblem: 'globe', en: 'Green Deal', ar: 'الصَّفْقَةُ الْخَضْرَاءُ' },
+  zeroWaste: { ink: '#4f7a1e', wax: '#5a8a22', waxDark: '#22380a', emblem: 'leaf', en: 'Zero Waste', ar: 'صِفْرُ النُّفَايَاتِ' },
   /** The certificate's own seal, in gold. */
-  seyahatname: { ink: '#8a6a1f', wax: '#b8892c', waxDark: '#4f3408', emblem: 'book', en: 'Seyahatname', ar: 'الرِّحْلَةُ' },
+  seyahatname: { ink: '#8a6a1f', wax: '#b8892c', waxDark: '#4f3408', emblem: 'book', en: 'My Journal', ar: 'دَفْتَرِي' },
 };
 
-export const storyStyle = (storyId: string) => STORY_STYLE[storyId] ?? STORY_STYLE.ibnJubayr;
+/** A book without its own style yet gets a plain one with its own name, never another book's seal. */
+const plainStyle = (storyId: string) => {
+  const meta = getStoryMeta(storyId);
+  return { ink: '#4a5a52', wax: '#55665d', waxDark: '#1f2a24', emblem: 'book' as StampIcon, en: meta?.name ?? storyId, ar: meta?.nameAr ?? meta?.name ?? storyId };
+};
+
+export const storyStyle = (storyId: string) => STORY_STYLE[storyId] ?? plainStyle(storyId);
 
 /** A steady tilt per stamp, so a page of stamps looks hand-pressed but never moves between visits. */
 export const tiltFor = (key: string) => {

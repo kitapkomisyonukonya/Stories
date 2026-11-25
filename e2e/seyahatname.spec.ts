@@ -84,7 +84,7 @@ test('the journal opens from the library', async ({ page }) => {
   await seedJournal(page);
   await page.goto('/');
   if (isPhone(page)) {
-    await page.getByRole('navigation').getByRole('button', { name: 'Seyahatname' }).click();
+    await page.getByRole('navigation').getByRole('button', { name: 'My Journal' }).click();
   } else {
     await page.locator('[data-journal-open]').click();
   }
@@ -112,7 +112,7 @@ test('each language has its own certificate, and its code checks', async ({ page
   await seedJournal(page, { allA2: true });
   await page.goto('/');
   if (isPhone(page)) {
-    await page.getByRole('navigation').getByRole('button', { name: 'Seyahatname' }).click();
+    await page.getByRole('navigation').getByRole('button', { name: 'My Journal' }).click();
   } else {
     await page.locator('[data-journal-open]').click();
   }

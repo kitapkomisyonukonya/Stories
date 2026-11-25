@@ -730,7 +730,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                       className="mt-2 inline-flex items-center gap-2 text-xs font-semibold text-[#EDE5D4]/80 transition-colors hover:text-white"
                       data-journal-open
                     >
-                      {lang === 'ar' ? 'افْتَحْ دَفْتَرَ رِحْلَتِي' : 'Open my Seyahatname'}
+                      {lang === 'ar' ? 'افْتَحْ دَفْتَرِي' : 'Open My Journal'}
                       <ArrowRight size={14} mirrored={isRTL} />
                     </button>
                   </div>

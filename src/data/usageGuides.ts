@@ -282,9 +282,9 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
         },
         {
           icon: 'Scroll',
-          heading: 'Seyahatname: your travel journal',
+          heading: 'My Journal',
           steps: [
-            'Open Seyahatname on the home page. On a phone, it has its own tab.',
+            'Open My Journal on the home page. On a phone, it has its own tab.',
             'Finish the Quick Challenge of a chapter and its stamp is pressed in your journal.',
             'Finish the Final Challenge of a book and the book is sealed.',
             'If you like, choose a weekly goal. A new week starts on Monday. Nothing you earned is lost.',
@@ -388,9 +388,9 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
         },
         {
           icon: 'Scroll',
-          heading: '«الرحلة»: دفتر رحلتك',
+          heading: '«دفتري»',
           steps: [
-            'افتح «الرحلة» من الصفحة الرئيسية. وفي الهاتف لها تبويب خاص.',
+            'افتح «دفتري» من الصفحة الرئيسية. وفي الهاتف له تبويب خاص.',
             'أكمل «التحدي السريع» في فصل، فيُختم ختمه في دفترك.',
             'أكمل «التحدي النهائي» في كتاب، فيُختم الكتاب.',
             'إن شئت، اختر هدفًا أسبوعيًا. يبدأ أسبوع جديد يوم الاثنين، ولا يضيع شيء مما كسبته.',
@@ -487,9 +487,9 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
         },
         {
           icon: 'Scroll',
-          heading: 'Seyahatname: your travel journal',
+          heading: 'My Journal',
           steps: [
-            'Open Seyahatname on the home page. On a phone, it has its own tab.',
+            'Open My Journal on the home page. On a phone, it has its own tab.',
             'Finish the Quick Challenge of a chapter and its stamp is pressed in your journal.',
             'Finish the Final Challenge of a book and the book is sealed.',
             'If you like, choose a weekly goal. A new week starts on Monday. Nothing you earned is lost.',
@@ -582,9 +582,9 @@ export const USAGE_GUIDES: Record<UserRole, Record<UsageGuideLang, UsageGuide>> 
         },
         {
           icon: 'Scroll',
-          heading: '«الرحلة»: دفتر رحلتك',
+          heading: '«دفتري»',
           steps: [
-            'افتح «الرحلة» من الصفحة الرئيسية. وفي الهاتف لها تبويب خاص.',
+            'افتح «دفتري» من الصفحة الرئيسية. وفي الهاتف له تبويب خاص.',
             'أكمل «التحدي السريع» في فصل، فيُختم ختمه في دفترك.',
             'أكمل «التحدي النهائي» في كتاب، فيُختم الكتاب.',
             'إن شئت، اختر هدفًا أسبوعيًا. يبدأ أسبوع جديد يوم الاثنين، ولا يضيع شيء مما كسبته.',

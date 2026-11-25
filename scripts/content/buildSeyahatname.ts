@@ -30,7 +30,14 @@ const readBook = (storyId: string, level: string, language: 'en' | 'ar') => {
 const editions: Record<string, ReturnType<typeof buildEditionIndex>> = {};
 for (const { storyId, level } of catalog.editions) {
   const en = readBook(storyId, level, 'en');
-  if (!en) continue;
+  if (!en) {
+    // An Arabic-only edition (Pre-A1): its stamps come from the Arabic book, and it has no English side.
+    const ar = readBook(storyId, level, 'ar');
+    if (!ar) continue;
+    const index = buildEditionIndex(ar, ar, { beforeIslam: beforeIslam.has(storyId) });
+    editions[`${storyId}:${level}`] = { ...index, quick: { en: [], ar: index.quick.ar } };
+    continue;
+  }
   editions[`${storyId}:${level}`] = buildEditionIndex(en, isEnglishOnly(storyId, level) ? null : readBook(storyId, level, 'ar'), {
     beforeIslam: beforeIslam.has(storyId),
   });
@@ -73,7 +80,7 @@ for (const level of ['A2', 'B1', 'B2']) {
     if (!books.length) continue;
     achievements[`level-${level}-${lang}`] = {
       type: 'Certificate',
-      name: `Seyahatname Certificate · ${level} · ${language}`,
+      name: `Level Certificate · ${level} · ${language}`,
       description: `Completed the ${level} journey of the Lisandan Kültüre digital library in ${language}: every ${level} book read in ${language} and sealed (${books.join(', ')}).`,
       criteria: `Finish the Final Challenge of every ${level} book in ${language} in the Lisandan Kültüre app. ${RECORD_NOTE}`,
       level,

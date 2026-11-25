@@ -23,7 +23,7 @@ const TEAL = '#1d5f5a';
 
 const COPY = {
   en: {
-    title: 'Seyahatname Certificate',
+    title: 'Level Certificate',
     name: 'Your name, as it should appear',
     namePlaceholder: 'Name and surname',
     print: 'Print or save as PDF',
@@ -33,7 +33,7 @@ const COPY = {
     badgeFailed: 'The Open Badge could not be made now. Try again later.',
   },
   ar: {
-    title: 'شَهَادَةُ الرِّحْلَةِ',
+    title: 'شَهَادَةُ الْمُسْتَوَى',
     name: 'اسْمُكَ كَمَا تُرِيدُ أَنْ يَظْهَرَ',
     namePlaceholder: 'الِاسْمُ وَاللَّقَبُ',
     print: 'اطْبَعْ أَوِ احْفَظْ بِصِيغَةِ PDF',
@@ -69,7 +69,7 @@ const arBooks = (count: number) => {
 
 const SHEET_COPY = {
   en: {
-    title: 'Seyahatname Certificate',
+    title: 'Level Certificate',
     level: (level: string) => `LEVEL ${level}`,
     awarded: 'This certificate is awarded to',
     body: (level: string, books: number) => `for completing the ${level} journey of the Lisandan Kültüre digital library, reading ${enBooks(books)}.`,
@@ -77,7 +77,7 @@ const SHEET_COPY = {
     check: 'Check code',
   },
   ar: {
-    title: 'شَهَادَةُ الرِّحْلَةِ',
+    title: 'شَهَادَةُ الْمُسْتَوَى',
     level: (level: string) => `الْمُسْتَوَى ${levelLabel(level, 'ar')}`,
     awarded: 'تُمْنَحُ هٰذِهِ الشَّهَادَةُ لِـ',
     body: (level: string, books: number) =>
