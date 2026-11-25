@@ -78,6 +78,64 @@ const readStoredLevel = (): Level | null => {
   }
 };
 
+// Hidden trial (?gizli=1): the shelf filter as one quiet row, a level menu plus category tabs with their emblems.
+const NEW_FILTER_BAR = typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('gizli');
+
+function LevelMenu({ level, options, lang, isRTL, label, onChoose }: {
+  level: Level;
+  options: Level[];
+  lang: 'en' | 'ar';
+  isRTL: boolean;
+  label: string;
+  onChoose: (next: Level) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  const boxRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!open) return undefined;
+    const close = (event: PointerEvent) => { if (!boxRef.current?.contains(event.target as Node)) setOpen(false); };
+    const onKey = (event: KeyboardEvent) => { if (event.key === 'Escape') setOpen(false); };
+    document.addEventListener('pointerdown', close);
+    document.addEventListener('keydown', onKey);
+    return () => { document.removeEventListener('pointerdown', close); document.removeEventListener('keydown', onKey); };
+  }, [open]);
+  return (
+    <div ref={boxRef} className="relative shrink-0">
+      <button
+        type="button"
+        aria-haspopup="listbox"
+        aria-expanded={open}
+        aria-label={`${label}: ${levelLabel(level, lang)}`}
+        onClick={() => setOpen(value => !value)}
+        className={cn('inline-flex items-center gap-2.5 whitespace-nowrap rounded-2xl bg-[#F3D58A] py-2 ps-2 pe-3.5 font-semibold text-[#1a150b] shadow-[0_8px_24px_rgba(243,213,138,0.18)] transition-colors hover:bg-[#F7DF9F]', isRTL ? 'text-[16px]' : 'text-[14px]')}
+        data-home-level-menu
+      >
+        <span className="rounded-lg bg-[#1a150b] px-2 py-0.5 text-[14px] font-bold text-[#F3D58A]">{levelLabel(level, lang)}</span>
+        {levelDescriptions[level][lang]}
+        <svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true" className={cn('opacity-60 transition-transform', open && 'rotate-180')}><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>
+      </button>
+      {open && (
+        <div role="listbox" aria-label={label} className="absolute start-0 top-full z-30 mt-2 min-w-[240px] rounded-2xl border border-white/10 bg-[#171a16] p-1.5 shadow-[0_24px_60px_rgba(0,0,0,0.55)]">
+          {options.map(option => (
+            <button
+              key={option}
+              type="button"
+              role="option"
+              aria-selected={option === level}
+              onClick={() => { onChoose(option); setOpen(false); }}
+              className={cn('flex w-full items-center gap-3 rounded-xl px-2.5 py-2 text-start transition-colors', option === level ? 'bg-[#F3D58A]/12 text-[#F3D58A]' : 'text-[#FFF9EC] hover:bg-white/[0.06]')}
+              data-home-level={option}
+            >
+              <span className={cn('min-w-[2.6rem] rounded-lg px-1.5 py-0.5 text-center text-[14px] font-bold', option === level ? 'bg-[#F3D58A] text-[#1a150b]' : 'bg-white/[0.07]')}>{levelLabel(option, lang)}</span>
+              <span className={cn(isRTL ? 'text-[16px]' : 'text-[13.5px]', option === level ? 'font-semibold' : 'text-[#EDE5D4]/80')}>{levelDescriptions[option][lang]}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 const NOTE_ICONS: Record<HomeNoteIcon, React.ComponentType<{ size?: number; className?: string }>> = {
   classMode: SECTION_ICONS.classMode.icon,
   lessonCard: SECTION_ICONS.lessonCard.icon,
@@ -774,6 +832,42 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
               </div>
             </div>
 
+          {NEW_FILTER_BAR ? (
+          <div className="mt-6 flex flex-wrap items-center gap-x-7 gap-y-2 border-b border-white/[0.08]" data-home-filter-bar>
+            <LevelMenu level={level} options={levelOptions} lang={lang} isRTL={isRTL} label={copy.yourLevel} onChoose={chooseLevel} />
+            <div className="-mx-1 flex min-w-0 flex-1 gap-6 overflow-x-auto px-1 [scrollbar-width:none] lg:gap-8" role="group">
+              {(['all', 'prophets', 'history', 'turkish', 'today'] as CollectionId[]).map(collection => {
+                const active = activeCollection === collection;
+                return (
+                  <button
+                    key={collection}
+                    type="button"
+                    aria-pressed={active}
+                    onClick={() => setActiveCollection(collection)}
+                    className={cn(
+                      'group/tab relative flex shrink-0 flex-col items-center gap-1.5 whitespace-nowrap px-1 pb-3 pt-2.5 transition-colors',
+                      isRTL ? 'text-[16px]' : 'text-[13.5px]',
+                      active ? 'font-semibold text-[#FFF9EC]' : 'font-medium text-[#EDE5D4]/62 hover:text-[#FFF9EC]',
+                    )}
+                    data-home-collection={collection}
+                  >
+                    {collection === 'all' ? (
+                      <span className={cn('grid h-10 w-10 grid-cols-2 gap-0.5 transition-[opacity,transform]', active ? 'scale-110' : 'opacity-80 group-hover/tab:opacity-100')} aria-hidden="true">
+                        {(['prophets', 'history', 'turkish', 'today'] as StoryCollectionId[]).map(id => (
+                          <img key={id} src={collectionVisuals[id].icon} alt="" className="h-[19px] w-[19px] object-contain" />
+                        ))}
+                      </span>
+                    ) : (
+                      <img src={collectionVisuals[collection].icon} alt="" className={cn('h-10 w-10 object-contain transition-[opacity,transform]', active ? 'scale-110' : 'opacity-80 group-hover/tab:opacity-100')} />
+                    )}
+                    {collection === 'all' ? copy.all : collectionLabels[collection]}
+                    {active && <span className="absolute inset-x-0 -bottom-px h-0.5 rounded-full bg-[#F3D58A]" />}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+          ) : (
           <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 rounded-[22px] bg-white/[0.045] p-3">
             <span className={cn('ps-2 text-[11px] font-semibold uppercase text-[#EDE5D4]/66', isRTL ? 'text-[14px]' : 'tracking-[0.18em]')}>{copy.yourLevel}</span>
             <div className="flex w-full gap-1 rounded-2xl bg-black/30 p-1 sm:w-auto" role="group" aria-label={copy.yourLevel}>
@@ -816,6 +910,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
               ))}
             </div>
           </div>
+          )}
 
           <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {/* A collection whose books are still being made (Our World Today) shows its mark and a short line instead of an empty shelf. */}
