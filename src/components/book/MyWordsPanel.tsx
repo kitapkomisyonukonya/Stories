@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '../../lib/utils';
@@ -68,7 +69,7 @@ export const MyWordsPanel: React.FC<MyWordsPanelProps> = ({ isOpen, onClose, sta
 
   const bookName = (word: MyWord) => {
     const meta = getStoryMeta(word.storyId);
-    return `${(lang === 'ar' ? meta?.nameAr : meta?.name) ?? word.storyId} · ${word.level}`;
+    return `${(lang === 'ar' ? meta?.nameAr : meta?.name) ?? word.storyId} · ${levelLabel(word.level, lang)}`;
   };
 
   const groups = useMemo(() => {

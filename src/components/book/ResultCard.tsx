@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '../../lib/utils';
@@ -162,7 +163,7 @@ export const ResultCard: React.FC<ResultCardProps> = ({ isOpen, onClose, bookDat
               </span>
               <div>
                 <h2 className="font-display text-2xl font-semibold">{SECTION_ICONS.resultCard[lang]}</h2>
-                <p className="text-sm text-wood/60"><bdi>{(lang === 'ar' ? story?.nameAr : story?.name) ?? storyId}</bdi> · <bdi>{level}</bdi> · <bdi>{date}</bdi></p>
+                <p className="text-sm text-wood/60"><bdi>{(lang === 'ar' ? story?.nameAr : story?.name) ?? storyId}</bdi> · <bdi>{levelLabel(level, lang)}</bdi> · <bdi>{date}</bdi></p>
               </div>
             </div>
 

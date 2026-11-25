@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '../../lib/utils';
@@ -213,7 +214,7 @@ export const LevelTest: React.FC<LevelTestProps> = ({ isOpen, onClose, onResult,
             {finished && level && (
               <div className="mt-5" data-level-test-result>
                 <p className="text-xs font-semibold uppercase tracking-[0.14em] text-wood/55">{copy.resultTitle}</p>
-                <p className="mt-3 font-display text-5xl font-semibold leading-none text-wood">{level}</p>
+                <p className="mt-3 font-display text-5xl font-semibold leading-none text-wood">{levelLabel(level, lang)}</p>
                 <p className="mt-3 text-[15px] leading-relaxed text-wood/80">{copy.resultText[level]}</p>
                 <p className="mt-1 text-sm text-wood/60">{copy.score(formatNumber(rightCount), formatNumber(items.length))}</p>
                 <div className="mt-6 flex flex-wrap gap-3">
@@ -223,7 +224,7 @@ export const LevelTest: React.FC<LevelTestProps> = ({ isOpen, onClose, onResult,
                       onClick={() => onStart(startBook.id, level)}
                       className="inline-flex min-h-12 items-center rounded-xl bg-[#3b2f1f] px-5 text-sm font-semibold text-white hover:bg-[#2a2116]"
                     >
-                      {copy.startWith} {lang === 'ar' ? startBook.nameAr : startBook.name} · {level}
+                      {copy.startWith} {lang === 'ar' ? startBook.nameAr : startBook.name} · {levelLabel(level, lang)}
                     </button>
                   )}
                   <button

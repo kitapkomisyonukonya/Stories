@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { AnimatePresence, motion } from 'motion/react';
 import { Level } from '../../types';
 import homeIcon from '../../assets/images/home_icon.webp';
@@ -238,7 +239,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                   <span className="min-w-0 flex-1">
                     <span className={cn('block truncate font-semibold text-[#FFF9EC]', isRTL ? 'text-[18px]' : 'text-[16px]')}>{storyName(lastStory)}</span>
                     <span className={cn('mt-0.5 block text-[#EDE5D4]/66', isRTL ? 'text-[14px]' : 'text-[12.5px]')}>
-                      {lastActive.level}
+                      {levelLabel(lastActive.level, lang)}
                       {lastActive.position && lastActive.position.pageIndex > 0 && (
                         <> · {copy.page} {formatNumber(lastActive.position.pageIndex + 1)} / {formatNumber(lastActive.position.totalPages)}</>
                       )}
@@ -271,7 +272,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                     )}
                     data-home-level={option}
                   >
-                    {option}
+                    {levelLabel(option, lang)}
                     {suggestedLevel === option && option !== level && <span className="ms-1 text-[10px] text-[#E9C46A]">●</span>}
                   </button>
                 ))}
@@ -307,7 +308,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                         <span className="relative block aspect-[4/5] overflow-hidden rounded-[14px] shadow-[0_14px_30px_rgba(0,0,0,0.45)] ring-1 ring-white/[0.07]">
                           <img src={story.imageSmall ?? story.image} alt="" loading="lazy" className="h-full w-full object-cover" />
                           {!story.availableLevels.includes(level) && (
-                            <span className="absolute end-1.5 top-1.5 rounded-full bg-black/60 px-2 py-0.5 text-[10.5px] font-semibold text-[#F3D58A]">{bookLevel}</span>
+                            <span className="absolute end-1.5 top-1.5 rounded-full bg-black/60 px-2 py-0.5 text-[10.5px] font-semibold text-[#F3D58A]">{levelLabel(bookLevel, lang)}</span>
                           )}
                           {journal.seals[editionKey(story.id, bookLevel)] !== undefined && (
                             <span className="absolute bottom-1.5 end-1 -rotate-6" data-home-seal>
@@ -354,12 +355,12 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                   copy.levelTest,
                   <SECTION_ICONS.levelTest.icon size={18} />,
                   onOpenLevelTest,
-                  suggestedLevel ? <span className="text-[13px] font-semibold text-[#E9C46A]">{copy.suggested}: {suggestedLevel}</span> : undefined,
+                  suggestedLevel ? <span className="text-[13px] font-semibold text-[#E9C46A]">{copy.suggested}: {levelLabel(suggestedLevel, lang)}</span> : undefined,
                 )}
                 {isTeacher && settingsRow(copy.checkCode, <SECTION_ICONS.checkCode.icon size={18} />, onOpenCheckCode)}
                 {LEVELS.filter(option => option !== 'A1' && option !== 'Pre-A1').map(option => (
                   <React.Fragment key={option}>
-                    {settingsRow(`${SECTION_ICONS.levelExam[lang]} · ${option}`, <SECTION_ICONS.levelExam.icon size={18} />, () => onOpenExam(option))}
+                    {settingsRow(`${SECTION_ICONS.levelExam[lang]} · ${levelLabel(option, lang)}`, <SECTION_ICONS.levelExam.icon size={18} />, () => onOpenExam(option))}
                   </React.Fragment>
                 ))}
                 {isTeacher && settingsRow(SECTION_ICONS.scoreExam[lang], <SECTION_ICONS.scoreExam.icon size={18} />, onOpenScoreExam)}
@@ -444,7 +445,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                         openBook.level === option ? 'border-[#E9C46A] bg-[#E9C46A]/12 text-[#FFF9EC]' : 'border-white/10 text-[#EDE5D4]/85',
                       )}
                     >
-                      <span className="block text-[17px] font-semibold">{option}</span>
+                      <span className="block text-[17px] font-semibold">{levelLabel(option, lang)}</span>
                       {progress && <span className="block text-[11px] tabular-nums text-[#EDE5D4]/60">{formatNumber(progress.percent)}%</span>}
                     </button>
                   );
@@ -460,7 +461,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                 className="mt-5 flex min-h-[52px] w-full items-center justify-center gap-2 rounded-2xl bg-[linear-gradient(135deg,#ECCD7E,#B98A36)] text-[16px] font-semibold text-[#16130c]"
                 data-home-read
               >
-                {lastActive?.prophetId === bookOpen.id && lastActive.level === openBook.level ? copy.resume : copy.read} · {openBook.level}
+                {lastActive?.prophetId === bookOpen.id && lastActive.level === openBook.level ? copy.resume : copy.read} · {levelLabel(openBook.level, lang)}
                 <ArrowRight size={16} mirrored={isRTL} />
               </button>
               {onOpenTeacherGuide && (
@@ -471,7 +472,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                   data-teacher-shortcut
                 >
                   <GraduationCap size={17} />
-                  {copy.teacherGuide} {openBook.level}
+                  {copy.teacherGuide} {levelLabel(openBook.level, lang)}
                 </button>
               )}
             </motion.div>

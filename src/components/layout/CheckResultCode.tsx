@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '../../lib/utils';
@@ -123,7 +124,7 @@ export const CheckResultCode: React.FC<CheckResultCodeProps> = ({ isOpen, onClos
             {data && (
               <div className="mt-5" data-check-code-result>
                 <p className="text-xs font-semibold uppercase tracking-[0.14em] text-emerald-700">{copy.valid}</p>
-                <p className="mt-1 text-lg font-semibold">{(lang === 'ar' ? story?.nameAr : story?.name) ?? data.storyId} · {data.level}</p>
+                <p className="mt-1 text-lg font-semibold">{(lang === 'ar' ? story?.nameAr : story?.name) ?? data.storyId} · {levelLabel(data.level, lang)}</p>
                 <dl className="mt-3 divide-y divide-black/[0.06] rounded-2xl border border-black/[0.07] bg-white/80">
                   {([
                     [copy.chapters, percent(data.chapters)],

@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { SCORM } from '../../scorm/config';
 import { suggestNextBook, type NextBookReason } from '../../lib/nextBook';
 import { useMyWords } from '../../lib/myWords';
@@ -192,7 +193,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
     ? {
         eyebrow: 'اكتملت الرحلة',
         congratulations: 'أحسنت الإنجاز',
-        completed: `أكملت ${story.nameAr} · ${bookData.level}`,
+        completed: `أكملت ${story.nameAr} · ${levelLabel(bookData.level, 'ar')}`,
         journey: 'رحلتك التعليمية',
         chapters: 'الفصول',
         words: 'ملاحظات الكلمات',
@@ -436,7 +437,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
                   {isArabic ? story.nameAr : story.name}
                 </h1>
                 <p className="mt-2 text-sm font-semibold text-white/65">
-                  {bookData.level} · {isArabic ? visual.shortAr : visual.shortEn}
+                  {levelLabel(bookData.level, language)} · {isArabic ? visual.shortAr : visual.shortEn}
                 </p>
               </div>
             </div>
@@ -634,7 +635,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
             <Award size={22} style={{ color: visual.accentBright }} />
             <div>
               <p className="text-[11px] font-semibold uppercase tracking-[0.2em]" style={{ color: visual.accentBright }}>
-                {bookData.level}
+                {levelLabel(bookData.level, language)}
               </p>
               <h3 className="mt-1 font-display text-2xl font-semibold tracking-[-0.03em] sm:text-3xl">
                 {copy.canDo}
@@ -766,7 +767,7 @@ export const SummaryDashboard: React.FC<SummaryDashboardProps> = ({
                       {isArabic ? nextRecommendation.story.nameAr : nextRecommendation.story.name}
                     </p>
                     <p className="mt-1 text-sm text-white/48">
-                      {nextRecommendation.level} · {isArabic
+                      {levelLabel(nextRecommendation.level, language)} · {isArabic
                         ? collectionVisuals[nextRecommendation.story.collection].shortAr
                         : collectionVisuals[nextRecommendation.story.collection].shortEn}
                     </p>

@@ -1,3 +1,4 @@
+import { levelLabel } from '../../content/levelLabels';
 /**
  * Arabic counted nouns: 1 and 2 have their own forms, 3–10 take the plural, 11 and up the singular.
  * `n` is the number already written in Arabic digits, `value` the number itself.
@@ -101,7 +102,7 @@ export const JOURNAL_COPY = {
     badges: 'أَوْسِمَةُ الْمُسَافِرِ',
     badgesOf: (n: string, total: string) => `${n} مِنْ ${total}`,
     certificates: 'شَهَادَةُ الرِّحْلَةِ',
-    certificateLevel: (level: string) => `شَهَادَةُ الرِّحْلَةِ · ${level}`,
+    certificateLevel: (level: string) => `شَهَادَةُ الرِّحْلَةِ · ${levelLabel(level, 'ar')}`,
     certificatesNote: 'لِكُلِّ لُغَةٍ شَهَادَتُهَا: الْإِنْجِلِيزِيَّةُ لِلْكُتُبِ الَّتِي تُتِمُّهَا بِالْإِنْجِلِيزِيَّةِ، وَالْعَرَبِيَّةُ لِلَّتِي تُتِمُّهَا بِالْعَرَبِيَّةِ.',
     certificateIn: { en: 'بِالْإِنْجِلِيزِيَّةِ', ar: 'بِالْعَرَبِيَّةِ' },
     certificateNeeds: (done: string, total: string) => `الْكُتُبُ الْمُكْتَمِلَةُ: ${done} / ${total}`,

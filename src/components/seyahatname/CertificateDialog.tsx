@@ -1,4 +1,5 @@
 import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { createPortal } from 'react-dom';
 import brandLogo from '../../assets/images/brand_logo_384.webp';
 import type { Level } from '../../types';
@@ -77,10 +78,10 @@ const SHEET_COPY = {
   },
   ar: {
     title: 'شَهَادَةُ الرِّحْلَةِ',
-    level: (level: string) => `الْمُسْتَوَى ${level}`,
+    level: (level: string) => `الْمُسْتَوَى ${levelLabel(level, 'ar')}`,
     awarded: 'تُمْنَحُ هٰذِهِ الشَّهَادَةُ لِـ',
     body: (level: string, books: number) =>
-      `تَقْدِيرًا لِإِتْمَامِ رِحْلَةِ الْمُسْتَوَى ${level} فِي مَكْتَبَةِ «\u2068Lisandan\u00a0Kültüre\u2069» الرَّقْمِيَّةِ، وَقِرَاءَةِ ${arBooks(books)} بِاللُّغَةِ الْعَرَبِيَّةِ حَتَّى تَحَدِّيهَا النِّهَائِيِّ.`,
+      `تَقْدِيرًا لِإِتْمَامِ رِحْلَةِ الْمُسْتَوَى ${levelLabel(level, 'ar')} فِي مَكْتَبَةِ «\u2068Lisandan\u00a0Kültüre\u2069» الرَّقْمِيَّةِ، وَقِرَاءَةِ ${arBooks(books)} بِاللُّغَةِ الْعَرَبِيَّةِ حَتَّى تَحَدِّيهَا النِّهَائِيِّ.`,
     date: 'التَّارِيخُ',
     check: 'رَمْزُ التَّحَقُّقِ',
   },
@@ -233,7 +234,7 @@ export const CertificateDialog: React.FC<{ certificate: CertificateChoice | null
   };
 
   return (
-    <Modal open onClose={onClose} title={`${copy.title} · ${level} · ${LANGUAGE_NAMES[lang][sheetLang]}`} wide>
+    <Modal open onClose={onClose} title={`${copy.title} · ${levelLabel(level, lang)} · ${LANGUAGE_NAMES[lang][sheetLang]}`} wide>
       <label className="block text-[13px] font-semibold text-[#14221a]/75" htmlFor="certificate-name">{copy.name}</label>
       <input
         id="certificate-name"

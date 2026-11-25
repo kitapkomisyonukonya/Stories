@@ -31,6 +31,7 @@ import { formatHashRoute, isHomeHash, parseHashRoute, type HashRoute } from './l
 import { mergeBookProgress, readBookProgress, type BookProgress } from './lib/bookProgress';
 import { collectionVisuals, getStoryMeta, isArabicOnlyLevel, isEnglishOnlyEdition, readerTokenVariables } from './core/content/storyCatalog';
 import { useLanguage } from './contexts/LanguageContext';
+import { levelLabel } from './content/levelLabels';
 import { LanguageToggle } from './components/ui/LanguageToggle';
 import { FullscreenToggle } from './components/ui/FullscreenButton';
 import { PageErrorBoundary } from './components/ui/PageErrorBoundary';
@@ -40,6 +41,9 @@ import { useReaderPreferences } from './hooks/useReaderPreferences';
 import { useIsPhone, useSheetDrag } from './lib/phone';
 import { useDialogFocus } from './hooks/useDialogFocus';
 import { StoryProgressProvider, useStoryProgress } from './contexts/StoryProgressContext';
+
+/** Pre-A1 readers are young beginners: their Arabic story text is set much larger than other levels. */
+const PRE_A1_TEXT_SCALE = 1.6;
 
 // Layout Components
 // Loaded on first use: the teacher guide, the final challenge and the summary are large and not needed to start reading.
@@ -785,7 +789,7 @@ const AppContent = () => {
               isDyslexic={isDyslexic}
               showHighlights={showHighlights}
               followAlong={followAlong}
-              fontSize={(currentBook?.baseFontSize || 12) * readerScale * (isLargeDesktop ? 1.15 : 1) * (classMode ? 1.3 : 1)}
+              fontSize={(currentBook?.baseFontSize || 12) * readerScale * (isLargeDesktop ? 1.15 : 1) * (classMode ? 1.3 : 1) * (currentLevel === 'Pre-A1' ? PRE_A1_TEXT_SCALE : 1)}
               level={currentLevel}
               storyId={currentDefinition?.storyId}
               collectionId={currentCollection || 'prophets'}
@@ -800,7 +804,7 @@ const AppContent = () => {
             isDyslexic={isDyslexic} 
             showHighlights={showHighlights}
             followAlong={followAlong}
-            fontSize={(currentBook?.baseFontSize || 12) * readerScale * (isLargeDesktop ? 1.15 : 1) * (classMode ? 1.3 : 1)}
+            fontSize={(currentBook?.baseFontSize || 12) * readerScale * (isLargeDesktop ? 1.15 : 1) * (classMode ? 1.3 : 1) * (currentLevel === 'Pre-A1' ? PRE_A1_TEXT_SCALE : 1)}
             level={currentLevel}
             storyId={currentDefinition?.storyId}
             collectionId={currentCollection || 'prophets'}
@@ -927,7 +931,7 @@ const AppContent = () => {
                   "ui-label mt-0.5 block truncate sm:text-xs max-sm:hidden",
                   themeClasses.headerSubtitle
                 )}>
-                  {t('nav.level')} {currentLevel} · {t('nav.page')} {formatNumber(currentPageIndex + 1)}
+                  {t('nav.level')} {levelLabel(currentLevel, language)} · {t('nav.page')} {formatNumber(currentPageIndex + 1)}
                 </span>
               </div>
             </div>
@@ -1335,7 +1339,7 @@ const AppContent = () => {
                     {currentBookTitle}
                   </h3>
                   <p className="mt-1 text-[13px] text-parchment/55">
-                    {t('nav.level')} {currentLevel} · {t('nav.page')} {formatNumber(currentPageIndex + 1)} / {formatNumber(totalPages)}
+                    {t('nav.level')} {levelLabel(currentLevel, language)} · {t('nav.page')} {formatNumber(currentPageIndex + 1)} / {formatNumber(totalPages)}
                   </p>
                 </div>
                 <button

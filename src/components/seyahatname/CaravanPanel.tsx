@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { decodeResult } from '../../lib/resultCode';
 import { EDITIONS, editionKey } from '../../lib/seyahatname/store';
@@ -206,7 +207,7 @@ export const CaravanPanel: React.FC<{ isOpen: boolean; onClose: () => void }> = 
             <label className="mt-3 block text-[12px] font-semibold text-[#14221a]/70" htmlFor="caravan-route">{copy.route}</label>
             <select id="caravan-route" className={`${field} mt-1`} value={state.route} onChange={event => setState(prev => ({ ...prev, route: event.target.value }))}>
               {routes.map(({ storyId, level }) => (
-                <option key={`${storyId}:${level}`} value={`${storyId}:${level}`}>{bookName(storyId, lang)} · {level}</option>
+                <option key={`${storyId}:${level}`} value={`${storyId}:${level}`}>{bookName(storyId, lang)} · {levelLabel(level, lang)}</option>
               ))}
             </select>
           </div>
@@ -236,7 +237,7 @@ export const CaravanPanel: React.FC<{ isOpen: boolean; onClose: () => void }> = 
                 {entries.map((entry, index) => (
                   <li key={`${entry.code}-${index}`} className="flex items-center justify-between gap-2 border-t border-black/[0.06] py-1.5 text-[13px] first:border-0">
                     <span className="min-w-0 truncate">
-                      {entry.result ? `${copy.stamps(formatNumber(entry.result.stamps))} · ${bookName(entry.result.storyId, lang)} ${entry.result.level}` : entry.code}
+                      {entry.result ? `${copy.stamps(formatNumber(entry.result.stamps))} · ${bookName(entry.result.storyId, lang)} ${levelLabel(entry.result.level, lang)}` : entry.code}
                     </span>
                     <button type="button" className="shrink-0 rounded-lg px-2 py-1 text-[12px] font-semibold text-[#14221a]/55 hover:bg-black/5" onClick={() => setState(prev => ({ ...prev, codes: prev.codes.filter((_, i) => i !== index) }))}>
                       {copy.remove}

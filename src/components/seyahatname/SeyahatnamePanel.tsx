@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { createPortal } from 'react-dom';
 import { AnimatePresence, motion } from 'motion/react';
 import homeIcon from '../../assets/images/home_icon.webp';
@@ -206,7 +207,7 @@ export const SeyahatnamePanel: React.FC<SeyahatnamePanelProps> = ({ isOpen, onCl
           const pick = selected ? all.find(stamp => stamp.key === selected) : undefined;
           return (
             <section key={key} aria-labelledby={`journal-${key}`} data-journal={key}>
-              {sectionTitle(`${bookName(storyId, lang)} · ${level}`, copy.stampsOf(fmt(earned), fmt(all.length)), `journal-${key}`)}
+              {sectionTitle(`${bookName(storyId, lang)} · ${levelLabel(level, lang)}`, copy.stampsOf(fmt(earned), fmt(all.length)), `journal-${key}`)}
               <div className="rounded-2xl bg-[#f7f0df] p-3 text-[#14221a] shadow-[inset_0_0_40px_rgba(120,90,40,0.22)] sm:p-4">
                 <ul className="grid grid-cols-3 justify-items-center gap-1 sm:grid-cols-6">
                   {shown.map(stamp => (
@@ -262,7 +263,7 @@ export const SeyahatnamePanel: React.FC<SeyahatnamePanelProps> = ({ isOpen, onCl
       <div className="mt-2 space-y-3">
         {LEVELS.map(level => (
           <div key={level} className="flex items-start gap-2">
-            <span className="mt-6 w-7 shrink-0 text-[12px] font-semibold text-[#E4C779]">{level}</span>
+            <span className="mt-6 w-7 shrink-0 text-[12px] font-semibold text-[#E4C779]">{levelLabel(level, lang)}</span>
             <ul className="grid flex-1 grid-cols-3 gap-2 sm:grid-cols-6">
               {levelBooks(level).map(story => {
                 const sealed = journal.seals[editionKey(story.id, level)] !== undefined;
@@ -295,7 +296,7 @@ export const SeyahatnamePanel: React.FC<SeyahatnamePanelProps> = ({ isOpen, onCl
             {[...words].sort((a, b) => b.savedAt - a.savedAt).slice(0, 3).map(word => (
               <li key={word.id} className="flex justify-between gap-3 border-t border-white/[0.07] py-2 text-[13.5px]">
                 <span dir="auto" className="font-semibold text-[#FFF9EC]">{word.word}</span>
-                <span className="truncate text-[11.5px] text-[#EDE5D4]/55">{bookName(word.storyId, lang)} · {word.level}</span>
+                <span className="truncate text-[11.5px] text-[#EDE5D4]/55">{bookName(word.storyId, lang)} · {levelLabel(word.level, lang)}</span>
               </li>
             ))}
           </ul>

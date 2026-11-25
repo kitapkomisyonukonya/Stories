@@ -1,4 +1,5 @@
 import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { motion, useReducedMotion } from 'motion/react';
 import { Level } from '../../types';
 import homeIcon from '../../assets/images/home_icon.webp';
@@ -562,7 +563,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                     {copy.continueLabel}
                   </span>
                   <span className="mt-1 block truncate text-sm font-semibold text-[#FFF9EC]">
-                    {translatedStoryName(lastActiveStory)} · {lastActive.level}
+                    {translatedStoryName(lastActiveStory)} · {levelLabel(lastActive.level, lang)}
                     {lastActive.position && lastActive.position.pageIndex > 0 && (
                       <> · {t('nav.page')} {formatNumber(lastActive.position.pageIndex + 1)} / {formatNumber(lastActive.position.totalPages)}</>
                     )}
@@ -669,14 +670,14 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                       {suggestedLevel ? (
                         <>
                           <p className={cn('text-[11px] font-semibold uppercase text-[#E4C779]/76', !isRTL && 'tracking-[0.18em]')}>{selfCopy.suggested}</p>
-                          <p className="mt-1 text-sm font-semibold text-[#FFF9EC]">{suggestedLevel}</p>
+                          <p className="mt-1 text-sm font-semibold text-[#FFF9EC]">{levelLabel(suggestedLevel, lang)}</p>
                           {suggestedBook && (
                             <button
                               type="button"
                               onClick={() => launchStory(suggestedBook.id, suggestedLevel)}
                               className="mt-2 inline-flex items-center gap-2 text-xs font-semibold text-[#EDE5D4]/80 transition-colors hover:text-white"
                             >
-                              {selfCopy.startWith} {translatedStoryName(suggestedBook)} · {suggestedLevel}
+                              {selfCopy.startWith} {translatedStoryName(suggestedBook)} · {levelLabel(suggestedLevel, lang)}
                               <ArrowRight size={14} mirrored={isRTL} />
                             </button>
                           )}
@@ -752,7 +753,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                           className="rounded-lg bg-white/[0.07] px-3 py-1.5 text-xs font-semibold text-[#EDE5D4]/85 transition-colors hover:bg-white/[0.12] hover:text-white"
                           data-level-exam-open={option}
                         >
-                          {option}
+                          {levelLabel(option, lang)}
                         </button>
                       ))}
                     </div>
@@ -788,7 +789,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                   )}
                   data-home-level={option}
                 >
-                  <span className="text-[19px] font-semibold leading-tight">{option}</span>
+                  <span className="text-[19px] font-semibold leading-tight">{levelLabel(option, lang)}</span>
                   <span className={cn('leading-tight', isRTL ? 'text-[13px] sm:text-[13.5px]' : 'text-[10.5px] sm:text-[11.5px]', option === level ? 'text-[#16130c]/80' : 'text-[#EDE5D4]/66')}>
                     {levelDescriptions[option][lang]}
                   </span>
@@ -850,7 +851,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                     onFocus={() => warmBook(story.id, bookLevel)}
                     onTouchStart={() => warmBook(story.id, bookLevel)}
                     className="relative block aspect-[16/11] overflow-hidden focus-visible:outline-none"
-                    aria-label={`${translatedStoryName(story)} · ${bookLevel}`}
+                    aria-label={`${translatedStoryName(story)} · ${levelLabel(bookLevel, lang)}`}
                     tabIndex={-1}
                   >
                     <img src={story.image} alt="" loading="lazy" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
@@ -872,7 +873,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                     <h3 className={cn('font-semibold text-[#FFF9EC]', isRTL ? 'text-[27px]' : 'text-[24px] tracking-[-0.025em]')}>{translatedStoryName(story)}</h3>
                     <p className={cn('mt-2 flex-1 leading-relaxed text-[#EDE5D4]/66', isRTL ? 'text-[17px]' : 'text-[14px]')}>{translatedStoryDescription(story)}</p>
                     {!hasLevel && (
-                      <p className="mt-2 text-[12px] font-semibold text-[#F3D58A]">{copy.onlyAt} {bookLevel}</p>
+                      <p className="mt-2 text-[12px] font-semibold text-[#F3D58A]">{copy.onlyAt} {levelLabel(bookLevel, lang)}</p>
                     )}
                     {progress && (
                       <span className="mt-3 flex items-center gap-2" aria-label={`${progress.percent}%`}>
@@ -896,7 +897,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                         className="inline-flex items-center gap-2.5 rounded-full bg-[color-mix(in_srgb,var(--accent)_16%,transparent)] px-[18px] py-[11px] text-[14px] font-semibold text-[var(--accent)] transition-colors group-hover:bg-[var(--accent)] group-hover:text-[#16130c] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
                         data-home-read
                       >
-                        {copy.read} · {bookLevel}
+                        {copy.read} · {levelLabel(bookLevel, lang)}
                         <ArrowRight size={15} mirrored={isRTL} />
                       </button>
                       {otherLevels.length > 0 && (

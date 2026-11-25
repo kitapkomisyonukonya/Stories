@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { decodeCertificate, formatCertificateDate } from '../../lib/seyahatname/certificate';
 import { bookName } from '../../lib/seyahatname/view';
@@ -69,7 +70,7 @@ export const JournalLinks: React.FC = () => {
           {data && (
             <dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-2 text-[14px]">
               <dt className="text-[#14221a]/60">{copy.level}</dt>
-              <dd className="font-semibold">{data.level}</dd>
+              <dd className="font-semibold">{levelLabel(data.level, lang)}</dd>
               <dt className="text-[#14221a]/60">{copy.language}</dt>
               <dd className="font-semibold" data-certificate-check-lang={data.lang}>{copy.languages[data.lang]}</dd>
               <dt className="text-[#14221a]/60">{copy.date}</dt>

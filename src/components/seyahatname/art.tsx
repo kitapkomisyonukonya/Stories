@@ -1,4 +1,5 @@
 import React, { useId } from 'react';
+import { levelLabel } from '../../content/levelLabels';
 import type { StampIcon } from '../../lib/seyahatname/places';
 
 /** Line drawings for stamps, in a 200 × 200 box around (100, 104). */
@@ -235,7 +236,11 @@ export const BookSeal: React.FC<SealProps> = ({ storyId, level, arabic = false, 
             <textPath href={`#r${id}`} startOffset="50%" textAnchor="middle">{name}</textPath>
           </text>
         )}
-        <text x="100" y="155" textAnchor="middle" fill={RELIEF} fillOpacity=".9" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: 13, letterSpacing: 2 }}>{level}</text>
+        {arabic ? (
+          <text x="100" y="157" textAnchor="middle" direction="rtl" fill={RELIEF} fillOpacity=".9" style={{ fontFamily: 'Arakom, sans-serif', fontWeight: 700, fontSize: level === 'Pre-A1' ? 11 : 14 }}>{levelLabel(level, 'ar')}</text>
+        ) : (
+          <text x="100" y="155" textAnchor="middle" fill={RELIEF} fillOpacity=".9" style={{ fontFamily: 'Poppins, sans-serif', fontWeight: 700, fontSize: 13, letterSpacing: 2 }}>{level}</text>
+        )}
       </g>
     </svg>
   );
