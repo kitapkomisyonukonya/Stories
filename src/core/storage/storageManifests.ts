@@ -153,7 +153,7 @@ export const storageManifests: Record<string, BookAssetManifest> = {
   [manifestKey('greenDeal', 'A2')]: media(['greenDeal/a2/images'], ['greenDeal/a2/audio'], []),
   [manifestKey('greenDeal', 'B1')]: media(['greenDeal/b1/images'], ['greenDeal/b1/audio'], []),
   [manifestKey('greenDeal', 'B2')]: media(['greenDeal/b2/images'], ['greenDeal/b2/audio'], []),
-  [manifestKey('zeroWaste', 'A2')]: media(['zeroWaste/a2/images'], ['zeroWaste/a2/audio'], []),
+  [manifestKey('zeroWaste', 'A2')]: media(['zeroWaste/a2/images'], ['zeroWaste/a2/audio'], ['zeroWaste/a2/audio/arabic_audio']),
   [manifestKey('zeroWaste', 'B1')]: media(['zeroWaste/b1/images'], ['zeroWaste/b1/audio'], []),
   [manifestKey('zeroWaste', 'B2')]: media(['zeroWaste/b2/images'], ['zeroWaste/b2/audio'], []),
 
@@ -206,7 +206,7 @@ export const storageManifests: Record<string, BookAssetManifest> = {
   [manifestKey('ibnJubayr', 'A1')]: media([], ['ibnJubayr/a1/audio'], ['ibnJubayr/a1/audio/arabic_audio']),
   [manifestKey('yunusEmre', 'A1')]: media([], ['yunusEmre/a1/audio'], ['yunusEmre/a1/audio/arabic_audio']),
   [manifestKey('gevherNesibe', 'A1')]: media([], ['gevherNesibe/a1/audio'], ['gevherNesibe/a1/audio/arabic_audio']),
-  [manifestKey('zeroWaste', 'A1')]: media([], ['zeroWaste/a1/audio'], []),
+  [manifestKey('zeroWaste', 'A1')]: media([], ['zeroWaste/a1/audio'], ['zeroWaste/a1/audio/arabic_audio']),
 
   // Pre-A1 is Arabic only: both sides read the Arabic narration.
   [manifestKey('adam', 'Pre-A1')]: media([], ['adam/pre-a1/audio/arabic_audio'], ['adam/pre-a1/audio/arabic_audio']),
