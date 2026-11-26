@@ -24,7 +24,10 @@ test('About shows the film, the team and the media kit, and has no Privacy tab',
     '/pdfs/media-kit/lisandan-kulture-logo-dosyalari.zip',
   );
   await about.getByRole('tab', { name: 'Kaynaklar' }).click();
-  await expect(about.getByText('TDV İslâm Ansiklopedisi, related entries.')).toBeVisible();
+  await expect(about.getByText('Ansiklopedi · Temel Başvuru · Dinî Kaynaklar')).toBeVisible();
+  await expect(about.getByText(/^TDV İslâm Ansiklopedisi, related entries/)).toBeVisible();
+  await expect(about.getByText('Hikâyelere göre kaynaklar')).toBeVisible();
+  await expect(about.getByText(/Resul/)).toHaveCount(0);
 });
 
 test('a chapter that was opened once still opens offline', async ({ page, context }) => {

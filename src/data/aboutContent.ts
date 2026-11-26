@@ -1,9 +1,9 @@
 import { appFileUrl } from '../scorm/config';
 /**
  * About & Sources page content. The About texts and the team come from the approved
- * MEB presentation (v61) and the project's media kit. The source list is a draft compiled
- * from the presentation's bibliography and the references cited inside the stories;
- * it will be replaced by the project team's own list.
+ * MEB presentation (v61) and the project's media kit. The categorized source list follows the
+ * presentation's "Kullanılan kaynaklardan bazıları" slide; the per-story lists keep the
+ * references cited inside each story.
  */
 
 type Localized = { en: string; ar: string };
@@ -14,7 +14,7 @@ export interface SourceEntry {
 }
 
 export interface SourceGroup {
-  /** 'general', or a story id whose translated name becomes the heading. */
+  /** A story id whose translated name becomes the heading. */
   id: string;
   title?: Localized;
   sources: SourceEntry[];
@@ -278,15 +278,6 @@ export const advisoryBoard: BoardMember[] = [
       ar: 'كلية العلوم الاجتماعية والإنسانية · تاريخ الفلسفة',
     },
   },
-  {
-    name: 'Prof. Dr. Resul Ay',
-    university: { tr: 'Hacettepe Üniversitesi', en: 'Hacettepe University', ar: 'جامعة حاجة تبه' },
-    department: {
-      tr: 'Edebiyat Fak. · Tarih Bölümü · Ortaçağ ABD',
-      en: 'Faculty of Letters · Department of History · Medieval History',
-      ar: 'كلية الآداب · قسم التاريخ · تاريخ العصور الوسطى',
-    },
-  },
   { name: 'Dr. Yusuf Büyükyılmaz', university: selcuk, department: theologyIslamicHistory },
 ];
 
@@ -391,26 +382,68 @@ export const collectionColors: BrandColor[] = [
   { name: { tr: 'Türk-İslâm Mirası', en: 'Turkish-Islamic Heritage', ar: 'التراث التركي الإسلامي' }, hex: '#58CBE0', rgb: '88 · 203 · 224', use: { tr: 'Koleksiyon rengi', en: 'Collection color', ar: 'لون المجموعة' } },
 ];
 
-const quranLabel: Localized = { en: 'Qur’an', ar: 'القرآن الكريم' };
-const hadithLabel: Localized = { en: 'Hadith', ar: 'الحديث الشريف' };
+export interface SourceCategory {
+  id: string;
+  title: Tri;
+  sources: SourceEntry[];
+}
 
-export const sourceGroups: SourceGroup[] = [
+/** Opening sentence of the Sources tab (same sentence as the About page's standards card). */
+export const sourcesLead: Tri = {
+  tr: 'İçerikler farklı akademik kaynaklardan istifade edilerek insan tarafından üretilmiş metinlerdir.',
+  en: 'The texts were written by people, drawing on a range of academic sources.',
+  ar: 'المحتوى نصوصٌ كتبها الإنسان مستفيدًا من مصادر أكاديمية مختلفة.',
+};
+
+/** Consolidated list, grouped as on the presentation's sources slide (v61). */
+export const sourceCategories: SourceCategory[] = [
   {
-    id: 'general',
-    title: { en: 'General sources', ar: 'مصادر عامة' },
+    id: 'reference',
+    title: { tr: 'Ansiklopedi · Temel Başvuru · Dinî Kaynaklar', en: 'Encyclopedias · Core References · Religious Sources', ar: 'الموسوعات · المراجع الأساسية · المصادر الدينية' },
     sources: [
-      { text: 'TDV İslâm Ansiklopedisi, related entries.', url: 'https://islamansiklopedisi.org.tr' },
-      { text: 'Türk Maarif Ansiklopedisi, related entries.', url: 'https://turkmaarifansiklopedisi.org.tr' },
+      { text: 'TDV İslâm Ansiklopedisi, related entries (e.g. “Tekke,” Mustafa Kara).', url: 'https://islamansiklopedisi.org.tr' },
+      { text: 'Türk Maarif Ansiklopedisi, related entries (e.g. “Yunus Emre,” Banu Gürer).', url: 'https://turkmaarifansiklopedisi.org.tr' },
+      { text: 'TÜBİTAK Ansiklopedisi (e.g. “Cahiliye,” Mahmut Kelpetin).' },
+      { text: 'Ibn Kathir. Stories of the Prophets. Tr. Muhammad Mustafa Geme’ah. Al-Azhar.' },
       { text: 'Diyanet İşleri Başkanlığı. Kur’an-ı Kerim Meali.', url: 'https://kuran.diyanet.gov.tr' },
       { text: 'Diyanet İşleri Başkanlığı. Hadislerle İslam. İstanbul, 2020.' },
-      { text: 'Ibn Kathir. Stories of the Prophets. Tr. Muhammad Mustafa Geme’ah. Al-Azhar.' },
       { text: 'Köksal, Mustafa Asım. Peygamberler Tarihi. Ankara, 2007.' },
+      { text: 'Türk, Vahit. “Dîvânü lugāti’t-Türk,” Türk Maarif Ansiklopedisi.' },
+    ],
+  },
+  {
+    id: 'studies',
+    title: { tr: 'Monografi · Tarih · Kültür Araştırmaları', en: 'Monographs · History · Cultural Studies', ar: 'الدراسات المتخصّصة · التاريخ · الدراسات الثقافية' },
+    sources: [
       { text: 'Hamidullah, Muhammed. Introduction to Islam. Ankara, 2011.' },
+      { text: 'Watt, W. Montgomery and P. Cachia. A History of Islamic Spain. Edinburgh University Press, Edinburgh, 1965, 1996.' },
+      { text: 'Roth, Norman. Jews, Visigoths and Muslims in Medieval Spain: Cooperation and Conflict. The Netherlands, 1994.' },
+      { text: 'Kalın, İbrahim. “Hüküm ve Hikmet.” In Dîvân-ı Hikmet Sohbetleri, ed. Zülfikar Güngör. Ankara: Hoca Ahmet Yesevî Uluslararası Türk-Kazak Üniversitesi, inceleme-araştırma dizisi, yayın no: 46.' },
+      { text: 'Kuzgun, Şaban. İslam Kaynaklarına Göre Hz. İbrahim ve Haniflik. Ankara, 1985.' },
+      { text: 'Ocak, Ahmet Yaşar. Babaîler İsyanı. Dergah Yayınları, İstanbul, 2011.' },
+      { text: 'Çelebi, Furkan. Cahiliye Döneminde Mekke. Ankara, 2024.' },
+      {
+        text: 'Harman, Ömer Faruk (ed.). Kur’an’da Yahudiler. “Kur’an Kıssaları Bağlamında Yahudi (İsrail) Tarihi” (Mehmet Katar). İstanbul 29 Mayıs Üniversitesi Kur’an Araştırmaları Merkezi Yayınları, İstanbul, 2019.',
+      },
+      { text: 'Bulduk, Üçler. “Yunus Emre Çağında Anadolu’nun Siyasal ve Sosyal Durumu,” DTCF Dergisi Yunus Emre Özel Sayısı, 2021, s. 57-67.' },
+      { text: 'Yeniterzi, Emine. “Mesnevi-i Şerif ve Risaletü’n-Nushiyye’de Ortak Değerler,” I. Ulusal Yunus Emre Sempozyumu, Karaman, 2010, s. 101-116.' },
+    ],
+  },
+  {
+    id: 'quranEn',
+    title: { tr: 'Kullanılan İngilizce Kur’an Mealleri', en: 'English Translations of the Qur’an Used', ar: 'ترجمات معاني القرآن الكريم الإنجليزية المستخدمة' },
+    sources: [
       { text: 'Yusuf Ali. The Holy Qur’an. Lahore, 1937.' },
       { text: 'Pickthall, Muhammad Marmaduke. The Meaning of the Glorious Qur’an. New York, 1930.' },
       { text: 'Öztürk, Abdul Sedar. The Qur’an. İstanbul, 2003.' },
     ],
   },
+];
+
+const quranLabel: Localized = { en: 'Qur’an', ar: 'القرآن الكريم' };
+const hadithLabel: Localized = { en: 'Hadith', ar: 'الحديث الشريف' };
+
+export const sourceGroups: SourceGroup[] = [
   {
     id: 'adam',
     sources: [],

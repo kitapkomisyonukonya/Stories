@@ -17,7 +17,10 @@ import {
   collectionColors,
   mediaKit,
   projectCoordinator,
+  sourceCategories,
   sourceGroups,
+  sourcesLead,
+  type SourceEntry,
   teamIntro,
   teamSections,
   type AboutLang,
@@ -76,6 +79,8 @@ const COPY = {
     arabic: 'Arapça metinler',
     download: 'İndir',
     sourcesIntro: 'Hikâyelerin yazımında başvurulan başlıca kaynaklar. Bağlantılı kaynaklar internette açılır.',
+    someSources: 'Kullanılan kaynaklardan bazıları',
+    byStory: 'Hikâyelere göre kaynaklar',
     citedInText: 'Hikâye metninde geçen atıflar',
   },
   en: {
@@ -110,6 +115,8 @@ const COPY = {
     arabic: 'Arabic texts',
     download: 'Download',
     sourcesIntro: 'The main sources used in writing the stories. Linked entries open the source online.',
+    someSources: 'Some of the sources used',
+    byStory: 'Sources by story',
     citedInText: 'Cited in the story text',
   },
   ar: {
@@ -144,6 +151,8 @@ const COPY = {
     arabic: 'النصوص العربية',
     download: 'تنزيل',
     sourcesIntro: 'أهم المصادر التي رُجع إليها في كتابة القصص. الروابط تفتح المصدر على الإنترنت.',
+    someSources: 'بعض المصادر المستخدمة',
+    byStory: 'المصادر حسب القصة',
     citedInText: 'إحالات في نص القصة',
   },
 };
@@ -219,6 +228,27 @@ export const AboutPage: React.FC<AboutPageProps> = ({ isOpen, onClose }) => {
   };
 
   const groupTitle = (id: string, title?: { en: string; ar: string }) => (title ? title[sourceLang] : t(`prophet.${id}`));
+  const renderSourceList = (sources: SourceEntry[]) => (
+    <ul className="mt-3 space-y-2" dir="ltr">
+      {sources.map(source => (
+        <li key={source.text} className="text-[14px] leading-relaxed text-[#F6F0E2]/85" style={{ textAlign: isAr ? 'right' : 'left' }}>
+          {source.url ? (
+            <a
+              href={source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline underline decoration-[#D8B35C]/40 underline-offset-4 transition-colors hover:text-white hover:decoration-[#D8B35C]"
+            >
+              {source.text}
+              <LinkIcon size={13} className="ms-1.5 inline-block align-[-1px] text-[#D8B35C]/80" />
+            </a>
+          ) : (
+            source.text
+          )}
+        </li>
+      ))}
+    </ul>
+  );
 
   const tabs: { id: AboutTab; label: string; icon: React.ReactNode }[] = [
     { id: 'about', label: copy.about, icon: <Info size={17} /> },
@@ -651,33 +681,32 @@ export const AboutPage: React.FC<AboutPageProps> = ({ isOpen, onClose }) => {
               </div>
             ) : (
               <div className="space-y-8 text-start" dir={sourceLang === 'ar' ? 'rtl' : 'ltr'}>
-                <p className="max-w-3xl text-[15px] leading-relaxed text-[#F6F0E2]/75">{copy.sourcesIntro}</p>
+                <div className="max-w-3xl space-y-2">
+                  <p className="text-[16px] font-medium leading-relaxed text-[#F3D58C]">{sourcesLead[vl]}</p>
+                  <p className="text-[15px] leading-relaxed text-[#F6F0E2]/75">{copy.sourcesIntro}</p>
+                </div>
+                <section aria-labelledby="sources-categories">
+                  <h2 id="sources-categories" className="font-display text-[20px] font-semibold text-[#FFF9EC]">{copy.someSources}</h2>
+                  <div className="mt-4 grid items-start gap-4 md:grid-cols-2">
+                    {[sourceCategories.slice(0, 1), sourceCategories.slice(1)].map((column, index) => (
+                      <div key={index} className="space-y-4">
+                        {column.map(category => (
+                          <div key={category.id} className={cn(cardClass, 'p-5 sm:p-6')}>
+                            <h3 className="border-b border-white/[0.08] pb-2 text-[12px] font-semibold uppercase tracking-[0.14em] text-[#D8B35C]">{category.title[vl]}</h3>
+                            {renderSourceList(category.sources)}
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                </section>
+                <h2 className="pt-2 font-display text-[20px] font-semibold text-[#FFF9EC]">{copy.byStory}</h2>
                 {sourceGroups.map(group => (
                   <section key={group.id} aria-labelledby={`sources-${group.id}`}>
                     <h2 id={`sources-${group.id}`} className="border-b border-white/[0.08] pb-2 font-display text-[18px] font-semibold text-[#FFF9EC]">
                       {groupTitle(group.id, group.title)}
                     </h2>
-                    {group.sources.length > 0 && (
-                      <ul className="mt-3 space-y-2" dir="ltr">
-                        {group.sources.map(source => (
-                          <li key={source.text} className="text-[14px] leading-relaxed text-[#F6F0E2]/85" style={{ textAlign: isAr ? 'right' : 'left' }}>
-                            {source.url ? (
-                              <a
-                                href={source.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="group inline underline decoration-[#D8B35C]/40 underline-offset-4 transition-colors hover:text-white hover:decoration-[#D8B35C]"
-                              >
-                                {source.text}
-                                <LinkIcon size={13} className="ms-1.5 inline-block align-[-1px] text-[#D8B35C]/80" />
-                              </a>
-                            ) : (
-                              source.text
-                            )}
-                          </li>
-                        ))}
-                      </ul>
-                    )}
+                    {group.sources.length > 0 && renderSourceList(group.sources)}
                     {group.citations && (
                       <dl className="mt-3 space-y-2 rounded-xl bg-white/[0.03] p-4">
                         <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[#D8B35C]/75">{copy.citedInText}</p>
