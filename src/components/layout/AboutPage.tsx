@@ -484,11 +484,12 @@ export const AboutPage: React.FC<AboutPageProps> = ({ isOpen, onClose }) => {
                         <span className="absolute inset-y-0 start-0 w-1" style={{ backgroundColor: set.accent }} aria-hidden="true" />
                         <p className="text-[15px] font-semibold leading-snug text-[#FFF9EC] sm:text-[16px]">{set.name[vl]}</p>
                         <p className="mt-1 text-[12px] font-medium" style={{ color: set.accent }}>{set.group[vl]}</p>
+                        <p className="mt-2 text-[12px] leading-snug text-[#F6F0E2]/60">{set.editions[vl]}</p>
                       </li>
                     ))}
                   </ul>
                   <p className="mt-4 text-[13px] text-[#F6F0E2]/60">
-                    {copy.levels}: <span className="font-semibold text-[#F6F0E2]/85" dir="ltr">{aboutLibrary.levels}</span>
+                    {copy.levels}: <span className="font-semibold text-[#F6F0E2]/85">{aboutLibrary.levels[vl]}</span>
                   </p>
                 </section>
 

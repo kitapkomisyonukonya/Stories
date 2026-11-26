@@ -76,12 +76,12 @@ export const aboutAim = {
 
 export const aboutStats: { value: string; label: Tri; when: Tri }[] = [
   {
-    value: '31',
+    value: '53',
     label: { tr: 'Mevcut seviyelendirilmiş içerik', en: 'Levelled titles available', ar: 'محتوى متدرّج متاح' },
     when: { tr: 'Mevcut', en: 'Now', ar: 'الآن' },
   },
   {
-    value: '16 + 15',
+    value: '24 + 29',
     label: { tr: 'İngilizce + Arapça', en: 'English + Arabic', ar: 'الإنجليزية + العربية' },
     when: { tr: 'Mevcut', en: 'Now', ar: 'الآن' },
   },
@@ -97,6 +97,8 @@ export const aboutStats: { value: string; label: Tri; when: Tri }[] = [
   },
 ];
 
+const fullEditions: Tri = { tr: 'İngilizce A1–B2 · Arapça Ön A1–B2', en: 'English A1–B2 · Arabic Pre-A1–B2', ar: 'الإنجليزية: أ1 إلى ب2 · العربية: ما قبل أ1 إلى ب2' };
+
 export const aboutLibrary = {
   title: { tr: 'Mevcut Kütüphane', en: 'The Library Today', ar: 'المكتبة اليوم' } as Tri,
   lead: {
@@ -104,16 +106,27 @@ export const aboutLibrary = {
     en: 'A library of levelled digital foreign-language materials, drawn from our own history and civilization, has been built.',
     ar: 'أُنشئت مكتبة من المواد الرقمية المتدرّجة لتعلّم اللغات الأجنبية، تستمدّ مادّتها من تاريخنا وعالمنا الحضاري.',
   } as Tri,
-  /** The six story sets; `accent` is the collection colour used in the app. */
+  /** The story sets on the shelf now (hidden books are left out); `accent` is the collection colour used in the app. */
   sets: [
-    { name: { tr: 'Hz. Âdem', en: 'Prophet Adam', ar: 'النبي آدم' }, group: { tr: 'Peygamberler', en: 'Prophets', ar: 'الأنبياء' }, accent: '#D8B35C' },
-    { name: { tr: 'Hz. İbrâhim', en: 'Prophet Abraham', ar: 'النبي إبراهيم' }, group: { tr: 'Peygamberler', en: 'Prophets', ar: 'الأنبياء' }, accent: '#D8B35C' },
-    { name: { tr: 'Hz. Mûsâ', en: 'Prophet Moses', ar: 'النبي موسى' }, group: { tr: 'Peygamberler', en: 'Prophets', ar: 'الأنبياء' }, accent: '#D8B35C' },
-    { name: { tr: 'Mekke & Bilâl-i Habeşî', en: 'Mecca & Bilal', ar: 'مكة وبلال الحبشي' }, group: { tr: 'Tarih / Siyer', en: 'History / Sirah', ar: 'التاريخ / السيرة' }, accent: '#55C997' },
-    { name: { tr: 'Yunus Emre', en: 'Yunus Emre', ar: 'يونس إمره' }, group: { tr: 'Türk-İslâm Mirası', en: 'Turkish-Islamic Heritage', ar: 'التراث التركي الإسلامي' }, accent: '#58CBE0' },
-    { name: { tr: 'Endülüs', en: 'Muslim Spain', ar: 'الأندلس' }, group: { tr: 'Tarih / Medeniyet', en: 'History / Civilization', ar: 'التاريخ / الحضارة' }, accent: '#55C997' },
-  ] as { name: Tri; group: Tri; accent: string }[],
-  levels: 'A2 · B1 · B2',
+    { name: { tr: 'Hz. Âdem', en: 'Prophet Adam', ar: 'النبي آدم' }, group: { tr: 'Peygamberler', en: 'Prophets', ar: 'الأنبياء' }, accent: '#D8B35C', editions: fullEditions },
+    { name: { tr: 'Hz. İbrâhim', en: 'Prophet Abraham', ar: 'النبي إبراهيم' }, group: { tr: 'Peygamberler', en: 'Prophets', ar: 'الأنبياء' }, accent: '#D8B35C', editions: fullEditions },
+    { name: { tr: 'Hz. Mûsâ', en: 'Prophet Moses', ar: 'النبي موسى' }, group: { tr: 'Peygamberler', en: 'Prophets', ar: 'الأنبياء' }, accent: '#D8B35C', editions: fullEditions },
+    { name: { tr: 'Mekke & Bilâl-i Habeşî', en: 'Mecca & Bilal', ar: 'مكة وبلال الحبشي' }, group: { tr: 'Tarih / Siyer', en: 'History / Sirah', ar: 'التاريخ / السيرة' }, accent: '#55C997', editions: fullEditions },
+    {
+      name: { tr: 'İbn Cübeyr', en: 'Ibn Jubayr', ar: 'ابن جبير' },
+      group: { tr: 'Tarih / Seyahat', en: 'History / Travel', ar: 'التاريخ / الرحلة' },
+      accent: '#55C997',
+      editions: { tr: 'İngilizce A1–A2 · Arapça Ön A1', en: 'English A1–A2 · Arabic Pre-A1', ar: 'الإنجليزية: أ1 وأ2 · العربية: ما قبل أ1' },
+    },
+    { name: { tr: 'Yunus Emre', en: 'Yunus Emre', ar: 'يونس إمره' }, group: { tr: 'Türk-İslâm Mirası', en: 'Turkish-Islamic Heritage', ar: 'التراث التركي الإسلامي' }, accent: '#58CBE0', editions: fullEditions },
+    {
+      name: { tr: 'Sıfır Atık', en: 'Zero Waste', ar: 'صفر النفايات' },
+      group: { tr: 'Günümüz Dünyası', en: 'Our World Today', ar: 'عالمنا اليوم' },
+      accent: '#E8836B',
+      editions: { tr: 'İngilizce A1–A2 · Arapça Ön A1–A2', en: 'English A1–A2 · Arabic Pre-A1–A2', ar: 'الإنجليزية: أ1 وأ2 · العربية: ما قبل أ1 إلى أ2' },
+    },
+  ] as { name: Tri; group: Tri; accent: string; editions: Tri }[],
+  levels: { tr: 'Ön A1 (Arapça) · A1 · A2 · B1 · B2', en: 'Pre-A1 (Arabic) · A1 · A2 · B1 · B2', ar: 'ما قبل أ1 (العربية) · أ1 · أ2 · ب1 · ب2' } as Tri,
 };
 
 export const aboutFeatures = {
@@ -124,7 +137,7 @@ export const aboutFeatures = {
     ar: 'تجمع «من اللسان إلى الثقافة» العناصر الآتية في بنية واحدة حول محتوى الثقافة والحضارة.',
   } as Tri,
   items: [
-    { tr: 'Seviyeli hikâyeler · A2 · B1 · B2', en: 'Levelled stories · A2 · B1 · B2', ar: 'قصص متدرّجة · أ2 · ب1 · ب2' },
+    { tr: 'Seviyeli hikâyeler · Ön A1 · A1 · A2 · B1 · B2', en: 'Levelled stories · Pre-A1 · A1 · A2 · B1 · B2', ar: 'قصص متدرّجة · ما قبل أ1 · أ1 · أ2 · ب1 · ب2' },
     { tr: 'Aynı hikâye İngilizce ve Arapça', en: 'The same story in English and Arabic', ar: 'القصة نفسها بالإنجليزية والعربية' },
     { tr: 'Her bölüm için seslendirme', en: 'Narration for every chapter', ar: 'تسجيل صوتي لكل فصل' },
     { tr: 'Bölüme özel alıştırmalar', en: 'Exercises written for each chapter', ar: 'تمارين خاصة بكل فصل' },
