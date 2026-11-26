@@ -18,12 +18,15 @@ import { JournalLinks } from './components/seyahatname/JournalLinks';
 import { UserRoleProvider } from './contexts/UserRoleContext';
 import { ClassModeProvider } from './contexts/ClassModeContext';
 import { registerServiceWorker } from './lib/pwa';
+import { applyHomeScreenName } from './lib/homeScreenName';
 import { startTelemetry } from './lib/telemetry';
 import { preloadDeferredChunks } from './lib/preloadDeferred';
 import { PageErrorBoundary } from './components/ui/PageErrorBoundary';
 import { SCORM } from './scorm/config';
 import { startScorm } from './scorm/runtime';
 import { reloadFresh } from './lib/freshReload';
+
+applyHomeScreenName();
 
 // Arabic readers: start loading both Arakom faces now, before the first Arabic text asks for them.
 try {

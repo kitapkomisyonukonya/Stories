@@ -111,7 +111,7 @@ const compressed = (filePath, encoding) => {
 // PDFs keep their names when they are rebuilt, so they are only cached for an hour.
 const cacheControlFor = (filePath, ext) => {
   const name = basename(filePath);
-  if (ext === '.html' || name === 'sw.js' || name === 'manifest.webmanifest' || name === 'version.json') return 'no-cache';
+  if (ext === '.html' || name === 'sw.js' || name.endsWith('.webmanifest') || name === 'version.json') return 'no-cache';
   if (ext === '.pdf') return 'public, max-age=3600';
   if (filePath.startsWith(join(root, 'assets') + sep) || /\.(ttf|woff2?)$/.test(ext)) return 'public, max-age=31536000, immutable';
   return 'public, max-age=86400';
