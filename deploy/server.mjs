@@ -5,6 +5,7 @@ import { basename, extname, join, normalize, sep } from 'node:path';
 import { brotliCompressSync, gzipSync, constants as zlibConstants } from 'node:zlib';
 import { createPanelApi } from './panelApi.mjs';
 import { createOpenBadges } from './openBadges.mjs';
+import { createPush, readJsonBody } from './push.mjs';
 
 const port = Number(process.env.PORT || 8080);
 const root = join(process.cwd(), 'dist');
@@ -45,7 +46,7 @@ const contentSecurityPolicy = [
   "font-src 'self' data: https://cdn.jsdelivr.net",
   `img-src 'self' data: blob: ${storageHosts}`,
   `media-src 'self' blob: ${storageHosts}`,
-  `connect-src 'self' ${storageHosts} https://firebase.googleapis.com https://firebaseinstallations.googleapis.com`,
+  `connect-src 'self' ${storageHosts} https://firebase.googleapis.com https://firebaseinstallations.googleapis.com https://fcmregistrations.googleapis.com`,
   'frame-src https://www.youtube-nocookie.com',
   "worker-src 'self'",
   "manifest-src 'self'",
@@ -334,6 +335,7 @@ const readEvent = (req, res) => {
 
 const panelApi = createPanelApi();
 const openBadges = createOpenBadges({ root });
+const push = createPush();
 
 const server = http.createServer(async (req, res) => {
   const urlPath = decodeURIComponent((req.url || '/').split('?')[0]);
@@ -346,6 +348,28 @@ const server = http.createServer(async (req, res) => {
     if (member && previewKey) headers['Set-Cookie'] = `${PREVIEW_COOKIE}=${encodeURIComponent(previewKey)}; Path=/; Max-Age=2592000; HttpOnly; Secure; SameSite=Lax`;
     res.writeHead(member ? 200 : 401, headers);
     res.end(JSON.stringify({ hidden: Boolean(member && previewKey) }));
+    return;
+  }
+
+  // An admin sends a new-story notice to every device that turned notices on.
+  if (urlPath === '/panel-api/push/send' && req.method === 'POST') {
+    const member = await panelApi.memberFor(req);
+    const headers = { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' };
+    if (!member?.approve) {
+      res.writeHead(member ? 403 : 401, headers);
+      res.end(JSON.stringify({ error: 'Bildirimi yalnızca yöneticiler gönderebilir.' }));
+      return;
+    }
+    const body = await readJsonBody(req);
+    try {
+      const result = await push.send(body ?? {});
+      console.log(JSON.stringify({ message: '[Push] notice sent', by: member.id, langs: result.sent, topic: result.topicBase }));
+      res.writeHead(200, headers);
+      res.end(JSON.stringify(result));
+    } catch (error) {
+      res.writeHead(error.status || 500, headers);
+      res.end(JSON.stringify({ error: error.message }));
+    }
     return;
   }
 
@@ -372,6 +396,15 @@ const server = http.createServer(async (req, res) => {
 
   if (urlPath === '/feedback-api/send' && req.method === 'POST') {
     await panelApi.feedback.handleSend(req, res);
+    return;
+  }
+
+  if (urlPath === '/push-api/subscribe' && req.method === 'POST') {
+    await push.handleSubscribe(req, res);
+    return;
+  }
+  if (urlPath === '/push-api/unsubscribe' && req.method === 'POST') {
+    await push.handleUnsubscribe(req, res);
     return;
   }
 

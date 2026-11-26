@@ -19,6 +19,7 @@ import { UserRoleProvider } from './contexts/UserRoleContext';
 import { ClassModeProvider } from './contexts/ClassModeContext';
 import { registerServiceWorker } from './lib/pwa';
 import { applyHomeScreenName } from './lib/homeScreenName';
+import { InstallCenter } from './components/layout/InstallCenter';
 import { startTelemetry } from './lib/telemetry';
 import { preloadDeferredChunks } from './lib/preloadDeferred';
 import { PageErrorBoundary } from './components/ui/PageErrorBoundary';
@@ -91,6 +92,7 @@ createRoot(document.getElementById('root')!).render(
             <SkipLink />
             <App />
             <JournalLinks />
+            {!SCORM && <InstallCenter />}
             <ArabicUiSanitizer />
             <ArabicHarakatFilter />
           </ClassModeProvider>

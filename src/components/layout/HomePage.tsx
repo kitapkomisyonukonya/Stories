@@ -25,6 +25,7 @@ import { firstOpenBookAt } from '../../lib/nextBook';
 import { InstallAppButton } from '../ui/InstallAppButton';
 import { AboutPage } from './AboutPage';
 import { FeedbackPage } from './FeedbackPage';
+import { INSTALL_COPY, openInstallPage } from '../../data/installCopy';
 import { isFeedbackHash } from '../../lib/feedback';
 import { FEEDBACK_LINK_COPY } from '../../data/feedbackCopy';
 import { SCORM } from '../../scorm/config';
@@ -490,6 +491,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
           onOpenMyWords={() => setIsMyWordsOpen(true)}
           onOpenAbout={() => setIsAboutOpen(true)}
           onOpenFeedback={SCORM ? undefined : () => setIsFeedbackOpen(true)}
+          onOpenInstall={SCORM ? undefined : openInstallPage}
           onOpenUsageGuide={() => setIsUsageGuideOpen(true)}
           onOpenLevelTest={() => setIsLevelTestOpen(true)}
           onOpenCheckCode={() => setIsCheckCodeOpen(true)}
@@ -1095,6 +1097,16 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
         >
           {t('nav.aboutSources')}
         </button>
+        {!SCORM && (
+          <button
+            type="button"
+            onClick={openInstallPage}
+            className="min-h-10 rounded-full px-4 text-[13px] font-semibold text-[#F6F0E2]/55 underline decoration-white/20 underline-offset-4 transition-colors hover:text-[#F6F0E2] hover:decoration-[#D8B35C]/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50"
+            data-install-link
+          >
+            {INSTALL_COPY[lang].link}
+          </button>
+        )}
         {!SCORM && (
           <button
             type="button"

@@ -241,6 +241,8 @@ export const api = {
     request<{ asked: boolean }>(`/panel-api/new-book/${number}/ask`, { method: 'POST', body: { text, ...choice } }),
   feedback: () => request<{ entries: FeedbackItem[] }>('/panel-api/feedback'),
   removeFeedback: (path: string) => request<{ entries: FeedbackItem[] }>('/panel-api/feedback/remove', { method: 'POST', body: { path } }),
+  sendNotice: (body: { title: { en: string; ar: string }; text: { en: string; ar: string }; link: string }) =>
+    request<{ sent: ('en' | 'ar')[]; topicBase: string }>('/panel-api/push/send', { method: 'POST', body }),
   release: () => request<{ enabled: boolean; branch?: string; exists?: boolean; waiting?: { sha: string; message: string; date?: string }[]; aheadBy?: number | null }>('/panel-api/release'),
   goLive: () => request<{ released: string }>('/panel-api/release', { method: 'POST', body: {} }),
 };

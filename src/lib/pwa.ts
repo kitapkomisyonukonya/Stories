@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useSyncExternalStore } from 'react';
 
 const AWAY_BEFORE_CHECK_MS = 30_000;
 
@@ -58,37 +58,61 @@ export const isStandalone = () =>
   window.matchMedia?.('(display-mode: standalone)').matches ||
   (navigator as Navigator & { standalone?: boolean }).standalone === true;
 
+// The browser offers its install prompt once, early, often before any screen that wants it has
+// mounted (the access screen comes first). It is caught here, when this module loads, and kept.
+let deferredPrompt: BeforeInstallPromptEvent | null = null;
+let installedNow = false;
+const installListeners = new Set<() => void>();
+const notifyInstall = () => installListeners.forEach(listener => listener());
+if (typeof window !== 'undefined') {
+  window.addEventListener('beforeinstallprompt', event => {
+    event.preventDefault();
+    deferredPrompt = event as BeforeInstallPromptEvent;
+    notifyInstall();
+  });
+  window.addEventListener('appinstalled', () => {
+    installedNow = true;
+    deferredPrompt = null;
+    notifyInstall();
+  });
+}
+
+const subscribeInstall = (listener: () => void) => {
+  installListeners.add(listener);
+  return () => installListeners.delete(listener);
+};
+const installSnapshot = () => `${deferredPrompt ? 1 : 0}${installedNow ? 1 : 0}`;
+
 /** The browser's install prompt, when it offers one; iOS Safari offers none (Share → Add to Home Screen). */
 export const useInstallPrompt = () => {
-  const [prompt, setPrompt] = useState<BeforeInstallPromptEvent | null>(null);
-  const [installed, setInstalled] = useState(() => isStandalone());
-
-  useEffect(() => {
-    const onPrompt = (event: Event) => {
-      event.preventDefault();
-      setPrompt(event as BeforeInstallPromptEvent);
-    };
-    const onInstalled = () => {
-      setInstalled(true);
-      setPrompt(null);
-    };
-    window.addEventListener('beforeinstallprompt', onPrompt);
-    window.addEventListener('appinstalled', onInstalled);
-    return () => {
-      window.removeEventListener('beforeinstallprompt', onPrompt);
-      window.removeEventListener('appinstalled', onInstalled);
-    };
-  }, []);
+  useSyncExternalStore(subscribeInstall, installSnapshot, () => '00');
+  const installed = installedNow || isStandalone();
 
   const install = async () => {
-    if (!prompt) return;
+    const prompt = deferredPrompt;
+    if (!prompt) return false;
     await prompt.prompt();
     const choice = await prompt.userChoice;
-    if (choice.outcome === 'accepted') setInstalled(true);
-    setPrompt(null);
+    deferredPrompt = null;
+    if (choice.outcome === 'accepted') installedNow = true;
+    notifyInstall();
+    return choice.outcome === 'accepted';
   };
 
-  return { canInstall: Boolean(prompt) && !installed, installed, install };
+  return { canInstall: Boolean(deferredPrompt) && !installed, installed, install };
+};
+
+/** iPhone, iPod or iPad (iPadOS reports itself as a Mac with a touch screen). */
+export const isAppleMobile = () => {
+  if (typeof navigator === 'undefined') return false;
+  return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+};
+
+/** A phone or tablet (touch screen first), where installing to the home screen makes sense. */
+export const isHandheld = () => {
+  if (typeof window === 'undefined') return false;
+  if (isAppleMobile() || /Android/i.test(navigator.userAgent)) return true;
+  return Boolean(window.matchMedia?.('(pointer: coarse)').matches) && Math.min(window.screen.width, window.screen.height) < 1100;
 };
 
 export interface CacheBookResult {

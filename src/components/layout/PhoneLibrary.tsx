@@ -19,8 +19,9 @@ import { SeyahatnamePanel } from '../seyahatname/SeyahatnamePanel';
 import { BookSeal } from '../seyahatname/art';
 import { JOURNAL_COPY } from '../seyahatname/copy';
 import { editionKey, useJournal } from '../../lib/seyahatname/store';
-import { ArrowRight, BookMarked, BookOpen, GraduationCap, Info, Library, MessageSquare, Play, Scroll, Settings, X } from '../ui/icons';
+import { ArrowRight, BookMarked, BookOpen, Download, GraduationCap, Info, Library, MessageSquare, Play, Scroll, Settings, X } from '../ui/icons';
 import { FEEDBACK_LINK_COPY } from '../../data/feedbackCopy';
+import { INSTALL_COPY } from '../../data/installCopy';
 import {
   collectionStoryIds,
   collectionVisuals,
@@ -52,6 +53,8 @@ interface PhoneLibraryProps {
   onOpenAbout: () => void;
   /** Opens the feedback form; left out where there is no server to send it to (SCORM). */
   onOpenFeedback?: () => void;
+  /** Opens the "Install the app" page; left out in SCORM packages. */
+  onOpenInstall?: () => void;
   onOpenUsageGuide: () => void;
   onOpenLevelTest: () => void;
   onOpenCheckCode: () => void;
@@ -79,6 +82,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
   usageGuideTitle,
   onOpenAbout,
   onOpenFeedback,
+  onOpenInstall,
   onOpenUsageGuide,
   onOpenLevelTest,
   onOpenCheckCode,
@@ -370,6 +374,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
             <section>
               <div className="overflow-hidden rounded-2xl bg-white/[0.045]">
                 {settingsRow(copy.film, <Play size={18} />, () => window.open(`https://youtu.be/${aboutIntro.videoId}`, '_blank', 'noopener,noreferrer'))}
+                {onOpenInstall && settingsRow(INSTALL_COPY[lang].link, <Download size={18} />, onOpenInstall)}
                 {settingsRow(copy.about, <Info size={18} />, onOpenAbout)}
                 {onOpenFeedback && settingsRow(FEEDBACK_LINK_COPY[lang].link, <MessageSquare size={18} />, onOpenFeedback)}
               </div>

@@ -6,6 +6,7 @@ import {
   IconCard,
   IconClock,
   IconSend,
+  IconBell,
   IconHelp,
   IconHome,
   IconImage,
@@ -25,6 +26,7 @@ import { Baskets } from './views/Baskets';
 import { BookDetail, Books } from './views/Books';
 import { Cards } from './views/Cards';
 import { Feedback } from './views/Feedback';
+import { Notices } from './views/Notices';
 import { Help } from './views/Help';
 import { History } from './views/History';
 import { Home } from './views/Home';
@@ -210,6 +212,7 @@ const Shell = () => {
     { to: '/onay', label: admin ? 'Onay bekleyenler' : 'Sepetim', icon: <IconInbox size={18} />, count: admin ? waiting + (mine ? 1 : 0) : mine },
     { to: '/gecmis', label: 'Geçmiş', icon: <IconClock size={18} /> },
     { to: '/geri-bildirim', label: 'Geri bildirimler', icon: <IconSend size={18} /> },
+    { to: '/bildirim', label: 'Bildirimler', icon: <IconBell size={18} />, show: admin },
     { to: '/ekip', label: 'Ekip', icon: <IconUsers size={18} /> },
     { to: '/ayarlar', label: 'Yayın ve ayarlar', icon: <IconRocket size={18} />, show: admin },
     { to: '/yardim', label: 'Yardım', icon: <IconHelp size={18} /> },
@@ -260,6 +263,9 @@ const Shell = () => {
       break;
     case 'geri-bildirim':
       page = <Feedback />;
+      break;
+    case 'bildirim':
+      page = <Notices admin={admin} />;
       break;
     case 'gecmis':
       page = <History />;
