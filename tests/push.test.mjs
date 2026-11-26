@@ -4,7 +4,7 @@ import { cleanLink, createPush, pushTopicBase } from '../deploy/push.mjs';
 
 test('topic follows the site', () => {
   assert.equal(pushTopicBase({ K_SERVICE: 'stories-preview' }), 'stories-preview');
-  assert.equal(pushTopicBase({ K_SERVICE: 'stories-prod' }), 'stories-live');
+  assert.equal(pushTopicBase({ K_SERVICE: 'stories-of-the-prophets' }), 'stories-live');
 });
 
 test('only in-app links are accepted', () => {

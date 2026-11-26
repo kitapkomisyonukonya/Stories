@@ -16,7 +16,7 @@ const TITLE_LIMIT = 80;
 const TEXT_LIMIT = 220;
 
 export const pushTopicBase = (env = process.env) =>
-  env.PUSH_TOPIC_BASE || (String(env.K_SERVICE || '').includes('prod') ? 'stories-live' : 'stories-preview');
+  env.PUSH_TOPIC_BASE || (String(env.K_SERVICE || 'stories-preview').includes('preview') ? 'stories-preview' : 'stories-live');
 
 export const readJsonBody = (req, limit = BODY_LIMIT) =>
   new Promise(resolve => {
