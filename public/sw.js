@@ -134,6 +134,7 @@ self.addEventListener('push', event => {
   const options = {
     body: data.body || '',
     icon: '/icons/brand-1014-192.png',
+    badge: '/icons/brand-1127-badge-96.png',
     lang: data.lang || undefined,
     dir: data.lang === 'ar' ? 'rtl' : 'auto',
     tag: 'stories-news',
