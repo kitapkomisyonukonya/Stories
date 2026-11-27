@@ -154,8 +154,8 @@ export const storageManifests: Record<string, BookAssetManifest> = {
   [manifestKey('greenDeal', 'B1')]: media(['greenDeal/b1/images'], ['greenDeal/b1/audio'], []),
   [manifestKey('greenDeal', 'B2')]: media(['greenDeal/b2/images'], ['greenDeal/b2/audio'], []),
   [manifestKey('zeroWaste', 'A2')]: media(['zeroWaste/a2/images'], ['zeroWaste/a2/audio'], ['zeroWaste/a2/audio/arabic_audio']),
-  [manifestKey('zeroWaste', 'B1')]: media(['zeroWaste/b1/images'], ['zeroWaste/b1/audio'], []),
-  [manifestKey('zeroWaste', 'B2')]: media(['zeroWaste/b2/images'], ['zeroWaste/b2/audio'], []),
+  [manifestKey('zeroWaste', 'B1')]: media(['zeroWaste/b1/images'], ['zeroWaste/b1/audio'], ['zeroWaste/b1/audio/arabic_audio']),
+  [manifestKey('zeroWaste', 'B2')]: media(['zeroWaste/b2/images'], ['zeroWaste/b2/audio'], ['zeroWaste/b2/audio/arabic_audio']),
 
   [manifestKey('yunusEmre', 'A2')]: media(
     [
