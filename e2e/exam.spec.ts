@@ -62,3 +62,42 @@ test.describe('end-of-level tests', () => {
     await expect(page.locator('[data-score-exam]').getByRole('alert')).toBeVisible();
   });
 });
+
+test('the A1 test gives a code that scores as A1', async ({ page }) => {
+  test.setTimeout(90_000);
+  const a1 = JSON.parse(readFileSync(new URL('../src/content/exams/a1.json', import.meta.url), 'utf8')) as typeof a2;
+  const a1Key: Item[] = [...a1.reading.texts.flatMap(text => text.items), ...a1.language.items];
+  const errors = trackErrors(page);
+  await enterLibrary(page, { role: 'teacher' });
+  await page.goto('/#/test/a1');
+  const dialog = page.locator('[data-level-exam]');
+  await expect(dialog.getByRole('heading', { name: 'End-of-Level Test A1' })).toBeVisible();
+  for (let step = 0; step < 4; step += 1) {
+    if (step > 0) await expect(dialog.locator('[data-exam-item]').first()).toBeVisible();
+    await dialog.evaluate(
+      (el, picks) => {
+        el.querySelectorAll<HTMLElement>('[data-exam-item]').forEach(item => {
+          item.querySelectorAll('label')[picks[Number(item.dataset.examItem) - 1]].click();
+        });
+      },
+      a1Key.map(item => item.answer),
+    );
+    await dialog.locator('[data-exam-next]').click();
+  }
+  await dialog.locator('[data-exam-finish]').click();
+  await expect(dialog.locator('[data-exam-result]')).toContainText('12 / 12');
+  const code = (await dialog.locator('[data-exam-code]').innerText()).trim();
+  await dialog.getByRole('button', { name: 'Close' }).click();
+  if (isPhone(page)) {
+    await page.getByRole('button', { name: 'Settings' }).last().click();
+    await page.getByRole('button', { name: /Score a test/ }).click();
+  } else {
+    await page.locator('[data-score-exam-open]').click();
+  }
+  const score = page.locator('[data-score-exam]');
+  await score.locator('[data-score-exam-input]').fill(code);
+  await score.getByRole('button', { name: 'Check' }).click();
+  await expect(score.locator('[data-score-exam-result]')).toContainText('28 / 28');
+  await expect(score.getByText('End-of-Level Test A1').first()).toBeVisible();
+  expect(errors).toEqual([]);
+});

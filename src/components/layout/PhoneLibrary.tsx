@@ -362,7 +362,7 @@ export const PhoneLibrary: React.FC<PhoneLibraryProps> = ({
                   suggestedLevel ? <span className="text-[13px] font-semibold text-[#E9C46A]">{copy.suggested}: {levelLabel(suggestedLevel, lang)}</span> : undefined,
                 )}
                 {isTeacher && settingsRow(copy.checkCode, <SECTION_ICONS.checkCode.icon size={18} />, onOpenCheckCode)}
-                {LEVELS.filter(option => option !== 'A1' && option !== 'Pre-A1').map(option => (
+                {LEVELS.filter(option => option !== 'Pre-A1').map(option => (
                   <React.Fragment key={option}>
                     {settingsRow(`${SECTION_ICONS.levelExam[lang]} · ${levelLabel(option, lang)}`, <SECTION_ICONS.levelExam.icon size={18} />, () => onOpenExam(option))}
                   </React.Fragment>

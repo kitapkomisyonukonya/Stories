@@ -1,0 +1,581 @@
+{
+ "level": "A1",
+ "version": 1,
+ "title": "End-of-Level Test A1",
+ "minutes": {
+  "reading": 20,
+  "language": 15,
+  "writing": 15,
+  "speaking": 5
+ },
+ "cefr": [
+  {
+   "part": "reading",
+   "scale": "Overall reading comprehension",
+   "descriptor": "Can understand very short, simple texts a single phrase at a time, picking up familiar names, words and basic phrases and rereading as required."
+  },
+  {
+   "part": "reading",
+   "scale": "Reading for orientation",
+   "descriptor": "Can recognise familiar names, words and very basic phrases on simple notices in the most common everyday situations."
+  },
+  {
+   "part": "writing",
+   "scale": "Overall written production",
+   "descriptor": "Can give information about matters of personal relevance (e.g. likes and dislikes, family, pets) using simple words/signs and basic expressions. Can produce simple isolated phrases and sentences."
+  },
+  {
+   "part": "speaking",
+   "scale": "Overall oral production",
+   "descriptor": "Can produce simple, mainly isolated phrases about people and places."
+  },
+  {
+   "part": "speaking",
+   "scale": "Overall spoken interaction",
+   "descriptor": "Can ask and answer simple questions, initiate and respond to simple statements in areas of immediate need or on very familiar topics."
+  }
+ ],
+ "reading": {
+  "instructions": "Read and choose the best answer.",
+  "texts": [
+   {
+    "id": "r1",
+    "title": "Zeynep and Her Mother",
+    "body": "Zeynep is nine years old. She lives in Konya with her family. She has a little brother, Ali, and a white cat, Pamuk.\n\nEvery Saturday morning, Zeynep goes to the market with her mother. The market is near their house. They walk there. Her mother always takes a big bag. “We do not need plastic bags,” she says.\n\nAt the market, they buy apples, tomatoes and bread. Zeynep carries the bread. Her mother pays for the food.\n\nLast Saturday, it rained a lot. Zeynep and her mother did not go to the market. They stayed at home and made soup together. Pamuk slept on a chair. “I love rain!” Zeynep said.",
+    "items": [
+     {
+      "id": "1",
+      "stem": "Where does Zeynep live?",
+      "options": [
+       "in Istanbul",
+       "in Konya",
+       "in Ankara"
+      ],
+      "answer": 1,
+      "skill": "Reading for information",
+      "target": "Find a stated fact"
+     },
+     {
+      "id": "2",
+      "stem": "Who is Pamuk?",
+      "options": [
+       "Zeynep’s brother",
+       "Zeynep’s mother",
+       "Zeynep’s cat"
+      ],
+      "answer": 2,
+      "skill": "Reading for information",
+      "target": "Recognize a familiar name"
+     },
+     {
+      "id": "3",
+      "stem": "How do they go to the market?",
+      "options": [
+       "They walk.",
+       "They go on a bus.",
+       "They drive a car."
+      ],
+      "answer": 0,
+      "skill": "Reading for information",
+      "target": "Find a stated fact"
+     },
+     {
+      "id": "4",
+      "stem": "Why does her mother take a big bag?",
+      "options": [
+       "The bread is very big.",
+       "She does not want plastic bags.",
+       "Zeynep wants to carry the apples."
+      ],
+      "answer": 1,
+      "skill": "Reading for information",
+      "target": "Understand a reason"
+     },
+     {
+      "id": "5",
+      "stem": "What does Zeynep carry?",
+      "options": [
+       "the apples",
+       "the tomatoes",
+       "the bread"
+      ],
+      "answer": 2,
+      "skill": "Reading for information",
+      "target": "Find a stated fact"
+     },
+     {
+      "id": "6",
+      "stem": "What did they do last Saturday?",
+      "options": [
+       "They went to the market.",
+       "They made soup at home.",
+       "They walked in the rain."
+      ],
+      "answer": 1,
+      "skill": "Reading for information",
+      "target": "Understand a past event"
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "title": "Story Week at Green Hill School",
+    "body": "STORY WEEK\nGreen Hill School\n\nCome and listen to stories in English!\n\nMonday: Yunus Emre\nTuesday: Prophet Adam\nWednesday: Prophet Abraham\nThursday: Prophet Moses\nFriday: Zero Waste\n\nTime: 12:30 to 1:00\nPlace: Room 4, first floor\nFor: students in Grades 2, 3 and 4\nIt is free!\n\nPlease bring your English book.\nNo food or drinks in Room 4, please.",
+    "items": [
+     {
+      "id": "7",
+      "stem": "When is the story of Prophet Moses?",
+      "options": [
+       "on Tuesday",
+       "on Friday",
+       "on Thursday"
+      ],
+      "answer": 2,
+      "skill": "Reading for orientation",
+      "target": "Find a day in a notice"
+     },
+     {
+      "id": "8",
+      "stem": "What time do the stories start?",
+      "options": [
+       "at 12:30",
+       "at 1:00",
+       "at 2:30"
+      ],
+      "answer": 0,
+      "skill": "Reading for orientation",
+      "target": "Find a time in a notice"
+     },
+     {
+      "id": "9",
+      "stem": "Where are the stories?",
+      "options": [
+       "in the garden",
+       "in Room 4",
+       "in the teachers’ room"
+      ],
+      "answer": 1,
+      "skill": "Reading for orientation",
+      "target": "Find a place in a notice"
+     },
+     {
+      "id": "10",
+      "stem": "Who can come?",
+      "options": [
+       "students in Grades 2, 3 and 4",
+       "students in Grades 5 and 6",
+       "teachers and parents"
+      ],
+      "answer": 0,
+      "skill": "Reading for orientation",
+      "target": "Find a condition in a notice"
+     },
+     {
+      "id": "11",
+      "stem": "What do students bring?",
+      "options": [
+       "food and drinks",
+       "their English book",
+       "a pen and a pencil"
+      ],
+      "answer": 1,
+      "skill": "Reading for orientation",
+      "target": "Find specific information"
+     },
+     {
+      "id": "12",
+      "stem": "Which sentence is true?",
+      "options": [
+       "The stories are free.",
+       "Room 4 is on the second floor.",
+       "There is a story on Saturday."
+      ],
+      "answer": 0,
+      "skill": "Reading for orientation",
+      "target": "Check details against the notice"
+     }
+    ]
+   }
+  ]
+ },
+ "language": {
+  "instructions": "Choose the word or words for each sentence.",
+  "items": [
+   {
+    "id": "13",
+    "stem": "My sister ___ ten years old.",
+    "options": [
+     "are",
+     "am",
+     "is"
+    ],
+    "answer": 2,
+    "skill": "Grammatical accuracy",
+    "target": "Be: is / am / are"
+   },
+   {
+    "id": "14",
+    "stem": "Ali ___ two brothers.",
+    "options": [
+     "have",
+     "is",
+     "has"
+    ],
+    "answer": 2,
+    "skill": "Grammatical accuracy",
+    "target": "Have / has"
+   },
+   {
+    "id": "15",
+    "stem": "There ___ three apples in the bag.",
+    "options": [
+     "are",
+     "is",
+     "be"
+    ],
+    "answer": 0,
+    "skill": "Grammatical accuracy",
+    "target": "There is / there are"
+   },
+   {
+    "id": "16",
+    "stem": "We go to school ___ Monday.",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ],
+    "answer": 1,
+    "skill": "Grammatical accuracy",
+    "target": "Prepositions of time: on + day"
+   },
+   {
+    "id": "17",
+    "stem": "I ___ like milk. I like water.",
+    "options": [
+     "doesn’t",
+     "not",
+     "don’t"
+    ],
+    "answer": 2,
+    "skill": "Grammatical accuracy",
+    "target": "Present simple negative"
+   },
+   {
+    "id": "18",
+    "stem": "“___ you swim?” “Yes, I can.”",
+    "options": [
+     "Can",
+     "Do",
+     "Are"
+    ],
+    "answer": 0,
+    "skill": "Grammatical accuracy",
+    "target": "Can for ability: questions"
+   },
+   {
+    "id": "19",
+    "stem": "Yesterday, we ___ to the park.",
+    "options": [
+     "go",
+     "went",
+     "goes"
+    ],
+    "answer": 1,
+    "skill": "Grammatical accuracy",
+    "target": "Past simple, irregular verbs"
+   },
+   {
+    "id": "20",
+    "stem": "The people ___ happy at the festival yesterday.",
+    "options": [
+     "was",
+     "is",
+     "were"
+    ],
+    "answer": 2,
+    "skill": "Grammatical accuracy",
+    "target": "Was / were"
+   },
+   {
+    "id": "21",
+    "stem": "This is my brother. ___ name is Ali.",
+    "options": [
+     "Her",
+     "His",
+     "Its"
+    ],
+    "answer": 1,
+    "skill": "Grammatical accuracy",
+    "target": "Possessive adjectives"
+   },
+   {
+    "id": "22",
+    "stem": "Tomorrow, we ___ play football.",
+    "options": [
+     "went",
+     "are",
+     "will"
+    ],
+    "answer": 2,
+    "skill": "Grammatical accuracy",
+    "target": "Will for the future"
+   },
+   {
+    "id": "23",
+    "stem": "I want ___ a new book.",
+    "options": [
+     "to read",
+     "read",
+     "reading"
+    ],
+    "answer": 0,
+    "skill": "Grammatical accuracy",
+    "target": "Want + to"
+   },
+   {
+    "id": "24",
+    "stem": "I am hungry ___ I did not eat breakfast.",
+    "options": [
+     "but",
+     "because",
+     "or"
+    ],
+    "answer": 1,
+    "skill": "Coherence",
+    "target": "Because for reason"
+   },
+   {
+    "id": "25",
+    "stem": "A camel is ___ than a cat.",
+    "options": [
+     "bigger",
+     "big",
+     "biggest"
+    ],
+    "answer": 0,
+    "skill": "Grammatical accuracy",
+    "target": "Comparative adjectives"
+   },
+   {
+    "id": "26",
+    "stem": "___ you see the moon last night?",
+    "options": [
+     "Do",
+     "Were",
+     "Did"
+    ],
+    "answer": 2,
+    "skill": "Grammatical accuracy",
+    "target": "Past simple questions"
+   },
+   {
+    "id": "27",
+    "stem": "People go to the mosque to ___.",
+    "options": [
+     "swim",
+     "pray",
+     "cook"
+    ],
+    "answer": 1,
+    "skill": "Vocabulary range",
+    "target": "Topic vocabulary: places and actions"
+   },
+   {
+    "id": "28",
+    "stem": "It is cold. Please ___ the window.",
+    "options": [
+     "close",
+     "do",
+     "make"
+    ],
+    "answer": 0,
+    "skill": "Vocabulary control",
+    "target": "Everyday verbs: close"
+   }
+  ]
+ },
+ "writing": {
+  "instructions": "Write about you and your family.",
+  "prompts": [
+   "What is your name? How old are you?",
+   "Who is in your family?",
+   "What do you like? What can you do?"
+  ],
+  "words": "20–30 words",
+  "rubric": [
+   {
+    "criterion": "Task",
+    "bands": [
+     {
+      "score": 5,
+      "descriptor": "Answers all three questions. The length is about right."
+     },
+     {
+      "score": 3,
+      "descriptor": "Answers two questions, or all three very briefly."
+     },
+     {
+      "score": 1,
+      "descriptor": "Answers one question, or the text is hard to follow."
+     }
+    ]
+   },
+   {
+    "criterion": "Organization",
+    "bands": [
+     {
+      "score": 5,
+      "descriptor": "Short, complete sentences. Some are joined with and."
+     },
+     {
+      "score": 3,
+      "descriptor": "Some sentences and some single words. The order is clear."
+     },
+     {
+      "score": 1,
+      "descriptor": "Single words or copied phrases only."
+     }
+    ]
+   },
+   {
+    "criterion": "Grammar",
+    "bands": [
+     {
+      "score": 5,
+      "descriptor": "Simple forms (I am, I have, I like, I can) are mostly correct."
+     },
+     {
+      "score": 3,
+      "descriptor": "Several errors, but the message is clear."
+     },
+     {
+      "score": 1,
+      "descriptor": "Errors often stop understanding."
+     }
+    ]
+   },
+   {
+    "criterion": "Vocabulary",
+    "bands": [
+     {
+      "score": 5,
+      "descriptor": "Basic words for family, likes and abilities, mostly spelled correctly."
+     },
+     {
+      "score": 3,
+      "descriptor": "Very few words and some repetition, but the meaning is clear."
+     },
+     {
+      "score": 1,
+      "descriptor": "Single words. The meaning is often unclear."
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "parts": [
+   {
+    "title": "Part 1: Questions about you",
+    "minutes": 2,
+    "instructions": "The teacher asks you some questions. Answer them.",
+    "prompts": [
+     "What is your name? How old are you?",
+     "Where do you live?",
+     "Who is in your family?",
+     "What is your favorite food? What is your favorite color?"
+    ]
+   },
+   {
+    "title": "Part 2: Talk about a story",
+    "minutes": 2,
+    "instructions": "Talk about a story you read.",
+    "prompts": [
+     "What is the name of the story?",
+     "Who is in the story?",
+     "Where is the story?",
+     "Do you like it? Why?"
+    ]
+   }
+  ],
+  "rubric": [
+   {
+    "criterion": "Range",
+    "bands": [
+     {
+      "score": 5,
+      "descriptor": "Uses basic words and phrases about themselves and the story."
+     },
+     {
+      "score": 3,
+      "descriptor": "Uses a few words and phrases. Sometimes needs help."
+     },
+     {
+      "score": 1,
+      "descriptor": "Uses single words. Often cannot continue without help."
+     }
+    ]
+   },
+   {
+    "criterion": "Accuracy",
+    "bands": [
+     {
+      "score": 5,
+      "descriptor": "Simple sentences (I am, I have, I like) are mostly correct."
+     },
+     {
+      "score": 3,
+      "descriptor": "Many basic mistakes, but the meaning is usually clear."
+     },
+     {
+      "score": 1,
+      "descriptor": "Mistakes make the meaning unclear."
+     }
+    ]
+   },
+   {
+    "criterion": "Fluency",
+    "bands": [
+     {
+      "score": 5,
+      "descriptor": "Speaks in short phrases. Pauses do not stop the talk."
+     },
+     {
+      "score": 3,
+      "descriptor": "Speaks in single phrases with long pauses."
+     },
+     {
+      "score": 1,
+      "descriptor": "Says only single words."
+     }
+    ]
+   },
+   {
+    "criterion": "Interaction",
+    "bands": [
+     {
+      "score": 5,
+      "descriptor": "Answers simple questions and can say “Sorry, I don’t understand” or “Again, please.”"
+     },
+     {
+      "score": 3,
+      "descriptor": "Answers simple questions when the teacher speaks slowly and repeats."
+     },
+     {
+      "score": 1,
+      "descriptor": "Answers only with a lot of help."
+     }
+    ]
+   }
+  ]
+ },
+ "scoring": {
+  "objectiveMax": 28,
+  "objectivePass": 17,
+  "writingMax": 20,
+  "writingPass": 12,
+  "speakingMax": 20,
+  "speakingPass": 12
+ }
+}

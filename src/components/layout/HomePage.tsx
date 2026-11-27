@@ -803,7 +803,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStart, onOpenTeacherGuide 
                     <p className={cn('text-[11px] font-semibold uppercase text-[#E4C779]/76', !isRTL && 'tracking-[0.18em]')}>{SECTION_ICONS.levelExam[lang]}</p>
                     <p className="mt-1 text-sm font-semibold text-[#FFF9EC]">{SECTION_ICONS.levelExam.hint[lang]}</p>
                     <div className="mt-2 flex flex-wrap gap-2" dir="ltr">
-                      {LEVELS.filter(option => option !== 'A1' && option !== 'Pre-A1').map(option => (
+                      {LEVELS.filter(option => option !== 'Pre-A1').map(option => (
                         <button
                           key={option}
                           type="button"

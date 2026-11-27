@@ -12,7 +12,8 @@ export interface ExamCodeData {
 }
 
 const ALPHABET = '23456789ABCDEFGHJKLMNPQRSTUVWXYZ';
-const LEVELS: Level[] = ['A2', 'B1', 'B2'];
+// A1 is last so the codes of the earlier A2, B1 and B2 tests stay valid (index 3 still fits the 13 characters).
+const LEVELS: Level[] = ['A2', 'B1', 'B2', 'A1'];
 export const EXAM_ITEM_COUNT = 28;
 const LENGTH = 13;
 
@@ -69,6 +70,6 @@ export const decodeExam = (raw: string): ExamCodeData | null => {
 
 /** `#/test/a2` opens the A2 test, so a teacher can share one link or QR code with the class. */
 export const parseExamHash = (hash: string): Level | null => {
-  const match = /^#\/test\/(a2|b1|b2)\/?$/i.exec(hash);
+  const match = /^#\/test\/(a1|a2|b1|b2)\/?$/i.exec(hash);
   return match ? (match[1].toUpperCase() as Level) : null;
 };
