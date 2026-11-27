@@ -76,12 +76,12 @@ export const aboutAim = {
 
 export const aboutStats: { value: string; label: Tri; when: Tri }[] = [
   {
-    value: '57',
+    value: '50',
     label: { tr: 'Mevcut seviyelendirilmiş içerik', en: 'Levelled titles available', ar: 'محتوى متدرّج متاح' },
     when: { tr: 'Mevcut', en: 'Now', ar: 'الآن' },
   },
   {
-    value: '26 + 31',
+    value: '26 + 24',
     label: { tr: 'İngilizce + Arapça', en: 'English + Arabic', ar: 'الإنجليزية + العربية' },
     when: { tr: 'Mevcut', en: 'Now', ar: 'الآن' },
   },
@@ -97,7 +97,7 @@ export const aboutStats: { value: string; label: Tri; when: Tri }[] = [
   },
 ];
 
-const fullEditions: Tri = { tr: 'İngilizce A1–B2 · Arapça Ön A1–B2', en: 'English A1–B2 · Arabic Pre-A1–B2', ar: 'الإنجليزية: أ1 إلى ب2 · العربية: ما قبل أ1 إلى ب2' };
+const fullEditions: Tri = { tr: 'İngilizce A1–B2 · Arapça A1–B2', en: 'English A1–B2 · Arabic A1–B2', ar: 'الإنجليزية: أ1 إلى ب2 · العربية: أ1 إلى ب2' };
 
 export const aboutLibrary = {
   title: { tr: 'Mevcut Kütüphane', en: 'The Library Today', ar: 'المكتبة اليوم' } as Tri,
@@ -116,7 +116,7 @@ export const aboutLibrary = {
       name: { tr: 'İbn Cübeyr', en: 'Ibn Jubayr', ar: 'ابن جبير' },
       group: { tr: 'Tarih / Seyahat', en: 'History / Travel', ar: 'التاريخ / الرحلة' },
       accent: '#55C997',
-      editions: { tr: 'İngilizce A1–A2 · Arapça Ön A1', en: 'English A1–A2 · Arabic Pre-A1', ar: 'الإنجليزية: أ1 وأ2 · العربية: ما قبل أ1' },
+      editions: { tr: 'İngilizce A1–A2', en: 'English A1–A2', ar: 'الإنجليزية: أ1 وأ2' },
     },
     { name: { tr: 'Yunus Emre', en: 'Yunus Emre', ar: 'يونس إمره' }, group: { tr: 'Türk-İslâm Mirası', en: 'Turkish-Islamic Heritage', ar: 'التراث التركي الإسلامي' }, accent: '#58CBE0', editions: fullEditions },
     {
@@ -126,7 +126,7 @@ export const aboutLibrary = {
       editions: fullEditions,
     },
   ] as { name: Tri; group: Tri; accent: string; editions: Tri }[],
-  levels: { tr: 'Ön A1 (Arapça) · A1 · A2 · B1 · B2', en: 'Pre-A1 (Arabic) · A1 · A2 · B1 · B2', ar: 'ما قبل أ1 (العربية) · أ1 · أ2 · ب1 · ب2' } as Tri,
+  levels: { tr: 'A1 · A2 · B1 · B2', en: 'A1 · A2 · B1 · B2', ar: 'أ1 · أ2 · ب1 · ب2' } as Tri,
 };
 
 export const aboutFeatures = {
@@ -137,7 +137,7 @@ export const aboutFeatures = {
     ar: 'تجمع «من اللسان إلى الثقافة» العناصر الآتية في بنية واحدة حول محتوى الثقافة والحضارة.',
   } as Tri,
   items: [
-    { tr: 'Seviyeli hikâyeler · Ön A1 · A1 · A2 · B1 · B2', en: 'Levelled stories · Pre-A1 · A1 · A2 · B1 · B2', ar: 'قصص متدرّجة · ما قبل أ1 · أ1 · أ2 · ب1 · ب2' },
+    { tr: 'Seviyeli hikâyeler · A1 · A2 · B1 · B2', en: 'Levelled stories · A1 · A2 · B1 · B2', ar: 'قصص متدرّجة · أ1 · أ2 · ب1 · ب2' },
     { tr: 'Aynı hikâye İngilizce ve Arapça', en: 'The same story in English and Arabic', ar: 'القصة نفسها بالإنجليزية والعربية' },
     { tr: 'Her bölüm için seslendirme', en: 'Narration for every chapter', ar: 'تسجيل صوتي لكل فصل' },
     { tr: 'Bölüme özel alıştırmalar', en: 'Exercises written for each chapter', ar: 'تمارين خاصة بكل فصل' },
