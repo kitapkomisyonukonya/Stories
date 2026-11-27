@@ -76,12 +76,12 @@ export const aboutAim = {
 
 export const aboutStats: { value: string; label: Tri; when: Tri }[] = [
   {
-    value: '53',
+    value: '57',
     label: { tr: 'Mevcut seviyelendirilmiş içerik', en: 'Levelled titles available', ar: 'محتوى متدرّج متاح' },
     when: { tr: 'Mevcut', en: 'Now', ar: 'الآن' },
   },
   {
-    value: '24 + 29',
+    value: '26 + 31',
     label: { tr: 'İngilizce + Arapça', en: 'English + Arabic', ar: 'الإنجليزية + العربية' },
     when: { tr: 'Mevcut', en: 'Now', ar: 'الآن' },
   },
@@ -123,7 +123,7 @@ export const aboutLibrary = {
       name: { tr: 'Sıfır Atık', en: 'Zero Waste', ar: 'صفر النفايات' },
       group: { tr: 'Günümüz Dünyası', en: 'Our World Today', ar: 'عالمنا اليوم' },
       accent: '#E8836B',
-      editions: { tr: 'İngilizce A1–A2 · Arapça Ön A1–A2', en: 'English A1–A2 · Arabic Pre-A1–A2', ar: 'الإنجليزية: أ1 وأ2 · العربية: ما قبل أ1 إلى أ2' },
+      editions: fullEditions,
     },
   ] as { name: Tri; group: Tri; accent: string; editions: Tri }[],
   levels: { tr: 'Ön A1 (Arapça) · A1 · A2 · B1 · B2', en: 'Pre-A1 (Arabic) · A1 · A2 · B1 · B2', ar: 'ما قبل أ1 (العربية) · أ1 · أ2 · ب1 · ب2' } as Tri,
