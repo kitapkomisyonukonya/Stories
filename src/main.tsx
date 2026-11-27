@@ -21,6 +21,7 @@ import { registerServiceWorker } from './lib/pwa';
 import { applyHomeScreenName } from './lib/homeScreenName';
 import { InstallCenter } from './components/layout/InstallCenter';
 import { startTelemetry } from './lib/telemetry';
+import { startStats } from './lib/stats';
 import { preloadDeferredChunks } from './lib/preloadDeferred';
 import { PageErrorBoundary } from './components/ui/PageErrorBoundary';
 import { SCORM } from './scorm/config';
@@ -80,6 +81,7 @@ if (SCORM) {
 } else {
   registerServiceWorker();
   startTelemetry();
+  startStats();
 }
 preloadDeferredChunks();
 

@@ -4,6 +4,7 @@ import { Editor } from './Editor';
 import {
   IconBooks,
   IconCard,
+  IconChart,
   IconClock,
   IconSend,
   IconBell,
@@ -26,6 +27,7 @@ import { Baskets } from './views/Baskets';
 import { BookDetail, Books } from './views/Books';
 import { Cards } from './views/Cards';
 import { Feedback } from './views/Feedback';
+import { Stats } from './views/Stats';
 import { Notices } from './views/Notices';
 import { Help } from './views/Help';
 import { History } from './views/History';
@@ -211,6 +213,7 @@ const Shell = () => {
     { to: '/yeni-kitap', label: 'Yeni kitap', icon: <IconSparkDoc size={18} />, show: member?.role !== 'viewer' },
     { to: '/onay', label: admin ? 'Onay bekleyenler' : 'Sepetim', icon: <IconInbox size={18} />, count: admin ? waiting + (mine ? 1 : 0) : mine },
     { to: '/gecmis', label: 'Geçmiş', icon: <IconClock size={18} /> },
+    { to: '/istatistik', label: 'İstatistikler', icon: <IconChart size={18} /> },
     { to: '/geri-bildirim', label: 'Geri bildirimler', icon: <IconSend size={18} /> },
     { to: '/bildirim', label: 'Bildirimler', icon: <IconBell size={18} />, show: admin },
     { to: '/ekip', label: 'Ekip', icon: <IconUsers size={18} /> },
@@ -260,6 +263,9 @@ const Shell = () => {
       break;
     case 'ekip':
       page = <Team />;
+      break;
+    case 'istatistik':
+      page = <Stats />;
       break;
     case 'geri-bildirim':
       page = <Feedback />;

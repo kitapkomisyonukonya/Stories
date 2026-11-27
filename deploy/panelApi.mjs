@@ -3,6 +3,7 @@ import { createGithubRepo } from './panel/github.mjs';
 import { createCloudStorage } from './panel/storage.mjs';
 import { createFakeRepo, createFakeStorage } from './panel/fakes.mjs';
 import { createFeedback } from './feedback.mjs';
+import { createStats } from './stats.mjs';
 
 /**
  * The server side of the content panel.
@@ -294,6 +295,8 @@ export const createPanelApi = (env = process.env, deps = {}) => {
   const enabled = Boolean(owners);
   // The app's feedback form writes here even where the panel itself is switched off (the live site).
   const feedback = deps.feedback ?? createFeedback({ storage });
+  // Anonymous usage counts from the app (lib/stats.ts); counted on every site, read in the panel.
+  const stats = deps.stats ?? createStats({ storage, site: deps.statsSite });
 
   // --- team ---------------------------------------------------------------------------------
 
@@ -612,6 +615,16 @@ export const createPanelApi = (env = process.env, deps = {}) => {
   };
 
   const routes = [
+    [
+      'GET',
+      /^stats$/,
+      async ({ query }) => {
+        if (!storage) throw problem(503, 'Depolama bağlı değil.');
+        const site = query.get('site') === 'live' ? 'live' : query.get('site') === 'preview' ? 'preview' : stats.site;
+        const day = value => (/^\d{4}-\d{2}-\d{2}$/.test(value ?? '') ? value : undefined);
+        return { ...(await stats.report({ site, from: day(query.get('from')), to: day(query.get('to')) })), here: stats.site };
+      },
+    ],
     [
       'GET',
       /^feedback$/,
@@ -1062,5 +1075,5 @@ export const createPanelApi = (env = process.env, deps = {}) => {
     return true;
   };
 
-  return { enabled, handle, memberFor, demo, feedback };
+  return { enabled, handle, memberFor, demo, feedback, stats };
 };

@@ -189,6 +189,31 @@ export interface FeedbackItem {
   device: 'phone' | 'tablet' | 'computer' | null;
 }
 
+export type StatsSite = 'preview' | 'live';
+
+/** One day of the app's anonymous usage counts (deploy/stats.mjs), every server added up. */
+export interface StatsDay {
+  day: string;
+  visits: number;
+  newDevices: number;
+  installs: number;
+  launches: number;
+  bookOpens: number;
+  pages: number;
+  audio: number;
+  mode: Record<string, number>;
+  device: Record<string, number>;
+  os: Record<string, number>;
+  lang: Record<string, number>;
+  installOs: Record<string, number>;
+  hours: number[];
+  books: Record<string, number>;
+  levels: Record<string, number>;
+  bookPages: Record<string, number>;
+  bookAudio: Record<string, number>;
+  features: Record<string, number>;
+}
+
 export const api = {
   config: async (): Promise<PanelConfig | null> => {
     const response = await fetch('/panel-api/config').catch(() => null);
@@ -240,6 +265,7 @@ export const api = {
   askNewBook: (number: number, text: string, choice: { model: WriterModel; effort: WriterEffort }) =>
     request<{ asked: boolean }>(`/panel-api/new-book/${number}/ask`, { method: 'POST', body: { text, ...choice } }),
   feedback: () => request<{ entries: FeedbackItem[] }>('/panel-api/feedback'),
+  stats: (site?: StatsSite) => request<{ site: StatsSite; here: StatsSite; days: StatsDay[] }>(`/panel-api/stats${site ? `?site=${site}` : ''}`),
   removeFeedback: (path: string) => request<{ entries: FeedbackItem[] }>('/panel-api/feedback/remove', { method: 'POST', body: { path } }),
   sendNotice: (body: { title: { en: string; ar: string }; text: { en: string; ar: string }; link: string }) =>
     request<{ sent: ('en' | 'ar')[]; topicBase: string }>('/panel-api/push/send', { method: 'POST', body }),

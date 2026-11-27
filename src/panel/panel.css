@@ -2217,3 +2217,143 @@ small.bad {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* İstatistikler (anonymous usage counts) */
+.stats-since {
+  margin: 0 0 10px;
+}
+
+.stats-tiles,
+.stats-grid {
+  margin-bottom: 14px;
+}
+
+.stats-card h2 {
+  font-size: 15px;
+  margin: 0 0 12px;
+}
+
+.stats-bars {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.stats-bars li {
+  display: grid;
+  grid-template-columns: minmax(110px, 1.2fr) 2fr auto;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.stats-bar-track {
+  height: 10px;
+  border-radius: 99px;
+  background: var(--parchment);
+  overflow: hidden;
+}
+
+.stats-bar-track span {
+  display: block;
+  height: 100%;
+  border-radius: 99px;
+  background: var(--green);
+}
+
+.stats-bar-value {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.stats-days,
+.stats-hours {
+  display: flex;
+  align-items: stretch;
+  gap: 3px;
+  height: 170px;
+  overflow-x: auto;
+}
+
+.stats-hours {
+  height: 140px;
+}
+
+.stats-day,
+.stats-hour {
+  flex: 1 0 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 18px;
+}
+
+.stats-hour {
+  flex-basis: 10px;
+  min-width: 10px;
+}
+
+.stats-day-bar {
+  width: 100%;
+  max-width: 28px;
+  border-radius: 4px 4px 0 0;
+  background: var(--green);
+}
+
+.stats-day-value {
+  font-size: 10px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.stats-day-label {
+  margin-top: 4px;
+  font-size: 10px;
+  color: var(--faint);
+  white-space: nowrap;
+  min-height: 13px;
+}
+
+.stats-table-wrap {
+  overflow-x: auto;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.stats-table th,
+.stats-table td {
+  text-align: left;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.stats-table th:not(:first-child),
+.stats-table td:not(:first-child) {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.stats-notes {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+}
+
+@media (max-width: 720px) {
+  .stats-tiles.grid.four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .stats-grid.grid.two {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

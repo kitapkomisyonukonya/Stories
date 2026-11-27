@@ -394,6 +394,11 @@ const server = http.createServer(async (req, res) => {
     return;
   }
 
+  if (urlPath === '/stats-api/hit' && req.method === 'POST') {
+    await panelApi.stats.handleHit(req, res);
+    return;
+  }
+
   if (urlPath === '/feedback-api/send' && req.method === 'POST') {
     await panelApi.feedback.handleSend(req, res);
     return;
@@ -519,4 +524,12 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(port, '0.0.0.0', () => {
   console.log(`Stories app listening on port ${port} (${gitRef}@${gitSha}, revision ${revision})`);
+});
+
+// Cloud Run stops a server with SIGTERM (and ten seconds' grace): the usage counts of the last
+// minute are written first, so nothing counted is lost.
+process.once('SIGTERM', () => {
+  const stop = () => process.exit(0);
+  setTimeout(stop, 8000).unref?.();
+  panelApi.stats.flush().catch(() => undefined).finally(() => server.close(stop));
 });

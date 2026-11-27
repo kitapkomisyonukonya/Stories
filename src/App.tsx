@@ -79,6 +79,7 @@ import { setMyWordsBook } from './lib/myWords';
 import { useUserRole } from './contexts/UserRoleContext';
 import { useClassMode } from './contexts/ClassModeContext';
 import { saveBookOffline } from './lib/pwa';
+import { countFeature } from './lib/stats';
 import { OFFLINE_BOOK_SIZE_MB } from './data/offlineBookSizes';
 import { SCORM, isScormBook } from './scorm/config';
 import { reportPage, reportResult, reportProgress, scormResumePage } from './scorm/runtime';
@@ -112,6 +113,10 @@ const AppContent = () => {
   const [isSelfStudyOpen, setIsSelfStudyOpen] = useState(false);
   const [teacherGuideData, setTeacherGuideData] = useState<BilingualTeacherGuideData | null>(null);
   const [selfStudyGuideData, setSelfStudyGuideData] = useState<BilingualSelfStudyGuideData | null>(null);
+  // Anonymous usage counts (see lib/stats.ts): how often the journal and the guides are opened.
+  useEffect(() => { if (isJournalOpen) countFeature('journal'); }, [isJournalOpen]);
+  useEffect(() => { if (isTeacherGuideOpen) countFeature('teacher-guide'); }, [isTeacherGuideOpen]);
+  useEffect(() => { if (isSelfStudyOpen) countFeature('self-study'); }, [isSelfStudyOpen]);
   const {
     isDyslexic, setIsDyslexic,
     readerScale, setReaderScale,
@@ -436,6 +441,7 @@ const AppContent = () => {
       });
     });
     setOfflineSaveState('saving');
+    countFeature('offline');
     saveBookOffline([...urls])
       .then(result => setOfflineSaveState(result.failed === 0 ? 'saved' : 'failed'))
       .catch(() => setOfflineSaveState('failed'));
