@@ -6,583 +6,679 @@
  "collection": "history",
  "book": {
   "id": "ibnJubayr-pre-a1-ar",
-  "title": "ابْنُ جُبَيْرٍ",
+  "title": "Ibn Jubayr",
   "level": "Pre-A1",
-  "baseFontSize": 14,
+  "baseFontSize": 13,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "أَنَا ابْنُ جُبَيْرٍ",
+    "title": "A Big Dream",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch2.jpeg?alt=media",
-    "content": "أَنَا ابْنُ جُبَيْرٍ. أَنَا مِنَ الْأَنْدَلُسِ. أَعِيشُ فِي مَدِينَةِ غَرْنَاطَةَ. أَنَا كَاتِبٌ عِنْدَ الْأَمِيرِ. أُرِيدُ الْحَجَّ. هَذَا دَفْتَرِي. أَكْتُبُ فِيهِ كُلَّ يَوْمٍ. الْيَوْمَ آخُذُ دَفْتَرِي وَقَلَمِي، وَأُسَافِرُ.",
+    "content": "It is Sunday morning. Yusuf and Grandpa are at the table in the kitchen. There is a big map on it. “Grandpa, where is Spain?” Yusuf asks. Grandpa shows him. “A long time ago, a man from Spain goes on a very long trip. His name is Ibn Jubayr. Do you want to hear his story?” “Yes, please!” Yusuf says.\n\n“Ibn Jubayr lives in Granada,” Grandpa says. “It is a beautiful city in Spain. Muslims live there. Ibn Jubayr has got a big dream. He wants to go on Hajj. He wants to see Mecca and the Ka’ba. He wants to see new cities, too. One day, he takes a small diary. ‘I can write about my trip every day,’ he says.”",
     "vocabulary": [
      {
-      "word": "الْأَمِيرِ",
-      "definition": "رَجُلٌ كَبِيرٌ فِي الدَّوْلَةِ."
+      "word": "map",
+      "definition": "A picture of countries, cities and seas."
      },
      {
-      "word": "الْحَجَّ",
-      "definition": "السَّفَرُ إِلَى مَكَّةَ لِلصَّلَاةِ وَالدُّعَاءِ."
+      "word": "trip",
+      "definition": "Going from one place to another place."
+     },
+     {
+      "word": "diary",
+      "definition": "A small book. You write about your day in it."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "ibnJubayr-pre-a1-ar-quick-1",
+      "id": "ibnJubayr-pre-a1-quick-1",
       "type": "drag-drop",
-      "title": "أَنَا ابْنُ جُبَيْرٍ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "A Big Dream",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "ابْنُ جُبَيْرٍ يَعِيشُ فِي غَرْنَاطَةَ.",
-         "ابْنُ جُبَيْرٍ يُرِيدُ الْحَجَّ."
+         "Ibn Jubayr lives in Granada.",
+         "Ibn Jubayr wants to go on Hajj."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "ابْنُ جُبَيْرٍ يَعْمَلُ فِي سَفِينَةٍ."
+         "Granada is in Egypt."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "ابْنُ جُبَيْرٍ يَعِيشُ فِي غَرْنَاطَةَ.",
-        "ابْنُ جُبَيْرٍ يُرِيدُ الْحَجَّ."
+       "True": [
+        "Ibn Jubayr lives in Granada.",
+        "Ibn Jubayr wants to go on Hajj."
        ],
-       "خَطَأٌ": [
-        "ابْنُ جُبَيْرٍ يَعْمَلُ فِي سَفِينَةٍ."
+       "False": [
+        "Granada is in Egypt."
        ]
       },
-      "explanation": "الجواب في الفصل ١.",
+      "explanation": "The answer is in Chapter 1.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: ابْنُ جُبَيْرٍ مِنْ أَيْنَ؟",
+     "question": "Guess: What is on the table?",
      "options": [
-      "مِنَ الْأَنْدَلُسِ",
-      "مِنْ مِصْرَ",
-      "مِنَ الْحَبَشَةِ"
+      "a big map",
+      "a big ship",
+      "a big diary"
      ],
      "answer": 0,
-     "quote": "أَنَا مِنَ الْأَنْدَلُسِ."
+     "quote": "There is a big map on it."
     },
     "iCan": [
-     "أَعْرِفُ: ابْنُ جُبَيْرٍ يُرِيدُ الْحَجَّ."
+     "I can say: Ibn Jubayr writes in a diary."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "فِي الْبَحْرِ",
+    "title": "A Storm at Sea",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch4.jpeg?alt=media",
-    "content": "أَنَا فِي سَفِينَةٍ. الْبَحْرُ كَبِيرٌ جِدًّا. الْيَوْمَ فِي الْبَحْرِ رِيحٌ قَوِيَّةٌ. السَّفِينَةُ صَغِيرَةٌ، وَالْمَاءُ كَثِيرٌ. أَدْعُو اللهَ كَثِيرًا. بَعْدَ أَيَّامٍ، السَّفِينَةُ فِي مِصْرَ. الْحَمْدُ لِلهِ!",
+    "content": "Yusuf looks at the map. “How does he go, Grandpa? By plane?” he asks.\n\nGrandpa laughs. “No, Yusuf! There are no planes. He goes by ship,” he says. “The ship is on the sea for many days. One night, there is a big storm. The wind is very strong. The water is very high. The people on the ship are afraid. They pray to Allah. In the morning, the sea is quiet again. Everybody is safe. Ibn Jubayr writes about the storm in his diary.”",
     "vocabulary": [
      {
-      "word": "سَفِينَةٍ",
-      "definition": "بَيْتٌ كَبِيرٌ يَذْهَبُ فِي الْبَحْرِ."
+      "word": "ship",
+      "definition": "A very big boat."
      },
      {
-      "word": "الْبَحْرُ",
-      "definition": "مَاءٌ كَبِيرٌ جِدًّا."
-     },
-     {
-      "word": "أَدْعُو",
-      "definition": "دَعَا: طَلَبَ مِنَ اللهِ."
+      "word": "storm",
+      "definition": "Very bad weather with strong wind and rain."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "ibnJubayr-pre-a1-ar-quick-2",
+      "id": "ibnJubayr-pre-a1-quick-2",
       "type": "drag-drop",
-      "title": "فِي الْبَحْرِ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "A Storm at Sea",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "فِي الْبَحْرِ رِيحٌ قَوِيَّةٌ.",
-         "ابْنُ جُبَيْرٍ يَدْعُو اللهَ."
+         "There is a big storm.",
+         "The people on the ship pray to Allah."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "السَّفِينَةُ كَبِيرَةٌ جِدًّا."
+         "There are planes."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "فِي الْبَحْرِ رِيحٌ قَوِيَّةٌ.",
-        "ابْنُ جُبَيْرٍ يَدْعُو اللهَ."
+       "True": [
+        "There is a big storm.",
+        "The people on the ship pray to Allah."
        ],
-       "خَطَأٌ": [
-        "السَّفِينَةُ كَبِيرَةٌ جِدًّا."
+       "False": [
+        "There are planes."
        ]
       },
-      "explanation": "الجواب في الفصل ٢.",
+      "explanation": "The answer is in Chapter 2.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: أَيْنَ ابْنُ جُبَيْرٍ؟",
+     "question": "Guess: How does Ibn Jubayr go?",
      "options": [
-      "فِي سَفِينَةٍ",
-      "فِي صُنْدُوقٍ",
-      "فِي بَيْتٍ"
+      "by ship",
+      "by plane",
+      "by car"
      ],
      "answer": 0,
-     "quote": "أَنَا فِي سَفِينَةٍ."
+     "quote": "He goes by ship,"
     },
     "iCan": [
-     "أَعْرِفُ: ابْنُ جُبَيْرٍ يُسَافِرُ فِي الْبَحْرِ."
+     "I can say: Ibn Jubayr goes by ship."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "فِي مِصْرَ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch4.jpeg?alt=media",
-    "content": "أَنَا فِي مَدِينَةِ الْإِسْكَنْدَرِيَّةِ. أَرَى مَنَارَةً طَوِيلَةً جِدًّا. فِي اللَّيْلِ نُورُهَا لِلسُّفُنِ. أَرَى مَدَارِسَ وَمُسْتَشْفًى. فِي الْمَدْرَسَةِ الطَّالِبُ يَدْرُسُ، وَيَأْكُلُ، وَيَنَامُ. أَنَا فَرِحٌ. أَكْتُبُ كُلَّ هَذَا فِي دَفْتَرِي.",
+    "title": "A Free Hospital",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch5.jpeg?alt=media",
+    "content": "“Where does the ship go, Grandpa?” Yusuf asks.\n\n“To Egypt,” Grandpa says. “Ibn Jubayr sees a very tall lighthouse there. Then he goes to Cairo. Cairo is a very big city. The sultan there is Saladin. He is a kind and fair man. There is a big hospital in Cairo. It is free for everybody. Every day, Saladin gives bread to poor people, too. Ibn Jubayr writes all this in his diary.”",
     "vocabulary": [
      {
-      "word": "مَنَارَةً",
-      "definition": "بِنَايَةٌ طَوِيلَةٌ؛ فِيهَا نُورٌ لِلسُّفُنِ."
+      "word": "lighthouse",
+      "definition": "A tall tower with a light. It helps ships at night."
+     },
+     {
+      "word": "hospital",
+      "definition": "A place for sick people. Doctors work there."
+     },
+     {
+      "word": "free",
+      "definition": "You do not pay money for it."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "ibnJubayr-pre-a1-ar-quick-3",
+      "id": "ibnJubayr-pre-a1-quick-3",
       "type": "drag-drop",
-      "title": "فِي مِصْرَ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "A Free Hospital",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "فِي اللَّيْلِ نُورُ الْمَنَارَةِ لِلسُّفُنِ.",
-         "ابْنُ جُبَيْرٍ يَرَى مَدَارِسَ وَمُسْتَشْفًى."
+         "Saladin is a kind and fair man.",
+         "Cairo is a very big city."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "الْمَنَارَةُ صَغِيرَةٌ."
+         "The hospital is only for rich people."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "فِي اللَّيْلِ نُورُ الْمَنَارَةِ لِلسُّفُنِ.",
-        "ابْنُ جُبَيْرٍ يَرَى مَدَارِسَ وَمُسْتَشْفًى."
+       "True": [
+        "Saladin is a kind and fair man.",
+        "Cairo is a very big city."
        ],
-       "خَطَأٌ": [
-        "الْمَنَارَةُ صَغِيرَةٌ."
+       "False": [
+        "The hospital is only for rich people."
        ]
       },
-      "explanation": "الجواب في الفصل ٣.",
+      "explanation": "The answer is in Chapter 3.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَاذَا يَرَى فِي الْإِسْكَنْدَرِيَّةِ؟",
+     "question": "Guess: What is free for everybody?",
      "options": [
-      "مَنَارَةً",
-      "الْكَعْبَةَ",
-      "جَبَلًا"
+      "the hospital",
+      "the ship",
+      "the diary"
      ],
      "answer": 0,
-     "quote": "أَرَى مَنَارَةً طَوِيلَةً جِدًّا."
+     "quote": "It is free for everybody."
     },
     "iCan": [
-     "أَعْرِفُ: نُورُ الْمَنَارَةِ لِلسُّفُنِ."
+     "I can say: The hospital in Cairo is free."
     ]
    },
    {
     "id": 4,
     "type": "story",
-    "title": "فِي مَكَّةَ",
+    "title": "Eight Months in Mecca",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch7.jpeg?alt=media",
-    "content": "أَنَا فِي مَكَّةَ. أَرَى الْكَعْبَةَ. أَنَا فَرِحٌ جِدًّا. فِي مَكَّةَ نَاسٌ مِنْ كُلِّ بَلَدٍ. أُصَلِّي مَعَ النَّاسِ. أَعِيشُ فِي مَكَّةَ شُهُورًا.",
+    "content": "Yusuf puts his finger on the map. “And then Mecca?” he asks.\n\n“Yes!” Grandpa says. “Ibn Jubayr goes across the desert with many camels. The sun is very hot. There is not much water. The trip is very hard. Then he goes across the Red Sea by ship. At last, he comes to Mecca. He sees the Ka’ba. He is very happy. People from many countries are there. Ibn Jubayr makes the Hajj. He stays in Mecca for eight months! He writes, ‘Mecca is small, but there is a place for everybody.’”",
     "vocabulary": [
      {
-      "word": "أُصَلِّي",
-      "definition": "صَلَّى: قَالَ الصَّلَاةَ لِلهِ."
+      "word": "desert",
+      "definition": "A very hot, dry place with sand."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "ibnJubayr-pre-a1-ar-quick-4",
+      "id": "ibnJubayr-pre-a1-quick-4",
       "type": "drag-drop",
-      "title": "فِي مَكَّةَ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Eight Months in Mecca",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "فِي مَكَّةَ نَاسٌ مِنْ كُلِّ بَلَدٍ.",
-         "ابْنُ جُبَيْرٍ يُصَلِّي مَعَ النَّاسِ."
+         "The trip across the desert is very hard.",
+         "People from many countries are in Mecca."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "ابْنُ جُبَيْرٍ فِي مَكَّةَ يَوْمًا وَاحِدًا."
+         "There is a lot of water in the desert."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "فِي مَكَّةَ نَاسٌ مِنْ كُلِّ بَلَدٍ.",
-        "ابْنُ جُبَيْرٍ يُصَلِّي مَعَ النَّاسِ."
+       "True": [
+        "The trip across the desert is very hard.",
+        "People from many countries are in Mecca."
        ],
-       "خَطَأٌ": [
-        "ابْنُ جُبَيْرٍ فِي مَكَّةَ يَوْمًا وَاحِدًا."
+       "False": [
+        "There is a lot of water in the desert."
        ]
       },
-      "explanation": "الجواب في الفصل ٤.",
+      "explanation": "The answer is in Chapter 4.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَاذَا يَرَى ابْنُ جُبَيْرٍ فِي مَكَّةَ؟",
+     "question": "Guess: How long is Ibn Jubayr in Mecca?",
      "options": [
-      "الْكَعْبَةَ",
-      "الْمَنَارَةَ",
-      "الْبَحْرَ"
+      "eight months",
+      "eight days",
+      "eight years"
      ],
      "answer": 0,
-     "quote": "أَرَى الْكَعْبَةَ."
+     "quote": "He stays in Mecca for eight months!"
     },
     "iCan": [
-     "أَعْرِفُ: ابْنُ جُبَيْرٍ يُصَلِّي فِي مَكَّةَ."
+     "I can say: Ibn Jubayr sees the Ka’ba."
     ]
    },
    {
     "id": 5,
     "type": "story",
-    "title": "الْكِتَابُ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch13.jpeg?alt=media",
-    "content": "الْآنَ أَنَا فِي بَيْتِي فِي الْأَنْدَلُسِ. دَفْتَرِي كَبِيرٌ. فِيهِ كُلُّ رِحْلَتِي. هَذَا الدَّفْتَرُ كِتَابٌ. اسْمُهُ «رِحْلَةُ ابْنِ جُبَيْرٍ». وَأَنْتَ تَقْرَأُ هَذَا الْكِتَابَ الْيَوْمَ!",
+    "title": "Big Cities",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch9.jpeg?alt=media",
+    "content": "“Does he go home now, Grandpa?” Yusuf asks.\n\n“Not yet,” Grandpa says. “He goes to Medina. Then he goes to Baghdad. Baghdad is a very big city. It has got many mosques and baths. Then he goes to Damascus. He sees the Great Mosque there. It has got beautiful walls and doors. Ibn Jubayr likes this city very much. His diary is full now.”",
     "vocabulary": [
      {
-      "word": "رِحْلَتِي",
-      "definition": "الرِّحْلَةُ: سَفَرٌ طَوِيلٌ."
+      "word": "mosques",
+      "definition": "Places where Muslims pray."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "ibnJubayr-pre-a1-ar-quick-5",
+      "id": "ibnJubayr-pre-a1-quick-5",
       "type": "drag-drop",
-      "title": "الْكِتَابُ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Big Cities",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "فِي الدَّفْتَرِ كُلُّ الرِّحْلَةِ.",
-         "الدَّفْتَرُ كِتَابٌ."
+         "Ibn Jubayr goes to Baghdad.",
+         "Ibn Jubayr likes Damascus very much."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "ابْنُ جُبَيْرٍ لَا يَكْتُبُ فِي دَفْتَرِهِ."
+         "Ibn Jubayr goes home after Mecca."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "فِي الدَّفْتَرِ كُلُّ الرِّحْلَةِ.",
-        "الدَّفْتَرُ كِتَابٌ."
+       "True": [
+        "Ibn Jubayr goes to Baghdad.",
+        "Ibn Jubayr likes Damascus very much."
        ],
-       "خَطَأٌ": [
-        "ابْنُ جُبَيْرٍ لَا يَكْتُبُ فِي دَفْتَرِهِ."
+       "False": [
+        "Ibn Jubayr goes home after Mecca."
        ]
       },
-      "explanation": "الجواب في الفصل ٥.",
+      "explanation": "The answer is in Chapter 5.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَا اسْمُ الْكِتَابِ؟",
+     "question": "Guess: Which city has got the Great Mosque?",
      "options": [
-      "«رِحْلَةُ ابْنِ جُبَيْرٍ»",
-      "«بَيْتُ الدَّرَاوِيشِ»",
-      "«الْأَنْدَلُسُ»"
+      "Damascus",
+      "Granada",
+      "Cairo"
      ],
      "answer": 0,
-     "quote": "هَذَا الدَّفْتَرُ كِتَابٌ."
+     "quote": "He sees the Great Mosque there."
     },
     "iCan": [
-     "أَعْرِفُ: دَفْتَرُ ابْنِ جُبَيْرٍ كِتَابٌ."
+     "I can say: Ibn Jubayr goes to big cities."
     ]
    },
    {
     "id": 6,
-    "type": "glossary",
-    "title": "المعجم الرئيسي",
-    "content": "كَلِمَاتُ الْقِصَّةِ فِي مَكَانٍ وَاحِدٍ.",
-    "image": "",
-    "vocabulary": [
+    "type": "story",
+    "title": "Home Again",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch11.jpeg?alt=media",
+    "content": "Yusuf looks at Grandpa. “Is the trip back easy, Grandpa?” he asks.\n\n“No, it isn’t,” Grandpa says. “Ibn Jubayr gets on a ship again. There are big storms again. The ship stops near an island. It can’t move! But people on the island come and help them. At last, Ibn Jubayr comes home to Spain. He thanks Allah. His trip is more than two years long. Then he writes a book from his diary. People read his book today, too.”\n\nYusuf runs to his room. He comes back with a small notebook. “Grandpa, I want a diary, too!” he says. Grandpa laughs. “Then let’s write about today, Yusuf!”",
+    "vocabulary": [],
+    "hotspots": [],
+    "exercises": [
      {
-      "word": "الْأَمِيرِ",
-      "definition": "رَجُلٌ كَبِيرٌ فِي الدَّوْلَةِ.",
-      "level": "Pre-A1",
-      "chapter": 1,
-      "chapterTitle": "أَنَا ابْنُ جُبَيْرٍ",
-      "storyExample": "أَنَا كَاتِبٌ عِنْدَ الْأَمِيرِ."
-     },
-     {
-      "word": "الْحَجَّ",
-      "definition": "السَّفَرُ إِلَى مَكَّةَ لِلصَّلَاةِ وَالدُّعَاءِ.",
-      "level": "Pre-A1",
-      "chapter": 1,
-      "chapterTitle": "أَنَا ابْنُ جُبَيْرٍ",
-      "storyExample": "أُرِيدُ الْحَجَّ."
-     },
-     {
-      "word": "سَفِينَةٍ",
-      "definition": "بَيْتٌ كَبِيرٌ يَذْهَبُ فِي الْبَحْرِ.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "فِي الْبَحْرِ",
-      "storyExample": "أَنَا فِي سَفِينَةٍ."
-     },
-     {
-      "word": "الْبَحْرُ",
-      "definition": "مَاءٌ كَبِيرٌ جِدًّا.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "فِي الْبَحْرِ",
-      "storyExample": "الْبَحْرُ كَبِيرٌ جِدًّا."
-     },
-     {
-      "word": "أَدْعُو",
-      "definition": "دَعَا: طَلَبَ مِنَ اللهِ.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "فِي الْبَحْرِ",
-      "storyExample": "أَدْعُو اللهَ كَثِيرًا."
-     },
-     {
-      "word": "مَنَارَةً",
-      "definition": "بِنَايَةٌ طَوِيلَةٌ؛ فِيهَا نُورٌ لِلسُّفُنِ.",
-      "level": "Pre-A1",
-      "chapter": 3,
-      "chapterTitle": "فِي مِصْرَ",
-      "storyExample": "أَرَى مَنَارَةً طَوِيلَةً جِدًّا."
-     },
-     {
-      "word": "أُصَلِّي",
-      "definition": "صَلَّى: قَالَ الصَّلَاةَ لِلهِ.",
-      "level": "Pre-A1",
-      "chapter": 4,
-      "chapterTitle": "فِي مَكَّةَ",
-      "storyExample": "أُصَلِّي مَعَ النَّاسِ."
-     },
-     {
-      "word": "رِحْلَتِي",
-      "definition": "الرِّحْلَةُ: سَفَرٌ طَوِيلٌ.",
-      "level": "Pre-A1",
-      "chapter": 5,
-      "chapterTitle": "الْكِتَابُ",
-      "storyExample": "فِيهِ كُلُّ رِحْلَتِي."
+      "id": "ibnJubayr-pre-a1-quick-6",
+      "type": "drag-drop",
+      "title": "Home Again",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "People on the island help them.",
+         "Ibn Jubayr writes a book."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The trip is one month long."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "People on the island help them.",
+        "Ibn Jubayr writes a book."
+       ],
+       "False": [
+        "The trip is one month long."
+       ]
+      },
+      "explanation": "The answer is in Chapter 6.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
      }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: Is the trip back easy?",
+     "options": [
+      "No, it isn’t.",
+      "Yes, it is.",
+      "There is no trip back."
+     ],
+     "answer": 0,
+     "quote": "“No, it isn’t,” Grandpa says."
+    },
+    "iCan": [
+     "I can say: People read his book today."
     ]
    },
    {
     "id": 7,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "All the words of the story in one place.",
+    "image": "",
+    "vocabulary": [
+     {
+      "word": "map",
+      "definition": "A picture of countries, cities and seas.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Big Dream",
+      "storyExample": "There is a big map on it."
+     },
+     {
+      "word": "trip",
+      "definition": "Going from one place to another place.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Big Dream",
+      "storyExample": "“A long time ago, a man from Spain goes on a very long trip."
+     },
+     {
+      "word": "diary",
+      "definition": "A small book. You write about your day in it.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Big Dream",
+      "storyExample": "One day, he takes a small diary."
+     },
+     {
+      "word": "ship",
+      "definition": "A very big boat.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "A Storm at Sea",
+      "storyExample": "He goes by ship,” he says."
+     },
+     {
+      "word": "storm",
+      "definition": "Very bad weather with strong wind and rain.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "A Storm at Sea",
+      "storyExample": "One night, there is a big storm."
+     },
+     {
+      "word": "lighthouse",
+      "definition": "A tall tower with a light. It helps ships at night.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "A Free Hospital",
+      "storyExample": "“Ibn Jubayr sees a very tall lighthouse there."
+     },
+     {
+      "word": "hospital",
+      "definition": "A place for sick people. Doctors work there.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "A Free Hospital",
+      "storyExample": "There is a big hospital in Cairo."
+     },
+     {
+      "word": "free",
+      "definition": "You do not pay money for it.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "A Free Hospital",
+      "storyExample": "It is free for everybody."
+     },
+     {
+      "word": "desert",
+      "definition": "A very hot, dry place with sand.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "Eight Months in Mecca",
+      "storyExample": "“Ibn Jubayr goes across the desert with many camels."
+     },
+     {
+      "word": "mosques",
+      "definition": "Places where Muslims pray.",
+      "level": "Pre-A1",
+      "chapter": 5,
+      "chapterTitle": "Big Cities",
+      "storyExample": "It has got many mosques and baths."
+     }
+    ]
+   },
+   {
+    "id": 8,
     "type": "final-challenge",
-    "title": "التحدي النهائي",
-    "content": "أَجِبْ عَنِ الْأَسْئِلَةِ.",
+    "title": "Final Challenge",
+    "content": "Answer the questions.",
     "image": "",
     "exercises": [
      {
-      "id": "ibnJubayr-pre-a1-ar-final-1",
+      "id": "ibnJubayr-pre-a1-final-1",
       "type": "multiple-choice",
-      "title": "ابْنُ جُبَيْرٍ مِنْ أَيْنَ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "ابْنُ جُبَيْرٍ مِنْ أَيْنَ؟",
+      "title": "Who tells Yusuf the story?",
+      "instructions": "Choose the answer.",
+      "question": "Who tells Yusuf the story?",
       "options": [
-       "مِنَ الْأَنْدَلُسِ",
-       "مِنْ مِصْرَ",
-       "مِنْ مَكَّةَ"
+       "his grandpa",
+       "his dad",
+       "his mom"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: من الأندلس.",
+      "explanation": "The answer: his grandpa.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "ibnJubayr-pre-a1-ar-final-2",
+      "id": "ibnJubayr-pre-a1-final-2",
       "type": "multiple-choice",
-      "title": "مَاذَا يُرِيدُ ابْنُ جُبَيْرٍ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَاذَا يُرِيدُ ابْنُ جُبَيْرٍ؟",
+      "title": "Where is Ibn Jubayr from?",
+      "instructions": "Choose the answer.",
+      "question": "Where is Ibn Jubayr from?",
       "options": [
-       "الْحَجَّ",
-       "الْمَالَ",
-       "سَفِينَةً"
+       "Spain",
+       "Egypt",
+       "Babylon"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: الحج.",
+      "explanation": "The answer: Spain.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "ibnJubayr-pre-a1-ar-final-3",
+      "id": "ibnJubayr-pre-a1-final-3",
       "type": "multiple-choice",
-      "title": "مَاذَا فِي الْبَحْرِ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَاذَا فِي الْبَحْرِ؟",
+      "title": "Who is the sultan in Cairo?",
+      "instructions": "Choose the answer.",
+      "question": "Who is the sultan in Cairo?",
       "options": [
-       "رِيحٌ قَوِيَّةٌ",
-       "مَنَارَةٌ",
-       "الْكَعْبَةُ"
+       "Saladin",
+       "Umayya",
+       "Pharaoh"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: ريح قوية.",
+      "explanation": "The answer: Saladin.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "ibnJubayr-pre-a1-ar-final-4",
+      "id": "ibnJubayr-pre-a1-final-4",
       "type": "multiple-choice",
-      "title": "مَا اسْمُ كِتَابِهِ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَا اسْمُ كِتَابِهِ؟",
+      "title": "What does Yusuf want?",
+      "instructions": "Choose the answer.",
+      "question": "What does Yusuf want?",
       "options": [
-       "«رِحْلَةُ ابْنِ جُبَيْرٍ»",
-       "«شِعْرُ يُونُسَ»",
-       "«الْأَنْدَلُسُ»"
+       "a diary",
+       "a ship",
+       "a map"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: «رحلة ابن جبير».",
+      "explanation": "The answer: a diary.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "ibnJubayr-pre-a1-ar-final-words",
+      "id": "ibnJubayr-pre-a1-final-words",
       "type": "matching",
-      "title": "الْكَلِمَاتُ",
-      "instructions": "صِلِ الْكَلِمَةَ بِمَعْنَاهَا.",
-      "question": "مَا الْمَعْنَى؟",
+      "title": "Words",
+      "instructions": "Match the word and the meaning.",
+      "question": "What does it mean?",
       "matchingHeadings": {
-       "left": "الْكَلِمَةُ",
-       "right": "الْمَعْنَى"
+       "left": "Word",
+       "right": "Meaning"
       },
       "matchingPairs": [
        {
-        "left": "الْأَمِيرِ",
-        "right": "رَجُلٌ كَبِيرٌ فِي الدَّوْلَةِ."
+        "left": "map",
+        "right": "A picture of countries, cities and seas."
        },
        {
-        "left": "سَفِينَةٍ",
-        "right": "بَيْتٌ كَبِيرٌ يَذْهَبُ فِي الْبَحْرِ."
+        "left": "ship",
+        "right": "A very big boat."
        },
        {
-        "left": "مَنَارَةً",
-        "right": "بِنَايَةٌ طَوِيلَةٌ؛ فِيهَا نُورٌ لِلسُّفُنِ."
+        "left": "lighthouse",
+        "right": "A tall tower with a light. It helps ships at night."
        },
        {
-        "left": "أُصَلِّي",
-        "right": "صَلَّى: قَالَ الصَّلَاةَ لِلهِ."
+        "left": "desert",
+        "right": "A very hot, dry place with sand."
        }
       ],
       "correctAnswer": {
-       "الْأَمِيرِ": "رَجُلٌ كَبِيرٌ فِي الدَّوْلَةِ.",
-       "سَفِينَةٍ": "بَيْتٌ كَبِيرٌ يَذْهَبُ فِي الْبَحْرِ.",
-       "مَنَارَةً": "بِنَايَةٌ طَوِيلَةٌ؛ فِيهَا نُورٌ لِلسُّفُنِ.",
-       "أُصَلِّي": "صَلَّى: قَالَ الصَّلَاةَ لِلهِ."
+       "map": "A picture of countries, cities and seas.",
+       "ship": "A very big boat.",
+       "lighthouse": "A tall tower with a light. It helps ships at night.",
+       "desert": "A very hot, dry place with sand."
       },
-      "explanation": "المعاني في ملاحظات الكلمات.",
+      "explanation": "The meanings are in the Word Notes.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "انْظُرْ إِلَى الْمُعْجَمِ."
+       "correct": "Well done!",
+       "incorrect": "Look at the Master Glossary."
       }
      },
      {
-      "id": "ibnJubayr-pre-a1-ar-final-order",
+      "id": "ibnJubayr-pre-a1-final-order",
       "type": "sequencing",
-      "title": "الْقِصَّةُ",
-      "instructions": "رَتِّبِ الْقِصَّةَ.",
-      "question": "مَاذَا أَوَّلًا؟",
+      "title": "The Story",
+      "instructions": "Put the story in order.",
+      "question": "What happens first?",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "ابْنُ جُبَيْرٍ يَأْخُذُ دَفْتَرَهُ، وَيُسَافِرُ."
+        "text": "Ibn Jubayr takes a small diary."
        },
        {
         "id": "2",
-        "text": "هُوَ فِي سَفِينَةٍ فِي الْبَحْرِ."
+        "text": "There is a big storm at sea."
        },
        {
         "id": "3",
-        "text": "يَرَى مَنَارَةً فِي الْإِسْكَنْدَرِيَّةِ."
+        "text": "Ibn Jubayr sees a free hospital in Cairo."
        },
        {
         "id": "4",
-        "text": "يَرَى الْكَعْبَةَ فِي مَكَّةَ."
+        "text": "Ibn Jubayr makes the Hajj in Mecca."
+       },
+       {
+        "id": "5",
+        "text": "Ibn Jubayr sees the Great Mosque in Damascus."
+       },
+       {
+        "id": "6",
+        "text": "Ibn Jubayr comes home to Spain."
        }
       ],
       "correctAnswer": [
        "1",
        "2",
        "3",
-       "4"
+       "4",
+       "5",
+       "6"
       ],
-      "explanation": "ترتيب الفصول.",
+      "explanation": "This is the order of the chapters.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "انْظُرْ إِلَى الْفُصُولِ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Look at the chapters again."
       }
      }
     ]

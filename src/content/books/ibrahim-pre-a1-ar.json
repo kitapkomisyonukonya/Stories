@@ -6,607 +6,752 @@
  "collection": "prophets",
  "book": {
   "id": "ibrahim-pre-a1-ar",
-  "title": "إِبْرَاهِيمُ عَلَيْهِ السَّلَامُ",
+  "title": "Prophet Abraham (pbuh)",
   "level": "Pre-A1",
-  "baseFontSize": 14,
+  "baseFontSize": 13,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "فِي بَابِلَ",
+    "title": "Stars in the Sky",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch3.png?alt=media&token=501af204-5d22-4f08-911d-33887a5bdb5a",
-    "content": "اسْمِي نَاصِرٌ. أَعِيشُ فِي مَدِينَةِ بَابِلَ. فِي بَابِلَ رَجُلٌ اسْمُهُ إِبْرَاهِيمُ (عَلَيْهِ السَّلَامُ). فِي اللَّيْلِ يَنْظُرُ إِبْرَاهِيمُ إِلَى السَّمَاءِ. يَرَى نَجْمًا وَالْقَمَرَ. فِي النَّهَارِ يَرَى الشَّمْسَ. كُلُّهَا تَذْهَبُ. إِبْرَاهِيمُ يَعْرِفُ: اللهُ هُوَ الرَّبُّ.",
+    "content": "It is a quiet summer night. Yusuf and his dad are camping. They have got a small tent. Next to the tent, there is a big blanket on the grass. They sit on the blanket.\n\nThere are many stars in the sky. “Dad, look! That star is very bright,” Yusuf says. Dad smiles. “There is a story about a young man. He looks at the stars, too. His name is Abraham. Do you want to hear his story?” he asks. “Yes, please!” Yusuf says.\n\n“Abraham lives in Babylon,” Dad says. “And young Abraham has got a big question in his heart: ‘Who makes the sky and the stars?’”\n\n“One night, Abraham sees a bright star. Then the star goes away. He sees the moon. The moon goes away. In the morning, he sees the sun. In the evening, the sun goes away, too. Abraham knows: Allah makes the star, the moon, and the sun. Allah never goes away! Then Allah chooses Abraham to be His Messenger.”",
     "vocabulary": [
      {
-      "word": "نَجْمًا",
-      "definition": "نُورٌ صَغِيرٌ فِي السَّمَاءِ لَيْلًا."
+      "word": "tent",
+      "definition": "A small house of cloth. People sleep in it outside."
      },
      {
-      "word": "الْقَمَرَ",
-      "definition": "نُورٌ كَبِيرٌ فِي السَّمَاءِ لَيْلًا."
+      "word": "blanket",
+      "definition": "A big, soft cloth. It keeps you warm."
      },
      {
-      "word": "الشَّمْسَ",
-      "definition": "نُورٌ كَبِيرٌ وَحَارٌّ فِي النَّهَارِ."
+      "word": "star",
+      "definition": "A small light in the night sky."
+     },
+     {
+      "word": "heart",
+      "definition": "The place of your feelings, inside you."
+     },
+     {
+      "word": "goes away",
+      "definition": "Leaves; it is not there now."
+     },
+     {
+      "word": "moon",
+      "definition": "The big, round light in the night sky."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "ibrahim-pre-a1-ar-quick-1",
+      "id": "ibrahim-pre-a1-quick-1",
       "type": "drag-drop",
-      "title": "فِي بَابِلَ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Stars in the Sky",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "نَاصِرٌ يَعِيشُ فِي بَابِلَ.",
-         "فِي النَّهَارِ يَرَى إِبْرَاهِيمُ الشَّمْسَ."
+         "Yusuf and his dad are camping.",
+         "Abraham lives in Babylon."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "يَرَى إِبْرَاهِيمُ الشَّمْسَ فِي اللَّيْلِ."
+         "The stars never go away."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "نَاصِرٌ يَعِيشُ فِي بَابِلَ.",
-        "فِي النَّهَارِ يَرَى إِبْرَاهِيمُ الشَّمْسَ."
+       "True": [
+        "Yusuf and his dad are camping.",
+        "Abraham lives in Babylon."
        ],
-       "خَطَأٌ": [
-        "يَرَى إِبْرَاهِيمُ الشَّمْسَ فِي اللَّيْلِ."
+       "False": [
+        "The stars never go away."
        ]
       },
-      "explanation": "الجواب في الفصل ١.",
+      "explanation": "The answer is in Chapter 1.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَاذَا يَرَى إِبْرَاهِيمُ فِي اللَّيْلِ؟",
+     "question": "Guess: Where are Yusuf and his dad?",
      "options": [
-      "نَجْمًا وَالْقَمَرَ",
-      "الشَّمْسَ",
-      "بَحْرًا"
+      "in a tent",
+      "at school",
+      "on a ship"
      ],
      "answer": 0,
-     "quote": "يَرَى نَجْمًا وَالْقَمَرَ."
+     "quote": "They have got a small tent."
     },
     "iCan": [
-     "أَعْرِفُ: اللهُ هُوَ الرَّبُّ."
+     "I can say: Allah makes the stars."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "الْأَصْنَامُ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch6.png?alt=media&token=fa914194-fff0-4212-98ec-c09305680d98",
-    "content": "فِي بَابِلَ أَصْنَامٌ كَثِيرَةٌ. أَبِي يَعْبُدُ الْأَصْنَامَ. الْأَصْنَامُ لَا تَأْكُلُ، وَلَا تَتَكَلَّمُ. يَوْمًا، نَخْرُجُ مِنَ الْمَدِينَةِ. إِبْرَاهِيمُ يَكْسِرُ الْأَصْنَامَ. يَتْرُكُ الصَّنَمَ الْكَبِيرَ فَقَطْ. فِي الْمَسَاءِ أَرَى الْأَصْنَامَ. أَبِي يَغْضَبُ كَثِيرًا.",
+    "title": "Stones in a Big House",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2FAbraham_a2_ch1.png?alt=media&token=5e040caa-6fbf-4bb4-840f-8fc15c0c8478",
+    "content": "Yusuf thinks. “Dad, do the people of Babylon know Allah?” he asks.\n\n“No, Yusuf,” Dad says. “They have got many idols. Idols are big stones. They are in a big house. The people pray to them. But idols can’t see. They can’t hear. They can’t talk. Abraham’s father makes idols, too. Abraham is sad. Abraham wants to tell them about Allah. Abraham has got a plan.”",
     "vocabulary": [
      {
-      "word": "أَصْنَامٌ",
-      "definition": "الصَّنَمُ: شَيْءٌ مِنْ حَجَرٍ؛ يَعْبُدُهُ النَّاسُ."
+      "word": "idols",
+      "definition": "Things of stone or wood. Some people pray to them."
      },
      {
-      "word": "يَعْبُدُ",
-      "definition": "عَبَدَ: صَلَّى لِشَيْءٍ."
+      "word": "pray to",
+      "definition": "Talk to Allah (or a god) and ask for help."
      },
      {
-      "word": "يَكْسِرُ",
-      "definition": "كَسَرَ: جَعَلَ الشَّيْءَ قِطَعًا صَغِيرَةً."
+      "word": "plan",
+      "definition": "An idea: what to do and how."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "ibrahim-pre-a1-ar-quick-2",
+      "id": "ibrahim-pre-a1-quick-2",
       "type": "drag-drop",
-      "title": "الْأَصْنَامُ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Stones in a Big House",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "الْأَصْنَامُ لَا تَتَكَلَّمُ.",
-         "يَتْرُكُ إِبْرَاهِيمُ الصَّنَمَ الْكَبِيرَ."
+         "Idols can’t see or hear.",
+         "Abraham’s father makes idols."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "أَبُو نَاصِرٍ فَرِحٌ."
+         "The people of Babylon know Allah."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "الْأَصْنَامُ لَا تَتَكَلَّمُ.",
-        "يَتْرُكُ إِبْرَاهِيمُ الصَّنَمَ الْكَبِيرَ."
+       "True": [
+        "Idols can’t see or hear.",
+        "Abraham’s father makes idols."
        ],
-       "خَطَأٌ": [
-        "أَبُو نَاصِرٍ فَرِحٌ."
+       "False": [
+        "The people of Babylon know Allah."
        ]
       },
-      "explanation": "الجواب في الفصل ٢.",
+      "explanation": "The answer is in Chapter 2.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَاذَا يَكْسِرُ إِبْرَاهِيمُ؟",
+     "question": "Guess: What are idols?",
      "options": [
-      "الْأَصْنَامَ",
-      "الْبَيْتَ",
-      "الْقَمَرَ"
+      "big stones",
+      "big trees",
+      "big animals"
      ],
      "answer": 0,
-     "quote": "إِبْرَاهِيمُ يَكْسِرُ الْأَصْنَامَ."
+     "quote": "Idols are big stones."
     },
     "iCan": [
-     "أَعْرِفُ: الْأَصْنَامُ لَا تَأْكُلُ، وَلَا تَتَكَلَّمُ."
+     "I can say: Idols can’t talk."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "النَّارُ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch9.png?alt=media&token=889a2638-0bfd-4ed2-b0db-2e2737b4f5f0",
-    "content": "أَرَى نَارًا كَبِيرَةً جِدًّا. يَضَعُ النَّاسُ إِبْرَاهِيمَ فِي النَّارِ. يَقُولُ اللهُ: ﴿يَا نَارُ كُونِي بَرْدًا وَسَلَامًا عَلَى إِبْرَاهِيمَ﴾. النَّارُ بَارِدَةٌ الْآنَ. يَخْرُجُ إِبْرَاهِيمُ مِنَ النَّارِ. هُوَ بِخَيْرٍ. أَنَا أَعْرِفُ الْآنَ: اللهُ هُوَ الرَّبُّ.",
+    "title": "Abraham’s Plan",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch6.png?alt=media&token=fa914194-fff0-4212-98ec-c09305680d98",
+    "content": "“What is his plan, Dad?” Yusuf asks. His eyes are big.\n\n“One day, all the people go out of the city,” Dad says. “Abraham goes to the big house. He breaks the idols. He only leaves the biggest idol. In the evening, the people come back. They see the idols on the floor. They are very angry! They ask Abraham about the idols. Abraham says, ‘Ask the big idol. Can it talk?’ The people are quiet. Stones can’t talk!”",
     "vocabulary": [
      {
-      "word": "نَارًا",
-      "definition": "شَيْءٌ حَارٌّ جِدًّا، أَحْمَرُ وَأَصْفَرُ."
-     },
-     {
-      "word": "يَضَعُ",
-      "definition": "وَضَعَ: جَعَلَ الشَّيْءَ فِي مَكَانٍ."
+      "word": "breaks",
+      "definition": "Makes something into pieces."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "ibrahim-pre-a1-ar-quick-3",
+      "id": "ibrahim-pre-a1-quick-3",
       "type": "drag-drop",
-      "title": "النَّارُ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Abraham’s Plan",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "النَّارُ بَارِدَةٌ الْآنَ.",
-         "يَخْرُجُ إِبْرَاهِيمُ مِنَ النَّارِ."
+         "Abraham leaves the biggest idol.",
+         "The people are very angry."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "النَّارُ صَغِيرَةٌ."
+         "The big idol talks."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "النَّارُ بَارِدَةٌ الْآنَ.",
-        "يَخْرُجُ إِبْرَاهِيمُ مِنَ النَّارِ."
+       "True": [
+        "Abraham leaves the biggest idol.",
+        "The people are very angry."
        ],
-       "خَطَأٌ": [
-        "النَّارُ صَغِيرَةٌ."
+       "False": [
+        "The big idol talks."
        ]
       },
-      "explanation": "الجواب في الفصل ٣.",
+      "explanation": "The answer is in Chapter 3.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: أَيْنَ يَضَعُ النَّاسُ إِبْرَاهِيمَ؟",
+     "question": "Guess: What does Abraham break?",
      "options": [
-      "فِي النَّارِ",
-      "فِي الْبَحْرِ",
-      "فِي الْبَيْتِ"
+      "the idols",
+      "a door",
+      "a tent"
      ],
      "answer": 0,
-     "quote": "يَضَعُ النَّاسُ إِبْرَاهِيمَ فِي النَّارِ."
+     "quote": "He breaks the idols."
     },
     "iCan": [
-     "أَعْرِفُ: إِبْرَاهِيمُ بِخَيْرٍ."
+     "I can say: Stones can’t talk."
     ]
    },
    {
     "id": 4,
     "type": "story",
-    "title": "مَاءُ زَمْزَمَ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch13.png?alt=media&token=d61931ab-8d9b-4d2e-a7cd-8341d1e6be76",
-    "content": "بَعْدَ سَنَوَاتٍ كَثِيرَةٍ، أَنَا رَجُلٌ. أُسَافِرُ إِلَى مَكَّةَ. مَكَّةُ صَحْرَاءُ. هُنَا أَسْمَعُ قِصَّةَ زَمْزَمَ: هَاجَرُ تُرِيدُ مَاءً لِابْنِهَا إِسْمَاعِيلَ. تَذْهَبُ بَيْنَ الصَّفَا وَالْمَرْوَةِ سَبْعَ مَرَّاتٍ. ثُمَّ يَخْرُجُ مَاءٌ مِنَ الْأَرْضِ. هَذَا الْمَاءُ زَمْزَمُ.",
+    "title": "The Fire",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch9.png?alt=media&token=889a2638-0bfd-4ed2-b0db-2e2737b4f5f0",
+    "content": "Yusuf laughs. “Stones can’t talk!” he says. “Are the people sorry now?”\n\n“No, Yusuf,” Dad says. “They are very angry. They make a very big fire. They put Abraham in the fire. But Abraham is not afraid. Allah is with him. Allah says, ‘O fire, be cold and safe for Abraham.’ The fire is not hot now. Abraham comes out. He is fine!”\n\nYusuf opens his eyes wide. “Allah is great!” he says.\n\n“Yes,” Dad says. “Then Abraham leaves Babylon. He goes to new places.”",
     "vocabulary": [
      {
-      "word": "مَرَّاتٍ",
-      "definition": "مَرَّةٌ: نَفْعَلُ الشَّيْءَ، ثُمَّ نَفْعَلُهُ مِنْ جَدِيدٍ."
+      "word": "fire",
+      "definition": "Something very hot, red and yellow."
+     },
+     {
+      "word": "safe",
+      "definition": "Not in danger; OK."
+     },
+     {
+      "word": "comes out",
+      "definition": "Goes out of a place."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "ibrahim-pre-a1-ar-quick-4",
+      "id": "ibrahim-pre-a1-quick-4",
       "type": "drag-drop",
-      "title": "مَاءُ زَمْزَمَ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "The Fire",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "نَاصِرٌ يُسَافِرُ إِلَى مَكَّةَ.",
-         "يَخْرُجُ مَاءٌ مِنَ الْأَرْضِ."
+         "Allah is with Abraham.",
+         "Abraham comes out of the fire."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "تَذْهَبُ هَاجَرُ مَرَّةً وَاحِدَةً."
+         "The fire is very hot for Abraham."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "نَاصِرٌ يُسَافِرُ إِلَى مَكَّةَ.",
-        "يَخْرُجُ مَاءٌ مِنَ الْأَرْضِ."
+       "True": [
+        "Allah is with Abraham.",
+        "Abraham comes out of the fire."
        ],
-       "خَطَأٌ": [
-        "تَذْهَبُ هَاجَرُ مَرَّةً وَاحِدَةً."
+       "False": [
+        "The fire is very hot for Abraham."
        ]
       },
-      "explanation": "الجواب في الفصل ٤.",
+      "explanation": "The answer is in Chapter 4.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَاذَا تُرِيدُ هَاجَرُ؟",
+     "question": "Guess: Is Abraham afraid of the fire?",
      "options": [
-      "مَاءً",
-      "طَعَامًا",
-      "بَيْتًا"
+      "No, he isn’t.",
+      "Yes, he is.",
+      "He is not there."
      ],
      "answer": 0,
-     "quote": "هَاجَرُ تُرِيدُ مَاءً لِابْنِهَا إِسْمَاعِيلَ."
+     "quote": "But Abraham is not afraid."
     },
     "iCan": [
-     "أَعْرِفُ: هَذَا الْمَاءُ زَمْزَمُ."
+     "I can say: Allah saves Abraham."
     ]
    },
    {
     "id": 5,
     "type": "story",
-    "title": "الْكَعْبَةُ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch14.png?alt=media&token=2923c7c2-4109-4e50-b98f-6ae8d5de5385",
-    "content": "فِي مَكَّةَ أَرَى إِبْرَاهِيمَ. إِسْمَاعِيلُ الْآنَ رَجُلٌ. يَبْنِي إِبْرَاهِيمُ وَإِسْمَاعِيلُ الْكَعْبَةَ. الْكَعْبَةُ بَيْتُ اللهِ. أَنَا فَرِحٌ جِدًّا.",
+    "title": "Water in the Desert",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch13.png?alt=media&token=d61931ab-8d9b-4d2e-a7cd-8341d1e6be76",
+    "content": "“Where does Abraham go, Dad?” Yusuf asks.\n\n“He goes very far,” Dad says. “Years later, he has got a wife, Hagar, and a baby son, Ishmael. They come to a quiet place in the desert. There are two small hills there, Safa and Marwah. There is no water. There are no people. Hagar and Ishmael stay near the hills. Allah has got a plan. He tells Abraham to go back. So Abraham goes. On the way, he prays for his family: ‘O Allah, please take care of my family.’ Allah is with them.\n\n“Soon, baby Ishmael is very thirsty. Hagar wants to find water. She runs between the two hills seven times. Then water comes out under Ishmael’s feet. It is Zamzam!”\n\nYusuf smiles. “We have got Zamzam water at home, Dad!” he says.",
     "vocabulary": [
      {
-      "word": "يَبْنِي",
-      "definition": "بَنَى: عَمِلَ بَيْتًا مِنْ حَجَرٍ."
+      "word": "desert",
+      "definition": "A very hot, dry place with sand."
+     },
+     {
+      "word": "thirsty",
+      "definition": "You want to drink water."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "ibrahim-pre-a1-ar-quick-5",
+      "id": "ibrahim-pre-a1-quick-5",
       "type": "drag-drop",
-      "title": "الْكَعْبَةُ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Water in the Desert",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "الْكَعْبَةُ بَيْتُ اللهِ.",
-         "إِسْمَاعِيلُ الْآنَ رَجُلٌ."
+         "Hagar runs between two hills.",
+         "Baby Ishmael is very thirsty."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "الْكَعْبَةُ فِي بَابِلَ."
+         "There is a lot of water there."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "الْكَعْبَةُ بَيْتُ اللهِ.",
-        "إِسْمَاعِيلُ الْآنَ رَجُلٌ."
+       "True": [
+        "Hagar runs between two hills.",
+        "Baby Ishmael is very thirsty."
        ],
-       "خَطَأٌ": [
-        "الْكَعْبَةُ فِي بَابِلَ."
+       "False": [
+        "There is a lot of water there."
        ]
       },
-      "explanation": "الجواب في الفصل ٥.",
+      "explanation": "The answer is in Chapter 5.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَاذَا يَبْنِي إِبْرَاهِيمُ وَإِسْمَاعِيلُ؟",
+     "question": "Guess: What is the name of the water?",
      "options": [
-      "الْكَعْبَةَ",
-      "قَصْرًا",
-      "مَدْرَسَةً"
+      "Zamzam",
+      "Nile",
+      "Safa"
      ],
      "answer": 0,
-     "quote": "يَبْنِي إِبْرَاهِيمُ وَإِسْمَاعِيلُ الْكَعْبَةَ."
+     "quote": "It is Zamzam!"
     },
     "iCan": [
-     "أَعْرِفُ: الْكَعْبَةُ بَيْتُ اللهِ."
+     "I can say: Zamzam water comes out."
     ]
    },
    {
     "id": 6,
-    "type": "glossary",
-    "title": "المعجم الرئيسي",
-    "content": "كَلِمَاتُ الْقِصَّةِ فِي مَكَانٍ وَاحِدٍ.",
-    "image": "",
+    "type": "story",
+    "title": "The House of Allah",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Abraham%2Fabraham_a2%2Fimages%2Fabraham_a2_ch14.png?alt=media&token=2923c7c2-4109-4e50-b98f-6ae8d5de5385",
+    "content": "“Yes, we have,” Dad says. “People come to the water. They live there. It is a city now. Its name is Mecca. Years later, Ishmael is a young man, and Abraham is with his family again. Allah gives Abraham and Ishmael a very special job. They build the Ka’ba together. Ishmael brings stones. Abraham puts them on the walls. They pray to Allah. The Ka’ba is the House of Allah.”\n\nYusuf looks at the stars again. “I want to see the Ka’ba one day, Dad,” he says.\n\n“In sha Allah, Yusuf,” Dad says. He holds Yusuf’s hand. “It is time for bed. Look! The stars say goodnight to us!”",
     "vocabulary": [
      {
-      "word": "نَجْمًا",
-      "definition": "نُورٌ صَغِيرٌ فِي السَّمَاءِ لَيْلًا.",
-      "level": "Pre-A1",
-      "chapter": 1,
-      "chapterTitle": "فِي بَابِلَ",
-      "storyExample": "يَرَى نَجْمًا وَالْقَمَرَ."
-     },
-     {
-      "word": "الْقَمَرَ",
-      "definition": "نُورٌ كَبِيرٌ فِي السَّمَاءِ لَيْلًا.",
-      "level": "Pre-A1",
-      "chapter": 1,
-      "chapterTitle": "فِي بَابِلَ",
-      "storyExample": "يَرَى نَجْمًا وَالْقَمَرَ."
-     },
-     {
-      "word": "الشَّمْسَ",
-      "definition": "نُورٌ كَبِيرٌ وَحَارٌّ فِي النَّهَارِ.",
-      "level": "Pre-A1",
-      "chapter": 1,
-      "chapterTitle": "فِي بَابِلَ",
-      "storyExample": "فِي النَّهَارِ يَرَى الشَّمْسَ."
-     },
-     {
-      "word": "أَصْنَامٌ",
-      "definition": "الصَّنَمُ: شَيْءٌ مِنْ حَجَرٍ؛ يَعْبُدُهُ النَّاسُ.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "الْأَصْنَامُ",
-      "storyExample": "فِي بَابِلَ أَصْنَامٌ كَثِيرَةٌ."
-     },
-     {
-      "word": "يَعْبُدُ",
-      "definition": "عَبَدَ: صَلَّى لِشَيْءٍ.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "الْأَصْنَامُ",
-      "storyExample": "أَبِي يَعْبُدُ الْأَصْنَامَ."
-     },
-     {
-      "word": "يَكْسِرُ",
-      "definition": "كَسَرَ: جَعَلَ الشَّيْءَ قِطَعًا صَغِيرَةً.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "الْأَصْنَامُ",
-      "storyExample": "إِبْرَاهِيمُ يَكْسِرُ الْأَصْنَامَ."
-     },
-     {
-      "word": "نَارًا",
-      "definition": "شَيْءٌ حَارٌّ جِدًّا، أَحْمَرُ وَأَصْفَرُ.",
-      "level": "Pre-A1",
-      "chapter": 3,
-      "chapterTitle": "النَّارُ",
-      "storyExample": "أَرَى نَارًا كَبِيرَةً جِدًّا."
-     },
-     {
-      "word": "يَضَعُ",
-      "definition": "وَضَعَ: جَعَلَ الشَّيْءَ فِي مَكَانٍ.",
-      "level": "Pre-A1",
-      "chapter": 3,
-      "chapterTitle": "النَّارُ",
-      "storyExample": "يَضَعُ النَّاسُ إِبْرَاهِيمَ فِي النَّارِ."
-     },
-     {
-      "word": "مَرَّاتٍ",
-      "definition": "مَرَّةٌ: نَفْعَلُ الشَّيْءَ، ثُمَّ نَفْعَلُهُ مِنْ جَدِيدٍ.",
-      "level": "Pre-A1",
-      "chapter": 4,
-      "chapterTitle": "مَاءُ زَمْزَمَ",
-      "storyExample": "تَذْهَبُ بَيْنَ الصَّفَا وَالْمَرْوَةِ سَبْعَ مَرَّاتٍ."
-     },
-     {
-      "word": "يَبْنِي",
-      "definition": "بَنَى: عَمِلَ بَيْتًا مِنْ حَجَرٍ.",
-      "level": "Pre-A1",
-      "chapter": 5,
-      "chapterTitle": "الْكَعْبَةُ",
-      "storyExample": "يَبْنِي إِبْرَاهِيمُ وَإِسْمَاعِيلُ الْكَعْبَةَ."
+      "word": "build",
+      "definition": "Make a house or a wall."
      }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "ibrahim-pre-a1-quick-6",
+      "type": "drag-drop",
+      "title": "The House of Allah",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Ishmael brings stones.",
+         "The Ka’ba is the House of Allah."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Abraham builds the Ka’ba alone."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Ishmael brings stones.",
+        "The Ka’ba is the House of Allah."
+       ],
+       "False": [
+        "Abraham builds the Ka’ba alone."
+       ]
+      },
+      "explanation": "The answer is in Chapter 6.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: What do Abraham and Ishmael build?",
+     "options": [
+      "the Ka’ba",
+      "a ship",
+      "a tent"
+     ],
+     "answer": 0,
+     "quote": "They build the Ka’ba together."
+    },
+    "iCan": [
+     "I can say: Abraham and Ishmael build the Ka’ba."
     ]
    },
    {
     "id": 7,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "All the words of the story in one place.",
+    "image": "",
+    "vocabulary": [
+     {
+      "word": "tent",
+      "definition": "A small house of cloth. People sleep in it outside.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "Stars in the Sky",
+      "storyExample": "They have got a small tent."
+     },
+     {
+      "word": "blanket",
+      "definition": "A big, soft cloth. It keeps you warm.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "Stars in the Sky",
+      "storyExample": "Next to the tent, there is a big blanket on the grass."
+     },
+     {
+      "word": "star",
+      "definition": "A small light in the night sky.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "Stars in the Sky",
+      "storyExample": "That star is very bright,”"
+     },
+     {
+      "word": "heart",
+      "definition": "The place of your feelings, inside you.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "Stars in the Sky",
+      "storyExample": "“And young Abraham has got a big question in his heart: ‘Who makes the sky and the stars?’”"
+     },
+     {
+      "word": "goes away",
+      "definition": "Leaves; it is not there now.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "Stars in the Sky",
+      "storyExample": "Then the star goes away."
+     },
+     {
+      "word": "moon",
+      "definition": "The big, round light in the night sky.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "Stars in the Sky",
+      "storyExample": "He sees the moon."
+     },
+     {
+      "word": "idols",
+      "definition": "Things of stone or wood. Some people pray to them.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "Stones in a Big House",
+      "storyExample": "“They have got many idols."
+     },
+     {
+      "word": "pray to",
+      "definition": "Talk to Allah (or a god) and ask for help.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "Stones in a Big House",
+      "storyExample": "The people pray to them."
+     },
+     {
+      "word": "plan",
+      "definition": "An idea: what to do and how.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "Stones in a Big House",
+      "storyExample": "Abraham has got a plan.”"
+     },
+     {
+      "word": "breaks",
+      "definition": "Makes something into pieces.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "Abraham’s Plan",
+      "storyExample": "He breaks the idols."
+     },
+     {
+      "word": "fire",
+      "definition": "Something very hot, red and yellow.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "The Fire",
+      "storyExample": "They make a very big fire."
+     },
+     {
+      "word": "safe",
+      "definition": "Not in danger; OK.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "The Fire",
+      "storyExample": "Allah says, ‘O fire, be cold and safe for Abraham.’"
+     },
+     {
+      "word": "comes out",
+      "definition": "Goes out of a place.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "The Fire",
+      "storyExample": "Abraham comes out."
+     },
+     {
+      "word": "desert",
+      "definition": "A very hot, dry place with sand.",
+      "level": "Pre-A1",
+      "chapter": 5,
+      "chapterTitle": "Water in the Desert",
+      "storyExample": "They come to a quiet place in the desert."
+     },
+     {
+      "word": "thirsty",
+      "definition": "You want to drink water.",
+      "level": "Pre-A1",
+      "chapter": 5,
+      "chapterTitle": "Water in the Desert",
+      "storyExample": "“Soon, baby Ishmael is very thirsty."
+     },
+     {
+      "word": "build",
+      "definition": "Make a house or a wall.",
+      "level": "Pre-A1",
+      "chapter": 6,
+      "chapterTitle": "The House of Allah",
+      "storyExample": "They build the Ka’ba together."
+     }
+    ]
+   },
+   {
+    "id": 8,
     "type": "final-challenge",
-    "title": "التحدي النهائي",
-    "content": "أَجِبْ عَنِ الْأَسْئِلَةِ.",
+    "title": "Final Challenge",
+    "content": "Answer the questions.",
     "image": "",
     "exercises": [
      {
-      "id": "ibrahim-pre-a1-ar-final-1",
+      "id": "ibrahim-pre-a1-final-1",
       "type": "multiple-choice",
-      "title": "أَيْنَ يَعِيشُ نَاصِرٌ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "أَيْنَ يَعِيشُ نَاصِرٌ؟",
+      "title": "Who tells Yusuf the story?",
+      "instructions": "Choose the answer.",
+      "question": "Who tells Yusuf the story?",
       "options": [
-       "فِي بَابِلَ",
-       "فِي مِصْرَ",
-       "فِي الْأَنْدَلُسِ"
+       "his dad",
+       "his grandpa",
+       "his teacher"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: في بابل.",
+      "explanation": "The answer: his dad.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "ibrahim-pre-a1-ar-final-2",
+      "id": "ibrahim-pre-a1-final-2",
       "type": "multiple-choice",
-      "title": "مَاذَا يَتْرُكُ إِبْرَاهِيمُ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَاذَا يَتْرُكُ إِبْرَاهِيمُ؟",
+      "title": "Where does Abraham live?",
+      "instructions": "Choose the answer.",
+      "question": "Where does Abraham live?",
       "options": [
-       "الصَّنَمَ الْكَبِيرَ",
-       "كُلَّ الْأَصْنَامِ",
-       "الْقَمَرَ"
+       "in Babylon",
+       "in Egypt",
+       "in Spain"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: الصنم الكبير.",
+      "explanation": "The answer: in Babylon.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "ibrahim-pre-a1-ar-final-3",
+      "id": "ibrahim-pre-a1-final-3",
       "type": "multiple-choice",
-      "title": "النَّارُ الْآنَ …",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "النَّارُ الْآنَ …",
+      "title": "Who makes the star, the moon and the sun?",
+      "instructions": "Choose the answer.",
+      "question": "Who makes the star, the moon and the sun?",
       "options": [
-       "بَارِدَةٌ",
-       "حَارَّةٌ جِدًّا",
-       "حَمْرَاءُ"
+       "Allah",
+       "the idols",
+       "the people"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: باردة.",
+      "explanation": "The answer: Allah.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "ibrahim-pre-a1-ar-final-4",
+      "id": "ibrahim-pre-a1-final-4",
       "type": "multiple-choice",
-      "title": "مَا اسْمُ الْمَاءِ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَا اسْمُ الْمَاءِ؟",
+      "title": "What is the name of the city?",
+      "instructions": "Choose the answer.",
+      "question": "What is the name of the city?",
       "options": [
-       "زَمْزَمُ",
-       "الصَّفَا",
-       "الْمَرْوَةُ"
+       "Mecca",
+       "Babylon",
+       "Cairo"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: زمزم.",
+      "explanation": "The answer: Mecca.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "ibrahim-pre-a1-ar-final-words",
+      "id": "ibrahim-pre-a1-final-words",
       "type": "matching",
-      "title": "الْكَلِمَاتُ",
-      "instructions": "صِلِ الْكَلِمَةَ بِمَعْنَاهَا.",
-      "question": "مَا الْمَعْنَى؟",
+      "title": "Words",
+      "instructions": "Match the word and the meaning.",
+      "question": "What does it mean?",
       "matchingHeadings": {
-       "left": "الْكَلِمَةُ",
-       "right": "الْمَعْنَى"
+       "left": "Word",
+       "right": "Meaning"
       },
       "matchingPairs": [
        {
-        "left": "نَجْمًا",
-        "right": "نُورٌ صَغِيرٌ فِي السَّمَاءِ لَيْلًا."
+        "left": "tent",
+        "right": "A small house of cloth. People sleep in it outside."
        },
        {
-        "left": "أَصْنَامٌ",
-        "right": "الصَّنَمُ: شَيْءٌ مِنْ حَجَرٍ؛ يَعْبُدُهُ النَّاسُ."
+        "left": "idols",
+        "right": "Things of stone or wood. Some people pray to them."
        },
        {
-        "left": "نَارًا",
-        "right": "شَيْءٌ حَارٌّ جِدًّا، أَحْمَرُ وَأَصْفَرُ."
+        "left": "breaks",
+        "right": "Makes something into pieces."
        },
        {
-        "left": "مَرَّاتٍ",
-        "right": "مَرَّةٌ: نَفْعَلُ الشَّيْءَ، ثُمَّ نَفْعَلُهُ مِنْ جَدِيدٍ."
+        "left": "fire",
+        "right": "Something very hot, red and yellow."
        }
       ],
       "correctAnswer": {
-       "نَجْمًا": "نُورٌ صَغِيرٌ فِي السَّمَاءِ لَيْلًا.",
-       "أَصْنَامٌ": "الصَّنَمُ: شَيْءٌ مِنْ حَجَرٍ؛ يَعْبُدُهُ النَّاسُ.",
-       "نَارًا": "شَيْءٌ حَارٌّ جِدًّا، أَحْمَرُ وَأَصْفَرُ.",
-       "مَرَّاتٍ": "مَرَّةٌ: نَفْعَلُ الشَّيْءَ، ثُمَّ نَفْعَلُهُ مِنْ جَدِيدٍ."
+       "tent": "A small house of cloth. People sleep in it outside.",
+       "idols": "Things of stone or wood. Some people pray to them.",
+       "breaks": "Makes something into pieces.",
+       "fire": "Something very hot, red and yellow."
       },
-      "explanation": "المعاني في ملاحظات الكلمات.",
+      "explanation": "The meanings are in the Word Notes.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "انْظُرْ إِلَى الْمُعْجَمِ."
+       "correct": "Well done!",
+       "incorrect": "Look at the Master Glossary."
       }
      },
      {
-      "id": "ibrahim-pre-a1-ar-final-order",
+      "id": "ibrahim-pre-a1-final-order",
       "type": "sequencing",
-      "title": "الْقِصَّةُ",
-      "instructions": "رَتِّبِ الْقِصَّةَ.",
-      "question": "مَاذَا أَوَّلًا؟",
+      "title": "The Story",
+      "instructions": "Put the story in order.",
+      "question": "What happens first?",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "يَرَى إِبْرَاهِيمُ نَجْمًا."
+        "text": "Abraham looks at the stars and the moon."
        },
        {
         "id": "2",
-        "text": "إِبْرَاهِيمُ يَكْسِرُ الْأَصْنَامَ."
+        "text": "Abraham wants to tell the people about Allah."
        },
        {
         "id": "3",
-        "text": "يَخْرُجُ إِبْرَاهِيمُ مِنَ النَّارِ."
+        "text": "Abraham breaks the idols."
        },
        {
         "id": "4",
-        "text": "يَبْنِي إِبْرَاهِيمُ وَإِسْمَاعِيلُ الْكَعْبَةَ."
+        "text": "Allah saves Abraham from the fire."
+       },
+       {
+        "id": "5",
+        "text": "Hagar finds Zamzam water."
+       },
+       {
+        "id": "6",
+        "text": "Abraham and Ishmael build the Ka’ba."
        }
       ],
       "correctAnswer": [
        "1",
        "2",
        "3",
-       "4"
+       "4",
+       "5",
+       "6"
       ],
-      "explanation": "ترتيب الفصول.",
+      "explanation": "This is the order of the chapters.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "انْظُرْ إِلَى الْفُصُولِ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Look at the chapters again."
       }
      }
     ]

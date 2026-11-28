@@ -2,7 +2,6 @@
 import '../lib/nodeContent';
 import type { BookData } from '../../src/types';
 import { bookRegistry } from '../../src/core/content/bookRegistry';
-import { isArabicOnlyLevel } from '../../src/content/arabicOnlyLevels';
 import { checkExerciseStructure } from '../../src/content/exerciseStructure';
 
 type Language = 'en' | 'ar';
@@ -32,7 +31,7 @@ const validateLanguage = (book: BookData, language: Language, label: string): { 
     // Chapter pages carry a Quick Challenge; non-chapter story pages (e.g. References) do not.
     if (page.type === 'story' && (page.exercises ?? []).length) {
       const languageFocus = page.languageFocusExercises ?? [];
-      if (!languageFocus.length && !isArabicOnlyLevel(book.level)) errors.push(`${where}: story page has no Language Focus exercises`);
+      if (!languageFocus.length && book.level !== 'Pre-A1') errors.push(`${where}: story page has no Language Focus exercises`);
       languageFocusCount += languageFocus.length;
       languageFocus.forEach(exercise => {
         ids.push(exercise.id);

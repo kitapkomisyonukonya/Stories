@@ -7,7 +7,6 @@
 import type { Level } from '../types';
 import { appFileUrl } from '../scorm/config';
 import { isEnglishOnlyEdition, isHiddenStory } from '../core/content/storyCatalog';
-import { isArabicOnlyLevel } from '../content/arabicOnlyLevels';
 
 export type BookPdfKind = 'story' | 'story-only' | 'story-activities' | 'teachers-book' | 'self-study-guide';
 
@@ -20,11 +19,11 @@ const ENGLISH_ONLY = new Set(['ibnJubayr']);
 /** A1 PDFs are built for these books (2026-11-09); other A1 editions have none yet. */
 const A1_PDF_BOOKS = new Set(['adam', 'ibrahim', 'musa', 'mecca', 'yunusEmre', 'ibnJubayr', 'zeroWaste']);
 
-/** Books whose PDFs exist for some levels only (Zero Waste: Pre-A1, A1 and A2, 2026-11-25). */
-const PDF_LEVELS: Record<string, readonly string[]> = { zeroWaste: ['Pre-A1', 'A1', 'A2'] };
+/** Books whose PDFs exist for some levels only (Zero Waste: A1 and A2, 2026-11-25). */
+const PDF_LEVELS: Record<string, readonly string[]> = { zeroWaste: ['A1', 'A2'] };
 
-/** Pre-A1 (Arabic only) PDFs are built for these books (2026-11-25). */
-const PRE_A1_PDF_BOOKS = new Set(['adam', 'ibrahim', 'musa', 'mecca', 'yunusEmre', 'ibnJubayr', 'zeroWaste']);
+/** Pre-A1 has no PDFs: the old Arabic Pre-A1 editions were removed (2026-11-28) and the English ones are not printed yet. */
+const PRE_A1_PDF_BOOKS = new Set<string>();
 
 /** Hidden books have no printable PDFs yet. */
 export const hasBookPdfs = (storyId: string, level: string) => !isHiddenStory(storyId)
@@ -34,8 +33,7 @@ export const hasBookPdfs = (storyId: string, level: string) => !isHiddenStory(st
 
 export const bookPdfUrl = (storyId: string, level: string, language: string, kind: BookPdfKind) => {
   // An edition that is English only (stories.json englishOnly / englishOnlyLevels) has English PDFs only.
-  // Pre-A1 is Arabic only, so its PDFs are Arabic on both sides of the app.
-  const lang = isArabicOnlyLevel(level as Level) || (language === 'ar' && !ENGLISH_ONLY.has(storyId) && !isEnglishOnlyEdition(storyId, level as Level)) ? 'ar' : 'en';
+  const lang = (language === 'ar' && !ENGLISH_ONLY.has(storyId) && !isEnglishOnlyEdition(storyId, level as Level)) ? 'ar' : 'en';
   return appFileUrl(`/pdfs/books/${SLUGS[storyId] ?? storyId}-${level.toLowerCase()}-${lang}-${kind}.pdf`);
 };
 

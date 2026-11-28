@@ -6,532 +6,667 @@
  "collection": "prophets",
  "book": {
   "id": "adam-pre-a1-ar",
-  "title": "آدَمُ عَلَيْهِ السَّلَامُ",
+  "title": "Prophet Adam (pbuh)",
   "level": "Pre-A1",
-  "baseFontSize": 14,
+  "baseFontSize": 13,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "جَدِّي وَالْقِصَّةُ",
+    "title": "A Question Under the Moon",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_ch1.png?alt=media&token=ca08c6ed-5540-4dc8-b880-7de3d943ce9c",
-    "content": "اسْمِي عُمَرُ. فِي اللَّيْلِ أَجْلِسُ مَعَ جَدِّي. جَدِّي يَحْكِي قِصَّةَ آدَمَ (عَلَيْهِ السَّلَامُ). فِي الْقِصَّةِ، خَلَقَ اللهُ آدَمَ مِنْ تُرَابٍ. آدَمُ أَوَّلُ إِنْسَانٍ. اللهُ يُعَلِّمُ آدَمَ أَسْمَاءَ الْأَشْيَاءِ. آدَمُ يَعْرِفُ كُلَّ الْأَسْمَاءِ.",
+    "content": "It is a Ramadan night. Yusuf is in the garden with his grandpa. They drink tea. There is a big moon in the sky. There are many bright stars, too. Yusuf looks up. He has got a question. “Grandpa, who are the first people on Earth?” he asks. Grandpa smiles. He has got a nice story for Yusuf.\n\n“Listen, Yusuf,” Grandpa says. “At first, there are no people on Earth. Allah makes the sky and the earth. The sky is blue, and the earth is green. Then, Allah talks to the angels. He says, ‘There is a new man for the earth.’ The angels are surprised! They ask, ‘Who is this new man?’”",
     "vocabulary": [
      {
-      "word": "خَلَقَ",
-      "definition": "عَمِلَ شَيْئًا جَدِيدًا."
+      "word": "ramadan",
+      "definition": "The month of fasting for Muslims."
      },
      {
-      "word": "تُرَابٍ",
-      "definition": "أَرْضٌ صَغِيرَةٌ نَاعِمَةٌ."
+      "word": "moon",
+      "definition": "The big, round light in the night sky."
+     },
+     {
+      "word": "earth",
+      "definition": "Our world. We live on it."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "adam-pre-a1-ar-quick-1",
+      "id": "adam-pre-a1-quick-1",
       "type": "drag-drop",
-      "title": "جَدِّي وَالْقِصَّةُ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "A Question Under the Moon",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "آدَمُ أَوَّلُ إِنْسَانٍ.",
-         "جَدُّ عُمَرَ يَحْكِي الْقِصَّةَ."
+         "It is a Ramadan night.",
+         "Yusuf and Grandpa drink tea."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "خَلَقَ اللهُ آدَمَ مِنْ نَارٍ."
+         "There are people on Earth at first."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "آدَمُ أَوَّلُ إِنْسَانٍ.",
-        "جَدُّ عُمَرَ يَحْكِي الْقِصَّةَ."
+       "True": [
+        "It is a Ramadan night.",
+        "Yusuf and Grandpa drink tea."
        ],
-       "خَطَأٌ": [
-        "خَلَقَ اللهُ آدَمَ مِنْ نَارٍ."
+       "False": [
+        "There are people on Earth at first."
        ]
       },
-      "explanation": "الجواب في الفصل ١.",
+      "explanation": "The answer is in Chapter 1.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مِنْ أَيِّ شَيْءٍ آدَمُ؟",
+     "question": "Guess: Who tells Yusuf a story?",
      "options": [
-      "مِنْ تُرَابٍ",
-      "مِنْ نَارٍ",
-      "مِنْ مَاءٍ"
+      "his grandpa",
+      "his mom",
+      "his teacher"
      ],
      "answer": 0,
-     "quote": "فِي الْقِصَّةِ، خَلَقَ اللهُ آدَمَ مِنْ تُرَابٍ."
+     "quote": "He has got a nice story for Yusuf."
     },
     "iCan": [
-     "أَعْرِفُ: آدَمُ أَوَّلُ إِنْسَانٍ."
+     "I can say: Allah makes the sky and the earth."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "إِبْلِيسُ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam-a2_adam_a2_chapter3.png?alt=media&token=47e43312-d51a-45a8-9349-7f2f097d37a2",
-    "content": "يَقُولُ اللهُ لِلْمَلَائِكَةِ: ﴿اسْجُدُوا لِآدَمَ﴾. يَسْجُدُ كُلُّ الْمَلَائِكَةِ. إِبْلِيسُ لَا يَسْجُدُ. يَقُولُ إِبْلِيسُ: «أَنَا مِنْ نَارٍ، وَآدَمُ مِنْ تُرَابٍ.» اللهُ يَغْضَبُ مِنْ إِبْلِيسَ. إِبْلِيسُ يَخْرُجُ مِنَ الْجَنَّةِ. أَنَا لَا أُحِبُّ إِبْلِيسَ.",
+    "title": "The First Man",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam-a2_adam_a2_chapter2.png?alt=media&token=649ddbc9-ea42-4fe9-9a58-09ce1d27191a",
+    "content": "Yusuf’s eyes are big and bright. “Then what happens, Grandpa?” he asks.\n\nGrandpa looks at him and says, “The angels take some soil from the Earth. Allah makes the first man from it. His name is Adam. Adam is the father of all people. We are all his children.\n\n“Allah teaches Adam the names of many things. Adam has got a lot of knowledge now! He knows trees, birds, and stars. The angels like Adam very much. Allah says, ‘Be nice to Adam!’ All the angels listen. But Iblis does not! He says, ‘I am from fire, and Adam is from soil. I am better than him!’ Iblis is wrong, and he is not sorry. So, Allah tells him, ‘Leave this place!’”\n\nYusuf listens carefully. “Iblis does not listen to Allah. He is not good, Grandpa,” he says.",
     "vocabulary": [
      {
-      "word": "لِلْمَلَائِكَةِ",
-      "definition": "الْمَلَائِكَةُ: خَلْقٌ مِنْ نُورٍ عِنْدَ اللهِ."
-     },
-     {
-      "word": "يَسْجُدُ",
-      "definition": "سَجَدَ: وَضَعَ وَجْهَهُ عَلَى الْأَرْضِ."
-     },
-     {
-      "word": "نَارٍ",
-      "definition": "شَيْءٌ حَارٌّ جِدًّا، أَحْمَرُ وَأَصْفَرُ."
+      "word": "knowledge",
+      "definition": "The things you know and learn."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "adam-pre-a1-ar-quick-2",
+      "id": "adam-pre-a1-quick-2",
       "type": "drag-drop",
-      "title": "إِبْلِيسُ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "The First Man",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "يَسْجُدُ كُلُّ الْمَلَائِكَةِ.",
-         "إِبْلِيسُ يَخْرُجُ مِنَ الْجَنَّةِ."
+         "Allah teaches Adam the names of many things.",
+         "Iblis does not listen to Allah."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "إِبْلِيسُ يَسْجُدُ لِآدَمَ."
+         "Iblis is sorry."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "يَسْجُدُ كُلُّ الْمَلَائِكَةِ.",
-        "إِبْلِيسُ يَخْرُجُ مِنَ الْجَنَّةِ."
+       "True": [
+        "Allah teaches Adam the names of many things.",
+        "Iblis does not listen to Allah."
        ],
-       "خَطَأٌ": [
-        "إِبْلِيسُ يَسْجُدُ لِآدَمَ."
+       "False": [
+        "Iblis is sorry."
        ]
       },
-      "explanation": "الجواب في الفصل ٢.",
+      "explanation": "The answer is in Chapter 2.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "انْظُرْ إِلَى الصُّورَةِ. مَنْ قَالَ: لَا؟",
+     "question": "Guess: What is the name of the first man?",
      "options": [
-      "إِبْلِيسُ",
-      "الْمَلَائِكَةُ",
-      "آدَمُ"
+      "Adam",
+      "Habil",
+      "Yusuf"
      ],
      "answer": 0,
-     "quote": "إِبْلِيسُ لَا يَسْجُدُ."
+     "quote": "His name is Adam."
     },
     "iCan": [
-     "أَعْرِفُ: إِبْلِيسُ لَا يَسْجُدُ."
+     "I can say: Adam is the first man."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "الشَّجَرَةُ",
+    "title": "A Garden in Paradise",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter4.png?alt=media&token=1d8c7a12-f7d4-4b4b-8435-43e353ae29ff",
-    "content": "آدَمُ وَحَوَّاءُ فِي الْجَنَّةِ. فِي الْجَنَّةِ أَشْجَارٌ كَثِيرَةٌ وَطَعَامٌ طَيِّبٌ. شَجَرَةٌ وَاحِدَةٌ فَقَطْ مَمْنُوعَةٌ. يَذْهَبُ إِبْلِيسُ إِلَى آدَمَ وَحَوَّاءَ. يَقُولُ: «هَذِهِ شَجَرَةُ الْخُلْدِ.» يَأْكُلُ آدَمُ وَحَوَّاءُ مِنَ الشَّجَرَةِ. هَذَا خَطَأٌ.",
-    "vocabulary": [
-     {
-      "word": "أَشْجَارٌ",
-      "definition": "شَجَرَةٌ، أَشْجَارٌ: فِيهَا وَرَقٌ أَخْضَرُ."
-     },
-     {
-      "word": "مَمْنُوعَةٌ",
-      "definition": "لَا نَأْكُلُ مِنْهَا."
-     },
-     {
-      "word": "الْخُلْدِ",
-      "definition": "حَيَاةٌ بِلَا مَوْتٍ."
-     }
-    ],
+    "content": "Grandpa says, “Yes, Yusuf. Iblis does not like Adam at all. Allah tells Adam, ‘Be careful! Iblis is not your friend.’\n\n“Adam lives in Paradise. It is a very beautiful garden! There are nice trees and flowers everywhere. But Adam hasn’t got a friend. So, Allah gives him a wife. Her name is Hawwa. Now, Adam is very happy! Everything in Paradise is for them. Allah tells them only one thing: ‘Do not go near this tree.’”",
+    "vocabulary": [],
     "hotspots": [],
     "exercises": [
      {
-      "id": "adam-pre-a1-ar-quick-3",
+      "id": "adam-pre-a1-quick-3",
       "type": "drag-drop",
-      "title": "الشَّجَرَةُ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "A Garden in Paradise",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "فِي الْجَنَّةِ أَشْجَارٌ كَثِيرَةٌ.",
-         "يَأْكُلُ آدَمُ وَحَوَّاءُ مِنَ الشَّجَرَةِ."
+         "Paradise is a very beautiful garden.",
+         "Hawwa is Adam’s wife."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "كُلُّ الْأَشْجَارِ مَمْنُوعَةٌ."
+         "Iblis is Adam’s friend."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "فِي الْجَنَّةِ أَشْجَارٌ كَثِيرَةٌ.",
-        "يَأْكُلُ آدَمُ وَحَوَّاءُ مِنَ الشَّجَرَةِ."
+       "True": [
+        "Paradise is a very beautiful garden.",
+        "Hawwa is Adam’s wife."
        ],
-       "خَطَأٌ": [
-        "كُلُّ الْأَشْجَارِ مَمْنُوعَةٌ."
+       "False": [
+        "Iblis is Adam’s friend."
        ]
       },
-      "explanation": "الجواب في الفصل ٣.",
+      "explanation": "The answer is in Chapter 3.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: أَيْنَ آدَمُ وَحَوَّاءُ؟",
+     "question": "Guess: Where does Adam live?",
      "options": [
-      "فِي الْجَنَّةِ",
-      "فِي الْبَحْرِ",
-      "فِي مَكَّةَ"
+      "in Paradise",
+      "in a city",
+      "in a desert"
      ],
      "answer": 0,
-     "quote": "آدَمُ وَحَوَّاءُ فِي الْجَنَّةِ."
+     "quote": "Adam lives in Paradise."
     },
     "iCan": [
-     "أَعْرِفُ: شَجَرَةٌ وَاحِدَةٌ مَمْنُوعَةٌ."
+     "I can say: Adam and Hawwa live in Paradise."
     ]
    },
    {
     "id": 4,
     "type": "story",
-    "title": "فِي الْأَرْضِ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter6.png?alt=media&token=98ad5740-e8d4-4413-8b73-b4b53e959d2d",
-    "content": "يَطْلُبُ آدَمُ وَحَوَّاءُ الْمَغْفِرَةَ مِنَ اللهِ. يَغْفِرُ اللهُ لِآدَمَ وَحَوَّاءَ. يَذْهَبُ آدَمُ وَحَوَّاءُ إِلَى الْأَرْضِ. آدَمُ يَعْمَلُ كُلَّ يَوْمٍ. يَقُولُ جَدِّي: «كُلُّ النَّاسِ أَوْلَادُ آدَمَ.»",
+    "title": "A Big Lie",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter5.png?alt=media&token=76cd56fb-6403-4eed-9d22-2125689e9ab1",
+    "content": "Yusuf has got many questions! Grandpa goes on.\n\n“One day, Iblis comes to Adam and Hawwa. He tells a big lie. He says, ‘I am your friend! Eat from that tree.’\n\n“Adam and Hawwa forget Allah’s words. They eat from the tree. Now, they are very sad. It is a mistake!\n\n“Adam and Hawwa say sorry to Allah. Allah hears them. He says, ‘Do not be sad. I am kind to you.’ Iblis is very different. He never says sorry. He says, ‘I am right!’”",
     "vocabulary": [
      {
-      "word": "يَغْفِرُ",
-      "definition": "غَفَرَ: مَا غَضِبَ بَعْدَ الْخَطَأِ."
+      "word": "lie",
+      "definition": "Words that are not true."
+     },
+     {
+      "word": "hears",
+      "definition": "Listens to someone."
+     },
+     {
+      "word": "different",
+      "definition": "Not the same."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "adam-pre-a1-ar-quick-4",
+      "id": "adam-pre-a1-quick-4",
       "type": "drag-drop",
-      "title": "فِي الْأَرْضِ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "A Big Lie",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "يَغْفِرُ اللهُ لِآدَمَ وَحَوَّاءَ.",
-         "كُلُّ النَّاسِ أَوْلَادُ آدَمَ."
+         "Adam and Hawwa eat from the tree.",
+         "Adam and Hawwa say sorry to Allah."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "آدَمُ لَا يَعْمَلُ فِي الْأَرْضِ."
+         "Iblis says sorry."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "يَغْفِرُ اللهُ لِآدَمَ وَحَوَّاءَ.",
-        "كُلُّ النَّاسِ أَوْلَادُ آدَمَ."
+       "True": [
+        "Adam and Hawwa eat from the tree.",
+        "Adam and Hawwa say sorry to Allah."
        ],
-       "خَطَأٌ": [
-        "آدَمُ لَا يَعْمَلُ فِي الْأَرْضِ."
+       "False": [
+        "Iblis says sorry."
        ]
       },
-      "explanation": "الجواب في الفصل ٤.",
+      "explanation": "The answer is in Chapter 4.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَاذَا يَطْلُبُ آدَمُ مِنَ اللهِ؟",
+     "question": "Guess: Who tells a big lie?",
      "options": [
-      "الْمَغْفِرَةَ",
-      "الطَّعَامَ",
-      "الْمَالَ"
+      "Iblis",
+      "Adam",
+      "Hawwa"
      ],
      "answer": 0,
-     "quote": "يَطْلُبُ آدَمُ وَحَوَّاءُ الْمَغْفِرَةَ مِنَ اللهِ."
+     "quote": "He tells a big lie."
     },
     "iCan": [
-     "أَعْرِفُ: يَغْفِرُ اللهُ لِآدَمَ وَحَوَّاءَ."
+     "I can say: Adam and Hawwa say sorry."
     ]
    },
    {
     "id": 5,
-    "type": "glossary",
-    "title": "المعجم الرئيسي",
-    "content": "كَلِمَاتُ الْقِصَّةِ فِي مَكَانٍ وَاحِدٍ.",
-    "image": "",
+    "type": "story",
+    "title": "Life on Earth",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter6.png?alt=media&token=98ad5740-e8d4-4413-8b73-b4b53e959d2d",
+    "content": "“Then, Allah sends Adam and Hawwa to the Earth. He makes Adam His first messenger.\n\n“They live there. They have got animals and plants. They work. They grow food. Life is not easy. Adam helps Hawwa. Hawwa helps Adam.\n\n“Allah takes Iblis out of Paradise. He comes down to Earth, too.”\n\nYusuf looks at Grandpa. “Have Adam and Hawwa got children?” he asks.\n\nGrandpa smiles. “Yes, Yusuf,” he says. “Adam and Hawwa have got two sons. Their names are Habil and Qabil. Habil is very nice. He has got sheep and cows. Qabil has got a farm. He grows fruits and plants. But Qabil does not like his brother. Adam always says to his children, ‘Be good! Do not forget Allah!’”",
     "vocabulary": [
      {
-      "word": "خَلَقَ",
-      "definition": "عَمِلَ شَيْئًا جَدِيدًا.",
-      "level": "Pre-A1",
-      "chapter": 1,
-      "chapterTitle": "جَدِّي وَالْقِصَّةُ",
-      "storyExample": "فِي الْقِصَّةِ، خَلَقَ اللهُ آدَمَ مِنْ تُرَابٍ."
-     },
-     {
-      "word": "تُرَابٍ",
-      "definition": "أَرْضٌ صَغِيرَةٌ نَاعِمَةٌ.",
-      "level": "Pre-A1",
-      "chapter": 1,
-      "chapterTitle": "جَدِّي وَالْقِصَّةُ",
-      "storyExample": "فِي الْقِصَّةِ، خَلَقَ اللهُ آدَمَ مِنْ تُرَابٍ."
-     },
-     {
-      "word": "لِلْمَلَائِكَةِ",
-      "definition": "الْمَلَائِكَةُ: خَلْقٌ مِنْ نُورٍ عِنْدَ اللهِ.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "إِبْلِيسُ",
-      "storyExample": "يَقُولُ اللهُ لِلْمَلَائِكَةِ: ﴿اسْجُدُوا لِآدَمَ﴾."
-     },
-     {
-      "word": "يَسْجُدُ",
-      "definition": "سَجَدَ: وَضَعَ وَجْهَهُ عَلَى الْأَرْضِ.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "إِبْلِيسُ",
-      "storyExample": "يَسْجُدُ كُلُّ الْمَلَائِكَةِ."
-     },
-     {
-      "word": "نَارٍ",
-      "definition": "شَيْءٌ حَارٌّ جِدًّا، أَحْمَرُ وَأَصْفَرُ.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "إِبْلِيسُ",
-      "storyExample": "يَقُولُ إِبْلِيسُ: «أَنَا مِنْ نَارٍ، وَآدَمُ مِنْ تُرَابٍ.»"
-     },
-     {
-      "word": "أَشْجَارٌ",
-      "definition": "شَجَرَةٌ، أَشْجَارٌ: فِيهَا وَرَقٌ أَخْضَرُ.",
-      "level": "Pre-A1",
-      "chapter": 3,
-      "chapterTitle": "الشَّجَرَةُ",
-      "storyExample": "فِي الْجَنَّةِ أَشْجَارٌ كَثِيرَةٌ وَطَعَامٌ طَيِّبٌ."
-     },
-     {
-      "word": "مَمْنُوعَةٌ",
-      "definition": "لَا نَأْكُلُ مِنْهَا.",
-      "level": "Pre-A1",
-      "chapter": 3,
-      "chapterTitle": "الشَّجَرَةُ",
-      "storyExample": "شَجَرَةٌ وَاحِدَةٌ فَقَطْ مَمْنُوعَةٌ."
-     },
-     {
-      "word": "الْخُلْدِ",
-      "definition": "حَيَاةٌ بِلَا مَوْتٍ.",
-      "level": "Pre-A1",
-      "chapter": 3,
-      "chapterTitle": "الشَّجَرَةُ",
-      "storyExample": "يَقُولُ: «هَذِهِ شَجَرَةُ الْخُلْدِ.»"
-     },
-     {
-      "word": "يَغْفِرُ",
-      "definition": "غَفَرَ: مَا غَضِبَ بَعْدَ الْخَطَأِ.",
-      "level": "Pre-A1",
-      "chapter": 4,
-      "chapterTitle": "فِي الْأَرْضِ",
-      "storyExample": "يَغْفِرُ اللهُ لِآدَمَ وَحَوَّاءَ."
+      "word": "messenger",
+      "definition": "A person who brings Allah’s words to people."
      }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "adam-pre-a1-quick-5",
+      "type": "drag-drop",
+      "title": "Life on Earth",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Life on Earth is not easy.",
+         "Adam and Hawwa have got two sons."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Qabil likes his brother."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Life on Earth is not easy.",
+        "Adam and Hawwa have got two sons."
+       ],
+       "False": [
+        "Qabil likes his brother."
+       ]
+      },
+      "explanation": "The answer is in Chapter 5.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: Where do Adam and Hawwa go?",
+     "options": [
+      "to the Earth",
+      "to the sea",
+      "to a palace"
+     ],
+     "answer": 0,
+     "quote": "Then, Allah sends Adam and Hawwa to the Earth."
+    },
+    "iCan": [
+     "I can say: Adam is the first messenger."
     ]
    },
    {
     "id": 6,
-    "type": "final-challenge",
-    "title": "التحدي النهائي",
-    "content": "أَجِبْ عَنِ الْأَسْئِلَةِ.",
-    "image": "",
+    "type": "story",
+    "title": "Two Brothers",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Adam_A2%2Fimages%2Fadam_a2_chapter8.png?alt=media&token=4a3d55b6-fba5-4d1b-ac6d-368ea81562f6",
+    "content": "“One day, Qabil is very angry. He shouts at Habil. Habil is calm. He says, ‘I do not fight you. You are my brother. I love Allah!’\n\n“Habil is a nice boy. He is not bad to his brother. Qabil makes a very big mistake. He is very sad later.”\n\nGrandpa drinks his tea. “Habil is a very good boy, Yusuf,” he says. “Be kind to your brothers and friends. Allah loves kind people.”\n\nYusuf smiles. “Habil is my hero, Grandpa!” he says. It is late now. Grandpa says, “Good night, Yusuf! It is a long story. Now, go to your bed, my boy!” Yusuf hugs his grandpa. He goes to bed with a big smile.",
+    "vocabulary": [
+     {
+      "word": "hugs",
+      "definition": "Puts his arms around someone with love."
+     }
+    ],
+    "hotspots": [],
     "exercises": [
      {
-      "id": "adam-pre-a1-ar-final-1",
-      "type": "multiple-choice",
-      "title": "مَنْ يَحْكِي الْقِصَّةَ لِعُمَرَ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَنْ يَحْكِي الْقِصَّةَ لِعُمَرَ؟",
-      "options": [
-       "جَدُّهُ",
-       "أُمُّهُ",
-       "مُعَلِّمُهُ"
-      ],
-      "correctAnswer": 0,
-      "explanation": "الجواب: جده.",
-      "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
-      }
-     },
-     {
-      "id": "adam-pre-a1-ar-final-2",
-      "type": "multiple-choice",
-      "title": "مِنْ أَيِّ شَيْءٍ خَلَقَ اللهُ آدَمَ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مِنْ أَيِّ شَيْءٍ خَلَقَ اللهُ آدَمَ؟",
-      "options": [
-       "مِنْ تُرَابٍ",
-       "مِنْ نَارٍ",
-       "مِنْ نُورٍ"
-      ],
-      "correctAnswer": 0,
-      "explanation": "الجواب: من تراب.",
-      "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
-      }
-     },
-     {
-      "id": "adam-pre-a1-ar-final-3",
-      "type": "multiple-choice",
-      "title": "مَنْ يَقُولُ: «أَنَا مِنْ نَارٍ»؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَنْ يَقُولُ: «أَنَا مِنْ نَارٍ»؟",
-      "options": [
-       "إِبْلِيسُ",
-       "آدَمُ",
-       "حَوَّاءُ"
-      ],
-      "correctAnswer": 0,
-      "explanation": "الجواب: إبليس.",
-      "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
-      }
-     },
-     {
-      "id": "adam-pre-a1-ar-final-4",
-      "type": "multiple-choice",
-      "title": "مَنْ أَوْلَادُ آدَمَ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَنْ أَوْلَادُ آدَمَ؟",
-      "options": [
-       "كُلُّ النَّاسِ",
-       "الْمَلَائِكَةُ",
-       "إِبْلِيسُ"
-      ],
-      "correctAnswer": 0,
-      "explanation": "الجواب: كل الناس.",
-      "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
-      }
-     },
-     {
-      "id": "adam-pre-a1-ar-final-words",
-      "type": "matching",
-      "title": "الْكَلِمَاتُ",
-      "instructions": "صِلِ الْكَلِمَةَ بِمَعْنَاهَا.",
-      "question": "مَا الْمَعْنَى؟",
-      "matchingHeadings": {
-       "left": "الْكَلِمَةُ",
-       "right": "الْمَعْنَى"
-      },
-      "matchingPairs": [
+      "id": "adam-pre-a1-quick-6",
+      "type": "drag-drop",
+      "title": "Two Brothers",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
        {
-        "left": "خَلَقَ",
-        "right": "عَمِلَ شَيْئًا جَدِيدًا."
+        "group": "True",
+        "items": [
+         "Qabil shouts at Habil.",
+         "Habil is Yusuf’s hero."
+        ]
        },
        {
-        "left": "لِلْمَلَائِكَةِ",
-        "right": "الْمَلَائِكَةُ: خَلْقٌ مِنْ نُورٍ عِنْدَ اللهِ."
-       },
-       {
-        "left": "أَشْجَارٌ",
-        "right": "شَجَرَةٌ، أَشْجَارٌ: فِيهَا وَرَقٌ أَخْضَرُ."
-       },
-       {
-        "left": "يَغْفِرُ",
-        "right": "غَفَرَ: مَا غَضِبَ بَعْدَ الْخَطَأِ."
+        "group": "False",
+        "items": [
+         "Habil fights his brother."
+        ]
        }
       ],
       "correctAnswer": {
-       "خَلَقَ": "عَمِلَ شَيْئًا جَدِيدًا.",
-       "لِلْمَلَائِكَةِ": "الْمَلَائِكَةُ: خَلْقٌ مِنْ نُورٍ عِنْدَ اللهِ.",
-       "أَشْجَارٌ": "شَجَرَةٌ، أَشْجَارٌ: فِيهَا وَرَقٌ أَخْضَرُ.",
-       "يَغْفِرُ": "غَفَرَ: مَا غَضِبَ بَعْدَ الْخَطَأِ."
+       "True": [
+        "Qabil shouts at Habil.",
+        "Habil is Yusuf’s hero."
+       ],
+       "False": [
+        "Habil fights his brother."
+       ]
       },
-      "explanation": "المعاني في ملاحظات الكلمات.",
+      "explanation": "The answer is in Chapter 6.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "انْظُرْ إِلَى الْمُعْجَمِ."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: Who is calm?",
+     "options": [
+      "Habil",
+      "Qabil",
+      "Iblis"
+     ],
+     "answer": 0,
+     "quote": "Habil is calm."
+    },
+    "iCan": [
+     "I can say: Allah loves kind people."
+    ]
+   },
+   {
+    "id": 7,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "All the words of the story in one place.",
+    "image": "",
+    "vocabulary": [
+     {
+      "word": "ramadan",
+      "definition": "The month of fasting for Muslims.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Question Under the Moon",
+      "storyExample": "It is a Ramadan night."
+     },
+     {
+      "word": "moon",
+      "definition": "The big, round light in the night sky.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Question Under the Moon",
+      "storyExample": "There is a big moon in the sky."
+     },
+     {
+      "word": "earth",
+      "definition": "Our world. We live on it.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Question Under the Moon",
+      "storyExample": "“Grandpa, who are the first people on Earth?” he asks."
+     },
+     {
+      "word": "knowledge",
+      "definition": "The things you know and learn.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "The First Man",
+      "storyExample": "Adam has got a lot of knowledge now!"
+     },
+     {
+      "word": "lie",
+      "definition": "Words that are not true.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "A Big Lie",
+      "storyExample": "He tells a big lie."
+     },
+     {
+      "word": "hears",
+      "definition": "Listens to someone.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "A Big Lie",
+      "storyExample": "Allah hears them."
+     },
+     {
+      "word": "different",
+      "definition": "Not the same.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "A Big Lie",
+      "storyExample": "Iblis is very different."
+     },
+     {
+      "word": "messenger",
+      "definition": "A person who brings Allah’s words to people.",
+      "level": "Pre-A1",
+      "chapter": 5,
+      "chapterTitle": "Life on Earth",
+      "storyExample": "He makes Adam His first messenger."
+     },
+     {
+      "word": "hugs",
+      "definition": "Puts his arms around someone with love.",
+      "level": "Pre-A1",
+      "chapter": 6,
+      "chapterTitle": "Two Brothers",
+      "storyExample": "Yusuf hugs his grandpa."
+     }
+    ]
+   },
+   {
+    "id": 8,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "content": "Answer the questions.",
+    "image": "",
+    "exercises": [
+     {
+      "id": "adam-pre-a1-final-1",
+      "type": "multiple-choice",
+      "title": "Who tells Yusuf the story?",
+      "instructions": "Choose the answer.",
+      "question": "Who tells Yusuf the story?",
+      "options": [
+       "his grandpa",
+       "his dad",
+       "his mom"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: his grandpa.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "adam-pre-a1-ar-final-order",
+      "id": "adam-pre-a1-final-2",
+      "type": "multiple-choice",
+      "title": "Who is the father of all people?",
+      "instructions": "Choose the answer.",
+      "question": "Who is the father of all people?",
+      "options": [
+       "Adam",
+       "Habil",
+       "Iblis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: Adam.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "adam-pre-a1-final-3",
+      "type": "multiple-choice",
+      "title": "Who is Adam’s wife?",
+      "instructions": "Choose the answer.",
+      "question": "Who is Adam’s wife?",
+      "options": [
+       "Hawwa",
+       "Hagar",
+       "Asiya"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: Hawwa.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "adam-pre-a1-final-4",
+      "type": "multiple-choice",
+      "title": "Who never says sorry?",
+      "instructions": "Choose the answer.",
+      "question": "Who never says sorry?",
+      "options": [
+       "Iblis",
+       "Adam",
+       "Hawwa"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: Iblis.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "adam-pre-a1-final-words",
+      "type": "matching",
+      "title": "Words",
+      "instructions": "Match the word and the meaning.",
+      "question": "What does it mean?",
+      "matchingHeadings": {
+       "left": "Word",
+       "right": "Meaning"
+      },
+      "matchingPairs": [
+       {
+        "left": "ramadan",
+        "right": "The month of fasting for Muslims."
+       },
+       {
+        "left": "knowledge",
+        "right": "The things you know and learn."
+       },
+       {
+        "left": "lie",
+        "right": "Words that are not true."
+       },
+       {
+        "left": "messenger",
+        "right": "A person who brings Allah’s words to people."
+       }
+      ],
+      "correctAnswer": {
+       "ramadan": "The month of fasting for Muslims.",
+       "knowledge": "The things you know and learn.",
+       "lie": "Words that are not true.",
+       "messenger": "A person who brings Allah’s words to people."
+      },
+      "explanation": "The meanings are in the Word Notes.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Look at the Master Glossary."
+      }
+     },
+     {
+      "id": "adam-pre-a1-final-order",
       "type": "sequencing",
-      "title": "الْقِصَّةُ",
-      "instructions": "رَتِّبِ الْقِصَّةَ.",
-      "question": "مَاذَا أَوَّلًا؟",
+      "title": "The Story",
+      "instructions": "Put the story in order.",
+      "question": "What happens first?",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "خَلَقَ اللهُ آدَمَ مِنْ تُرَابٍ."
+        "text": "Allah talks to the angels about a new man."
        },
        {
         "id": "2",
-        "text": "إِبْلِيسُ لَا يَسْجُدُ."
+        "text": "Allah makes Adam and teaches him names."
        },
        {
         "id": "3",
-        "text": "يَأْكُلُ آدَمُ وَحَوَّاءُ مِنَ الشَّجَرَةِ."
+        "text": "Adam and Hawwa live in Paradise."
        },
        {
         "id": "4",
-        "text": "يَذْهَبُ آدَمُ وَحَوَّاءُ إِلَى الْأَرْضِ."
+        "text": "Adam and Hawwa eat from the tree."
+       },
+       {
+        "id": "5",
+        "text": "Adam and Hawwa live on Earth."
+       },
+       {
+        "id": "6",
+        "text": "Qabil shouts at Habil."
        }
       ],
       "correctAnswer": [
        "1",
        "2",
        "3",
-       "4"
+       "4",
+       "5",
+       "6"
       ],
-      "explanation": "ترتيب الفصول.",
+      "explanation": "This is the order of the chapters.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "انْظُرْ إِلَى الْفُصُولِ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Look at the chapters again."
       }
      }
     ]

@@ -6,571 +6,692 @@
  "collection": "today",
  "book": {
   "id": "zeroWaste-pre-a1-ar",
-  "title": "صِفْرُ النُّفَايَاتِ",
+  "title": "Zero Waste",
   "level": "Pre-A1",
-  "baseFontSize": 14,
+  "baseFontSize": 12,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "النُّفَايَاتُ",
+    "title": "What Is Waste?",
     "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch1.jpeg?alt=media&token=e52d6569-c9bc-4be2-af52-25aa4ab214e8",
-    "content": "اسْمِي زَيْنَبُ. أَنَا طَالِبَةٌ. كُلَّ يَوْمٍ نَرْمِي أَشْيَاءَ كَثِيرَةً فِي بَيْتِنَا. هَذِهِ الْأَشْيَاءُ نُفَايَاتٌ. فِي مَدِينَتِي نُفَايَاتٌ كَثِيرَةٌ جِدًّا. هَذِهِ مُشْكِلَةٌ كَبِيرَةٌ لِلْأَرْضِ.",
+    "content": "It is Saturday evening. Yusuf and his mother are in the kitchen. Yusuf helps her. There is some hard bread on the table. “Mom, this bread is hard. What can we do?” Yusuf asks.\n\nHis mother smiles. “Do not throw it away! It is not waste! We can make bread soup!” Yusuf is surprised. “What is waste, Mom?” he asks.\n\nMom laughs. “Waste is everything we throw away,” she says. “Hard bread, old boxes, bottles and bags. Every day, people throw away a lot of things. The bins in our city are full. But we can use many things again. Come here. Let’s look at our kitchen together.”",
     "vocabulary": [
      {
-      "word": "نَرْمِي",
-      "definition": "نَضَعُ الشَّيْءَ فِي الصُّنْدُوقِ، وَلَا نُرِيدُهُ."
+      "word": "waste",
+      "definition": "Things we throw away."
      },
      {
-      "word": "نُفَايَاتٌ",
-      "definition": "أَشْيَاءُ قَدِيمَةٌ لَا نُرِيدُهَا."
-     },
-     {
-      "word": "مُشْكِلَةٌ",
-      "definition": "شَيْءٌ صَعْبٌ وَسَيِّئٌ."
+      "word": "bins",
+      "definition": "Boxes for things we throw away."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "zeroWaste-pre-a1-ar-quick-1",
+      "id": "zeroWaste-pre-a1-quick-1",
       "type": "drag-drop",
-      "title": "النُّفَايَاتُ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "What Is Waste?",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "زَيْنَبُ طَالِبَةٌ.",
-         "النُّفَايَاتُ مُشْكِلَةٌ لِلْأَرْضِ."
+         "Yusuf and his mother are in the kitchen.",
+         "They can make bread soup."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "فِي مَدِينَةِ زَيْنَبَ نُفَايَاتٌ قَلِيلَةٌ."
+         "The bins in the city are empty."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "زَيْنَبُ طَالِبَةٌ.",
-        "النُّفَايَاتُ مُشْكِلَةٌ لِلْأَرْضِ."
+       "True": [
+        "Yusuf and his mother are in the kitchen.",
+        "They can make bread soup."
        ],
-       "خَطَأٌ": [
-        "فِي مَدِينَةِ زَيْنَبَ نُفَايَاتٌ قَلِيلَةٌ."
+       "False": [
+        "The bins in the city are empty."
        ]
       },
-      "explanation": "الجواب في الفصل ١.",
+      "explanation": "The answer is in Chapter 1.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَا النُّفَايَاتُ؟",
+     "question": "Guess: What is on the table?",
      "options": [
-      "أَشْيَاءُ قَدِيمَةٌ لَا نُرِيدُهَا",
-      "طَعَامٌ طَيِّبٌ",
-      "كُتُبٌ جَدِيدَةٌ"
+      "some hard bread",
+      "some new bottles",
+      "some flowers"
      ],
      "answer": 0,
-     "quote": "هَذِهِ الْأَشْيَاءُ نُفَايَاتٌ."
+     "quote": "There is some hard bread on the table."
     },
     "iCan": [
-     "أَعْرِفُ: النُّفَايَاتُ مُشْكِلَةٌ كَبِيرَةٌ."
+     "I can say: Waste is everything we throw away."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "الْبِلَاسْتِيكُ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch3.jpeg?alt=media&token=117d3bca-7bb7-44b8-90cc-caa71b90da17",
-    "content": "فِي بَيْتِي بِلَاسْتِيكٌ كَثِيرٌ: زُجَاجَاتٌ وَلُعَبٌ. الْبِلَاسْتِيكُ يَبْقَى فِي الْأَرْضِ وَفِي الْبَحْرِ سَنَوَاتٍ كَثِيرَةً. أَنَا أَضَعُ الْبِلَاسْتِيكَ فِي صُنْدُوقٍ خَاصٍّ. وَأُمِّي تَضَعُ الْوَرَقَ فِي صُنْدُوقٍ خَاصٍّ أَيْضًا.",
+    "title": "Paper and Glass",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch2.jpeg?alt=media&token=b9bef184-e997-4ea1-9e65-06ad47c00164",
+    "content": "Yusuf looks at the table. There is an old box and an empty jar. “Are they waste, Mom?” he asks.\n\n“No, Yusuf,” Mom says. “This box is paper. Paper comes from trees. We can recycle it. Then people make new paper from it. This jar is glass. We can use it again. We can put sugar in it. We can put flowers in it, too. Old glass can go in the glass bin. Then people make new bottles and jars from it.”\n\nYusuf puts the box in the paper bin. Mom washes the jar.",
     "vocabulary": [
      {
-      "word": "الْبَحْرِ",
-      "definition": "مَاءٌ كَبِيرٌ جِدًّا."
+      "word": "jar",
+      "definition": "A glass box for food, like sugar or jam."
      },
      {
-      "word": "أَضَعُ",
-      "definition": "وَضَعَ: جَعَلَ الشَّيْءَ فِي مَكَانٍ."
+      "word": "recycle",
+      "definition": "Make new things from old things."
+     },
+     {
+      "word": "glass",
+      "definition": "A hard material. You can see through it."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "zeroWaste-pre-a1-ar-quick-2",
+      "id": "zeroWaste-pre-a1-quick-2",
       "type": "drag-drop",
-      "title": "الْبِلَاسْتِيكُ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Paper and Glass",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "فِي بَيْتِ زَيْنَبَ بِلَاسْتِيكٌ كَثِيرٌ.",
-         "أُمُّ زَيْنَبَ تَضَعُ الْوَرَقَ فِي صُنْدُوقٍ خَاصٍّ."
+         "We can use the jar again.",
+         "Yusuf puts the box in the paper bin."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "الْبِلَاسْتِيكُ يَبْقَى فِي الْبَحْرِ يَوْمًا وَاحِدًا."
+         "People can’t make new paper."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "فِي بَيْتِ زَيْنَبَ بِلَاسْتِيكٌ كَثِيرٌ.",
-        "أُمُّ زَيْنَبَ تَضَعُ الْوَرَقَ فِي صُنْدُوقٍ خَاصٍّ."
+       "True": [
+        "We can use the jar again.",
+        "Yusuf puts the box in the paper bin."
        ],
-       "خَطَأٌ": [
-        "الْبِلَاسْتِيكُ يَبْقَى فِي الْبَحْرِ يَوْمًا وَاحِدًا."
+       "False": [
+        "People can’t make new paper."
        ]
       },
-      "explanation": "الجواب في الفصل ٢.",
+      "explanation": "The answer is in Chapter 2.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: أَيْنَ تَضَعُ زَيْنَبُ الْبِلَاسْتِيكَ؟",
+     "question": "Guess: Where does paper come from?",
      "options": [
-      "فِي صُنْدُوقٍ خَاصٍّ",
-      "فِي الْبَحْرِ",
-      "فِي الْأَرْضِ"
+      "from trees",
+      "from the sea",
+      "from glass"
      ],
      "answer": 0,
-     "quote": "أَنَا أَضَعُ الْبِلَاسْتِيكَ فِي صُنْدُوقٍ خَاصٍّ."
+     "quote": "Paper comes from trees."
     },
     "iCan": [
-     "أَعْرِفُ: لِلْبِلَاسْتِيكِ صُنْدُوقٌ خَاصٌّ."
+     "I can say: We can recycle paper and glass."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "الطَّعَامُ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch5.jpeg?alt=media&token=90699982-cbc6-4da8-bc4b-530dcf2b49c0",
-    "content": "فِي بَيْتِنَا نَرْمِي طَعَامًا كَثِيرًا. هَذَا خَطَأٌ. الْآنَ نَأْخُذُ مِنَ الْمَتْجَرِ طَعَامًا قَلِيلًا. أَنَا آكُلُ خُبْزَ أَمْسِ أَيْضًا. الْخُبْزُ الْقَدِيمُ طَعَامٌ طَيِّبٌ.",
-    "vocabulary": [],
+    "title": "Plastic and the Sea",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch3.jpeg?alt=media&token=117d3bca-7bb7-44b8-90cc-caa71b90da17",
+    "content": "Then Yusuf finds a plastic bottle. “And this, Mom?” he asks.\n\n“Plastic is a big problem,” Mom says. “Some people throw plastic into rivers and the sea. Fish and birds eat it. Then they are very sick. The water is dirty, too. So, we put plastic in the plastic bin. We never throw it on the ground or in the sea.” Yusuf looks sad. “Poor fish!” he says. Then he puts the bottle in the plastic bin.",
+    "vocabulary": [
+     {
+      "word": "plastic",
+      "definition": "A light material. Bottles and bags are made of it."
+     }
+    ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "zeroWaste-pre-a1-ar-quick-3",
+      "id": "zeroWaste-pre-a1-quick-3",
       "type": "drag-drop",
-      "title": "الطَّعَامُ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Plastic and the Sea",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "زَيْنَبُ تَأْكُلُ خُبْزَ أَمْسِ.",
-         "الْآنَ نَأْخُذُ طَعَامًا قَلِيلًا."
+         "Fish and birds eat plastic.",
+         "Yusuf puts the bottle in the plastic bin."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "نَأْخُذُ مِنَ الْمَتْجَرِ طَعَامًا كَثِيرًا."
+         "Plastic is good for the sea."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "زَيْنَبُ تَأْكُلُ خُبْزَ أَمْسِ.",
-        "الْآنَ نَأْخُذُ طَعَامًا قَلِيلًا."
+       "True": [
+        "Fish and birds eat plastic.",
+        "Yusuf puts the bottle in the plastic bin."
        ],
-       "خَطَأٌ": [
-        "نَأْخُذُ مِنَ الْمَتْجَرِ طَعَامًا كَثِيرًا."
+       "False": [
+        "Plastic is good for the sea."
        ]
       },
-      "explanation": "الجواب في الفصل ٣.",
+      "explanation": "The answer is in Chapter 3.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَا الْخُبْزُ الْقَدِيمُ؟",
+     "question": "Guess: What does Yusuf find?",
      "options": [
-      "طَعَامٌ طَيِّبٌ",
-      "نُفَايَاتٌ",
-      "بِلَاسْتِيكٌ"
+      "a plastic bottle",
+      "a glass jar",
+      "an old phone"
      ],
      "answer": 0,
-     "quote": "الْخُبْزُ الْقَدِيمُ طَعَامٌ طَيِّبٌ."
+     "quote": "Then Yusuf finds a plastic bottle."
     },
     "iCan": [
-     "أَعْرِفُ: نَأْخُذُ طَعَامًا قَلِيلًا."
+     "I can say: We put plastic in the plastic bin."
     ]
    },
    {
     "id": 4,
     "type": "story",
-    "title": "نُصْلِحُ الْأَشْيَاءَ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch9.jpeg?alt=media&token=bf375533-669e-4e30-853c-8bcde6ba48d9",
-    "content": "كُرْسِيِّي مَكْسُورٌ. أَبِي يُصْلِحُهُ. حَقِيبَتِي قَدِيمَةٌ، لَكِنَّهَا جَيِّدَةٌ. كِتَابِي الْقَدِيمُ لِأَخِي الصَّغِيرِ. لِلْأَشْيَاءِ الْقَدِيمَةِ حَيَاةٌ جَدِيدَةٌ.",
+    "title": "Old Bread",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch5.jpeg?alt=media&token=90699982-cbc6-4da8-bc4b-530dcf2b49c0",
+    "content": "Mom says again, “A lot of food goes in the bin. It is a big problem. And where is the biggest problem? It is at home! We buy a lot of food. Then we can’t eat it all. So, we only buy the food we need. And we eat yesterday’s bread first.” Yusuf smiles. “I like bread soup!” he says.",
     "vocabulary": [
      {
-      "word": "مَكْسُورٌ",
-      "definition": "فِيهِ مُشْكِلَةٌ؛ لَا يَعْمَلُ جَيِّدًا."
-     },
-     {
-      "word": "يُصْلِحُهُ",
-      "definition": "يَجْعَلُهُ جَيِّدًا."
+      "word": "food",
+      "definition": "Things we eat."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "zeroWaste-pre-a1-ar-quick-4",
+      "id": "zeroWaste-pre-a1-quick-4",
       "type": "drag-drop",
-      "title": "نُصْلِحُ الْأَشْيَاءَ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Old Bread",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "حَقِيبَةُ زَيْنَبَ جَيِّدَةٌ.",
-         "كِتَابُهَا الْقَدِيمُ لِأَخِيهَا الصَّغِيرِ."
+         "A lot of food goes in the bin.",
+         "They eat yesterday’s bread first."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "زَيْنَبُ تَرْمِي الْكُرْسِيَّ الْمَكْسُورَ."
+         "Yusuf doesn’t like bread soup."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "حَقِيبَةُ زَيْنَبَ جَيِّدَةٌ.",
-        "كِتَابُهَا الْقَدِيمُ لِأَخِيهَا الصَّغِيرِ."
+       "True": [
+        "A lot of food goes in the bin.",
+        "They eat yesterday’s bread first."
        ],
-       "خَطَأٌ": [
-        "زَيْنَبُ تَرْمِي الْكُرْسِيَّ الْمَكْسُورَ."
+       "False": [
+        "Yusuf doesn’t like bread soup."
        ]
       },
-      "explanation": "الجواب في الفصل ٤.",
+      "explanation": "The answer is in Chapter 4.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: الْكُرْسِيُّ مَكْسُورٌ. مَنْ يُصْلِحُهُ؟",
+     "question": "Guess: Where is the biggest food problem?",
      "options": [
-      "أَبُو زَيْنَبَ",
-      "الْمُعَلِّمُ",
-      "أَخُوهَا الصَّغِيرُ"
+      "at home",
+      "at school",
+      "at the sea"
      ],
      "answer": 0,
-     "quote": "أَبِي يُصْلِحُهُ."
+     "quote": "It is at home!"
     },
     "iCan": [
-     "أَعْرِفُ: لِلْأَشْيَاءِ الْقَدِيمَةِ حَيَاةٌ جَدِيدَةٌ."
+     "I can say: We only buy the food we need."
     ]
    },
    {
     "id": 5,
     "type": "story",
-    "title": "صِفْرُ النُّفَايَاتِ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch11.jpeg?alt=media&token=7acd45b2-9719-4695-ab28-83ab10270217",
-    "content": "فِي الْبَيْتِ وَفِي الْمَدْرَسَةِ نَعْمَلُ مَعًا. أَنَا أُحِبُّ الْأَرْضَ. الْأَرْضُ بَيْتُنَا. نُفَايَاتٌ قَلِيلَةٌ، أَرْضٌ جَمِيلَةٌ!",
-    "vocabulary": [],
+    "title": "Old Batteries",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch6.jpeg?alt=media&token=7d8bd405-f258-4d14-a34c-5d32daddc59e",
+    "content": "Yusuf opens a drawer. There are some old batteries in it. “Can I put these in the bin, Mom?” he asks.\n\n“No, Yusuf. Batteries are dangerous,” Mom says. “They can’t go in the kitchen bin. There is a battery bin at your school. Take them there.” Yusuf puts the batteries in his school bag. “And old phones?” he asks. “They go to a special bin, too,” Mom says. “People open them and take the good parts. They make new things with them.”",
+    "vocabulary": [
+     {
+      "word": "batteries",
+      "definition": "Small things with power for phones and toys."
+     },
+     {
+      "word": "dangerous",
+      "definition": "It can hurt you."
+     }
+    ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "zeroWaste-pre-a1-ar-quick-5",
+      "id": "zeroWaste-pre-a1-quick-5",
       "type": "drag-drop",
-      "title": "صِفْرُ النُّفَايَاتِ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Old Batteries",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "الْأَرْضُ بَيْتُنَا.",
-         "زَيْنَبُ تُحِبُّ الْأَرْضَ."
+         "Batteries are dangerous.",
+         "There is a battery bin at Yusuf’s school."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "نُفَايَاتٌ كَثِيرَةٌ، أَرْضٌ جَمِيلَةٌ!"
+         "Batteries go in the kitchen bin."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "الْأَرْضُ بَيْتُنَا.",
-        "زَيْنَبُ تُحِبُّ الْأَرْضَ."
+       "True": [
+        "Batteries are dangerous.",
+        "There is a battery bin at Yusuf’s school."
        ],
-       "خَطَأٌ": [
-        "نُفَايَاتٌ كَثِيرَةٌ، أَرْضٌ جَمِيلَةٌ!"
+       "False": [
+        "Batteries go in the kitchen bin."
        ]
       },
-      "explanation": "الجواب في الفصل ٥.",
+      "explanation": "The answer is in Chapter 5.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: أَيْنَ نَعْمَلُ مَعًا؟",
+     "question": "Guess: What is in the drawer?",
      "options": [
-      "فِي الْبَيْتِ وَفِي الْمَدْرَسَةِ",
-      "فِي الْبَحْرِ",
-      "فِي الْمَتْجَرِ"
+      "old batteries",
+      "hard bread",
+      "flowers"
      ],
      "answer": 0,
-     "quote": "فِي الْبَيْتِ وَفِي الْمَدْرَسَةِ نَعْمَلُ مَعًا."
+     "quote": "There are some old batteries in it."
     },
     "iCan": [
-     "أَعْرِفُ: الْأَرْضُ بَيْتُنَا."
+     "I can say: Batteries are dangerous."
     ]
    },
    {
     "id": 6,
-    "type": "glossary",
-    "title": "المعجم الرئيسي",
-    "content": "كَلِمَاتُ الْقِصَّةِ فِي مَكَانٍ وَاحِدٍ.",
-    "image": "",
+    "type": "story",
+    "title": "The Three Rs",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/zeroWaste%2Fa2%2Fimages%2Fzero_waste_a2_ch9.jpeg?alt=media&token=bf375533-669e-4e30-853c-8bcde6ba48d9",
+    "content": "Yusuf looks at the bins. “Mom, is there zero waste in our house now?” he asks.\n\nMom laughs. “Zero Waste doesn’t mean ‘no waste,’ Yusuf. It means less waste. Remember the three Rs,” she says. “Reduce: use less. Reuse: use things again. Recycle: make new things from old things.” Yusuf shows three fingers. “Reduce, reuse, recycle!” he says.\n\nThe next day, they go to the shop. Yusuf takes his own bag. “No plastic bags today, Mom!” he says. Mom is very happy.",
     "vocabulary": [
      {
-      "word": "نَرْمِي",
-      "definition": "نَضَعُ الشَّيْءَ فِي الصُّنْدُوقِ، وَلَا نُرِيدُهُ.",
-      "level": "Pre-A1",
-      "chapter": 1,
-      "chapterTitle": "النُّفَايَاتُ",
-      "storyExample": "كُلَّ يَوْمٍ نَرْمِي أَشْيَاءَ كَثِيرَةً فِي بَيْتِنَا."
+      "word": "reduce",
+      "definition": "Use less."
      },
      {
-      "word": "نُفَايَاتٌ",
-      "definition": "أَشْيَاءُ قَدِيمَةٌ لَا نُرِيدُهَا.",
-      "level": "Pre-A1",
-      "chapter": 1,
-      "chapterTitle": "النُّفَايَاتُ",
-      "storyExample": "هَذِهِ الْأَشْيَاءُ نُفَايَاتٌ."
-     },
-     {
-      "word": "مُشْكِلَةٌ",
-      "definition": "شَيْءٌ صَعْبٌ وَسَيِّئٌ.",
-      "level": "Pre-A1",
-      "chapter": 1,
-      "chapterTitle": "النُّفَايَاتُ",
-      "storyExample": "هَذِهِ مُشْكِلَةٌ كَبِيرَةٌ لِلْأَرْضِ."
-     },
-     {
-      "word": "الْبَحْرِ",
-      "definition": "مَاءٌ كَبِيرٌ جِدًّا.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "الْبِلَاسْتِيكُ",
-      "storyExample": "الْبِلَاسْتِيكُ يَبْقَى فِي الْأَرْضِ وَفِي الْبَحْرِ سَنَوَاتٍ كَثِيرَةً."
-     },
-     {
-      "word": "أَضَعُ",
-      "definition": "وَضَعَ: جَعَلَ الشَّيْءَ فِي مَكَانٍ.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "الْبِلَاسْتِيكُ",
-      "storyExample": "أَنَا أَضَعُ الْبِلَاسْتِيكَ فِي صُنْدُوقٍ خَاصٍّ."
-     },
-     {
-      "word": "مَكْسُورٌ",
-      "definition": "فِيهِ مُشْكِلَةٌ؛ لَا يَعْمَلُ جَيِّدًا.",
-      "level": "Pre-A1",
-      "chapter": 4,
-      "chapterTitle": "نُصْلِحُ الْأَشْيَاءَ",
-      "storyExample": "كُرْسِيِّي مَكْسُورٌ."
-     },
-     {
-      "word": "يُصْلِحُهُ",
-      "definition": "يَجْعَلُهُ جَيِّدًا.",
-      "level": "Pre-A1",
-      "chapter": 4,
-      "chapterTitle": "نُصْلِحُ الْأَشْيَاءَ",
-      "storyExample": "أَبِي يُصْلِحُهُ."
+      "word": "reuse",
+      "definition": "Use things again."
      }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "zeroWaste-pre-a1-quick-6",
+      "type": "drag-drop",
+      "title": "The Three Rs",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Zero Waste means less waste.",
+         "Yusuf takes his own bag to the shop."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Zero Waste means no waste."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Zero Waste means less waste.",
+        "Yusuf takes his own bag to the shop."
+       ],
+       "False": [
+        "Zero Waste means no waste."
+       ]
+      },
+      "explanation": "The answer is in Chapter 6.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: How many Rs are there?",
+     "options": [
+      "three",
+      "two",
+      "four"
+     ],
+     "answer": 0,
+     "quote": "Remember the three Rs,"
+    },
+    "iCan": [
+     "I can say: Reduce, reuse, recycle!"
     ]
    },
    {
     "id": 7,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "All the words of the story in one place.",
+    "image": "",
+    "vocabulary": [
+     {
+      "word": "waste",
+      "definition": "Things we throw away.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "What Is Waste?",
+      "storyExample": "It is not waste!"
+     },
+     {
+      "word": "bins",
+      "definition": "Boxes for things we throw away.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "What Is Waste?",
+      "storyExample": "The bins in our city are full."
+     },
+     {
+      "word": "jar",
+      "definition": "A glass box for food, like sugar or jam.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "Paper and Glass",
+      "storyExample": "There is an old box and an empty jar."
+     },
+     {
+      "word": "recycle",
+      "definition": "Make new things from old things.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "Paper and Glass",
+      "storyExample": "We can recycle it."
+     },
+     {
+      "word": "glass",
+      "definition": "A hard material. You can see through it.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "Paper and Glass",
+      "storyExample": "This jar is glass."
+     },
+     {
+      "word": "plastic",
+      "definition": "A light material. Bottles and bags are made of it.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "Plastic and the Sea",
+      "storyExample": "Then Yusuf finds a plastic bottle."
+     },
+     {
+      "word": "food",
+      "definition": "Things we eat.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "Old Bread",
+      "storyExample": "Mom says again, “A lot of food goes in the bin."
+     },
+     {
+      "word": "batteries",
+      "definition": "Small things with power for phones and toys.",
+      "level": "Pre-A1",
+      "chapter": 5,
+      "chapterTitle": "Old Batteries",
+      "storyExample": "There are some old batteries in it."
+     },
+     {
+      "word": "dangerous",
+      "definition": "It can hurt you.",
+      "level": "Pre-A1",
+      "chapter": 5,
+      "chapterTitle": "Old Batteries",
+      "storyExample": "Batteries are dangerous,”"
+     },
+     {
+      "word": "reduce",
+      "definition": "Use less.",
+      "level": "Pre-A1",
+      "chapter": 6,
+      "chapterTitle": "The Three Rs",
+      "storyExample": "“Reduce: use less."
+     },
+     {
+      "word": "reuse",
+      "definition": "Use things again.",
+      "level": "Pre-A1",
+      "chapter": 6,
+      "chapterTitle": "The Three Rs",
+      "storyExample": "Reuse: use things again."
+     }
+    ]
+   },
+   {
+    "id": 8,
     "type": "final-challenge",
-    "title": "التحدي النهائي",
-    "content": "أَجِبْ عَنِ الْأَسْئِلَةِ.",
+    "title": "Final Challenge",
+    "content": "Answer the questions.",
     "image": "",
     "exercises": [
      {
-      "id": "zeroWaste-pre-a1-ar-final-1",
+      "id": "zeroWaste-pre-a1-final-1",
       "type": "multiple-choice",
-      "title": "مَا النُّفَايَاتُ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَا النُّفَايَاتُ؟",
+      "title": "Who is with Yusuf in the kitchen?",
+      "instructions": "Choose the answer.",
+      "question": "Who is with Yusuf in the kitchen?",
       "options": [
-       "أَشْيَاءُ قَدِيمَةٌ لَا نُرِيدُهَا",
-       "طَعَامٌ جَدِيدٌ",
-       "كُتُبٌ جَدِيدَةٌ"
+       "his mother",
+       "his grandpa",
+       "his teacher"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: أشياء قديمة لا نريدها.",
+      "explanation": "The answer: his mother.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "zeroWaste-pre-a1-ar-final-2",
+      "id": "zeroWaste-pre-a1-final-2",
       "type": "multiple-choice",
-      "title": "أَيْنَ تَضَعُ أُمُّ زَيْنَبَ الْوَرَقَ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "أَيْنَ تَضَعُ أُمُّ زَيْنَبَ الْوَرَقَ؟",
+      "title": "What can they make from hard bread?",
+      "instructions": "Choose the answer.",
+      "question": "What can they make from hard bread?",
       "options": [
-       "فِي صُنْدُوقٍ خَاصٍّ",
-       "فِي الْبَحْرِ",
-       "فِي الْمَتْجَرِ"
+       "bread soup",
+       "new paper",
+       "a jar"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: في صندوق خاص.",
+      "explanation": "The answer: bread soup.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "zeroWaste-pre-a1-ar-final-3",
+      "id": "zeroWaste-pre-a1-final-3",
       "type": "multiple-choice",
-      "title": "مَاذَا تَأْكُلُ زَيْنَبُ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَاذَا تَأْكُلُ زَيْنَبُ؟",
+      "title": "Where do old batteries go?",
+      "instructions": "Choose the answer.",
+      "question": "Where do old batteries go?",
       "options": [
-       "خُبْزَ أَمْسِ",
-       "بِلَاسْتِيكًا",
-       "نُفَايَاتٍ"
+       "to the battery bin",
+       "to the kitchen bin",
+       "to the sea"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: خبز أمس.",
+      "explanation": "The answer: to the battery bin.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "zeroWaste-pre-a1-ar-final-4",
+      "id": "zeroWaste-pre-a1-final-4",
       "type": "multiple-choice",
-      "title": "مَنْ يُصْلِحُ الْكُرْسِيَّ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَنْ يُصْلِحُ الْكُرْسِيَّ؟",
+      "title": "What does Zero Waste mean?",
+      "instructions": "Choose the answer.",
+      "question": "What does Zero Waste mean?",
       "options": [
-       "أَبُو زَيْنَبَ",
-       "زَيْنَبُ",
-       "أُمُّ زَيْنَبَ"
+       "less waste",
+       "no waste",
+       "more waste"
       ],
       "correctAnswer": 0,
-      "explanation": "الجواب: أبو زينب.",
+      "explanation": "The answer: less waste.",
       "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "zeroWaste-pre-a1-ar-final-words",
+      "id": "zeroWaste-pre-a1-final-words",
       "type": "matching",
-      "title": "الْكَلِمَاتُ",
-      "instructions": "صِلِ الْكَلِمَةَ بِمَعْنَاهَا.",
-      "question": "مَا الْمَعْنَى؟",
+      "title": "Words",
+      "instructions": "Match the word and the meaning.",
+      "question": "What does it mean?",
       "matchingHeadings": {
-       "left": "الْكَلِمَةُ",
-       "right": "الْمَعْنَى"
+       "left": "Word",
+       "right": "Meaning"
       },
       "matchingPairs": [
        {
-        "left": "نَرْمِي",
-        "right": "نَضَعُ الشَّيْءَ فِي الصُّنْدُوقِ، وَلَا نُرِيدُهُ."
+        "left": "waste",
+        "right": "Things we throw away."
        },
        {
-        "left": "الْبَحْرِ",
-        "right": "مَاءٌ كَبِيرٌ جِدًّا."
+        "left": "jar",
+        "right": "A glass box for food, like sugar or jam."
        },
        {
-        "left": "مَكْسُورٌ",
-        "right": "فِيهِ مُشْكِلَةٌ؛ لَا يَعْمَلُ جَيِّدًا."
+        "left": "plastic",
+        "right": "A light material. Bottles and bags are made of it."
        },
        {
-        "left": "نُفَايَاتٌ",
-        "right": "أَشْيَاءُ قَدِيمَةٌ لَا نُرِيدُهَا."
+        "left": "food",
+        "right": "Things we eat."
        }
       ],
       "correctAnswer": {
-       "نَرْمِي": "نَضَعُ الشَّيْءَ فِي الصُّنْدُوقِ، وَلَا نُرِيدُهُ.",
-       "الْبَحْرِ": "مَاءٌ كَبِيرٌ جِدًّا.",
-       "مَكْسُورٌ": "فِيهِ مُشْكِلَةٌ؛ لَا يَعْمَلُ جَيِّدًا.",
-       "نُفَايَاتٌ": "أَشْيَاءُ قَدِيمَةٌ لَا نُرِيدُهَا."
+       "waste": "Things we throw away.",
+       "jar": "A glass box for food, like sugar or jam.",
+       "plastic": "A light material. Bottles and bags are made of it.",
+       "food": "Things we eat."
       },
-      "explanation": "المعاني في ملاحظات الكلمات.",
+      "explanation": "The meanings are in the Word Notes.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "انْظُرْ إِلَى الْمُعْجَمِ."
+       "correct": "Well done!",
+       "incorrect": "Look at the Master Glossary."
       }
      },
      {
-      "id": "zeroWaste-pre-a1-ar-final-tf",
-      "type": "drag-drop",
-      "title": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
-      "dragDropGroups": [
+      "id": "zeroWaste-pre-a1-final-order",
+      "type": "sequencing",
+      "title": "The Story",
+      "instructions": "Put the story in order.",
+      "question": "What happens first?",
+      "sequencingItems": [
        {
-        "group": "صَحِيحٌ",
-        "items": [
-         "الْبِلَاسْتِيكُ يَبْقَى فِي الْبَحْرِ سَنَوَاتٍ كَثِيرَةً.",
-         "كِتَابُ زَيْنَبَ الْقَدِيمُ لِأَخِيهَا."
-        ]
+        "id": "1",
+        "text": "Yusuf and his mother find some hard bread."
        },
        {
-        "group": "خَطَأٌ",
-        "items": [
-         "زَيْنَبُ تَرْمِي الْخُبْزَ الْقَدِيمَ.",
-         "الْأَرْضُ لَيْسَتْ بَيْتَنَا."
-        ]
+        "id": "2",
+        "text": "Yusuf puts the box in the paper bin."
+       },
+       {
+        "id": "3",
+        "text": "Yusuf puts the bottle in the plastic bin."
+       },
+       {
+        "id": "4",
+        "text": "Mom talks about food in the bin."
+       },
+       {
+        "id": "5",
+        "text": "Yusuf puts the batteries in his school bag."
+       },
+       {
+        "id": "6",
+        "text": "Yusuf takes his own bag to the shop."
        }
       ],
-      "correctAnswer": {
-       "صَحِيحٌ": [
-        "الْبِلَاسْتِيكُ يَبْقَى فِي الْبَحْرِ سَنَوَاتٍ كَثِيرَةً.",
-        "كِتَابُ زَيْنَبَ الْقَدِيمُ لِأَخِيهَا."
-       ],
-       "خَطَأٌ": [
-        "زَيْنَبُ تَرْمِي الْخُبْزَ الْقَدِيمَ.",
-        "الْأَرْضُ لَيْسَتْ بَيْتَنَا."
-       ]
-      },
-      "explanation": "الجواب في القصة.",
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6"
+      ],
+      "explanation": "This is the order of the chapters.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Look at the chapters again."
       }
      }
     ]

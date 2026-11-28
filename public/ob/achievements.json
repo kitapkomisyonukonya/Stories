@@ -1,13 +1,6 @@
 {
  "schema": 1,
  "achievements": {
-  "book-adam-Pre-A1": {
-   "type": "Badge",
-   "name": "Book seal: Prophet Adam · Pre-A1",
-   "description": "Finished the book Prophet Adam (Pre-A1) of the Lisandan Kültüre digital library, up to its Final Challenge.",
-   "criteria": "Finish the Final Challenge of Prophet Adam (Pre-A1) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
-   "level": "Pre-A1"
-  },
   "book-adam-A1": {
    "type": "Badge",
    "name": "Book seal: Prophet Adam · A1",
@@ -35,13 +28,6 @@
    "description": "Finished the book Prophet Adam (B2) of the Lisandan Kültüre digital library, up to its Final Challenge.",
    "criteria": "Finish the Final Challenge of Prophet Adam (B2) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
    "level": "B2"
-  },
-  "book-ibrahim-Pre-A1": {
-   "type": "Badge",
-   "name": "Book seal: Prophet Abraham · Pre-A1",
-   "description": "Finished the book Prophet Abraham (Pre-A1) of the Lisandan Kültüre digital library, up to its Final Challenge.",
-   "criteria": "Finish the Final Challenge of Prophet Abraham (Pre-A1) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
-   "level": "Pre-A1"
   },
   "book-ibrahim-A1": {
    "type": "Badge",
@@ -71,13 +57,6 @@
    "criteria": "Finish the Final Challenge of Prophet Abraham (B2) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
    "level": "B2"
   },
-  "book-musa-Pre-A1": {
-   "type": "Badge",
-   "name": "Book seal: Prophet Moses · Pre-A1",
-   "description": "Finished the book Prophet Moses (Pre-A1) of the Lisandan Kültüre digital library, up to its Final Challenge.",
-   "criteria": "Finish the Final Challenge of Prophet Moses (Pre-A1) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
-   "level": "Pre-A1"
-  },
   "book-musa-A1": {
    "type": "Badge",
    "name": "Book seal: Prophet Moses · A1",
@@ -105,13 +84,6 @@
    "description": "Finished the book Prophet Moses (B2) of the Lisandan Kültüre digital library, up to its Final Challenge.",
    "criteria": "Finish the Final Challenge of Prophet Moses (B2) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
    "level": "B2"
-  },
-  "book-mecca-Pre-A1": {
-   "type": "Badge",
-   "name": "Book seal: Mecca Before Islam · Pre-A1",
-   "description": "Finished the book Mecca Before Islam (Pre-A1) of the Lisandan Kültüre digital library, up to its Final Challenge.",
-   "criteria": "Finish the Final Challenge of Mecca Before Islam (Pre-A1) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
-   "level": "Pre-A1"
   },
   "book-mecca-A1": {
    "type": "Badge",
@@ -141,13 +113,6 @@
    "criteria": "Finish the Final Challenge of Mecca Before Islam (B2) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
    "level": "B2"
   },
-  "book-ibnJubayr-Pre-A1": {
-   "type": "Badge",
-   "name": "Book seal: Ibn Jubayr · Pre-A1",
-   "description": "Finished the book Ibn Jubayr (Pre-A1) of the Lisandan Kültüre digital library, up to its Final Challenge.",
-   "criteria": "Finish the Final Challenge of Ibn Jubayr (Pre-A1) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
-   "level": "Pre-A1"
-  },
   "book-ibnJubayr-A1": {
    "type": "Badge",
    "name": "Book seal: Ibn Jubayr · A1",
@@ -161,13 +126,6 @@
    "description": "Finished the book Ibn Jubayr (A2) of the Lisandan Kültüre digital library, up to its Final Challenge.",
    "criteria": "Finish the Final Challenge of Ibn Jubayr (A2) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
    "level": "A2"
-  },
-  "book-yunusEmre-Pre-A1": {
-   "type": "Badge",
-   "name": "Book seal: Yunus Emre · Pre-A1",
-   "description": "Finished the book Yunus Emre (Pre-A1) of the Lisandan Kültüre digital library, up to its Final Challenge.",
-   "criteria": "Finish the Final Challenge of Yunus Emre (Pre-A1) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
-   "level": "Pre-A1"
   },
   "book-yunusEmre-A1": {
    "type": "Badge",
@@ -197,13 +155,6 @@
    "criteria": "Finish the Final Challenge of Yunus Emre (B2) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
    "level": "B2"
   },
-  "book-zeroWaste-Pre-A1": {
-   "type": "Badge",
-   "name": "Book seal: Zero Waste · Pre-A1",
-   "description": "Finished the book Zero Waste (Pre-A1) of the Lisandan Kültüre digital library, up to its Final Challenge.",
-   "criteria": "Finish the Final Challenge of Zero Waste (Pre-A1) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
-   "level": "Pre-A1"
-  },
   "book-zeroWaste-A1": {
    "type": "Badge",
    "name": "Book seal: Zero Waste · A1",
@@ -217,6 +168,20 @@
    "description": "Finished the book Zero Waste (A2) of the Lisandan Kültüre digital library, up to its Final Challenge.",
    "criteria": "Finish the Final Challenge of Zero Waste (A2) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
    "level": "A2"
+  },
+  "book-zeroWaste-B1": {
+   "type": "Badge",
+   "name": "Book seal: Zero Waste · B1",
+   "description": "Finished the book Zero Waste (B1) of the Lisandan Kültüre digital library, up to its Final Challenge.",
+   "criteria": "Finish the Final Challenge of Zero Waste (B1) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
+   "level": "B1"
+  },
+  "book-zeroWaste-B2": {
+   "type": "Badge",
+   "name": "Book seal: Zero Waste · B2",
+   "description": "Finished the book Zero Waste (B2) of the Lisandan Kültüre digital library, up to its Final Challenge.",
+   "criteria": "Finish the Final Challenge of Zero Waste (B2) in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
+   "level": "B2"
   },
   "level-A2-en": {
    "type": "Certificate",
@@ -235,28 +200,28 @@
   "level-B1-en": {
    "type": "Certificate",
    "name": "Level Certificate · B1 · English",
-   "description": "Completed the B1 journey of the Lisandan Kültüre digital library in English: every B1 book read in English and sealed (Prophet Adam, Prophet Abraham, Prophet Moses, Mecca Before Islam, Yunus Emre).",
+   "description": "Completed the B1 journey of the Lisandan Kültüre digital library in English: every B1 book read in English and sealed (Prophet Adam, Prophet Abraham, Prophet Moses, Mecca Before Islam, Yunus Emre, Zero Waste).",
    "criteria": "Finish the Final Challenge of every B1 book in English in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
    "level": "B1"
   },
   "level-B1-ar": {
    "type": "Certificate",
    "name": "Level Certificate · B1 · Arabic",
-   "description": "Completed the B1 journey of the Lisandan Kültüre digital library in Arabic: every B1 book read in Arabic and sealed (Prophet Adam, Prophet Abraham, Prophet Moses, Mecca Before Islam, Yunus Emre).",
+   "description": "Completed the B1 journey of the Lisandan Kültüre digital library in Arabic: every B1 book read in Arabic and sealed (Prophet Adam, Prophet Abraham, Prophet Moses, Mecca Before Islam, Yunus Emre, Zero Waste).",
    "criteria": "Finish the Final Challenge of every B1 book in Arabic in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
    "level": "B1"
   },
   "level-B2-en": {
    "type": "Certificate",
    "name": "Level Certificate · B2 · English",
-   "description": "Completed the B2 journey of the Lisandan Kültüre digital library in English: every B2 book read in English and sealed (Prophet Adam, Prophet Abraham, Prophet Moses, Mecca Before Islam, Yunus Emre).",
+   "description": "Completed the B2 journey of the Lisandan Kültüre digital library in English: every B2 book read in English and sealed (Prophet Adam, Prophet Abraham, Prophet Moses, Mecca Before Islam, Yunus Emre, Zero Waste).",
    "criteria": "Finish the Final Challenge of every B2 book in English in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
    "level": "B2"
   },
   "level-B2-ar": {
    "type": "Certificate",
    "name": "Level Certificate · B2 · Arabic",
-   "description": "Completed the B2 journey of the Lisandan Kültüre digital library in Arabic: every B2 book read in Arabic and sealed (Prophet Adam, Prophet Abraham, Prophet Moses, Mecca Before Islam, Yunus Emre).",
+   "description": "Completed the B2 journey of the Lisandan Kültüre digital library in Arabic: every B2 book read in Arabic and sealed (Prophet Adam, Prophet Abraham, Prophet Moses, Mecca Before Islam, Yunus Emre, Zero Waste).",
    "criteria": "Finish the Final Challenge of every B2 book in Arabic in the Lisandan Kültüre app. Recorded by the Lisandan Kültüre app on the learner’s own device; the platform keeps no learner records.",
    "level": "B2"
   }

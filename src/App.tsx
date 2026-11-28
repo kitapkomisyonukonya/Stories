@@ -42,7 +42,7 @@ import { useIsPhone, useSheetDrag } from './lib/phone';
 import { useDialogFocus } from './hooks/useDialogFocus';
 import { StoryProgressProvider, useStoryProgress } from './contexts/StoryProgressContext';
 
-/** Pre-A1 readers are young beginners: their Arabic story text is set much larger than other levels. */
+/** Pre-A1 readers are young beginners: their story text is set much larger than other levels. */
 const PRE_A1_TEXT_SCALE = 1.6;
 
 // Layout Components
@@ -177,7 +177,7 @@ const AppContent = () => {
   useEffect(() => {
     if (isEnglishOnlyBook && language === 'ar') setLanguage('en');
   }, [isEnglishOnlyBook, language, setLanguage]);
-  // Pre-A1 books are Arabic only: they always open in Arabic.
+  // Arabic-only levels (none at the moment, see arabicOnlyLevels.ts) always open in Arabic.
   const isArabicOnlyBook = Boolean(selectedProphetId && currentLevel && isArabicOnlyLevel(currentLevel));
   useEffect(() => {
     if (isArabicOnlyBook && language === 'en') setLanguage('ar');

@@ -2,7 +2,6 @@
 import '../lib/nodeContent';
 import type { BookData, VocabularyChallengePair } from '../../src/types';
 import { bookRegistry } from '../../src/core/content/bookRegistry';
-import { isArabicOnlyLevel } from '../../src/content/arabicOnlyLevels';
 import { getLearningLevelPolicy } from '../../src/data/learningLevelPolicy';
 import { getHistoricalEntityIdFromDefinition } from '../../src/features/historical-entities/registry';
 
@@ -127,13 +126,13 @@ const validatePair = async (
   const pair = await load();
   const policy = getLearningLevelPolicy(pair.en.level);
 
-  // Pre-A1 (Arabic only) has a light end: Word Notes glossary and a Final Challenge, no Knowledge Check,
+  // Pre-A1 has a light end: Word Notes glossary and a Final Challenge, no Knowledge Check,
   // Vocabulary Challenge or Language Review.
-  if (isArabicOnlyLevel(pair.ar.level)) {
-    const types = pair.ar.pages.map(page => page.type).filter(type => type !== 'story' && type !== 'places');
-    if (types.join(' ') !== 'glossary final-challenge') errors.push(`AR: Pre-A1 end pages are ${types.join(' → ')}, expected glossary → final-challenge`);
-    if (!pair.ar.pages.find(page => page.type === 'final-challenge')?.exercises?.length) errors.push('AR: Final Challenge has no exercises');
-    if (!errors.length) console.log(`[PASS] ${label} — Arabic only: glossary + final`);
+  if (pair.en.level === 'Pre-A1') {
+    const types = pair.en.pages.map(page => page.type).filter(type => type !== 'story' && type !== 'places');
+    if (types.join(' ') !== 'glossary final-challenge') errors.push(`EN: Pre-A1 end pages are ${types.join(' → ')}, expected glossary → final-challenge`);
+    if (!pair.en.pages.find(page => page.type === 'final-challenge')?.exercises?.length) errors.push('EN: Final Challenge has no exercises');
+    if (!errors.length) console.log(`[PASS] ${label} — Pre-A1: glossary + final`);
     return errors;
   }
 

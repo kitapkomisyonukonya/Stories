@@ -6,483 +6,666 @@
  "collection": "turkish",
  "book": {
   "id": "yunusEmre-pre-a1-ar",
-  "title": "يُونُسُ إِمْرَهْ",
+  "title": "Yunus Emre",
   "level": "Pre-A1",
-  "baseFontSize": 14,
+  "baseFontSize": 13,
   "pages": [
    {
     "id": 1,
     "type": "story",
-    "title": "رَجُلٌ جَدِيدٌ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch2-clean.png?alt=media&token=5e5d2c97-81c9-44a3-b142-aa7c39563a67",
-    "content": "اسْمِي حَسَنٌ. أَنَا طَالِبٌ فِي بَيْتِ الدَّرَاوِيشِ. مُعَلِّمُنَا تَابْتُوكْ إِمْرَهْ. هُوَ مُعَلِّمٌ طَيِّبٌ. يَوْمًا، يَدْخُلُ رَجُلٌ بَيْتَنَا. اسْمُهُ يُونُسُ. يَقُولُ يُونُسُ: «أُرِيدُ الْعَمَلَ هُنَا.» يَقُولُ الْمُعَلِّمُ: «تَفَضَّلْ!»",
+    "title": "A Poem in a Book",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch1-clean.png?alt=media&token=6c39aefe-e1bc-4d97-a8c5-553d0db338a9",
+    "content": "It is a cold evening. Yusuf and Grandpa are at home. Grandpa has got an old book. He reads a poem from it. “Grandpa, I like this poem. Who writes it?” Yusuf asks. Grandpa smiles. “Yunus Emre. He is a very famous poet. Look! I have got a story for you.” “Great! I love stories!” Yusuf says.\n\n“Yunus lives in Anatolia more than 700 years ago,” Grandpa says. “He writes poems in Turkish. They are very simple. People understand them well. His poems are about love. Love for Allah, love for all people, animals and plants. People read his poems today, too.”",
     "vocabulary": [
      {
-      "word": "الدَّرَاوِيشِ",
-      "definition": "الدَّرْوِيشُ: رَجُلٌ يُحِبُّ اللهَ كَثِيرًا."
+      "word": "poem",
+      "definition": "Words in short lines. Sometimes they sound like a song."
+     },
+     {
+      "word": "poet",
+      "definition": "A person who writes poems."
+     },
+     {
+      "word": "plants",
+      "definition": "Trees, flowers and grass."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "yunusEmre-pre-a1-ar-quick-1",
+      "id": "yunusEmre-pre-a1-quick-1",
       "type": "drag-drop",
-      "title": "رَجُلٌ جَدِيدٌ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "A Poem in a Book",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "مُعَلِّمُ حَسَنٍ تَابْتُوكْ إِمْرَهْ.",
-         "يُونُسُ يُرِيدُ الْعَمَلَ فِي الْبَيْتِ."
+         "Yunus Emre is a famous poet.",
+         "Yunus writes poems in Turkish."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "الْمُعَلِّمُ يَقُولُ لِيُونُسَ: «لَا»."
+         "His poems are very difficult."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "مُعَلِّمُ حَسَنٍ تَابْتُوكْ إِمْرَهْ.",
-        "يُونُسُ يُرِيدُ الْعَمَلَ فِي الْبَيْتِ."
+       "True": [
+        "Yunus Emre is a famous poet.",
+        "Yunus writes poems in Turkish."
        ],
-       "خَطَأٌ": [
-        "الْمُعَلِّمُ يَقُولُ لِيُونُسَ: «لَا»."
+       "False": [
+        "His poems are very difficult."
        ]
       },
-      "explanation": "الجواب في الفصل ١.",
+      "explanation": "The answer is in Chapter 1.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: أَيْنَ حَسَنٌ؟",
+     "question": "Guess: What has Grandpa got?",
      "options": [
-      "فِي بَيْتِ الدَّرَاوِيشِ",
-      "فِي الْبَحْرِ",
-      "فِي مِصْرَ"
+      "an old book",
+      "a big map",
+      "a small boat"
      ],
      "answer": 0,
-     "quote": "أَنَا طَالِبٌ فِي بَيْتِ الدَّرَاوِيشِ."
+     "quote": "Grandpa has got an old book."
     },
     "iCan": [
-     "أَعْرِفُ: يُونُسُ فِي بَيْتِ الدَّرَاوِيشِ."
+     "I can say: Yunus Emre writes poems."
     ]
    },
    {
     "id": 2,
     "type": "story",
-    "title": "الْحَطَبُ الْمُسْتَقِيمُ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch4-clean.png?alt=media&token=ca4e4897-3845-4b61-b7a0-5b4d0dbc10b4",
-    "content": "كُلَّ يَوْمٍ يَذْهَبُ يُونُسُ إِلَى الْجَبَلِ. يَأْخُذُ حَطَبًا لِلْبَيْتِ. يَأْخُذُ الْحَطَبَ الْمُسْتَقِيمَ فَقَطْ. يَسْأَلُ الْمُعَلِّمُ: «يَا يُونُسُ، لِمَاذَا تَأْخُذُ الْمُسْتَقِيمَ فَقَطْ؟» يَقُولُ يُونُسُ: «هَذَا بَيْتٌ طَيِّبٌ. لَهُ حَطَبٌ مُسْتَقِيمٌ.» الْمُعَلِّمُ فَرِحٌ. يُونُسُ يَعْمَلُ هُنَا سَنَوَاتٍ كَثِيرَةً.",
+    "title": "A Good Teacher",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch2-clean.png?alt=media&token=5e5d2c97-81c9-44a3-b142-aa7c39563a67",
+    "content": "“Does Yunus go to school, Grandpa?” Yusuf asks.\n\n“Yes, he does,” Grandpa says. “Then he goes to a dervish house. A dervish house is like a school. Many students live there with a teacher. Yunus’s teacher is Taptuk Emre. He is a good and kind man. Yunus says, ‘I want to learn from you. And I want to help you.’ Taptuk Emre is happy. Yunus stays at the dervish house. He works there every day.”",
     "vocabulary": [
      {
-      "word": "الْجَبَلِ",
-      "definition": "أَرْضٌ عَالِيَةٌ وَكَبِيرَةٌ."
-     },
-     {
-      "word": "حَطَبًا",
-      "definition": "خَشَبٌ لِلنَّارِ."
-     },
-     {
-      "word": "الْمُسْتَقِيمَ",
-      "definition": "مِثْلُ الْخَطِّ."
+      "word": "dervish",
+      "definition": "A person who learns to be close to Allah with a teacher."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "yunusEmre-pre-a1-ar-quick-2",
+      "id": "yunusEmre-pre-a1-quick-2",
       "type": "drag-drop",
-      "title": "الْحَطَبُ الْمُسْتَقِيمُ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "A Good Teacher",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "يَأْخُذُ يُونُسُ الْحَطَبَ الْمُسْتَقِيمَ فَقَطْ.",
-         "يُونُسُ يَعْمَلُ هُنَا سَنَوَاتٍ كَثِيرَةً."
+         "A dervish house is like a school.",
+         "Yunus works there every day."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "الْمُعَلِّمُ يَغْضَبُ مِنْ يُونُسَ."
+         "Taptuk Emre is not kind."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "يَأْخُذُ يُونُسُ الْحَطَبَ الْمُسْتَقِيمَ فَقَطْ.",
-        "يُونُسُ يَعْمَلُ هُنَا سَنَوَاتٍ كَثِيرَةً."
+       "True": [
+        "A dervish house is like a school.",
+        "Yunus works there every day."
        ],
-       "خَطَأٌ": [
-        "الْمُعَلِّمُ يَغْضَبُ مِنْ يُونُسَ."
+       "False": [
+        "Taptuk Emre is not kind."
        ]
       },
-      "explanation": "الجواب في الفصل ٢.",
+      "explanation": "The answer is in Chapter 2.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَاذَا يَأْخُذُ يُونُسُ مِنَ الْجَبَلِ؟",
+     "question": "Guess: Who is Yunus’s teacher?",
      "options": [
-      "حَطَبًا",
-      "مَاءً",
-      "زُهُورًا"
+      "Taptuk Emre",
+      "Grandpa",
+      "Yusuf"
      ],
      "answer": 0,
-     "quote": "يَأْخُذُ حَطَبًا لِلْبَيْتِ."
+     "quote": "Yunus’s teacher is Taptuk Emre."
     },
     "iCan": [
-     "أَعْرِفُ: لِلْبَيْتِ الطَّيِّبِ حَطَبٌ مُسْتَقِيمٌ."
+     "I can say: Taptuk Emre is Yunus’s teacher."
     ]
    },
    {
     "id": 3,
     "type": "story",
-    "title": "زَهْرَةٌ وَاحِدَةٌ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch7-clean.png?alt=media&token=a2b10e28-c657-4f96-a5a8-b70f6aedd6cd",
-    "content": "يَوْمًا، نَخْرُجُ مِنَ الْبَيْتِ. كُلُّ طَالِبٍ يَأْخُذُ زُهُورًا كَثِيرَةً. أَنَا آخُذُ زُهُورًا كَثِيرَةً أَيْضًا. يُونُسُ يَأْخُذُ زَهْرَةً وَاحِدَةً فَقَطْ. يَسْأَلُ الْمُعَلِّمُ: «يَا يُونُسُ، لِمَاذَا زَهْرَةٌ وَاحِدَةٌ؟» يَقُولُ يُونُسُ: «كُلُّ الزُّهُورِ تَذْكُرُ اللهَ.» الْمُعَلِّمُ فَرِحٌ جِدًّا.",
+    "title": "Straight Wood",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch4-clean.png?alt=media&token=ca4e4897-3845-4b61-b7a0-5b4d0dbc10b4",
+    "content": "“What is his job, Grandpa?” Yusuf asks.\n\n“There is a mountain near the dervish house,” Grandpa says. “Every day, Yunus goes up the mountain. He finds wood there. The house needs wood for the fire. Yunus carries the wood on his back. It is very hard work. But Yunus only takes straight wood. Some wood is not straight. He never takes it. He looks for the best wood every day. The wood is like his heart. His heart is straight, too.”",
     "vocabulary": [
      {
-      "word": "زُهُورًا",
-      "definition": "الزَّهْرَةُ: شَيْءٌ جَمِيلٌ، أَحْمَرُ أَوْ أَصْفَرُ."
+      "word": "mountain",
+      "definition": "A very high hill."
+     },
+     {
+      "word": "wood",
+      "definition": "The hard part of a tree."
+     },
+     {
+      "word": "straight",
+      "definition": "Not bent; like a line."
      }
     ],
     "hotspots": [],
     "exercises": [
      {
-      "id": "yunusEmre-pre-a1-ar-quick-3",
+      "id": "yunusEmre-pre-a1-quick-3",
       "type": "drag-drop",
-      "title": "زَهْرَةٌ وَاحِدَةٌ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Straight Wood",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "حَسَنٌ يَأْخُذُ زُهُورًا كَثِيرَةً.",
-         "الْمُعَلِّمُ فَرِحٌ جِدًّا."
+         "The house needs wood for the fire.",
+         "Yunus only takes straight wood."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "يُونُسُ يَأْخُذُ زُهُورًا كَثِيرَةً."
+         "The work is very easy."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "حَسَنٌ يَأْخُذُ زُهُورًا كَثِيرَةً.",
-        "الْمُعَلِّمُ فَرِحٌ جِدًّا."
+       "True": [
+        "The house needs wood for the fire.",
+        "Yunus only takes straight wood."
        ],
-       "خَطَأٌ": [
-        "يُونُسُ يَأْخُذُ زُهُورًا كَثِيرَةً."
+       "False": [
+        "The work is very easy."
        ]
       },
-      "explanation": "الجواب في الفصل ٣.",
+      "explanation": "The answer is in Chapter 3.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَاذَا يَأْخُذُ يُونُسُ؟",
+     "question": "Guess: What does Yunus carry?",
      "options": [
-      "زَهْرَةً وَاحِدَةً",
-      "زُهُورًا كَثِيرَةً",
-      "حَطَبًا"
+      "wood",
+      "water",
+      "flowers"
      ],
      "answer": 0,
-     "quote": "يُونُسُ يَأْخُذُ زَهْرَةً وَاحِدَةً فَقَطْ."
+     "quote": "Yunus carries the wood on his back."
     },
     "iCan": [
-     "أَعْرِفُ: كُلُّ الزُّهُورِ تَذْكُرُ اللهَ."
+     "I can say: Yunus only takes straight wood."
     ]
    },
    {
     "id": 4,
     "type": "story",
-    "title": "شَاعِرٌ",
-    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch1-clean.png?alt=media&token=6c39aefe-e1bc-4d97-a8c5-553d0db338a9",
-    "content": "الْيَوْمَ يُونُسُ شَاعِرٌ. يَكْتُبُ شِعْرًا جَمِيلًا بِاللُّغَةِ التُّرْكِيَّةِ. فِي شِعْرِهِ حُبُّ اللهِ وَحُبُّ النَّاسِ. أَنَا أَقْرَأُ شِعْرَهُ كُلَّ يَوْمٍ. وَأَنْتَ؟ أَنْتَ تَقْرَأُ شِعْرَهُ الْيَوْمَ أَيْضًا!",
+    "title": "Forty Years",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch6-clean.png?alt=media&token=67497bea-2d63-4b36-9282-4a195dbfca4a",
+    "content": "Yusuf thinks. “Every day? For how many years?” he asks.\n\n“For forty years!” Grandpa says. “One day, Taptuk Emre asks, ‘Yunus, why do you only bring straight wood? Is there no other wood on the mountain?’ Yunus says, ‘My teacher, this is a house of good people. Only straight wood can come in here.’ Taptuk Emre is very happy. On the mountain, Yunus looks at the trees, the birds and the rivers. He thinks about Allah all the time.”",
     "vocabulary": [],
     "hotspots": [],
     "exercises": [
      {
-      "id": "yunusEmre-pre-a1-ar-quick-4",
+      "id": "yunusEmre-pre-a1-quick-4",
       "type": "drag-drop",
-      "title": "شَاعِرٌ",
-      "instructions": "صَحِيحٌ أَمْ خَطَأٌ؟",
-      "question": "اقْرَأْ. ضَعْ كُلَّ جُمْلَةٍ فِي مَكَانِهَا.",
+      "title": "Forty Years",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
       "dragDropGroups": [
        {
-        "group": "صَحِيحٌ",
+        "group": "True",
         "items": [
-         "يُونُسُ يَكْتُبُ شِعْرًا بِاللُّغَةِ التُّرْكِيَّةِ.",
-         "فِي شِعْرِهِ حُبُّ اللهِ وَحُبُّ النَّاسِ."
+         "Taptuk Emre asks Yunus a question.",
+         "Yunus thinks about Allah all the time."
         ]
        },
        {
-        "group": "خَطَأٌ",
+        "group": "False",
         "items": [
-         "حَسَنٌ لَا يَقْرَأُ شِعْرَ يُونُسَ."
+         "Yunus brings wood for four years."
         ]
        }
       ],
       "correctAnswer": {
-       "صَحِيحٌ": [
-        "يُونُسُ يَكْتُبُ شِعْرًا بِاللُّغَةِ التُّرْكِيَّةِ.",
-        "فِي شِعْرِهِ حُبُّ اللهِ وَحُبُّ النَّاسِ."
+       "True": [
+        "Taptuk Emre asks Yunus a question.",
+        "Yunus thinks about Allah all the time."
        ],
-       "خَطَأٌ": [
-        "حَسَنٌ لَا يَقْرَأُ شِعْرَ يُونُسَ."
+       "False": [
+        "Yunus brings wood for four years."
        ]
       },
-      "explanation": "الجواب في الفصل ٤.",
+      "explanation": "The answer is in Chapter 4.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "اقْرَأِ الْفَصْلَ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
       }
      }
     ],
     "languageFocusExercises": [],
     "beforeYouRead": {
      "kind": "guess",
-     "question": "خَمِّنْ: مَنْ يُونُسُ الْيَوْمَ؟",
+     "question": "Guess: For how many years?",
      "options": [
-      "شَاعِرٌ",
-      "مَلِكٌ",
-      "طَبِيبٌ"
+      "forty",
+      "four",
+      "fourteen"
      ],
      "answer": 0,
-     "quote": "الْيَوْمَ يُونُسُ شَاعِرٌ."
+     "quote": "“For forty years!” Grandpa says."
     },
     "iCan": [
-     "أَعْرِفُ: يُونُسُ إِمْرَهْ شَاعِرٌ."
+     "I can say: Only straight wood can come in."
     ]
    },
    {
     "id": 5,
-    "type": "glossary",
-    "title": "المعجم الرئيسي",
-    "content": "كَلِمَاتُ الْقِصَّةِ فِي مَكَانٍ وَاحِدٍ.",
-    "image": "",
+    "type": "story",
+    "title": "Flowers for the Teacher",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch8-clean.png?alt=media&token=5928fe9e-cd4a-42d3-9dbe-10d6b32126b1",
+    "content": "“Does Yunus write poems on the mountain?” Yusuf asks.\n\n“Maybe, Yusuf,” Grandpa says. “Now, listen to another story. One day, Taptuk Emre says to his students, ‘Go to the fields. Bring me beautiful flowers.’ The students run to the fields. They take a lot of flowers. Then they run back quickly. But Yunus comes back very late. He has got only one small daisy in his hand. The other students laugh at him.”",
     "vocabulary": [
      {
-      "word": "الدَّرَاوِيشِ",
-      "definition": "الدَّرْوِيشُ: رَجُلٌ يُحِبُّ اللهَ كَثِيرًا.",
-      "level": "Pre-A1",
-      "chapter": 1,
-      "chapterTitle": "رَجُلٌ جَدِيدٌ",
-      "storyExample": "أَنَا طَالِبٌ فِي بَيْتِ الدَّرَاوِيشِ."
+      "word": "fields",
+      "definition": "Big open places with grass or flowers."
      },
      {
-      "word": "الْجَبَلِ",
-      "definition": "أَرْضٌ عَالِيَةٌ وَكَبِيرَةٌ.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "الْحَطَبُ الْمُسْتَقِيمُ",
-      "storyExample": "كُلَّ يَوْمٍ يَذْهَبُ يُونُسُ إِلَى الْجَبَلِ."
-     },
-     {
-      "word": "حَطَبًا",
-      "definition": "خَشَبٌ لِلنَّارِ.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "الْحَطَبُ الْمُسْتَقِيمُ",
-      "storyExample": "يَأْخُذُ حَطَبًا لِلْبَيْتِ."
-     },
-     {
-      "word": "الْمُسْتَقِيمَ",
-      "definition": "مِثْلُ الْخَطِّ.",
-      "level": "Pre-A1",
-      "chapter": 2,
-      "chapterTitle": "الْحَطَبُ الْمُسْتَقِيمُ",
-      "storyExample": "يَأْخُذُ الْحَطَبَ الْمُسْتَقِيمَ فَقَطْ."
-     },
-     {
-      "word": "زُهُورًا",
-      "definition": "الزَّهْرَةُ: شَيْءٌ جَمِيلٌ، أَحْمَرُ أَوْ أَصْفَرُ.",
-      "level": "Pre-A1",
-      "chapter": 3,
-      "chapterTitle": "زَهْرَةٌ وَاحِدَةٌ",
-      "storyExample": "كُلُّ طَالِبٍ يَأْخُذُ زُهُورًا كَثِيرَةً."
+      "word": "daisy",
+      "definition": "A small white and yellow flower."
      }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "yunusEmre-pre-a1-quick-5",
+      "type": "drag-drop",
+      "title": "Flowers for the Teacher",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The students take a lot of flowers.",
+         "Yunus comes back very late."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Yunus has got a lot of flowers."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The students take a lot of flowers.",
+        "Yunus comes back very late."
+       ],
+       "False": [
+        "Yunus has got a lot of flowers."
+       ]
+      },
+      "explanation": "The answer is in Chapter 5.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: What do the students bring?",
+     "options": [
+      "flowers",
+      "wood",
+      "books"
+     ],
+     "answer": 0,
+     "quote": "Bring me beautiful flowers."
+    },
+    "iCan": [
+     "I can say: Yunus has got one daisy."
     ]
    },
    {
     "id": 6,
-    "type": "final-challenge",
-    "title": "التحدي النهائي",
-    "content": "أَجِبْ عَنِ الْأَسْئِلَةِ.",
-    "image": "",
+    "type": "story",
+    "title": "One Small Flower",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/yunus%2Fa2%2Fimages%2Fyunus_a2_ch7-clean.png?alt=media&token=a2b10e28-c657-4f96-a5a8-b70f6aedd6cd",
+    "content": "Yusuf opens his eyes wide. “Only one flower? Why?” he asks.\n\n“Taptuk Emre asks Yunus the same question,” Grandpa says. “Yunus says, ‘My teacher, all the flowers say the name of Allah. I can’t cut them. In the evening, this daisy says, “This is my last day. Take me, Yunus.” So, I take it.’ Taptuk Emre smiles. He knows Yunus’s heart. It is full of love.”\n\nYusuf looks at the old book. “Yunus has got a beautiful heart, Grandpa,” he says. “Yes, Yusuf,” Grandpa says. “A heart with love makes our life beautiful.” Then he reads another poem.",
+    "vocabulary": [],
+    "hotspots": [],
     "exercises": [
      {
-      "id": "yunusEmre-pre-a1-ar-final-1",
-      "type": "multiple-choice",
-      "title": "مَنْ حَسَنٌ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَنْ حَسَنٌ؟",
-      "options": [
-       "طَالِبٌ فِي بَيْتِ الدَّرَاوِيشِ",
-       "مَلِكُ مِصْرَ",
-       "مُعَلِّمٌ"
-      ],
-      "correctAnswer": 0,
-      "explanation": "الجواب: طالب في بيت الدراويش.",
-      "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
-      }
-     },
-     {
-      "id": "yunusEmre-pre-a1-ar-final-2",
-      "type": "multiple-choice",
-      "title": "مَا اسْمُ الْمُعَلِّمِ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَا اسْمُ الْمُعَلِّمِ؟",
-      "options": [
-       "تَابْتُوكْ إِمْرَهْ",
-       "يُونُسُ",
-       "حَسَنٌ"
-      ],
-      "correctAnswer": 0,
-      "explanation": "الجواب: تابتوك إمره.",
-      "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
-      }
-     },
-     {
-      "id": "yunusEmre-pre-a1-ar-final-3",
-      "type": "multiple-choice",
-      "title": "أَيُّ حَطَبٍ يَأْخُذُ يُونُسُ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "أَيُّ حَطَبٍ يَأْخُذُ يُونُسُ؟",
-      "options": [
-       "الْمُسْتَقِيمَ فَقَطْ",
-       "كُلَّ الْحَطَبِ",
-       "الْحَطَبَ الصَّغِيرَ"
-      ],
-      "correctAnswer": 0,
-      "explanation": "الجواب: المستقيم فقط.",
-      "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
-      }
-     },
-     {
-      "id": "yunusEmre-pre-a1-ar-final-4",
-      "type": "multiple-choice",
-      "title": "مَاذَا فِي شِعْرِ يُونُسَ؟",
-      "instructions": "اخْتَرِ الْجَوَابَ.",
-      "question": "مَاذَا فِي شِعْرِ يُونُسَ؟",
-      "options": [
-       "حُبُّ اللهِ وَحُبُّ النَّاسِ",
-       "الْبَحْرُ وَالسُّفُنُ",
-       "الْمَالُ"
-      ],
-      "correctAnswer": 0,
-      "explanation": "الجواب: حب الله وحب الناس.",
-      "feedback": {
-       "correct": "نَعَمْ!",
-       "incorrect": "اقْرَأِ الْقِصَّةَ مَرَّةً أُخْرَى."
-      }
-     },
-     {
-      "id": "yunusEmre-pre-a1-ar-final-words",
-      "type": "matching",
-      "title": "الْكَلِمَاتُ",
-      "instructions": "صِلِ الْكَلِمَةَ بِمَعْنَاهَا.",
-      "question": "مَا الْمَعْنَى؟",
-      "matchingHeadings": {
-       "left": "الْكَلِمَةُ",
-       "right": "الْمَعْنَى"
-      },
-      "matchingPairs": [
+      "id": "yunusEmre-pre-a1-quick-6",
+      "type": "drag-drop",
+      "title": "One Small Flower",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
        {
-        "left": "الدَّرَاوِيشِ",
-        "right": "الدَّرْوِيشُ: رَجُلٌ يُحِبُّ اللهَ كَثِيرًا."
+        "group": "True",
+        "items": [
+         "The daisy says, “This is my last day.”",
+         "Taptuk Emre smiles."
+        ]
        },
        {
-        "left": "الْجَبَلِ",
-        "right": "أَرْضٌ عَالِيَةٌ وَكَبِيرَةٌ."
-       },
-       {
-        "left": "زُهُورًا",
-        "right": "الزَّهْرَةُ: شَيْءٌ جَمِيلٌ، أَحْمَرُ أَوْ أَصْفَرُ."
-       },
-       {
-        "left": "حَطَبًا",
-        "right": "خَشَبٌ لِلنَّارِ."
+        "group": "False",
+        "items": [
+         "Yunus cuts all the flowers."
+        ]
        }
       ],
       "correctAnswer": {
-       "الدَّرَاوِيشِ": "الدَّرْوِيشُ: رَجُلٌ يُحِبُّ اللهَ كَثِيرًا.",
-       "الْجَبَلِ": "أَرْضٌ عَالِيَةٌ وَكَبِيرَةٌ.",
-       "زُهُورًا": "الزَّهْرَةُ: شَيْءٌ جَمِيلٌ، أَحْمَرُ أَوْ أَصْفَرُ.",
-       "حَطَبًا": "خَشَبٌ لِلنَّارِ."
+       "True": [
+        "The daisy says, “This is my last day.”",
+        "Taptuk Emre smiles."
+       ],
+       "False": [
+        "Yunus cuts all the flowers."
+       ]
       },
-      "explanation": "المعاني في ملاحظات الكلمات.",
+      "explanation": "The answer is in Chapter 6.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "انْظُرْ إِلَى الْمُعْجَمِ."
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: Why does Yunus take only one flower?",
+     "options": [
+      "The flowers say Allah’s name.",
+      "He is tired.",
+      "He doesn’t like flowers."
+     ],
+     "answer": 0,
+     "quote": "My teacher, all the flowers say the name of Allah."
+    },
+    "iCan": [
+     "I can say: Yunus’s heart is full of love."
+    ]
+   },
+   {
+    "id": 7,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "All the words of the story in one place.",
+    "image": "",
+    "vocabulary": [
+     {
+      "word": "poem",
+      "definition": "Words in short lines. Sometimes they sound like a song.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Poem in a Book",
+      "storyExample": "He reads a poem from it."
+     },
+     {
+      "word": "poet",
+      "definition": "A person who writes poems.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Poem in a Book",
+      "storyExample": "He is a very famous poet."
+     },
+     {
+      "word": "plants",
+      "definition": "Trees, flowers and grass.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Poem in a Book",
+      "storyExample": "Love for Allah, love for all people, animals and plants."
+     },
+     {
+      "word": "dervish",
+      "definition": "A person who learns to be close to Allah with a teacher.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "A Good Teacher",
+      "storyExample": "“Then he goes to a dervish house."
+     },
+     {
+      "word": "mountain",
+      "definition": "A very high hill.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "Straight Wood",
+      "storyExample": "“There is a mountain near the dervish house,”"
+     },
+     {
+      "word": "wood",
+      "definition": "The hard part of a tree.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "Straight Wood",
+      "storyExample": "He finds wood there."
+     },
+     {
+      "word": "straight",
+      "definition": "Not bent; like a line.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "Straight Wood",
+      "storyExample": "But Yunus only takes straight wood."
+     },
+     {
+      "word": "fields",
+      "definition": "Big open places with grass or flowers.",
+      "level": "Pre-A1",
+      "chapter": 5,
+      "chapterTitle": "Flowers for the Teacher",
+      "storyExample": "One day, Taptuk Emre says to his students, ‘Go to the fields."
+     },
+     {
+      "word": "daisy",
+      "definition": "A small white and yellow flower.",
+      "level": "Pre-A1",
+      "chapter": 5,
+      "chapterTitle": "Flowers for the Teacher",
+      "storyExample": "He has got only one small daisy in his hand."
+     }
+    ]
+   },
+   {
+    "id": 8,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "content": "Answer the questions.",
+    "image": "",
+    "exercises": [
+     {
+      "id": "yunusEmre-pre-a1-final-1",
+      "type": "multiple-choice",
+      "title": "Who tells Yusuf the story?",
+      "instructions": "Choose the answer.",
+      "question": "Who tells Yusuf the story?",
+      "options": [
+       "his grandpa",
+       "his dad",
+       "his mom"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: his grandpa.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
       }
      },
      {
-      "id": "yunusEmre-pre-a1-ar-final-order",
+      "id": "yunusEmre-pre-a1-final-2",
+      "type": "multiple-choice",
+      "title": "Where does Yunus live?",
+      "instructions": "Choose the answer.",
+      "question": "Where does Yunus live?",
+      "options": [
+       "in Anatolia",
+       "in Spain",
+       "in Egypt"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: in Anatolia.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "yunusEmre-pre-a1-final-3",
+      "type": "multiple-choice",
+      "title": "Who is Yunus’s teacher?",
+      "instructions": "Choose the answer.",
+      "question": "Who is Yunus’s teacher?",
+      "options": [
+       "Taptuk Emre",
+       "Abu Bakr",
+       "Saladin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: Taptuk Emre.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "yunusEmre-pre-a1-final-4",
+      "type": "multiple-choice",
+      "title": "What flower does Yunus bring?",
+      "instructions": "Choose the answer.",
+      "question": "What flower does Yunus bring?",
+      "options": [
+       "a daisy",
+       "a rose",
+       "a tulip"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: a daisy.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "yunusEmre-pre-a1-final-words",
+      "type": "matching",
+      "title": "Words",
+      "instructions": "Match the word and the meaning.",
+      "question": "What does it mean?",
+      "matchingHeadings": {
+       "left": "Word",
+       "right": "Meaning"
+      },
+      "matchingPairs": [
+       {
+        "left": "poem",
+        "right": "Words in short lines. Sometimes they sound like a song."
+       },
+       {
+        "left": "dervish",
+        "right": "A person who learns to be close to Allah with a teacher."
+       },
+       {
+        "left": "mountain",
+        "right": "A very high hill."
+       },
+       {
+        "left": "fields",
+        "right": "Big open places with grass or flowers."
+       }
+      ],
+      "correctAnswer": {
+       "poem": "Words in short lines. Sometimes they sound like a song.",
+       "dervish": "A person who learns to be close to Allah with a teacher.",
+       "mountain": "A very high hill.",
+       "fields": "Big open places with grass or flowers."
+      },
+      "explanation": "The meanings are in the Word Notes.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Look at the Master Glossary."
+      }
+     },
+     {
+      "id": "yunusEmre-pre-a1-final-order",
       "type": "sequencing",
-      "title": "الْقِصَّةُ",
-      "instructions": "رَتِّبِ الْقِصَّةَ.",
-      "question": "مَاذَا أَوَّلًا؟",
+      "title": "The Story",
+      "instructions": "Put the story in order.",
+      "question": "What happens first?",
       "sequencingItems": [
        {
         "id": "1",
-        "text": "يَدْخُلُ يُونُسُ بَيْتَ الدَّرَاوِيشِ."
+        "text": "Grandpa reads a poem by Yunus Emre."
        },
        {
         "id": "2",
-        "text": "يُونُسُ يَأْخُذُ الْحَطَبَ الْمُسْتَقِيمَ."
+        "text": "Yunus goes to a dervish house."
        },
        {
         "id": "3",
-        "text": "يُونُسُ يَأْخُذُ زَهْرَةً وَاحِدَةً."
+        "text": "Yunus carries straight wood from the mountain."
        },
        {
         "id": "4",
-        "text": "يُونُسُ يَكْتُبُ شِعْرًا جَمِيلًا."
+        "text": "Taptuk Emre asks Yunus about the wood."
+       },
+       {
+        "id": "5",
+        "text": "The students run to the fields."
+       },
+       {
+        "id": "6",
+        "text": "Yunus brings one small daisy."
        }
       ],
       "correctAnswer": [
        "1",
        "2",
        "3",
-       "4"
+       "4",
+       "5",
+       "6"
       ],
-      "explanation": "ترتيب الفصول.",
+      "explanation": "This is the order of the chapters.",
       "feedback": {
-       "correct": "أَحْسَنْتَ!",
-       "incorrect": "انْظُرْ إِلَى الْفُصُولِ مَرَّةً أُخْرَى."
+       "correct": "Well done!",
+       "incorrect": "Look at the chapters again."
       }
      }
     ]

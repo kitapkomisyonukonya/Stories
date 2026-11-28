@@ -1,0 +1,739 @@
+{
+ "schema": 1,
+ "storyId": "musa",
+ "level": "Pre-A1",
+ "language": "en",
+ "collection": "prophets",
+ "book": {
+  "id": "musa-pre-a1",
+  "title": "Prophet Moses (pbuh)",
+  "level": "Pre-A1",
+  "baseFontSize": 13,
+  "pages": [
+   {
+    "id": 1,
+    "type": "story",
+    "title": "A Baby on the River",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter3.png?alt=media",
+    "content": "It is a sunny Saturday. Yusuf and Grandpa are at the river. They sit under a big tree. A small boat goes down the river. “Look, Grandpa! A boat!” Yusuf says. Grandpa smiles. “A long time ago, a baby goes down a river, too. His name is Moses. Do you want to hear his story?” “Yes, please!” Yusuf says.\n\n“Moses lives in Egypt,” Grandpa says. “The king of Egypt is Pharaoh. He is not a kind king. He says, ‘I am your god.’ There is a group of people in Egypt. They love Allah. Pharaoh does not like them. He takes their baby boys. Moses’s mother has got a baby boy, too. She is afraid. Allah tells her, ‘Put him in a basket. Do not be afraid. We will bring him back to you.’ She puts the basket on the River Nile. She tells Moses’s sister, ‘Follow the basket!’”",
+    "vocabulary": [
+     {
+      "word": "king",
+      "definition": "The man at the top of a country."
+     },
+     {
+      "word": "basket",
+      "definition": "A box of thin wood or grass. You can carry things in it."
+     }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "musa-pre-a1-quick-1",
+      "type": "drag-drop",
+      "title": "A Baby on the River",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Pharaoh is the king of Egypt.",
+         "Moses’s mother puts the basket on the River Nile."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Pharaoh is a kind king."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Pharaoh is the king of Egypt.",
+        "Moses’s mother puts the basket on the River Nile."
+       ],
+       "False": [
+        "Pharaoh is a kind king."
+       ]
+      },
+      "explanation": "The answer is in Chapter 1.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: Where is the baby?",
+     "options": [
+      "in a basket",
+      "in a palace",
+      "in a tent"
+     ],
+     "answer": 0,
+     "quote": "Allah tells her, ‘Put him in a basket."
+    },
+    "iCan": [
+     "I can say: Moses lives in Egypt."
+    ]
+   },
+   {
+    "id": 2,
+    "type": "story",
+    "title": "Back to His Mother",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter5.png?alt=media",
+    "content": "Yusuf looks at the river. “Where does the basket go, Grandpa?” he asks.\n\n“The water takes it to Pharaoh’s palace,” Grandpa says. “Pharaoh’s wife, Asiya, sees the baby. She is a good woman. She loves the baby. ‘Do not hurt him. He can be our son,’ she says. But the baby is hungry, and he doesn’t drink milk from any woman. Then Moses’s sister comes to the palace. She says, ‘I know a good woman.’ She brings her own mother! Now, baby Moses is with his mother again. She is very happy.”",
+    "vocabulary": [
+     {
+      "word": "palace",
+      "definition": "The very big house of a king."
+     }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "musa-pre-a1-quick-2",
+      "type": "drag-drop",
+      "title": "Back to His Mother",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Asiya loves the baby.",
+         "Moses’s sister brings her mother."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The baby drinks milk from every woman."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Asiya loves the baby.",
+        "Moses’s sister brings her mother."
+       ],
+       "False": [
+        "The baby drinks milk from every woman."
+       ]
+      },
+      "explanation": "The answer is in Chapter 2.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: Who sees the baby?",
+     "options": [
+      "Asiya",
+      "Pharaoh",
+      "Aaron"
+     ],
+     "answer": 0,
+     "quote": "Pharaoh’s wife, Asiya, sees the baby."
+    },
+    "iCan": [
+     "I can say: Moses is with his mother again."
+    ]
+   },
+   {
+    "id": 3,
+    "type": "story",
+    "title": "Two Sisters at the Well",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter8.png?alt=media",
+    "content": "“Does Moses live in the palace, Grandpa?” Yusuf asks.\n\n“Yes, he does,” Grandpa says. “He is a big, strong man now. He always helps people. One day, Moses sees two men. One man is not kind. Moses wants to help the good man. He hits the bad man one time. The man falls down and dies. Moses does not want this! He is very sad and prays to Allah. But Pharaoh’s men want to catch him. So, he leaves Egypt. He walks for many days. He comes to a well. There are two sisters there with their sheep. They can’t give water to their sheep. Moses helps them. Their father is very happy. Later, one of the sisters is his wife. They live there for ten years.”",
+    "vocabulary": [
+     {
+      "word": "strong",
+      "definition": "He can carry heavy things."
+     },
+     {
+      "word": "falls down",
+      "definition": "Goes down to the ground."
+     },
+     {
+      "word": "well",
+      "definition": "A deep hole in the ground with water in it."
+     }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "musa-pre-a1-quick-3",
+      "type": "drag-drop",
+      "title": "Two Sisters at the Well",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Moses is a big, strong man.",
+         "Moses leaves Egypt."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Moses wants the man to die."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Moses is a big, strong man.",
+        "Moses leaves Egypt."
+       ],
+       "False": [
+        "Moses wants the man to die."
+       ]
+      },
+      "explanation": "The answer is in Chapter 3.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: Who does Moses help?",
+     "options": [
+      "two sisters",
+      "two kings",
+      "two magicians"
+     ],
+     "answer": 0,
+     "quote": "Moses helps them."
+    },
+    "iCan": [
+     "I can say: Moses helps the two sisters."
+    ]
+   },
+   {
+    "id": 4,
+    "type": "story",
+    "title": "A Fire on the Mountain",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter10.png?alt=media",
+    "content": "Yusuf throws a small stone into the river. “Then what happens?” he asks.\n\n“Moses and his family go back to Egypt,” Grandpa says. “It is a cold, dark night. Moses sees a fire on a mountain. He goes up the mountain. There, he hears a voice: ‘O Moses, I am Allah.’ Moses has got a stick in his hand. Allah tells him, ‘Throw it down, O Moses.’ Moses throws his stick down. It is a big snake now! Moses is afraid. Then the snake is a stick again. Allah makes Moses His Messenger. He sends Moses to Pharaoh because Pharaoh is not fair and does not know Allah. Moses’s brother, Aaron, goes with him.”",
+    "vocabulary": [
+     {
+      "word": "fire",
+      "definition": "Something very hot, red and yellow."
+     },
+     {
+      "word": "mountain",
+      "definition": "A very high hill."
+     },
+     {
+      "word": "voice",
+      "definition": "The sound of a person when they talk."
+     },
+     {
+      "word": "stick",
+      "definition": "A long, thin piece of wood."
+     },
+     {
+      "word": "messenger",
+      "definition": "A person who brings Allah’s words to people."
+     },
+     {
+      "word": "fair",
+      "definition": "Good and right for everybody."
+     }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "musa-pre-a1-quick-4",
+      "type": "drag-drop",
+      "title": "A Fire on the Mountain",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Moses’s stick is a big snake now.",
+         "Aaron goes with Moses."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Moses is not afraid of the snake."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Moses’s stick is a big snake now.",
+        "Aaron goes with Moses."
+       ],
+       "False": [
+        "Moses is not afraid of the snake."
+       ]
+      },
+      "explanation": "The answer is in Chapter 4.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: What does Moses see on the mountain?",
+     "options": [
+      "a fire",
+      "a ship",
+      "a palace"
+     ],
+     "answer": 0,
+     "quote": "Moses sees a fire on a mountain."
+    },
+    "iCan": [
+     "I can say: Allah makes Moses His Messenger."
+    ]
+   },
+   {
+    "id": 5,
+    "type": "story",
+    "title": "The Magicians",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter12.png?alt=media",
+    "content": "“Is Pharaoh angry?” Yusuf asks.\n\n“Yes, he is,” Grandpa says. “Moses and Aaron go to the palace. Moses says, ‘I am a Messenger of Allah.’ Pharaoh does not listen to him. Pharaoh says, ‘Show me a sign!’ Moses puts his stick on the floor, and it is a big snake! Pharaoh thinks it is magic. He calls his magicians. The magicians say, ‘Watch us!’ The magicians put sticks on the floor. They look like snakes! Then Moses puts his stick on the floor. It is a very big snake. It eats all the magicians’ snakes! The magicians see it is real. They believe in Allah. But Pharaoh doesn’t believe. Now, Pharaoh is very angry with Moses and his people.”",
+    "vocabulary": [
+     {
+      "word": "magic",
+      "definition": "Tricks. They are not real."
+     }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "musa-pre-a1-quick-5",
+      "type": "drag-drop",
+      "title": "The Magicians",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Moses’s snake eats the magicians’ snakes.",
+         "The magicians believe in Allah."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Pharaoh believes in Allah."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Moses’s snake eats the magicians’ snakes.",
+        "The magicians believe in Allah."
+       ],
+       "False": [
+        "Pharaoh believes in Allah."
+       ]
+      },
+      "explanation": "The answer is in Chapter 5.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: Who does Pharaoh call?",
+     "options": [
+      "his magicians",
+      "his sons",
+      "his friends"
+     ],
+     "answer": 0,
+     "quote": "He calls his magicians."
+    },
+    "iCan": [
+     "I can say: The magicians believe in Allah."
+    ]
+   },
+   {
+    "id": 6,
+    "type": "story",
+    "title": "The Sea Opens",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/Moses%2Fa2%2Fimages%2Fmoses_a2_chapter15.png?alt=media",
+    "content": "Yusuf holds Grandpa’s hand. “Is Moses safe, Grandpa?” he asks.\n\n“One night, Moses and his people leave Egypt,” Grandpa says. “In the morning, they come to the sea. Pharaoh and his men are behind them! The people are very afraid. But Moses says, ‘My Lord is with me.’ Allah tells Moses, ‘Hit the sea with your stick.’ Moses hits the sea, and the sea opens! There is a road in the sea. Moses and his people walk to the other side. Then the water comes back over Pharaoh and his men.”\n\nYusuf smiles. “Allah always helps good people!” he says.\n\n“Yes, Yusuf,” Grandpa says. “Allah is always with good people.” They walk home along the river.",
+    "vocabulary": [
+     {
+      "word": "sea",
+      "definition": "A very big area of salt water."
+     }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "musa-pre-a1-quick-6",
+      "type": "drag-drop",
+      "title": "The Sea Opens",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Moses and his people walk to the other side.",
+         "The water comes back over Pharaoh."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Moses is afraid at the sea."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Moses and his people walk to the other side.",
+        "The water comes back over Pharaoh."
+       ],
+       "False": [
+        "Moses is afraid at the sea."
+       ]
+      },
+      "explanation": "The answer is in Chapter 6.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: What opens?",
+     "options": [
+      "the sea",
+      "the palace",
+      "the mountain"
+     ],
+     "answer": 0,
+     "quote": "Moses hits the sea, and the sea opens!"
+    },
+    "iCan": [
+     "I can say: Allah helps Moses at the sea."
+    ]
+   },
+   {
+    "id": 7,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "All the words of the story in one place.",
+    "image": "",
+    "vocabulary": [
+     {
+      "word": "king",
+      "definition": "The man at the top of a country.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Baby on the River",
+      "storyExample": "“The king of Egypt is Pharaoh."
+     },
+     {
+      "word": "basket",
+      "definition": "A box of thin wood or grass. You can carry things in it.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Baby on the River",
+      "storyExample": "Allah tells her, ‘Put him in a basket."
+     },
+     {
+      "word": "palace",
+      "definition": "The very big house of a king.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "Back to His Mother",
+      "storyExample": "“The water takes it to Pharaoh’s palace,”"
+     },
+     {
+      "word": "strong",
+      "definition": "He can carry heavy things.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "Two Sisters at the Well",
+      "storyExample": "“He is a big, strong man now."
+     },
+     {
+      "word": "falls down",
+      "definition": "Goes down to the ground.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "Two Sisters at the Well",
+      "storyExample": "The man falls down and dies."
+     },
+     {
+      "word": "well",
+      "definition": "A deep hole in the ground with water in it.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "Two Sisters at the Well",
+      "storyExample": "He comes to a well."
+     },
+     {
+      "word": "fire",
+      "definition": "Something very hot, red and yellow.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "A Fire on the Mountain",
+      "storyExample": "Moses sees a fire on a mountain."
+     },
+     {
+      "word": "mountain",
+      "definition": "A very high hill.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "A Fire on the Mountain",
+      "storyExample": "Moses sees a fire on a mountain."
+     },
+     {
+      "word": "voice",
+      "definition": "The sound of a person when they talk.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "A Fire on the Mountain",
+      "storyExample": "There, he hears a voice: ‘O Moses, I am Allah.’"
+     },
+     {
+      "word": "stick",
+      "definition": "A long, thin piece of wood.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "A Fire on the Mountain",
+      "storyExample": "Moses has got a stick in his hand."
+     },
+     {
+      "word": "messenger",
+      "definition": "A person who brings Allah’s words to people.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "A Fire on the Mountain",
+      "storyExample": "Allah makes Moses His Messenger."
+     },
+     {
+      "word": "fair",
+      "definition": "Good and right for everybody.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "A Fire on the Mountain",
+      "storyExample": "He sends Moses to Pharaoh because Pharaoh is not fair and does not know Allah."
+     },
+     {
+      "word": "magic",
+      "definition": "Tricks. They are not real.",
+      "level": "Pre-A1",
+      "chapter": 5,
+      "chapterTitle": "The Magicians",
+      "storyExample": "Pharaoh thinks it is magic."
+     },
+     {
+      "word": "sea",
+      "definition": "A very big area of salt water.",
+      "level": "Pre-A1",
+      "chapter": 6,
+      "chapterTitle": "The Sea Opens",
+      "storyExample": "“In the morning, they come to the sea."
+     }
+    ]
+   },
+   {
+    "id": 8,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "content": "Answer the questions.",
+    "image": "",
+    "exercises": [
+     {
+      "id": "musa-pre-a1-final-1",
+      "type": "multiple-choice",
+      "title": "Who tells Yusuf the story?",
+      "instructions": "Choose the answer.",
+      "question": "Who tells Yusuf the story?",
+      "options": [
+       "his grandpa",
+       "his dad",
+       "his mom"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: his grandpa.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "musa-pre-a1-final-2",
+      "type": "multiple-choice",
+      "title": "Who is the king of Egypt?",
+      "instructions": "Choose the answer.",
+      "question": "Who is the king of Egypt?",
+      "options": [
+       "Pharaoh",
+       "Moses",
+       "Aaron"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: Pharaoh.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "musa-pre-a1-final-3",
+      "type": "multiple-choice",
+      "title": "What is Moses’s stick on the floor?",
+      "instructions": "Choose the answer.",
+      "question": "What is Moses’s stick on the floor?",
+      "options": [
+       "a big snake",
+       "a big fire",
+       "a big stone"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: a big snake.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "musa-pre-a1-final-4",
+      "type": "multiple-choice",
+      "title": "Who is Moses’s brother?",
+      "instructions": "Choose the answer.",
+      "question": "Who is Moses’s brother?",
+      "options": [
+       "Aaron",
+       "Pharaoh",
+       "Ishmael"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: Aaron.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "musa-pre-a1-final-words",
+      "type": "matching",
+      "title": "Words",
+      "instructions": "Match the word and the meaning.",
+      "question": "What does it mean?",
+      "matchingHeadings": {
+       "left": "Word",
+       "right": "Meaning"
+      },
+      "matchingPairs": [
+       {
+        "left": "king",
+        "right": "The man at the top of a country."
+       },
+       {
+        "left": "palace",
+        "right": "The very big house of a king."
+       },
+       {
+        "left": "strong",
+        "right": "He can carry heavy things."
+       },
+       {
+        "left": "fire",
+        "right": "Something very hot, red and yellow."
+       }
+      ],
+      "correctAnswer": {
+       "king": "The man at the top of a country.",
+       "palace": "The very big house of a king.",
+       "strong": "He can carry heavy things.",
+       "fire": "Something very hot, red and yellow."
+      },
+      "explanation": "The meanings are in the Word Notes.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Look at the Master Glossary."
+      }
+     },
+     {
+      "id": "musa-pre-a1-final-order",
+      "type": "sequencing",
+      "title": "The Story",
+      "instructions": "Put the story in order.",
+      "question": "What happens first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Moses’s mother puts Moses in a basket."
+       },
+       {
+        "id": "2",
+        "text": "Asiya sees baby Moses."
+       },
+       {
+        "id": "3",
+        "text": "Moses helps two sisters at a well."
+       },
+       {
+        "id": "4",
+        "text": "Moses hears a voice on the mountain."
+       },
+       {
+        "id": "5",
+        "text": "Moses’s snake eats the magicians’ snakes."
+       },
+       {
+        "id": "6",
+        "text": "Moses and his people walk through the sea."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6"
+      ],
+      "explanation": "This is the order of the chapters.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Look at the chapters again."
+      }
+     }
+    ]
+   }
+  ],
+  "teacherGuide": [],
+  "selfStudyGuide": []
+ }
+}

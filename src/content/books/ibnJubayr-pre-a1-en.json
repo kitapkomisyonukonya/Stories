@@ -1,0 +1,690 @@
+{
+ "schema": 1,
+ "storyId": "ibnJubayr",
+ "level": "Pre-A1",
+ "language": "en",
+ "collection": "history",
+ "book": {
+  "id": "ibnJubayr-pre-a1",
+  "title": "Ibn Jubayr",
+  "level": "Pre-A1",
+  "baseFontSize": 13,
+  "pages": [
+   {
+    "id": 1,
+    "type": "story",
+    "title": "A Big Dream",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch2.jpeg?alt=media",
+    "content": "It is Sunday morning. Yusuf and Grandpa are at the table in the kitchen. There is a big map on it. “Grandpa, where is Spain?” Yusuf asks. Grandpa shows him. “A long time ago, a man from Spain goes on a very long trip. His name is Ibn Jubayr. Do you want to hear his story?” “Yes, please!” Yusuf says.\n\n“Ibn Jubayr lives in Granada,” Grandpa says. “It is a beautiful city in Spain. Muslims live there. Ibn Jubayr has got a big dream. He wants to go on Hajj. He wants to see Mecca and the Ka’ba. He wants to see new cities, too. One day, he takes a small diary. ‘I can write about my trip every day,’ he says.”",
+    "vocabulary": [
+     {
+      "word": "map",
+      "definition": "A picture of countries, cities and seas."
+     },
+     {
+      "word": "trip",
+      "definition": "Going from one place to another place."
+     },
+     {
+      "word": "diary",
+      "definition": "A small book. You write about your day in it."
+     }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "ibnJubayr-pre-a1-quick-1",
+      "type": "drag-drop",
+      "title": "A Big Dream",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Ibn Jubayr lives in Granada.",
+         "Ibn Jubayr wants to go on Hajj."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Granada is in Egypt."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Ibn Jubayr lives in Granada.",
+        "Ibn Jubayr wants to go on Hajj."
+       ],
+       "False": [
+        "Granada is in Egypt."
+       ]
+      },
+      "explanation": "The answer is in Chapter 1.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: What is on the table?",
+     "options": [
+      "a big map",
+      "a big ship",
+      "a big diary"
+     ],
+     "answer": 0,
+     "quote": "There is a big map on it."
+    },
+    "iCan": [
+     "I can say: Ibn Jubayr writes in a diary."
+    ]
+   },
+   {
+    "id": 2,
+    "type": "story",
+    "title": "A Storm at Sea",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch4.jpeg?alt=media",
+    "content": "Yusuf looks at the map. “How does he go, Grandpa? By plane?” he asks.\n\nGrandpa laughs. “No, Yusuf! There are no planes. He goes by ship,” he says. “The ship is on the sea for many days. One night, there is a big storm. The wind is very strong. The water is very high. The people on the ship are afraid. They pray to Allah. In the morning, the sea is quiet again. Everybody is safe. Ibn Jubayr writes about the storm in his diary.”",
+    "vocabulary": [
+     {
+      "word": "ship",
+      "definition": "A very big boat."
+     },
+     {
+      "word": "storm",
+      "definition": "Very bad weather with strong wind and rain."
+     }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "ibnJubayr-pre-a1-quick-2",
+      "type": "drag-drop",
+      "title": "A Storm at Sea",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "There is a big storm.",
+         "The people on the ship pray to Allah."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "There are planes."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "There is a big storm.",
+        "The people on the ship pray to Allah."
+       ],
+       "False": [
+        "There are planes."
+       ]
+      },
+      "explanation": "The answer is in Chapter 2.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: How does Ibn Jubayr go?",
+     "options": [
+      "by ship",
+      "by plane",
+      "by car"
+     ],
+     "answer": 0,
+     "quote": "He goes by ship,"
+    },
+    "iCan": [
+     "I can say: Ibn Jubayr goes by ship."
+    ]
+   },
+   {
+    "id": 3,
+    "type": "story",
+    "title": "A Free Hospital",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch5.jpeg?alt=media",
+    "content": "“Where does the ship go, Grandpa?” Yusuf asks.\n\n“To Egypt,” Grandpa says. “Ibn Jubayr sees a very tall lighthouse there. Then he goes to Cairo. Cairo is a very big city. The sultan there is Saladin. He is a kind and fair man. There is a big hospital in Cairo. It is free for everybody. Every day, Saladin gives bread to poor people, too. Ibn Jubayr writes all this in his diary.”",
+    "vocabulary": [
+     {
+      "word": "lighthouse",
+      "definition": "A tall tower with a light. It helps ships at night."
+     },
+     {
+      "word": "hospital",
+      "definition": "A place for sick people. Doctors work there."
+     },
+     {
+      "word": "free",
+      "definition": "You do not pay money for it."
+     }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "ibnJubayr-pre-a1-quick-3",
+      "type": "drag-drop",
+      "title": "A Free Hospital",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Saladin is a kind and fair man.",
+         "Cairo is a very big city."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The hospital is only for rich people."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Saladin is a kind and fair man.",
+        "Cairo is a very big city."
+       ],
+       "False": [
+        "The hospital is only for rich people."
+       ]
+      },
+      "explanation": "The answer is in Chapter 3.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: What is free for everybody?",
+     "options": [
+      "the hospital",
+      "the ship",
+      "the diary"
+     ],
+     "answer": 0,
+     "quote": "It is free for everybody."
+    },
+    "iCan": [
+     "I can say: The hospital in Cairo is free."
+    ]
+   },
+   {
+    "id": 4,
+    "type": "story",
+    "title": "Eight Months in Mecca",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch7.jpeg?alt=media",
+    "content": "Yusuf puts his finger on the map. “And then Mecca?” he asks.\n\n“Yes!” Grandpa says. “Ibn Jubayr goes across the desert with many camels. The sun is very hot. There is not much water. The trip is very hard. Then he goes across the Red Sea by ship. At last, he comes to Mecca. He sees the Ka’ba. He is very happy. People from many countries are there. Ibn Jubayr makes the Hajj. He stays in Mecca for eight months! He writes, ‘Mecca is small, but there is a place for everybody.’”",
+    "vocabulary": [
+     {
+      "word": "desert",
+      "definition": "A very hot, dry place with sand."
+     }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "ibnJubayr-pre-a1-quick-4",
+      "type": "drag-drop",
+      "title": "Eight Months in Mecca",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "The trip across the desert is very hard.",
+         "People from many countries are in Mecca."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "There is a lot of water in the desert."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "The trip across the desert is very hard.",
+        "People from many countries are in Mecca."
+       ],
+       "False": [
+        "There is a lot of water in the desert."
+       ]
+      },
+      "explanation": "The answer is in Chapter 4.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: How long is Ibn Jubayr in Mecca?",
+     "options": [
+      "eight months",
+      "eight days",
+      "eight years"
+     ],
+     "answer": 0,
+     "quote": "He stays in Mecca for eight months!"
+    },
+    "iCan": [
+     "I can say: Ibn Jubayr sees the Ka’ba."
+    ]
+   },
+   {
+    "id": 5,
+    "type": "story",
+    "title": "Big Cities",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch9.jpeg?alt=media",
+    "content": "“Does he go home now, Grandpa?” Yusuf asks.\n\n“Not yet,” Grandpa says. “He goes to Medina. Then he goes to Baghdad. Baghdad is a very big city. It has got many mosques and baths. Then he goes to Damascus. He sees the Great Mosque there. It has got beautiful walls and doors. Ibn Jubayr likes this city very much. His diary is full now.”",
+    "vocabulary": [
+     {
+      "word": "mosques",
+      "definition": "Places where Muslims pray."
+     }
+    ],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "ibnJubayr-pre-a1-quick-5",
+      "type": "drag-drop",
+      "title": "Big Cities",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "Ibn Jubayr goes to Baghdad.",
+         "Ibn Jubayr likes Damascus very much."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "Ibn Jubayr goes home after Mecca."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "Ibn Jubayr goes to Baghdad.",
+        "Ibn Jubayr likes Damascus very much."
+       ],
+       "False": [
+        "Ibn Jubayr goes home after Mecca."
+       ]
+      },
+      "explanation": "The answer is in Chapter 5.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: Which city has got the Great Mosque?",
+     "options": [
+      "Damascus",
+      "Granada",
+      "Cairo"
+     ],
+     "answer": 0,
+     "quote": "He sees the Great Mosque there."
+    },
+    "iCan": [
+     "I can say: Ibn Jubayr goes to big cities."
+    ]
+   },
+   {
+    "id": 6,
+    "type": "story",
+    "title": "Home Again",
+    "image": "https://firebasestorage.googleapis.com/v0/b/gen-lang-client-0373200489.firebasestorage.app/o/andulus%2Fa2%2Fimages%2Fandulus_a2_ch11.jpeg?alt=media",
+    "content": "Yusuf looks at Grandpa. “Is the trip back easy, Grandpa?” he asks.\n\n“No, it isn’t,” Grandpa says. “Ibn Jubayr gets on a ship again. There are big storms again. The ship stops near an island. It can’t move! But people on the island come and help them. At last, Ibn Jubayr comes home to Spain. He thanks Allah. His trip is more than two years long. Then he writes a book from his diary. People read his book today, too.”\n\nYusuf runs to his room. He comes back with a small notebook. “Grandpa, I want a diary, too!” he says. Grandpa laughs. “Then let’s write about today, Yusuf!”",
+    "vocabulary": [],
+    "hotspots": [],
+    "exercises": [
+     {
+      "id": "ibnJubayr-pre-a1-quick-6",
+      "type": "drag-drop",
+      "title": "Home Again",
+      "instructions": "True or false?",
+      "question": "Read. Put each sentence in place.",
+      "dragDropGroups": [
+       {
+        "group": "True",
+        "items": [
+         "People on the island help them.",
+         "Ibn Jubayr writes a book."
+        ]
+       },
+       {
+        "group": "False",
+        "items": [
+         "The trip is one month long."
+        ]
+       }
+      ],
+      "correctAnswer": {
+       "True": [
+        "People on the island help them.",
+        "Ibn Jubayr writes a book."
+       ],
+       "False": [
+        "The trip is one month long."
+       ]
+      },
+      "explanation": "The answer is in Chapter 6.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Read the chapter again."
+      }
+     }
+    ],
+    "languageFocusExercises": [],
+    "beforeYouRead": {
+     "kind": "guess",
+     "question": "Guess: Is the trip back easy?",
+     "options": [
+      "No, it isn’t.",
+      "Yes, it is.",
+      "There is no trip back."
+     ],
+     "answer": 0,
+     "quote": "“No, it isn’t,” Grandpa says."
+    },
+    "iCan": [
+     "I can say: People read his book today."
+    ]
+   },
+   {
+    "id": 7,
+    "type": "glossary",
+    "title": "Master Glossary",
+    "content": "All the words of the story in one place.",
+    "image": "",
+    "vocabulary": [
+     {
+      "word": "map",
+      "definition": "A picture of countries, cities and seas.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Big Dream",
+      "storyExample": "There is a big map on it."
+     },
+     {
+      "word": "trip",
+      "definition": "Going from one place to another place.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Big Dream",
+      "storyExample": "“A long time ago, a man from Spain goes on a very long trip."
+     },
+     {
+      "word": "diary",
+      "definition": "A small book. You write about your day in it.",
+      "level": "Pre-A1",
+      "chapter": 1,
+      "chapterTitle": "A Big Dream",
+      "storyExample": "One day, he takes a small diary."
+     },
+     {
+      "word": "ship",
+      "definition": "A very big boat.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "A Storm at Sea",
+      "storyExample": "He goes by ship,” he says."
+     },
+     {
+      "word": "storm",
+      "definition": "Very bad weather with strong wind and rain.",
+      "level": "Pre-A1",
+      "chapter": 2,
+      "chapterTitle": "A Storm at Sea",
+      "storyExample": "One night, there is a big storm."
+     },
+     {
+      "word": "lighthouse",
+      "definition": "A tall tower with a light. It helps ships at night.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "A Free Hospital",
+      "storyExample": "“Ibn Jubayr sees a very tall lighthouse there."
+     },
+     {
+      "word": "hospital",
+      "definition": "A place for sick people. Doctors work there.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "A Free Hospital",
+      "storyExample": "There is a big hospital in Cairo."
+     },
+     {
+      "word": "free",
+      "definition": "You do not pay money for it.",
+      "level": "Pre-A1",
+      "chapter": 3,
+      "chapterTitle": "A Free Hospital",
+      "storyExample": "It is free for everybody."
+     },
+     {
+      "word": "desert",
+      "definition": "A very hot, dry place with sand.",
+      "level": "Pre-A1",
+      "chapter": 4,
+      "chapterTitle": "Eight Months in Mecca",
+      "storyExample": "“Ibn Jubayr goes across the desert with many camels."
+     },
+     {
+      "word": "mosques",
+      "definition": "Places where Muslims pray.",
+      "level": "Pre-A1",
+      "chapter": 5,
+      "chapterTitle": "Big Cities",
+      "storyExample": "It has got many mosques and baths."
+     }
+    ]
+   },
+   {
+    "id": 8,
+    "type": "final-challenge",
+    "title": "Final Challenge",
+    "content": "Answer the questions.",
+    "image": "",
+    "exercises": [
+     {
+      "id": "ibnJubayr-pre-a1-final-1",
+      "type": "multiple-choice",
+      "title": "Who tells Yusuf the story?",
+      "instructions": "Choose the answer.",
+      "question": "Who tells Yusuf the story?",
+      "options": [
+       "his grandpa",
+       "his dad",
+       "his mom"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: his grandpa.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "ibnJubayr-pre-a1-final-2",
+      "type": "multiple-choice",
+      "title": "Where is Ibn Jubayr from?",
+      "instructions": "Choose the answer.",
+      "question": "Where is Ibn Jubayr from?",
+      "options": [
+       "Spain",
+       "Egypt",
+       "Babylon"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: Spain.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "ibnJubayr-pre-a1-final-3",
+      "type": "multiple-choice",
+      "title": "Who is the sultan in Cairo?",
+      "instructions": "Choose the answer.",
+      "question": "Who is the sultan in Cairo?",
+      "options": [
+       "Saladin",
+       "Umayya",
+       "Pharaoh"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: Saladin.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "ibnJubayr-pre-a1-final-4",
+      "type": "multiple-choice",
+      "title": "What does Yusuf want?",
+      "instructions": "Choose the answer.",
+      "question": "What does Yusuf want?",
+      "options": [
+       "a diary",
+       "a ship",
+       "a map"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The answer: a diary.",
+      "feedback": {
+       "correct": "Yes!",
+       "incorrect": "Read the story again."
+      }
+     },
+     {
+      "id": "ibnJubayr-pre-a1-final-words",
+      "type": "matching",
+      "title": "Words",
+      "instructions": "Match the word and the meaning.",
+      "question": "What does it mean?",
+      "matchingHeadings": {
+       "left": "Word",
+       "right": "Meaning"
+      },
+      "matchingPairs": [
+       {
+        "left": "map",
+        "right": "A picture of countries, cities and seas."
+       },
+       {
+        "left": "ship",
+        "right": "A very big boat."
+       },
+       {
+        "left": "lighthouse",
+        "right": "A tall tower with a light. It helps ships at night."
+       },
+       {
+        "left": "desert",
+        "right": "A very hot, dry place with sand."
+       }
+      ],
+      "correctAnswer": {
+       "map": "A picture of countries, cities and seas.",
+       "ship": "A very big boat.",
+       "lighthouse": "A tall tower with a light. It helps ships at night.",
+       "desert": "A very hot, dry place with sand."
+      },
+      "explanation": "The meanings are in the Word Notes.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Look at the Master Glossary."
+      }
+     },
+     {
+      "id": "ibnJubayr-pre-a1-final-order",
+      "type": "sequencing",
+      "title": "The Story",
+      "instructions": "Put the story in order.",
+      "question": "What happens first?",
+      "sequencingItems": [
+       {
+        "id": "1",
+        "text": "Ibn Jubayr takes a small diary."
+       },
+       {
+        "id": "2",
+        "text": "There is a big storm at sea."
+       },
+       {
+        "id": "3",
+        "text": "Ibn Jubayr sees a free hospital in Cairo."
+       },
+       {
+        "id": "4",
+        "text": "Ibn Jubayr makes the Hajj in Mecca."
+       },
+       {
+        "id": "5",
+        "text": "Ibn Jubayr sees the Great Mosque in Damascus."
+       },
+       {
+        "id": "6",
+        "text": "Ibn Jubayr comes home to Spain."
+       }
+      ],
+      "correctAnswer": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6"
+      ],
+      "explanation": "This is the order of the chapters.",
+      "feedback": {
+       "correct": "Well done!",
+       "incorrect": "Look at the chapters again."
+      }
+     }
+    ]
+   }
+  ],
+  "teacherGuide": [],
+  "selfStudyGuide": []
+ }
+}
